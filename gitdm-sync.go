@@ -198,7 +198,7 @@ func processRepo() {
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
 	fmt.Printf("git status\n")
-	status := execCommand([]string{"git", "status"}, nil, 2)
+	status := execCommand([]string{"git", "status"}, nil, 1)
 	if strings.Contains(status, "nothing to commit, working tree clean") {
 		fmt.Printf("Profile YAML files don't need updates\n")
 		return
@@ -215,7 +215,7 @@ func processRepo() {
 			"git",
 			"commit",
 			"-asm",
-			fmt.Sprintf("gitdm-sync @ %s", time.Now().Format("2006-01-02 15:04:05")),
+			fmt.Sprintf("%s gitdm-sync @ %s", os.Getenv("GITDM_GITHUB_USER"), time.Now().Format("2006-01-02 15:04:05")),
 		},
 		nil,
 		1,
