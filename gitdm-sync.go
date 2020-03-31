@@ -198,7 +198,11 @@ func processRepo() {
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
 	fmt.Printf("git status\n")
-	execCommand([]string{"git", "status"}, nil, 2)
+	status := execCommand([]string{"git", "status"}, nil, 2)
+	if strings.Contains(status, "nothing to commit, working tree clean") {
+		fmt.Printf("Profile YAML files don't need updates\n")
+		return
+	}
 	fmt.Printf("git add .\n")
 	execCommand([]string{"git", "add", "."}, nil, 1)
 	fmt.Printf("git config user.name\n")
