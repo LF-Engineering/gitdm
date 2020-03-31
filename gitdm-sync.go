@@ -160,17 +160,29 @@ func processRepo() {
 			currSize += profSize
 		}
 	}
-	if from != len(profs)-1 {
+  if from != len(profs)-1 {
 		ranges = append(ranges, [2]int{from, len(profs)})
-	}
-	fmt.Printf("maxSize: %d\n", maxSize)
-	for i, rng := range ranges {
+  }
+  for i, rng := range ranges {
 		var all allArrayOutput
-		all.Profiles = profs[rng[0]:rng[1]]
-		data, err := yaml.Marshal(&all)
-		fatalOnError(err)
-		fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644))
-	}
+    all.Profiles = profs[rng[0]:rng[1]]
+    data, err := yaml.Marshal(&all)
+    fatalOnError(err)
+    fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644))
+  }
+  fmt.Printf("Written %d profile files\n", len(ranges))
+	execCommand([]string{"git", "add", "."}, nil)
+	execCommand(
+    []string{
+      "git",
+      "commit",
+      "-asm",
+      "--author",
+      os.Getenv("GITDM_GIT_USER"),
+      fmt.Sprintf("gitdm-sync @ %s", time.Now.Format("2006-01-02 15:04:05")),
+    },
+    nil,
+  )
 }
 
 func handle(w http.ResponseWriter, req *http.Request) {
