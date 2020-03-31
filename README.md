@@ -42,8 +42,16 @@ P:                                          # 'profiles' (profile holds possible
   U: Łukasz Gryglicki                       # profile's name
 ```
 
-# Syncing
+# Running locally
 
 - To compile locally use: `make`.
 - To run local sync service: `./serve.sh`.
 - To do request to local service: `./request.sh`.
+
+
+# Docker
+
+- Build docker image: `DOCKER_USER=... docker/build_image.sh`.
+- Run it: `DOCKER_USER=... docker/run.sh`. It will serve on 17070 instead of 7070 port.
+- Shell into the container: `DOCKER_USER=... docker/shell.sh`.
+- Test request, `SYNC_URL` must be provided to specify non-default 17070 port: `SYNC_URL='127.0.0.1:17070' ./request.sh`.
