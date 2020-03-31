@@ -176,10 +176,24 @@ func processRepo() {
     []string{
       "git",
       "commit",
-      "-asm",
       "--author",
       os.Getenv("GITDM_GIT_USER"),
+      "-asm",
       fmt.Sprintf("gitdm-sync @ %s", time.Now.Format("2006-01-02 15:04:05")),
+    },
+    nil,
+  )
+	execCommand(
+    []string{
+      "git",
+      "push",
+      "--repo",
+		  fmt.Sprintf(
+			  "https://%s:%s@github.com/%s",
+			  os.Getenv("GITDM_GIT_USER"),
+			  os.Getenv("GITDM_GIT_OAUTH"),
+			  os.Getenv("GITDM_GIT_REPO"),
+		  ),
     },
     nil,
   )
