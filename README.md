@@ -21,7 +21,7 @@ This is the current format:
 P:                                          # 'profiles' (profile holds possible multiple profile (called identities) from different data sources
                                             # for example git, GitHub, Jira, Slack etc.
 - C: PL                                     # profile's 'country code' - if defined must be a correct two letter country code
-  E: lukaszgryglicki@o2.pl                  # profile's 'email'
+  E: lukaszgryglicki!o2.pl                  # profile's 'email', all emails have their '@' replaced with '!'
   R:                                        # profile 'enrollments' list, at lease one enrollment must be present
   - T: "2006-03-01"                         # enrollment 'date to' - required
     C: Independent                          # enrollment 'organization' - required
@@ -30,11 +30,11 @@ P:                                          # 'profiles' (profile holds possible
   S: male                                   # profile's 'sex'/'gender'
   I:                                        # profiles 'identities' list (each profile must have source liek git/Jira//Slack), at least one identity must be present
                                             # each source can have multiple identities (multiple profiles, like for example multiple GitHub accounts)
-  - E: lukaszgryglicki@o2.pl                # identity's 'email'
+  - E: lukaszgryglicki!o2.pl                # identity's 'email'
     M: Lukasz Gryglicki                     # identity's 'name'
     S: git                                  # identity's 'source' - required (the only required field)
 (...)
-  - E: lukaszgryglicki@o2.pl                # identity's 'email'
+  - E: lukaszgryglicki!o2.pl                # identity's 'email'
     M: Łukasz Gryglicki                     # identity's 'name'
     S: github                               # identity's 'source'
     U: lukaszgryglicki                      # identity's 'username' - some data sources have it (like GitHub), so doesn't (like git)
