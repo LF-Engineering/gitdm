@@ -5,7 +5,7 @@ then
   exit 1
 fi
 
-make docker || exit 2
+make || exit 2
 docker build -f ./docker/Dockerfile -t "${DOCKER_USER}/lf-gitdm-sync" . || exit 3
 docker push "${DOCKER_USER}/lf-gitdm-sync" || exit 4
 echo OK

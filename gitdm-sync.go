@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -114,7 +115,20 @@ func execCommand(cmdAndArgs []string, env map[string]string) {
 		cmd.Env = newEnv
 	}
 	fatalOnError(cmd.Start())
-	fatalOnError(cmd.Wait())
+	var (
+		stdOut bytes.Buffer
+		stdErr bytes.Buffer
+	)
+	cmd.Stderr = &stdErr
+	cmd.Stdout = &stdOut
+	err := cmd.Wait()
+	if err != nil {
+		outStr := stdOut.String()
+		fmt.Printf("STDOUT:\n%v\n", outStr)
+		errStr := stdErr.String()
+		fmt.Printf("STDERR:\n%v\n", errStr)
+		fatalOnError(err)
+	}
 }
 
 func requestInfo(r *http.Request) string {
@@ -136,11 +150,13 @@ func processRepo() {
 	i := 1
 	var profs []*allOutput
 	for {
+		fmt.Printf("reading profiles%d.yaml\n", i)
 		data, err := ioutil.ReadFile(fmt.Sprintf("profiles%d.yaml", i))
 		if err != nil {
 			break
 		}
 		var all allArrayOutput
+		fmt.Printf("parse profiles%d.yaml\n", i)
 		fatalOnError(yaml.Unmarshal(data, &all))
 		profs = append(profs, all.Profiles...)
 		i++
@@ -160,43 +176,53 @@ func processRepo() {
 			currSize += profSize
 		}
 	}
-  if from != len(profs)-1 {
+	if from != len(profs)-1 {
 		ranges = append(ranges, [2]int{from, len(profs)})
-  }
-  for i, rng := range ranges {
+	}
+	fmt.Printf("data ranges: %+v\n", ranges)
+	for i, rng := range ranges {
 		var all allArrayOutput
-    all.Profiles = profs[rng[0]:rng[1]]
-    data, err := yaml.Marshal(&all)
-    fatalOnError(err)
-    fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644))
-  }
-  fmt.Printf("Written %d profile files\n", len(ranges))
+		all.Profiles = profs[rng[0]:rng[1]]
+		fmt.Printf("writting profiles%d.yaml [%d-%d]\n", i+1, rng[0], rng[1])
+		data, err := yaml.Marshal(&all)
+		fatalOnError(err)
+		fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644))
+	}
+	fmt.Printf("written %d profile files\n", len(ranges))
+	fmt.Printf("git add .\n")
 	execCommand([]string{"git", "add", "."}, nil)
+	fmt.Printf("git config user.name\n")
+	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GITHUB_USER")}, nil)
+	fmt.Printf("git config user.email\n")
+	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GITHUB_EMAIL")}, nil)
+	fmt.Printf("git commit\n")
 	execCommand(
-    []string{
-      "git",
-      "commit",
-      "--author",
-      os.Getenv("GITDM_GIT_USER"),
-      "-asm",
-      fmt.Sprintf("gitdm-sync @ %s", time.Now.Format("2006-01-02 15:04:05")),
-    },
-    nil,
-  )
+		[]string{
+			"git",
+			"commit",
+			"--author",
+			os.Getenv("GITDM_GITHUB_USER"),
+			"-asm",
+			fmt.Sprintf("gitdm-sync @ %s", time.Now().Format("2006-01-02 15:04:05")),
+		},
+		nil,
+	)
+	fmt.Printf("git push\n")
 	execCommand(
-    []string{
-      "git",
-      "push",
-      "--repo",
-		  fmt.Sprintf(
-			  "https://%s:%s@github.com/%s",
-			  os.Getenv("GITDM_GIT_USER"),
-			  os.Getenv("GITDM_GIT_OAUTH"),
-			  os.Getenv("GITDM_GIT_REPO"),
-		  ),
-    },
-    nil,
-  )
+		[]string{
+			"git",
+			"push",
+			"--repo",
+			fmt.Sprintf(
+				"https://%s:%s@github.com/%s",
+				os.Getenv("GITDM_GITHUB_USER"),
+				os.Getenv("GITDM_GITHUB_OAUTH"),
+				os.Getenv("GITDM_GITHUB_REPO"),
+			),
+		},
+		nil,
+	)
+	fmt.Printf("processing repo finished\n")
 }
 
 func handle(w http.ResponseWriter, req *http.Request) {
@@ -206,37 +232,46 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	defer func() {
 		fmt.Printf("Request(exit): %s err:%v\n", info, err)
 	}()
+	fmt.Printf("Cleanup repo before\n")
 	execCommand([]string{"rm", "-rf", "gitdm"}, nil)
 	defer func() {
+		fmt.Printf("Cleanup repo after\n")
 		execCommand([]string{"rm", "-rf", "gitdm"}, nil)
 	}()
+	fmt.Printf("git clone\n")
 	cmd := []string{
 		"git",
 		"clone",
 		fmt.Sprintf(
 			"https://%s:%s@github.com/%s",
-			os.Getenv("GITDM_GIT_USER"),
-			os.Getenv("GITDM_GIT_OAUTH"),
-			os.Getenv("GITDM_GIT_REPO"),
+			os.Getenv("GITDM_GITHUB_USER"),
+			os.Getenv("GITDM_GITHUB_OAUTH"),
+			os.Getenv("GITDM_GITHUB_REPO"),
 		),
 	}
 	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
 	execCommand(cmd, env)
+	fmt.Printf("get wd\n")
 	wd, err := os.Getwd()
 	fatalOnError(err)
+	fmt.Printf("lock mutex\n")
 	gMtx.Lock()
 	defer func() {
+		fmt.Printf("unlock mutex\n")
 		gMtx.Unlock()
 	}()
+	fmt.Printf("chdir gitdm\n")
 	fatalOnError(os.Chdir("gitdm"))
 	defer func() {
+		fmt.Printf("chdir back to %s\n", wd)
 		_ = os.Chdir(wd)
 	}()
+	fmt.Printf("process repo\n")
 	processRepo()
 }
 
 func checkEnv() {
-	requiredEnv := []string{"GITDM_GIT_REPO", "GITDM_GIT_USER", "GITDM_GIT_OAUTH"}
+	requiredEnv := []string{"GITDM_GITHUB_REPO", "GITDM_GITHUB_USER", "GITDM_GITHUB_OAUTH"}
 	for _, env := range requiredEnv {
 		if os.Getenv(env) == "" {
 			fatalf("%s env variable must be set", env)
