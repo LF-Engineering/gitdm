@@ -103,7 +103,14 @@ func fatalf(f string, a ...interface{}) {
 	fatalOnError(fmt.Errorf(f, a...))
 }
 
-func execCommand(cmdAndArgs []string, env map[string]string) {
+func execCommand(cmdAndArgs []string, env map[string]string, dbg int) {
+	if dbg > 0 {
+		if len(env) > 0 {
+			fmt.Printf("%+v %s\n", env, strings.Join(cmdAndArgs, " "))
+		} else {
+			fmt.Printf("%s\n", strings.Join(cmdAndArgs, " "))
+		}
+	}
 	command := cmdAndArgs[0]
 	arguments := cmdAndArgs[1:]
 	cmd := exec.Command(command, arguments...)
@@ -114,15 +121,15 @@ func execCommand(cmdAndArgs []string, env map[string]string) {
 		}
 		cmd.Env = newEnv
 	}
-	fatalOnError(cmd.Start())
 	var (
 		stdOut bytes.Buffer
 		stdErr bytes.Buffer
 	)
 	cmd.Stderr = &stdErr
 	cmd.Stdout = &stdOut
+	fatalOnError(cmd.Start())
 	err := cmd.Wait()
-	if err != nil {
+	if err != nil && dbg > 1 {
 		outStr := stdOut.String()
 		fmt.Printf("STDOUT:\n%v\n", outStr)
 		errStr := stdErr.String()
@@ -190,11 +197,11 @@ func processRepo() {
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
 	fmt.Printf("git add .\n")
-	execCommand([]string{"git", "add", "."}, nil)
+	execCommand([]string{"git", "add", "."}, nil, 1)
 	fmt.Printf("git config user.name\n")
-	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil)
+	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil, 0)
 	fmt.Printf("git config user.email\n")
-	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_EMAIL")}, nil)
+	execCommand([]string{"git", "config", "--global", "user.email", os.Getenv("GITDM_GIT_EMAIL")}, nil, 0)
 	fmt.Printf("git commit\n")
 	execCommand(
 		[]string{
@@ -204,6 +211,7 @@ func processRepo() {
 			fmt.Sprintf("gitdm-sync @ %s", time.Now().Format("2006-01-02 15:04:05")),
 		},
 		nil,
+		1,
 	)
 	fmt.Printf("git push\n")
 	execCommand(
@@ -219,6 +227,7 @@ func processRepo() {
 			),
 		},
 		nil,
+		0,
 	)
 	fmt.Printf("processing repo finished\n")
 }
@@ -231,10 +240,10 @@ func handle(w http.ResponseWriter, req *http.Request) {
 		fmt.Printf("Request(exit): %s err:%v\n", info, err)
 	}()
 	fmt.Printf("Cleanup repo before\n")
-	execCommand([]string{"rm", "-rf", "gitdm"}, nil)
+	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
 	defer func() {
 		fmt.Printf("Cleanup repo after\n")
-		execCommand([]string{"rm", "-rf", "gitdm"}, nil)
+		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
 	}()
 	fmt.Printf("git clone\n")
 	cmd := []string{
@@ -248,7 +257,7 @@ func handle(w http.ResponseWriter, req *http.Request) {
 		),
 	}
 	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
-	execCommand(cmd, env)
+	execCommand(cmd, env, 0)
 	fmt.Printf("get wd\n")
 	wd, err := os.Getwd()
 	fatalOnError(err)
