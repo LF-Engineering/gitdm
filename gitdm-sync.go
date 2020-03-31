@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"os"
 	"os/exec"
@@ -11,9 +12,82 @@ import (
 	"sync"
 	"syscall"
 	"time"
+
+	yaml "gopkg.in/yaml.v2"
 )
 
 var gMtx *sync.Mutex
+
+type enrollmentShortOutput struct {
+	End          string `yaml:"T"`
+	Organization string `yaml:"C"`
+	Start        string `yaml:"F"`
+}
+
+type identityShortOutput struct {
+	Email    *string `yaml:"E,omitempty"`
+	Name     *string `yaml:"M,omitempty"`
+	Source   string  `yaml:"S"`
+	Username *string `yaml:"U,omitempty"`
+}
+
+type allOutput struct {
+	CountryCode *string                  `yaml:"C,omitempty"`
+	Email       *string                  `yaml:"E,omitempty"`
+	Enrollments []*enrollmentShortOutput `yaml:"R,omitempty"`
+	Gender      *string                  `yaml:"S,omitempty"`
+	Identities  []*identityShortOutput   `yaml:"I,omitempty"`
+	IsBot       *int64                   `yaml:"B,omitempty"`
+	Name        *string                  `yaml:"U,omitempty"`
+}
+
+type allArrayOutput struct {
+	Profiles []*allOutput `yaml:"P,omitempty"`
+}
+
+func (e *enrollmentShortOutput) size() int {
+	return 48 + len([]byte(e.Organization))
+}
+
+func (i *identityShortOutput) size() int {
+	b := 8 + len(i.Source)
+	if i.Name != nil {
+		b += 8 + len([]byte(*i.Name))
+	}
+	if i.Email != nil {
+		b += 8 + len([]byte(*i.Email))
+	}
+	if i.Username != nil {
+		b += 8 + len([]byte(*i.Username))
+	}
+	return b
+}
+
+func (a *allOutput) size() int {
+	b := 12
+	if a.CountryCode != nil {
+		b += 6 + len(*a.CountryCode)
+	}
+	if a.Gender != nil {
+		b += 6 + len(*a.Gender)
+	}
+	if a.Email != nil {
+		b += 6 + len([]byte(*a.Email))
+	}
+	if a.Name != nil {
+		b += 6 + len([]byte(*a.Name))
+	}
+	if a.IsBot != nil {
+		b += 7
+	}
+	for _, identity := range a.Identities {
+		b += identity.size()
+	}
+	for _, enrollment := range a.Enrollments {
+		b += enrollment.size()
+	}
+	return b
+}
 
 func fatalOnError(err error) {
 	if err != nil {
@@ -58,6 +132,47 @@ func requestInfo(r *http.Request) string {
 	return fmt.Sprintf("IP: %s", r.RemoteAddr)
 }
 
+func processRepo() {
+	i := 1
+	var profs []*allOutput
+	for {
+		data, err := ioutil.ReadFile(fmt.Sprintf("profiles%d.yaml", i))
+		if err != nil {
+			break
+		}
+		var all allArrayOutput
+		fatalOnError(yaml.Unmarshal(data, &all))
+		profs = append(profs, all.Profiles...)
+		i++
+	}
+	currSize := 0
+	profSize := 0
+	from := 0
+	maxSize := (1 << 20) - 8
+	ranges := [][2]int{}
+	for i, prof := range profs {
+		profSize = prof.size()
+		if currSize+profSize > maxSize {
+			ranges = append(ranges, [2]int{from, i})
+			from = i
+			currSize = 0
+		} else {
+			currSize += profSize
+		}
+	}
+	if from != len(profs)-1 {
+		ranges = append(ranges, [2]int{from, len(profs)})
+	}
+	fmt.Printf("maxSize: %d\n", maxSize)
+	for i, rng := range ranges {
+		var all allArrayOutput
+		all.Profiles = profs[rng[0]:rng[1]]
+		data, err := yaml.Marshal(&all)
+		fatalOnError(err)
+		fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644))
+	}
+}
+
 func handle(w http.ResponseWriter, req *http.Request) {
 	info := requestInfo(req)
 	fmt.Printf("Request: %s\n", info)
@@ -91,6 +206,7 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	defer func() {
 		_ = os.Chdir(wd)
 	}()
+	processRepo()
 }
 
 func checkEnv() {
