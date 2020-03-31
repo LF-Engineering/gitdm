@@ -42,3 +42,8 @@ P:                                          # 'profiles' (profile holds possible
   U: Łukasz Gryglicki                       # profile's name
 ```
 
+# Syncing
+
+- To compile locally use: `make`.
+- To run local sync service: `./serve.sh`.
+- To do request to local service: `./request.sh`.
