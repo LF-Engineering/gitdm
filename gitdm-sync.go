@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"os/exec"
 	"os/signal"
 	"runtime/debug"
 	"strings"
@@ -22,6 +23,21 @@ func fatalOnError(err error) {
 
 func fatalf(f string, a ...interface{}) {
 	fatalOnError(fmt.Errorf(f, a...))
+}
+
+func execCommand(cmdAndArgs []string, env map[string]string) {
+	command := cmdAndArgs[0]
+	arguments := cmdAndArgs[1:]
+	cmd := exec.Command(command, arguments...)
+	if len(env) > 0 {
+		newEnv := os.Environ()
+		for key, value := range env {
+			newEnv = append(newEnv, key+"="+value)
+		}
+		cmd.Env = newEnv
+	}
+	fatalOnError(cmd.Start())
+	fatalOnError(cmd.Wait())
 }
 
 func requestInfo(r *http.Request) string {
@@ -46,6 +62,18 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	defer func() {
 		fmt.Printf("Request(exit): %s err:%v\n", info, err)
 	}()
+	cmd := []string{
+		"git",
+		"clone",
+		fmt.Sprintf(
+			"https://%s:%s@github.com/%s",
+			os.Getenv("GITDM_GIT_USER"),
+			os.Getenv("GITDM_GIT_OAUTH"),
+			os.Getenv("GITDM_GIT_REPO"),
+		),
+	}
+	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
+	execCommand(cmd, env)
 }
 
 func checkEnv() {
