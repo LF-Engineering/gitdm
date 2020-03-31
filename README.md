@@ -11,7 +11,7 @@ If you find any errors or missing affiliations in those lists, please submit a p
 # YAML format
 
 
-We are trying to keep that YAML as small as possible, so property names are a bit cryptic and only records containing at least one enrollment and at lkeast one identity are exported:
+We are trying to keep that YAML as small as possible, so property names are a bit cryptic and only records containing at least one enrollment and at least one identity are exported:
 
 This is the current format:
 
