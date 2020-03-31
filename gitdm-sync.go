@@ -8,9 +8,12 @@ import (
 	"os/signal"
 	"runtime/debug"
 	"strings"
+	"sync"
 	"syscall"
 	"time"
 )
+
+var gMtx *sync.Mutex
 
 func fatalOnError(err error) {
 	if err != nil {
@@ -62,6 +65,10 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	defer func() {
 		fmt.Printf("Request(exit): %s err:%v\n", info, err)
 	}()
+	execCommand([]string{"rm", "-rf", "gitdm"}, nil)
+	defer func() {
+		execCommand([]string{"rm", "-rf", "gitdm"}, nil)
+	}()
 	cmd := []string{
 		"git",
 		"clone",
@@ -74,6 +81,16 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	}
 	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
 	execCommand(cmd, env)
+	wd, err := os.Getwd()
+	fatalOnError(err)
+	gMtx.Lock()
+	defer func() {
+		gMtx.Unlock()
+	}()
+	fatalOnError(os.Chdir("gitdm"))
+	defer func() {
+		_ = os.Chdir(wd)
+	}()
 }
 
 func checkEnv() {
@@ -97,6 +114,7 @@ func serve() {
 			os.Exit(1)
 		}
 	}()
+	gMtx = &sync.Mutex{}
 	http.HandleFunc("/", handle)
 	fatalOnError(http.ListenAndServe("0.0.0.0:7070", nil))
 }
