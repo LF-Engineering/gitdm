@@ -192,16 +192,14 @@ func processRepo() {
 	fmt.Printf("git add .\n")
 	execCommand([]string{"git", "add", "."}, nil)
 	fmt.Printf("git config user.name\n")
-	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GITHUB_USER")}, nil)
+	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil)
 	fmt.Printf("git config user.email\n")
-	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GITHUB_EMAIL")}, nil)
+	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_EMAIL")}, nil)
 	fmt.Printf("git commit\n")
 	execCommand(
 		[]string{
 			"git",
 			"commit",
-			"--author",
-			os.Getenv("GITDM_GITHUB_USER"),
 			"-asm",
 			fmt.Sprintf("gitdm-sync @ %s", time.Now().Format("2006-01-02 15:04:05")),
 		},
@@ -271,7 +269,14 @@ func handle(w http.ResponseWriter, req *http.Request) {
 }
 
 func checkEnv() {
-	requiredEnv := []string{"GITDM_GITHUB_REPO", "GITDM_GITHUB_USER", "GITDM_GITHUB_OAUTH"}
+	requiredEnv := []string{
+		"DA_API_URL",
+		"GITDM_GITHUB_REPO",
+		"GITDM_GITHUB_USER",
+		"GITDM_GITHUB_OAUTH",
+		"GITDM_GIT_USER",
+		"GITDM_GIT_EMAIL",
+	}
 	for _, env := range requiredEnv {
 		if os.Getenv(env) == "" {
 			fatalf("%s env variable must be set", env)
