@@ -103,7 +103,7 @@ func fatalf(f string, a ...interface{}) {
 	fatalOnError(fmt.Errorf(f, a...))
 }
 
-func execCommand(cmdAndArgs []string, env map[string]string, dbg int) {
+func execCommand(cmdAndArgs []string, env map[string]string, dbg int) string {
 	if dbg > 0 {
 		if len(env) > 0 {
 			fmt.Printf("%+v %s\n", env, strings.Join(cmdAndArgs, " "))
@@ -129,13 +129,14 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int) {
 	cmd.Stdout = &stdOut
 	fatalOnError(cmd.Start())
 	err := cmd.Wait()
-	if err != nil && dbg > 1 {
+	if err != nil || dbg > 1 {
 		outStr := stdOut.String()
 		fmt.Printf("STDOUT:\n%v\n", outStr)
 		errStr := stdErr.String()
 		fmt.Printf("STDERR:\n%v\n", errStr)
 		fatalOnError(err)
 	}
+	return stdOut.String()
 }
 
 func requestInfo(r *http.Request) string {
@@ -196,6 +197,8 @@ func processRepo() {
 		fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644))
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
+	fmt.Printf("git status\n")
+	execCommand([]string{"git", "status"}, nil, 2)
 	fmt.Printf("git add .\n")
 	execCommand([]string{"git", "add", "."}, nil, 1)
 	fmt.Printf("git config user.name\n")
