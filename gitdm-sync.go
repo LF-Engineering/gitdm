@@ -174,7 +174,7 @@ func processRepo() {
 	from := 0
 	maxSize := (1 << 20) - 8
 	ranges := [][2]int{}
-	fmt.Printf("fitting %d profs in files no larger than %d\n", len(profs), maxSize)
+	fmt.Printf("fitting %d profs in files no larger than %d bytes\n", len(profs), maxSize)
 	for i, prof := range profs {
 		profSize = prof.size()
 		if currSize+profSize > maxSize {
