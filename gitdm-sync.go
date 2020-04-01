@@ -94,21 +94,26 @@ func (a *allOutput) size() int {
 	return b
 }
 
-func fatalOnError(err error) {
+func fatalOnError(err error, pnic bool) bool {
 	if err != nil {
 		tm := time.Now()
 		fmt.Printf("Error(time=%+v):\nError: '%s'\nStacktrace:\n%s\n", tm, err.Error(), string(debug.Stack()))
 		fmt.Fprintf(os.Stderr, "Error(time=%+v):\nError: '%s'\nStacktrace:\n", tm, err.Error())
 		gw.WriteHeader(http.StatusBadRequest)
 		_, _ = io.WriteString(gw, err.Error())
+		if pnic {
+			panic("stacktrace")
+		}
+		return true
 	}
+	return false
 }
 
 func fatalf(f string, a ...interface{}) {
-	fatalOnError(fmt.Errorf(f, a...))
+	fatalOnError(fmt.Errorf(f, a...), true)
 }
 
-func execCommand(cmdAndArgs []string, env map[string]string, dbg int) string {
+func execCommand(cmdAndArgs []string, env map[string]string, dbg int) (string, bool) {
 	if dbg > 0 {
 		if len(env) > 0 {
 			fmt.Printf("%+v %s\n", env, strings.Join(cmdAndArgs, " "))
@@ -132,7 +137,9 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int) string {
 	)
 	cmd.Stderr = &stdErr
 	cmd.Stdout = &stdOut
-	fatalOnError(cmd.Start())
+	if fatalOnError(cmd.Start(), false) {
+		return "cmd.Start() failed", false
+	}
 	err := cmd.Wait()
 	if err != nil || dbg > 1 {
 		outStr := stdOut.String()
@@ -142,9 +149,11 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int) string {
 		if err != nil {
 			err = fmt.Errorf("%+v\nstdout:\n%s\nstderr:\n%s", err, outStr, errStr)
 		}
-		fatalOnError(err)
+		if fatalOnError(err, false) {
+			return "cmd.Wait() failed", false
+		}
 	}
-	return stdOut.String()
+	return stdOut.String(), true
 }
 
 func requestInfo(r *http.Request) string {
@@ -162,7 +171,7 @@ func requestInfo(r *http.Request) string {
 	return fmt.Sprintf("IP: %s", r.RemoteAddr)
 }
 
-func processRepo() {
+func processRepo() bool {
 	i := 1
 	var profs []*allOutput
 	for {
@@ -173,7 +182,9 @@ func processRepo() {
 		}
 		var all allArrayOutput
 		fmt.Printf("parse profiles%d.yaml\n", i)
-		fatalOnError(yaml.Unmarshal(data, &all))
+		if fatalOnError(yaml.Unmarshal(data, &all), false) {
+			return false
+		}
 		profs = append(profs, all.Profiles...)
 		i++
 	}
@@ -202,24 +213,54 @@ func processRepo() {
 		all.Profiles = profs[rng[0]:rng[1]]
 		fmt.Printf("writting profiles%d.yaml [%d-%d]\n", i+1, rng[0], rng[1])
 		data, err := yaml.Marshal(&all)
-		fatalOnError(err)
-		fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644))
+		if fatalOnError(err, false) {
+			return false
+		}
+		if fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644), false) {
+			return false
+		}
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
 	fmt.Printf("git status\n")
-	status := execCommand([]string{"git", "status"}, nil, 1)
+	status, ok := execCommand([]string{"git", "status"}, nil, 1)
+	if !ok {
+		return false
+	}
 	if strings.Contains(status, "nothing to commit, working tree clean") {
 		fmt.Printf("Profile YAML files don't need updates\n")
-		return
+		return false
 	}
 	fmt.Printf("git add .\n")
-	execCommand([]string{"git", "add", "."}, nil, 1)
-	fmt.Printf("git config user.name\n")
-	execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil, 0)
-	fmt.Printf("git config user.email\n")
-	execCommand([]string{"git", "config", "--global", "user.email", os.Getenv("GITDM_GIT_EMAIL")}, nil, 0)
+	_, ok = execCommand([]string{"git", "add", "."}, nil, 1)
+	if !ok {
+		return false
+	}
+	fmt.Printf("git config user.name get\n")
+	cfg, ok := execCommand([]string{"git", "config", "--global", "user.name"}, nil, 2)
+	if !ok {
+		return false
+	}
+	if strings.TrimSpace(cfg) == "" {
+		fmt.Printf("git config user.name set\n")
+		_, ok = execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil, 0)
+		if !ok {
+			return false
+		}
+	}
+	fmt.Printf("git config user.email get\n")
+	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email"}, nil, 2)
+	if !ok {
+		return false
+	}
+	if strings.TrimSpace(cfg) == "" {
+		fmt.Printf("git config user.email set\n")
+		_, ok = execCommand([]string{"git", "config", "--global", "user.email", os.Getenv("GITDM_GIT_EMAIL")}, nil, 0)
+		if !ok {
+			return false
+		}
+	}
 	fmt.Printf("git commit\n")
-	execCommand(
+	_, ok = execCommand(
 		[]string{
 			"git",
 			"commit",
@@ -229,8 +270,11 @@ func processRepo() {
 		nil,
 		1,
 	)
+	if !ok {
+		return false
+	}
 	fmt.Printf("git push\n")
-	execCommand(
+	_, ok = execCommand(
 		[]string{
 			"git",
 			"push",
@@ -245,7 +289,11 @@ func processRepo() {
 		nil,
 		0,
 	)
+	if !ok {
+		return false
+	}
 	fmt.Printf("processing repo finished\n")
+	return true
 }
 
 func handle(w http.ResponseWriter, req *http.Request) {
@@ -273,7 +321,7 @@ func handle(w http.ResponseWriter, req *http.Request) {
 		"git",
 		"clone",
 		fmt.Sprintf(
-			"https://%s:%s@agithub.com/%s",
+			"https://%s:%s@github.com/%s",
 			os.Getenv("GITDM_GITHUB_USER"),
 			os.Getenv("GITDM_GITHUB_OAUTH"),
 			os.Getenv("GITDM_GITHUB_REPO"),
@@ -283,15 +331,21 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	execCommand(cmd, env, 0)
 	fmt.Printf("get wd\n")
 	wd, err := os.Getwd()
-	fatalOnError(err)
+	if fatalOnError(err, false) {
+		return
+	}
 	fmt.Printf("chdir gitdm\n")
-	fatalOnError(os.Chdir("gitdm"))
+	if fatalOnError(os.Chdir("gitdm"), false) {
+		return
+	}
 	defer func() {
 		fmt.Printf("chdir back to %s\n", wd)
 		_ = os.Chdir(wd)
 	}()
 	fmt.Printf("process repo\n")
-	processRepo()
+	if !processRepo() {
+		return
+	}
 	w.WriteHeader(http.StatusOK)
 	_, _ = io.WriteString(w, "SYNC_OK")
 }
@@ -326,7 +380,7 @@ func serve() {
 	}()
 	gMtx = &sync.Mutex{}
 	http.HandleFunc("/", handle)
-	fatalOnError(http.ListenAndServe("0.0.0.0:7070", nil))
+	fatalOnError(http.ListenAndServe("0.0.0.0:7070", nil), true)
 }
 
 func main() {
