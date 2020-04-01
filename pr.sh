@@ -9,4 +9,4 @@ if [ -z "${SYNC_URL}" ]
 then
   SYNC_URL='localhost:7070'
 fi
-(curl -s "${SYNC_URL}/pr/`git ls-remote 2>/dev/null | grep "${GITHUB_REF}" | awk '{ print $1 }'`" |& tee output.txt | grep 'CHECK_OK') || ( cat output.txt; exit 1)
+(curl -s "${SYNC_URL}/pr/${GITHUB_REF}" |& tee output.txt | grep 'CHECK_OK') || ( cat output.txt; exit 1)

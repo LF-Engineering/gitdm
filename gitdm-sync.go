@@ -11,6 +11,7 @@ import (
 	"os/exec"
 	"os/signal"
 	"runtime/debug"
+	"strconv"
 	"strings"
 	"sync"
 	"syscall"
@@ -388,17 +389,18 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 	}()
 	gw = w
 	path := html.EscapeString(req.URL.Path)
+	// /pr/refs/pull/1/merge
 	ary := strings.Split(path, "/")
-	if len(ary) != 3 {
+	if len(ary) != 6 {
 		fatalf(false, "malformed path:%s", path)
 		return
 	}
-	commit := strings.TrimSpace(ary[2])
-	if commit == "" {
-		fatalf(false, "no commit specified in path:%s", path)
+	prNumber, err := strconv.ParseInt(strings.TrimSpace(ary[4]), 10, 64)
+	if err != nil {
+		fatalf(false, "no PR number specified in path:%s:%v", path, err)
 		return
 	}
-	fmt.Printf("checking commit %s\n", commit)
+	fmt.Printf("checking PR %d\n", prNumber)
 	fmt.Printf("Cleanup repo before\n")
 	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
 	defer func() {
@@ -431,7 +433,20 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 		fmt.Printf("chdir back to %s\n", wd)
 		_ = os.Chdir(wd)
 	}()
-	fmt.Printf("check repo\n")
+	fmt.Printf("git fetch origin\n")
+	_, ok := execCommand([]string{"git", "fetch", "origin", fmt.Sprintf("pull/%d/head:gitdm-sync-%d", prNumber, prNumber)}, nil, 1)
+	if !ok {
+		return
+	}
+	fmt.Printf("git checkout\n")
+	_, ok = execCommand([]string{"git", "checkout", fmt.Sprintf("gitdm-sync-%d", prNumber)}, nil, 1)
+	if !ok {
+		return
+	}
+	defer func() {
+		_, _ = execCommand([]string{"git", "checkout", "master"}, nil, 1)
+	}()
+	fmt.Printf("check repo PR %d\n", prNumber)
 	if !checkRepo() {
 		return
 	}
