@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -17,7 +18,10 @@ import (
 	yaml "gopkg.in/yaml.v2"
 )
 
-var gMtx *sync.Mutex
+var (
+	gMtx *sync.Mutex
+	gw   http.ResponseWriter
+)
 
 type enrollmentShortOutput struct {
 	End          string `yaml:"T"`
@@ -95,7 +99,9 @@ func fatalOnError(err error) {
 		tm := time.Now()
 		fmt.Printf("Error(time=%+v):\nError: '%s'\nStacktrace:\n%s\n", tm, err.Error(), string(debug.Stack()))
 		fmt.Fprintf(os.Stderr, "Error(time=%+v):\nError: '%s'\nStacktrace:\n", tm, err.Error())
-		panic("stacktrace")
+		gw.WriteHeader(http.StatusBadRequest)
+		_, _ = io.WriteString(gw, err.Error())
+		//panic("stacktrace")
 	}
 }
 
@@ -247,6 +253,13 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	defer func() {
 		fmt.Printf("Request(exit): %s err:%v\n", info, err)
 	}()
+	fmt.Printf("lock mutex\n")
+	gMtx.Lock()
+	defer func() {
+		fmt.Printf("unlock mutex\n")
+		gMtx.Unlock()
+	}()
+	gw = w
 	fmt.Printf("Cleanup repo before\n")
 	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
 	defer func() {
@@ -258,7 +271,7 @@ func handle(w http.ResponseWriter, req *http.Request) {
 		"git",
 		"clone",
 		fmt.Sprintf(
-			"https://%s:%s@github.com/%s",
+			"https://%s:%s@agithub.com/%s",
 			os.Getenv("GITDM_GITHUB_USER"),
 			os.Getenv("GITDM_GITHUB_OAUTH"),
 			os.Getenv("GITDM_GITHUB_REPO"),
@@ -269,12 +282,6 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	fmt.Printf("get wd\n")
 	wd, err := os.Getwd()
 	fatalOnError(err)
-	fmt.Printf("lock mutex\n")
-	gMtx.Lock()
-	defer func() {
-		fmt.Printf("unlock mutex\n")
-		gMtx.Unlock()
-	}()
 	fmt.Printf("chdir gitdm\n")
 	fatalOnError(os.Chdir("gitdm"))
 	defer func() {
@@ -283,6 +290,8 @@ func handle(w http.ResponseWriter, req *http.Request) {
 	}()
 	fmt.Printf("process repo\n")
 	processRepo()
+	w.WriteHeader(http.StatusOK)
+	_, _ = io.WriteString(w, "SYNC_OK")
 }
 
 func checkEnv() {
