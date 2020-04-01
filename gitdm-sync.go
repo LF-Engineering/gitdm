@@ -230,8 +230,8 @@ func processRepo() bool {
 		fmt.Printf("Profile YAML files don't need updates\n")
 		return false
 	}
-	fmt.Printf("git add .\n")
-	_, ok = execCommand([]string{"git", "add", "."}, nil, 1)
+	fmt.Printf("git add *.yaml\n")
+	_, ok = execCommand([]string{"git", "add", "*.yaml"}, nil, 1)
 	if !ok {
 		return false
 	}
@@ -264,7 +264,7 @@ func processRepo() bool {
 		[]string{
 			"git",
 			"commit",
-			"-asm",
+			"-sm",
 			fmt.Sprintf("%s gitdm-sync @ %s", os.Getenv("GITDM_GITHUB_USER"), time.Now().Format("2006-01-02 15:04:05")),
 		},
 		nil,
