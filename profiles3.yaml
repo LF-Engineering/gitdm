@@ -2918,20 +2918,6 @@ P:
 - C: US
   E: dbainbri!ciena.com
   R:
-  - T: "2099-01-01"
-    C: Ciena
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: dbainbri!ciena.com
-    M: David Bainbridge
-    S: github
-    U: dbainbri-ciena
-  B: 0
-  U: David Bainbridge
-- C: US
-  E: dbainbri!ciena.com
-  R:
   - T: "2100-01-01"
     C: Ciena
     F: "1900-01-01"
@@ -2960,6 +2946,20 @@ P:
   - E: dbainbri!ciena.com
     M: Bainbridge, David
     S: pipermail
+  B: 0
+  U: David Bainbridge
+- C: US
+  E: dbainbri!ciena.com
+  R:
+  - T: "2099-01-01"
+    C: Ciena
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: dbainbri!ciena.com
+    M: David Bainbridge
+    S: github
+    U: dbainbri-ciena
   B: 0
   U: David Bainbridge
 - E: davidbarratt!users.noreply.github.com
@@ -4465,25 +4465,6 @@ P:
 - C: FR
   E: david!gageot.net
   R:
-  - T: "2015-10-01"
-    C: Retour
-    F: "1970-01-01"
-  - T: "2017-11-01"
-    C: Docker
-    F: "2015-10-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "2017-11-01"
-  S: male
-  I:
-  - E: david!gageot.net
-    M: David Gageot
-    S: git
-  B: 0
-  U: David Gageot
-- C: FR
-  E: david!gageot.net
-  R:
   - T: "2099-01-01"
     C: Docker
     F: "1970-01-01"
@@ -4502,6 +4483,25 @@ P:
     M: David Gageot
     S: github
     U: dgageot
+  B: 0
+  U: David Gageot
+- C: FR
+  E: david!gageot.net
+  R:
+  - T: "2015-10-01"
+    C: Retour
+    F: "1970-01-01"
+  - T: "2017-11-01"
+    C: Docker
+    F: "2015-10-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "2017-11-01"
+  S: male
+  I:
+  - E: david!gageot.net
+    M: David Gageot
+    S: git
   B: 0
   U: David Gageot
 - E: David.Galiffi!amd.com
@@ -7147,7 +7147,8 @@ P:
   I:
   - E: radcliffe.david!gmail.com
     M: David Radcliffe
-    S: git
+    S: github
+    U: dwradcliffe
   B: 0
   U: David Radcliffe
 - C: GB
@@ -7160,8 +7161,7 @@ P:
   I:
   - E: radcliffe.david!gmail.com
     M: David Radcliffe
-    S: github
-    U: dwradcliffe
+    S: git
   B: 0
   U: David Radcliffe
 - E: david_radley!uk.ibm.com
@@ -12853,18 +12853,6 @@ P:
   U: Denys Dmytriyenko
 - E: denys!ti.com
   R:
-  - T: "2099-01-01"
-    C: Texas Instruments
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: denys!ti.com
-    M: Denys Dmytriyenko
-    S: groupsio
-  B: 0
-  U: Denys Dmytriyenko
-- E: denys!ti.com
-  R:
   - T: "2100-01-01"
     C: Texas Instruments
     F: "1900-01-01"
@@ -12900,6 +12888,18 @@ P:
   - E: denys!ti.com
     M: Dmytriyenko, Denys
     S: pipermail
+  B: 0
+  U: Denys Dmytriyenko
+- E: denys!ti.com
+  R:
+  - T: "2099-01-01"
+    C: Texas Instruments
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: denys!ti.com
+    M: Denys Dmytriyenko
+    S: groupsio
   B: 0
   U: Denys Dmytriyenko
 - C: EE
@@ -26771,17 +26771,6 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
-  - E: Eddy.Raineri!windriver.com
-    M: Raineri, Eddy
-    S: pipermail
-  B: 0
-  U: Eddy Raineri
-- E: eddy.raineri!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
-  I:
   - M: Eddy Raineri
     S: confluence
     U: eraineri
@@ -26807,6 +26796,17 @@ P:
     M: Eddy Raineri
     S: jira
     U: eraineri
+  B: 0
+  U: Eddy Raineri
+- E: eddy.raineri!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
+  - E: Eddy.Raineri!windriver.com
+    M: Raineri, Eddy
+    S: pipermail
   B: 0
   U: Eddy Raineri
 - C: US
@@ -33385,18 +33385,6 @@ P:
     C: Linux Foundation
     F: "1900-01-01"
   I:
-  - E: eball!linuxfoundation.org
-    M: Eric Ball
-    S: gerrit
-    U: eball
-  B: 0
-  U: Eric Ball
-- E: eball!linuxfoundation.org
-  R:
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-  I:
   - E: MightyNerdEric!users.noreply.github.com
     M: Eric Ball
     S: git
@@ -33409,6 +33397,18 @@ P:
   - E: eball!linuxfoundation.org
     M: Eric Ball
     S: slack
+    U: eball
+  B: 0
+  U: Eric Ball
+- E: eball!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+  I:
+  - E: eball!linuxfoundation.org
+    M: Eric Ball
+    S: gerrit
     U: eball
   B: 0
   U: Eric Ball
@@ -42363,8 +42363,10 @@ P:
   I:
   - E: maplainfly!gmail.com
     M: Fangyuan Li
-    S: github
-    U: maplain
+    S: git
+  - E: maplainfly!gmail.com
+    M: maplain
+    S: git
   B: 0
   U: Fangyuan Li
 - E: maplainfly!gmail.com
@@ -42376,10 +42378,8 @@ P:
   I:
   - E: maplainfly!gmail.com
     M: Fangyuan Li
-    S: git
-  - E: maplainfly!gmail.com
-    M: maplain
-    S: git
+    S: github
+    U: maplain
   B: 0
   U: Fangyuan Li
 - E: fangyuanc!vmware.com
@@ -44566,7 +44566,10 @@ P:
   I:
   - E: fenghua.yu!intel.com
     M: Fenghua Yu
-    S: git
+    S: gerrit
+  - E: fenghua.yu!intel.com
+    M: Fenghua Yu
+    S: gerrit
   B: 0
   U: Fenghua Yu
 - E: fenghua.yu!intel.com
@@ -44577,10 +44580,7 @@ P:
   I:
   - E: fenghua.yu!intel.com
     M: Fenghua Yu
-    S: gerrit
-  - E: fenghua.yu!intel.com
-    M: Fenghua Yu
-    S: gerrit
+    S: git
   B: 0
   U: Fenghua Yu
 - C: DE
@@ -50485,18 +50485,6 @@ P:
     C: Mentor Graphics
     F: "1900-01-01"
   I:
-  - E: frederik_sdun!mentor.com
-    M: Frederik Sdun
-    S: bugzilla
-    U: frederik_sdun@mentor.com
-  B: 0
-  U: Frederik Sdun
-- E: frederik_sdun!mentor.com
-  R:
-  - T: "2100-01-01"
-    C: Mentor Graphics
-    F: "1900-01-01"
-  I:
   - M: Frederik Sdun
     S: bugzilla
     U: frederik_sdun
@@ -50515,6 +50503,18 @@ P:
   - E: frederik_sdun!mentor.com
     M: Frederik Sdun
     S: pipermail
+  B: 0
+  U: Frederik Sdun
+- E: frederik_sdun!mentor.com
+  R:
+  - T: "2100-01-01"
+    C: Mentor Graphics
+    F: "1900-01-01"
+  I:
+  - E: frederik_sdun!mentor.com
+    M: Frederik Sdun
+    S: bugzilla
+    U: frederik_sdun@mentor.com
   B: 0
   U: Frederik Sdun
 - E: frederik.thormaehlen!sap.com
@@ -51911,21 +51911,6 @@ P:
     C: ENEA AB
     F: "1900-01-01"
   I:
-  - E: gabriel.barbu!enea.com
-    M: Gabriel Barbu
-    S: bugzilla
-    U: gabriel.barbu@enea.com
-  - E: gabriel.barbu!enea.com
-    S: bugzilla
-    U: gabriel.barbu@enea.com
-  B: 0
-  U: Gabriel Barbu
-- E: gabriel.barbu!enea.com
-  R:
-  - T: "2100-01-01"
-    C: ENEA AB
-    F: "1900-01-01"
-  I:
   - M: Gabriel Barbu
     S: bugzilla
     U: gabriel.barbu
@@ -51935,6 +51920,21 @@ P:
   - E: gabriel.barbu!enea.com
     M: Gabriel Barbu
     S: pipermail
+  B: 0
+  U: Gabriel Barbu
+- E: gabriel.barbu!enea.com
+  R:
+  - T: "2100-01-01"
+    C: ENEA AB
+    F: "1900-01-01"
+  I:
+  - E: gabriel.barbu!enea.com
+    M: Gabriel Barbu
+    S: bugzilla
+    U: gabriel.barbu@enea.com
+  - E: gabriel.barbu!enea.com
+    S: bugzilla
+    U: gabriel.barbu@enea.com
   B: 0
   U: Gabriel Barbu
 - E: gabriel.ciubotaru!intel.com
@@ -54094,8 +54094,7 @@ P:
   I:
   - E: gary!brownuk.com
     M: Gary Brown
-    S: slack
-    U: gary
+    S: git
   B: 0
   U: Gary Brown
 - E: gary!brownuk.com
@@ -54107,7 +54106,8 @@ P:
   I:
   - E: gary!brownuk.com
     M: Gary Brown
-    S: git
+    S: slack
+    U: gary
   B: 0
   U: Gary Brown
 - E: gary.pi4tech!gmail.com
