@@ -8718,6 +8718,17 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
+  - E: billy.o.mahony!intel.com
+    M: Billy O'Mahony
+    S: pipermail
+  B: 0
+  U: Billy O'Mahony
+- E: billy.o.mahony!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
   - M: Billy O'Mahony
     S: confluence
     U: billyomahony
@@ -8760,17 +8771,6 @@ P:
     S: mbox
   - E: billy.o.mahony!intel.com
     M: O Mahony, Billy
-    S: pipermail
-  B: 0
-  U: Billy O'Mahony
-- E: billy.o.mahony!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: billy.o.mahony!intel.com
-    M: Billy O'Mahony
     S: pipermail
   B: 0
   U: Billy O'Mahony
@@ -9255,18 +9255,6 @@ P:
   - T: "2100-01-01"
     C: Wind River
     F: "1900-01-01"
-  I:
-  - E: bin.yang!windriver.com
-    M: Bin Yang
-    S: gerrit
-    U: biny993
-  B: 0
-  U: Bin Yang
-- E: bin.yang!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
   - T: "2099-01-01"
     C: Wind River
     F: "1970-01-01"
@@ -9303,6 +9291,18 @@ P:
   - E: Bin.Yang!windriver.com
     M: Yang, Bin
     S: pipermail
+  B: 0
+  U: Bin Yang
+- E: bin.yang!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
+  - E: bin.yang!windriver.com
+    M: Bin Yang
+    S: gerrit
+    U: biny993
   B: 0
   U: Bin Yang
 - E: bzhang!varmour.com
@@ -10951,8 +10951,7 @@ P:
   I:
   - E: appleboy.tw!gmail.com
     M: Bo-Yi Wu
-    S: github
-    U: appleboy
+    S: git
   B: 0
   U: Bo-Yi Wu
 - C: TW
@@ -10965,7 +10964,8 @@ P:
   I:
   - E: appleboy.tw!gmail.com
     M: Bo-Yi Wu
-    S: git
+    S: github
+    U: appleboy
   B: 0
   U: Bo-Yi Wu
 - E: yossi.boaron!nokia.com
@@ -28272,12 +28272,7 @@ P:
   I:
   - E: chao.p.peng!linux.intel.com
     M: Chao Peng
-    S: gerrit
-    U: chao.peng
-  - E: chao.p.peng!linux.intel.com
-    M: Chao Peng
-    S: linux-foundation:scr
-    U: chao.peng
+    S: git
   B: 0
   U: Chao Peng
 - E: chao.p.peng!linux.intel.com
@@ -28292,7 +28287,12 @@ P:
   I:
   - E: chao.p.peng!linux.intel.com
     M: Chao Peng
-    S: git
+    S: gerrit
+    U: chao.peng
+  - E: chao.p.peng!linux.intel.com
+    M: Chao Peng
+    S: linux-foundation:scr
+    U: chao.peng
   B: 0
   U: Chao Peng
 - E: chao.peng!windriver.com
@@ -33458,6 +33458,37 @@ P:
     C: Huawei
     F: "1900-01-01"
   I:
+  - M: Chris Donley
+    S: confluence
+    U: chrisd5110
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: gmane
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley (Chris)
+    S: groupsio
+  - E: christopher.donley!huawei.com
+    M: Chris Donley
+    S: jira
+    U: chrisd5110
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: linux-foundation:mls
+    U: Christopher.Donley
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: mbox
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: pipermail
+  B: 0
+  U: Chris Donley
+- E: christopher.donley!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei
+    F: "1900-01-01"
+  I:
   - E: chrisd!alum.dartmouth.org
     M: Chris Donley
     S: gerrit
@@ -33484,37 +33515,6 @@ P:
     S: onap:manual
   - E: christopher.donley!huawei.com
     S: onap:manual
-  B: 0
-  U: Chris Donley
-- E: christopher.donley!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei
-    F: "1900-01-01"
-  I:
-  - M: Chris Donley
-    S: confluence
-    U: chrisd5110
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: gmane
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley (Chris)
-    S: groupsio
-  - E: christopher.donley!huawei.com
-    M: Chris Donley
-    S: jira
-    U: chrisd5110
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: linux-foundation:mls
-    U: Christopher.Donley
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: mbox
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: pipermail
   B: 0
   U: Chris Donley
 - C: GB
@@ -40028,6 +40028,27 @@ P:
     C: IBM
     F: "1900-01-01"
   I:
+  - M: Christopher Ferris
+    S: confluence
+    U: ChristopherFerris
+  - E: chris.ferris!gmail.com
+    M: Christopher Ferris
+    S: gerrit
+    U: ChristopherFerris
+  - E: chris.ferris!gmail.com
+    M: Christopher Ferris
+    S: git
+  - M: Christopher Ferris
+    S: jira
+    U: ChristopherFerris
+  B: 0
+  U: Christopher Ferris
+- E: chrisfer!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
   - E: chrisfer!us.ibm.com
     M: Christopher Ferris
     S: git
@@ -40049,27 +40070,6 @@ P:
     M: Christopher Ferris
     S: slack
     U: cbf
-  B: 0
-  U: Christopher Ferris
-- E: chrisfer!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - M: Christopher Ferris
-    S: confluence
-    U: ChristopherFerris
-  - E: chris.ferris!gmail.com
-    M: Christopher Ferris
-    S: gerrit
-    U: ChristopherFerris
-  - E: chris.ferris!gmail.com
-    M: Christopher Ferris
-    S: git
-  - M: Christopher Ferris
-    S: jira
-    U: ChristopherFerris
   B: 0
   U: Christopher Ferris
 - E: cfreeman!nvidia.com
@@ -42957,10 +42957,13 @@ P:
   I:
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: git
+    S: groupsio
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: github
+    S: mbox
+  - E: claurence!pivotal.io
+    M: Claire Laurence
+    S: slack
     U: claurence
   B: 0
   U: Claire Laurence
@@ -42983,13 +42986,10 @@ P:
   I:
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: groupsio
+    S: git
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: mbox
-  - E: claurence!pivotal.io
-    M: Claire Laurence
-    S: slack
+    S: github
     U: claurence
   B: 0
   U: Claire Laurence
@@ -43326,6 +43326,19 @@ P:
 - C: IT
   E: claudio.fontana!huawei.com
   R:
+  - T: "2099-01-01"
+    C: Huawei
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: claudio.fontana!huawei.com
+    M: Claudio Fontana
+    S: git
+  B: 0
+  U: Claudio Fontana
+- C: IT
+  E: claudio.fontana!huawei.com
+  R:
   - T: "2100-01-01"
     C: Huawei
     F: "1900-01-01"
@@ -43350,19 +43363,6 @@ P:
   - E: claudio.fontana!huawei.com
     M: Claudio Fontana
     S: pipermail
-  B: 0
-  U: Claudio Fontana
-- C: IT
-  E: claudio.fontana!huawei.com
-  R:
-  - T: "2099-01-01"
-    C: Huawei
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: claudio.fontana!huawei.com
-    M: Claudio Fontana
-    S: git
   B: 0
   U: Claudio Fontana
 - E: imbrenda!linux.vnet.ibm.com
@@ -45582,11 +45582,7 @@ P:
   I:
   - E: walters!verbum.org
     M: Colin Walters
-    S: bugzilla
-    U: walters@verbum.org
-  - E: walters!verbum.org
-    S: bugzilla
-    U: walters@verbum.org
+    S: groupsio
   B: 0
   U: Colin Walters
 - C: US
@@ -45599,7 +45595,11 @@ P:
   I:
   - E: walters!verbum.org
     M: Colin Walters
-    S: groupsio
+    S: bugzilla
+    U: walters@verbum.org
+  - E: walters!verbum.org
+    S: bugzilla
+    U: walters@verbum.org
   B: 0
   U: Colin Walters
 - E: colin.xu!intel.com
@@ -46274,8 +46274,7 @@ P:
   I:
   - E: cimes!isi.edu
     M: Connor Imes
-    S: bugzilla
-    U: cimes@isi.edu
+    S: pipermail
   B: 0
   U: Connor Imes
 - E: cimes!isi.edu
@@ -46286,7 +46285,8 @@ P:
   I:
   - E: cimes!isi.edu
     M: Connor Imes
-    S: pipermail
+    S: bugzilla
+    U: cimes@isi.edu
   B: 0
   U: Connor Imes
 - C: US
@@ -48002,6 +48002,26 @@ P:
 - C: US
   E: craigbarber!google.com
   R:
+  - T: "2100-01-01"
+    C: Google, Inc.
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: craigbarber!google.com
+    M: craigatgoogle
+    S: git
+  - E: craigbarber!google.com
+    M: Craig Barber
+    S: github
+    U: craigdbarber
+  B: 0
+  U: Craig Barber
+- C: US
+  E: craigbarber!google.com
+  R:
   - T: "2099-01-01"
     C: Google
     F: "1970-01-01"
@@ -48018,26 +48038,6 @@ P:
     M: Craig Barber
     S: slack
     U: craigbarber
-  B: 0
-  U: Craig Barber
-- C: US
-  E: craigbarber!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: craigbarber!google.com
-    M: craigatgoogle
-    S: git
-  - E: craigbarber!google.com
-    M: Craig Barber
-    S: github
-    U: craigdbarber
   B: 0
   U: Craig Barber
 - E: craigb!google.com
@@ -54709,8 +54709,8 @@ P:
     F: "1900-01-01"
   I:
   - E: ludanfeng!baidu.com
-    M: ludanfeng
-    S: git
+    M: Lu,Danfeng
+    S: groupsio
   B: 0
   U: Danfeng Lu
 - E: ludanfeng!baidu.com
@@ -54720,8 +54720,8 @@ P:
     F: "1900-01-01"
   I:
   - E: ludanfeng!baidu.com
-    M: Lu,Danfeng
-    S: groupsio
+    M: ludanfeng
+    S: git
   B: 0
   U: Danfeng Lu
 - E: ludanfeng!baidu.com
@@ -60077,15 +60077,8 @@ P:
   I:
   - E: dcao!us.ibm.com
     M: Danny Cao
-    S: git
-  - E: dcao!us.ibm.com
-    M: Danny Cao
-    S: github
-    U: caod123
-  - E: dcao!us.ibm.com
-    M: Danny Cao
-    S: slack
-    U: dannycao
+    S: gerrit
+    U: caod
   B: 0
   U: Danny Cao
 - E: dcao!us.ibm.com
@@ -60096,8 +60089,15 @@ P:
   I:
   - E: dcao!us.ibm.com
     M: Danny Cao
-    S: gerrit
-    U: caod
+    S: git
+  - E: dcao!us.ibm.com
+    M: Danny Cao
+    S: github
+    U: caod123
+  - E: dcao!us.ibm.com
+    M: Danny Cao
+    S: slack
+    U: dannycao
   B: 0
   U: Danny Cao
 - C: US

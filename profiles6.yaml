@@ -6831,8 +6831,7 @@ P:
   I:
   - E: maik.riechert!arcor.de
     M: Maik Riechert
-    S: github
-    U: letmaik
+    S: git
   B: 0
   U: Maik Riechert
 - C: US
@@ -6845,7 +6844,8 @@ P:
   I:
   - E: maik.riechert!arcor.de
     M: Maik Riechert
-    S: git
+    S: github
+    U: letmaik
   B: 0
   U: Maik Riechert
 - E: maik.toth!sap.com
@@ -14352,6 +14352,22 @@ P:
 - E: skidam!google.com
   R:
   - T: "2100-01-01"
+    C: Google, Inc.
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: female
+  I:
+  - E: skidam!google.com
+    M: Maria Skidanova
+    S: github
+    U: utka
+  B: 0
+  U: Maria Skidanova
+- E: skidam!google.com
+  R:
+  - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
   - T: "2099-01-01"
@@ -14365,22 +14381,6 @@ P:
   - E: skidanova.maria!gmail.com
     M: Maria Skidanova
     S: git
-  B: 0
-  U: Maria Skidanova
-- E: skidam!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: female
-  I:
-  - E: skidam!google.com
-    M: Maria Skidanova
-    S: github
-    U: utka
   B: 0
   U: Maria Skidanova
 - E: maria.toeroe!ericsson.com
@@ -15855,6 +15855,23 @@ P:
     C: Samsung SDS
     F: "1970-01-01"
   - T: "2099-01-01"
+    C: Independent
+    F: "2019-02-08"
+  S: male
+  I:
+  - E: mark!philoserf.com
+    M: Mark Ayers
+    S: slack
+    U: philoserf
+  B: 0
+  U: Mark Ayers
+- C: US
+  E: mark!philoserf.com
+  R:
+  - T: "2019-02-08"
+    C: Samsung SDS
+    F: "1970-01-01"
+  - T: "2099-01-01"
     C: Samsung SDS
     F: "1970-01-01"
   - T: "2099-01-01"
@@ -15868,23 +15885,6 @@ P:
   - E: mark!philoserf.com
     M: Mark Ayers
     S: github
-    U: philoserf
-  B: 0
-  U: Mark Ayers
-- C: US
-  E: mark!philoserf.com
-  R:
-  - T: "2019-02-08"
-    C: Samsung SDS
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Independent
-    F: "2019-02-08"
-  S: male
-  I:
-  - E: mark!philoserf.com
-    M: Mark Ayers
-    S: slack
     U: philoserf
   B: 0
   U: Mark Ayers
@@ -16105,6 +16105,19 @@ P:
 - C: GB
   E: broonie!sirena.org.uk
   R:
+  - T: "2099-01-01"
+    C: Linaro
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: broonie!sirena.org.uk
+    M: broonie@sirena.org.uk
+    S: git
+  B: 0
+  U: Mark Brown
+- C: GB
+  E: broonie!sirena.org.uk
+  R:
   - T: "2100-01-01"
     C: Wolfson Microelectronics
     F: "1900-01-01"
@@ -16128,19 +16141,6 @@ P:
   - E: mkbrown32!hotmail.com
     M: Mark Brown
     S: pipermail
-  B: 0
-  U: Mark Brown
-- C: GB
-  E: broonie!sirena.org.uk
-  R:
-  - T: "2099-01-01"
-    C: Linaro
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: broonie!sirena.org.uk
-    M: broonie@sirena.org.uk
-    S: git
   B: 0
   U: Mark Brown
 - E: mark.cave-ayland!ilande.co.uk
@@ -24367,7 +24367,8 @@ P:
   I:
   - E: Matej!auterion.com
     M: Matej Frančeškin
-    S: git
+    S: github
+    U: MatejFranceskin
   B: 0
   U: Matej Frančeškin
 - E: Matej!auterion.com
@@ -24378,8 +24379,7 @@ P:
   I:
   - E: Matej!auterion.com
     M: Matej Frančeškin
-    S: github
-    U: MatejFranceskin
+    S: git
   B: 0
   U: Matej Frančeškin
 - E: Matej.Franceskin!gmail.com
@@ -33841,17 +33841,6 @@ P:
   U: Max
 - R:
   - T: "2099-01-01"
-    C: Nokia
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Max
-    S: github
-    U: maxlambrecht
-  B: 0
-  U: Max
-- R:
-  - T: "2099-01-01"
     C: Independent
     F: "1970-01-01"
   S: male
@@ -33859,6 +33848,17 @@ P:
   - M: Max
     S: github
     U: Zhuzhenghao
+  B: 0
+  U: Max
+- R:
+  - T: "2099-01-01"
+    C: Nokia
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Max
+    S: github
+    U: maxlambrecht
   B: 0
   U: Max
 - C: NI
@@ -37999,17 +37999,6 @@ P:
   B: 0
   U: Michael Behr
 - R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Michael Berlin
-    S: github
-    U: michael-berlin
-  B: 0
-  U: Michael Berlin
-- R:
   - T: "2015-02-01"
     C: Independent
     F: "1970-01-01"
@@ -38021,6 +38010,17 @@ P:
   - M: Michael Berlin
     S: github
     U: mberlin-bot
+  B: 0
+  U: Michael Berlin
+- R:
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Michael Berlin
+    S: github
+    U: michael-berlin
   B: 0
   U: Michael Berlin
 - E: mberlin!google.com
@@ -39900,10 +39900,12 @@ P:
     C: HP
     F: "1900-01-01"
   I:
+  - M: Michael Hansen
+    S: bugzilla
+    U: michael.j.hansen
   - E: michael.j.hansen!hp.com
     M: Michael Hansen
-    S: bugzilla
-    U: michael.j.hansen@hp.com
+    S: git
   B: 0
   U: Michael Hansen
 - E: michael.j.hansen!hp.com
@@ -39912,12 +39914,10 @@ P:
     C: HP
     F: "1900-01-01"
   I:
-  - M: Michael Hansen
-    S: bugzilla
-    U: michael.j.hansen
   - E: michael.j.hansen!hp.com
     M: Michael Hansen
-    S: git
+    S: bugzilla
+    U: michael.j.hansen@hp.com
   B: 0
   U: Michael Hansen
 - C: US
@@ -44418,6 +44418,18 @@ P:
     C: Nokia
     F: "1900-01-01"
   I:
+  - E: michal.1.dziedzic!nokia.com
+    M: Michal Dziedzic
+    S: jira
+    U: micdzied
+  B: 0
+  U: Michal Dziedzic
+- E: michal.1.dziedzic!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+  I:
   - M: Michal Dziedzic
     S: confluence
     U: micdzied
@@ -44437,18 +44449,6 @@ P:
     S: git
   - E: michal.1.dziedzic!nokia.com
     M: Micha Dziedzic
-    S: jira
-    U: micdzied
-  B: 0
-  U: Michal Dziedzic
-- E: michal.1.dziedzic!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  I:
-  - E: michal.1.dziedzic!nokia.com
-    M: Michal Dziedzic
     S: jira
     U: micdzied
   B: 0
@@ -44992,17 +44992,6 @@ P:
   U: Michal Pawlowski
 - E: mprivozn!redhat.com
   R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  I:
-  - E: mprivozn!redhat.com
-    M: Michal Privoznik
-    S: git
-  B: 0
-  U: Michal Privoznik
-- E: mprivozn!redhat.com
-  R:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
@@ -45013,6 +45002,17 @@ P:
   - E: mprivozn!redhat.com
     M: Michal Privoznik
     S: pipermail
+  B: 0
+  U: Michal Privoznik
+- E: mprivozn!redhat.com
+  R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  I:
+  - E: mprivozn!redhat.com
+    M: Michal Privoznik
+    S: git
   B: 0
   U: Michal Privoznik
 - E: michalx.ptacek!intel.com
@@ -57135,30 +57135,6 @@ P:
     F: "1970-01-01"
   - T: "2015-06-01"
     C: Lenovo
-    F: "1970-01-01"
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-  - T: "2099-01-01"
-    C: IBM
-    F: "2015-06-01"
-  S: male
-  I:
-  - E: mbauer!us.ibm.com
-    M: Morgan Bauer
-    S: git
-  B: 0
-  U: Morgan Bauer
-- E: mbauer!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  - T: "2014-09-01"
-    C: IBM
-    F: "1970-01-01"
-  - T: "2015-06-01"
-    C: Lenovo
     F: "2014-09-01"
   - T: "2099-01-01"
     C: IBM
@@ -57176,6 +57152,30 @@ P:
     M: morgan bauer
     S: slack
     U: mbauer
+  B: 0
+  U: Morgan Bauer
+- E: mbauer!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  - T: "2014-09-01"
+    C: IBM
+    F: "1970-01-01"
+  - T: "2015-06-01"
+    C: Lenovo
+    F: "1970-01-01"
+  - T: "2015-06-01"
+    C: Lenovo
+    F: "2014-09-01"
+  - T: "2099-01-01"
+    C: IBM
+    F: "2015-06-01"
+  S: male
+  I:
+  - E: mbauer!us.ibm.com
+    M: Morgan Bauer
+    S: git
   B: 0
   U: Morgan Bauer
 - C: US
