@@ -46,8 +46,8 @@ P:                                          # 'profiles' (profile holds possible
 
 - To compile locally use: `make`.
 - To run local sync service: `./serve.sh`.
-- To do request to local service (check service used for reacting to PRs): `./check.sh`.
-- To do request to local service (sync service used for reacting to push to master branch): `./sync.sh`.
+- To do request to local service (check service used for reacting to PRs): `PR=pr_number ./pr.sh`.
+- To do request to local service (sync service used for reacting to push to master branch): `./push.sh`.
 
 
 # Docker
