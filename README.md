@@ -64,3 +64,8 @@ To deploy on Kubernetes
 - Eventually adjust Helm chart to your needs, including `setup.sh` and `delete.sh` shell scripts.
 - Run from repository root directory (test env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.test.secret`" ./request.sh ``.
 - Run from repository root directory (prod env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.prod.secret`" ./request.sh ``.
+
+# GitHub actions
+
+- Add you sync URL (for example AWS ELB of gitdm service stored in `helm/gitdm/secrets/SYNC_URL.test.secret`) in GitHub repository (Settings -> Secrets -> New secret: `SYNC_URL`).
+- Configre actions in `.github/workflows/`, for example: `.github/workflows/push.yaml`.
