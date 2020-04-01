@@ -1,0 +1,66 @@
+{{- $skipSync := .Values.skipSync -}}
+{{ if not $skipSync }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: '{{ .Values.namespace }}'
+  name: '{{ .Values.syncServiceName }}'
+  labels:
+    name: gitdm
+spec:
+  ports:
+  - port: 7070
+    targetPort: 7070
+  selector:
+    name: gitdm
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Pod
+metadata:
+  namespace: '{{ .Values.namespace }}'
+  name: '{{ .Values.syncPodName }}'
+  labels:
+    name: gitdm
+spec:
+  containers:
+  - command:
+    - {{ .Values.syncCommand }}
+    name: {{ .Values.syncPodName }}
+    image: {{ .Values.syncImage }}
+    imagePullPolicy: {{ .Values.imagePullPolicy }}
+    ports:
+    - containerPort: 7070
+    env:
+    - name: DA_API_URL
+      valueFrom:
+        secretKeyRef:
+          name: {{ .Values.syncSecret }}
+          key: DA_API_URL.secret
+    - name: GITDM_GITHUB_REPO
+      valueFrom:
+        secretKeyRef:
+          name: {{ .Values.syncSecret }}
+          key: GITDM_GITHUB_REPO.secret
+    - name: GITDM_GITHUB_USER
+      valueFrom:
+        secretKeyRef:
+          name: {{ .Values.syncSecret }}
+          key: GITDM_GITHUB_USER.secret
+    - name: GITDM_GITHUB_OAUTH
+      valueFrom:
+        secretKeyRef:
+          name: {{ .Values.syncSecret }}
+          key: GITDM_GITHUB_OAUTH.secret
+    - name: GITDM_GIT_USER
+      valueFrom:
+        secretKeyRef:
+          name: {{ .Values.syncSecret }}
+          key: GITDM_GIT_USER.secret
+    - name: GITDM_GIT_EMAIL
+      valueFrom:
+        secretKeyRef:
+          name: {{ .Values.syncSecret }}
+          key: GITDM_GIT_EMAIL.secret
+  restartPolicy: {{ .Values.syncRestartPolicy }}

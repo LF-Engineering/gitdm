@@ -1,0 +1,23 @@
+# skipSecrets (will not attempt to create secrets, if you want to create new secrets delete current secrets first and do not set this flag)
+# skipNamespace (will skip gitdm namespace creation)
+# skiSync (will skip deploying main sync pod)
+# skipSecrets: 1
+# skipNamespace: 1
+# skiSync: 1
+# dryRun: '1'
+# Standard values:
+deployEnv: 'set-me'
+dryRun: ''
+concurrencyPolicy: Forbid
+fullnameOverride: gitdm
+imagePullPolicy: Always
+syncCommand: '/usr/bin/gitdm-sync'
+syncImage: 'lukaszgryglicki/lf-gitdm-sync'
+syncServiceName: gitdm-service
+syncPodName: gitdm
+syncRestartPolicy: Always
+syncSecret: gitdm-secret
+name: gitdm
+namespace: gitdm
+nameOverride: gitdm
+secretType: Opaque
