@@ -115,7 +115,7 @@ func fatalf(pnic bool, f string, a ...interface{}) {
 	fatalOnError(fmt.Errorf(f, a...), pnic)
 }
 
-func execCommand(cmdAndArgs []string, env map[string]string, dbg int) (string, bool) {
+func execCommand(cmdAndArgs []string, env map[string]string, dbg int, allowedExitCodes []int) (string, bool) {
 	if dbg > 0 {
 		if len(env) > 0 {
 			fmt.Printf("%+v %s\n", env, strings.Join(cmdAndArgs, " "))
@@ -144,6 +144,15 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int) (string, b
 	}
 	err := cmd.Wait()
 	if err != nil || dbg > 1 {
+		for _, allowed := range allowedExitCodes {
+			if err.Error() == fmt.Sprintf("exit status %d", allowed) {
+				if dbg > 0 {
+					fmt.Printf("exit code %d but this is allowed\n", allowed)
+				}
+				err = nil
+				break
+			}
+		}
 		outStr := stdOut.String()
 		errStr := stdErr.String()
 		fmt.Printf("STDOUT:\n%v\n", outStr)
@@ -226,8 +235,7 @@ func syncRepo() bool {
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
 	fmt.Printf("git status *.yaml\n")
-	//status, ok := execCommand([]string{"git", "status"}, nil, 1)
-	status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1)
+	status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1, []int{})
 	if !ok {
 		return false
 	}
@@ -236,30 +244,30 @@ func syncRepo() bool {
 		return true
 	}
 	fmt.Printf("git add *.yaml\n")
-	_, ok = execCommand([]string{"git", "add", "*.yaml"}, nil, 1)
+	_, ok = execCommand([]string{"git", "add", "*.yaml"}, nil, 1, []int{})
 	if !ok {
 		return false
 	}
 	fmt.Printf("git config user.name get\n")
-	cfg, ok := execCommand([]string{"git", "config", "--global", "user.namea"}, nil, 1)
+	cfg, ok := execCommand([]string{"git", "config", "--global", "user.name"}, nil, 1, []int{1})
 	if !ok {
 		return false
 	}
 	if strings.TrimSpace(cfg) == "" {
 		fmt.Printf("git config user.name set\n")
-		_, ok = execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil, 0)
+		_, ok = execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil, 0, []int{})
 		if !ok {
 			return false
 		}
 	}
 	fmt.Printf("git config user.email get\n")
-	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email"}, nil, 1)
+	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email"}, nil, 1, []int{1})
 	if !ok {
 		return false
 	}
 	if strings.TrimSpace(cfg) == "" {
 		fmt.Printf("git config user.email set\n")
-		_, ok = execCommand([]string{"git", "config", "--global", "user.email", os.Getenv("GITDM_GIT_EMAIL")}, nil, 0)
+		_, ok = execCommand([]string{"git", "config", "--global", "user.email", os.Getenv("GITDM_GIT_EMAIL")}, nil, 0, []int{})
 		if !ok {
 			return false
 		}
@@ -274,6 +282,7 @@ func syncRepo() bool {
 		},
 		nil,
 		1,
+		[]int{},
 	)
 	if !ok {
 		return false
@@ -293,6 +302,7 @@ func syncRepo() bool {
 		},
 		nil,
 		0,
+		[]int{},
 	)
 	if !ok {
 		return false
@@ -335,10 +345,10 @@ func handlePush(w http.ResponseWriter, req *http.Request) {
 	}()
 	gw = w
 	fmt.Printf("Cleanup repo before\n")
-	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
+	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	defer func() {
 		fmt.Printf("Cleanup repo after\n")
-		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
+		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	}()
 	fmt.Printf("git clone\n")
 	cmd := []string{
@@ -352,7 +362,7 @@ func handlePush(w http.ResponseWriter, req *http.Request) {
 		),
 	}
 	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
-	execCommand(cmd, env, 0)
+	execCommand(cmd, env, 0, []int{})
 	fmt.Printf("get wd\n")
 	wd, err := os.Getwd()
 	if fatalOnError(err, false) {
@@ -402,10 +412,10 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 	}
 	fmt.Printf("checking PR %d\n", prNumber)
 	fmt.Printf("Cleanup repo before\n")
-	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
+	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	defer func() {
 		fmt.Printf("Cleanup repo after\n")
-		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
+		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	}()
 	fmt.Printf("git clone\n")
 	cmd := []string{
@@ -419,7 +429,7 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 		),
 	}
 	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
-	execCommand(cmd, env, 0)
+	execCommand(cmd, env, 0, []int{})
 	fmt.Printf("get wd\n")
 	wd, err := os.Getwd()
 	if fatalOnError(err, false) {
@@ -434,17 +444,17 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 		_ = os.Chdir(wd)
 	}()
 	fmt.Printf("git fetch origin\n")
-	_, ok := execCommand([]string{"git", "fetch", "origin", fmt.Sprintf("pull/%d/head:gitdm-sync-%d", prNumber, prNumber)}, nil, 1)
+	_, ok := execCommand([]string{"git", "fetch", "origin", fmt.Sprintf("pull/%d/head:gitdm-sync-%d", prNumber, prNumber)}, nil, 1, []int{})
 	if !ok {
 		return
 	}
 	fmt.Printf("git checkout\n")
-	_, ok = execCommand([]string{"git", "checkout", fmt.Sprintf("gitdm-sync-%d", prNumber)}, nil, 1)
+	_, ok = execCommand([]string{"git", "checkout", fmt.Sprintf("gitdm-sync-%d", prNumber)}, nil, 1, []int{})
 	if !ok {
 		return
 	}
 	defer func() {
-		_, _ = execCommand([]string{"git", "checkout", "master"}, nil, 1)
+		_, _ = execCommand([]string{"git", "checkout", "master"}, nil, 1, []int{})
 	}()
 	fmt.Printf("check repo PR %d\n", prNumber)
 	if !checkRepo() {

@@ -55,7 +55,7 @@ P:                                          # 'profiles' (profile holds possible
 - Build docker image: `DOCKER_USER=... docker/build_image.sh`.
 - Run it: `DOCKER_USER=... docker/run.sh`. It will serve on 17070 instead of 7070 port.
 - Shell into the container: `DOCKER_USER=... docker/shell.sh`.
-- Test request, `SYNC_URL` must be provided to specify non-default 17070 port: `SYNC_URL='127.0.0.1:17070' ./request.sh`.
+- Test request, `SYNC_URL` must be provided to specify non-default 17070 port: `SYNC_URL='127.0.0.1:17070' ./push.sh`.
 
 # Kubernetes/Helm
 
@@ -63,8 +63,8 @@ To deploy on Kubernetes
 
 - Go to `helm/`, run (LF real world example): `./setup.sh prod`.
 - Eventually adjust Helm chart to your needs, including `setup.sh` and `delete.sh` shell scripts.
-- Run from repository root directory (test env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.test.secret`" ./request.sh ``.
-- Run from repository root directory (prod env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.prod.secret`" ./request.sh ``.
+- Run from repository root directory (test env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.test.secret`" ./push.sh ``.
+- Run from repository root directory (prod env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.prod.secret`" PR=4 ./pr.sh ``.
 
 # GitHub actions
 
