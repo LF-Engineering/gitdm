@@ -222,7 +222,7 @@ func processRepo() bool {
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
 	fmt.Printf("git status\n")
-	status, ok := execCommand([]string{"git", "status"}, nil, 1)
+	status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1)
 	if !ok {
 		return false
 	}
