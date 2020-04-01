@@ -10250,7 +10250,8 @@ P:
   I:
   - E: ronakjain!outlook.in
     M: Ronak Jain
-    S: git
+    S: github
+    U: jronak
   B: 0
   U: Ronak Jain
 - C: IN
@@ -10269,8 +10270,7 @@ P:
   I:
   - E: ronakjain!outlook.in
     M: Ronak Jain
-    S: github
-    U: jronak
+    S: git
   B: 0
   U: Ronak Jain
 - E: ronakvyasa.nmims!gmail.com
@@ -18318,7 +18318,8 @@ P:
   I:
   - E: sahaj.sarup!linaro.org
     M: Sahaj Sarup
-    S: git
+    S: slack
+    U: sahaj.sarup
   B: 0
   U: Sahaj Sarup
 - C: IN
@@ -18330,8 +18331,7 @@ P:
   I:
   - E: sahaj.sarup!linaro.org
     M: Sahaj Sarup
-    S: slack
-    U: sahaj.sarup
+    S: git
   B: 0
   U: Sahaj Sarup
 - C: US
@@ -21524,8 +21524,7 @@ P:
   I:
   - E: samuel.t.brown!gmail.com
     M: Samuel Brown
-    S: github
-    U: samueltbrown
+    S: git
   B: 0
   U: Samuel Brown
 - C: US
@@ -21538,7 +21537,8 @@ P:
   I:
   - E: samuel.t.brown!gmail.com
     M: Samuel Brown
-    S: git
+    S: github
+    U: samueltbrown
   B: 0
   U: Samuel Brown
 - C: ES
@@ -24273,7 +24273,7 @@ P:
   I:
   - E: santosh.shilimkar!ti.com
     M: Santosh Shilimkar
-    S: git
+    S: pipermail
   B: 0
   U: Santosh Shilimkar
 - E: santosh.shilimkar!ti.com
@@ -24284,7 +24284,7 @@ P:
   I:
   - E: santosh.shilimkar!ti.com
     M: Santosh Shilimkar
-    S: pipermail
+    S: git
   B: 0
   U: Santosh Shilimkar
 - C: US
@@ -25326,8 +25326,7 @@ P:
   I:
   - E: sargun!sargun.me
     M: Sargun Dhillon
-    S: github
-    U: sargun
+    S: git
   B: 0
   U: Sargun Dhillon
 - C: US
@@ -25340,7 +25339,8 @@ P:
   I:
   - E: sargun!sargun.me
     M: Sargun Dhillon
-    S: git
+    S: github
+    U: sargun
   B: 0
   U: Sargun Dhillon
 - E: saritz!mellanox.com
@@ -30990,6 +30990,18 @@ P:
   U: Sebastien Badia
 - E: sebastien.boeuf!intel.com
   R:
+  - T: "2099-01-01"
+    C: Intel
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: sebastien.boeuf!intel.com
+    M: Sebastien Boeuf
+    S: groupsio
+  B: 0
+  U: Sebastien Boeuf
+- E: sebastien.boeuf!intel.com
+  R:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
@@ -31005,18 +31017,6 @@ P:
     M: Sebastien Boeuf
     S: github
     U: sboeuf
-  B: 0
-  U: Sebastien Boeuf
-- E: sebastien.boeuf!intel.com
-  R:
-  - T: "2099-01-01"
-    C: Intel
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: sebastien.boeuf!intel.com
-    M: Sebastien Boeuf
-    S: groupsio
   B: 0
   U: Sebastien Boeuf
 - E: sebastien.bortolussi!orange.com
@@ -32824,10 +32824,12 @@ P:
     C: National Instruments
     F: "1900-01-01"
   I:
+  - M: Sergey Kizunov
+    S: bugzilla
+    U: sergey.kizunov
   - E: sergey.kizunov!ni.com
     M: Sergey Kizunov
-    S: bugzilla
-    U: sergey.kizunov@ni.com
+    S: git
   B: 0
   U: Sergey Kizunov
 - E: sergey.kizunov!ni.com
@@ -32836,12 +32838,10 @@ P:
     C: National Instruments
     F: "1900-01-01"
   I:
-  - M: Sergey Kizunov
-    S: bugzilla
-    U: sergey.kizunov
   - E: sergey.kizunov!ni.com
     M: Sergey Kizunov
-    S: git
+    S: bugzilla
+    U: sergey.kizunov@ni.com
   B: 0
   U: Sergey Kizunov
 - C: US
@@ -43315,7 +43315,8 @@ P:
   I:
   - E: silvan!auterion.com
     M: Silvan Fuhrer
-    S: git
+    S: slack
+    U: silvan
   B: 0
   U: Silvan Fuhrer
 - E: silvan!auterion.com
@@ -43326,8 +43327,7 @@ P:
   I:
   - E: silvan!auterion.com
     M: Silvan Fuhrer
-    S: slack
-    U: silvan
+    S: git
   B: 0
   U: Silvan Fuhrer
 - E: silvan!quobyte.com
@@ -44325,12 +44325,8 @@ P:
   S: male
   I:
   - E: spasquie!redhat.com
-    M: pasquier-s
-    S: git
-  - E: spasquie!redhat.com
     M: Simon Pasquier
-    S: github
-    U: simonpasquier
+    S: git
   B: 0
   U: Simon Pasquier
 - E: spasquie!redhat.com
@@ -44350,8 +44346,12 @@ P:
   S: male
   I:
   - E: spasquie!redhat.com
-    M: Simon Pasquier
+    M: pasquier-s
     S: git
+  - E: spasquie!redhat.com
+    M: Simon Pasquier
+    S: github
+    U: simonpasquier
   B: 0
   U: Simon Pasquier
 - E: sque!chromium.org
@@ -46339,12 +46339,9 @@ P:
   S: male
   I:
   - E: snyk-bot!snyk.io
-    M: snyk-bot
+    M: Snyk bot
     S: git
-  - M: Snyk bot
-    S: github
-    U: snyk-bot
-  B: 1
+  B: 0
   U: Snyk bot
 - E: snyk-bot!snyk.io
   R:
@@ -46354,9 +46351,12 @@ P:
   S: male
   I:
   - E: snyk-bot!snyk.io
-    M: Snyk bot
+    M: snyk-bot
     S: git
-  B: 0
+  - M: Snyk bot
+    S: github
+    U: snyk-bot
+  B: 1
   U: Snyk bot
 - E: jsobota!ti.com
   R:
@@ -49519,17 +49519,6 @@ P:
   U: Srikanth Rao
 - E: srikanth.vavilapalli!ericsson.com
   R:
-  - T: "2099-01-01"
-    C: Ericsson
-    F: "1970-01-01"
-  I:
-  - E: srikanth.vavilapalli!ericsson.com
-    M: Srikanth Vavilapalli
-    S: git
-  B: 0
-  U: Srikanth Vavilapalli
-- E: srikanth.vavilapalli!ericsson.com
-  R:
   - T: "2100-01-01"
     C: Ericsson
     F: "1900-01-01"
@@ -49551,6 +49540,17 @@ P:
   - E: srikanth.vavilapalli!ericsson.com
     M: Srikanth Vavilapalli
     S: pipermail
+  B: 0
+  U: Srikanth Vavilapalli
+- E: srikanth.vavilapalli!ericsson.com
+  R:
+  - T: "2099-01-01"
+    C: Ericsson
+    F: "1970-01-01"
+  I:
+  - E: srikanth.vavilapalli!ericsson.com
+    M: Srikanth Vavilapalli
+    S: git
   B: 0
   U: Srikanth Vavilapalli
 - E: sviswanathan!twitter.com
@@ -56710,8 +56710,7 @@ P:
   I:
   - E: shuff!vecna.org
     M: Steve Huff
-    S: github
-    U: hakamadare
+    S: git
   B: 0
   U: Steve Huff
 - C: US
@@ -56733,7 +56732,8 @@ P:
   I:
   - E: shuff!vecna.org
     M: Steve Huff
-    S: git
+    S: github
+    U: hakamadare
   B: 0
   U: Steve Huff
 - E: hutch!ge.com
@@ -60787,14 +60787,3 @@ P:
     U: stuart-pollock
   B: 0
   U: Stuart Pollock
-- E: sumit.saxena!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom
-    F: "1900-01-01"
-  I:
-  - E: sumit.saxena!broadcom.com
-    M: Sumit Saxena
-    S: git
-  B: 0
-  U: Sumit Saxena

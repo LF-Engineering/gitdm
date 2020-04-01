@@ -1,4 +1,16 @@
 P:
+- E: glendarling!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: glendarling!us.ibm.com
+    M: Glen Darling (IBM)
+    S: slack
+    U: glendarling
+  B: 0
+  U: Glen Darling (IBM)
 - E: overby!sgi.com
   R:
   - T: "2100-01-01"
@@ -7802,7 +7814,7 @@ P:
   I:
   - E: guy.shapiro!mobi-wize.com
     M: Guy Shapiro
-    S: git
+    S: pipermail
   B: 0
   U: Guy Shapiro
 - C: IL
@@ -7818,7 +7830,7 @@ P:
   I:
   - E: guy.shapiro!mobi-wize.com
     M: Guy Shapiro
-    S: pipermail
+    S: git
   B: 0
   U: Guy Shapiro
 - E: sguy!mellanox.com
@@ -17610,6 +17622,20 @@ P:
 - C: DE
   E: holger.koser!sap.com
   R:
+  - T: "2099-01-01"
+    C: SAP
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: holger.koser!sap.com
+    M: Holger Koser
+    S: github
+    U: holgerkoser
+  B: 0
+  U: Holger Koser
+- C: DE
+  E: holger.koser!sap.com
+  R:
   - T: "2100-01-01"
     C: SAP
     F: "1900-01-01"
@@ -17621,20 +17647,6 @@ P:
   - E: holger.koser!sap.com
     M: Holger Koser
     S: git
-  B: 0
-  U: Holger Koser
-- C: DE
-  E: holger.koser!sap.com
-  R:
-  - T: "2099-01-01"
-    C: SAP
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: holger.koser!sap.com
-    M: Holger Koser
-    S: github
-    U: holgerkoser
   B: 0
   U: Holger Koser
 - C: DE
@@ -20439,21 +20451,6 @@ P:
   U: Hui Deng
 - E: hkang.sunysb!gmail.com
   R:
-  - T: "2099-01-01"
-    C: IBM
-    F: "1970-01-01"
-  I:
-  - E: hkang.sunysb!gmail.com
-    M: Hui Kang
-    S: gerrit
-    U: huikang
-  - E: hkang.sunysb!gmail.com
-    M: huikang
-    S: git
-  B: 0
-  U: Hui Kang
-- E: hkang.sunysb!gmail.com
-  R:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
@@ -20476,6 +20473,21 @@ P:
   - M: huikang
     S: oci_csv
     U: huikang
+  B: 0
+  U: Hui Kang
+- E: hkang.sunysb!gmail.com
+  R:
+  - T: "2099-01-01"
+    C: IBM
+    F: "1970-01-01"
+  I:
+  - E: hkang.sunysb!gmail.com
+    M: Hui Kang
+    S: gerrit
+    U: huikang
+  - E: hkang.sunysb!gmail.com
+    M: huikang
+    S: git
   B: 0
   U: Hui Kang
 - E: kangh!us.ibm.com
@@ -28935,11 +28947,9 @@ P:
   I:
   - E: istio.testing!gmail.com
     M: Istio Automation
-    S: git
-  - E: istio.testing!gmail.com
-    M: istio-bot
-    S: git
-  B: 1
+    S: github
+    U: istio-testing
+  B: 0
   U: Istio Automation
 - E: istio.testing!gmail.com
   R:
@@ -28949,9 +28959,11 @@ P:
   I:
   - E: istio.testing!gmail.com
     M: Istio Automation
-    S: github
-    U: istio-testing
-  B: 0
+    S: git
+  - E: istio.testing!gmail.com
+    M: istio-bot
+    S: git
+  B: 1
   U: Istio Automation
 - E: daniel.alexandrux.istrate!intel.com
   R:
@@ -34195,7 +34207,8 @@ P:
   I:
   - E: jaeyoung!auterion.com
     M: JaeyoungLim
-    S: git
+    S: github
+    U: Jaeyoung-Lim
   B: 0
   U: JaeyoungLim
 - E: jaeyoung!auterion.com
@@ -34206,8 +34219,7 @@ P:
   I:
   - E: jaeyoung!auterion.com
     M: JaeyoungLim
-    S: github
-    U: Jaeyoung-Lim
+    S: git
   B: 0
   U: JaeyoungLim
 - E: jalim!student.ethz.ch
@@ -49763,10 +49775,7 @@ P:
   I:
   - E: jsloyer!gmail.com
     M: Jeff Sloyer
-    S: groupsio
-  - E: jsloyer!gmail.com
-    M: Jeff Sloyer
-    S: mbox
+    S: git
   B: 0
   U: Jeff Sloyer
 - E: jsloyer!gmail.com
@@ -49778,7 +49787,10 @@ P:
   I:
   - E: jsloyer!gmail.com
     M: Jeff Sloyer
-    S: git
+    S: groupsio
+  - E: jsloyer!gmail.com
+    M: Jeff Sloyer
+    S: mbox
   B: 0
   U: Jeff Sloyer
 - R:
@@ -54863,6 +54875,21 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
+  - E: sen.zhang!windriver.com
+    M: Jesse Zhang
+    S: bugzilla
+    U: sen.zhang@windriver.com
+  - E: sen.zhang!windriver.com
+    S: bugzilla
+    U: sen.zhang@windriver.com
+  B: 0
+  U: Jesse Zhang
+- E: sen.zhang!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
   - M: Jesse Zhang
     S: bugzilla
     U: sen.zhang
@@ -54872,21 +54899,6 @@ P:
   - E: sen.zhang!windriver.com
     M: Jesse Zhang
     S: pipermail
-  B: 0
-  U: Jesse Zhang
-- E: sen.zhang!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
-  I:
-  - E: sen.zhang!windriver.com
-    M: Jesse Zhang
-    S: bugzilla
-    U: sen.zhang@windriver.com
-  - E: sen.zhang!windriver.com
-    S: bugzilla
-    U: sen.zhang@windriver.com
   B: 0
   U: Jesse Zhang
 - E: 857339844!qq.com
@@ -55654,8 +55666,10 @@ P:
   I:
   - E: anthonyliu!zju.edu.cn
     M: Ji'an Liu
-    S: github
-    U: ZeroMagic
+    S: git
+  - E: anthonyliu!zju.edu.cn
+    M: ZeroMagic
+    S: git
   B: 0
   U: Ji'an Liu
 - E: anthonyliu!zju.edu.cn
@@ -55667,10 +55681,8 @@ P:
   I:
   - E: anthonyliu!zju.edu.cn
     M: Ji'an Liu
-    S: git
-  - E: anthonyliu!zju.edu.cn
-    M: ZeroMagic
-    S: git
+    S: github
+    U: ZeroMagic
   B: 0
   U: Ji'an Liu
 - C: KR
@@ -61643,15 +61655,3 @@ P:
     S: git
   B: 0
   U: Joaquim Rocha
-- E: jturner!squarespace.com
-  R:
-  - T: "2100-01-01"
-    C: Squarespace
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jturner!squarespace.com
-    M: John Turner
-    S: git
-  B: 0
-  U: John Turner

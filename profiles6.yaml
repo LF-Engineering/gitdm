@@ -2624,18 +2624,6 @@ P:
 - C: CH
   E: luke!snabb.co
   R:
-  - T: "2099-01-01"
-    C: Snabb
-    F: "1970-01-01"
-  I:
-  - E: luke!snabb.co
-    M: Luke Gorrie
-    S: git
-  B: 0
-  U: Luke Gorrie
-- C: CH
-  E: luke!snabb.co
-  R:
   - T: "2100-01-01"
     C: Snabb
     F: "1900-01-01"
@@ -2646,6 +2634,18 @@ P:
   - E: luke!snabb.co
     M: Luke Gorrie
     S: pipermail
+  B: 0
+  U: Luke Gorrie
+- C: CH
+  E: luke!snabb.co
+  R:
+  - T: "2099-01-01"
+    C: Snabb
+    F: "1970-01-01"
+  I:
+  - E: luke!snabb.co
+    M: Luke Gorrie
+    S: git
   B: 0
   U: Luke Gorrie
 - C: US
@@ -6831,8 +6831,7 @@ P:
   I:
   - E: maik.riechert!arcor.de
     M: Maik Riechert
-    S: github
-    U: letmaik
+    S: git
   B: 0
   U: Maik Riechert
 - C: US
@@ -6845,7 +6844,8 @@ P:
   I:
   - E: maik.riechert!arcor.de
     M: Maik Riechert
-    S: git
+    S: github
+    U: letmaik
   B: 0
   U: Maik Riechert
 - E: maik.toth!sap.com
@@ -17039,17 +17039,6 @@ P:
   I:
   - E: mark.b.kavanagh!intel.com
     M: Mark Kavanagh
-    S: pipermail
-  B: 0
-  U: Mark Kavanagh
-- E: mark.b.kavanagh!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: mark.b.kavanagh!intel.com
-    M: Mark Kavanagh
     S: gerrit
     U: mark_kavanagh
   - E: mark.b.kavanagh!intel.com
@@ -17077,6 +17066,17 @@ P:
     S: mbox
   - E: mark.b.kavanagh!intel.com
     M: Kavanagh, Mark B
+    S: pipermail
+  B: 0
+  U: Mark Kavanagh
+- E: mark.b.kavanagh!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: mark.b.kavanagh!intel.com
+    M: Mark Kavanagh
     S: pipermail
   B: 0
   U: Mark Kavanagh
@@ -18429,6 +18429,22 @@ P:
 - C: GB
   E: booyaabooyaabooyaa!gmail.com
   R:
+  - T: "2018-04-01"
+    C: Mizuho Bank
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Made Tech
+    F: "2018-04-01"
+  S: male
+  I:
+  - E: booyaabooyaabooyaa!gmail.com
+    M: booyaa
+    S: git
+  B: 0
+  U: Mark Sta Ana
+- C: GB
+  E: booyaabooyaabooyaa!gmail.com
+  R:
   - T: "2100-01-01"
     C: Mizuho Bank, Ltd.
     F: "1900-01-01"
@@ -18453,22 +18469,6 @@ P:
   - M: Mark Sta Ana
     S: oci_csv
     U: booyaa
-  B: 0
-  U: Mark Sta Ana
-- C: GB
-  E: booyaabooyaabooyaa!gmail.com
-  R:
-  - T: "2018-04-01"
-    C: Mizuho Bank
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Made Tech
-    F: "2018-04-01"
-  S: male
-  I:
-  - E: booyaabooyaabooyaa!gmail.com
-    M: booyaa
-    S: git
   B: 0
   U: Mark Sta Ana
 - R:
@@ -31680,8 +31680,7 @@ P:
   I:
   - E: maetugr!gmail.com
     M: Matthias Grob
-    S: slack
-    U: maetugr
+    S: git
   B: 0
   U: Matthias Grob
 - E: maetugr!gmail.com
@@ -31692,7 +31691,8 @@ P:
   I:
   - E: maetugr!gmail.com
     M: Matthias Grob
-    S: git
+    S: slack
+    U: maetugr
   B: 0
   U: Matthias Grob
 - E: matthias.hahn!intel.com
@@ -37999,17 +37999,6 @@ P:
   B: 0
   U: Michael Behr
 - R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Michael Berlin
-    S: github
-    U: michael-berlin
-  B: 0
-  U: Michael Berlin
-- R:
   - T: "2015-02-01"
     C: Independent
     F: "1970-01-01"
@@ -38021,6 +38010,17 @@ P:
   - M: Michael Berlin
     S: github
     U: mberlin-bot
+  B: 0
+  U: Michael Berlin
+- R:
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Michael Berlin
+    S: github
+    U: michael-berlin
   B: 0
   U: Michael Berlin
 - E: mberlin!google.com
@@ -44396,7 +44396,8 @@ P:
   I:
   - E: michael.cwienczek!gmail.com
     M: Michal Cwienczek
-    S: git
+    S: github
+    U: mcwienczek
   B: 0
   U: Michal Cwienczek
 - C: NL
@@ -44408,8 +44409,7 @@ P:
   I:
   - E: michael.cwienczek!gmail.com
     M: Michal Cwienczek
-    S: github
-    U: mcwienczek
+    S: git
   B: 0
   U: Michal Cwienczek
 - E: michal.1.dziedzic!nokia.com
@@ -50824,7 +50824,8 @@ P:
   I:
   - E: mdub!dogbiscuit.org
     M: Mike Williams
-    S: git
+    S: github
+    U: mdub
   B: 0
   U: Mike Williams
 - C: AU
@@ -50836,8 +50837,7 @@ P:
   I:
   - E: mdub!dogbiscuit.org
     M: Mike Williams
-    S: github
-    U: mdub
+    S: git
   B: 0
   U: Mike Williams
 - E: michael.williamson!criticallink.com
@@ -51005,18 +51005,6 @@ P:
   U: Mike Zupan
 - C: US
   R:
-  - T: "2099-01-01"
-    C: Rackspace
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Mike
-    S: github
-    U: thequailman
-  B: 0
-  U: Mike
-- C: US
-  R:
   - T: "2016-07-01"
     C: Independent
     F: "1970-01-01"
@@ -51031,6 +51019,18 @@ P:
   - M: Mike
     S: github
     U: perryao
+  B: 0
+  U: Mike
+- C: US
+  R:
+  - T: "2099-01-01"
+    C: Rackspace
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Mike
+    S: github
+    U: thequailman
   B: 0
   U: Mike
 - R:
@@ -56857,31 +56857,6 @@ P:
   - T: "2011-11-20"
     C: Rackspace
     F: "1970-01-01"
-  - T: "2015-08-01"
-    C: HP
-    F: "2011-11-20"
-  - T: "2015-08-16"
-    C: In August
-    F: "2015-08-01"
-  - T: "2016-06-12"
-    C: IBM
-    F: "2015-08-16"
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "2016-06-12"
-  S: male
-  I:
-  - E: mordred!inaugust.com
-    M: Monty Taylor
-    S: git
-  B: 0
-  U: Monty Taylor
-- C: US
-  E: mordred!inaugust.com
-  R:
-  - T: "2011-11-20"
-    C: Rackspace
-    F: "1970-01-01"
   - T: "2099-01-01"
     C: Red Hat
     F: "1970-01-01"
@@ -56903,6 +56878,31 @@ P:
     M: Monty Taylor
     S: github
     U: emonty
+  B: 0
+  U: Monty Taylor
+- C: US
+  E: mordred!inaugust.com
+  R:
+  - T: "2011-11-20"
+    C: Rackspace
+    F: "1970-01-01"
+  - T: "2015-08-01"
+    C: HP
+    F: "2011-11-20"
+  - T: "2015-08-16"
+    C: In August
+    F: "2015-08-01"
+  - T: "2016-06-12"
+    C: IBM
+    F: "2015-08-16"
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "2016-06-12"
+  S: male
+  I:
+  - E: mordred!inaugust.com
+    M: Monty Taylor
+    S: git
   B: 0
   U: Monty Taylor
 - C: US
@@ -57105,6 +57105,28 @@ P:
   U: Morena De Liddo
 - E: mbauer!us.ibm.com
   R:
+  - T: "2014-09-01"
+    C: IBM
+    F: "1970-01-01"
+  - T: "2015-06-01"
+    C: Lenovo
+    F: "1970-01-01"
+  - T: "2015-06-01"
+    C: Lenovo
+    F: "2014-09-01"
+  - T: "2099-01-01"
+    C: IBM
+    F: "2015-06-01"
+  S: male
+  I:
+  - E: mbauer!us.ibm.com
+    M: Morgan Bauer
+    S: gerrit
+    U: MHBauer
+  B: 0
+  U: Morgan Bauer
+- E: mbauer!us.ibm.com
+  R:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
@@ -57154,28 +57176,6 @@ P:
   - E: mbauer!us.ibm.com
     M: Morgan Bauer
     S: git
-  B: 0
-  U: Morgan Bauer
-- E: mbauer!us.ibm.com
-  R:
-  - T: "2014-09-01"
-    C: IBM
-    F: "1970-01-01"
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1970-01-01"
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-  - T: "2099-01-01"
-    C: IBM
-    F: "2015-06-01"
-  S: male
-  I:
-  - E: mbauer!us.ibm.com
-    M: Morgan Bauer
-    S: gerrit
-    U: MHBauer
   B: 0
   U: Morgan Bauer
 - C: US
@@ -59889,8 +59889,8 @@ P:
     F: "1900-01-01"
   I:
   - E: myeong.jeong!samsung.com
-    M: MJ
-    S: groupsio
+    M: mj
+    S: git
   B: 0
   U: Myeong Jeong
 - E: myeong.jeong!samsung.com
@@ -59900,8 +59900,8 @@ P:
     F: "1900-01-01"
   I:
   - E: myeong.jeong!samsung.com
-    M: mj
-    S: git
+    M: MJ
+    S: groupsio
   B: 0
   U: Myeong Jeong
 - E: mg.jeong!gmail.com
@@ -60224,19 +60224,6 @@ P:
 - C: KR
   E: myungjoo.ham!samsung.com
   R:
-  - T: "2099-01-01"
-    C: Samsung
-    F: "1970-01-01"
-  I:
-  - E: myungjoo.ham!samsung.com
-    M: MyungJoo Ham
-    S: github
-    U: myungjoo
-  B: 0
-  U: MyungJoo Ham
-- C: KR
-  E: myungjoo.ham!samsung.com
-  R:
   - T: "2100-01-01"
     C: Samsung
     F: "1900-01-01"
@@ -60247,6 +60234,19 @@ P:
   - E: myungjoo.ham!samsung.com
     M: MyungJoo Ham
     S: git
+  B: 0
+  U: MyungJoo Ham
+- C: KR
+  E: myungjoo.ham!samsung.com
+  R:
+  - T: "2099-01-01"
+    C: Samsung
+    F: "1970-01-01"
+  I:
+  - E: myungjoo.ham!samsung.com
+    M: MyungJoo Ham
+    S: github
+    U: myungjoo
   B: 0
   U: MyungJoo Ham
 - C: US
