@@ -1,6 +1,6 @@
 # gitdm
 
-gitdm for the LF - human readable YAML file containing affiliations data
+gitdm for the LF - human readable YAML file containing affiliations data.
 
 
 # Adding/Updating affiliation
