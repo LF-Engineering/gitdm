@@ -29895,7 +29895,8 @@ P:
   I:
   - E: travis!modalai.com
     M: Travis Bottalico
-    S: git
+    S: slack
+    U: travis364
   B: 0
   U: Travis Bottalico
 - E: travis!modalai.com
@@ -29906,8 +29907,7 @@ P:
   I:
   - E: travis!modalai.com
     M: Travis Bottalico
-    S: slack
-    U: travis364
+    S: git
   B: 0
   U: Travis Bottalico
 - C: US
@@ -31719,6 +31719,21 @@ P:
     C: Codethink
     F: "1900-01-01"
   I:
+  - E: tristan.vanberkom!codethink.co.uk
+    M: Tristan Van Berkom
+    S: bugzilla
+    U: tristan.vanberkom@codethink.co.uk
+  - E: tristan.vanberkom!codethink.co.uk
+    S: bugzilla
+    U: tristan.vanberkom@codethink.co.uk
+  B: 0
+  U: Tristan Van Berkom
+- E: tristan.vanberkom!codethink.co.uk
+  R:
+  - T: "2100-01-01"
+    C: Codethink
+    F: "1900-01-01"
+  I:
   - M: Tristan Van Berkom
     S: bugzilla
     U: tristan.vanberkom
@@ -31728,21 +31743,6 @@ P:
   - E: tristan.vanberkom!codethink.co.uk
     M: Tristan Van Berkom
     S: pipermail
-  B: 0
-  U: Tristan Van Berkom
-- E: tristan.vanberkom!codethink.co.uk
-  R:
-  - T: "2100-01-01"
-    C: Codethink
-    F: "1900-01-01"
-  I:
-  - E: tristan.vanberkom!codethink.co.uk
-    M: Tristan Van Berkom
-    S: bugzilla
-    U: tristan.vanberkom@codethink.co.uk
-  - E: tristan.vanberkom!codethink.co.uk
-    S: bugzilla
-    U: tristan.vanberkom@codethink.co.uk
   B: 0
   U: Tristan Van Berkom
 - R:
@@ -31939,7 +31939,7 @@ P:
   I:
   - E: troy.kisky!boundarydevices.com
     M: Troy Kisky
-    S: git
+    S: groupsio
   B: 0
   U: Troy Kisky
 - C: US
@@ -31952,7 +31952,7 @@ P:
   I:
   - E: troy.kisky!boundarydevices.com
     M: Troy Kisky
-    S: groupsio
+    S: git
   B: 0
   U: Troy Kisky
 - E: troy.ronda!securekey.com
@@ -32067,6 +32067,17 @@ P:
   U: Tsang-Shian Lin
 - E: tshibata!ab.jp.nec.com
   R:
+  - T: "2099-01-01"
+    C: NEC
+    F: "1970-01-01"
+  I:
+  - E: tshibata!ab.jp.nec.com
+    M: Tsugikazu Shibata
+    S: git
+  B: 0
+  U: Tsugikazu Shibata
+- E: tshibata!ab.jp.nec.com
+  R:
   - T: "2100-01-01"
     C: NEC
     F: "1900-01-01"
@@ -32077,17 +32088,6 @@ P:
   - E: tshibata!ab.jp.nec.com
     M: Tsugikazu Shibata
     S: pipermail
-  B: 0
-  U: Tsugikazu Shibata
-- E: tshibata!ab.jp.nec.com
-  R:
-  - T: "2099-01-01"
-    C: NEC
-    F: "1970-01-01"
-  I:
-  - E: tshibata!ab.jp.nec.com
-    M: Tsugikazu Shibata
-    S: git
   B: 0
   U: Tsugikazu Shibata
 - E: t-fujii!nb.jp.nec.com
@@ -40073,20 +40073,6 @@ P:
 - C: US
   E: victor.morales!intel.com
   R:
-  - T: "2099-01-01"
-    C: Intel
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: victor.morales!intel.com
-    M: Victor Morales
-    S: github
-    U: electrocucaracha
-  B: 0
-  U: Victor Morales
-- C: US
-  E: victor.morales!intel.com
-  R:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
@@ -40118,6 +40104,20 @@ P:
   - E: victor.morales!intel.com
     M: Morales, Victor
     S: pipermail
+  B: 0
+  U: Victor Morales
+- C: US
+  E: victor.morales!intel.com
+  R:
+  - T: "2099-01-01"
+    C: Intel
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: victor.morales!intel.com
+    M: Victor Morales
+    S: github
+    U: electrocucaracha
   B: 0
   U: Victor Morales
 - C: US
@@ -56352,7 +56352,7 @@ P:
   I:
   - M: Wouter van Oortmerssen
     S: github
-    U: gwvo
+    U: aardappel
   B: 0
   U: Wouter van Oortmerssen
 - C: US
@@ -56364,7 +56364,7 @@ P:
   I:
   - M: Wouter van Oortmerssen
     S: github
-    U: aardappel
+    U: gwvo
   B: 0
   U: Wouter van Oortmerssen
 - C: GB
