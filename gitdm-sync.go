@@ -204,7 +204,8 @@ func syncRepo() bool {
 		profs = append(profs, all.Profiles...)
 		i++
 	}
-	sort.Slice(profs, func(i, j int) bool {
+	fmt.Printf("sorting\n")
+	sort.SliceStable(profs, func(i, j int) bool {
 		iS := ""
 		if profs[i].Name != nil {
 			iS += ":" + *(profs[i].Name)
@@ -217,6 +218,13 @@ func syncRepo() bool {
 		}
 		if profs[i].Gender != nil {
 			iS += ":" + *(profs[i].Gender)
+		}
+		if profs[i].IsBot != nil {
+			if *(profs[i].IsBot) == 0 {
+				iS += ":0"
+			} else {
+				iS += ":1"
+			}
 		}
 		jS := ""
 		if profs[j].Name != nil {
@@ -231,17 +239,30 @@ func syncRepo() bool {
 		if profs[j].Gender != nil {
 			jS += ":" + *(profs[j].Gender)
 		}
+		if profs[j].IsBot != nil {
+			if *(profs[j].IsBot) == 0 {
+				jS += ":0"
+			} else {
+				jS += ":1"
+			}
+		}
 		return iS < jS
 	})
 	for k := range profs {
 		if len(profs[k].Enrollments) > 1 {
-			sort.Slice(profs[k].Enrollments, func(i, j int) bool {
+			sort.SliceStable(profs[k].Enrollments, func(i, j int) bool {
 				rols := profs[k].Enrollments
+				if rols[i].Start == rols[j].Start {
+					if rols[i].End == rols[j].End {
+						return rols[i].Organization < rols[j].Organization
+					}
+					return rols[i].End < rols[j].End
+				}
 				return rols[i].Start < rols[j].Start
 			})
 		}
 		if len(profs[k].Identities) > 1 {
-			sort.Slice(profs[k].Identities, func(i, j int) bool {
+			sort.SliceStable(profs[k].Identities, func(i, j int) bool {
 				ids := profs[k].Identities
 				iS := ids[i].Source
 				if ids[i].Name != nil {
