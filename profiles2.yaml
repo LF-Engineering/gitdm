@@ -196,11 +196,11 @@ P:
   U: Bastian Blank
 - C: DE
   R:
-  - T: "2018-05-01"
-    C: Independent
-    F: "1970-01-01"
   - T: "2018-04-01"
     C: ResearchGate
+    F: "1970-01-01"
+  - T: "2018-05-01"
+    C: Independent
     F: "1970-01-01"
   - T: "2099-01-01"
     C: SysEleven
@@ -339,11 +339,11 @@ P:
   U: Bastien
 - C: DE
   R:
-  - T: "2099-01-01"
-    C: Fujitsu
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: Sulzer
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Fujitsu
     F: "1970-01-01"
   - T: "2017-05-01"
     C: Fujitsu
@@ -1635,44 +1635,6 @@ P:
     U: bdarnell
   B: 0
   U: Ben Darnell
-- R:
-  - T: "2012-04-30"
-    C: Simtec Electronics
-    F: "2001-11-01"
-  - T: "2100-01-01"
-    C: Codethink
-    F: "2012-05-01"
-  I:
-  - M: Ben Dooks
-    S: YoctoProject:manual
-  - E: ben!ben-laptop.fluff.org
-    S: YoctoProject:manual
-  - E: ben!fluff.org
-    S: YoctoProject:manual
-  - E: ben!fluff.org.uk
-    S: YoctoProject:manual
-  - E: ben!simtec.co.uk
-    S: YoctoProject:manual
-  - E: ben!trinity.fluff.org
-    S: YoctoProject:manual
-  - E: ben-fbdev!fluff.org
-    S: YoctoProject:manual
-  - E: ben-linux!org.rmk.(none)
-    S: YoctoProject:manual
-  - E: ben-linux-arm!fluff.org
-    S: YoctoProject:manual
-  - E: ben-linux-usb!fluff.org
-    S: YoctoProject:manual
-  - E: ben-lkinux!fluff.org
-    S: YoctoProject:manual
-  - E: ben-mtd!fluff.org
-    S: YoctoProject:manual
-  - E: ben-netdev!fluff.org
-    S: YoctoProject:manual
-  - E: ben.dooks!codethink.co.uk
-    S: YoctoProject:manual
-  B: 0
-  U: Ben Dooks
 - C: GB
   E: ben.dooks!codethink.co.uk
   R:
@@ -1728,6 +1690,44 @@ P:
     S: git
   B: 0
   U: Ben Dooks (Codethink)
+- R:
+  - T: "2012-04-30"
+    C: Simtec Electronics
+    F: "2001-11-01"
+  - T: "2100-01-01"
+    C: Codethink
+    F: "2012-05-01"
+  I:
+  - M: Ben Dooks
+    S: YoctoProject:manual
+  - E: ben!ben-laptop.fluff.org
+    S: YoctoProject:manual
+  - E: ben!fluff.org
+    S: YoctoProject:manual
+  - E: ben!fluff.org.uk
+    S: YoctoProject:manual
+  - E: ben!simtec.co.uk
+    S: YoctoProject:manual
+  - E: ben!trinity.fluff.org
+    S: YoctoProject:manual
+  - E: ben-fbdev!fluff.org
+    S: YoctoProject:manual
+  - E: ben-linux!org.rmk.(none)
+    S: YoctoProject:manual
+  - E: ben-linux-arm!fluff.org
+    S: YoctoProject:manual
+  - E: ben-linux-usb!fluff.org
+    S: YoctoProject:manual
+  - E: ben-lkinux!fluff.org
+    S: YoctoProject:manual
+  - E: ben-mtd!fluff.org
+    S: YoctoProject:manual
+  - E: ben-netdev!fluff.org
+    S: YoctoProject:manual
+  - E: ben.dooks!codethink.co.uk
+    S: YoctoProject:manual
+  B: 0
+  U: Ben Dooks
 - C: US
   E: bvdrucker!gmail.com
   R:
@@ -2988,10 +2988,10 @@ P:
 - E: ben.shelton!ni.com
   R:
   - T: "2100-01-01"
-    C: National Instruments
+    C: Intel
     F: "1900-01-01"
   - T: "2100-01-01"
-    C: Intel
+    C: National Instruments
     F: "1900-01-01"
   I:
   - M: Ben Shelton
@@ -5255,11 +5255,11 @@ P:
 - C: US
   E: benley!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Fitbit
-    F: "1970-01-01"
   - T: "2014-09-01"
     C: Cloudscaling
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Fitbit
     F: "1970-01-01"
   - T: "2017-01-01"
     C: Fitbit
@@ -6587,10 +6587,10 @@ P:
 - E: bertrand.low!gmail.com
   R:
   - T: "2100-01-01"
-    C: NEC
+    C: HCL
     F: "1900-01-01"
   - T: "2100-01-01"
-    C: HCL
+    C: NEC
     F: "1900-01-01"
   I:
   - M: Bertrand Low
@@ -8718,6 +8718,17 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
+  - E: billy.o.mahony!intel.com
+    M: Billy O'Mahony
+    S: pipermail
+  B: 0
+  U: Billy O'Mahony
+- E: billy.o.mahony!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
   - M: Billy O'Mahony
     S: confluence
     U: billyomahony
@@ -8760,17 +8771,6 @@ P:
     S: mbox
   - E: billy.o.mahony!intel.com
     M: O Mahony, Billy
-    S: pipermail
-  B: 0
-  U: Billy O'Mahony
-- E: billy.o.mahony!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: billy.o.mahony!intel.com
-    M: Billy O'Mahony
     S: pipermail
   B: 0
   U: Billy O'Mahony
@@ -9255,18 +9255,6 @@ P:
   - T: "2100-01-01"
     C: Wind River
     F: "1900-01-01"
-  I:
-  - E: bin.yang!windriver.com
-    M: Bin Yang
-    S: gerrit
-    U: biny993
-  B: 0
-  U: Bin Yang
-- E: bin.yang!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
   - T: "2099-01-01"
     C: Wind River
     F: "1970-01-01"
@@ -9303,6 +9291,18 @@ P:
   - E: Bin.Yang!windriver.com
     M: Yang, Bin
     S: pipermail
+  B: 0
+  U: Bin Yang
+- E: bin.yang!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
+  - E: bin.yang!windriver.com
+    M: Bin Yang
+    S: gerrit
+    U: biny993
   B: 0
   U: Bin Yang
 - E: bzhang!varmour.com
@@ -9606,10 +9606,10 @@ P:
   E: tbird20d!gmail.com
   R:
   - T: "2100-01-01"
-    C: Sony Mobile
+    C: Sony
     F: "1900-01-01"
   - T: "2100-01-01"
-    C: Sony
+    C: Sony Mobile
     F: "1900-01-01"
   - T: "2099-01-01"
     C: Sony Mobile Communications
@@ -10365,11 +10365,11 @@ P:
   U: Blaine Forbush
 - C: US
   R:
-  - T: "2099-01-01"
-    C: SUSE
-    F: "1970-01-01"
   - T: "2014-07-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: SUSE
     F: "1970-01-01"
   - T: "2016-10-01"
     C: Hewlett
@@ -10404,11 +10404,11 @@ P:
   - T: "2100-01-01"
     C: SUSE
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: SUSE
-    F: "1970-01-01"
   - T: "2014-07-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: SUSE
     F: "1970-01-01"
   - T: "2016-10-01"
     C: Hewlett
@@ -10951,8 +10951,7 @@ P:
   I:
   - E: appleboy.tw!gmail.com
     M: Bo-Yi Wu
-    S: github
-    U: appleboy
+    S: git
   B: 0
   U: Bo-Yi Wu
 - C: TW
@@ -10965,7 +10964,8 @@ P:
   I:
   - E: appleboy.tw!gmail.com
     M: Bo-Yi Wu
-    S: git
+    S: github
+    U: appleboy
   B: 0
   U: Bo-Yi Wu
 - E: yossi.boaron!nokia.com
@@ -11820,11 +11820,11 @@ P:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2014-11-01"
     C: Cisco
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Google
@@ -13063,11 +13063,11 @@ P:
   - T: "2100-01-01"
     C: Microsoft
     F: "1900-01-01"
-  - T: "2015-10-01"
-    C: Alibaba
-    F: "1970-01-01"
   - T: "2013-02-01"
     C: Tabao Marketplace
+    F: "1970-01-01"
+  - T: "2015-10-01"
+    C: Alibaba
     F: "1970-01-01"
   - T: "2015-11-01"
     C: AliCloud
@@ -13088,11 +13088,11 @@ P:
 - C: CN
   E: farmer1992!gmail.com
   R:
-  - T: "2015-10-01"
-    C: Alibaba
-    F: "1970-01-01"
   - T: "2013-02-01"
     C: Tabao Marketplace
+    F: "1970-01-01"
+  - T: "2015-10-01"
+    C: Alibaba
     F: "1970-01-01"
   - T: "2015-11-01"
     C: AliCloud
@@ -13673,11 +13673,11 @@ P:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Avvasi
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2018-05-01"
     C: Placenote
@@ -14012,11 +14012,11 @@ P:
   U: Bradley Bock
 - C: US
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2016-09-01"
     C: YouTube
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Google
@@ -14031,11 +14031,11 @@ P:
 - C: US
   E: nurblieh!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2016-09-01"
     C: YouTube
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Google
@@ -14687,11 +14687,11 @@ P:
 - C: US
   E: lumjjb!gmail.com
   R:
-  - T: "2099-01-01"
-    C: IBM
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: Applied
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: IBM
     F: "1970-01-01"
   - T: "2015-05-01"
     C: Independent
@@ -16869,11 +16869,11 @@ P:
   U: Brian Ferris
 - E: brian!apcera.com
   R:
-  - T: "2099-01-01"
-    C: Apcera
-    F: "1970-01-01"
   - T: "2015-03-01"
     C: Comity
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Apcera
     F: "1970-01-01"
   - T: "2017-12-01"
     C: Apcera
@@ -16889,11 +16889,11 @@ P:
   B: 0
   U: Brian Flannery
 - R:
-  - T: "2099-01-01"
-    C: Apcera
-    F: "1970-01-01"
   - T: "2015-03-01"
     C: Comity
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Apcera
     F: "1970-01-01"
   - T: "2017-12-01"
     C: Apcera
@@ -17009,11 +17009,11 @@ P:
   U: Brian Gosnell
 - E: bgrant0607!users.noreply.github.com
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2007-06-01"
     C: PeakStream
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Google
@@ -18134,10 +18134,10 @@ P:
 - E: bs2796!att.com
   R:
   - T: "2100-01-01"
-    C: IBM
+    C: AT&T
     F: "1900-01-01"
   - T: "2100-01-01"
-    C: AT&T
+    C: IBM
     F: "1900-01-01"
   I:
   - M: Brinda Santh Muthuramalingam
@@ -18540,10 +18540,10 @@ P:
   U: Bruce Ma
 - R:
   - T: "2100-01-01"
-    C: Pivotal
+    C: Google
     F: "1900-01-01"
   - T: "2100-01-01"
-    C: Google
+    C: Pivotal
     F: "1900-01-01"
   I:
   - M: Bruce Ricard
@@ -18945,11 +18945,11 @@ P:
 - C: PT
   E: brunomcustodio!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Mesosphere
-    F: "1970-01-01"
   - T: "2014-12-01"
     C: Ubiwhere
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Mesosphere
     F: "1970-01-01"
   - T: "2017-05-01"
     C: Cashyt
@@ -19131,11 +19131,11 @@ P:
   U: Bruno Wego
 - C: BE
   R:
-  - T: "2099-01-01"
-    C: woorank
-    F: "1970-01-01"
   - T: "2014-12-01"
     C: Evo Systems
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: woorank
     F: "1970-01-01"
   - T: "2015-02-01"
     C: Independent
@@ -20327,10 +20327,10 @@ P:
 - E: ross.burton!intel.com
   R:
   - T: "2100-01-01"
-    C: OpenedHand
+    C: Intel
     F: "1900-01-01"
   - T: "2100-01-01"
-    C: Intel
+    C: OpenedHand
     F: "1900-01-01"
   S: male
   I:
@@ -21260,11 +21260,11 @@ P:
   U: Caglayan, Alinur
 - C: AU
   R:
-  - T: "2099-01-01"
-    C: Examplempany
-    F: "1970-01-01"
   - T: "2014-11-01"
     C: Monitise plc is Fiserv
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Examplempany
     F: "1970-01-01"
   - T: "2018-01-01"
     C: FINkit® is Fiserv
@@ -21846,11 +21846,11 @@ P:
 - C: CN
   E: wenghao!pingcap.com
   R:
-  - T: "2099-01-01"
-    C: PingCAP
-    F: "1970-01-01"
   - T: "2018-03-01"
     C: Spirent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: PingCAP
     F: "1970-01-01"
   - T: "2018-12-01"
     C: Citrix
@@ -22133,11 +22133,11 @@ P:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2016-05-01"
     C: Faith
@@ -22594,11 +22594,11 @@ P:
 - C: US
   E: canguler93!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: Citus
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2015-06-01"
     C: Independent
@@ -24348,11 +24348,11 @@ P:
   U: Carlos Villela
 - E: me!carlosedp.com
   R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
   - T: "2017-07-01"
     C: TIM Brasil
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Red Hat
     F: "1970-01-01"
   - T: "2018-08-01"
     C: Ericsson
@@ -24490,11 +24490,11 @@ P:
 - C: US
   E: carol!buoyant.io
   R:
-  - T: "2099-01-01"
-    C: Buoyant
-    F: "1970-01-01"
   - T: "2015-12-01"
     C: YourHelpingHand
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Buoyant
     F: "1970-01-01"
   - T: "2019-01-01"
     C: OutagePlanner
@@ -25174,11 +25174,11 @@ P:
 - C: US
   E: casey.davenport!metaswitch.com
   R:
-  - T: "2099-01-01"
-    C: Tigera
-    F: "1970-01-01"
   - T: "2016-05-01"
     C: Metaswitch
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Tigera
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Tigera
@@ -25192,11 +25192,11 @@ P:
   U: Casey D
 - C: US
   R:
-  - T: "2099-01-01"
-    C: Tigera
-    F: "1970-01-01"
   - T: "2016-05-01"
     C: Metaswitch
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Tigera
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Tigera
@@ -25211,11 +25211,11 @@ P:
 - C: US
   E: casey!tigera.io
   R:
-  - T: "2099-01-01"
-    C: Tigera
-    F: "1970-01-01"
   - T: "2016-05-01"
     C: Metaswitch
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Tigera
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Tigera
@@ -25230,11 +25230,11 @@ P:
 - C: US
   E: caseydavenport!users.noreply.github.com
   R:
-  - T: "2099-01-01"
-    C: Tigera
-    F: "1970-01-01"
   - T: "2016-05-01"
     C: Metaswitch
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Tigera
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Tigera
@@ -25249,11 +25249,11 @@ P:
 - C: US
   E: davenport.cas!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Tigera
-    F: "1970-01-01"
   - T: "2016-05-01"
     C: Metaswitch
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Tigera
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Tigera
@@ -25963,11 +25963,11 @@ P:
   U: Ce Gu
 - C: CA
   R:
-  - T: "2099-01-01"
-    C: Microsoft
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: bioMérieux
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Microsoft
     F: "1970-01-01"
   - T: "2015-05-01"
     C: Independent
@@ -26000,11 +26000,11 @@ P:
   - T: "2100-01-01"
     C: Microsoft
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Microsoft
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: bioMérieux
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Microsoft
     F: "1970-01-01"
   - T: "2015-05-01"
     C: Independent
@@ -27517,11 +27517,11 @@ P:
 - C: CN
   E: dengqian0826!gmail.com
   R:
-  - T: "2099-01-01"
-    C: VMware
-    F: "1970-01-01"
   - T: "2017-08-01"
     C: Autohome
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: VMware
     F: "1970-01-01"
   - T: "2099-01-01"
     C: VMware
@@ -28272,12 +28272,7 @@ P:
   I:
   - E: chao.p.peng!linux.intel.com
     M: Chao Peng
-    S: gerrit
-    U: chao.peng
-  - E: chao.p.peng!linux.intel.com
-    M: Chao Peng
-    S: linux-foundation:scr
-    U: chao.peng
+    S: git
   B: 0
   U: Chao Peng
 - E: chao.p.peng!linux.intel.com
@@ -28292,7 +28287,12 @@ P:
   I:
   - E: chao.p.peng!linux.intel.com
     M: Chao Peng
-    S: git
+    S: gerrit
+    U: chao.peng
+  - E: chao.p.peng!linux.intel.com
+    M: Chao Peng
+    S: linux-foundation:scr
+    U: chao.peng
   B: 0
   U: Chao Peng
 - E: chao.peng!windriver.com
@@ -29350,11 +29350,11 @@ P:
   - T: "2100-01-01"
     C: Heroku
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Heroku
-    F: "1970-01-01"
   - T: "2017-06-01"
     C: Unbound
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Heroku
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Heroku
@@ -29369,11 +29369,11 @@ P:
 - C: GB
   E: hi!charliegleason.com
   R:
-  - T: "2099-01-01"
-    C: Heroku
-    F: "1970-01-01"
   - T: "2017-06-01"
     C: Unbound
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Heroku
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Heroku
@@ -29628,11 +29628,11 @@ P:
   U: Charlotte St. John
 - E: charly!datadoghq.com
   R:
-  - T: "2099-01-01"
-    C: Datadog
-    F: "1970-01-01"
   - T: "2014-05-01"
     C: Télécom
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Datadog
     F: "1970-01-01"
   - T: "2014-08-01"
     C: Independent
@@ -29654,11 +29654,11 @@ P:
   B: 0
   U: Charly Fontaine
 - R:
-  - T: "2099-01-01"
-    C: Datadog
-    F: "1970-01-01"
   - T: "2014-05-01"
     C: Télécom
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Datadog
     F: "1970-01-01"
   - T: "2014-08-01"
     C: Independent
@@ -30265,11 +30265,11 @@ P:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: ARM
-    F: "1970-01-01"
   - T: "2017-09-11"
     C: Intel
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: ARM
     F: "1970-01-01"
   - T: "2099-01-01"
     C: ARM
@@ -33458,6 +33458,37 @@ P:
     C: Huawei
     F: "1900-01-01"
   I:
+  - M: Chris Donley
+    S: confluence
+    U: chrisd5110
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: gmane
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley (Chris)
+    S: groupsio
+  - E: christopher.donley!huawei.com
+    M: Chris Donley
+    S: jira
+    U: chrisd5110
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: linux-foundation:mls
+    U: Christopher.Donley
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: mbox
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: pipermail
+  B: 0
+  U: Chris Donley
+- E: christopher.donley!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei
+    F: "1900-01-01"
+  I:
   - E: chrisd!alum.dartmouth.org
     M: Chris Donley
     S: gerrit
@@ -33484,37 +33515,6 @@ P:
     S: onap:manual
   - E: christopher.donley!huawei.com
     S: onap:manual
-  B: 0
-  U: Chris Donley
-- E: christopher.donley!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei
-    F: "1900-01-01"
-  I:
-  - M: Chris Donley
-    S: confluence
-    U: chrisd5110
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: gmane
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley (Chris)
-    S: groupsio
-  - E: christopher.donley!huawei.com
-    M: Chris Donley
-    S: jira
-    U: chrisd5110
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: linux-foundation:mls
-    U: Christopher.Donley
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: mbox
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: pipermail
   B: 0
   U: Chris Donley
 - C: GB
@@ -34267,11 +34267,11 @@ P:
   U: Chris Hoffman
 - C: US
   R:
-  - T: "2099-01-01"
-    C: OpenStack Foundation
-    F: "1970-01-01"
   - T: "2019-09-01"
     C: OpenStack
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: OpenStack Foundation
     F: "1970-01-01"
   - T: "2020-01-01"
     C: GitLab
@@ -34289,11 +34289,11 @@ P:
 - C: US
   E: chris!hogepodge.com
   R:
-  - T: "2099-01-01"
-    C: OpenStack Foundation
-    F: "1970-01-01"
   - T: "2019-09-01"
     C: OpenStack
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: OpenStack Foundation
     F: "1970-01-01"
   - T: "2020-01-01"
     C: GitLab
@@ -34314,11 +34314,11 @@ P:
   - T: "2100-01-01"
     C: OpenStack Foundation
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: OpenStack Foundation
-    F: "1970-01-01"
   - T: "2019-09-01"
     C: OpenStack
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: OpenStack Foundation
     F: "1970-01-01"
   - T: "2020-01-01"
     C: GitLab
@@ -40028,6 +40028,27 @@ P:
     C: IBM
     F: "1900-01-01"
   I:
+  - M: Christopher Ferris
+    S: confluence
+    U: ChristopherFerris
+  - E: chris.ferris!gmail.com
+    M: Christopher Ferris
+    S: gerrit
+    U: ChristopherFerris
+  - E: chris.ferris!gmail.com
+    M: Christopher Ferris
+    S: git
+  - M: Christopher Ferris
+    S: jira
+    U: ChristopherFerris
+  B: 0
+  U: Christopher Ferris
+- E: chrisfer!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
   - E: chrisfer!us.ibm.com
     M: Christopher Ferris
     S: git
@@ -40049,27 +40070,6 @@ P:
     M: Christopher Ferris
     S: slack
     U: cbf
-  B: 0
-  U: Christopher Ferris
-- E: chrisfer!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - M: Christopher Ferris
-    S: confluence
-    U: ChristopherFerris
-  - E: chris.ferris!gmail.com
-    M: Christopher Ferris
-    S: gerrit
-    U: ChristopherFerris
-  - E: chris.ferris!gmail.com
-    M: Christopher Ferris
-    S: git
-  - M: Christopher Ferris
-    S: jira
-    U: ChristopherFerris
   B: 0
   U: Christopher Ferris
 - E: cfreeman!nvidia.com
@@ -40221,11 +40221,11 @@ P:
 - C: US
   E: me!chrishein.com
   R:
-  - T: "2099-01-01"
-    C: Amazon
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: GoPro
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Amazon
     F: "1970-01-01"
   - T: "2016-08-01"
     C: Mattel
@@ -40256,11 +40256,11 @@ P:
 - C: US
   E: me!christopherhein.com
   R:
-  - T: "2099-01-01"
-    C: Amazon
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: GoPro
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Amazon
     F: "1970-01-01"
   - T: "2016-08-01"
     C: Mattel
@@ -42646,11 +42646,11 @@ P:
   - T: "2100-01-01"
     C: Microsoft
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Huawei
-    F: "1970-01-01"
   - T: "2016-12-01"
     C: Microsoft
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Huawei
     F: "1970-01-01"
   - T: "2019-07-01"
     C: Huawei
@@ -42957,10 +42957,13 @@ P:
   I:
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: git
+    S: groupsio
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: github
+    S: mbox
+  - E: claurence!pivotal.io
+    M: Claire Laurence
+    S: slack
     U: claurence
   B: 0
   U: Claire Laurence
@@ -42983,13 +42986,10 @@ P:
   I:
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: groupsio
+    S: git
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: mbox
-  - E: claurence!pivotal.io
-    M: Claire Laurence
-    S: slack
+    S: github
     U: claurence
   B: 0
   U: Claire Laurence
@@ -43326,6 +43326,19 @@ P:
 - C: IT
   E: claudio.fontana!huawei.com
   R:
+  - T: "2099-01-01"
+    C: Huawei
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: claudio.fontana!huawei.com
+    M: Claudio Fontana
+    S: git
+  B: 0
+  U: Claudio Fontana
+- C: IT
+  E: claudio.fontana!huawei.com
+  R:
   - T: "2100-01-01"
     C: Huawei
     F: "1900-01-01"
@@ -43350,19 +43363,6 @@ P:
   - E: claudio.fontana!huawei.com
     M: Claudio Fontana
     S: pipermail
-  B: 0
-  U: Claudio Fontana
-- C: IT
-  E: claudio.fontana!huawei.com
-  R:
-  - T: "2099-01-01"
-    C: Huawei
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: claudio.fontana!huawei.com
-    M: Claudio Fontana
-    S: git
   B: 0
   U: Claudio Fontana
 - E: imbrenda!linux.vnet.ibm.com
@@ -45582,11 +45582,7 @@ P:
   I:
   - E: walters!verbum.org
     M: Colin Walters
-    S: bugzilla
-    U: walters@verbum.org
-  - E: walters!verbum.org
-    S: bugzilla
-    U: walters@verbum.org
+    S: groupsio
   B: 0
   U: Colin Walters
 - C: US
@@ -45599,7 +45595,11 @@ P:
   I:
   - E: walters!verbum.org
     M: Colin Walters
-    S: groupsio
+    S: bugzilla
+    U: walters@verbum.org
+  - E: walters!verbum.org
+    S: bugzilla
+    U: walters@verbum.org
   B: 0
   U: Colin Walters
 - E: colin.xu!intel.com
@@ -46274,8 +46274,7 @@ P:
   I:
   - E: cimes!isi.edu
     M: Connor Imes
-    S: bugzilla
-    U: cimes@isi.edu
+    S: pipermail
   B: 0
   U: Connor Imes
 - E: cimes!isi.edu
@@ -46286,7 +46285,8 @@ P:
   I:
   - E: cimes!isi.edu
     M: Connor Imes
-    S: pipermail
+    S: bugzilla
+    U: cimes@isi.edu
   B: 0
   U: Connor Imes
 - C: US
@@ -48002,6 +48002,26 @@ P:
 - C: US
   E: craigbarber!google.com
   R:
+  - T: "2100-01-01"
+    C: Google, Inc.
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: craigbarber!google.com
+    M: craigatgoogle
+    S: git
+  - E: craigbarber!google.com
+    M: Craig Barber
+    S: github
+    U: craigdbarber
+  B: 0
+  U: Craig Barber
+- C: US
+  E: craigbarber!google.com
+  R:
   - T: "2099-01-01"
     C: Google
     F: "1970-01-01"
@@ -48018,26 +48038,6 @@ P:
     M: Craig Barber
     S: slack
     U: craigbarber
-  B: 0
-  U: Craig Barber
-- C: US
-  E: craigbarber!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: craigbarber!google.com
-    M: craigatgoogle
-    S: git
-  - E: craigbarber!google.com
-    M: Craig Barber
-    S: github
-    U: craigdbarber
   B: 0
   U: Craig Barber
 - E: craigb!google.com
@@ -48466,11 +48466,11 @@ P:
   B: 0
   U: Craig Sutherland
 - R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2015-05-01"
     C: BeachMint
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2017-10-01"
     C: GoFundMe
@@ -49779,11 +49779,11 @@ P:
 - C: AU
   E: cyril.tovena!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Ubisoft
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: Dymension
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Ubisoft
     F: "1970-01-01"
   - T: "2019-04-01"
     C: Ubisoft Montreal
@@ -50315,11 +50315,11 @@ P:
   - T: "2100-01-01"
     C: VMware
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: VMware
-    F: "1970-01-01"
   - T: "2017-08-01"
     C: Autohome
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: VMware
     F: "1970-01-01"
   - T: "2099-01-01"
     C: VMware
@@ -51640,11 +51640,11 @@ P:
 - C: IN
   E: daminisatya!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Salesforce
-    F: "1970-01-01"
   - T: "2015-12-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Salesforce
     F: "1970-01-01"
   - T: "2016-04-01"
     C: Independent
@@ -51852,11 +51852,11 @@ P:
 - C: US
   E: dan!projectcalico.org
   R:
-  - T: "2099-01-01"
-    C: Tigera
-    F: "1970-01-01"
   - T: "2015-05-01"
     C: INFOCOMMONS
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Tigera
     F: "1970-01-01"
   - T: "2016-04-01"
     C: Metaswitch
@@ -52574,11 +52574,11 @@ P:
   - T: "2004-12-31"
     C: Skymoon Ventures
     F: "1999-12-31"
-  - T: "2011-12-31"
-    C: Healing Thresholds
-    F: "2005-12-31"
   - T: "2009-12-31"
     C: Linux Foundation
+    F: "2005-12-31"
+  - T: "2011-12-31"
+    C: Healing Thresholds
     F: "2005-12-31"
   - T: "2013-12-31"
     C: Shopbeam
@@ -53186,11 +53186,11 @@ P:
 - C: US
   E: djosborne10!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Tigera
-    F: "1970-01-01"
   - T: "2015-05-01"
     C: INFOCOMMONS
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Tigera
     F: "1970-01-01"
   - T: "2016-04-01"
     C: Metaswitch
@@ -54165,11 +54165,11 @@ P:
   U: Dan Williams
 - C: US
   R:
-  - T: "2099-01-01"
-    C: Concur
-    F: "1970-01-01"
   - T: "2019-10-01"
     C: SAP Concur
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Concur
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Concur
@@ -54184,11 +54184,11 @@ P:
 - C: US
   E: danw!concur.com
   R:
-  - T: "2099-01-01"
-    C: Concur
-    F: "1970-01-01"
   - T: "2019-10-01"
     C: SAP Concur
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Concur
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Concur
@@ -54207,11 +54207,11 @@ P:
 - C: US
   E: emaildanwilson!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Concur
-    F: "1970-01-01"
   - T: "2019-10-01"
     C: SAP Concur
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Concur
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Concur
@@ -54709,8 +54709,8 @@ P:
     F: "1900-01-01"
   I:
   - E: ludanfeng!baidu.com
-    M: ludanfeng
-    S: git
+    M: Lu,Danfeng
+    S: groupsio
   B: 0
   U: Danfeng Lu
 - E: ludanfeng!baidu.com
@@ -54720,8 +54720,8 @@ P:
     F: "1900-01-01"
   I:
   - E: ludanfeng!baidu.com
-    M: Lu,Danfeng
-    S: groupsio
+    M: ludanfeng
+    S: git
   B: 0
   U: Danfeng Lu
 - E: ludanfeng!baidu.com
@@ -55345,11 +55345,11 @@ P:
   U: Daniel Borkmann
 - E: dborkman!kernel.org
   R:
-  - T: "2015-01-01"
-    C: Red Hat
-    F: "1970-01-01"
   - T: "2012-01-01"
     C: ETH Zurich
+    F: "1970-01-01"
+  - T: "2015-01-01"
+    C: Red Hat
     F: "1970-01-01"
   - T: "2017-01-01"
     C: Cisco
@@ -55366,11 +55366,11 @@ P:
   - T: "2012-01-01"
     C: ETH Zurich
     F: "2017-01-01"
-  - T: "2099-01-01"
-    C: Startup
-    F: "2017-01-01"
   - T: "2015-01-01"
     C: Red Hat
+    F: "2017-01-01"
+  - T: "2099-01-01"
+    C: Startup
     F: "2017-01-01"
   S: male
   I:
@@ -56290,11 +56290,11 @@ P:
 - C: DE
   E: daniel!weave.works
   R:
-  - T: "2099-01-01"
-    C: Weaveworks
-    F: "1970-01-01"
   - T: "2016-12-01"
     C: Canonical
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Weaveworks
     F: "1970-01-01"
   - T: "2018-02-01"
     C: Ubuntu
@@ -56621,11 +56621,11 @@ P:
 - C: US
   E: kerns!pobox.com
   R:
-  - T: "2099-01-01"
-    C: Quantum
-    F: "1970-01-01"
   - T: "2015-05-01"
     C: DreamBox Learning
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Quantum
     F: "1970-01-01"
   - T: "2016-05-01"
     C: Independent
@@ -56841,11 +56841,11 @@ P:
   U: Daniel Kłobuszewski
 - C: ZA
   R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
   - T: "2015-03-01"
     C: Pierbridge
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Red Hat
     F: "1970-01-01"
   - T: "2018-09-01"
     C: Anaplan
@@ -58077,11 +58077,11 @@ P:
 - C: DE
   E: mail!wombatsoftware.de
   R:
-  - T: "2099-01-01"
-    C: Wombat Software UG
-    F: "1970-01-01"
   - T: "2015-06-01"
     C: ShopAdvisors
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Wombat Software UG
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Wombat
@@ -59365,11 +59365,11 @@ P:
 - C: DE
   E: mail!h3po.de
   R:
-  - T: "2099-01-01"
-    C: FBD Insurance
-    F: "1970-01-01"
   - T: "2017-06-01"
     C: Klinche
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: FBD Insurance
     F: "1970-01-01"
   - T: "2018-08-01"
     C: DABSquared
@@ -60077,15 +60077,8 @@ P:
   I:
   - E: dcao!us.ibm.com
     M: Danny Cao
-    S: git
-  - E: dcao!us.ibm.com
-    M: Danny Cao
-    S: github
-    U: caod123
-  - E: dcao!us.ibm.com
-    M: Danny Cao
-    S: slack
-    U: dannycao
+    S: gerrit
+    U: caod
   B: 0
   U: Danny Cao
 - E: dcao!us.ibm.com
@@ -60096,8 +60089,15 @@ P:
   I:
   - E: dcao!us.ibm.com
     M: Danny Cao
-    S: gerrit
-    U: caod
+    S: git
+  - E: dcao!us.ibm.com
+    M: Danny Cao
+    S: github
+    U: caod123
+  - E: dcao!us.ibm.com
+    M: Danny Cao
+    S: slack
+    U: dannycao
   B: 0
   U: Danny Cao
 - C: US

@@ -1,12 +1,4 @@
 P:
-- R:
-  - T: "2099-01-01"
-    C: Cloudscaling
-    F: "1970-01-01"
-  I:
-  - S: github
-    U: alexandrelevine
-  B: 0
 - E: 446257357!qq.com
   R:
   - T: "2100-01-01"
@@ -142,6 +134,14 @@ P:
     S: git
   B: 0
   U: /v\atthew L Daniel
+- R:
+  - T: "2099-01-01"
+    C: Cloudscaling
+    F: "1970-01-01"
+  I:
+  - S: github
+    U: alexandrelevine
+  B: 0
 - E: song.ruixia!zte.com.cn
   R:
   - T: "2100-01-01"
@@ -2455,6 +2455,17 @@ P:
     S: git
   B: 0
   U: Aaron Tomlin
+- E: pair+azzamallow+rreilly!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - E: pair+azzamallow+rreilly!pivotal.io
+    M: Aaron Triantafyllidis & Rick Reilly
+    S: git
+  B: 0
+  U: Aaron Triantafyllidis & Rick Reilly
 - R:
   - T: "2100-01-01"
     C: Pivotal
@@ -2477,17 +2488,6 @@ P:
     U: aaront
   B: 0
   U: Aaron Triantafyllidis
-- E: pair+azzamallow+rreilly!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: pair+azzamallow+rreilly!pivotal.io
-    M: Aaron Triantafyllidis & Rick Reilly
-    S: git
-  B: 0
-  U: Aaron Triantafyllidis & Rick Reilly
 - C: DE
   R:
   - T: "2099-01-01"
@@ -3768,11 +3768,11 @@ P:
   - T: "2019-05-01"
     C: Independent
     F: "2019-02-01"
-  - T: "2019-08-01"
-    C: CNCF
-    F: "2019-05-01"
   - T: "2019-06-01"
     C: OATE INFOTECH
+    F: "2019-05-01"
+  - T: "2019-08-01"
+    C: CNCF
     F: "2019-05-01"
   - T: "2019-08-01"
     C: CNCF
@@ -3815,11 +3815,11 @@ P:
   - T: "2019-05-01"
     C: Independent
     F: "2019-02-01"
-  - T: "2019-08-01"
-    C: CNCF
-    F: "2019-05-01"
   - T: "2019-06-01"
     C: OATE INFOTECH
+    F: "2019-05-01"
+  - T: "2019-08-01"
+    C: CNCF
     F: "2019-05-01"
   - T: "2019-08-01"
     C: CNCF
@@ -4167,7 +4167,11 @@ P:
   I:
   - E: a10gupta!linux.vnet.ibm.com
     M: Abhishek Dasgupta
-    S: git
+    S: github
+    U: abdasgupta
+  - E: a10gupta!linux.vnet.ibm.com
+    S: github
+    U: abdasgupta
   B: 0
   U: Abhishek Dasgupta
 - C: IN
@@ -4185,11 +4189,7 @@ P:
   I:
   - E: a10gupta!linux.vnet.ibm.com
     M: Abhishek Dasgupta
-    S: github
-    U: abdasgupta
-  - E: a10gupta!linux.vnet.ibm.com
-    S: github
-    U: abdasgupta
+    S: git
   B: 0
   U: Abhishek Dasgupta
 - E: huntbag!linux.vnet.ibm.com
@@ -4246,11 +4246,11 @@ P:
   - T: "2017-07-01"
     C: Samsung
     F: "2017-04-01"
-  - T: "2099-01-01"
-    C: Tower Research Capital
-    F: "2017-07-01"
   - T: "2017-07-01"
     C: Counselling Cell IIT Roorkee
+    F: "2017-07-01"
+  - T: "2099-01-01"
+    C: Tower Research Capital
     F: "2017-07-01"
   S: male
   I:
@@ -4794,11 +4794,11 @@ P:
   - T: "2100-01-01"
     C: VMware
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: VMware
-    F: "1970-01-01"
   - T: "2016-06-15"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: VMware
     F: "1970-01-01"
   - T: "2017-05-15"
     C: VMware
@@ -4841,11 +4841,11 @@ P:
   B: 0
   U: Abrar Shivani
 - R:
-  - T: "2099-01-01"
-    C: VMware
-    F: "1970-01-01"
   - T: "2016-06-15"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: VMware
     F: "1970-01-01"
   - T: "2017-05-15"
     C: VMware
@@ -5013,11 +5013,11 @@ P:
 - C: US
   E: alexeldeib!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Microsoft
-    F: "1970-01-01"
   - T: "2015-05-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Microsoft
     F: "1970-01-01"
   - T: "2016-08-01"
     C: Microsoft
@@ -5504,11 +5504,11 @@ P:
 - C: US
   E: adam.christian!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Buoyant
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Sauce
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Buoyant
     F: "1970-01-01"
   - T: "2016-08-01"
     C: Betable
@@ -6545,11 +6545,11 @@ P:
 - C: US
   E: adman.com!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Zendesk
-    F: "1970-01-01"
   - T: "2014-02-14"
     C: Canonical
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Zendesk
     F: "1970-01-01"
   - T: "2015-04-10"
     C: HP
@@ -6887,11 +6887,11 @@ P:
   U: Adam Reese
 - E: adamreese!users.noreply.github.com
   R:
-  - T: "2099-01-01"
-    C: Microsoft
-    F: "1970-01-01"
   - T: "2017-04-01"
     C: Engine Yard
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Microsoft
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Microsoft
@@ -6904,11 +6904,11 @@ P:
   B: 0
   U: Adam Reese
 - R:
-  - T: "2099-01-01"
-    C: Microsoft
-    F: "1970-01-01"
   - T: "2017-04-01"
     C: Engine Yard
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Microsoft
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Microsoft
@@ -9513,11 +9513,11 @@ P:
   U: Adriana Stefanova
 - C: US
   R:
-  - T: "2018-06-01"
-    C: Wobe Indonezia
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: Silicon Straits
+    F: "1970-01-01"
+  - T: "2018-06-01"
+    C: Wobe Indonezia
     F: "1970-01-01"
   - T: "2018-06-01"
     C: Wobe Indonezia
@@ -9541,11 +9541,11 @@ P:
 - C: US
   E: adrianna!planetscale.com
   R:
-  - T: "2018-06-01"
-    C: Wobe Indonezia
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: Silicon Straits
+    F: "1970-01-01"
+  - T: "2018-06-01"
+    C: Wobe Indonezia
     F: "1970-01-01"
   - T: "2018-06-01"
     C: Wobe Indonezia
@@ -9569,11 +9569,11 @@ P:
 - C: US
   E: skinnylatte!gmail.com
   R:
-  - T: "2018-06-01"
-    C: Wobe Indonezia
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: Silicon Straits
+    F: "1970-01-01"
+  - T: "2018-06-01"
+    C: Wobe Indonezia
     F: "1970-01-01"
   - T: "2018-06-01"
     C: Wobe Indonezia
@@ -10111,11 +10111,11 @@ P:
   U: Agustin Vega-Frias
 - E: amartinezfayo!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Scytale
-    F: "1970-01-01"
   - T: "2017-06-01"
     C: Argeniss
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Scytale
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Scytale
@@ -10129,11 +10129,11 @@ P:
   U: Agustín Martínez Fayó
 - E: amartinezfayo!users.noreply.github.com
   R:
-  - T: "2099-01-01"
-    C: Scytale
-    F: "1970-01-01"
   - T: "2017-06-01"
     C: Argeniss
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Scytale
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Scytale
@@ -10146,11 +10146,11 @@ P:
   B: 0
   U: Agustín Martínez Fayó
 - R:
-  - T: "2099-01-01"
-    C: Scytale
-    F: "1970-01-01"
   - T: "2017-06-01"
     C: Argeniss
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Scytale
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Scytale
@@ -11279,11 +11279,11 @@ P:
   U: Aithal
 - C: LV
   R:
-  - T: "2014-09-01"
-    C: SIA Lattelecom Tehnology
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: Lattelecom
+    F: "1970-01-01"
+  - T: "2014-09-01"
+    C: SIA Lattelecom Tehnology
     F: "1970-01-01"
   - T: "2019-01-01"
     C: Evolution Gaming
@@ -14280,11 +14280,11 @@ P:
 - C: AR
   E: alberto!albertoalmagro.com
   R:
-  - T: "2099-01-01"
-    C: Independent
-    F: "1970-01-01"
   - T: "2015-06-01"
     C: Riverbed
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Independent
     F: "1970-01-01"
   - T: "2016-10-01"
     C: Dell
@@ -14478,10 +14478,10 @@ P:
   E: aleal!pivotal.io
   R:
   - T: "2100-01-01"
-    C: Pivotal
+    C: Globo.com
     F: "1900-01-01"
   - T: "2100-01-01"
-    C: Globo.com
+    C: Pivotal
     F: "1900-01-01"
   - T: "2099-01-01"
     C: Pivotal
@@ -14608,11 +14608,11 @@ P:
   U: Alberto Perez Garcia-Plaza
 - E: alberto!synadia.com
   R:
-  - T: "2017-12-29"
-    C: Apcera
-    F: "1970-01-01"
   - T: "2014-06-01"
     C: Tibco
+    F: "1970-01-01"
+  - T: "2017-12-29"
+    C: Apcera
     F: "1970-01-01"
   - T: "2016-05-01"
     C: Informatica
@@ -14635,11 +14635,11 @@ P:
   U: Alberto Ricart
 - E: alberto.ricart!apcera.com
   R:
-  - T: "2017-12-29"
-    C: Apcera
-    F: "1970-01-01"
   - T: "2014-06-01"
     C: Tibco
+    F: "1970-01-01"
+  - T: "2017-12-29"
+    C: Apcera
     F: "1970-01-01"
   - T: "2016-05-01"
     C: Informatica
@@ -14658,11 +14658,11 @@ P:
   B: 0
   U: Alberto Ricart
 - R:
-  - T: "2017-12-29"
-    C: Apcera
-    F: "1970-01-01"
   - T: "2014-06-01"
     C: Tibco
+    F: "1970-01-01"
+  - T: "2017-12-29"
+    C: Apcera
     F: "1970-01-01"
   - T: "2016-05-01"
     C: Informatica
@@ -14788,11 +14788,11 @@ P:
   U: Alchemist
 - C: AU
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2017-02-01"
     C: AmigoCloud
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Google
@@ -14810,11 +14810,11 @@ P:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2017-02-01"
     C: AmigoCloud
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Google
@@ -15054,10 +15054,10 @@ P:
   - T: "2017-04-01"
     C: Avalon Al
     F: "2016-12-01"
-  - T: "2099-01-01"
+  - T: "2019-10-01"
     C: AID Tech
     F: "2017-04-01"
-  - T: "2019-10-01"
+  - T: "2099-01-01"
     C: AID Tech
     F: "2017-04-01"
   - T: "2099-01-01"
@@ -15266,11 +15266,11 @@ P:
 - C: ES
   E: 47833905+alemorcuq!users.noreply.github.com
   R:
-  - T: "2099-01-01"
-    C: Bitnami
-    F: "1970-01-01"
   - T: "2019-03-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Bitnami
     F: "1970-01-01"
   - T: "2019-05-01"
     C: Bitnami
@@ -15287,11 +15287,11 @@ P:
   U: Alejandro Moreno
 - C: ES
   R:
-  - T: "2099-01-01"
-    C: Bitnami
-    F: "1970-01-01"
   - T: "2019-03-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Bitnami
     F: "1970-01-01"
   - T: "2019-05-01"
     C: Bitnami
@@ -16264,11 +16264,11 @@ P:
   U: Alena Prokharchyk
 - C: CZ
   R:
-  - T: "2099-01-01"
-    C: AVAST Software
-    F: "1970-01-01"
   - T: "2017-09-01"
     C: AVAST
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: AVAST Software
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Mesosphere
@@ -16283,11 +16283,11 @@ P:
 - C: CZ
   E: varkockova.a!gmail.com
   R:
-  - T: "2099-01-01"
-    C: AVAST Software
-    F: "1970-01-01"
   - T: "2017-09-01"
     C: AVAST
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: AVAST Software
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Mesosphere
@@ -19528,11 +19528,11 @@ P:
   - T: "2100-01-01"
     C: RideCheap
     F: "2016-08-31"
-  - T: "2100-01-01"
-    C: Hyperledger
-    F: "2017-12-31"
   - T: "2018-11-30"
     C: RideChain
+    F: "2017-12-31"
+  - T: "2100-01-01"
+    C: Hyperledger
     F: "2017-12-31"
   I:
   - E: a.zhovnuvaty!gmail.com
@@ -20407,7 +20407,8 @@ P:
   I:
   - E: aignatov!mirantis.com
     M: Alexander Ignatov
-    S: groupsio
+    S: jira
+    U: aignatov
   B: 0
   U: Alexander Ignatov
 - E: aignatov!mirantis.com
@@ -20419,8 +20420,7 @@ P:
   I:
   - E: aignatov!mirantis.com
     M: Alexander Ignatov
-    S: jira
-    U: aignatov
+    S: groupsio
   B: 0
   U: Alexander Ignatov
 - C: RU
@@ -21081,11 +21081,11 @@ P:
   - T: "2014-04-01"
     C: Independent
     F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Docker
-    F: "1970-01-01"
   - T: "2015-06-01"
     C: Freshtech
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Docker
     F: "1970-01-01"
   - T: "2014-08-01"
     C: ivi.ru
@@ -21841,11 +21841,11 @@ P:
 - C: DE
   E: galexrt!googlemail.com
   R:
-  - T: "2099-01-01"
-    C: CNCF
-    F: "1970-01-01"
   - T: "2018-08-01"
     C: 1&1
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: CNCF
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Cloudibility
@@ -22846,11 +22846,11 @@ P:
 - C: ES
   E: agonzalezro!gmail.com
   R:
-  - T: "2099-01-01"
-    C: jobandtalent
-    F: "1970-01-01"
   - T: "2015-09-01"
     C: shopa
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: jobandtalent
     F: "1970-01-01"
   - T: "2015-10-01"
     C: Jetstack
@@ -25890,6 +25890,18 @@ P:
   U: Alison Wang
 - E: abonas!redhat.com
   R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  I:
+  - E: abonas!redhat.com
+    M: Alissa Bonas
+    S: jira
+    U: abonas@redhat.com
+  B: 0
+  U: Alissa Bonas
+- E: abonas!redhat.com
+  R:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
@@ -25900,18 +25912,6 @@ P:
   - E: abonas!redhat.com
     M: Alissa Bonas
     S: git
-  B: 0
-  U: Alissa Bonas
-- E: abonas!redhat.com
-  R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  I:
-  - E: abonas!redhat.com
-    M: Alissa Bonas
-    S: jira
-    U: abonas@redhat.com
   B: 0
   U: Alissa Bonas
 - C: GB
@@ -26672,11 +26672,11 @@ P:
 - C: IL
   E: almog.baku!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Rimoto
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: SocialBelong
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Rimoto
     F: "1970-01-01"
   - T: "2018-07-01"
     C: Rimoto
@@ -26701,11 +26701,11 @@ P:
 - C: IL
   E: almogbaku!rimoto.com
   R:
-  - T: "2099-01-01"
-    C: Rimoto
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: SocialBelong
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Rimoto
     F: "1970-01-01"
   - T: "2018-07-01"
     C: Rimoto
@@ -28109,11 +28109,11 @@ P:
   U: Amey B
 - C: US
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2014-05-01"
     C: Persistent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2017-05-01"
     C: Independent
@@ -28164,11 +28164,11 @@ P:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2014-05-01"
     C: Persistent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2017-05-01"
     C: Independent
@@ -28540,11 +28540,11 @@ P:
   U: Amir Gonnen
 - E: amir!gigaspaces.com
   R:
-  - T: "2100-01-01"
-    C: GigaSpaces
-    F: "1900-01-01"
   - T: "2018-05-07"
     C: Cloudify
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: GigaSpaces
     F: "1900-01-01"
   I:
   - E: amir!cloudify.co
@@ -29272,11 +29272,11 @@ P:
 - C: AU
   E: amitsaha.in!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Independent
-    F: "1970-01-01"
   - T: "2014-12-01"
     C: Juniper Networks
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Independent
     F: "1970-01-01"
   - T: "2015-01-01"
     C: Independent
@@ -29774,11 +29774,11 @@ P:
   U: Amy Buck
 - E: amy!users.noreply.github.com
   R:
-  - T: "2099-01-01"
-    C: VMware
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: Datto
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: VMware
     F: "1970-01-01"
   - T: "2015-05-01"
     C: Independent
@@ -29819,11 +29819,11 @@ P:
   - T: "2100-01-01"
     C: VMware
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: VMware
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: Datto
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: VMware
     F: "1970-01-01"
   - T: "2015-05-01"
     C: Independent
@@ -29860,11 +29860,11 @@ P:
   B: 0
   U: Amy Chen
 - R:
-  - T: "2099-01-01"
-    C: VMware
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: Datto
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: VMware
     F: "1970-01-01"
   - T: "2015-05-01"
     C: Independent
@@ -30885,11 +30885,11 @@ P:
   - T: "2014-08-01"
     C: Leanplum
     F: "1970-01-01"
-  - T: "2015-05-01"
-    C: Expii
-    F: "2014-08-01"
   - T: "2015-01-01"
     C: Independent
+    F: "2014-08-01"
+  - T: "2015-05-01"
+    C: Expii
     F: "2014-08-01"
   - T: "2015-05-01"
     C: Expii
@@ -32528,11 +32528,11 @@ P:
   B: 0
   U: Andrea Frittoli
 - R:
-  - T: "2099-01-01"
-    C: IBM
-    F: "1970-01-01"
   - T: "2015-10-31"
     C: HP
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: IBM
     F: "1970-01-01"
   - T: "2016-11-11"
     C: HP
@@ -33631,11 +33631,11 @@ P:
 - C: DK
   E: ak!patientsky.com
   R:
-  - T: "2099-01-01"
-    C: PasientSky AS
-    F: "1970-01-01"
   - T: "2017-03-01"
     C: Bownty
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: PasientSky AS
     F: "1970-01-01"
   - T: "2099-01-01"
     C: PasientSky
@@ -37289,11 +37289,11 @@ P:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: GREE
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2017-10-01"
     C: Google
@@ -40825,10 +40825,10 @@ P:
   E: andrew.zaborowski!intel.com
   R:
   - T: "2100-01-01"
-    C: OpenedHand
+    C: Intel
     F: "1900-01-01"
   - T: "2100-01-01"
-    C: Intel
+    C: OpenedHand
     F: "1900-01-01"
   - T: "2099-01-01"
     C: Intel
@@ -41439,11 +41439,11 @@ P:
   U: Andy Brown
 - C: US
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2015-01-01"
     C: GREE
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2017-10-01"
     C: Google
@@ -44042,11 +44042,11 @@ P:
   U: Anit Lohtia
 - E: abuehrle!users.noreply.github.com
   R:
-  - T: "2099-01-01"
-    C: Weaveworks
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Summatrix
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Weaveworks
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Weaveworks
@@ -44059,11 +44059,11 @@ P:
   B: 0
   U: Anita Buehrle
 - R:
-  - T: "2099-01-01"
-    C: Weaveworks
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Summatrix
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Weaveworks
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Weaveworks
@@ -46130,11 +46130,11 @@ P:
 - C: DE
   E: hello!acotten.com
   R:
-  - T: "2099-01-01"
-    C: Gini
-    F: "1970-01-01"
   - T: "2012-11-01"
     C: ProductLife Group
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Gini
     F: "1970-01-01"
   - T: "2015-03-01"
     C: Ravensburger Digital
@@ -47480,11 +47480,11 @@ P:
 - C: ES
   E: 6450081+aojea!users.noreply.github.com
   R:
-  - T: "2099-01-01"
-    C: Novell
-    F: "1970-01-01"
   - T: "2015-05-01"
     C: Redes
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Novell
     F: "1970-01-01"
   - T: "2017-10-01"
     C: Midokura
@@ -47504,23 +47504,23 @@ P:
   U: Antonio Ojea
 - C: ES
   R:
-  - T: "2099-01-01"
-    C: Novell
-    F: "1970-01-01"
-  - T: "2017-10-01"
-    C: Midokura
-    F: "1970-01-01"
   - T: "2015-05-01"
     C: Redes
     F: "1970-01-01"
   - T: "2017-10-01"
     C: Midokura
-    F: "2015-05-01"
+    F: "1970-01-01"
   - T: "2099-01-01"
-    C: SUSE
-    F: "2017-10-01"
+    C: Novell
+    F: "1970-01-01"
+  - T: "2017-10-01"
+    C: Midokura
+    F: "2015-05-01"
   - T: "2018-01-01"
     C: Independent
+    F: "2017-10-01"
+  - T: "2099-01-01"
+    C: SUSE
     F: "2017-10-01"
   - T: "2099-01-01"
     C: SUSE
@@ -47535,11 +47535,11 @@ P:
 - C: ES
   E: antonio.ojea.garcia!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Novell
-    F: "1970-01-01"
   - T: "2015-05-01"
     C: Redes
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Novell
     F: "1970-01-01"
   - T: "2017-10-01"
     C: Midokura
@@ -47981,11 +47981,11 @@ P:
   - T: "2017-07-01"
     C: Marvell Semiconductor
     F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Espressif Systems
-    F: "2017-07-01"
   - T: "2019-07-01"
     C: Espressif
+    F: "2017-07-01"
+  - T: "2099-01-01"
+    C: Espressif Systems
     F: "2017-07-01"
   - T: "2099-01-01"
     C: Independent
@@ -48483,11 +48483,11 @@ P:
   - T: "2100-01-01"
     C: NEC
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: NEC
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Hewlett
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: NEC
     F: "1970-01-01"
   - T: "2099-01-01"
     C: NEC
@@ -48512,11 +48512,11 @@ P:
   B: 0
   U: Anusha Ramineni
 - R:
-  - T: "2099-01-01"
-    C: NEC
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Hewlett
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: NEC
     F: "1970-01-01"
   - T: "2099-01-01"
     C: NEC
@@ -48551,11 +48551,11 @@ P:
 - C: IN
   E: anvith3!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Huawei
-    F: "1970-01-01"
   - T: "2015-06-01"
     C: 3i Global
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Huawei
     F: "1970-01-01"
   - T: "2016-03-01"
     C: WPFog
@@ -50948,11 +50948,11 @@ P:
   U: Arnel Pajarillo
 - C: DE
   R:
-  - T: "2099-01-01"
-    C: SAP
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: SAP
     F: "1970-01-01"
   - T: "2099-01-01"
     C: SAP
@@ -50967,11 +50967,11 @@ P:
 - C: DE
   E: arno.uhlig!gmail.com
   R:
-  - T: "2099-01-01"
-    C: SAP
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: SAP
     F: "1970-01-01"
   - T: "2099-01-01"
     C: SAP
@@ -50989,11 +50989,11 @@ P:
   - T: "2100-01-01"
     C: SAP
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: SAP
-    F: "1970-01-01"
   - T: "2015-07-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: SAP
     F: "1970-01-01"
   - T: "2099-01-01"
     C: SAP
@@ -52006,11 +52006,11 @@ P:
 - C: US
   E: arthur.souzamiranda!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Independent
-    F: "1970-01-01"
   - T: "2015-09-01"
     C: Nucleus
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Independent
     F: "1970-01-01"
   - T: "2016-08-01"
     C: SOLINOV
@@ -52040,11 +52040,11 @@ P:
   - T: "2100-01-01"
     C: LSD
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Independent
-    F: "1970-01-01"
   - T: "2015-09-01"
     C: Nucleus
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Independent
     F: "1970-01-01"
   - T: "2016-08-01"
     C: SOLINOV
@@ -53186,11 +53186,11 @@ P:
 - C: DE
   E: arve.knudsen!gmail.com
   R:
-  - T: "2099-01-01"
-    C: ApresMIDI AB
-    F: "1970-01-01"
   - T: "2014-12-01"
     C: Bouvet
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: ApresMIDI AB
     F: "1970-01-01"
   - T: "2015-08-01"
     C: Gradle
@@ -53835,11 +53835,11 @@ P:
   U: Ashiq Khan
 - C: US
   R:
-  - T: "2099-01-01"
-    C: Salesforce
-    F: "1970-01-01"
   - T: "2017-01-01"
     C: Microsoft
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Salesforce
     F: "1970-01-01"
   - T: "2019-09-01"
     C: Nordstrom
@@ -53860,11 +53860,11 @@ P:
 - C: US
   E: ashish.amarnath!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Salesforce
-    F: "1970-01-01"
   - T: "2017-01-01"
     C: Microsoft
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Salesforce
     F: "1970-01-01"
   - T: "2019-09-01"
     C: Nordstrom
@@ -55557,11 +55557,11 @@ P:
 - C: LV
   E: atoms!tups.lv
   R:
-  - T: "2014-09-01"
-    C: SIA Lattelecom Tehnology
-    F: "1970-01-01"
   - T: "2014-08-01"
     C: Lattelecom
+    F: "1970-01-01"
+  - T: "2014-09-01"
+    C: SIA Lattelecom Tehnology
     F: "1970-01-01"
   - T: "2019-01-01"
     C: Evolution Gaming
@@ -56025,7 +56025,8 @@ P:
   I:
   - E: audun.korneliussen!nordicsemi.no
     M: Audun Korneliussen
-    S: git
+    S: slack
+    U: audun.korneliussen
   B: 0
   U: Audun Korneliussen
 - E: audun.korneliussen!nordicsemi.no
@@ -56037,8 +56038,7 @@ P:
   I:
   - E: audun.korneliussen!nordicsemi.no
     M: Audun Korneliussen
-    S: slack
-    U: audun.korneliussen
+    S: git
   B: 0
   U: Audun Korneliussen
 - E: audun.korneliussen!nordicsemi.no
@@ -56214,11 +56214,11 @@ P:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2014-12-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2015-08-01"
     C: ISX
@@ -56268,11 +56268,11 @@ P:
 - C: CA
   E: auni.ahsan53!gmail.com
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
   - T: "2014-12-01"
     C: Independent
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
     F: "1970-01-01"
   - T: "2015-08-01"
     C: ISX
@@ -58580,6 +58580,19 @@ P:
   U: Babu Moger
 - E: anbu!enovance.com
   R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: anbu!enovance.com
+    M: Babu Shanmugam
+    S: jira
+    U: anbu@enovance.com
+  B: 0
+  U: Babu Shanmugam
+- E: anbu!enovance.com
+  R:
   - T: "2100-01-01"
     C: eNovance
     F: "1900-01-01"
@@ -58591,19 +58604,6 @@ P:
   - E: anbu!enovance.com
     M: Babu Shanmugam
     S: git
-  B: 0
-  U: Babu Shanmugam
-- E: anbu!enovance.com
-  R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: anbu!enovance.com
-    M: Babu Shanmugam
-    S: jira
-    U: anbu@enovance.com
   B: 0
   U: Babu Shanmugam
 - E: bschanmu!redhat.com
@@ -59439,11 +59439,11 @@ P:
   - T: "2014-08-01"
     C: Deloitte
     F: "1970-01-01"
-  - T: "2099-01-01"
-    C: VMware
-    F: "2014-08-01"
   - T: "2015-01-01"
     C: Independent
+    F: "2014-08-01"
+  - T: "2099-01-01"
+    C: VMware
     F: "2014-08-01"
   - T: "2099-01-01"
     C: VMware
