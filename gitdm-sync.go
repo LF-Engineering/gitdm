@@ -18,6 +18,7 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/pkg/errors"
 	yaml "gopkg.in/yaml.v2"
 )
 
@@ -198,7 +199,11 @@ func syncRepo() bool {
 		}
 		var all allArrayOutput
 		fmt.Printf("parse profiles%d.yaml\n", i)
-		if fatalOnError(yaml.Unmarshal(data, &all), false) {
+		err = yaml.Unmarshal(data, &all)
+		if err != nil {
+			err = errors.Wrap(err, fmt.Sprintf("profiles%d.yaml", i))
+		}
+		if fatalOnError(err, false) {
 			return false
 		}
 		profs = append(profs, all.Profiles...)
@@ -408,7 +413,11 @@ func checkRepo() bool {
 		}
 		var all allArrayOutput
 		fmt.Printf("parse profiles%d.yaml\n", i)
-		if fatalOnError(yaml.Unmarshal(data, &all), false) {
+		err = yaml.Unmarshal(data, &all)
+		if err != nil {
+			err = errors.Wrap(err, fmt.Sprintf("profiles%d.yaml", i))
+		}
+		if fatalOnError(err, false) {
 			return false
 		}
 		i++
