@@ -221,15 +221,15 @@ func processRepo() bool {
 		}
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
-	fmt.Printf("git status\n")
-	status, ok := execCommand([]string{"git", "status"}, nil, 1)
-	//status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1)
+	fmt.Printf("git status *.yaml\n")
+	//status, ok := execCommand([]string{"git", "status"}, nil, 1)
+	status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1)
 	if !ok {
 		return false
 	}
 	if strings.Contains(status, "nothing to commit, working tree clean") {
 		fmt.Printf("Profile YAML files don't need updates\n")
-		return false
+		return true
 	}
 	fmt.Printf("git add *.yaml\n")
 	_, ok = execCommand([]string{"git", "add", "*.yaml"}, nil, 1)
