@@ -241,7 +241,7 @@ func syncRepo() bool {
 		return false
 	}
 	fmt.Printf("git config user.name get | echo ''\n")
-	cfg, ok := execCommand([]string{"git", "config", "--global", "user.name", "|", "echo", "''"}, nil, 1)
+	cfg, ok := execCommand([]string{"git", "config", "--global", "user.name", "||", "echo", "''"}, nil, 1)
 	if !ok {
 		return false
 	}
@@ -253,7 +253,7 @@ func syncRepo() bool {
 		}
 	}
 	fmt.Printf("git config user.email get | echo ''\n")
-	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email", "|", "echo", "''"}, nil, 1)
+	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email", "||", "echo", "''"}, nil, 1)
 	if !ok {
 		return false
 	}
