@@ -92,21 +92,6 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
-  - E: xufeng.zhang!windriver.com
-    M: Xufeng Zhang
-    S: bugzilla
-    U: xufeng.zhang@windriver.com
-  - E: xufeng.zhang!windriver.com
-    S: bugzilla
-    U: xufeng.zhang@windriver.com
-  B: 0
-  U: Xufeng Zhang
-- E: xufeng.zhang!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
-  I:
   - M: Xufeng Zhang
     S: bugzilla
     U: xufeng.zhang
@@ -118,17 +103,21 @@ P:
     S: pipermail
   B: 0
   U: Xufeng Zhang
-- E: xulin.sun!windriver.com
+- E: xufeng.zhang!windriver.com
   R:
-  - T: "2099-01-01"
+  - T: "2100-01-01"
     C: Wind River
-    F: "1970-01-01"
+    F: "1900-01-01"
   I:
-  - E: xulin.sun!windriver.com
-    M: Xulin Sun
-    S: groupsio
+  - E: xufeng.zhang!windriver.com
+    M: Xufeng Zhang
+    S: bugzilla
+    U: xufeng.zhang@windriver.com
+  - E: xufeng.zhang!windriver.com
+    S: bugzilla
+    U: xufeng.zhang@windriver.com
   B: 0
-  U: Xulin Sun
+  U: Xufeng Zhang
 - E: xulin.sun!windriver.com
   R:
   - T: "2100-01-01"
@@ -141,6 +130,17 @@ P:
   - E: xulin.sun!windriver.com
     M: Xulin Sun
     S: pipermail
+  B: 0
+  U: Xulin Sun
+- E: xulin.sun!windriver.com
+  R:
+  - T: "2099-01-01"
+    C: Wind River
+    F: "1970-01-01"
+  I:
+  - E: xulin.sun!windriver.com
+    M: Xulin Sun
+    S: groupsio
   B: 0
   U: Xulin Sun
 - E: xun2.zhang!intel.com
@@ -7651,6 +7651,18 @@ P:
     C: Red Hat
     F: "1900-01-01"
   I:
+  - E: yroblamo!redhat.com
+    M: Yolanda Robla Mota
+    S: slack
+    U: yroblamo
+  B: 0
+  U: Yolanda Robla Mota
+- E: yroblamo!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+  I:
   - M: Yolanda Robla Mota
     S: confluence
     U: yrobla
@@ -7685,18 +7697,6 @@ P:
   - E: yroblamo!redhat.com
     M: Yolanda Robla Mota
     S: pipermail
-  B: 0
-  U: Yolanda Robla Mota
-- E: yroblamo!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-  I:
-  - E: yroblamo!redhat.com
-    M: Yolanda Robla Mota
-    S: slack
-    U: yroblamo
   B: 0
   U: Yolanda Robla Mota
 - E: yolanda.robla-mota!hp.com
@@ -61250,7 +61250,8 @@ P:
   I:
   - E: lyq.0617!gmail.com
     M: lovejoy
-    S: git
+    S: github
+    U: lovejoy
   B: 0
   U: lovejoy
 - C: CN
@@ -61262,8 +61263,7 @@ P:
   I:
   - E: lyq.0617!gmail.com
     M: lovejoy
-    S: github
-    U: lovejoy
+    S: git
   B: 0
   U: lovejoy
 - R:

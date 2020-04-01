@@ -10804,9 +10804,11 @@ P:
     F: "1900-01-01"
   I:
   - E: zhouhaojun!huawei.com
+    M: Haojun Zhou
+    S: git
+  - E: zhouhaojun!huawei.com
     M: HaojunZhou
-    S: github
-    U: haojun
+    S: git
   B: 0
   U: HaojunZhou
 - E: zhouhaojun!huawei.com
@@ -10816,11 +10818,9 @@ P:
     F: "1900-01-01"
   I:
   - E: zhouhaojun!huawei.com
-    M: Haojun Zhou
-    S: git
-  - E: zhouhaojun!huawei.com
     M: HaojunZhou
-    S: git
+    S: github
+    U: haojun
   B: 0
   U: HaojunZhou
 - C: CN
@@ -22804,6 +22804,10 @@ P:
   - E: imain!redhat.com
     M: Ian Main
     S: git
+    U: imain
+  - M: Ian Main
+    S: oci_csv
+    U: imain
   B: 0
   U: Ian Main
 - E: imain!redhat.com
@@ -22819,10 +22823,6 @@ P:
   - E: imain!redhat.com
     M: Ian Main
     S: git
-    U: imain
-  - M: Ian Main
-    S: oci_csv
-    U: imain
   B: 0
   U: Ian Main
 - C: GB
@@ -26219,8 +26219,7 @@ P:
   I:
   - E: ilya!sotkov.com
     M: Ilya Sotkov
-    S: github
-    U: ilyasotkov
+    S: git
   B: 0
   U: Ilya Sotkov
 - C: FI
@@ -26236,7 +26235,8 @@ P:
   I:
   - E: ilya!sotkov.com
     M: Ilya Sotkov
-    S: git
+    S: github
+    U: ilyasotkov
   B: 0
   U: Ilya Sotkov
 - R:
@@ -33169,8 +33169,7 @@ P:
   I:
   - E: dahl.jakejacob!gmail.com
     M: Jacob Dahl
-    S: slack
-    U: dahl.jakejacob
+    S: git
   B: 0
   U: Jacob Dahl
 - E: dahl.jakejacob!gmail.com
@@ -33181,7 +33180,8 @@ P:
   I:
   - E: dahl.jakejacob!gmail.com
     M: Jacob Dahl
-    S: git
+    S: slack
+    U: dahl.jakejacob
   B: 0
   U: Jacob Dahl
 - E: jfrank!pivotal.io
@@ -33422,23 +33422,6 @@ P:
 - C: US
   E: jpalmer!linuxfoundation.org
   R:
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: The Linux Foundation
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: jpalmer!linuxfoundation.org
-    M: Jacob Palmer
-    S: slack
-    U: jpalmer
-  B: 0
-  U: Jacob Palmer
-- C: US
-  E: jpalmer!linuxfoundation.org
-  R:
   - T: "2099-01-01"
     C: The Linux Foundation
     F: "1970-01-01"
@@ -33451,6 +33434,23 @@ P:
     M: Jacob Palmer
     S: github
     U: jpalmerLinuxFoundation
+  B: 0
+  U: Jacob Palmer
+- C: US
+  E: jpalmer!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: The Linux Foundation
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: jpalmer!linuxfoundation.org
+    M: Jacob Palmer
+    S: slack
+    U: jpalmer
   B: 0
   U: Jacob Palmer
 - E: jacob.jun.pan!linux.intel.com
@@ -34362,7 +34362,7 @@ P:
   I:
   - E: jpalanis!redhat.com
     M: Jaganathan Palanisamy
-    S: pipermail
+    S: git
   B: 0
   U: Jaganathan Palanisamy
 - E: jpalanis!redhat.com
@@ -34373,7 +34373,7 @@ P:
   I:
   - E: jpalanis!redhat.com
     M: Jaganathan Palanisamy
-    S: git
+    S: pipermail
   B: 0
   U: Jaganathan Palanisamy
 - E: jag.raman!oracle.com
@@ -40942,18 +40942,6 @@ P:
   U: Jan Srnicek -X jsrnicek - PANTHEON TECHNOLOGIES@Cisco
 - E: jstancek!redhat.com
   R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: jstancek!redhat.com
-    M: Jan Stancek
-    S: git
-  B: 0
-  U: Jan Stancek
-- E: jstancek!redhat.com
-  R:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
@@ -40965,6 +40953,18 @@ P:
   - E: jstancek!redhat.com
     M: Jan Stancek
     S: pipermail
+  B: 0
+  U: Jan Stancek
+- E: jstancek!redhat.com
+  R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: jstancek!redhat.com
+    M: Jan Stancek
+    S: git
   B: 0
   U: Jan Stancek
 - C: US
@@ -46862,7 +46862,7 @@ P:
   I:
   - M: Jayant Kolhe
     S: github
-    U: jayantkolhe
+    U: jkolhe
   B: 0
   U: Jayant Kolhe
 - C: US
@@ -46874,7 +46874,7 @@ P:
   I:
   - M: Jayant Kolhe
     S: github
-    U: jkolhe
+    U: jayantkolhe
   B: 0
   U: Jayant Kolhe
 - C: US
@@ -55864,8 +55864,7 @@ P:
   I:
   - E: zhang.jia!linux.alibaba.com
     M: Jia Zhang
-    S: github
-    U: jiazhang0
+    S: git
   B: 0
   U: Jia Zhang
 - E: zhang.jia!linux.alibaba.com
@@ -55883,7 +55882,8 @@ P:
   I:
   - E: zhang.jia!linux.alibaba.com
     M: Jia Zhang
-    S: git
+    S: github
+    U: jiazhang0
   B: 0
   U: Jia Zhang
 - E: zhujia13!huawei.com
@@ -60805,7 +60805,7 @@ P:
   I:
   - E: jiwei.sun!windriver.com
     M: Jiwei Sun
-    S: git
+    S: pipermail
   B: 0
   U: Jiwei Sun
 - E: jiwei.sun!windriver.com
@@ -60816,7 +60816,7 @@ P:
   I:
   - E: jiwei.sun!windriver.com
     M: Jiwei Sun
-    S: pipermail
+    S: git
   B: 0
   U: Jiwei Sun
 - C: KR
