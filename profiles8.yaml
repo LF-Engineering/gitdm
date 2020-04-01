@@ -7012,20 +7012,6 @@ P:
     C: Ericsson
     F: "1900-01-01"
   I:
-  - E: rodrigo.ottero!est.tech
-    M: Rodrigo Ottero
-    S: gerrit
-  - E: rodrigo.ottero!est.tech
-    M: ottero
-    S: gerrit
-  B: 0
-  U: Rodrigo Ottero
-- E: rodrigo.ottero!est.tech
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-  I:
   - M: Rodrigo Ottero
     S: confluence
     U: ottero
@@ -7050,6 +7036,20 @@ P:
     M: Rodrigo Ottero
     S: jira
     U: ottero
+  B: 0
+  U: Rodrigo Ottero
+- E: rodrigo.ottero!est.tech
+  R:
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+  I:
+  - E: rodrigo.ottero!est.tech
+    M: Rodrigo Ottero
+    S: gerrit
+  - E: rodrigo.ottero!est.tech
+    M: ottero
+    S: gerrit
   B: 0
   U: Rodrigo Ottero
 - C: PT
@@ -9053,8 +9053,7 @@ P:
   I:
   - E: bapstroman!gmail.com
     M: Roman Bapst
-    S: github
-    U: RomanBapst
+    S: git
   B: 0
   U: Roman Bapst
 - E: bapstroman!gmail.com
@@ -9065,7 +9064,8 @@ P:
   I:
   - E: bapstroman!gmail.com
     M: Roman Bapst
-    S: git
+    S: github
+    U: RomanBapst
   B: 0
   U: Roman Bapst
 - E: roman!px4.io
@@ -9339,17 +9339,6 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
-  - E: romanx.korynkevych!intel.com
-    M: Roman Korynkevych
-    S: pipermail
-  B: 0
-  U: Roman Korynkevych
-- E: romanx.korynkevych!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
   - M: Roman Korynkevych
     S: confluence
     U: roman.korynkevych
@@ -9371,6 +9360,17 @@ P:
     S: mbox
   - E: romanx.korynkevych!intel.com
     M: Korynkevych, RomanX
+    S: pipermail
+  B: 0
+  U: Roman Korynkevych
+- E: romanx.korynkevych!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: romanx.korynkevych!intel.com
+    M: Roman Korynkevych
     S: pipermail
   B: 0
   U: Roman Korynkevych
@@ -22262,6 +22262,21 @@ P:
   - T: "2100-01-01"
     C: Digia Plc
     F: "1900-01-01"
+  I:
+  - E: samuli.piippo!digia.com
+    M: Samuli Piippo
+    S: bugzilla
+    U: samuli.piippo@digia.com
+  - E: samuli.piippo!digia.com
+    S: bugzilla
+    U: samuli.piippo@digia.com
+  B: 0
+  U: Samuli Piippo
+- E: samuli.piippo!digia.com
+  R:
+  - T: "2100-01-01"
+    C: Digia Plc
+    F: "1900-01-01"
   - T: "2100-01-01"
     C: Qt Company
     F: "1900-01-01"
@@ -22290,21 +22305,6 @@ P:
   - E: samuli.piippo!theqtcompany.com
     M: Samuli Piippo
     S: pipermail
-  B: 0
-  U: Samuli Piippo
-- E: samuli.piippo!digia.com
-  R:
-  - T: "2100-01-01"
-    C: Digia Plc
-    F: "1900-01-01"
-  I:
-  - E: samuli.piippo!digia.com
-    M: Samuli Piippo
-    S: bugzilla
-    U: samuli.piippo@digia.com
-  - E: samuli.piippo!digia.com
-    S: bugzilla
-    U: samuli.piippo@digia.com
   B: 0
   U: Samuli Piippo
 - E: samuli.piippo!qt.io
@@ -22562,7 +22562,7 @@ P:
   I:
   - E: sspatil!google.com
     M: Sandeep Patil
-    S: git
+    S: pipermail
   B: 0
   U: Sandeep Patil
 - E: sspatil!google.com
@@ -22576,7 +22576,7 @@ P:
   I:
   - E: sspatil!google.com
     M: Sandeep Patil
-    S: pipermail
+    S: git
   B: 0
   U: Sandeep Patil
 - E: ssrinivas!vmware.com
@@ -25326,8 +25326,7 @@ P:
   I:
   - E: sargun!sargun.me
     M: Sargun Dhillon
-    S: github
-    U: sargun
+    S: git
   B: 0
   U: Sargun Dhillon
 - C: US
@@ -25340,7 +25339,8 @@ P:
   I:
   - E: sargun!sargun.me
     M: Sargun Dhillon
-    S: git
+    S: github
+    U: sargun
   B: 0
   U: Sargun Dhillon
 - E: saritz!mellanox.com
@@ -26961,11 +26961,7 @@ P:
   I:
   - E: savinay.dharmappa!intel.com
     M: Savinay Dharmappa
-    S: git
-  - E: savinay.dharmappa!intel.com
-    M: Savinay Dharmappa
-    S: github
-    U: SavinayDharmappa
+    S: pipermail
   B: 0
   U: Savinay Dharmappa
 - E: savinay.dharmappa!intel.com
@@ -26976,7 +26972,11 @@ P:
   I:
   - E: savinay.dharmappa!intel.com
     M: Savinay Dharmappa
-    S: pipermail
+    S: git
+  - E: savinay.dharmappa!intel.com
+    M: Savinay Dharmappa
+    S: github
+    U: SavinayDharmappa
   B: 0
   U: Savinay Dharmappa
 - C: US
@@ -27307,12 +27307,10 @@ P:
     C: National Instruments
     F: "1900-01-01"
   I:
-  - M: Scot Salmon
-    S: bugzilla
-    U: scot.salmon
   - E: scot.salmon!ni.com
     M: Scot Salmon
-    S: git
+    S: bugzilla
+    U: scot.salmon@ni.com
   B: 0
   U: Scot Salmon
 - E: scot.salmon!ni.com
@@ -27321,10 +27319,12 @@ P:
     C: National Instruments
     F: "1900-01-01"
   I:
+  - M: Scot Salmon
+    S: bugzilla
+    U: scot.salmon
   - E: scot.salmon!ni.com
     M: Scot Salmon
-    S: bugzilla
-    U: scot.salmon@ni.com
+    S: git
   B: 0
   U: Scot Salmon
 - E: scot.steele!att.com
@@ -29389,16 +29389,7 @@ P:
   I:
   - E: sean!coreitpro.com
     M: Sean M. Collins
-    S: gmane
-  - E: sean!coreitpro.com
-    M: Sean M. Collins
-    S: groupsio
-  - E: sean!coreitpro.com
-    M: Sean M. Collins
-    S: mbox
-  - E: sean!coreitpro.com
-    M: Sean M. Collins
-    S: pipermail
+    S: git
   B: 0
   U: Sean M. Collins
 - E: sean!coreitpro.com
@@ -29413,7 +29404,16 @@ P:
   I:
   - E: sean!coreitpro.com
     M: Sean M. Collins
-    S: git
+    S: gmane
+  - E: sean!coreitpro.com
+    M: Sean M. Collins
+    S: groupsio
+  - E: sean!coreitpro.com
+    M: Sean M. Collins
+    S: mbox
+  - E: sean!coreitpro.com
+    M: Sean M. Collins
+    S: pipermail
   B: 0
   U: Sean M. Collins
 - E: smaclennan!pikatech.com
@@ -32857,8 +32857,7 @@ P:
   I:
   - E: skolekonov!mirantis.com
     M: Sergey Kolekonov
-    S: github
-    U: skolekonov
+    S: git
   B: 0
   U: Sergey Kolekonov
 - C: US
@@ -32874,7 +32873,8 @@ P:
   I:
   - E: skolekonov!mirantis.com
     M: Sergey Kolekonov
-    S: git
+    S: github
+    U: skolekonov
   B: 0
   U: Sergey Kolekonov
 - C: RU
@@ -43487,6 +43487,21 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
+  - E: simarpreet.singh!windriver.com
+    M: Simarpreet Singh
+    S: bugzilla
+    U: simarpreet.singh@windriver.com
+  - E: simarpreet.singh!windriver.com
+    S: bugzilla
+    U: simarpreet.singh@windriver.com
+  B: 0
+  U: Simarpreet Singh
+- E: simarpreet.singh!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
   - M: Simarpreet Singh
     S: bugzilla
     U: simar
@@ -43496,21 +43511,6 @@ P:
   - E: simarpreet.singh!windriver.com
     M: Simarpreet Singh
     S: pipermail
-  B: 0
-  U: Simarpreet Singh
-- E: simarpreet.singh!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
-  I:
-  - E: simarpreet.singh!windriver.com
-    M: Simarpreet Singh
-    S: bugzilla
-    U: simarpreet.singh@windriver.com
-  - E: simarpreet.singh!windriver.com
-    S: bugzilla
-    U: simarpreet.singh@windriver.com
   B: 0
   U: Simarpreet Singh
 - C: "NO"
@@ -47825,17 +47825,6 @@ P:
     C: tech mahindra
     F: "1900-01-01"
   I:
-  - E: SA00498080!techmahindra.com
-    M: soumendu
-    S: gerrit
-  B: 0
-  U: Soumendu Sekhar Acharya
-- E: SA00498080!techmahindra.com
-  R:
-  - T: "2100-01-01"
-    C: tech mahindra
-    F: "1900-01-01"
-  I:
   - M: Soumendu Sekhar Acharya
     S: confluence
     U: soumendu
@@ -47868,6 +47857,17 @@ P:
   - E: SA00498080!TechMahindra.com
     M: Soumendu Sekhar Acharya
     S: pipermail
+  B: 0
+  U: Soumendu Sekhar Acharya
+- E: SA00498080!techmahindra.com
+  R:
+  - T: "2100-01-01"
+    C: tech mahindra
+    F: "1900-01-01"
+  I:
+  - E: SA00498080!techmahindra.com
+    M: soumendu
+    S: gerrit
   B: 0
   U: Soumendu Sekhar Acharya
 - E: soumya.shankar.sardar!ericsson.com
@@ -51054,6 +51054,21 @@ P:
     C: Broadcom
     F: "1900-01-01"
   I:
+  - E: su670571!broadcom.net
+    M: Stanko Uzunov
+    S: git
+  - E: stanko.uzunov!broadcom.com
+    M: Stanko Uzunov
+    S: slack
+    U: stanko.uzunov387
+  B: 0
+  U: Stanko Uzunov
+- E: stanko.uzunov!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom
+    F: "1900-01-01"
+  I:
   - E: 38034217+uzust01!users.noreply.github.com
     M: Stanko
     S: git
@@ -51066,21 +51081,6 @@ P:
   - M: Stanko
     S: github
     U: uzust01
-  B: 0
-  U: Stanko Uzunov
-- E: stanko.uzunov!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom
-    F: "1900-01-01"
-  I:
-  - E: su670571!broadcom.net
-    M: Stanko Uzunov
-    S: git
-  - E: stanko.uzunov!broadcom.com
-    M: Stanko Uzunov
-    S: slack
-    U: stanko.uzunov387
   B: 0
   U: Stanko Uzunov
 - R:
@@ -52730,15 +52730,8 @@ P:
   I:
   - E: stefan.sicleru!enea.com
     M: Stefan Sicleru
-    S: gerrit
-    U: stefan.sicleru
-  - E: stefan.sicleru!enea.com
-    M: Stefan Sicleru
-    S: git
-  - E: stefan.sicleru!enea.com
-    M: Stefan Sicleru
-    S: jira
-    U: stefan.sicleru
+    S: bugzilla
+    U: stefan.sicleru@enea.com
   B: 0
   U: Stefan Sicleru
 - E: stefan.sicleru!enea.com
@@ -52749,8 +52742,15 @@ P:
   I:
   - E: stefan.sicleru!enea.com
     M: Stefan Sicleru
-    S: bugzilla
-    U: stefan.sicleru@enea.com
+    S: gerrit
+    U: stefan.sicleru
+  - E: stefan.sicleru!enea.com
+    M: Stefan Sicleru
+    S: git
+  - E: stefan.sicleru!enea.com
+    M: Stefan Sicleru
+    S: jira
+    U: stefan.sicleru
   B: 0
   U: Stefan Sicleru
 - E: stefan.strogin!gmail.com
@@ -53166,7 +53166,7 @@ P:
   I:
   - E: sstabellini!kernel.org
     M: Stefano Stabellini
-    S: git
+    S: groupsio
   B: 0
   U: Stefano Stabellini
 - E: sstabellini!kernel.org
@@ -53184,7 +53184,7 @@ P:
   I:
   - E: sstabellini!kernel.org
     M: Stefano Stabellini
-    S: groupsio
+    S: git
   B: 0
   U: Stefano Stabellini
 - E: stefano.stabellini!eu.citrix.com
