@@ -101,7 +101,6 @@ func fatalOnError(err error) {
 		fmt.Fprintf(os.Stderr, "Error(time=%+v):\nError: '%s'\nStacktrace:\n", tm, err.Error())
 		gw.WriteHeader(http.StatusBadRequest)
 		_, _ = io.WriteString(gw, err.Error())
-		//panic("stacktrace")
 	}
 }
 
@@ -137,9 +136,12 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int) string {
 	err := cmd.Wait()
 	if err != nil || dbg > 1 {
 		outStr := stdOut.String()
-		fmt.Printf("STDOUT:\n%v\n", outStr)
 		errStr := stdErr.String()
+		fmt.Printf("STDOUT:\n%v\n", outStr)
 		fmt.Printf("STDERR:\n%v\n", errStr)
+		if err != nil {
+			err = fmt.Errorf("%+v\nstdout:\n%s\nstderr:\n%s", err, outStr, errStr)
+		}
 		fatalOnError(err)
 	}
 	return stdOut.String()
