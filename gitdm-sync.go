@@ -11,6 +11,7 @@ import (
 	"os/exec"
 	"os/signal"
 	"runtime/debug"
+	"sort"
 	"strconv"
 	"strings"
 	"sync"
@@ -143,7 +144,7 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int, allowedExi
 		return "cmd.Start() failed", false
 	}
 	err := cmd.Wait()
-	if err != nil || dbg > 1 {
+	if err != nil {
 		for _, allowed := range allowedExitCodes {
 			if err.Error() == fmt.Sprintf("exit status %d", allowed) {
 				if dbg > 0 {
@@ -153,6 +154,8 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int, allowedExi
 				break
 			}
 		}
+	}
+	if err != nil || dbg > 1 {
 		outStr := stdOut.String()
 		errStr := stdErr.String()
 		fmt.Printf("STDOUT:\n%v\n", outStr)
@@ -200,6 +203,69 @@ func syncRepo() bool {
 		}
 		profs = append(profs, all.Profiles...)
 		i++
+	}
+	sort.Slice(profs, func(i, j int) bool {
+		iS := ""
+		if profs[i].Name != nil {
+			iS += ":" + *(profs[i].Name)
+		}
+		if profs[i].Email != nil {
+			iS += ":" + *(profs[i].Email)
+		}
+		if profs[i].CountryCode != nil {
+			iS += ":" + *(profs[i].CountryCode)
+		}
+		if profs[i].Gender != nil {
+			iS += ":" + *(profs[i].Gender)
+		}
+		jS := ""
+		if profs[j].Name != nil {
+			jS += ":" + *(profs[j].Name)
+		}
+		if profs[j].Email != nil {
+			jS += ":" + *(profs[j].Email)
+		}
+		if profs[j].CountryCode != nil {
+			jS += ":" + *(profs[j].CountryCode)
+		}
+		if profs[j].Gender != nil {
+			jS += ":" + *(profs[j].Gender)
+		}
+		return iS < jS
+	})
+	for k := range profs {
+		if len(profs[k].Enrollments) > 1 {
+			sort.Slice(profs[k].Enrollments, func(i, j int) bool {
+				rols := profs[k].Enrollments
+				return rols[i].Start < rols[j].Start
+			})
+		}
+		if len(profs[k].Identities) > 1 {
+			sort.Slice(profs[k].Identities, func(i, j int) bool {
+				ids := profs[k].Identities
+				iS := ids[i].Source
+				if ids[i].Name != nil {
+					iS += ":" + *(ids[i].Name)
+				}
+				if ids[i].Email != nil {
+					iS += ":" + *(ids[i].Email)
+				}
+				if ids[i].Username != nil {
+					iS += ":" + *(ids[i].Username)
+				}
+				jS := ids[j].Source
+				if ids[j].Name != nil {
+					jS += ":" + *(ids[j].Name)
+				}
+				if ids[j].Email != nil {
+					jS += ":" + *(ids[j].Email)
+				}
+				if ids[j].Username != nil {
+					jS += ":" + *(ids[j].Username)
+				}
+				return iS < jS
+			})
+		}
 	}
 	currSize := 0
 	profSize := 0
