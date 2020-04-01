@@ -2,12 +2,11 @@
 name: React to push
 on:
   push:
-    branches:
-    - master
+    branches: [master]
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
     - name: Sync using gitdm-sync
       run: |
-        (curl -s ${{ secrets.SYNC_URL }} |& tee output.txt | grep 'SYNC_OK') || ( cat output.txt; exit 1)
+        (curl -s "${{ secrets.SYNC_URL }}/push" |& tee output.txt | grep 'SYNC_OK') || ( cat output.txt; exit 1)

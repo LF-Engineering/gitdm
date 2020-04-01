@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"html"
 	"io"
 	"io/ioutil"
 	"net/http"
@@ -100,7 +101,7 @@ func fatalOnError(err error, pnic bool) bool {
 		fmt.Printf("Error(time=%+v):\nError: '%s'\nStacktrace:\n%s\n", tm, err.Error(), string(debug.Stack()))
 		fmt.Fprintf(os.Stderr, "Error(time=%+v):\nError: '%s'\nStacktrace:\n", tm, err.Error())
 		gw.WriteHeader(http.StatusBadRequest)
-		_, _ = io.WriteString(gw, err.Error())
+		_, _ = io.WriteString(gw, err.Error()+"\n")
 		if pnic {
 			panic("stacktrace")
 		}
@@ -109,8 +110,8 @@ func fatalOnError(err error, pnic bool) bool {
 	return false
 }
 
-func fatalf(f string, a ...interface{}) {
-	fatalOnError(fmt.Errorf(f, a...), true)
+func fatalf(pnic bool, f string, a ...interface{}) {
+	fatalOnError(fmt.Errorf(f, a...), pnic)
 }
 
 func execCommand(cmdAndArgs []string, env map[string]string, dbg int) (string, bool) {
@@ -159,6 +160,8 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int) (string, b
 func requestInfo(r *http.Request) string {
 	agent := ""
 	hdr := r.Header
+	method := r.Method
+	path := html.EscapeString(r.URL.Path)
 	if hdr != nil {
 		uAgentAry, ok := hdr["User-Agent"]
 		if ok {
@@ -166,12 +169,12 @@ func requestInfo(r *http.Request) string {
 		}
 	}
 	if agent != "" {
-		return fmt.Sprintf("IP: %s, agent: %s", r.RemoteAddr, agent)
+		return fmt.Sprintf("IP: %s, agent: %s, method: %s, path: %s", r.RemoteAddr, agent, method, path)
 	}
-	return fmt.Sprintf("IP: %s", r.RemoteAddr)
+	return fmt.Sprintf("IP: %s, method: %s, path: %s", r.RemoteAddr, method, path)
 }
 
-func processRepo() bool {
+func syncRepo() bool {
 	i := 1
 	var profs []*allOutput
 	for {
@@ -297,7 +300,26 @@ func processRepo() bool {
 	return true
 }
 
-func handle(w http.ResponseWriter, req *http.Request) {
+func checkRepo() bool {
+	i := 1
+	for {
+		fmt.Printf("reading profiles%d.yaml\n", i)
+		data, err := ioutil.ReadFile(fmt.Sprintf("profiles%d.yaml", i))
+		if err != nil {
+			break
+		}
+		var all allArrayOutput
+		fmt.Printf("parse profiles%d.yaml\n", i)
+		if fatalOnError(yaml.Unmarshal(data, &all), false) {
+			return false
+		}
+		i++
+	}
+	fmt.Printf("checking repo finished\n")
+	return true
+}
+
+func handlePush(w http.ResponseWriter, req *http.Request) {
 	info := requestInfo(req)
 	fmt.Printf("Request: %s\n", info)
 	var err error
@@ -343,12 +365,78 @@ func handle(w http.ResponseWriter, req *http.Request) {
 		fmt.Printf("chdir back to %s\n", wd)
 		_ = os.Chdir(wd)
 	}()
-	fmt.Printf("process repo\n")
-	if !processRepo() {
+	fmt.Printf("sync repo\n")
+	if !syncRepo() {
 		return
 	}
 	w.WriteHeader(http.StatusOK)
 	_, _ = io.WriteString(w, "SYNC_OK")
+}
+
+func handlePR(w http.ResponseWriter, req *http.Request) {
+	info := requestInfo(req)
+	fmt.Printf("Request: %s\n", info)
+	var err error
+	defer func() {
+		fmt.Printf("Request(exit): %s err:%v\n", info, err)
+	}()
+	fmt.Printf("lock mutex\n")
+	gMtx.Lock()
+	defer func() {
+		fmt.Printf("unlock mutex\n")
+		gMtx.Unlock()
+	}()
+	gw = w
+	path := html.EscapeString(req.URL.Path)
+	ary := strings.Split(path, "/")
+	if len(ary) != 3 {
+		fatalf(false, "malformed path:%s", path)
+		return
+	}
+	commit := strings.TrimSpace(ary[2])
+	if commit == "" {
+		fatalf(false, "no commit specified in path:%s", path)
+		return
+	}
+	fmt.Printf("checking commit %s\n", commit)
+	fmt.Printf("Cleanup repo before\n")
+	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
+	defer func() {
+		fmt.Printf("Cleanup repo after\n")
+		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1)
+	}()
+	fmt.Printf("git clone\n")
+	cmd := []string{
+		"git",
+		"clone",
+		fmt.Sprintf(
+			"https://%s:%s@github.com/%s",
+			os.Getenv("GITDM_GITHUB_USER"),
+			os.Getenv("GITDM_GITHUB_OAUTH"),
+			os.Getenv("GITDM_GITHUB_REPO"),
+		),
+	}
+	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
+	execCommand(cmd, env, 0)
+	fmt.Printf("get wd\n")
+	wd, err := os.Getwd()
+	if fatalOnError(err, false) {
+		return
+	}
+	fmt.Printf("chdir gitdm\n")
+	if fatalOnError(os.Chdir("gitdm"), false) {
+		return
+	}
+	defer func() {
+		fmt.Printf("chdir back to %s\n", wd)
+		_ = os.Chdir(wd)
+	}()
+	fmt.Printf("check repo\n")
+	if !checkRepo() {
+		return
+	}
+	w.WriteHeader(http.StatusOK)
+	_, _ = io.WriteString(w, "CHECK_OK")
 }
 
 func checkEnv() {
@@ -362,7 +450,7 @@ func checkEnv() {
 	}
 	for _, env := range requiredEnv {
 		if os.Getenv(env) == "" {
-			fatalf("%s env variable must be set", env)
+			fatalf(true, "%s env variable must be set", env)
 		}
 	}
 }
@@ -380,11 +468,12 @@ func serve() {
 		}
 	}()
 	gMtx = &sync.Mutex{}
-	http.HandleFunc("/", handle)
+	http.HandleFunc("/push", handlePush)
+	http.HandleFunc("/pr/", handlePR)
 	fatalOnError(http.ListenAndServe("0.0.0.0:7070", nil), true)
 }
 
 func main() {
 	serve()
-	fatalf("serve exited without error, returning error state anyway")
+	fatalf(true, "serve exited without error, returning error state anyway")
 }
