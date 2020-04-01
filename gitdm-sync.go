@@ -222,7 +222,8 @@ func processRepo() bool {
 	}
 	fmt.Printf("written %d profile files\n", len(ranges))
 	fmt.Printf("git status\n")
-	status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1)
+	status, ok := execCommand([]string{"git", "status"}, nil, 1)
+	//status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1)
 	if !ok {
 		return false
 	}
@@ -236,7 +237,7 @@ func processRepo() bool {
 		return false
 	}
 	fmt.Printf("git config user.name get\n")
-	cfg, ok := execCommand([]string{"git", "config", "--global", "user.name"}, nil, 2)
+	cfg, ok := execCommand([]string{"git", "config", "--global", "user.name"}, nil, 1)
 	if !ok {
 		return false
 	}
@@ -248,7 +249,7 @@ func processRepo() bool {
 		}
 	}
 	fmt.Printf("git config user.email get\n")
-	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email"}, nil, 2)
+	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email"}, nil, 1)
 	if !ok {
 		return false
 	}
