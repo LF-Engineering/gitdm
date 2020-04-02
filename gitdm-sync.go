@@ -188,81 +188,7 @@ func requestInfo(r *http.Request) string {
 	return fmt.Sprintf("IP: %s, method: %s, path: %s", r.RemoteAddr, method, path)
 }
 
-func syncFromDB() bool {
-	i := 1
-	for {
-		fmt.Printf("removing profiles%d.yaml\n", i)
-		err := os.Remove(fmt.Sprintf("profiles%d.yaml", i))
-		if err != nil {
-			break
-		}
-		i++
-	}
-	method := "GET"
-	url := fmt.Sprintf("%s/v1/affiliation/all", os.Getenv("DA_API_URL"))
-	req, err := http.NewRequest(method, os.ExpandEnv(url), nil)
-	if err != nil {
-		err = fmt.Errorf("new request error: %+v for %s url: %s\n", err, method, url)
-		fatalOnError(err, false)
-		return false
-	}
-	resp, err := http.DefaultClient.Do(req)
-	if err != nil {
-		err = fmt.Errorf("do request error: %+v for %s url: %s\n", err, method, url)
-		fatalOnError(err, false)
-		return false
-	}
-	defer func() {
-		_ = resp.Body.Close()
-	}()
-	if resp.StatusCode != 200 {
-		body, err := ioutil.ReadAll(resp.Body)
-		if err != nil {
-			err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s\n", err, method, url)
-			fatalOnError(err, false)
-			return false
-		}
-		err = fmt.Errorf("Method:%s url:%s status:%d\n%s\n", method, url, resp.StatusCode, body)
-		fatalOnError(err, false)
-		return false
-	}
-	var payload allArrayOutput
-	err = yaml.NewDecoder(resp.Body).Decode(&payload)
-	if err != nil {
-		body, err2 := ioutil.ReadAll(resp.Body)
-		if err2 != nil {
-			err2 = fmt.Errorf("ReadAll yaml request error: %+v, %+v for %s url: %s\n", err, err2, method, url)
-			fatalOnError(err, false)
-			return false
-		}
-		err = fmt.Errorf("JSON decode error: %+v for %s url: %s\nBody: %s\n", err, method, url, body)
-		fatalOnError(err, false)
-		return false
-	}
-	return true
-}
-
-func syncRepo() bool {
-	i := 1
-	var profs []*allOutput
-	for {
-		fmt.Printf("reading profiles%d.yaml\n", i)
-		data, err := ioutil.ReadFile(fmt.Sprintf("profiles%d.yaml", i))
-		if err != nil {
-			break
-		}
-		var all allArrayOutput
-		fmt.Printf("parse profiles%d.yaml\n", i)
-		err = yaml.Unmarshal(data, &all)
-		if err != nil {
-			err = errors.Wrap(err, fmt.Sprintf("profiles%d.yaml", i))
-		}
-		if fatalOnError(err, false) {
-			return false
-		}
-		profs = append(profs, all.Profiles...)
-		i++
-	}
+func checkProfiles(profs []*allOutput) bool {
 	fmt.Printf("sorting\n")
 	sort.SliceStable(profs, func(i, j int) bool {
 		iS := ""
@@ -451,6 +377,93 @@ func syncRepo() bool {
 		[]int{},
 	)
 	if !ok {
+		return false
+	}
+	return true
+}
+
+func syncFromDB() bool {
+	i := 1
+	for {
+		fmt.Printf("removing profiles%d.yaml\n", i)
+		err := os.Remove(fmt.Sprintf("profiles%d.yaml", i))
+		if err != nil {
+			break
+		}
+		i++
+	}
+	method := "GET"
+	url := fmt.Sprintf("%s/v1/affiliation/all", os.Getenv("DA_API_URL"))
+	fmt.Printf("DA affiliation API request\n")
+	req, err := http.NewRequest(method, os.ExpandEnv(url), nil)
+	if err != nil {
+		err = fmt.Errorf("new request error: %+v for %s url: %s\n", err, method, url)
+		fatalOnError(err, false)
+		return false
+	}
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		err = fmt.Errorf("do request error: %+v for %s url: %s\n", err, method, url)
+		fatalOnError(err, false)
+		return false
+	}
+	defer func() {
+		_ = resp.Body.Close()
+	}()
+	if resp.StatusCode != 200 {
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s\n", err, method, url)
+			fatalOnError(err, false)
+			return false
+		}
+		err = fmt.Errorf("Method:%s url:%s status:%d\n%s\n", method, url, resp.StatusCode, body)
+		fatalOnError(err, false)
+		return false
+	}
+	var payload allArrayOutput
+	err = yaml.NewDecoder(resp.Body).Decode(&payload)
+	if err != nil {
+		body, err2 := ioutil.ReadAll(resp.Body)
+		if err2 != nil {
+			err2 = fmt.Errorf("ReadAll yaml request error: %+v, %+v for %s url: %s\n", err, err2, method, url)
+			fatalOnError(err, false)
+			return false
+		}
+		err = fmt.Errorf("JSON decode error: %+v for %s url: %s\nBody: %s\n", err, method, url, body)
+		fatalOnError(err, false)
+		return false
+	}
+	fmt.Printf("profiles %d\n", len(payload.Profiles))
+	if !checkProfiles(payload.Profiles) {
+		return false
+	}
+	fmt.Printf("processing repo finished\n")
+	return true
+}
+
+func syncRepo() bool {
+	i := 1
+	var profs []*allOutput
+	for {
+		fmt.Printf("reading profiles%d.yaml\n", i)
+		data, err := ioutil.ReadFile(fmt.Sprintf("profiles%d.yaml", i))
+		if err != nil {
+			break
+		}
+		var all allArrayOutput
+		fmt.Printf("parse profiles%d.yaml\n", i)
+		err = yaml.Unmarshal(data, &all)
+		if err != nil {
+			err = errors.Wrap(err, fmt.Sprintf("profiles%d.yaml", i))
+		}
+		if fatalOnError(err, false) {
+			return false
+		}
+		profs = append(profs, all.Profiles...)
+		i++
+	}
+	if !checkProfiles(profs) {
 		return false
 	}
 	fmt.Printf("processing repo finished\n")
