@@ -188,6 +188,11 @@ func requestInfo(r *http.Request) string {
 	return fmt.Sprintf("IP: %s, method: %s, path: %s", r.RemoteAddr, method, path)
 }
 
+func syncFromDB() bool {
+	fmt.Printf("HELLO!\n")
+	return true
+}
+
 func syncRepo() bool {
 	i := 1
 	var profs []*allOutput
@@ -426,60 +431,6 @@ func checkRepo() bool {
 	return true
 }
 
-func handlePush(w http.ResponseWriter, req *http.Request) {
-	info := requestInfo(req)
-	fmt.Printf("Request: %s\n", info)
-	var err error
-	defer func() {
-		fmt.Printf("Request(exit): %s err:%v\n", info, err)
-	}()
-	fmt.Printf("lock mutex\n")
-	gMtx.Lock()
-	defer func() {
-		fmt.Printf("unlock mutex\n")
-		gMtx.Unlock()
-	}()
-	gw = w
-	fmt.Printf("Cleanup repo before\n")
-	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
-	defer func() {
-		fmt.Printf("Cleanup repo after\n")
-		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
-	}()
-	fmt.Printf("git clone\n")
-	cmd := []string{
-		"git",
-		"clone",
-		fmt.Sprintf(
-			"https://%s:%s@github.com/%s",
-			os.Getenv("GITDM_GITHUB_USER"),
-			os.Getenv("GITDM_GITHUB_OAUTH"),
-			os.Getenv("GITDM_GITHUB_REPO"),
-		),
-	}
-	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
-	execCommand(cmd, env, 0, []int{})
-	fmt.Printf("get wd\n")
-	wd, err := os.Getwd()
-	if fatalOnError(err, false) {
-		return
-	}
-	fmt.Printf("chdir gitdm\n")
-	if fatalOnError(os.Chdir("gitdm"), false) {
-		return
-	}
-	defer func() {
-		fmt.Printf("chdir back to %s\n", wd)
-		_ = os.Chdir(wd)
-	}()
-	fmt.Printf("sync repo\n")
-	if !syncRepo() {
-		return
-	}
-	w.WriteHeader(http.StatusOK)
-	_, _ = io.WriteString(w, "SYNC_OK")
-}
-
 func handlePR(w http.ResponseWriter, req *http.Request) {
 	info := requestInfo(req)
 	fmt.Printf("Request: %s\n", info)
@@ -560,6 +511,68 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 	_, _ = io.WriteString(w, "CHECK_OK")
 }
 
+func executeInCloned(w http.ResponseWriter, req *http.Request, fn func() bool, msg [2]string) {
+	info := requestInfo(req)
+	fmt.Printf("Request: %s\n", info)
+	var err error
+	defer func() {
+		fmt.Printf("Request(exit): %s err:%v\n", info, err)
+	}()
+	fmt.Printf("lock mutex\n")
+	gMtx.Lock()
+	defer func() {
+		fmt.Printf("unlock mutex\n")
+		gMtx.Unlock()
+	}()
+	gw = w
+	fmt.Printf("Cleanup repo before\n")
+	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
+	defer func() {
+		fmt.Printf("Cleanup repo after\n")
+		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
+	}()
+	fmt.Printf("git clone\n")
+	cmd := []string{
+		"git",
+		"clone",
+		fmt.Sprintf(
+			"https://%s:%s@github.com/%s",
+			os.Getenv("GITDM_GITHUB_USER"),
+			os.Getenv("GITDM_GITHUB_OAUTH"),
+			os.Getenv("GITDM_GITHUB_REPO"),
+		),
+	}
+	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
+	execCommand(cmd, env, 0, []int{})
+	fmt.Printf("get wd\n")
+	wd, err := os.Getwd()
+	if fatalOnError(err, false) {
+		return
+	}
+	fmt.Printf("chdir gitdm\n")
+	if fatalOnError(os.Chdir("gitdm"), false) {
+		return
+	}
+	defer func() {
+		fmt.Printf("chdir back to %s\n", wd)
+		_ = os.Chdir(wd)
+	}()
+	fmt.Printf(msg[0] + "\n")
+	if !fn() {
+		return
+	}
+	w.WriteHeader(http.StatusOK)
+	_, _ = io.WriteString(w, msg[1])
+}
+
+func handlePush(w http.ResponseWriter, req *http.Request) {
+	executeInCloned(w, req, syncRepo, [2]string{"sync repo", "SYNC_OK"})
+}
+
+func handleSyncFromDB(w http.ResponseWriter, req *http.Request) {
+	executeInCloned(w, req, syncFromDB, [2]string{"sync from DB", "SYNC_DB_OK"})
+}
+
 func checkEnv() {
 	requiredEnv := []string{
 		"DA_API_URL",
@@ -591,6 +604,7 @@ func serve() {
 	gMtx = &sync.Mutex{}
 	http.HandleFunc("/push", handlePush)
 	http.HandleFunc("/pr/", handlePR)
+	http.HandleFunc("/sync-from-db", handleSyncFromDB)
 	fatalOnError(http.ListenAndServe("0.0.0.0:7070", nil), true)
 }
 
