@@ -507,6 +507,7 @@ func updateDB(addDB, delDB []*allOutput) (ok bool) {
 		fatalOnError(err, false)
 		return
 	}
+	req.Header.Set("Content-Type", "application/yaml")
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		err = fmt.Errorf("do request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
