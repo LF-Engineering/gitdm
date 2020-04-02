@@ -1,0 +1,12 @@
+---
+name: React to push
+on:
+  schedule:
+  - cron:  '0 * * * *'
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Sync from DB using gitdm-sync
+      run: |
+        (curl -s "${{ secrets.SYNC_URL }}/sync-from-db" |& tee output.txt | grep 'SYNC_DB_OK') || ( cat output.txt; exit 1)
