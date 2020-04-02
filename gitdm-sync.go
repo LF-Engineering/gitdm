@@ -6,7 +6,6 @@ import (
 	"html"
 	"io"
 	"io/ioutil"
-	"math/rand"
 	"net/http"
 	"os"
 	"os/exec"
@@ -257,9 +256,8 @@ func requestInfo(r *http.Request) string {
 }
 
 func checkProfiles(profs []*allOutput) bool {
-	// xxx
-	rand.Seed(time.Now().UnixNano())
-	rand.Shuffle(len(profs), func(i, j int) { profs[i], profs[j] = profs[j], profs[i] })
+	//rand.Seed(time.Now().UnixNano())
+	//rand.Shuffle(len(profs), func(i, j int) { profs[i], profs[j] = profs[j], profs[i] })
 	fmt.Printf("sorting\n")
 	for k := range profs {
 		if len(profs[k].Enrollments) > 1 {
