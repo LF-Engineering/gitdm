@@ -14253,8 +14253,8 @@ P:
     F: "1970-01-01"
   I:
   - E: roaguiangel!gmail.com
-    S: github
-    U: roangel
+    M: roangel
+    S: git
   B: 0
   U: roangel
 - E: roaguiangel!gmail.com
@@ -14264,8 +14264,8 @@ P:
     F: "1970-01-01"
   I:
   - E: roaguiangel!gmail.com
-    M: roangel
-    S: git
+    S: github
+    U: roangel
   B: 0
   U: roangel
 - C: US
@@ -15266,23 +15266,6 @@ P:
     F: "1970-01-01"
   S: male
   I:
-  - E: lpapp!kde.org
-    M: Laszlo Papp
-    S: bugzilla
-    U: lpapp@kde.org
-  - E: lpapp!kde.org
-    S: bugzilla
-    U: lpapp@kde.org
-  B: 0
-  U: root@myhostname
-- C: GB
-  E: lpapp!kde.org
-  R:
-  - T: "2099-01-01"
-    C: HUBER+SUHNER Polatis
-    F: "1970-01-01"
-  S: male
-  I:
   - M: Laszlo Papp
     S: bugzilla
     U: lpapp
@@ -15298,6 +15281,23 @@ P:
   - E: lpapp!kde.org
     M: root@myhostname
     S: pipermail
+  B: 0
+  U: root@myhostname
+- C: GB
+  E: lpapp!kde.org
+  R:
+  - T: "2099-01-01"
+    C: HUBER+SUHNER Polatis
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: lpapp!kde.org
+    M: Laszlo Papp
+    S: bugzilla
+    U: lpapp@kde.org
+  - E: lpapp!kde.org
+    S: bugzilla
+    U: lpapp@kde.org
   B: 0
   U: root@myhostname
 - C: US
@@ -16034,18 +16034,6 @@ P:
   U: ruven
 - E: rkubiak!google.com
   R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: rkubiak!google.com
-    M: rvkubiak
-    S: git
-  B: 0
-  U: rvkubiak
-- E: rkubiak!google.com
-  R:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
@@ -16060,6 +16048,18 @@ P:
   - E: rkubiak!google.com
     S: github
     U: rvkubiak
+  B: 0
+  U: rvkubiak
+- E: rkubiak!google.com
+  R:
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: rkubiak!google.com
+    M: rvkubiak
+    S: git
   B: 0
   U: rvkubiak
 - E: rwillard!pivotal.io
@@ -26945,7 +26945,7 @@ P:
   I:
   - E: MT00367339!techmahindra.com
     M: unknown
-    S: git
+    S: gerrit
   B: 0
   U: unknown
 - E: MT00367339!techmahindra.com
@@ -26956,7 +26956,7 @@ P:
   I:
   - E: MT00367339!techmahindra.com
     M: unknown
-    S: gerrit
+    S: git
   B: 0
   U: unknown
 - E: SS00492019!TechMahindra.com
@@ -27996,9 +27996,17 @@ P:
     C: Infinite
     F: "2016-06-08"
   I:
+  - M: venkatamahesh kotha
+    S: confluence
+    U: venkatamahesh
   - E: venkatamaheshkotha!gmail.com
     M: venkatamahesh kotha
-    S: git
+    S: gerrit
+    U: venkatamahesh
+  - E: venkatamaheshkotha!yahoo.com
+    M: venkatamahesh kotha
+    S: jira
+    U: venkatamahesh
   B: 0
   U: venkatamahesh kotha
 - C: IN
@@ -28011,17 +28019,9 @@ P:
     C: Infinite
     F: "2016-06-08"
   I:
-  - M: venkatamahesh kotha
-    S: confluence
-    U: venkatamahesh
   - E: venkatamaheshkotha!gmail.com
     M: venkatamahesh kotha
-    S: gerrit
-    U: venkatamahesh
-  - E: venkatamaheshkotha!yahoo.com
-    M: venkatamahesh kotha
-    S: jira
-    U: venkatamahesh
+    S: git
   B: 0
   U: venkatamahesh kotha
 - E: vn166g!att.com

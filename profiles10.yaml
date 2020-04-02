@@ -345,7 +345,8 @@ P:
   I:
   - E: yamamoto!midokura.com
     M: YAMAMOTO Takashi
-    S: git
+    S: gerrit
+    U: yamamoto
   B: 0
   U: YAMAMOTO Takashi
 - E: yamamoto!midokura.com
@@ -363,8 +364,7 @@ P:
   I:
   - E: yamamoto!midokura.com
     M: YAMAMOTO Takashi
-    S: gerrit
-    U: yamamoto
+    S: git
   B: 0
   U: YAMAMOTO Takashi
 - E: yamamoto!valinux.co.jp
@@ -5719,6 +5719,23 @@ P:
 - C: US
   E: qycqycqycqycqyc!gmail.com
   R:
+  - T: "2015-12-01"
+    C: Red Hat
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Uber
+    F: "2015-12-01"
+  S: male
+  I:
+  - E: qycqycqycqycqyc!gmail.com
+    M: Yicheng Qin
+    S: github
+    U: yichengq
+  B: 0
+  U: Yicheng Qin
+- C: US
+  E: qycqycqycqycqyc!gmail.com
+  R:
   - T: "2100-01-01"
     C: CoreOS, Inc.
     F: "1900-01-01"
@@ -5733,23 +5750,6 @@ P:
   - E: qycqycqycqycqyc!gmail.com
     M: Yicheng Qin
     S: git
-  B: 0
-  U: Yicheng Qin
-- C: US
-  E: qycqycqycqycqyc!gmail.com
-  R:
-  - T: "2015-12-01"
-    C: Red Hat
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Uber
-    F: "2015-12-01"
-  S: male
-  I:
-  - E: qycqycqycqycqyc!gmail.com
-    M: Yicheng Qin
-    S: github
-    U: yichengq
   B: 0
   U: Yicheng Qin
 - C: CN
@@ -6665,9 +6665,13 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
+  - M: Yipan Deng
+    S: confluence
+    U: yipan
   - E: yipan.deng!intel.com
     M: Yipan Deng
-    S: groupsio
+    S: jira
+    U: yipan
   B: 0
   U: Yipan Deng
 - E: yipan.deng!intel.com
@@ -6676,13 +6680,9 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
-  - M: Yipan Deng
-    S: confluence
-    U: yipan
   - E: yipan.deng!intel.com
     M: Yipan Deng
-    S: jira
-    U: yipan
+    S: groupsio
   B: 0
   U: Yipan Deng
 - E: yipeng1.wang!intel.com
@@ -7580,7 +7580,14 @@ P:
   I:
   - E: yohei!jp.ibm.com
     M: Yohei Ueda
-    S: gerrit
+    S: git
+  - E: yohei!jp.ibm.com
+    M: Yohei Ueda
+    S: git
+    U: yoheiueda
+  - E: yohei!jp.ibm.com
+    M: Yohei Ueda
+    S: oci_csv
     U: yoheiueda
   B: 0
   U: Yohei Ueda
@@ -7596,14 +7603,7 @@ P:
   I:
   - E: yohei!jp.ibm.com
     M: Yohei Ueda
-    S: git
-  - E: yohei!jp.ibm.com
-    M: Yohei Ueda
-    S: git
-    U: yoheiueda
-  - E: yohei!jp.ibm.com
-    M: Yohei Ueda
-    S: oci_csv
+    S: gerrit
     U: yoheiueda
   B: 0
   U: Yohei Ueda
@@ -8202,6 +8202,25 @@ P:
 - C: US
   E: anfernee.gui!gmail.com
   R:
+  - T: "2018-06-01"
+    C: VMware
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "2018-06-01"
+  S: male
+  I:
+  - E: anfernee.gui!gmail.com
+    M: Yongkun Anfernee Gui
+    S: git
+  B: 0
+  U: Yongkun Anfernee Gui
+- C: US
+  E: anfernee.gui!gmail.com
+  R:
   - T: "2100-01-01"
     C: VMware
     F: "1900-01-01"
@@ -8227,25 +8246,6 @@ P:
     M: Yongkun Anfernee Gui
     S: github
     U: anfernee
-  B: 0
-  U: Yongkun Anfernee Gui
-- C: US
-  E: anfernee.gui!gmail.com
-  R:
-  - T: "2018-06-01"
-    C: VMware
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "2018-06-01"
-  S: male
-  I:
-  - E: anfernee.gui!gmail.com
-    M: Yongkun Anfernee Gui
-    S: git
   B: 0
   U: Yongkun Anfernee Gui
 - C: US
@@ -9671,13 +9671,12 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
+  - M: Yuan Sun
+    S: bugzilla
+    U: Yuan.Sun2
   - E: Yuan.Sun2!windriver.com
     M: Yuan Sun
-    S: bugzilla
-    U: Yuan.Sun2@windriver.com
-  - E: Yuan.Sun2!windriver.com
-    S: bugzilla
-    U: Yuan.Sun2@windriver.com
+    S: pipermail
   B: 0
   U: Yuan Sun
 - E: Yuan.Sun2!windriver.com
@@ -9686,12 +9685,13 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
-  - M: Yuan Sun
-    S: bugzilla
-    U: Yuan.Sun2
   - E: Yuan.Sun2!windriver.com
     M: Yuan Sun
-    S: pipermail
+    S: bugzilla
+    U: Yuan.Sun2@windriver.com
+  - E: Yuan.Sun2!windriver.com
+    S: bugzilla
+    U: Yuan.Sun2@windriver.com
   B: 0
   U: Yuan Sun
 - E: sunyuan3!huawei.com
@@ -11016,11 +11016,8 @@ P:
   I:
   - E: ytsuboi!vmware.com
     M: Yuki Tsuboi
-    S: git
-  - E: ytsuboi!vmware.com
-    M: Yuki Tsuboi
-    S: github
-    U: yktsubo
+    S: slack
+    U: ytsuboi
   B: 0
   U: Yuki Tsuboi
 - C: JP
@@ -11036,8 +11033,11 @@ P:
   I:
   - E: ytsuboi!vmware.com
     M: Yuki Tsuboi
-    S: slack
-    U: ytsuboi
+    S: git
+  - E: ytsuboi!vmware.com
+    M: Yuki Tsuboi
+    S: github
+    U: yktsubo
   B: 0
   U: Yuki Tsuboi
 - C: JP
@@ -17563,19 +17563,6 @@ P:
 - C: CN
   E: huangzhipeng!huawei.com
   R:
-  - T: "2099-01-01"
-    C: Huawei
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: huangzhipeng!huawei.com
-    M: Zhipeng Huang
-    S: git
-  B: 0
-  U: Zhipeng Huang
-- C: CN
-  E: huangzhipeng!huawei.com
-  R:
   - T: "2100-01-01"
     C: Huawei
     F: "1900-01-01"
@@ -17595,6 +17582,19 @@ P:
   - E: zhipengh512!gmail.com
     S: github
     U: hannibalhuang
+  B: 0
+  U: Zhipeng Huang
+- C: CN
+  E: huangzhipeng!huawei.com
+  R:
+  - T: "2099-01-01"
+    C: Huawei
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: huangzhipeng!huawei.com
+    M: Zhipeng Huang
+    S: git
   B: 0
   U: Zhipeng Huang
 - E: jesusjzp!gmail.com
@@ -18948,17 +18948,6 @@ P:
   U: Zoltan Hegyi
 - E: zoltan.kiss!linaro.org
   R:
-  - T: "2099-01-01"
-    C: Linaro
-    F: "1970-01-01"
-  I:
-  - E: zoltan.kiss!linaro.org
-    M: Zoltan Kiss
-    S: git
-  B: 0
-  U: Zoltan Kiss
-- E: zoltan.kiss!linaro.org
-  R:
   - T: "2100-01-01"
     C: Linaro
     F: "1900-01-01"
@@ -18984,6 +18973,17 @@ P:
     S: pipermail
   B: 0
   U: Zoltan Kiss
+- E: zoltan.kiss!linaro.org
+  R:
+  - T: "2099-01-01"
+    C: Linaro
+    F: "1970-01-01"
+  I:
+  - E: zoltan.kiss!linaro.org
+    M: Zoltan Kiss
+    S: git
+  B: 0
+  U: Zoltan Kiss
 - C: DK
   R:
   - T: "2099-01-01"
@@ -18993,6 +18993,19 @@ P:
   - M: Zoltan Kuscsik
     S: github
     U: kuscsik
+  B: 0
+  U: Zoltan Kuscsik
+- C: DK
+  E: zoltan.kuscsik!linaro.org
+  R:
+  - T: "2099-01-01"
+    C: Linaro
+    F: "1970-01-01"
+  I:
+  - E: zoltan.kuscsik!linaro.org
+    M: Zoltan Kuscsik
+    S: bugzilla
+    U: zoltan.kuscsik@linaro.org
   B: 0
   U: Zoltan Kuscsik
 - C: DK
@@ -19014,19 +19027,6 @@ P:
   - E: zoltan.kuscsik!linaro.org
     M: Zoltan Kuscsik
     S: pipermail
-  B: 0
-  U: Zoltan Kuscsik
-- C: DK
-  E: zoltan.kuscsik!linaro.org
-  R:
-  - T: "2099-01-01"
-    C: Linaro
-    F: "1970-01-01"
-  I:
-  - E: zoltan.kuscsik!linaro.org
-    M: Zoltan Kuscsik
-    S: bugzilla
-    U: zoltan.kuscsik@linaro.org
   B: 0
   U: Zoltan Kuscsik
 - E: Zoltan.Menyhart!bull.net
@@ -23968,8 +23968,11 @@ P:
     F: "2017-02-15"
   I:
   - E: arkadi.shishlov!gmail.com
-    M: arkadijs
+    M: Arkadi Shishlov
     S: git
+  - E: arkadi.shishlov!gmail.com
+    S: github
+    U: arkadijs
   B: 0
   U: arkadijs
 - E: arkadi.shishlov!gmail.com
@@ -23982,11 +23985,8 @@ P:
     F: "2017-02-15"
   I:
   - E: arkadi.shishlov!gmail.com
-    M: Arkadi Shishlov
+    M: arkadijs
     S: git
-  - E: arkadi.shishlov!gmail.com
-    S: github
-    U: arkadijs
   B: 0
   U: arkadijs
 - R:
@@ -31773,11 +31773,8 @@ P:
     F: "1900-01-01"
   I:
   - E: chunguang.yang!windriver.com
-    M: alloc
-    S: pipermail
-  - E: chunguang.yang!windriver.com
     M: chunguang yang
-    S: pipermail
+    S: git
   B: 0
   U: chunguang yang
 - E: chunguang.yang!windriver.com
@@ -31787,8 +31784,11 @@ P:
     F: "1900-01-01"
   I:
   - E: chunguang.yang!windriver.com
+    M: alloc
+    S: pipermail
+  - E: chunguang.yang!windriver.com
     M: chunguang yang
-    S: git
+    S: pipermail
   B: 0
   U: chunguang yang
 - E: chunhui.dai!mediatek.com
@@ -32423,7 +32423,12 @@ P:
   I:
   - E: cmluciano!cruznet.org
     M: cmluciano
-    S: git
+    S: github
+    U: cmluciano
+  - E: cmluciano!cruznet.org
+    M: Christopher M Luciano
+    S: slack
+    U: cmluciano
   B: 0
   U: cmluciano
 - E: cmluciano!cruznet.org
@@ -32435,12 +32440,7 @@ P:
   I:
   - E: cmluciano!cruznet.org
     M: cmluciano
-    S: github
-    U: cmluciano
-  - E: cmluciano!cruznet.org
-    M: Christopher M Luciano
-    S: slack
-    U: cmluciano
+    S: git
   B: 0
   U: cmluciano
 - E: cmluciano!us.ibm.com
@@ -34766,8 +34766,7 @@ P:
   I:
   - E: davygeek!163.com
     M: davygeek
-    S: github
-    U: davygeek
+    S: git
   B: 0
   U: davygeek
 - C: CN
@@ -34779,7 +34778,8 @@ P:
   I:
   - E: davygeek!163.com
     M: davygeek
-    S: git
+    S: github
+    U: davygeek
   B: 0
   U: davygeek
 - C: SE
@@ -45193,13 +45193,6 @@ P:
     F: "1970-01-01"
   I:
   - E: hchenxa!cn.ibm.com
-    M: Hui Chen
-    S: git
-  - E: hchenxa!cn.ibm.com
-    M: hchenxa
-    S: git
-  - E: hchenxa!cn.ibm.com
-    M: Hui Chen
     S: github
     U: hchenxa
   B: 0
@@ -45214,6 +45207,13 @@ P:
     F: "1970-01-01"
   I:
   - E: hchenxa!cn.ibm.com
+    M: Hui Chen
+    S: git
+  - E: hchenxa!cn.ibm.com
+    M: hchenxa
+    S: git
+  - E: hchenxa!cn.ibm.com
+    M: Hui Chen
     S: github
     U: hchenxa
   B: 0
