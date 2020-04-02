@@ -397,8 +397,7 @@ func removeCurrentYAMLs() {
 	}
 }
 
-func syncFromDB() bool {
-	removeCurrentYAMLs()
+func getProfilesFromDB() (profs []*allOutput, ok bool) {
 	method := "GET"
 	url := fmt.Sprintf("%s/v1/affiliation/all", os.Getenv("DA_API_URL"))
 	fmt.Printf("DA affiliation API request\n")
@@ -406,13 +405,13 @@ func syncFromDB() bool {
 	if err != nil {
 		err = fmt.Errorf("new request error: %+v for %s url: %s\n", err, method, url)
 		fatalOnError(err, false)
-		return false
+		return
 	}
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		err = fmt.Errorf("do request error: %+v for %s url: %s\n", err, method, url)
 		fatalOnError(err, false)
-		return false
+		return
 	}
 	defer func() {
 		_ = resp.Body.Close()
@@ -422,11 +421,11 @@ func syncFromDB() bool {
 		if err != nil {
 			err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s\n", err, method, url)
 			fatalOnError(err, false)
-			return false
+			return
 		}
 		err = fmt.Errorf("Method:%s url:%s status:%d\n%s\n", method, url, resp.StatusCode, body)
 		fatalOnError(err, false)
-		return false
+		return
 	}
 	var payload allArrayOutput
 	err = yaml.NewDecoder(resp.Body).Decode(&payload)
@@ -435,23 +434,19 @@ func syncFromDB() bool {
 		if err2 != nil {
 			err2 = fmt.Errorf("ReadAll yaml request error: %+v, %+v for %s url: %s\n", err, err2, method, url)
 			fatalOnError(err, false)
-			return false
+			return
 		}
 		err = fmt.Errorf("JSON decode error: %+v for %s url: %s\nBody: %s\n", err, method, url, body)
 		fatalOnError(err, false)
-		return false
+		return
 	}
-	fmt.Printf("profiles %d\n", len(payload.Profiles))
-	if !checkProfiles(payload.Profiles) {
-		return false
-	}
-	fmt.Printf("processing repo finished\n")
-	return true
+	ok = true
+	profs = payload.Profiles
+	return
 }
 
-func syncRepo() bool {
+func getProfilesFromYAMLs() (profs []*allOutput, ok bool) {
 	i := 1
-	var profs []*allOutput
 	for {
 		fmt.Printf("reading profiles%d.yaml\n", i)
 		data, err := ioutil.ReadFile(fmt.Sprintf("profiles%d.yaml", i))
@@ -465,10 +460,32 @@ func syncRepo() bool {
 			err = errors.Wrap(err, fmt.Sprintf("profiles%d.yaml", i))
 		}
 		if fatalOnError(err, false) {
-			return false
+			return
 		}
 		profs = append(profs, all.Profiles...)
 		i++
+	}
+	ok = true
+	return
+}
+
+func syncFromDB() bool {
+	profs, ok := getProfilesFromDB()
+	if !ok {
+		return false
+	}
+	removeCurrentYAMLs()
+	if !checkProfiles(profs) {
+		return false
+	}
+	fmt.Printf("processing repo finished\n")
+	return true
+}
+
+func syncRepoAndUpdateDB() bool {
+	profs, ok := getProfilesFromYAMLs()
+	if !ok {
+		return false
 	}
 	removeCurrentYAMLs()
 	if !checkProfiles(profs) {
@@ -636,7 +653,7 @@ func executeInCloned(w http.ResponseWriter, req *http.Request, fn func() bool, m
 }
 
 func handlePush(w http.ResponseWriter, req *http.Request) {
-	executeInCloned(w, req, syncRepo, [2]string{"sync repo", "SYNC_OK"})
+	executeInCloned(w, req, syncRepoAndUpdateDB, [2]string{"sync repo", "SYNC_OK"})
 }
 
 func handleSyncFromDB(w http.ResponseWriter, req *http.Request) {
