@@ -128,9 +128,7 @@ func (a *allOutput) size() int {
 
 func (a *allOutput) sortKey() (key string) {
 	if a.Name != nil {
-		key += ":" + *(a.Name)
-	} else {
-		key += ":"
+		key += *(a.Name)
 	}
 	if a.Email != nil {
 		key += ":" + *(a.Email)
