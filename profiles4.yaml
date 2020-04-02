@@ -6293,7 +6293,7 @@ P:
   I:
   - E: guillaume.tucker!gmail.com
     M: Guillaume Tucker
-    S: git
+    S: pipermail
   B: 0
   U: Guillaume Tucker
 - C: US
@@ -6306,7 +6306,7 @@ P:
   I:
   - E: guillaume.tucker!gmail.com
     M: Guillaume Tucker
-    S: pipermail
+    S: git
   B: 0
   U: Guillaume Tucker
 - E: gwinter!heroku.com
@@ -10804,11 +10804,9 @@ P:
     F: "1900-01-01"
   I:
   - E: zhouhaojun!huawei.com
-    M: Haojun Zhou
-    S: git
-  - E: zhouhaojun!huawei.com
     M: HaojunZhou
-    S: git
+    S: github
+    U: haojun
   B: 0
   U: HaojunZhou
 - E: zhouhaojun!huawei.com
@@ -10818,9 +10816,11 @@ P:
     F: "1900-01-01"
   I:
   - E: zhouhaojun!huawei.com
+    M: Haojun Zhou
+    S: git
+  - E: zhouhaojun!huawei.com
     M: HaojunZhou
-    S: github
-    U: haojun
+    S: git
   B: 0
   U: HaojunZhou
 - C: CN
@@ -13033,6 +13033,21 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
+  - E: mark.hatle!windriver.com
+    M: Mark Hatle
+    S: bugzilla
+    U: mark.hatle@windriver.com
+  - E: mark.hatle!windriver.com
+    S: bugzilla
+    U: mark.hatle@windriver.com
+  B: 0
+  U: Hatle, Mark
+- E: mark.hatle!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
   - M: Mark Hatle
     S: bugzilla
     U: mark.hatle
@@ -13051,21 +13066,6 @@ P:
   - E: mark.hatle!windriver.com
     M: Mark Hatle
     S: pipermail
-  B: 0
-  U: Hatle, Mark
-- E: mark.hatle!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
-  I:
-  - E: mark.hatle!windriver.com
-    M: Mark Hatle
-    S: bugzilla
-    U: mark.hatle@windriver.com
-  - E: mark.hatle!windriver.com
-    S: bugzilla
-    U: mark.hatle@windriver.com
   B: 0
   U: Hatle, Mark
 - C: DE
@@ -15023,11 +15023,14 @@ P:
   I:
   - E: henrik!haf.se
     M: Henrik Feldt
-    S: github
-    U: haf
+    S: git
   - E: henrik!haf.se
-    S: github
-    U: haf
+    M: haf
+    S: git
+  - E: henrik!haf.se
+    M: Henrik
+    S: slack
+    U: henrik
   B: 0
   U: Henrik Feldt
 - C: SE
@@ -15040,14 +15043,11 @@ P:
   I:
   - E: henrik!haf.se
     M: Henrik Feldt
-    S: git
+    S: github
+    U: haf
   - E: henrik!haf.se
-    M: haf
-    S: git
-  - E: henrik!haf.se
-    M: Henrik
-    S: slack
-    U: henrik
+    S: github
+    U: haf
   B: 0
   U: Henrik Feldt
 - C: SE
@@ -18183,7 +18183,8 @@ P:
   I:
   - E: fengjingchao!gmail.com
     M: Hongchao Deng
-    S: git
+    S: github
+    U: hongchaodeng
   B: 0
   U: Hongchao Deng
 - E: fengjingchao!gmail.com
@@ -18204,8 +18205,7 @@ P:
   I:
   - E: fengjingchao!gmail.com
     M: Hongchao Deng
-    S: github
-    U: hongchaodeng
+    S: git
   B: 0
   U: Hongchao Deng
 - C: US
@@ -20326,8 +20326,7 @@ P:
   I:
   - E: hmalphettes!gmail.com
     M: Hugues Malphettes
-    S: github
-    U: hmalphettes
+    S: git
   B: 0
   U: Hugues Malphettes
 - C: SG
@@ -20339,7 +20338,8 @@ P:
   I:
   - E: hmalphettes!gmail.com
     M: Hugues Malphettes
-    S: git
+    S: github
+    U: hmalphettes
   B: 0
   U: Hugues Malphettes
 - E: hui.chun.ong!ni.com
@@ -20451,6 +20451,21 @@ P:
   U: Hui Deng
 - E: hkang.sunysb!gmail.com
   R:
+  - T: "2099-01-01"
+    C: IBM
+    F: "1970-01-01"
+  I:
+  - E: hkang.sunysb!gmail.com
+    M: Hui Kang
+    S: gerrit
+    U: huikang
+  - E: hkang.sunysb!gmail.com
+    M: huikang
+    S: git
+  B: 0
+  U: Hui Kang
+- E: hkang.sunysb!gmail.com
+  R:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
@@ -20473,21 +20488,6 @@ P:
   - M: huikang
     S: oci_csv
     U: huikang
-  B: 0
-  U: Hui Kang
-- E: hkang.sunysb!gmail.com
-  R:
-  - T: "2099-01-01"
-    C: IBM
-    F: "1970-01-01"
-  I:
-  - E: hkang.sunysb!gmail.com
-    M: Hui Kang
-    S: gerrit
-    U: huikang
-  - E: hkang.sunysb!gmail.com
-    M: huikang
-    S: git
   B: 0
   U: Hui Kang
 - E: kangh!us.ibm.com
@@ -23520,8 +23520,7 @@ P:
   I:
   - E: code.ibra!gmail.com
     M: Ibrahim Mbaziira
-    S: slack
-    U: code.ibra
+    S: git
   B: 0
   U: Ibrahim Mbaziira
 - E: code.ibra!gmail.com
@@ -23536,7 +23535,8 @@ P:
   I:
   - E: code.ibra!gmail.com
     M: Ibrahim Mbaziira
-    S: git
+    S: slack
+    U: code.ibra
   B: 0
   U: Ibrahim Mbaziira
 - R:
@@ -26219,7 +26219,8 @@ P:
   I:
   - E: ilya!sotkov.com
     M: Ilya Sotkov
-    S: git
+    S: github
+    U: ilyasotkov
   B: 0
   U: Ilya Sotkov
 - C: FI
@@ -26235,8 +26236,7 @@ P:
   I:
   - E: ilya!sotkov.com
     M: Ilya Sotkov
-    S: github
-    U: ilyasotkov
+    S: git
   B: 0
   U: Ilya Sotkov
 - R:
@@ -29957,20 +29957,6 @@ P:
     C: Promwad
     F: "1900-01-01"
   I:
-  - M: Ivan Kuten
-    S: bugzilla
-    U: ivan.kuten
-  - E: ivan.kuten!promwad.com
-    M: Ivan Kuten
-    S: pipermail
-  B: 0
-  U: Ivan Kuten
-- E: ivan.kuten!promwad.com
-  R:
-  - T: "2100-01-01"
-    C: Promwad
-    F: "1900-01-01"
-  I:
   - E: ivan.kuten!promwad.com
     M: Ivan Kuten
     S: bugzilla
@@ -29981,6 +29967,20 @@ P:
   - E: ivan.kuten!promwad.com
     M: Ivan Kuten
     S: git
+  B: 0
+  U: Ivan Kuten
+- E: ivan.kuten!promwad.com
+  R:
+  - T: "2100-01-01"
+    C: Promwad
+    F: "1900-01-01"
+  I:
+  - M: Ivan Kuten
+    S: bugzilla
+    U: ivan.kuten
+  - E: ivan.kuten!promwad.com
+    M: Ivan Kuten
+    S: pipermail
   B: 0
   U: Ivan Kuten
 - E: Ivan.Malov!oktetlabs.ru
@@ -34459,7 +34459,7 @@ P:
   I:
   - E: jaghu!google.com
     M: Jaghathiswari Rankappagounder Natarajan
-    S: pipermail
+    S: git
   B: 0
   U: Jaghathiswari Rankappagounder Natarajan
 - E: jaghu!google.com
@@ -34473,7 +34473,7 @@ P:
   I:
   - E: jaghu!google.com
     M: Jaghathiswari Rankappagounder Natarajan
-    S: git
+    S: pipermail
   B: 0
   U: Jaghathiswari Rankappagounder Natarajan
 - C: US
@@ -36197,18 +36197,6 @@ P:
   U: Jakub Rozanski
 - C: PL
   R:
-  - T: "2099-01-01"
-    C: Uber
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Jakub Rzeszutko
-    S: github
-    U: jakub-uC
-  B: 0
-  U: Jakub Rzeszutko
-- C: PL
-  R:
   - T: "2017-01-01"
     C: Independent
     F: "1970-01-01"
@@ -36220,6 +36208,18 @@ P:
   - M: Jakub Rzeszutko
     S: github
     U: jarz-nordic
+  B: 0
+  U: Jakub Rzeszutko
+- C: PL
+  R:
+  - T: "2099-01-01"
+    C: Uber
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Jakub Rzeszutko
+    S: github
+    U: jakub-uC
   B: 0
   U: Jakub Rzeszutko
 - C: PL
@@ -39810,19 +39810,6 @@ P:
 - C: CA
   E: jlouie!pivotal.io
   R:
-  - T: "2099-01-01"
-    C: Pivotal
-    F: "1970-01-01"
-  I:
-  - E: jlouie!pivotal.io
-    M: Jammy Louie
-    S: github
-    U: Jammy-Louie
-  B: 0
-  U: Jammy Louie
-- C: CA
-  E: jlouie!pivotal.io
-  R:
   - T: "2100-01-01"
     C: Pivotal
     F: "1900-01-01"
@@ -39837,6 +39824,19 @@ P:
     M: Jammy Louie
     S: slack
     U: jlouie
+  B: 0
+  U: Jammy Louie
+- C: CA
+  E: jlouie!pivotal.io
+  R:
+  - T: "2099-01-01"
+    C: Pivotal
+    F: "1970-01-01"
+  I:
+  - E: jlouie!pivotal.io
+    M: Jammy Louie
+    S: github
+    U: Jammy-Louie
   B: 0
   U: Jammy Louie
 - C: US
@@ -42555,8 +42555,7 @@ P:
   I:
   - E: jari.vanewijk!nxp.com
     M: Jari van Ewijk
-    S: github
-    U: jarivanewijk
+    S: git
   B: 0
   U: Jari van Ewijk
 - E: jari.vanewijk!nxp.com
@@ -42567,7 +42566,8 @@ P:
   I:
   - E: jari.vanewijk!nxp.com
     M: Jari van Ewijk
-    S: git
+    S: github
+    U: jarivanewijk
   B: 0
   U: Jari van Ewijk
 - E: jari.vanewijk!nxp.com
@@ -44882,22 +44882,6 @@ P:
   E: jasonyoung!google.com
   R:
   - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: jasonyoung!google.com
-    M: Jason Young
-    S: git
-  B: 0
-  U: Jason Young
-- C: US
-  E: jasonyoung!google.com
-  R:
-  - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
   - T: "2099-01-01"
@@ -44913,6 +44897,22 @@ P:
     M: Jason Young
     S: slack
     U: jasonyoung
+  B: 0
+  U: Jason Young
+- C: US
+  E: jasonyoung!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: jasonyoung!google.com
+    M: Jason Young
+    S: git
   B: 0
   U: Jason Young
 - E: jzhang!twitter.com
@@ -46375,20 +46375,6 @@ P:
 - C: US
   E: jmmccon!amazon.com
   R:
-  - T: "2099-01-01"
-    C: Amazon
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: jmmccon!amazon.com
-    M: Jay McConnell
-    S: github
-    U: jaymccon
-  B: 0
-  U: Jay McConnell
-- C: US
-  E: jmmccon!amazon.com
-  R:
   - T: "2100-01-01"
     C: Amazon.com
     F: "1900-01-01"
@@ -46400,6 +46386,20 @@ P:
   - E: jmmccon!amazon.com
     M: Jay McConnell
     S: git
+  B: 0
+  U: Jay McConnell
+- C: US
+  E: jmmccon!amazon.com
+  R:
+  - T: "2099-01-01"
+    C: Amazon
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: jmmccon!amazon.com
+    M: Jay McConnell
+    S: github
+    U: jaymccon
   B: 0
   U: Jay McConnell
 - E: jay.miller!oracle.com
@@ -49419,13 +49419,12 @@ P:
     C: MIT Lincoln Laboratory
     F: "1900-01-01"
   I:
+  - M: Jeff Mitchell
+    S: bugzilla
+    U: jmitchell
   - E: jmitchell!ll.mit.edu
     M: Jeff Mitchell
-    S: bugzilla
-    U: jmitchell@ll.mit.edu
-  - E: jmitchell!ll.mit.edu
-    S: bugzilla
-    U: jmitchell@ll.mit.edu
+    S: pipermail
   B: 0
   U: Jeff Mitchell
 - E: jmitchell!ll.mit.edu
@@ -49434,12 +49433,13 @@ P:
     C: MIT Lincoln Laboratory
     F: "1900-01-01"
   I:
-  - M: Jeff Mitchell
-    S: bugzilla
-    U: jmitchell
   - E: jmitchell!ll.mit.edu
     M: Jeff Mitchell
-    S: pipermail
+    S: bugzilla
+    U: jmitchell@ll.mit.edu
+  - E: jmitchell!ll.mit.edu
+    S: bugzilla
+    U: jmitchell@ll.mit.edu
   B: 0
   U: Jeff Mitchell
 - E: jmoyer!redhat.com
@@ -54875,21 +54875,6 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
-  - E: sen.zhang!windriver.com
-    M: Jesse Zhang
-    S: bugzilla
-    U: sen.zhang@windriver.com
-  - E: sen.zhang!windriver.com
-    S: bugzilla
-    U: sen.zhang@windriver.com
-  B: 0
-  U: Jesse Zhang
-- E: sen.zhang!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
-  I:
   - M: Jesse Zhang
     S: bugzilla
     U: sen.zhang
@@ -54899,6 +54884,21 @@ P:
   - E: sen.zhang!windriver.com
     M: Jesse Zhang
     S: pipermail
+  B: 0
+  U: Jesse Zhang
+- E: sen.zhang!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
+  - E: sen.zhang!windriver.com
+    M: Jesse Zhang
+    S: bugzilla
+    U: sen.zhang@windriver.com
+  - E: sen.zhang!windriver.com
+    S: bugzilla
+    U: sen.zhang@windriver.com
   B: 0
   U: Jesse Zhang
 - E: 857339844!qq.com
@@ -55864,8 +55864,7 @@ P:
   I:
   - E: zhang.jia!linux.alibaba.com
     M: Jia Zhang
-    S: github
-    U: jiazhang0
+    S: git
   B: 0
   U: Jia Zhang
 - E: zhang.jia!linux.alibaba.com
@@ -55883,7 +55882,8 @@ P:
   I:
   - E: zhang.jia!linux.alibaba.com
     M: Jia Zhang
-    S: git
+    S: github
+    U: jiazhang0
   B: 0
   U: Jia Zhang
 - E: zhujia13!huawei.com
@@ -57869,8 +57869,7 @@ P:
   I:
   - E: jameswangel!gmail.com
     M: Jim Angel
-    S: slack
-    U: jameswangel
+    S: git
   B: 0
   U: Jim Angel
 - C: US
@@ -57886,7 +57885,8 @@ P:
   I:
   - E: jameswangel!gmail.com
     M: Jim Angel
-    S: git
+    S: slack
+    U: jameswangel
   B: 0
   U: Jim Angel
 - E: jimangel!users.noreply.github.com
@@ -57910,18 +57910,6 @@ P:
     C: Linux Foundation
     F: "1900-01-01"
   I:
-  - E: jbaker!linuxfoundation.org
-    M: Jim Baker
-    S: gerrit
-    U: mtnskiier
-  B: 0
-  U: Jim Baker
-- E: jbaker!linuxfoundation.org
-  R:
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-  I:
   - M: Jim Baker
     S: confluence
     U: mtnskiier
@@ -57931,6 +57919,18 @@ P:
   - E: jbaker!linuxfoundation.org
     M: Jim Baker
     S: jira
+    U: mtnskiier
+  B: 0
+  U: Jim Baker
+- E: jbaker!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+  I:
+  - E: jbaker!linuxfoundation.org
+    M: Jim Baker
+    S: gerrit
     U: mtnskiier
   B: 0
   U: Jim Baker
@@ -58487,7 +58487,10 @@ P:
   I:
   - E: jim!jimrollenhagen.com
     M: Jim Rollenhagen
-    S: gerrit
+    S: git
+  - E: jim!jimrollenhagen.com
+    M: Jim Rollenhagen
+    S: github
     U: jimrollenhagen
   B: 0
   U: Jim Rollenhagen
@@ -58504,10 +58507,7 @@ P:
   I:
   - E: jim!jimrollenhagen.com
     M: Jim Rollenhagen
-    S: git
-  - E: jim!jimrollenhagen.com
-    M: Jim Rollenhagen
-    S: github
+    S: gerrit
     U: jimrollenhagen
   B: 0
   U: Jim Rollenhagen
@@ -58983,8 +58983,7 @@ P:
   I:
   - E: jgrand!leadformance.com
     M: Jimmy Grand
-    S: slack
-    U: jgrand
+    S: git
   B: 0
   U: Jimmy Grand
 - C: FR
@@ -58997,7 +58996,8 @@ P:
   I:
   - E: jgrand!leadformance.com
     M: Jimmy Grand
-    S: git
+    S: slack
+    U: jgrand
   B: 0
   U: Jimmy Grand
 - E: jimmy.huang!intel.com
@@ -60805,7 +60805,7 @@ P:
   I:
   - E: jiwei.sun!windriver.com
     M: Jiwei Sun
-    S: git
+    S: pipermail
   B: 0
   U: Jiwei Sun
 - E: jiwei.sun!windriver.com
@@ -60816,7 +60816,7 @@ P:
   I:
   - E: jiwei.sun!windriver.com
     M: Jiwei Sun
-    S: pipermail
+    S: git
   B: 0
   U: Jiwei Sun
 - C: KR

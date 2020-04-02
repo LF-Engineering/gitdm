@@ -4589,13 +4589,12 @@ P:
     F: "1970-01-01"
   S: male
   I:
+  - M: Maarten Brock
+    S: bugzilla
+    U: m.brock
   - E: m.brock!vanmierlo.com
     M: Maarten Brock
-    S: bugzilla
-    U: m.brock@vanmierlo.com
-  - E: m.brock!vanmierlo.com
-    S: bugzilla
-    U: m.brock@vanmierlo.com
+    S: pipermail
   B: 0
   U: Maarten Brock
 - C: NL
@@ -4606,12 +4605,13 @@ P:
     F: "1970-01-01"
   S: male
   I:
-  - M: Maarten Brock
-    S: bugzilla
-    U: m.brock
   - E: m.brock!vanmierlo.com
     M: Maarten Brock
-    S: pipermail
+    S: bugzilla
+    U: m.brock@vanmierlo.com
+  - E: m.brock!vanmierlo.com
+    S: bugzilla
+    U: m.brock@vanmierlo.com
   B: 0
   U: Maarten Brock
 - C: NL
@@ -6831,8 +6831,7 @@ P:
   I:
   - E: maik.riechert!arcor.de
     M: Maik Riechert
-    S: github
-    U: letmaik
+    S: git
   B: 0
   U: Maik Riechert
 - C: US
@@ -6845,7 +6844,8 @@ P:
   I:
   - E: maik.riechert!arcor.de
     M: Maik Riechert
-    S: git
+    S: github
+    U: letmaik
   B: 0
   U: Maik Riechert
 - E: maik.toth!sap.com
@@ -6999,8 +6999,7 @@ P:
   I:
   - E: major!mhtx.net
     M: Major Hayden
-    S: gerrit
-    U: rackerhacker
+    S: git
   B: 0
   U: Major Hayden
 - C: US
@@ -7016,7 +7015,8 @@ P:
   I:
   - E: major!mhtx.net
     M: Major Hayden
-    S: git
+    S: gerrit
+    U: rackerhacker
   B: 0
   U: Major Hayden
 - E: makotom!fast.au.fujitsu.com
@@ -17538,8 +17538,11 @@ P:
   I:
   - E: mnagle!pivotal.io
     M: Mark Nagle
+    S: git
+  - E: mnagle!pivotal.io
+    M: Mark Nagle
     S: slack
-    U: mnagle
+    U: naglem
   B: 0
   U: Mark Nagle
 - E: mnagle!pivotal.io
@@ -17550,11 +17553,8 @@ P:
   I:
   - E: mnagle!pivotal.io
     M: Mark Nagle
-    S: git
-  - E: mnagle!pivotal.io
-    M: Mark Nagle
     S: slack
-    U: naglem
+    U: mnagle
   B: 0
   U: Mark Nagle
 - C: GB
@@ -23995,7 +23995,7 @@ P:
     F: "1900-01-01"
   I:
   - E: massimiliano.pinto!gmail.com
-    M: Massimiliano Pinto
+    M: pintomax
     S: git
   B: 0
   U: Massimiliano Pinto
@@ -24006,7 +24006,7 @@ P:
     F: "1900-01-01"
   I:
   - E: massimiliano.pinto!gmail.com
-    M: pintomax
+    M: Massimiliano Pinto
     S: git
   B: 0
   U: Massimiliano Pinto
@@ -24367,8 +24367,7 @@ P:
   I:
   - E: Matej!auterion.com
     M: Matej Frančeškin
-    S: github
-    U: MatejFranceskin
+    S: git
   B: 0
   U: Matej Frančeškin
 - E: Matej!auterion.com
@@ -24379,7 +24378,8 @@ P:
   I:
   - E: Matej!auterion.com
     M: Matej Frančeškin
-    S: git
+    S: github
+    U: MatejFranceskin
   B: 0
   U: Matej Frančeškin
 - E: Matej.Franceskin!gmail.com
@@ -25136,8 +25136,7 @@ P:
   I:
   - E: brescianimathieu!gmail.com
     M: Mathieu Bresciani
-    S: slack
-    U: mathieu_bresciani
+    S: git
   B: 0
   U: Mathieu Bresciani
 - E: brescianimathieu!gmail.com
@@ -25148,7 +25147,8 @@ P:
   I:
   - E: brescianimathieu!gmail.com
     M: Mathieu Bresciani
-    S: git
+    S: slack
+    U: mathieu_bresciani
   B: 0
   U: Mathieu Bresciani
 - R:
@@ -26813,8 +26813,7 @@ P:
   I:
   - E: matt.fellows!onegeek.com.au
     M: Matt Fellows
-    S: github
-    U: mefellows
+    S: git
   B: 0
   U: Matt Fellows
 - C: AU
@@ -26826,7 +26825,8 @@ P:
   I:
   - E: matt.fellows!onegeek.com.au
     M: Matt Fellows
-    S: git
+    S: github
+    U: mefellows
   B: 0
   U: Matt Fellows
 - E: mferguso!cisco.com
@@ -29174,6 +29174,17 @@ P:
   I:
   - M: Matt
     S: github
+    U: mtanatwine
+  B: 0
+  U: Matt
+- R:
+  - T: "2099-01-01"
+    C: Project Calico
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Matt
+    S: github
     U: Rkiouak
   B: 0
   U: Matt
@@ -29186,17 +29197,6 @@ P:
   - M: Matt
     S: github
     U: mdering
-  B: 0
-  U: Matt
-- R:
-  - T: "2099-01-01"
-    C: Project Calico
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Matt
-    S: github
-    U: mtanatwine
   B: 0
   U: Matt
 - E: matt!embeddedalley.com
@@ -34596,7 +34596,7 @@ P:
   I:
   - E: maxi.jourdan!wanadoo.fr
     M: Maxime Jourdan
-    S: git
+    S: pipermail
   B: 0
   U: Maxime Jourdan
 - E: maxi.jourdan!wanadoo.fr
@@ -34620,7 +34620,7 @@ P:
   I:
   - E: maxi.jourdan!wanadoo.fr
     M: Maxime Jourdan
-    S: pipermail
+    S: git
   B: 0
   U: Maxime Jourdan
 - E: mjourdan!baylibre.com
@@ -37999,6 +37999,17 @@ P:
   B: 0
   U: Michael Behr
 - R:
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Michael Berlin
+    S: github
+    U: michael-berlin
+  B: 0
+  U: Michael Berlin
+- R:
   - T: "2015-02-01"
     C: Independent
     F: "1970-01-01"
@@ -38010,17 +38021,6 @@ P:
   - M: Michael Berlin
     S: github
     U: mberlin-bot
-  B: 0
-  U: Michael Berlin
-- R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Michael Berlin
-    S: github
-    U: michael-berlin
   B: 0
   U: Michael Berlin
 - E: mberlin!google.com
@@ -39900,10 +39900,12 @@ P:
     C: HP
     F: "1900-01-01"
   I:
+  - M: Michael Hansen
+    S: bugzilla
+    U: michael.j.hansen
   - E: michael.j.hansen!hp.com
     M: Michael Hansen
-    S: bugzilla
-    U: michael.j.hansen@hp.com
+    S: git
   B: 0
   U: Michael Hansen
 - E: michael.j.hansen!hp.com
@@ -39912,12 +39914,10 @@ P:
     C: HP
     F: "1900-01-01"
   I:
-  - M: Michael Hansen
-    S: bugzilla
-    U: michael.j.hansen
   - E: michael.j.hansen!hp.com
     M: Michael Hansen
-    S: git
+    S: bugzilla
+    U: michael.j.hansen@hp.com
   B: 0
   U: Michael Hansen
 - C: US
@@ -42032,6 +42032,18 @@ P:
   U: Michael Puncel
 - E: mpuncel!squareup.com
   R:
+  - T: "2099-01-01"
+    C: Square
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: mpuncel!squareup.com
+    M: Michael Puncel
+    S: git
+  B: 0
+  U: Michael Puncel
+- E: mpuncel!squareup.com
+  R:
   - T: "2100-01-01"
     C: Square, Inc.
     F: "1900-01-01"
@@ -42044,18 +42056,6 @@ P:
     M: Michael Puncel
     S: slack
     U: mpuncel
-  B: 0
-  U: Michael Puncel
-- E: mpuncel!squareup.com
-  R:
-  - T: "2099-01-01"
-    C: Square
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: mpuncel!squareup.com
-    M: Michael Puncel
-    S: git
   B: 0
   U: Michael Puncel
 - E: michael.qiu!intel.com
@@ -42472,17 +42472,6 @@ P:
   U: Michael S. Tsirkin
 - E: mst!redhat.com
   R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  I:
-  - E: mst!redhat.com
-    M: Michael S. Tsirkin
-    S: git
-  B: 0
-  U: Michael S. Tsirkin
-- E: mst!redhat.com
-  R:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
@@ -42503,6 +42492,17 @@ P:
   - E: mst!redhat.com
     M: Michael S. Tsirkin
     S: pipermail
+  B: 0
+  U: Michael S. Tsirkin
+- E: mst!redhat.com
+  R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  I:
+  - E: mst!redhat.com
+    M: Michael S. Tsirkin
+    S: git
   B: 0
   U: Michael S. Tsirkin
 - E: msantana!redhat.com
@@ -43654,7 +43654,8 @@ P:
   I:
   - E: zirenwan!gmail.com
     M: Michael Wan
-    S: git
+    S: github
+    U: HusterWan
   B: 0
   U: Michael Wan
 - E: zirenwan!gmail.com
@@ -43666,8 +43667,7 @@ P:
   I:
   - E: zirenwan!gmail.com
     M: Michael Wan
-    S: github
-    U: HusterWan
+    S: git
   B: 0
   U: Michael Wan
 - C: CA
@@ -44418,18 +44418,6 @@ P:
     C: Nokia
     F: "1900-01-01"
   I:
-  - E: michal.1.dziedzic!nokia.com
-    M: Michal Dziedzic
-    S: jira
-    U: micdzied
-  B: 0
-  U: Michal Dziedzic
-- E: michal.1.dziedzic!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  I:
   - M: Michal Dziedzic
     S: confluence
     U: micdzied
@@ -44449,6 +44437,18 @@ P:
     S: git
   - E: michal.1.dziedzic!nokia.com
     M: Micha Dziedzic
+    S: jira
+    U: micdzied
+  B: 0
+  U: Michal Dziedzic
+- E: michal.1.dziedzic!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+  I:
+  - E: michal.1.dziedzic!nokia.com
+    M: Michal Dziedzic
     S: jira
     U: micdzied
   B: 0
@@ -44992,17 +44992,6 @@ P:
   U: Michal Pawlowski
 - E: mprivozn!redhat.com
   R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  I:
-  - E: mprivozn!redhat.com
-    M: Michal Privoznik
-    S: git
-  B: 0
-  U: Michal Privoznik
-- E: mprivozn!redhat.com
-  R:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
@@ -45013,6 +45002,17 @@ P:
   - E: mprivozn!redhat.com
     M: Michal Privoznik
     S: pipermail
+  B: 0
+  U: Michal Privoznik
+- E: mprivozn!redhat.com
+  R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  I:
+  - E: mprivozn!redhat.com
+    M: Michal Privoznik
+    S: git
   B: 0
   U: Michal Privoznik
 - E: michalx.ptacek!intel.com
@@ -45264,17 +45264,6 @@ P:
   U: Michal Schott
 - E: michal.simek!xilinx.com
   R:
-  - T: "2099-01-01"
-    C: Xilinx
-    F: "1970-01-01"
-  I:
-  - E: michal.simek!xilinx.com
-    M: Michal Simek
-    S: groupsio
-  B: 0
-  U: Michal Simek
-- E: michal.simek!xilinx.com
-  R:
   - T: "2100-01-01"
     C: Xilinx, Inc.
     F: "1900-01-01"
@@ -45288,6 +45277,17 @@ P:
   - E: monstr!monstr.eu
     M: Michal Simek
     S: pipermail
+  B: 0
+  U: Michal Simek
+- E: michal.simek!xilinx.com
+  R:
+  - T: "2099-01-01"
+    C: Xilinx
+    F: "1970-01-01"
+  I:
+  - E: michal.simek!xilinx.com
+    M: Michal Simek
+    S: groupsio
   B: 0
   U: Michal Simek
 - R:
@@ -48083,7 +48083,8 @@ P:
   I:
   - E: mikael.arguedas!gmail.com
     M: Mikael Arguedas
-    S: git
+    S: github
+    U: mikaelarguedas
   B: 0
   U: Mikael Arguedas
 - C: US
@@ -48102,8 +48103,7 @@ P:
   I:
   - E: mikael.arguedas!gmail.com
     M: Mikael Arguedas
-    S: github
-    U: mikaelarguedas
+    S: git
   B: 0
   U: Mikael Arguedas
 - C: SE
@@ -50824,7 +50824,8 @@ P:
   I:
   - E: mdub!dogbiscuit.org
     M: Mike Williams
-    S: git
+    S: github
+    U: mdub
   B: 0
   U: Mike Williams
 - C: AU
@@ -50836,8 +50837,7 @@ P:
   I:
   - E: mdub!dogbiscuit.org
     M: Mike Williams
-    S: github
-    U: mdub
+    S: git
   B: 0
   U: Mike Williams
 - E: michael.williamson!criticallink.com
@@ -51005,18 +51005,6 @@ P:
   U: Mike Zupan
 - C: US
   R:
-  - T: "2099-01-01"
-    C: Rackspace
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Mike
-    S: github
-    U: thequailman
-  B: 0
-  U: Mike
-- C: US
-  R:
   - T: "2016-07-01"
     C: Independent
     F: "1970-01-01"
@@ -51031,6 +51019,18 @@ P:
   - M: Mike
     S: github
     U: perryao
+  B: 0
+  U: Mike
+- C: US
+  R:
+  - T: "2099-01-01"
+    C: Rackspace
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Mike
+    S: github
+    U: thequailman
   B: 0
   U: Mike
 - R:
@@ -56331,20 +56331,6 @@ P:
 - E: mohd.shariq!nerdapplabs.com
   R:
   - T: "2100-01-01"
-    C: nerdAppLabs
-    F: "1900-01-01"
-  I:
-  - E: mohd.shariq!nerdapplabs.com
-    M: Mohd. Shariq
-    S: git
-  - E: mshariqaftab!gmail.com
-    M: Mohd. Shariq
-    S: git
-  B: 0
-  U: Mohd Shariq
-- E: mohd.shariq!nerdapplabs.com
-  R:
-  - T: "2100-01-01"
     C: Dianomic
     F: "1900-01-01"
   - T: "2100-01-01"
@@ -56353,6 +56339,20 @@ P:
   I:
   - E: mohd.shariq!nerdapplabs.com
     M: Mohd Shariq
+    S: git
+  B: 0
+  U: Mohd Shariq
+- E: mohd.shariq!nerdapplabs.com
+  R:
+  - T: "2100-01-01"
+    C: nerdAppLabs
+    F: "1900-01-01"
+  I:
+  - E: mohd.shariq!nerdapplabs.com
+    M: Mohd. Shariq
+    S: git
+  - E: mshariqaftab!gmail.com
+    M: Mohd. Shariq
     S: git
   B: 0
   U: Mohd Shariq
@@ -56857,6 +56857,31 @@ P:
   - T: "2011-11-20"
     C: Rackspace
     F: "1970-01-01"
+  - T: "2015-08-01"
+    C: HP
+    F: "2011-11-20"
+  - T: "2015-08-16"
+    C: In August
+    F: "2015-08-01"
+  - T: "2016-06-12"
+    C: IBM
+    F: "2015-08-16"
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "2016-06-12"
+  S: male
+  I:
+  - E: mordred!inaugust.com
+    M: Monty Taylor
+    S: git
+  B: 0
+  U: Monty Taylor
+- C: US
+  E: mordred!inaugust.com
+  R:
+  - T: "2011-11-20"
+    C: Rackspace
+    F: "1970-01-01"
   - T: "2099-01-01"
     C: Red Hat
     F: "1970-01-01"
@@ -56878,31 +56903,6 @@ P:
     M: Monty Taylor
     S: github
     U: emonty
-  B: 0
-  U: Monty Taylor
-- C: US
-  E: mordred!inaugust.com
-  R:
-  - T: "2011-11-20"
-    C: Rackspace
-    F: "1970-01-01"
-  - T: "2015-08-01"
-    C: HP
-    F: "2011-11-20"
-  - T: "2015-08-16"
-    C: In August
-    F: "2015-08-01"
-  - T: "2016-06-12"
-    C: IBM
-    F: "2015-08-16"
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "2016-06-12"
-  S: male
-  I:
-  - E: mordred!inaugust.com
-    M: Monty Taylor
-    S: git
   B: 0
   U: Monty Taylor
 - C: US
@@ -57105,11 +57105,11 @@ P:
   U: Morena De Liddo
 - E: mbauer!us.ibm.com
   R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
   - T: "2014-09-01"
     C: IBM
+    F: "1970-01-01"
+  - T: "2015-06-01"
+    C: Lenovo
     F: "1970-01-01"
   - T: "2015-06-01"
     C: Lenovo
@@ -57121,15 +57121,8 @@ P:
   I:
   - E: mbauer!us.ibm.com
     M: Morgan Bauer
-    S: github
+    S: gerrit
     U: MHBauer
-  - M: Morgan Bauer
-    S: meetup
-    U: "191593246"
-  - E: mbauer!us.ibm.com
-    M: morgan bauer
-    S: slack
-    U: mbauer
   B: 0
   U: Morgan Bauer
 - E: mbauer!us.ibm.com
@@ -57158,11 +57151,11 @@ P:
   U: Morgan Bauer
 - E: mbauer!us.ibm.com
   R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
   - T: "2014-09-01"
     C: IBM
-    F: "1970-01-01"
-  - T: "2015-06-01"
-    C: Lenovo
     F: "1970-01-01"
   - T: "2015-06-01"
     C: Lenovo
@@ -57174,8 +57167,15 @@ P:
   I:
   - E: mbauer!us.ibm.com
     M: Morgan Bauer
-    S: gerrit
+    S: github
     U: MHBauer
+  - M: Morgan Bauer
+    S: meetup
+    U: "191593246"
+  - E: mbauer!us.ibm.com
+    M: morgan bauer
+    S: slack
+    U: mbauer
   B: 0
   U: Morgan Bauer
 - C: US
@@ -59889,8 +59889,8 @@ P:
     F: "1900-01-01"
   I:
   - E: myeong.jeong!samsung.com
-    M: mj
-    S: git
+    M: MJ
+    S: groupsio
   B: 0
   U: Myeong Jeong
 - E: myeong.jeong!samsung.com
@@ -59900,8 +59900,8 @@ P:
     F: "1900-01-01"
   I:
   - E: myeong.jeong!samsung.com
-    M: MJ
-    S: groupsio
+    M: mj
+    S: git
   B: 0
   U: Myeong Jeong
 - E: mg.jeong!gmail.com
