@@ -58,6 +58,15 @@ type allArrayOutput struct {
 	Profiles []*allOutput `yaml:"P,omitempty"`
 }
 
+type dbUpdate struct {
+	Add []*allOutput `yaml:"A,omitempty"`
+	Del []*allOutput `yaml:"R,omitempty"`
+}
+
+type textStatusOutput struct {
+	Text string `yaml:"text"`
+}
+
 func (e *enrollmentShortOutput) size() int {
 	return 48 + len([]byte(e.Organization))
 }
@@ -262,17 +271,28 @@ func syncProfilesToDB(profsYAML, profsDB []*allOutput) bool {
 	for _, profDB := range profsDB {
 		mDB[profDB.sortKey()] = profDB
 	}
+	addDB := []*allOutput{}
+	delDB := []*allOutput{}
 	for keyDB := range mDB {
 		_, ok := mYAML[keyDB]
 		if !ok {
-			fmt.Printf("DB key %s missing in YAML\n", keyDB)
+			fmt.Printf("DB key '%s' missing in YAML\n", keyDB)
+			delDB = append(delDB, mDB[keyDB])
 		}
 	}
 	for keyYAML := range mYAML {
 		_, ok := mDB[keyYAML]
 		if !ok {
-			fmt.Printf("YAML key %s missing in DB\n", keyYAML)
+			fmt.Printf("YAML key '%s' missing in DB\n", keyYAML)
+			addDB = append(addDB, mYAML[keyYAML])
 		}
+	}
+	if len(addDB) == 0 && len(delDB) == 0 {
+		fmt.Printf("NO DB changes needed\n")
+		return true
+	}
+	if !updateDB(addDB, delDB) {
+		return false
 	}
 	return true
 }
@@ -422,7 +442,7 @@ func removeCurrentYAMLs() {
 func getProfilesFromDB() (profs []*allOutput, ok bool) {
 	method := "GET"
 	url := fmt.Sprintf("%s/v1/affiliation/all", os.Getenv("DA_API_URL"))
-	fmt.Printf("DA affiliation API request\n")
+	fmt.Printf("DA affiliation API 'all' request\n")
 	req, err := http.NewRequest(method, os.ExpandEnv(url), nil)
 	if err != nil {
 		err = fmt.Errorf("new request error: %+v for %s url: %s\n", err, method, url)
@@ -458,12 +478,70 @@ func getProfilesFromDB() (profs []*allOutput, ok bool) {
 			fatalOnError(err, false)
 			return
 		}
-		err = fmt.Errorf("JSON decode error: %+v for %s url: %s\nBody: %s\n", err, method, url, body)
+		err = fmt.Errorf("yaml decode error: %+v for %s url: %s\nBody: %s\n", err, method, url, body)
 		fatalOnError(err, false)
 		return
 	}
 	ok = true
 	profs = payload.Profiles
+	return
+}
+
+func updateDB(addDB, delDB []*allOutput) (ok bool) {
+	var update dbUpdate
+	update.Add = addDB
+	update.Del = delDB
+	payloadBytes, err := yaml.Marshal(update)
+	if err != nil {
+		err = fmt.Errorf("YAML marshall error: %+v: %+v\n", err, update)
+		fatalOnError(err, false)
+		return
+	}
+	payloadBody := bytes.NewReader(payloadBytes)
+	method := "POST"
+	url := fmt.Sprintf("%s/v1/affiliation/bulk_update", os.Getenv("DA_API_URL"))
+	fmt.Printf("DA affiliation API 'bulk_update' request\n")
+	req, err := http.NewRequest(method, os.ExpandEnv(url), payloadBody)
+	if err != nil {
+		err = fmt.Errorf("new request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
+		fatalOnError(err, false)
+		return
+	}
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		err = fmt.Errorf("do request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
+		fatalOnError(err, false)
+		return
+	}
+	defer func() {
+		_ = resp.Body.Close()
+	}()
+	if resp.StatusCode != 200 {
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
+			fatalOnError(err, false)
+			return
+		}
+		err = fmt.Errorf("Method:%s url:%s status:%d payload: %s\n%s\n", method, url, resp.StatusCode, string(payloadBytes), body)
+		fatalOnError(err, false)
+		return
+	}
+	var payload textStatusOutput
+	err = yaml.NewDecoder(resp.Body).Decode(&payload)
+	if err != nil {
+		body, err2 := ioutil.ReadAll(resp.Body)
+		if err2 != nil {
+			err2 = fmt.Errorf("ReadAll yaml request error: %+v, %+v for %s url: %s, payload: %s\n", err, err2, method, url, string(payloadBytes))
+			fatalOnError(err, false)
+			return
+		}
+		err = fmt.Errorf("yaml decode error: %+v for %s url: %s, payload: %s\nBody: %s\n", err, method, url, string(payloadBytes), body)
+		fatalOnError(err, false)
+		return
+	}
+	fmt.Printf("API result: %s\n", payload.Text)
+	ok = true
 	return
 }
 
