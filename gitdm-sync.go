@@ -255,6 +255,30 @@ func requestInfo(r *http.Request) string {
 	return fmt.Sprintf("IP: %s, method: %s, path: %s", r.RemoteAddr, method, path)
 }
 
+func syncProfilesToDB(profsYAML, profsDB []*allOutput) bool {
+	mYAML := make(map[string]*allOutput)
+	mDB := make(map[string]*allOutput)
+	for _, profYAML := range profsYAML {
+		mYAML[profYAML.sortKey()] = profYAML
+	}
+	for _, profDB := range profsDB {
+		mDB[profDB.sortKey()] = profDB
+	}
+	for keyDB := range mDB {
+		_, ok := mYAML[keyDB]
+		if !ok {
+			fmt.Printf("DB key %s missing in YAML\n", keyDB)
+		}
+	}
+	for keyYAML := range mYAML {
+		_, ok := mDB[keyYAML]
+		if !ok {
+			fmt.Printf("YAML key %s missing in DB\n", keyYAML)
+		}
+	}
+	return true
+}
+
 func checkProfiles(profs []*allOutput) bool {
 	//rand.Seed(time.Now().UnixNano())
 	//rand.Shuffle(len(profs), func(i, j int) { profs[i], profs[j] = profs[j], profs[i] })
@@ -483,12 +507,20 @@ func syncFromDB() bool {
 }
 
 func syncRepoAndUpdateDB() bool {
-	profs, ok := getProfilesFromYAMLs()
+	profsYAML, ok := getProfilesFromYAMLs()
 	if !ok {
 		return false
 	}
 	removeCurrentYAMLs()
-	if !checkProfiles(profs) {
+	if !checkProfiles(profsYAML) {
+		return false
+	}
+	profsDB, ok := getProfilesFromDB()
+	if !ok {
+		return false
+	}
+	ok = syncProfilesToDB(profsYAML, profsDB)
+	if !ok {
 		return false
 	}
 	fmt.Printf("processing repo finished\n")
