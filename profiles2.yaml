@@ -808,10 +808,8 @@ P:
   I:
   - E: bsikander!apache.org
     M: Behroz Sikander
-    S: groupsio
-  - E: bsikander!apache.org
-    M: Behroz Sikander
-    S: mbox
+    S: github
+    U: bsikander
   B: 0
   U: Behroz Sikander
 - E: bsikander!apache.org
@@ -822,8 +820,10 @@ P:
   I:
   - E: bsikander!apache.org
     M: Behroz Sikander
-    S: github
-    U: bsikander
+    S: groupsio
+  - E: bsikander!apache.org
+    M: Behroz Sikander
+    S: mbox
   B: 0
   U: Behroz Sikander
 - E: bei.sun!broadcom.com
@@ -2417,8 +2417,7 @@ P:
   I:
   - E: ben!langfeld.me
     M: Ben Langfeld
-    S: github
-    U: benlangfeld
+    S: git
   B: 0
   U: Ben Langfeld
 - C: BR
@@ -2434,7 +2433,8 @@ P:
   I:
   - E: ben!langfeld.me
     M: Ben Langfeld
-    S: git
+    S: github
+    U: benlangfeld
   B: 0
   U: Ben Langfeld
 - R:
@@ -3396,6 +3396,23 @@ P:
     C: Gratafy
     F: "1970-01-01"
   - T: "2099-01-01"
+    C: Back Office Associates
+    F: "2017-02-01"
+  S: male
+  I:
+  - E: benjamindwoodward!gmail.com
+    M: Ben Woodward
+    S: slack
+    U: benjamindwoodward
+  B: 0
+  U: Ben Woodward
+- C: US
+  E: benjamindwoodward!gmail.com
+  R:
+  - T: "2017-02-01"
+    C: Gratafy
+    F: "1970-01-01"
+  - T: "2099-01-01"
     C: Syniti
     F: "2017-02-01"
   S: male
@@ -3406,23 +3423,6 @@ P:
   - E: benjamindwoodward!gmail.com
     M: bndw
     S: git
-  B: 0
-  U: Ben Woodward
-- C: US
-  E: benjamindwoodward!gmail.com
-  R:
-  - T: "2017-02-01"
-    C: Gratafy
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Back Office Associates
-    F: "2017-02-01"
-  S: male
-  I:
-  - E: benjamindwoodward!gmail.com
-    M: Ben Woodward
-    S: slack
-    U: benjamindwoodward
   B: 0
   U: Ben Woodward
 - E: yb532204897!gmail.com
@@ -7516,6 +7516,21 @@ P:
     C: Xilinx, Inc.
     F: "1900-01-01"
   I:
+  - E: bsreekan!xilinx.com
+    M: Bhargava Sreekantappa Gayathri
+    S: bugzilla
+    U: bsreekan@xilinx.com
+  - E: bsreekan!xilinx.com
+    S: bugzilla
+    U: bsreekan@xilinx.com
+  B: 0
+  U: Bhargava Sreekantappa Gayathri
+- E: BSREEKAN!xilinx.com
+  R:
+  - T: "2100-01-01"
+    C: Xilinx, Inc.
+    F: "1900-01-01"
+  I:
   - M: Bhargava Sreekantappa Gayathri
     S: bugzilla
     U: bsreekan
@@ -7528,21 +7543,6 @@ P:
   - E: bhargava.sreekantappa-gayathri!xilinx.com
     M: Bhargava Sreekantappa Gayathri
     S: pipermail
-  B: 0
-  U: Bhargava Sreekantappa Gayathri
-- E: BSREEKAN!xilinx.com
-  R:
-  - T: "2100-01-01"
-    C: Xilinx, Inc.
-    F: "1900-01-01"
-  I:
-  - E: bsreekan!xilinx.com
-    M: Bhargava Sreekantappa Gayathri
-    S: bugzilla
-    U: bsreekan@xilinx.com
-  - E: bsreekan!xilinx.com
-    S: bugzilla
-    U: bsreekan@xilinx.com
   B: 0
   U: Bhargava Sreekantappa Gayathri
 - E: bhaskar.upadhaya!nxp.com
@@ -8718,17 +8718,6 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
-  - E: billy.o.mahony!intel.com
-    M: Billy O'Mahony
-    S: pipermail
-  B: 0
-  U: Billy O'Mahony
-- E: billy.o.mahony!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
   - M: Billy O'Mahony
     S: confluence
     U: billyomahony
@@ -8771,6 +8760,17 @@ P:
     S: mbox
   - E: billy.o.mahony!intel.com
     M: O Mahony, Billy
+    S: pipermail
+  B: 0
+  U: Billy O'Mahony
+- E: billy.o.mahony!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: billy.o.mahony!intel.com
+    M: Billy O'Mahony
     S: pipermail
   B: 0
   U: Billy O'Mahony
@@ -11754,8 +11754,7 @@ P:
   I:
   - E: boban.acimovic!gmail.com
     M: Boban Acimovic
-    S: github
-    U: acim
+    S: git
   B: 0
   U: Boban Acimovic
 - C: DE
@@ -11777,7 +11776,8 @@ P:
   I:
   - E: boban.acimovic!gmail.com
     M: Boban Acimovic
-    S: git
+    S: github
+    U: acim
   B: 0
   U: Boban Acimovic
 - C: DE
@@ -12841,10 +12841,7 @@ P:
   I:
   - E: bp!suse.de
     M: Borislav Petkov
-    S: gerrit
-  - E: bp!suse.de
-    M: Borislav Petkov
-    S: gerrit
+    S: git
   B: 0
   U: Borislav Petkov
 - E: bp!suse.de
@@ -12855,7 +12852,10 @@ P:
   I:
   - E: bp!suse.de
     M: Borislav Petkov
-    S: git
+    S: gerrit
+  - E: bp!suse.de
+    M: Borislav Petkov
+    S: gerrit
   B: 0
   U: Borislav Petkov
 - E: bpetkov!suse.de
@@ -14724,8 +14724,7 @@ P:
   I:
   - E: brandonmabey!google.com
     M: Brandon Mabey
-    S: github
-    U: brandon-mabey
+    S: git
   B: 0
   U: Brandon Mabey
 - E: brandonmabey!google.com
@@ -14740,7 +14739,8 @@ P:
   I:
   - E: brandonmabey!google.com
     M: Brandon Mabey
-    S: git
+    S: github
+    U: brandon-mabey
   B: 0
   U: Brandon Mabey
 - E: brandon.maier!rockwellcollins.com
@@ -16491,8 +16491,7 @@ P:
   I:
   - E: brian.brazil!robustperception.io
     M: Brian Brazil
-    S: github
-    U: brian-brazil
+    S: git
   B: 0
   U: Brian Brazil
 - C: IE
@@ -16511,7 +16510,8 @@ P:
   I:
   - E: brian.brazil!robustperception.io
     M: Brian Brazil
-    S: git
+    S: github
+    U: brian-brazil
   B: 0
   U: Brian Brazil
 - E: brian.brooks!arm.com
@@ -17044,6 +17044,17 @@ P:
   B: 0
   U: Brian Grant
 - R:
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Brian Grant
+    S: github
+    U: bgrant0607
+  B: 0
+  U: Brian Grant
+- R:
   - T: "2007-06-01"
     C: PeakStream
     F: "1970-01-01"
@@ -17055,17 +17066,6 @@ P:
   - M: Brian Grant
     S: github
     U: bgrant0607-nocc
-  B: 0
-  U: Brian Grant
-- R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Brian Grant
-    S: github
-    U: bgrant0607
   B: 0
   U: Brian Grant
 - E: Brian.Haley!hp.com
@@ -28024,6 +28024,19 @@ P:
 - C: CN
   E: chasun!microsoft.com
   R:
+  - T: "2099-01-01"
+    C: Microsoft
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: chasun!microsoft.com
+    M: Changming Sun
+    S: git
+  B: 0
+  U: Changming Sun
+- C: CN
+  E: chasun!microsoft.com
+  R:
   - T: "2100-01-01"
     C: Microsoft
     F: "1900-01-01"
@@ -28036,19 +28049,6 @@ P:
     M: Changming Sun
     S: github
     U: snnn
-  B: 0
-  U: Changming Sun
-- C: CN
-  E: chasun!microsoft.com
-  R:
-  - T: "2099-01-01"
-    C: Microsoft
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: chasun!microsoft.com
-    M: Changming Sun
-    S: git
   B: 0
   U: Changming Sun
 - E: changqing.li!windriver.com
@@ -29489,7 +29489,7 @@ P:
   I:
   - M: Charlie Strawn
     S: github
-    U: charliestrawn-wf
+    U: charliestrawn
   B: 0
   U: Charlie Strawn
 - C: US
@@ -29501,7 +29501,7 @@ P:
   I:
   - M: Charlie Strawn
     S: github
-    U: charliestrawn
+    U: charliestrawn-wf
   B: 0
   U: Charlie Strawn
 - C: US
@@ -33458,37 +33458,6 @@ P:
     C: Huawei
     F: "1900-01-01"
   I:
-  - M: Chris Donley
-    S: confluence
-    U: chrisd5110
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: gmane
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley (Chris)
-    S: groupsio
-  - E: christopher.donley!huawei.com
-    M: Chris Donley
-    S: jira
-    U: chrisd5110
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: linux-foundation:mls
-    U: Christopher.Donley
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: mbox
-  - E: Christopher.Donley!huawei.com
-    M: Christopher Donley Chris
-    S: pipermail
-  B: 0
-  U: Chris Donley
-- E: christopher.donley!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei
-    F: "1900-01-01"
-  I:
   - E: chrisd!alum.dartmouth.org
     M: Chris Donley
     S: gerrit
@@ -33515,6 +33484,37 @@ P:
     S: onap:manual
   - E: christopher.donley!huawei.com
     S: onap:manual
+  B: 0
+  U: Chris Donley
+- E: christopher.donley!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei
+    F: "1900-01-01"
+  I:
+  - M: Chris Donley
+    S: confluence
+    U: chrisd5110
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: gmane
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley (Chris)
+    S: groupsio
+  - E: christopher.donley!huawei.com
+    M: Chris Donley
+    S: jira
+    U: chrisd5110
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: linux-foundation:mls
+    U: Christopher.Donley
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: mbox
+  - E: Christopher.Donley!huawei.com
+    M: Christopher Donley Chris
+    S: pipermail
   B: 0
   U: Chris Donley
 - C: GB
@@ -35149,7 +35149,7 @@ P:
   I:
   - E: chris!hippiehacker.org
     M: Chris McClimans
-    S: git
+    S: pipermail
   B: 0
   U: Chris McClimans
 - C: NZ
@@ -35162,7 +35162,7 @@ P:
   I:
   - E: chris!hippiehacker.org
     M: Chris McClimans
-    S: pipermail
+    S: git
   B: 0
   U: Chris McClimans
 - R:
@@ -35233,6 +35233,19 @@ P:
   E: chris!tech9computers.com
   R:
   - T: "2099-01-01"
+    C: Tech9 Computer Solutions
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: chris!tech9computers.com
+    M: Chris Moos
+    S: git
+  B: 0
+  U: Chris Moos
+- C: US
+  E: chris!tech9computers.com
+  R:
+  - T: "2099-01-01"
     C: Chris Moos
     F: "1970-01-01"
   S: male
@@ -35241,19 +35254,6 @@ P:
     M: Chris Moos
     S: github
     U: chrismoos
-  B: 0
-  U: Chris Moos
-- C: US
-  E: chris!tech9computers.com
-  R:
-  - T: "2099-01-01"
-    C: Tech9 Computer Solutions
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: chris!tech9computers.com
-    M: Chris Moos
-    S: git
   B: 0
   U: Chris Moos
 - E: chrism!fast.au.fujitsu.com
@@ -40028,27 +40028,6 @@ P:
     C: IBM
     F: "1900-01-01"
   I:
-  - M: Christopher Ferris
-    S: confluence
-    U: ChristopherFerris
-  - E: chris.ferris!gmail.com
-    M: Christopher Ferris
-    S: gerrit
-    U: ChristopherFerris
-  - E: chris.ferris!gmail.com
-    M: Christopher Ferris
-    S: git
-  - M: Christopher Ferris
-    S: jira
-    U: ChristopherFerris
-  B: 0
-  U: Christopher Ferris
-- E: chrisfer!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
   - E: chrisfer!us.ibm.com
     M: Christopher Ferris
     S: git
@@ -40070,6 +40049,27 @@ P:
     M: Christopher Ferris
     S: slack
     U: cbf
+  B: 0
+  U: Christopher Ferris
+- E: chrisfer!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - M: Christopher Ferris
+    S: confluence
+    U: ChristopherFerris
+  - E: chris.ferris!gmail.com
+    M: Christopher Ferris
+    S: gerrit
+    U: ChristopherFerris
+  - E: chris.ferris!gmail.com
+    M: Christopher Ferris
+    S: git
+  - M: Christopher Ferris
+    S: jira
+    U: ChristopherFerris
   B: 0
   U: Christopher Ferris
 - E: cfreeman!nvidia.com
@@ -42957,13 +42957,10 @@ P:
   I:
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: groupsio
+    S: git
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: mbox
-  - E: claurence!pivotal.io
-    M: Claire Laurence
-    S: slack
+    S: github
     U: claurence
   B: 0
   U: Claire Laurence
@@ -42986,10 +42983,13 @@ P:
   I:
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: git
+    S: groupsio
   - E: claurence!pivotal.io
     M: Claire Laurence
-    S: github
+    S: mbox
+  - E: claurence!pivotal.io
+    M: Claire Laurence
+    S: slack
     U: claurence
   B: 0
   U: Claire Laurence
@@ -43531,20 +43531,6 @@ P:
 - C: DE
   E: ch!denx.de
   R:
-  - T: "2099-01-01"
-    C: DENX Software Engineering
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: ch!denx.de
-    M: Claudius Heine
-    S: bugzilla
-    U: ch@denx.de
-  B: 0
-  U: Claudius Heine
-- C: DE
-  E: ch!denx.de
-  R:
   - T: "2100-01-01"
     C: DENX Software Engineering
     F: "1900-01-01"
@@ -43562,6 +43548,20 @@ P:
   - E: ch!denx.de
     M: Claudius Heine
     S: pipermail
+  B: 0
+  U: Claudius Heine
+- C: DE
+  E: ch!denx.de
+  R:
+  - T: "2099-01-01"
+    C: DENX Software Engineering
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: ch!denx.de
+    M: Claudius Heine
+    S: bugzilla
+    U: ch@denx.de
   B: 0
   U: Claudius Heine
 - C: DE
@@ -44371,7 +44371,8 @@ P:
   I:
   - E: bot!codelingo.io
     M: CodeLingo Bot
-    S: git
+    S: github
+    U: CodeLingoBot
   B: 0
   U: CodeLingo Bot
 - C: NZ
@@ -44383,8 +44384,7 @@ P:
   I:
   - E: bot!codelingo.io
     M: CodeLingo Bot
-    S: github
-    U: CodeLingoBot
+    S: git
   B: 0
   U: CodeLingo Bot
 - E: support!codesourcery.com
@@ -45657,7 +45657,8 @@ P:
   I:
   - E: colleen!gazlene.net
     M: Colleen Murphy
-    S: git
+    S: gerrit
+    U: krinkle
   B: 0
   U: Colleen Murphy
 - C: DE
@@ -45678,8 +45679,7 @@ P:
   I:
   - E: colleen!gazlene.net
     M: Colleen Murphy
-    S: gerrit
-    U: krinkle
+    S: git
   B: 0
   U: Colleen Murphy
 - E: walling!linux.vnet.ibm.com
@@ -48002,26 +48002,6 @@ P:
 - C: US
   E: craigbarber!google.com
   R:
-  - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: craigbarber!google.com
-    M: craigatgoogle
-    S: git
-  - E: craigbarber!google.com
-    M: Craig Barber
-    S: github
-    U: craigdbarber
-  B: 0
-  U: Craig Barber
-- C: US
-  E: craigbarber!google.com
-  R:
   - T: "2099-01-01"
     C: Google
     F: "1970-01-01"
@@ -48038,6 +48018,26 @@ P:
     M: Craig Barber
     S: slack
     U: craigbarber
+  B: 0
+  U: Craig Barber
+- C: US
+  E: craigbarber!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google, Inc.
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: craigbarber!google.com
+    M: craigatgoogle
+    S: git
+  - E: craigbarber!google.com
+    M: Craig Barber
+    S: github
+    U: craigdbarber
   B: 0
   U: Craig Barber
 - E: craigb!google.com
@@ -54720,8 +54720,8 @@ P:
     F: "1900-01-01"
   I:
   - E: ludanfeng!baidu.com
-    M: ludanfeng
-    S: git
+    M: Lu,Danfeng
+    S: groupsio
   B: 0
   U: Danfeng Lu
 - E: ludanfeng!baidu.com
@@ -54752,8 +54752,8 @@ P:
     F: "1900-01-01"
   I:
   - E: ludanfeng!baidu.com
-    M: Lu,Danfeng
-    S: groupsio
+    M: ludanfeng
+    S: git
   B: 0
   U: Danfeng Lu
 - E: dinh.danh.le!ericsson.com
@@ -59385,17 +59385,6 @@ P:
   B: 0
   U: Daniel
 - R:
-  - T: "2099-01-01"
-    C: FBD Insurance
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Daniel
-    S: github
-    U: DanBuchan
-  B: 0
-  U: Daniel
-- R:
   - T: "2015-03-01"
     C: SecuRing
     F: "1970-01-01"
@@ -59419,6 +59408,17 @@ P:
   - M: Daniel
     S: github
     U: danmx
+  B: 0
+  U: Daniel
+- R:
+  - T: "2099-01-01"
+    C: FBD Insurance
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Daniel
+    S: github
+    U: DanBuchan
   B: 0
   U: Daniel
 - E: daniela-valentina.otelea!ing.com
@@ -59595,8 +59595,7 @@ P:
   I:
   - E: daniele!auterion.com
     M: Daniele Pettenuzzo
-    S: github
-    U: DanielePettenuzzo
+    S: git
   B: 0
   U: Daniele Pettenuzzo
 - E: daniele!auterion.com
@@ -59607,7 +59606,8 @@ P:
   I:
   - E: daniele!auterion.com
     M: Daniele Pettenuzzo
-    S: git
+    S: github
+    U: DanielePettenuzzo
   B: 0
   U: Daniele Pettenuzzo
 - E: daniele!px4.io
@@ -60272,6 +60272,26 @@ P:
     F: "1900-01-01"
   I:
   - M: Danny Rosen
+    S: github
+    U: Dannyzen
+  - E: drosen!pivotal.io
+    M: Danny Rosen
+    S: groupsio
+  - E: drosen!pivotal.io
+    M: Danny Rosen
+    S: mbox
+  - E: drosen!pivotal.io
+    M: dannyzen
+    S: slack
+    U: dannyzen
+  B: 0
+  U: Danny Rosen
+- R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - M: Danny Rosen
     S: cloudfoundry:manual
   - E: danny.rosen!gmail.com
     S: cloudfoundry:manual
@@ -60290,26 +60310,6 @@ P:
   - E: danny.rosen!gmail.com
     M: Danny Rosen
     S: mbox
-  B: 0
-  U: Danny Rosen
-- R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - M: Danny Rosen
-    S: github
-    U: Dannyzen
-  - E: drosen!pivotal.io
-    M: Danny Rosen
-    S: groupsio
-  - E: drosen!pivotal.io
-    M: Danny Rosen
-    S: mbox
-  - E: drosen!pivotal.io
-    M: dannyzen
-    S: slack
-    U: dannyzen
   B: 0
   U: Danny Rosen
 - E: danny!dannysauer.com
@@ -60383,6 +60383,21 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
+  - M: Danny Zhou
+    S: confluence
+    U: dyzhou
+  - E: danny.zhou!intel.com
+    M: Danny Zhou
+    S: jira
+    U: dyzhou
+  B: 0
+  U: Danny Zhou
+- E: danny.zhou!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
   - E: danny.zhou!intel.com
     M: Danny Zhou
     S: git
@@ -60392,21 +60407,6 @@ P:
   - E: danny.zhou!intel.com
     M: Zhou Danny
     S: pipermail
-  B: 0
-  U: Danny Zhou
-- E: danny.zhou!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - M: Danny Zhou
-    S: confluence
-    U: dyzhou
-  - E: danny.zhou!intel.com
-    M: Danny Zhou
-    S: jira
-    U: dyzhou
   B: 0
   U: Danny Zhou
 - E: kugelfang!gentoo.org

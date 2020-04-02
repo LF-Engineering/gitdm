@@ -940,17 +940,6 @@ P:
     C: ENEA AB
     F: "1900-01-01"
   I:
-  - E: joe.kidder!enea.com
-    M: Joe Kidder
-    S: pipermail
-  B: 0
-  U: Joe Kidder
-- E: joe.kidder!enea.com
-  R:
-  - T: "2100-01-01"
-    C: ENEA AB
-    F: "1900-01-01"
-  I:
   - M: Joe Kidder
     S: confluence
     U: Joe.kidder
@@ -1003,6 +992,17 @@ P:
     M: Joe Kidder
     S: mbox
   - E: joe.kidder!5thlayer.com
+    M: Joe Kidder
+    S: pipermail
+  B: 0
+  U: Joe Kidder
+- E: joe.kidder!enea.com
+  R:
+  - T: "2100-01-01"
+    C: ENEA AB
+    F: "1900-01-01"
+  I:
+  - E: joe.kidder!enea.com
     M: Joe Kidder
     S: pipermail
   B: 0
@@ -5113,7 +5113,7 @@ P:
   I:
   - E: john.linn!xilinx.com
     M: John Linn
-    S: pipermail
+    S: git
   B: 0
   U: John Linn
 - E: john.linn!xilinx.com
@@ -5124,7 +5124,7 @@ P:
   I:
   - E: john.linn!xilinx.com
     M: John Linn
-    S: git
+    S: pipermail
   B: 0
   U: John Linn
 - E: loj!cisco.com
@@ -5726,18 +5726,6 @@ P:
   U: John O Loughlin
 - E: john.ogness!linutronix.de
   R:
-  - T: "2099-01-01"
-    C: linutronix
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: john.ogness!linutronix.de
-    M: John Ogness
-    S: git
-  B: 0
-  U: John Ogness
-- E: john.ogness!linutronix.de
-  R:
   - T: "2100-01-01"
     C: linutronix
     F: "1900-01-01"
@@ -5749,6 +5737,18 @@ P:
   - E: john.ogness!linutronix.de
     M: John Ogness
     S: pipermail
+  B: 0
+  U: John Ogness
+- E: john.ogness!linutronix.de
+  R:
+  - T: "2099-01-01"
+    C: linutronix
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: john.ogness!linutronix.de
+    M: John Ogness
+    S: git
   B: 0
   U: John Ogness
 - C: CA
@@ -10584,8 +10584,10 @@ P:
   I:
   - E: johnnymarler!gmail.com
     M: Jonathan Marler
-    S: github
-    U: marler8997
+    S: git
+  - E: johnnymarler!gmail.com
+    M: Jonathan Marler
+    S: pipermail
   B: 0
   U: Jonathan Marler
 - C: US
@@ -10598,10 +10600,8 @@ P:
   I:
   - E: johnnymarler!gmail.com
     M: Jonathan Marler
-    S: git
-  - E: johnnymarler!gmail.com
-    M: Jonathan Marler
-    S: pipermail
+    S: github
+    U: marler8997
   B: 0
   U: Jonathan Marler
 - C: GB
@@ -13579,7 +13579,8 @@ P:
   I:
   - E: jolcese!ssni.com
     M: Jose Olcese
-    S: git
+    S: slack
+    U: jose
   B: 0
   U: Jose Olcese
 - E: jolcese!ssni.com
@@ -13591,8 +13592,7 @@ P:
   I:
   - E: jolcese!ssni.com
     M: Jose Olcese
-    S: slack
-    U: jose
+    S: git
   B: 0
   U: Jose Olcese
 - R:
@@ -15768,8 +15768,8 @@ P:
   I:
   - E: josh!jmgao.dev
     M: Josh Gao
-    S: github
-    U: jmgao
+    S: slack
+    U: josh
   B: 0
   U: Josh Gao
 - C: US
@@ -15785,8 +15785,8 @@ P:
   I:
   - E: josh!jmgao.dev
     M: Josh Gao
-    S: slack
-    U: josh
+    S: github
+    U: jmgao
   B: 0
   U: Josh Gao
 - C: US
@@ -16008,22 +16008,6 @@ P:
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Oracle
-    F: "2016-04-01"
-  S: male
-  I:
-  - E: horwitzja!gmail.com
-    M: Josh Horwitz
-    S: git
-  B: 0
-  U: Josh Horwitz
-- C: US
-  E: horwitzja!gmail.com
-  R:
-  - T: "2016-04-01"
-    C: AddThis
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Oracle
     F: "1970-01-01"
   - T: "2099-01-01"
     C: Oracle
@@ -16034,6 +16018,22 @@ P:
     M: Josh Horwitz
     S: github
     U: jhorwit2
+  B: 0
+  U: Josh Horwitz
+- C: US
+  E: horwitzja!gmail.com
+  R:
+  - T: "2016-04-01"
+    C: AddThis
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Oracle
+    F: "2016-04-01"
+  S: male
+  I:
+  - E: horwitzja!gmail.com
+    M: Josh Horwitz
+    S: git
   B: 0
   U: Josh Horwitz
 - C: US
@@ -18113,10 +18113,8 @@ P:
   I:
   - E: jose.souza!intel.com
     M: José Roberto de Souza
-    S: git
-  - E: jose.souza!intel.com
-    M: osé Roberto de Souza
-    S: git
+    S: github
+    U: zehortigoza
   B: 0
   U: José Roberto de Souza
 - E: jose.souza!intel.com
@@ -18131,8 +18129,10 @@ P:
   I:
   - E: jose.souza!intel.com
     M: José Roberto de Souza
-    S: github
-    U: zehortigoza
+    S: git
+  - E: jose.souza!intel.com
+    M: osé Roberto de Souza
+    S: git
   B: 0
   U: José Roberto de Souza
 - C: CN
@@ -20292,8 +20292,7 @@ P:
   I:
   - E: julian!oes.ch
     M: Julian Oes
-    S: slack
-    U: julianoes
+    S: git
   B: 0
   U: Julian Oes
 - E: julian!oes.ch
@@ -20304,7 +20303,8 @@ P:
   I:
   - E: julian!oes.ch
     M: Julian Oes
-    S: git
+    S: slack
+    U: julianoes
   B: 0
   U: Julian Oes
 - E: jparkin!amd.com
@@ -21192,7 +21192,8 @@ P:
   I:
   - E: julien.lecoeur!gmail.com
     M: Julien Lecoeur
-    S: git
+    S: slack
+    U: jlecoeur
   B: 0
   U: Julien Lecoeur
 - E: julien.lecoeur!gmail.com
@@ -21203,8 +21204,7 @@ P:
   I:
   - E: julien.lecoeur!gmail.com
     M: Julien Lecoeur
-    S: slack
-    U: jlecoeur
+    S: git
   B: 0
   U: Julien Lecoeur
 - C: US
@@ -21440,8 +21440,7 @@ P:
   I:
   - E: julien.senon!gmail.com
     M: Julien Senon
-    S: github
-    U: jsenon
+    S: git
   B: 0
   U: Julien Senon
 - C: FR
@@ -21457,7 +21456,8 @@ P:
   I:
   - E: julien.senon!gmail.com
     M: Julien Senon
-    S: git
+    S: github
+    U: jsenon
   B: 0
   U: Julien Senon
 - C: FR
@@ -22167,8 +22167,7 @@ P:
   I:
   - E: lijun.git!gmail.com
     M: Jun Li
-    S: github
-    U: accepting
+    S: git
   B: 0
   U: Jun Li
 - C: CN
@@ -22181,7 +22180,8 @@ P:
   I:
   - E: lijun.git!gmail.com
     M: Jun Li
-    S: git
+    S: github
+    U: accepting
   B: 0
   U: Jun Li
 - E: jun.mukai!gmail.com
@@ -27966,6 +27966,22 @@ P:
 - C: US
   E: karangoel!google.com
   R:
+  - T: "2100-01-01"
+    C: Google, Inc.
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: karangoel!google.com
+    M: Karan Goel
+    S: git
+  B: 0
+  U: Karan Goel
+- C: US
+  E: karangoel!google.com
+  R:
   - T: "2099-01-01"
     C: Google
     F: "1970-01-01"
@@ -27978,22 +27994,6 @@ P:
     M: Karan Goel
     S: github
     U: karan
-  B: 0
-  U: Karan Goel
-- C: US
-  E: karangoel!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: karangoel!google.com
-    M: Karan Goel
-    S: git
   B: 0
   U: Karan Goel
 - C: US
@@ -29022,18 +29022,6 @@ P:
   U: Karri Niemelä
 - E: Karsten.Bott!bottnet.de
   R:
-  - T: "2099-01-01"
-    C: Karsten Bott
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: Karsten.Bott!bottnet.de
-    M: Karsten Bott
-    S: git
-  B: 0
-  U: Karsten Bott
-- E: Karsten.Bott!bottnet.de
-  R:
   - T: "2100-01-01"
     C: Dell
     F: "1900-01-01"
@@ -29054,6 +29042,18 @@ P:
     M: Karsten Bott
     S: slack
     U: bottkars
+  B: 0
+  U: Karsten Bott
+- E: Karsten.Bott!bottnet.de
+  R:
+  - T: "2099-01-01"
+    C: Karsten Bott
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: Karsten.Bott!bottnet.de
+    M: Karsten Bott
+    S: git
   B: 0
   U: Karsten Bott
 - C: DE
@@ -34932,7 +34932,7 @@ P:
   I:
   - E: haokexin!gmail.com
     M: Kevin Hao
-    S: git
+    S: pipermail
   B: 0
   U: Kevin Hao
 - E: haokexin!gmail.com
@@ -34944,7 +34944,7 @@ P:
   I:
   - E: haokexin!gmail.com
     M: Kevin Hao
-    S: pipermail
+    S: git
   B: 0
   U: Kevin Hao
 - E: kexin.hao!windriver.com
@@ -37409,7 +37409,10 @@ P:
   I:
   - E: kbingham!kernel.org
     M: Kieran Bingham
-    S: git
+    S: pipermail
+  - E: kieran!bingham.xyz
+    M: Kieran Bingham
+    S: pipermail
   B: 0
   U: Kieran Bingham
 - C: GB
@@ -37425,10 +37428,7 @@ P:
   I:
   - E: kbingham!kernel.org
     M: Kieran Bingham
-    S: pipermail
-  - E: kieran!bingham.xyz
-    M: Kieran Bingham
-    S: pipermail
+    S: git
   B: 0
   U: Kieran Bingham
 - E: kbingham!mpc-data.co.uk
@@ -40106,6 +40106,18 @@ P:
     C: Samsung
     F: "1900-01-01"
   I:
+  - E: k.banka!samsung.com
+    M: Konrad Banka
+    S: gerrit
+    U: kbanka
+  B: 0
+  U: Konrad Banka
+- E: k.banka!samsung.com
+  R:
+  - T: "2100-01-01"
+    C: Samsung
+    F: "1900-01-01"
+  I:
   - M: Konrad BaAka
     S: confluence
     U: kbanka
@@ -40124,18 +40136,6 @@ P:
   - E: k.banka!samsung.com
     M: Konrad Banka
     S: jira
-    U: kbanka
-  B: 0
-  U: Konrad Banka
-- E: k.banka!samsung.com
-  R:
-  - T: "2100-01-01"
-    C: Samsung
-    F: "1900-01-01"
-  I:
-  - E: k.banka!samsung.com
-    M: Konrad Banka
-    S: gerrit
     U: kbanka
   B: 0
   U: Konrad Banka
@@ -40622,17 +40622,6 @@ P:
     C: Linux Foundation
     F: "1900-01-01"
   I:
-  - E: konstantin!linuxfoundation.org
-    M: Konstantin Ryabitsev
-    S: git
-  B: 0
-  U: Konstantin Ryabitsev
-- E: konstantin!linuxfoundation.org
-  R:
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-  I:
   - M: Konstantin Ryabitsev
     S: confluence
     U: mricon
@@ -40643,6 +40632,17 @@ P:
     M: Konstantin Ryabitsev
     S: jira
     U: mricon
+  B: 0
+  U: Konstantin Ryabitsev
+- E: konstantin!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+  I:
+  - E: konstantin!linuxfoundation.org
+    M: Konstantin Ryabitsev
+    S: git
   B: 0
   U: Konstantin Ryabitsev
 - R:
@@ -45008,21 +45008,6 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
-  - E: simo.kuusela!intel.com
-    M: Simo Kuusela
-    S: bugzilla
-    U: simo.kuusela@intel.com
-  - E: simo.kuusela!intel.com
-    S: bugzilla
-    U: simo.kuusela@intel.com
-  B: 0
-  U: Kuusela, Simo
-- E: simo.kuusela!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
   - M: Simo Kuusela
     S: bugzilla
     U: simo.kuusela
@@ -45032,6 +45017,21 @@ P:
   - E: simo.kuusela!intel.com
     M: Kuusela, Simo
     S: pipermail
+  B: 0
+  U: Kuusela, Simo
+- E: simo.kuusela!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: simo.kuusela!intel.com
+    M: Simo Kuusela
+    S: bugzilla
+    U: simo.kuusela@intel.com
+  - E: simo.kuusela!intel.com
+    S: bugzilla
+    U: simo.kuusela@intel.com
   B: 0
   U: Kuusela, Simo
 - E: topi.kuutela!intel.com
@@ -47294,12 +47294,8 @@ P:
   S: male
   I:
   - E: lalyos!yahoo.com
-    M: lalyos
-    S: git
-  - E: lalyos!yahoo.com
     M: Lajos Papp
-    S: github
-    U: lalyos
+    S: git
   B: 0
   U: Lajos Papp
 - E: lalyos!yahoo.com
@@ -47319,8 +47315,12 @@ P:
   S: male
   I:
   - E: lalyos!yahoo.com
-    M: Lajos Papp
+    M: lalyos
     S: git
+  - E: lalyos!yahoo.com
+    M: Lajos Papp
+    S: github
+    U: lalyos
   B: 0
   U: Lajos Papp
 - C: GB
@@ -47798,6 +47798,37 @@ P:
 - C: US
   E: lantaol!google.com
   R:
+  - T: "2014-05-01"
+    C: Dell
+    F: "1970-01-01"
+  - T: "2014-08-01"
+    C: MicroStrategy
+    F: "2014-05-01"
+  - T: "2014-11-01"
+    C: Independent
+    F: "2014-08-01"
+  - T: "2015-05-01"
+    C: Intel
+    F: "2014-11-01"
+  - T: "2015-10-01"
+    C: Independent
+    F: "2015-05-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "2015-10-01"
+  S: male
+  I:
+  - E: lantaol!google.com
+    M: Lantao Liu
+    S: git
+  - E: lantaol!google.com
+    M: Random-Liu
+    S: git
+  B: 0
+  U: Lantao Liu
+- C: US
+  E: lantaol!google.com
+  R:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
@@ -47825,37 +47856,6 @@ P:
     M: Lantao Liu
     S: github
     U: Random-Liu
-  B: 0
-  U: Lantao Liu
-- C: US
-  E: lantaol!google.com
-  R:
-  - T: "2014-05-01"
-    C: Dell
-    F: "1970-01-01"
-  - T: "2014-08-01"
-    C: MicroStrategy
-    F: "2014-05-01"
-  - T: "2014-11-01"
-    C: Independent
-    F: "2014-08-01"
-  - T: "2015-05-01"
-    C: Intel
-    F: "2014-11-01"
-  - T: "2015-10-01"
-    C: Independent
-    F: "2015-05-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "2015-10-01"
-  S: male
-  I:
-  - E: lantaol!google.com
-    M: Lantao Liu
-    S: git
-  - E: lantaol!google.com
-    M: Random-Liu
-    S: git
   B: 0
   U: Lantao Liu
 - C: US
@@ -49038,27 +49038,6 @@ P:
 - C: US
   E: ldemailly!gmail.com
   R:
-  - T: "2017-02-01"
-    C: Facebook
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "2017-02-01"
-  S: male
-  I:
-  - E: ldemailly!gmail.com
-    M: Laurent Demailly
-    S: github
-    U: ldemailly
-  - E: ldemailly!gmail.com
-    M: Laurent Demailly
-    S: slack
-    U: ldemailly
-  B: 0
-  U: Laurent Demailly
-- C: US
-  E: ldemailly!gmail.com
-  R:
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
@@ -49076,6 +49055,27 @@ P:
   - E: ldemailly!google.com
     M: Laurent Demailly
     S: git
+  B: 0
+  U: Laurent Demailly
+- C: US
+  E: ldemailly!gmail.com
+  R:
+  - T: "2017-02-01"
+    C: Facebook
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "2017-02-01"
+  S: male
+  I:
+  - E: ldemailly!gmail.com
+    M: Laurent Demailly
+    S: github
+    U: ldemailly
+  - E: ldemailly!gmail.com
+    M: Laurent Demailly
+    S: slack
+    U: ldemailly
   B: 0
   U: Laurent Demailly
 - E: ldufour!linux.ibm.com
@@ -49443,6 +49443,21 @@ P:
     C: Bluegiga
     F: "1900-01-01"
   I:
+  - E: lauri.hintsala!bluegiga.com
+    M: Lauri Hintsala
+    S: bugzilla
+    U: lauri.hintsala@bluegiga.com
+  - E: lauri.hintsala!bluegiga.com
+    S: bugzilla
+    U: lauri.hintsala@bluegiga.com
+  B: 0
+  U: Lauri Hintsala
+- E: lauri.hintsala!bluegiga.com
+  R:
+  - T: "2100-01-01"
+    C: Bluegiga
+    F: "1900-01-01"
+  I:
   - M: Lauri Hintsala
     S: bugzilla
     U: lauri.hintsala
@@ -49452,21 +49467,6 @@ P:
   - E: lauri.hintsala!bluegiga.com
     M: Lauri Hintsala
     S: pipermail
-  B: 0
-  U: Lauri Hintsala
-- E: lauri.hintsala!bluegiga.com
-  R:
-  - T: "2100-01-01"
-    C: Bluegiga
-    F: "1900-01-01"
-  I:
-  - E: lauri.hintsala!bluegiga.com
-    M: Lauri Hintsala
-    S: bugzilla
-    U: lauri.hintsala@bluegiga.com
-  - E: lauri.hintsala!bluegiga.com
-    S: bugzilla
-    U: lauri.hintsala@bluegiga.com
   B: 0
   U: Lauri Hintsala
 - C: GB
@@ -50107,29 +50107,6 @@ P:
 - C: US
   E: leecalcote!gmail.com
   R:
-  - T: "2014-11-01"
-    C: Cisco
-    F: "1970-01-01"
-  - T: "2015-11-01"
-    C: Seagate
-    F: "2014-11-01"
-  - T: "2017-07-01"
-    C: Twistlock
-    F: "2015-11-01"
-  - T: "2099-01-01"
-    C: CNCF
-    F: "2017-07-01"
-  S: male
-  I:
-  - E: leecalcote!gmail.com
-    M: leecalcote
-    S: slack
-    U: leecalcote
-  B: 0
-  U: Lee Calcote
-- C: US
-  E: leecalcote!gmail.com
-  R:
   - T: "2100-01-01"
     C: Calcote Studios
     F: "1900-01-01"
@@ -50170,6 +50147,29 @@ P:
     U: leecalcote
   - E: leecalcote!gmail.com
     M: Lee Calcote
+    S: slack
+    U: leecalcote
+  B: 0
+  U: Lee Calcote
+- C: US
+  E: leecalcote!gmail.com
+  R:
+  - T: "2014-11-01"
+    C: Cisco
+    F: "1970-01-01"
+  - T: "2015-11-01"
+    C: Seagate
+    F: "2014-11-01"
+  - T: "2017-07-01"
+    C: Twistlock
+    F: "2015-11-01"
+  - T: "2099-01-01"
+    C: CNCF
+    F: "2017-07-01"
+  S: male
+  I:
+  - E: leecalcote!gmail.com
+    M: leecalcote
     S: slack
     U: leecalcote
   B: 0
@@ -50945,6 +50945,19 @@ P:
 - C: AU
   E: lmadsen!redhat.com
   R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  I:
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: github
+    U: leifmadsen
+  B: 0
+  U: Leif Madsen
+- C: AU
+  E: lmadsen!redhat.com
+  R:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
@@ -50978,19 +50991,6 @@ P:
   - E: lmadsen!redhat.com
     M: Leif Madsen
     S: pipermail
-  B: 0
-  U: Leif Madsen
-- C: AU
-  E: lmadsen!redhat.com
-  R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  I:
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: github
-    U: leifmadsen
   B: 0
   U: Leif Madsen
 - C: CA
@@ -51712,6 +51712,19 @@ P:
   I:
   - E: leo.yan!linaro.org
     M: Leo Yan
+    S: pipermail
+  B: 0
+  U: Leo Yan
+- C: CN
+  E: leo.yan!linaro.org
+  R:
+  - T: "2099-01-01"
+    C: Linaro
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: leo.yan!linaro.org
+    M: Leo Yan
     S: groupsio
   B: 0
   U: Leo Yan
@@ -51729,19 +51742,6 @@ P:
   - E: leo.yan!linaro.org
     M: Leo Yan
     S: git
-  B: 0
-  U: Leo Yan
-- C: CN
-  E: leo.yan!linaro.org
-  R:
-  - T: "2099-01-01"
-    C: Linaro
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: leo.yan!linaro.org
-    M: Leo Yan
-    S: pipermail
   B: 0
   U: Leo Yan
 - E: leo.k.yung!accenture.com
@@ -52717,7 +52717,8 @@ P:
   I:
   - E: lewiscowles!me.com
     M: Lewis Cowles
-    S: git
+    S: github
+    U: Lewiscowles1986
   B: 0
   U: Lewis Cowles
 - C: GB
@@ -52730,8 +52731,7 @@ P:
   I:
   - E: lewiscowles!me.com
     M: Lewis Cowles
-    S: github
-    U: Lewiscowles1986
+    S: git
   B: 0
   U: Lewis Cowles
 - C: PH
@@ -55308,6 +55308,21 @@ P:
   U: Limin Wang
 - E: liminwang!google.com
   R:
+  - T: "2016-02-01"
+    C: VMware
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "2016-02-01"
+  S: female
+  I:
+  - E: liminwang!google.com
+    M: Limin Wang
+    S: git
+  B: 0
+  U: Limin Wang
+- E: liminwang!google.com
+  R:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
@@ -55323,21 +55338,6 @@ P:
     M: Limin Wang
     S: slack
     U: liminwang
-  B: 0
-  U: Limin Wang
-- E: liminwang!google.com
-  R:
-  - T: "2016-02-01"
-    C: VMware
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "2016-02-01"
-  S: female
-  I:
-  - E: liminwang!google.com
-    M: Limin Wang
-    S: git
   B: 0
   U: Limin Wang
 - E: liminzhu!marvell.com
@@ -56249,37 +56249,6 @@ P:
 - C: US
   E: linusa!google.com
   R:
-  - T: "2014-10-01"
-    C: Artichoke
-    F: "1970-01-01"
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-10-01"
-  - T: "2015-03-01"
-    C: Learn To Be
-    F: "2015-01-01"
-  - T: "2016-11-01"
-    C: Twin Prime
-    F: "2015-03-01"
-  - T: "2017-09-01"
-    C: IMVU
-    F: "2016-11-01"
-  - T: "2017-11-01"
-    C: Independent
-    F: "2017-09-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "2017-11-01"
-  S: male
-  I:
-  - E: linusa!google.com
-    M: Linus Arver
-    S: git
-  B: 0
-  U: Linus Arver
-- C: US
-  E: linusa!google.com
-  R:
   - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
@@ -56313,6 +56282,37 @@ P:
     M: Linus Arver
     S: github
     U: listx
+  B: 0
+  U: Linus Arver
+- C: US
+  E: linusa!google.com
+  R:
+  - T: "2014-10-01"
+    C: Artichoke
+    F: "1970-01-01"
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-10-01"
+  - T: "2015-03-01"
+    C: Learn To Be
+    F: "2015-01-01"
+  - T: "2016-11-01"
+    C: Twin Prime
+    F: "2015-03-01"
+  - T: "2017-09-01"
+    C: IMVU
+    F: "2016-11-01"
+  - T: "2017-11-01"
+    C: Independent
+    F: "2017-09-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "2017-11-01"
+  S: male
+  I:
+  - E: linusa!google.com
+    M: Linus Arver
+    S: git
   B: 0
   U: Linus Arver
 - C: CN
@@ -56360,18 +56360,6 @@ P:
     C: Axis Communications AB
     F: "1900-01-01"
   I:
-  - E: linus.svensson!axis.com
-    M: Linus Svensson
-    S: bugzilla
-    U: linus.svensson@axis.com
-  B: 0
-  U: Linus Svensson
-- E: linus.svensson!axis.com
-  R:
-  - T: "2100-01-01"
-    C: Axis Communications AB
-    F: "1900-01-01"
-  I:
   - M: Linus Svensson
     S: bugzilla
     U: linus.svensson
@@ -56384,6 +56372,18 @@ P:
   - E: linus.svensson!axis.com
     M: linus.svensson@axis.com
     S: pipermail
+  B: 0
+  U: Linus Svensson
+- E: linus.svensson!axis.com
+  R:
+  - T: "2100-01-01"
+    C: Axis Communications AB
+    F: "1900-01-01"
+  I:
+  - E: linus.svensson!axis.com
+    M: Linus Svensson
+    S: bugzilla
+    U: linus.svensson@axis.com
   B: 0
   U: Linus Svensson
 - E: torvalds!evo.osdl.org
@@ -59501,7 +59501,13 @@ P:
   I:
   - E: lo!linux.com
     M: Lorenzo Fontana
-    S: slack
+    S: git
+  - M: Lorenzo Fontana
+    S: github
+    U: fntlnz
+  - E: lo!linux.com
+    M: Lorenzo Fontana
+    S: github
     U: fntlnz
   B: 0
   U: Lorenzo Fontana
@@ -59530,13 +59536,7 @@ P:
   I:
   - E: lo!linux.com
     M: Lorenzo Fontana
-    S: git
-  - M: Lorenzo Fontana
-    S: github
-    U: fntlnz
-  - E: lo!linux.com
-    M: Lorenzo Fontana
-    S: github
+    S: slack
     U: fntlnz
   B: 0
   U: Lorenzo Fontana

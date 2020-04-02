@@ -736,36 +736,6 @@ P:
 - C: US
   E: davanum!gmail.com
   R:
-  - T: "2015-01-14"
-    C: IBM
-    F: "1970-01-01"
-  - T: "2017-04-24"
-    C: Mirantis
-    F: "2015-01-14"
-  - T: "2019-06-14"
-    C: Huawei
-    F: "2017-04-24"
-  - T: "2099-01-01"
-    C: VMware
-    F: "2019-06-14"
-  S: male
-  I:
-  - E: davanum!gmail.com
-    M: Davanum Srinivas
-    S: groupsio
-  - E: davanum!gmail.com
-    M: Davanum Srinivas
-    S: slack
-    U: davanum
-  - E: davanum!gmail.com
-    M: Davanum
-    S: slack
-    U: davanum
-  B: 0
-  U: Davanum Srinivas
-- C: US
-  E: davanum!gmail.com
-  R:
   - T: "2100-01-01"
     C: Mirantis
     F: "1900-01-01"
@@ -807,6 +777,36 @@ P:
     M: Davanum Srinivas
     S: oci_csv
     U: dims
+  B: 0
+  U: Davanum Srinivas
+- C: US
+  E: davanum!gmail.com
+  R:
+  - T: "2015-01-14"
+    C: IBM
+    F: "1970-01-01"
+  - T: "2017-04-24"
+    C: Mirantis
+    F: "2015-01-14"
+  - T: "2019-06-14"
+    C: Huawei
+    F: "2017-04-24"
+  - T: "2099-01-01"
+    C: VMware
+    F: "2019-06-14"
+  S: male
+  I:
+  - E: davanum!gmail.com
+    M: Davanum Srinivas
+    S: groupsio
+  - E: davanum!gmail.com
+    M: Davanum Srinivas
+    S: slack
+    U: davanum
+  - E: davanum!gmail.com
+    M: Davanum
+    S: slack
+    U: davanum
   B: 0
   U: Davanum Srinivas
 - C: US
@@ -4468,25 +4468,6 @@ P:
   - T: "2015-10-01"
     C: Retour
     F: "1970-01-01"
-  - T: "2017-11-01"
-    C: Docker
-    F: "2015-10-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "2017-11-01"
-  S: male
-  I:
-  - E: david!gageot.net
-    M: David Gageot
-    S: git
-  B: 0
-  U: David Gageot
-- C: FR
-  E: david!gageot.net
-  R:
-  - T: "2015-10-01"
-    C: Retour
-    F: "1970-01-01"
   - T: "2099-01-01"
     C: Docker
     F: "1970-01-01"
@@ -4502,6 +4483,25 @@ P:
     M: David Gageot
     S: github
     U: dgageot
+  B: 0
+  U: David Gageot
+- C: FR
+  E: david!gageot.net
+  R:
+  - T: "2015-10-01"
+    C: Retour
+    F: "1970-01-01"
+  - T: "2017-11-01"
+    C: Docker
+    F: "2015-10-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "2017-11-01"
+  S: male
+  I:
+  - E: david!gageot.net
+    M: David Gageot
+    S: git
   B: 0
   U: David Gageot
 - E: David.Galiffi!amd.com
@@ -7822,8 +7822,7 @@ P:
   I:
   - E: David.Sidrane!Nscdg.com
     M: David Sidrane
-    S: github
-    U: davids5
+    S: git
   B: 0
   U: David Sidrane
 - E: David.Sidrane!Nscdg.com
@@ -7834,7 +7833,8 @@ P:
   I:
   - E: David.Sidrane!Nscdg.com
     M: David Sidrane
-    S: git
+    S: github
+    U: davids5
   B: 0
   U: David Sidrane
 - E: david.sidrane-px4!nscdg.com
@@ -9442,7 +9442,7 @@ P:
   I:
   - M: David
     S: github
-    U: PhoenixAD
+    U: multikatt
   B: 0
   U: David
 - R:
@@ -9453,7 +9453,7 @@ P:
   I:
   - M: David
     S: github
-    U: multikatt
+    U: PhoenixAD
   B: 0
   U: David
 - E: david.balazs!workday.com
@@ -9572,7 +9572,8 @@ P:
   I:
   - E: davideagnello!gmail.com
     M: Davide Agnello
-    S: git
+    S: github
+    U: dagnello
   B: 0
   U: Davide Agnello
 - C: US
@@ -9594,8 +9595,7 @@ P:
   I:
   - E: davideagnello!gmail.com
     M: Davide Agnello
-    S: github
-    U: dagnello
+    S: git
   B: 0
   U: Davide Agnello
 - C: US
@@ -14126,8 +14126,7 @@ P:
   I:
   - E: xiaods!gmail.com
     M: Deshi Xiao
-    S: github
-    U: xiaods
+    S: git
   B: 0
   U: Deshi Xiao
 - C: CN
@@ -14146,7 +14145,8 @@ P:
   I:
   - E: xiaods!gmail.com
     M: Deshi Xiao
-    S: git
+    S: github
+    U: xiaods
   B: 0
   U: Deshi Xiao
 - C: CN
@@ -15510,10 +15510,11 @@ P:
   I:
   - E: Jose.DiazdeGrenu!digi.com
     M: Diaz de Grenu, Jose
-    S: pipermail
+    S: git
   - E: Jose.DiazdeGrenu!digi.com
-    M: Jose Diaz de Grenu
-    S: pipermail
+    M: José Díaz
+    S: slack
+    U: jose.diazdegrenu
   B: 0
   U: Diaz de Grenu, Jose
 - E: Jose.DiazdeGrenu!digi.com
@@ -15524,11 +15525,10 @@ P:
   I:
   - E: Jose.DiazdeGrenu!digi.com
     M: Diaz de Grenu, Jose
-    S: git
+    S: pipermail
   - E: Jose.DiazdeGrenu!digi.com
-    M: José Díaz
-    S: slack
-    U: jose.diazdegrenu
+    M: Jose Diaz de Grenu
+    S: pipermail
   B: 0
   U: Diaz de Grenu, Jose
 - E: dick.kennedy!broadcom.com
@@ -17507,7 +17507,8 @@ P:
   I:
   - E: rettori!gmail.com
     M: Diogenes Rettori
-    S: git
+    S: slack
+    U: rettori
   B: 0
   U: Diogenes Rettori
 - C: US
@@ -17523,8 +17524,7 @@ P:
   I:
   - E: rettori!gmail.com
     M: Diogenes Rettori
-    S: slack
-    U: rettori
+    S: git
   B: 0
   U: Diogenes Rettori
 - C: PT
@@ -26307,20 +26307,6 @@ P:
 - C: US
   E: snible!us.ibm.com
   R:
-  - T: "2099-01-01"
-    C: IBM
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: snible!us.ibm.com
-    M: Ed Snible
-    S: slack
-    U: snible
-  B: 0
-  U: Ed Snible
-- C: US
-  E: snible!us.ibm.com
-  R:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
@@ -26338,6 +26324,20 @@ P:
   - M: Ed Snible
     S: meetup
     U: "144334572"
+  B: 0
+  U: Ed Snible
+- C: US
+  E: snible!us.ibm.com
+  R:
+  - T: "2099-01-01"
+    C: IBM
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: snible!us.ibm.com
+    M: Ed Snible
+    S: slack
+    U: snible
   B: 0
   U: Ed Snible
 - E: ed.sutter!alcatel-lucent.com
@@ -27504,8 +27504,7 @@ P:
   I:
   - E: edsiper!gmail.com
     M: Eduardo Silva
-    S: github
-    U: edsiper
+    S: git
   B: 0
   U: Eduardo Silva
 - E: edsiper!gmail.com
@@ -27529,7 +27528,8 @@ P:
   I:
   - E: edsiper!gmail.com
     M: Eduardo Silva
-    S: git
+    S: github
+    U: edsiper
   B: 0
   U: Eduardo Silva
 - E: eduardo!monkey.io
@@ -32366,22 +32366,6 @@ P:
 - C: ES
   E: eballetbo!iseebcn.com
   R:
-  - T: "2017-11-01"
-    C: ISEE2007
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Collabora
-    F: "2017-11-01"
-  S: male
-  I:
-  - E: eballetbo!iseebcn.com
-    M: Enric Balletbo i Serra
-    S: groupsio
-  B: 0
-  U: Enric Balletbo i Serra
-- C: ES
-  E: eballetbo!iseebcn.com
-  R:
   - T: "2100-01-01"
     C: ISEE
     F: "1900-01-01"
@@ -32411,6 +32395,22 @@ P:
   - E: eballetbo!iseebcn.com
     M: Enric Balletbo i Serra
     S: pipermail
+  B: 0
+  U: Enric Balletbo i Serra
+- C: ES
+  E: eballetbo!iseebcn.com
+  R:
+  - T: "2017-11-01"
+    C: ISEE2007
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Collabora
+    F: "2017-11-01"
+  S: male
+  I:
+  - E: eballetbo!iseebcn.com
+    M: Enric Balletbo i Serra
+    S: groupsio
   B: 0
   U: Enric Balletbo i Serra
 - C: ES
@@ -37083,23 +37083,6 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
-  - M: Erkka Kaaria
-    S: bugzilla
-    U: erkka.kaaria
-  - E: erkka.kaaria!intel.com
-    M: Erkka Kaaria
-    S: git
-  - E: erkka.kaaria!intel.com
-    M: Erkka Kaaria
-    S: pipermail
-  B: 0
-  U: Erkka Kaaria
-- E: erkka.kaaria!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
   - E: erkka.kaaria!intel.com
     M: Erkka Kääriä
     S: bugzilla
@@ -37109,6 +37092,23 @@ P:
     U: erkka.kaaria@intel.com
   - E: erkka.kaaria!intel.com
     M: Kaaria, Erkka
+    S: pipermail
+  B: 0
+  U: Erkka Kaaria
+- E: erkka.kaaria!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - M: Erkka Kaaria
+    S: bugzilla
+    U: erkka.kaaria
+  - E: erkka.kaaria!intel.com
+    M: Erkka Kaaria
+    S: git
+  - E: erkka.kaaria!intel.com
+    M: Erkka Kaaria
     S: pipermail
   B: 0
   U: Erkka Kaaria
@@ -37892,6 +37892,18 @@ P:
     C: VMware
     F: "1900-01-01"
   I:
+  - E: ethanlynnl!vmware.com
+    M: Ethan Lynn
+    S: slack
+    U: ethanlynnl
+  B: 0
+  U: Ethan Lynn
+- E: ethanlynnl!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware
+    F: "1900-01-01"
+  I:
   - M: Ethan Lynn
     S: confluence
     U: ethanlynnl
@@ -37925,18 +37937,6 @@ P:
   - E: ethanlynnl!vmware.com
     M: Ethan Lynn
     S: pipermail
-  B: 0
-  U: Ethan Lynn
-- E: ethanlynnl!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware
-    F: "1900-01-01"
-  I:
-  - E: ethanlynnl!vmware.com
-    M: Ethan Lynn
-    S: slack
-    U: ethanlynnl
   B: 0
   U: Ethan Lynn
 - E: solo!google.com
@@ -42363,8 +42363,10 @@ P:
   I:
   - E: maplainfly!gmail.com
     M: Fangyuan Li
-    S: github
-    U: maplain
+    S: git
+  - E: maplainfly!gmail.com
+    M: maplain
+    S: git
   B: 0
   U: Fangyuan Li
 - E: maplainfly!gmail.com
@@ -42376,10 +42378,8 @@ P:
   I:
   - E: maplainfly!gmail.com
     M: Fangyuan Li
-    S: git
-  - E: maplainfly!gmail.com
-    M: maplain
-    S: git
+    S: github
+    U: maplain
   B: 0
   U: Fangyuan Li
 - E: fangyuanc!vmware.com
@@ -44566,10 +44566,7 @@ P:
   I:
   - E: fenghua.yu!intel.com
     M: Fenghua Yu
-    S: gerrit
-  - E: fenghua.yu!intel.com
-    M: Fenghua Yu
-    S: gerrit
+    S: git
   B: 0
   U: Fenghua Yu
 - E: fenghua.yu!intel.com
@@ -44580,7 +44577,10 @@ P:
   I:
   - E: fenghua.yu!intel.com
     M: Fenghua Yu
-    S: git
+    S: gerrit
+  - E: fenghua.yu!intel.com
+    M: Fenghua Yu
+    S: gerrit
   B: 0
   U: Fenghua Yu
 - C: DE
@@ -44775,8 +44775,8 @@ P:
   I:
   - E: ferenc.szekely!suse.com
     M: Ferenc Székely
-    S: slack
-    U: ferenc.szekely
+    S: gerrit
+    U: fszekely
   B: 0
   U: Ferenc Székely
 - C: FI
@@ -44789,8 +44789,8 @@ P:
   I:
   - E: ferenc.szekely!suse.com
     M: Ferenc Székely
-    S: gerrit
-    U: fszekely
+    S: slack
+    U: ferenc.szekely
   B: 0
   U: Ferenc Székely
 - C: HU
@@ -45735,8 +45735,8 @@ P:
   I:
   - E: filip!pytloun.cz
     M: Filip Pytloun
-    S: github
-    U: fpytloun
+    S: jira
+    U: filip@pytloun.cz
   B: 0
   U: Filip Pytloun
 - C: CZ
@@ -45758,8 +45758,8 @@ P:
   I:
   - E: filip!pytloun.cz
     M: Filip Pytloun
-    S: jira
-    U: filip@pytloun.cz
+    S: github
+    U: fpytloun
   B: 0
   U: Filip Pytloun
 - E: filip.sadowski!intel.com
@@ -47550,6 +47550,26 @@ P:
   B: 0
   U: Ford Donald
 - R:
+  - T: "2016-06-01"
+    C: Independent
+    F: "1970-01-01"
+  - T: "2016-08-01"
+    C: Pivotal
+    F: "2016-06-01"
+  - T: "2017-06-01"
+    C: Independent
+    F: "2016-08-01"
+  - T: "2099-01-01"
+    C: Pivotal
+    F: "2017-06-01"
+  S: male
+  I:
+  - M: Forest Eckhardt
+    S: github
+    U: ForestEckhardt
+  B: 0
+  U: Forest Eckhardt
+- R:
   - T: "2100-01-01"
     C: Pivotal
     F: "1900-01-01"
@@ -47598,26 +47618,6 @@ P:
     M: forest.eckhardt
     S: slack
     U: forest.eckhardt
-  B: 0
-  U: Forest Eckhardt
-- R:
-  - T: "2016-06-01"
-    C: Independent
-    F: "1970-01-01"
-  - T: "2016-08-01"
-    C: Pivotal
-    F: "2016-06-01"
-  - T: "2017-06-01"
-    C: Independent
-    F: "2016-08-01"
-  - T: "2099-01-01"
-    C: Pivotal
-    F: "2017-06-01"
-  S: male
-  I:
-  - M: Forest Eckhardt
-    S: github
-    U: ForestEckhardt
   B: 0
   U: Forest Eckhardt
 - R:
@@ -51911,21 +51911,6 @@ P:
     C: ENEA AB
     F: "1900-01-01"
   I:
-  - E: gabriel.barbu!enea.com
-    M: Gabriel Barbu
-    S: bugzilla
-    U: gabriel.barbu@enea.com
-  - E: gabriel.barbu!enea.com
-    S: bugzilla
-    U: gabriel.barbu@enea.com
-  B: 0
-  U: Gabriel Barbu
-- E: gabriel.barbu!enea.com
-  R:
-  - T: "2100-01-01"
-    C: ENEA AB
-    F: "1900-01-01"
-  I:
   - M: Gabriel Barbu
     S: bugzilla
     U: gabriel.barbu
@@ -51935,6 +51920,21 @@ P:
   - E: gabriel.barbu!enea.com
     M: Gabriel Barbu
     S: pipermail
+  B: 0
+  U: Gabriel Barbu
+- E: gabriel.barbu!enea.com
+  R:
+  - T: "2100-01-01"
+    C: ENEA AB
+    F: "1900-01-01"
+  I:
+  - E: gabriel.barbu!enea.com
+    M: Gabriel Barbu
+    S: bugzilla
+    U: gabriel.barbu@enea.com
+  - E: gabriel.barbu!enea.com
+    S: bugzilla
+    U: gabriel.barbu@enea.com
   B: 0
   U: Gabriel Barbu
 - E: gabriel.ciubotaru!intel.com
@@ -54094,7 +54094,8 @@ P:
   I:
   - E: gary!brownuk.com
     M: Gary Brown
-    S: git
+    S: slack
+    U: gary
   B: 0
   U: Gary Brown
 - E: gary!brownuk.com
@@ -54106,8 +54107,7 @@ P:
   I:
   - E: gary!brownuk.com
     M: Gary Brown
-    S: slack
-    U: gary
+    S: git
   B: 0
   U: Gary Brown
 - E: gary.pi4tech!gmail.com
@@ -57841,15 +57841,12 @@ P:
   I:
   - E: me!gbraad.nl
     M: Gerard Braad
-    S: git
-  - E: me!gbraad.nl
-    M: Gerard Braad
-    S: github
+    S: gerrit
     U: gbraad
   - E: me!gbraad.nl
     M: Gerard Braad
-    S: slack
-    U: me1130
+    S: linux-foundation:scr
+    U: gbraad
   B: 0
   U: Gerard Braad
 - C: NL
@@ -57865,12 +57862,15 @@ P:
   I:
   - E: me!gbraad.nl
     M: Gerard Braad
-    S: gerrit
+    S: git
+  - E: me!gbraad.nl
+    M: Gerard Braad
+    S: github
     U: gbraad
   - E: me!gbraad.nl
     M: Gerard Braad
-    S: linux-foundation:scr
-    U: gbraad
+    S: slack
+    U: me1130
   B: 0
   U: Gerard Braad
 - E: gerard.damm!wipro.com
