@@ -8375,6 +8375,17 @@ P:
   U: Tan Yong Heng
 - E: jui.nee.tan!intel.com
   R:
+  - T: "2099-01-01"
+    C: Intel
+    F: "1970-01-01"
+  I:
+  - E: jui.nee.tan!intel.com
+    M: Tan, Jui Nee
+    S: groupsio
+  B: 0
+  U: Tan, Jui Nee
+- E: jui.nee.tan!intel.com
+  R:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
@@ -8388,17 +8399,6 @@ P:
   - E: jui.nee.tan!intel.com
     M: Tan, Jui Nee
     S: pipermail
-  B: 0
-  U: Tan, Jui Nee
-- E: jui.nee.tan!intel.com
-  R:
-  - T: "2099-01-01"
-    C: Intel
-    F: "1970-01-01"
-  I:
-  - E: jui.nee.tan!intel.com
-    M: Tan, Jui Nee
-    S: groupsio
   B: 0
   U: Tan, Jui Nee
 - E: raymond.tan!intel.com
@@ -9081,6 +9081,18 @@ P:
     C: Nokia
     F: "1900-01-01"
   I:
+  - E: tapio.tallgren!nokia.com
+    M: Tapio Tallgren
+    S: slack
+    U: tapio.tallgren
+  B: 0
+  U: Tapio Tallgren
+- E: tapio.tallgren!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+  I:
   - M: Tapio Tallgren
     S: confluence
     U: TapioTallgren
@@ -9133,18 +9145,6 @@ P:
   - E: tapio.tallgren!nokia.com
     M: Tapio Tallgren
     S: pipermail
-  B: 0
-  U: Tapio Tallgren
-- E: tapio.tallgren!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  I:
-  - E: tapio.tallgren!nokia.com
-    M: Tapio Tallgren
-    S: slack
-    U: tapio.tallgren
   B: 0
   U: Tapio Tallgren
 - R:
@@ -9578,6 +9578,26 @@ P:
     C: Google
     F: "2019-05-01"
   - T: "2099-01-01"
+    C: CNCF
+    F: "2019-08-01"
+  S: male
+  I:
+  - E: tarunpothulapati!outlook.com
+    M: Tarun Pothulapati
+    S: slack
+    U: tarunpothulapati
+  B: 0
+  U: Tarun Pothulapati
+- C: IN
+  E: tarunpothulapati!outlook.com
+  R:
+  - T: "2019-05-01"
+    C: Independent
+    F: "1970-01-01"
+  - T: "2019-08-01"
+    C: Google
+    F: "2019-05-01"
+  - T: "2099-01-01"
     C: Google
     F: "2019-05-01"
   - T: "2099-01-01"
@@ -9592,26 +9612,6 @@ P:
     M: Tarun Pothulapati
     S: github
     U: Pothulapati
-  B: 0
-  U: Tarun Pothulapati
-- C: IN
-  E: tarunpothulapati!outlook.com
-  R:
-  - T: "2019-05-01"
-    C: Independent
-    F: "1970-01-01"
-  - T: "2019-08-01"
-    C: Google
-    F: "2019-05-01"
-  - T: "2099-01-01"
-    C: CNCF
-    F: "2019-08-01"
-  S: male
-  I:
-  - E: tarunpothulapati!outlook.com
-    M: Tarun Pothulapati
-    S: slack
-    U: tarunpothulapati
   B: 0
   U: Tarun Pothulapati
 - E: tt3868!att.com
@@ -14035,6 +14035,7 @@ P:
     F: "1970-01-01"
   I:
   - E: tgraf!suug.ch
+    M: Thomas Graf
     S: git
   B: 0
   U: Thomas Graf
@@ -14046,7 +14047,6 @@ P:
     F: "1970-01-01"
   I:
   - E: tgraf!suug.ch
-    M: Thomas Graf
     S: git
   B: 0
   U: Thomas Graf
@@ -15097,7 +15097,7 @@ P:
   I:
   - E: thomas.petazzoni!free-electrons.com
     M: Thomas Petazzoni
-    S: pipermail
+    S: git
   B: 0
   U: Thomas Petazzoni
 - C: FR
@@ -15113,7 +15113,7 @@ P:
   I:
   - E: thomas.petazzoni!free-electrons.com
     M: Thomas Petazzoni
-    S: git
+    S: pipermail
   B: 0
   U: Thomas Petazzoni
 - C: US
@@ -15598,7 +15598,8 @@ P:
   I:
   - E: thomas.stastny!mavt.ethz.ch
     M: Thomas Stastny
-    S: git
+    S: github
+    U: tstastny
   B: 0
   U: Thomas Stastny
 - E: thomas.stastny!mavt.ethz.ch
@@ -15609,8 +15610,7 @@ P:
   I:
   - E: thomas.stastny!mavt.ethz.ch
     M: Thomas Stastny
-    S: github
-    U: tstastny
+    S: git
   B: 0
   U: Thomas Stastny
 - E: thomas!rigi.tech
@@ -19459,12 +19459,8 @@ P:
     F: "1970-01-01"
   I:
   - E: tim!timdumol.com
-    M: Tim Dumol
-    S: git
-  - E: tim!timdumol.com
     M: Tim Joseph Dumol
-    S: github
-    U: TimDumol
+    S: git
   B: 0
   U: Tim Joseph Dumol
 - C: PH
@@ -19475,8 +19471,12 @@ P:
     F: "1970-01-01"
   I:
   - E: tim!timdumol.com
-    M: Tim Joseph Dumol
+    M: Tim Dumol
     S: git
+  - E: tim!timdumol.com
+    M: Tim Joseph Dumol
+    S: github
+    U: TimDumol
   B: 0
   U: Tim Joseph Dumol
 - E: timkeller!gmail.com
@@ -21507,18 +21507,6 @@ P:
     C: ARM
     F: "1900-01-01"
   I:
-  - E: tina.tsou!arm.com
-    M: Tina Tsou
-    S: slack
-    U: tina.tsou
-  B: 0
-  U: Tina Tsou
-- E: tina.tsou!arm.com
-  R:
-  - T: "2100-01-01"
-    C: ARM
-    F: "1900-01-01"
-  I:
   - M: Tina Tsou
     S: confluence
     U: tinatsou
@@ -21545,6 +21533,18 @@ P:
   - E: tinatsou6!gmail.com
     M: Tina Tsou
     S: pipermail
+  B: 0
+  U: Tina Tsou
+- E: tina.tsou!arm.com
+  R:
+  - T: "2100-01-01"
+    C: ARM
+    F: "1900-01-01"
+  I:
+  - E: tina.tsou!arm.com
+    M: Tina Tsou
+    S: slack
+    U: tina.tsou
   B: 0
   U: Tina Tsou
 - R:
@@ -25465,7 +25465,7 @@ P:
   I:
   - M: Tom
     S: github
-    U: kostegit
+    U: Crusty82
   B: 0
   U: Tom
 - R:
@@ -25476,7 +25476,7 @@ P:
   I:
   - M: Tom
     S: github
-    U: Crusty82
+    U: kostegit
   B: 0
   U: Tom
 - E: thomas.charles23!gmail.com
@@ -28650,20 +28650,6 @@ P:
   U: Tony Luck
 - E: tony.luck!intel.com
   R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: tony.luck!intel.com
-    M: Tony Luck
-    S: gerrit
-  - E: tony.luck!intel.com
-    M: Tony Luck
-    S: gerrit
-  B: 0
-  U: Tony Luck
-- E: tony.luck!intel.com
-  R:
   - T: "2099-01-01"
     C: Intel
     F: "1970-01-01"
@@ -28677,6 +28663,20 @@ P:
   - E: tony.luck!intel.com
     M: Tony Luck
     S: git
+  B: 0
+  U: Tony Luck
+- E: tony.luck!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: tony.luck!intel.com
+    M: Tony Luck
+    S: gerrit
+  - E: tony.luck!intel.com
+    M: Tony Luck
+    S: gerrit
   B: 0
   U: Tony Luck
 - E: anthony.nelson!emc.com
@@ -29351,12 +29351,11 @@ P:
   I:
   - E: mail!torstenwalter.de
     M: Torsten Walter
-    S: github
-    U: torstenwalter
+    S: git
   - E: mail!torstenwalter.de
     M: Torsten Walter
     S: slack
-    U: mail802
+    U: mail
   B: 0
   U: Torsten Walter
 - E: mail!torstenwalter.de
@@ -29377,11 +29376,12 @@ P:
   I:
   - E: mail!torstenwalter.de
     M: Torsten Walter
-    S: git
+    S: github
+    U: torstenwalter
   - E: mail!torstenwalter.de
     M: Torsten Walter
     S: slack
-    U: mail
+    U: mail802
   B: 0
   U: Torsten Walter
 - C: JP
@@ -31719,6 +31719,21 @@ P:
     C: Codethink
     F: "1900-01-01"
   I:
+  - E: tristan.vanberkom!codethink.co.uk
+    M: Tristan Van Berkom
+    S: bugzilla
+    U: tristan.vanberkom@codethink.co.uk
+  - E: tristan.vanberkom!codethink.co.uk
+    S: bugzilla
+    U: tristan.vanberkom@codethink.co.uk
+  B: 0
+  U: Tristan Van Berkom
+- E: tristan.vanberkom!codethink.co.uk
+  R:
+  - T: "2100-01-01"
+    C: Codethink
+    F: "1900-01-01"
+  I:
   - M: Tristan Van Berkom
     S: bugzilla
     U: tristan.vanberkom
@@ -31728,21 +31743,6 @@ P:
   - E: tristan.vanberkom!codethink.co.uk
     M: Tristan Van Berkom
     S: pipermail
-  B: 0
-  U: Tristan Van Berkom
-- E: tristan.vanberkom!codethink.co.uk
-  R:
-  - T: "2100-01-01"
-    C: Codethink
-    F: "1900-01-01"
-  I:
-  - E: tristan.vanberkom!codethink.co.uk
-    M: Tristan Van Berkom
-    S: bugzilla
-    U: tristan.vanberkom@codethink.co.uk
-  - E: tristan.vanberkom!codethink.co.uk
-    S: bugzilla
-    U: tristan.vanberkom@codethink.co.uk
   B: 0
   U: Tristan Van Berkom
 - R:
@@ -31939,7 +31939,7 @@ P:
   I:
   - E: troy.kisky!boundarydevices.com
     M: Troy Kisky
-    S: git
+    S: groupsio
   B: 0
   U: Troy Kisky
 - C: US
@@ -31952,7 +31952,7 @@ P:
   I:
   - E: troy.kisky!boundarydevices.com
     M: Troy Kisky
-    S: groupsio
+    S: git
   B: 0
   U: Troy Kisky
 - E: troy.ronda!securekey.com
@@ -32067,6 +32067,17 @@ P:
   U: Tsang-Shian Lin
 - E: tshibata!ab.jp.nec.com
   R:
+  - T: "2099-01-01"
+    C: NEC
+    F: "1970-01-01"
+  I:
+  - E: tshibata!ab.jp.nec.com
+    M: Tsugikazu Shibata
+    S: git
+  B: 0
+  U: Tsugikazu Shibata
+- E: tshibata!ab.jp.nec.com
+  R:
   - T: "2100-01-01"
     C: NEC
     F: "1900-01-01"
@@ -32077,17 +32088,6 @@ P:
   - E: tshibata!ab.jp.nec.com
     M: Tsugikazu Shibata
     S: pipermail
-  B: 0
-  U: Tsugikazu Shibata
-- E: tshibata!ab.jp.nec.com
-  R:
-  - T: "2099-01-01"
-    C: NEC
-    F: "1970-01-01"
-  I:
-  - E: tshibata!ab.jp.nec.com
-    M: Tsugikazu Shibata
-    S: git
   B: 0
   U: Tsugikazu Shibata
 - E: t-fujii!nb.jp.nec.com
@@ -39202,8 +39202,7 @@ P:
   I:
   - E: viglesiasce!gmail.com
     M: Vic Iglesias
-    S: github
-    U: viglesiasce
+    S: git
   B: 0
   U: Vic Iglesias
 - C: US
@@ -39219,7 +39218,8 @@ P:
   I:
   - E: viglesiasce!gmail.com
     M: Vic Iglesias
-    S: git
+    S: github
+    U: viglesiasce
   B: 0
   U: Vic Iglesias
 - E: vwei!codeaurora.org
@@ -40073,20 +40073,6 @@ P:
 - C: US
   E: victor.morales!intel.com
   R:
-  - T: "2099-01-01"
-    C: Intel
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: victor.morales!intel.com
-    M: Victor Morales
-    S: github
-    U: electrocucaracha
-  B: 0
-  U: Victor Morales
-- C: US
-  E: victor.morales!intel.com
-  R:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
@@ -40118,6 +40104,20 @@ P:
   - E: victor.morales!intel.com
     M: Morales, Victor
     S: pipermail
+  B: 0
+  U: Victor Morales
+- C: US
+  E: victor.morales!intel.com
+  R:
+  - T: "2099-01-01"
+    C: Intel
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: victor.morales!intel.com
+    M: Victor Morales
+    S: github
+    U: electrocucaracha
   B: 0
   U: Victor Morales
 - C: US
@@ -41890,6 +41890,19 @@ P:
   U: Vikram Hosakote
 - E: vhosakot!cisco.com
   R:
+  - T: "2099-01-01"
+    C: Cisco
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: vhosakot!cisco.com
+    M: Vikram Hosakote
+    S: jira
+    U: vhosakot
+  B: 0
+  U: Vikram Hosakote
+- E: vhosakot!cisco.com
+  R:
   - T: "2100-01-01"
     C: Cisco
     F: "1900-01-01"
@@ -41901,19 +41914,6 @@ P:
   - E: vhosakot!cisco.com
     M: Vikram Hosakote
     S: git
-  B: 0
-  U: Vikram Hosakote
-- E: vhosakot!cisco.com
-  R:
-  - T: "2099-01-01"
-    C: Cisco
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: vhosakot!cisco.com
-    M: Vikram Hosakote
-    S: jira
-    U: vhosakot
   B: 0
   U: Vikram Hosakote
 - E: vikramkrishnamu!vmware.com
@@ -48005,7 +48005,8 @@ P:
   I:
   - E: volodymyrs!mellanox.com
     M: Volodymyr Samotiy
-    S: git
+    S: github
+    U: volodymyrsamotiy
   B: 0
   U: Volodymyr Samotiy
 - E: volodymyrs!mellanox.com
@@ -48017,8 +48018,7 @@ P:
   I:
   - E: volodymyrs!mellanox.com
     M: Volodymyr Samotiy
-    S: github
-    U: volodymyrsamotiy
+    S: git
   B: 0
   U: Volodymyr Samotiy
 - E: andreea.volosincu!windriver.com
@@ -48767,8 +48767,7 @@ P:
   I:
   - E: wally!synadia.com
     M: Waldemar Quevedo
-    S: github
-    U: wallyqs
+    S: git
   B: 0
   U: Waldemar Quevedo
 - C: US
@@ -48787,7 +48786,8 @@ P:
   I:
   - E: wally!synadia.com
     M: Waldemar Quevedo
-    S: git
+    S: github
+    U: wallyqs
   B: 0
   U: Waldemar Quevedo
 - E: ext.waldemar.rymarkiewicz!tieto.com
@@ -50566,8 +50566,7 @@ P:
   I:
   - E: fuweid89!gmail.com
     M: Wei Fu
-    S: github
-    U: fuweid
+    S: git
   B: 0
   U: Wei Fu
 - C: IT
@@ -50583,7 +50582,8 @@ P:
   I:
   - E: fuweid89!gmail.com
     M: Wei Fu
-    S: git
+    S: github
+    U: fuweid
   B: 0
   U: Wei Fu
 - E: xavier.huwei!huawei.com
@@ -50924,21 +50924,6 @@ P:
   U: Wei Tie
 - E: wei.w.wang!intel.com
   R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - M: Wei Wang
-    S: confluence
-    U: weiwang
-  - E: wei.w.wang!intel.com
-    M: Wei Wang
-    S: jira
-    U: weiwang
-  B: 0
-  U: Wei Wang
-- E: wei.w.wang!intel.com
-  R:
   - T: "2099-01-01"
     C: Intel
     F: "1970-01-01"
@@ -50952,6 +50937,21 @@ P:
   - E: wei.w.wang!intel.com
     M: Wei Wang
     S: pipermail
+  B: 0
+  U: Wei Wang
+- E: wei.w.wang!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - M: Wei Wang
+    S: confluence
+    U: weiwang
+  - E: wei.w.wang!intel.com
+    M: Wei Wang
+    S: jira
+    U: weiwang
   B: 0
   U: Wei Wang
 - C: US
@@ -51056,24 +51056,6 @@ P:
   U: Wei Xu
 - E: richard.weiyang!gmail.com
   R:
-  - T: "2015-12-01"
-    C: IBM
-    F: "1970-01-01"
-  - T: "2017-02-01"
-    C: Huawei
-    F: "2015-12-01"
-  - T: "2099-01-01"
-    C: Intel
-    F: "2017-02-01"
-  S: male
-  I:
-  - E: richard.weiyang!gmail.com
-    M: Wei Yang
-    S: git
-  B: 0
-  U: Wei Yang
-- E: richard.weiyang!gmail.com
-  R:
   - T: "2100-01-01"
     C: Huawei
     F: "1900-01-01"
@@ -51120,6 +51102,24 @@ P:
   - E: richard.weiyang!huawei.com
     M: Wei Yang
     S: pipermail
+  B: 0
+  U: Wei Yang
+- E: richard.weiyang!gmail.com
+  R:
+  - T: "2015-12-01"
+    C: IBM
+    F: "1970-01-01"
+  - T: "2017-02-01"
+    C: Huawei
+    F: "2015-12-01"
+  - T: "2099-01-01"
+    C: Intel
+    F: "2017-02-01"
+  S: male
+  I:
+  - E: richard.weiyang!gmail.com
+    M: Wei Yang
+    S: git
   B: 0
   U: Wei Yang
 - E: richardw.yang!linux.intel.com
@@ -57383,19 +57383,6 @@ P:
   E: xianglin.gxl!alibaba-inc.com
   R:
   - T: "2099-01-01"
-    C: Alibaba
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: xianglin.gxl!alibaba-inc.com
-    M: Xianglin Gao
-    S: git
-  B: 0
-  U: Xianglin Gao
-- C: CN
-  E: xianglin.gxl!alibaba-inc.com
-  R:
-  - T: "2099-01-01"
     C: Independent
     F: "1970-01-01"
   S: male
@@ -57404,6 +57391,19 @@ P:
     M: Xianglin Gao
     S: github
     U: xlgao-zju
+  B: 0
+  U: Xianglin Gao
+- C: CN
+  E: xianglin.gxl!alibaba-inc.com
+  R:
+  - T: "2099-01-01"
+    C: Alibaba
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: xianglin.gxl!alibaba-inc.com
+    M: Xianglin Gao
+    S: git
   B: 0
   U: Xianglin Gao
 - C: CN

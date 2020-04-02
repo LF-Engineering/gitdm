@@ -1289,8 +1289,7 @@ P:
   I:
   - E: spiffxp!gmail.com
     M: Aaron Crickenberger
-    S: github
-    U: spiffxp
+    S: git
   B: 0
   U: Aaron Crickenberger
 - C: US
@@ -1315,7 +1314,8 @@ P:
   I:
   - E: spiffxp!gmail.com
     M: Aaron Crickenberger
-    S: git
+    S: github
+    U: spiffxp
   B: 0
   U: Aaron Crickenberger
 - C: US
@@ -3008,23 +3008,6 @@ P:
 - C: GB
   E: abdul.halim!intel.com
   R:
-  - T: "2099-01-01"
-    C: Intel
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: abdul.halim!intel.com
-    M: Abdul Halim
-    S: github
-    U: ahalim-intel
-  - E: abdul.halim!intel.com
-    M: Abdul Halim
-    S: pipermail
-  B: 0
-  U: Abdul Halim
-- C: GB
-  E: abdul.halim!intel.com
-  R:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
@@ -3069,6 +3052,23 @@ P:
     S: mbox
   - E: abdul.halim!intel.com
     M: Halim, Abdul
+    S: pipermail
+  B: 0
+  U: Abdul Halim
+- C: GB
+  E: abdul.halim!intel.com
+  R:
+  - T: "2099-01-01"
+    C: Intel
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: abdul.halim!intel.com
+    M: Abdul Halim
+    S: github
+    U: ahalim-intel
+  - E: abdul.halim!intel.com
+    M: Abdul Halim
     S: pipermail
   B: 0
   U: Abdul Halim
@@ -7271,8 +7271,7 @@ P:
   I:
   - E: awg!xvx.ca
     M: Adam Wolfe Gordon
-    S: github
-    U: adamwg
+    S: git
   B: 0
   U: Adam Wolfe Gordon
 - C: CA
@@ -7288,7 +7287,8 @@ P:
   I:
   - E: awg!xvx.ca
     M: Adam Wolfe Gordon
-    S: git
+    S: github
+    U: adamwg
   B: 0
   U: Adam Wolfe Gordon
 - E: abw!abw-k8s.mtv.corp.google.com
@@ -7486,7 +7486,7 @@ P:
   I:
   - M: Adam
     S: github
-    U: adam-26
+    U: adampl
   B: 0
   U: Adam
 - R:
@@ -7497,7 +7497,7 @@ P:
   I:
   - M: Adam
     S: github
-    U: adampl
+    U: adam-26
   B: 0
   U: Adam
 - E: adam.dang!daocloud.io
@@ -7508,7 +7508,8 @@ P:
   I:
   - E: adam.dang!daocloud.io
     M: AdamDang
-    S: git
+    S: github
+    U: AdamDang
   B: 0
   U: AdamDang
 - E: adam.dang!daocloud.io
@@ -7519,8 +7520,7 @@ P:
   I:
   - E: adam.dang!daocloud.io
     M: AdamDang
-    S: github
-    U: AdamDang
+    S: git
   B: 0
   U: AdamDang
 - R:
@@ -13119,8 +13119,11 @@ P:
     F: "1900-01-01"
   I:
   - E: alan.bennett!linaro.org
-    M: Alan Bennett
-    S: pipermail
+    S: bugzilla
+    U: alan.bennett@linaro.org
+  - E: alan.bennett!linaro.org
+    S: bugzilla
+    U: alan.bennett@linaro.org
   B: 0
   U: Alan Bennett
 - E: alan.bennett!linaro.org
@@ -13130,11 +13133,8 @@ P:
     F: "1900-01-01"
   I:
   - E: alan.bennett!linaro.org
-    S: bugzilla
-    U: alan.bennett@linaro.org
-  - E: alan.bennett!linaro.org
-    S: bugzilla
-    U: alan.bennett@linaro.org
+    M: Alan Bennett
+    S: pipermail
   B: 0
   U: Alan Bennett
 - E: alan_bishop!dell.com
@@ -15342,23 +15342,6 @@ P:
 - C: US
   E: alejandro.delcastillo!ni.com
   R:
-  - T: "2099-01-01"
-    C: National Instruments
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: alejandro.delcastillo!ni.com
-    M: Alejandro del Castillo
-    S: bugzilla
-    U: alejandro.delcastillo@ni.com
-  - E: alejandro.delcastillo!ni.com
-    S: bugzilla
-    U: alejandro.delcastillo@ni.com
-  B: 0
-  U: Alejandro del Castillo
-- C: US
-  E: alejandro.delcastillo!ni.com
-  R:
   - T: "2100-01-01"
     C: National Instruments
     F: "1900-01-01"
@@ -15376,6 +15359,23 @@ P:
   - E: alejandro.delcastillo!ni.com
     M: Alejandro del Castillo
     S: pipermail
+  B: 0
+  U: Alejandro del Castillo
+- C: US
+  E: alejandro.delcastillo!ni.com
+  R:
+  - T: "2099-01-01"
+    C: National Instruments
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: alejandro.delcastillo!ni.com
+    M: Alejandro del Castillo
+    S: bugzilla
+    U: alejandro.delcastillo@ni.com
+  - E: alejandro.delcastillo!ni.com
+    S: bugzilla
+    U: alejandro.delcastillo@ni.com
   B: 0
   U: Alejandro del Castillo
 - E: Alejandro.Lozano!freescale.com
@@ -17261,7 +17261,8 @@ P:
   I:
   - E: alexdicarlo!gmail.com
     M: Alex DiCarlo
-    S: git
+    S: github
+    U: dicarlo2
   B: 0
   U: Alex DiCarlo
 - E: alexdicarlo!gmail.com
@@ -17279,8 +17280,7 @@ P:
   I:
   - E: alexdicarlo!gmail.com
     M: Alex DiCarlo
-    S: github
-    U: dicarlo2
+    S: git
   B: 0
   U: Alex DiCarlo
 - C: DE
@@ -22171,26 +22171,6 @@ P:
   B: 0
   U: Alexander
 - R:
-  - T: "2015-08-01"
-    C: Independent
-    F: "1970-01-01"
-  - T: "2019-03-01"
-    C: 2GIS
-    F: "2015-08-01"
-  - T: "2019-08-01"
-    C: Independent
-    F: "2019-03-01"
-  - T: "2099-01-01"
-    C: Xored
-    F: "2019-08-01"
-  S: male
-  I:
-  - M: Alexander
-    S: github
-    U: alex-yust
-  B: 0
-  U: Alexander
-- R:
   - T: "2099-01-01"
     C: NFLabs
     F: "1970-01-01"
@@ -22210,6 +22190,26 @@ P:
   - M: Alexander
     S: github
     U: de1m
+  B: 0
+  U: Alexander
+- R:
+  - T: "2015-08-01"
+    C: Independent
+    F: "1970-01-01"
+  - T: "2019-03-01"
+    C: 2GIS
+    F: "2015-08-01"
+  - T: "2019-08-01"
+    C: Independent
+    F: "2019-03-01"
+  - T: "2099-01-01"
+    C: Xored
+    F: "2019-08-01"
+  S: male
+  I:
+  - M: Alexander
+    S: github
+    U: alex-yust
   B: 0
   U: Alexander
 - R:
@@ -25710,6 +25710,20 @@ P:
   B: 0
   U: Alin Sinpalean
 - R:
+  - T: "2016-11-01"
+    C: Google
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: move digital ag
+    F: "2016-11-01"
+  S: male
+  I:
+  - M: Alin Sinpalean
+    S: github
+    U: alin-amana
+  B: 0
+  U: Alin Sinpalean
+- R:
   - T: "2016-10-01"
     C: Google
     F: "1970-01-01"
@@ -25733,20 +25747,6 @@ P:
   - M: Alin Sinpalean
     S: github
     U: free
-  B: 0
-  U: Alin Sinpalean
-- R:
-  - T: "2016-11-01"
-    C: Google
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: move digital ag
-    F: "2016-11-01"
-  S: male
-  I:
-  - M: Alin Sinpalean
-    S: github
-    U: alin-amana
   B: 0
   U: Alin Sinpalean
 - C: RO
@@ -26881,7 +26881,8 @@ P:
   I:
   - E: mail!alokrajiv.com
     M: Alok Rajiv
-    S: git
+    S: slack
+    U: mail805
   B: 0
   U: Alok Rajiv
 - E: mail!alokrajiv.com
@@ -26902,8 +26903,7 @@ P:
   I:
   - E: mail!alokrajiv.com
     M: Alok Rajiv
-    S: slack
-    U: mail805
+    S: git
   B: 0
   U: Alok Rajiv
 - C: US
@@ -28137,6 +28137,31 @@ P:
   - T: "2014-05-01"
     C: Persistent
     F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  - T: "2017-05-01"
+    C: Independent
+    F: "2014-05-01"
+  - T: "2099-01-01"
+    C: ZenSpace
+    F: "2017-05-01"
+  S: male
+  I:
+  - E: ameyd!google.com
+    M: Amey Deshpande
+    S: git
+  B: 0
+  U: Amey Deshpande
+- C: US
+  E: ameyd!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google, Inc.
+    F: "1900-01-01"
+  - T: "2014-05-01"
+    C: Persistent
+    F: "1970-01-01"
   - T: "2017-05-01"
     C: Independent
     F: "2014-05-01"
@@ -28156,31 +28181,6 @@ P:
   - E: ameyd!google.com
     S: github
     U: Amey-D
-  B: 0
-  U: Amey Deshpande
-- C: US
-  E: ameyd!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  - T: "2014-05-01"
-    C: Persistent
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  - T: "2017-05-01"
-    C: Independent
-    F: "2014-05-01"
-  - T: "2099-01-01"
-    C: ZenSpace
-    F: "2017-05-01"
-  S: male
-  I:
-  - E: ameyd!google.com
-    M: Amey Deshpande
-    S: git
   B: 0
   U: Amey Deshpande
 - E: amey!espressif.com
@@ -30334,6 +30334,17 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
+  - E: anand.b.jyoti!intel.com
+    M: Anand B Jyoti
+    S: pipermail
+  B: 0
+  U: Anand B Jyoti
+- E: anand.b.jyoti!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
   - M: ANAND B JYOTI
     S: confluence
     U: abjyoti
@@ -30353,17 +30364,6 @@ P:
     U: abjyoti
   - E: anand.b.jyoti!intel.com
     M: Jyoti, Anand B
-    S: pipermail
-  B: 0
-  U: Anand B Jyoti
-- E: anand.b.jyoti!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: anand.b.jyoti!intel.com
-    M: Anand B Jyoti
     S: pipermail
   B: 0
   U: Anand B Jyoti
@@ -30834,8 +30834,11 @@ P:
   I:
   - E: anantharamu!gmail.com
     M: Ananth Suryanarayana
-    S: jira
-    U: ananthsurya
+    S: git
+  - E: anantharamu!gmail.com
+    M: Ananth Suryanarayana
+    S: github
+    U: rombie
   B: 0
   U: Ananth Suryanarayana
 - C: US
@@ -30848,11 +30851,8 @@ P:
   I:
   - E: anantharamu!gmail.com
     M: Ananth Suryanarayana
-    S: git
-  - E: anantharamu!gmail.com
-    M: Ananth Suryanarayana
-    S: github
-    U: rombie
+    S: jira
+    U: ananthsurya
   B: 0
   U: Ananth Suryanarayana
 - E: ananth!broadcom.com
@@ -33441,7 +33441,8 @@ P:
   I:
   - E: andreas.holmsten!gmail.com
     M: Andreas Holmsten
-    S: git
+    S: github
+    U: holmsten
   B: 0
   U: Andreas Holmsten
 - C: SE
@@ -33460,8 +33461,7 @@ P:
   I:
   - E: andreas.holmsten!gmail.com
     M: Andreas Holmsten
-    S: github
-    U: holmsten
+    S: git
   B: 0
   U: Andreas Holmsten
 - C: DE
@@ -38496,8 +38496,7 @@ P:
   I:
   - E: andrew.stuart2!gmail.com
     M: Andrew Stuart
-    S: github
-    U: andrewstuart
+    S: git
   B: 0
   U: Andrew Stuart
 - E: andrew.stuart2!gmail.com
@@ -38515,7 +38514,8 @@ P:
   I:
   - E: andrew.stuart2!gmail.com
     M: Andrew Stuart
-    S: git
+    S: github
+    U: andrewstuart
   B: 0
   U: Andrew Stuart
 - E: ams!codesourcery.com
@@ -42708,7 +42708,8 @@ P:
   I:
   - E: malclee!outlook.com
     M: Ang Lee
-    S: git
+    S: github
+    U: malc0lm
   B: 0
   U: Ang Lee
 - C: CN
@@ -42721,8 +42722,7 @@ P:
   I:
   - E: malclee!outlook.com
     M: Ang Lee
-    S: github
-    U: malc0lm
+    S: git
   B: 0
   U: Ang Lee
 - E: chin.huat.ang!intel.com
@@ -43339,20 +43339,6 @@ P:
     C: Linux Foundation
     F: "1900-01-01"
   I:
-  - E: abelur!linuxfoundation.org
-    M: Anil Belur
-    S: groupsio
-  - E: abelur!linuxfoundation.org
-    M: Anil Belur
-    S: pipermail
-  B: 0
-  U: Anil Belur
-- E: abelur!linuxfoundation.org
-  R:
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-  I:
   - M: Anil Belur
     S: confluence
     U: askb
@@ -43374,6 +43360,20 @@ P:
     M: Anil Belur
     S: jira
     U: askb
+  B: 0
+  U: Anil Belur
+- E: abelur!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+  I:
+  - E: abelur!linuxfoundation.org
+    M: Anil Belur
+    S: groupsio
+  - E: abelur!linuxfoundation.org
+    M: Anil Belur
+    S: pipermail
   B: 0
   U: Anil Belur
 - C: AU
@@ -43639,7 +43639,10 @@ P:
   I:
   - E: singhan!us.ibm.com
     M: Animesh Singh
-    S: git
+    S: groupsio
+  - E: singhan!us.ibm.com
+    M: Animesh Singh
+    S: mbox
   B: 0
   U: Animesh Singh
 - E: singhan!us.ibm.com
@@ -43654,10 +43657,7 @@ P:
   I:
   - E: singhan!us.ibm.com
     M: Animesh Singh
-    S: groupsio
-  - E: singhan!us.ibm.com
-    M: Animesh Singh
-    S: mbox
+    S: git
   B: 0
   U: Animesh Singh
 - E: anindita.das!intel.com
@@ -46028,18 +46028,6 @@ P:
   U: Anthony Yznaga
 - E: hangaoshuai1!huawei.com
   R:
-  - T: "2099-01-01"
-    C: Huawei
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: hangaoshuai1!huawei.com
-    M: Anthony
-    S: git
-  B: 0
-  U: Anthony
-- E: hangaoshuai1!huawei.com
-  R:
   - T: "2100-01-01"
     C: Huawei
     F: "1900-01-01"
@@ -46055,6 +46043,18 @@ P:
     M: Anthony
     S: github
     U: hanxiaoshuai
+  B: 0
+  U: Anthony
+- E: hangaoshuai1!huawei.com
+  R:
+  - T: "2099-01-01"
+    C: Huawei
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: hangaoshuai1!huawei.com
+    M: Anthony
+    S: git
   B: 0
   U: Anthony
 - E: anti.sullin!artecdesign.ee
@@ -50402,6 +50402,20 @@ P:
 - C: IT
   E: armando.visconti!st.com
   R:
+  - T: "2099-01-01"
+    C: ST Microelectronics
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: armando.visconti!st.com
+    M: Armando Visconti
+    S: slack
+    U: armando.visconti
+  B: 0
+  U: Armando Visconti
+- C: IT
+  E: armando.visconti!st.com
+  R:
   - T: "2100-01-01"
     C: STMicroelectronics
     F: "1900-01-01"
@@ -50413,20 +50427,6 @@ P:
   - E: armando.visconti!st.com
     M: Armando Visconti
     S: git
-  B: 0
-  U: Armando Visconti
-- C: IT
-  E: armando.visconti!st.com
-  R:
-  - T: "2099-01-01"
-    C: ST Microelectronics
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: armando.visconti!st.com
-    M: Armando Visconti
-    S: slack
-    U: armando.visconti
   B: 0
   U: Armando Visconti
 - E: akuster!mvista.com
@@ -53009,8 +53009,7 @@ P:
   I:
   - E: arunprasath33!gmail.com
     M: Arun prasath
-    S: github
-    U: bingoarun
+    S: git
   B: 0
   U: Arun prasath
 - C: IN
@@ -53035,7 +53034,8 @@ P:
   I:
   - E: arunprasath33!gmail.com
     M: Arun prasath
-    S: git
+    S: github
+    U: bingoarun
   B: 0
   U: Arun prasath
 - E: aruna.ramakrishna!oracle.com
@@ -56025,19 +56025,6 @@ P:
   I:
   - E: audun.korneliussen!nordicsemi.no
     M: Audun Korneliussen
-    S: slack
-    U: audun.korneliussen
-  B: 0
-  U: Audun Korneliussen
-- E: audun.korneliussen!nordicsemi.no
-  R:
-  - T: "2099-01-01"
-    C: Nordic Semiconductor
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: audun.korneliussen!nordicsemi.no
-    M: Audun Korneliussen
     S: git
   B: 0
   U: Audun Korneliussen
@@ -56052,6 +56039,19 @@ P:
     M: Audun Korneliussen
     S: github
     U: nordic-auko
+  B: 0
+  U: Audun Korneliussen
+- E: audun.korneliussen!nordicsemi.no
+  R:
+  - T: "2099-01-01"
+    C: Nordic Semiconductor
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: audun.korneliussen!nordicsemi.no
+    M: Audun Korneliussen
+    S: slack
+    U: audun.korneliussen
   B: 0
   U: Audun Korneliussen
 - C: US
@@ -57359,30 +57359,6 @@ P:
     C: Huawei
     F: "1900-01-01"
   I:
-  - E: avinash.s!huawei.com
-    M: Avinash S
-    S: gmane
-  - E: avinash.s!huawei.com
-    M: Avinash S
-    S: groupsio
-  - E: avinash.s!huawei.com
-    M: Avinash S
-    S: linux-foundation:mls
-    U: avinash.s
-  - E: avinash.s!huawei.com
-    M: Avinash S
-    S: mbox
-  - E: avinash.s!huawei.com
-    M: Avinash S
-    S: pipermail
-  B: 0
-  U: Avinash S
-- E: avinash.s!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei
-    F: "1900-01-01"
-  I:
   - M: Avinash S
     S: confluence
     U: AvinashS
@@ -57406,6 +57382,30 @@ P:
     M: Avinash S
     S: jira
     U: AvinashS
+  B: 0
+  U: Avinash S
+- E: avinash.s!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei
+    F: "1900-01-01"
+  I:
+  - E: avinash.s!huawei.com
+    M: Avinash S
+    S: gmane
+  - E: avinash.s!huawei.com
+    M: Avinash S
+    S: groupsio
+  - E: avinash.s!huawei.com
+    M: Avinash S
+    S: linux-foundation:mls
+    U: avinash.s
+  - E: avinash.s!huawei.com
+    M: Avinash S
+    S: mbox
+  - E: avinash.s!huawei.com
+    M: Avinash S
+    S: pipermail
   B: 0
   U: Avinash S
 - E: avinash.sridharan!gmail.com
@@ -58580,19 +58580,6 @@ P:
   U: Babu Moger
 - E: anbu!enovance.com
   R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: anbu!enovance.com
-    M: Babu Shanmugam
-    S: jira
-    U: anbu@enovance.com
-  B: 0
-  U: Babu Shanmugam
-- E: anbu!enovance.com
-  R:
   - T: "2100-01-01"
     C: eNovance
     F: "1900-01-01"
@@ -58604,6 +58591,19 @@ P:
   - E: anbu!enovance.com
     M: Babu Shanmugam
     S: git
+  B: 0
+  U: Babu Shanmugam
+- E: anbu!enovance.com
+  R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: anbu!enovance.com
+    M: Babu Shanmugam
+    S: jira
+    U: anbu@enovance.com
   B: 0
   U: Babu Shanmugam
 - E: bschanmu!redhat.com
@@ -59284,7 +59284,7 @@ P:
     F: "1900-01-01"
   I:
   - E: balazs.szekeres!nokia.com
-    M: Szekeres, Balazs (Nokia - HU/Budapest)
+    M: Balazs Szekeres
     S: git
   B: 0
   U: Balazs Szekeres
@@ -59295,7 +59295,7 @@ P:
     F: "1900-01-01"
   I:
   - E: balazs.szekeres!nokia.com
-    M: Balazs Szekeres
+    M: Szekeres, Balazs (Nokia - HU/Budapest)
     S: git
   B: 0
   U: Balazs Szekeres

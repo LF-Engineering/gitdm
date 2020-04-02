@@ -24,8 +24,7 @@ P:
   I:
   - E: hello!nachogarcia.dev
     M: Nacho García
-    S: github
-    U: nachogarcia
+    S: git
   B: 0
   U: Nacho García
 - C: ES
@@ -53,7 +52,8 @@ P:
   I:
   - E: hello!nachogarcia.dev
     M: Nacho García
-    S: git
+    S: github
+    U: nachogarcia
   B: 0
   U: Nacho García
 - C: US
@@ -7823,8 +7823,7 @@ P:
   I:
   - E: nicholas.j.santos!gmail.com
     M: Nick Santos
-    S: github
-    U: nicks
+    S: git
   B: 0
   U: Nick Santos
 - C: US
@@ -7837,7 +7836,8 @@ P:
   I:
   - E: nicholas.j.santos!gmail.com
     M: Nick Santos
-    S: git
+    S: github
+    U: nicks
   B: 0
   U: Nick Santos
 - C: US
@@ -9746,7 +9746,7 @@ P:
   I:
   - E: nicolas.pitre!linaro.org
     M: Nicolas Pitre
-    S: pipermail
+    S: git
   B: 0
   U: Nicolas Pitre
 - E: nicolas.pitre!linaro.org
@@ -9757,7 +9757,7 @@ P:
   I:
   - E: nicolas.pitre!linaro.org
     M: Nicolas Pitre
-    S: git
+    S: pipermail
   B: 0
   U: Nicolas Pitre
 - E: npitre!baylibre.com
@@ -12835,19 +12835,6 @@ P:
 - C: US
   E: nm!ti.com
   R:
-  - T: "2099-01-01"
-    C: Texas Instruments
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: nm!ti.com
-    M: Nishanth Menon
-    S: git
-  B: 0
-  U: Nishanth Menon
-- C: US
-  E: nm!ti.com
-  R:
   - T: "2100-01-01"
     C: Texas Instruments
     F: "1900-01-01"
@@ -12859,6 +12846,19 @@ P:
   - E: nm!ti.com
     M: Nishanth Menon
     S: pipermail
+  B: 0
+  U: Nishanth Menon
+- C: US
+  E: nm!ti.com
+  R:
+  - T: "2099-01-01"
+    C: Texas Instruments
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: nm!ti.com
+    M: Nishanth Menon
+    S: git
   B: 0
   U: Nishanth Menon
 - E: dnishi!amazon.com
@@ -17646,22 +17646,6 @@ P:
   E: yonggangl!google.com
   R:
   - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: yonggangl!google.com
-    M: Oliver Liu
-    S: git
-  B: 0
-  U: Oliver Liu
-- C: US
-  E: yonggangl!google.com
-  R:
-  - T: "2100-01-01"
     C: Google, Inc.
     F: "1900-01-01"
   - T: "2099-01-01"
@@ -17673,6 +17657,22 @@ P:
     M: Oliver Liu
     S: slack
     U: yonggangl
+  B: 0
+  U: Oliver Liu
+- C: US
+  E: yonggangl!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: yonggangl!google.com
+    M: Oliver Liu
+    S: git
   B: 0
   U: Oliver Liu
 - C: AT
@@ -20271,6 +20271,19 @@ P:
   U: Ossi Koivistoinen
 - E: otavio.pontes!intel.com
   R:
+  - T: "2099-01-01"
+    C: Intel
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: otavio.pontes!intel.com
+    M: Otavio Pontes
+    S: github
+    U: otaviobp
+  B: 0
+  U: Otavio Pontes
+- E: otavio.pontes!intel.com
+  R:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
@@ -20282,19 +20295,6 @@ P:
   - E: otavio.pontes!intel.com
     M: Otavio Pontes
     S: git
-  B: 0
-  U: Otavio Pontes
-- E: otavio.pontes!intel.com
-  R:
-  - T: "2099-01-01"
-    C: Intel
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: otavio.pontes!intel.com
-    M: Otavio Pontes
-    S: github
-    U: otaviobp
   B: 0
   U: Otavio Pontes
 - C: BR
@@ -21710,6 +21710,21 @@ P:
     C: Igalia S.L.
     F: "1900-01-01"
   I:
+  - E: psaavedra!igalia.com
+    M: Pablo Saavedra
+    S: bugzilla
+    U: psaavedra@igalia.com
+  - E: psaavedra!igalia.com
+    S: bugzilla
+    U: psaavedra@igalia.com
+  B: 0
+  U: Pablo Saavedra
+- E: psaavedra!igalia.com
+  R:
+  - T: "2100-01-01"
+    C: Igalia S.L.
+    F: "1900-01-01"
+  I:
   - M: Pablo Saavedra
     S: bugzilla
     U: psaavedra
@@ -21719,21 +21734,6 @@ P:
   - E: psaavedra!igalia.com
     M: Pablo Saavedra
     S: pipermail
-  B: 0
-  U: Pablo Saavedra
-- E: psaavedra!igalia.com
-  R:
-  - T: "2100-01-01"
-    C: Igalia S.L.
-    F: "1900-01-01"
-  I:
-  - E: psaavedra!igalia.com
-    M: Pablo Saavedra
-    S: bugzilla
-    U: psaavedra@igalia.com
-  - E: psaavedra!igalia.com
-    S: bugzilla
-    U: psaavedra@igalia.com
   B: 0
   U: Pablo Saavedra
 - E: pablox.de.lara.guarch!intel.com
@@ -24063,6 +24063,17 @@ P:
     F: "1900-01-01"
   I:
   - E: patrice.buriez!intel.com
+    M: Buriez, Patrice
+    S: pipermail
+  B: 0
+  U: Patrice Buriez
+- E: patrice.buriez!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: patrice.buriez!intel.com
     M: Patrice Buriez
     S: gerrit
     U: pburiez
@@ -24073,17 +24084,6 @@ P:
     M: Patrice Buriez
     S: jira
     U: pburiez
-  B: 0
-  U: Patrice Buriez
-- E: patrice.buriez!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: patrice.buriez!intel.com
-    M: Buriez, Patrice
-    S: pipermail
   B: 0
   U: Patrice Buriez
 - E: patrice.chotard!st.com
@@ -27013,21 +27013,6 @@ P:
     C: Intel
     F: "1900-01-01"
   I:
-  - E: paul.eggleton!linux.intel.com
-    M: Paul Eggleton
-    S: bugzilla
-    U: paul.eggleton@linux.intel.com
-  - E: paul.eggleton!linux.intel.com
-    S: bugzilla
-    U: paul.eggleton@linux.intel.com
-  B: 0
-  U: Paul Eggleton
-- E: paul.eggleton!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
   - M: Paul Eggleton
     S: bugzilla
     U: paul.eggleton
@@ -27046,6 +27031,21 @@ P:
   - E: paul.eggleton!linux.intel.com
     M: Paul Eggleton
     S: pipermail
+  B: 0
+  U: Paul Eggleton
+- E: paul.eggleton!linux.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: paul.eggleton!linux.intel.com
+    M: Paul Eggleton
+    S: bugzilla
+    U: paul.eggleton@linux.intel.com
+  - E: paul.eggleton!linux.intel.com
+    S: bugzilla
+    U: paul.eggleton@linux.intel.com
   B: 0
   U: Paul Eggleton
 - E: emmericp!net.in.tum.de
@@ -27283,23 +27283,6 @@ P:
 - C: CA
   E: paul.gortmaker!windriver.com
   R:
-  - T: "2099-01-01"
-    C: Wind River
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: paul.gortmaker!windriver.com
-    M: Paul Gortmaker
-    S: bugzilla
-    U: paul.gortmaker@windriver.com
-  - E: paul.gortmaker!windriver.com
-    S: bugzilla
-    U: paul.gortmaker@windriver.com
-  B: 0
-  U: Paul Gortmaker
-- C: CA
-  E: paul.gortmaker!windriver.com
-  R:
   - T: "2100-01-01"
     C: Wind River
     F: "1900-01-01"
@@ -27317,6 +27300,23 @@ P:
   - E: paul.gortmaker!windriver.com
     M: Paul Gortmaker
     S: pipermail
+  B: 0
+  U: Paul Gortmaker
+- C: CA
+  E: paul.gortmaker!windriver.com
+  R:
+  - T: "2099-01-01"
+    C: Wind River
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: paul.gortmaker!windriver.com
+    M: Paul Gortmaker
+    S: bugzilla
+    U: paul.gortmaker@windriver.com
+  - E: paul.gortmaker!windriver.com
+    S: bugzilla
+    U: paul.gortmaker@windriver.com
   B: 0
   U: Paul Gortmaker
 - C: US
@@ -28262,8 +28262,7 @@ P:
   I:
   - E: gncsolns!gmail.com
     M: Paul Riseborough
-    S: slack
-    U: priseborough
+    S: git
   B: 0
   U: Paul Riseborough
 - E: gncsolns!gmail.com
@@ -28274,7 +28273,8 @@ P:
   I:
   - E: gncsolns!gmail.com
     M: Paul Riseborough
-    S: git
+    S: slack
+    U: priseborough
   B: 0
   U: Paul Riseborough
 - E: p-riseborough!live.com.au
@@ -28418,10 +28418,7 @@ P:
   I:
   - E: paul.sherwood!codethink.co.uk
     M: Paul Sherwood
-    S: groupsio
-  - E: paul.sherwood!codethink.co.uk
-    M: Paul Sherwood
-    S: mbox
+    S: pipermail
   B: 0
   U: Paul Sherwood
 - E: paul.sherwood!codethink.co.uk
@@ -28432,7 +28429,10 @@ P:
   I:
   - E: paul.sherwood!codethink.co.uk
     M: Paul Sherwood
-    S: pipermail
+    S: groupsio
+  - E: paul.sherwood!codethink.co.uk
+    M: Paul Sherwood
+    S: mbox
   B: 0
   U: Paul Sherwood
 - E: psmith!gnu.org
@@ -35420,7 +35420,8 @@ P:
   I:
   - E: p!pwaller.net
     M: Peter Waller
-    S: git
+    S: github
+    U: pwaller
   B: 0
   U: Peter Waller
 - C: GB
@@ -35433,8 +35434,7 @@ P:
   I:
   - E: p!pwaller.net
     M: Peter Waller
-    S: github
-    U: pwaller
+    S: git
   B: 0
   U: Peter Waller
 - C: NI
@@ -36095,8 +36095,7 @@ P:
   I:
   - E: petr.ruzicka!gmail.com
     M: Petr Ruzicka
-    S: github
-    U: ruzickap
+    S: git
   B: 0
   U: Petr Ruzicka
 - C: CZ
@@ -36115,7 +36114,8 @@ P:
   I:
   - E: petr.ruzicka!gmail.com
     M: Petr Ruzicka
-    S: git
+    S: github
+    U: ruzickap
   B: 0
   U: Petr Ruzicka
 - C: CZ
@@ -37172,8 +37172,16 @@ P:
   S: male
   I:
   - E: pgough!redhat.com
-    M: Philip Gough
+    M: PhilipGough
     S: git
+  - E: pgough!redhat.com
+    M: Philip Gough
+    S: github
+    U: PhilipGough
+  - E: pgough!redhat.com
+    M: Philip Gough
+    S: slack
+    U: pgough
   B: 0
   U: Philip Gough
 - C: GB
@@ -37185,16 +37193,8 @@ P:
   S: male
   I:
   - E: pgough!redhat.com
-    M: PhilipGough
+    M: Philip Gough
     S: git
-  - E: pgough!redhat.com
-    M: Philip Gough
-    S: github
-    U: PhilipGough
-  - E: pgough!redhat.com
-    M: Philip Gough
-    S: slack
-    U: pgough
   B: 0
   U: Philip Gough
 - C: GB
@@ -39036,7 +39036,10 @@ P:
   I:
   - E: pierre-yves.mordret!st.com
     M: Pierre Yves MORDRET
-    S: pipermail
+    S: git
+  - E: pierre-yves.mordret!st.com
+    M: Pierre-Yves MORDRET
+    S: git
   B: 0
   U: Pierre Yves MORDRET
 - C: FR
@@ -39052,10 +39055,7 @@ P:
   I:
   - E: pierre-yves.mordret!st.com
     M: Pierre Yves MORDRET
-    S: git
-  - E: pierre-yves.mordret!st.com
-    M: Pierre-Yves MORDRET
-    S: git
+    S: pipermail
   B: 0
   U: Pierre Yves MORDRET
 - C: ZA
@@ -39597,6 +39597,18 @@ P:
 - C: CN
   E: wang.ping5!zte.com.cn
   R:
+  - T: "2099-01-01"
+    C: ZTE
+    F: "1970-01-01"
+  I:
+  - E: wang.ping5!zte.com.cn
+    M: PingWang
+    S: git
+  B: 0
+  U: PingWang
+- C: CN
+  E: wang.ping5!zte.com.cn
+  R:
   - T: "2100-01-01"
     C: ZTE Corporation
     F: "1900-01-01"
@@ -39608,18 +39620,6 @@ P:
     M: PingWang
     S: github
     U: ping035627
-  B: 0
-  U: PingWang
-- C: CN
-  E: wang.ping5!zte.com.cn
-  R:
-  - T: "2099-01-01"
-    C: ZTE
-    F: "1970-01-01"
-  I:
-  - E: wang.ping5!zte.com.cn
-    M: PingWang
-    S: git
   B: 0
   U: PingWang
 - E: huang.pingan!zte.com.cn
@@ -40127,8 +40127,8 @@ P:
     F: "1900-01-01"
   I:
   - E: piotr.kwapulinski!intel.com
-    M: Kwapulinski, Piotr
-    S: pipermail
+    M: Piotr Kwapulinski
+    S: git
   B: 0
   U: Piotr Kwapulinski
 - E: piotr.kwapulinski!intel.com
@@ -40138,8 +40138,8 @@ P:
     F: "1900-01-01"
   I:
   - E: piotr.kwapulinski!intel.com
-    M: Piotr Kwapulinski
-    S: git
+    M: Kwapulinski, Piotr
+    S: pipermail
   B: 0
   U: Piotr Kwapulinski
 - C: PL
@@ -44534,7 +44534,7 @@ P:
   I:
   - E: plaes!plaes.org
     M: Priit Laes
-    S: git
+    S: pipermail
   B: 0
   U: Priit Laes
 - C: EE
@@ -44559,7 +44559,7 @@ P:
   I:
   - E: plaes!plaes.org
     M: Priit Laes
-    S: pipermail
+    S: git
   B: 0
   U: Priit Laes
 - C: EE
@@ -54380,21 +54380,6 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
-  - E: randy.macleod!windriver.com
-    M: Randy MacLeod
-    S: bugzilla
-    U: randy.macleod@windriver.com
-  - E: randy.macleod!windriver.com
-    S: bugzilla
-    U: randy.macleod@windriver.com
-  B: 0
-  U: Randy MacLeod
-- E: randy.macleod!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
-  I:
   - M: Randy MacLeod
     S: bugzilla
     U: randy.macleod
@@ -54410,6 +54395,21 @@ P:
   - E: randy.macleod!windriver.com
     M: randy.macleod@windriver.com
     S: pipermail
+  B: 0
+  U: Randy MacLeod
+- E: randy.macleod!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
+  - E: randy.macleod!windriver.com
+    M: Randy MacLeod
+    S: bugzilla
+    U: randy.macleod@windriver.com
+  - E: randy.macleod!windriver.com
+    S: bugzilla
+    U: randy.macleod@windriver.com
   B: 0
   U: Randy MacLeod
 - E: stuart.schacher!broadcom.com
@@ -54895,7 +54895,8 @@ P:
   I:
   - E: raphael.deem!gmail.com
     M: Raphael Deem
-    S: git
+    S: github
+    U: r0fls
   B: 0
   U: Raphael Deem
 - C: US
@@ -54926,8 +54927,7 @@ P:
   I:
   - E: raphael.deem!gmail.com
     M: Raphael Deem
-    S: github
-    U: r0fls
+    S: git
   B: 0
   U: Raphael Deem
 - C: US
@@ -59188,9 +59188,8 @@ P:
   S: male
   I:
   - E: rsalveti!rsalveti.net
-    M: Ricardo Salveti de Araujo
-    S: github
-    U: rsalveti
+    M: Ricardo Salveti
+    S: groupsio
   B: 0
   U: Ricardo Salveti
 - C: BR
@@ -59202,8 +59201,9 @@ P:
   S: male
   I:
   - E: rsalveti!rsalveti.net
-    M: Ricardo Salveti
-    S: groupsio
+    M: Ricardo Salveti de Araujo
+    S: github
+    U: rsalveti
   B: 0
   U: Ricardo Salveti
 - E: ricardo.j.szuster!intel.com
@@ -59444,12 +59444,10 @@ P:
     C: HP
     F: "1900-01-01"
   I:
-  - M: Rich Pixley
-    S: bugzilla
-    U: rich.pixley
   - E: rich.pixley!palm.com
     M: Rich Pixley
-    S: pipermail
+    S: bugzilla
+    U: rich.pixley@palm.com
   B: 0
   U: Rich Pixley
 - E: rich.pixley!palm.com
@@ -59458,10 +59456,12 @@ P:
     C: HP
     F: "1900-01-01"
   I:
+  - M: Rich Pixley
+    S: bugzilla
+    U: rich.pixley
   - E: rich.pixley!palm.com
     M: Rich Pixley
-    S: bugzilla
-    U: rich.pixley@palm.com
+    S: pipermail
   B: 0
   U: Rich Pixley
 - E: B43082!freescale.com

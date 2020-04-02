@@ -124,7 +124,8 @@ P:
   I:
   - E: hairmare!purplehaze.ch
     M: Lucas Bickel
-    S: git
+    S: github
+    U: hairmare
   B: 0
   U: Lucas Bickel
 - C: CH
@@ -136,8 +137,7 @@ P:
   I:
   - E: hairmare!purplehaze.ch
     M: Lucas Bickel
-    S: github
-    U: hairmare
+    S: git
   B: 0
   U: Lucas Bickel
 - C: CH
@@ -2624,6 +2624,18 @@ P:
 - C: CH
   E: luke!snabb.co
   R:
+  - T: "2099-01-01"
+    C: Snabb
+    F: "1970-01-01"
+  I:
+  - E: luke!snabb.co
+    M: Luke Gorrie
+    S: git
+  B: 0
+  U: Luke Gorrie
+- C: CH
+  E: luke!snabb.co
+  R:
   - T: "2100-01-01"
     C: Snabb
     F: "1900-01-01"
@@ -2634,18 +2646,6 @@ P:
   - E: luke!snabb.co
     M: Luke Gorrie
     S: pipermail
-  B: 0
-  U: Luke Gorrie
-- C: CH
-  E: luke!snabb.co
-  R:
-  - T: "2099-01-01"
-    C: Snabb
-    F: "1970-01-01"
-  I:
-  - E: luke!snabb.co
-    M: Luke Gorrie
-    S: git
   B: 0
   U: Luke Gorrie
 - C: US
@@ -4589,13 +4589,12 @@ P:
     F: "1970-01-01"
   S: male
   I:
+  - M: Maarten Brock
+    S: bugzilla
+    U: m.brock
   - E: m.brock!vanmierlo.com
     M: Maarten Brock
-    S: bugzilla
-    U: m.brock@vanmierlo.com
-  - E: m.brock!vanmierlo.com
-    S: bugzilla
-    U: m.brock@vanmierlo.com
+    S: pipermail
   B: 0
   U: Maarten Brock
 - C: NL
@@ -4606,12 +4605,13 @@ P:
     F: "1970-01-01"
   S: male
   I:
-  - M: Maarten Brock
-    S: bugzilla
-    U: m.brock
   - E: m.brock!vanmierlo.com
     M: Maarten Brock
-    S: pipermail
+    S: bugzilla
+    U: m.brock@vanmierlo.com
+  - E: m.brock!vanmierlo.com
+    S: bugzilla
+    U: m.brock@vanmierlo.com
   B: 0
   U: Maarten Brock
 - C: NL
@@ -6831,7 +6831,8 @@ P:
   I:
   - E: maik.riechert!arcor.de
     M: Maik Riechert
-    S: git
+    S: github
+    U: letmaik
   B: 0
   U: Maik Riechert
 - C: US
@@ -6844,8 +6845,7 @@ P:
   I:
   - E: maik.riechert!arcor.de
     M: Maik Riechert
-    S: github
-    U: letmaik
+    S: git
   B: 0
   U: Maik Riechert
 - E: maik.toth!sap.com
@@ -14352,22 +14352,6 @@ P:
 - E: skidam!google.com
   R:
   - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: female
-  I:
-  - E: skidam!google.com
-    M: Maria Skidanova
-    S: github
-    U: utka
-  B: 0
-  U: Maria Skidanova
-- E: skidam!google.com
-  R:
-  - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
   - T: "2099-01-01"
@@ -14381,6 +14365,22 @@ P:
   - E: skidanova.maria!gmail.com
     M: Maria Skidanova
     S: git
+  B: 0
+  U: Maria Skidanova
+- E: skidam!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google, Inc.
+    F: "1900-01-01"
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: female
+  I:
+  - E: skidam!google.com
+    M: Maria Skidanova
+    S: github
+    U: utka
   B: 0
   U: Maria Skidanova
 - E: maria.toeroe!ericsson.com
@@ -15855,23 +15855,6 @@ P:
     C: Samsung SDS
     F: "1970-01-01"
   - T: "2099-01-01"
-    C: Independent
-    F: "2019-02-08"
-  S: male
-  I:
-  - E: mark!philoserf.com
-    M: Mark Ayers
-    S: slack
-    U: philoserf
-  B: 0
-  U: Mark Ayers
-- C: US
-  E: mark!philoserf.com
-  R:
-  - T: "2019-02-08"
-    C: Samsung SDS
-    F: "1970-01-01"
-  - T: "2099-01-01"
     C: Samsung SDS
     F: "1970-01-01"
   - T: "2099-01-01"
@@ -15885,6 +15868,23 @@ P:
   - E: mark!philoserf.com
     M: Mark Ayers
     S: github
+    U: philoserf
+  B: 0
+  U: Mark Ayers
+- C: US
+  E: mark!philoserf.com
+  R:
+  - T: "2019-02-08"
+    C: Samsung SDS
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: Independent
+    F: "2019-02-08"
+  S: male
+  I:
+  - E: mark!philoserf.com
+    M: Mark Ayers
+    S: slack
     U: philoserf
   B: 0
   U: Mark Ayers
@@ -17039,6 +17039,17 @@ P:
   I:
   - E: mark.b.kavanagh!intel.com
     M: Mark Kavanagh
+    S: pipermail
+  B: 0
+  U: Mark Kavanagh
+- E: mark.b.kavanagh!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: mark.b.kavanagh!intel.com
+    M: Mark Kavanagh
     S: gerrit
     U: mark_kavanagh
   - E: mark.b.kavanagh!intel.com
@@ -17066,17 +17077,6 @@ P:
     S: mbox
   - E: mark.b.kavanagh!intel.com
     M: Kavanagh, Mark B
-    S: pipermail
-  B: 0
-  U: Mark Kavanagh
-- E: mark.b.kavanagh!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: mark.b.kavanagh!intel.com
-    M: Mark Kavanagh
     S: pipermail
   B: 0
   U: Mark Kavanagh
@@ -23995,7 +23995,7 @@ P:
     F: "1900-01-01"
   I:
   - E: massimiliano.pinto!gmail.com
-    M: Massimiliano Pinto
+    M: pintomax
     S: git
   B: 0
   U: Massimiliano Pinto
@@ -24006,7 +24006,7 @@ P:
     F: "1900-01-01"
   I:
   - E: massimiliano.pinto!gmail.com
-    M: pintomax
+    M: Massimiliano Pinto
     S: git
   B: 0
   U: Massimiliano Pinto
@@ -24367,8 +24367,7 @@ P:
   I:
   - E: Matej!auterion.com
     M: Matej Frančeškin
-    S: github
-    U: MatejFranceskin
+    S: git
   B: 0
   U: Matej Frančeškin
 - E: Matej!auterion.com
@@ -24379,7 +24378,8 @@ P:
   I:
   - E: Matej!auterion.com
     M: Matej Frančeškin
-    S: git
+    S: github
+    U: MatejFranceskin
   B: 0
   U: Matej Frančeškin
 - E: Matej.Franceskin!gmail.com
@@ -25136,8 +25136,7 @@ P:
   I:
   - E: brescianimathieu!gmail.com
     M: Mathieu Bresciani
-    S: slack
-    U: mathieu_bresciani
+    S: git
   B: 0
   U: Mathieu Bresciani
 - E: brescianimathieu!gmail.com
@@ -25148,7 +25147,8 @@ P:
   I:
   - E: brescianimathieu!gmail.com
     M: Mathieu Bresciani
-    S: git
+    S: slack
+    U: mathieu_bresciani
   B: 0
   U: Mathieu Bresciani
 - R:
@@ -26897,6 +26897,22 @@ P:
   U: Matt Fleming
 - E: matt!console-pimps.org
   R:
+  - T: "2015-10-01"
+    C: Intel
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: SUSE
+    F: "2015-10-01"
+  S: male
+  I:
+  - E: matt!console-pimps.org
+    M: Matt Fleming
+    S: bugzilla
+    U: matt@console-pimps.org
+  B: 0
+  U: Matt Fleming
+- E: matt!console-pimps.org
+  R:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
@@ -26917,22 +26933,6 @@ P:
   - E: matt!console-pimps.org
     M: Matt Fleming
     S: pipermail
-  B: 0
-  U: Matt Fleming
-- E: matt!console-pimps.org
-  R:
-  - T: "2015-10-01"
-    C: Intel
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: SUSE
-    F: "2015-10-01"
-  S: male
-  I:
-  - E: matt!console-pimps.org
-    M: Matt Fleming
-    S: bugzilla
-    U: matt@console-pimps.org
   B: 0
   U: Matt Fleming
 - E: matt!nowprovision.com
@@ -29174,7 +29174,7 @@ P:
   I:
   - M: Matt
     S: github
-    U: mtanatwine
+    U: mdering
   B: 0
   U: Matt
 - R:
@@ -29185,7 +29185,7 @@ P:
   I:
   - M: Matt
     S: github
-    U: mdering
+    U: mtanatwine
   B: 0
   U: Matt
 - R:
@@ -33841,17 +33841,6 @@ P:
   U: Max
 - R:
   - T: "2099-01-01"
-    C: Independent
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Max
-    S: github
-    U: Zhuzhenghao
-  B: 0
-  U: Max
-- R:
-  - T: "2099-01-01"
     C: Nokia
     F: "1970-01-01"
   S: male
@@ -33859,6 +33848,17 @@ P:
   - M: Max
     S: github
     U: maxlambrecht
+  B: 0
+  U: Max
+- R:
+  - T: "2099-01-01"
+    C: Independent
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Max
+    S: github
+    U: Zhuzhenghao
   B: 0
   U: Max
 - C: NI
@@ -34596,7 +34596,7 @@ P:
   I:
   - E: maxi.jourdan!wanadoo.fr
     M: Maxime Jourdan
-    S: git
+    S: pipermail
   B: 0
   U: Maxime Jourdan
 - E: maxi.jourdan!wanadoo.fr
@@ -34620,7 +34620,7 @@ P:
   I:
   - E: maxi.jourdan!wanadoo.fr
     M: Maxime Jourdan
-    S: pipermail
+    S: git
   B: 0
   U: Maxime Jourdan
 - E: mjourdan!baylibre.com
@@ -37139,17 +37139,6 @@ P:
   I:
   - E: mesut.a.ergin!intel.com
     M: Mesut Ali Ergin
-    S: pipermail
-  B: 0
-  U: Mesut Ali Ergin
-- E: mesut.a.ergin!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: mesut.a.ergin!intel.com
-    M: Mesut Ali Ergin
     S: gerrit
     U: maergin
   - E: mesut.a.ergin!intel.com
@@ -37177,6 +37166,17 @@ P:
     S: mbox
   - E: mesut.a.ergin!intel.com
     M: Ergin, Mesut A
+    S: pipermail
+  B: 0
+  U: Mesut Ali Ergin
+- E: mesut.a.ergin!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: mesut.a.ergin!intel.com
+    M: Mesut Ali Ergin
     S: pipermail
   B: 0
   U: Mesut Ali Ergin
@@ -37999,6 +37999,17 @@ P:
   B: 0
   U: Michael Behr
 - R:
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Michael Berlin
+    S: github
+    U: michael-berlin
+  B: 0
+  U: Michael Berlin
+- R:
   - T: "2015-02-01"
     C: Independent
     F: "1970-01-01"
@@ -38010,17 +38021,6 @@ P:
   - M: Michael Berlin
     S: github
     U: mberlin-bot
-  B: 0
-  U: Michael Berlin
-- R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Michael Berlin
-    S: github
-    U: michael-berlin
   B: 0
   U: Michael Berlin
 - E: mberlin!google.com
@@ -39900,12 +39900,10 @@ P:
     C: HP
     F: "1900-01-01"
   I:
-  - M: Michael Hansen
-    S: bugzilla
-    U: michael.j.hansen
   - E: michael.j.hansen!hp.com
     M: Michael Hansen
-    S: git
+    S: bugzilla
+    U: michael.j.hansen@hp.com
   B: 0
   U: Michael Hansen
 - E: michael.j.hansen!hp.com
@@ -39914,10 +39912,12 @@ P:
     C: HP
     F: "1900-01-01"
   I:
+  - M: Michael Hansen
+    S: bugzilla
+    U: michael.j.hansen
   - E: michael.j.hansen!hp.com
     M: Michael Hansen
-    S: bugzilla
-    U: michael.j.hansen@hp.com
+    S: git
   B: 0
   U: Michael Hansen
 - C: US
@@ -44992,6 +44992,17 @@ P:
   U: Michal Pawlowski
 - E: mprivozn!redhat.com
   R:
+  - T: "2099-01-01"
+    C: Red Hat
+    F: "1970-01-01"
+  I:
+  - E: mprivozn!redhat.com
+    M: Michal Privoznik
+    S: git
+  B: 0
+  U: Michal Privoznik
+- E: mprivozn!redhat.com
+  R:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
@@ -45002,17 +45013,6 @@ P:
   - E: mprivozn!redhat.com
     M: Michal Privoznik
     S: pipermail
-  B: 0
-  U: Michal Privoznik
-- E: mprivozn!redhat.com
-  R:
-  - T: "2099-01-01"
-    C: Red Hat
-    F: "1970-01-01"
-  I:
-  - E: mprivozn!redhat.com
-    M: Michal Privoznik
-    S: git
   B: 0
   U: Michal Privoznik
 - E: michalx.ptacek!intel.com
@@ -48083,8 +48083,7 @@ P:
   I:
   - E: mikael.arguedas!gmail.com
     M: Mikael Arguedas
-    S: github
-    U: mikaelarguedas
+    S: git
   B: 0
   U: Mikael Arguedas
 - C: US
@@ -48103,7 +48102,8 @@ P:
   I:
   - E: mikael.arguedas!gmail.com
     M: Mikael Arguedas
-    S: git
+    S: github
+    U: mikaelarguedas
   B: 0
   U: Mikael Arguedas
 - C: SE
@@ -48522,6 +48522,22 @@ P:
 - C: US
   E: brownwm!us.ibm.com
   R:
+  - T: "2015-07-01"
+    C: IYee & Associates
+    F: "1970-01-01"
+  - T: "2099-01-01"
+    C: IBM
+    F: "2015-07-01"
+  S: male
+  I:
+  - E: brownwm!us.ibm.com
+    M: mikebrow
+    S: git
+  B: 0
+  U: Mike Brown
+- C: US
+  E: brownwm!us.ibm.com
+  R:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
@@ -48554,22 +48570,6 @@ P:
     M: Mike Brown
     S: oci_csv
     U: mikebrow
-  B: 0
-  U: Mike Brown
-- C: US
-  E: brownwm!us.ibm.com
-  R:
-  - T: "2015-07-01"
-    C: IYee & Associates
-    F: "1970-01-01"
-  - T: "2099-01-01"
-    C: IBM
-    F: "2015-07-01"
-  S: male
-  I:
-  - E: brownwm!us.ibm.com
-    M: mikebrow
-    S: git
   B: 0
   U: Mike Brown
 - C: US
@@ -49225,9 +49225,13 @@ P:
     F: "1970-01-01"
   S: male
   I:
-  - E: vapier!chromium.org
+  - E: vapier!gmail.com
     M: Mike Frysinger
-    S: git
+    S: github
+    U: vapier
+  - E: vapier!gmail.com
+    S: github
+    U: vapier
   B: 0
   U: Mike Frysinger
 - C: US
@@ -49241,13 +49245,22 @@ P:
     F: "1970-01-01"
   S: male
   I:
-  - E: vapier!gmail.com
+  - E: vapier!chromium.org
     M: Mike Frysinger
-    S: github
-    U: vapier
-  - E: vapier!gmail.com
-    S: github
-    U: vapier
+    S: git
+  B: 0
+  U: Mike Frysinger
+- C: US
+  E: vapier!gentoo.org
+  R:
+  - T: "2099-01-01"
+    C: Google
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: vapier!gentoo.org
+    M: Mike Frysinger
+    S: pipermail
   B: 0
   U: Mike Frysinger
 - C: US
@@ -49264,19 +49277,6 @@ P:
   - E: vapier!gentoo.org
     M: Mike Frysinger
     S: git
-  B: 0
-  U: Mike Frysinger
-- C: US
-  E: vapier!gentoo.org
-  R:
-  - T: "2099-01-01"
-    C: Google
-    F: "1970-01-01"
-  S: male
-  I:
-  - E: vapier!gentoo.org
-    M: Mike Frysinger
-    S: pipermail
   B: 0
   U: Mike Frysinger
 - E: mike.gehard!gmail.com
@@ -51005,6 +51005,18 @@ P:
   U: Mike Zupan
 - C: US
   R:
+  - T: "2099-01-01"
+    C: Rackspace
+    F: "1970-01-01"
+  S: male
+  I:
+  - M: Mike
+    S: github
+    U: thequailman
+  B: 0
+  U: Mike
+- C: US
+  R:
   - T: "2016-07-01"
     C: Independent
     F: "1970-01-01"
@@ -51019,18 +51031,6 @@ P:
   - M: Mike
     S: github
     U: perryao
-  B: 0
-  U: Mike
-- C: US
-  R:
-  - T: "2099-01-01"
-    C: Rackspace
-    F: "1970-01-01"
-  S: male
-  I:
-  - M: Mike
-    S: github
-    U: thequailman
   B: 0
   U: Mike
 - R:
@@ -56331,20 +56331,6 @@ P:
 - E: mohd.shariq!nerdapplabs.com
   R:
   - T: "2100-01-01"
-    C: Dianomic
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: nerdAppLabs
-    F: "1900-01-01"
-  I:
-  - E: mohd.shariq!nerdapplabs.com
-    M: Mohd Shariq
-    S: git
-  B: 0
-  U: Mohd Shariq
-- E: mohd.shariq!nerdapplabs.com
-  R:
-  - T: "2100-01-01"
     C: nerdAppLabs
     F: "1900-01-01"
   I:
@@ -56353,6 +56339,20 @@ P:
     S: git
   - E: mshariqaftab!gmail.com
     M: Mohd. Shariq
+    S: git
+  B: 0
+  U: Mohd Shariq
+- E: mohd.shariq!nerdapplabs.com
+  R:
+  - T: "2100-01-01"
+    C: Dianomic
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: nerdAppLabs
+    F: "1900-01-01"
+  I:
+  - E: mohd.shariq!nerdapplabs.com
+    M: Mohd Shariq
     S: git
   B: 0
   U: Mohd Shariq
@@ -58736,8 +58736,11 @@ P:
   I:
   - E: muhammada!fast.au.fujitsu.com
     M: Muhammad Altaf
-    S: slack
-    U: maltaf
+    S: gerrit
+    U: malik-altaf
+  - E: muhammada!fast.au.fujitsu.com
+    M: Muhammad Altaf
+    S: git
   B: 0
   U: Muhammad Altaf
 - E: muhammada!fast.au.fujitsu.com
@@ -58748,11 +58751,8 @@ P:
   I:
   - E: muhammada!fast.au.fujitsu.com
     M: Muhammad Altaf
-    S: gerrit
-    U: malik-altaf
-  - E: muhammada!fast.au.fujitsu.com
-    M: Muhammad Altaf
-    S: git
+    S: slack
+    U: maltaf
   B: 0
   U: Muhammad Altaf
 - E: falakreyaz!gmail.com
@@ -59867,8 +59867,7 @@ P:
   I:
   - E: mg.jeong!gmail.com
     M: MJ
-    S: github
-    U: mgjeong
+    S: git
   B: 0
   U: Myeong Jeong
 - E: mg.jeong!gmail.com
@@ -59879,7 +59878,8 @@ P:
   I:
   - E: mg.jeong!gmail.com
     M: MJ
-    S: git
+    S: github
+    U: mgjeong
   B: 0
   U: Myeong Jeong
 - E: myeong.jeong!samsung.com
@@ -60224,6 +60224,19 @@ P:
 - C: KR
   E: myungjoo.ham!samsung.com
   R:
+  - T: "2099-01-01"
+    C: Samsung
+    F: "1970-01-01"
+  I:
+  - E: myungjoo.ham!samsung.com
+    M: MyungJoo Ham
+    S: github
+    U: myungjoo
+  B: 0
+  U: MyungJoo Ham
+- C: KR
+  E: myungjoo.ham!samsung.com
+  R:
   - T: "2100-01-01"
     C: Samsung
     F: "1900-01-01"
@@ -60234,19 +60247,6 @@ P:
   - E: myungjoo.ham!samsung.com
     M: MyungJoo Ham
     S: git
-  B: 0
-  U: MyungJoo Ham
-- C: KR
-  E: myungjoo.ham!samsung.com
-  R:
-  - T: "2099-01-01"
-    C: Samsung
-    F: "1970-01-01"
-  I:
-  - E: myungjoo.ham!samsung.com
-    M: MyungJoo Ham
-    S: github
-    U: myungjoo
   B: 0
   U: MyungJoo Ham
 - C: US

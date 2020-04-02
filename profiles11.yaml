@@ -14253,8 +14253,8 @@ P:
     F: "1970-01-01"
   I:
   - E: roaguiangel!gmail.com
-    M: roangel
-    S: git
+    S: github
+    U: roangel
   B: 0
   U: roangel
 - E: roaguiangel!gmail.com
@@ -14264,8 +14264,8 @@ P:
     F: "1970-01-01"
   I:
   - E: roaguiangel!gmail.com
-    S: github
-    U: roangel
+    M: roangel
+    S: git
   B: 0
   U: roangel
 - C: US
@@ -15266,23 +15266,6 @@ P:
     F: "1970-01-01"
   S: male
   I:
-  - E: lpapp!kde.org
-    M: Laszlo Papp
-    S: bugzilla
-    U: lpapp@kde.org
-  - E: lpapp!kde.org
-    S: bugzilla
-    U: lpapp@kde.org
-  B: 0
-  U: root@myhostname
-- C: GB
-  E: lpapp!kde.org
-  R:
-  - T: "2099-01-01"
-    C: HUBER+SUHNER Polatis
-    F: "1970-01-01"
-  S: male
-  I:
   - M: Laszlo Papp
     S: bugzilla
     U: lpapp
@@ -15298,6 +15281,23 @@ P:
   - E: lpapp!kde.org
     M: root@myhostname
     S: pipermail
+  B: 0
+  U: root@myhostname
+- C: GB
+  E: lpapp!kde.org
+  R:
+  - T: "2099-01-01"
+    C: HUBER+SUHNER Polatis
+    F: "1970-01-01"
+  S: male
+  I:
+  - E: lpapp!kde.org
+    M: Laszlo Papp
+    S: bugzilla
+    U: lpapp@kde.org
+  - E: lpapp!kde.org
+    S: bugzilla
+    U: lpapp@kde.org
   B: 0
   U: root@myhostname
 - C: US
@@ -26945,7 +26945,7 @@ P:
   I:
   - E: MT00367339!techmahindra.com
     M: unknown
-    S: git
+    S: gerrit
   B: 0
   U: unknown
 - E: MT00367339!techmahindra.com
@@ -26956,7 +26956,7 @@ P:
   I:
   - E: MT00367339!techmahindra.com
     M: unknown
-    S: gerrit
+    S: git
   B: 0
   U: unknown
 - E: SS00492019!TechMahindra.com
@@ -32400,13 +32400,12 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
+  - M: xianchao zhang
+    S: bugzilla
+    U: xianchao.zhang
   - E: xianchao.zhang!windriver.com
     M: xianchao zhang
-    S: bugzilla
-    U: xianchao.zhang@windriver.com
-  - E: xianchao.zhang!windriver.com
-    S: bugzilla
-    U: xianchao.zhang@windriver.com
+    S: pipermail
   B: 0
   U: xianchao zhang
 - E: xianchao.zhang!windriver.com
@@ -32415,12 +32414,13 @@ P:
     C: Wind River
     F: "1900-01-01"
   I:
-  - M: xianchao zhang
-    S: bugzilla
-    U: xianchao.zhang
   - E: xianchao.zhang!windriver.com
     M: xianchao zhang
-    S: pipermail
+    S: bugzilla
+    U: xianchao.zhang@windriver.com
+  - E: xianchao.zhang!windriver.com
+    S: bugzilla
+    U: xianchao.zhang@windriver.com
   B: 0
   U: xianchao zhang
 - E: caoc!cn.ibm.com
