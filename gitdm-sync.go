@@ -6,6 +6,7 @@ import (
 	"html"
 	"io"
 	"io/ioutil"
+	"math/rand"
 	"net/http"
 	"os"
 	"os/exec"
@@ -20,6 +21,10 @@ import (
 
 	"github.com/pkg/errors"
 	yaml "gopkg.in/yaml.v2"
+)
+
+const (
+	dateTimeFormat = "2006-01-02 15:04:05"
 )
 
 var (
@@ -58,6 +63,10 @@ func (e *enrollmentShortOutput) size() int {
 	return 48 + len([]byte(e.Organization))
 }
 
+func (e *enrollmentShortOutput) sortKey() string {
+	return e.Start + ":" + e.End + ":" + e.Organization
+}
+
 func (i *identityShortOutput) size() int {
 	b := 8 + len(i.Source)
 	if i.Name != nil {
@@ -70,6 +79,26 @@ func (i *identityShortOutput) size() int {
 		b += 8 + len([]byte(*i.Username))
 	}
 	return b
+}
+
+func (i *identityShortOutput) sortKey() (key string) {
+	key = i.Source
+	if i.Name != nil {
+		key += ":" + *(i.Name)
+	} else {
+		key += ":"
+	}
+	if i.Email != nil {
+		key += ":" + *(i.Email)
+	} else {
+		key += ":"
+	}
+	if i.Username != nil {
+		key += ":" + *(i.Username)
+	} else {
+		key += ":"
+	}
+	return
 }
 
 func (a *allOutput) size() int {
@@ -96,6 +125,45 @@ func (a *allOutput) size() int {
 		b += enrollment.size()
 	}
 	return b
+}
+
+func (a *allOutput) sortKey() (key string) {
+	if a.Name != nil {
+		key += ":" + *(a.Name)
+	} else {
+		key += ":"
+	}
+	if a.Email != nil {
+		key += ":" + *(a.Email)
+	} else {
+		key += ":"
+	}
+	if a.CountryCode != nil {
+		key += ":" + *(a.CountryCode)
+	} else {
+		key += ":"
+	}
+	if a.Gender != nil {
+		key += ":" + *(a.Gender)
+	} else {
+		key += ":"
+	}
+	if a.IsBot != nil {
+		if *(a.IsBot) == 0 {
+			key += ":0"
+		} else {
+			key += ":1"
+		}
+	} else {
+		key += ":"
+	}
+	for _, identity := range a.Identities {
+		key += ":" + identity.sortKey()
+	}
+	for _, enrollment := range a.Enrollments {
+		key += ":" + enrollment.sortKey()
+	}
+	return
 }
 
 func fatalOnError(err error, pnic bool) bool {
@@ -189,90 +257,27 @@ func requestInfo(r *http.Request) string {
 }
 
 func checkProfiles(profs []*allOutput) bool {
+	// xxx
+	rand.Seed(time.Now().UnixNano())
+	rand.Shuffle(len(profs), func(i, j int) { profs[i], profs[j] = profs[j], profs[i] })
 	fmt.Printf("sorting\n")
-	sort.SliceStable(profs, func(i, j int) bool {
-		iS := ""
-		if profs[i].Name != nil {
-			iS += ":" + *(profs[i].Name)
-		}
-		if profs[i].Email != nil {
-			iS += ":" + *(profs[i].Email)
-		}
-		if profs[i].CountryCode != nil {
-			iS += ":" + *(profs[i].CountryCode)
-		}
-		if profs[i].Gender != nil {
-			iS += ":" + *(profs[i].Gender)
-		}
-		if profs[i].IsBot != nil {
-			if *(profs[i].IsBot) == 0 {
-				iS += ":0"
-			} else {
-				iS += ":1"
-			}
-		}
-		jS := ""
-		if profs[j].Name != nil {
-			jS += ":" + *(profs[j].Name)
-		}
-		if profs[j].Email != nil {
-			jS += ":" + *(profs[j].Email)
-		}
-		if profs[j].CountryCode != nil {
-			jS += ":" + *(profs[j].CountryCode)
-		}
-		if profs[j].Gender != nil {
-			jS += ":" + *(profs[j].Gender)
-		}
-		if profs[j].IsBot != nil {
-			if *(profs[j].IsBot) == 0 {
-				jS += ":0"
-			} else {
-				jS += ":1"
-			}
-		}
-		return iS < jS
-	})
 	for k := range profs {
 		if len(profs[k].Enrollments) > 1 {
 			sort.SliceStable(profs[k].Enrollments, func(i, j int) bool {
 				rols := profs[k].Enrollments
-				if rols[i].Start == rols[j].Start {
-					if rols[i].End == rols[j].End {
-						return rols[i].Organization < rols[j].Organization
-					}
-					return rols[i].End < rols[j].End
-				}
-				return rols[i].Start < rols[j].Start
+				return rols[i].sortKey() < rols[j].sortKey()
 			})
 		}
 		if len(profs[k].Identities) > 1 {
 			sort.SliceStable(profs[k].Identities, func(i, j int) bool {
 				ids := profs[k].Identities
-				iS := ids[i].Source
-				if ids[i].Name != nil {
-					iS += ":" + *(ids[i].Name)
-				}
-				if ids[i].Email != nil {
-					iS += ":" + *(ids[i].Email)
-				}
-				if ids[i].Username != nil {
-					iS += ":" + *(ids[i].Username)
-				}
-				jS := ids[j].Source
-				if ids[j].Name != nil {
-					jS += ":" + *(ids[j].Name)
-				}
-				if ids[j].Email != nil {
-					jS += ":" + *(ids[j].Email)
-				}
-				if ids[j].Username != nil {
-					jS += ":" + *(ids[j].Username)
-				}
-				return iS < jS
+				return ids[i].sortKey() < ids[j].sortKey()
 			})
 		}
 	}
+	sort.SliceStable(profs, func(i, j int) bool {
+		return profs[i].sortKey() < profs[j].sortKey()
+	})
 	currSize := 0
 	profSize := 0
 	from := 0
@@ -350,7 +355,7 @@ func checkProfiles(profs []*allOutput) bool {
 			"git",
 			"commit",
 			"-sm",
-			fmt.Sprintf("%s gitdm-sync @ %s", os.Getenv("GITDM_GITHUB_USER"), time.Now().Format("2006-01-02 15:04:05")),
+			fmt.Sprintf("%s gitdm-sync @ %s", os.Getenv("GITDM_GITHUB_USER"), time.Now().Format(dateTimeFormat)),
 		},
 		nil,
 		1,
@@ -382,7 +387,7 @@ func checkProfiles(profs []*allOutput) bool {
 	return true
 }
 
-func syncFromDB() bool {
+func removeCurrentYAMLs() {
 	i := 1
 	for {
 		fmt.Printf("removing profiles%d.yaml\n", i)
@@ -392,6 +397,10 @@ func syncFromDB() bool {
 		}
 		i++
 	}
+}
+
+func syncFromDB() bool {
+	removeCurrentYAMLs()
 	method := "GET"
 	url := fmt.Sprintf("%s/v1/affiliation/all", os.Getenv("DA_API_URL"))
 	fmt.Printf("DA affiliation API request\n")
@@ -463,6 +472,7 @@ func syncRepo() bool {
 		profs = append(profs, all.Profiles...)
 		i++
 	}
+	removeCurrentYAMLs()
 	if !checkProfiles(profs) {
 		return false
 	}
