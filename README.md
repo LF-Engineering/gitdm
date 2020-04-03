@@ -66,6 +66,7 @@ To deploy on Kubernetes
 - Eventually adjust Helm chart to your needs, including `setup.sh` and `delete.sh` shell scripts.
 - Run from repository root directory (test env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.test.secret`" ./push.sh ``.
 - Run from repository root directory (prod env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.prod.secret`" PR=4 ./pr.sh ``.
+- Run from repository root directory (prod env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.prod.secret`" ./sync-from-db.sh ``.
 
 # GitHub actions
 
