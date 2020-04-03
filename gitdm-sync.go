@@ -179,13 +179,17 @@ func mPrintf(format string, args ...interface{}) (n int, err error) {
 	return
 }
 
+func timeStampStr() string {
+	return time.Now().Format(dateTimeFormatMillis) + ": "
+}
+
 func fatalOnError(err error, pnic bool) bool {
 	if err != nil {
 		tm := time.Now()
 		mPrintf("Error(time=%+v):\nError: '%s'\nStacktrace:\n%s\n", tm, err.Error(), string(debug.Stack()))
 		fmt.Fprintf(os.Stderr, "Error(time=%+v):\nError: '%s'\nStacktrace:\n", tm, err.Error())
 		gw.WriteHeader(http.StatusBadRequest)
-		_, _ = io.WriteString(gw, err.Error()+"\n")
+		_, _ = io.WriteString(gw, timeStampStr()+err.Error()+"\n")
 		if pnic {
 			panic("stacktrace")
 		}
