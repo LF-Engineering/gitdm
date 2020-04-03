@@ -23,7 +23,8 @@ import (
 )
 
 const (
-	dateTimeFormat = "2006-01-02 15:04:05"
+	dateTimeFormat       = "2006-01-02 15:04:05"
+	dateTimeFormatMillis = "2006-01-02 15:04:05.999"
 )
 
 var (
@@ -172,10 +173,16 @@ func (a *allOutput) sortKey() (key string) {
 	return
 }
 
+func mPrintf(format string, args ...interface{}) (n int, err error) {
+	now := time.Now()
+	n, err = fmt.Printf("%s", fmt.Sprintf("%s: "+format, append([]interface{}{now.Format(dateTimeFormatMillis)}, args...)...))
+	return
+}
+
 func fatalOnError(err error, pnic bool) bool {
 	if err != nil {
 		tm := time.Now()
-		fmt.Printf("Error(time=%+v):\nError: '%s'\nStacktrace:\n%s\n", tm, err.Error(), string(debug.Stack()))
+		mPrintf("Error(time=%+v):\nError: '%s'\nStacktrace:\n%s\n", tm, err.Error(), string(debug.Stack()))
 		fmt.Fprintf(os.Stderr, "Error(time=%+v):\nError: '%s'\nStacktrace:\n", tm, err.Error())
 		gw.WriteHeader(http.StatusBadRequest)
 		_, _ = io.WriteString(gw, err.Error()+"\n")
@@ -194,9 +201,9 @@ func fatalf(pnic bool, f string, a ...interface{}) {
 func execCommand(cmdAndArgs []string, env map[string]string, dbg int, allowedExitCodes []int) (string, bool) {
 	if dbg > 0 {
 		if len(env) > 0 {
-			fmt.Printf("%+v %s\n", env, strings.Join(cmdAndArgs, " "))
+			mPrintf("%+v %s\n", env, strings.Join(cmdAndArgs, " "))
 		} else {
-			fmt.Printf("%s\n", strings.Join(cmdAndArgs, " "))
+			mPrintf("%s\n", strings.Join(cmdAndArgs, " "))
 		}
 	}
 	command := cmdAndArgs[0]
@@ -223,7 +230,7 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int, allowedExi
 		for _, allowed := range allowedExitCodes {
 			if err.Error() == fmt.Sprintf("exit status %d", allowed) {
 				if dbg > 0 {
-					fmt.Printf("exit code %d but this is allowed\n", allowed)
+					mPrintf("exit code %d but this is allowed\n", allowed)
 				}
 				err = nil
 				break
@@ -233,8 +240,8 @@ func execCommand(cmdAndArgs []string, env map[string]string, dbg int, allowedExi
 	if err != nil || dbg > 1 {
 		outStr := stdOut.String()
 		errStr := stdErr.String()
-		fmt.Printf("STDOUT:\n%v\n", outStr)
-		fmt.Printf("STDERR:\n%v\n", errStr)
+		mPrintf("STDOUT:\n%v\n", outStr)
+		mPrintf("STDERR:\n%v\n", errStr)
 		if err != nil {
 			err = fmt.Errorf("%+v\nstdout:\n%s\nstderr:\n%s", err, outStr, errStr)
 		}
@@ -276,19 +283,19 @@ func syncProfilesToDB(profsYAML, profsDB []*allOutput) bool {
 	for keyDB := range mDB {
 		_, ok := mYAML[keyDB]
 		if !ok {
-			fmt.Printf("DB key '%s' missing in YAML\n", keyDB)
+			mPrintf("DB key '%s' missing in YAML\n", keyDB)
 			delDB = append(delDB, mDB[keyDB])
 		}
 	}
 	for keyYAML := range mYAML {
 		_, ok := mDB[keyYAML]
 		if !ok {
-			fmt.Printf("YAML key '%s' missing in DB\n", keyYAML)
+			mPrintf("YAML key '%s' missing in DB\n", keyYAML)
 			addDB = append(addDB, mYAML[keyYAML])
 		}
 	}
 	if len(addDB) == 0 && len(delDB) == 0 {
-		fmt.Printf("NO DB changes needed\n")
+		mPrintf("NO DB changes needed\n")
 		return true
 	}
 	if !updateDB(addDB, delDB) {
@@ -300,7 +307,7 @@ func syncProfilesToDB(profsYAML, profsDB []*allOutput) bool {
 func checkProfiles(profs []*allOutput) bool {
 	//rand.Seed(time.Now().UnixNano())
 	//rand.Shuffle(len(profs), func(i, j int) { profs[i], profs[j] = profs[j], profs[i] })
-	fmt.Printf("sorting\n")
+	mPrintf("sorting\n")
 	for k := range profs {
 		if len(profs[k].Enrollments) > 1 {
 			sort.SliceStable(profs[k].Enrollments, func(i, j int) bool {
@@ -323,7 +330,7 @@ func checkProfiles(profs []*allOutput) bool {
 	from := 0
 	maxSize := (1 << 20) - 8
 	ranges := [][2]int{}
-	fmt.Printf("fitting %d profs in files no larger than %d bytes\n", len(profs), maxSize)
+	mPrintf("fitting %d profs in files no larger than %d bytes\n", len(profs), maxSize)
 	for i, prof := range profs {
 		profSize = prof.size()
 		if currSize+profSize > maxSize {
@@ -337,11 +344,11 @@ func checkProfiles(profs []*allOutput) bool {
 	if from != len(profs)-1 {
 		ranges = append(ranges, [2]int{from, len(profs)})
 	}
-	fmt.Printf("data ranges: %+v\n", ranges)
+	mPrintf("data ranges: %+v\n", ranges)
 	for i, rng := range ranges {
 		var all allArrayOutput
 		all.Profiles = profs[rng[0]:rng[1]]
-		fmt.Printf("writting profiles%d.yaml [%d-%d]\n", i+1, rng[0], rng[1])
+		mPrintf("writting profiles%d.yaml [%d-%d]\n", i+1, rng[0], rng[1])
 		data, err := yaml.Marshal(&all)
 		if fatalOnError(err, false) {
 			return false
@@ -350,46 +357,46 @@ func checkProfiles(profs []*allOutput) bool {
 			return false
 		}
 	}
-	fmt.Printf("written %d profile files\n", len(ranges))
-	fmt.Printf("git status *.yaml\n")
+	mPrintf("written %d profile files\n", len(ranges))
+	mPrintf("git status *.yaml\n")
 	status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1, []int{})
 	if !ok {
 		return false
 	}
 	if strings.Contains(status, "nothing to commit, working tree clean") {
-		fmt.Printf("Profile YAML files don't need updates\n")
+		mPrintf("Profile YAML files don't need updates\n")
 		return true
 	}
-	fmt.Printf("git add *.yaml\n")
+	mPrintf("git add *.yaml\n")
 	_, ok = execCommand([]string{"git", "add", "*.yaml"}, nil, 1, []int{})
 	if !ok {
 		return false
 	}
-	fmt.Printf("git config user.name get\n")
+	mPrintf("git config user.name get\n")
 	cfg, ok := execCommand([]string{"git", "config", "--global", "user.name"}, nil, 1, []int{1})
 	if !ok {
 		return false
 	}
 	if strings.TrimSpace(cfg) == "" {
-		fmt.Printf("git config user.name set\n")
+		mPrintf("git config user.name set\n")
 		_, ok = execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil, 0, []int{})
 		if !ok {
 			return false
 		}
 	}
-	fmt.Printf("git config user.email get\n")
+	mPrintf("git config user.email get\n")
 	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email"}, nil, 1, []int{1})
 	if !ok {
 		return false
 	}
 	if strings.TrimSpace(cfg) == "" {
-		fmt.Printf("git config user.email set\n")
+		mPrintf("git config user.email set\n")
 		_, ok = execCommand([]string{"git", "config", "--global", "user.email", os.Getenv("GITDM_GIT_EMAIL")}, nil, 0, []int{})
 		if !ok {
 			return false
 		}
 	}
-	fmt.Printf("git commit\n")
+	mPrintf("git commit\n")
 	_, ok = execCommand(
 		[]string{
 			"git",
@@ -404,7 +411,7 @@ func checkProfiles(profs []*allOutput) bool {
 	if !ok {
 		return false
 	}
-	fmt.Printf("git push\n")
+	mPrintf("git push\n")
 	_, ok = execCommand(
 		[]string{
 			"git",
@@ -430,7 +437,7 @@ func checkProfiles(profs []*allOutput) bool {
 func removeCurrentYAMLs() {
 	i := 1
 	for {
-		fmt.Printf("removing profiles%d.yaml\n", i)
+		mPrintf("removing profiles%d.yaml\n", i)
 		err := os.Remove(fmt.Sprintf("profiles%d.yaml", i))
 		if err != nil {
 			break
@@ -442,7 +449,7 @@ func removeCurrentYAMLs() {
 func getProfilesFromDB() (profs []*allOutput, ok bool) {
 	method := "GET"
 	url := fmt.Sprintf("%s/v1/affiliation/all", os.Getenv("DA_API_URL"))
-	fmt.Printf("DA affiliation API 'all' request\n")
+	mPrintf("DA affiliation API 'all' request\n")
 	req, err := http.NewRequest(method, os.ExpandEnv(url), nil)
 	if err != nil {
 		err = fmt.Errorf("new request error: %+v for %s url: %s\n", err, method, url)
@@ -500,7 +507,7 @@ func updateDB(addDB, delDB []*allOutput) (ok bool) {
 	payloadBody := bytes.NewReader(payloadBytes)
 	method := "POST"
 	url := fmt.Sprintf("%s/v1/affiliation/bulk_update", os.Getenv("DA_API_URL"))
-	fmt.Printf("DA affiliation API 'bulk_update' request\n")
+	mPrintf("DA affiliation API 'bulk_update' request\n")
 	req, err := http.NewRequest(method, os.ExpandEnv(url), payloadBody)
 	if err != nil {
 		err = fmt.Errorf("new request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
@@ -541,7 +548,7 @@ func updateDB(addDB, delDB []*allOutput) (ok bool) {
 		fatalOnError(err, false)
 		return
 	}
-	fmt.Printf("API result: %s\n", payload.Text)
+	mPrintf("API result: %s\n", payload.Text)
 	ok = true
 	return
 }
@@ -549,13 +556,13 @@ func updateDB(addDB, delDB []*allOutput) (ok bool) {
 func getProfilesFromYAMLs() (profs []*allOutput, ok bool) {
 	i := 1
 	for {
-		fmt.Printf("reading profiles%d.yaml\n", i)
+		mPrintf("reading profiles%d.yaml\n", i)
 		data, err := ioutil.ReadFile(fmt.Sprintf("profiles%d.yaml", i))
 		if err != nil {
 			break
 		}
 		var all allArrayOutput
-		fmt.Printf("parse profiles%d.yaml\n", i)
+		mPrintf("parse profiles%d.yaml\n", i)
 		err = yaml.Unmarshal(data, &all)
 		if err != nil {
 			err = errors.Wrap(err, fmt.Sprintf("profiles%d.yaml", i))
@@ -579,7 +586,7 @@ func syncFromDB() bool {
 	if !checkProfiles(profs) {
 		return false
 	}
-	fmt.Printf("processing repo finished\n")
+	mPrintf("processing repo finished\n")
 	return true
 }
 
@@ -600,20 +607,20 @@ func syncRepoAndUpdateDB() bool {
 	if !ok {
 		return false
 	}
-	fmt.Printf("processing repo finished\n")
+	mPrintf("processing repo finished\n")
 	return true
 }
 
 func checkRepo() bool {
 	i := 1
 	for {
-		fmt.Printf("reading profiles%d.yaml\n", i)
+		mPrintf("reading profiles%d.yaml\n", i)
 		data, err := ioutil.ReadFile(fmt.Sprintf("profiles%d.yaml", i))
 		if err != nil {
 			break
 		}
 		var all allArrayOutput
-		fmt.Printf("parse profiles%d.yaml\n", i)
+		mPrintf("parse profiles%d.yaml\n", i)
 		err = yaml.Unmarshal(data, &all)
 		if err != nil {
 			err = errors.Wrap(err, fmt.Sprintf("profiles%d.yaml", i))
@@ -623,21 +630,21 @@ func checkRepo() bool {
 		}
 		i++
 	}
-	fmt.Printf("checking repo finished\n")
+	mPrintf("checking repo finished\n")
 	return true
 }
 
 func handlePR(w http.ResponseWriter, req *http.Request) {
 	info := requestInfo(req)
-	fmt.Printf("Request: %s\n", info)
+	mPrintf("Request: %s\n", info)
 	var err error
 	defer func() {
-		fmt.Printf("Request(exit): %s err:%v\n", info, err)
+		mPrintf("Request(exit): %s err:%v\n", info, err)
 	}()
-	fmt.Printf("lock mutex\n")
+	mPrintf("lock mutex\n")
 	gMtx.Lock()
 	defer func() {
-		fmt.Printf("unlock mutex\n")
+		mPrintf("unlock mutex\n")
 		gMtx.Unlock()
 	}()
 	gw = w
@@ -653,14 +660,14 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 		fatalf(false, "no PR number specified in path:%s:%v", path, err)
 		return
 	}
-	fmt.Printf("checking PR %d\n", prNumber)
-	fmt.Printf("Cleanup repo before\n")
+	mPrintf("checking PR %d\n", prNumber)
+	mPrintf("Cleanup repo before\n")
 	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	defer func() {
-		fmt.Printf("Cleanup repo after\n")
+		mPrintf("Cleanup repo after\n")
 		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	}()
-	fmt.Printf("git clone\n")
+	mPrintf("git clone\n")
 	cmd := []string{
 		"git",
 		"clone",
@@ -673,25 +680,25 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 	}
 	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
 	execCommand(cmd, env, 0, []int{})
-	fmt.Printf("get wd\n")
+	mPrintf("get wd\n")
 	wd, err := os.Getwd()
 	if fatalOnError(err, false) {
 		return
 	}
-	fmt.Printf("chdir gitdm\n")
+	mPrintf("chdir gitdm\n")
 	if fatalOnError(os.Chdir("gitdm"), false) {
 		return
 	}
 	defer func() {
-		fmt.Printf("chdir back to %s\n", wd)
+		mPrintf("chdir back to %s\n", wd)
 		_ = os.Chdir(wd)
 	}()
-	fmt.Printf("git fetch origin\n")
+	mPrintf("git fetch origin\n")
 	_, ok := execCommand([]string{"git", "fetch", "origin", fmt.Sprintf("pull/%d/head:gitdm-sync-%d", prNumber, prNumber)}, nil, 1, []int{})
 	if !ok {
 		return
 	}
-	fmt.Printf("git checkout\n")
+	mPrintf("git checkout\n")
 	_, ok = execCommand([]string{"git", "checkout", fmt.Sprintf("gitdm-sync-%d", prNumber)}, nil, 1, []int{})
 	if !ok {
 		return
@@ -699,7 +706,7 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 	defer func() {
 		_, _ = execCommand([]string{"git", "checkout", "master"}, nil, 1, []int{})
 	}()
-	fmt.Printf("check repo PR %d\n", prNumber)
+	mPrintf("check repo PR %d\n", prNumber)
 	if !checkRepo() {
 		return
 	}
@@ -709,25 +716,25 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 
 func executeInCloned(w http.ResponseWriter, req *http.Request, fn func() bool, msg [2]string) {
 	info := requestInfo(req)
-	fmt.Printf("Request: %s\n", info)
+	mPrintf("Request: %s\n", info)
 	var err error
 	defer func() {
-		fmt.Printf("Request(exit): %s err:%v\n", info, err)
+		mPrintf("Request(exit): %s err:%v\n", info, err)
 	}()
-	fmt.Printf("lock mutex\n")
+	mPrintf("lock mutex\n")
 	gMtx.Lock()
 	defer func() {
-		fmt.Printf("unlock mutex\n")
+		mPrintf("unlock mutex\n")
 		gMtx.Unlock()
 	}()
 	gw = w
-	fmt.Printf("Cleanup repo before\n")
+	mPrintf("Cleanup repo before\n")
 	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	defer func() {
-		fmt.Printf("Cleanup repo after\n")
+		mPrintf("Cleanup repo after\n")
 		execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	}()
-	fmt.Printf("git clone\n")
+	mPrintf("git clone\n")
 	cmd := []string{
 		"git",
 		"clone",
@@ -740,20 +747,20 @@ func executeInCloned(w http.ResponseWriter, req *http.Request, fn func() bool, m
 	}
 	env := map[string]string{"GIT_TERMINAL_PROMPT": "0"}
 	execCommand(cmd, env, 0, []int{})
-	fmt.Printf("get wd\n")
+	mPrintf("get wd\n")
 	wd, err := os.Getwd()
 	if fatalOnError(err, false) {
 		return
 	}
-	fmt.Printf("chdir gitdm\n")
+	mPrintf("chdir gitdm\n")
 	if fatalOnError(os.Chdir("gitdm"), false) {
 		return
 	}
 	defer func() {
-		fmt.Printf("chdir back to %s\n", wd)
+		mPrintf("chdir back to %s\n", wd)
 		_ = os.Chdir(wd)
 	}()
-	fmt.Printf(msg[0] + "\n")
+	mPrintf(msg[0] + "\n")
 	if !fn() {
 		return
 	}
@@ -786,14 +793,14 @@ func checkEnv() {
 }
 
 func serve() {
-	fmt.Printf("Starting sync server\n")
+	mPrintf("Starting sync server\n")
 	checkEnv()
 	sigs := make(chan os.Signal, 1)
 	signal.Notify(sigs, syscall.SIGINT, syscall.SIGUSR1, syscall.SIGALRM)
 	go func() {
 		for {
 			sig := <-sigs
-			fmt.Printf("Exiting due to signal %v\n", sig)
+			mPrintf("Exiting due to signal %v\n", sig)
 			os.Exit(1)
 		}
 	}()

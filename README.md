@@ -25,7 +25,7 @@ P:                                          # 'profiles' (profile holds possible
   R:                                        # profile 'enrollments' list, at lease one enrollment must be present
   - T: "2006-03-01"                         # enrollment 'date to' - required
     C: Independent                          # enrollment 'organization' - required
-    F: "1970-01-01"                         # enrollment 'date from' - required
+    F: "1900-01-01"                         # enrollment 'date from' - required
 (...)
   S: male                                   # profile's 'sex'/'gender'
   I:                                        # profiles 'identities' list (each profile must have source liek git/Jira//Slack), at least one identity must be present
