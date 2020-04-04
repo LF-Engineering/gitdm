@@ -308,7 +308,7 @@ func syncProfilesToDB(profsYAML, profsDB []*allOutput) bool {
 	return true
 }
 
-func checkProfiles(profs []*allOutput, checkLastCommit bool) bool {
+func checkProfiles(profs []*allOutput, checkLastCommit bool) (bool, bool) {
 	//rand.Seed(time.Now().UnixNano())
 	//rand.Shuffle(len(profs), func(i, j int) { profs[i], profs[j] = profs[j], profs[i] })
 	mPrintf("sorting\n")
@@ -355,10 +355,10 @@ func checkProfiles(profs []*allOutput, checkLastCommit bool) bool {
 		mPrintf("writting profiles%d.yaml [%d-%d]\n", i+1, rng[0], rng[1])
 		data, err := yaml.Marshal(&all)
 		if fatalOnError(err, false) {
-			return false
+			return false, false
 		}
 		if fatalOnError(ioutil.WriteFile(fmt.Sprintf("profiles%d.yaml", i+1), data, 0644), false) {
-			return false
+			return false, false
 		}
 	}
 	mPrintf("written %d profile files\n", len(ranges))
@@ -367,49 +367,51 @@ func checkProfiles(profs []*allOutput, checkLastCommit bool) bool {
 		mPrintf("git log -1\n")
 		status, ok := execCommand([]string{"git", "log", "-1", "--pretty='%s'"}, nil, 1, []int{})
 		if !ok {
-			return false
+			return false, false
 		}
 		if strings.Contains(status, "[no-callback]") {
 			mPrintf("no-callback flag is set, returning\n")
-			return true
+			return true, true
 		}
+	} else {
+		mPrintf("no-callback flag check is off, not checking\n")
 	}
 	mPrintf("git status *.yaml\n")
 	status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1, []int{})
 	if !ok {
-		return false
+		return false, false
 	}
 	if strings.Contains(status, "nothing to commit, working tree clean") {
 		mPrintf("Profile YAML files don't need updates\n")
-		return true
+		return true, false
 	}
 	mPrintf("git add *.yaml\n")
 	_, ok = execCommand([]string{"git", "add", "*.yaml"}, nil, 1, []int{})
 	if !ok {
-		return false
+		return false, false
 	}
 	mPrintf("git config user.name get\n")
 	cfg, ok := execCommand([]string{"git", "config", "--global", "user.name"}, nil, 1, []int{1})
 	if !ok {
-		return false
+		return false, false
 	}
 	if strings.TrimSpace(cfg) == "" {
 		mPrintf("git config user.name set\n")
 		_, ok = execCommand([]string{"git", "config", "--global", "user.name", os.Getenv("GITDM_GIT_USER")}, nil, 0, []int{})
 		if !ok {
-			return false
+			return false, false
 		}
 	}
 	mPrintf("git config user.email get\n")
 	cfg, ok = execCommand([]string{"git", "config", "--global", "user.email"}, nil, 1, []int{1})
 	if !ok {
-		return false
+		return false, false
 	}
 	if strings.TrimSpace(cfg) == "" {
 		mPrintf("git config user.email set\n")
 		_, ok = execCommand([]string{"git", "config", "--global", "user.email", os.Getenv("GITDM_GIT_EMAIL")}, nil, 0, []int{})
 		if !ok {
-			return false
+			return false, false
 		}
 	}
 	mPrintf("git commit\n")
@@ -425,7 +427,7 @@ func checkProfiles(profs []*allOutput, checkLastCommit bool) bool {
 		[]int{},
 	)
 	if !ok {
-		return false
+		return false, false
 	}
 	mPrintf("git push\n")
 	_, ok = execCommand(
@@ -445,9 +447,9 @@ func checkProfiles(profs []*allOutput, checkLastCommit bool) bool {
 		[]int{},
 	)
 	if !ok {
-		return false
+		return false, false
 	}
-	return true
+	return true, false
 }
 
 func removeCurrentYAMLs() {
@@ -599,7 +601,8 @@ func syncFromDB() bool {
 		return false
 	}
 	removeCurrentYAMLs()
-	if !checkProfiles(profs, false) {
+	ok, _ = checkProfiles(profs, false)
+	if !ok {
 		return false
 	}
 	mPrintf("processing repo finished\n")
@@ -612,8 +615,12 @@ func syncRepoAndUpdateDB() bool {
 		return false
 	}
 	removeCurrentYAMLs()
-	if !checkProfiles(profsYAML, true) {
+	ok, flag := checkProfiles(profsYAML, true)
+	if !ok {
 		return false
+	}
+	if flag {
+		return true
 	}
 	profsDB, ok := getProfilesFromDB()
 	if !ok {
