@@ -363,7 +363,8 @@ func checkProfiles(profs []*allOutput, checkLastCommit bool) bool {
 	}
 	mPrintf("written %d profile files\n", len(ranges))
 	if checkLastCommit {
-		mPrintf("checking last commit message for [no-callback] flag\ngit log -1\n")
+		mPrintf("checking last commit message for [no-callback] flag\n")
+		mPrintf("git log -1\n")
 		status, ok := execCommand([]string{"git", "log", "-1", "--pretty='%s'"}, nil, 1, []int{})
 		if !ok {
 			return false
