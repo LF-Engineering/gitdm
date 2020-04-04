@@ -373,6 +373,7 @@ func checkProfiles(profs []*allOutput, checkLastCommit bool) (bool, bool) {
 			mPrintf("no-callback flag is set, returning\n")
 			return true, true
 		}
+		mPrintf("no-callback flag is not set, continuying\n")
 	} else {
 		mPrintf("no-callback flag check is off, not checking\n")
 	}
