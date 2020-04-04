@@ -308,7 +308,7 @@ func syncProfilesToDB(profsYAML, profsDB []*allOutput) bool {
 	return true
 }
 
-func checkProfiles(profs []*allOutput) bool {
+func checkProfiles(profs []*allOutput, checkLastCommit bool) bool {
 	//rand.Seed(time.Now().UnixNano())
 	//rand.Shuffle(len(profs), func(i, j int) { profs[i], profs[j] = profs[j], profs[i] })
 	mPrintf("sorting\n")
@@ -362,6 +362,17 @@ func checkProfiles(profs []*allOutput) bool {
 		}
 	}
 	mPrintf("written %d profile files\n", len(ranges))
+	if checkLastCommit {
+		mPrintf("checking last commit message for [no-callback] flag\ngit log -1\n")
+		status, ok := execCommand([]string{"git", "log", "-1", "--pretty='%s'"}, nil, 1, []int{})
+		if !ok {
+			return false
+		}
+		if strings.Contains(status, "[no-callback]") {
+			mPrintf("no-callback flag is set, returning\n")
+			return true
+		}
+	}
 	mPrintf("git status *.yaml\n")
 	status, ok := execCommand([]string{"git", "status", "*.yaml"}, nil, 1, []int{})
 	if !ok {
@@ -406,7 +417,7 @@ func checkProfiles(profs []*allOutput) bool {
 			"git",
 			"commit",
 			"-sm",
-			fmt.Sprintf("%s gitdm-sync @ %s", os.Getenv("GITDM_GITHUB_USER"), time.Now().Format(dateTimeFormat)),
+			fmt.Sprintf("%s gitdm-sync @ %s [no-callback]", os.Getenv("GITDM_GITHUB_USER"), time.Now().Format(dateTimeFormat)),
 		},
 		nil,
 		1,
@@ -587,7 +598,7 @@ func syncFromDB() bool {
 		return false
 	}
 	removeCurrentYAMLs()
-	if !checkProfiles(profs) {
+	if !checkProfiles(profs, false) {
 		return false
 	}
 	mPrintf("processing repo finished\n")
@@ -600,7 +611,7 @@ func syncRepoAndUpdateDB() bool {
 		return false
 	}
 	removeCurrentYAMLs()
-	if !checkProfiles(profsYAML) {
+	if !checkProfiles(profsYAML, true) {
 		return false
 	}
 	profsDB, ok := getProfilesFromDB()
