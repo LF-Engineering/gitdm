@@ -29644,6 +29644,23 @@ P:
     U: edgarleme23
   B: 0
   U: edgarleme23
+- E: collab-it+edgex!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+  I:
+  - E: collab-it+edgex-jenkins!linuxfoundation.org
+    M: Jenkins for EdgeX Foundry
+    S: git
+  - E: collab-it+edgex!linuxfoundation.org
+    M: edgex-jenkins
+    S: git
+  - M: Jenkins for EdgeX Foundry
+    S: github
+    U: edgex-jenkins
+  B: 0
+  U: edgex-jenkins
 - C: CN
   E: xiang.edison!gmail.com
   R:
@@ -62997,26 +63014,3 @@ P:
     S: git
   B: 0
   U: philipoe
-- E: philippe.niger!orange.com
-  R:
-  - T: "2100-01-01"
-    C: Orange
-    F: "1900-01-01"
-  I:
-  - E: philippe.niger!orange.com
-    M: philippe niger
-    S: gerrit
-    U: niger
-  B: 0
-  U: philippe niger
-- E: philippe.lochon!orange.com
-  R:
-  - T: "2100-01-01"
-    C: Orange
-    F: "1900-01-01"
-  I:
-  - E: philippe.lochon!orange.com
-    M: philippe.lochon
-    S: groupsio
-  B: 0
-  U: philippe.lochon
