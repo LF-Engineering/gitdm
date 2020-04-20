@@ -1,4 +1,39 @@
 P:
+- R:
+  - T: "2015-01-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2015-04-01"
+    C: Square
+    F: "2015-01-01"
+  - T: "2015-06-01"
+    C: Independent
+    F: "2015-04-01"
+  - T: "2015-08-01"
+    C: Facebook
+    F: "2015-06-01"
+  - T: "2015-12-01"
+    C: Independent
+    F: "2015-08-01"
+  - T: "2017-12-01"
+    C: Docker
+    F: "2015-12-01"
+  - T: "2019-09-01"
+    C: Anchorage
+    F: "2017-12-01"
+  - T: "2100-01-01"
+    C: Independent
+    F: "2017-12-01"
+  - T: "2100-01-01"
+    C: Facebook
+    F: "2019-09-01"
+  S: male
+  I:
+  - M: Riyaz Faizullabhoy
+    S: github
+    U: riyazdf
+  B: 0
+  U: Riyaz Faizullabhoy
 - E: riyaz.faizullabhoy!docker.com
   R:
   - T: "2015-01-01"
@@ -60777,54 +60812,3 @@ P:
     S: git
   B: 0
   U: Sunil Dutt
-- E: usdutt!qti.qualcomm.com
-  R:
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-  I:
-  - E: usdutt!qti.qualcomm.com
-    M: Sunil Dutt
-    S: git
-  B: 0
-  U: Sunil Dutt
-- E: sgoutham!cavium.com
-  R:
-  - T: "2100-01-01"
-    C: Cavium
-    F: "1900-01-01"
-  I:
-  - E: sgoutham!cavium.com
-    M: Sunil Goutham
-    S: git
-  B: 0
-  U: Sunil Goutham
-- E: sgoutham!marvell.com
-  R:
-  - T: "2100-01-01"
-    C: Marvell
-    F: "1900-01-01"
-  I:
-  - E: sgoutham!marvell.com
-    M: Sunil Goutham
-    S: git
-  B: 0
-  U: Sunil Goutham
-- C: US
-  R:
-  - T: "2014-05-01"
-    C: Google
-    F: "1900-01-01"
-  - T: "2017-03-01"
-    C: BessemerVenture
-    F: "2014-05-01"
-  - T: "2100-01-01"
-    C: Scytale
-    F: "2017-03-01"
-  S: male
-  I:
-  - M: Sunil James
-    S: github
-    U: suniljames
-  B: 0
-  U: Sunil James
