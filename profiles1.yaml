@@ -25382,6 +25382,15 @@ P:
   - T: "2100-01-01"
     C: Bell Canada
     F: "1900-01-01"
+  - T: "2017-02-01"
+    C: Kontron Communications
+    F: "2015-02-01"
+  - T: "2017-02-01"
+    C: OpenDaylight
+    F: "2015-02-01"
+  - T: "2019-09-01"
+    C: ONAP
+    F: "2017-02-01"
   I:
   - M: Alexis de Talhouet
     S: confluence
@@ -47427,38 +47436,39 @@ P:
     S: git
   B: 0
   U: Anton Ilin
-- R:
-  - T: "2100-01-01"
-    C: Brocade
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Anton Ivanov
-    S: github
-    U: kot-begemot-uk
-  B: 0
-  U: Anton Ivanov
-- E: aivanov!brocade.com
+- E: anton.ivanov!cambridgegreys.com
   R:
   - T: "2100-01-01"
     C: Brocade
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Cisco
     F: "1900-01-01"
   S: male
   I:
   - E: aivanov!brocade.com
     M: Anton Ivanov
     S: git
-  B: 0
-  U: Anton Ivanov
-- E: antivano!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
-  I:
+  - E: aivanov!kot-begemot.co.uk
+    M: Anton Ivanov
+    S: git
   - E: antivano!cisco.com
     M: Anton Ivanov
     S: git
+  - E: anton.ivanov!cambridgegreys.com
+    M: Anton Ivanov
+    S: git
+  - M: Anton Ivanov
+    S: github
+    U: kot-begemot-uk
+  - E: aivanov!brocade.com
+    M: Anton Ivanov
+    S: jira
+    U: aivanov@brocade.com
+  - E: anton.ivanov!cambridgegreys.com
+    M: Anton Ivanov
+    S: jira
+    U: aivanov
   B: 0
   U: Anton Ivanov
 - R:
@@ -60802,27 +60812,6 @@ P:
   S: male
   I:
   - E: bart.vanassche!sandisk.com
-    M: Bart Van Assche
-    S: git
-  B: 0
-  U: Bart Van Assche
-- E: bart.vanassche!wdc.com
-  R:
-  - T: "2014-07-01"
-    C: Fusion-io
-    F: "1900-01-01"
-  - T: "2016-10-01"
-    C: SanDisk
-    F: "2014-07-01"
-  - T: "2018-08-01"
-    C: Western Digital
-    F: "2016-10-01"
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-08-01"
-  S: male
-  I:
-  - E: bart.vanassche!wdc.com
     M: Bart Van Assche
     S: git
   B: 0
