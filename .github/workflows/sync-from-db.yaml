@@ -2,7 +2,7 @@
 name: Auto Sync from SH DB hourly
 on:
   schedule:
-  - cron:  '0 * * * *'
+  - cron:  '15 */3 * * *'
 jobs:
   sync:
     runs-on: ubuntu-latest
