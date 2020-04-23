@@ -70,5 +70,5 @@ To deploy on Kubernetes
 
 # GitHub actions
 
-- Add you sync URL (for example AWS ELB of gitdm service stored in `helm/gitdm/secrets/SYNC_URL.prod.secret`) in GitHub repository (Settings -> Secrets -> New secret: `SYNC_URL`).
+- Add your sync URL (for example AWS ELB of gitdm service stored in `helm/gitdm/secrets/SYNC_URL.prod.secret`) in GitHub repository (Settings -> Secrets -> New secret: `SYNC_URL`).
 - Configre actions in `.github/workflows/`, for example: `.github/workflows/push.yaml`, `.github/workflows/pr.yaml`, `.github/workflows/sync-from-db.yaml`.
