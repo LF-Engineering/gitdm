@@ -188,8 +188,10 @@ func fatalOnError(err error, pnic bool) bool {
 		tm := time.Now()
 		mPrintf("Error(time=%+v):\nError: '%s'\nStacktrace:\n%s\n", tm, err.Error(), string(debug.Stack()))
 		fmt.Fprintf(os.Stderr, "Error(time=%+v):\nError: '%s'\nStacktrace:\n", tm, err.Error())
-		gw.WriteHeader(http.StatusBadRequest)
-		_, _ = io.WriteString(gw, timeStampStr()+err.Error()+"\n")
+		if gw != nil {
+			gw.WriteHeader(http.StatusBadRequest)
+			_, _ = io.WriteString(gw, timeStampStr()+err.Error()+"\n")
+		}
 		if pnic {
 			panic("stacktrace")
 		}
