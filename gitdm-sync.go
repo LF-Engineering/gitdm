@@ -299,7 +299,7 @@ func syncProfilesToDB(profsYAML, profsDB []*allOutput) bool {
 		}
 	}
 	if len(addDB) == 0 && len(delDB) == 0 {
-		mPrintf("NO DB changes needed\n")
+		mPrintf("No DB changes needed\n")
 		return true
 	}
 	if !updateDB(addDB, delDB) {
