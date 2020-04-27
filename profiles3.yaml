@@ -3024,31 +3024,65 @@ P:
     U: dtillman
   B: 0
   U: Dave Tillman
-- R:
-  - T: "2100-01-01"
+- E: djt!redhat.com
+  R:
+  - T: "2008-04-01"
+    C: BT
+    F: "2005-09-01"
+  - T: "2014-04-01"
+    C: Hewlett Packard Enterprise Co.
+    F: "2008-04-01"
+  - T: "2014-10-01"
+    C: Red Hat
+    F: "2014-04-01"
+  - T: "2015-03-01"
+    C: Socketplane, Inc.
+    F: "2014-10-01"
+  - T: "2019-12-01"
     C: Docker
-    F: "1900-01-01"
+    F: "2015-03-01"
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "2020-03-01"
   S: male
   I:
+  - E: dave.j.tucker!hp.com
+    M: Dave Tucker
+    S: gerrit
+  - E: djt!redhat.com
+    M: Dave Tucker
+    S: gerrit
+    U: dave-tucker
+  - E: dave!dtucker.co.uk
+    M: Dave Tucker
+    S: git
+  - E: dave!dtucker.co.uk
+    M: Dave Tucker
+    S: git
+    U: dave-tucker
+  - E: dave!socketplane.io
+    M: Dave Tucker
+    S: git
+  - E: dave.j.tucker!hp.com
+    M: Dave Tucker
+    S: git
+  - E: djt!redhat.com
+    M: Dave Tucker
+    S: git
   - M: Dave Tucker
     S: github
     U: dave-tucker
-  B: 0
-  U: Dave Tucker
-- E: dave!dtucker.co.uk
-  R:
-  - T: "2100-01-01"
-    C: Docker
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: dave!dtucker.co.uk
+  - E: datucker!redhat.com
     M: Dave Tucker
-    S: git
-  - E: dave!dtucker.co.uk
-    M: Dave Tucker
-    S: git
+    S: github
     U: dave-tucker
+  - E: dave!dtucker.co.uk
+    M: Dave Tucker
+    S: jira
+    U: dave@dtucker.co.uk
+  - M: Dave Tucker
+    S: meetup
+    U: "232582639"
   - M: Dave Tucker
     S: oci_csv
     U: dave-tucker
@@ -61241,86 +61275,3 @@ P:
     S: git
   B: 0
   U: GitHub Enterprise
-- C: US
-  E: noreply!github.com
-  R:
-  - T: "2014-05-01"
-    C: Plaxo
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Huawei
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Docker
-    F: "2014-05-01"
-  S: male
-  I:
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: Mashimiao
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: RobDolinMS
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: caniszczyk
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: coolljt0725
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: crosbymichael
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: dmcgowan
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: dqminh
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: hqhq
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: jonboulle
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: liangchenye
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: mrunalp
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: philips
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: stevvooe
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: tianon
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: vbatts
-  - E: noreply!github.com
-    M: GitHub
-    S: git
-    U: xiekeyang
-  B: 0
-  U: GitHub
