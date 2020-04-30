@@ -35534,30 +35534,6 @@ P:
     U: denys_poliakov
   B: 0
   U: denys_poliakov
-- E: dependabot-preview[bot]!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: (Robots)
-    F: "1900-01-01"
-  I:
-  - E: 27856297+dependabot-preview[bot]!users.noreply.github.com
-    M: dependabot-preview[bot]
-    S: git
-  - E: dependabot-preview[bot]!users.noreply.github.com
-    M: dependabot-preview[bot]
-    S: git
-  - E: support!dependabot.com
-    M: dependabot-preview[bot]
-    S: git
-  - E: support!dependabot.com
-    M: dependabot[bot]
-    S: git
-  - S: github
-    U: dependabot-preview[bot]
-  - S: github
-    U: dependabot[bot]
-  B: 1
-  U: dependabot-preview[bot]
 - E: 49699333+dependabot[bot]!users.noreply.github.com
   R:
   - T: "2100-01-01"
@@ -35573,15 +35549,34 @@ P:
     S: git
   B: 1
   U: dependabot[bot]
-- E: dependabot[bot]!users.noreply.github.com
+- E: support!dependabot.com
   R:
   - T: "2100-01-01"
     C: (Robots)
     F: "1900-01-01"
   I:
+  - E: support!dependabot.com
+    M: dependabot[bot]
+    S: gerrit
+  - E: 27856297+dependabot-preview[bot]!users.noreply.github.com
+    M: dependabot-preview[bot]
+    S: git
+  - E: dependabot-preview[bot]!users.noreply.github.com
+    M: dependabot-preview[bot]
+    S: git
+  - E: support!dependabot.com
+    M: dependabot-preview[bot]
+    S: git
   - E: dependabot[bot]!users.noreply.github.com
     M: dependabot[bot]
     S: git
+  - E: support!dependabot.com
+    M: dependabot[bot]
+    S: git
+  - S: github
+    U: dependabot-preview[bot]
+  - S: github
+    U: dependabot[bot]
   B: 1
   U: dependabot[bot]
 - E: derek.betker!ge.com
@@ -62784,3 +62779,15 @@ P:
     S: git
   B: 0
   U: maplain
+- E: marc.grogan!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+  I:
+  - E: marc.grogan!ericsson.com
+    M: marc grogan
+    S: jira
+    U: emagrog
+  B: 0
+  U: marc grogan
