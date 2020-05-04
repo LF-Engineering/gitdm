@@ -1,4 +1,93 @@
 P:
+- E: gerrit2!code.ossystems.com.br
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: O.S. Systems
+    F: "1900-01-01"
+  I:
+  - E: gerrit!fmygit6004.fm.intel.com
+    M: Gerrit Code Review
+    S: git
+  - E: gerrit!irvapp018.ir.intel.com
+    M: Gerrit Code Review
+    S: git
+  - E: gerrit!irvapp029.ir.intel.com
+    M: Gerrit Code Review
+    S: git
+  - E: gerrit2!code.ossystems.com.br
+    M: Gerrit Code Review
+    S: git
+  B: 0
+  U: Gerrit Code Review
+- E: noreply!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware
+    F: "1900-01-01"
+  I:
+  - E: noreply!vmware.com
+    M: Gerrit Code Review
+    S: git
+  B: 0
+  U: Gerrit Code Review
+- E: photon-checkins!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: photon-checkins!vmware.com
+    M: Gerrit Photon
+    S: git
+  B: 0
+  U: Gerrit Photon
+- C: CA
+  E: gerrit!erg.abdn.ac.uk
+  R:
+  - T: "2013-09-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2014-02-01"
+    C: PFM
+    F: "2013-09-01"
+  - T: "2014-12-01"
+    C: Data Gardens
+    F: "2014-02-01"
+  - T: "2100-01-01"
+    C: CenturyLink
+    F: "2014-12-01"
+  S: male
+  I:
+  - E: gerrit!erg.abdn.ac.uk
+    M: Gerrit Renker
+    S: git
+  B: 0
+  U: Gerrit Renker
+- E: gerrit!codeaurora.org
+  R:
+  - T: "2100-01-01"
+    C: Code Aurora Forum
+    F: "1900-01-01"
+  I:
+  - E: gerrit!codeaurora.org
+    M: Gerrit User
+    S: groupsio
+  - E: gerrit!codeaurora.org
+    M: Gerrit User
+    S: linux-foundation:mls
+    U: gerrit
+  - E: gerrit!codeaurora.org
+    M: Gerrit User
+    S: mbox
+  - E: gerrit!codeaurora.org
+    M: Gerrit User
+    S: pipermail
+  B: 0
+  U: Gerrit User
 - C: BR
   E: nandojve!gmail.com
   R:
@@ -1403,6 +1492,25 @@ P:
     U: dubuc
   B: 0
   U: Gilles Dubuc
+- E: gilles.thouenon!orange.com
+  R:
+  - T: "2100-01-01"
+    C: Orange
+    F: "2000-01-01"
+  I:
+  - E: gilles.thouenon!orange.com
+    M: Gilles Thouenon
+    S: gerrit
+    U: gthouenon
+  - E: gilles.thouenon!orange.com
+    M: Gilles Thouenon
+    S: git
+  - E: gilles.thouenon!orange.com
+    M: Gilles Thouenon
+    S: jira
+    U: gthouenon
+  B: 0
+  U: Gilles Thouenon
 - E: walter.e.gilmore!intel.com
   R:
   - T: "2100-01-01"
@@ -61445,159 +61553,3 @@ P:
     U: jiwatson
   B: 0
   U: Jim Watson
-- C: GB
-  E: jim!iotechsys.com
-  R:
-  - T: "2019-09-04"
-    C: Dell
-    F: "1900-01-01"
-  - T: "2019-09-14"
-    C: Independent
-    F: "2019-09-05"
-  - T: "2100-01-01"
-    C: IOTech
-    F: "2019-09-15"
-  S: male
-  I:
-  - M: Jim White
-    S: confluence
-    U: jpwhite
-  - M: Unknown User (james_white2)
-    S: confluence
-    U: James_White2
-  - E: james_white2!dell.com
-    M: Jim White
-    S: git
-  - E: jpwhite_mn!yahoo.com
-    M: Jim White
-    S: git
-  - E: jpwhite_mn!yahoo.com
-    M: edgex
-    S: git
-  - E: james_white2!dell.com
-    M: jim_white
-    S: git
-  - E: jpwhite_mn!yahoo.com
-    M: jpwhitemn
-    S: git
-  - M: James White
-    S: github
-    U: jamesrwhite
-  - E: jpwhite_mn!yahoo.com
-    M: Jim White
-    S: github
-    U: jpwhitemn
-  - M: Jim White
-    S: meetup
-    U: "42089742"
-  - E: james.white2!dell.com
-    M: Jim White
-    S: slack
-    U: james.white2
-  - E: jim!iotechsys.com
-    M: Jim White
-    S: slack
-    U: james.white2
-  B: 0
-  U: Jim White
-- E: jimw!sifive.com
-  R:
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jimw!sifive.com
-    M: Jim Wilson
-    S: git
-  B: 0
-  U: Jim Wilson
-- E: jim.xu!zenlayer.com
-  R:
-  - T: "2100-01-01"
-    C: Zenlayer
-    F: "1900-01-01"
-  I:
-  - M: Jim Xu
-    S: confluence
-    U: jimxuzenlayer
-  B: 0
-  U: Jim Xu
-- E: jim.zhang!caicloud.io
-  R:
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jim.zhang!caicloud.io
-    M: Jim Zhang
-    S: git
-  B: 0
-  U: Jim Zhang
-- E: jzhang!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: jzhang!us.ibm.com
-    M: Jim Zhang
-    S: git
-  B: 0
-  U: Jim Zhang
-- E: acgsong.tw!yahoo.com.tw
-  R:
-  - T: "2100-01-01"
-    C: Yahoo
-    F: "1900-01-01"
-  I:
-  - E: acgsong.tw!yahoo.com.tw
-    M: Jim-Lin
-    S: git
-  B: 0
-  U: Jim-Lin
-- C: US
-  E: jm.wlkr1!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Pathgather
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jm.wlkr1!gmail.com
-    M: Jim
-    S: git
-  B: 0
-  U: Jim
-- E: jim.galasyn!docker.com
-  R:
-  - T: "2100-01-01"
-    C: Docker, Inc.
-    F: "1900-01-01"
-  I:
-  - E: jim.galasyn!docker.com
-    M: JimGalasyn
-    S: git
-  B: 0
-  U: JimGalasyn
-- E: jimeng.liu!virtualinstruments.com
-  R:
-  - T: "2014-08-15"
-    C: Microsoft
-    F: "1900-01-01"
-  - T: "2016-02-15"
-    C: Virtual Instruments
-    F: "2014-08-15"
-  - T: "2016-10-15"
-    C: Rancher Labs
-    F: "2016-02-15"
-  - T: "2100-01-01"
-    C: Virtual Instruments
-    F: "2016-10-15"
-  I:
-  - E: jimeng.liu!virtualinstruments.com
-    M: Jimeng Liu
-    S: git
-  B: 0
-  U: Jimeng Liu
