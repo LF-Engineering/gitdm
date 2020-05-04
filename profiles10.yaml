@@ -1,5 +1,50 @@
 P:
 - C: US
+  R:
+  - T: "2014-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Buoyant
+    F: "2014-01-01"
+  S: male
+  I:
+  - M: William Morgan
+    S: github
+    U: wmorgan
+  B: 0
+  U: William Morgan
+- C: US
+  E: william!buoyant.io
+  R:
+  - T: "2014-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Buoyant
+    F: "2014-01-01"
+  S: male
+  I:
+  - E: william!buoyant.io
+    M: William Morgan
+    S: git
+  - E: william!buoyant.io
+    M: william@buoyant.io
+    S: git
+  B: 0
+  U: William Morgan
+- E: william!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: william!twitter.com
+    M: William Morgan
+    S: git
+  B: 0
+  U: William Morgan
+- C: US
   E: wmorgan!users.noreply.github.com
   R:
   - T: "2014-01-01"
@@ -22580,6 +22625,21 @@ P:
     U: zhexuany
   B: 0
   U: Zhexuan Yang
+- E: zsong!juniper.net
+  R:
+  - T: "2016-05-01"
+    C: Comcast
+    F: "2015-02-01"
+  - T: "2100-01-01"
+    C: Juniper Networks
+    F: "2016-08-01"
+  I:
+  - E: zsong!juniper.net
+    M: Zheyang Song
+    S: jira
+    U: zsong@juniper.net
+  B: 0
+  U: Zheyang Song
 - E: zhichen!codeaurora.org
   R:
   - T: "2100-01-01"
@@ -62543,82 +62603,3 @@ P:
     U: krzk@kernel.org
   B: 0
   U: krzk@kernel.org
-- E: ks0567!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  I:
-  - M: Kevin Scaggs
-    S: confluence
-    U: ks0567
-  - E: KS0567!ATT.COM
-    M: Kevin Scaggs
-    S: gerrit
-  - E: ks0567!att.com
-    M: Kevin Scaggs
-    S: gerrit
-    U: ks0567
-  - E: KS0567!ATT.COM
-    M: Kevin Scaggs
-    S: git
-  - E: ks0567!att.com
-    M: SCAGGS, KEVIN
-    S: groupsio
-  - E: ks0567!att.com
-    M: ks0567
-    S: groupsio
-  - E: ks0567!att.com
-    M: Kevin Scaggs
-    S: jira
-    U: ks0567
-  - E: ks0567!att.com
-    M: SCAGGS, KEVIN
-    S: pipermail
-  B: 0
-  U: ks0567
-- E: 864148379!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent
-    F: "1900-01-01"
-  I:
-  - E: 864148379!qq.com
-    M: ks864148379
-    S: github
-    U: ks864148379
-  B: 0
-  U: ks864148379
-- E: klaus.schroiff!au.fujitsu.com
-  R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-  I:
-  - E: klaus.schroiff!au.fujitsu.com
-    M: kschroiff
-    S: slack
-    U: kschroiff
-  B: 0
-  U: kschroiff
-- E: kshafiee!users.noreply.github.com
-  R:
-  - T: "2016-01-01"
-    C: Wind River
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Huawei
-    F: "1900-01-01"
-  - T: "2018-01-01"
-    C: Huawei
-    F: "2016-01-01"
-  - T: "2100-01-01"
-    C: Electronic
-    F: "2018-01-01"
-  S: male
-  I:
-  - E: kshafiee!users.noreply.github.com
-    M: kshafiee
-    S: git
-  B: 0
-  U: kshafiee
