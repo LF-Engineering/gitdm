@@ -20089,12 +20089,15 @@ P:
     F: "1900-01-01"
   I:
   - E: 37591195+armstro!users.noreply.github.com
-    M: armstro
+    M: Bruce Armstrong
     S: git
-  - S: github
+  - M: Bruce Armstrong
+    S: github
     U: armstro
-  - S: github
-    U: armstrongibm
+  - E: armstrob!us.ibm.com
+    M: Bruce Armstrong
+    S: slack
+    U: armstrob
   B: 0
   U: Bruce Armstrong
 - E: armstrob!us.ibm.com
@@ -20103,13 +20106,13 @@ P:
     C: IBM
     F: "1900-01-01"
   I:
-  - M: Bruce Armstrong
-    S: github
+  - E: 37591195+armstro!users.noreply.github.com
+    M: armstro
+    S: git
+  - S: github
     U: armstro
-  - E: armstrob!us.ibm.com
-    M: Bruce Armstrong
-    S: slack
-    U: armstrob
+  - S: github
+    U: armstrongibm
   B: 0
   U: Bruce Armstrong
 - E: bruce.ashfield!gmail.com
@@ -22873,6 +22876,20 @@ P:
     S: git
   B: 0
   U: CK Hu
+- E: jiachunli!sina.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-08-01"
+  I:
+  - E: jiachunli!sina.com
+    M: CL Jia
+    S: git
+  - M: CL Jia
+    S: github
+    U: Harry-Jia
+  B: 0
+  U: CL Jia
 - E: lukai1!huawei.com
   R:
   - T: "2100-01-01"
@@ -33326,6 +33343,31 @@ P:
     S: git
   B: 0
   U: Chester Lin
+- E: chetan.arakere!altencalsoftlabs.com
+  R:
+  - T: "2100-01-01"
+    C: ALTEN Calsoft Labs
+    F: "2017-02-01"
+  I:
+  - M: Chetan Arakere Gowdru
+    S: confluence
+    U: xcheara
+  - E: chetan.arakere!altencalsoftlabs.com
+    M: Chetan Arakere Gowdru
+    S: gerrit
+    U: xcheara
+  - E: chetan.arakere!altencalsoftlabs.com
+    M: Chetan Arakere Gowdru
+    S: git
+  - E: chetan.arakere.gowdru!ericsson.com
+    M: Chetan Arakere Gowdru
+    S: git
+  - E: chetan.arakere!altencalsoftlabs.com
+    M: Chetan Arakere Gowdru
+    S: jira
+    U: xcheara
+  B: 0
+  U: Chetan Arakere Gowdru
 - E: cwleung!kth.se
   R:
   - T: "2100-01-01"
@@ -52490,6 +52532,21 @@ P:
     S: pipermail
   B: 0
   U: DESBRUS Maxime
+- E: dhhsandhhsandeep.yerramsetti!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom
+    F: "2018-07-01"
+  I:
+  - E: dhhsandhhsandeep.yerramsetti!broadcom.com
+    M: sandeepydhh
+    S: git
+  - E: sandeep.ydhh!gmail.com
+    M: DHH Sandeep Yerramsetti
+    S: github
+    U: sandeepydhh
+  B: 0
+  U: DHH Sandeep Yerramsetti
 - E: eric.di-schiena!thalesgroup.com
   R:
   - T: "2100-01-01"
@@ -60686,113 +60743,3 @@ P:
     S: pipermail
   B: 0
   U: Daniel Silverthorn
-- E: daniel.smith!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-  I:
-  - M: Daniel Smith
-    S: confluence
-    U: lmcdasm
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: gerrit
-    U: lmcdasm
-  - E: daniel.smith!ericsson.com
-    M: Daiel Smith
-    S: git
-  - E: daniel.smith!ericsson.com
-    M: Dan Smith
-    S: git
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: git
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: gmane
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: groupsio
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: jira
-    U: lmcdasm
-  - M: Daniel Smith
-    S: linux-foundation:its
-    U: lmcdasm
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: linux-foundation:mls
-    U: daniel.smith
-  - E: daniel.smith!ericsson.com
-    M: Dan Smith
-    S: linux-foundation:scm
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: linux-foundation:scm
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: linux-foundation:scr
-    U: lmcdasm
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: mbox
-  - E: daniel.smith!ericsson.com
-    M: Daniel Smith
-    S: pipermail
-  B: 0
-  U: Daniel Smith
-- C: US
-  E: daniel.smith!kaazing.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: daniel.smith!kaazing.com
-    M: Daniel Smith
-    S: git
-  B: 0
-  U: Daniel Smith
-- C: US
-  E: dbsmith!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: dbsmith!google.com
-    M: Daniel Smith
-    S: git
-  - E: dbsmith!google.com
-    M: Daniel Smith
-    S: github
-    U: lavalamp
-  B: 0
-  U: Daniel Smith
-- C: RU
-  E: dan.sont!gmail.com
-  R:
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-  - T: "2018-12-01"
-    C: Virtustream
-    F: "2017-09-01"
-  - T: "2100-01-01"
-    C: Virtustream
-    F: "2017-09-01"
-  - T: "2100-01-01"
-    C: Progmatic
-    F: "2018-12-01"
-  S: male
-  I:
-  - E: dan.sont!gmail.com
-    M: Daniel Sont
-    S: github
-    U: ds0nt
-  B: 0
-  U: Daniel Sont
