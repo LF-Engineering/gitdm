@@ -1,4 +1,43 @@
 P:
+- E: foo!agst.us
+  R:
+  - T: "2018-02-28"
+    C: Red Hat
+    F: "1900-01-01"
+  - T: "2018-12-21"
+    C: Red Hat
+    F: "2018-02-28"
+  - T: "2100-01-01"
+    C: VMware
+    F: "2018-12-21"
+  S: male
+  I:
+  - E: foo!agst.us
+    M: Stephen Augustus
+    S: git
+  - E: foo!agst.us
+    M: justaugustus
+    S: git
+  B: 0
+  U: Stephen Augustus
+- E: justaugustus!users.noreply.github.com
+  R:
+  - T: "2018-02-28"
+    C: Red Hat
+    F: "1900-01-01"
+  - T: "2018-12-21"
+    C: Red Hat
+    F: "2018-02-28"
+  - T: "2100-01-01"
+    C: VMware
+    F: "2018-12-21"
+  S: male
+  I:
+  - E: justaugustus!users.noreply.github.com
+    M: Stephen Augustus
+    S: git
+  B: 0
+  U: Stephen Augustus
 - E: saugustus!vmware.com
   R:
   - T: "2018-02-28"
@@ -21206,6 +21245,9 @@ P:
 - C: FR
   E: thomas.morin!orange.com
   R:
+  - T: "2100-01-01"
+    C: Orange
+    F: "1900-01-01"
   - T: "2002-08-01"
     C: Orange
     F: "2002-03-01"
@@ -59936,44 +59978,3 @@ P:
     S: pipermail
   B: 0
   U: Wichmann, Mats D
-- C: NL
-  E: wido!42on.com
-  R:
-  - T: "2100-01-01"
-    C: 42on
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: wido!42on.com
-    M: Wido den Hollander
-    S: git
-  B: 0
-  U: Wido den Hollander
-- C: NL
-  E: wido!widodh.nl
-  R:
-  - T: "2100-01-01"
-    C: 42on
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: wido!widodh.nl
-    M: Wido den Hollander
-    S: git
-  - E: wido!widodh.nl
-    M: Wido den Hollander
-    S: github
-    U: wido
-  B: 0
-  U: Wido den Hollander
-- E: wladislav.wiebe!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  I:
-  - E: wladislav.wiebe!nokia.com
-    M: Wiebe, Wladislav (Nokia - DE/Ulm)
-    S: git
-  B: 0
-  U: Wiebe, Wladislav (Nokia - DE/Ulm)
