@@ -9,4 +9,4 @@ jobs:
     steps:
     - name: Sync from DB using gitdm-sync
       run: |
-        (curl -s "${{ secrets.SYNC_URL }}/sync-from-db" |& tee output.txt | grep 'SYNC_DB_OK') || ( cat output.txt; exit 1)
+        (curl -s "${{ secrets.SYNC_URL }}/sync-from-db/github" |& tee output.txt | grep 'SYNC_DB_OK') || ( cat output.txt; exit 1)

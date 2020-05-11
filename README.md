@@ -48,7 +48,7 @@ P:                                          # 'profiles' (profile holds possible
 - To run local sync service: `./serve.sh`.
 - To do request to local service (check service used for reacting to PRs): `PR=pr_number ./pr.sh`.
 - To do request to local service (sync service used for reacting to push to master branch): `./push.sh`.
-- To do request to local service (service that gets data from SH db and if different that current data it pushes data from DB): `./sync-from-db.sh`.
+- To do request to local service (service that gets data from SH db and if different that current data it pushes data from DB): `./sync-from-db.sh github|ssaw`.
 
 
 # Docker
@@ -66,7 +66,7 @@ To deploy on Kubernetes
 - Eventually adjust Helm chart to your needs, including `setup.sh` and `delete.sh` shell scripts.
 - Run from repository root directory (test env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.test.secret`" ./push.sh ``.
 - Run from repository root directory (prod env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.prod.secret`" PR=4 ./pr.sh ``.
-- Run from repository root directory (prod env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.prod.secret`" ./sync-from-db.sh ``.
+- Run from repository root directory (prod env): `` SYNC_URL="`cat helm/gitdm/secrets/SYNC_URL.prod.secret`" ./sync-from-db.sh ssaw ``.
 
 # GitHub actions
 

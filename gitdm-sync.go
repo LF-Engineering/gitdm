@@ -598,7 +598,8 @@ func getProfilesFromYAMLs() (profs []*allOutput, ok bool) {
 	return
 }
 
-func syncFromDB() bool {
+func syncFromDB(caller string) bool {
+	mPrintf("syncinf from DB caller: %s\n", caller)
 	profs, ok := getProfilesFromDB()
 	if !ok {
 		return false
@@ -612,7 +613,7 @@ func syncFromDB() bool {
 	return true
 }
 
-func syncRepoAndUpdateDB() bool {
+func syncRepoAndUpdateDB(caller string) bool {
 	profsYAML, ok := getProfilesFromYAMLs()
 	if !ok {
 		return false
@@ -740,7 +741,7 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 	_, _ = io.WriteString(w, "CHECK_OK")
 }
 
-func executeInCloned(w http.ResponseWriter, req *http.Request, fn func() bool, msg [2]string) {
+func executeInCloned(w http.ResponseWriter, req *http.Request, fn func(string) bool, msg [2]string) {
 	info := requestInfo(req)
 	mPrintf("Request: %s\n", info)
 	var err error
@@ -754,6 +755,20 @@ func executeInCloned(w http.ResponseWriter, req *http.Request, fn func() bool, m
 		gMtx.Unlock()
 	}()
 	gw = w
+	caller := ""
+	if msg[0] == "sync from DB" {
+		path := html.EscapeString(req.URL.Path)
+		// /sync-from-db/ori
+		ary := strings.Split(path, "/")
+		if len(ary) != 3 {
+			fatalf(false, "malformed path:%s", path)
+			return
+		}
+		caller = ary[2]
+	} else {
+		// push from GitHub
+		caller = "github"
+	}
 	mPrintf("Cleanup repo before\n")
 	execCommand([]string{"rm", "-rf", "gitdm"}, nil, 1, []int{})
 	defer func() {
@@ -787,7 +802,7 @@ func executeInCloned(w http.ResponseWriter, req *http.Request, fn func() bool, m
 		_ = os.Chdir(wd)
 	}()
 	mPrintf(msg[0] + "\n")
-	if !fn() {
+	if !fn(caller) {
 		return
 	}
 	w.WriteHeader(http.StatusOK)
@@ -833,7 +848,7 @@ func serve() {
 	gMtx = &sync.Mutex{}
 	http.HandleFunc("/push", handlePush)
 	http.HandleFunc("/pr/", handlePR)
-	http.HandleFunc("/sync-from-db", handleSyncFromDB)
+	http.HandleFunc("/sync-from-db/", handleSyncFromDB)
 	fatalOnError(http.ListenAndServe("0.0.0.0:7070", nil), true)
 }
 
