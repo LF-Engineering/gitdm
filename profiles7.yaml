@@ -1,4 +1,60 @@
 P:
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: mmohamed!us.ibm.com
+    S: cloudfoundry:manual
+  - E: mohamed.mohamed!telecom-sudparis.eu
+    S: cloudfoundry:manual
+  - M: Mohamed Mohamed
+    S: cloudfoundry:manual
+  - E: mmohamed!us.ibm.com
+    M: Mohamed Mohamed
+    S: file:cff
+  - E: mohamed.mohamed!telecom-sudparis.eu
+    M: Mohamed Mohamed
+    S: file:cff
+  - E: midoblgsm!gmail.com
+    M: Mohamed Mohamed
+    S: git
+  - E: mmohamed!us.ibm.com
+    M: Mohamed Mohamed
+    S: git
+  - E: mohamed!Mohameds-MacBook-Pro.local
+    M: Mohamed Mohamed
+    S: git
+  - E: mohamed!mohameds-mbp.almaden.ibm.com
+    M: Mohamed Mohamed
+    S: git
+  - E: mmohamed!us.ibm.com
+    M: mohamed
+    S: git
+  - E: mmohamed!us.ibm.com
+    M: Mohamed Mohamed
+    S: github
+    U: midoblgsm
+  - E: mmohamed!us.ibm.com
+    M: Mohamed Mohamed
+    S: groupsio
+  - E: mohamed.mohamed!telecom-sudparis.eu
+    M: Mohamed Mohamed
+    S: groupsio
+  - E: mmohamed!us.ibm.com
+    M: Mohamed Mohamed
+    S: mbox
+  - E: mohamed.mohamed!telecom-sudparis.eu
+    M: Mohamed Mohamed
+    S: mbox
+  - E: mmohamed!us.ibm.com
+    M: Mohamed Mohamed
+    S: slack
+    U: midoblgsm
+  B: 0
+  U: Mohamed Mohamed
 - C: IN
   E: mohamedmohamedphd!gmail.com
   R:
@@ -12435,6 +12491,18 @@ P:
     S: git
   B: 0
   U: Nick Huanca
+- E: nicki!ca.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-05-01"
+  I:
+  - E: nicki!ca.ibm.com
+    M: Nick Ivanov
+    S: slack
+    U: nicki
+  B: 0
+  U: Nick Ivanov
 - C: DE
   E: hello!juni.io
   R:
@@ -60747,25 +60815,3 @@ P:
     U: rs7776
   B: 0
   U: Randy Stricklin
-- E: randy_thompson!dell.com
-  R:
-  - T: "2100-01-01"
-    C: Dell
-    F: "1900-01-01"
-  I:
-  - M: Randy Thompson
-    S: confluence
-    U: randy_thompson
-  B: 0
-  U: Randy Thompson
-- E: rvinson!mvista.com
-  R:
-  - T: "2100-01-01"
-    C: MontaVista
-    F: "1900-01-01"
-  I:
-  - E: rvinson!mvista.com
-    M: Randy Vinson
-    S: git
-  B: 0
-  U: Randy Vinson
