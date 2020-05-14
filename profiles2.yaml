@@ -1,4 +1,36 @@
 P:
+- E: bk!theboxes.org
+  R:
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: bk!theboxes.org
+    M: BK Box
+    S: slack
+    U: gondoi
+  B: 0
+  U: BK Box
+- E: cf-bosh-eng!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - M: BOSH CI
+    S: cloudfoundry:manual
+  - E: cf-bosh-eng!pivotal.io
+    M: BOSH CI
+    S: git
+  - E: cf-bosh-eng!pivotal.io
+    M: CI Bot
+    S: git
+  - E: cf-bosh-eng!pivotal.io
+    M: CI
+    S: git
+  B: 1
+  U: BOSH CI
 - E: bosh!jenkins.sf.pivotal.io
   R:
   - T: "2100-01-01"
@@ -43305,6 +43337,26 @@ P:
     U: tophj-ibm
   B: 0
   U: Christopher Jones
+- E: ckulla!imageworks.com
+  R:
+  - T: "2100-01-01"
+    C: Sony Imageworks
+    F: "2007-06-01"
+  I:
+  - E: ckulla!gmail.com
+    M: Christopher Kulla
+    S: git
+  - E: ckulla!imageworks.com
+    M: Christopher Kulla
+    S: git
+  - E: fpsunflower!users.noreply.github.com
+    M: Christopher Kulla
+    S: git
+  - M: Christopher Kulla
+    S: github
+    U: fpsunflower
+  B: 0
+  U: Christopher Kulla
 - R:
   - T: "2100-01-01"
     C: OpenedHand
@@ -60733,18 +60785,3 @@ P:
     S: git
   B: 0
   U: Daniel O'Sullivan
-- E: berrange!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: berrange!redhat.com
-    M: Daniel P. Berrange
-    S: git
-  - E: berrange!redhat.com
-    M: Daniel P. Berrange
-    S: pipermail
-  B: 0
-  U: Daniel P. Berrange
