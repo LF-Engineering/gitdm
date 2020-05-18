@@ -5,6 +5,37 @@ P:
   - T: "2014-10-01"
     C: Artichoke
     F: "1900-01-01"
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-10-01"
+  - T: "2015-03-01"
+    C: Learn To Be
+    F: "2015-01-01"
+  - T: "2016-11-01"
+    C: Twin Prime
+    F: "2015-03-01"
+  - T: "2017-09-01"
+    C: IMVU
+    F: "2016-11-01"
+  - T: "2017-11-01"
+    C: Independent
+    F: "2017-09-01"
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-11-01"
+  S: male
+  I:
+  - E: linusa!google.com
+    M: Linus Arver
+    S: git
+  B: 0
+  U: Linus Arver
+- C: US
+  E: linusa!google.com
+  R:
+  - T: "2014-10-01"
+    C: Artichoke
+    F: "1900-01-01"
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
@@ -25252,30 +25283,6 @@ P:
     S: git
   B: 0
   U: Marlon
-- E: mmarsale!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
-  I:
-  - M: Maros Marsalek
-    S: confluence
-    U: mmarsale
-  - E: mmarsale!cisco.com
-    M: Maros Marsalek -X (mmarsale - PANTHEON TECHNOLOGIES@Cisco)
-    S: groupsio
-  - E: mmarsale!cisco.com
-    M: Maros Marsalek
-    S: jira
-    U: mmarsale
-  - M: Maros Marsalek
-    S: linux-foundation:its
-    U: mmarsale
-  - E: mmarsale!cisco.com
-    M: Maros Marsalek -X mmarsale - PANTHEON TECHNOLOGIES@Cisco
-    S: pipermail
-  B: 0
-  U: Maros Marsalek -X (mmarsale - PANTHEON TECHNOLOGIES@Cisco)
 - E: maros.mullner!pantheon.tech
   R:
   - T: "2007-01-01"
@@ -25333,6 +25340,9 @@ P:
   U: Maroun Maroun
 - E: maros.mars!gmail.com
   R:
+  - T: "2100-01-01"
+    C: Cisco
+    F: "1900-01-01"
   - T: "2016-10-31"
     C: Pantheon Technologies
     F: "2011-12-31"
@@ -25340,7 +25350,24 @@ P:
     C: FRINX
     F: "2016-12-31"
   I:
+  - M: Maros Marsalek
+    S: confluence
+    U: mmarsale
+  - E: mmarsale!cisco.com
+    M: Maros Marsalek
+    S: gerrit
+  - E: mmarsalek!frinx.io
+    M: Maros Marsalek
+    S: gerrit
+    U: mmarsalek
   - E: maros.mars!gmail.com
+    M: Maroš Maršalek
+    S: gerrit
+    U: mmarsale
+  - E: maros.mars!gmail.com
+    M: Maros Marsalek
+    S: git
+  - E: mmarsale!cisco.com
     M: Maros Marsalek
     S: git
   - E: mmarsalek!frinx.io
@@ -25350,6 +25377,17 @@ P:
     M: Maros Marsalek
     S: github
     U: marosmars
+  - E: mmarsale!cisco.com
+    M: Maros Marsalek -X (mmarsale - PANTHEON TECHNOLOGIES@Cisco)
+    S: groupsio
+  - E: mmarsale!cisco.com
+    M: Maros Marsalek
+    S: jira
+    U: mmarsale
+  - E: mmarsale!cisco.com
+    M: Maros Marsalek
+    S: jira
+    U: mmarsale@cisco.com
   - E: mmarsalek!frinx.io
     M: Maros Marsalek
     S: jira
@@ -25358,6 +25396,12 @@ P:
     M: Maroš Maršalek
     S: jira
     U: mmarsale
+  - M: Maros Marsalek
+    S: linux-foundation:its
+    U: mmarsale
+  - E: mmarsale!cisco.com
+    M: Maros Marsalek -X mmarsale - PANTHEON TECHNOLOGIES@Cisco
+    S: pipermail
   B: 0
   U: Maroš Maršalek
 - C: US
@@ -59800,6 +59844,9 @@ P:
     C: Pantheon Technologies
     F: "2016-11-30"
   I:
+  - M: Miroslav Miklus
+    S: confluence
+    U: miroslav.miklus
   - E: miroslav.miklus!gmail.com
     M: Miroslav Miklus
     S: gerrit
@@ -59817,14 +59864,25 @@ P:
   - E: mmiklus!cisco.com
     M: Miroslav Miklus
     S: gerrit
+    U: miroslav.miklus
+  - E: mmiklus!cisco.com
+    M: Miroslav Miklus
+    S: gerrit
     U: mmiklus
   - E: mmiklus!cisco.com
     M: Miroslav Miklus
     S: git
+  - E: mmiklus!cisco.com
+    M: Miroslav Miklus -X (mmiklus - PANTHEON TECHNOLOGIES@Cisco)
+    S: groupsio
   - E: miroslav.miklus!gmail.com
     M: Miroslav Miklus
     S: jira
     U: miroslav.miklus
+  - E: miroslav.miklus!pantheon.tech
+    M: Miroslav Miklus
+    S: jira
+    U: mmiklus
   - M: Miroslav Miklus
     S: linux-foundation:its
     U: miroslav.miklus
@@ -60867,42 +60925,3 @@ P:
     U: m-masataka
   B: 0
   U: Mizukoshi Masataka
-- E: dmitry.mnushkin!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  I:
-  - E: dmitry.mnushkin!att.com
-    M: Mnushkin, Dmitry
-    S: gerrit
-  - E: dmitry.mnushkin!att.com
-    M: Mnushkin, Dmitry
-    S: git
-  B: 0
-  U: Mnushkin, Dmitry
-- C: US
-  E: i!monis.app
-  R:
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: i!monis.app
-    M: Mo Khan
-    S: github
-    U: enj
-  B: 0
-  U: Mo Khan
-- E: 249406560!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent
-    F: "1900-01-01"
-  I:
-  - E: 249406560!qq.com
-    M: Mockery-Li
-    S: git
-  B: 0
-  U: Mockery-Li
