@@ -1,4 +1,73 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: HPE
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: sstefi!gmail.com
+    S: cloudfoundry:manual
+  - E: stefan.schneider!hp.com
+    S: cloudfoundry:manual
+  - E: stefan.schneider!hpe.com
+    S: cloudfoundry:manual
+  - M: Stefan Schneider
+    S: cloudfoundry:manual
+  - E: sstefi!gmail.com
+    M: Stefan Schneider
+    S: file:cff
+  - E: stefan.schneider!hp.com
+    M: Stefan Schneider
+    S: file:cff
+  - E: sstefi!gmail.com
+    M: Stefan Schneider
+    S: git
+  - E: stefan.schneider!hp.com
+    M: Stefan Schneider
+    S: git
+  - E: stefan.schneider!hpe.com
+    M: Stefan Schneider
+    S: git
+  - E: stefan.schneider!uhurusoftware.com
+    M: Stefan Schneider
+    S: git
+  - E: stefan.schneider!hp.com
+    M: Stefan
+    S: git
+  - E: stefan.schneider!hp.com
+    M: Stefan_Schneider
+    S: git
+  - E: stefan.schneider!uhurusoftware.com
+    M: sstefan
+    S: git
+  - E: stefan.schneider!uhurusoftware.com
+    M: stefan.schneider
+    S: git
+  - E: stefan.schneider!uhurusoftware.com
+    M: stefan.schnider
+    S: git
+  - E: stefan.schneider!uhurusoftware.com
+    M: stefans
+    S: git
+  - S: github
+    U: stefanschneider
+  - E: sstefi!gmail.com
+    M: Stefan Schneider
+    S: github
+    U: stefanschneider
+  - E: stefan.schneider!hpe.com
+    M: Stefan Schneider
+    S: github
+    U: stefanschneider
+  - E: stefan.schneider!hpe.com
+    M: Stefan Schneider
+    S: slack
+    U: sstefi
+  B: 0
+  U: Stefan Schneider
 - E: genstef!gentoo.org
   R:
   - T: "2100-01-01"
@@ -5739,6 +5808,25 @@ P:
     U: sbollingerAtRocket
   B: 0
   U: Steven Bollinger
+- E: steven_burgart!ultimatesoftware.com
+  R:
+  - T: "2015-06-01"
+    C: U.S. Department of Defense
+    F: "2012-03-01"
+  - T: "2100-01-01"
+    C: Ultimate Software
+    F: "2015-06-01"
+  I:
+  - E: skburgart!gmail.com
+    M: Steven Burgart
+    S: slack
+    U: skburgart
+  - E: steven_burgart!ultimatesoftware.com
+    M: Steven Burgart
+    S: slack
+    U: stevenbu
+  B: 0
+  U: Steven Burgart
 - E: steven.chiu!amd.com
   R:
   - T: "2100-01-01"
@@ -5788,12 +5876,12 @@ P:
   B: 0
   U: Steven Cole
 - C: US
-  E: sdake!ibm.com
+  E: sdake!redhat.com
   R:
   - T: "2015-01-30"
     C: Red Hat
     F: "1900-01-01"
-  - T: "2018-11-25"
+  - T: "2100-01-01"
     C: Cisco
     F: "2015-01-30"
   - T: "2019-05-15"
@@ -5807,101 +5895,22 @@ P:
   - E: sdake!ibm.com
     M: Steven Dake
     S: git
-  B: 0
-  U: Steven Dake
-- C: US
-  E: sdake!redhat.com
-  R:
-  - T: "2015-01-30"
-    C: Red Hat
-    F: "1900-01-01"
-  - T: "2018-11-25"
-    C: Cisco
-    F: "2015-01-30"
-  - T: "2019-05-15"
-    C: NetApp
-    F: "2018-11-25"
-  - T: "2100-01-01"
-    C: IBM
-    F: "2019-05-15"
-  S: male
-  I:
   - E: sdake!redhat.com
     M: Steven Dake
     S: git
-  B: 0
-  U: Steven Dake
-- C: US
-  E: steven.dake!gmail.com
-  R:
-  - T: "2015-01-30"
-    C: Red Hat
-    F: "1900-01-01"
-  - T: "2018-11-25"
-    C: Cisco
-    F: "2015-01-30"
-  - T: "2019-05-15"
-    C: NetApp
-    F: "2018-11-25"
-  - T: "2100-01-01"
-    C: IBM
-    F: "2019-05-15"
-  S: male
-  I:
   - E: stdake!cisco.com
     M: Steven Dake
     S: git
   - E: steven.dake!gmail.com
     M: Steven Dake
     S: git
-  B: 0
-  U: Steven Dake
-- C: US
-  E: steven.dake!gmail.com
-  R:
-  - T: "2015-01-30"
-    C: Red Hat
-    F: "1900-01-01"
-  - T: "2018-11-25"
-    C: Cisco
-    F: "2015-01-30"
-  - T: "2100-01-01"
-    C: Cisco
-    F: "2015-01-30"
-  - T: "2019-05-15"
-    C: NetApp
-    F: "2018-11-25"
-  - T: "2100-01-01"
-    C: IBM
-    F: "2019-05-15"
-  S: male
-  I:
+  - E: steven.dake!netapp.com
+    M: Steven Dake
+    S: git
   - E: steven.dake!gmail.com
     M: Steven Dake
     S: github
     U: sdake
-  B: 0
-  U: Steven Dake
-- C: US
-  E: steven.dake!netapp.com
-  R:
-  - T: "2015-01-30"
-    C: Red Hat
-    F: "1900-01-01"
-  - T: "2018-11-25"
-    C: Cisco
-    F: "2015-01-30"
-  - T: "2019-05-15"
-    C: NetApp
-    F: "2018-11-25"
-  - T: "2100-01-01"
-    C: IBM
-    F: "2019-05-15"
-  S: male
-  I:
-  - E: steven.dake!netapp.com
-    M: Steven Dake
-    S: git
   B: 0
   U: Steven Dake
 - C: US
@@ -7118,22 +7127,14 @@ P:
     S: git
   B: 0
   U: Steven Zou
-- E: szou!szou-m01.vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware
-    F: "1900-01-01"
-  I:
-  - E: szou!szou-m01.vmware.com
-    M: Steven Zou
-    S: git
-  B: 0
-  U: Steven Zou
 - C: CN
-  E: szou!vmware.com
+  E: szou!szou-m01.vmware.com
   R:
   - T: "2015-12-01"
     C: IBM
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: VMware
     F: "1900-01-01"
   - T: "2016-10-01"
     C: HP
@@ -7141,11 +7142,11 @@ P:
   - T: "2017-02-01"
     C: Startup
     F: "2016-10-01"
-  - T: "2100-01-01"
-    C: VMware
-    F: "2017-02-01"
   S: male
   I:
+  - E: szou!szou-m01.vmware.com
+    M: Steven Zou
+    S: git
   - E: szou!vmware.com
     M: Steven Zou
     S: git
@@ -45924,6 +45925,26 @@ P:
     U: vsoch
   B: 0
   U: Vanessa Sochat
+- E: vvalderrama!linuxfoundation.org
+  R:
+  - T: "2013-09-01"
+    C: Nike, Inc.
+    F: "2013-04-01"
+  - T: "2014-04-01"
+    C: Home Depot, Inc.
+    F: "2013-10-01"
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-07-01"
+  I:
+  - E: fdio-helpdesk!rt.linuxfoundation.org
+    M: Vanessa Valderrama via RT
+    S: groupsio
+  - E: vvalderrama!linuxfoundation.org
+    M: Vanessa Valderrama
+    S: groupsio
+  B: 0
+  U: Vanessa Valderrama
 - E: W.Vanhauwaert!TELEVIC.com
   R:
   - T: "2100-01-01"
@@ -59871,5 +59892,21 @@ P:
   - E: liwei391!huawei.com
     M: Wei Li
     S: git
+  B: 0
+  U: Wei Li
+- E: weili!alauda.io
+  R:
+  - T: "2100-01-01"
+    C: Alauda
+    F: "1900-01-01"
+  S: female
+  I:
+  - E: weili!alauda.io
+    M: Wei Li
+    S: git
+  - E: weili!alauda.io
+    M: Wei Li
+    S: github
+    U: 2eron
   B: 0
   U: Wei Li

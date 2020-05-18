@@ -1,4 +1,26 @@
 P:
+- E: lcherian!marvell.com
+  R:
+  - T: "2100-01-01"
+    C: Marvell
+    F: "1900-01-01"
+  I:
+  - E: lcherian!marvell.com
+    M: Linu Cherian
+    S: git
+  B: 0
+  U: Linu Cherian
+- E: linu.cherian!cavium.com
+  R:
+  - T: "2100-01-01"
+    C: Cavium
+    F: "1900-01-01"
+  I:
+  - E: linu.cherian!cavium.com
+    M: Linu Cherian
+    S: git
+  B: 0
+  U: Linu Cherian
 - C: US
   E: linusa!google.com
   R:
@@ -34279,32 +34301,6 @@ P:
     S: git
   B: 0
   U: Matt Singletary
-- E: mgsmith!netgate.com
-  R:
-  - T: "2004-02-29"
-    C: UUNET
-    F: "2000-09-30"
-  - T: "2008-10-31"
-    C: Wayport
-    F: "2004-05-31"
-  - T: "2012-12-31"
-    C: AT&T
-    F: "2008-10-31"
-  - T: "2100-01-01"
-    C: Netgate
-    F: "2012-12-31"
-  I:
-  - E: mgsmith!netgate.com
-    M: Matthew Smith
-    S: git
-  - E: mgsmith!netgate.com
-    M: Matt Smith
-    S: pipermail
-  - E: mgsmith!netgate.com
-    M: Matthew Smith
-    S: pipermail
-  B: 0
-  U: Matt Smith
 - C: US
   E: snobym!cisco.com
   R:
@@ -36636,6 +36632,36 @@ P:
     S: git
   B: 0
   U: Matthew Slattery
+- E: mgsmith!netgate.com
+  R:
+  - T: "2004-02-29"
+    C: UUNET
+    F: "2000-09-30"
+  - T: "2008-10-31"
+    C: Wayport
+    F: "2004-05-31"
+  - T: "2012-12-31"
+    C: AT&T
+    F: "2008-10-31"
+  - T: "2100-01-01"
+    C: Netgate
+    F: "2012-12-31"
+  I:
+  - E: mgsmith!netgate.com
+    M: Matthew Smith
+    S: git
+  - E: mgsmith!netgate.com
+    M: Matthew Smith
+    S: jira
+    U: mgsmith
+  - E: mgsmith!netgate.com
+    M: Matt Smith
+    S: pipermail
+  - E: mgsmith!netgate.com
+    M: Matthew Smith
+    S: pipermail
+  B: 0
+  U: Matthew Smith
 - E: masnider!microsoft.com
   R:
   - T: "2100-01-01"
@@ -50142,33 +50168,11 @@ P:
     S: git
   B: 0
   U: Michal Chabiera
-- E: mcmarada!cisco.com
+- E: michal.cmarada!gmail.com
   R:
   - T: "2100-01-01"
     C: Cisco
     F: "1900-01-01"
-  I:
-  - M: Michal Cmarada
-    S: confluence
-    U: mcmarada
-  - E: mcmarada!cisco.com
-    M: Michal Cmarada
-    S: gerrit
-    U: mcmarada
-  - E: mcmarada!cisco.com
-    M: Michal Cmarada -X (mcmarada - PANTHEON TECHNOLOGIES@Cisco)
-    S: groupsio
-  - E: mcmarada!cisco.com
-    M: Michal Cmarada
-    S: jira
-    U: mcmarada
-  - E: mcmarada!cisco.com
-    M: Michal Cmarada -X mcmarada - PANTHEON TECHNOLOGIES@Cisco
-    S: pipermail
-  B: 0
-  U: Michal Cmarada -X mcmarada - PANTHEON TECHNOLOGIES@Cisco
-- E: michal.cmarada!pantheon.tech
-  R:
   - T: "2014-09-30"
     C: RMR studio s.r.o.
     F: "2008-12-31"
@@ -50179,9 +50183,46 @@ P:
     C: Pantheon Technologies
     F: "2015-10-31"
   I:
+  - M: Michal Cmarada
+    S: confluence
+    U: mcmarada
+  - E: mcmarada!cisco.com
+    M: Michal Cmarada
+    S: gerrit
+    U: mcmarada
+  - E: michal.cmarada!pantheon.sk
+    M: Michal Cmarada
+    S: gerrit
+  - E: michal.cmarada!pantheon.tech
+    M: Michal Cmarada
+    S: gerrit
+    U: mcmarada
+  - E: mcmarada!cisco.com
+    M: Michal Cmarada
+    S: git
+  - E: michal.cmarada!pantheon.sk
+    M: Michal Cmarada
+    S: git
+  - E: michal.cmarada!pantheon.tech
+    M: Michal Cmarada
+    S: git
+  - E: mcmarada!cisco.com
+    M: Michal Cmarada -X (mcmarada - PANTHEON TECHNOLOGIES@Cisco)
+    S: groupsio
   - E: michal.cmarada!pantheon.tech
     M: Michal Cmarada
     S: groupsio
+  - E: mcmarada!cisco.com
+    M: Michal Cmarada
+    S: jira
+    U: mcmarada
+  - E: michal.cmarada!gmail.com
+    M: Michal Cmarada
+    S: jira
+    U: mcmarada
+  - E: mcmarada!cisco.com
+    M: Michal Cmarada -X mcmarada - PANTHEON TECHNOLOGIES@Cisco
+    S: pipermail
   - E: michal.cmarada!pantheon.tech
     M: Michal Cmarada
     S: pipermail
@@ -60867,61 +60908,3 @@ P:
     U: mitsutaka
   B: 0
   U: Mitz Amano
-- C: JP
-  E: miyakawa.taku!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: ISOL
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: miyakawa.taku!gmail.com
-    M: Miyakawa Taku
-    S: git
-  B: 0
-  U: Miyakawa Taku
-- C: IN
-  R:
-  - T: "2100-01-01"
-    C: Ansible
-    F: "1900-01-01"
-  I:
-  - M: Miyurz
-    S: github
-    U: Miyurz
-  B: 0
-  U: Miyurz
-- C: IN
-  E: mayur.nagekar!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Ansible
-    F: "1900-01-01"
-  I:
-  - E: mayur.nagekar!gmail.com
-    M: Miyurz
-    S: git
-  B: 0
-  U: Miyurz
-- E: m.mizukoshi.wakuwaku!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: NTT
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: m.mizukoshi.wakuwaku!gmail.com
-    M: Masataka Mizukoshi
-    S: git
-  - E: m.mizukoshi.wakuwaku!gmail.com
-    M: Mizukoshi Masataka
-    S: git
-  - E: m.mizukoshi.wakuwaku!gmail.com
-    M: masataka
-    S: git
-  - E: m.mizukoshi.wakuwaku!gmail.com
-    M: masataka
-    S: github
-    U: m-masataka
-  B: 0
-  U: Mizukoshi Masataka
