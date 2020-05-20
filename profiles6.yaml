@@ -1,4 +1,55 @@
 P:
+- C: GB
+  E: linsun!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  S: female
+  I:
+  - E: linsun!us.ibm.com
+    M: Lin Sun
+    S: git
+  - M: lin sun
+    S: meetup
+    U: "174694602"
+  - E: linsun!us.ibm.com
+    M: Lin Sun
+    S: slack
+    U: linsun
+  B: 0
+  U: Lin Sun
+- E: tong.lin!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: tong.lin!intel.com
+    M: Lin Tong
+    S: git
+  - E: tong.lin!intel.com
+    M: Lin Tong
+    S: pipermail
+  B: 0
+  U: Lin Tong
+- C: CN
+  E: lin.a.yang!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  S: female
+  I:
+  - E: lin.a.yang!intel.com
+    M: Lin Yang
+    S: git
+  - E: lin.a.yang!intel.com
+    M: Lin Yang
+    S: github
+    U: LinEricYang
+  B: 0
+  U: Lin Yang
 - E: apeforest!gmail.com
   R:
   - T: "2005-07-31"
@@ -18672,7 +18723,14 @@ P:
   - M: Marco Varlese
     S: confluence
     U: marco.varlese
+  - E: marco.varlese!gmail.com
+    M: Marco Varlese
+    S: gerrit
   - E: marco.varlese!suse.com
+    M: Marco Varlese
+    S: gerrit
+    U: marco.varlese
+  - E: marco.varlese!suse.de
     M: Marco Varlese
     S: gerrit
     U: marco.varlese
@@ -18682,7 +18740,16 @@ P:
   - E: marco.varlese!suse.de
     M: Marco Varlese
     S: git
+  - E: fdio-helpdesk!rt.linuxfoundation.org
+    M: Marco Varlese via RT
+    S: groupsio
   - E: marco.varlese!suse.com
+    M: Marco Varlese
+    S: groupsio
+  - E: marco.varlese!suse.de
+    M: Marco Varlese
+    S: groupsio
+  - E: mvarlese!suse.de
     M: Marco Varlese
     S: groupsio
   - E: marco.varlese!suse.com
@@ -44625,17 +44692,36 @@ P:
   U: Michael Bilstein
 - E: michael!research.att.com
   R:
+  - T: "2014-03-01"
+    C: Ben-Gurion University of the Negev
+    F: "2007-01-01"
+  - T: "2015-11-01"
+    C: University of Texas at Austin
+    F: "2014-04-01"
+  - T: "2018-01-01"
+    C: AT&T Services, Inc.
+    F: "2015-11-01"
   - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
+    C: Amazon Web Services, Inc.
+    F: "2018-01-01"
   I:
   - E: michael!research.att.com
     M: Michael Borokhovich
     S: gerrit
     U: michaelborokhovich
+  - E: michaelbor!gmail.com
+    M: Michael Borokhovich
+    S: gerrit
+    U: michaelbor
   - E: michael!research.att.com
     M: Michael Borokhovich
     S: git
+  - E: michaelbor!gmail.com
+    M: Michael Borokhovich
+    S: git
+  - E: michaelbor!gmail.com
+    M: Michael Borokhovich
+    S: groupsio
   - E: michael!research.att.com
     M: Michael Borokhovich
     S: jira
@@ -60781,115 +60867,3 @@ P:
     S: pipermail
   B: 0
   U: Mirza Krak
-- E: misael.lopez!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments
-    F: "1900-01-01"
-  I:
-  - E: misael.lopez!ti.com
-    M: Misael Lopez Cruz
-    S: git
-  B: 0
-  U: Misael Lopez Cruz
-- E: mmahmoodi!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware
-    F: "1900-01-01"
-  I:
-  - E: mmahmoodi!vmware.com
-    M: Misbah Mahmoodi
-    S: groupsio
-  B: 0
-  U: Misbah Mahmoodi
-- E: Mischa.Jonker!synopsys.com
-  R:
-  - T: "2100-01-01"
-    C: Synopsys
-    F: "1900-01-01"
-  I:
-  - E: Mischa.Jonker!synopsys.com
-    M: Mischa Jonker
-    S: git
-  B: 0
-  U: Mischa Jonker
-- E: mjonker!synopsys.com
-  R:
-  - T: "2014-01-01"
-    C: Synopsys
-    F: "1900-01-01"
-  - T: "2017-03-01"
-    C: Intel
-    F: "2014-01-01"
-  - T: "2100-01-01"
-    C: Synopsys
-    F: "2017-03-01"
-  S: male
-  I:
-  - E: mjonker!synopsys.com
-    M: Mischa Jonker
-    S: git
-  B: 0
-  U: Mischa Jonker
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: female
-  I:
-  - M: Misha Brukman
-    S: github
-    U: mbrukman
-  B: 0
-  U: Misha Brukman
-- C: US
-  E: mbrukman!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: female
-  I:
-  - E: mbrukman!google.com
-    M: Misha Brukman
-    S: git
-  B: 0
-  U: Misha Brukman
-- E: mdmitriev!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-  I:
-  - E: mdmitriev!twitter.com
-    M: Misha Dmitriev
-    S: git
-  B: 0
-  U: Misha Dmitriev
-- E: mef!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  I:
-  - E: mef!google.com
-    M: Misha Efimov
-    S: git
-  B: 0
-  U: Misha Efimov
-- E: sharad.d.mishra!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: sharad.d.mishra!intel.com
-    M: Mishra, Sharad D
-    S: groupsio
-  - E: sharad.d.mishra!intel.com
-    M: Mishra, Sharad D
-    S: pipermail
-  B: 0
-  U: Mishra, Sharad D
