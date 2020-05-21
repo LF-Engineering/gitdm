@@ -1,4 +1,48 @@
 P:
+- E: jenkins!smf1-fbk-37-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbk-37-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbl-35-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbl-35-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbn-36-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbn-36-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbn-37-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbn-37-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 1
+  U: jenkins
 - E: jenkins!smf1-fbo-33-sr1.prod.twitter.com
   R:
   - T: "2100-01-01"
