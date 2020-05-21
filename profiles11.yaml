@@ -1,4 +1,47 @@
 P:
+- E: jenkins!smf1-dir-19-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins-build!trusty-small-unique--a7f82f5f-8832-433e-a632-928924f47e04.localdomain
+    M: Jenkins Build Slave User
+    S: git
+  - E: jenkins!atla-arr-14-sr2.prod.twttr.net
+    M: jenkins
+    S: git
+  - E: jenkins!atla-ate-26-sr4.prod.twttr.net
+    M: jenkins
+    S: git
+  - E: jenkins!atla-awt-03-sr1.prod.twttr.net
+    M: jenkins
+    S: git
+  - E: jenkins!atla-bgz-26-sr2.prod.twttr.net
+    M: jenkins
+    S: git
+  - E: jenkins!smf1-cdq-34-sr3.prod.twitter.com
+    M: jenkins
+    S: git
+  - E: jenkins!smf1-dir-19-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  - E: jenkins!smf1-drl-18-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 1
+  U: jenkins
+- E: jenkins!smf1-dir-20-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-dir-20-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
 - E: jenkins!smf1-dir-21-sr1.prod.twitter.com
   R:
   - T: "2100-01-01"
