@@ -1,4 +1,114 @@
 P:
+- E: jenkins!smf1-fbk-33-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbk-33-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbk-34-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbk-34-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbk-37-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbk-37-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbl-35-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbl-35-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbn-36-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbn-36-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbn-37-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbn-37-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 1
+  U: jenkins
+- E: jenkins!smf1-fbo-33-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbo-33-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbo-34-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbo-34-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbp-35-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbp-35-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-fbp-36-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jenkins!smf1-fbp-36-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
 - E: jenkins!smf1-fbp-37-sr1.prod.twitter.com
   R:
   - T: "2100-01-01"
@@ -2828,6 +2938,28 @@ P:
     U: jpfigueiras
   B: 0
   U: jpfigueiras
+- E: jeanpierre.roquesalane!dell.comd
+  R:
+  - T: "2004-03-01"
+    C: Atos
+    F: "2002-03-01"
+  - T: "2005-01-01"
+    C: ARES.FR
+    F: "2004-01-01"
+  - T: "2007-01-01"
+    C: Devoteam SA
+    F: "2005-01-01"
+  - T: "2100-01-01"
+    C: Dell EMC
+    F: "2007-07-01"
+  I:
+  - E: jeanpierre.roquesalane!dell.comd
+    M: jproque-dell
+    S: git
+  - S: github
+    U: jproque-dell
+  B: 0
+  U: jproque-dell
 - E: singerj!us.ibm.com
   R:
   - T: "2100-01-01"
@@ -11263,6 +11395,78 @@ P:
     S: pipermail
   B: 0
   U: lxu
+- E: lylavoie!iol.unh.edu
+  R:
+  - T: "2100-01-01"
+    C: UNH InterOperability Lab
+    F: "1999-03-01"
+  - T: "2100-01-01"
+    C: Broadband Forum
+    F: "2014-04-01"
+  I:
+  - M: Lincoln Lavoie
+    S: bugzillarest
+    U: lylavoie
+  - M: Lincoln Lavoie (UNH-IOL)
+    S: confluence
+    U: lylavoie
+  - M: Lincoln Lavoie
+    S: confluence
+    U: lylavoie
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: gerrit
+    U: lylavoie
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: git
+  - E: lylavoie!iol.unh.edu
+    M: lylavoie
+    S: git
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: github
+    U: lylavoie
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: gmane
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: groupsio
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: jira
+    U: lylavoie
+  - S: linux-foundation:irc
+    U: lylavoie
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: linux-foundation:mls
+    U: lylavoie
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: linux-foundation:scm
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: linux-foundation:scr
+    U: lylavoie
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: mbox
+  - E: lylavoie!iol.unh.edu
+    M: Lincoln Lavoie
+    S: pipermail
+  - M: lylavoie
+    S: supybot
+    U: lylavoie
+  - M: lylavoie_
+    S: supybot
+    U: lylavoie_
+  - M: lylavoie_UNH-IOL
+    S: supybot
+    U: lylavoie_UNH-IOL
+  B: 0
+  U: lylavoie
 - R:
   - T: "2100-01-01"
     C: NXP
@@ -40864,6 +41068,36 @@ P:
     U: vishwas.chouhan
   B: 0
   U: vishwas.chouhan
+- E: 54978983+visnyei!users.noreply.github.com
+  R:
+  - T: "2013-06-01"
+    C: Amnesty International
+    F: "2013-02-01"
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2014-11-01"
+  I:
+  - M: Andrea Visnyei
+    S: confluence
+    U: visnyei
+  - E: andrea.visnyei!nokia.com
+    M: Andrea Visnyei
+    S: gerrit
+    U: visnyei
+  - E: andrea.visnyei!nokia.com
+    M: Andrea Visnyei
+    S: git
+  - E: 54978983+visnyei!users.noreply.github.com
+    M: visnyei
+    S: git
+  - S: github
+    U: visnyei
+  - E: andrea.visnyei!nokia.com
+    M: Andrea Visnyei
+    S: jira
+    U: visnyei
+  B: 0
+  U: visnyei
 - C: IN
   E: viswanath.kumarskandpriya!verizon.com
   R:
