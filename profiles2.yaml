@@ -1,5 +1,59 @@
 P:
 - C: CA
+  E: auni!google.com
+  R:
+  - T: "2014-12-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+  - T: "2015-08-01"
+    C: ISX
+    F: "2014-12-01"
+  - T: "2015-10-01"
+    C: Independent
+    F: "2015-08-01"
+  - T: "2016-05-01"
+    C: BizXPro
+    F: "2015-10-01"
+  - T: "2016-08-01"
+    C: Amazon
+    F: "2016-05-01"
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-08-01"
+  - T: "2017-04-01"
+    C: Shopify
+    F: "2017-01-01"
+  - T: "2017-06-01"
+    C: Independent
+    F: "2017-04-01"
+  - T: "2017-09-01"
+    C: Google
+    F: "2017-06-01"
+  - T: "2018-07-01"
+    C: Independent
+    F: "2017-09-01"
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-07-01"
+  S: male
+  I:
+  - E: auni!google.com
+    M: Auni Ahsan
+    S: git
+  - E: auni!google.com
+    M: Auni Ahsan
+    S: github
+    U: auni53
+  - E: auni!google.com
+    M: Auni Ahsan
+    S: slack
+    U: auni
+  B: 0
+  U: Auni Ahsan
+- C: CA
   E: auni.ahsan53!gmail.com
   R:
   - T: "2014-12-01"
@@ -3398,6 +3452,9 @@ P:
   U: Baohong Liu
 - E: yangbaohua!gmail.com
   R:
+  - T: "2100-01-01"
+    C: Hyperledger
+    F: "1900-01-01"
   - T: "2100-01-01"
     C: Oracle
     F: "2017-08-01"
@@ -9355,6 +9412,29 @@ P:
   B: 0
   U: Benjamin Gilbert
 - C: US
+  E: bengoering!gmail.com
+  R:
+  - T: "2016-08-01"
+    C: Livefyre
+    F: "1900-01-01"
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-08-01"
+  - T: "2018-01-01"
+    C: bengo
+    F: "2017-01-01"
+  - T: "2100-01-01"
+    C: Permanent
+    F: "2018-01-01"
+  S: male
+  I:
+  - E: bengoering!gmail.com
+    M: Benjamin Goering
+    S: github
+    U: gobengo
+  B: 0
+  U: Benjamin Goering
+- C: US
   R:
   - T: "2016-08-15"
     C: Narrative Science
@@ -11025,6 +11105,20 @@ P:
   - E: bernhard zq1.de
     M: Bernhard M. Wiedemann
     S: github
+    U: bmwiedemann
+  B: 0
+  U: Bernhard M. Wiedemann
+- C: DE
+  E: bwiedemann!suse.de
+  R:
+  - T: "2100-01-01"
+    C: SUSE
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: bwiedemann!suse.de
+    M: Bernhard M. Wiedemann
+    S: gerrit
     U: bmwiedemann
   B: 0
   U: Bernhard M. Wiedemann
@@ -57261,6 +57355,21 @@ P:
   B: 0
   U: Damon Walker
 - C: CN
+  E: damon.devops!gmail.com
+  R:
+  - T: "2014-04-20"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: UnitedStack
+    F: "2014-04-20"
+  I:
+  - E: damon.devops!gmail.com
+    M: Damon Wang
+    S: groupsio
+  B: 0
+  U: Damon Wang
+- C: CN
   E: wangdekui!inspur.com
   R:
   - T: "2100-01-01"
@@ -60571,117 +60680,3 @@ P:
     S: git
   B: 0
   U: Daniel Bader
-- E: Daniel.Balsiger!swisscom.com
-  R:
-  - T: "2100-01-01"
-    C: Swisscom
-    F: "1900-01-01"
-  I:
-  - M: Daniel Balsiger
-    S: confluence
-    U: dbalsige
-  - E: Daniel.Balsiger!swisscom.com
-    M: Daniel Balsiger
-    S: gerrit
-    U: dbalsige
-  - E: Daniel.Balsiger!swisscom.com
-    M: Daniel Balsiger
-    S: git
-  - E: Daniel.Balsiger!swisscom.com
-    M: Daniel.Balsiger
-    S: groupsio
-  - E: Daniel.Balsiger!swisscom.com
-    M: Daniel Balsiger
-    S: jira
-    U: dbalsige
-  B: 0
-  U: Daniel Balsiger
-- C: RO
-  E: daniel.baluta!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: daniel.baluta!gmail.com
-    M: Daniel Baluta
-    S: git
-  B: 0
-  U: Daniel Baluta
-- C: RO
-  E: daniel.baluta!nxp.com
-  R:
-  - T: "2100-01-01"
-    C: NXP
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: daniel.baluta!nxp.com
-    M: Daniel Baluta
-    S: git
-  B: 0
-  U: Daniel Baluta
-- E: danielbo!mellanox.com
-  R:
-  - T: "2100-01-01"
-    C: Mellanox Technologies
-    F: "1900-01-01"
-  I:
-  - E: danielbo!mellanox.com
-    M: Daniel Bar-On
-    S: git
-  - E: danielbo!mellanox.com
-    M: DanielBar-On
-    S: git
-  B: 0
-  U: Daniel Bar-On
-- R:
-  - T: "2015-06-01"
-    C: Cerner
-    F: "1900-01-01"
-  - T: "2017-11-01"
-    C: DST
-    F: "2015-06-01"
-  - T: "2100-01-01"
-    C: NAIC
-    F: "2017-11-01"
-  S: male
-  I:
-  - M: Daniel Barker
-    S: github
-    U: barkerd427
-  B: 0
-  U: Daniel Barker
-- E: barkerd427!users.noreply.github.com
-  R:
-  - T: "2015-06-01"
-    C: Cerner
-    F: "1900-01-01"
-  - T: "2017-11-01"
-    C: DST
-    F: "2015-06-01"
-  - T: "2100-01-01"
-    C: NAIC
-    F: "2017-11-01"
-  S: male
-  I:
-  - E: barkerd427!users.noreply.github.com
-    M: Daniel Barker
-    S: git
-  B: 0
-  U: Daniel Barker
-- C: US
-  E: dbaryche!andrew.cmu.edu
-  R:
-  - T: "2100-01-01"
-    C: Carnegie Mellon University
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: dbaryche!andrew.cmu.edu
-    M: Daniel Barychev
-    S: github
-    U: DanBarychev
-  B: 0
-  U: Daniel Barychev
