@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "${JWT_TOKEN}" ]
 then
-  export JWT_TOKEN=`cat secrets/JWT_TOKEN.secret`
+  export JWT_TOKEN=`cat token.secret`
 fi
 if [ -z "${DA_API_URL}" ]
 then
