@@ -1,4 +1,111 @@
 P:
+- C: AU
+  E: lmadsen!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+  - T: "2006-01-01"
+    C: Core Telecom Innovations Inc
+    F: "2004-05-01"
+  - T: "2007-08-01"
+    C: Sokol & Associates, L.L.C.
+    F: "2004-10-01"
+  - T: "2007-10-01"
+    C: MIX Networks, Inc
+    F: "2005-01-01"
+  - T: "2012-11-01"
+    C: LeifMadsen Enterprises, Inc
+    F: "2005-08-01"
+  - T: "2011-12-01"
+    C: Digium, Inc.
+    F: "2007-07-01"
+  - T: "2012-11-01"
+    C: CoreDial, LLC
+    F: "2011-12-01"
+  - T: "2015-01-01"
+    C: ThinkingPhones
+    F: "2012-11-01"
+  - T: "2015-12-01"
+    C: AVOXI
+    F: "2015-02-01"
+  I:
+  - M: Leif Madsen
+    S: confluence
+    U: leifmadsen
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: gerrit
+    U: leifmadsen
+  - E: leif!leifmadsen.com
+    M: Leif Madsen
+    S: git
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: git
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: github
+    U: leifmadsen
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: gmane
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: groupsio
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: jira
+    U: leifmadsen
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: mbox
+  - E: lmadsen!redhat.com
+    M: Leif Madsen
+    S: pipermail
+  B: 0
+  U: Leif Madsen
+- C: CA
+  R:
+  - T: "2100-01-01"
+    C: ZEROFAIL Montreal
+    F: "1900-01-01"
+  I:
+  - M: Leifur Halldor Asgeirsson
+    S: github
+    U: leifurhauks
+  B: 0
+  U: Leifur Halldor Asgeirsson
+- E: leilk.liu!mediatek.com
+  R:
+  - T: "2100-01-01"
+    C: MediaTek, Inc.
+    F: "1900-01-01"
+  I:
+  - E: leilk.liu!mediatek.com
+    M: Leilk Liu
+    S: git
+  - E: leilk.liu!mediatek.com
+    M: leilk.liu@mediatek.com
+    S: git
+  B: 0
+  U: Leilk Liu
+- E: lejin.du!emc.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "1900-01-01"
+  I:
+  - E: lejin.du!dell.com
+    M: Lejin Du
+    S: slack
+    U: lejin.du
+  - E: lejin.du!emc.com
+    M: Lejin Du
+    S: slack
+    U: lejin.du
+  B: 0
+  U: Lejin Du
 - E: github!homerow.net
   R:
   - T: "2100-01-01"
@@ -10250,12 +10357,15 @@ P:
     C: IRT SystemX
     F: "2014-01-31"
   - T: "2100-01-01"
-    C: Cisco
-    F: "2015-12-31"
+    C: Cisco Systems Inc.
+    F: "2016-01-01"
   - T: "2100-01-01"
     C: Laboratory of Information, Networking and Communication Sciences
     F: "2016-01-31"
   I:
+  - E: lumuscar+fdio!cisco.com
+    M: Luca Muscariello
+    S: gerrit
   - E: lumuscar!cisco.com
     M: Luca Muscariello
     S: git
@@ -33084,9 +33194,6 @@ P:
   U: Martin Strubel
 - E: the.martin.sunal!gmail.com
   R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
   - T: "2016-07-01"
     C: PANTHEON.tech
     F: "2013-06-01"
@@ -34982,7 +35089,7 @@ P:
 - E: mhemmatp!cisco.com
   R:
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2018-12-31"
   I:
   - E: mhemmatp!cisco.com
@@ -35576,19 +35683,25 @@ P:
 - E: matej.perina!pantheon.tech
   R:
   - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
-  - T: "2100-01-01"
     C: PANTHEON.tech
-    F: "1900-01-01"
+    F: "2015-08-01"
   I:
   - M: Matej Perina
     S: confluence
     U: matej.perina
+  - E: matej.perina!pantheon.sk
+    M: Matej Perina
+    S: gerrit
   - E: matej.perina!pantheon.tech
     M: Matej Perina
     S: gerrit
     U: matej.perina
+  - E: mperina!cisco.com
+    M: Matej Perina
+    S: gerrit
+  - E: matej.perina!pantheon.sk
+    M: Matej Perina
+    S: git
   - E: matej.perina!pantheon.tech
     M: Matej Perina
     S: git
@@ -60761,75 +60874,3 @@ P:
     S: git
   B: 0
   U: Mike Dunn
-- E: mike.elliott!amdocs.com
-  R:
-  - T: "2016-12-31"
-    C: Amdocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Bell Canada
-    F: "2017-01-01"
-  I:
-  - M: Mike Elliott
-    S: confluence
-    U: melliott
-  - E: mike.elliott!amdocs.com
-    M: Mike Elliott
-    S: gerrit
-    U: melliott
-  - E: mike.elliott!amdocs.com
-    M: Mike Elliott
-    S: git
-  - E: Mike.Elliott!amdocs.com
-    M: Mike Elliott
-    S: groupsio
-  - E: mike.elliott!amdocs.com
-    M: Mike Elliott
-    S: jira
-    U: melliott
-  - E: Mike.Elliott!amdocs.com
-    S: onap:manual
-  - M: Mike Elliott
-    S: onap:manual
-  - E: Mike.Elliott!amdocs.com
-    M: Mike Elliott
-    S: pipermail
-  B: 0
-  U: Mike Elliott
-- E: m-erdahl!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments
-    F: "1900-01-01"
-  I:
-  - E: m-erdahl!ti.com
-    M: Mike Erdahl
-    S: git
-  B: 0
-  U: Mike Erdahl
-- E: mike!metaswitch.com
-  R:
-  - T: "2100-01-01"
-    C: Metaswitch
-    F: "1900-01-01"
-  I:
-  - E: mike!metaswitch.com
-    M: Mike Evans
-    S: groupsio
-  - E: mike!metaswitch.com
-    M: Mike Evans
-    S: pipermail
-  B: 0
-  U: Mike Evans
-- E: mike.evans!metaswitch.com
-  R:
-  - T: "2100-01-01"
-    C: Metaswitch
-    F: "1900-01-01"
-  I:
-  - E: mike.evans!metaswitch.com
-    M: Mike Evans
-    S: jira
-    U: mikeevansmetaswitch
-  B: 0
-  U: Mike Evans
