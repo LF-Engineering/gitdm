@@ -204,6 +204,62 @@ func fatalf(pnic bool, f string, a ...interface{}) {
 	fatalOnError(fmt.Errorf(f, a...), pnic)
 }
 
+func getToken(ctx *lib.Ctx) (err error) {
+	if ctx.Auth0URL == "" || ctx.Auth0ClientID == "" || ctx.Auth0ClientSecret == "" || ctx.Auth0Audience == "" {
+		err = fmt.Errorf("Cannot obtain auth0 bearer token - all auth0 parameters must be set")
+		return
+	}
+	data := fmt.Sprintf(
+		`{"grant_type":"client_credentials","client_id":"%s","client_secret":"%s","audience":"%s","scope":"access:api"}`,
+		jsonEscape(ctx.Auth0ClientID),
+		jsonEscape(ctx.Auth0ClientSecret),
+		jsonEscape(ctx.Auth0Audience),
+	)
+	payloadBytes := []byte(data)
+	payloadBody := bytes.NewReader(payloadBytes)
+	method := http.MethodPost
+	rurl := "/oauth/token"
+	url := ctx.Auth0URL + rurl
+	req, e := http.NewRequest(method, url, payloadBody)
+	if e != nil {
+		err = fmt.Errorf("new request error: %+v for %s url: %s\n", e, method, rurl)
+		return
+	}
+	req.Header.Set("Content-Type", "application/json")
+	resp, e := http.DefaultClient.Do(req)
+	if e != nil {
+		err = fmt.Errorf("do request error: %+v for %s url: %s\n", e, method, rurl)
+		return
+	}
+	defer func() {
+		_ = resp.Body.Close()
+	}()
+	if resp.StatusCode != 200 {
+		body, e := ioutil.ReadAll(resp.Body)
+		if e != nil {
+			err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s\n", e, method, rurl)
+			return
+		}
+		err = fmt.Errorf("Method:%s url:%s status:%d\n%s\n", method, rurl, resp.StatusCode, body)
+		return
+	}
+	var rdata struct {
+		Token string `json:"access_token"`
+	}
+	err = json.NewDecoder(resp.Body).Decode(&rdata)
+	if err != nil {
+		return
+	}
+	if rdata.Token == "" {
+		err = fmt.Errorf("empty token retuned")
+		return
+	}
+	lib.AddRedacted(rdata.Token, false)
+	gToken = "Bearer " + rdata.Token
+	lib.Printf("Generated new token(%d) [%s]\n", len(gToken), gToken)
+	return
+}
+
 func execCommand(cmdAndArgs []string, env map[string]string, dbg int, allowedExitCodes []int) (string, bool) {
 	if dbg > 0 {
 		if len(env) > 0 {
