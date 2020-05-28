@@ -535,59 +535,89 @@ func getToken() (err error) {
 		fatalOnError(err, false)
 		return
 	}
-	mPrintf("Generated new token(%d)\n", gToken)
+	gToken = "Bearer " + rdata.Token
+	mPrintf("Generated new token(%d)\n", len(gToken))
 	return
 }
 
 func getProfilesFromDB() (profs []*allOutput, ok bool) {
+	if gToken == "" {
+		mPrintf("Obtaining API token\n")
+		err := getToken()
+		if err != nil {
+			fatalOnError(err, false)
+			return
+		}
+	}
 	method := "GET"
 	url := fmt.Sprintf("%s/v1/affiliation/all", os.Getenv("DA_API_URL"))
-	mPrintf("DA affiliation API 'all' request\n")
-	req, err := http.NewRequest(method, os.ExpandEnv(url), nil)
-	if err != nil {
-		err = fmt.Errorf("new request error: %+v for %s url: %s\n", err, method, url)
-		fatalOnError(err, false)
-		return
-	}
-	resp, err := http.DefaultClient.Do(req)
-	if err != nil {
-		err = fmt.Errorf("do request error: %+v for %s url: %s\n", err, method, url)
-		fatalOnError(err, false)
-		return
-	}
-	defer func() {
-		_ = resp.Body.Close()
-	}()
-	if resp.StatusCode != 200 {
-		body, err := ioutil.ReadAll(resp.Body)
+	for i := 0; i < 2; i++ {
+		mPrintf("DA affiliation API 'all' request\n")
+		req, err := http.NewRequest(method, os.ExpandEnv(url), nil)
 		if err != nil {
-			err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s\n", err, method, url)
+			err = fmt.Errorf("new request error: %+v for %s url: %s\n", err, method, url)
 			fatalOnError(err, false)
 			return
 		}
-		err = fmt.Errorf("Method:%s url:%s status:%d\n%s\n", method, url, resp.StatusCode, body)
-		fatalOnError(err, false)
-		return
-	}
-	var payload allArrayOutput
-	err = yaml.NewDecoder(resp.Body).Decode(&payload)
-	if err != nil {
-		body, err2 := ioutil.ReadAll(resp.Body)
-		if err2 != nil {
-			err2 = fmt.Errorf("ReadAll yaml request error: %+v, %+v for %s url: %s\n", err, err2, method, url)
+		req.Header.Set("Authorization", gToken)
+		resp, err := http.DefaultClient.Do(req)
+		if err != nil {
+			err = fmt.Errorf("do request error: %+v for %s url: %s\n", err, method, url)
 			fatalOnError(err, false)
 			return
 		}
-		err = fmt.Errorf("yaml decode error: %+v for %s url: %s\nBody: %s\n", err, method, url, body)
-		fatalOnError(err, false)
-		return
+		if i == 0 && resp.StatusCode == 401 {
+			_ = resp.Body.Close()
+			mPrintf("Token is invalid, trying to generate another one\n")
+			err = getToken()
+			if err != nil {
+				fatalOnError(err, false)
+				return
+			}
+			continue
+		}
+		if resp.StatusCode != 200 {
+			body, err := ioutil.ReadAll(resp.Body)
+			_ = resp.Body.Close()
+			if err != nil {
+				err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s\n", err, method, url)
+				fatalOnError(err, false)
+				return
+			}
+			err = fmt.Errorf("Method:%s url:%s status:%d\n%s\n", method, url, resp.StatusCode, body)
+			fatalOnError(err, false)
+			return
+		}
+		var payload allArrayOutput
+		err = yaml.NewDecoder(resp.Body).Decode(&payload)
+		_ = resp.Body.Close()
+		if err != nil {
+			body, err2 := ioutil.ReadAll(resp.Body)
+			if err2 != nil {
+				err2 = fmt.Errorf("ReadAll yaml request error: %+v, %+v for %s url: %s\n", err, err2, method, url)
+				fatalOnError(err, false)
+				return
+			}
+			err = fmt.Errorf("yaml decode error: %+v for %s url: %s\nBody: %s\n", err, method, url, body)
+			fatalOnError(err, false)
+			return
+		}
+		ok = true
+		profs = payload.Profiles
+		break
 	}
-	ok = true
-	profs = payload.Profiles
 	return
 }
 
 func updateDB(addDB, delDB []*allOutput) (ok bool) {
+	if gToken == "" {
+		mPrintf("Obtaining API token\n")
+		err := getToken()
+		if err != nil {
+			fatalOnError(err, false)
+			return
+		}
+	}
 	var update dbUpdate
 	update.Add = addDB
 	update.Del = delDB
@@ -600,49 +630,62 @@ func updateDB(addDB, delDB []*allOutput) (ok bool) {
 	payloadBody := bytes.NewReader(payloadBytes)
 	method := "POST"
 	url := fmt.Sprintf("%s/v1/affiliation/bulk_update", os.Getenv("DA_API_URL"))
-	mPrintf("DA affiliation API 'bulk_update' request\n")
-	req, err := http.NewRequest(method, os.ExpandEnv(url), payloadBody)
-	if err != nil {
-		err = fmt.Errorf("new request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
-		fatalOnError(err, false)
-		return
-	}
-	req.Header.Set("Content-Type", "application/yaml")
-	resp, err := http.DefaultClient.Do(req)
-	if err != nil {
-		err = fmt.Errorf("do request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
-		fatalOnError(err, false)
-		return
-	}
-	defer func() {
-		_ = resp.Body.Close()
-	}()
-	if resp.StatusCode != 200 {
-		body, err := ioutil.ReadAll(resp.Body)
+	for i := 0; i < 2; i++ {
+		mPrintf("DA affiliation API 'bulk_update' request\n")
+		req, err := http.NewRequest(method, os.ExpandEnv(url), payloadBody)
 		if err != nil {
-			err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
+			err = fmt.Errorf("new request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
 			fatalOnError(err, false)
 			return
 		}
-		err = fmt.Errorf("Method:%s url:%s status:%d payload: %s\n%s\n", method, url, resp.StatusCode, string(payloadBytes), body)
-		fatalOnError(err, false)
-		return
-	}
-	var payload textStatusOutput
-	err = yaml.NewDecoder(resp.Body).Decode(&payload)
-	if err != nil {
-		body, err2 := ioutil.ReadAll(resp.Body)
-		if err2 != nil {
-			err2 = fmt.Errorf("ReadAll yaml request error: %+v, %+v for %s url: %s, payload: %s\n", err, err2, method, url, string(payloadBytes))
+		req.Header.Set("Content-Type", "application/yaml")
+		req.Header.Set("Authorization", gToken)
+		resp, err := http.DefaultClient.Do(req)
+		if err != nil {
+			err = fmt.Errorf("do request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
 			fatalOnError(err, false)
 			return
 		}
-		err = fmt.Errorf("yaml decode error: %+v for %s url: %s, payload: %s\nBody: %s\n", err, method, url, string(payloadBytes), body)
-		fatalOnError(err, false)
-		return
+		if i == 0 && resp.StatusCode == 401 {
+			_ = resp.Body.Close()
+			mPrintf("Token is invalid, trying to generate another one\n")
+			err = getToken()
+			if err != nil {
+				fatalOnError(err, false)
+				return
+			}
+			continue
+		}
+		if resp.StatusCode != 200 {
+			body, err := ioutil.ReadAll(resp.Body)
+			_ = resp.Body.Close()
+			if err != nil {
+				err = fmt.Errorf("ReadAll non-ok request error: %+v for %s url: %s, payload: %s\n", err, method, url, string(payloadBytes))
+				fatalOnError(err, false)
+				return
+			}
+			err = fmt.Errorf("Method:%s url:%s status:%d payload: %s\n%s\n", method, url, resp.StatusCode, string(payloadBytes), body)
+			fatalOnError(err, false)
+			return
+		}
+		var payload textStatusOutput
+		err = yaml.NewDecoder(resp.Body).Decode(&payload)
+		_ = resp.Body.Close()
+		if err != nil {
+			body, err2 := ioutil.ReadAll(resp.Body)
+			if err2 != nil {
+				err2 = fmt.Errorf("ReadAll yaml request error: %+v, %+v for %s url: %s, payload: %s\n", err, err2, method, url, string(payloadBytes))
+				fatalOnError(err, false)
+				return
+			}
+			err = fmt.Errorf("yaml decode error: %+v for %s url: %s, payload: %s\nBody: %s\n", err, method, url, string(payloadBytes), body)
+			fatalOnError(err, false)
+			return
+		}
+		mPrintf("API result: %s\n", payload.Text)
+		ok = true
+		break
 	}
-	mPrintf("API result: %s\n", payload.Text)
-	ok = true
 	return
 }
 
@@ -907,6 +950,7 @@ func checkEnv() {
 			fatalf(true, "%s env variable must be set", env)
 		}
 	}
+	gToken = os.Getenv("JWT_TOKEN")
 }
 
 func serve() {
