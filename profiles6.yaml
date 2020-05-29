@@ -10573,9 +10573,15 @@ P:
   U: Luc Pioro
 - E: luc.provoost!intel.com
   R:
+  - T: "1998-01-01"
+    C: Nokia Corporation
+    F: "1990-01-01"
+  - T: "2000-01-01"
+    C: Dialogic Inc.
+    F: "1998-01-01"
   - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
+    C: Intel Corporation
+    F: "2000-01-01"
   I:
   - M: Luc Provoost
     S: confluence
@@ -12099,6 +12105,27 @@ P:
     S: git
   B: 0
   U: Luis Davim
+- E: luis.farias!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2019-02-01"
+  I:
+  - E: Luis.farias!intel.com
+    M: Luis Farias
+    S: gerrit
+    U: Lvfarias
+  - E: luis.farias!intel.com
+    M: Luis Farias
+    S: gerrit
+  - E: luis.farias!intel.com
+    M: Luis Farias
+    S: git
+  - M: Luis Farias
+    S: jira
+    U: Lvfarias
+  B: 0
+  U: Luis Farias
 - E: luis.felipe.sandoval.castro!intel.com
   R:
   - T: "2100-01-01"
@@ -25290,6 +25317,9 @@ P:
     M: Marek Gradzki
     S: gerrit
   - E: mgradzki!cisco.com
+    M: Marek Gradzki
+    S: git
+  - E: mgradzki!cisco.com
     M: Marek Gradzki -X (mgradzki - PANTHEON TECHNOLOGIES
     S: groupsio
   - E: mgradzki!cisco.com
@@ -25300,7 +25330,7 @@ P:
     M: Marek Gradzki -X mgradzki - PANTHEON TECHNOLOGIES
     S: pipermail
   B: 0
-  U: Marek Gradzki -X mgradzki - PANTHEON TECHNOLOGIES
+  U: Marek Gradzki
 - E: marek.kukulski!nokia.com
   R:
   - T: "2100-01-01"
@@ -43057,9 +43087,22 @@ P:
     C: Netgate
     F: "2012-12-31"
   I:
+  - M: Matthew Smith
+    S: bugzilla
+    U: mgsmith
+  - M: Matthew Smith
+    S: bugzillarest
+    U: mgsmith
+  - E: mgsmith!netgate.com
+    M: Matthew Smith
+    S: gerrit
+    U: mgsmith
   - E: mgsmith!netgate.com
     M: Matthew Smith
     S: git
+  - E: mgsmith!netgate.com
+    M: Matthew Smith
+    S: groupsio
   - E: mgsmith!netgate.com
     M: Matthew Smith
     S: jira
@@ -60870,55 +60913,3 @@ P:
     S: git
   B: 0
   U: Mikaël Cluseau
-- C: NC
-  E: mikael.cluseau!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: ISI
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: mikael.cluseau!gmail.com
-    M: Mikaël Cluseau
-    S: git
-  B: 0
-  U: Mikaël Cluseau
-- E: maccetta!laurelnetworks.com
-  R:
-  - T: "2100-01-01"
-    C: Laurel Networks
-    F: "1900-01-01"
-  I:
-  - E: maccetta!laurelnetworks.com
-    M: Mike Accetta
-    S: git
-  B: 0
-  U: Mike Accetta
-- C: US
-  E: altman.mike.s!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: altman.mike.s!gmail.com
-    M: Mike Altman
-    S: git
-  - E: altman.mike.s!gmail.com
-    M: Mike Altman
-    S: github
-    U: mikealt
-  B: 0
-  U: Mike Altman
-- E: andmike!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: andmike!linux.vnet.ibm.com
-    M: Mike Anderson
-    S: git
-  B: 0
-  U: Mike Anderson
