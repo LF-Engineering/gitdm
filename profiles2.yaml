@@ -1,4 +1,54 @@
 P:
+- E: atul.kshirsagar!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "1900-01-01"
+  I:
+  - E: atul.kshirsagar!ge.com
+    M: Atul Kshirsagar
+    S: gerrit
+    U: atulkc
+  - E: atul.kshirsagar!ge.com
+    M: Atul Kshirsagar
+    S: git
+  B: 0
+  U: Atul Kshirsagar
+- E: amoghe!juniper.net
+  R:
+  - T: "1997-06-01"
+    C: Wipro
+    F: "1996-01-01"
+  - T: "2006-06-01"
+    C: Cisco
+    F: "2001-01-01"
+  - T: "2010-11-01"
+    C: Juniper Networks
+    F: "2006-06-01"
+  - T: "2013-04-01"
+    C: Aruba Networks
+    F: "2010-07-01"
+  I:
+  - E: amoghe!juniper.net
+    M: Atul Moghe
+    S: jira
+    U: amoghe
+  B: 0
+  U: Atul Moghe
+- E: atul.pandey!nectechnologies.in
+  R:
+  - T: "2100-01-01"
+    C: NEC
+    F: "1900-01-01"
+  I:
+  - E: atul.pandey!nectechnologies.in
+    M: Atul Pandey
+    S: groupsio
+  - E: atul.pandey!nectechnologies.in
+    M: Atul Pandey
+    S: pipermail
+  B: 0
+  U: Atul Pandey
 - E: atul.purohit1!vodafone.com
   R:
   - T: "2100-01-01"
@@ -1964,15 +2014,26 @@ P:
     S: git
   B: 0
   U: Axel Lin
-- E: axel.nennker!telekom.de
+- C: DE
+  E: axel.nennker!telekom.de
   R:
   - T: "2100-01-01"
     C: Deutsche Telekom
     F: "1900-01-01"
+  S: male
   I:
+  - E: axel!nennker.de
+    M: Axel Nennker
+    S: git
   - E: axel.nennker!telekom.de
     M: Axel Nennker
     S: git
+  - M: Axel Nennker
+    S: github
+    U: AxelNennker
+  - M: Axel Nennker
+    S: jira
+    U: ignisvulpis
   B: 0
   U: Axel Nennker
 - C: DE
@@ -2958,6 +3019,39 @@ P:
     U: kunal.bagwe
   B: 0
   U: Bagwe, Kunal
+- E: baha.shaaban!securekey.com
+  R:
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2016-12-31"
+  I:
+  - M: Baha A Shaaban
+    S: confluence
+    U: Baha-sk
+  - E: baha.shaaban!securekey.com
+    M: Baha A Shaaban
+    S: gerrit
+    U: Baha-sk
+  - E: baha.shaaban!securekey.com
+    M: Baha A Shaaban
+    S: git
+  - E: baha.shaaban!securekey.com
+    M: Baha Shaaban
+    S: git
+  - E: 29608896+Baha-sk!users.noreply.github.com
+    M: Baha
+    S: git
+  - M: Baha
+    S: github
+    U: Baha-sk
+  - M: Baha A Shaaban
+    S: jira
+    U: Baha-sk
+  - M: Bahaiddine Abu Shaaban
+    S: jira
+    U: Baha-sk
+  B: 0
+  U: Baha A Shaaban
 - E: baha.mesleh!nokia.com
   R:
   - T: "2100-01-01"
@@ -2966,6 +3060,10 @@ P:
   I:
   - M: Baha Mesleh
     S: confluence
+    U: mesleh
+  - E: baha.mesleh!nokia.com
+    M: Baha Mesleh
+    S: gerrit
     U: mesleh
   - E: baha.mesleh!nokia.com
     M: Baha Mesleh
@@ -3481,17 +3579,6 @@ P:
     S: gerrit
   - E: balazs.szekeres!nokia.com
     M: Balazs Szekeres
-    S: git
-  B: 0
-  U: Balazs Szekeres
-- E: balazs.szekeres!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  I:
-  - E: balazs.szekeres!nokia.com
-    M: Szekeres, Balazs (Nokia - HU/Budapest)
     S: git
   B: 0
   U: Balazs Szekeres
@@ -12397,6 +12484,16 @@ P:
     S: git
   B: 0
   U: Bharata B Rao
+- R:
+  - T: "2100-01-01"
+    C: AT&T
+    F: "2019-01-02"
+  I:
+  - M: Bharath Balasubramanian
+    S: jira
+    U: bharathb
+  B: 0
+  U: Bharath Balasubramanian
 - E: bharathb!research.att.com
   R:
   - T: "2100-01-01"
@@ -21003,6 +21100,32 @@ P:
     U: brent.smithurst
   B: 0
   U: Brent Smithurst
+- E: brent.zundel!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Sovrin Foundation
+    F: "2016-12-31"
+  I:
+  - M: Brent Zundel
+    S: confluence
+    U: brentzundel
+  - E: brent.zundel!gmail.com
+    M: Brent Zundel
+    S: git
+  - E: brent.zundel!gmail.com
+    M: Brent
+    S: git
+  - E: brentzundel!users.noreply.github.com
+    M: Brent
+    S: git
+  - M: Brent
+    S: github
+    U: brentzundel
+  - M: Brent Zundel
+    S: jira
+    U: brentzundel
+  B: 0
+  U: Brent Zundel
 - E: brent.weaver!ge.com
   R:
   - T: "2100-01-01"
@@ -23324,6 +23447,23 @@ P:
     S: git
   B: 0
   U: Bridge Wu
+- E: bridger!bitwise.io
+  R:
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2016-12-31"
+  I:
+  - E: bridger!bitwise.io
+    M: Bridger Herman
+    S: git
+  - E: scooteeroo!gmail.com
+    M: Bridger Herman
+    S: git
+  - M: Bridger Herman
+    S: github
+    U: bridger-herman
+  B: 0
+  U: Bridger Herman
 - C: US
   E: bridget!kromhout.org
   R:
@@ -30796,15 +30936,15 @@ P:
   - T: "2100-01-01"
     C: Monax
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Monax
-    F: "2014-06-30"
   S: male
   I:
   - E: casey!erisindustries.com
     M: Casey Kuhlman
     S: git
   - E: casey!monax.io
+    M: Casey Kuhlman
+    S: git
+  - E: casey.kuhlman!monax.io
     M: Casey Kuhlman
     S: git
   - M: Casey Kuhlman
@@ -59244,15 +59384,27 @@ P:
   - E: dan.middleton!intel.com
     M: Dan
     S: git
+  - E: dcmiddle!users.noreply.github.com
+    M: Dan
+    S: git
   - E: dan.middleton!intel.com
     M: Middleton, Dan
+    S: git
+  - E: dcmiddle!DanCap.bal0n4pmefsepi0vw1tnchr0ec.ax.internal.cloudapp.net
+    M: Ubuntu
     S: git
   - E: dan.middleton!intel.com
     M: dcmiddle
     S: git
+  - M: Dan
+    S: github
+    U: dcmiddle
   - M: Dan Middleton
     S: jira
     U: dan.middleton
+  - M: dcmiddle
+    S: supybot
+    U: dcmiddle
   B: 0
   U: Dan Middleton
 - E: dan!midokura.com
@@ -59982,6 +60134,17 @@ P:
     S: git
   B: 0
   U: Dan Sexton
+- E: dan.she!certik.io
+  R:
+  - T: "2100-01-01"
+    C: Certik.io
+    F: "2019-11-01"
+  I:
+  - E: dan.she!certik.io
+    M: Dan
+    S: git
+  B: 0
+  U: Dan She
 - C: US
   R:
   - T: "2015-04-01"
@@ -60583,198 +60746,3 @@ P:
     S: pipermail
   B: 0
   U: Dan Xu
-- E: dan.yocom!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: dan.yocom!intel.com
-    M: Dan Yocom
-    S: git
-  B: 0
-  U: Dan Yocom
-- R:
-  - T: "2100-01-01"
-    C: Engineer Better
-    F: "1900-01-01"
-  I:
-  - E: dan.young!engineerbetter.com
-    S: cloudfoundry:manual
-  - M: Dan Young
-    S: cloudfoundry:manual
-  - E: dan.young!engineerbetter.com
-    M: Dan Young
-    S: file:cff
-  - E: dan.young!engineerbetter.com
-    M: Dan Young
-    S: git
-  - E: dan.young!engineerbetter.com
-    M: Dan Young
-    S: groupsio
-  - E: dan.young!engineerbetter.com
-    M: Dan Young
-    S: mbox
-  - E: dan.young!engineerbetter.com
-    M: Dan Young
-    S: slack
-    U: danyoung
-  B: 0
-  U: Dan Young
-- E: danzh!chromium.org
-  R:
-  - T: "2100-01-01"
-    C: Google, Inc.
-    F: "1900-01-01"
-  I:
-  - E: danzh!chromium.org
-    M: Dan Zhang
-    S: slack
-    U: danzh
-  B: 0
-  U: Dan Zhang
-- E: danzh!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  I:
-  - E: danzh!google.com
-    M: Dan Zhang
-    S: slack
-    U: danzh608
-  B: 0
-  U: Dan Zhang
-- C: CH
-  E: daniel.vanderster!cern.ch
-  R:
-  - T: "2100-01-01"
-    C: CERN
-    F: "1900-01-01"
-  I:
-  - E: daniel.vanderster!cern.ch
-    M: Dan van der Ster
-    S: git
-  B: 0
-  U: Dan van der Ster
-- E: danmx!users.noreply.github.com
-  R:
-  - T: "2015-03-01"
-    C: SecuRing
-    F: "1900-01-01"
-  - T: "2015-11-01"
-    C: ASTEK
-    F: "2015-03-01"
-  - T: "2016-12-01"
-    C: Silvair
-    F: "2015-11-01"
-  - T: "2018-12-01"
-    C: Schibsted
-    F: "2016-12-01"
-  - T: "2019-10-01"
-    C: Adevinta
-    F: "2018-12-01"
-  - T: "2100-01-01"
-    C: Skyscanner
-    F: "2019-10-01"
-  S: male
-  I:
-  - E: danmx!users.noreply.github.com
-    M: Dan
-    S: git
-  B: 0
-  U: Dan
-- E: dmackX!mbmahaja-mobl.amr.corp.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  I:
-  - E: dmackX!mbmahaja-mobl.amr.corp.intel.com
-    M: DanX Mack
-    S: git
-  B: 0
-  U: DanX Mack
-- E: dw2049!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  I:
-  - M: Dana Bobko
-    S: confluence
-    U: dw2049
-  B: 0
-  U: Dana Bobko
-- E: dd775k!intl.att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  I:
-  - E: dd775k!intl.att.com
-    M: Dana David
-    S: gerrit
-    U: dd775k
-  - E: dd775k!intl.att.com
-    M: David, Dana (dd775k)
-    S: git
-  B: 0
-  U: Dana David
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: female
-  I:
-  - M: Dana Hoffman
-    S: github
-    U: danawillow
-  B: 0
-  U: Dana Hoffman
-- C: US
-  E: danahoffman!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: female
-  I:
-  - E: danahoffman!google.com
-    M: Dana Hoffman
-    S: git
-  - E: danahoffman!google.com
-    M: danawillow
-    S: git
-  - E: danahoffman!google.com
-    M: Dana Hoffman
-    S: slack
-    U: danahoffman
-  B: 0
-  U: Dana Hoffman
-- E: dnourie!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware
-    F: "1900-01-01"
-  I:
-  - E: dnourie!vmware.com
-    M: Dana Nourie
-    S: git
-  B: 0
-  U: Dana Nourie
-- R:
-  - T: "2014-12-01"
-    C: Xerox
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Greenhouse
-    F: "2014-12-01"
-  S: male
-  I:
-  - M: Dana Pieluszczak
-    S: github
-    U: danajp
-  B: 0
-  U: Dana Pieluszczak
