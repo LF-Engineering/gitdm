@@ -1,4 +1,93 @@
 P:
+- C: BY
+  R:
+  - T: "2016-05-01"
+    C: Yandex
+    F: "1900-01-01"
+  - T: "2016-08-01"
+    C: SoftServe
+    F: "2016-05-01"
+  - T: "2018-05-01"
+    C: Juno
+    F: "2016-08-01"
+  - T: "2100-01-01"
+    C: BrightLocal
+    F: "2018-05-01"
+  I:
+  - M: Sergey Mudrik
+    S: github
+    U: msoap
+  B: 0
+  U: Sergey Mudrik
+- C: BY
+  E: sergey.mudrik!gmail.com
+  R:
+  - T: "2016-05-01"
+    C: Yandex
+    F: "1900-01-01"
+  - T: "2016-08-01"
+    C: SoftServe
+    F: "2016-05-01"
+  - T: "2018-05-01"
+    C: Juno
+    F: "2016-08-01"
+  - T: "2100-01-01"
+    C: BrightLocal
+    F: "2018-05-01"
+  I:
+  - E: sergey.mudrik!gmail.com
+    M: Sergey Mudrik
+    S: git
+  B: 0
+  U: Sergey Mudrik
+- E: sergey.nemov!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+  I:
+  - E: sergey.nemov!intel.com
+    M: Sergey Nemov
+    S: git
+  B: 0
+  U: Sergey Nemov
+- C: GB
+  E: ipaq.lw!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Prom.ua
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: ipaq.lw!gmail.com
+    M: Sergey Nuzhdin
+    S: git
+  - E: ipaq.lw!gmail.com
+    M: Sergey Nuzhdin
+    S: github
+    U: lwolf
+  B: 0
+  U: Sergey Nuzhdin
+- R:
+  - T: "2015-05-01"
+    C: Signatek
+    F: "1900-01-01"
+  - T: "2017-04-01"
+    C: Independent
+    F: "2015-05-01"
+  - T: "2019-07-01"
+    C: CloudBlue
+    F: "2017-04-01"
+  - T: "2100-01-01"
+    C: Non-Disclosure
+    F: "2019-07-01"
+  S: male
+  I:
+  - M: Sergey Orlov
+    S: github
+    U: marrrvin
+  B: 0
+  U: Sergey Orlov
 - E: marrrvin!users.noreply.github.com
   R:
   - T: "2015-05-01"
@@ -12944,6 +13033,32 @@ P:
     S: pipermail
   B: 0
   U: Sivaprasad Pala RBEI/EAA1
+- E: Sivaprasad.Tummala!intel.com
+  R:
+  - T: "2010-10-01"
+    C: Wipro Limited
+    F: "2007-12-01"
+  - T: "2011-02-01"
+    C: Aricent
+    F: "2010-10-01"
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2011-02-01"
+  I:
+  - M: SivaPrasad Tummala
+    S: bugzilla
+    U: sivaprasad.tummala
+  - M: SivaPrasad Tummala
+    S: bugzillarest
+    U: sivaprasad.tummala
+  - E: Sivaprasad.Tummala!intel.com
+    M: Sivaprasad Tummala
+    S: git
+  - E: Sivaprasad.Tummala!intel.com
+    M: Sivaprasad Tummala
+    S: pipermail
+  B: 0
+  U: Sivaprasad Tummala
 - E: sivaramakrishnan.rajaraman!ericsson.com
   R:
   - T: "2100-01-01"
@@ -15805,6 +15920,34 @@ P:
     S: git
   B: 0
   U: Soutaro Matsumoto
+- E: sodey!sonusnet.com
+  R:
+  - T: "2010-07-01"
+    C: Nokia Corporation
+    F: "2005-06-01"
+  - T: "2100-01-01"
+    C: Ribbon Communications Operating Company, Inc.
+    F: "2010-07-01"
+  S: male
+  I:
+  - E: sodey!sonusnet.com
+    M: Souvik Dey
+    S: git
+  - E: sodey!sonusnet.com
+    M: Souvik Dey
+    S: github
+    U: DeySouvik
+  - E: sodey!sonusnet.com
+    M: Dey, Souvik
+    S: pipermail
+  - E: sodey!sonusnet.com
+    M: Dey
+    S: pipermail
+  - E: sodey!sonusnet.com
+    M: souvikdey33
+    S: pipermail
+  B: 0
+  U: Souvik Dey
 - E: souvik.k.chakravarty!intel.com
   R:
   - T: "2100-01-01"
@@ -40573,10 +40716,13 @@ P:
 - E: kondoj.tejasree!caviumnetworks.com
   R:
   - T: "2100-01-01"
-    C: Cavium
-    F: "1900-01-01"
+    C: Marvell International Ltd
+    F: "2014-07-01"
   I:
   - E: kondoj.tejasree!caviumnetworks.com
+    M: Tejasree Kondoj
+    S: git
+  - E: ktejasree!marvell.com
     M: Tejasree Kondoj
     S: git
   B: 0
@@ -60477,104 +60623,3 @@ P:
     U: tackerman
   B: 0
   U: Trevor Ackerman
-- C: US
-  E: tbramwell!linuxfoundation.org
-  R:
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Trevor Bramwell
-    S: confluence
-    U: bramwelt
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: gerrit
-    U: bramwelt
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: git
-  - E: trevor!bramwell.net
-    M: Trevor Bramwell
-    S: git
-  - M: Trevor Bramwell
-    S: github
-    U: bramwelt
-  - E: trevor!bramwell.net
-    M: Trevor Bramwell
-    S: github
-    U: bramwelt
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: gmane
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: groupsio
-  - E: tbramwell!linuxfoundation.org
-    M: tbramwell
-    S: groupsio
-  - M: Trevor Bramwell
-    S: jira
-    U: bramwelt
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: jira
-    U: bramwelt
-  - E: tbramwell+test!linuxfoundation.org
-    M: Trevor BramwellTest
-    S: jira
-    U: bramwelttest
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: linux-foundation:mls
-    U: tbramwell
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: linux-foundation:scm
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: linux-foundation:scr
-    U: bramwelt
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: mbox
-  - E: tbramwell!linuxfoundation.org
-    M: Trevor Bramwell
-    S: pipermail
-  - E: tbramwell!linuxfoundation.org
-    M: tbramwell
-    S: pipermail
-  B: 0
-  U: Trevor Bramwell
-- E: yuggoth23!yahoo.com
-  R:
-  - T: "2100-01-01"
-    C: Dell
-    F: "1900-01-01"
-  I:
-  - M: Trevor Conn
-    S: confluence
-    U: tsconn23
-  - E: trevor!mykolab.com
-    M: Trevor Conn
-    S: git
-  - E: trevor_conn!dell.com
-    M: Trevor Conn
-    S: git
-  - E: yuggoth23!yahoo.com
-    M: Trevor Conn
-    S: git
-  - M: Trevor Conn
-    S: github
-    U: tsconn23
-  - E: trevor.conn!dell.com
-    M: Trevor Conn
-    S: slack
-    U: trevor.conn
-  - E: trevor_conn!dell.com
-    M: tsconn23
-    S: slack
-    U: trevor_conn
-  B: 0
-  U: Trevor Conn
