@@ -1,5 +1,29 @@
 P:
 - C: US
+  R:
+  - T: "2015-01-01"
+    C: bubblr
+    F: "1900-01-01"
+  - T: "2015-07-01"
+    C: Puppet
+    F: "2015-01-01"
+  - T: "2016-11-01"
+    C: Hashicorp
+    F: "2015-07-01"
+  - T: "2018-03-01"
+    C: Nike
+    F: "2016-11-01"
+  - T: "2100-01-01"
+    C: DoorDash
+    F: "2018-03-01"
+  S: male
+  I:
+  - M: Jay Wallace
+    S: github
+    U: mootpt
+  B: 0
+  U: Jay Wallace
+- C: US
   E: jay.wallace!doordash.com
   R:
   - T: "2015-01-01"
@@ -1587,6 +1611,27 @@ P:
     S: git
   B: 0
   U: Jeegn Chen
+- E: jholim!lgcns.com
+  R:
+  - T: "2100-01-01"
+    C: LG CNS
+    F: "1999-12-31"
+  I:
+  - E: jholim!lgcns.com
+    M: Jeehoon Lim
+    S: gerrit
+    U: magpie73
+  - E: jholim!lgcns.com
+    M: Jeehoon Lim
+    S: git
+  - E: jholim!lgcns.com
+    M: magpie73
+    S: git
+  - M: Jeehoon Lim
+    S: jira
+    U: magpie73
+  B: 0
+  U: Jeehoon Lim
 - E: jeeja.kp!intel.com
   R:
   - T: "2100-01-01"
@@ -61546,64 +61591,3 @@ P:
     U: krzysztof.slonka
   B: 0
   U: Krzysztof Słonka
-- C: DE
-  E: kw!linux.com
-  R:
-  - T: "2014-06-01"
-    C: RMS
-    F: "1900-01-01"
-  - T: "2015-02-01"
-    C: Independent
-    F: "2014-06-01"
-  - T: "2015-06-01"
-    C: Devops
-    F: "2015-02-01"
-  - T: "2015-11-01"
-    C: Rakuten
-    F: "2015-06-01"
-  - T: "2016-04-01"
-    C: Fast Retailing
-    F: "2015-11-01"
-  - T: "2016-08-01"
-    C: Independent
-    F: "2016-04-01"
-  - T: "2017-01-01"
-    C: Automation Logic
-    F: "2016-08-01"
-  - T: "2017-10-01"
-    C: Paperless Post
-    F: "2017-01-01"
-  - T: "2018-03-01"
-    C: OLX Group
-    F: "2017-10-01"
-  - T: "2018-07-01"
-    C: Joyent
-    F: "2018-03-01"
-  - T: "2019-03-01"
-    C: Tenable
-    F: "2018-07-01"
-  - T: "2100-01-01"
-    C: Elastic
-    F: "2019-03-01"
-  S: male
-  I:
-  - E: kw!linux.com
-    M: Krzysztof Wilczynski
-    S: git
-  B: 0
-  U: Krzysztof Wilczynski
-- E: krzysztof.wrobel!codilime.com
-  R:
-  - T: "2018-09-01"
-    C: Samsung Electronics
-    F: "2007-02-01"
-  - T: "2100-01-01"
-    C: CodiLime
-    F: "2018-10-01"
-  I:
-  - E: krzysztof.wrobel!codilime.com
-    M: Krzysztof Wróbel
-    S: jira
-    U: kwrobel
-  B: 0
-  U: Krzysztof Wróbel
