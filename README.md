@@ -22,10 +22,11 @@ P:                                          # 'profiles' (profile holds possible
                                             # for example git, GitHub, Jira, Slack etc.
 - C: PL                                     # profile's 'country code' - if defined must be a correct two letter country code
   E: lukaszgryglicki!o2.pl                  # profile's 'email', all emails have their '@' replaced with '!'
-  R:                                        # profile 'enrollments' list, at lease one enrollment must be present
+  R:                                        # profile 'enrollments' list, at least one enrollment must be present
   - T: "2006-03-01"                         # enrollment 'date to' - required
     C: Independent                          # enrollment 'organization' - required
     F: "1900-01-01"                         # enrollment 'date from' - required
+    P: "lfn/onap"                           # enrollment 'project_slug' - optional, if set - given enrollment is project specific, if null - given enrollment is global
 (...)
   S: male                                   # profile's 'sex'/'gender'
   I:                                        # profiles 'identities' list (each profile must have source liek git/Jira//Slack), at least one identity must be present
