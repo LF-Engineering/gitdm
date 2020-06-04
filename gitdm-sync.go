@@ -35,9 +35,10 @@ var (
 )
 
 type enrollmentShortOutput struct {
-	End          string `yaml:"T"`
-	Organization string `yaml:"C"`
-	Start        string `yaml:"F"`
+	End          string  `yaml:"T"`
+	Organization string  `yaml:"C"`
+	Start        string  `yaml:"F"`
+	ProjectSlug  *string `yaml:"P,omitempty"`
 }
 
 type identityShortOutput struct {
@@ -71,11 +72,19 @@ type textStatusOutput struct {
 }
 
 func (e *enrollmentShortOutput) size() int {
-	return 48 + len([]byte(e.Organization))
+	b := 48 + len([]byte(e.Organization))
+	if e.ProjectSlug != nil {
+		b += 8 + len([]byte(*e.ProjectSlug))
+	}
+	return b
 }
 
-func (e *enrollmentShortOutput) sortKey() string {
-	return e.Start + ":" + e.End + ":" + e.Organization
+func (e *enrollmentShortOutput) sortKey() (key string) {
+	key = e.Start + ":" + e.End + ":" + e.Organization + ":"
+	if e.ProjectSlug != nil {
+		key += *(e.ProjectSlug)
+	}
+	return
 }
 
 func (i *identityShortOutput) size() int {
