@@ -1,4 +1,29 @@
 P:
+- E: as005h!att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T
+    F: "1900-01-01"
+  I:
+  - E: as005h!att.com
+    M: as005h
+    S: gerrit
+  - E: as005h!att.com
+    M: as005h
+    S: git
+  B: 0
+  U: as005h
+- E: asetty!arista.com
+  R:
+  - T: "2100-01-01"
+    C: Arista Networks
+    F: "1900-01-01"
+  I:
+  - E: asetty!arista.com
+    M: asetty
+    S: git
+  B: 0
+  U: asetty
 - E: asha.yadav!ge.com
   R:
   - T: "2100-01-01"
@@ -63070,24 +63095,3 @@ P:
     S: pipermail
   B: 0
   U: stephen.gooch
-- E: stephen.vall!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: stephen.vall!ibm.com
-    M: stephen.vall
-    S: slack
-    U: stephen.vall
-  B: 0
-  U: stephen.vall
-- R:
-  - T: "2100-01-01"
-    C: US National Security Agency
-    F: "1900-01-01"
-  I:
-  - S: github
-    U: stephensmalley
-  B: 0
-  U: stephensmalley
