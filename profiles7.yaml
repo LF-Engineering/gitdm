@@ -1,4 +1,98 @@
 P:
+- C: TZ
+  E: menghanl!google.com
+  R:
+  - T: "2016-02-01"
+    C: Oracle
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-02-01"
+  S: male
+  I:
+  - E: menghanl!google.com
+    M: Menghan Li
+    S: git
+  B: 0
+  U: Menghan Li
+- C: CN
+  E: arieshout!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft
+    F: "1900-01-01"
+  S: female
+  I:
+  - E: arieshout!gmail.com
+    M: Menghua Xiao
+    S: github
+    U: ArieShout
+  B: 0
+  U: Menghua Xiao
+- C: CN
+  E: baomengjiang!caicloud.io
+  R:
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: baomengjiang!caicloud.io
+    M: Mengjiang Bao
+    S: git
+  - E: baomengjiang!caicloud.io
+    M: 包梦江
+    S: git
+  B: 0
+  U: Mengjiang Bao
+- C: IT
+  E: baomengjiang!gmail.com
+  R:
+  - T: "2015-03-15"
+    C: ThoughtWorks
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
+  - T: "2015-06-15"
+    C: Avaaz.org
+    F: "2015-03-15"
+  - T: "2016-04-15"
+    C: MixRadio
+    F: "2015-06-15"
+  - T: "2100-01-01"
+    C: OVO Energy
+    F: "2016-04-15"
+  S: male
+  I:
+  - E: baomengjiang!gmail.com
+    M: Mengjiang Bao
+    S: github
+    U: bbbmj
+  B: 0
+  U: Mengjiang Bao
+- C: US
+  E: mengqiyu1991!gmail.com
+  R:
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2015-09-01"
+    C: Arris
+    F: "2015-06-01"
+  - T: "2016-07-01"
+    C: Independent
+    F: "2015-09-01"
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-07-01"
+  S: male
+  I:
+  - E: mengqiyu1991!gmail.com
+    M: Mengqi Yu
+    S: git
+  B: 0
+  U: Mengqi Yu
 - E: zhang.mengran!h3c.com
   R:
   - T: "2100-01-01"
@@ -5365,7 +5459,7 @@ P:
   B: 0
   U: Michael Qiu
 - C: NI
-  E: qdy220091330!gmail.com
+  E: qiudayu!chinac.com
   R:
   - T: "2100-01-01"
     C: IBM
@@ -5373,7 +5467,20 @@ P:
   I:
   - E: qdy220091330!gmail.com
     M: Michael Qiu
+    S: gerrit
+    U: qdy220091330
+  - E: qdy220091330!gmail.com
+    M: Michael Qiu
     S: git
+  - E: qiudayu!chinac.com
+    M: Michael Qiu
+    S: git
+  - E: qdy220091330!gmail.com
+    M: Dayu Qiu
+    S: pipermail
+  - E: qdy220091330!gmail.com
+    M: Michael Qiu
+    S: pipermail
   B: 0
   U: Michael Qiu
 - C: US
@@ -60511,123 +60618,3 @@ P:
     U: peterbale
   B: 0
   U: Peter Bale
-- E: pbandzi!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
-  I:
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi
-    S: gerrit
-    U: pbandzi
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi
-    S: git
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi -X pbandzi - Pantheon Technologies SRO
-    S: gmane
-  - E: pbandzi!gmail.com
-    M: Peter Bandzi
-    S: gmane
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi -X (pbandzi - Pantheon Technologies SRO
-    S: groupsio
-  - E: pbandzi!gmail.com
-    M: Peter Bandzi
-    S: groupsio
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi
-    S: jira
-    U: pbandzi
-  - M: Peter Bandzi
-    S: linux-foundation:its
-    U: pbandzi
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi -X pbandzi - Pantheon Technologies SRO
-    S: linux-foundation:mls
-    U: pbandzi
-  - E: pbandzi!gmail.com
-    M: Peter Bandzi
-    S: linux-foundation:mls
-    U: pbandzi
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi
-    S: linux-foundation:scm
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi
-    S: linux-foundation:scr
-    U: pbandzi
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi -X pbandzi - Pantheon Technologies SRO
-    S: mbox
-  - E: pbandzi!gmail.com
-    M: Peter Bandzi
-    S: mbox
-  - E: pbandzi!cisco.com
-    M: Peter Bandzi -X pbandzi - Pantheon Technologies SRO
-    S: pipermail
-  - E: pbandzi!gmail.com
-    M: Peter Bandzi
-    S: pipermail
-  B: 0
-  U: Peter Bandzi
-- E: peter.barabas!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-  I:
-  - M: Peter Barabas
-    S: confluence
-    U: call-cc
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: gerrit
-    U: call-cc
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: git
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: gmane
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: groupsio
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: jira
-    U: call-cc
-  - M: Peter Barabas
-    S: linux-foundation:its
-    U: call-cc
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: linux-foundation:mls
-    U: peter.barabas
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: linux-foundation:scm
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: linux-foundation:scr
-    U: call-cc
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: mbox
-  - E: peter.barabas!ericsson.com
-    M: Peter Barabas
-    S: pipermail
-  B: 0
-  U: Peter Barabas
-- E: pbelanyi!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-  I:
-  - E: pbelanyi!redhat.com
-    M: Peter Belanyi
-    S: git
-  B: 0
-  U: Peter Belanyi
