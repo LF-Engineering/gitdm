@@ -1,4 +1,57 @@
 P:
+- E: tom.mcblain!att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T
+    F: "1900-01-01"
+  I:
+  - E: tom.mcblain!att.com
+    M: Tom McBlain
+    S: gerrit
+    U: tmcblain
+  - E: tom.mcblain!att.com
+    M: Mcblain, Thomas
+    S: git
+  B: 0
+  U: Tom McBlain
+- E: tmcneely!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - E: tmcneely!pivotal.io
+    M: Tom McNeely
+    S: git
+  - E: tmcneely!pivotal.io
+    M: Tom McNeely
+    S: slack
+    U: tmcneely
+  B: 0
+  U: Tom McNeely
+- R:
+  - T: "2100-01-01"
+    C: Thumbtack
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Tom Meagher
+    S: github
+    U: keypusher
+  B: 0
+  U: Tom Meagher
+- E: keypusher!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Thumbtack
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: keypusher!gmail.com
+    M: Tom Meagher
+    S: git
+  B: 0
+  U: Tom Meagher
 - E: tmeyer!pivotal.io
   R:
   - T: "2100-01-01"
@@ -17666,7 +17719,7 @@ P:
     U: vijaikumar.k
   B: 0
   U: Vijai Kumar K
-- E: vanandr!cisco.com
+- E: vijanand!juniper.net
   R:
   - T: "2012-01-01"
     C: Conexant Systems, Inc.
@@ -17692,8 +17745,12 @@ P:
     M: Vijay Anand Rajamani
     S: jira
     U: vanandr
+  - E: vijanand!juniper.net
+    M: Vijay Anand
+    S: jira
+    U: vijanand
   B: 0
-  U: Vijay Anand R
+  U: Vijay Anand
 - C: US
   E: vbellur!redhat.com
   R:
@@ -33636,7 +33693,7 @@ P:
   B: 0
   U: Wojciech Tyczynski
 - C: PL
-  E: wojciech.urbanski!codilime.com
+  E: wurbański!juniper.net
   R:
   - T: "2017-09-01"
     C: Intel Corporation
@@ -33644,15 +33701,9 @@ P:
   - T: "2017-09-01"
     C: Gdańsk University of Technology
     F: "2012-11-01"
-  - T: "2017-09-01"
-    C: Intel Corporation
-    F: "2013-02-01"
-  - T: "2020-03-01"
-    C: CodiLime
-    F: "2017-08-01"
   - T: "2100-01-01"
     C: CodiLime
-    F: "2017-09-01"
+    F: "2017-08-01"
   - T: "2100-01-01"
     C: Nine Fives Labs
     F: "2020-01-01"
@@ -33661,9 +33712,16 @@ P:
     F: "2020-04-01"
   S: male
   I:
+  - E: wojciech.urbanski+review.opencontrail.org!codilime.com
+    M: Wojciech Urbanski
+    S: git
   - E: wojciech.urbanski!codilime.com
     M: Wojciech Urbański
     S: git
+  - E: wurbański!juniper.net
+    M: Wojciech Urbański
+    S: jira
+    U: wurbański
   B: 0
   U: Wojciech Urbański
 - E: woz!semihalf.com
@@ -60889,40 +60947,3 @@ P:
     U: alexandre.bourdiol
   B: 0
   U: alexandre bourdiol
-- C: FR
-  E: alexandre.derumier!m6.fr
-  R:
-  - T: "2100-01-01"
-    C: Odiso
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: alexandre.derumier!m6.fr
-    M: alexandre derumier
-    S: github
-    U: aderumier
-  B: 0
-  U: alexandre derumier
-- E: alexandrelevine!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Cloudscaling
-    F: "1900-01-01"
-  I:
-  - E: alexandrelevine!gmail.com
-    M: alexandrelevine
-    S: git
-  B: 0
-  U: alexandrelevine
-- E: alex.peixoto!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-  I:
-  - E: alex.peixoto!ericsson.com
-    M: alexcp
-    S: slack
-    U: alexcp
-  B: 0
-  U: alexcp
