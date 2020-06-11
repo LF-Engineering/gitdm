@@ -1157,6 +1157,10 @@ P:
   - M: Jason Li
     S: confluence
     U: jason2018
+  - E: dl2017!att.com
+    M: Jason Li
+    S: jira
+    U: jason2018
   B: 0
   U: Jason Li
 - C: US
@@ -2078,6 +2082,9 @@ P:
   U: Jassi Brar
 - E: jasvinder.singh!intel.com
   R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
   - T: "2004-12-01"
     C: CSIR-CSIO
     F: "2004-03-01"
@@ -2093,9 +2100,6 @@ P:
   - T: "2015-02-01"
     C: Nimbus Research Centre
     F: "2012-11-01"
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-03-01"
   I:
   - M: Jasvinder Singh
     S: bugzilla
@@ -17907,6 +17911,10 @@ P:
     S: git
   - S: github
     U: JirkaAichler
+  - E: jiri.aichler!broadcom.com
+    M: Jiri Aichler
+    S: slack
+    U: jiri.aichler
   B: 0
   U: Jiri Aichler
 - R:
@@ -25686,79 +25694,6 @@ P:
   B: 0
   U: John Shahid & David Morhovich
 - C: US
-  E: jshahid!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: j.shahid!pivotal.io
-    S: cloudfoundry:manual
-  - E: jshahid!pivotal.io
-    S: cloudfoundry:manual
-  - E: jshahiid!pivotal.io
-    S: cloudfoundry:manual
-  - E: jvshahid!gmail.com
-    S: cloudfoundry:manual
-  - E: jvshahid!pivotal.io
-    S: cloudfoundry:manual
-  - M: John Shahid
-    S: cloudfoundry:manual
-  - M: jshahid
-    S: cloudfoundry:manual
-  - E: jshahid!pivotal.io
-    M: Ben Moss
-    S: git
-  - M: John Shahid
-    S: git
-  - E: j.shahid!pivotal.io
-    M: John Shahid
-    S: git
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: git
-  - E: jshahiid!pivotal.io
-    M: John Shahid
-    S: git
-  - E: jvshahid!gmail.com
-    M: John Shahid
-    S: git
-  - E: jvshahid!pivotal.io
-    M: John Shahid
-    S: git
-  - E: jshahid!pivotal.io
-    M: John_Shahid
-    S: git
-  - E: jvshahid!pivotal.io
-    M: John_Shahid
-    S: git
-  - M: jvshahid
-    S: git
-  - S: github
-    U: jvshahid
-  - M: John Shahid
-    S: github
-    U: jvshahid
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: groupsio
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: mbox
-  - S: slack
-    U: jvshahid
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: slack
-    U: jshahid
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: slack
-    U: jvshahid
-  B: 0
-  U: John Shahid
-- C: US
   R:
   - T: "2100-01-01"
     C: EagleEye Intelligence
@@ -26599,6 +26534,79 @@ P:
     U: JohnEz
   B: 0
   U: JohnEz
+- C: US
+  E: jshahid!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: j.shahid!pivotal.io
+    S: cloudfoundry:manual
+  - E: jshahid!pivotal.io
+    S: cloudfoundry:manual
+  - E: jshahiid!pivotal.io
+    S: cloudfoundry:manual
+  - E: jvshahid!gmail.com
+    S: cloudfoundry:manual
+  - E: jvshahid!pivotal.io
+    S: cloudfoundry:manual
+  - M: John Shahid
+    S: cloudfoundry:manual
+  - M: jshahid
+    S: cloudfoundry:manual
+  - E: jshahid!pivotal.io
+    M: Ben Moss
+    S: git
+  - M: John Shahid
+    S: git
+  - E: j.shahid!pivotal.io
+    M: John Shahid
+    S: git
+  - E: jshahid!pivotal.io
+    M: John Shahid
+    S: git
+  - E: jshahiid!pivotal.io
+    M: John Shahid
+    S: git
+  - E: jvshahid!gmail.com
+    M: John Shahid
+    S: git
+  - E: jvshahid!pivotal.io
+    M: John Shahid
+    S: git
+  - E: jshahid!pivotal.io
+    M: John_Shahid
+    S: git
+  - E: jvshahid!pivotal.io
+    M: John_Shahid
+    S: git
+  - M: jvshahid
+    S: git
+  - S: github
+    U: jvshahid
+  - M: John Shahid
+    S: github
+    U: jvshahid
+  - E: jshahid!pivotal.io
+    M: John Shahid
+    S: groupsio
+  - E: jshahid!pivotal.io
+    M: John Shahid
+    S: mbox
+  - S: slack
+    U: jvshahid
+  - E: jshahid!pivotal.io
+    M: John Shahid
+    S: slack
+    U: jshahid
+  - E: jshahid!pivotal.io
+    M: John Shahid
+    S: slack
+    U: jvshahid
+  B: 0
+  U: John_Shahid
 - R:
   - T: "2016-06-01"
     C: Google
@@ -34872,7 +34880,7 @@ P:
   B: 0
   U: Joseph O'Leary
 - C: US
-  E: j.palermo!pivotal.io
+  E: jpalermo!pivotal.io
   R:
   - T: "2100-01-01"
     C: Pivotal
