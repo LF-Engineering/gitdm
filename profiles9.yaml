@@ -1,4 +1,127 @@
 P:
+- C: IN
+  E: sayan.chowdhury2012!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+  I:
+  - E: sayan.chowdhury2012!gmail.com
+    M: Sayan Chowdhury
+    S: git
+  - E: sayan.chowdhury2012!gmail.com
+    M: Sayan Chowdhury
+    S: github
+    U: sayanchowdhury
+  B: 0
+  U: Sayan Chowdhury
+- C: DE
+  E: sayan.mnit!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+  I:
+  - E: sayan.mnit!gmail.com
+    M: Sayan Hazra
+    S: git
+  - E: sayan.mnit!gmail.com
+    M: Sayan Hazra
+    S: github
+    U: sayanh
+  B: 0
+  U: Sayan Hazra
+- C: KZ
+  E: stb!satybald.com
+  R:
+  - T: "2100-01-01"
+    C: GreenApple
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: stb!satybald.com
+    M: Sayat
+    S: github
+    U: satybald
+  B: 0
+  U: Sayat
+- E: jonathan.P.schaaf!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "1900-01-01"
+  I:
+  - E: jonathan.P.schaaf!ge.com
+    M: Schaaf, Jonathan P GE Healthcare
+    S: pipermail
+  B: 0
+  U: Schaaf, Jonathan P GE Healthcare
+- C: DE
+  E: Carsten_Schmid!mentor.com
+  R:
+  - T: "2100-01-01"
+    C: Mentor Graphics
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: carsten_schmid!mentor.com
+    M: Carsten Schmid
+    S: git
+  - E: Carsten_Schmid!mentor.com
+    M: Schmid, Carsten
+    S: git
+  B: 0
+  U: Schmid, Carsten
+- C: DE
+  E: c.schmitt!briefdomain.de
+  R:
+  - T: "2100-01-01"
+    C: envisia
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: c.schmitt!briefdomain.de
+    M: Schmitt Christian
+    S: github
+    U: schmitch
+  B: 0
+  U: Schmitt Christian
+- E: schneebeli.adrian!aurora.aero
+  R:
+  - T: "2100-01-01"
+    C: Aurora
+    F: "1900-01-01"
+  I:
+  - E: schneebeli.adrian!aurora.aero
+    M: Schneebeli Adrian
+    S: git
+  B: 0
+  U: Schneebeli Adrian
+- E: henning.schroeder!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  I:
+  - E: henning.schroeder!intel.com
+    M: Schroeder, Henning
+    S: git
+  - E: henning.schroeder!intel.com
+    M: Schroeder, Henning
+    S: pipermail
+  B: 0
+  U: Schroeder, Henning
+- E: markus.schuetterle!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  I:
+  - E: markus.schuetterle!intel.com
+    M: Schuetterle, Markus
+    S: pipermail
+  B: 0
+  U: Schuetterle, Markus
 - E: joel.d.schuetze!intel.com
   R:
   - T: "2100-01-01"
@@ -5852,6 +5975,9 @@ P:
     C: NEC Laboratories Europe GmbH
     F: "2016-07-31"
   I:
+  - E: --global
+    M: Sergey Fedorov
+    S: git
   - E: s.fedorov!samsung.com
     M: Sergey Fedorov
     S: git
@@ -5865,6 +5991,9 @@ P:
     M: Sergey Fedorov
     S: github
     U: sergefdrv
+  - M: sergefdrv_
+    S: supybot
+    U: sergefdrv_
   B: 0
   U: Sergey Fedorov
 - C: NL
@@ -46440,30 +46569,44 @@ P:
     U: tnaganawa
   B: 0
   U: Tatsuya Naganawa
-- E: Tatsuya.Sato!hal.hitachi.com
-  R:
-  - T: "2100-01-01"
-    C: Hitachi
-    F: "1900-01-01"
-  I:
-  - E: Tatsuya.Sato!hal.hitachi.com
-    M: Tatsuya Sato
-    S: git
-  B: 0
-  U: Tatsuya Sato
 - E: tatsuya.sato.so!hitachi.com
   R:
   - T: "2100-01-01"
     C: Hitachi
     F: "1900-01-01"
   I:
-  - E: tatsuya.sato.so!hitachi.com
-    M: Tatsuya Sato
+  - M: Tatsuya Sato
     S: gerrit
     U: tatsu-sato
   - E: tatsuya.sato.so!hitachi.com
     M: Tatsuya Sato
+    S: gerrit
+  - E: tatsuya.sato.so!hitachi.com
+    M: Tatsuya Sato
+    S: gerrit
+    U: tatsu-sato
+  - E: 58238931+satota2!users.noreply.github.com
+    M: Tatsuya Sato
     S: git
+  - E: Tatsuya.Sato!hal.hitachi.com
+    M: Tatsuya Sato
+    S: git
+  - E: tatsu-sato!gerrit.hyperledger.org
+    M: Tatsuya Sato
+    S: git
+  - E: tatsuya.sato.so!hitachi.com
+    M: Tatsuya Sato
+    S: git
+  - M: Tatsuya Sato
+    S: github
+    U: satota2
+  - E: Tatsuya.Sato!hal.hitachi.com
+    M: Tatsuya Sato
+    S: github
+    U: satota2
+  - M: Tatsuya Sato
+    S: jira
+    U: tatsu-sato
   B: 0
   U: Tatsuya Sato
 - C: JP
@@ -60198,171 +60341,3 @@ P:
     U: tomdee
   B: 0
   U: Tom Denham
-- C: US
-  E: tom.denham!metaswitch.com
-  R:
-  - T: "2016-05-01"
-    C: Metaswitch
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Metaswitch
-    F: "1900-01-01"
-  - T: "2018-09-01"
-    C: Project Calico
-    F: "2016-05-01"
-  - T: "2018-10-01"
-    C: Tigera
-    F: "2018-09-01"
-  - T: "2100-01-01"
-    C: Vanta
-    F: "2018-10-01"
-  S: male
-  I:
-  - E: tom.denham!metaswitch.com
-    M: Tom Denham
-    S: git
-  B: 0
-  U: Tom Denham
-- C: GB
-  E: t.denley!cantab.net
-  R:
-  - T: "2100-01-01"
-    C: Strategic Blue
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: t.denley!cantab.net
-    M: Tom Denley
-    S: slack
-    U: t.denley
-  B: 0
-  U: Tom Denley
-- E: tduffy!sun.com
-  R:
-  - T: "2100-01-01"
-    C: Sun Microsystems, Inc.
-    F: "1900-01-01"
-  I:
-  - E: tduffy!sun.com
-    M: Tom Duffy
-    S: git
-  B: 0
-  U: Tom Duffy
-- E: tdunlap!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: tdunlap!pivotal.io
-    M: Tom Dunlap
-    S: git
-  - E: tdunlap!pivotal.io
-    M: Tom Dunlap
-    S: slack
-    U: tdunlap
-  B: 0
-  U: Tom Dunlap
-- E: thomas.farrand!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: thomas.farrand!ibm.com
-    M: Tom Farrand
-    S: slack
-    U: thomas.farrand
-  B: 0
-  U: Tom Farrand
-- R:
-  - T: "2015-04-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2016-11-01"
-    C: Multicom
-    F: "2015-04-01"
-  - T: "2100-01-01"
-    C: Paxport
-    F: "2016-11-01"
-  S: male
-  I:
-  - M: Tom Fawcett
-    S: github
-    U: Tom-Fawcett
-  B: 0
-  U: Tom Fawcett
-- E: tom!iotechsys.com
-  R:
-  - T: "2100-01-01"
-    C: IOTech
-    F: "1900-01-01"
-  I:
-  - E: tom!iotechsys.com
-    M: Tom Fleming
-    S: git
-  - E: tom!iotechsys.com
-    M: Tom Fleming
-    S: github
-    U: TomFlem
-  - E: tom!iotechsys.com
-    M: Tom Fleming
-    S: slack
-    U: tom
-  B: 0
-  U: Tom Fleming
-- E: tom.flynn!gmail.com
-  R:
-  - T: "1999-08-01"
-    C: Newbridge Networks
-    F: "1998-01-01"
-  - T: "2004-11-01"
-    C: Alcatel
-    F: "2000-05-01"
-  - T: "2009-11-01"
-    C: Alcatel-Lucent
-    F: "2004-11-01"
-  - T: "2014-03-01"
-    C: Embrane
-    F: "2009-11-01"
-  - T: "2014-07-01"
-    C: Stateless Networks
-    F: "2014-03-01"
-  - T: "2100-01-01"
-    C: Cisco
-    F: "2014-07-01"
-  I:
-  - E: tom.flynn!gmail.com
-    M: Tom Flynn
-    S: gerrit
-    U: tomflynn
-  - E: tom.flynn!gmail.com
-    M: Tom Flynn
-    S: git
-  B: 0
-  U: Tom Flynn
-- C: GB
-  E: tom+github!peopleperhour.com
-  R:
-  - T: "2100-01-01"
-    C: PeoplePerHour
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: tom+github!peopleperhour.com
-    M: Tom Fotherby
-    S: github
-    U: tomfotherby
-  B: 0
-  U: Tom Fotherby
-- E: tom.gall!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro
-    F: "1900-01-01"
-  I:
-  - E: tom.gall!linaro.org
-    M: Tom Gall
-    S: pipermail
-  B: 0
-  U: Tom Gall

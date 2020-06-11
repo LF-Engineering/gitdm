@@ -1,4 +1,172 @@
 P:
+- C: US
+  E: tom.denham!metaswitch.com
+  R:
+  - T: "2016-05-01"
+    C: Metaswitch
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Metaswitch
+    F: "1900-01-01"
+  - T: "2018-09-01"
+    C: Project Calico
+    F: "2016-05-01"
+  - T: "2018-10-01"
+    C: Tigera
+    F: "2018-09-01"
+  - T: "2100-01-01"
+    C: Vanta
+    F: "2018-10-01"
+  S: male
+  I:
+  - E: tom.denham!metaswitch.com
+    M: Tom Denham
+    S: git
+  B: 0
+  U: Tom Denham
+- C: GB
+  E: t.denley!cantab.net
+  R:
+  - T: "2100-01-01"
+    C: Strategic Blue
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: t.denley!cantab.net
+    M: Tom Denley
+    S: slack
+    U: t.denley
+  B: 0
+  U: Tom Denley
+- E: tduffy!sun.com
+  R:
+  - T: "2100-01-01"
+    C: Sun Microsystems, Inc.
+    F: "1900-01-01"
+  I:
+  - E: tduffy!sun.com
+    M: Tom Duffy
+    S: git
+  B: 0
+  U: Tom Duffy
+- E: tdunlap!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - E: tdunlap!pivotal.io
+    M: Tom Dunlap
+    S: git
+  - E: tdunlap!pivotal.io
+    M: Tom Dunlap
+    S: slack
+    U: tdunlap
+  B: 0
+  U: Tom Dunlap
+- E: thomas.farrand!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: thomas.farrand!ibm.com
+    M: Tom Farrand
+    S: slack
+    U: thomas.farrand
+  B: 0
+  U: Tom Farrand
+- R:
+  - T: "2015-04-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2016-11-01"
+    C: Multicom
+    F: "2015-04-01"
+  - T: "2100-01-01"
+    C: Paxport
+    F: "2016-11-01"
+  S: male
+  I:
+  - M: Tom Fawcett
+    S: github
+    U: Tom-Fawcett
+  B: 0
+  U: Tom Fawcett
+- E: tom!iotechsys.com
+  R:
+  - T: "2100-01-01"
+    C: IOTech
+    F: "1900-01-01"
+  I:
+  - E: tom!iotechsys.com
+    M: Tom Fleming
+    S: git
+  - E: tom!iotechsys.com
+    M: Tom Fleming
+    S: github
+    U: TomFlem
+  - E: tom!iotechsys.com
+    M: Tom Fleming
+    S: slack
+    U: tom
+  B: 0
+  U: Tom Fleming
+- E: tom.flynn!gmail.com
+  R:
+  - T: "1999-08-01"
+    C: Newbridge Networks
+    F: "1998-01-01"
+  - T: "2004-11-01"
+    C: Alcatel
+    F: "2000-05-01"
+  - T: "2009-11-01"
+    C: Alcatel-Lucent
+    F: "2004-11-01"
+  - T: "2014-03-01"
+    C: Embrane
+    F: "2009-11-01"
+  - T: "2014-07-01"
+    C: Stateless Networks
+    F: "2014-03-01"
+  - T: "2100-01-01"
+    C: Cisco
+    F: "2014-07-01"
+  I:
+  - E: tom.flynn!gmail.com
+    M: Tom Flynn
+    S: gerrit
+    U: tomflynn
+  - E: tom.flynn!gmail.com
+    M: Tom Flynn
+    S: git
+  B: 0
+  U: Tom Flynn
+- C: GB
+  E: tom+github!peopleperhour.com
+  R:
+  - T: "2100-01-01"
+    C: PeoplePerHour
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: tom+github!peopleperhour.com
+    M: Tom Fotherby
+    S: github
+    U: tomfotherby
+  B: 0
+  U: Tom Fotherby
+- E: tom.gall!linaro.org
+  R:
+  - T: "2100-01-01"
+    C: Linaro
+    F: "1900-01-01"
+  I:
+  - E: tom.gall!linaro.org
+    M: Tom Gall
+    S: pipermail
+  B: 0
+  U: Tom Gall
 - C: GB
   E: me!tomg.co
   R:
@@ -51530,33 +51698,46 @@ P:
     S: git
   B: 0
   U: Yuta Iwama
-- E: y-namiki!ak.jp.nec.com
-  R:
-  - T: "2100-01-01"
-    C: NEC
-    F: "1900-01-01"
-  I:
-  - E: y-namiki!ak.jp.nec.com
-    M: Yuta Namiki
-    S: gerrit
-    U: ynamiki
-  - E: y-namiki!ak.jp.nec.com
-    M: Namiki Yuta
-    S: git
-  - E: y-namiki!ak.jp.nec.com
-    M: Yuta Namiki
-    S: git
-  B: 0
-  U: Yuta Namiki
 - E: yuta.namiki!nec.com
   R:
   - T: "2100-01-01"
     C: NEC
     F: "1900-01-01"
   I:
+  - E: y.namiki!gmail.com
+    M: Namiki Yuta
+    S: gerrit
+  - E: y-namiki!ak.jp.nec.com
+    M: Yuta Namiki
+    S: gerrit
+    U: ynamiki
+  - E: y.namiki!gmail.com
+    M: Yuta Namiki
+    S: gerrit
+  - E: y-namiki!ak.jp.nec.com
+    M: Namiki Yuta
+    S: git
+  - E: y.namiki!gmail.com
+    M: Namiki Yuta
+    S: git
+  - E: y-namiki!ak.jp.nec.com
+    M: Yuta Namiki
+    S: git
+  - E: y.namiki!gmail.com
+    M: Yuta Namiki
+    S: git
+  - E: yuta.namiki!gmail.com
+    M: Yuta Namiki
+    S: git
   - E: yuta.namiki!nec.com
     M: Yuta Namiki
     S: git
+  - M: Yuta Namiki
+    S: github
+    U: ynamiki
+  - M: Yuta Namiki
+    S: jira
+    U: ynamiki
   B: 0
   U: Yuta Namiki
 - C: JP
@@ -52289,6 +52470,17 @@ P:
     S: git
   B: 0
   U: ZHU Yi (ST-FIR/ENG1-Zhu)
+- E: zixzeng!gmail.com
+  R:
+  - T: "2019-12-31"
+    C: Hyperledger Intern
+    F: "2019-05-01"
+  I:
+  - M: ZIXUAN ZENG
+    S: confluence
+    U: zzx02GTX
+  B: 0
+  U: ZIXUAN ZENG
 - R:
   - T: "2100-01-01"
     C: Microsoft
@@ -57956,6 +58148,17 @@ P:
     S: git
   B: 0
   U: Zichang Lin
+- E: zcwang.meow!gmail.com
+  R:
+  - T: "2019-12-31"
+    C: Hyperledger Intern
+    F: "2019-05-01"
+  I:
+  - M: Zicheng Wang
+    S: confluence
+    U: quantumcat
+  B: 0
+  U: Zicheng Wang
 - E: B50113!freescale.com
   R:
   - T: "2100-01-01"
@@ -60793,190 +60996,3 @@ P:
     U: akilas
   B: 0
   U: akilas
-- E: alex.klimaj!tealdrones.com
-  R:
-  - T: "2100-01-01"
-    C: Teal Drones
-    F: "1900-01-01"
-  I:
-  - E: alex.klimaj!tealdrones.com
-    M: aklimaj
-    S: git
-  B: 0
-  U: aklimaj
-- E: andrey.kolomentsev!gmail.com
-  R:
-  - T: "2014-11-01"
-    C: Synesis
-    F: "1900-01-01"
-  - T: "2018-07-01"
-    C: MZ
-    F: "2014-11-01"
-  - T: "2018-10-01"
-    C: Independent
-    F: "2018-07-01"
-  - T: "2019-04-01"
-    C: Docker
-    F: "2018-10-01"
-  - T: "2100-01-01"
-    C: Adobe
-    F: "2019-04-01"
-  S: male
-  I:
-  - E: andrey.kolomentsev!gmail.com
-    M: akolomentsev
-    S: git
-  - E: andrey.kolomentsev!gmail.com
-    M: Andrey Kolomentsev
-    S: github
-    U: andrey-ko
-  B: 0
-  U: akolomentsev
-- E: akpm!osdl.org
-  R:
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-  I:
-  - E: akpm!osdl.org
-    M: Andrew Morton
-    S: git
-  - E: akpm!osdl.org
-    M: akpm
-    S: git
-  B: 0
-  U: akpm
-- E: adam!the-kramers.net
-  R:
-  - T: "2016-02-15"
-    C: GoodMouth
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: StatDNA
-    F: "2016-02-15"
-  S: male
-  I:
-  - E: adam!the-kramers.net
-    M: akramer
-    S: git
-  B: 0
-  U: akramer
-- E: akriplani!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: akriplani!pivotal.io
-    M: Aarti Kriplani
-    S: git
-  - E: kriplaniaarti!gmail.com
-    M: Aarti Kriplani
-    S: git
-  - E: kriplaniaarti!gmail.com
-    M: Aarti Kriplani
-    S: github
-    U: AartiKriplani
-  - E: akriplani!pivotal.io
-    M: akriplani
-    S: groupsio
-  - E: akriplani!pivotal.io
-    M: Aarti Kriplani
-    S: slack
-    U: aarti.k
-  B: 0
-  U: akriplani
-- E: akroshchenko!mirantis.com
-  R:
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-  I:
-  - E: akroshchenko!mirantis.com
-    M: akroshchenko
-    S: slack
-    U: akroshchenko
-  B: 0
-  U: akroshchenko
-- E: akrzos!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-  I:
-  - E: akrzos!redhat.com
-    M: akrzos
-    S: git
-  B: 0
-  U: akrzos
-- E: akshay.pidadi!calsoftinc.com
-  R:
-  - T: "2100-01-01"
-    C: Calsoft, Inc.
-    F: "1900-01-01"
-  I:
-  - E: akshay.pidadi!calsoftinc.com
-    M: akshay pidadi
-    S: slack
-    U: akshay.pidadi
-  B: 0
-  U: akshay pidadi
-- E: akuster808!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: MontaVista
-    F: "1900-01-01"
-  I:
-  - S: bugzilla
-    U: akuster
-  - M: Armin Kuster
-    S: bugzilla
-    U: akuster
-  - E: akuster!mvista.com
-    M: Armin Kuster
-    S: git
-  - E: akuster808!gmail.com
-    M: Armin Kuster
-    S: git
-  - E: akuster808!gmail.com
-    M: Armpit
-    S: git
-  - E: akuster!mvista.com
-    M: akuster
-    S: git
-  - E: akuster!mvista.com
-    M: Armin Kuster
-    S: pipermail
-  - E: akuster808!gmail.com
-    M: Armin Kuster
-    S: pipermail
-  - E: akuster808!gmail.com
-    M: akuster808
-    S: pipermail
-  - E: akuster!mvista.com
-    M: akuster
-    S: pipermail
-  - E: akuster!mvista.com
-    M: akuster
-    S: pipermail
-  - E: akuster!mvista
-    M: akuster
-    S: pipermail
-  B: 0
-  U: akuster
-- C: US
-  E: akutz!vmware.com
-  R:
-  - T: "2018-03-01"
-    C: Dell
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: VMware
-    F: "2018-03-01"
-  S: male
-  I:
-  - E: akutz!vmware.com
-    M: akutz
-    S: git
-  B: 0
-  U: akutz
