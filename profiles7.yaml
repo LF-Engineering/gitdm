@@ -1,4 +1,138 @@
 P:
+- C: IE
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - E: henderjm!pivotal.io
+    M: Mark Hender
+    S: git
+  - E: mhender!pivotal.io
+    M: Mark Hender
+    S: git
+  - E: henderjm!tcd.ie
+    M: Mark James Hender
+    S: git
+  - E: mhender!pivotal.io
+    M: Mark James Hender
+    S: git
+  - E: mhender!pivotal.io
+    M: henderjm
+    S: git
+  - M: Mark James Hender
+    S: github
+    U: henderjm
+  - M: Mark James Hender
+    S: meetup
+    U: "212327538"
+  - E: mhender!pivotal.io
+    M: Mark Hender
+    S: slack
+    U: mhender
+  - E: mhender!pivotal.io
+    M: Mark
+    S: slack
+    U: mhender
+  B: 0
+  U: Mark James Hender
+- C: NL
+  E: mark!praseodym.net
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: mark!praseodym.net
+    M: Mark Janssen
+    S: git
+  - E: mark!praseodym.net
+    M: Mark Janssen
+    S: github
+    U: praseodym
+  B: 0
+  U: Mark Janssen
+- E: markj!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: markj!vmware.com
+    M: Mark Johnson
+    S: slack
+    U: markj
+  B: 0
+  U: Mark Johnson
+- E: mark.kampe!dreamhost.com
+  R:
+  - T: "2100-01-01"
+    C: DreamHost
+    F: "1900-01-01"
+  I:
+  - E: mark.kampe!dreamhost.com
+    M: Mark Kampe
+    S: git
+  B: 0
+  U: Mark Kampe
+- E: mark.kanda!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle
+    F: "1900-01-01"
+  I:
+  - E: mark.kanda!oracle.com
+    M: Mark Kanda
+    S: git
+  B: 0
+  U: Mark Kanda
+- E: mark.b.kavanagh!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: mark.b.kavanagh!intel.com
+    M: Mark Kavanagh
+    S: gerrit
+    U: mark_kavanagh
+  - E: mark.b.kavanagh!intel.com
+    M: Mark Kavanagh
+    S: git
+  - E: mark.b.kavanagh!intel.com
+    M: Kavanagh, Mark B
+    S: gmane
+  - E: mark.b.kavanagh!intel.com
+    M: Kavanagh, Mark B
+    S: groupsio
+  - E: mark.b.kavanagh!intel.com
+    M: Mark Kavanagh
+    S: jira
+    U: mark_kavanagh
+  - E: mark.b.kavanagh!intel.com
+    M: Mark Kavanagh
+    S: linux-foundation:scm
+  - E: mark.b.kavanagh!intel.com
+    M: Mark Kavanagh
+    S: linux-foundation:scr
+    U: mark_kavanagh
+  - E: mark.b.kavanagh!intel.com
+    M: Kavanagh, Mark B
+    S: mbox
+  - E: mark.b.kavanagh!intel.com
+    M: Kavanagh, Mark B
+    S: pipermail
+  - E: mark.b.kavanagh!intel.com
+    M: Mark Kavanagh
+    S: pipermail
+  B: 0
+  U: Mark Kavanagh
 - R:
   - T: "2100-01-01"
     C: Independent
@@ -49941,7 +50075,7 @@ P:
     U: south37
   B: 0
   U: Nao Minami
-- E: nao.nishijima!hal.hitachi.com
+- E: nao.nishijima.xt!hitachi.com
   R:
   - T: "2100-01-01"
     C: Hitachi
@@ -49954,27 +50088,25 @@ P:
     M: Nao Nishijima
     S: gerrit
     U: nnao
+  - E: nao.nishijima.xt!hitachi.com
+    M: Nao Nishijima
+    S: gerrit
+    U: nnao
   - E: nao.nishijima!hal.hitachi.com
+    M: Nao Nishijima
+    S: git
+  - E: nao.nishijima.xt!hitachi.com
     M: Nao Nishijima
     S: git
   - E: nao.nishijima!hal.hitachi.com
     M: Nao
     S: git
-  B: 0
-  U: Nao Nishijima
-- E: nao.nishijima.xt!hitachi.com
-  R:
-  - T: "2100-01-01"
-    C: Hitachi
-    F: "1900-01-01"
-  I:
-  - E: nao.nishijima.xt!hitachi.com
-    M: Nao Nishijima
-    S: gerrit
+  - M: Nao Nishijima
+    S: jira
+    U: nao
+  - M: Nao Nishijima
+    S: jira
     U: nnao
-  - E: nao.nishijima.xt!hitachi.com
-    M: Nao Nishijima
-    S: git
   B: 0
   U: Nao Nishijima
 - E: naohiro.aota!hgst.com
@@ -60023,99 +60155,3 @@ P:
     U: nplanel
   B: 0
   U: Nicolas PLANEL
-- E: nicolas.pernas.maradei!emutex.com
-  R:
-  - T: "2012-03-01"
-    C: Novasoft
-    F: "2010-02-01"
-  - T: "2017-02-01"
-    C: Emutex
-    F: "2012-03-01"
-  - T: "2019-08-01"
-    C: Amazon Web Services, Inc.
-    F: "2017-03-01"
-  - T: "2100-01-01"
-    C: Twilio Inc.
-    F: "2019-08-01"
-  I:
-  - E: nico!emutex.com
-    M: Nicolás Pernas Maradei
-    S: git
-  - E: nicolas.pernas.maradei!emutex.com
-    M: Nicolás Pernas Maradei
-    S: git
-  - E: nico!emutex.com
-    M: Nicolas Pernas Maradei
-    S: pipermail
-  - E: nicolas.pernas.maradei!emutex.com
-    M: Nicolas Pernas Maradei
-    S: pipermail
-  - E: nico!emutex.com
-    M: Nicolás Pernas Maradei
-    S: pipermail
-  - E: nicolas.pernas.maradei!emutex.com
-    M: Nicolás Pernas Maradei
-    S: pipermail
-  B: 0
-  U: Nicolas Pernas Maradei
-- E: nico!fluxnic.net
-  R:
-  - T: "2100-01-01"
-    C: Linaro
-    F: "1900-01-01"
-  I:
-  - E: nico!fluxnic.net
-    M: Nicolas Pitre
-    S: git
-  B: 0
-  U: Nicolas Pitre
-- E: nico!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro
-    F: "1900-01-01"
-  I:
-  - E: nico!linaro.org
-    M: Nicolas Pitre
-    S: git
-  B: 0
-  U: Nicolas Pitre
-- E: nico!marvell.com
-  R:
-  - T: "2100-01-01"
-    C: Marvell
-    F: "1900-01-01"
-  I:
-  - E: nico!marvell.com
-    M: Nicolas Pitre
-    S: git
-  B: 0
-  U: Nicolas Pitre
-- E: nicolas.pitre!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro
-    F: "1900-01-01"
-  I:
-  - E: nicolas.pitre!linaro.org
-    M: Nicolas Pitre
-    S: git
-  - E: nicolas.pitre!linaro.org
-    M: Nicolas Pitre
-    S: groupsio
-  - E: nicolas.pitre!linaro.org
-    M: Nicolas Pitre
-    S: pipermail
-  B: 0
-  U: Nicolas Pitre
-- E: npitre!baylibre.com
-  R:
-  - T: "2100-01-01"
-    C: Baylibre
-    F: "1900-01-01"
-  I:
-  - E: npitre!baylibre.com
-    M: Nicolas Pitre
-    S: git
-  B: 0
-  U: Nicolas Pitre
