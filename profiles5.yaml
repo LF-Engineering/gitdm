@@ -1,4 +1,1340 @@
 P:
+- C: CA
+  R:
+  - T: "2014-09-01"
+    C: Boeing
+    F: "1900-01-01"
+  - T: "2015-08-01"
+    C: ActiviteState
+    F: "2014-09-01"
+  - T: "2016-08-01"
+    C: HP
+    F: "2015-08-01"
+  - T: "2016-10-01"
+    C: Lendesk
+    F: "2016-08-01"
+  - T: "2017-12-01"
+    C: QiO
+    F: "2016-10-01"
+  - T: "2018-08-01"
+    C: Cloudreach
+    F: "2017-12-01"
+  - T: "2019-01-01"
+    C: Traction Guest
+    F: "2018-08-01"
+  - T: "2100-01-01"
+    C: Buoyant
+    F: "2019-01-01"
+  S: male
+  I:
+  - E: ihcsim!gmail.com
+    S: cloudfoundry:manual
+  - E: ivan.sim!hpe.com
+    S: cloudfoundry:manual
+  - E: ivans!activestate.com
+    S: cloudfoundry:manual
+  - M: Ivan Sim
+    S: cloudfoundry:manual
+  - E: ihcsim!gmail.com
+    M: Ivan Sim
+    S: file:cff
+  - E: ivan.sim!hpe.com
+    M: Ivan Sim
+    S: file:cff
+  - E: ivans!activestate.com
+    M: Ivan Sim
+    S: file:cff
+  - E: ihcsim!gmail.com
+    M: Ivan Sim
+    S: git
+  - E: ivan.sim!hpe.com
+    M: Ivan Sim
+    S: git
+  - M: Ivan Sim
+    S: github
+    U: ihcsim
+  - E: ihcsim!gmail.com
+    M: Ivan Sim
+    S: github
+    U: ihcsim
+  - E: ivans!activestate.com
+    M: Ivan Sim
+    S: groupsio
+  - E: ivans!activestate.com
+    M: Ivan Sim
+    S: mbox
+  - E: ivan.sim!hpe.com
+    M: Ivan Sim
+    S: slack
+    U: ivan.sim
+  B: 0
+  U: Ivan Sim
+- E: ivan.ivanov!linaro.org
+  R:
+  - T: "2100-01-01"
+    C: Linaro
+    F: "1900-01-01"
+  I:
+  - E: ivan.ivanov!linaro.org
+    M: Ivan T. Ivanov
+    S: git
+  B: 0
+  U: Ivan T. Ivanov
+- E: ivanv.timofeev!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Individual
+    F: "1900-01-01"
+  I:
+  - E: ivanv.timofeev!gmail.com
+    M: Ivan Timofeev
+    S: gerrit
+    U: IvanTimofeev
+  - E: ivanv.timofeev!gmail.com
+    M: Ivan Timofeev
+    S: git
+  - M: Ivan Timofeev
+    S: github
+    U: ivanvtimofeev
+  B: 0
+  U: Ivan Timofeev
+- E: github!hestia.cc
+  R:
+  - T: "2100-01-01"
+    C: Microsoft
+    F: "1900-01-01"
+  I:
+  - E: github!hestia.cc
+    M: Ivan Towlson
+    S: git
+  - E: github!hestia.cc
+    M: Unknown
+    S: git
+  - E: github!hestia.cc
+    M: itowlson
+    S: git
+  B: 0
+  U: Ivan Towlson
+- E: itowlson!microsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft
+    F: "1900-01-01"
+  I:
+  - E: itowlson!microsoft.com
+    M: Ivan Towlson
+    S: git
+  B: 0
+  U: Ivan Towlson
+- E: ivan.towlson!microsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft
+    F: "1900-01-01"
+  I:
+  - E: ivan.towlson!microsoft.com
+    M: Ivan Towlson
+    S: git
+  B: 0
+  U: Ivan Towlson
+- E: ivan.tyulyandin!gmail.com
+  R:
+  - T: "2019-12-01"
+    C: Hyperledger Intern
+    F: "2019-06-01"
+  - T: "2100-01-01"
+    C: Soramitsu
+    F: "2019-12-30"
+  I:
+  - M: Ivan Tyulyandin
+    S: confluence
+    U: IvanTyulyandin
+  - E: ivan.tyulyandin!gmail.com
+    M: Ivan Tyulyandin
+    S: git
+  - E: ivan.tyulyandin!gmail.com
+    M: Ivan Tyulyandin
+    S: github
+    U: IvanTyulyandin
+  - M: Ivan Tyulyandin
+    S: jira
+    U: IvanTyulyandin
+  B: 0
+  U: Ivan Tyulyandin
+- E: ivecera!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+  I:
+  - E: ivecera!redhat.com
+    M: Ivan Vecera
+    S: git
+  B: 0
+  U: Ivan Vecera
+- R:
+  - T: "2100-01-01"
+    C: Leanplum
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Ivan Vergiliev
+    S: github
+    U: IvanVergiliev
+  B: 0
+  U: Ivan Vergiliev
+- E: ivan.vergiliev!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Leanplum
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: ivan.vergiliev!gmail.com
+    M: Ivan Vergiliev
+    S: git
+  B: 0
+  U: Ivan Vergiliev
+- E: ivanvit!amazon.com
+  R:
+  - T: "2100-01-01"
+    C: Amazon.com
+    F: "1900-01-01"
+  I:
+  - E: ivanvit!amazon.com
+    M: Ivan Vitjuk
+    S: slack
+    U: ivanvit
+  B: 0
+  U: Ivan Vitjuk
+- R:
+  - T: "2100-01-01"
+    C: CMC-IT
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Ivan Voronchihin
+    S: github
+    U: bege13mot
+  B: 0
+  U: Ivan Voronchihin
+- E: bege13mot!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: CMC-IT
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: bege13mot!gmail.com
+    M: Ivan Voronchihin
+    S: git
+  B: 0
+  U: Ivan Voronchihin
+- C: GB
+  E: ivan!vucica.net
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: ivan!vucica.net
+    M: Ivan Vučica
+    S: github
+    U: ivucica
+  B: 0
+  U: Ivan Vučica
+- E: yifwang!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - E: yifwang!pivotal.io
+    M: Ivan Wang
+    S: git
+  B: 0
+  U: Ivan Wang
+- E: ivanw!microsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: ivanw!microsoft.com
+    M: Ivan Wood
+    S: pipermail
+  B: 0
+  U: Ivan Wood
+- E: izenteno!ea.com
+  R:
+  - T: "2100-01-01"
+    C: Electronic Arts, Inc.
+    F: "1900-01-01"
+  I:
+  - E: izenteno!ea.com
+    M: Ivan Zenteno
+    S: slack
+    U: izenteno
+  B: 0
+  U: Ivan Zenteno
+- E: ivan!dianomic.com
+  R:
+  - T: "2100-01-01"
+    C: Dianomic
+    F: "1900-01-01"
+  I:
+  - E: ivan!dianomic.com
+    M: Ivan Zoratti
+    S: git
+  - E: ivan!scaledb.com
+    M: Ivan Zoratti
+    S: git
+  - E: ivan!zoratti.co.uk
+    M: Ivan Zoratti
+    S: git
+  - E: ivan.zoratti!gmail.com
+    M: Ivan Zoratti
+    S: git
+  B: 0
+  U: Ivan Zoratti
+- C: CN
+  R:
+  - T: "2100-01-01"
+    C: Facebook
+    F: "1900-01-01"
+  I:
+  - M: Ivan.Yang
+    S: github
+    U: mrmiywj
+  B: 0
+  U: Ivan.Yang
+- C: CN
+  E: mrmiywj!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Facebook
+    F: "1900-01-01"
+  I:
+  - E: mrmiywj!users.noreply.github.com
+    M: Ivan.Yang
+    S: git
+  B: 0
+  U: Ivan.Yang
+- E: ivana.scott!engineerbetter.com
+  R:
+  - T: "2100-01-01"
+    C: Engineer Better
+    F: "1900-01-01"
+  I:
+  - E: ivana.scott!engineerbetter.com
+    M: Ivana Scott
+    S: groupsio
+  - E: ivana.scott!engineerbetter.com
+    M: Ivana Scott
+    S: slack
+    U: ivana.scott
+  B: 0
+  U: Ivana Scott
+- C: CM
+  R:
+  - T: "2016-04-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2018-01-01"
+    C: Open MRS
+    F: "2016-04-01"
+  - T: "2018-08-01"
+    C: Upwork
+    F: "2018-01-01"
+  - T: "2100-01-01"
+    C: Docker
+    F: "2018-08-01"
+  S: male
+  I:
+  - M: Ivange Larry
+    S: github
+    U: ivange94
+  B: 0
+  U: Ivange Larry
+- C: BG
+  E: ivanka.tashkova!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+  S: female
+  I:
+  - E: ivanka.tashkova!sap.com
+    M: Ivanka Tashkova
+    S: git
+  - M: Ivanka Tashkova
+    S: github
+    U: IvankaTashkova
+  - E: ivanka.tashkova!sap.com
+    M: Ivanka Tashkova
+    S: github
+    U: IvankaTashkova
+  B: 0
+  U: Ivanka Tashkova
+- E: pagoda_5b!hotmail.com
+  R:
+  - T: "2015-04-01"
+    C: MC-link
+    F: "1900-01-01"
+  - T: "2015-11-01"
+    C: Integra Sistemi
+    F: "2015-04-01"
+  - T: "2016-11-01"
+    C: Shoster
+    F: "2015-11-01"
+  - T: "2100-01-01"
+    C: Scale
+    F: "2016-11-01"
+  S: male
+  I:
+  - E: pagoda_5b!hotmail.com
+    M: Ivano Pagano
+    S: git
+  - E: pagoda_5b!hotmail.com
+    M: Ivano Pagano
+    S: github
+    U: ivanopagano
+  B: 0
+  U: Ivano Pagano
+- E: iikirilov!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Web3 Labs
+    F: "2015-12-31"
+  I:
+  - E: iikirilov!gmail.com
+    M: Ivaylo Kirilov
+    S: git
+  - E: iikirilov!gmail.com
+    M: Ivaylo Kirilov
+    S: github
+    U: iikirilov
+  B: 0
+  U: Ivaylo Kirilov
+- C: BG
+  E: kiryazovi!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: kiryazovi!vmware.com
+    M: Ivaylo Kiryazov
+    S: github
+    U: kiryazovi
+  B: 0
+  U: Ivaylo Kiryazov
+- E: iveta.halanova!pantheon.sk
+  R:
+  - T: "2100-01-01"
+    C: Cisco
+    F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: PANTHEON.tech s.r.o.
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: ihalanov!cisco.com
+    M: Iveta Halanova
+    S: gerrit
+    U: ihalanov
+  - E: iveta.halanova!pantheon.sk
+    M: Iveta Halanova
+    S: gerrit
+  - E: ihalanov!cisco.com
+    M: Iveta Halanova
+    S: git
+  - E: iveta.halanova!pantheon.sk
+    M: Iveta Halanova
+    S: git
+  - E: ihalanov!cisco.com
+    M: Iveta Halanova
+    S: jira
+    U: ihalanov
+  - E: ihalanov!cisco.com
+    M: Iveta Halanova -X ihalanov - PANTHEON TECHNOLOGIES
+    S: pipermail
+  B: 0
+  U: Iveta Halanova
+- C: HR
+  R:
+  - T: "2100-01-01"
+    C: Infobip
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Ivica Obestar
+    S: github
+    U: iobestar
+  B: 0
+  U: Ivica Obestar
+- C: US
+  R:
+  - T: "2015-01-01"
+    C: Scanadu
+    F: "1900-01-01"
+  - T: "2015-07-01"
+    C: Independent
+    F: "2015-01-01"
+  - T: "2017-03-01"
+    C: Blue Clover Devices
+    F: "2015-07-01"
+  - T: "2017-09-01"
+    C: Doppler
+    F: "2017-03-01"
+  - T: "2018-01-01"
+    C: Independent
+    F: "2017-09-01"
+  - T: "2100-01-01"
+    C: Blue Clover Devices
+    F: "2018-01-01"
+  S: male
+  I:
+  - M: Ivo Clarysse
+    S: github
+    U: IvoBCD
+  B: 0
+  U: Ivo Clarysse
+- R:
+  - T: "2100-01-01"
+    C: ETH Zurich
+    F: "1900-01-01"
+  I:
+  - M: Ivo Drescher
+    S: github
+    U: ivodre
+  B: 0
+  U: Ivo Drescher
+- E: ivo.drescher!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: ETH Zurich
+    F: "1900-01-01"
+  I:
+  - E: ivo.drescher!gmail.com
+    M: Ivo Drescher
+    S: git
+  - E: ivo.drescher!gmail.com
+    M: Ivo Drescher
+    S: slack
+    U: ivo.drescher
+  B: 0
+  U: Ivo Drescher
+- E: ipetkov!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware
+    F: "1900-01-01"
+  I:
+  - E: ipetkov!vmware.com
+    M: Ivo Petkov
+    S: slack
+    U: ipetkov
+  B: 0
+  U: Ivo Petkov
+- R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2017-08-01"
+    C: ZorgDomein
+    F: "2015-07-01"
+  - T: "2018-11-01"
+    C: Portbase
+    F: "2017-08-01"
+  - T: "2019-01-01"
+    C: Voiceworks
+    F: "2018-11-01"
+  - T: "2100-01-01"
+    C: Nationale-Nederlanden
+    F: "2019-01-01"
+  S: male
+  I:
+  - M: Ivo Verberk
+    S: github
+    U: iverberk
+  B: 0
+  U: Ivo Verberk
+- E: ivo.verberk!gmail.com
+  R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2017-08-01"
+    C: ZorgDomein
+    F: "2015-07-01"
+  - T: "2018-11-01"
+    C: Portbase
+    F: "2017-08-01"
+  - T: "2019-01-01"
+    C: Voiceworks
+    F: "2018-11-01"
+  - T: "2100-01-01"
+    C: Nationale-Nederlanden
+    F: "2019-01-01"
+  S: male
+  I:
+  - E: ivo.verberk!gmail.com
+    M: Ivo Verberk
+    S: git
+  B: 0
+  U: Ivo Verberk
+- E: ilim!research.att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T
+    F: "2019-01-02"
+  I:
+  - E: ilim!research.att.com
+    M: Ivy Lim
+    S: gerrit
+    U: ilim
+  B: 0
+  U: Ivy Lim
+- E: ivan.briano!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: ivan.briano!intel.com
+    M: Iván Briano
+    S: git
+  B: 0
+  U: Iván Briano
+- C: MX
+  E: ichavero!chavero.com.mx
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+  I:
+  - E: ichavero!chavero.com.mx
+    M: Iván Chavero
+    S: git
+  B: 0
+  U: Iván Chavero
+- E: ivan!sanchezortega.es
+  R:
+  - T: "2014-08-01"
+    C: NORBIT Aptomar AS
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: NORBIT Aptomar AS
+    F: "1900-01-01"
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-08-01"
+  - T: "2017-07-01"
+    C: MazeMap
+    F: "2015-01-01"
+  - T: "2100-01-01"
+    C: Nordic Semiconductor
+    F: "2017-07-01"
+  S: male
+  I:
+  - E: ivan!sanchezortega.es
+    M: Iván Sánchez Ortega
+    S: git
+  - E: ivan!sanchezortega.es
+    M: Iván Sánchez Ortega
+    S: github
+    U: IvanSanchez
+  B: 0
+  U: Iván Sánchez Ortega
+- E: iwasaki.yudai!lab.ntt.co.jp
+  R:
+  - T: "2100-01-01"
+    C: NTT
+    F: "1900-01-01"
+  I:
+  - E: iwasaki.yudai!lab.ntt.co.jp
+    M: Iwasaki Yudai
+    S: git
+  - E: iwasaki.yudai!lab.ntt.co.jp
+    M: Yudai Iwasaki
+    S: git
+  B: 0
+  U: Iwasaki Yudai
+- C: US
+  E: yudai!arielworks.com
+  R:
+  - T: "2100-01-01"
+    C: NTT
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: yudai!arielworks.com
+    M: Iwasaki Yudai
+    S: git
+  - E: yudai!arielworks.com
+    M: Iwasaki Yudai
+    S: github
+    U: yudai
+  B: 0
+  U: Iwasaki Yudai
+- C: US
+  E: yudai.iwasaki!ntti3.com
+  R:
+  - T: "2100-01-01"
+    C: NTT
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: yudai.iwasaki!ntti3.com
+    M: Iwasaki Yudai
+    S: git
+  B: 0
+  U: Iwasaki Yudai
+- R:
+  - T: "2100-01-01"
+    C: Adyen
+    F: "1900-01-01"
+  I:
+  - S: github
+    U: IxDay
+  B: 0
+  U: IxDay
+- C: US
+  E: isubramanian!apm.com
+  R:
+  - T: "2100-01-01"
+    C: AppliedMicro
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: isubramanian!apm.com
+    M: Iyappan Subramanian
+    S: git
+  B: 0
+  U: Iyappan Subramanian
+- E: naveen.iyer!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  I:
+  - E: naveen.iyer!intel.com
+    M: Iyer, Naveen
+    S: groupsio
+  - E: naveen.iyer!intel.com
+    M: Iyer, Naveen
+    S: pipermail
+  B: 0
+  U: Iyer, Naveen
+- C: CA
+  E: ialpert!salesforce.com
+  R:
+  - T: "2100-01-01"
+    C: Salesforce
+    F: "1900-01-01"
+  I:
+  - E: ialpert!salesforce.com
+    M: Izaak Alpert (karlhungus)
+    S: git
+  B: 0
+  U: Izaak Alpert (karlhungus)
+- C: CA
+  E: ialpert!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Salesforce
+    F: "1900-01-01"
+  I:
+  - E: ialpert!gmail.com
+    M: Izaak Alpert
+    S: git
+  - E: ialpert!gmail.com
+    M: Izaak (John) Alpert
+    S: github
+    U: karlhungus
+  B: 0
+  U: Izaak Alpert
+- E: izabela.zawadzka!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+    P: lfn/onap
+  I:
+  - E: izabela.zawadzka!nokia.com
+    M: Izabela Zawadzka
+    S: gerrit
+    U: izabelazawadzka
+  - E: izabela.zawadzka!nokia.com
+    M: Izabela Zawadzka
+    S: git
+  - E: izabela.zawadzka!nokia.com
+    M: Izabela Zawadzka
+    S: jira
+    U: izabelazawadzka
+  B: 0
+  U: Izabela Zawadzka
+- C: PL
+  E: izabella.raulin!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: izabella.raulin!intel.com
+    M: Izabella Raulin
+    S: github
+    U: IzabellaRaulin
+  B: 0
+  U: Izabella Raulin
+- E: izike!qumranet.com
+  R:
+  - T: "2100-01-01"
+    C: Qumranet, Inc.
+    F: "1900-01-01"
+  I:
+  - E: izike!qumranet.com
+    M: Izik Eidus
+    S: git
+  B: 0
+  U: Izik Eidus
+- E: ignacio.borrero!dell.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "1900-01-01"
+  I:
+  - E: ignacio.borrero!emc.com
+    M: Inaki Borrero
+    S: slack
+    U: borrei
+  - E: ignacio.borrero!dell.com
+    M: Iñaki Borrero
+    S: slack
+    U: borrei
+  B: 0
+  U: Iñaki Borrero
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: CA Technologies
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: J Axmacher
+    S: github
+    U: jcaxmacher
+  B: 0
+  U: J Axmacher
+- C: US
+  E: debugsteven!gmail.com
+  R:
+  - T: "2015-11-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2016-12-01"
+    C: Vantiv
+    F: "2015-11-01"
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+  - T: "2100-01-01"
+    C: CleanSlateNow.
+    F: "2017-04-01"
+  S: male
+  I:
+  - E: debugsteven!gmail.com
+    M: J Haigh
+    S: git
+  - E: debugsteven!gmail.com
+    M: J Haigh
+    S: github
+    U: DebugSteven
+  B: 0
+  U: J Haigh
+- E: jrray!imageworks.com
+  R:
+  - T: "2100-01-01"
+    C: Sony Imageworks
+    F: "1900-01-01"
+  I:
+  - E: jrray!imageworks.com
+    M: J Robert Ray
+    S: git
+  B: 0
+  U: J Robert Ray
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: rboykin!us.ibm.com
+    M: J Russell Boykin
+    S: git
+  - E: rboykin!users.noreply.github.com
+    M: J Russell Boykin
+    S: git
+  - M: J Russell Boykin
+    S: github
+    U: rboykin
+  B: 0
+  U: J Russell Boykin
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: J Stickler
+    S: github
+    U: JStickler
+  B: 0
+  U: J Stickler
+- E: jstickle!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+  I:
+  - E: jstickle!redhat.com
+    M: J Stickler
+    S: git
+  B: 0
+  U: J Stickler
+- E: john.gamble!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
+  - E: john.gamble!windriver.com
+    M: J. Aaron Gamble
+    S: git
+  B: 0
+  U: J. Aaron Gamble
+- E: bfields!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+  I:
+  - E: bfields!redhat.com
+    M: J. Bruce Fields
+    S: git
+  B: 0
+  U: J. Bruce Fields
+- E: bfields!snoopy.citi.umich.edu
+  R:
+  - T: "2100-01-01"
+    C: University of Michigan - CITI
+    F: "1900-01-01"
+  I:
+  - E: bfields!snoopy.citi.umich.edu
+    M: J. Bruce Fields - unquoted
+    S: git
+  - E: bfields!snoopy.citi.umich.edu
+    M: J. Bruce Fields
+    S: git
+  B: 0
+  U: J. Bruce Fields
+- C: US
+  E: jason.clark.oss!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: jason.clark.oss!gmail.com
+    M: J. Clark
+    S: git
+  B: 0
+  U: J. Clark
+- C: US
+  E: outtatime+github!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Gigawatt IO
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: outtatime+github!gmail.com
+    M: J. Elliot Taylor
+    S: github
+    U: jaytaylor
+  B: 0
+  U: J. Elliot Taylor
+- C: US
+  E: ivancich!redhat.com
+  R:
+  - T: "2015-07-01"
+    C: Cohort
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "2015-07-01"
+  S: male
+  I:
+  - E: ivancich!redhat.com
+    M: J. Eric Ivancich
+    S: git
+  B: 0
+  U: J. Eric Ivancich
+- C: GB
+  R:
+  - T: "2100-01-01"
+    C: Hotels.com
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: J. Hollinshead
+    S: github
+    U: jollinshead
+  B: 0
+  U: J. Hollinshead
+- C: GB
+  E: jollinshead!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Hotels.com
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: jollinshead!users.noreply.github.com
+    M: J. Hollinshead
+    S: git
+  B: 0
+  U: J. Hollinshead
+- E: jbalasub!amdocs.com
+  R:
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "1900-01-01"
+    P: lfn/onap
+  I:
+  - M: J. Ram Balasubramanian
+    S: confluence
+    U: jbalasub
+  - E: jbalasub!amdocs.com
+    M: J. Ram Balasubramanian
+    S: gerrit
+    U: jbalasub
+  - E: jbalasub!amdocs.com
+    M: jbalasub
+    S: git
+  - E: jbalasub!amdocs.com
+    M: J. Ram Balasubramanian
+    S: jira
+    U: jbalasub
+  B: 0
+  U: J. Ram Balasubramanian
+- E: jdassen!debian.org
+  R:
+  - T: "2100-01-01"
+    C: Debian GNU/Linux
+    F: "1900-01-01"
+  I:
+  - E: jdassen!debian.org
+    M: J.H.M. Dassen (Ray)
+    S: git
+  B: 0
+  U: J.H.M. Dassen (Ray)
+- E: J_T_Conklin!Dell.Com
+  R:
+  - T: "2017-09-01"
+    C: Dell EMC
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Facebook
+    F: "2017-09-01"
+  S: male
+  I:
+  - E: J.T.Conklin!Dell.Com
+    M: J.T. Conklin
+    S: git
+  - E: J_T_Conklin!Dell.Com
+    M: J.T. Conklin
+    S: git
+  - E: jtc!acorntoolworks.com
+    M: J.T. Conklin
+    S: git
+  - M: J.T. Conklin
+    S: github
+    U: johntconklin
+  - E: jtc!acorntoolworks.com
+    M: J.T. Conklin
+    S: groupsio
+  - E: jtc!acorntoolworks.com
+    M: J.T. Conklin
+    S: pipermail
+  B: 0
+  U: J.T. Conklin
+- E: janak!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: janak!us.ibm.com
+    M: JANAK DESAI
+    S: git
+  B: 0
+  U: JANAK DESAI
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+  S: female
+  I:
+  - M: JBD
+    S: github
+    U: rakyll
+  B: 0
+  U: JBD
+- C: US
+  E: jbd!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+  S: female
+  I:
+  - E: jbd!google.com
+    M: JBD
+    S: github
+    U: rakyll
+  B: 0
+  U: JBD
+- E: jckuo!nvidia.com
+  R:
+  - T: "2100-01-01"
+    C: NVidia
+    F: "1900-01-01"
+  I:
+  - E: jckuo!nvidia.com
+    M: JC Kuo
+    S: git
+  B: 0
+  U: JC Kuo
+- C: US
+  R:
+  - T: "2014-04-01"
+    C: eBay
+    F: "1900-01-01"
+  - T: "2015-10-01"
+    C: Twitter
+    F: "2014-04-01"
+  - T: "2100-01-01"
+    C: Medallia
+    F: "2015-10-01"
+  S: male
+  I:
+  - M: JC Martin
+    S: github
+    U: jc-m
+  B: 0
+  U: JC Martin
+- C: US
+  E: jcmartin!medallia.com
+  R:
+  - T: "2014-04-01"
+    C: eBay
+    F: "1900-01-01"
+  - T: "2015-10-01"
+    C: Twitter
+    F: "2014-04-01"
+  - T: "2100-01-01"
+    C: Medallia
+    F: "2015-10-01"
+  S: male
+  I:
+  - E: jcmartin!medallia.com
+    M: JC Martin
+    S: git
+  B: 0
+  U: JC Martin
+- E: jc.obermeier!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+  I:
+  - E: jc.obermeier!sap.com
+    M: JC Obermeier
+    S: slack
+    U: jc.obermeier
+  B: 0
+  U: JC Obermeier
+- C: US
+  E: jd.conley!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Brava Home
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: jd.conley!gmail.com
+    M: JD Conley
+    S: git
+  B: 0
+  U: JD Conley
+- R:
+  - T: "2100-01-01"
+    C: Scott Logic
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Scott Logic
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - S: github
+    U: JDawes-ScottLogic
+  B: 0
+  U: JDawes-ScottLogic
+- E: jrondeau!heptio.com
+  R:
+  - T: "2015-09-01"
+    C: Symantec
+    F: "1900-01-01"
+  - T: "2017-02-01"
+    C: Capital One
+    F: "2015-09-01"
+  - T: "2019-01-01"
+    C: VMware
+    F: "2017-02-01"
+  - T: "2100-01-01"
+    C: VMware
+    F: "2017-02-01"
+  - T: "2019-03-01"
+    C: Independent
+    F: "2019-01-01"
+  - T: "2100-01-01"
+    C: Stripe
+    F: "2019-03-01"
+  S: female
+  I:
+  - E: jrondeau!heptio.com
+    M: JENNIFER RONDEAU
+    S: git
+  B: 0
+  U: JENNIFER RONDEAU
+- C: FR
+  E: jeremy.hergault!atos.net
+  R:
+  - T: "2100-01-01"
+    C: Atos Integration
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: jeremy.hergault!atos.net
+    M: JEREMY HERGAULT
+    S: git
+  B: 0
+  U: JEREMY HERGAULT
+- E: jl319x!att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: AT&T
+    F: "1900-01-01"
+    P: lfn/onap
+  I:
+  - E: jl319x!att.com
+    M: JERRY LIN
+    S: gerrit
+    U: opeaceo
+  - E: jl319x!att.com
+    M: Lin, Jerry (jl319x)
+    S: git
+  - E: jl319x!att.com
+    M: JERRY LIN
+    S: jira
+    U: opeaceo
+  B: 0
+  U: JERRY LIN
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Infoblox
+    F: "1900-01-01"
+  I:
+  - M: JINMEI Tatuya
+    S: github
+    U: jinmeiib
+  B: 0
+  U: JINMEI Tatuya
+- C: US
+  E: jtatuya!infoblox.com
+  R:
+  - T: "2100-01-01"
+    C: Infoblox
+    F: "1900-01-01"
+  I:
+  - E: jtatuya!infoblox.com
+    M: JINMEI Tatuya
+    S: git
+  B: 0
+  U: JINMEI Tatuya
+- E: jj!rstudio.org
+  R:
+  - T: "2004-12-31"
+    C: Onfolio
+    F: "2001-12-31"
+  - T: "2007-09-30"
+    C: Microsoft
+    F: "2006-01-31"
+  - T: "2100-01-01"
+    C: RStudio
+    F: "2009-12-31"
+  I:
+  - E: jj!rstudio.com
+    M: JJ Allaire
+    S: git
+  - E: jj!rstudio.org
+    M: JJ Allaire
+    S: git
+  - E: jj.allaire!gmail.com
+    M: JJ Allaire
+    S: git
+  B: 0
+  U: JJ Allaire
+- C: US
+  E: awesome!ibm.com
+  R:
+  - T: "2018-09-01"
+    C: Chef
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Chef
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-09-01"
+  S: male
+  I:
+  - E: awesome!ibm.com
+    M: JJ Asghar
+    S: github
+    U: jjasghar
+  B: 0
+  U: JJ Asghar
 - C: US
   E: jj!chef.io
   R:
@@ -421,6 +1757,10 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Jabir Kanhira Kadavathu
     S: confluence
@@ -2988,6 +4328,10 @@ P:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - E: jpalanis!redhat.com
     M: Jaganathan Palanisamy
@@ -4846,6 +6190,10 @@ P:
   U: Jakub Liska
 - E: jakub.morvay!gmail.com
   R:
+  - T: "2100-01-01"
+    C: Cisco
+    F: "1900-01-01"
+    P: lfn/odl
   - T: "2015-06-01"
     C: Codematics
     F: "2014-12-01"
@@ -4866,6 +6214,14 @@ P:
   - E: jmorvay!cisco.com
     M: Jakub Morvay
     S: gerrit
+  - E: jmorvay!cisco.com
+    M: Jakub Morvay
+    S: gerrit
+    U: JMorvay
+  - E: jmorvay!frinx.io
+    M: Jakub Morvay
+    S: gerrit
+    U: JMorvay
   - E: jakub.morvay!gmail.com
     M: Jakub Morvay
     S: git
@@ -4883,28 +6239,11 @@ P:
     M: Jakub Morvay
     S: jira
     U: jmorvay
-  B: 0
-  U: Jakub Morvay
-- E: jakub.morvay!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: jmorvay!cisco.com
-    M: Jakub Morvay
-    S: gerrit
-    U: JMorvay
-  - E: jmorvay!frinx.io
-    M: Jakub Morvay
-    S: gerrit
-    U: JMorvay
   - M: Jmorvay
     S: mediawiki
     U: Jmorvay
   - E: jmorvay!cisco.com
-    M: Jakub Morvay -X jmorvay - PANTHEON TECHNOLOGIES@Cisco
+    M: Jakub Morvay -X jmorvay - PANTHEON TECHNOLOGIES
     S: pipermail
   - E: jakub.morvay!gmail.com
     M: Jakub Morvay
@@ -5220,53 +6559,6 @@ P:
     U: jakub.sobek647
   B: 0
   U: Jakub Sobek
-- R:
-  - T: "2017-10-31"
-    C: Cisco
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: PANTHEON.tech s.r.o.
-    F: "2017-11-01"
-    P: lfn/odl
-  I:
-  - E: jakub.toth!pantheon.tech
-    M: Jakub Toth
-    S: gerrit
-    U: JakubToth
-  - E: jakub.toth!pantheon.tech
-    M: Jakub Toth
-    S: gerrit
-    U: jakubtoth-0
-  - E: jakub.toth!pantheon.tech
-    M: Jakub Toth
-    S: gerrit
-    U: jatoth
-  - E: jatoth!cisco.com
-    M: Jakub Toth
-    S: gerrit
-    U: jatoth
-  - E: jakub.toth!pantheon.tech
-    M: JakubToth
-    S: gerrit
-    U: JakubToth
-  - M: Jatoth
-    S: mediawiki
-    U: Jatoth
-  - E: jakub.toth!pantheon.tech
-    S: opendaylight:manual
-  - E: jatoth!cisco.com
-    S: opendaylight:manual
-  - M: Jakub Toth
-    S: opendaylight:manual
-  - E: jatoth!cisco.com
-    M: Jakub Toth -X jatoth - PANTHEON TECHNOLOGIES@Cisco
-    S: pipermail
-  - E: jakub.toth!pantheon.tech
-    M: Jakub Toth
-    S: pipermail
-  B: 0
-  U: Jakub Toth
 - E: jtuznik!google.com
   R:
   - T: "2016-10-01"
@@ -5351,6 +6643,10 @@ P:
   U: JakubBrachTieto
 - E: jakub.toth!pantheon.tech
   R:
+  - T: "2017-10-31"
+    C: Cisco
+    F: "1900-01-01"
+    P: lfn/odl
   - T: "2019-09-01"
     C: PANTHEON.tech
     F: "2013-07-01"
@@ -5358,21 +6654,45 @@ P:
     C: OpenDaylight
     F: "2017-11-01"
   - T: "2100-01-01"
+    C: PANTHEON.tech s.r.o.
+    F: "2017-11-01"
+    P: lfn/odl
+  - T: "2100-01-01"
     C: IBM
     F: "2019-10-01"
   I:
   - E: jakub.toth!pantheon.tech
     M: Jakub Toth
     S: gerrit
+  - E: jakub.toth!pantheon.tech
+    M: Jakub Toth
+    S: gerrit
+    U: JakubToth
+  - E: jakub.toth!pantheon.tech
+    M: Jakub Toth
+    S: gerrit
+    U: jakubtoth-0
+  - E: jakub.toth!pantheon.tech
+    M: Jakub Toth
+    S: gerrit
+    U: jatoth
   - E: jakubt4!gmail.com
     M: Jakub Toth
     S: gerrit
   - E: jatoth!cisco.com
     M: Jakub Toth
     S: gerrit
+  - E: jatoth!cisco.com
+    M: Jakub Toth
+    S: gerrit
+    U: jatoth
   - E: jtoth!luminanetworks.com
     M: Jakub Toth
     S: gerrit
+  - E: jakub.toth!pantheon.tech
+    M: JakubToth
+    S: gerrit
+    U: JakubToth
   - E: jakubt4!gmail.com
     M: JakubToth
     S: gerrit
@@ -5411,6 +6731,21 @@ P:
     M: JakubToth
     S: jira
     U: JakubToth
+  - M: Jatoth
+    S: mediawiki
+    U: Jatoth
+  - E: jakub.toth!pantheon.tech
+    S: opendaylight:manual
+  - E: jatoth!cisco.com
+    S: opendaylight:manual
+  - M: Jakub Toth
+    S: opendaylight:manual
+  - E: jatoth!cisco.com
+    M: Jakub Toth -X jatoth - PANTHEON TECHNOLOGIES
+    S: pipermail
+  - E: jakub.toth!pantheon.tech
+    M: Jakub Toth
+    S: pipermail
   B: 0
   U: JakubToth
 - E: jmodasiy!luminanetworks.com
@@ -5432,8 +6767,23 @@ P:
     S: gerrit
     U: Jalpa
   - E: jmodasiy!luminanetworks.com
+    M: Jalpa Modasiya
+    S: gerrit
+    U: JalpaModasiya
+  - E: jmodasiy!luminanetworks.com
     M: Jalpa
     S: gerrit
+  - E: jmodasiy!luminanetworks.com
+    M: Jalpa Modasiya
+    S: git
+  - E: jmodasiy!luminanetworks.com
+    M: Jalpa Modasiya
+    S: jira
+    U: JalpaModasiya
+  - E: jmodasiy!luminanetworks.com
+    M: Jalpa Modasiya
+    S: jira
+    U: jmodasiy
   - E: jmodasiy!Brocade.com
     M: Jalpa Modasiya
     S: pipermail
@@ -8516,6 +9866,9 @@ P:
     U: jgoodyear
   - E: jgoodyea!cisco.com
     M: jgoodyear
+    S: gerrit
+  - E: jgoodyea!cisco.com
+    M: jgoodyear
     S: git
   - E: jgoodyear!savoirtech.com
     M: Jamie Goodyear
@@ -9008,12 +10361,32 @@ P:
 - C: US
   E: james.luhrsen!hp.com
   R:
+  - T: "2015-06-28"
+    C: HP
+    F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+    P: lfn/opnfv
   - T: "2015-05-01"
     C: HP
     F: "2013-03-01"
   - T: "2019-05-01"
     C: Red Hat
     F: "2015-06-01"
+  - T: "2019-04-26"
+    C: Red Hat, Inc
+    F: "2015-06-28"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: Lumina Networks
+    F: "2019-04-29"
+    P: lfn/odl
   - T: "2100-01-01"
     C: Lumina Networks
     F: "2019-05-01"
@@ -9023,6 +10396,9 @@ P:
     S: confluence
     U: jluhrsen
   - E: james.luhrsen!hp.com
+    M: Jamo Luhrsen
+    S: gerrit
+  - E: jluhrsen!gmail.com
     M: Jamo Luhrsen
     S: gerrit
   - E: jluhrsen!gmail.com
@@ -9096,40 +10472,6 @@ P:
   - E: jluhrsen!redhat.com
     M: Jamo Luhrsen
     S: mbox
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: pipermail
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: pipermail
-  B: 0
-  U: Jamo Luhrsen
-- E: jluhrsen!redhat.com
-  R:
-  - T: "2015-06-28"
-    C: HP
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-    P: lfn/opnfv
-  - T: "2019-04-26"
-    C: Red Hat, Inc
-    F: "2015-06-28"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Lumina Networks
-    F: "2019-04-29"
-    P: lfn/odl
-  I:
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: gerrit
   - M: Jluhrsen
     S: mediawiki
     U: Jluhrsen
@@ -9145,14 +10487,20 @@ P:
   - E: jamo!luhrsenlounge.net
     M: Jamo Luhrsen
     S: pipermail
+  - E: jluhrsen!gmail.com
+    M: Jamo Luhrsen
+    S: pipermail
   - E: jluhrsen!luminanetworks.com
+    M: Jamo Luhrsen
+    S: pipermail
+  - E: jluhrsen!redhat.com
     M: Jamo Luhrsen
     S: pipermail
   - E: james.luhrsen!hp.com
     M: Luhrsen, Jamo
     S: pipermail
   - E: jluhrsen!gmail.com
-    M: jluhrsen@gmail.com
+    M: jluhrsen
     S: pipermail
   B: 0
   U: Jamo Luhrsen
@@ -9609,10 +10957,10 @@ P:
     S: jira
     U: jhajnar
   - E: jhajnar!cisco.com
-    M: Jan Hajnar -X jhajnar - PANTHEON TECHNOLOGIES@Cisco
+    M: Jan Hajnar -X jhajnar - PANTHEON TECHNOLOGIES
     S: pipermail
   - E: jhajnar!cisco.com
-    M: Jan Hajnar -X jhajnar - Pantheon Technologies SRO@Cisco
+    M: Jan Hajnar -X jhajnar - Pantheon Technologies SRO
     S: pipermail
   B: 0
   U: Jan Hajnar
@@ -10106,7 +11454,7 @@ P:
     M: Jan Medved
     S: git
   - E: jmedved!cisco.com
-    M: jmedved@cisco.com
+    M: jmedved
     S: git
   B: 0
   U: Jan Medved
@@ -10971,6 +12319,10 @@ P:
     C: Linux Foundation
     F: "1900-01-01"
     P: lfn/odl
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Jsmoeller
     S: mediawiki
@@ -11312,8 +12664,12 @@ P:
     S: git
   B: 0
   U: Janis Meybohm
-- E: jchhatba!redhat.com
+- C: IN
+  E: jankihchhatbar!gmail.com
   R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
@@ -11323,6 +12679,20 @@ P:
     M: Janki Chhatbar
     S: gerrit
     U: Janki
+  - E: jchhatba!redhat.com
+    M: Janki Chhatbar
+    S: gerrit
+    U: JankiChhatbar
+  - E: jankihchhatbar!gmail.com
+    M: Janki Chhatbar
+    S: git
+  - E: jchhatba!redhat.com
+    M: Janki Chhatbar
+    S: git
+  - E: jankihchhatbar!gmail.com
+    M: Janki Chhatbar
+    S: jira
+    U: JankiChhatbar
   - M: Janki
     S: mediawiki
     U: Janki
@@ -11338,22 +12708,6 @@ P:
   - E: jchhatba!redhat.com
     M: Janki Chhatbar
     S: pipermail
-  B: 0
-  U: Janki Chhatbar
-- C: IN
-  E: jchhatba!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-  I:
-  - E: jchhatba!redhat.com
-    M: Janki Chhatbar
-    S: gerrit
-    U: JankiChhatbar
-  - E: jchhatba!redhat.com
-    M: Janki Chhatbar
-    S: git
   B: 0
   U: Janki Chhatbar
 - E: janko!mainflux.com
@@ -14683,6 +16037,17 @@ P:
     P: lfn/odl
   I:
   - E: yisye!cisco.com
+    M: Jason Ye
+    S: gerrit
+    U: yisye
+  - E: yisye!cisco.com
+    M: Jason Ye
+    S: git
+  - E: yisye!cisco.com
+    M: Jason Ye
+    S: jira
+    U: yisye
+  - E: yisye!cisco.com
     M: Jason Ye yisye
     S: pipermail
   B: 0
@@ -15088,24 +16453,16 @@ P:
     U: javisabalete
   B: 0
   U: Javi Sabalete
-- E: jesus.javier.arauz!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: jesus.javier.arauz!ericsson.com
-    M: Jesus Javier Arauz
-    S: pipermail
-  B: 0
-  U: Javier Arauz
 - C: ES
   E: jesus.javier.arauz!ericsson.com
   R:
   - T: "2100-01-01"
     C: Ericsson
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+    P: lfn/odl
   S: male
   I:
   - E: jesus.javier.arauz!ericsson.com
@@ -15119,6 +16476,9 @@ P:
     M: Javier Arauz
     S: jira
     U: jesus.javier.arauz
+  - E: jesus.javier.arauz!ericsson.com
+    M: Jesus Javier Arauz
+    S: pipermail
   B: 0
   U: Javier Arauz
 - E: javier.b.perez.hernandez!linux.intel.com
@@ -16712,6 +18072,21 @@ P:
     M: Jaya Priyadarshini
     S: gerrit
     U: JayaP
+  - E: jaya.priyadarshini!ericsson.com
+    M: Jaya Priyadarshini
+    S: gerrit
+    U: JayaPr
+  - E: jayapriyadarshini02!gmail.com
+    M: Jaya Priyadarshini
+    S: gerrit
+    U: Jaya
+  - E: jaya.priyadarshini!ericsson.com
+    M: Jaya Priyadarshini
+    S: git
+  - E: jaya.priyadarshini!ericsson.com
+    M: Jaya Priyadarshini
+    S: jira
+    U: JayaPr
   - E: jaya.priyadarshini!ericsson.com
     M: Jaya Priyadarshini
     S: pipermail
@@ -18687,6 +20062,10 @@ P:
   - T: "2100-01-01"
     C: Ericsson
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Jeff Collins
     S: confluence
@@ -18752,6 +20131,21 @@ P:
     S: git
   B: 0
   U: Jeff Dike
+- E: jeff.fischer!workday.com
+  R:
+  - T: "2013-07-01"
+    C: IBM
+    F: "2003-03-01"
+  - T: "2018-06-01"
+    C: Workday
+    F: "2013-10-01"
+  I:
+  - E: jeff.fischer!workday.com
+    M: Jeff Fischer
+    S: jira
+    U: jeff.fischer
+  B: 0
+  U: Jeff Fischer
 - E: jgarzik!redhat.com
   R:
   - T: "2100-01-01"
@@ -22952,6 +24346,10 @@ P:
   U: Jeremy Phelps
 - E: jplsek!iol.unh.edu
   R:
+  - T: "2100-01-01"
+    C: University of New Hampshire
+    F: "1900-01-01"
+    P: lfn/opnfv
   - T: "2020-02-29"
     C: UNH InterOperability Lab
     F: "2013-06-30"
@@ -24025,6 +25423,24 @@ P:
   - E: zhaoxinyu!huawei.com
     M: Zhaoxinyu Jerry
     S: pipermail
+  B: 0
+  U: Jerry Zhao
+- E: zhaoxinyu!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Huawei
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: zhaoxinyu!huawei.com
+    M: Xinyu Zhao
+    S: git
+  - E: zhaoxinyu!huawei.com
+    M: zhaoxinyu
+    S: git
   B: 0
   U: Jerry Zhao
 - E: zhoujiawei7!huawei.com
@@ -25660,7 +27076,15 @@ P:
   - T: "2100-01-01"
     C: Linux Foundation
     F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
     P: lfn/onap
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+    P: lfn/opnfv
   - T: "2100-01-01"
     C: The Linux Foundation
     F: "1900-01-01"
@@ -25943,6 +27367,10 @@ P:
   - T: "2100-01-01"
     C: Bitergia
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Bitergia
+    F: "1900-01-01"
+    P: lfn/odl
   - T: "2100-01-01"
     C: Bitergia
     F: "1900-01-01"
@@ -27392,6 +28820,20 @@ P:
     S: pipermail
   B: 0
   U: Jiang, JunyuX
+- E: yux.jiang!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2013-09-01"
+  I:
+  - E: yux.jiang!intel.com
+    M: Jiang, YuX
+    S: git
+  - E: yux.jiang!intel.com
+    M: Jiang, YuX
+    S: pipermail
+  B: 0
+  U: Jiang, YuX
 - E: yunhong.jiang!intel.com
   R:
   - T: "2100-01-01"
@@ -27481,6 +28923,20 @@ P:
     S: pipermail
   B: 0
   U: Jiang, Yunhong
+- E: yux.jiang!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2013-09-01"
+  I:
+  - E: yux.jiang!intel.com
+    M: Jiang,yu
+    S: git
+  - E: yux.jiang!intel.com
+    M: Jiang,yu
+    S: pipermail
+  B: 0
+  U: Jiang,yu
 - C: CN
   E: jiangjun1990!gmail.com
   R:
@@ -27812,6 +29268,10 @@ P:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1900-01-01"
+    P: lfn/opnfv
   S: male
   I:
   - E: jianzzha!redhat.com
@@ -28149,8 +29609,12 @@ P:
     S: git
   B: 0
   U: Jie Deng
-- E: han.jie!zte.com.cn
+- E: jeong_hyun!msn.com
   R:
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "1900-01-01"
+    P: lfn/odl
   - T: "2100-01-01"
     C: ZTE
     F: "2007-07-01"
@@ -28161,10 +29625,37 @@ P:
   - E: han.jie!zte.com.cn
     M: Jie Han
     S: gerrit
+  - E: han.jie!zte.com.cn
+    M: Jie Han
+    S: gerrit
     U: JieHan2017
   - E: han.jie!zte.com.cn
     M: Jie Han
+    S: gerrit
+    U: hanjie2017
+  - E: jeong_hyun!msn.com
+    M: Jie Han
+    S: gerrit
+  - E: han.jie!zte.com.cn
+    M: han
+    S: gerrit
+  - E: jeong_hyun!msn.com
+    M: hanjie
+    S: gerrit
+    U: hanjie2017
+  - E: han.jie!zte.com.cn
+    M: Jie Han
     S: git
+  - E: jeong_hyun!msn.com
+    M: Jie Han
+    S: git
+  - E: han.jie!zte.com.cn
+    M: han
+    S: git
+  - E: jeong_hyun!msn.com
+    M: HanJie
+    S: jira
+    U: jeong_hyun
   - E: han.jie!zte.com.cn
     M: Jie Han
     S: jira
@@ -28173,34 +29664,11 @@ P:
     M: Jie Han
     S: jira
     U: han.jie
-  B: 0
-  U: Jie Han
-- E: jeong_hyun!msn.com
-  R:
-  - T: "2100-01-01"
-    C: ZTE Corporation
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: han.jie!zte.com.cn
-    M: Jie Han
-    S: gerrit
-  - E: han.jie!zte.com.cn
-    M: Jie Han
-    S: gerrit
-    U: hanjie2017
-  - E: han.jie!zte.com.cn
-    M: han
-    S: gerrit
-  - E: jeong_hyun!msn.com
-    M: hanjie
-    S: gerrit
-    U: hanjie2017
   - M: Jiehan2017
     S: mediawiki
     U: Jiehan2017
   - E: han.jie!zte.com.cn
-    M: han.jie@zte.com.cn
+    M: han.jie
     S: pipermail
   B: 0
   U: Jie Han
@@ -28372,6 +29840,26 @@ P:
     S: git
   B: 0
   U: Jie Zhang
+- E: houjie1!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: houjie1!huawei.com
+    M: JieHou
+    S: gerrit
+    U: JieHou
+  - E: houjie1!huawei.com
+    M: JieHou
+    S: git
+  - E: houjie1!huawei.com
+    M: JieHou
+    S: jira
+    U: houjie1
+  B: 0
+  U: JieHou
 - E: jieqiang.wang!arm.com
   R:
   - T: "2017-09-01"
@@ -28556,7 +30044,15 @@ P:
   - T: "2100-01-01"
     C: Linux Foundation
     F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
     P: lfn/onap
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+    P: lfn/opnfv
   - T: "2100-01-01"
     C: The Linux Foundation
     F: "2000-01-01"
@@ -28693,6 +30189,10 @@ P:
     C: Linux Foundation
     F: "1900-01-01"
     P: lfn/onap
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Jim Baker
     S: confluence
@@ -30232,13 +31732,16 @@ P:
     P: lfn/odl
   I:
   - E: hou.jin!zte.com.cn
+    M: Jin Hou
+    S: git
+  - E: hou.jin!zte.com.cn
     M: robotz
     S: git
   - E: hou.jin!zte.com.cn
     M: "10105761"
     S: pipermail
   - E: hou.jin!zte.com.cn
-    M: hou.jin@zte.com.cn
+    M: hou.jin
     S: pipermail
   B: 0
   U: Jin Hou
@@ -31034,6 +32537,10 @@ P:
   - T: "2100-01-01"
     C: ARM
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: ARM
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Jingzhao Ni
     S: confluence
@@ -31285,19 +32792,14 @@ P:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
-  I:
-  - E: jbenc!redhat.com
-    M: Jiri Benc
-    S: git
-  B: 0
-  U: Jiri Benc
-- E: jbenc!redhat.com
-  R:
   - T: "2100-01-01"
     C: Red Hat
     F: "1900-01-01"
     P: lfn/odl
   I:
+  - E: jbenc!redhat.com
+    M: Jiri Benc
+    S: git
   - E: jbenc!redhat.com
     M: Jiri Benc
     S: pipermail
@@ -31928,6 +33430,28 @@ P:
     U: jmnote
   B: 0
   U: Jmnote
+- E: jnana.penumetcha!tcs.com
+  R:
+  - T: "2100-01-01"
+    C: Tata Consultancy
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: jnana.penumetcha!tcs.com
+    M: Jnana Penumetcha
+    S: gerrit
+    U: jnana
+  - E: jnana.penumetcha!tcs.com
+    M: jnana
+    S: git
+  - E: jnana.penumetcha!tcs.com
+    M: Jnana Penumetcha/HYD/TCS
+    S: pipermail
+  - E: jnana.penumetcha!tcs.com
+    M: Jnana Penumetcha
+    S: pipermail
+  B: 0
+  U: Jnana Penumetcha
 - E: jo!umask.net
   R:
   - T: "2100-01-01"
@@ -34567,6 +36091,10 @@ P:
   U: Joel H Schopp
 - E: joel.halpern!ericsson.com
   R:
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+    P: lfn/odl
   - T: "1998-01-01"
     C: Newbridge Networks
     F: "1994-01-01"
@@ -34580,15 +36108,6 @@ P:
   - E: joel.halpern!ericsson.com
     M: Joel Halpern
     S: groupsio
-  B: 0
-  U: Joel Halpern
-- E: joel.halpern!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
   - E: joel.halpern!ericsson.com
     M: Joel Halpern
     S: pipermail
@@ -36664,6 +38183,13 @@ P:
     P: lfn/odl
   I:
   - E: john.borz!hp.com
+    M: John Borz
+    S: gerrit
+    U: jborz
+  - E: john.borz!hp.com
+    M: John Borz
+    S: git
+  - E: john.borz!hp.com
     M: Borz, John HP Networking
     S: pipermail
   - E: john.borz!hp.com
@@ -37624,6 +39150,10 @@ P:
   - T: "2100-01-01"
     C: Intel
     F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
     P: lfn/opnfv
   I:
   - M: John Hinman
@@ -37643,6 +39173,9 @@ P:
     M: John Hinman
     S: jira
     U: jhinman1
+  - E: john.hinman!intel.com
+    M: Hinman, John
+    S: pipermail
   B: 0
   U: John Hinman
 - E: johncarlhofman!gmail.com
@@ -38456,6 +39989,10 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - E: john.mcnamara!intel.com
     M: John McNamara
@@ -40425,6 +41962,9 @@ P:
   I:
   - E: johnson.li!intel.com
     M: Li, Johnson
+    S: groupsio
+  - E: johnson.li!intel.com
+    M: Li, Johnson
     S: pipermail
   B: 0
   U: Johnson Li
@@ -41955,6 +43495,10 @@ P:
   - T: "2100-01-01"
     C: Ericsson
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Jonas Bjurel
     S: confluence
@@ -44993,6 +46537,10 @@ P:
   - T: "2100-01-01"
     C: Nokia
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Jonne Soininen
     S: confluence
@@ -47262,6 +48810,109 @@ P:
     S: pipermail
   B: 0
   U: Jose Lamego
+- E: jose.lausuch!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+    P: lfn/opnfv
+  - T: "2100-01-01"
+    C: SUSE
+    F: "1900-01-01"
+    P: lfn/opnfv
+  - T: "2010-12-01"
+    C: Capgemini
+    F: "2010-06-01"
+  - T: "2017-08-01"
+    C: Ericsson AB
+    F: "2012-01-01"
+  - T: "2100-01-01"
+    C: Open Platform for NFV
+    F: "2016-10-01"
+  - T: "2100-01-01"
+    C: SUSE
+    F: "2017-09-01"
+  I:
+  - M: Jose Lausuch
+    S: confluence
+    U: jose.lausuch
+  - E: jalausuch!suse.com
+    M: Jose Lausuch
+    S: gerrit
+    U: jose.lausuch
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: gerrit
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: gerrit
+    U: jose.lausuch
+  - E: jose.lausuch!ericsson.com
+    M: jose.lausuch
+    S: gerrit
+  - E: jalausuch!suse.com
+    M: Jose Lausuch
+    S: git
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: git
+  - E: jose.lausuch!ericsson.com
+    M: jose.lausuch
+    S: git
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: gmane
+  - E: jalausuch!suse.com
+    M: Jose Lausuch
+    S: groupsio
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: groupsio
+  - E: jalausuch!suse.com
+    M: Suse
+    S: groupsio
+  - E: jalausuch!suse.com
+    M: Jose Lausuch
+    S: jira
+    U: jose.lausuch
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: jira
+    U: jose.lausuch
+  - M: Jose Lausuch
+    S: linux-foundation:its
+    U: jose.lausuch
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: linux-foundation:mls
+    U: jose.lausuch
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: linux-foundation:scm
+  - E: jose.lausuch!ericsson.com
+    M: jose.lausuch
+    S: linux-foundation:scm
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: linux-foundation:scr
+    U: jose.lausuch
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: mbox
+  - E: jalausuch!suse.com
+    M: Jose Lausuch
+    S: pipermail
+  - E: jose.lausuch!ericsson.com
+    M: Jose Lausuch
+    S: pipermail
+  - E: jalausuch!suse.com
+    M: Suse
+    S: pipermail
+  - M: jose_lausuch
+    S: supybot
+    U: jose_lausuch
+  B: 0
+  U: Jose Lausuch
 - E: jfrancoa!redhat.com
   R:
   - T: "2100-01-01"
@@ -47305,6 +48956,12 @@ P:
   - E: jose.luis.franco.arza!ericsson.com
     M: ejisfza
     S: gerrit
+  - E: jose.luis.franco.arza!ericsson.com
+    M: Jose Luis Franco Arza
+    S: git
+  - E: jose.luis.franco.arza!ericsson.com
+    M: ejisfza
+    S: git
   - E: jose.luis.franco.arza!ericsson.com
     M: Jose Luis Franco Arza
     S: pipermail
@@ -47648,7 +49305,18 @@ P:
   - E: jose.santos.pulido.garcia!ericsson.com
     M: Jose-Santos Pulido Garcia
     S: gerrit
+    U: epuljos
+  - E: jose.santos.pulido.garcia!ericsson.com
+    M: Jose-Santos Pulido Garcia
+    S: gerrit
     U: jspulidogarcia
+  - E: jose.santos.pulido.garcia!ericsson.com
+    M: Jose-Santos Pulido Garcia
+    S: git
+  - E: jose.santos.pulido.garcia!ericsson.com
+    M: Jose-Santos Pulido Garcia
+    S: jira
+    U: jose.santos.pulido.garcia
   - M: Jspulidogarcia
     S: mediawiki
     U: Jspulidogarcia
@@ -47834,6 +49502,10 @@ P:
   - T: "2100-01-01"
     C: ENEA AB
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: ENEA AB
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - E: josep.puigdemont!enea.com
     S: bugzilla
@@ -49033,7 +50705,18 @@ P:
     P: lfn/odl
   I:
   - E: josstewa!cisco.com
-    M: Joseph Stewart -X josstewa - EXPERIS US INC@Cisco
+    M: Joseph Stewart
+    S: gerrit
+    U: josstewa
+  - E: josstewa!cisco.com
+    M: Joseph Stewart
+    S: git
+  - E: josstewa!cisco.com
+    M: Joseph Stewart
+    S: jira
+    U: josstewa
+  - E: josstewa!cisco.com
+    M: Joseph Stewart -X josstewa - EXPERIS US INC
     S: pipermail
   B: 0
   U: Joseph Stewart
@@ -49490,6 +51173,10 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Intel
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Josh Craddock
     S: confluence
@@ -52545,44 +54232,22 @@ P:
     U: yt3liu
   B: 0
   U: Joyce Liu
-- R:
+- E: jbacigal!cisco.com
+  R:
   - T: "2016-07-31"
     C: Cisco
     F: "1900-01-01"
     P: lfn/odl
-  - T: "2100-01-01"
-    C: PANTHEON.tech s.r.o.
-    F: "2016-08-01"
-    P: lfn/odl
-  I:
-  - E: jozef.bacigal!pantheon.tech
-    M: Jozef Bacigal
-    S: gerrit
-    U: jbacigal
-  - E: jbacigal!cisco.com
-    S: opendaylight:manual
-  - E: jozef.bacigal!me.com
-    S: opendaylight:manual
-  - E: jozef.bacigal!pantheon.tech
-    S: opendaylight:manual
-  - M: Jozef Bacigal
-    S: opendaylight:manual
-  - E: jbacigal!cisco.com
-    M: Jozef Bacigal -X jbacigal - PANTHEON TECHNOLOGIES@Cisco
-    S: pipermail
-  - E: jozef.bacigal!pantheon.tech
-    M: Jozef Bacigal
-    S: pipermail
-  B: 0
-  U: Jozef Bacigal
-- E: jbacigal!cisco.com
-  R:
   - T: "2015-05-01"
     C: K-system
     F: "1997-05-01"
   - T: "2018-03-01"
     C: PANTHEON.tech
     F: "2015-04-01"
+  - T: "2100-01-01"
+    C: PANTHEON.tech s.r.o.
+    F: "2016-08-01"
+    P: lfn/odl
   - T: "2100-01-01"
     C: GAMO a.s.
     F: "2018-04-01"
@@ -52594,6 +54259,10 @@ P:
     M: Jozef Bacigal
     S: gerrit
     U: batky
+  - E: jozef.bacigal!pantheon.tech
+    M: Jozef Bacigal
+    S: gerrit
+    U: jbacigal
   - E: batky!localhost.localdomain
     M: Jozef Bacigál
     S: gerrit
@@ -52618,9 +54287,23 @@ P:
     M: Jozef Bacigál
     S: jira
     U: jbacigal
+  - E: jbacigal!cisco.com
+    S: opendaylight:manual
+  - E: jozef.bacigal!me.com
+    S: opendaylight:manual
+  - E: jozef.bacigal!pantheon.tech
+    S: opendaylight:manual
+  - M: Jozef Bacigal
+    S: opendaylight:manual
+  - E: jbacigal!cisco.com
+    M: Jozef Bacigal -X jbacigal - PANTHEON TECHNOLOGIES
+    S: pipermail
+  - E: jozef.bacigal!pantheon.tech
+    M: Jozef Bacigal
+    S: pipermail
   B: 0
   U: Jozef Bacigal
-- E: jbehran!cisco.com
+- E: jozef.behran!pantheon.sk
   R:
   - T: "2100-01-01"
     C: Cisco
@@ -52641,6 +54324,9 @@ P:
   - E: jbehran!cisco.com
     M: Jozef Behran
     S: git
+  - E: jozef.behran!pantheon.sk
+    M: Jozef Behran
+    S: git
   - E: jbehran!cisco.com
     M: Jozef Behran
     S: jira
@@ -52653,7 +54339,7 @@ P:
     S: mediawiki
     U: Jctech
   - E: jbehran!cisco.com
-    M: Jozef Behran -X jbehran - PANTHEON TECHNOLOGIES@Cisco
+    M: Jozef Behran -X jbehran - PANTHEON TECHNOLOGIES
     S: pipermail
   - E: jozef.behran!pantheon.sk
     M: Jozef Behran
@@ -52705,10 +54391,10 @@ P:
     S: jira
     U: jgloncak
   - E: jgloncak!cisco.com
-    M: Jozef Gloncak -X jgloncak - PANTHEON TECHNOLOGIES@Cisco
+    M: Jozef Gloncak -X jgloncak - PANTHEON TECHNOLOGIES
     S: pipermail
   - E: jgloncak!cisco.com
-    M: Jozef Gloncak -X jgloncak - Pantheon Technologies SRO@Cisco
+    M: Jozef Gloncak -X jgloncak - Pantheon Technologies SRO
     S: pipermail
   B: 0
   U: Jozef Gloncak
@@ -53660,6 +55346,14 @@ P:
   - T: "2100-01-01"
     C: Ericsson
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: Ericsson
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - M: Juan Vidal
     S: confluence
@@ -53692,25 +55386,12 @@ P:
     M: Juan Vidal
     S: jira
     U: JuanVidal
-  - E: juan.vidal.allende!ericsson.com
-    M: Juan Vidal Allende
-    S: pipermail
-  B: 0
-  U: Juan Vidal Allende
-- E: juan.vidal.allende!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
   - M: Juanvidal
     S: mediawiki
     U: Juanvidal
+  - E: juan.vidal.allende!ericsson.com
+    M: Juan Vidal Allende
+    S: pipermail
   B: 0
   U: Juan Vidal Allende
 - C: US
@@ -54340,6 +56021,21 @@ P:
     S: git
   B: 0
   U: Julan Hsu
+- E: jules.boudaud!orange.com
+  R:
+  - T: "2100-01-01"
+    C: Orange
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: jules.boudaud!orange.com
+    M: Jules Boudaud
+    S: gerrit
+  - E: jules.boudaud!orange.com
+    M: Jules Boudaud
+    S: git
+  B: 0
+  U: Jules Boudaud
 - C: FR
   R:
   - T: "2014-04-01"
@@ -54531,7 +56227,14 @@ P:
     P: lfn/odl
   I:
   - E: jpavlico!cisco.com
-    M: Julia Pavlicova -X jpavlico - Pantheon Technologies SRO@Cisco
+    M: Julia Pavlicova
+    S: gerrit
+    U: jpavlico
+  - E: jpavlico!cisco.com
+    M: Julia Pavlicova
+    S: git
+  - E: jpavlico!cisco.com
+    M: Julia Pavlicova -X jpavlico - Pantheon Technologies SRO
     S: pipermail
   B: 0
   U: Julia Pavlicova
@@ -56024,6 +57727,10 @@ P:
   - T: "2100-01-01"
     C: 6WIND
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: 6WIND
+    F: "1900-01-01"
+    P: lfn/opnfv
   I:
   - E: julien.meunier!6wind.com
     M: Julien Meunier
@@ -57945,11 +59652,22 @@ P:
   - E: jsebin!cisco.com
     M: Juraj Sebin
     S: gerrit
+  - E: sebin.juraj!gmail.com
+    M: Juraj Sebin
+    S: gerrit
+    U: jsebin
   - E: jsebin!cisco.com
-    M: Juraj Sebin -X jsebin - PANTHEON TECHNOLOGIES@Cisco
+    M: Juraj Sebin
+    S: git
+  - E: jsebin!cisco.com
+    M: Juraj Sebin
+    S: jira
+    U: jsebin
+  - E: jsebin!cisco.com
+    M: Juraj Sebin -X jsebin - PANTHEON TECHNOLOGIES
     S: pipermail
   - E: jsebin!cisco.com
-    M: Juraj Sebin -X jsebin - Pantheon Technologies SRO@Cisco
+    M: Juraj Sebin -X jsebin - Pantheon Technologies SRO
     S: pipermail
   - E: sebin.juraj!gmail.com
     M: Juraj Sebin
@@ -59465,1735 +61183,3 @@ P:
     U: fallrisk
   B: 0
   U: Justin Watson
-- C: AU
-  R:
-  - T: "2017-11-01"
-    C: Dev Kimchi
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Mexia
-    F: "2017-11-01"
-  S: male
-  I:
-  - M: Justin Yoo
-    S: github
-    U: justinyoo
-  B: 0
-  U: Justin Yoo
-- C: AU
-  E: justin.yoojh!gmail.com
-  R:
-  - T: "2017-11-01"
-    C: Dev Kimchi
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Mexia
-    F: "2017-11-01"
-  S: male
-  I:
-  - E: justin.yoojh!gmail.com
-    M: Justin Yoo
-    S: git
-  B: 0
-  U: Justin Yoo
-- E: justiny!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware
-    F: "1900-01-01"
-  I:
-  - E: justiny!vmware.com
-    M: Justin Yu
-    S: git
-  B: 0
-  U: Justin Yu
-- E: jz!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-  I:
-  - E: jz!twitter.com
-    M: Justin Zhu
-    S: git
-  B: 0
-  U: Justin Zhu
-- R:
-  - T: "2018-03-01"
-    C: Microsoft
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: NatureServe
-    F: "2018-03-01"
-  S: male
-  I:
-  - M: Justin
-    S: github
-    U: JustinAzoff
-  B: 0
-  U: Justin
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Justin
-    S: github
-    U: jterry75
-  B: 0
-  U: Justin
-- C: US
-  E: jterry75!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jterry75!users.noreply.github.com
-    M: Justin
-    S: git
-  B: 0
-  U: Justin
-- E: justincappos!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: justincappos!gmail.com
-    M: Justin Cappos
-    S: git
-  - E: justincappos!gmail.com
-    M: JustinCappos
-    S: git
-  B: 0
-  U: JustinCappos
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: female
-  I:
-  - M: Justine Tunney
-    S: github
-    U: jart
-  B: 0
-  U: Justine Tunney
-- E: justyna.czestochowsa!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - E: justyna.czestochowsa!nokia.com
-    M: Justyna Czestochowska
-    S: gerrit
-  - E: justyna.czestochowsa!nokia.com
-    M: Justyna Czestochowska
-    S: gerrit
-  B: 0
-  U: Justyna Czestochowska
-- E: justyna.czestochowska!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - M: Justyna Czestochowska
-    S: confluence
-    U: jczestochowska
-  - E: justyna.czestochowska!nokia.com
-    M: Justyna Czestochowska
-    S: gerrit
-    U: jczestochowska
-  - E: justyna.czestochowska!nokia.com
-    M: Justyna Czestochowska
-    S: git
-  - E: justyna.czestochowska!nokia.com
-    M: jczestochowska
-    S: git
-  - E: justyna.czestochowska!nokia.com
-    M: Justyna Czestochowska
-    S: jira
-    U: jczestochowska
-  B: 0
-  U: Justyna Czestochowska
-- C: PL
-  E: justyna.ilczuk!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: female
-  I:
-  - E: justyna.ilczuk!gmail.com
-    M: Justyna Ilczuk
-    S: github
-    U: ilonajulczuk
-  B: 0
-  U: Justyna Ilczuk
-- C: CN
-  E: 1171313930!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent
-    F: "1900-01-01"
-  I:
-  - E: 1171313930!qq.com
-    M: Juvenile
-    S: github
-    U: fengshunli
-  B: 0
-  U: Juvenile
-- E: tomi.juvonen!nsn.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Networks
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Nokia Networks
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi NSN - FI/Espoo
-    S: gmane
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi (NSN - FI/Espoo)
-    S: groupsio
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi NSN - FI/Espoo
-    S: linux-foundation:mls
-    U: tomi.juvonen
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi NSN - FI/Espoo
-    S: mbox
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi NSN - FI/Espoo
-    S: pipermail
-  B: 0
-  U: Juvonen, Tomi (NSN - FI/Espoo)
-- E: jyothiss!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: VMware
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - E: jyothiss!vmware.com
-    M: Jyothis S (c)
-    S: groupsio
-  - E: jyothiss!vmware.com
-    M: Jyothis S c
-    S: pipermail
-  B: 0
-  U: Jyothis S (c)
-- E: j.rao.kurapaty!accenture.com
-  R:
-  - T: "2100-01-01"
-    C: Accenture
-    F: "1900-01-01"
-  I:
-  - E: j.rao.kurapaty!accenture.com
-    M: Jyothrilinga Rao Kurapati
-    S: slack
-    U: jkurapati
-  B: 0
-  U: Jyothrilinga Rao Kurapati
-- E: jyoti.r.yadav!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - E: jyoti.r.yadav!intel.com
-    M: Jyoti Yadav
-    S: git
-  B: 0
-  U: Jyoti Yadav
-- E: jyotsna.priya1!tcs.com
-  R:
-  - T: "2100-01-01"
-    C: Tata Consultancy
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: jyotsna.priya1!tcs.com
-    M: Jyotsna Priya1
-    S: pipermail
-  B: 0
-  U: Jyotsna Priya1
-- E: jsarha!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments
-    F: "1900-01-01"
-  I:
-  - E: jsarha!ti.com
-    M: Jyri Sarha
-    S: git
-  B: 0
-  U: Jyri Sarha
-- E: jyrki.aaltonen!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  I:
-  - E: jyrki.aaltonen!nokia.com
-    M: Jyrki Aaltonen
-    S: gerrit
-    U: jyrki
-  - E: jyrki.aaltonen!nokia.com
-    M: Jyrki Aaltonen
-    S: git
-  B: 0
-  U: Jyrki Aaltonen
-- E: famousgarkin!outlook.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: famousgarkin!outlook.com
-    M: famousgarkin
-    S: git
-  - E: famousgarkin!outlook.com
-    M: Ján Dzurek
-    S: github
-    U: famousgarkin
-  B: 0
-  U: Ján Dzurek
-- E: janos.pauer!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-  I:
-  - E: janos.pauer!ericsson.com
-    M: János Pauer
-    S: pipermail
-  B: 0
-  U: János Pauer
-- E: jeremie.galarneau!efficios.com
-  R:
-  - T: "2100-01-01"
-    C: EfficiOS
-    F: "1900-01-01"
-  I:
-  - E: jeremie.galarneau!efficios.com
-    M: Jérémie Galarneau
-    S: git
-  B: 0
-  U: Jérémie Galarneau
-- C: FR
-  R:
-  - T: "2100-01-01"
-    C: Snips
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Jérémie Girault
-    S: github
-    U: jeremiegirault
-  B: 0
-  U: Jérémie Girault
-- C: GB
-  R:
-  - T: "2015-10-01"
-    C: Aimia
-    F: "1900-01-01"
-  - T: "2016-09-01"
-    C: YOOX NET-A-PORTER
-    F: "2015-10-01"
-  - T: "2019-05-01"
-    C: Yieldify
-    F: "2016-09-01"
-  - T: "2100-01-01"
-    C: Diginex
-    F: "2019-05-01"
-  S: male
-  I:
-  - M: Jérémy Mathevet
-    S: github
-    U: jeyglk
-  B: 0
-  U: Jérémy Mathevet
-- E: jeremy.raverdy!orange.com
-  R:
-  - T: "2100-01-01"
-    C: Orange
-    F: "1900-01-01"
-  I:
-  - S: github
-    U: jraverdy-orange
-  - E: jeremy.raverdy!orange.com
-    M: Jérémy RAVERDY
-    S: github
-    U: jraverdy-orange
-  B: 0
-  U: Jérémy RAVERDY
-- C: FR
-  E: jeremy.wimsingues!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Amaris
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jeremy.wimsingues!gmail.com
-    M: Jérémy Wimsingues
-    S: github
-    U: JWimsingues
-  B: 0
-  U: Jérémy Wimsingues
-- C: FR
-  E: jeremy.wimsingues!insa-lyon.fr
-  R:
-  - T: "2100-01-01"
-    C: Amaris
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jeremy.wimsingues!insa-lyon.fr
-    M: Jérémy Wimsingues
-    S: git
-  B: 0
-  U: Jérémy Wimsingues
-- E: jglisse!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-  I:
-  - E: jglisse!redhat.com
-    M: Jérôme Glisse
-    S: git
-  B: 0
-  U: Jérôme Glisse
-- C: IT
-  E: jmirc!expedia.com
-  R:
-  - T: "2014-09-01"
-    C: CGI
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Expedia
-    F: "2014-09-01"
-  S: male
-  I:
-  - E: jmirc!expedia.com
-    M: Jérôme Mirc
-    S: github
-    U: jmirc
-  B: 0
-  U: Jérôme Mirc
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Docker
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Jérôme Petazzoni
-    S: github
-    U: jpetazzo
-  B: 0
-  U: Jérôme Petazzoni
-- E: jerome.petazzoni!dotcloud.com
-  R:
-  - T: "2100-01-01"
-    C: cloudControl, Inc.
-    F: "1900-01-01"
-  I:
-  - E: jerome.petazzoni!dotcloud.com
-    M: Jérôme Petazzoni
-    S: git
-  B: 0
-  U: Jérôme Petazzoni
-- C: US
-  E: jerome.petazzoni!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Docker
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jerome.petazzoni!gmail.com
-    M: Jérôme Petazzoni
-    S: git
-  B: 0
-  U: Jérôme Petazzoni
-- R:
-  - T: "2017-04-01"
-    C: Ministère des Armées
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Datadog
-    F: "2017-04-01"
-  S: male
-  I:
-  - M: Jérôme Vizcaino
-    S: github
-    U: j-vizcaino
-  B: 0
-  U: Jérôme Vizcaino
-- E: jozsef.kertesz!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-  I:
-  - E: jozsef.kertesz!sap.com
-    M: József Kertész
-    S: slack
-    U: dodi
-  B: 0
-  U: József Kertész
-- E: joerg.krause!embedded.rocks
-  R:
-  - T: "2100-01-01"
-    C: IT-Visions
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: joerg.krause!embedded.rocks
-    M: Jörg Krause
-    S: git
-  B: 0
-  U: Jörg Krause
-- C: "NO"
-  E: jg!appeartv.com
-  R:
-  - T: "2100-01-01"
-    C: Appear TV AS
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jg!appeartv.com
-    M: Jørgen Grøndal
-    S: git
-  B: 0
-  U: Jørgen Grøndal
-- C: "NO"
-  E: jorgen.kvalvaag!nordicsemi.no
-  R:
-  - T: "2100-01-01"
-    C: Nordic Semiconductor
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jorgen.kvalvaag!nordicsemi.no
-    M: Jorgen Kvalvaag
-    S: git
-  - E: jorgen.kvalvaag!nordicsemi.no
-    M: Jørgen Kvalvaag
-    S: git
-  B: 0
-  U: Jørgen Kvalvaag
-- E: j!bitron.ch
-  R:
-  - T: "2100-01-01"
-    C: Codethink
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: j!bitron.ch
-    M: Jürg Billeter
-    S: git
-  B: 0
-  U: Jürg Billeter
-- E: juergen.bosch!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-  I:
-  - E: juergen.bosch!sap.com
-    M: Jürgen Bosch
-    S: slack
-    U: idefix24
-  B: 0
-  U: Jürgen Bosch
-- C: IN
-  E: juergen!paragon-es.de
-  R:
-  - T: "2100-01-01"
-    C: PARAGON
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: juergen!paragon-es.de
-    M: Jürgen Haas
-    S: github
-    U: jurgenhaas
-  B: 0
-  U: Jürgen Haas
-- C: DE
-  E: jh!web.de
-  R:
-  - T: "2100-01-01"
-    C: 1&1 Internet AG
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jh!web.de
-    M: Jürgen Hermann
-    S: git
-  - E: jh!web.de
-    M: Jürgen Hermann
-    S: github
-    U: jhermann
-  B: 0
-  U: Jürgen Hermann
-- C: DE
-  E: juergen!hoetzel.info
-  R:
-  - T: "2100-01-01"
-    C: Archlinux
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: juergen!hoetzel.info
-    M: Jürgen Hötzel
-    S: git
-  B: 0
-  U: Jürgen Hötzel
-- C: PL
-  R:
-  - T: "2015-09-01"
-    C: Codernity
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-  - T: "2019-12-01"
-    C: Mirantis
-    F: "2015-09-01"
-  - T: "2100-01-01"
-    C: Travelping
-    F: "2019-12-01"
-  S: male
-  I:
-  - M: Jędrzej Nowak
-    S: github
-    U: pigmej
-  B: 0
-  U: Jędrzej Nowak
-- E: kalamkhan!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: kalamkhan!pivotal.io
-    M: K Alamkhan
-    S: slack
-    U: kalamakha
-  B: 0
-  U: K Alamkhan
-- E: Jonathan.Harker!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: Jonathan.Harker!ibm.com
-    M: K Jonathan Harker
-    S: git
-  B: 0
-  U: K Jonathan Harker
-- C: US
-  E: k.jonathan.harker!hp.com
-  R:
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: HP
-    F: "2015-10-31"
-  S: male
-  I:
-  - E: k.jonathan.harker!hp.com
-    M: K Jonathan Harker
-    S: git
-  B: 0
-  U: K Jonathan Harker
-- E: ganesan.k!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "1900-01-01"
-  I:
-  - E: ganesan.k!ge.com
-    M: K, Ganesan (GE Healthcare)
-    S: groupsio
-  - E: ganesan.k!ge.com
-    M: K, Ganesan GE Healthcare
-    S: pipermail
-  B: 0
-  U: K, Ganesan (GE Healthcare)
-- E: kys!messages.microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  I:
-  - E: kys!messages.microsoft.com
-    M: K. Y. Srinivasan
-    S: git
-  B: 0
-  U: K. Y. Srinivasan
-- E: kys!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  I:
-  - E: kys!microsoft.com
-    M: K. Y. Srinivasan
-    S: git
-  - E: kys!microsoft.com
-    M: KY Srinivasan
-    S: pipermail
-  B: 0
-  U: K. Y. Srinivasan
-- C: US
-  E: (see website)
-  R:
-  - T: "2015-03-01"
-    C: Basho
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  - T: "2016-11-01"
-    C: Twitter
-    F: "2015-03-01"
-  - T: "2017-05-01"
-    C: Reflec
-    F: "2016-11-01"
-  - T: "2018-06-01"
-    C: Stream.io
-    F: "2017-05-01"
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2018-06-01"
-  S: male
-  I:
-  - E: (see website)
-    M: K.K. Yap
-    S: github
-    U: yapkke
-  B: 0
-  U: K.K. Yap
-- E: vijay.bvb!samsung.com
-  R:
-  - T: "2100-01-01"
-    C: Samsung
-    F: "1900-01-01"
-  I:
-  - E: vijay.bvb!samsung.com
-    M: K.T.VIJAYAKUMAAR
-    S: git
-  B: 0
-  U: K.T.VIJAYAKUMAAR
-- E: k-tanaka!ce.jp.nec.com
-  R:
-  - T: "2100-01-01"
-    C: NEC
-    F: "1900-01-01"
-  I:
-  - E: k-tanaka!ce.jp.nec.com
-    M: K.Tanaka
-    S: git
-  B: 0
-  U: K.Tanaka
-- E: k.v.suneelu.verma!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: k.v.suneelu.verma!ericsson.com
-    M: K.V Suneelu Verma
-    S: gerrit
-  - E: k.v.suneelu.verma!ericsson.com
-    M: suneel verma
-    S: gerrit
-  - E: k.v.suneelu.verma!ericsson.com
-    M: suneel verma
-    S: gerrit
-    U: kvsverma
-  - E: k.v.suneelu.verma!ericsson.com
-    M: K.V Suneelu Verma
-    S: pipermail
-  B: 0
-  U: K.V Suneelu Verma
-- R:
-  - T: "2017-07-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Nordic Semiconductor
-    F: "2017-07-01"
-  S: male
-  I:
-  - S: github
-    U: KAGA164
-  B: 0
-  U: KAGA164
-- E: kamezawa.hiroyu!jp.fujitsu.com
-  R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-  I:
-  - E: kamezawa.hiroyu!jp.fujitsu.com
-    M: KAMEZAWA Hiroyuki
-    S: git
-  B: 0
-  U: KAMEZAWA Hiroyuki
-- E: ks220y!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-    P: lfn/onap
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - M: KAPIL SINGAL
-    S: confluence
-    U: ks220y
-  - M: Kapil Singal
-    S: confluence
-    U: kasingal
-  - E: ks220y!att.com
-    M: KAPIL SINGAL
-    S: gerrit
-    U: ks220y
-  - E: kaggarwal!in.ibm.com
-    M: Kapil Singal
-    S: gerrit
-    U: kasingal
-  - E: ks220y!att.com
-    M: Kapil Singal
-    S: gerrit
-    U: kasingal
-  - E: ks220y!att.com
-    M: KAPIL SINGAL
-    S: git
-  - E: ks220y!att.com
-    M: Singal, Kapil (ks220y)
-    S: git
-  - E: ks220y!att.com
-    M: KAPIL SINGAL
-    S: jira
-    U: ks220y
-  - E: ks220y!att.com
-    M: Kapil Singal
-    S: jira
-    U: kasingal
-  B: 0
-  U: KAPIL SINGAL
-- E: dk068x!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - M: David Karr
-    S: confluence
-    U: dkarr
-  - E: dk068x!att.com
-    M: David Karr
-    S: gerrit
-    U: dkarr
-  - E: dk068x!att.com
-    M: KARR, DAVID
-    S: gmane
-  - E: dk068x!att.com
-    M: KARR, DAVID
-    S: groupsio
-  - E: dk068x!att.com
-    M: David Karr
-    S: jira
-    U: dkarr
-  - E: dk068x!att.com
-    M: KARR, DAVID
-    S: linux-foundation:mls
-    U: dk068x
-  - E: dk068x!att.com
-    M: David Karr
-    S: linux-foundation:scr
-    U: dkarr
-  - E: dk068x!att.com
-    M: KARR, DAVID
-    S: mbox
-  - E: dk068x!att.com
-    M: KARR, DAVID
-    S: pipermail
-  B: 0
-  U: KARR, DAVID
-- E: kk0563!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - E: kk0563!att.com
-    M: KATHIRVEL, KANDAN
-    S: groupsio
-  - E: kk0563!att.com
-    M: KATHIRVEL, KANDAN
-    S: pipermail
-  B: 0
-  U: KATHIRVEL, KANDAN
-- E: snemeth!suse.com
-  R:
-  - T: "2100-01-01"
-    C: SUSE
-    F: "1900-01-01"
-  I:
-  - E: snemeth!suse.com
-    M: KBAegis
-    S: github
-    U: kbaegis
-  B: 0
-  U: KBAegis
-- C: JP
-  E: filepang!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: DMM
-    F: "1900-01-01"
-  I:
-  - E: filepang!gmail.com
-    M: KIM SEUNG SU
-    S: git
-  B: 0
-  U: KIM SEUNG SU
-- E: dk5913!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: dk5913!att.com
-    M: KIM, DONGHO
-    S: pipermail
-  B: 0
-  U: KIM, DONGHO
-- E: kiran.yadav!amdocs.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - E: kiran.yadav!amdocs.com
-    M: KIRAN YADAV
-    S: gerrit
-    U: kiranya
-  - E: kiran.yadav!amdocs.com
-    M: kiranya
-    S: git
-  - E: kiran.yadav!amdocs.com
-    M: KIRAN YADAV
-    S: jira
-    U: kiranya
-  B: 0
-  U: KIRAN YADAV
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Oracle
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: KK Sriramadhesikan
-    S: github
-    U: kksriram
-  B: 0
-  U: KK Sriramadhesikan
-- C: US
-  E: kksriram!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: kksriram!users.noreply.github.com
-    M: KK Sriramadhesikan
-    S: git
-  B: 0
-  U: KK Sriramadhesikan
-- E: krzysztof.kurczewski!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - M: Krzysztof Kurczewski
-    S: confluence
-    U: kurczews
-  - E: krzysztof.kurczewski!nokia.com
-    M: KK
-    S: gerrit
-    U: kurczews
-  - E: krzysztof.kurczewski!nokia.com
-    M: Krzysztof Kurczewski
-    S: gerrit
-    U: kurczews
-  - E: krzysztof.kurczewski!nokia.com
-    M: kurczews
-    S: git
-  - E: krzysztof.kurczewski!nokia.com
-    M: krzysztof.kurczewski
-    S: groupsio
-  - E: krzysztof.kurczewski!nokia.com
-    M: Krzysztof Kurczewski
-    S: jira
-    U: kurczews
-  B: 0
-  U: KK
-- E: yoshitake.kobayashi!toshiba.co.jp
-  R:
-  - T: "2100-01-01"
-    C: Toshiba
-    F: "1900-01-01"
-  S: female
-  I:
-  - E: yoshitake.kobayashi!toshiba.co.jp
-    M: KOBAYASHI Yoshitake
-    S: git
-  B: 0
-  U: KOBAYASHI Yoshitake
-- C: JP
-  R:
-  - T: "2100-01-01"
-    C: Forecastmmunications
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: KOJIMA Kazunori
-    S: github
-    U: kjmkznr
-  B: 0
-  U: KOJIMA Kazunori
-- C: JP
-  E: kjm.kznr!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Forecastmmunications
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: kjm.kznr!gmail.com
-    M: KOJIMA Kazunori
-    S: git
-  B: 0
-  U: KOJIMA Kazunori
-- E: fred.konrad!greensocs.com
-  R:
-  - T: "2017-06-01"
-    C: GreenSocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: AdaCore
-    F: "2017-06-01"
-  I:
-  - E: fred.konrad!greensocs.com
-    M: KONRAD Frederic
-    S: git
-  B: 0
-  U: KONRAD Frederic
-- E: davek!research.att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "2019-01-02"
-  I:
-  - E: davek!research.att.com
-    M: d k
-    S: gerrit
-    U: multics
-  - E: davek!research.att.com
-    M: d k
-    S: git
-  - E: davek!research.att.com
-    M: KORMANN, DAVID P (DAVID)
-    S: groupsio
-  B: 0
-  U: KORMANN, DAVID P (DAVID)
-- C: JP
-  E: kosaki.motohiro!jp.fujitsu.com
-  R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-  I:
-  - E: kosaki.motohiro!jp.fujitsu.com
-    M: KOSAKI Motohiro
-    S: git
-  - E: kosaki.motohiro!jp.fujitsu.com
-    M: kosaki.motohiro
-    S: git
-  B: 0
-  U: KOSAKI Motohiro
-- E: hidden!balabit.com
-  R:
-  - T: "2100-01-01"
-    C: BalaBit
-    F: "1900-01-01"
-  I:
-  - E: hidden!balabit.com
-    M: KOVACS Krisztian
-    S: git
-  B: 0
-  U: KOVACS Krisztian
-- E: hidden!balabit.hu
-  R:
-  - T: "2100-01-01"
-    C: BalaBit
-    F: "1900-01-01"
-  I:
-  - E: hidden!balabit.hu
-    M: KOVACS Krisztian
-    S: git
-  B: 0
-  U: KOVACS Krisztian
-- E: kk707x!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - M: kishore koya
-    S: confluence
-    U: kishorekoya
-  - E: kk707x!att.com
-    M: kishore koya
-    S: gerrit
-    U: kishorekoya
-  - E: kk707x!att.com
-    M: kishore
-    S: git
-  - E: kk707x!att.com
-    M: KOYA, KISHORE
-    S: groupsio
-  - E: kk707x!att.com
-    M: kishore koya
-    S: jira
-    U: kishorekoya
-  - E: kk707x!att.com
-    M: KOYA, KISHORE
-    S: pipermail
-  B: 0
-  U: KOYA, KISHORE
-- C: JP
-  R:
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-  S: male
-  I:
-  - M: KUOKA Yusuke
-    S: github
-    U: mumoshu
-  B: 0
-  U: KUOKA Yusuke
-- C: JP
-  E: ykuoka!gmail.com
-  R:
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-  S: male
-  I:
-  - E: ykuoka!gmail.com
-    M: KUOKA Yusuke
-    S: git
-  - E: ykuoka!gmail.com
-    M: Yusuke Kuoka
-    S: git
-  B: 0
-  U: KUOKA Yusuke
-- E: kurosawa!valinux.co.jp
-  R:
-  - T: "2100-01-01"
-    C: VA Linux Systems Japan
-    F: "1900-01-01"
-  I:
-  - E: kurosawa!valinux.co.jp
-    M: KUROSAWA Takahiro
-    S: git
-  B: 0
-  U: KUROSAWA Takahiro
-- E: ka-cheong.poon!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle
-    F: "1900-01-01"
-  I:
-  - E: ka-cheong.poon!oracle.com
-    M: Ka-Cheong Poon
-    S: git
-  B: 0
-  U: Ka-Cheong Poon
-- E: kamil.sroka!nordicsemi.no
-  R:
-  - T: "2015-03-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2016-09-01"
-    C: ABB
-    F: "2015-03-01"
-  - T: "2100-01-01"
-    C: Nordic Semiconductor
-    F: "2016-09-01"
-  S: male
-  I:
-  - E: kamil.sroka!nordicsemi.no
-    M: KaSroka
-    S: git
-  - E: kamil.sroka!nordicsemi.no
-    M: Kamil Sroka
-    S: git
-  B: 0
-  U: KaSroka
-- E: kabir!uasys.io
-  R:
-  - T: "2100-01-01"
-    C: MIT
-    F: "1900-01-01"
-  I:
-  - E: kabir!uasys.io
-    M: Kabir Mohammed
-    S: git
-  B: 0
-  U: Kabir Mohammed
-- E: mhkabir!mit.edu
-  R:
-  - T: "2100-01-01"
-    C: MIT
-    F: "1900-01-01"
-  I:
-  - E: mhkabir!mit.edu
-    M: Kabir Mohammed
-    S: github
-    U: mhkabir
-  B: 0
-  U: Kabir Mohammed
-- E: x0153567!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments
-    F: "1900-01-01"
-  I:
-  - E: x0153567!ti.com
-    M: Kabir Sahane
-    S: git
-  B: 0
-  U: Kabir Sahane
-- R:
-  - T: "2100-01-01"
-    C: Symphony Software Foundation
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Symphony Software Foundation
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - S: confluence
-    U: nikolay.ganev
-  - S: github
-    U: Kabrakssis
-  B: 0
-  U: Kabrakssis
-- E: xarthisius!gentoo.org
-  R:
-  - T: "2100-01-01"
-    C: Gentoo Linux
-    F: "1900-01-01"
-  I:
-  - E: xarthisius!gentoo.org
-    M: Kacper Kowalik (Xarthisius)
-    S: git
-  - E: xarthisius!gentoo.org
-    M: Kacper Kowalik
-    S: git
-  B: 0
-  U: Kacper Kowalik (Xarthisius)
-- C: US
-  E: kadenlnelson!gmail.com
-  R:
-  - T: "2016-03-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2017-06-01"
-    C: Sandia
-    F: "2016-03-01"
-  - T: "2018-08-01"
-    C: Independent
-    F: "2017-06-01"
-  - T: "2019-04-01"
-    C: Vermilion
-    F: "2018-08-01"
-  - T: "2019-06-01"
-    C: Independent
-    F: "2019-04-01"
-  - T: "2100-01-01"
-    C: Apple
-    F: "2019-06-01"
-  S: male
-  I:
-  - E: kadenlnelson!gmail.com
-    M: Kaden Nelson
-    S: git
-  - E: kadenlnelson!gmail.com
-    M: Kaden Nelson
-    S: github
-    U: KadenLNelson
-  B: 0
-  U: Kaden Nelson
-- E: 281165273!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent
-    F: "1900-01-01"
-  I:
-  - E: 281165273!qq.com
-    M: Kai Chen
-    S: gerrit
-    U: grapebaba
-  - E: 281165273!qq.com
-    M: Kai Chen
-    S: git
-  - E: 281165273!qq.com
-    M: grapebaba
-    S: git
-  B: 0
-  U: Kai Chen
-- C: US
-  R:
-  - T: "2015-07-01"
-    C: Microsoft
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Alauda
-    F: "2015-07-01"
-  S: male
-  I:
-  - M: Kai Chen
-    S: github
-    U: cimomo
-  B: 0
-  U: Kai Chen
-- E: kai.chen!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: kai.chen!intel.com
-    M: Kai Chen
-    S: git
-  B: 0
-  U: Kai Chen
-- C: US
-  E: kaichen!outlook.com
-  R:
-  - T: "2015-07-01"
-    C: Microsoft
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Alauda
-    F: "2015-07-01"
-  S: male
-  I:
-  - E: kaichen!outlook.com
-    M: Kai Chen
-    S: git
-  B: 0
-  U: Kai Chen
-- E: kengert!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-  I:
-  - E: kengert!redhat.com
-    M: Kai Engert
-    S: git
-  B: 0
-  U: Kai Engert
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: InVision
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Kai Forsthövel
-    S: github
-    U: kforsthoevel
-  B: 0
-  U: Kai Forsthövel
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Maternity Neighborhood
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Kai Groner
-    S: github
-    U: groner
-  B: 0
-  U: Kai Groner
-- C: SG
-  E: hendry!iki.fi
-  R:
-  - T: "2020-02-01"
-    C: Webconverger
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Teamwork
-    F: "2020-02-01"
-  S: male
-  I:
-  - E: hendry!iki.fi
-    M: Kai Hendry
-    S: github
-    U: kaihendry
-  B: 0
-  U: Kai Hendry
-- R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-  I:
-  - E: kai.hofstetter!gmx.de
-    M: Kai Hofstetter
-    S: git
-  - E: kai.hofstetter!sap.com
-    M: Kai Hofstetter
-    S: git
-  - M: Kai Hofstetter
-    S: github
-    U: KaiHofstetter
-  - E: kai.hofstetter!sap.com
-    M: Kai Hofstetter
-    S: slack
-    U: kaihofstetter
-  B: 0
-  U: Kai Hofstetter
-- E: kai.huang!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: kai.huang!linux.intel.com
-    M: Kai Huang
-    S: git
-  B: 0
-  U: Kai Huang
-- E: kai.liu5!de.bosch.com
-  R:
-  - T: "2100-01-01"
-    C: Bosch
-    F: "1900-01-01"
-  I:
-  - E: kai.liu5!de.bosch.com
-    M: Kai Liu
-    S: slack
-    U: kai.liu5
-  B: 0
-  U: Kai Liu
-- C: DE
-  R:
-  - T: "2100-01-01"
-    C: Kinvolk
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Kai Lüke
-    S: github
-    U: pothos
-  B: 0
-  U: Kai Lüke
-- C: CN
-  E: wkq5325!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: wkq5325!gmail.com
-    M: Kai Qiang WU(Kennan)
-    S: git
-  - E: wkq5325!gmail.com
-    M: Kai Qiang WU(Kennan)
-    S: git
-    U: HackToday
-  - E: wkq5325!gmail.com
-    S: github
-    U: HackToday
-  - E: wkq5325!gmail.com
-    M: Kai Qiang Wu
-    S: github
-    U: HackToday
-  - E: wkq5325!gmail.com
-    M: Kai Qiang Wu
-    S: oci_csv
-    U: HackToday
-  B: 0
-  U: Kai Qiang WU(Kennan)
-- R:
-  - T: "2100-01-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Kai Ren
-    S: github
-    U: tyranron
-  B: 0
-  U: Kai Ren
-- C: CN
-  R:
-  - T: "2015-03-01"
-    C: Honeywell
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Bluetooth
-    F: "2015-03-01"
-  S: male
-  I:
-  - M: Kai Ren
-    S: github
-    U: kaiser-ren
-  B: 0
-  U: Kai Ren
-- C: NL
-  E: kai!xs4all.nl
-  R:
-  - T: "2100-01-01"
-    C: XS4ALL
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: kai!xs4all.nl
-    M: Kai S
-    S: git
-  - E: kai!xs4all.nl
-    M: Kai Storbeck
-    S: git
-  - E: kai!xs4all.nl
-    M: Kai S
-    S: github
-    U: giganteous
-  - E: kai!xs4all.nl
-    M: K
-    S: slack
-    U: kai
-  B: 0
-  U: Kai S
-- E: shenkai8!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei
-    F: "1900-01-01"
-  I:
-  - E: shenkai8!huawei.com
-    M: Kai Shen
-    S: git
-  B: 0
-  U: Kai Shen
-- C: NL
-  E: kai!xs4all.net
-  R:
-  - T: "2100-01-01"
-    C: XS4ALL
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: kai!xs4all.net
-    M: Kai Storbeck
-    S: git
-  B: 0
-  U: Kai Storbeck
-- E: kai.svahn!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia
-    F: "1900-01-01"
-  I:
-  - E: kai.svahn!nokia.com
-    M: Kai Svahn
-    S: git
-  B: 0
-  U: Kai Svahn
-- C: DE
-  R:
-  - T: "2015-12-01"
-    C: chemmedia AG
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Staffbase
-    F: "2015-12-01"
-  S: male
-  I:
-  - M: Kai Timmer
-    S: github
-    U: ofcourseican
-  B: 0
-  U: Kai Timmer
-- E: kai.vehmanen!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - E: kai.vehmanen!intel.com
-    M: Kai Vehmanen
-    S: slack
-    U: kai.vehmanen
-  B: 0
-  U: Kai Vehmanen
-- E: kai.vehmanen!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - E: kai.vehmanen!linux.intel.com
-    M: Kai Vehmanen
-    S: git
-  B: 0
-  U: Kai Vehmanen
-- R:
-  - T: "2014-11-30"
-    C: VMware
-    F: "2011-11-01"
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2014-12-01"
-  I:
-  - E: kxiang!pivotal.io
-    S: cloudfoundry:manual
-  - E: kxiang!pivotallabs.com
-    S: cloudfoundry:manual
-  - E: kxiang!vmware.com
-    S: cloudfoundry:manual
-  - E: xiangkai!gmail.com
-    S: cloudfoundry:manual
-  - M: Kai Xiang
-    S: cloudfoundry:manual
-  - E: kxiang!pivotallabs.com
-    M: Kai Xiang && Larry Warner
-    S: git
-  - M: Kai Xiang
-    S: git
-  - E: kaixiang!pivotal.io
-    M: Kai Xiang
-    S: git
-  - E: kxiang!pivotal.io
-    M: Kai Xiang
-    S: git
-  - E: kxiang!pivotallabs.com
-    M: Kai Xiang
-    S: git
-  - E: kxiang!vmware.com
-    M: Kai Xiang
-    S: git
-  - E: xiangkai!gmail.com
-    M: Kai Xiang
-    S: git
-  - E: xiangkai!gmail.com
-    M: Xiang Kai
-    S: git
-  - S: github
-    U: Kaixiang
-  - M: Xiang Kai
-    S: github
-    U: Kaixiang
-  - S: slack
-    U: kai
-  - E: kxiang!pivotal.io
-    M: Kai Xiang
-    S: slack
-    U: kai
-  B: 0
-  U: Kai Xiang
-- E: wukaiying!sina.cn
-  R:
-  - T: "2100-01-01"
-    C: Sina Corporation
-    F: "1900-01-01"
-  S: female
-  I:
-  - E: wukaiying!sina.cn
-    M: Kai Ying Wu
-    S: github
-    U: wukaiying
-  B: 0
-  U: Kai Ying Wu
