@@ -1,142 +1,4 @@
 P:
-- C: CA
-  R:
-  - T: "2014-09-01"
-    C: Boeing
-    F: "1900-01-01"
-  - T: "2015-08-01"
-    C: ActiviteState
-    F: "2014-09-01"
-  - T: "2016-08-01"
-    C: HP
-    F: "2015-08-01"
-  - T: "2016-10-01"
-    C: Lendesk
-    F: "2016-08-01"
-  - T: "2017-12-01"
-    C: QiO
-    F: "2016-10-01"
-  - T: "2018-08-01"
-    C: Cloudreach
-    F: "2017-12-01"
-  - T: "2019-01-01"
-    C: Traction Guest
-    F: "2018-08-01"
-  - T: "2100-01-01"
-    C: Buoyant
-    F: "2019-01-01"
-  S: male
-  I:
-  - E: ihcsim!gmail.com
-    S: cloudfoundry:manual
-  - E: ivan.sim!hpe.com
-    S: cloudfoundry:manual
-  - E: ivans!activestate.com
-    S: cloudfoundry:manual
-  - M: Ivan Sim
-    S: cloudfoundry:manual
-  - E: ihcsim!gmail.com
-    M: Ivan Sim
-    S: file:cff
-  - E: ivan.sim!hpe.com
-    M: Ivan Sim
-    S: file:cff
-  - E: ivans!activestate.com
-    M: Ivan Sim
-    S: file:cff
-  - E: ihcsim!gmail.com
-    M: Ivan Sim
-    S: git
-  - E: ivan.sim!hpe.com
-    M: Ivan Sim
-    S: git
-  - M: Ivan Sim
-    S: github
-    U: ihcsim
-  - E: ihcsim!gmail.com
-    M: Ivan Sim
-    S: github
-    U: ihcsim
-  - E: ivans!activestate.com
-    M: Ivan Sim
-    S: groupsio
-  - E: ivans!activestate.com
-    M: Ivan Sim
-    S: mbox
-  - E: ivan.sim!hpe.com
-    M: Ivan Sim
-    S: slack
-    U: ivan.sim
-  B: 0
-  U: Ivan Sim
-- E: ivan.ivanov!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro
-    F: "1900-01-01"
-  I:
-  - E: ivan.ivanov!linaro.org
-    M: Ivan T. Ivanov
-    S: git
-  B: 0
-  U: Ivan T. Ivanov
-- E: ivanv.timofeev!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Individual
-    F: "1900-01-01"
-  I:
-  - E: ivanv.timofeev!gmail.com
-    M: Ivan Timofeev
-    S: gerrit
-    U: IvanTimofeev
-  - E: ivanv.timofeev!gmail.com
-    M: Ivan Timofeev
-    S: git
-  - M: Ivan Timofeev
-    S: github
-    U: ivanvtimofeev
-  B: 0
-  U: Ivan Timofeev
-- E: github!hestia.cc
-  R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  I:
-  - E: github!hestia.cc
-    M: Ivan Towlson
-    S: git
-  - E: github!hestia.cc
-    M: Unknown
-    S: git
-  - E: github!hestia.cc
-    M: itowlson
-    S: git
-  B: 0
-  U: Ivan Towlson
-- E: itowlson!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  I:
-  - E: itowlson!microsoft.com
-    M: Ivan Towlson
-    S: git
-  B: 0
-  U: Ivan Towlson
-- E: ivan.towlson!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  I:
-  - E: ivan.towlson!microsoft.com
-    M: Ivan Towlson
-    S: git
-  B: 0
-  U: Ivan Towlson
 - E: ivan.tyulyandin!gmail.com
   R:
   - T: "2019-12-01"
@@ -10358,152 +10220,6 @@ P:
     U: jlouie
   B: 0
   U: Jammy Louie
-- C: US
-  E: james.luhrsen!hp.com
-  R:
-  - T: "2015-06-28"
-    C: HP
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Red Hat
-    F: "1900-01-01"
-    P: lfn/opnfv
-  - T: "2015-05-01"
-    C: HP
-    F: "2013-03-01"
-  - T: "2019-05-01"
-    C: Red Hat
-    F: "2015-06-01"
-  - T: "2019-04-26"
-    C: Red Hat, Inc
-    F: "2015-06-28"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Lumina Networks
-    F: "2019-04-29"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Lumina Networks
-    F: "2019-05-01"
-  S: male
-  I:
-  - M: Jamo Luhrsen
-    S: confluence
-    U: jluhrsen
-  - E: james.luhrsen!hp.com
-    M: Jamo Luhrsen
-    S: gerrit
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: gerrit
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: gerrit
-    U: jluhrsen
-  - E: jluhrsen!luminanetworks.com
-    M: Jamo Luhrsen
-    S: gerrit
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: gerrit
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: gerrit
-    U: jluhrsen
-  - E: james.luhrsen!hp.com
-    M: Jamo Luhrsen
-    S: git
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: git
-  - E: jluhrsen!luminanetworks.com
-    M: Jamo Luhrsen
-    S: git
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: git
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: github
-    U: jluhrsen
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: gmane
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: gmane
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: groupsio
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: groupsio
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: jira
-    U: jluhrsen
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: jira
-    U: jluhrsen
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: linux-foundation:mls
-    U: jluhrsen
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: linux-foundation:mls
-    U: jluhrsen
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: linux-foundation:scm
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: linux-foundation:scr
-    U: jluhrsen
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: mbox
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: mbox
-  - M: Jluhrsen
-    S: mediawiki
-    U: Jluhrsen
-  - E: jluhrsen!gmail.com
-    S: opendaylight:manual
-  - E: jluhrsen!redhat.com
-    S: opendaylight:manual
-  - M: Jamo Luhrsen
-    S: opendaylight:manual
-  - E: jluhrsen!gmail.com
-    M: James Luhrsen
-    S: pipermail
-  - E: jamo!luhrsenlounge.net
-    M: Jamo Luhrsen
-    S: pipermail
-  - E: jluhrsen!gmail.com
-    M: Jamo Luhrsen
-    S: pipermail
-  - E: jluhrsen!luminanetworks.com
-    M: Jamo Luhrsen
-    S: pipermail
-  - E: jluhrsen!redhat.com
-    M: Jamo Luhrsen
-    S: pipermail
-  - E: james.luhrsen!hp.com
-    M: Luhrsen, Jamo
-    S: pipermail
-  - E: jluhrsen!gmail.com
-    M: jluhrsen
-    S: pipermail
-  B: 0
-  U: Jamo Luhrsen
 - R:
   - T: "2100-01-01"
     C: Huawei
@@ -31732,11 +31448,19 @@ P:
     P: lfn/odl
   I:
   - E: hou.jin!zte.com.cn
+    M: Hou Jin
+    S: gerrit
+    U: robotz
+  - E: hou.jin!zte.com.cn
     M: Jin Hou
     S: git
   - E: hou.jin!zte.com.cn
     M: robotz
     S: git
+  - E: hou.jin!zte.com.cn
+    M: Hou Jin
+    S: jira
+    U: hou.jin
   - E: hou.jin!zte.com.cn
     M: "10105761"
     S: pipermail
@@ -42322,6 +42046,36 @@ P:
     S: git
   B: 0
   U: Jon Carl
+- E: jcastro!juniper.net
+  R:
+  - T: "2012-01-01"
+    C: Hewlett Packard Enterprise Co.
+    F: "2003-01-01"
+  - T: "2014-01-01"
+    C: Juniper Networks, Inc.
+    F: "2012-01-01"
+  - T: "2015-01-01"
+    C: Hewlett Packard Enterprise
+    F: "2014-01-01"
+  - T: "2018-01-01"
+    C: Brocade
+    F: "2015-01-01"
+  - T: "2018-01-01"
+    C: Lumina Networks
+    F: "2015-01-01"
+  - T: "2020-01-01"
+    C: Juniper Networks, Inc.
+    F: "2018-01-01"
+  - T: "2100-01-01"
+    C: VeloCloud, Inc.
+    F: "2020-01-01"
+  I:
+  - E: jcastro!juniper.net
+    M: Jon Castro
+    S: jira
+    U: jcastro
+  B: 0
+  U: Jon Castro
 - C: US
   E: jon!jonchiu.com
   R:
@@ -61183,3 +60937,223 @@ P:
     U: fallrisk
   B: 0
   U: Justin Watson
+- C: AU
+  R:
+  - T: "2017-11-01"
+    C: Dev Kimchi
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Mexia
+    F: "2017-11-01"
+  S: male
+  I:
+  - M: Justin Yoo
+    S: github
+    U: justinyoo
+  B: 0
+  U: Justin Yoo
+- C: AU
+  E: justin.yoojh!gmail.com
+  R:
+  - T: "2017-11-01"
+    C: Dev Kimchi
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Mexia
+    F: "2017-11-01"
+  S: male
+  I:
+  - E: justin.yoojh!gmail.com
+    M: Justin Yoo
+    S: git
+  B: 0
+  U: Justin Yoo
+- E: justiny!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware
+    F: "1900-01-01"
+  I:
+  - E: justiny!vmware.com
+    M: Justin Yu
+    S: git
+  B: 0
+  U: Justin Yu
+- E: jz!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+  I:
+  - E: jz!twitter.com
+    M: Justin Zhu
+    S: git
+  B: 0
+  U: Justin Zhu
+- R:
+  - T: "2018-03-01"
+    C: Microsoft
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: NatureServe
+    F: "2018-03-01"
+  S: male
+  I:
+  - M: Justin
+    S: github
+    U: JustinAzoff
+  B: 0
+  U: Justin
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Microsoft
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Justin
+    S: github
+    U: jterry75
+  B: 0
+  U: Justin
+- C: US
+  E: jterry75!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: jterry75!users.noreply.github.com
+    M: Justin
+    S: git
+  B: 0
+  U: Justin
+- E: justincappos!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: NYU
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: justincappos!gmail.com
+    M: Justin Cappos
+    S: git
+  - E: justincappos!gmail.com
+    M: JustinCappos
+    S: git
+  B: 0
+  U: JustinCappos
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+  S: female
+  I:
+  - M: Justine Tunney
+    S: github
+    U: jart
+  B: 0
+  U: Justine Tunney
+- E: justyna.czestochowsa!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+    P: lfn/onap
+  I:
+  - E: justyna.czestochowsa!nokia.com
+    M: Justyna Czestochowska
+    S: gerrit
+  - E: justyna.czestochowsa!nokia.com
+    M: Justyna Czestochowska
+    S: gerrit
+  B: 0
+  U: Justyna Czestochowska
+- E: justyna.czestochowska!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Nokia
+    F: "1900-01-01"
+    P: lfn/onap
+  I:
+  - M: Justyna Czestochowska
+    S: confluence
+    U: jczestochowska
+  - E: justyna.czestochowska!nokia.com
+    M: Justyna Czestochowska
+    S: gerrit
+    U: jczestochowska
+  - E: justyna.czestochowska!nokia.com
+    M: Justyna Czestochowska
+    S: git
+  - E: justyna.czestochowska!nokia.com
+    M: jczestochowska
+    S: git
+  - E: justyna.czestochowska!nokia.com
+    M: Justyna Czestochowska
+    S: jira
+    U: jczestochowska
+  B: 0
+  U: Justyna Czestochowska
+- C: PL
+  E: justyna.ilczuk!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+  S: female
+  I:
+  - E: justyna.ilczuk!gmail.com
+    M: Justyna Ilczuk
+    S: github
+    U: ilonajulczuk
+  B: 0
+  U: Justyna Ilczuk
+- C: CN
+  E: 1171313930!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent
+    F: "1900-01-01"
+  I:
+  - E: 1171313930!qq.com
+    M: Juvenile
+    S: github
+    U: fengshunli
+  B: 0
+  U: Juvenile
+- E: tomi.juvonen!nsn.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Networks
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Nokia Networks
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: tomi.juvonen!nsn.com
+    M: Juvonen, Tomi NSN - FI/Espoo
+    S: gmane
+  - E: tomi.juvonen!nsn.com
+    M: Juvonen, Tomi (NSN - FI/Espoo)
+    S: groupsio
+  - E: tomi.juvonen!nsn.com
+    M: Juvonen, Tomi NSN - FI/Espoo
+    S: linux-foundation:mls
+    U: tomi.juvonen
+  - E: tomi.juvonen!nsn.com
+    M: Juvonen, Tomi NSN - FI/Espoo
+    S: mbox
+  - E: tomi.juvonen!nsn.com
+    M: Juvonen, Tomi NSN - FI/Espoo
+    S: pipermail
+  B: 0
+  U: Juvonen, Tomi (NSN - FI/Espoo)
