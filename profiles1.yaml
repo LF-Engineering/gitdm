@@ -163,6 +163,17 @@ P:
     U: EmbeddedAndroid
   B: 0
   U: "0x1"
+- E: gergo.mocsi!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia
+    F: "2019-01-02"
+  I:
+  - E: gergo.mocsi!nokia.com
+    M: "1000044"
+    S: git
+  B: 0
+  U: "1000044"
 - E: he.yunbo!zte.com.cn
   R:
   - T: "2100-01-01"
@@ -53075,7 +53086,7 @@ P:
 - E: anssi.mannila!nokia.com
   R:
   - T: "2100-01-01"
-    C: Nokia Networks
+    C: Nokia
     F: "1994-12-01"
   I:
   - M: Anssi Mannila
@@ -57769,6 +57780,9 @@ P:
   - T: "2100-01-01"
     C: The Linux Foundation
     F: "2014-05-01"
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "2019-01-02"
   I:
   - M: Aric Gardner
     S: confluence
@@ -59719,23 +59733,5 @@ P:
   - M: Aron Parsons
     S: github
     U: knackaron
-  B: 0
-  U: Aron Parsons
-- E: aron!knackworks.com
-  R:
-  - T: "2015-07-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2015-09-01"
-    C: TEKsystems
-    F: "2015-07-01"
-  - T: "2100-01-01"
-    C: Knack Works
-    F: "2015-09-01"
-  S: male
-  I:
-  - E: aron!knackworks.com
-    M: Aron Parsons
-    S: git
   B: 0
   U: Aron Parsons
