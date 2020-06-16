@@ -1,4 +1,29 @@
 P:
+- C: RO
+  R:
+  - T: "2100-01-01"
+    C: Fostloop
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Nicolae Vlădescu
+    S: github
+    U: nicolaevladescu
+  B: 0
+  U: Nicolae Vlădescu
+- C: RO
+  E: nicolaevladescu!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Fostloop
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: nicolaevladescu!users.noreply.github.com
+    M: Nicolae Vlădescu
+    S: git
+  B: 0
+  U: Nicolae Vlădescu
 - R:
   - T: "2016-08-01"
     C: Independent
@@ -30523,18 +30548,12 @@ P:
     S: git
   B: 0
   U: Petr Oros
-- E: petr.ospaly!tieto.com
+- E: p.ospaly!email.cz
   R:
   - T: "2100-01-01"
     C: Samsung
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Samsung
-    F: "1900-01-01"
     P: lfn/onap
-  - T: "2100-01-01"
-    C: Tieto
-    F: "1900-01-01"
   - T: "2100-01-01"
     C: Tieto
     F: "1900-01-01"
@@ -30542,6 +30561,10 @@ P:
   I:
   - M: Petr OspalA12
     S: confluence
+    U: p.ospaly
+  - E: p.ospaly!email.cz
+    M: Petr Ospaly
+    S: gerrit
     U: p.ospaly
   - E: p.ospaly!partner.samsung.com
     M: Petr Ospaly
@@ -30556,6 +30579,10 @@ P:
   - E: petr.ospaly!tieto.com
     M: Petr Ospaly
     S: groupsio
+  - E: p.ospaly!email.cz
+    M: Petr Ospaly
+    S: jira
+    U: p.ospaly
   - E: p.ospaly!partner.samsung.com
     M: Petr Ospaly
     S: jira
@@ -59717,26 +59744,3 @@ P:
     S: git
   B: 0
   U: Richard Genoud
-- R:
-  - T: "2014-12-01"
-    C: Ebico Limited
-    F: "1900-01-01"
-  - T: "2016-06-01"
-    C: Glenmore Gas
-    F: "2014-12-01"
-  - T: "2018-01-01"
-    C: Independent
-    F: "2016-06-01"
-  - T: "2018-11-01"
-    C: Glenmore Gas
-    F: "2018-01-01"
-  - T: "2100-01-01"
-    C: Thought
-    F: "2018-11-01"
-  S: male
-  I:
-  - M: Richard Godden
-    S: github
-    U: goddenrich
-  B: 0
-  U: Richard Godden
