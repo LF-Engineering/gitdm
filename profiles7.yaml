@@ -1,4 +1,36 @@
 P:
+- C: US
+  R:
+  - T: "2015-08-01"
+    C: Knowledge In Practice
+    F: "1900-01-01"
+  - T: "2016-03-01"
+    C: iCitizen
+    F: "2015-08-01"
+  - T: "2100-01-01"
+    C: Olark
+    F: "2016-03-01"
+  S: male
+  I:
+  - M: Mark Betz
+    S: github
+    U: Markbnj
+  B: 0
+  U: Mark Betz
+- E: markb!mellanox.com
+  R:
+  - T: "2100-01-01"
+    C: Mellanox
+    F: "1900-01-01"
+  I:
+  - E: markb!mellanox.com
+    M: Mark Bloch
+    S: git
+  - E: markb!mellanox.com
+    M: Mark Bloch
+    S: pipermail
+  B: 0
+  U: Mark Bloch
 - C: GB
   E: broonie!kernel.org
   R:
@@ -39611,6 +39643,48 @@ P:
     S: git
   B: 0
   U: Miklos Szeredi
+- E: miklos.tirpak!emnify.com
+  R:
+  - T: "2100-01-01"
+    C: EMnify
+    F: "2019-01-01"
+  I:
+  - E: miklos.tirpak!emnify.com
+    M: Miklos Tirpak
+    S: groupsio
+  B: 0
+  U: Miklos Tirpak
+- E: miklos.tirpak!gmail.com
+  R:
+  - T: "2002-01-01"
+    C: Ericsson Software Technology
+    F: "2001-01-01"
+  - T: "2005-11-01"
+    C: Sztaki
+    F: "2002-12-01"
+  - T: "2013-09-01"
+    C: Tekelec
+    F: "2005-12-01"
+  - T: "2018-12-01"
+    C: Oracle America Inc.
+    F: "2013-10-01"
+  I:
+  - E: miklos.tirpak!gmail.com
+    M: Miklos Tirpak
+    S: gerrit
+    U: mtirpak
+  - E: miklos.tirpak!gmail.com
+    M: Miklos Tirpak
+    S: git
+  - E: miklos.tirpak!gmail.com
+    M: miklos.tirpak
+    S: groupsio
+  - E: miklos.tirpak!gmail.com
+    M: Miklos Tirpak
+    S: jira
+    U: mtirpak
+  B: 0
+  U: Miklos Tirpak
 - R:
   - T: "2015-07-01"
     C: Bebop
@@ -44351,6 +44425,17 @@ P:
     S: pipermail
   B: 0
   U: Mohammed Gamal
+- E: mhawari!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2017-04-01"
+  I:
+  - E: mhawari!cisco.com
+    M: Mohammed Hawari
+    S: git
+  B: 0
+  U: Mohammed Hawari
 - E: kabir!Mohammeds-MacBook-Pro.local
   R:
   - T: "2100-01-01"
@@ -45778,8 +45863,14 @@ P:
     M: Morgan Richomme
     S: gerrit
     U: mrichomme
+  - E: morgan.richomme!gmail.com
+    M: colvert
+    S: gerrit
   - E: morgan.richomme!orange.com
     M: Morgan Richomme
+    S: git
+  - E: morgan.richomme!gmail.com
+    M: colvert
     S: git
   - E: morgan.richomme!orange.com
     M: colvert
@@ -45844,6 +45935,9 @@ P:
   - E: morgan.richomme!orange.com
     M: morgan.richomme
     S: pipermail
+  - M: colvert22
+    S: supybot
+    U: colvert22
   B: 0
   U: Morgan Richomme
 - C: CA
@@ -60108,107 +60202,3 @@ P:
     U: berendeanicolae
   B: 0
   U: Nicolae Berendea
-- R:
-  - T: "2016-02-01"
-    C: CertSIGNA
-    F: "1900-01-01"
-  - T: "2017-02-01"
-    C: Mentor Graphics
-    F: "2016-02-01"
-  - T: "2100-01-01"
-    C: Radwin
-    F: "2017-02-01"
-  S: male
-  I:
-  - M: Nicolae Rosia
-    S: github
-    U: nicolaerosia
-  B: 0
-  U: Nicolae Rosia
-- E: Nicolae_Rosia!Mentor.com
-  R:
-  - T: "2100-01-01"
-    C: Mentor Graphics
-    F: "1900-01-01"
-  I:
-  - E: Nicolae_Rosia!Mentor.com
-    M: Nicolae Rosia
-    S: git
-  B: 0
-  U: Nicolae Rosia
-- E: nvartolomei!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-  I:
-  - E: nvartolomei!gmail.com
-    M: Nicolae Vartolomei
-    S: git
-  B: 0
-  U: Nicolae Vartolomei
-- C: RO
-  R:
-  - T: "2100-01-01"
-    C: Fostloop
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Nicolae Vlădescu
-    S: github
-    U: nicolaevladescu
-  B: 0
-  U: Nicolae Vlădescu
-- C: RO
-  E: nicolaevladescu!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Fostloop
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: nicolaevladescu!users.noreply.github.com
-    M: Nicolae Vlădescu
-    S: git
-  B: 0
-  U: Nicolae Vlădescu
-- R:
-  - T: "2016-08-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Prevas
-    F: "2016-08-01"
-  S: male
-  I:
-  - M: Nicolai Glud
-    S: github
-    U: Kludentwo
-  B: 0
-  U: Nicolai Glud
-- E: nigd!prevas.dk
-  R:
-  - T: "2100-01-01"
-    C: Prevas
-    F: "1900-01-01"
-  I:
-  - E: nigd!prevas.dk
-    M: Nicolai Glud
-    S: git
-  - E: nigd!prevas.dk
-    M: Nicolai Glud
-    S: slack
-    U: nigd
-  B: 0
-  U: Nicolai Glud
-- E: nicolai.haehnle!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-  I:
-  - E: nicolai.haehnle!amd.com
-    M: Nicolai Hähnle
-    S: git
-  B: 0
-  U: Nicolai Hähnle
