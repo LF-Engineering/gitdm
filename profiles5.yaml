@@ -1,4 +1,78 @@
 P:
+- C: RU
+  R:
+  - T: "2015-10-01"
+    C: 2GIS
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: 2GIS
+    F: "1900-01-01"
+  - T: "2016-09-01"
+    C: Cốc Cốc
+    F: "2015-10-01"
+  - T: "2017-11-01"
+    C: 2GIS
+    F: "2016-09-01"
+  - T: "2100-01-01"
+    C: MessageBird
+    F: "2017-11-01"
+  S: male
+  I:
+  - M: Ivan Kiselev
+    S: github
+    U: homelessnessbo
+  B: 0
+  U: Ivan Kiselev
+- C: NL
+  E: homelessnessbo!users.noreply.github.com
+  R:
+  - T: "2015-10-01"
+    C: 2GIS
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: MessageBird
+    F: "1900-01-01"
+  - T: "2016-09-01"
+    C: Cốc Cốc
+    F: "2015-10-01"
+  - T: "2017-11-01"
+    C: 2GIS
+    F: "2016-09-01"
+  - T: "2100-01-01"
+    C: MessageBird
+    F: "2017-11-01"
+  S: male
+  I:
+  - E: homelessnessbo!users.noreply.github.com
+    M: Ivan Kiselev
+    S: git
+  B: 0
+  U: Ivan Kiselev
+- C: RU
+  E: i.kiselev!2gis.ru
+  R:
+  - T: "2015-10-01"
+    C: 2GIS
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: 2GIS
+    F: "1900-01-01"
+  - T: "2016-09-01"
+    C: Cốc Cốc
+    F: "2015-10-01"
+  - T: "2017-11-01"
+    C: 2GIS
+    F: "2016-09-01"
+  - T: "2100-01-01"
+    C: MessageBird
+    F: "2017-11-01"
+  S: male
+  I:
+  - E: i.kiselev!2gis.ru
+    M: Ivan Kiselev
+    S: git
+  B: 0
+  U: Ivan Kiselev
 - E: sevenfourk!icloud.com
   R:
   - T: "2100-01-01"
@@ -6641,6 +6715,34 @@ P:
     S: git
   B: 0
   U: Jakub Hadvig
+- E: jhorn!cisco.com
+  R:
+  - T: "2003-04-01"
+    C: IBM
+    F: "1997-04-01"
+  - T: "2004-09-01"
+    C: INTERCOM SYSTEMS a.s.
+    F: "2003-07-01"
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2004-10-01"
+  I:
+  - E: jhorn!cisco.com
+    M: Jakub Horn
+    S: gerrit
+    U: jakuhorn
+  - E: jhorn!cisco.com
+    M: Jakub Horn
+    S: git
+  - E: jakuhorn!cisco.com
+    M: Jakub Horn (jakuhorn)
+    S: groupsio
+  - E: jhorn!cisco.com
+    M: Jakub Horn
+    S: jira
+    U: jakuhorn
+  B: 0
+  U: Jakub Horn
 - E: jakub!redhat.com
   R:
   - T: "2100-01-01"
@@ -12158,6 +12260,10 @@ P:
     S: gerrit
     U: jsrnicek_cisco
   - E: jan.srnicek!pantheon.tech
+    M: Ján Srni?ek
+    S: gerrit
+    U: jsrnicek
+  - E: jan.srnicek!pantheon.tech
     M: Jan Srnicek
     S: git
   - E: jsrnicek!cisco.com
@@ -12165,6 +12271,9 @@ P:
     S: git
   - E: jan.srnicek!pantheon.tech
     M: jan.srnicek
+    S: git
+  - E: jsrnicek!cisco.com
+    M: jsrnicek
     S: git
   - E: jsrnicek!cisco.com
     M: Jan Srnicek -X (jsrnicek - PANTHEON TECHNOLOGIES
@@ -20475,6 +20584,21 @@ P:
     S: git
   B: 0
   U: Jeff Bumgardner
+- E: byzek!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2000-01-01"
+  I:
+  - E: byzek!cisco.com
+    M: Jeff Byzek
+    S: groupsio
+  - E: byzek!cisco.com
+    M: Jeff Byzek
+    S: jira
+    U: byzek
+  B: 0
+  U: Jeff Byzek
 - R:
   - T: "2100-01-01"
     C: Red Hat
@@ -32547,27 +32671,31 @@ P:
     S: git
   B: 0
   U: Jing Dong
-- E: jing2.liu!linux.intel.com
+- C: US
+  E: liujbjl!linux.vnet.ibm.com
   R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
-  I:
-  - E: jing2.liu!linux.intel.com
-    M: Jing Liu
-    S: git
-  B: 0
-  U: Jing Liu
-- C: US
-  E: jliu23!ebay.com
-  R:
   - T: "2100-01-01"
     C: eBay
     F: "1900-01-01"
   S: female
   I:
+  - E: jing2.liu!linux.intel.com
+    M: Jing Liu
+    S: git
   - E: jliu23!ebay.com
     M: Jing Liu
+    S: git
+  - E: liujbjl!linux.vnet.ibm.com
+    M: Jing Liu
+    S: git
+  - E: Wenjing.Liu!amd.com
+    M: Wenjing Liu
     S: git
   B: 0
   U: Jing Liu
@@ -61064,128 +61192,3 @@ P:
     U: jgarr
   B: 0
   U: Justin Garrison
-- E: Justin.He!arm.com
-  R:
-  - T: "2100-01-01"
-    C: ARM
-    F: "1900-01-01"
-  I:
-  - E: justin.he!arm.com
-    M: Jia He
-    S: git
-  - E: Justin.He!arm.com
-    M: Justin He
-    S: pipermail
-  B: 0
-  U: Justin He
-- E: justin+github!blocksberg.com
-  R:
-  - T: "2014-06-01"
-    C: Zuhlke
-    F: "1900-01-01"
-  - T: "2014-12-01"
-    C: ComSysto
-    F: "2014-06-01"
-  - T: "2017-11-01"
-    C: PAYBACK
-    F: "2014-12-01"
-  - T: "2100-01-01"
-    C: Holidu
-    F: "2017-11-01"
-  S: male
-  I:
-  - E: justin+github!blocksberg.com
-    M: Justin Heesemann
-    S: git
-  B: 0
-  U: Justin Heesemann
-- C: US
-  E: jjhuff!mspin.net
-  R:
-  - T: "2100-01-01"
-    C: motion.social
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jjhuff!mspin.net
-    M: Justin Huff
-    S: git
-  B: 0
-  U: Justin Huff
-- R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Justin Hunthrop
-    S: github
-    U: jhunthrop
-  B: 0
-  U: Justin Hunthrop
-- C: US
-  R:
-  - T: "2018-10-01"
-    C: Commando
-    F: "1900-01-01"
-  - T: "2020-04-01"
-    C: NodeSocket
-    F: "2018-10-01"
-  - T: "2100-01-01"
-    C: KeyoCoin
-    F: "2020-04-01"
-  S: male
-  I:
-  - M: Justin Keller
-    S: github
-    U: nodesocket
-  B: 0
-  U: Justin Keller
-- E: justin.kenney!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "1900-01-01"
-  I:
-  - E: justin.kenney!emc.com
-    M: Justin Kenney
-    S: git
-  B: 0
-  U: Justin Kenney
-- E: justin_larose!comcast.com
-  R:
-  - T: "2100-01-01"
-    C: Comcast
-    F: "1900-01-01"
-  I:
-  - E: justin_larose!comcast.com
-    M: Justin LaRose
-    S: slack
-    U: justin_larose
-  B: 0
-  U: Justin LaRose
-- E: j.lai!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: j.lai!pivotal.io
-    M: Justin Lai
-    S: git
-  B: 0
-  U: Justin Lai
-- R:
-  - T: "2016-06-01"
-    C: Infinite View Technologies
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Stitch Fix
-    F: "2016-06-01"
-  S: male
-  I:
-  - M: Justin Lambert
-    S: github
-    U: jlambert121
-  B: 0
-  U: Justin Lambert
