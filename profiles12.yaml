@@ -1,4 +1,107 @@
 P:
+- E: dburkhalter!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - E: dburkhalter!pivotal.io
+    M: dburkhalter
+    S: slack
+    U: dburkhalter
+  B: 0
+  U: dburkhalter
+- E: jwhitake!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco
+    F: "1900-01-01"
+  I:
+  - E: jwhitake!cisco.com
+    M: dc_minion
+    S: slack
+    U: dc_minion
+  B: 0
+  U: dc_minion
+- E: dcadevil!126.com
+  R:
+  - T: "2100-01-01"
+    C: Jd.Com
+    F: "1900-01-01"
+  I:
+  - E: dcadevil!126.com
+    M: dcadevil
+    S: git
+  - E: dcadevil!126.com
+    M: dcadevil
+    S: github
+    U: dcadevil
+  B: 0
+  U: dcadevil
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - S: github
+    U: dcarissi
+  - E: danc!us.ibm.com
+    M: dcarissi
+    S: slack
+    U: dcarissi
+  B: 0
+  U: dcarissi
+- E: dclain!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: dclain!us.ibm.com
+    S: github
+    U: dclain
+  B: 0
+  U: dclain
+- E: dcombs!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: dcombs!us.ibm.com
+    M: dcombs
+    S: slack
+    U: dcombs
+  B: 0
+  U: dcombs
+- E: dd5826!att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: AT&T
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: dd5826!att.com
+    M: DRUTA, DAN
+    S: gmane
+  - E: dd5826!att.com
+    M: DRUTA, DAN
+    S: groupsio
+  - E: dd5826!att.com
+    M: DRUTA, DAN
+    S: linux-foundation:mls
+    U: dd5826
+  - E: dd5826!att.com
+    M: DRUTA, DAN
+    S: mbox
+  - E: dd5826!att.com
+    M: DRUTA, DAN
+    S: pipermail
+  B: 0
+  U: dd5826
 - E: ddavydov!twitter.com
   R:
   - T: "2100-01-01"
@@ -61501,101 +61604,3 @@ P:
     U: toanderson
   B: 0
   U: toanderson
-- E: tobias.adamson!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: The Manufacturing Institute
-    F: "1900-01-01"
-  I:
-  - E: tobias.adamson!gmail.com
-    M: tobad357
-    S: git
-  B: 0
-  U: tobad357
-- C: DE
-  E: tobilarscheid!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: tobilarscheid!gmail.com
-    M: tobilarscheid
-    S: git
-  - E: tobilarscheid!gmail.com
-    S: github
-    U: tobilarscheid
-  B: 0
-  U: tobilarscheid
-- C: US
-  E: tobias.lawrence!gmail.com
-  R:
-  - T: "2015-08-01"
-    C: Blue State Digital
-    F: "1900-01-01"
-  - T: "2015-12-01"
-    C: Localytics
-    F: "2015-08-01"
-  - T: "2017-11-01"
-    C: edX
-    F: "2015-12-01"
-  - T: "2100-01-01"
-    C: Wayfair
-    F: "2017-11-01"
-  S: male
-  I:
-  - E: tobias.lawrence!gmail.com
-    M: tobz
-    S: git
-  B: 0
-  U: tobz
-- C: DE
-  E: github!tolleiv.de
-  R:
-  - T: "2100-01-01"
-    C: AOE
-    F: "1900-01-01"
-  I:
-  - E: github!tolleiv.de
-    M: tolleiv
-    S: git
-  B: 0
-  U: tolleiv
-- E: tnadeau!lucidvision.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - E: tnadeau!lucidvision.com
-    M: tom nadeau
-    S: gerrit
-    U: tdnadeau
-  - E: Thomas.Nadeau!amdocs.com
-    M: Thomas Nadeau
-    S: groupsio
-  - E: tnadeau!lucidvision.com
-    M: tom nadeau
-    S: jira
-    U: tdnadeau
-  - E: Thomas.Nadeau!amdocs.com
-    M: Thomas Nadeau
-    S: pipermail
-  B: 0
-  U: tom nadeau
-- E: tom.boucher!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: tom.boucher!us.ibm.com
-    M: tom.boucher
-    S: slack
-    U: tom.boucher
-  B: 0
-  U: tom.boucher
