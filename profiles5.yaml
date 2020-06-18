@@ -1,5 +1,65 @@
 P:
 - C: US
+  E: isa!aguilarstory.com
+  R:
+  - T: "2016-01-01"
+    C: Audit MicroControls
+    F: "1900-01-01"
+  - T: "2018-01-01"
+    C: Tillster
+    F: "2016-01-01"
+  - T: "2100-01-01"
+    C: Unnamed
+    F: "2018-01-01"
+  S: female
+  I:
+  - E: isa!aguilarstory.com
+    M: Isa Aguilar
+    S: git
+  - E: isa!aguilarstory.com
+    M: Isa Aguilar
+    S: github
+    U: isaaguilar
+  B: 0
+  U: Isa Aguilar
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Apprenda
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Isaac (Ike) Arias
+    S: github
+    U: ikester
+  B: 0
+  U: Isaac (Ike) Arias
+- C: US
+  E: ike!apprenda.com
+  R:
+  - T: "2100-01-01"
+    C: Apprenda
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: ike!apprenda.com
+    M: Isaac (Ike) Arias
+    S: git
+  B: 0
+  U: Isaac (Ike) Arias
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: PlanetScale
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Isaac Anastasoff
+    S: github
+    U: IsaacAnastasoff
+  B: 0
+  U: Isaac Anastasoff
+- C: US
   E: isaac!planetscale.com
   R:
   - T: "2100-01-01"
@@ -9747,21 +9807,29 @@ P:
     S: git
   B: 0
   U: James Clark
-- E: jamclar2!cisco.com
+- C: GB
+  E: jrtc27!jrtc27.com
   R:
   - T: "2008-04-01"
     C: Telsis
     F: "2004-10-01"
   - T: "2012-09-01"
-    C: Ericsson Software Technology
+    C: Ericsson AB
     F: "2008-04-01"
   - T: "2100-01-01"
     C: Cisco Systems Inc.
     F: "2012-09-01"
+  S: male
   I:
   - E: jamclar2!cisco.com
     M: James Clarke
     S: git
+  - E: jrtc27!jrtc27.com
+    M: James Clarke
+    S: git
+  - M: James Clarke
+    S: github
+    U: clarkezone
   - E: jamclar2!cisco.com
     M: James Clarke
     S: github
@@ -14847,6 +14915,36 @@ P:
     S: git
   B: 0
   U: Janario Oliveira
+- E: janarthanan.selvaraj!maplelabs.com
+  R:
+  - T: "2016-06-01"
+    C: HCL Technologies
+    F: "2008-09-01"
+  - T: "2100-01-01"
+    C: Maplelabs
+    F: "2016-06-01"
+  I:
+  - E: Janarthanan.Selvaraj!gmail.com
+    M: Janarthanan Selvaraj
+    S: git
+  - E: janarthanan.selvaraj!maplelabs.com
+    M: Janarthanan Selvaraj
+    S: git
+  - E: janarthanan.selvaraj!gmail.com
+    M: Janarthanan.Selvaraj
+    S: git
+  - M: Janarthanan Selvaraj
+    S: github
+    U: janselva
+  - M: Janarthanan Selvaraj
+    S: github
+    U: janselva-xor
+  - E: janarthanan.selvaraj!gmail.com
+    M: Janarthanan Selvaraj
+    S: jira
+    U: janselva
+  B: 0
+  U: Janarthanan Selvaraj
 - E: 809781809!qq.com
   R:
   - T: "2100-01-01"
@@ -26141,6 +26239,24 @@ P:
     S: git
   B: 0
   U: Jeremie Garcia
+- E: je.garnier19!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2007-04-01"
+  I:
+  - E: je.garnier19!gmail.com
+    M: Jeremie Garnier
+    S: git
+  - M: Jeremie Garnier
+    S: github
+    U: jgarnier
+  - E: je.garnier19!gmail.com
+    M: Jeremie GARNIER
+    S: jira
+    U: je.garnier19
+  B: 0
+  U: Jeremie Garnier
 - E: jpuhlman!gmail.com
   R:
   - T: "2100-01-01"
@@ -59899,8 +60015,20 @@ P:
     S: git
   B: 0
   U: Julien Balestra
-- E: julien!barbot.org
+- E: jubarbot!cisco.com
   R:
+  - T: "2006-05-01"
+    C: Dolphian
+    F: "2004-01-01"
+  - T: "2010-05-01"
+    C: Meetic
+    F: "2006-06-01"
+  - T: "2012-12-01"
+    C: MUNIC
+    F: "2010-04-01"
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2013-01-01"
   - T: "2100-01-01"
     C: Individual
     F: "2017-01-01"
@@ -59912,6 +60040,9 @@ P:
     M: Julien Barbot
     S: gerrit
     U: klyr
+  - E: jubarbot!cisco.com
+    M: Julien Barbot
+    S: git
   - E: julien!barbot.org
     M: Julien Barbot
     S: git
@@ -60697,129 +60828,3 @@ P:
     S: git
   B: 0
   U: Juliet Kim
-- E: julio!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-  I:
-  - E: julio!twitter.com
-    M: Julio Capote
-    S: git
-  B: 0
-  U: Julio Capote
-- C: ES
-  E: jchanam!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Spotahome
-    F: "1900-01-01"
-  S: female
-  I:
-  - E: jchanam!gmail.com
-    M: Julio Chana
-    S: git
-  - E: jchanam!gmail.com
-    M: Julio Chana
-    S: github
-    U: jchanam
-  B: 0
-  U: Julio Chana
-- C: ES
-  E: julio!spotahome.com
-  R:
-  - T: "2100-01-01"
-    C: Spotahome
-    F: "1900-01-01"
-  S: female
-  I:
-  - E: julio!spotahome.com
-    M: Julio Chana
-    S: git
-  B: 0
-  U: Julio Chana
-- E: julio.colon!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "1900-01-01"
-  I:
-  - E: julio.colon!emc.com
-    M: Julio Colon
-    S: slack
-    U: open4storage
-  B: 0
-  U: Julio Colon
-- C: ES
-  E: devimc!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: devimc!users.noreply.github.com
-    M: Julio Montes
-    S: git
-  B: 0
-  U: Julio Montes
-- C: ES
-  E: julio.montes!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: julio.montes!intel.com
-    M: Julio Montes
-    S: git
-  - E: julio.montes!intel.com
-    M: Julio Montes
-    S: github
-    U: devimc
-  B: 0
-  U: Julio Montes
-- C: MX
-  E: julio.c.rivera.gonzalez!intel.com
-  R:
-  - T: "2100-01-01"
-    C: OrusPay
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: julio.c.rivera.gonzalez!intel.com
-    M: Julio Rivera
-    S: github
-    U: juliocri
-  - E: julio.c.rivera.gonzalez!intel.com
-    M: Julio
-    S: slack
-    U: julio.c.rivera.gonzal
-  B: 0
-  U: Julio Rivera
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Julius Kammerl
-    S: github
-    U: jkammerl
-  B: 0
-  U: Julius Kammerl
-- C: US
-  E: jkammerl!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jkammerl!google.com
-    M: Julius Kammerl
-    S: git
-  B: 0
-  U: Julius Kammerl
