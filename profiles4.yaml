@@ -1,4 +1,64 @@
 P:
+- C: US
+  R:
+  - T: "2016-01-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2017-06-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Instructure
+    F: "2016-01-01"
+  - T: "2019-03-01"
+    C: Instructure
+    F: "2017-06-01"
+  - T: "2019-05-01"
+    C: Independent
+    F: "2019-03-01"
+  - T: "2019-10-01"
+    C: Instructure
+    F: "2019-05-01"
+  - T: "2020-01-01"
+    C: Datawire
+    F: "2019-10-01"
+  - T: "2100-01-01"
+    C: Tetrate
+    F: "2020-01-01"
+  S: male
+  I:
+  - M: Eric
+    S: github
+    U: SecurityInsanity
+  B: 0
+  U: Eric
+- C: VN
+  E: pmint93!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Edumall.vn
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: pmint93!users.noreply.github.com
+    M: Eric
+    S: git
+  B: 0
+  U: Eric
+- E: sandeen!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+  I:
+  - E: sandeen!redhat.com
+    M: Eric Sandeen
+    S: git
+  - E: sandeen!redhat.com
+    M: Eric
+    S: git
+  B: 0
+  U: Eric
 - E: zhuanghuai.lp!alibaba-inc.com
   R:
   - T: "2100-01-01"
@@ -5998,6 +6058,9 @@ P:
     M: krickwix
     S: github
     U: krickwix
+  - M: Fabien Andrieux
+    S: jira
+    U: fandrieu
   - E: krickwix!gmail.com
     M: Fabien Andrieux
     S: jira
@@ -59877,28 +59940,3 @@ P:
     U: SoomroI
   B: 0
   U: Inam Soomro
-- E: inbar.anson.bratspiess!330plus.net
-  R:
-  - T: "2015-05-01"
-    C: Sequans
-    F: "1900-01-01"
-  - T: "2016-08-01"
-    C: Independent
-    F: "2015-05-01"
-  - T: "2018-07-01"
-    C: Toga Networks
-    F: "2016-08-01"
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-07-01"
-  S: male
-  I:
-  - E: inbar.anson.bratspiess!330plus.net
-    M: Inbar Anson Bratspiess
-    S: git
-  - E: inbar.anson.bratspiess!330plus.net
-    M: Inbar Anson Bratspiess
-    S: github
-    U: bran795
-  B: 0
-  U: Inbar Anson Bratspiess
