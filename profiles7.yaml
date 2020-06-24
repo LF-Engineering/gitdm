@@ -1,4 +1,43 @@
 P:
+- E: manoj!almaden.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: manoj!almaden.ibm.com
+    M: Manoj Naik
+    S: git
+  B: 0
+  U: Manoj Naik
+- E: maragupa!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: maragupa!cisco.com
+    M: Manoj Ragupathy
+    S: gerrit
+    U: maragupa
+  B: 0
+  U: Manoj Ragupathy
+- E: manoj.krishnan!wipro.com
+  R:
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: manoj.krishnan!wipro.com
+    M: Manoj
+    S: git
+  - E: manoj.krishnan!wipro.com
+    M: manoj.krishnan
+    S: pipermail
+  B: 0
+  U: Manoj
 - E: mt2061!att.com
   R:
   - T: "2100-01-01"
@@ -40194,6 +40233,9 @@ P:
   - T: "2014-06-01"
     C: EY
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Semihalf Embedded Systems
+    F: "1900-01-01"
   - T: "2015-09-01"
     C: Independent
     F: "2014-06-01"
@@ -40208,9 +40250,32 @@ P:
     F: "2019-08-01"
   S: male
   I:
+  - M: Michal Krawczyk
+    S: bugzilla
+    U: mk
+  - M: Michal Krawczyk
+    S: bugzillarest
+    U: mk
+  - E: krawczyk.michal91!gmail.com
+    M: Michał Krawczyk
+    S: gerrit
+    U: kravvcu
   - E: michal.krawczyk!codilime.com
     M: Michal Krawczyk
     S: git
+  - E: mk!semihalf.com
+    M: Michal Krawczyk
+    S: git
+  - E: mkrawczyk!juniper.net
+    M: Michał Krawczyk
+    S: jira
+    U: mkrawczyk
+  - E: mk!semihalf.com
+    M: Michal Krawczyk
+    S: pipermail
+  - E: mk!semihalf.com
+    M: Michał Krawczyk
+    S: pipermail
   B: 0
   U: Michal Krawczyk
 - E: mkubecek!suse.cz
@@ -41454,27 +41519,6 @@ P:
     U: inc0
   B: 0
   U: Michał Jastrzębski
-- E: mkrawczyk!juniper.net
-  R:
-  - T: "2100-01-01"
-    C: Semihalf Embedded Systems
-    F: "1900-01-01"
-  I:
-  - E: mk!semihalf.com
-    M: Michal Krawczyk
-    S: git
-  - E: mkrawczyk!juniper.net
-    M: Michał Krawczyk
-    S: jira
-    U: mkrawczyk
-  - E: mk!semihalf.com
-    M: Michal Krawczyk
-    S: pipermail
-  - E: mk!semihalf.com
-    M: Michał Krawczyk
-    S: pipermail
-  B: 0
-  U: Michał Krawczyk
 - E: michal.kruszewski!nordicsemi.no
   R:
   - T: "2100-01-01"
@@ -59618,98 +59662,3 @@ P:
     U: naiming
   B: 0
   U: Naiming Shen
-- E: Sandeep_Nair2!cable.comcast.com
-  R:
-  - T: "2100-01-01"
-    C: Comcast
-    F: "1900-01-01"
-  I:
-  - E: Sandeep_Nair2!cable.comcast.com
-    M: Nair, Sandeep Contractor
-    S: pipermail
-  B: 0
-  U: Nair, Sandeep Contractor
-- E: nakamura.hiroyuki!po.ntt-tx.co.jp
-  R:
-  - T: "2100-01-01"
-    C: NTT TechnoCross Corporation
-    F: "1900-01-01"
-  I:
-  - E: nakamura.hiroyuki!po.ntt-tx.co.jp
-    M: Hiroyuki Nakamura
-    S: git
-  - E: nakamura.hiroyuki!po.ntt-tx.co.jp
-    M: Nakamura Hioryuki
-    S: pipermail
-  B: 0
-  U: Nakamura Hioryuki
-- E: nakul.manchanda!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: NakulManchanda!users.noreply.github.com
-    M: Nakul Manchanda
-    S: git
-  - E: nakul.manchanda!ibm.com
-    M: Nakul Manchanda
-    S: git
-  - M: Nakul Manchanda
-    S: github
-    U: NakulManchanda
-  - E: nakul.manchanda!ibm.com
-    M: Nakul Manchanda
-    S: slack
-    U: nakul.manchanda
-  B: 0
-  U: Nakul Manchanda
-- E: nakul_shrivastava!dell.com
-  R:
-  - T: "2100-01-01"
-    C: Dell
-    F: "2010-01-01"
-  I:
-  - E: nakul_shrivastava!dell.com
-    M: Nakul Shrivastava
-    S: slack
-    U: nakul_shrivastava
-  B: 0
-  U: Nakul Shrivastava
-- R:
-  - T: "2014-10-01"
-    C: Decerto
-    F: "1900-01-01"
-  - T: "2016-06-01"
-    C: Eniro
-    F: "2014-10-01"
-  - T: "2016-06-02"
-    C: 4finance
-    F: "2016-06-01"
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-02"
-  S: male
-  I:
-  - M: Nakul
-    S: github
-    U: nklmish
-  B: 0
-  U: Nakul
-- C: US
-  E: nalin!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: nalin!redhat.com
-    M: Nalin Dahyabhai
-    S: git
-  - E: nalin!redhat.com
-    M: Nalin Dahyabhai
-    S: github
-    U: nalind
-  B: 0
-  U: Nalin Dahyabhai
