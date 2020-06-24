@@ -1,4 +1,142 @@
 P:
+- E: ananth.y!hcl.com
+  R:
+  - T: "2100-01-01"
+    C: HCL
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: HCL
+    F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: HCL
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: ananth.y!hcl.com
+    M: Y Ananth
+    S: gerrit
+  - E: ananth.y!hcl.com
+    M: Y Ananth
+    S: gerrit
+    U: ananth
+  - E: ananth.y!hcl.com
+    M: Y Ananth
+    S: gerrit
+    U: ananth.y
+  - E: ananth.y!hcl.com
+    M: ananth.y
+    S: gerrit
+  - E: ananth.y!hcl.com
+    M: ananth
+    S: gerrit
+  - E: ananth.y!hcl.com
+    M: Y Ananth
+    S: git
+  - E: ananth.y!hcl.com
+    M: ananth.y
+    S: git
+  - E: ananth.y!hcl.com
+    M: ananth
+    S: git
+  - E: ananth.y!hcl.com
+    M: Y Ananth
+    S: jira
+    U: ananth.y
+  - E: ananth.y!hcl.com
+    M: Ananth Y
+    S: pipermail
+  B: 0
+  U: ananth.y
+- C: CA
+  R:
+  - T: "2100-01-01"
+    C: Debian
+    F: "1900-01-01"
+  I:
+  - M: anarcat
+    S: github
+    U: anarcat
+  B: 0
+  U: anarcat
+- C: CA
+  E: anarcat!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Debian
+    F: "1900-01-01"
+  I:
+  - E: anarcat!users.noreply.github.com
+    M: anarcat
+    S: git
+  B: 0
+  U: anarcat
+- C: BY
+  E: techtonik!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Pear
+    F: "1900-01-01"
+  I:
+  - E: techtonik!gmail.com
+    M: anatoly techtonik
+    S: git
+  - E: techtonik!gmail.com
+    M: anatoly techtonik
+    S: github
+    U: techtonik
+  B: 0
+  U: anatoly techtonik
+- E: andre.bollore!orange.com
+  R:
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: andre.bollore!orange.com
+    M: andre bollore
+    S: gerrit
+    U: abollore
+  B: 0
+  U: andre bollore
+- E: andre.rosa!lge.com
+  R:
+  - T: "2100-01-01"
+    C: LG
+    F: "1900-01-01"
+  I:
+  - E: andre.rosa!lge.com
+    M: Andre Rosa
+    S: git
+  - E: andre.rosa!lge.com
+    M: andre.rosa
+    S: pipermail
+  B: 0
+  U: andre.rosa
+- R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+  I:
+  - S: github
+    U: andre2007
+  B: 0
+  U: andre2007
+- E: andrea.miele!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  I:
+  - E: andrea.miele!intel.com
+    M: andrea miele
+    S: git
+  B: 0
+  U: andrea miele
 - E: andrea.merello!gmail.com
   R:
   - T: "2100-01-01"
@@ -35435,10 +35573,10 @@ P:
   - T: "2100-01-01"
     C: ZTE Corporation
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: ZTE Corporation
-    F: "1900-01-01"
     P: lfn/opnfv
+  - T: "2019-06-28"
+    C: ZTE Corporation
+    F: "2019-06-28"
   I:
   - M: julien zhang
     S: confluence
@@ -61727,106 +61865,3 @@ P:
     U: ringaile
   B: 0
   U: ringaile
-- C: CN
-  E: zhongwei.lzw!alibaba-inc.com
-  R:
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "1900-01-01"
-  I:
-  - E: zhongwei.lzw!alibaba-inc.com
-    M: ringtail
-    S: git
-  - E: zhongwei.lzw!alibaba-inc.com
-    M: ringtail
-    S: github
-    U: ringtail
-  B: 0
-  U: ringtail
-- E: jeff.rishi!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: jeff.rishi!ibm.com
-    M: rishman
-    S: slack
-    U: rishman
-  B: 0
-  U: rishman
-- E: rita.stokes1!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: rita.stokes1!ibm.com
-    M: ritastokes
-    S: slack
-    U: ritastokes
-  B: 0
-  U: ritastokes
-- E: ritesh.n.singh!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-  I:
-  - E: ritesh.n.singh!ericsson.com
-    M: ritesh
-    S: slack
-    U: ritesh
-  B: 0
-  U: ritesh
-- E: motipara!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: motipara!us.ibm.com
-    M: riteshm
-    S: slack
-    U: riteshm
-  B: 0
-  U: riteshm
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: rithu leena john
-    S: github
-    U: rithujohn191
-  B: 0
-  U: rithu leena john
-- C: US
-  E: rithujohn191!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: rithujohn191!gmail.com
-    M: rithu john
-    S: git
-  - E: rithujohn191!gmail.com
-    M: rithu leena john
-    S: git
-  B: 0
-  U: rithu leena john
-- E: rj2124!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "2019-01-02"
-  I:
-  - E: rj2124!att.com
-    M: rj2124
-    S: groupsio
-  B: 0
-  U: rj2124
