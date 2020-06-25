@@ -1,4 +1,49 @@
 P:
+- E: ml2.ci!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Cisco
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: ml2.ci!cisco.com
+    M: Cisco CI
+    S: gerrit
+    U: cisco_ml2_ci
+  B: 0
+  U: Cisco CI
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+  I:
+  - S: github
+    U: Cjen1
+  B: 0
+  U: Cjen1
+- C: SE
+  E: claes.mogren!gmail.com
+  R:
+  - T: "2015-02-01"
+    C: Unikum
+    F: "1900-01-01"
+  - T: "2016-10-01"
+    C: Accedo
+    F: "2015-02-01"
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2016-10-01"
+  S: male
+  I:
+  - E: claes.mogren!gmail.com
+    M: Claes Mogren
+    S: github
+    U: mogren
+  B: 0
+  U: Claes Mogren
 - C: SE
   E: mogren!amazon.com
   R:
@@ -1402,9 +1447,9 @@ P:
   U: Clinton Knight
 - E: cf-identity-eng!pivotal.io
   R:
-  - T: "2100-01-01"
+  - T: "2019-08-22"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2019-08-22"
   I:
   - E: cf-identity-eng!pivotal.io
     M: CF Identity
@@ -1432,9 +1477,9 @@ P:
   U: Cloud Foundry Identity Team
 - E: cloud!iotechsys.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-05-14"
     C: IOTech
-    F: "1900-01-01"
+    F: "2019-03-19"
   I:
   - M: Cloud Tsai
     S: confluence
@@ -3588,9 +3633,9 @@ P:
   U: Conner Ferguson
 - C: US
   R:
-  - T: "2100-01-01"
+  - T: "2019-09-11"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2018-11-02"
   S: male
   I:
   - E: cbraa!pivotal.io
@@ -4180,12 +4225,12 @@ P:
 - C: IE
   E: conor.ward!ericsson.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-04-17"
     C: Ericsson AB
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-08-09"
+  - T: "2019-04-17"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2018-08-09"
     P: lfn/onap
   I:
   - M: Conor Ward
@@ -5126,12 +5171,12 @@ P:
   U: Corrin Meyer
 - E: cb645j!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-04-25"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-03-08"
+  - T: "2018-04-25"
     C: AT&T
-    F: "1900-01-01"
+    F: "2018-03-08"
     P: lfn/onap
   I:
   - M: Cory Boslet
@@ -6158,9 +6203,9 @@ P:
 - C: US
   E: crwilhit!microsoft.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-07-10"
     C: Microsoft
-    F: "1900-01-01"
+    F: "2018-06-20"
   S: male
   I:
   - E: crwilhit!microsoft.com
@@ -6630,17 +6675,17 @@ P:
   U: Cristiano Fontes
 - E: cristina.pauna!enea.com
   R:
-  - T: "2100-01-01"
+  - T: "2020-01-29"
     C: ENEA AB
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: ENEA AB
-    F: "1900-01-01"
-    P: lfn/onap
-  - T: "2100-01-01"
-    C: ENEA AB
-    F: "1900-01-01"
+    F: "2016-09-21"
     P: lfn/opnfv
+  - T: "2100-01-01"
+    C: ENEA AB
+    F: "2016-09-21"
+  - T: "2020-03-04"
+    C: ENEA AB
+    F: "2019-06-12"
+    P: lfn/onap
   I:
   - M: Cristina Pauna
     S: confluence
@@ -6672,12 +6717,12 @@ P:
   U: Cristina Pauna
 - E: cprecup!cisco.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-09-27"
     C: Cisco
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-09-27"
+  - T: "2018-09-27"
     C: Cisco
-    F: "1900-01-01"
+    F: "2018-09-27"
     P: lfn/onap
   I:
   - M: Cristina Precup
@@ -6892,9 +6937,9 @@ P:
   U: Cui, Dexuan
 - E: 61755280!qq.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-02-15"
     C: China Cloud
-    F: "1900-01-01"
+    F: "2017-02-15"
   I:
   - E: 61755280!qq.com
     M: CuiHaozhi
@@ -6936,9 +6981,9 @@ P:
   U: CuiHaozhi
 - E: cuihz!wise2c.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-05-04"
     C: China Cloud
-    F: "1900-01-01"
+    F: "2017-04-07"
   I:
   - E: cuihz!wise2c.com
     M: CuiHaozhi
@@ -7218,7 +7263,7 @@ P:
   R:
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2019-05-24"
   I:
   - M: Cynthia Billovits
     S: confluence
@@ -8321,7 +8366,7 @@ P:
 - R:
   - T: "2100-01-01"
     C: Linux Foundation
-    F: "1900-01-01"
+    F: "2020-04-17"
     P: lfn/onap
   I:
   - M: DW Talton
@@ -9214,9 +9259,9 @@ P:
   U: Damian Dybek
 - E: Damian.J.Eagle!team.telstra.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-10-25"
     C: Telstra
-    F: "1900-01-01"
+    F: "2019-10-11"
   I:
   - M: Damian Eagle
     S: confluence
@@ -9340,10 +9385,10 @@ P:
   R:
   - T: "2100-01-01"
     C: Nokia Corporation
-    F: "1900-01-01"
+    F: "2018-04-19"
   - T: "2100-01-01"
     C: Nokia Corporation
-    F: "1900-01-01"
+    F: "2018-04-19"
     P: lfn/onap
   S: male
   I:
@@ -10559,12 +10604,12 @@ P:
   U: Dan Conde
 - E: dd8745!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-04-23"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-04-23"
+  - T: "2018-04-23"
     C: AT&T
-    F: "1900-01-01"
+    F: "2018-04-23"
     P: lfn/onap
   I:
   - M: Dan DiFlora
@@ -10753,7 +10798,7 @@ P:
   U: Dan Gillespie
 - E: dan.gisolfi!gmail.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-12-03"
     C: IBM
     F: "2016-12-31"
   I:
@@ -11128,12 +11173,12 @@ P:
   U: Dan Lavine
 - E: dan.lilliehorn!enea.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-06-04"
     C: ENEA AB
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2016-08-08"
+  - T: "2018-06-04"
     C: ENEA AB
-    F: "1900-01-01"
+    F: "2016-08-08"
     P: lfn/opnfv
   I:
   - M: Dan Lilliehorn
@@ -11334,7 +11379,7 @@ P:
   R:
   - T: "2100-01-01"
     C: Intel Corporation
-    F: "1900-01-01"
+    F: "2019-03-07"
   I:
   - M: Dan Middleton
     S: confluence
@@ -12371,10 +12416,10 @@ P:
   R:
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-03-22"
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-03-22"
     P: lfn/onap
   I:
   - M: Dan Timoney
@@ -12719,12 +12764,12 @@ P:
   U: Dan Winship
 - E: xudan16!huawei.com
   R:
-  - T: "2100-01-01"
+  - T: "2020-01-03"
     C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2016-08-04"
+  - T: "2020-01-03"
     C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
+    F: "2016-08-04"
     P: lfn/opnfv
   I:
   - M: Dan Xu
@@ -12922,12 +12967,12 @@ P:
   U: Dana Blair dblair
 - E: dw2049!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-09-19"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-07-25"
+  - T: "2018-09-19"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-07-25"
     P: lfn/onap
   I:
   - M: Dana Bobko
@@ -13074,9 +13119,9 @@ P:
   U: Dana Rubin
 - E: danailster!gmail.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-09-04"
     C: SAP
-    F: "1900-01-01"
+    F: "2017-11-01"
   S: male
   I:
   - E: danail.branekov!sap.com
@@ -13325,11 +13370,11 @@ P:
   R:
   - T: "2100-01-01"
     C: Lumina Networks
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Lumina Networks
     F: "2019-03-01"
     P: lfn/odl
+  - T: "2100-01-01"
+    C: Lumina Networks
+    F: "2019-09-20"
   I:
   - M: Daniel  De La Rosa
     S: confluence
@@ -16417,9 +16462,9 @@ P:
   U: Daniel Mewes
 - C: GB
   R:
-  - T: "2100-01-01"
+  - T: "2018-10-18"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2018-10-18"
   S: male
   I:
   - M: Daniel Mikusa
@@ -16990,12 +17035,12 @@ P:
   U: Daniel Rohe
 - E: DR695H!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-11-25"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-03-29"
+  - T: "2019-11-25"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-03-29"
     P: lfn/onap
   I:
   - M: Daniel Rose
@@ -17353,7 +17398,7 @@ P:
   U: Daniel Shusta
 - E: ds8728!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-10-04"
     C: AT&T
     F: "1901-01-01"
   I:
@@ -17376,12 +17421,12 @@ P:
   U: Daniel Siebenmann
 - E: daniel.silverthorn!amdocs.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-05-30"
     C: Amdocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-08-10"
+  - T: "2018-05-30"
     C: Amdocs
-    F: "1900-01-01"
+    F: "2017-08-10"
     P: lfn/onap
   I:
   - M: Daniel Silverthorn
@@ -17411,13 +17456,13 @@ P:
   - T: "2100-01-01"
     C: Ericsson AB
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
     P: lfn/odl
-  - T: "2100-01-01"
+  - T: "2016-08-31"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2016-03-31"
+  - T: "2016-08-31"
+    C: Ericsson AB
+    F: "2016-03-31"
     P: lfn/opnfv
   I:
   - M: Daniel Smith
@@ -17817,12 +17862,12 @@ P:
   U: Daniel Thornton
 - E: daniel.tudares!cengn.ca
   R:
-  - T: "2100-01-01"
+  - T: "2016-06-27"
     C: CENGN
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2016-06-09"
+  - T: "2016-06-27"
     C: CENGN
-    F: "1900-01-01"
+    F: "2016-06-09"
     P: lfn/opnfv
   I:
   - M: Daniel Tudares
@@ -19099,7 +19144,7 @@ P:
   R:
   - T: "2100-01-01"
     C: ConsenSys
-    F: "1900-01-01"
+    F: "2019-09-12"
   S: male
   I:
   - M: Danno Ferrin
@@ -19138,9 +19183,9 @@ P:
   U: Danny Al-Gaaf
 - C: US
   R:
-  - T: "2100-01-01"
+  - T: "2019-04-03"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2019-03-13"
   S: female
   I:
   - E: dberger!pivotal.io
@@ -20150,7 +20195,7 @@ P:
   U: Darko Fabijan
 - E: darko.kulic!evernym.com
   R:
-  - T: "2100-01-01"
+  - T: "2020-03-11"
     C: Evernym, Inc
     F: "2016-12-31"
   I:
@@ -20222,7 +20267,7 @@ P:
 - R:
   - T: "2100-01-01"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2020-01-07"
     P: lfn/onap
   I:
   - M: Darragh Egan
@@ -20602,7 +20647,7 @@ P:
   R:
   - T: "2100-01-01"
     C: Ampere
-    F: "1900-01-01"
+    F: "2020-01-23"
   I:
   - M: Darrin Vallis
     S: confluence
@@ -21170,7 +21215,7 @@ P:
   B: 0
   U: Dave Benjamin
 - R:
-  - T: "2100-01-01"
+  - T: "2017-06-08"
     C: KMC Controls
     F: "2003-12-01"
   I:
@@ -21217,12 +21262,12 @@ P:
   U: Dave C Boutcher
 - E: dcain!redhat.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-11-06"
     C: Red Hat Inc.
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-08-17"
+  - T: "2019-11-06"
     C: Red Hat Inc.
-    F: "1900-01-01"
+    F: "2017-08-17"
     P: lfn/opnfv
   I:
   - M: Dave Cain
@@ -21249,7 +21294,7 @@ P:
   U: Dave Carley
 - E: David_Cecchi!cargill.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-06-19"
     C: Cargill
     F: "2016-12-01"
   I:
@@ -22049,13 +22094,13 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
     P: lfn/odl
-  - T: "2100-01-01"
+  - T: "2018-03-13"
     C: Red Hat Inc.
-    F: "1900-01-01"
+    F: "2016-04-04"
+  - T: "2018-03-13"
+    C: Red Hat Inc.
+    F: "2016-04-04"
     P: lfn/opnfv
   I:
   - M: Dave Neary
@@ -23201,9 +23246,9 @@ P:
   B: 0
   U: David Anderson
 - R:
-  - T: "2100-01-01"
+  - T: "2019-06-19"
     C: SAP
-    F: "1900-01-01"
+    F: "2019-02-26"
   I:
   - E: david.ansari!gmx.de
     S: cloudfoundry:manual
@@ -24924,7 +24969,7 @@ P:
   R:
   - T: "2100-01-01"
     C: IBM
-    F: "1900-01-01"
+    F: "2019-01-07"
   I:
   - M: David Enyeart
     S: confluence
@@ -25073,10 +25118,10 @@ P:
   R:
   - T: "2100-01-01"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2018-12-13"
   - T: "2100-01-01"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2018-12-13"
     P: lfn/onap
   I:
   - M: David Farrelly
@@ -25192,9 +25237,9 @@ P:
 - C: US
   E: freilich.david!gmail.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-07-18"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2019-02-13"
   S: male
   I:
   - E: dfreilich!pivotal.io
@@ -26170,12 +26215,12 @@ P:
 - C: US
   E: dbainbri!ciena.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-08-22"
     C: Ciena
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-07-28"
+  - T: "2019-08-22"
     C: Ciena
-    F: "1900-01-01"
+    F: "2017-07-28"
     P: lfn/onap
   S: male
   I:
@@ -26647,9 +26692,9 @@ P:
 - C: US
   E: david.lawrence!docker.com
   R:
-  - T: "2100-01-01"
+  - T: "2015-03-05"
     C: Docker
-    F: "1900-01-01"
+    F: "2015-03-05"
   S: male
   I:
   - E: david.lawrence!docker.com
@@ -27070,10 +27115,6 @@ P:
     C: Linux Foundation
     F: "1900-01-01"
     P: lfn/odl
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-    P: lfn/opnfv
   - T: "2003-02-01"
     C: Teradyne, Inc.
     F: "1997-11-01"
@@ -27086,6 +27127,10 @@ P:
   - T: "2100-01-01"
     C: The Linux Foundation
     F: "2016-03-01"
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "2016-03-29"
+    P: lfn/opnfv
   I:
   - M: David McBride
     S: confluence
@@ -27393,12 +27438,12 @@ P:
   U: David Miller
 - E: david.minodier!orange.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-04-16"
     C: Orange S.A.
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-02-16"
+  - T: "2018-04-16"
     C: Orange S.A.
-    F: "1900-01-01"
+    F: "2018-02-16"
     P: lfn/onap
   I:
   - M: David Minodier
@@ -28061,10 +28106,10 @@ P:
   R:
   - T: "2100-01-01"
     C: Swisscom
-    F: "1900-01-01"
+    F: "2018-02-21"
   - T: "2100-01-01"
     C: Swisscom
-    F: "1900-01-01"
+    F: "2018-02-21"
     P: lfn/onap
   I:
   - M: David Perez Caparros
@@ -28165,7 +28210,7 @@ P:
   R:
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2019-01-15"
   I:
   - M: David Plunkett
     S: confluence
@@ -28743,12 +28788,12 @@ P:
   U: David Sargrad
 - E: david.sauvageau!bell.ca
   R:
-  - T: "2100-01-01"
+  - T: "2018-09-06"
     C: Bell Canada
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-04-19"
+  - T: "2018-09-06"
     C: Bell Canada
-    F: "1900-01-01"
+    F: "2017-04-19"
     P: lfn/onap
   I:
   - M: David Sauvageau
@@ -28800,7 +28845,7 @@ P:
   U: David Schachter
 - E: mcfate!mcfate.us
   R:
-  - T: "2100-01-01"
+  - T: "2017-02-21"
     C: Individual
     F: "2017-01-01"
   I:
@@ -28905,12 +28950,12 @@ P:
   U: David Seapy
 - E: ds200p!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-11-06"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-05-03"
+  - T: "2017-11-06"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-05-03"
     P: lfn/onap
   I:
   - M: David Shadmi
@@ -29182,12 +29227,12 @@ P:
   U: David Splittberger
 - E: David.Stangl!amdocs.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-01-10"
     C: Amdocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-03-23"
+  - T: "2019-01-10"
     C: Amdocs
-    F: "1900-01-01"
+    F: "2018-03-23"
     P: lfn/onap
   I:
   - M: David Stangl
@@ -29702,9 +29747,9 @@ P:
 - C: US
   E: davet!gnu.org
   R:
-  - T: "2100-01-01"
+  - T: "2015-05-31"
     C: GNU
-    F: "1900-01-01"
+    F: "2015-05-31"
   S: male
   I:
   - E: davet!gnu.org
@@ -30657,9 +30702,9 @@ P:
   U: David, Dana (dd775k)
 - E: david.paul.dornseifer!sap.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-07-12"
     C: SAP
-    F: "1900-01-01"
+    F: "2019-02-01"
   I:
   - M: David-Paul Dornseifer
     S: confluence
@@ -31076,13 +31121,13 @@ P:
   U: Davide Caratti
 - E: davide.cherubini!vodafone.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-11-04"
     C: Vodafone
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Vodafone
-    F: "1900-01-01"
+    F: "2017-09-21"
     P: lfn/onap
+  - T: "2100-01-01"
+    C: Vodafone
+    F: "2017-09-21"
   I:
   - M: Davide Cherubini
     S: confluence
@@ -32275,7 +32320,7 @@ P:
   R:
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2018-11-19"
   I:
   - M: Deepak Kataria
     S: confluence
@@ -32367,9 +32412,9 @@ P:
   B: 0
   U: Deepak M
 - R:
-  - T: "2100-01-01"
+  - T: "2020-03-05"
     C: Verizon Communications
-    F: "1900-01-01"
+    F: "2020-03-05"
     P: lfn/onap
   I:
   - M: Deepak Majjiga
@@ -32430,12 +32475,12 @@ P:
   U: Deepak Rawat
 - E: deepak.s!linux.intel.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-04-19"
     C: Intel Corporation
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2016-11-23"
+  - T: "2019-04-19"
     C: Intel Corporation
-    F: "1900-01-01"
+    F: "2016-11-23"
     P: lfn/opnfv
   I:
   - M: Deepak S
@@ -33022,12 +33067,12 @@ P:
   U: Dejan Glozic
 - E: dejan.kitic!ericsson.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-06-05"
     C: Ericsson AB
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-03-12"
+  - T: "2018-06-05"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2018-03-12"
     P: lfn/onap
   I:
   - M: Dejan Kitic
@@ -33189,12 +33234,12 @@ P:
   U: Dementiev, Roman
 - E: denes.nemeth!nokia.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-09-18"
     C: Nokia Corporation
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-09-14"
+  - T: "2018-09-18"
     C: Nokia Corporation
-    F: "1900-01-01"
+    F: "2017-09-14"
     P: lfn/onap
   I:
   - M: Denes Nemeth
@@ -33225,9 +33270,9 @@ P:
   U: Denes Nemeth
 - E: dengguangxing!huawei.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-02-08"
     C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
+    F: "2016-08-24"
   I:
   - E: dengguangxing!huawei.com
     M: Deng Guangxing
@@ -33706,9 +33751,9 @@ P:
   B: 0
   U: Denis Kostryukov
 - R:
-  - T: "2100-01-01"
+  - T: "2019-06-11"
     C: SAP
-    F: "1900-01-01"
+    F: "2019-02-15"
   I:
   - E: denis.langer!sap.com
     S: cloudfoundry:manual
@@ -34031,10 +34076,10 @@ P:
   R:
   - T: "2100-01-01"
     C: Fujitsu
-    F: "1900-01-01"
+    F: "2019-04-24"
   - T: "2100-01-01"
     C: Fujitsu
-    F: "1900-01-01"
+    F: "2019-04-24"
     P: lfn/onap
   I:
   - M: Denise Provencher
@@ -34542,12 +34587,12 @@ P:
   U: Dennis Pfisterer
 - E: Xiaohong.Qin!emc.com
   R:
-  - T: "2100-01-01"
+  - T: "2016-05-02"
     C: EMC
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2016-05-02"
+  - T: "2016-05-02"
     C: EMC
-    F: "1900-01-01"
+    F: "2016-05-02"
     P: lfn/opnfv
   I:
   - M: Dennis Qin
@@ -36036,9 +36081,9 @@ P:
 - C: GB
   E: devangelista!pivotal.io
   R:
-  - T: "2100-01-01"
+  - T: "2019-09-05"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2019-08-20"
   S: male
   I:
   - E: devangelista!pivotal.io
@@ -36059,12 +36104,12 @@ P:
   U: Derik Evangelista
 - E: dermot.melia!ericsson.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-02-08"
     C: Ericsson AB
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2019-02-07"
+  - T: "2019-02-08"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2019-02-07"
     P: lfn/onap
   I:
   - M: Dermot Melia
@@ -36498,10 +36543,10 @@ P:
   R:
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2020-01-21"
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2020-01-21"
     P: lfn/onap
   I:
   - M: Deven Panchal
@@ -37036,13 +37081,13 @@ P:
   U: Dhananjay Gundapu Jayakrishnan
 - E: DP00476350!TechMahindra.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-08-02"
     C: tech mahindra
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: tech mahindra
-    F: "1900-01-01"
+    F: "2017-03-22"
     P: lfn/onap
+  - T: "2018-09-18"
+    C: tech mahindra
+    F: "2017-03-22"
   I:
   - M: Dhananjay Pavgi
     S: confluence
@@ -37139,7 +37184,7 @@ P:
   U: Dharageswari R
 - E: dharaneeshwaran.r!maplelabs.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-03-19"
     C: Maplelabs
     F: "2017-06-01"
   I:
@@ -38053,9 +38098,9 @@ P:
   U: Didier Roche
 - E: dimitar.donchev!sap.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-07-18"
     C: SAP
-    F: "1900-01-01"
+    F: "2019-03-08"
   I:
   - E: dimitar.donchev!sap.com
     M: Dido
@@ -38829,9 +38874,9 @@ P:
   U: Dietmar Kuebler
 - E: dzhao!pivotal.io
   R:
-  - T: "2100-01-01"
+  - T: "2017-12-15"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2017-12-15"
   I:
   - E: dzhao!pivotal.io
     M: Difan Zhao
@@ -38858,14 +38903,14 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
     P: lfn/odl
-  - T: "2100-01-01"
+  - T: "2019-05-13"
     C: Intel Corporation
-    F: "1900-01-01"
+    F: "2017-05-05"
     P: lfn/onap
+  - T: "2019-12-20"
+    C: Intel Corporation
+    F: "2017-05-05"
   I:
   - M: Dileep Ranganathan
     S: confluence
@@ -39548,13 +39593,13 @@ P:
   - T: "2100-01-01"
     C: AT&T
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
     P: lfn/odl
-  - T: "2100-01-01"
+  - T: "2018-05-07"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-11-15"
+  - T: "2018-05-07"
+    C: AT&T
+    F: "2017-11-15"
     P: lfn/opnfv
   I:
   - M: Dimitrios Markou
@@ -39958,9 +40003,9 @@ P:
 - C: US
   E: dingov!microsoft.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-08-31"
     C: Microsoft
-    F: "1900-01-01"
+    F: "2018-08-31"
   S: male
   I:
   - E: dingov!microsoft.com
@@ -41077,10 +41122,10 @@ P:
   R:
   - T: "2100-01-01"
     C: Independent
-    F: "1900-01-01"
+    F: "2019-03-05"
   - T: "2100-01-01"
     C: Telstra
-    F: "1900-01-01"
+    F: "2019-03-05"
     P: lfn/onap
   S: male
   I:
@@ -41435,9 +41480,9 @@ P:
 - C: US
   E: shurcooL!gmail.com
   R:
-  - T: "2100-01-01"
+  - T: "2015-05-16"
     C: Sourcegraph
-    F: "1900-01-01"
+    F: "2015-05-16"
   S: male
   I:
   - E: shurcooL!gmail.com
@@ -42207,12 +42252,12 @@ P:
   B: 0
   U: Dmitry Kirilyuk
 - R:
-  - T: "2100-01-01"
+  - T: "2016-09-21"
     C: Mirantis
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2016-08-22"
+  - T: "2016-09-21"
     C: Mirantis
-    F: "1900-01-01"
+    F: "2016-08-22"
     P: lfn/opnfv
   I:
   - M: Dmitry Klenov
@@ -42466,14 +42511,14 @@ P:
   - T: "2100-01-01"
     C: Tieto
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Tieto
-    F: "1900-01-01"
-    P: lfn/onap
-  - T: "2100-01-01"
-    C: Tieto
-    F: "1900-01-01"
     P: lfn/opnfv
+  - T: "2019-11-08"
+    C: Tieto
+    F: "2019-02-22"
+  - T: "2019-11-08"
+    C: Tieto
+    F: "2019-02-22"
+    P: lfn/onap
   I:
   - M: Dmitry Puzikov
     S: confluence
@@ -43248,7 +43293,7 @@ P:
 - C: RU
   E: deremeev!progmaticlab.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-07-03"
     C: Progmatic Lab
     F: "2000-01-01"
   I:
@@ -43897,10 +43942,10 @@ P:
   R:
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-09-01"
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-09-01"
     P: lfn/onap
   I:
   - M: Dominic Lunanuova
@@ -45057,9 +45102,9 @@ P:
 - C: US
   E: don.hcd!gmail.com
   R:
-  - T: "2100-01-01"
+  - T: "2014-11-14"
     C: Docker, Inc.
-    F: "1900-01-01"
+    F: "2014-11-11"
   S: male
   I:
   - E: don.hcd!gmail.com
@@ -45079,18 +45124,18 @@ P:
   - T: "2100-01-01"
     C: Cisco
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
     P: lfn/odl
   - T: "2100-01-01"
     C: Cisco
     F: "1900-01-01"
+    P: lfn/opnfv
+  - T: "2018-10-29"
+    C: Cisco
+    F: "2018-07-06"
     P: lfn/onap
   - T: "2100-01-01"
     C: Cisco
-    F: "1900-01-01"
-    P: lfn/opnfv
+    F: "2018-07-06"
   I:
   - M: Donald Hunter
     S: confluence
@@ -45257,9 +45302,9 @@ P:
   B: 0
   U: Dong Liu
 - R:
-  - T: "2100-01-01"
+  - T: "2019-10-11"
     C: China Telecom
-    F: "1900-01-01"
+    F: "2019-10-11"
     P: lfn/onap
   I:
   - M: Dong Wang
@@ -45485,10 +45530,10 @@ P:
   R:
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2019-07-25"
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2019-07-25"
     P: lfn/onap
   I:
   - M: Dongho Kim
@@ -45654,9 +45699,9 @@ P:
   U: Dongsheng Yang
 - E: yangds.fnst!cn.fujitsu.com
   R:
-  - T: "2100-01-01"
+  - T: "2015-10-26"
     C: Fujitsu
-    F: "1900-01-01"
+    F: "2015-10-26"
   I:
   - E: yangds.fnst!cn.fujitsu.com
     M: Dongsheng Yang
@@ -45823,7 +45868,7 @@ P:
   B: 0
   U: Doron Roberts-Kedes
 - R:
-  - T: "2100-01-01"
+  - T: "2019-08-14"
     C: The Linux Foundation
     F: "2016-12-31"
   I:
@@ -46025,9 +46070,9 @@ P:
   U: Doug Fawley
 - E: doug.gardner!analog.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-06-21"
     C: Analog Devices
-    F: "1900-01-01"
+    F: "2017-07-07"
   I:
   - M: Doug Gardner
     S: confluence
@@ -46143,12 +46188,12 @@ P:
   U: Doug Jones
 - E: doug.kedrosky!amdocs.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-08-29"
     C: Amdocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-05-11"
+  - T: "2018-08-29"
     C: Amdocs
-    F: "1900-01-01"
+    F: "2018-05-11"
     P: lfn/onap
   I:
   - M: Doug Kedrosky
@@ -46661,7 +46706,7 @@ P:
   U: Douglas Silva
 - E: douglas.wightman!evernym.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-07-03"
     C: Evernym, Inc
     F: "2016-12-31"
   I:
@@ -47255,12 +47300,12 @@ P:
   U: Drew Leske
 - E: dm741q!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-11-08"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-11-06"
+  - T: "2017-11-08"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-11-06"
     P: lfn/onap
   I:
   - M: Drew Magnusen
@@ -47849,12 +47894,12 @@ P:
   U: Ducas Francis
 - E: df502y!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-10-25"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-08-22"
+  - T: "2017-10-25"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-08-22"
     P: lfn/onap
   I:
   - M: Dudi Franko
@@ -48256,12 +48301,12 @@ P:
   U: Dusan Madar
 - E: Dusan.Rozman!amdocs.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-11-18"
     C: Amdocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-10-16"
+  - T: "2019-11-18"
     C: Amdocs
-    F: "1900-01-01"
+    F: "2017-10-16"
     P: lfn/onap
   I:
   - M: Dusan Rozman
@@ -48375,12 +48420,12 @@ P:
   U: Dusan Zivkovic
 - E: dt00503496!techmahindra.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-04-29"
     C: tech mahindra
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-09-13"
+  - T: "2019-04-29"
     C: tech mahindra
-    F: "1900-01-01"
+    F: "2018-09-13"
     P: lfn/onap
   I:
   - M: Dushyant Thakur
@@ -49358,7 +49403,7 @@ P:
   R:
   - T: "2100-01-01"
     C: AT&T
-    F: "1900-01-01"
+    F: "2019-06-13"
   I:
   - M: Scott Daniels
     S: confluence
@@ -49655,7 +49700,7 @@ P:
   U: Earl C. Ruby III
 - E: ehwest!gmail.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-04-05"
     C: AT&T
     F: "2017-01-01"
   I:
@@ -50297,9 +50342,9 @@ P:
 - C: US
   E: santiago!redhat.com
   R:
-  - T: "2100-01-01"
+  - T: "2020-01-10"
     C: Red Hat Inc.
-    F: "1900-01-01"
+    F: "2020-01-10"
   S: male
   I:
   - E: santiago!redhat.com
@@ -50527,12 +50572,12 @@ P:
   U: EdProsser
 - E: eb578m!intl.att.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-11-26"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-09-14"
+  - T: "2017-11-26"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-09-14"
     P: lfn/onap
   I:
   - M: Edan Binshtok
@@ -50614,12 +50659,12 @@ P:
   U: Eddie Allen
 - E: eddie.arrage!huawei.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-09-13"
     C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-10-05"
+  - T: "2018-09-13"
     C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
+    F: "2017-10-05"
     P: lfn/opnfv
   I:
   - M: Eddie Arrage
@@ -50797,12 +50842,12 @@ P:
   U: Eddie.Horng
 - E: eh552t!intl.att.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-02-09"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-11-07"
+  - T: "2018-02-09"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-11-07"
     P: lfn/onap
   I:
   - M: Eddy Hautot
@@ -50838,17 +50883,17 @@ P:
   U: Eddy Hautot
 - E: eddy.raineri!windriver.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-06-03"
     C: Wind River
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-04-19"
+  - T: "2019-06-03"
     C: Wind River
-    F: "1900-01-01"
-    P: lfn/onap
-  - T: "2100-01-01"
-    C: Wind River
-    F: "1900-01-01"
+    F: "2017-04-19"
     P: lfn/opnfv
+  - T: "2019-03-13"
+    C: Wind River
+    F: "2018-08-28"
+    P: lfn/onap
   I:
   - M: Eddy Raineri
     S: confluence
@@ -50907,12 +50952,12 @@ P:
   U: Eden Li
 - E: er434w!intl.att.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-08-02"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-06-08"
+  - T: "2017-08-02"
     C: AT&T
-    F: "1900-01-01"
+    F: "2017-06-08"
     P: lfn/onap
   I:
   - M: Eden Rozin
@@ -51571,7 +51616,7 @@ P:
   U: Eduardo D. Bergavera Jr.
 - E: jucah!cpqd.com.br
   R:
-  - T: "2100-01-01"
+  - T: "2019-06-25"
     C: Conecte-se ao novo
     F: "1998-07-01"
   I:
@@ -52279,9 +52324,9 @@ P:
 - C: PH
   E: edward.pilatowicz!oracle.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-05-26"
     C: Oracle
-    F: "1900-01-01"
+    F: "2017-05-26"
   I:
   - E: edward.pilatowicz!oracle.com
     M: Edward Pilatowicz
@@ -52335,7 +52380,7 @@ P:
   R:
   - T: "2100-01-01"
     C: Lenovo
-    F: "1900-01-01"
+    F: "2018-10-16"
   S: male
   I:
   - M: Edward Ting
@@ -52442,9 +52487,9 @@ P:
   U: Edward Wilde
 - C: NI
   R:
-  - T: "2100-01-01"
+  - T: "2019-09-19"
     C: IBM
-    F: "1900-01-01"
+    F: "2019-02-21"
   S: male
   I:
   - E: bjxzi!cn.ibm.com
@@ -53134,12 +53179,12 @@ P:
   U: Einat Vinouze
 - E: einavw!amdocs.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-07-29"
     C: Amdocs
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-07-29"
+  - T: "2018-07-29"
     C: Amdocs
-    F: "1900-01-01"
+    F: "2018-07-29"
     P: lfn/onap
   I:
   - M: Einav Keidar
@@ -53637,12 +53682,12 @@ P:
   U: Elena Kubantseva
 - E: evn!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2019-03-19"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-05-08"
+  - T: "2019-03-19"
     C: AT&T
-    F: "1900-01-01"
+    F: "2018-05-08"
     P: lfn/onap
   I:
   - M: Elena Kuleshov
@@ -53759,9 +53804,9 @@ P:
   U: Elena Sharma
 - E: esharma!pivotal.io
   R:
-  - T: "2100-01-01"
+  - T: "2018-06-26"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2018-05-26"
   I:
   - E: esharma!pivotal.io
     M: Elena Sharma
@@ -54147,9 +54192,9 @@ P:
   B: 0
   U: Eli Uriegas
 - R:
-  - T: "2100-01-01"
+  - T: "2019-09-06"
     C: Pivotal
-    F: "1900-01-01"
+    F: "2018-12-04"
   I:
   - E: ewrenn!pivotal.io
     S: cloudfoundry:manual
@@ -54188,9 +54233,9 @@ P:
 - C: US
   E: elyscape!gmail.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-09-11"
     C: Bluescape
-    F: "1900-01-01"
+    F: "2017-09-11"
   S: male
   I:
   - E: elyscape!gmail.com
@@ -54403,12 +54448,12 @@ P:
   U: Eliezer Tamir
 - E: eliezio!pm.me
   R:
-  - T: "2100-01-01"
+  - T: "2020-02-19"
     C: APPI Tecnologia
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2019-05-09"
+  - T: "2020-02-19"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2019-05-09"
     P: lfn/onap
   S: female
   I:
@@ -54901,12 +54946,12 @@ P:
   U: Elizabeth Flanagan
 - E: eh6351!att.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-06-13"
     C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-06-13"
+  - T: "2018-06-13"
     C: AT&T
-    F: "1900-01-01"
+    F: "2018-06-13"
     P: lfn/onap
   I:
   - M: Elizabeth Hoch
@@ -56696,13 +56741,13 @@ P:
   - T: "2100-01-01"
     C: Ericsson AB
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
     P: lfn/odl
-  - T: "2100-01-01"
+  - T: "2020-03-02"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2018-08-07"
+  - T: "2020-03-02"
+    C: Ericsson AB
+    F: "2018-08-07"
     P: lfn/onap
   I:
   - M: Emmett  Cox
@@ -56801,10 +56846,10 @@ P:
   R:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
+    F: "2018-10-24"
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
+    F: "2018-10-24"
     P: lfn/onap
   I:
   - M: Enbo Wang
@@ -57521,12 +57566,12 @@ P:
   U: Enrique Saurez
 - E: enyinna.ochulor!intel.com
   R:
-  - T: "2100-01-01"
+  - T: "2020-03-18"
     C: Intel Corporation
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2019-06-24"
+  - T: "2020-03-18"
     C: Intel Corporation
-    F: "1900-01-01"
+    F: "2020-03-06"
     P: lfn/onap
   I:
   - M: Enyinna Ochulor
@@ -57650,12 +57695,12 @@ P:
   U: Eoin Hanan
 - E: ephraim.martin!ericsson.com
   R:
-  - T: "2100-01-01"
+  - T: "2020-03-06"
     C: Ericsson AB
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2018-09-24"
+  - T: "2020-03-06"
     C: Ericsson AB
-    F: "1900-01-01"
+    F: "2018-09-24"
     P: lfn/onap
   I:
   - M: Ephraim Martin
@@ -58558,9 +58603,9 @@ P:
   U: Eric Cooper
 - E: ecotter!gmail.com
   R:
-  - T: "2100-01-01"
+  - T: "2018-11-05"
     C: Dell
-    F: "1900-01-01"
+    F: "2018-08-30"
   I:
   - M: Eric Cotter
     S: confluence
@@ -59724,13 +59769,13 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
     P: lfn/odl
   - T: "2100-01-01"
     C: Intel Corporation
-    F: "1900-01-01"
+    F: "2017-05-04"
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-05-04"
     P: lfn/onap
   I:
   - M: Eric Multanen
@@ -59917,9 +59962,9 @@ P:
 - C: US
   E: eparis!redhat.com
   R:
-  - T: "2100-01-01"
+  - T: "2016-12-06"
     C: Red Hat Inc.
-    F: "1900-01-01"
+    F: "2016-12-06"
   S: male
   I:
   - E: eparis!redhat.com
@@ -60368,12 +60413,12 @@ P:
   U: Eric Stroczynski
 - E: etroup!microsoft.com
   R:
-  - T: "2100-01-01"
+  - T: "2017-06-23"
     C: Microsoft
-    F: "1900-01-01"
-  - T: "2100-01-01"
+    F: "2017-06-23"
+  - T: "2017-06-23"
     C: Microsoft
-    F: "1900-01-01"
+    F: "2017-06-23"
     P: lfn/onap
   I:
   - M: Eric Troup
@@ -60683,39 +60728,3 @@ P:
     S: git
   B: 0
   U: Eric Wright
-- E: eric.r.wright!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - E: eric.r.wright!intel.com
-    M: eric-r-wright
-    S: git
-  - S: github
-    U: eric-r-wright
-  B: 0
-  U: Eric Wright
-- E: Eric.Yang2!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-  I:
-  - E: Eric.Yang2!amd.com
-    M: Eric Yang
-    S: git
-  B: 0
-  U: Eric Yang
-- E: eric.young!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "1900-01-01"
-  I:
-  - E: eric.young!emc.com
-    M: Eric Young
-    S: slack
-    U: tssgery
-  B: 0
-  U: Eric Young
