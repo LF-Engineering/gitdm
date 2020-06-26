@@ -1,4 +1,48 @@
 P:
+- R:
+  - T: "2014-07-01"
+    C: NOTOCORD
+    F: "1900-01-01"
+  - T: "2015-09-01"
+    C: Independent
+    F: "2014-07-01"
+  - T: "2016-01-01"
+    C: Commanders Act
+    F: "2015-09-01"
+  - T: "2017-01-01"
+    C: École pour l'Informatique et les Techniques Avancées
+    F: "2016-01-01"
+  - T: "2017-08-01"
+    C: CANAL+
+    F: "2017-01-01"
+  - T: "2018-09-01"
+    C: MakeMeReach
+    F: "2017-08-01"
+  - T: "2100-01-01"
+    C: Gymlib
+    F: "2018-09-01"
+  S: male
+  I:
+  - M: Tresarrieu Côme
+    S: github
+    U: Rowern
+  B: 0
+  U: Tresarrieu Côme
+- E: tackerman!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+  I:
+  - E: tackerman!pivotal.io
+    M: Trevor Ackerman
+    S: git
+  - E: tackerman!pivotal.io
+    M: tackerman
+    S: slack
+    U: tackerman
+  B: 0
+  U: Trevor Ackerman
 - C: US
   E: tbramwell!linuxfoundation.org
   R:
@@ -5034,6 +5078,9 @@ P:
   - E: uj426b!att.com
     M: uj426b
     S: git
+  - M: Utkarsh Jauhari
+    S: jira
+    U: uj426b
   - E: uj426b!att.com
     M: Utkarsh Jauhari
     S: jira
@@ -8779,7 +8826,12 @@ P:
     U: vmelnychuk
   B: 0
   U: Vasyl Melnychuk
-- R:
+- E: vasyl.razinkov!est.tech
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: lfn/onap
   - T: "2011-03-01"
     C: Quidgest
     F: "2005-04-01"
@@ -8789,18 +8841,9 @@ P:
   - T: "2015-08-01"
     C: Coriant GMBH
     F: "2013-05-01"
-  I:
-  - M: Vasyl Razinkov
-    S: jira
-    U: razinkov
-  B: 0
-  U: Vasyl Razinkov
-- E: vasyl.razinkov!est.tech
-  R:
   - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: lfn/onap
+    C: Sidero Ltd
+    F: "2015-08-01"
   - T: "2016-08-01"
     C: Ericsson AB
     F: "2015-09-01"
@@ -8845,6 +8888,12 @@ P:
   - E: vasyl.razinkov!est.tech
     M: Vasyl Razinkov
     S: groupsio
+  - M: Vasyl Razinkov
+    S: jira
+    U: razinkov
+  - M: Vasyl Razinkov
+    S: jira
+    U: vasraz
   - E: vasyl.razinkov!est.tech
     M: Vasyl Razinkov
     S: jira
@@ -34105,6 +34154,9 @@ P:
   - E: xg353y!intl.att.com
     M: Xue Gao
     S: groupsio
+  - M: Xue Gao
+    S: jira
+    U: xuegao
   - E: xg353y!intl.att.com
     M: Xue Gao
     S: jira
@@ -43636,6 +43688,12 @@ P:
   - E: yoonsoon.jahng!yoppworks.com
     M: yoonsoonjahng
     S: git
+  - M: Yoonsoon Jahng
+    S: jira
+    U: YoonsoonJahng
+  - M: Yoonsoon Jahng
+    S: jira
+    U: joshj1806
   - E: joshj1806!gmail.com
     M: Yoonsoon Jahng
     S: jira
@@ -45503,6 +45561,9 @@ P:
   - E: dengyuanhong!chinamobile.com
     M: dengyuanhong
     S: groupsio
+  - M: Yuanhong Deng
+    S: jira
+    U: dengyh
   - E: dengyuanhong!chinamobile.com
     M: Yuanhong Deng
     S: jira
@@ -56250,6 +56311,9 @@ P:
   - E: zu.qiang!ericsson.com
     M: zu.qiang
     S: groupsio
+  - M: Zu Qiang (Ericsson)
+    S: jira
+    U: zuqiang
   - E: qiang.zu!gmail.com
     M: Zu Qiang (Ericsson)
     S: jira
@@ -59690,141 +59754,3 @@ P:
     S: git
   B: 0
   U: alejandrox1
-- E: blagic!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: blagic!us.ibm.com
-    M: aleksandra
-    S: slack
-    U: aleksandra
-  B: 0
-  U: aleksandra
-- E: aleksey_gorelov!phoenix.com
-  R:
-  - T: "2100-01-01"
-    C: Phoenix Technologies
-    F: "1900-01-01"
-  I:
-  - E: Aleksey_Gorelov!Phoenix.com
-    M: Aleksey Gorelov
-    S: git
-  - E: aleksey_gorelov!phoenix.com
-    M: aleksey_gorelov
-    S: git
-  B: 0
-  U: aleksey_gorelov
-- E: luay.alem!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "1900-01-01"
-  I:
-  - E: luay.alem!gmail.com
-    S: github
-    U: alemco
-  - E: luay.al-alem!emc.com
-    M: Luay Alem
-    S: slack
-    U: lalem
-  - E: luay.alem!gmail.com
-    M: Luay Alem
-    S: slack
-    U: lalem
-  B: 0
-  U: alemco
-- E: 3762382+potaito!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Yuneec Research
-    F: "1900-01-01"
-  I:
-  - E: 3762382+potaito!users.noreply.github.com
-    M: alessandro
-    S: git
-  B: 0
-  U: alessandro
-- R:
-  - T: "2100-01-01"
-    C: Yuneec Research
-    F: "1900-01-01"
-  I:
-  - M: alessandro
-    S: github
-    U: potaito
-  B: 0
-  U: alessandro
-- E: alessandro!yuneecresearch.com
-  R:
-  - T: "2100-01-01"
-    C: Yuneec Research
-    F: "1900-01-01"
-  I:
-  - E: alessandro!yuneecresearch.com
-    M: alessandro
-    S: git
-  B: 0
-  U: alessandro
-- E: alexandre.levine!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "1900-01-01"
-  I:
-  - E: alexandre.levine!emc.com
-    M: alevine
-    S: slack
-    U: alevine
-  B: 0
-  U: alevine
-- E: alex.chen!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-  I:
-  - E: alex.chen!huawei.com
-    M: alex chen
-    S: git
-  B: 0
-  U: alex chen
-- R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: a.achoi!pivotallabs.com
-    M: Alex Choi, achoi
-    S: git
-  - M: alex choi
-    S: git
-  - E: achoi!pivotallabs.com
-    M: alex choi
-    S: git
-  - E: alexchoi!gmail.com
-    M: alex choi
-    S: git
-  - E: pair+achoi!pivotallabs.com
-    M: alex choi
-    S: git
-  - M: alex choi
-    S: github
-    U: xchoi
-  B: 0
-  U: alex choi
-- E: alexs!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: alexs!us.ibm.com
-    M: alex smith
-    S: groupsio
-  - E: alexs!us.ibm.com
-    M: alex smith
-    S: mbox
-  B: 0
-  U: alex smith

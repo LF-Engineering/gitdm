@@ -1,86 +1,4 @@
 P:
-- E: eric.debeau!orange.com
-  R:
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "1900-01-01"
-    P: lfn/onap
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - M: Eric Debeau
-    S: confluence
-    U: eric.debeau
-  - E: eric.debeau!orange.com
-    M: Eric Debeau
-    S: gerrit
-    U: eric.debeau
-  - E: eric.debeau!orange.com
-    M: Eric Debeau
-    S: git
-  - E: eric.debeau!orange.com
-    M: Eric Debeau
-    S: groupsio
-  - E: eric.debeau!orange.com
-    M: eric.debeau
-    S: groupsio
-  - E: eric.debeau!orange.com
-    M: Eric Debeau
-    S: jira
-    U: eric.debeau
-  - E: eric.debeau!orange.com
-    M: Eric Debeau
-    S: linux-foundation:scr
-    U: eric.debeau
-  - E: eric.debeau!orange.com
-    M: eric.debeau
-    S: pipermail
-  B: 0
-  U: Eric Debeau
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Eric Dobson
-    S: github
-    U: endobson
-  B: 0
-  U: Eric Dobson
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Sixgill
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Eric Drechsel
-    S: github
-    U: edrex
-  B: 0
-  U: Eric Drechsel
-- E: eric.dujardin!sagem.com
-  R:
-  - T: "2100-01-01"
-    C: Sagem
-    F: "1900-01-01"
-  I:
-  - E: eric.dujardin!sagem.com
-    M: Eric Dujardin
-    S: git
-  B: 0
-  U: Eric Dujardin
 - E: dada1!cosmosbay.com
   R:
   - T: "2100-01-01"
@@ -1151,6 +1069,9 @@ P:
   - E: eric.w.multanen!intel.com
     M: Multanen, Eric W
     S: groupsio
+  - M: Eric Multanen
+    S: jira
+    U: ewmulta
   - E: eric.w.multanen!intel.com
     M: Eric Multanen
     S: jira
@@ -13471,6 +13392,9 @@ P:
   - E: fiachra.corcoran!est.tech
     M: Fiachra Corcoran
     S: groupsio
+  - M: Fiachra Corcoran
+    S: jira
+    U: efiacor
   - E: fiachra.corcoran!ericsson.com
     M: Fiachra Corcoran
     S: jira
@@ -37264,8 +37188,48 @@ P:
     S: git
   B: 0
   U: Guangming Wang
-- E: fu.guangrong!zte.com.cn
+- C: US
+  E: fu.guangrong!zte.com.cn
   R:
+  - T: "2016-08-01"
+    C: SelfOptima
+    F: "1900-01-01"
+  - T: "2019-06-02"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: lfn/onap
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "1900-01-01"
+    P: lfn/onap
+  - T: "2100-01-01"
+    C: Dell
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: lfn/odl
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: lfn/onap
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: lfn/opnfv
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+    P: lfn/onap
   - T: "2100-01-01"
     C: ZTE Corporation
     F: "1900-01-01"
@@ -37273,19 +37237,106 @@ P:
     C: ZTE Corporation
     F: "1900-01-01"
     P: lfn/onap
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2016-08-01"
+  - T: "2100-01-01"
+    C: Futurewei
+    F: "2019-06-03"
+  - T: "2100-01-01"
+    C: Futurewei
+    F: "2019-06-03"
+    P: lfn/onap
+  S: male
   I:
+  - M: Borislav Glozman
+    S: confluence
+    U: BorislavG
+  - M: Gary Wu
+    S: confluence
+    U: gwu
   - M: Guangrong Fu
     S: confluence
     U: GuangrongFu
   - M: Guangrong Fu
     S: confluence
     U: fu.guangrong
+  - M: Jeremy Phelps
+    S: confluence
+    U: jeremyphelps
+  - M: Stephen Terrill
+    S: confluence
+    U: auztizza
+  - E: Borislav.Glozman!amdocs.com
+    M: Borislav Glozman
+    S: gerrit
+    U: BorislavG
+  - E: gary.i.wu!huawei.com
+    M: Gary Wu
+    S: gerrit
+  - E: gary.i.wu!huawei.com
+    M: Gary Wu
+    S: gerrit
+    U: gwu
+  - E: gary.wu!futurewei.com
+    M: Gary Wu
+    S: gerrit
+  - E: gary.wu!futurewei.com
+    M: Gary Wu
+    S: gerrit
+    U: gwu
+  - E: gary.wu!gmail.com
+    M: Gary Wu
+    S: gerrit
+  - E: gary.wu!gmail.com
+    M: Gary Wu
+    S: gerrit
+  - E: gary.wu!gmail.com
+    M: Gary Wu
+    S: gerrit
+    U: gwu
+  - E: gwu!futurewei.com
+    M: Gary Wu
+    S: gerrit
+  - E: gwu!futurewei.com
+    M: Gary Wu
+    S: gerrit
+    U: gwu
   - E: fu.guangrong!zte.com.cn
     M: Guangrong Fu
     S: gerrit
     U: GuangrongFu
+  - E: jphelps!linuxfoundation.org
+    M: Jeremy Phelps
+    S: gerrit
+    U: jeremyphelps
+  - E: stephen.terrill!ericsson.com
+    M: Stephen Terrill
+    S: gerrit
+    U: auztizza
+  - E: gary.i.wu!huawei.com
+    M: gwu
+    S: gerrit
   - E: fu.guangrong!zte.com.cn
     M: "10144542"
+    S: git
+  - E: Borislav.Glozman!amdocs.com
+    M: Borislav Glozman
+    S: git
+  - E: Borislav.Glozman!amdocs.com
+    M: BorislavG
+    S: git
+  - E: gary.i.wu!huawei.com
+    M: Gary Wu
+    S: git
+  - E: gary.wu!futurewei.com
+    M: Gary Wu
+    S: git
+  - E: gary.wu!gmail.com
+    M: Gary Wu
+    S: git
+  - E: gwu!futurewei.com
+    M: Gary Wu
     S: git
   - E: fu.guangrong!zte.com.cn
     M: Guangrong Fu
@@ -37293,21 +37344,292 @@ P:
   - E: fu.guangrong!zte.com.cn
     M: GuangrongFu
     S: git
+  - E: iot.engineering!dell.com
+    M: Jeremy Phelps
+    S: git
+  - E: jeremyphelps!linux.com
+    M: Jeremy Phelps
+    S: git
+  - E: jphelps!linuxfoundation.org
+    M: Jeremy Phelps
+    S: git
+  - E: gary.i.wu!huawei.com
+    M: gwu
+    S: git
+  - E: jeremyphelps!linux.com
+    M: Jeremy Phelps
+    S: github
+    U: JPWKU
+  - E: jphelps!linuxfoundation.org
+    M: Jeremy Phelps
+    S: github
+    U: JPWKU
+  - E: phelpsj77!gmail.com
+    M: Jeremy Phelps
+    S: github
+    U: JPWKU
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Alexis de Talhouet  via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Andrew Grimberg via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Anil Belur via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: BENNETT, RICH via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Bengt Thuree via RT
+    S: groupsio
+  - E: onap-helpdesk-comment!rt.linuxfoundation.org
+    M: Bengt Thuree via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Borislav Glozman via RT
+    S: groupsio
+  - E: Borislav.Glozman!amdocs.com
+    M: Borislav Glozman
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Close, Pierre via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: David Stangl via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: FORSYTH, JAMES via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Gary Wu via RT
+    S: groupsio
+  - E: gary.i.wu!huawei.com
+    M: Gary Wu
+    S: groupsio
+  - E: gary.wu!futurewei.com
+    M: Gary Wu
+    S: groupsio
+  - E: gary.wu!gmail.com
+    M: Gary Wu
+    S: groupsio
+  - E: gwu!futurewei.com
+    M: Gary Wu
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Gildas Lanilis via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Guangrong Fu via RT
+    S: groupsio
   - E: fu.guangrong!zte.com.cn
     M: Guangrong Fu
     S: groupsio
   - E: steven20027!gmail.com
     M: Guangrong Fu
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: HANSEN, TONY L via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Jeremy Phelps via RT
+    S: groupsio
+  - E: jphelps!linuxfoundation.org
+    M: Jeremy Phelps
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Jordan Conway via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Kenny Paul via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Keong Lim via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Krzysztof Opasiak via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: LOTT, CHRISTOPHER M (CHRISTOPHER) via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Lefevre, Catherine via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Lusheng Ji via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Michael O'Brien via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Mike Elliott via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: ONAP Helpdesk via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Ozgur via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Pawlak Pawe 3 - Korpo  via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Rob Garth via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Ry Jones via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Sharon Chisholm via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Sonsino, Ofir via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Stephen Terrill via RT
+    S: groupsio
+  - E: stephen.terrill!ericsson.com
+    M: Stephen Terrill
     S: groupsio
   - E: steven20027!gmail.com
     M: Steven Fu
     S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Thomas Nadeau via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Tian Lee via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: VARMA, VIKAS R via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Williams, Marcus via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: aroraarun
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: az9121
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: bf1936
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: bin.yang
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: denghui12
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: dt5972
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: feng.yuanxing
+    S: groupsio
   - E: fu.guangrong!zte.com.cn
     M: fu.guangrong
     S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: fu.guangrong
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: fu.jinhua
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: georab
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: james.macnider
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: kanagaraj.manickam
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: kk707x
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: li.zi30
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: liam.fallon
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: lianhao.lu
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: lxinhui
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: mtnskiier via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: pdragosh
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: rx196w
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: seshu.kumar.m
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: shentao via RT
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: snarayanan
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: su622b
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: sw3588
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: talasila
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: tc012c
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: vg411h
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: victor.gao
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: ying.yunlong
+    S: groupsio
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: zhao.huabing
+    S: groupsio
+  - M: Borislav Glozman
+    S: jira
+    U: BorislavG
+  - E: Borislav.Glozman!amdocs.com
+    M: Borislav Glozman
+    S: jira
+    U: BorislavG
+  - M: Gary Wu
+    S: jira
+    U: gwu
+  - E: gary.i.wu!huawei.com
+    M: Gary Wu
+    S: jira
+    U: gwu
+  - E: gary.wu!futurewei.com
+    M: Gary Wu
+    S: jira
+    U: gwu
+  - E: gwu!futurewei.com
+    M: Gary Wu
+    S: jira
+    U: gwu
   - M: Guangrong Fu
     S: jira
     U: GuangrongFu
+  - M: Guangrong Fu
+    S: jira
+    U: fu.guangrong
   - E: fu.guangrong!zte.com.cn
     M: Guangrong Fu
     S: jira
@@ -37316,16 +37638,188 @@ P:
     M: Guangrong Fu
     S: jira
     U: fu.guangrong
+  - E: jphelps!linuxfoundation.org
+    M: Jeremy Phelps
+    S: jira
+    U: jeremyphelps
+  - M: Stephen Terrill
+    S: jira
+    U: auztizza
+  - E: stephen.terrill!ericsson.com
+    M: Stephen Terrill
+    S: jira
+    U: auztizza
+  - E: gary.i.wu!huawei.com
+    S: onap:manual
+  - E: gary.wu!gmail.com
+    S: onap:manual
+  - M: Gary Wu
+    S: onap:manual
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Alexis de Talhouet  via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Andrew Grimberg via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Anil Belur via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: BENNETT, RICH via RT
+    S: pipermail
+  - E: Borislav.Glozman!amdocs.com
+    M: Borislav Glozman
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Gary Wu via RT
+    S: pipermail
+  - E: gary.i.wu!huawei.com
+    M: Gary Wu
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Gildas Lanilis via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Guangrong Fu via RT
+    S: pipermail
   - E: steven20027!gmail.com
     M: Guangrong Fu
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Jeremy Phelps via RT
+    S: pipermail
+  - E: jphelps!linuxfoundation.org
+    M: Jeremy Phelps
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Jessica Wagantall via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Jordan Conway via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Kenny Paul via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: LOTT, CHRISTOPHER M CHRISTOPHER via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Lusheng Ji via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Michael O'Brien via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Mike Elliott via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: ONAP Helpdesk via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Ozgur via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Ry Jones via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Sonsino, Ofir via RT
+    S: pipermail
+  - E: stephen.terrill!ericsson.com
+    M: Stephen Terrill
     S: pipermail
   - E: steven20027!gmail.com
     M: Steven Fu
     S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Thomas Nadeau via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: Williams, Marcus via RT
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: aroraarun
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: bf1936
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: bin.yang
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: denghui12
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: dt5972
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: feng.yuanxing
+    S: pipermail
   - E: fu.guangrong!zte.com.cn
     M: fu.guangrong
     S: pipermail
-  B: 0
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: fu.guangrong
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: fu.jinhua
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: kanagaraj.manickam
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: kk707x
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: li.zi30
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: lianhao.lu
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: lxinhui
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: pdragosh
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: rx196w
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: seshu.kumar.m
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: su622b
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: sw3588
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: talasila
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: tc012c
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: vg411h
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: victor.gao
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: ying.yunlong
+    S: pipermail
+  - E: onap-helpdesk!rt.linuxfoundation.org
+    M: zhao.huabing
+    S: pipermail
+  - E: jphelps!linuxfoundation.org
+    M: Jeremy Phelps
+    S: slack
+    U: jphelps
+  - E: phelpsj77!gmail.com
+    M: Jeremy Phelps
+    S: slack
+    U: phelpsj77
+  B: 1
   U: Guangrong Fu
 - E: fenggw-fnst!cn.fujitsu.com
   R:
@@ -46989,7 +47483,11 @@ P:
     U: guimin
   B: 0
   U: He Guimin
-- R:
+- E: hekeguang!chinamobile.com
+  R:
+  - T: "2100-01-01"
+    C: China Mobile
+    F: "1900-01-01"
   - T: "2100-01-01"
     C: China Mobile
     F: "1900-01-01"
@@ -46998,14 +47496,6 @@ P:
   - M: He Keguang
     S: confluence
     U: hekeguang
-  B: 0
-  U: He Keguang
-- E: hekeguang!chinamobile.com
-  R:
-  - T: "2100-01-01"
-    C: China Mobile
-    F: "1900-01-01"
-  I:
   - E: hekeguang!chinamobile.com
     M: He Keguang
     S: gerrit
@@ -47016,6 +47506,9 @@ P:
   - E: hekeguang!chinamobile.com
     M: hekeguang
     S: git
+  - M: He Keguang
+    S: jira
+    U: hekeguang
   - E: hekeguang!chinamobile.com
     M: He Keguang
     S: jira
@@ -49879,6 +50372,9 @@ P:
   - E: hp1256!att.com
     M: PATTEN, HERBERT L
     S: groupsio
+  - M: Herb Patten
+    S: jira
+    U: hp1256
   - E: hp1256!att.com
     M: Herb Patten
     S: jira
@@ -55228,6 +55724,9 @@ P:
   - E: denghui12!huawei.com
     M: denghui (L)
     S: groupsio
+  - M: Hui Deng
+    S: jira
+    U: denghui02
   - E: denghui02!hotmail.com
     M: Hui Deng
     S: jira
@@ -59265,779 +59764,3 @@ P:
     S: git
   B: 0
   U: Ignas Bacius
-- C: ES
-  E: nacx!apache.org
-  R:
-  - T: "2100-01-01"
-    C: Apache
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: nacx!apache.org
-    M: Ignasi Barrera
-    S: git
-  B: 0
-  U: Ignasi Barrera
-- C: ES
-  E: ignasi.fosch!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Devex
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: ignasi.fosch!gmail.com
-    M: Ignasi Fosch
-    S: github
-    U: ifosch
-  B: 0
-  U: Ignasi Fosch
-- C: ES
-  R:
-  - T: "2016-11-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Lightbend
-    F: "2016-11-01"
-  S: male
-  I:
-  - M: Ignasi Marimon-Clos
-    S: github
-    U: ignasi35
-  B: 0
-  U: Ignasi Marimon-Clos
-- R:
-  - T: "2014-08-01"
-    C: Boxever
-    F: "1900-01-01"
-  - T: "2018-01-01"
-    C: mAdme
-    F: "2014-08-01"
-  - T: "2018-03-01"
-    C: Independent
-    F: "2018-01-01"
-  - T: "2019-10-01"
-    C: Ammeon
-    F: "2018-03-01"
-  - T: "2100-01-01"
-    C: Bank of America Merrill Lynch
-    F: "2019-10-01"
-  S: male
-  I:
-  - M: Ignat Zapolsky
-    S: github
-    U: iggyzap
-  B: 0
-  U: Ignat Zapolsky
-- E: ijohnson!juniper.net
-  R:
-  - T: "2008-11-01"
-    C: HCL
-    F: "2005-01-01"
-  - T: "2012-06-01"
-    C: Wipro Limited
-    F: "2008-11-01"
-  - T: "2013-03-01"
-    C: Cisco
-    F: "2012-06-01"
-  - T: "2100-01-01"
-    C: Juniper Networks
-    F: "2013-04-01"
-  I:
-  - E: ijohnson!juniper.net
-    M: Ignatious Johnson Christopher
-    S: jira
-    U: ijohnson
-  B: 0
-  U: Ignatious Johnson Christopher
-- E: ibartak!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: PANTHEON.tech s.r.o.
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: ibartak!cisco.com
-    M: Igor Bartak
-    S: gerrit
-  - E: ibartak!cisco.com
-    M: Igor Bartak
-    S: git
-  - E: ibartak!cisco.com
-    M: Igor Bartak
-    S: jira
-    U: ibartak
-  B: 0
-  U: Igor Bartak
-- E: ibazhitov!virtuozzo.com
-  R:
-  - T: "2100-01-01"
-    C: Virtuozzo
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: ibazhitov!virtuozzo.com
-    M: Igor Bazhitov
-    S: git
-  - E: ibazhitov!virtuozzo.com
-    M: Igor Bazhitov
-    S: github
-    U: ibazhitov
-  B: 0
-  U: Igor Bazhitov
-- E: belyi!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: belyi!us.ibm.com
-    M: Igor Belyi
-    S: git
-  B: 0
-  U: Igor Belyi
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Igor Bernstein
-    S: github
-    U: igorbernstein2
-  B: 0
-  U: Igor Bernstein
-- C: US
-  E: igorbernstein!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: igorbernstein!google.com
-    M: Igor Bernstein
-    S: git
-  B: 0
-  U: Igor Bernstein
-- C: US
-  E: igor!rockset.io
-  R:
-  - T: "2100-01-01"
-    C: Rockset
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: igor!rockset.io
-    M: Igor Canadi
-    S: git
-  B: 0
-  U: Igor Canadi
-- C: US
-  E: igor.canadi!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Rockset
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: igor.canadi!gmail.com
-    M: Igor Canadi
-    S: github
-    U: igorcanadi
-  B: 0
-  U: Igor Canadi
-- E: igorch!amazon.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon.com
-    F: "1900-01-01"
-  I:
-  - E: igorch!amazon.com
-    M: Igor Chauskin
-    S: git
-  B: 0
-  U: Igor Chauskin
-- E: igor.druzhinin!citrix.com
-  R:
-  - T: "2100-01-01"
-    C: Citrix
-    F: "1900-01-01"
-  I:
-  - E: igor.druzhinin!citrix.com
-    M: Igor Druzhinin
-    S: git
-  B: 0
-  U: Igor Druzhinin
-- E: igordcard!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-09-01"
-  I:
-  - M: Igor Duarte Cardoso
-    S: confluence
-    U: igordcard
-  - E: igor.duarte.cardoso!intel.com
-    M: Igor Duarte Cardoso
-    S: gerrit
-    U: igordcard
-  - E: igordcard!gmail.com
-    M: Igor Duarte Cardoso
-    S: gerrit
-    U: igordcard
-  - E: igordcard!gmail.com
-    M: Igor D.C
-    S: git
-  - E: igordcard!gmail.com
-    M: Igor DC
-    S: git
-  - M: Igor Duarte Cardoso
-    S: meetup
-    U: "151495732"
-  - E: igor.duarte.cardoso!intel.com
-    M: Duarte Cardoso, Igor
-    S: pipermail
-  B: 0
-  U: Igor Duarte Cardoso
-- E: igor1.dysko!orange.com
-  R:
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - E: igor1.dysko!orange.com
-    M: Igor Dysko
-    S: gerrit
-    U: igor.dysko.orange
-  - E: igor1.dysko!orange.com
-    M: Igor Dysko
-    S: git
-  - E: igor1.dysko!orange.com
-    M: Igor Dysko
-    S: jira
-    U: igor.dysko.orange
-  B: 0
-  U: Igor Dysko
-- E: igor!soramitsu.co.jp
-  R:
-  - T: "2100-01-01"
-    C: Soramitsu
-    F: "1900-01-01"
-  I:
-  - M: Igor Egorov
-    S: confluence
-    U: igor-egorov
-  - E: igor!soramitsu.co.jp
-    M: Igor Egorov
-    S: git
-  - E: igor!soramitsu.co.jp
-    M: Igor Egorov
-    S: github
-    U: igor-egorov
-  - M: Igor Egorov
-    S: jira
-    U: igor-egorov
-  B: 0
-  U: Igor Egorov
-- E: ifed!mail.ru
-  R:
-  - T: "2100-01-01"
-    C: SUSE
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: ifed!mail.ru
-    M: Igor Fedotov
-    S: git
-  B: 0
-  U: Igor Fedotov
-- E: ifedotov!mirantis.com
-  R:
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-  I:
-  - E: ifedotov!mirantis.com
-    M: Igor Fedotov
-    S: git
-  B: 0
-  U: Igor Fedotov
-- E: ifedotov!suse.com
-  R:
-  - T: "2100-01-01"
-    C: SUSE
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: ifedotov!suse.com
-    M: Igor Fedotov
-    S: git
-  B: 0
-  U: Igor Fedotov
-- E: igor.foltin!pantheon.sk
-  R:
-  - T: "2017-10-31"
-    C: Cisco
-    F: "1900-01-01"
-    P: lfn/odl
-  - T: "2100-01-01"
-    C: PANTHEON.tech s.r.o.
-    F: "2017-11-01"
-    P: lfn/odl
-  I:
-  - E: ifoltin!cisco.com
-    M: Igor Foltin
-    S: gerrit
-  - E: ifoltin!cisco.com
-    M: Igor Foltin
-    S: gerrit
-    U: ifoltin
-  - E: igor.foltin!pantheon.sk
-    M: Igor Foltin
-    S: gerrit
-  - E: igor.foltin!pantheon.tech
-    M: Igor Foltin
-    S: gerrit
-    U: ifoltin
-  - E: ifoltin!cisco.com
-    M: Igor Foltin
-    S: git
-  - E: igor.foltin!pantheon.sk
-    M: Igor Foltin
-    S: git
-  - E: igor.foltin!pantheon.tech
-    M: Igor Foltin
-    S: git
-  - E: igor.foltin!pantheon.tech
-    M: Igor Foltin
-    S: jira
-    U: ifoltin
-  - M: Ifoltin
-    S: mediawiki
-    U: Ifoltin
-  - E: ifoltin!cisco.com
-    S: opendaylight:manual
-  - E: igor.foltin!pantheon.tech
-    S: opendaylight:manual
-  - M: Igor Foltin
-    S: opendaylight:manual
-  - E: ifoltin!cisco.com
-    M: Igor Foltin -X ifoltin - PANTHEON TECHNOLOGIES
-    S: pipermail
-  - E: igor.foltin!pantheon.tech
-    M: Igor Foltin
-    S: pipermail
-  - E: ifoltin!cisco.com
-    M: Martin Ciglan -X ifoltin - PANTHEON TECHNOLOGIES
-    S: pipermail
-  B: 0
-  U: Igor Foltin
-- C: DE
-  E: i.galic!brainsware.org
-  R:
-  - T: "2100-01-01"
-    C: brainsware
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: i.galic!brainsware.org
-    M: Igor Galić
-    S: git
-  B: 0
-  U: Igor Galić
-- C: DE
-  E: me+github!igalic.co
-  R:
-  - T: "2100-01-01"
-    C: brainsware
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: me+github!igalic.co
-    M: Igor Galić
-    S: github
-    U: igalic
-  B: 0
-  U: Igor Galić
-- C: BY
-  E: iggerman!yandex.ru
-  R:
-  - T: "2015-12-01"
-    C: ITM House
-    F: "1900-01-01"
-  - T: "2018-12-01"
-    C: Onliner.by
-    F: "2015-12-01"
-  - T: "2019-07-01"
-    C: Synesis
-    F: "2018-12-01"
-  - T: "2100-01-01"
-    C: Synesis
-    F: "2018-12-01"
-  - T: "2100-01-01"
-    C: SoftSwiss
-    F: "2019-07-01"
-  S: male
-  I:
-  - E: iggerman!yandex.ru
-    M: Igor German
-    S: git
-  - E: iggerman!yandex.ru
-    M: Igor German
-    S: github
-    U: namreg
-  B: 0
-  U: Igor German
-- C: BY
-  E: igor.german!synesis.ru
-  R:
-  - T: "2015-12-01"
-    C: ITM House
-    F: "1900-01-01"
-  - T: "2018-12-01"
-    C: Onliner.by
-    F: "2015-12-01"
-  - T: "2019-07-01"
-    C: Synesis
-    F: "2018-12-01"
-  - T: "2100-01-01"
-    C: Synesis
-    F: "2018-12-01"
-  - T: "2100-01-01"
-    C: SoftSwiss
-    F: "2019-07-01"
-  S: male
-  I:
-  - E: igor.german!synesis.ru
-    M: Igor German
-    S: git
-  B: 0
-  U: Igor German
-- C: CZ
-  E: i.gnatenko.brain!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: i.gnatenko.brain!gmail.com
-    M: Igor Gnatenko
-    S: pipermail
-  B: 0
-  U: Igor Gnatenko
-- E: ig6133!intl.att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - E: ig6133!intl.att.com
-    M: Igor Gnatyuk
-    S: gerrit
-    U: ig6133
-  - E: ig6133!intl.att.com
-    M: ig6133
-    S: git
-  B: 0
-  U: Igor Gnatyuk
-- E: grinberg!compulab.co.il
-  R:
-  - T: "2100-01-01"
-    C: CompuLab
-    F: "1900-01-01"
-  I:
-  - E: grinberg!compulab.co.il
-    M: Igor Grinberg
-    S: git
-  - E: grinberg!compulab.co.il
-    M: Igor Grinberg
-    S: groupsio
-  - E: grinberg!compulab.co.il
-    M: Igor Grinberg
-    S: pipermail
-  B: 0
-  U: Igor Grinberg
-- C: RU
-  E: 35843703+ppcololo!users.noreply.github.com
-  R:
-  - T: "2017-05-01"
-    C: MegaLabs
-    F: "1900-01-01"
-  - T: "2018-03-01"
-    C: НИСПАО
-    F: "2017-05-01"
-  - T: "2018-08-01"
-    C: Luxoft
-    F: "2018-03-01"
-  - T: "2019-04-01"
-    C: Лига Ставок
-    F: "2018-08-01"
-  - T: "2019-12-01"
-    C: EPAM
-    F: "2019-04-01"
-  - T: "2020-02-01"
-    C: Clearscale
-    F: "2019-12-01"
-  - T: "2100-01-01"
-    C: Tipico
-    F: "2020-02-01"
-  S: male
-  I:
-  - E: 35843703+ppcololo!users.noreply.github.com
-    M: Igor Ivanov
-    S: git
-  B: 0
-  U: Igor Ivanov
-- C: RU
-  R:
-  - T: "2017-05-01"
-    C: MegaLabs
-    F: "1900-01-01"
-  - T: "2018-03-01"
-    C: НИСПАО
-    F: "2017-05-01"
-  - T: "2018-08-01"
-    C: Luxoft
-    F: "2018-03-01"
-  - T: "2019-04-01"
-    C: Лига Ставок
-    F: "2018-08-01"
-  - T: "2019-12-01"
-    C: EPAM
-    F: "2019-04-01"
-  - T: "2020-02-01"
-    C: Clearscale
-    F: "2019-12-01"
-  - T: "2100-01-01"
-    C: Tipico
-    F: "2020-02-01"
-  S: male
-  I:
-  - M: Igor Ivanov
-    S: github
-    U: ppcololo
-  B: 0
-  U: Igor Ivanov
-- E: ikalnitsky!mirantis.com
-  R:
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - E: ikalnitsky!mirantis.com
-    M: Igor Kalnitsky
-    S: gmane
-  - E: ikalnitsky!mirantis.com
-    M: Igor Kalnitsky
-    S: groupsio
-  - E: ikalnitsky!mirantis.com
-    M: Igor Kalnitsky
-    S: linux-foundation:mls
-    U: ikalnitsky
-  - E: ikalnitsky!mirantis.com
-    M: Igor Kalnitsky
-    S: mbox
-  - E: ikalnitsky!mirantis.com
-    M: Igor Kalnitsky
-    S: pipermail
-  B: 0
-  U: Igor Kalnitsky
-- C: DE
-  E: ikarpukh!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: ikarpukh!redhat.com
-    M: Igor Karpukhin
-    S: github
-    U: igor-karpukhin
-  B: 0
-  U: Igor Karpukhin
-- R:
-  - T: "2100-01-01"
-    C: TripTravel
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Igor Katson
-    S: github
-    U: ikatson
-  B: 0
-  U: Igor Katson
-- E: igor.katson!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: TripTravel
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: igor.katson!gmail.com
-    M: Igor Katson
-    S: git
-  - E: igor.katson!gmail.com
-    M: Igor Katson
-    S: slack
-    U: igor.katson
-  B: 0
-  U: Igor Katson
-- E: igor.kazmyr!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom
-    F: "1900-01-01"
-  I:
-  - M: Igor Kazmyr
-    S: confluence
-    U: igorkazmyr
-  - E: 43951184+IgorCATech!users.noreply.github.com
-    M: Igor Kazmyr
-    S: git
-  - E: igor.kazmyr!broadcom.com
-    M: Igor Kazmyr
-    S: git
-  - E: 43951184+IgorCATech!users.noreply.github.com
-    M: IgorCATech
-    S: git
-  - M: Igor Kazmyr
-    S: github
-    U: IgorCATech
-  - E: igor.kazmyr!broadcom.com
-    M: Igor Kazmyr
-    S: slack
-    U: igor.kazmyr271
-  B: 0
-  U: Igor Kazmyr
-- E: igork!elbrys.com
-  R:
-  - T: "2100-01-01"
-    C: Elbrys Networks
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: igork!elbrys.com
-    M: Igor Kondrakhin
-    S: jira
-    U: igork
-  - E: igork!elbrys.com
-    M: Igor Kondrakhin
-    S: pipermail
-  B: 0
-  U: Igor Kondrakhin
-- C: PL
-  E: igor.j.konopko!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: igor.j.konopko!intel.com
-    M: Igor Konopko
-    S: git
-  B: 0
-  U: Igor Konopko
-- E: igor.korsun!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Oberthur Technologies
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: igor.korsun!gmail.com
-    M: Igor Korsun
-    S: git
-  B: 0
-  U: Igor Korsun
-- C: BR
-  E: igorvpcleao!gmail.com
-  R:
-  - T: "2017-01-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2018-03-01"
-    C: Inloco
-    F: "2017-01-01"
-  - T: "2018-10-01"
-    C: TFG Co
-    F: "2018-03-01"
-  - T: "2100-01-01"
-    C: Lucidity
-    F: "2018-10-01"
-  S: male
-  I:
-  - E: igorvpcleao!gmail.com
-    M: Igor Leão
-    S: github
-    U: igorvpcleao
-  B: 0
-  U: Igor Leão
-- E: ilubashe!akamai.com
-  R:
-  - T: "2100-01-01"
-    C: Akamai Technologies
-    F: "1900-01-01"
-  I:
-  - E: ilubashe!akamai.com
-    M: Igor Lubashev
-    S: git
-  B: 0
-  U: Igor Lubashev
-- E: imammedo!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-  I:
-  - E: imammedo!redhat.com
-    M: Igor Mammedov
-    S: git
-  B: 0
-  U: Igor Mammedov
-- E: igor.marty!fr.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: lfn/odl
-  I:
-  - E: igor.marty!fr.ibm.com
-    M: Igor Marty1
-    S: pipermail
-  B: 0
-  U: Igor Marty1
-- E: imihalik!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: imihalik!pivotal.io
-    M: Igor Mihalik
-    S: slack
-    U: imihalik
-  B: 0
-  U: Igor Mihalik
