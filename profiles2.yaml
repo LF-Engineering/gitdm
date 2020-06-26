@@ -1,4 +1,158 @@
 P:
+- R:
+  - T: "2018-01-01"
+    C: Shape
+    F: "1900-01-01"
+  - T: "2018-10-01"
+    C: Independent
+    F: "2018-01-01"
+  - T: "2100-01-01"
+    C: Hyperjump
+    F: "2018-10-01"
+  S: male
+  I:
+  - M: Ariya Hidayat
+    S: github
+    U: ariya
+  B: 0
+  U: Ariya Hidayat
+- E: ariya.hidayat!gmail.com
+  R:
+  - T: "2018-01-01"
+    C: Shape
+    F: "1900-01-01"
+  - T: "2018-10-01"
+    C: Independent
+    F: "2018-01-01"
+  - T: "2100-01-01"
+    C: Hyperjump
+    F: "2018-10-01"
+  S: male
+  I:
+  - E: ariya.hidayat!gmail.com
+    M: Ariya Hidayat
+    S: git
+  B: 0
+  U: Ariya Hidayat
+- C: NL
+  E: gaphor!gmail.com
+  R:
+  - T: "2016-02-01"
+    C: XebiaLabs
+    F: "1900-01-01"
+  - T: "2018-02-01"
+    C: wehkamp
+    F: "2016-02-01"
+  - T: "2100-01-01"
+    C: Royal FloraHolland
+    F: "2018-02-01"
+  S: male
+  I:
+  - E: gaphor!gmail.com
+    M: Arjan Molenaar
+    S: git
+  B: 0
+  U: Arjan Molenaar
+- C: NL
+  E: arjan.schaaf!luminis.eu
+  R:
+  - T: "2100-01-01"
+    C: Luminis
+    F: "1900-01-01"
+  I:
+  - E: arjan.schaaf!luminis.eu
+    M: Arjan Schaaf
+    S: git
+  B: 0
+  U: Arjan Schaaf
+- C: US
+  E: arjan!linux.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: arjan!linux.intel.com
+    M: Arjan van de Ven
+    S: git
+  - E: arjan!linux.intel.com
+    M: Arjan van dev Ven
+    S: git
+  B: 0
+  U: Arjan van dev Ven
+- C: NL
+  E: arjo!weirdwater.net
+  R:
+  - T: "2014-08-01"
+    C: PromoHolland
+    F: "1900-01-01"
+  - T: "2016-08-01"
+    C: Independent
+    F: "2014-08-01"
+  - T: "2017-01-01"
+    C: Sherecare
+    F: "2016-08-01"
+  - T: "2017-10-01"
+    C: ViaTim
+    F: "2017-01-01"
+  - T: "2100-01-01"
+    C: Hoppinger
+    F: "2017-10-01"
+  S: male
+  I:
+  - E: arjo!weirdwater.net
+    M: Arjo Bruijnes
+    S: git
+  B: 0
+  U: Arjo Bruijnes
+- E: arjun.manigupta!fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: lfn/onap
+  I:
+  - E: arjun.manigupta!fujitsu.com
+    M: Arjun M Gupta
+    S: gerrit
+  - E: arjun.manigupta!fujitsu.com
+    M: Arjun M Gupta
+    S: git
+  B: 0
+  U: Arjun M Gupta
+- E: arjun.manigupta!us.fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: lfn/onap
+  I:
+  - E: arjun.manigupta!us.fujitsu.com
+    M: Arjun M Gupta
+    S: gerrit
+    U: arjunmgupta
+  - E: arjun.manigupta!us.fujitsu.com
+    M: Arjun M Gupta
+    S: git
+  - E: arjun.manigupta!us.fujitsu.com
+    M: Arjun M Gupta
+    S: jira
+    U: arjunmgupta
+  B: 0
+  U: Arjun M Gupta
+- C: DE
+  E: arjun.rn!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Zalando
+    F: "1900-01-01"
+  I:
+  - E: arjun.rn!gmail.com
+    M: Arjun Naik
+    S: git
+  B: 0
+  U: Arjun Naik
 - E: arjun.raghavan.2k!gmail.com
   R:
   - T: "2100-01-01"
@@ -13005,23 +13159,19 @@ P:
     S: git
   B: 0
   U: Bartosz Folta
-- R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - M: Bartosz Gardziejewski
-    S: confluence
-    U: BartoszG
-  B: 0
-  U: Bartosz Gardziejewski
 - E: bartosz.gardziejewski!nokia.com
   R:
   - T: "2100-01-01"
     C: Nokia Corporation
     F: "1900-01-01"
+    P: lfn/onap
+  - T: "2018-09-01"
+    C: Volvo
+    F: "2018-07-01"
   I:
+  - M: Bartosz Gardziejewski
+    S: confluence
+    U: BartoszG
   - E: bartosz.gardziejewski!nokia.com
     M: Bartosz Gardziejewski
     S: gerrit
@@ -13029,6 +13179,9 @@ P:
   - E: bartosz.gardziejewski!nokia.com
     M: Bartosz Gardziejewski
     S: git
+  - M: Bartosz Gardziejewski
+    S: jira
+    U: BartoszG
   - E: bartosz.gardziejewski!nokia.com
     M: Bartosz Gardziejewski
     S: jira
@@ -27075,6 +27228,9 @@ P:
   - E: Borislav.Glozman!amdocs.com
     M: Borislav Glozman
     S: groupsio
+  - M: Borislav Glozman
+    S: jira
+    U: BorislavG
   - E: Borislav.Glozman!amdocs.com
     M: Borislav Glozman
     S: jira
@@ -53435,6 +53591,21 @@ P:
     C: Ciena
     F: "1900-01-01"
     P: lfn/onap
+  - T: "2000-10-01"
+    C: IGT
+    F: "1996-10-01"
+  - T: "2005-05-01"
+    C: Mahi Networks
+    F: "2000-10-01"
+  - T: "2007-03-01"
+    C: Tellabs
+    F: "2005-05-01"
+  - T: "2015-08-01"
+    C: Cyan
+    F: "2007-03-01"
+  - T: "2100-01-01"
+    C: Carium
+    F: "2018-04-01"
   I:
   - M: Chris Ramstad
     S: confluence
@@ -59642,176 +59813,3 @@ P:
     U: cvanderschuere
   B: 0
   U: Christopher Vanderschuere
-- E: christopher.vanderschuere!gmail.com
-  R:
-  - T: "2015-10-01"
-    C: Sosh
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: postmates
-    F: "2015-10-01"
-  S: male
-  I:
-  - E: christopher.vanderschuere!gmail.com
-    M: Christopher Vanderschuere
-    S: git
-  B: 0
-  U: Christopher Vanderschuere
-- C: US
-  E: christophernathanielwalker!gmail.com
-  R:
-  - T: "2016-06-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2016-08-01"
-    C: Eventbrite
-    F: "2016-06-01"
-  - T: "2017-06-01"
-    C: Independent
-    F: "2016-08-01"
-  - T: "2017-09-01"
-    C: Box
-    F: "2017-06-01"
-  - T: "2018-03-01"
-    C: Independent
-    F: "2017-09-01"
-  - T: "2100-01-01"
-    C: Forward
-    F: "2018-03-01"
-  S: male
-  I:
-  - E: christophernathanielwalker!gmail.com
-    M: Christopher Walker
-    S: github
-    U: cnwalker
-  B: 0
-  U: Christopher Walker
-- R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Christopher Warrington
-    S: github
-    U: chwarr
-  B: 0
-  U: Christopher Warrington
-- C: US
-  E: christopher.watford!ge.com
-  R:
-  - T: "2100-01-01"
-    C: Global Nuclear Fuel - Americas
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: christopher.watford!ge.com
-    M: Christopher Watford
-    S: git
-  - E: christopher.watford!ge.com
-    M: Christopher Watford
-    S: github
-    U: watfordgnf
-  B: 0
-  U: Christopher Watford
-- C: US
-  E: christopher.watford!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Global Nuclear Fuel
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: christopher.watford!gmail.com
-    M: Christopher Watford
-    S: git
-  - E: christopher.watford!gmail.com
-    M: Christopher Watford
-    S: github
-    U: sixlettervariables
-  B: 0
-  U: Christopher Watford
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Christopher Wilcox
-    S: github
-    U: crwilcox
-  B: 0
-  U: Christopher Wilcox
-- E: cwong!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: cwong!pivotal.io
-    M: Christopher Wong
-    S: github
-    U: Pivotal-Christopher-Wong
-  - E: cwong!pivotal.io
-    M: Christopher Wong
-    S: slack
-    U: cwong
-  B: 0
-  U: Christopher Wong
-- E: christopher.wright!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom
-    F: "1900-01-01"
-  I:
-  - E: 37381232+AHumanFromCA!users.noreply.github.com
-    M: Christopher Wright
-    S: git
-  - E: christopher.wright!broadcom.com
-    M: Christopher Wright
-    S: git
-  - E: Christopher.Wright!ca.com
-    M: Wright, Christopher R
-    S: git
-  - E: christopher.wright!broadcom.com
-    M: Wright, Christopher R
-    S: git
-  - M: Christopher Wright
-    S: github
-    U: CoderCoco
-  - E: christopher.wright!broadcom.com
-    M: Christopher Wright
-    S: github
-    U: AHumanFromCA
-  B: 0
-  U: Christopher Wright
-- R:
-  - T: "2017-02-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Nordic Semiconductor
-    F: "2017-02-01"
-  S: male
-  I:
-  - M: Christopher
-    S: github
-    U: metc
-  B: 0
-  U: Christopher
-- C: US
-  R:
-  - T: "2017-10-01"
-    C: Apcera
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Reside Real Estate
-    F: "2017-10-01"
-  S: male
-  I:
-  - M: Christopher
-    S: github
-    U: chriscasper
-  B: 0
-  U: Christopher
