@@ -1,4 +1,26 @@
 P:
+- C: IN
+  R:
+  - T: "2100-01-01"
+    C: Infosys
+    F: "1900-01-01"
+  I:
+  - S: github
+    U: ramnar
+  B: 0
+  U: ramnar
+- C: IN
+  E: ramanarayana_m!infosys.com
+  R:
+  - T: "2100-01-01"
+    C: Infosys
+    F: "1900-01-01"
+  I:
+  - E: ramanarayana_m!infosys.com
+    M: ramnar
+    S: git
+  B: 0
+  U: ramnar
 - E: rp5662!att.com
   R:
   - T: "2100-01-01"
@@ -11093,6 +11115,9 @@ P:
   - E: ssmith!iol.unh.edu
     M: ssmith
     S: git
+  - E: ssmith!iol.unh.edu
+    M: ssmith
+    S: groupsio
   - M: Sean Smith
     S: jira
     U: ssmith

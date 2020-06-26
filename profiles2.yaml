@@ -1,4 +1,42 @@
 P:
+- E: arista-openstack-test!aristanetworks.com
+  R:
+  - T: "2100-01-01"
+    C: Arista Networks
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Arista Networks
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - E: arista-openstack-test!aristanetworks.com
+    M: Arista CI
+    S: gerrit
+    U: arista-test
+  B: 0
+  U: Arista CI
+- E: arozansk!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+  I:
+  - E: arozansk!redhat.com
+    M: Aristeu Rozanski
+    S: git
+  B: 0
+  U: Aristeu Rozanski
+- E: aris!conectiva.com.br
+  R:
+  - T: "2100-01-01"
+    C: Conectiva, Inc.
+    F: "1900-01-01"
+  I:
+  - E: aris!conectiva.com.br
+    M: Aristeu Sergio Rozanski Filho
+    S: git
+  B: 0
+  U: Aristeu Sergio Rozanski Filho
 - E: aristoteles.neto!webdrive.co.nz
   R:
   - T: "2100-01-01"
@@ -26676,7 +26714,7 @@ P:
     C: Power Media S.A.
     F: "2006-09-01"
   - T: "2100-01-01"
-    C: Nokia
+    C: Nokia Corporation
     F: "2018-05-01"
   I:
   - M: Bogumil Zebek
@@ -59782,48 +59820,3 @@ P:
     U: cnwalker
   B: 0
   U: Christopher Walker
-- R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Christopher Warrington
-    S: github
-    U: chwarr
-  B: 0
-  U: Christopher Warrington
-- C: US
-  E: christopher.watford!ge.com
-  R:
-  - T: "2100-01-01"
-    C: Global Nuclear Fuel - Americas
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: christopher.watford!ge.com
-    M: Christopher Watford
-    S: git
-  - E: christopher.watford!ge.com
-    M: Christopher Watford
-    S: github
-    U: watfordgnf
-  B: 0
-  U: Christopher Watford
-- C: US
-  E: christopher.watford!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Global Nuclear Fuel
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: christopher.watford!gmail.com
-    M: Christopher Watford
-    S: git
-  - E: christopher.watford!gmail.com
-    M: Christopher Watford
-    S: github
-    U: sixlettervariables
-  B: 0
-  U: Christopher Watford
