@@ -1,4 +1,85 @@
 P:
+- C: UA
+  R:
+  - T: "2016-06-01"
+    C: Ciklum
+    F: "1900-01-01"
+  - T: "2018-05-01"
+    C: Sigma IT
+    F: "2016-06-01"
+  - T: "2019-09-01"
+    C: Platform Team
+    F: "2018-05-01"
+  - T: "2020-05-01"
+    C: Ajax S
+    F: "2019-09-01"
+  - T: "2100-01-01"
+    C: Independent
+    F: "2020-05-01"
+  S: male
+  I:
+  - M: Ievgen Kolomiiets
+    S: github
+    U: ievgen-kolomiiets
+  B: 0
+  U: Ievgen Kolomiiets
+- E: ifat.afek!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - M: Ifat Afek
+    S: confluence
+    U: ifatafek
+  - E: ifat.afek!nokia.com
+    M: Ifat Afek
+    S: gerrit
+    U: ifatafek
+  - E: ifatafek!Ifats-MacBook-Pro.local
+    M: Ifat Afek
+    S: gerrit
+  - E: ifatafek!Ifats-MacBook-Pro.local
+    M: Ifat Afek
+    S: gerrit
+  - E: ifat.afek!nokia.com
+    M: Ifat Afek
+    S: git
+  - E: ifat.afek!nokia.com
+    M: Afek, Ifat (Nokia - IL/Kfar Sava)
+    S: groupsio
+  - E: ifat.afek!nokia.com
+    M: Ifat Afek
+    S: jira
+    U: ifatafek
+  - E: ifat.afek!nokia.com
+    M: Ifat Afek
+    S: linux-foundation:scr
+    U: ifatafek
+  - E: ifat.afek!nokia.com
+    M: Afek, Ifat Nokia - IL/Kfar Sava
+    S: pipermail
+  B: 0
+  U: Ifat Afek
+- E: ife.runsewe!engineerbetter.com
+  R:
+  - T: "2100-01-01"
+    C: Engineer Better
+    F: "1900-01-01"
+  I:
+  - E: ife.runsewe!engineerbetter.com
+    M: Ife Runsewe
+    S: git
+  - E: ife.runsewe!engineerbetter.com
+    M: Ife Runsewe
+    S: slack
+    U: ife.runsewe
+  B: 0
+  U: Ife Runsewe
 - E: iftachsc!cloudzone.io
   R:
   - T: "2016-12-01"
@@ -25913,6 +25994,27 @@ P:
     S: pipermail
   B: 0
   U: Jay Rolette
+- E: jay!lilac.cloud
+  R:
+  - T: "2014-04-01"
+    C: Cisco Systems Inc.
+    F: "2000-04-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2017-08-01"
+    C: Akamai Technologies
+    F: "2014-07-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2100-01-01"
+    C: Lilac Cloud
+    F: "2017-09-01"
+    P: lfedge/akraino-edge-stack
+  I:
+  - E: jay!lilac.cloud
+    M: Jay Shah
+    S: slack
+    U: jay
+  B: 0
+  U: Jay Shah
 - C: IN
   E: jaysharma391!gmail.com
   R:
@@ -36382,6 +36484,9 @@ P:
     C: Futurewei
     F: "1901-01-01"
   I:
+  - M: Jiafeng Zhu
+    S: confluence
+    U: JiafengZhu
   - E: jiafeng.zhu!futurewei.com
     M: Jiafeng Zhu
     S: slack
@@ -60624,78 +60729,3 @@ P:
     U: zquestz
   B: 0
   U: Josh Ellithorpe
-- E: jfarwell!linuxfoundation.org
-  R:
-  - T: "2100-01-01"
-    C: Linux Foundation
-    F: "1900-01-01"
-  I:
-  - E: jfarwell!linuxfoundation.org
-    M: Josh Farwell
-    S: groupsio
-  - E: jfarwell!linuxfoundation.org
-    M: Josh Farwell
-    S: mbox
-  B: 0
-  U: Josh Farwell
-- C: GH
-  E: jfreda!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Hashicorp
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jfreda!users.noreply.github.com
-    M: Josh Freda
-    S: git
-  B: 0
-  U: Josh Freda
-- E: josh.fuerst!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "1900-01-01"
-  I:
-  - E: josh.fuerst!ge.com
-    M: Josh Fuerst
-    S: slack
-    U: josh.fuerst
-  B: 0
-  U: Josh Fuerst
-- C: US
-  E: josh!jmgao.dev
-  R:
-  - T: "2015-07-01"
-    C: MobileIron
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Google
-    F: "2015-07-01"
-  S: male
-  I:
-  - E: josh!jmgao.dev
-    M: Josh Gao
-    S: git
-  - E: josh!jmgao.dev
-    M: Josh Gao
-    S: github
-    U: jmgao
-  - E: josh!jmgao.dev
-    M: Josh Gao
-    S: slack
-    U: josh
-  B: 0
-  U: Josh Gao
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Microsoft
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Josh Gavant
-    S: github
-    U: joshgav
-  B: 0
-  U: Josh Gavant
