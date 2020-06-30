@@ -7337,10 +7337,19 @@ P:
     F: "1900-01-01"
     P: lfn/opnfv
   I:
+  - E: baigk!baigk.local
+    M: baigk
+    S: gerrit
+  - E: baigk!baigk.local
+    M: baigk
+    S: gerrit
   - E: baiguoku!huawei.com
     M: baigk
     S: gerrit
     U: baigk
+  - E: baigk!baigk.local
+    M: baigk
+    S: git
   - E: baiguoku!huawei.com
     M: baigk
     S: git
@@ -7350,14 +7359,26 @@ P:
   - E: baiguoku!huawei.com
     M: Baiguoku
     S: groupsio
+  - M: baigk
+    S: jira
+    U: baigk
   - E: baiguoku!huawei.com
     M: baigk
     S: jira
+    U: baigk
+  - S: linux-foundation:irc
+    U: baigk
+  - E: None
+    M: None
+    S: linux-foundation:its
     U: baigk
   - E: baiguoku!huawei.com
     M: Baiguoku
     S: linux-foundation:mls
     U: baiguoku
+  - E: baigk!baigk.local
+    M: baigk
+    S: linux-foundation:scm
   - E: baiguoku!huawei.com
     M: baigk
     S: linux-foundation:scm
@@ -7371,6 +7392,12 @@ P:
   - E: baiguoku!huawei.com
     M: Baiguoku
     S: pipermail
+  - M: baigk1
+    S: supybot
+    U: baigk1
+  - M: baigk
+    S: supybot
+    U: baigk
   B: 0
   U: baigk
 - E: bailey.jones!ibm.com
@@ -18407,35 +18434,6 @@ P:
     U: dekt
   B: 0
   U: dekt
-- E: delia.popescu!enea.com
-  R:
-  - T: "2100-01-01"
-    C: ENEA AB
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: ENEA AB
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - M: Delia Popescu
-    S: confluence
-    U: depo
-  - E: delia.popescu!enea.com
-    M: Delia Popescu
-    S: gerrit
-    U: depo
-  - E: delia.popescu!enea.com
-    M: Delia Popescu
-    S: git
-  - E: delia.popescu!enea.com
-    M: deliamadalina
-    S: git
-  - E: delia.popescu!enea.com
-    M: Delia Popescu
-    S: jira
-    U: depo
-  B: 0
-  U: deliamadalina
 - C: DK
   R:
   - T: "2100-01-01"
@@ -28816,6 +28814,9 @@ P:
   - E: hb755d!att.com
     M: hb755d
     S: groupsio
+  - M: Hagop Bozawglanian
+    S: jira
+    U: hb755d
   - E: hb755d!att.com
     M: Hagop Bozawglanian
     S: jira
@@ -30855,6 +30856,12 @@ P:
   - E: hongbo.tianhongbo!huawei.com
     M: Tianhongbo
     S: groupsio
+  - M: hongbo tian
+    S: jira
+    U: gogokmod
+  - M: hongbo tian
+    S: jira
+    U: hongbotian
   - E: gogokmod!qq.com
     M: hongbo tian
     S: jira
@@ -31362,58 +31369,6 @@ P:
     S: git
   B: 0
   U: huangjiuyuan
-- E: huangxiangyu5!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - M: Harry Huang
-    S: confluence
-    U: huangxiangyu
-  - E: huangxiangyu5!huawei.com
-    M: Harry Huang
-    S: gerrit
-    U: huangxiangyu
-  - E: huangxiangyu5!huawei.com
-    M: Herry Huang
-    S: gerrit
-    U: huangxiangyu
-  - E: huangxiangyu5!huawei.com
-    M: Harry Huang
-    S: git
-  - E: huangxiangyu5!huawei.com
-    M: Harry
-    S: git
-  - E: huangxiangyu5!huawei.com
-    M: Herry Huang
-    S: git
-  - E: huangxiangyu5!huawei.com
-    M: huangxiangyu
-    S: git
-  - E: huangxiangyu5!huawei.com
-    M: harry huang
-    S: groupsio
-  - E: huangxiangyu5!huawei.com
-    M: huangxiangyu
-    S: groupsio
-  - E: huangxiangyu5!huawei.com
-    M: Harry Huang
-    S: jira
-    U: huangxiangyu
-  - E: huangxiangyu5!huawei.com
-    M: Herry Huang
-    S: jira
-    U: huangxiangyu
-  - E: huangxiangyu5!huawei.com
-    M: huangxiangyu
-    S: pipermail
-  B: 0
-  U: huangxiangyu
 - C: CN
   E: huangyuqi!huawei.com
   R:
@@ -62692,3 +62647,54 @@ P:
     U: pravarag
   B: 0
   U: pravarag
+- E: praveen.muthusamy!in.bosch.com
+  R:
+  - T: "2100-01-01"
+    C: Bosch
+    F: "1900-01-01"
+  I:
+  - E: praveen.muthusamy!in.bosch.com
+    S: bugzilla
+    U: praveen.muthusamy
+  - E: praveen.muthusamy!in.bosch.com
+    M: Praveen Muthusamy
+    S: bugzilla
+    U: praveen.muthusamy
+  B: 0
+  U: praveen.muthusamy
+- E: tukaram.ronge!capgemini.com
+  R:
+  - T: "2100-01-01"
+    C: Capgemini Consulting
+    F: "1900-01-01"
+  I:
+  - E: tukaram.ronge!capgemini.com
+    M: pravin-ronge
+    S: slack
+    U: pravin-ronge
+  B: 0
+  U: pravin-ronge
+- E: pravinkumar.ruppadamodaran2!wipro.com
+  R:
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: pravinkumar.ruppadamodaran2!wipro.com
+    M: pravinkumar.ruppadamodaran2
+    S: pipermail
+  B: 0
+  U: pravinkumar.ruppadamodaran2
+- E: preeti.apshinge!capgemini.com
+  R:
+  - T: "2100-01-01"
+    C: Capgemini Consulting
+    F: "1900-01-01"
+  I:
+  - E: preeti.apshinge!capgemini.com
+    M: preetiapshinge
+    S: slack
+    U: preetiapshinge
+  B: 0
+  U: preetiapshinge
