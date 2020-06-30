@@ -1,4 +1,101 @@
 P:
+- C: GB
+  E: shaun!freeformers.com
+  R:
+  - T: "2100-01-01"
+    C: Freeformers
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: shaun!freeformers.com
+    M: Shaun Stanworth
+    S: git
+  B: 0
+  U: Shaun Stanworth
+- C: US
+  E: shaun!tancheff.com
+  R:
+  - T: "2100-01-01"
+    C: AEON
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: shaun!tancheff.com
+    M: Shaun Tancheff
+    S: git
+  B: 0
+  U: Shaun Tancheff
+- E: wackerly!hp.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: wackerly!hp.com
+    M: Shaun Wackerly
+    S: gerrit
+    U: wackerly
+  - E: wackerly!hp.com
+    M: Shaun Wackerly
+    S: git
+  - E: wackerly!hp.com
+    M: Wackerly, Shaun
+    S: pipermail
+  B: 0
+  U: Shaun Wackerly
+- E: shaunmansell!users.noreply.github.com
+  R:
+  - T: "2018-05-01"
+    C: Retriever Communications
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: SafetyCulture
+    F: "2018-05-01"
+  S: male
+  I:
+  - E: shaunmansell!users.noreply.github.com
+    M: Shaun
+    S: git
+  B: 0
+  U: Shaun
+- C: CN
+  E: xxhe!alauda.io
+  R:
+  - T: "2100-01-01"
+    C: Alauda
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: xxhe!alauda.io
+    M: He Xiaoxi
+    S: git
+  - E: xxhe!alauda.io
+    M: Shaw Ho
+    S: git
+  - E: xxhe!alauda.io
+    M: Xiaoxi He
+    S: git
+  - E: xxhe!alauda.io
+    M: Shaw Ho
+    S: github
+    U: tossmilestone
+  B: 0
+  U: Shaw Ho
+- C: US
+  E: shawn.allen!github.com
+  R:
+  - T: "2100-01-01"
+    C: Github
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: shawn.allen!github.com
+    M: Shawn Allen
+    S: github
+    U: shawnbot
+  B: 0
+  U: Shawn Allen
 - E: amundson!bitwise.io
   R:
   - T: "2011-01-31"
@@ -34,6 +131,8 @@ P:
     U: vaporos
   - M: Shawn Amundson
     S: jira
+    U: amundson
+  - S: rocketchat
     U: amundson
   B: 0
   U: Shawn Amundson
@@ -6797,6 +6896,11 @@ P:
     M: Silas Davis
     S: github
     U: silasdavis
+  - S: rocketchat
+    U: silasdavis
+  - M: Silas Davis
+    S: rocketchat
+    U: silasdavis
   B: 0
   U: Silas Davis
 - C: IS
@@ -6879,6 +6983,11 @@ P:
     U: Silona
   - M: Silona Bonewald
     S: jira
+    U: Silona
+  - S: rocketchat
+    U: Silona
+  - M: Silona
+    S: rocketchat
     U: Silona
   B: 0
   U: Silona Bonewald
@@ -31686,6 +31795,11 @@ P:
   - E: srepaku!us.ibm.com
     M: Swetha Repakula
     S: mbox
+  - S: rocketchat
+    U: swetha
+  - M: Swetha Repakula
+    S: rocketchat
+    U: swetha
   - E: srepaku!us.ibm.com
     M: Swetha Repakula
     S: slack
@@ -51417,6 +51531,52 @@ P:
     S: pipermail
   B: 0
   U: Todd Benzies
+- E: tsc!lists.openswitch.net
+  R:
+  - T: "2005-01-01"
+    C: Chinasoft International
+    F: "2004-01-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2005-01-01"
+    C: Wall Street English
+    F: "2004-01-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2007-01-01"
+    C: Ameriprise Financial Services, LLC.
+    F: "2005-01-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2009-01-01"
+    C: Branduin Creative
+    F: "2007-01-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2011-04-01"
+    C: Symbian Foundation
+    F: "2010-04-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2012-12-01"
+    C: Brocade
+    F: "2011-04-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2013-04-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2020-03-01"
+    C: Hyperledger
+    F: "2016-01-01"
+    P: lfedge/akraino-edge-stack
+  I:
+  - M: Todd Benzies
+    S: confluence
+    U: tbenzies
+  - E: tsc!lists.openswitch.net
+    M: Todd Benzies
+    S: groupsio
+  - M: Todd Benzies
+    S: rocketchat
+    U: tbenzies
+  B: 0
+  U: Todd Benzies
 - E: todd!sdgsystems.com
   R:
   - T: "2100-01-01"
@@ -59398,184 +59558,3 @@ P:
     S: git
   B: 0
   U: Toyo Abe
-- E: toyoa!mvista.com
-  R:
-  - T: "2100-01-01"
-    C: MontaVista
-    F: "1900-01-01"
-  I:
-  - E: toyoa!mvista.com
-    M: Toyo Abe
-    S: git
-  B: 0
-  U: Toyo Abe
-- E: trac.hoang!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom
-    F: "1900-01-01"
-  I:
-  - E: trac.hoang!broadcom.com
-    M: Trac Hoang
-    S: git
-  B: 0
-  U: Trac Hoang
-- E: tracey.m.erway!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - E: tracey.m.erway!intel.com
-    M: Tracey Erway
-    S: bugzilla
-    U: tracey.m.erway
-  B: 0
-  U: Tracey Erway
-- E: tracy.graydon!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - E: tracy.graydon!intel.com
-    S: bugzilla
-    U: tracy.graydon
-  - M: Tracy Graydon
-    S: bugzilla
-    U: tracy.graydon
-  - E: tracy.graydon!intel.com
-    M: Tracy Graydon
-    S: bugzilla
-    U: tracy.graydon
-  - E: tracy.graydon!intel.com
-    M: Graydon, Tracy
-    S: git
-  - E: tracy.graydon!intel.com
-    M: Tracy Graydon
-    S: git
-  - E: tracy.graydon!intel.com
-    M: Graydon, Tracy
-    S: groupsio
-  - E: tracy.graydon!intel.com
-    M: Tracy Graydon
-    S: groupsio
-  - E: tracy.graydon!intel.com
-    M: Graydon, Tracy
-    S: pipermail
-  - E: tracy.graydon!intel.com
-    M: Tracy Graydon
-    S: pipermail
-  B: 0
-  U: Tracy Graydon
-- E: tracy.a.kuhrt!accenture.com
-  R:
-  - T: "2019-02-01"
-    C: The Linux Foundation
-    F: "2017-04-01"
-  - T: "2100-01-01"
-    C: Accenture
-    F: "2019-02-01"
-  I:
-  - M: Tracy Kuhrt
-    S: confluence
-    U: tkuhrt
-  - E: tkuhrt!linuxfoundation.org
-    M: Tracy Kuhrt
-    S: gerrit
-  - E: tkuhrt!linuxfoundation.org
-    M: Tracy Kuhrt
-    S: gerrit
-    U: tkuhrt
-  - E: tracy.kuhrt+LF!gmail.com
-    M: Tracy Kuhrt
-    S: gerrit
-    U: tkuhrt
-  - E: tracy.a.kuhrt!accenture.com
-    M: Kuhrt, Tracy A
-    S: git
-  - E: tkuhrt!linuxfoundation.org
-    M: Tracy Kuhrt
-    S: git
-  - E: tracy.a.kuhrt!accenture.com
-    M: Tracy Kuhrt
-    S: git
-  - M: Tracy Kuhrt
-    S: github
-    U: tkuhrt
-  - M: Tracy Kuhrt
-    S: jira
-    U: tkuhrt
-  B: 0
-  U: Tracy Kuhrt
-- E: tv8394!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - M: Tracy Van Brakle
-    S: confluence
-    U: tlvb0614
-  - E: tv8394!att.com
-    M: Tracy Van Brakle
-    S: groupsio
-  - E: tv8394!att.com
-    M: VAN BRAKLE, TRACY L
-    S: groupsio
-  - E: tv8394!att.com
-    M: Tracy Van Brakle
-    S: jira
-    U: tlvb0614
-  - E: tv8394!att.com
-    M: VAN BRAKLE, TRACY L
-    S: pipermail
-  B: 0
-  U: Tracy Van Brakle
-- E: fiona.trahe!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - E: fiona.trahe!intel.com
-    M: Fiona Trahe
-    S: git
-  - E: fiona.trahe!intel.com
-    M: Fiona Trahe fiona.trahe
-    S: pipermail
-  - E: fiona.trahe!intel.com
-    M: Fiona Trahe
-    S: pipermail
-  - E: fiona.trahe!intel.com
-    M: Trahe, Fiona
-    S: pipermail
-  B: 0
-  U: Trahe, Fiona
-- E: trammell!cloudify.co
-  R:
-  - T: "2100-01-01"
-    C: Cloudify
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Cloudify
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - E: trammell!cloudify.co
-    M: Trammell Trammell
-    S: gerrit
-    U: earthmant
-  - E: trammell!cloudify.co
-    M: earthmant
-    S: git
-  - E: trammell!cloudify.co
-    M: Trammell Trammell
-    S: jira
-    U: earthmant
-  B: 0
-  U: Trammell Trammell
