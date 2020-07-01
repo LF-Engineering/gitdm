@@ -1,4 +1,159 @@
 P:
+- E: pastusenko!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: CubeX
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: pastusenko!gmail.com
+    M: pastushenko
+    S: github
+    U: yuripastushenko
+  B: 0
+  U: pastushenko
+- E: pat!cf-homer.rtp.raleigh.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: pat!cf-homer.rtp.raleigh.ibm.com
+    M: pat morrison
+    S: git
+  B: 0
+  U: pat morrison
+- R:
+  - T: "2100-01-01"
+    C: Platform9
+    F: "1900-01-01"
+  I:
+  - S: github
+    U: patform9
+  B: 0
+  U: patform9
+- E: patmc!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: patmc!us.ibm.com
+    M: patmc
+    S: slack
+    U: patmc
+  B: 0
+  U: patmc
+- E: patrice.robert!orange.com
+  R:
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: patrice.robert!orange.com
+    M: patrice.robert
+    S: pipermail
+  B: 0
+  U: patrice.robert
+- E: patricia!axis.com
+  R:
+  - T: "2100-01-01"
+    C: Axis Communications AB
+    F: "1900-01-01"
+  I:
+  - E: patricia!axis.com
+    M: patricia
+    S: bugzilla
+    U: patricia
+  B: 0
+  U: patricia
+- C: ES
+  R:
+  - T: "2016-01-01"
+    C: Diprotech
+    F: "1900-01-01"
+  - T: "2016-11-01"
+    C: GreenPowerMonitor
+    F: "2016-01-01"
+  - T: "2100-01-01"
+    C: CAPSiDE | NTT
+    F: "2016-11-01"
+  S: male
+  I:
+  - S: github
+    U: paudirac
+  B: 0
+  U: paudirac
+- E: paul.husak!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "1900-01-01"
+  I:
+  - E: paul.husak!ge.com
+    M: paul husak
+    S: slack
+    U: phusak
+  B: 0
+  U: paul husak
+- R:
+  - T: "2100-01-01"
+    C: Symphony LLC
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Symphony LLC
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - S: confluence
+    U: p
+  - S: confluence
+    U: paul
+  - S: github
+    U: paul-symphony
+  - S: github
+    U: paulteyssier
+  B: 0
+  U: paul-symphony
+- E: paul.bartak!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: paul.bartak!us.ibm.com
+    M: paul.bartak
+    S: slack
+    U: paul.bartak
+  B: 0
+  U: paul.bartak
+- E: paul.le.tilly!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: paul.le.tilly!ibm.com
+    M: paul.le.tilly
+    S: slack
+    U: paul.le.tilly
+  B: 0
+  U: paul.le.tilly
+- E: paul.moore!hp.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+  I:
+  - E: paul.moore!hp.com
+    M: Paul Moore
+    S: git
+  - E: paul.moore!hp.com
+    M: paul.moore
+    S: git
+  B: 0
+  U: paul.moore
 - E: paul.spangler!ni.com
   R:
   - T: "2100-01-01"
@@ -7163,6 +7318,9 @@ P:
     S: git
   - S: jira
     U: romaingimbert
+  - M: romain gimbert
+    S: jira
+    U: romaingimbert
   - E: romain.gimbert!orange.com
     M: romain gimbert
     S: jira
@@ -12750,6 +12908,9 @@ P:
   - E: shiri.amichai!amdocs.com
     M: shiria
     S: git
+  - M: shiri amichai
+    S: jira
+    U: shiria
   - E: shiri.amichai!amdocs.com
     M: shiri amichai
     S: jira
@@ -13050,10 +13211,16 @@ P:
   - E: shravanix.paladugula!intel.com
     M: Paladugula, ShravaniX
     S: groupsio
+  - M: Shravani Paladugula
+    S: jira
+    U: Shravani
   - E: shravani.p!tcs.com
     M: Shravani Paladugula
     S: jira
     U: Shravani
+  - M: shravani paladugula
+    S: jira
+    U: Shravanix
   - E: shravanix.paladugula!intel.com
     M: shravani paladugula
     S: jira
@@ -21380,6 +21547,9 @@ P:
   - E: rahul.tyagi!est.tech
     M: tragait
     S: git
+  - M: Rahul Tyagi
+    S: jira
+    U: tragait
   - E: rahul.tyagi!ericsson.com
     M: Rahul Tyagi
     S: jira
@@ -32051,6 +32221,9 @@ P:
   - E: yoav.schneiderman!intl.att.com
     M: Yoav Schneiderman
     S: git
+  - M: yoav schneiderman
+    S: jira
+    U: yoav.schneiderman
   - E: yoav.schneiderman!intl.att.com
     M: yoav schneiderman
     S: jira

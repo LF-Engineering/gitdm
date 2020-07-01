@@ -1,4 +1,48 @@
 P:
+- C: US
+  E: chuck.lever!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: chuck.lever!oracle.com
+    M: Chuck Lever
+    S: git
+  B: 0
+  U: Chuck Lever
+- E: chuck.pilon!infor.com
+  R:
+  - T: "2100-01-01"
+    C: Infor
+    F: "1900-01-01"
+  I:
+  - E: chuck.pilon!infor.com
+    M: Chuck Pilon
+    S: slack
+    U: chuck.pilon
+  B: 0
+  U: Chuck Pilon
+- E: charles.short!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: lfn/onap
+  I:
+  - E: charles.short!ericsson.com
+    M: Chuck Short
+    S: gerrit
+    U: zulcss
+  - E: charles.short!ericsson.com
+    M: Chuck Short
+    S: git
+  B: 0
+  U: Chuck Short
 - E: chuhua!microsoft.com
   R:
   - T: "2100-01-01"
@@ -4415,6 +4459,62 @@ P:
     U: coltonmorris
   B: 0
   U: Colton Morris
+- E: colum.gaynor!nsn.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1900-01-01"
+    P: lfn/opnfv
+  I:
+  - M: Colum Gaynor
+    S: confluence
+    U: columgaynor
+  - E: colum.gaynor!nokia.com
+    M: Colum Gaynor
+    S: gerrit
+    U: columgaynor
+  - E: colum.gaynor!nokia.com
+    M: columgaynor
+    S: git
+  - E: colum.gaynor!nokia.com
+    M: Gaynor, Colum Nokia - FI/Espoo
+    S: gmane
+  - E: colum.gaynor!nokia.com
+    M: Gaynor, Colum (Nokia - FI/Espoo)
+    S: groupsio
+  - M: Colum Gaynor
+    S: jira
+    U: columgaynor
+  - E: colum.gaynor!nokia.com
+    M: Colum Gaynor
+    S: jira
+    U: columgaynor
+  - E: colum.gaynor!nsn.com
+    M: Colum Gaynor
+    S: jira
+    U: colum.gaynor
+  - M: Colum Gaynor
+    S: linux-foundation:its
+    U: columgaynor
+  - E: colum.gaynor!nokia.com
+    M: Gaynor, Colum Nokia - FI/Espoo
+    S: linux-foundation:mls
+    U: colum.gaynor
+  - E: colum.gaynor!nokia.com
+    M: Colum Gaynor
+    S: linux-foundation:scr
+    U: columgaynor
+  - E: colum.gaynor!nokia.com
+    M: Gaynor, Colum Nokia - FI/Espoo
+    S: mbox
+  - E: colum.gaynor!nokia.com
+    M: Gaynor, Colum Nokia - FI/Espoo
+    S: pipermail
+  B: 0
+  U: Colum Gaynor
 - E: colyli!suse.de
   R:
   - T: "2100-01-01"
@@ -5599,6 +5699,9 @@ P:
     F: "1900-01-01"
     P: lfn/opnfv
   I:
+  - M: Constant Wette
+    S: jira
+    U: cwette
   - E: constant.wette.tchouati!ericsson.com
     M: Constant Wette
     S: jira
@@ -18705,6 +18808,9 @@ P:
   - E: Daniel.Silverthorn!amdocs.com
     M: Daniel Silverthorn
     S: groupsio
+  - M: Daniel Silverthorn
+    S: jira
+    U: daniesilamdocs
   - E: daniel.silverthorn!amdocs.com
     M: Daniel Silverthorn
     S: jira
@@ -19159,6 +19265,9 @@ P:
   - E: daniel.tudares!cengn.ca
     M: Daniel Tudares
     S: groupsio
+  - M: Daniel Tudares
+    S: jira
+    U: danieltudares
   - E: daniel.tudares!cengn.ca
     M: Daniel Tudares
     S: jira
@@ -26500,6 +26609,12 @@ P:
   - E: david.farrelly!est.tech
     M: david.farrelly
     S: groupsio
+  - M: David Farrelly
+    S: jira
+    U: davidfarrelly
+  - M: David Farrelly
+    S: jira
+    U: dfarrelly
   - E: david.farrelly!ericsson.cm
     M: David Farrelly
     S: jira
@@ -32556,6 +32671,9 @@ P:
   - E: davide.cherubini!vodafone.com
     M: Davide Cherubini
     S: groupsio
+  - M: Davide Cherubini
+    S: jira
+    U: dacher
   - E: davide.cherubini!vodafone.com
     M: Davide Cherubini
     S: jira
@@ -36096,6 +36214,9 @@ P:
   - E: Xiaohong.Qin!emc.com
     M: Qin, Xiaohong
     S: groupsio
+  - M: Dennis Qin
+    S: jira
+    U: dechinlf
   - E: xiaohong.qin!emc.com
     M: Dennis Qin
     S: jira
@@ -38694,6 +38815,9 @@ P:
     F: "1900-01-01"
     P: lfn/opnfv
   I:
+  - M: Dhananjaya Rao
+    S: jira
+    U: dhrao
   - E: dhrao!cisco.com
     M: Dhananjaya Rao
     S: jira
@@ -43835,6 +43959,9 @@ P:
   - E: dklenov!mirantis.com
     M: Dmitry Klenov
     S: gerrit
+    U: dklenov
+  - M: Dmitry Klenov
+    S: jira
     U: dklenov
   - E: dklenov!mirantis.com
     M: Dmitry Klenov
@@ -55480,6 +55607,9 @@ P:
   - E: eleonoral!amdocs.com
     M: eleonorali
     S: git
+  - M: Eleonora Liverant
+    S: jira
+    U: eleonorali
   - E: eleonoral!amdocs.com
     M: Eleonora Liverant
     S: jira
@@ -57967,6 +58097,9 @@ P:
     F: "1900-01-01"
     P: lfn/opnfv
   I:
+  - M: Emily Tuzi
+    S: jira
+    U: emilyzz
   - E: emily_tuzi!dell.com
     M: Emily Tuzi
     S: jira
@@ -58445,6 +58578,9 @@ P:
   - E: emmett.cox
     M: ezcoxem
     S: git
+  - M: Emmett  Cox
+    S: jira
+    U: EmmettCox
   - E: emmett.cox!ericsson.com
     M: Emmett  Cox
     S: jira
@@ -59383,6 +59519,9 @@ P:
   - E: ephraim.martin!est.tech
     M: ephraim.martin
     S: groupsio
+  - M: Ephraim Martin
+    S: jira
+    U: emartin
   - E: ephraim.martin!est.tech
     M: Ephraim Martin
     S: jira
@@ -60413,159 +60552,3 @@ P:
     S: git
   B: 0
   U: Eric Dumazet
-- C: US
-  E: eric.edens!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: eric.edens!gmail.com
-    M: Eric Edens
-    S: git
-  B: 0
-  U: Eric Edens
-- C: US
-  E: ericeden!amazon.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: ericeden!amazon.com
-    M: Eric Edens
-    S: git
-  - E: ericeden!amazon.com
-    M: ericeden
-    S: git
-  B: 0
-  U: Eric Edens
-- C: US
-  E: dilvie!dilvie.com
-  R:
-  - T: "2100-01-01"
-    C: Alberta Energy
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: dilvie!dilvie.com
-    M: Eric Elliott
-    S: git
-  B: 0
-  U: Eric Elliott
-- C: GB
-  E: eric!engestrom.ch
-  R:
-  - T: "2018-04-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-04-01"
-  S: male
-  I:
-  - E: eric!engestrom.ch
-    M: Eric Engestrom
-    S: git
-  B: 0
-  U: Eric Engestrom
-- C: GB
-  E: eric.engestrom!imgtec.com
-  R:
-  - T: "2018-04-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-04-01"
-  S: male
-  I:
-  - E: eric.engestrom!imgtec.com
-    M: Eric Engestrom
-    S: git
-  B: 0
-  U: Eric Engestrom
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Eric Ernst
-    S: github
-    U: egernst
-  B: 0
-  U: Eric Ernst
-- C: US
-  E: eric.ernst!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: eric.ernst!intel.com
-    M: Eric Ernst
-    S: git
-  - E: eric.ernst!intel.com
-    M: Eric Ernst
-    S: github
-    U: egernst
-  B: 0
-  U: Eric Ernst
-- C: US
-  E: eric.ernst!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: eric.ernst!linux.intel.com
-    M: Eric Ernst
-    S: git
-  - E: eric.ernst!linux.intel.com
-    M: Eric Ernst
-    S: groupsio
-  - E: eric.ernst!linux.intel.com
-    M: Ernst, Eric
-    S: groupsio
-  - E: eric.ernst!linux.intel.com
-    M: eric.ernst
-    S: groupsio
-  - E: eric.ernst!linux.intel.com
-    M: Eric Ernst
-    S: pipermail
-  - E: eric.ernst!linux.intel.com
-    M: Ernst, Eric
-    S: pipermail
-  - E: eric.ernst!linux.intel.com
-    M: eric.ernst
-    S: pipermail
-  B: 0
-  U: Eric Ernst
-- E: farman!linux.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: farman!linux.ibm.com
-    M: Eric Farman
-    S: git
-  B: 0
-  U: Eric Farman
-- E: farman!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: farman!linux.vnet.ibm.com
-    M: Eric Farman
-    S: git
-  B: 0
-  U: Eric Farman
