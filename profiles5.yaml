@@ -1,4 +1,54 @@
 P:
+- E: iftachsc!cloudzone.io
+  R:
+  - T: "2016-12-01"
+    C: AutopIT
+    F: "1900-01-01"
+  - T: "2100-01-01"
+    C: CloudZone
+    F: "2016-12-01"
+  S: male
+  I:
+  - E: iftachsc!cloudzone.io
+    M: Iftach Schonbaum
+    S: github
+    U: iftachsc
+  B: 0
+  U: Iftach Schonbaum
+- E: igal.liberman!freescale.com
+  R:
+  - T: "2100-01-01"
+    C: Freescale
+    F: "1900-01-01"
+  I:
+  - E: igal.liberman!freescale.com
+    M: Igal Liberman
+    S: git
+  B: 0
+  U: Igal Liberman
+- E: igall!marvell.com
+  R:
+  - T: "2100-01-01"
+    C: Marvell
+    F: "1900-01-01"
+  I:
+  - E: igall!marvell.com
+    M: Igal Liberman
+    S: git
+  B: 0
+  U: Igal Liberman
+- E: ihaider!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  I:
+  - E: ihaider!us.ibm.com
+    M: Iggy Haider
+    S: slack
+    U: iggyhaider
+  B: 0
+  U: Iggy Haider
 - E: ikalvarado!google.com
   R:
   - T: "2100-01-01"
@@ -3674,6 +3724,9 @@ P:
   - E: im453s!intl.att.com
     M: Manzon, Inna (im453s)
     S: git
+  - M: Inna Manzon
+    S: jira
+    U: im453s
   - E: im453s!intl.att.com
     M: Inna Manzon
     S: jira
@@ -20584,6 +20637,9 @@ P:
   - E: jt6620!att.com
     M: Threefoot, Jane (jt6620)
     S: git
+  - M: Jane Threefoot
+    S: jira
+    U: jthreefoot
   - E: jt6620!att.com
     M: Jane Threefoot
     S: jira
@@ -58920,6 +58976,9 @@ P:
   - E: josef.reisinger!de.ibm.com
     M: Josef Reisinger
     S: groupsio
+  - M: Josef Reisinger
+    S: jira
+    U: jreisinger
   - E: josef.reisinger!de.ibm.com
     M: Josef Reisinger
     S: jira
@@ -60650,68 +60709,3 @@ P:
     S: git
   B: 0
   U: Josh Collier
-- R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-  I:
-  - E: jcollins!pivotal.io
-    S: cloudfoundry:manual
-  - M: Josh Collins
-    S: cloudfoundry:manual
-  - E: 37092016+heyjcollins!users.noreply.github.com
-    M: Josh Collins
-    S: git
-  - E: jcollins!pivotal.io
-    M: Josh Collins
-    S: git
-  - S: github
-    U: heyjcollins
-  - M: Josh Collins
-    S: github
-    U: heyjcollins
-  - E: jcollins!pivotal.io
-    M: Josh Collins
-    S: groupsio
-  - E: jcollins!pivotal.io
-    M: jcollins
-    S: groupsio
-  - E: jcollins!pivotal.io
-    M: Josh Collins
-    S: mbox
-  - E: jcollins!pivotal.io
-    M: Josh Collins
-    S: slack
-    U: jcollins
-  B: 0
-  U: Josh Collins
-- R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Josh Conant
-    S: github
-    U: insequent
-  B: 0
-  U: Josh Conant
-- E: joshuax.craddock!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: lfn/opnfv
-  I:
-  - M: Josh Craddock
-    S: confluence
-    U: jcraddock
-  - E: joshuax.craddock!intel.com
-    M: Josh Craddock
-    S: jira
-    U: jcraddock
-  B: 0
-  U: Josh Craddock
