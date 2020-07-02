@@ -1,4 +1,66 @@
 P:
+- C: CN
+  E: rick!jenkins-zh.cn
+  R:
+  - T: "2015-02-01"
+    C: 中科曙光信息技术有限公司
+    F: "1900-01-01"
+  - T: "2018-01-01"
+    C: Glodon
+    F: "2015-02-01"
+  - T: "2018-04-01"
+    C: Independent
+    F: "2018-01-01"
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2018-04-01"
+  S: male
+  I:
+  - E: rick!jenkins-zh.cn
+    M: Zhao Xiaojie
+    S: github
+    U: LinuxSuRen
+  B: 0
+  U: Zhao Xiaojie
+- E: yi.zhao!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1900-01-01"
+  I:
+  - E: yi.zhao!windriver.com
+    S: bugzilla
+    U: yi.zhao
+  - M: Yi Zhao
+    S: bugzilla
+    U: yi.zhao
+  - E: yi.zhao!windriver.com
+    M: Yi Zhao
+    S: bugzilla
+    U: yi.zhao
+  - E: yi.zhao!windriver.com
+    M: Yi Zhao
+    S: git
+  - E: yi.zhao!windriver.com
+    M: Yi Zhao
+    S: groupsio
+  - E: yi.zhao!windriver.com
+    M: Zhao Yi
+    S: groupsio
+  - E: yi.zhao!windriver.com
+    M: yi.zhao
+    S: groupsio
+  - E: yi.zhao!windriver.com
+    M: Yi Zhao
+    S: pipermail
+  - E: yi.zhao!windriver.com
+    M: Zhao Yi
+    S: pipermail
+  - E: yi.zhao!windriver.com
+    M: yi.zhao
+    S: pipermail
+  B: 0
+  U: Zhao Yi
 - E: zhaoyw-fnst!cn.fujitsu.com
   R:
   - T: "2100-01-01"
@@ -3824,6 +3886,18 @@ P:
     S: git
   B: 0
   U: Zvi Cahana
+- E: bill.zvonar!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River
+    F: "1901-01-01"
+    P: lfedge/akraino-edge-stack
+  I:
+  - E: bill.zvonar!windriver.com
+    M: Zvonar, Bill
+    S: groupsio
+  B: 0
+  U: Zvonar, Bill
 - C: DE
   E: zkosic!redhat.com
   R:
@@ -29475,6 +29549,18 @@ P:
     U: a.yurtaykin
   B: 0
   U: fxpester
+- E: fzdarsky!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat
+    F: "1901-01-01"
+    P: lfedge/akraino-edge-stack
+  I:
+  - E: fzdarsky!redhat.com
+    M: fzdarsky
+    S: groupsio
+  B: 0
+  U: fzdarsky
 - C: NL
   E: 958306380!qq.com
   R:
@@ -61724,105 +61810,3 @@ P:
     U: nobutaka
   B: 0
   U: nobutaka
-- C: DE
-  E: me!noctarius.com
-  R:
-  - T: "2017-12-01"
-    C: Hazelcast
-    F: "1900-01-01"
-  - T: "2019-02-01"
-    C: Independent
-    F: "2017-12-01"
-  - T: "2100-01-01"
-    C: clevabit
-    F: "2019-02-01"
-  S: male
-  I:
-  - E: me!noctarius.com
-    M: Christoph Engelbert (noctarius)
-    S: git
-  - E: me!noctarius.com
-    M: noctarius aka Christoph Engelbert
-    S: git
-  - E: me!noctarius.com
-    M: noctarius aka Christoph Engelbert
-    S: github
-    U: noctarius
-  B: 0
-  U: noctarius aka Christoph Engelbert
-- E: kceleon!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - M: Noel Eck
-    S: bugzilla
-    U: noel
-  - E: noel.eck!intel.com
-    M: Noel Eck
-    S: git
-  - E: kceleon!gmail.com
-    M: noel eck
-    S: git
-  - E: kceleon!gmail.com
-    M: noel eck
-    S: pipermail
-  B: 0
-  U: noel eck
-- E: nogoegst!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: BeKitzur I
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: nogoegst!users.noreply.github.com
-    M: nogoegst
-    S: git
-  B: 0
-  U: nogoegst
-- C: JP
-  E: nokute78!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Toshiba
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: nokute78!gmail.com
-    M: Takahiro YAMASHITA
-    S: git
-  - E: nokute78!gmail.com
-    M: nokute78
-    S: git
-  - E: nokute78!gmail.com
-    M: Takahiro YAMASHITA
-    S: github
-    U: nokute78
-  B: 0
-  U: nokute78
-- E: nolant!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  I:
-  - E: nolant!us.ibm.com
-    M: nolant
-    S: slack
-    U: nolant
-  B: 0
-  U: nolant
-- E: norbert.gaal!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "1900-01-01"
-  I:
-  - E: norbert.gaal!emc.com
-    M: norbertg
-    S: slack
-    U: norbertg
-  B: 0
-  U: norbertg
