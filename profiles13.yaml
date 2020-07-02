@@ -1,4 +1,28 @@
 P:
+- C: PL
+  R:
+  - T: "2100-01-01"
+    C: Nordic Semiconductor
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: nordic-krch
+    S: github
+    U: nordic-krch
+  B: 0
+  U: nordic-krch
+- E: noreply!bitergia.com
+  R:
+  - T: "2100-01-01"
+    C: Bitergia
+    F: "1900-01-01"
+    P: lfn/odl
+  I:
+  - E: noreply!bitergia.com
+    M: noreply
+    S: pipermail
+  B: 0
+  U: noreply
 - E: noreply!statuspage.io
   R:
   - T: "2100-01-01"
@@ -11363,7 +11387,8 @@ P:
     U: samba.gaddam
   B: 0
   U: samba.gaddam
-- R:
+- E: sambasiva.kokkirala!verizon.com
+  R:
   - T: "2100-01-01"
     C: Verizon Communications
     F: "1900-01-01"
@@ -11371,6 +11396,20 @@ P:
   I:
   - M: sambasiva K
     S: confluence
+    U: shiva_kkr
+  - E: sambasiva.kokkirala!verizon.com
+    M: sambasiva K
+    S: gerrit
+    U: shiva_kkr
+  - E: sambasiva.kokkirala!verizon.com
+    M: Sambasiva K
+    S: git
+  - M: sambasiva K
+    S: jira
+    U: shiva_kkr
+  - E: sambasiva.kokkirala!verizon.com
+    M: sambasiva K
+    S: jira
     U: shiva_kkr
   B: 0
   U: sambasiva K
@@ -18908,6 +18947,28 @@ P:
     S: mbox
   B: 0
   U: subhash
+- E: subhosree.pan1!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2018-04-01"
+    P: lfn/onap
+  I:
+  - E: subhosree.pan1!huawei.com
+    M: Subhosree  Pan
+    S: gerrit
+    U: subhosree
+  - E: subhosree.pan1!huawei.com
+    M: Subhosree  Pan
+    S: git
+  - E: subhosree.pan1!huawei.com
+    M: Subhosree Pan
+    S: git
+  - E: subhosree.pan1!huawei.com
+    M: subhosree
+    S: git
+  B: 0
+  U: subhosree
 - C: US
   E: sudeep.batra!att.com
   R:
