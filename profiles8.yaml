@@ -1,4 +1,83 @@
 P:
+- C: GB
+  R:
+  - T: "2014-07-01"
+    C: Quill Content
+    F: "1900-01-01"
+  - T: "2014-10-01"
+    C: Independent
+    F: "2014-07-01"
+  - T: "2014-11-01"
+    C: Which?
+    F: "2014-10-01"
+  - T: "2015-03-01"
+    C: Independent
+    F: "2014-11-01"
+  - T: "2015-07-01"
+    C: AskGym
+    F: "2015-03-01"
+  - T: "2015-11-01"
+    C: Independent
+    F: "2015-07-01"
+  - T: "2016-09-01"
+    C: Metapack
+    F: "2015-11-01"
+  - T: "2017-02-01"
+    C: Independent
+    F: "2016-09-01"
+  - T: "2017-04-01"
+    C: Pushfor
+    F: "2017-02-01"
+  - T: "2017-10-01"
+    C: Arcadia
+    F: "2017-04-01"
+  - T: "2018-01-01"
+    C: Independent
+    F: "2017-10-01"
+  - T: "2018-06-01"
+    C: Nationwide Building Society
+    F: "2018-01-01"
+  - T: "2018-11-01"
+    C: Independent
+    F: "2018-06-01"
+  - T: "2020-04-01"
+    C: Sainsbury's
+    F: "2018-11-01"
+  - T: "2100-01-01"
+    C: Independent
+    F: "2020-04-01"
+  S: male
+  I:
+  - M: Morgan Christiansson
+    S: github
+    U: morganchristiansson
+  B: 0
+  U: Morgan Christiansson
+- C: US
+  E: morgan.fainberg!gmail.com
+  R:
+  - T: "2014-05-23"
+    C: Metacloud
+    F: "1900-01-01"
+  - T: "2015-10-31"
+    C: HP
+    F: "2014-05-23"
+  - T: "2016-03-25"
+    C: HP
+    F: "2015-10-31"
+  - T: "2016-05-05"
+    C: In August
+    F: "2016-03-25"
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-05-05"
+  S: female
+  I:
+  - E: morgan.fainberg!gmail.com
+    M: Morgan Fainberg
+    S: git
+  B: 0
+  U: Morgan Fainberg
 - R:
   - T: "2100-01-01"
     C: Pivotal
@@ -2611,6 +2690,9 @@ P:
   - E: munmohan!att.com
     M: Muni Mohan Kunchi
     S: git
+  - M: Muni Mohan Kunchi
+    S: jira
+    U: munimohankunchi
   - E: munmohan!att.com
     M: Muni Mohan Kunchi
     S: jira
@@ -7105,6 +7187,9 @@ P:
   - E: nathaniel.potter!intel.com
     M: Potter, Nathaniel
     S: groupsio
+  - M: Nate Potter
+    S: jira
+    U: ntpttr
   - E: Nathaniel.Potter!intel.com
     M: Nate Potter
     S: jira
@@ -51142,6 +51227,9 @@ P:
   - E: piotr.bochenski!nokia.com
     M: Bochenski, Piotr (Nokia - PL/Wroclaw)
     S: groupsio
+  - M: Piotr Bochenski
+    S: jira
+    U: bochensk
   - E: piotr.bochenski!nokia.com
     M: Piotr Bochenski
     S: jira
@@ -54784,6 +54872,9 @@ P:
   - E: pramod!research.att.com
     M: pramod.jamkhedkar
     S: git
+  - M: Pramod Jamkhedkar
+    S: jira
+    U: pramod.jamkhedkar
   - E: pramod!research.att.com
     M: Pramod Jamkhedkar
     S: jira
@@ -57972,24 +58063,20 @@ P:
     S: git
   B: 0
   U: Priya Wadhwa
-- R:
-  - T: "2100-01-01"
-    C: Wipro Limited
-    F: "1900-01-01"
-    P: lfn/onap
-  I:
-  - M: Priyadharshini Barathan
-    S: confluence
-    U: Priyadharshini
-  B: 0
-  U: Priyadharshini Barathan
 - E: priyadharshini.b96!wipro.com
   R:
   - T: "2100-01-01"
     C: Wipro Limited
     F: "1900-01-01"
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: lfn/onap
   I:
   - M: Priyadharshini B
+    S: confluence
+    U: Priyadharshini
+  - M: Priyadharshini Barathan
     S: confluence
     U: Priyadharshini
   - E: priyadharshini.b96!wipro.com
@@ -58003,6 +58090,9 @@ P:
   - E: priyadharshini.b96!wipro.com
     M: Priyadharshini
     S: git
+  - M: Priyadharshini B
+    S: jira
+    U: Priyadharshini
   - E: priyadharshini.b96!wipro.com
     M: Priyadharshini B
     S: jira
@@ -59583,64 +59673,3 @@ P:
     U: hqhq
   B: 0
   U: Qiang Huang
-- E: wu_qiang!yeah.net
-  R:
-  - T: "2100-01-01"
-    C: Oracle
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: wu_qiang!yeah.net
-    M: Qiang Wu
-    S: github
-    U: wu-qiang
-  B: 0
-  U: Qiang Wu
-- E: zhengqiang10!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-  I:
-  - E: zhengqiang10!huawei.com
-    M: Qiang
-    S: git
-  B: 0
-  U: Qiang
-- E: xieqianqian!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-  I:
-  - E: xieqianqian!huawei.com
-    M: Qianqian Xie
-    S: git
-  B: 0
-  U: Qianqian Xie
-- C: CN
-  E: anran.qiao!daocloud.io
-  R:
-  - T: "2100-01-01"
-    C: DaoCloud
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: anran.qiao!daocloud.io
-    M: Qiao Anran
-    S: git
-  B: 0
-  U: Qiao Anran
-- C: CN
-  E: qiaoanran!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: DaoCloud
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: qiaoanran!gmail.com
-    M: Qiao Anran
-    S: git
-  B: 0
-  U: Qiao Anran
