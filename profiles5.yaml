@@ -2487,11 +2487,11 @@ P:
 - E: ike!alicon.se
   R:
   - T: "1999-01-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "1996-01-01"
     P: lfedge/akraino-edge-stack
   - T: "2007-01-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "2001-01-01"
     P: lfedge/akraino-edge-stack
   - T: "2018-11-01"
@@ -4723,11 +4723,17 @@ P:
 - E: is661a!att.com
   R:
   - T: "2100-01-01"
-    C: AT&T
-    F: "1900-01-01"
+    C: Intracom Telecom
+    F: "2014-06-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2015-06-01"
+    C: University of Patras
+    F: "2014-07-01"
+    P: lfedge/akraino-edge-stack
   - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
+    C: AT&T
+    F: "2019-05-01"
+    P: lfedge/akraino-edge-stack
   I:
   - M: Ioakeim Samaras
     S: confluence
@@ -42309,10 +42315,15 @@ P:
   - T: "2100-01-01"
     C: ARM
     F: "1900-01-01"
-  - T: "2100-01-01"
-    C: ARM
-    F: "1900-01-01"
     P: lfn/opnfv
+  - T: "2018-06-01"
+    C: ARM
+    F: "2016-09-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2018-06-01"
+    C: Nokia Corporation
+    F: "2016-09-01"
+    P: lfedge/akraino-edge-stack
   I:
   - M: Jingzhao Ni
     S: confluence
@@ -60685,40 +60696,3 @@ P:
     U: josephlucas
   B: 0
   U: Joseph Lucas
-- R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: jmarrero!gmail.com
-    S: cloudfoundry:manual
-  - E: jmarrero!users.noreply.github.com
-    S: cloudfoundry:manual
-  - M: Joseph Marrero
-    S: cloudfoundry:manual
-  - E: jmarrero!gmail.com
-    M: Joseph Marrero
-    S: file:cff
-    U: jmarrero
-  - E: jmarrero!users.noreply.github.com
-    M: Joseph Marrero
-    S: file:cff
-    U: jmarrero
-  - E: jmarrero!gmail.com
-    M: Joseph Marrero
-    S: git
-  - E: jmarrero!users.noreply.github.com
-    M: Joseph Marrero
-    S: git
-  - S: github
-    U: jmarrero
-  - M: Joseph Marrero
-    S: github
-    U: jmarrero
-  - E: jmarrero!gmail.com
-    M: Joseph Marrero
-    S: slack
-    U: jmarrero
-  B: 0
-  U: Joseph Marrero

@@ -1,4 +1,41 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: jmarrero!gmail.com
+    S: cloudfoundry:manual
+  - E: jmarrero!users.noreply.github.com
+    S: cloudfoundry:manual
+  - M: Joseph Marrero
+    S: cloudfoundry:manual
+  - E: jmarrero!gmail.com
+    M: Joseph Marrero
+    S: file:cff
+    U: jmarrero
+  - E: jmarrero!users.noreply.github.com
+    M: Joseph Marrero
+    S: file:cff
+    U: jmarrero
+  - E: jmarrero!gmail.com
+    M: Joseph Marrero
+    S: git
+  - E: jmarrero!users.noreply.github.com
+    M: Joseph Marrero
+    S: git
+  - S: github
+    U: jmarrero
+  - M: Joseph Marrero
+    S: github
+    U: jmarrero
+  - E: jmarrero!gmail.com
+    M: Joseph Marrero
+    S: slack
+    U: jmarrero
+  B: 0
+  U: Joseph Marrero
 - E: joseph.mcdonald!alcatel-lucent.com
   R:
   - T: "2100-01-01"
@@ -11176,9 +11213,13 @@ P:
   R:
   - T: "2100-01-01"
     C: Intel Corporation
-    F: "1900-01-01"
+    F: "2010-09-01"
+    P: lfedge/edgex-foundry
   S: male
   I:
+  - M: Justin Scott
+    S: confluence
+    U: JustinScott
   - M: Justin Scott
     S: github
     U: jascott1
@@ -20625,6 +20666,9 @@ P:
     S: git
   - E: keith.wiles!intel.com
     M: Wiles, Keith
+    S: git
+  - E: keith.wiles!intel.com
+    M: Wiles, Keith
     S: gmane
   - E: keith.wiles!intel.com
     M: Wiles, Keith
@@ -27507,6 +27551,39 @@ P:
     U: KingWang93
   B: 0
   U: KingWang93
+- E: kinkwan.tsui!nokia.com
+  R:
+  - T: "2019-11-01"
+    C: Nokia Corporation
+    F: "2015-06-01"
+    P: lfedge/akraino-edge-stack
+  - T: "2100-01-01"
+    C: Verizon Communications
+    F: "2019-11-01"
+    P: lfedge/akraino-edge-stack
+  I:
+  - M: kinkwan tsui
+    S: confluence
+    U: kinkwant
+  - E: kinkwan.tsui!nokia.com
+    M: kinkwan tsui
+    S: gerrit
+    U: kinkwant
+  - E: kinkwan.tsui!nokia.com
+    M: kinkwan tsui
+    S: git
+  - E: kinkwan.tsui!nokia.com
+    M: kinkwan_tsui
+    S: git
+  - E: kinkwan.tsui!nokia.com
+    M: kinkwant
+    S: git
+  - E: kinkwan.tsui!nokia.com
+    M: kinkwan tsui
+    S: jira
+    U: kinkwant
+  B: 0
+  U: Kinkwan Tsui
 - E: mdr!ashroe.eu
   R:
   - T: "2100-01-01"
@@ -46420,16 +46497,6 @@ P:
     S: git
   B: 0
   U: Libin Yang
-- R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2010-01-01"
-  I:
-  - M: Libin Zhang
-    S: github
-    U: DaveZLB
-  B: 0
-  U: Libin Zhang
 - E: huawei.libin!huawei.com
   R:
   - T: "2100-01-01"
@@ -46445,6 +46512,20 @@ P:
     S: git
   B: 0
   U: Libin
+- E: zlibin!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2010-01-01"
+  I:
+  - E: zlibin!vmware.com
+    M: LibinZhang
+    S: git
+  - M: Libin Zhang
+    S: github
+    U: DaveZLB
+  B: 0
+  U: LibinZhang
 - C: CZ
   E: lpechacek!suse.cz
   R:
@@ -60031,57 +60112,3 @@ P:
     S: git
   B: 0
   U: Maciej Kwiek
-- E: maciek!lasyk.info
-  R:
-  - T: "2100-01-01"
-    C: Codewise.com
-    F: "1900-01-01"
-  S: male
-  I:
-  - E: maciek!lasyk.info
-    M: Maciej Lasyk
-    S: github
-    U: docent-net
-  B: 0
-  U: Maciej Lasyk
-- E: maciej.paczkowski!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-  I:
-  - E: maciej.paczkowski!intel.com
-    M: Maciej Paczkowski
-    S: git
-  B: 0
-  U: Maciej Paczkowski
-- C: PL
-  R:
-  - T: "2100-01-01"
-    C: Three of Coins
-    F: "1900-01-01"
-  S: male
-  I:
-  - M: Maciej Pasternacki
-    S: github
-    U: mpasternacki
-  B: 0
-  U: Maciej Pasternacki
-- E: Maciej.Perkowski!nordicsemi.no
-  R:
-  - T: "2100-01-01"
-    C: Nordic Semiconductor
-    F: "1901-01-01"
-  I:
-  - E: Maciej.Perkowski!nordicsemi.no
-    M: Maciej Perkowski
-    S: git
-  - M: Maciej Perkowski
-    S: github
-    U: PerMac
-  - E: Maciej.Perkowski!nordicsemi.no
-    M: Maciej Perkowski
-    S: slack
-    U: maciej.perkowski
-  B: 0
-  U: Maciej Perkowski
