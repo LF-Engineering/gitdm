@@ -1,4 +1,37 @@
 P:
+- C: IN
+  E: masquerade0097!gmail.com
+  R:
+  - T: "2017-03-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2017-12-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2017-12-01"
+    C: Independent
+    F: "2017-03-01"
+  - T: "2018-01-01"
+    C: Indian Railways
+    F: "2017-12-01"
+  - T: "2018-08-01"
+    C: Google
+    F: "2018-01-01"
+  - T: "2100-01-01"
+    C: FOSSASIA
+    F: "2018-08-01"
+  S: male
+  I:
+  - E: masquerade0097!gmail.com
+    M: Priyanshu Khandelwal
+    S: slack
+    U: masquerade0097
+  - E: priyanshukhandelwal0001!gmail.com
+    M: Priyanshu Khandelwal
+    S: slack
+    U: priyanshukhandelwal00
+  B: 0
+  U: Priyanshu Khandelwal
 - E: priyarjha!google.com
   R:
   - T: "2100-01-01"
@@ -59633,37 +59666,3 @@ P:
     S: git
   B: 0
   U: Sergio Moreno
-- C: ES
-  E: chenchix!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Cavium
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Marvell
-    F: "1900-01-01"
-  I:
-  - E: chenchix!gmail.com
-    M: Chencho
-    S: git
-  - E: chenchix!gmail.com
-    M: chenchix
-    S: git
-  - E: sergio.munoz!caviumnetworks.com
-    M: chencho
-    S: git
-  - E: smunoz!cavium.com
-    M: chencho
-    S: git
-  - E: smunoz!caviumnetworks.com
-    M: chencho
-    S: git
-  - M: Chencho
-    S: github
-    U: chenchix
-  - E: smunoz!marvell.com
-    M: chencho
-    S: slack
-    U: smunoz
-  B: 0
-  U: Sergio Munoz
