@@ -1,4 +1,24 @@
 P:
+- C: CN
+  E: bin.ma!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+  I:
+  - E: bin.ma!huawei.com
+    M: Mabin
+    S: git
+  - E: bin.ma!huawei.com
+    M: Mabin
+    S: git
+    U: MabinGo
+  - E: bin.ma!huawei.com
+    M: Mabin
+    S: oci_csv
+    U: MabinGo
+  B: 0
+  U: Mabin
 - E: mac!digitalocean.com
   R:
   - T: "2100-01-01"
@@ -35969,6 +35989,10 @@ P:
     U: safiyat
   - E: safiyat!voereir.com
     M: Md Safiyat Reza
+    S: gerrit
+    U: safiyat
+  - E: safiyat!voereir.com
+    M: Md Safiyat Reza
     S: github
     U: safiyat
   - M: Md Safiyat Reza
@@ -59459,41 +59483,3 @@ P:
     S: git
   B: 0
   U: Mohammad Samman
-- E: mohammad.shahid!altencalsoftlabs.com
-  R:
-  - T: "2017-08-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2012-11-01"
-  - T: "2100-01-01"
-    C: ALTEN Calsoft Labs
-    F: "2017-09-01"
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-01"
-  I:
-  - E: mohammad.shahid!altencalsoftlabs.com
-    M: Mohammad Shahid
-    S: gerrit
-    U: shahid_calsoft
-  - E: shahidcse2012!gmail.com
-    M: Mohammad Shahid
-    S: gerrit
-    U: shahid_calsoft
-  - E: mohammad.shahid!altencalsoftlabs.com
-    M: shahid_calsoft
-    S: git
-  - M: Mohammad Shahid
-    S: jira
-    U: shahid-huawei
-  - E: shahidcse2012!gmail.com
-    M: Mohammad Shahid
-    S: jira
-    U: shahid-huawei
-  - E: mohammad.shahid!altencalsoftlabs.com
-    M: Mohammad Shahid
-    S: pipermail
-  - E: shahidcse2012!gmail.com
-    M: mohammad shahid
-    S: pipermail
-  B: 0
-  U: Mohammad Shahid
