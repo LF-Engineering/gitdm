@@ -1,4 +1,52 @@
 P:
+- E: root!gpok178.endicott.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-11-04"
+    P: open-mainframe-project/feilong
+  I:
+  - E: root!gpok178.endicott.ibm.com
+    M: Juan
+    S: git
+  B: 0
+  U: Juan
+- C: AR
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+  I:
+  - M: JuanJo Ciarlante
+    S: github
+    U: jjo
+  B: 0
+  U: JuanJo Ciarlante
+- C: AR
+  E: juanjosec!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+  I:
+  - E: juanjosec!gmail.com
+    M: JuanJo Ciarlante
+    S: git
+  B: 0
+  U: JuanJo Ciarlante
+- C: US
+  E: jgalvez!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: jgalvez!redhat.com
+    M: JuanJose 'JJ' Galvez
+    S: git
+  B: 0
+  U: JuanJose 'JJ' Galvez
 - E: juan.chimienti!gmail.com
   R:
   - T: "2014-01-01"
@@ -31201,38 +31249,19 @@ P:
 - E: k.kwiecien!samsung.com
   R:
   - T: "2019-01-26"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-07-22"
-  - T: "2019-01-26"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-07-22"
-    P: lfn/onap
-  I:
-  - E: k.kwiecien!samsung.com
-    M: Krzysztof Kwiecien
-    S: gerrit
-    U: kapril75
-  - M: Krzysztof Kwiecien
-    S: jira
-    U: kapril75
-  - E: k.kwiecien!samsung.com
-    M: Krzysztof Kwiecien
-    S: jira
-    U: kapril75
-  B: 0
-  U: Krzysztof Kwiecien
-- E: krzysztof.kwiecien1!orange.com
-  R:
-  - T: "2019-01-26"
     C: Orange S.A.
     F: "2017-07-21"
   - T: "2019-01-26"
-    C: Orange S.A.
-    F: "2017-07-21"
+    C: Samsung Electronics Co. Ltd.
+    F: "2017-07-22"
     P: lfn/onap
   I:
   - M: KWIECIEN Krzysztof
     S: confluence
+    U: kapril75
+  - E: k.kwiecien!samsung.com
+    M: Krzysztof Kwiecien
+    S: gerrit
     U: kapril75
   - E: krzysztof.kwiecien1!orange.com
     M: Krzysztof Kwiecien
@@ -31244,6 +31273,13 @@ P:
   - E: krzysztof.kwiecien1!orange.com
     M: Krzysztof Kwiecien
     S: git
+  - M: Krzysztof Kwiecien
+    S: jira
+    U: kapril75
+  - E: k.kwiecien!samsung.com
+    M: Krzysztof Kwiecien
+    S: jira
+    U: kapril75
   - E: krzysztof.kwiecien1!orange.com
     M: Krzysztof Kwiecien
     S: jira
@@ -57309,46 +57345,3 @@ P:
     U: lukaf
   B: 0
   U: Luka Furlan
-- C: DE
-  E: mail!lukahartwig.de
-  R:
-  - T: "2016-02-01"
-    C: Publet
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2016-02-01"
-  S: male
-  I:
-  - E: mail!lukahartwig.de
-    M: Luka Hartwig
-    S: github
-    U: lukahartwig
-  B: 0
-  U: Luka Hartwig
-- E: lperkov!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "2014-10-27"
-    P: lfn/odl
-  I:
-  - E: lperkov!cisco.com
-    M: Luka Perkov
-    S: pipermail
-  B: 0
-  U: Luka Perkov
-- E: lberki!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-  I:
-  - E: lberki!google.com
-    M: Lukacs T. Berki
-    S: git
-  B: 0
-  U: Lukacs T. Berki
