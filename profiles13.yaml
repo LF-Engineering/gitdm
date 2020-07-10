@@ -1,4 +1,90 @@
 P:
+- C: IT
+  E: iamtusik!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: iamtusik!qq.com
+    M: Tusik
+    S: github
+    U: tusik
+  B: 0
+  U: Tusik
+- C: FI
+  E: tuukka.toivonen!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  S: male
+  I:
+  - E: tuukka.toivonen!intel.com
+    M: Tuukka Toivonen
+    S: git
+  B: 0
+  U: Tuukka Toivonen
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+  S: male
+  I:
+  - M: Tv
+    S: github
+    U: tv42
+  B: 0
+  U: Tv
+- E: tvrtko.ursulin!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+  I:
+  - E: tvrtko.ursulin!intel.com
+    M: Tvrtko Ursulin
+    S: git
+  B: 0
+  U: Tvrtko Ursulin
+- C: AU
+  R:
+  - T: "2017-09-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2018-08-01"
+    C: Societe Generale
+    F: "2017-09-01"
+  - T: "2100-01-01"
+    C: Expedia Group
+    F: "2018-08-01"
+  S: male
+  I:
+  - M: TwiN
+    S: github
+    U: TwinProduction
+  B: 0
+  U: TwiN
+- C: AU
+  E: twin!twinnation.org
+  R:
+  - T: "2017-09-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2018-08-01"
+    C: Societe Generale
+    F: "2017-09-01"
+  - T: "2100-01-01"
+    C: Expedia Group
+    F: "2018-08-01"
+  S: male
+  I:
+  - E: twin!twinnation.org
+    M: TwiN
+    S: git
+  B: 0
+  U: TwiN
 - C: AU
   E: christian-ct!hotmail.com
   R:
@@ -37331,6 +37417,10 @@ P:
   U: Xuewei Zhang
 - E: xl085b!att.com
   R:
+  - T: "2012-12-30"
+    C: Sonus Networks
+    F: "2007-01-01"
+    P: lfn/onap
   - T: "2019-05-14"
     C: AT&T Services, Inc.
     F: "2018-12-17"
@@ -38630,24 +38720,20 @@ P:
     S: git
   B: 0
   U: Yan Wang
-- R:
+- E: yanxingan!cmss.chinamobile.com
+  R:
   - T: "2100-01-01"
     C: China Mobile Communication Company Ltd
     F: "1900-01-01"
+    P: lfn/onap
+  - T: "2015-05-30"
+    C: Shengke Networks Co, Ltd
+    F: "2010-05-01"
     P: lfn/onap
   I:
   - M: Yan Xing'an
     S: confluence
     U: YanXing_an
-  B: 0
-  U: Yan Xing'an
-- E: yanxingan!cmss.chinamobile.com
-  R:
-  - T: "2019-05-14"
-    C: China Mobile Communication Company Ltd
-    F: "2018-12-30"
-    P: lfn/onap
-  I:
   - E: yanxingan!cmss.chinamobile.com
     M: Yan Xing'an
     S: gerrit
@@ -48758,7 +48844,17 @@ P:
     C: Orange S.A.
     F: "2018-09-28"
     P: lfai/acumos
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2018-12-01"
+    P: lfn/onap
   I:
+  - M: Youssef Chawki
+    S: confluence
+    U: Youssef-Chawki
+  - M: Youssef Chawki
+    S: confluence
+    U: Youssef-Nokia
   - E: youssef.chawki!orange.com
     M: Youssef Chawki
     S: gerrit
@@ -48779,6 +48875,9 @@ P:
   - E: youssef.chawki!orange.com
     M: Youssef-Chawki
     S: git
+  - M: Youssef Chawki
+    S: jira
+    U: Youssef-Chawki
   - E: youssef.chawki!orange.com
     M: Youssef Chawki
     S: jira
@@ -56358,92 +56457,3 @@ P:
     U: yuzeming
   B: 0
   U: Zeming YU
-- R:
-  - T: "2015-04-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2015-08-01"
-    C: Starbuck
-    F: "1900-01-01"
-  - T: "2015-08-01"
-    C: Starbuck
-    F: "2015-04-01"
-  - T: "2016-08-01"
-    C: Independent
-    F: "2015-08-01"
-  - T: "2016-12-01"
-    C: Latitude Geographics
-    F: "2016-08-01"
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-12-01"
-  - T: "2017-08-01"
-    C: Sendwithus
-    F: "2017-05-01"
-  - T: "2018-12-01"
-    C: Shopify
-    F: "2017-08-01"
-  - T: "2100-01-01"
-    C: Shopify
-    F: "2017-08-01"
-  - T: "2019-06-01"
-    C: Independent
-    F: "2018-12-01"
-  - T: "2019-08-01"
-    C: Microsoft Corporation
-    F: "2019-06-01"
-  - T: "2100-01-01"
-    C: Independent
-    F: "2019-08-01"
-  S: female
-  I:
-  - M: Zenara Daley
-    S: github
-    U: zrdaley
-  B: 0
-  U: Zenara Daley
-- E: zenara.daley!shopify.com
-  R:
-  - T: "2015-04-01"
-    C: Independent
-    F: "1900-01-01"
-  - T: "2015-08-01"
-    C: Starbuck
-    F: "1900-01-01"
-  - T: "2015-08-01"
-    C: Starbuck
-    F: "2015-04-01"
-  - T: "2016-08-01"
-    C: Independent
-    F: "2015-08-01"
-  - T: "2016-12-01"
-    C: Latitude Geographics
-    F: "2016-08-01"
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-12-01"
-  - T: "2017-08-01"
-    C: Sendwithus
-    F: "2017-05-01"
-  - T: "2018-12-01"
-    C: Shopify
-    F: "2017-08-01"
-  - T: "2100-01-01"
-    C: Shopify
-    F: "2017-08-01"
-  - T: "2019-06-01"
-    C: Independent
-    F: "2018-12-01"
-  - T: "2019-08-01"
-    C: Microsoft Corporation
-    F: "2019-06-01"
-  - T: "2100-01-01"
-    C: Independent
-    F: "2019-08-01"
-  S: female
-  I:
-  - E: zenara.daley!shopify.com
-    M: Zenara Daley
-    S: git
-  B: 0
-  U: Zenara Daley
