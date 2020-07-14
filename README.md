@@ -27,6 +27,7 @@ P:                                          # 'profiles' (profile holds possible
     C: Independent                          # enrollment 'organization' - required
     F: "1900-01-01"                         # enrollment 'date from' - required
     P: lfn/onap                             # enrollment 'project_slug' - optional, if set - given enrollment is project specific, if null - given enrollment is global
+    R: C                                    # enrollment 'role' - C: Contributor, M: Maintainer
 (...)
   S: male                                   # profile's 'sex'/'gender'
   I:                                        # profiles 'identities' list (each profile must have source liek git/Jira//Slack), at least one identity must be present
