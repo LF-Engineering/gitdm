@@ -39,6 +39,7 @@ type enrollmentShortOutput struct {
 	Organization string  `yaml:"C"`
 	Start        string  `yaml:"F"`
 	ProjectSlug  *string `yaml:"P,omitempty"`
+	Role         string  `yaml:"R"`
 }
 
 type identityShortOutput struct {
@@ -72,7 +73,7 @@ type textStatusOutput struct {
 }
 
 func (e *enrollmentShortOutput) size() int {
-	b := 48 + len([]byte(e.Organization))
+	b := 57 + len([]byte(e.Organization))
 	if e.ProjectSlug != nil {
 		b += 8 + len([]byte(*e.ProjectSlug))
 	}
@@ -80,7 +81,7 @@ func (e *enrollmentShortOutput) size() int {
 }
 
 func (e *enrollmentShortOutput) sortKey() (key string) {
-	key = e.Start + ":" + e.End + ":" + e.Organization + ":"
+	key = e.Start + ":" + e.End + ":" + e.Organization + ":" + e.Role + ":"
 	if e.ProjectSlug != nil {
 		key += *(e.ProjectSlug)
 	}
