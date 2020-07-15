@@ -1,4 +1,78 @@
 P:
+- C: IN
+  R:
+  - T: "2015-02-01"
+    C: Independent
+    F: "1900-01-01"
+  - T: "2015-05-01"
+    C: Caravan
+    F: "2015-02-01"
+  - T: "2015-12-01"
+    C: Siteflu
+    F: "2015-05-01"
+  - T: "2016-01-01"
+    C: CloudCover
+    F: "2015-12-01"
+  - T: "2016-06-01"
+    C: Independent
+    F: "2016-01-01"
+  - T: "2016-10-01"
+    C: Praxify
+    F: "2016-06-01"
+  - T: "2017-07-01"
+    C: Opcito
+    F: "2016-10-01"
+  - T: "2018-02-01"
+    C: Upwork
+    F: "2017-07-01"
+  - T: "2100-01-01"
+    C: Rakuten, Inc.
+    F: "2018-02-01"
+  S: male
+  I:
+  - M: Jakir Patel
+    S: github
+    U: jakirpatel
+  B: 0
+  U: Jakir Patel
+- R:
+  - T: "2016-07-01"
+    C: Apple
+    F: "1900-01-01"
+  - T: "2018-05-01"
+    C: Google
+    F: "2016-07-01"
+  - T: "2100-01-01"
+    C: Apple
+    F: "2018-05-01"
+  S: male
+  I:
+  - M: Jakob Andersen
+    S: github
+    U: jakobr-google
+  B: 0
+  U: Jakob Andersen
+- E: jakobr!google.com
+  R:
+  - T: "2016-07-01"
+    C: Apple
+    F: "1900-01-01"
+  - T: "2018-05-01"
+    C: Google
+    F: "2016-07-01"
+  - T: "2100-01-01"
+    C: Apple
+    F: "2018-05-01"
+  S: male
+  I:
+  - E: jakobr!google.com
+    M: Jakob Andersen
+    S: git
+  - E: jakobr!google.com
+    M: Jakob Roland Andersen
+    S: git
+  B: 0
+  U: Jakob Andersen
 - C: DE
   E: buchgr!google.com
   R:
@@ -57893,74 +57967,3 @@ P:
     S: git
   B: 0
   U: Juan David Dominguez
-- E: judavi!gmail.com
-  R:
-  - T: "2017-02-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-  - T: "2017-04-01"
-    C: TICKR
-    F: "2017-02-01"
-  - T: "2100-01-01"
-    C: Citi
-    F: "2017-04-01"
-  S: male
-  I:
-  - E: judavi!gmail.com
-    M: Juan David Gomez
-    S: git
-  - E: judavi!gmail.com
-    M: Juan
-    S: github
-    U: judavi
-  B: 0
-  U: Juan David Gomez
-- C: US
-  E: jdpcbs!gmail.com
-  R:
-  - T: "2015-03-01"
-    C: Caltech
-    F: "1900-01-01"
-  - T: "2015-09-01"
-    C: eddi
-    F: "2015-03-01"
-  - T: "2015-12-01"
-    C: Independent
-    F: "2015-09-01"
-  - T: "2016-05-01"
-    C: Orbital Insight
-    F: "2015-12-01"
-  - T: "2016-06-01"
-    C: Caltech
-    F: "2016-05-01"
-  - T: "2016-10-01"
-    C: Independent
-    F: "2016-06-01"
-  - T: "2019-05-01"
-    C: Orbital Insight
-    F: "2016-10-01"
-  - T: "2100-01-01"
-    C: Flexport
-    F: "2019-05-01"
-  S: male
-  I:
-  - E: jdpcbs!gmail.com
-    M: Juan Diego Palomino
-    S: git
-  - E: jdpcbs!gmail.com
-    M: Juan Diego Palomino
-    S: github
-    U: juandiegopalomino
-  B: 0
-  U: Juan Diego Palomino
-- E: juan.gutierrez!nxp.com
-  R:
-  - T: "2100-01-01"
-    C: NXP Semiconductors Netherlands B.V.
-    F: "1900-01-01"
-  I:
-  - E: juan.gutierrez!nxp.com
-    M: Juan Gutierrez
-    S: git
-  B: 0
-  U: Juan Gutierrez
