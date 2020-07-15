@@ -823,6 +823,8 @@ func handlePR(w http.ResponseWriter, req *http.Request) {
 	cmd := []string{
 		"git",
 		"clone",
+		"--depth",
+		"1",
 		fmt.Sprintf(
 			"https://%s:%s@github.com/%s",
 			os.Getenv("GITDM_GITHUB_USER"),
@@ -904,6 +906,8 @@ func executeInCloned(w http.ResponseWriter, req *http.Request, fn func(string) b
 	cmd := []string{
 		"git",
 		"clone",
+		"--depth",
+		"1",
 		fmt.Sprintf(
 			"https://%s:%s@github.com/%s",
 			os.Getenv("GITDM_GITHUB_USER"),
