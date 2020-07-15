@@ -1,4 +1,34 @@
 P:
+- C: TZ
+  E: qzheng!google.com
+  R:
+  - T: "2018-04-01"
+    C: Google
+    F: "1900-01-01"
+    P: lfedge/baetyl
+  - T: "2100-01-01"
+    C: Omnify
+    F: "2018-04-01"
+    P: lfedge/baetyl
+  S: male
+  I:
+  - E: qzheng!google.com
+    M: Andy Zheng
+    S: git
+  B: 0
+  U: Andy Zheng
+- E: andrew.karpow!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+  I:
+  - E: andrew.karpow!sap.com
+    M: Andy
+    S: slack
+    U: andrew.karpow
+  B: 0
+  U: Andy
 - C: LT
   E: andzej.maciusovic!gmail.com
   R:
@@ -17407,16 +17437,70 @@ P:
     S: pipermail
   B: 0
   U: Ashish Singh7
-- E: assingh!redhat.com
+- C: IN
+  E: assingh!redhat.com
   R:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
   S: male
   I:
+  - M: Ashish Singh
+    S: confluence
+    U: ashishsingh2k8
+  - M: ashish singh
+    S: confluence
+    U: ashlin123
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish Singh
+    S: gerrit
+    U: ashishsingh2k8
+  - E: 1998ashishsingh!gmail.com
+    M: ashish singh
+    S: gerrit
+    U: ashlin123
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish Singh
+    S: git
   - E: assingh!redhat.com
     M: Ashish Singh
     S: git
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish singh
+    S: gmane
+  - E: 1998ashishsingh!gmail.com
+    M: 1998ashishsingh
+    S: groupsio
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish singh
+    S: groupsio
+  - M: Ashish Singh
+    S: jira
+    U: ashishsingh2k8
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish Singh
+    S: jira
+    U: ashishsingh2k8
+  - M: ashish singh
+    S: jira
+    U: ashlin123
+  - M: Ashish Singh
+    S: linux-foundation:its
+    U: ashishsingh2k8
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish singh
+    S: linux-foundation:mls
+    U: ashishsingh2k8
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish Singh
+    S: linux-foundation:scr
+    U: ashishsingh2k8
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish Singh
+    S: mbox
+  - E: ashishsingh2k8!gmail.com
+    M: Ashish Singh
+    S: pipermail
   B: 0
   U: Ashish Singh
 - C: AU
@@ -57060,107 +57144,3 @@ P:
     S: git
   B: 0
   U: Carlos Rodríguez Hernández
-- C: ES
-  E: crhernandez!bitnami.com
-  R:
-  - T: "2015-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: lfn/pnda
-  - T: "2016-06-01"
-    C: redBorder
-    F: "1900-01-01"
-    P: lfn/pnda
-  - T: "2016-06-01"
-    C: redBorder
-    F: "2015-06-01"
-    P: lfn/pnda
-  - T: "2019-05-01"
-    C: VMware, Inc.
-    F: "2016-06-01"
-    P: lfn/pnda
-  - T: "2100-01-01"
-    C: Bitnami
-    F: "2016-06-01"
-    P: lfn/pnda
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-05-01"
-    P: lfn/pnda
-  S: male
-  I:
-  - E: crhernandez!bitnami.com
-    M: Carlos Rodríguez Hernández
-    S: git
-  B: 0
-  U: Carlos Rodríguez Hernández
-- C: ES
-  E: carlos!apache.org
-  R:
-  - T: "2015-10-01"
-    C: InfoQ
-    F: "1900-01-01"
-  - T: "2018-03-01"
-    C: SetPay
-    F: "2015-10-01"
-  - T: "2019-07-01"
-    C: CloudBees
-    F: "2018-03-01"
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2018-03-01"
-  - T: "2100-01-01"
-    C: Adobe Systems, Inc.
-    F: "2019-07-01"
-  S: male
-  I:
-  - E: carlos!apache.org
-    M: Carlos Sanchez
-    S: git
-  - E: carlos!apache.org
-    M: Carlos Sanchez
-    S: github
-    U: carlossg
-  B: 0
-  U: Carlos Sanchez
-- C: ES
-  E: csanchez!maestrodev.com
-  R:
-  - T: "2015-10-01"
-    C: InfoQ
-    F: "1900-01-01"
-    P: lfedge/baetyl
-  - T: "2018-03-01"
-    C: SetPay
-    F: "2015-10-01"
-    P: lfedge/baetyl
-  - T: "2019-07-01"
-    C: CloudBees
-    F: "2018-03-01"
-    P: lfedge/baetyl
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2018-03-01"
-    P: lfedge/baetyl
-  - T: "2100-01-01"
-    C: Adobe Systems, Inc.
-    F: "2019-07-01"
-    P: lfedge/baetyl
-  S: male
-  I:
-  - E: csanchez!maestrodev.com
-    M: Carlos Sanchez
-    S: git
-  B: 0
-  U: Carlos Sanchez
-- E: csanchez!windy.az.mvista.com
-  R:
-  - T: "2100-01-01"
-    C: MontaVista Software, LLC
-    F: "1900-01-01"
-  I:
-  - E: csanchez!windy.az.mvista.com
-    M: Carlos Sanchez
-    S: git
-  B: 0
-  U: Carlos Sanchez
