@@ -29710,6 +29710,10 @@ P:
   E: fu.guangrong!zte.com.cn
   R:
   - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
     C: Ericsson AB
     F: "2014-12-12"
     P: lfn/odl
@@ -29731,13 +29735,28 @@ P:
     R: C
   S: male
   I:
+  - E: fu.guangrong!zte.com.cn
+    M: "10144542"
+    S: git
+  - E: fu.guangrong!zte.com.cn
+    M: GuangrongFu
+    S: git
   - E: steven20027!gmail.com
     M: Steven Fu
+    S: groupsio
+  - E: fu.guangrong!zte.com.cn
+    M: fu.guangrong
     S: groupsio
   - M: Guangrong Fu
     S: jira
     U: fu.guangrong
-  B: 1
+  - E: steven20027!gmail.com
+    M: Steven Fu
+    S: pipermail
+  - E: fu.guangrong!zte.com.cn
+    M: fu.guangrong
+    S: pipermail
+  B: 0
   U: Guangrong Fu
 - E: steven20027!gmail.com
   R:
@@ -59410,32 +59429,3 @@ P:
     S: git
   B: 0
   U: Igor Bernstein
-- C: US
-  E: igor!rockset.io
-  R:
-  - T: "2100-01-01"
-    C: Rockset
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: igor!rockset.io
-    M: Igor Canadi
-    S: git
-  B: 0
-  U: Igor Canadi
-- C: US
-  E: igor.canadi!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Rockset
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: igor.canadi!gmail.com
-    M: Igor Canadi
-    S: github
-    U: igorcanadi
-  B: 0
-  U: Igor Canadi
