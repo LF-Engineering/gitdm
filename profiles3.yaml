@@ -1,4 +1,76 @@
 P:
+- E: pure.logic!nexus-software.ie
+  R:
+  - T: "2014-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2014-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: zephyr
+    R: C
+  - T: "2015-05-01"
+    C: Ircona
+    F: "2014-06-01"
+    P: yocto
+    R: C
+  - T: "2015-05-01"
+    C: Ircona
+    F: "2014-06-01"
+    P: zephyr
+    R: C
+  - T: "2100-01-01"
+    C: Nexus
+    F: "2015-05-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: Nexus
+    F: "2015-05-01"
+    P: zephyr
+    R: C
+  S: male
+  I:
+  - E: pure.logic!nexus-software.ie
+    M: Bryan O'Donoghue
+    S: git
+  - E: bryan.odonoghue!intel.com
+    M: Bryan O'Donoghue
+    S: groupsio
+  - E: pure.logic!nexus-software.ie
+    M: Bryan O'Donoghue
+    S: groupsio
+  - E: bryan.odonoghue!intel.com
+    M: O'donoghue, Bryan
+    S: groupsio
+  - E: bryan.odonoghue!intel.com
+    M: Bryan O'Donoghue
+    S: pipermail
+  - E: bryan.odonoghue!linux.intel.com
+    M: Bryan O'Donoghue
+    S: pipermail
+  - E: pure.logic!nexus-software.ie
+    M: Bryan O'Donoghue
+    S: pipermail
+  - E: bryan.odonoghue!intel.com
+    M: O'donoghue, Bryan
+    S: pipermail
+  B: 0
+  U: Bryan O'Donoghue
+- E: bryan.osullivan!qlogic.com
+  R:
+  - T: "2100-01-01"
+    C: QLogic
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: bryan.osullivan!qlogic.com
+    M: Bryan O'Sullivan
+    S: git
+  B: 0
+  U: Bryan O'Sullivan
 - C: US
   E: Lazyshot!gmail.com
   R:
@@ -33826,6 +33898,10 @@ P:
   - M: Clayton Sims
     S: jira
     U: Clayton Sims
+  - E: simsc!us.ibm.com
+    M: Clayton Sims
+    S: jira
+    U: Clayton Sims
   B: 0
   U: Clayton Sims
 - C: CN
@@ -45361,6 +45437,10 @@ P:
   - M: Dan Anderson
     S: jira
     U: danintel
+  - E: daniel.anderson!intel.com
+    M: Dan Anderson
+    S: jira
+    U: danintel
   B: 0
   U: Dan Anderson
 - E: dan.andresan!enea.com
@@ -50127,6 +50207,10 @@ P:
     S: github
     U: dbluhm
   - M: Daniel Bluhm
+    S: jira
+    U: dbluhm
+  - E: daniel.bluhm!sovrin.org
+    M: Daniel Bluhm
     S: jira
     U: dbluhm
   B: 0
@@ -57274,6 +57358,10 @@ P:
   - M: Darian Plumb
     S: jira
     U: dplumb
+  - E: dplumb!bitwise.io
+    M: Darian Plumb
+    S: jira
+    U: dplumb
   B: 0
   U: Darian Plumb
 - E: darien.hess!evernym.com
@@ -57951,6 +58039,10 @@ P:
     S: github
     U: darrellodonnell
   - M: Darrell O'Donnell
+    S: jira
+    U: darrell.odonnell
+  - E: darrell.odonnell!continuumloop.com
+    M: Darrell O'Donnell
     S: jira
     U: darrell.odonnell
   B: 0
@@ -60497,94 +60589,3 @@ P:
     S: git
   B: 0
   U: Dave Protasowski
-- C: US
-  E: dprotaso!gmail.com
-  R:
-  - T: "2017-02-01"
-    C: Google
-    F: "2015-06-03"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: dprotaso!gmail.com
-    S: cloudfoundry:manual
-  - E: dprotasowski!pivotal.io
-    S: cloudfoundry:manual
-  - M: David Protasowski
-    S: cloudfoundry:manual
-  - E: dprotaso!gmail.com
-    M: David Protasowski
-    S: file:cff
-  - E: dprotasowski!pivotal.io
-    M: David Protasowski
-    S: file:cff
-  - E: dprotaso!gmail.com
-    M: Dave Protasowski
-    S: git
-  - E: dprotaso!gmail.com
-    M: David Protasowski
-    S: git
-  - E: dprotaso!gmail.com
-    M: dave
-    S: git
-  - E: dprotasowski!pivotal.io
-    M: David Protasowski
-    S: groupsio
-  - E: dprotasowski!pivotal.io
-    M: David Protasowski
-    S: mbox
-  - E: dprotaso!gmail.com
-    M: dave protasowski
-    S: slack
-    U: dprotaso
-  - E: dprotaso!gmail.com
-    M: davep
-    S: slack
-    U: davep
-  B: 0
-  U: Dave Protasowski
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Cimpress-MCP
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Dave Purrington
-    S: github
-    U: dpurrington
-  B: 0
-  U: Dave Purrington
-- C: US
-  E: dave.purrington!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Cimpress-MCP
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: dave.purrington!gmail.com
-    M: Dave Purrington
-    S: git
-  B: 0
-  U: Dave Purrington
-- C: US
-  R:
-  - T: "2014-06-01"
-    C: Flow Software
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Airtasker Pty
-    F: "2014-06-01"
-    R: C
-  S: male
-  I:
-  - M: Dave Rawks
-    S: github
-    U: drawks
-  B: 0
-  U: Dave Rawks
