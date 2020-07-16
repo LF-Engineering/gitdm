@@ -764,7 +764,7 @@ P:
     C: Soramitsu
     F: "2019-01-09"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Soramitsu
     F: "2019-01-23"
@@ -9923,11 +9923,6 @@ P:
   - T: "2100-01-01"
     C: Web3 Labs
     F: "2015-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: Web3 Labs
-    F: "2015-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -9935,6 +9930,11 @@ P:
     F: "2015-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: Web3 Labs
+    F: "2015-12-31"
+    P: hyperledger/besu
+    R: M
   I:
   - E: iikirilov!gmail.com
     M: Ivaylo Kirilov
@@ -20275,11 +20275,6 @@ P:
   - T: "2013-06-30"
     C: Ameriprise Financial Services, Inc
     F: "2003-03-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2013-06-30"
-    C: Ameriprise Financial Services, Inc
-    F: "2003-03-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2013-06-30"
@@ -20290,18 +20285,18 @@ P:
   - T: "2013-06-30"
     C: Ameriprise Financial Services, Inc
     F: "2003-03-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2013-06-30"
+    C: Ameriprise Financial Services, Inc
+    F: "2003-03-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2013-06-30"
     C: Ameriprise Financial Services, Inc
     F: "2003-03-31"
     P: hyperledger/transact
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2013-06-30"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2013-06-30"
@@ -20315,13 +20310,18 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2013-06-30"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2013-06-30"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2013-06-30"
     P: hyperledger/transact
-    R: C
+    R: M
   I:
   - M: James Mitchell
     S: confluence
@@ -21485,11 +21485,6 @@ P:
   - T: "2100-01-01"
     C: IBM UK Lab Campus
     F: "1996-12-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM UK Lab Campus
-    F: "1996-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -21497,6 +21492,11 @@ P:
     F: "1996-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM UK Lab Campus
+    F: "1996-12-31"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "1997-08-31"
@@ -21510,11 +21510,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1997-08-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1997-08-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -21522,6 +21517,11 @@ P:
     F: "1997-08-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1997-08-31"
+    P: hyperledger/fabric
+    R: M
   I:
   - E: jamest!uk.ibm.com
     M: James Taylor
@@ -27775,11 +27775,6 @@ P:
   - T: "2008-10-31"
     C: Workingmouse
     F: "2005-10-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2008-10-31"
-    C: Workingmouse
-    F: "2005-10-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2008-10-31"
@@ -27787,11 +27782,11 @@ P:
     F: "2005-10-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2009-04-30"
-    C: Event Zero
-    F: "2008-11-30"
+  - T: "2008-10-31"
+    C: Workingmouse
+    F: "2005-10-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2009-04-30"
     C: Event Zero
     F: "2008-11-30"
@@ -27800,28 +27795,28 @@ P:
   - T: "2009-04-30"
     C: Event Zero
     F: "2008-11-30"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2009-04-30"
+    C: Event Zero
+    F: "2008-11-30"
+    P: hyperledger/besu
+    R: M
+  - T: "2010-07-31"
+    C: Sikkra
+    F: "2009-06-30"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2010-07-31"
+    C: Sikkra
+    F: "2009-06-30"
     P: hyperledger/hyperledger-dlt
     R: C
   - T: "2010-07-31"
     C: Sikkra
     F: "2009-06-30"
     P: hyperledger/besu
-    R: C
-  - T: "2010-07-31"
-    C: Sikkra
-    F: "2009-06-30"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2010-07-31"
-    C: Sikkra
-    F: "2009-06-30"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2014-06-30"
-    C: Tiny
-    F: "2010-08-31"
-    P: hyperledger/besu
-    R: C
+    R: M
   - T: "2014-06-30"
     C: Tiny
     F: "2010-08-31"
@@ -27832,11 +27827,11 @@ P:
     F: "2010-08-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2016-06-30"
-    C: Comparethemarket.com.au
-    F: "2014-06-30"
+  - T: "2014-06-30"
+    C: Tiny
+    F: "2010-08-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2016-06-30"
     C: Comparethemarket.com.au
     F: "2014-06-30"
@@ -27847,11 +27842,11 @@ P:
     F: "2014-06-30"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2017-04-30"
-    C: Mastercard
-    F: "2016-06-30"
+  - T: "2016-06-30"
+    C: Comparethemarket.com.au
+    F: "2014-06-30"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2017-04-30"
     C: Mastercard
     F: "2016-06-30"
@@ -27862,11 +27857,11 @@ P:
     F: "2016-06-30"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2017-06-30"
-    C: The System Works Group
-    F: "2017-04-30"
+  - T: "2017-04-30"
+    C: Mastercard
+    F: "2016-06-30"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2017-06-30"
     C: The System Works Group
     F: "2017-04-30"
@@ -27877,11 +27872,11 @@ P:
     F: "2017-04-30"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2018-07-31"
-    C: e&e Solutions
-    F: "2017-06-30"
+  - T: "2017-06-30"
+    C: The System Works Group
+    F: "2017-04-30"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2018-07-31"
     C: e&e Solutions
     F: "2017-06-30"
@@ -27890,20 +27885,35 @@ P:
   - T: "2018-07-31"
     C: e&e Solutions
     F: "2017-06-30"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2018-07-31"
+    C: e&e Solutions
+    F: "2017-06-30"
+    P: hyperledger/besu
+    R: M
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2018-07-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2018-07-31"
     P: hyperledger/hyperledger-dlt
     R: C
   - T: "2100-01-01"
     C: ConsenSys
     F: "2018-07-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2100-01-01"
-    C: ConsenSys
+    C: PegaSys
     F: "2018-07-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
-    C: ConsenSys
+    C: PegaSys
     F: "2018-07-31"
     P: hyperledger/hyperledger-dlt
     R: C
@@ -27911,17 +27921,7 @@ P:
     C: PegaSys
     F: "2018-07-31"
     P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: PegaSys
-    F: "2018-07-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: PegaSys
-    F: "2018-07-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
+    R: M
   I:
   - E: 909467+jframe!users.noreply.github.com
     M: Jason Frame
@@ -29646,11 +29646,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-08-30"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-08-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -29658,6 +29653,11 @@ P:
     F: "2016-08-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-08-30"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2019-10-08"
@@ -31591,11 +31591,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2015-07-01"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -31603,6 +31598,11 @@ P:
     F: "2015-07-01"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: hyperledger/fabric
+    R: M
   S: male
   I:
   - M: Jay Guo
@@ -34746,13 +34746,13 @@ P:
   - T: "2100-01-01"
     C: Depository Trust & Clearing Corporation
     F: "2017-09-05"
-    P: hyperledger/explorer
+    P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
     C: Depository Trust & Clearing Corporation
     F: "2017-09-05"
-    P: hyperledger/hyperledger-all
-    R: C
+    P: hyperledger/explorer
+    R: M
   I:
   - E: jeevasang!gmail.com
     M: jeeva sang
@@ -53634,11 +53634,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2017-09-26"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-09-26"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -53646,6 +53641,11 @@ P:
     F: "2017-09-26"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-09-26"
+    P: hyperledger/fabric
+    R: M
   I:
   - M: Joe Alewine
     S: confluence

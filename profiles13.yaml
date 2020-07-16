@@ -455,11 +455,6 @@ P:
   - T: "2020-02-28"
     C: IBM
     F: "2016-12-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "2020-02-28"
-    C: IBM
-    F: "2016-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2020-02-28"
@@ -472,6 +467,11 @@ P:
     F: "2016-12-31"
     P: hyperledger/transact
     R: C
+  - T: "2020-02-28"
+    C: IBM
+    F: "2016-12-31"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: Google
     F: "2020-03-01"
@@ -510,11 +510,6 @@ P:
   - T: "2100-01-01"
     C: Google
     F: "2020-03-01"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2020-03-01"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -527,6 +522,11 @@ P:
     F: "2020-03-01"
     P: hyperledger/transact
     R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2020-03-01"
+    P: hyperledger/fabric
+    R: M
   I:
   - M: Swetha Repakula
     S: confluence
@@ -19366,11 +19366,6 @@ P:
   - T: "2100-01-01"
     C: ConsenSys
     F: "2015-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2015-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -19378,6 +19373,11 @@ P:
     F: "2015-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2015-12-31"
+    P: hyperledger/besu
+    R: M
   S: male
   I:
   - M: Tim Beiko
@@ -31166,7 +31166,7 @@ P:
     C: Streetcred ID
     F: "2018-03-02"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Streetcred ID
     F: "2018-03-19"
@@ -36846,11 +36846,6 @@ P:
   - T: "2001-10-31"
     C: Queensland Rail
     F: "1999-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2001-10-31"
-    C: Queensland Rail
-    F: "1999-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2001-10-31"
@@ -36858,11 +36853,11 @@ P:
     F: "1999-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2012-05-31"
-    C: BAE Systems
-    F: "2007-07-31"
+  - T: "2001-10-31"
+    C: Queensland Rail
+    F: "1999-12-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2012-05-31"
     C: BAE Systems
     F: "2007-07-31"
@@ -36871,28 +36866,28 @@ P:
   - T: "2012-05-31"
     C: BAE Systems
     F: "2007-07-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2012-05-31"
+    C: BAE Systems
+    F: "2007-07-31"
+    P: hyperledger/besu
+    R: M
+  - T: "2015-03-31"
+    C: CAE
+    F: "2012-06-30"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2015-03-31"
+    C: CAE
+    F: "2012-06-30"
     P: hyperledger/hyperledger-dlt
     R: C
   - T: "2015-03-31"
     C: CAE
     F: "2012-06-30"
     P: hyperledger/besu
-    R: C
-  - T: "2015-03-31"
-    C: CAE
-    F: "2012-06-30"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2015-03-31"
-    C: CAE
-    F: "2012-06-30"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2016-02-29"
-    C: Planet Innovation
-    F: "2015-03-31"
-    P: hyperledger/besu
-    R: C
+    R: M
   - T: "2016-02-29"
     C: Planet Innovation
     F: "2015-03-31"
@@ -36903,11 +36898,11 @@ P:
     F: "2015-03-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2016-08-31"
-    C: Nation Safety Agency
-    F: "2016-02-29"
+  - T: "2016-02-29"
+    C: Planet Innovation
+    F: "2015-03-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2016-08-31"
     C: Nation Safety Agency
     F: "2016-02-29"
@@ -36918,11 +36913,11 @@ P:
     F: "2016-02-29"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2018-04-30"
-    C: Planet Innovation
-    F: "2016-08-31"
+  - T: "2016-08-31"
+    C: Nation Safety Agency
+    F: "2016-02-29"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2018-04-30"
     C: Planet Innovation
     F: "2016-08-31"
@@ -36933,11 +36928,11 @@ P:
     F: "2016-08-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2018-04-30"
+  - T: "2018-04-30"
+    C: Planet Innovation
+    F: "2016-08-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2100-01-01"
     C: ConsenSys
     F: "2018-04-30"
@@ -36948,6 +36943,11 @@ P:
     F: "2018-04-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2018-04-30"
+    P: hyperledger/besu
+    R: M
   I:
   - M: Trent Mohay
     S: confluence
@@ -42881,11 +42881,6 @@ P:
   - T: "2100-01-01"
     C: ConsenSys
     F: "2016-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2016-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -42893,6 +42888,11 @@ P:
     F: "2016-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2016-12-31"
+    P: hyperledger/besu
+    R: M
   I:
   - E: usman!usmans.info
     M: Usman Saleem
@@ -57333,11 +57333,6 @@ P:
   - T: "2100-01-01"
     C: The Depository Trust & Clearing Corporation (DTCC)
     F: "2016-12-31"
-    P: hyperledger/explorer
-    R: C
-  - T: "2100-01-01"
-    C: The Depository Trust & Clearing Corporation (DTCC)
-    F: "2016-12-31"
     P: hyperledger/fabric
     R: C
   - T: "2100-01-01"
@@ -57350,6 +57345,11 @@ P:
     F: "2016-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: The Depository Trust & Clearing Corporation (DTCC)
+    F: "2016-12-31"
+    P: hyperledger/explorer
+    R: M
   I:
   - M: Vinita Chinoy
     S: confluence

@@ -7678,11 +7678,6 @@ P:
   - T: "1995-12-31"
     C: Cray
     F: "1984-12-31"
-    P: hyperledger/grid
-    R: C
-  - T: "1995-12-31"
-    C: Cray
-    F: "1984-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "1995-12-31"
@@ -7693,18 +7688,18 @@ P:
   - T: "1995-12-31"
     C: Cray
     F: "1984-12-31"
-    P: hyperledger/sawtooth
+    P: hyperledger/transact
     R: C
   - T: "1995-12-31"
     C: Cray
     F: "1984-12-31"
-    P: hyperledger/transact
-    R: C
-  - T: "2004-12-31"
-    C: Yipee.io
-    F: "2002-12-31"
     P: hyperledger/grid
-    R: C
+    R: M
+  - T: "1995-12-31"
+    C: Cray
+    F: "1984-12-31"
+    P: hyperledger/sawtooth
+    R: M
   - T: "2004-12-31"
     C: Yipee.io
     F: "2002-12-31"
@@ -7718,18 +7713,18 @@ P:
   - T: "2004-12-31"
     C: Yipee.io
     F: "2002-12-31"
-    P: hyperledger/sawtooth
+    P: hyperledger/transact
     R: C
   - T: "2004-12-31"
     C: Yipee.io
     F: "2002-12-31"
-    P: hyperledger/transact
-    R: C
-  - T: "2017-06-30"
-    C: Cray
-    F: "2009-09-30"
     P: hyperledger/grid
-    R: C
+    R: M
+  - T: "2004-12-31"
+    C: Yipee.io
+    F: "2002-12-31"
+    P: hyperledger/sawtooth
+    R: M
   - T: "2017-06-30"
     C: Cray
     F: "2009-09-30"
@@ -7743,18 +7738,18 @@ P:
   - T: "2017-06-30"
     C: Cray
     F: "2009-09-30"
-    P: hyperledger/sawtooth
+    P: hyperledger/transact
     R: C
   - T: "2017-06-30"
     C: Cray
     F: "2009-09-30"
-    P: hyperledger/transact
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-08-31"
     P: hyperledger/grid
-    R: C
+    R: M
+  - T: "2017-06-30"
+    C: Cray
+    F: "2009-09-30"
+    P: hyperledger/sawtooth
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-08-31"
@@ -7768,13 +7763,18 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-08-31"
-    P: hyperledger/sawtooth
+    P: hyperledger/transact
     R: C
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-08-31"
-    P: hyperledger/transact
-    R: C
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2017-08-31"
+    P: hyperledger/sawtooth
+    R: M
   I:
   - E: 31738106+chenette!users.noreply.github.com
     M: Anne Chenette
@@ -8960,11 +8960,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2018-01-25"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2018-01-25"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -8972,6 +8967,11 @@ P:
     F: "2018-01-25"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-01-25"
+    P: hyperledger/fabric
+    R: M
   I:
   - M: Anthony O'Dowd
     S: confluence
@@ -9960,11 +9960,6 @@ P:
   - T: "2020-05-01"
     C: The Machine Consultancy
     F: "2016-12-30"
-    P: hyperledger/besu
-    R: C
-  - T: "2020-05-01"
-    C: The Machine Consultancy
-    F: "2016-12-30"
     P: hyperledger/caliper
     R: C
   - T: "2020-05-01"
@@ -9982,11 +9977,11 @@ P:
     F: "2016-12-30"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2100-01-01"
-    C: Splunk
-    F: "2020-05-02"
+  - T: "2020-05-01"
+    C: The Machine Consultancy
+    F: "2016-12-30"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Splunk
     F: "2020-05-02"
@@ -10007,6 +10002,11 @@ P:
     F: "2020-05-02"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: Splunk
+    F: "2020-05-02"
+    P: hyperledger/besu
+    R: M
   S: male
   I:
   - M: Antoine Toulme
@@ -16571,11 +16571,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-10-11"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-10-11"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -16583,6 +16578,11 @@ P:
     F: "2016-10-11"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-10-11"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2017-03-07"
@@ -17437,7 +17437,7 @@ P:
     C: Mobilon Telecommunications
     F: "2013-03-31"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2015-09-30"
     C: Siberian.pro
     F: "2015-03-31"
@@ -17457,7 +17457,7 @@ P:
     C: Siberian.pro
     F: "2015-03-31"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2017-05-31"
     C: XPOHOC LLC
     F: "2016-01-31"
@@ -17477,7 +17477,7 @@ P:
     C: XPOHOC LLC
     F: "2016-01-31"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2017-01-31"
     C: Gost Group
     F: "2016-09-30"
@@ -17497,7 +17497,7 @@ P:
     C: Gost Group
     F: "2016-09-30"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2018-08-31"
     C: Soramitsu
     F: "2017-07-31"
@@ -17517,7 +17517,7 @@ P:
     C: Soramitsu
     F: "2017-07-31"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Metro Engines
     F: "2018-11-30"
@@ -17537,7 +17537,7 @@ P:
     C: Metro Engines
     F: "2018-11-30"
     P: hyperledger/iroha
-    R: C
+    R: M
   I:
   - E: stinger112!gmail.com
     M: Arseniy Fokin
@@ -17826,11 +17826,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-10-30"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-10-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -17838,6 +17833,11 @@ P:
     F: "2016-10-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-10-30"
+    P: hyperledger/fabric
+    R: M
   - T: "2017-07-13"
     C: IBM
     F: "2017-02-03"
@@ -19456,7 +19456,7 @@ P:
     C: WOOPPAY
     F: "1900-01-01"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2017-08-01"
     C: Independent
     F: "2015-06-01"
@@ -19471,7 +19471,7 @@ P:
     C: Independent
     F: "2015-06-01"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2018-04-01"
     C: FIX
     F: "2017-08-01"
@@ -19486,7 +19486,7 @@ P:
     C: FIX
     F: "2017-08-01"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2019-09-01"
     C: Soramitsu
     F: "2018-04-01"
@@ -19501,7 +19501,7 @@ P:
     C: Soramitsu
     F: "2018-04-01"
     P: hyperledger/iroha
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Provectus
     F: "2019-09-01"
@@ -19516,7 +19516,7 @@ P:
     C: Provectus
     F: "2019-09-01"
     P: hyperledger/iroha
-    R: C
+    R: M
   S: male
   I:
   - E: a!bakhtin.net
@@ -20187,7 +20187,7 @@ P:
     C: Intel Corporation
     F: "2017-04-01"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Walmart
     F: "2019-10-01"
@@ -20207,7 +20207,7 @@ P:
     C: Walmart
     F: "2019-10-01"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   I:
   - M: Arun S M
     S: confluence
@@ -25386,7 +25386,7 @@ P:
     C: Fujitsu
     F: "2018-07-19"
     P: hyperledger/explorer
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Fujitsu
     F: "2018-08-02"
@@ -25604,11 +25604,6 @@ P:
   - T: "2013-05-31"
     C: Evopro Systems Engineering Kft
     F: "2012-12-31"
-    P: hyperledger/caliper
-    R: C
-  - T: "2013-05-31"
-    C: Evopro Systems Engineering Kft
-    F: "2012-12-31"
     P: hyperledger/fabric
     R: C
   - T: "2013-05-31"
@@ -25621,11 +25616,11 @@ P:
     F: "2012-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2100-01-01"
-    C: Budapest University of Technology and Economics
-    F: "2016-08-31"
+  - T: "2013-05-31"
+    C: Evopro Systems Engineering Kft
+    F: "2012-12-31"
     P: hyperledger/caliper
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Budapest University of Technology and Economics
     F: "2016-08-31"
@@ -25641,11 +25636,11 @@ P:
     F: "2016-08-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2017-09-25"
-    C: Hyperledger Intern
-    F: "2017-06-01"
+  - T: "2100-01-01"
+    C: Budapest University of Technology and Economics
+    F: "2016-08-31"
     P: hyperledger/caliper
-    R: C
+    R: M
   - T: "2017-09-25"
     C: Hyperledger Intern
     F: "2017-06-01"
@@ -25661,6 +25656,11 @@ P:
     F: "2017-06-01"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2017-09-25"
+    C: Hyperledger Intern
+    F: "2017-06-01"
+    P: hyperledger/caliper
+    R: M
   I:
   - M: Attila Klenik
     S: confluence
@@ -48786,11 +48786,6 @@ P:
   - T: "1994-10-31"
     C: Promis Systems Corporation
     F: "1994-03-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "1994-10-31"
-    C: Promis Systems Corporation
-    F: "1994-03-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "1994-10-31"
@@ -48798,6 +48793,11 @@ P:
     F: "1994-03-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "1994-10-31"
+    C: Promis Systems Corporation
+    F: "1994-03-31"
+    P: hyperledger/fabric
+    R: M
   - T: "1995-04-30"
     C: Syndesis Limited
     F: "1994-11-30"
@@ -48811,11 +48811,6 @@ P:
   - T: "1995-04-30"
     C: Syndesis Limited
     F: "1994-11-30"
-    P: hyperledger/fabric
-    R: C
-  - T: "1995-04-30"
-    C: Syndesis Limited
-    F: "1994-11-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "1995-04-30"
@@ -48823,6 +48818,11 @@ P:
     F: "1994-11-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "1995-04-30"
+    C: Syndesis Limited
+    F: "1994-11-30"
+    P: hyperledger/fabric
+    R: M
   - T: "1998-11-30"
     C: Promis Systems Corporation
     F: "1995-05-31"
@@ -48836,11 +48836,6 @@ P:
   - T: "1998-11-30"
     C: Promis Systems Corporation
     F: "1995-05-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "1998-11-30"
-    C: Promis Systems Corporation
-    F: "1995-05-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "1998-11-30"
@@ -48848,6 +48843,11 @@ P:
     F: "1995-05-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "1998-11-30"
+    C: Promis Systems Corporation
+    F: "1995-05-31"
+    P: hyperledger/fabric
+    R: M
   - T: "2007-04-30"
     C: 724 Solutions Software Inc.
     F: "1998-12-31"
@@ -48861,11 +48861,6 @@ P:
   - T: "2007-04-30"
     C: 724 Solutions Software Inc.
     F: "1998-12-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "2007-04-30"
-    C: 724 Solutions Software Inc.
-    F: "1998-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2007-04-30"
@@ -48873,6 +48868,11 @@ P:
     F: "1998-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2007-04-30"
+    C: 724 Solutions Software Inc.
+    F: "1998-12-31"
+    P: hyperledger/fabric
+    R: M
   - T: "2006-11-30"
     C: Reserve America
     F: "2006-05-31"
@@ -48886,11 +48886,6 @@ P:
   - T: "2006-11-30"
     C: Reserve America
     F: "2006-05-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "2006-11-30"
-    C: Reserve America
-    F: "2006-05-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2006-11-30"
@@ -48898,6 +48893,11 @@ P:
     F: "2006-05-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2006-11-30"
+    C: Reserve America
+    F: "2006-05-31"
+    P: hyperledger/fabric
+    R: M
   - T: "2013-02-28"
     C: D.A. Soft Inc.
     F: "2006-06-30"
@@ -48911,11 +48911,6 @@ P:
   - T: "2013-02-28"
     C: D.A. Soft Inc.
     F: "2006-06-30"
-    P: hyperledger/fabric
-    R: C
-  - T: "2013-02-28"
-    C: D.A. Soft Inc.
-    F: "2006-06-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2013-02-28"
@@ -48923,6 +48918,11 @@ P:
     F: "2006-06-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2013-02-28"
+    C: D.A. Soft Inc.
+    F: "2006-06-30"
+    P: hyperledger/fabric
+    R: M
   - T: "2017-11-30"
     C: Active Network, Inc.
     F: "2008-11-30"
@@ -48936,11 +48936,6 @@ P:
   - T: "2017-11-30"
     C: Active Network, Inc.
     F: "2008-11-30"
-    P: hyperledger/fabric
-    R: C
-  - T: "2017-11-30"
-    C: Active Network, Inc.
-    F: "2008-11-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2017-11-30"
@@ -48948,6 +48943,11 @@ P:
     F: "2008-11-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2017-11-30"
+    C: Active Network, Inc.
+    F: "2008-11-30"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: SecureKey Technologies Inc
     F: "2017-01-31"
@@ -48961,11 +48961,6 @@ P:
   - T: "2100-01-01"
     C: SecureKey Technologies Inc
     F: "2017-01-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: SecureKey Technologies Inc
-    F: "2017-01-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -48973,6 +48968,11 @@ P:
     F: "2017-01-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2017-01-31"
+    P: hyperledger/fabric
+    R: M
   I:
   - E: Bob.Stasyszyn!securekey.com
     M: Bob Stasyszyn
@@ -51389,13 +51389,13 @@ P:
   - T: "2014-07-31"
     C: Regis Corporation
     F: "2013-06-30"
-    P: hyperledger/sawtooth
+    P: hyperledger/transact
     R: C
   - T: "2014-07-31"
     C: Regis Corporation
     F: "2013-06-30"
-    P: hyperledger/transact
-    R: C
+    P: hyperledger/sawtooth
+    R: M
   - T: "2019-01-31"
     C: Bitwise
     F: "2016-05-31"
@@ -51414,13 +51414,13 @@ P:
   - T: "2019-01-31"
     C: Bitwise
     F: "2016-05-31"
-    P: hyperledger/sawtooth
+    P: hyperledger/transact
     R: C
   - T: "2019-01-31"
     C: Bitwise
     F: "2016-05-31"
-    P: hyperledger/transact
-    R: C
+    P: hyperledger/sawtooth
+    R: M
   I:
   - E: bjohnson!bitwise.io
     M: Boyd Johnson
@@ -54934,11 +54934,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-09-14"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-09-14"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -54946,6 +54941,11 @@ P:
     F: "2016-09-14"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-09-14"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2017-01-05"
@@ -55179,11 +55179,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2019-01-30"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2019-01-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -55191,6 +55186,11 @@ P:
     F: "2019-01-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-01-30"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2019-02-05"

@@ -3886,11 +3886,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2018-06-20"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2018-06-20"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -3898,6 +3893,11 @@ P:
     F: "2018-06-20"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-06-20"
+    P: hyperledger/fabric
+    R: M
   I:
   - E: andrew_coleman!uk.ibm.com
     M: Andrew Coleman
@@ -7834,11 +7834,6 @@ P:
   - T: "2017-08-01"
     C: IBM
     F: "2012-01-01"
-    P: hyperledger/cello
-    R: C
-  - T: "2017-08-01"
-    C: IBM
-    F: "2012-01-01"
     P: hyperledger/explorer
     R: C
   - T: "2017-08-01"
@@ -7861,6 +7856,11 @@ P:
     F: "2012-01-01"
     P: hyperledger/indy
     R: C
+  - T: "2017-08-01"
+    C: IBM
+    F: "2012-01-01"
+    P: hyperledger/cello
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2013-11-07"
@@ -7884,11 +7884,6 @@ P:
   - T: "2100-01-01"
     C: Oracle America Inc.
     F: "2017-08-01"
-    P: hyperledger/cello
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "2017-08-01"
     P: hyperledger/explorer
     R: C
   - T: "2100-01-01"
@@ -7911,6 +7906,11 @@ P:
     F: "2017-08-01"
     P: hyperledger/indy
     R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "2017-08-01"
+    P: hyperledger/cello
+    R: M
   S: female
   I:
   - M: Baohua Yang
@@ -25775,11 +25775,6 @@ P:
   - T: "2016-04-30"
     C: Macalester College
     F: "2014-08-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2016-04-30"
-    C: Macalester College
-    F: "2014-08-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2016-04-30"
@@ -25790,18 +25785,18 @@ P:
   - T: "2016-04-30"
     C: Macalester College
     F: "2014-08-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2016-04-30"
+    C: Macalester College
+    F: "2014-08-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2016-04-30"
     C: Macalester College
     F: "2014-08-31"
     P: hyperledger/transact
-    R: C
-  - T: "2017-04-30"
-    C: Minnesota Department of Commerce
-    F: "2016-04-30"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2017-04-30"
     C: Minnesota Department of Commerce
     F: "2016-04-30"
@@ -25815,18 +25810,18 @@ P:
   - T: "2017-04-30"
     C: Minnesota Department of Commerce
     F: "2016-04-30"
+    P: hyperledger/grid
+    R: M
+  - T: "2017-04-30"
+    C: Minnesota Department of Commerce
+    F: "2016-04-30"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2017-04-30"
     C: Minnesota Department of Commerce
     F: "2016-04-30"
     P: hyperledger/transact
-    R: C
-  - T: "2017-04-30"
-    C: Macalester College
-    F: "2016-08-31"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2017-04-30"
     C: Macalester College
     F: "2016-08-31"
@@ -25840,18 +25835,18 @@ P:
   - T: "2017-04-30"
     C: Macalester College
     F: "2016-08-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2017-04-30"
+    C: Macalester College
+    F: "2016-08-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2017-04-30"
     C: Macalester College
     F: "2016-08-31"
     P: hyperledger/transact
-    R: C
-  - T: "2017-08-31"
-    C: Macalester College
-    F: "2017-04-30"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2017-08-31"
     C: Macalester College
     F: "2017-04-30"
@@ -25865,18 +25860,18 @@ P:
   - T: "2017-08-31"
     C: Macalester College
     F: "2017-04-30"
+    P: hyperledger/grid
+    R: M
+  - T: "2017-08-31"
+    C: Macalester College
+    F: "2017-04-30"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2017-08-31"
     C: Macalester College
     F: "2017-04-30"
     P: hyperledger/transact
-    R: C
-  - T: "2017-11-30"
-    C: Token of Trust
-    F: "2017-08-31"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2017-11-30"
     C: Token of Trust
     F: "2017-08-31"
@@ -25890,18 +25885,18 @@ P:
   - T: "2017-11-30"
     C: Token of Trust
     F: "2017-08-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2017-11-30"
+    C: Token of Trust
+    F: "2017-08-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2017-11-30"
     C: Token of Trust
     F: "2017-08-31"
     P: hyperledger/transact
-    R: C
-  - T: "2018-04-30"
-    C: Software for Good
-    F: "2017-12-31"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2018-04-30"
     C: Software for Good
     F: "2017-12-31"
@@ -25915,18 +25910,18 @@ P:
   - T: "2018-04-30"
     C: Software for Good
     F: "2017-12-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2018-04-30"
+    C: Software for Good
+    F: "2017-12-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2018-04-30"
     C: Software for Good
     F: "2017-12-31"
     P: hyperledger/transact
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2018-05-31"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2018-05-31"
@@ -25940,13 +25935,18 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2018-05-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2018-05-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2018-05-31"
     P: hyperledger/transact
-    R: C
+    R: M
   I:
   - E: eloafverona!gmail.com
     M: eloaverona
@@ -28513,7 +28513,7 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "2018-03-20"
     P: hyperledger/caliper
-    R: C
+    R: M
   I:
   - E: jiangfeihu!huawei.com
     M: feihu jiang
@@ -49185,7 +49185,7 @@ P:
     C: Soramitsu
     F: "2015-12-31"
     P: hyperledger/iroha
-    R: C
+    R: M
   I:
   - E: kamilsa16!gmail.com
     M: kamilsa

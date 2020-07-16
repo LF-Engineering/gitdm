@@ -741,11 +741,6 @@ P:
   - T: "2010-12-31"
     C: Oracle America Inc.
     F: "2006-09-30"
-    P: hyperledger/explorer
-    R: C
-  - T: "2010-12-31"
-    C: Oracle America Inc.
-    F: "2006-09-30"
     P: hyperledger/fabric
     R: C
   - T: "2010-12-31"
@@ -758,6 +753,11 @@ P:
     F: "2006-09-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2010-12-31"
+    C: Oracle America Inc.
+    F: "2006-09-30"
+    P: hyperledger/explorer
+    R: M
   - T: "2015-07-31"
     C: NCS Group
     F: "2010-12-31"
@@ -771,11 +771,6 @@ P:
   - T: "2015-07-31"
     C: NCS Group
     F: "2010-12-31"
-    P: hyperledger/explorer
-    R: C
-  - T: "2015-07-31"
-    C: NCS Group
-    F: "2010-12-31"
     P: hyperledger/fabric
     R: C
   - T: "2015-07-31"
@@ -788,6 +783,11 @@ P:
     F: "2010-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2015-07-31"
+    C: NCS Group
+    F: "2010-12-31"
+    P: hyperledger/explorer
+    R: M
   - T: "2019-06-30"
     C: The Depository Trust & Clearing Corporation (DTCC)
     F: "2015-08-31"
@@ -801,11 +801,6 @@ P:
   - T: "2019-06-30"
     C: The Depository Trust & Clearing Corporation (DTCC)
     F: "2015-08-31"
-    P: hyperledger/explorer
-    R: C
-  - T: "2019-06-30"
-    C: The Depository Trust & Clearing Corporation (DTCC)
-    F: "2015-08-31"
     P: hyperledger/fabric
     R: C
   - T: "2019-06-30"
@@ -818,6 +813,11 @@ P:
     F: "2015-08-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2019-06-30"
+    C: The Depository Trust & Clearing Corporation (DTCC)
+    F: "2015-08-31"
+    P: hyperledger/explorer
+    R: M
   I:
   - E: satheesh.ceg!gmail.com
     M: Satheesh Kathamuthu
@@ -4797,11 +4797,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-12-20"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-12-20"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -4809,6 +4804,11 @@ P:
     F: "2016-12-20"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-12-20"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2020-03-25"
@@ -7138,11 +7138,6 @@ P:
   - T: "2018-03-01"
     C: IBM
     F: "1900-01-01"
-    P: hyperledger/burrow
-    R: C
-  - T: "2018-03-01"
-    C: IBM
-    F: "1900-01-01"
     P: hyperledger/fabric
     R: C
   - T: "2018-03-01"
@@ -7160,6 +7155,11 @@ P:
     F: "1900-01-01"
     P: hyperledger/sawtooth
     R: C
+  - T: "2018-03-01"
+    C: IBM
+    F: "1900-01-01"
+    P: hyperledger/burrow
+    R: M
   - T: "2100-01-01"
     C: Monax
     F: "2018-02-27"
@@ -7178,11 +7178,6 @@ P:
   - T: "2100-01-01"
     C: Monax
     F: "2018-02-27"
-    P: hyperledger/burrow
-    R: C
-  - T: "2100-01-01"
-    C: Monax
-    F: "2018-02-27"
     P: hyperledger/fabric
     R: C
   - T: "2100-01-01"
@@ -7200,6 +7195,11 @@ P:
     F: "2018-02-27"
     P: hyperledger/sawtooth
     R: C
+  - T: "2100-01-01"
+    C: Monax
+    F: "2018-02-27"
+    P: hyperledger/burrow
+    R: M
   - T: "2100-01-01"
     C: Independent
     F: "2019-12-01"
@@ -7218,11 +7218,6 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "2019-12-01"
-    P: hyperledger/burrow
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2019-12-01"
     P: hyperledger/fabric
     R: C
   - T: "2100-01-01"
@@ -7240,6 +7235,11 @@ P:
     F: "2019-12-01"
     P: hyperledger/sawtooth
     R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-12-01"
+    P: hyperledger/burrow
+    R: M
   S: male
   I:
   - M: Sean Young
@@ -16667,11 +16667,6 @@ P:
   - T: "2018-04-30"
     C: University of Minnesota
     F: "2014-12-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2018-04-30"
-    C: University of Minnesota
-    F: "2014-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2018-04-30"
@@ -16682,13 +16677,18 @@ P:
   - T: "2018-04-30"
     C: University of Minnesota
     F: "2014-12-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2018-04-30"
+    C: University of Minnesota
+    F: "2014-12-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2018-04-30"
     C: University of Minnesota
     F: "2014-12-31"
     P: hyperledger/transact
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2018-05-31"
@@ -16697,11 +16697,6 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2018-05-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2018-05-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -16712,13 +16707,18 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2018-05-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2018-05-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2018-05-31"
     P: hyperledger/transact
-    R: C
+    R: M
   I:
   - E: telander!bitwise.io
     M: Shannyn Telander
@@ -18545,11 +18545,6 @@ P:
   - T: "2011-01-31"
     C: SGI
     F: "2009-09-30"
-    P: hyperledger/grid
-    R: C
-  - T: "2011-01-31"
-    C: SGI
-    F: "2009-09-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2011-01-31"
@@ -18570,18 +18565,23 @@ P:
   - T: "2011-01-31"
     C: SGI
     F: "2009-09-30"
-    P: hyperledger/sawtooth
+    P: hyperledger/ursa
     R: C
+  - T: "2011-01-31"
+    C: SGI
+    F: "2009-09-30"
+    P: hyperledger/grid
+    R: M
+  - T: "2011-01-31"
+    C: SGI
+    F: "2009-09-30"
+    P: hyperledger/sawtooth
+    R: M
   - T: "2011-01-31"
     C: SGI
     F: "2009-09-30"
     P: hyperledger/transact
-    R: C
-  - T: "2011-01-31"
-    C: SGI
-    F: "2009-09-30"
-    P: hyperledger/ursa
-    R: C
+    R: M
   - T: "2013-07-31"
     C: Ameriprise Financial Services, Inc
     F: "2011-01-31"
@@ -18595,11 +18595,6 @@ P:
   - T: "2013-07-31"
     C: Ameriprise Financial Services, Inc
     F: "2011-01-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2013-07-31"
-    C: Ameriprise Financial Services, Inc
-    F: "2011-01-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2013-07-31"
@@ -18620,18 +18615,23 @@ P:
   - T: "2013-07-31"
     C: Ameriprise Financial Services, Inc
     F: "2011-01-31"
-    P: hyperledger/sawtooth
+    P: hyperledger/ursa
     R: C
+  - T: "2013-07-31"
+    C: Ameriprise Financial Services, Inc
+    F: "2011-01-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2013-07-31"
+    C: Ameriprise Financial Services, Inc
+    F: "2011-01-31"
+    P: hyperledger/sawtooth
+    R: M
   - T: "2013-07-31"
     C: Ameriprise Financial Services, Inc
     F: "2011-01-31"
     P: hyperledger/transact
-    R: C
-  - T: "2013-07-31"
-    C: Ameriprise Financial Services, Inc
-    F: "2011-01-31"
-    P: hyperledger/ursa
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2013-07-31"
@@ -18645,11 +18645,6 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2013-07-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2013-07-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -18670,18 +18665,23 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2013-07-31"
-    P: hyperledger/sawtooth
+    P: hyperledger/ursa
     R: C
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2013-07-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2013-07-31"
+    P: hyperledger/sawtooth
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2013-07-31"
     P: hyperledger/transact
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2013-07-31"
-    P: hyperledger/ursa
-    R: C
+    R: M
   - T: "2016-01-01"
     C: Intel Corporation
     F: "2015-12-31"
@@ -18695,11 +18695,6 @@ P:
   - T: "2016-01-01"
     C: Intel Corporation
     F: "2015-12-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2016-01-01"
-    C: Intel Corporation
-    F: "2015-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2016-01-01"
@@ -18720,18 +18715,23 @@ P:
   - T: "2016-01-01"
     C: Intel Corporation
     F: "2015-12-31"
-    P: hyperledger/sawtooth
+    P: hyperledger/ursa
     R: C
+  - T: "2016-01-01"
+    C: Intel Corporation
+    F: "2015-12-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2016-01-01"
+    C: Intel Corporation
+    F: "2015-12-31"
+    P: hyperledger/sawtooth
+    R: M
   - T: "2016-01-01"
     C: Intel Corporation
     F: "2015-12-31"
     P: hyperledger/transact
-    R: C
-  - T: "2016-01-01"
-    C: Intel Corporation
-    F: "2015-12-31"
-    P: hyperledger/ursa
-    R: C
+    R: M
   I:
   - M: Shawn Amundson
     S: confluence
@@ -27697,11 +27697,6 @@ P:
   - T: "2016-02-29"
     C: Microsoft Corporation
     F: "2013-01-31"
-    P: hyperledger/burrow
-    R: C
-  - T: "2016-02-29"
-    C: Microsoft Corporation
-    F: "2013-01-31"
     P: hyperledger/fabric
     R: C
   - T: "2016-02-29"
@@ -27739,11 +27734,11 @@ P:
     F: "2013-01-31"
     P: hyperledger/ursa
     R: C
-  - T: "2100-01-01"
-    C: Monax
-    F: "2016-03-31"
+  - T: "2016-02-29"
+    C: Microsoft Corporation
+    F: "2013-01-31"
     P: hyperledger/burrow
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Monax
     F: "2016-03-31"
@@ -27784,6 +27779,11 @@ P:
     F: "2016-03-31"
     P: hyperledger/ursa
     R: C
+  - T: "2100-01-01"
+    C: Monax
+    F: "2016-03-31"
+    P: hyperledger/burrow
+    R: M
   S: male
   I:
   - M: Silas Davis
@@ -29497,11 +29497,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2017-04-28"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-04-28"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -29509,6 +29504,11 @@ P:
     F: "2017-04-28"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-04-28"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2019-03-06"
@@ -41421,11 +41421,6 @@ P:
   - T: "2100-01-01"
     C: ConsenSys
     F: "2015-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2015-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -41433,6 +41428,11 @@ P:
     F: "2015-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2015-12-31"
+    P: hyperledger/besu
+    R: M
   I:
   - E: 16143240+pinges!users.noreply.github.com
     M: Stefan Pingel
@@ -49160,11 +49160,6 @@ P:
   - T: "2100-01-01"
     C: ConsenSys
     F: "2016-12-30"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2016-12-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -49172,6 +49167,11 @@ P:
     F: "2016-12-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2016-12-30"
+    P: hyperledger/besu
+    R: M
   I:
   - M: steven gregg
     S: confluence
@@ -57024,11 +57024,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-12-31"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -57036,6 +57031,11 @@ P:
     F: "2016-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-12-31"
+    P: hyperledger/fabric
+    R: M
   I:
   - E: suryalnvs!gmail.com
     M: Naga Venkata Sai Surya Teja Lanka

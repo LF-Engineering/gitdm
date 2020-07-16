@@ -15069,11 +15069,6 @@ P:
   - T: "2100-01-01"
     C: ConsenSys
     F: "2016-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2016-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -15081,6 +15076,11 @@ P:
     F: "2016-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2016-12-31"
+    P: hyperledger/besu
+    R: M
   I:
   - E: ratan.r.sur!gmail.com
     M: Ratan (Rai) Sur
@@ -21838,11 +21838,6 @@ P:
   - T: "2016-11-30"
     C: Code42
     F: "2012-01-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2016-11-30"
-    C: Code42
-    F: "2012-01-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2016-11-30"
@@ -21853,13 +21848,18 @@ P:
   - T: "2016-11-30"
     C: Code42
     F: "2012-01-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2016-11-30"
+    C: Code42
+    F: "2012-01-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2016-11-30"
     C: Code42
     F: "2012-01-31"
     P: hyperledger/transact
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-01-31"
@@ -21868,11 +21868,6 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-01-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-01-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -21883,13 +21878,18 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-01-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2017-01-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-01-31"
     P: hyperledger/transact
-    R: C
+    R: M
   I:
   - E: rberg!bitwise.io
     M: Richard Berg
@@ -27030,11 +27030,6 @@ P:
   - T: "2100-01-01"
     C: ConsenSys
     F: "2018-10-17"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2018-10-17"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -27042,6 +27037,11 @@ P:
     F: "2018-10-17"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2018-10-17"
+    P: hyperledger/besu
+    R: M
   I:
   - M: Rob Dawson
     S: confluence
@@ -43534,11 +43534,6 @@ P:
   - T: "2016-04-30"
     C: University of Minnesota
     F: "2014-07-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2016-04-30"
-    C: University of Minnesota
-    F: "2014-07-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2016-04-30"
@@ -43549,18 +43544,18 @@ P:
   - T: "2016-04-30"
     C: University of Minnesota
     F: "2014-07-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2016-04-30"
+    C: University of Minnesota
+    F: "2014-07-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2016-04-30"
     C: University of Minnesota
     F: "2014-07-31"
     P: hyperledger/transact
-    R: C
-  - T: "2016-03-31"
-    C: Maverick Software Consulting
-    F: "2015-03-31"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2016-03-31"
     C: Maverick Software Consulting
     F: "2015-03-31"
@@ -43574,18 +43569,18 @@ P:
   - T: "2016-03-31"
     C: Maverick Software Consulting
     F: "2015-03-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2016-03-31"
+    C: Maverick Software Consulting
+    F: "2015-03-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2016-03-31"
     C: Maverick Software Consulting
     F: "2015-03-31"
     P: hyperledger/transact
-    R: C
-  - T: "2017-07-31"
-    C: Calabrio, Inc.
-    F: "2016-02-29"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2017-07-31"
     C: Calabrio, Inc.
     F: "2016-02-29"
@@ -43599,18 +43594,18 @@ P:
   - T: "2017-07-31"
     C: Calabrio, Inc.
     F: "2016-02-29"
+    P: hyperledger/grid
+    R: M
+  - T: "2017-07-31"
+    C: Calabrio, Inc.
+    F: "2016-02-29"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2017-07-31"
     C: Calabrio, Inc.
     F: "2016-02-29"
     P: hyperledger/transact
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-07-31"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-07-31"
@@ -43624,13 +43619,18 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-07-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2017-07-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-07-31"
     P: hyperledger/transact
-    R: C
+    R: M
   I:
   - E: lass0067!umn.edu
     M: Ryan Banks
@@ -43692,11 +43692,6 @@ P:
   - T: "2013-05-31"
     C: C.H. Robinson
     F: "2004-02-29"
-    P: hyperledger/grid
-    R: C
-  - T: "2013-05-31"
-    C: C.H. Robinson
-    F: "2004-02-29"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2013-05-31"
@@ -43707,18 +43702,18 @@ P:
   - T: "2013-05-31"
     C: C.H. Robinson
     F: "2004-02-29"
+    P: hyperledger/grid
+    R: M
+  - T: "2013-05-31"
+    C: C.H. Robinson
+    F: "2004-02-29"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2013-05-31"
     C: C.H. Robinson
     F: "2004-02-29"
     P: hyperledger/transact
-    R: C
-  - T: "2015-08-31"
-    C: Ameriprise Financial Services, Inc
-    F: "2013-05-31"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2015-08-31"
     C: Ameriprise Financial Services, Inc
     F: "2013-05-31"
@@ -43732,18 +43727,18 @@ P:
   - T: "2015-08-31"
     C: Ameriprise Financial Services, Inc
     F: "2013-05-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2015-08-31"
+    C: Ameriprise Financial Services, Inc
+    F: "2013-05-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2015-08-31"
     C: Ameriprise Financial Services, Inc
     F: "2013-05-31"
     P: hyperledger/transact
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2015-09-30"
-    P: hyperledger/grid
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2015-09-30"
@@ -43757,13 +43752,18 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2015-09-30"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2015-09-30"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2015-09-30"
     P: hyperledger/transact
-    R: C
+    R: M
   I:
   - E: rbuysse!bitwise.io
     M: Ryan Beck-Buysse
@@ -48123,11 +48123,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-10-18"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-10-18"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -48135,6 +48130,11 @@ P:
     F: "2016-10-18"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-10-18"
+    P: hyperledger/fabric
+    R: M
   - T: "2019-03-08"
     C: IBM
     F: "2017-03-14"
@@ -51365,11 +51365,6 @@ P:
   - T: "1999-12-31"
     C: IBM
     F: "1997-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "1999-12-31"
-    C: IBM
-    F: "1997-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "1999-12-31"
@@ -51377,11 +51372,11 @@ P:
     F: "1997-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2000-12-31"
-    C: Oracle America Inc.
-    F: "1999-12-31"
+  - T: "1999-12-31"
+    C: IBM
+    F: "1997-12-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2000-12-31"
     C: Oracle America Inc.
     F: "1999-12-31"
@@ -51392,11 +51387,11 @@ P:
     F: "1999-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2001-12-31"
-    C: Lecan
-    F: "2000-12-31"
+  - T: "2000-12-31"
+    C: Oracle America Inc.
+    F: "1999-12-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2001-12-31"
     C: Lecan
     F: "2000-12-31"
@@ -51407,11 +51402,11 @@ P:
     F: "2000-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2018-01-31"
-    C: University of Southern Queensland
-    F: "2003-03-31"
+  - T: "2001-12-31"
+    C: Lecan
+    F: "2000-12-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2018-01-31"
     C: University of Southern Queensland
     F: "2003-03-31"
@@ -51420,20 +51415,35 @@ P:
   - T: "2018-01-31"
     C: University of Southern Queensland
     F: "2003-03-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2018-01-31"
+    C: University of Southern Queensland
+    F: "2003-03-31"
+    P: hyperledger/besu
+    R: M
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2018-02-28"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2018-02-28"
     P: hyperledger/hyperledger-dlt
     R: C
   - T: "2100-01-01"
     C: ConsenSys
     F: "2018-02-28"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2100-01-01"
-    C: ConsenSys
+    C: PegaSys
     F: "2018-02-28"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
-    C: ConsenSys
+    C: PegaSys
     F: "2018-02-28"
     P: hyperledger/hyperledger-dlt
     R: C
@@ -51441,17 +51451,7 @@ P:
     C: PegaSys
     F: "2018-02-28"
     P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: PegaSys
-    F: "2018-02-28"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: PegaSys
-    F: "2018-02-28"
-    P: hyperledger/hyperledger-dlt
-    R: C
+    R: M
   I:
   - M: Sally MacFarlane
     S: confluence

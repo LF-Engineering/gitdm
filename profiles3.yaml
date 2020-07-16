@@ -1429,11 +1429,6 @@ P:
   - T: "2100-01-01"
     C: ConsenSys
     F: "2015-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2015-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -1441,6 +1436,11 @@ P:
     F: "2015-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2015-12-31"
+    P: hyperledger/besu
+    R: M
   I:
   - M: Byron Gravenorst
     S: confluence
@@ -8261,11 +8261,6 @@ P:
   - T: "2100-01-01"
     C: Monax
     F: "2015-06-20"
-    P: hyperledger/burrow
-    R: C
-  - T: "2100-01-01"
-    C: Monax
-    F: "2015-06-20"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -8273,6 +8268,11 @@ P:
     F: "2015-06-20"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: Monax
+    F: "2015-06-20"
+    P: hyperledger/burrow
+    R: M
   - T: "2018-08-23"
     C: Monax
     F: "2017-05-02"
@@ -28867,7 +28867,7 @@ P:
     C: IBM
     F: "2016-07-26"
     P: hyperledger/fabric
-    R: C
+    R: M
   - T: "2018-02-23"
     C: IBM
     F: "2016-08-29"
@@ -29111,11 +29111,6 @@ P:
   - T: "2020-06-01"
     C: ConsenSys
     F: "2016-12-31"
-    P: hyperledger/besu
-    R: C
-  - T: "2020-06-01"
-    C: ConsenSys
-    F: "2016-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2020-06-01"
@@ -29123,11 +29118,11 @@ P:
     F: "2016-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2020-06-03"
+  - T: "2020-06-01"
+    C: ConsenSys
+    F: "2016-12-31"
     P: hyperledger/besu
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Undisclosed
     F: "2020-06-03"
@@ -29138,6 +29133,11 @@ P:
     F: "2020-06-03"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2020-06-03"
+    P: hyperledger/besu
+    R: M
   I:
   - M: Christopher Hare
     S: confluence
@@ -45294,11 +45294,6 @@ P:
   - T: "2017-08-31"
     C: Oracle America Inc.
     F: "1999-01-31"
-    P: hyperledger/avalon
-    R: C
-  - T: "2017-08-31"
-    C: Oracle America Inc.
-    F: "1999-01-31"
     P: hyperledger/grid
     R: C
   - T: "2017-08-31"
@@ -45314,13 +45309,13 @@ P:
   - T: "2017-08-31"
     C: Oracle America Inc.
     F: "1999-01-31"
-    P: hyperledger/sawtooth
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2017-12-31"
     P: hyperledger/avalon
-    R: C
+    R: M
+  - T: "2017-08-31"
+    C: Oracle America Inc.
+    F: "1999-01-31"
+    P: hyperledger/sawtooth
+    R: M
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2017-12-31"
@@ -45339,8 +45334,13 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2017-12-31"
+    P: hyperledger/avalon
+    R: M
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-12-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   I:
   - M: Dan Anderson
     S: confluence
@@ -46968,11 +46968,6 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2016-03-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2016-03-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -46983,8 +46978,13 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2016-03-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-03-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2017-02-07"
@@ -47029,12 +47029,12 @@ P:
     C: Intel Corporation
     F: "2019-05-10"
     P: hyperledger/transact
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2019-09-27"
     P: hyperledger/avalon
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2019-10-08"
@@ -56096,11 +56096,6 @@ P:
   - T: "2100-01-01"
     C: ConsenSys
     F: "2018-10-10"
-    P: hyperledger/besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2018-10-10"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -56108,6 +56103,11 @@ P:
     F: "2018-10-10"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2018-10-10"
+    P: hyperledger/besu
+    R: M
   - T: "2100-01-01"
     C: ConsenSys
     F: "2019-10-18"
@@ -57220,11 +57220,6 @@ P:
   - T: "2017-03-31"
     C: Brady Corporation
     F: "2015-05-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2017-03-31"
-    C: Brady Corporation
-    F: "2015-05-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2017-03-31"
@@ -57235,8 +57230,13 @@ P:
   - T: "2017-03-31"
     C: Brady Corporation
     F: "2015-05-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2017-03-31"
+    C: Brady Corporation
+    F: "2015-05-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-03-31"
@@ -57245,11 +57245,6 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-03-31"
-    P: hyperledger/grid
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-03-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -57260,8 +57255,13 @@ P:
   - T: "2100-01-01"
     C: Bitwise
     F: "2017-03-31"
+    P: hyperledger/grid
+    R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2017-03-31"
     P: hyperledger/sawtooth
-    R: C
+    R: M
   I:
   - E: dplumb!bitwise.io
     M: Darian Plumb
@@ -59181,7 +59181,7 @@ P:
     C: Cargill
     F: "2019-08-14"
     P: hyperledger/grid
-    R: C
+    R: M
   - T: "2100-01-01"
     C: Cargill
     F: "2019-10-08"
@@ -59334,11 +59334,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-09-27"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-09-27"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -59346,6 +59341,11 @@ P:
     F: "2016-09-27"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-09-27"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2019-07-24"

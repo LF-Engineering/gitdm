@@ -5457,11 +5457,6 @@ P:
   - T: "2017-08-31"
     C: IBM
     F: "1998-10-30"
-    P: hyperledger/fabric
-    R: C
-  - T: "2017-08-31"
-    C: IBM
-    F: "1998-10-30"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2017-08-31"
@@ -5469,6 +5464,11 @@ P:
     F: "1998-10-30"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2017-08-31"
+    C: IBM
+    F: "1998-10-30"
+    P: hyperledger/fabric
+    R: M
   - T: "2019-10-31"
     C: StateStreet
     F: "2017-09-01"
@@ -5492,11 +5492,6 @@ P:
   - T: "2019-10-31"
     C: StateStreet
     F: "2017-09-01"
-    P: hyperledger/fabric
-    R: C
-  - T: "2019-10-31"
-    C: StateStreet
-    F: "2017-09-01"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2019-10-31"
@@ -5504,6 +5499,11 @@ P:
     F: "2017-09-01"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2019-10-31"
+    C: StateStreet
+    F: "2017-09-01"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: Manetu Inc.
     F: "2019-11-01"
@@ -5527,11 +5527,6 @@ P:
   - T: "2100-01-01"
     C: Manetu Inc.
     F: "2019-11-01"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: Manetu Inc.
-    F: "2019-11-01"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
@@ -5539,6 +5534,11 @@ P:
     F: "2019-11-01"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: Manetu Inc.
+    F: "2019-11-01"
+    P: hyperledger/fabric
+    R: M
   I:
   - M: Srinivasan Muralidharan
     S: confluence
@@ -7713,11 +7713,6 @@ P:
   - T: "2012-08-31"
     C: University of Southampton
     F: "2005-08-31"
-    P: hyperledger/caliper
-    R: C
-  - T: "2012-08-31"
-    C: University of Southampton
-    F: "2005-08-31"
     P: hyperledger/fabric
     R: C
   - T: "2012-08-31"
@@ -7730,11 +7725,11 @@ P:
     F: "2005-08-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2007-08-31"
-    C: European Space Agency
-    F: "2007-05-31"
+  - T: "2012-08-31"
+    C: University of Southampton
+    F: "2005-08-31"
     P: hyperledger/caliper
-    R: C
+    R: M
   - T: "2007-08-31"
     C: European Space Agency
     F: "2007-05-31"
@@ -7750,11 +7745,11 @@ P:
     F: "2007-05-31"
     P: hyperledger/hyperledger-dlt
     R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2013-10-31"
+  - T: "2007-08-31"
+    C: European Space Agency
+    F: "2007-05-31"
     P: hyperledger/caliper
-    R: C
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2013-10-31"
@@ -7770,6 +7765,11 @@ P:
     F: "2013-10-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2013-10-31"
+    P: hyperledger/caliper
+    R: M
   I:
   - E: nkl199!yahoo.co.uk
     M: Nick Lincoln
@@ -38036,7 +38036,7 @@ P:
     C: IBM
     F: "2017-07-31"
     P: hyperledger/cello
-    R: C
+    R: M
   - T: "2100-01-01"
     C: IBM
     F: "2017-08-17"
@@ -38915,11 +38915,6 @@ P:
   - T: "2007-07-01"
     C: Microsoft Corporation
     F: "2007-05-01"
-    P: hyperledger/fabric
-    R: C
-  - T: "2007-07-01"
-    C: Microsoft Corporation
-    F: "2007-05-01"
     P: hyperledger/grid
     R: C
   - T: "2007-07-01"
@@ -38942,6 +38937,11 @@ P:
     F: "2007-05-01"
     P: hyperledger/ursa
     R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: hyperledger/fabric
+    R: M
   - T: "2008-07-01"
     C: OANDA
     F: "2008-01-01"
@@ -38965,11 +38965,6 @@ P:
   - T: "2008-07-01"
     C: OANDA
     F: "2008-01-01"
-    P: hyperledger/fabric
-    R: C
-  - T: "2008-07-01"
-    C: OANDA
-    F: "2008-01-01"
     P: hyperledger/grid
     R: C
   - T: "2008-07-01"
@@ -38992,6 +38987,11 @@ P:
     F: "2008-01-01"
     P: hyperledger/ursa
     R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: hyperledger/fabric
+    R: M
   - T: "2100-01-01"
     C: SecureKey Technologies Inc
     F: "2008-08-01"
@@ -39015,11 +39015,6 @@ P:
   - T: "2100-01-01"
     C: SecureKey Technologies Inc
     F: "2008-08-01"
-    P: hyperledger/fabric
-    R: C
-  - T: "2100-01-01"
-    C: SecureKey Technologies Inc
-    F: "2008-08-01"
     P: hyperledger/grid
     R: C
   - T: "2100-01-01"
@@ -39042,6 +39037,11 @@ P:
     F: "2008-08-01"
     P: hyperledger/ursa
     R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: hyperledger/fabric
+    R: M
   I:
   - M: Troy Ronda
     S: confluence
@@ -59141,7 +59141,7 @@ P:
     C: Soramitsu
     F: "2016-12-01"
     P: hyperledger/iroha
-    R: C
+    R: M
   S: male
   I:
   - M: Makoto Takemiya
