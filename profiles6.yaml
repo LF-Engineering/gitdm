@@ -1,4 +1,34 @@
 P:
+- C: IN
+  E: intakhab.cusat!gmail.com
+  R:
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-07-01"
+    C: Tata Steel
+    F: "2016-06-01"
+    R: C
+  - T: "2017-09-01"
+    C: Independent
+    F: "2016-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: MayaData
+    F: "2017-09-01"
+    R: C
+  S: male
+  I:
+  - E: intakhab.cusat!gmail.com
+    M: Intakhab Ali
+    S: git
+  - E: intakhab.cusat!gmail.com
+    M: Intakhab Ali
+    S: github
+    U: inyee786
+  B: 0
+  U: Intakhab Ali
 - E: openstack-networking-ci!intel.com
   R:
   - T: "2100-01-01"
@@ -44303,6 +44333,51 @@ P:
     S: pipermail
   B: 0
   U: Jim Somerville
+- E: spohrer!us.ibm.com
+  R:
+  - T: "1998-01-01"
+    C: Apple
+    F: "1989-01-01"
+    P: adlik
+    R: C
+  - T: "2002-01-01"
+    C: IBM
+    F: "2000-01-01"
+    P: adlik
+    R: C
+  - T: "2009-03-01"
+    C: IBM
+    F: "2003-12-01"
+    P: adlik
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-03-01"
+    P: adlik
+    R: C
+  I:
+  - M: Jim Spohrer
+    S: confluence
+    U: spohrer
+  - E: spohrer!us.ibm.com
+    M: Jim Spohrer
+    S: git
+  - E: spohrer!us.ibm.com
+    M: Jim Spohrer
+    S: github
+    U: jimspohrer
+  - E: spohrer!gmail.com
+    M: Jim Spohrer
+    S: groupsio
+  - E: spohrer!us.ibm.com
+    M: Jim_Spohrer
+    S: groupsio
+  - E: spohrer!gmail.com
+    M: Jim Spohrer
+    S: slack
+    U: spohrer
+  B: 0
+  U: Jim Spohrer
 - E: jim.st.leger!intel.com
   R:
   - T: "2018-12-20"
@@ -61981,73 +62056,3 @@ P:
     S: git
   B: 0
   U: Jonas Michel
-- E: jonas.martensson!ri.se
-  R:
-  - T: "1999-12-01"
-    C: Ericsson AB
-    F: "1999-08-01"
-    P: odl
-    R: C
-  - T: "2002-08-01"
-    C: Ericsson AB
-    F: "2000-04-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: RI.SE
-    F: "2002-08-01"
-    P: odl
-    R: C
-  I:
-  - E: jonas.martensson!ri.se
-    M: Jonas Mårtensson
-    S: gerrit
-    U: ojnas
-  - E: jonas.martensson!ri.se
-    M: Jonas Mårtensson
-    S: git
-  - E: jonas.martensson!ri.se
-    M: Jonas Mårtensson
-    S: jira
-    U: ojnas
-  B: 0
-  U: Jonas Mårtensson
-- C: SE
-  E: jonas.norling!cyanconnode.com
-  R:
-  - T: "2018-08-01"
-    C: CyanConnode
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: GreenEggs AB
-    F: "2018-08-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: jonas.norling!cyanconnode.com
-    M: Jonas Norling
-    S: git
-  B: 0
-  U: Jonas Norling
-- E: jonas.norling!greeneggs.se
-  R:
-  - T: "2018-08-01"
-    C: CyanConnode
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: GreenEggs
-    F: "2018-08-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: jonas.norling!greeneggs.se
-    M: Jonas Norling
-    S: git
-  B: 0
-  U: Jonas Norling
