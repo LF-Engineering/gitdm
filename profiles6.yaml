@@ -1,4 +1,275 @@
 P:
+- E: openstack-networking-ci!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: openstack-networking-ci!intel.com
+    M: Intel Experimental CI
+    S: gerrit
+    U: intel-networking-ci
+  B: 0
+  U: Intel Experimental CI
+- E: openstack-nfv-ci!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: openstack-nfv-ci!intel.com
+    M: Intel NFV CI
+    S: gerrit
+    U: intel-nfv-ci
+  B: 0
+  U: Intel NFV CI
+- E: sriov-ci!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: sriov-ci!intel.com
+    M: Intel SR-IOV CI
+    S: gerrit
+    U: sriovci
+  B: 0
+  U: Intel SR-IOV CI
+- E: intel.com
+  R:
+  - T: "2014-01-15"
+    C: Intel Corporation
+    F: "2013-03-11"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2014-01-15"
+    C: Intel Corporation
+    F: "2013-03-11"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2014-01-15"
+    C: Intel Corporation
+    F: "2013-03-11"
+    P: dpdk-draft
+    R: C
+  - T: "2014-01-15"
+    C: Intel Corporation
+    F: "2013-03-11"
+    P: dpdk-next
+    R: C
+  I:
+  - E: intel.com
+    M: Intel
+    S: git
+  B: 1
+  U: Intel
+- E: intiyaz.basha!cavium.com
+  R:
+  - T: "2100-01-01"
+    C: Cavium
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: intiyaz.basha!cavium.com
+    M: Intiyaz Basha
+    S: git
+  B: 0
+  U: Intiyaz Basha
+- E: intiyaz.basha!caviumnetworks.com
+  R:
+  - T: "2100-01-01"
+    C: Cavium
+    F: "2017-10-12"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Cavium
+    F: "2017-10-12"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Cavium
+    F: "2017-10-12"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Cavium
+    F: "2017-10-12"
+    P: dpdk-next
+    R: C
+  I:
+  - E: intiyaz.basha!caviumnetworks.com
+    M: Intiyaz Basha
+    S: git
+  B: 0
+  U: Intiyaz Basha
+- E: inzamam.15!cse.mrt.ac.lk
+  R:
+  - T: "2019-12-31"
+    C: Hyperledger Intern
+    F: "2019-05-01"
+    P: explorer
+    R: C
+  - T: "2019-12-31"
+    C: Hyperledger Intern
+    F: "2019-05-01"
+    P: hyperledger-labs/nephos
+    R: C
+  - T: "2019-12-31"
+    C: Hyperledger Intern
+    F: "2019-05-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2019-12-31"
+    C: Hyperledger Intern
+    F: "2019-05-01"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  S: male
+  I:
+  - M: Inzamam Iqbal
+    S: confluence
+    U: inzamam
+  - E: inzamam.15!cse.mrt.ac.lk
+    M: Inzamam
+    S: git
+  - M: Inzamam
+    S: github
+    U: inzamam-iqbal
+  - M: Inzamam Iqbal
+    S: jira
+    U: inzamam
+  B: 0
+  U: Inzamam Mohammed Iqbal
+- E: is661a!att.com
+  R:
+  - T: "2100-01-01"
+    C: Intracom Telecom
+    F: "2014-06-01"
+    P: akraino
+    R: C
+  - T: "2015-06-01"
+    C: University of Patras
+    F: "2014-07-01"
+    P: akraino
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-05-01"
+    P: akraino
+    R: C
+  I:
+  - M: Ioakeim Samaras
+    S: confluence
+    U: IoakeimSamaras
+  - E: is661a!att.com
+    M: Ioakeim Samaras
+    S: confluence
+    U: IoakeimSamaras
+  - E: Ioakeim.samaras!ericsson.com
+    M: Ioakeim Samaras
+    S: gerrit
+    U: IoakeimSamaras
+  - E: ioakeim.samaras!ericsson.com
+    M: Ioakeim Samaras
+    S: gerrit
+  - E: ioaksamaras!gmail.com
+    M: Ioakeim Samaras
+    S: gerrit
+  - E: is661a!att.com
+    M: Ioakeim Samaras
+    S: gerrit
+  - E: is661a!att.com
+    M: Ioakeim Samaras
+    S: gerrit
+    U: IoakeimSamaras
+  - E: ioakeim.samaras!ericsson.com
+    M: Ioakeim Samaras
+    S: git
+  - E: ioaksamaras!gmail.com
+    M: Ioakeim Samaras
+    S: git
+  - E: is661a!att.com
+    M: Ioakeim Samaras
+    S: git
+  - E: iosam!intracom-telecom.com
+    M: Ioakeim Samaras
+    S: jira
+    U: iosam
+  - E: is661a!att.com
+    M: Ioakeim Samaras
+    S: jira
+    U: IoakeimSamaras
+  - E: ioaksamaras!gmail.com
+    M: Ioakeim Samaras
+    S: pipermail
+  - E: iosam!intracom-telecom.com
+    M: Ioakeim Samaras
+    S: pipermail
+  - E: iosam!intracom-telecom.com
+    M: Samaras Ioakeim
+    S: pipermail
+  B: 0
+  U: Ioakeim Samaras
+- E: ioan.nicu.ext!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ioan.nicu.ext!nokia.com
+    M: Ioan Nicu
+    S: git
+  B: 0
+  U: Ioan Nicu
+- E: adrian.ratiu!ni.com
+  R:
+  - T: "2019-01-19"
+    C: National Instruments
+    F: "2015-07-21"
+    P: yocto
+    R: C
+  I:
+  - E: adrian.ratiu!ni.com
+    S: bugzilla
+    U: adrian.ratiu
+  - E: adrian.ratiu!ni.com
+    M: Ioan-Adrian Ratiu
+    S: bugzilla
+    U: adrian.ratiu
+  - E: adrian.ratiu!ni.com
+    M: Ioan-Adrian Ratiu
+    S: git
+  - E: adrian.ratiu!ni.com
+    M: Ioan-Adrian Ratiu
+    S: groupsio
+  - E: adrian.ratiu!ni.com
+    M: Adrian Ratiu
+    S: pipermail
+  - E: adrian.ratiu!ni.com
+    M: Ioan-Adrian Ratiu
+    S: pipermail
+  B: 0
+  U: Ioan-Adrian Ratiu
 - C: GB
   R:
   - T: "2100-01-01"
@@ -61780,301 +62051,3 @@ P:
     S: git
   B: 0
   U: Jonas Norling
-- C: "NO"
-  R:
-  - T: "2015-01-01"
-    C: Lemontree
-    F: "1900-01-01"
-    R: C
-  - T: "2016-08-01"
-    C: Giant Leap
-    F: "2015-01-01"
-    R: C
-  - T: "2017-06-01"
-    C: Capra
-    F: "2016-08-01"
-    R: C
-  - T: "2018-01-01"
-    C: Independent
-    F: "2017-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-01-01"
-    R: C
-  S: male
-  I:
-  - M: Jonas Pettersson
-    S: github
-    U: jlpettersson
-  B: 0
-  U: Jonas Pettersson
-- E: jonas.pfaff!gmail.com
-  R:
-  - T: "2015-03-01"
-    C: Independent
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2016-10-01"
-    C: Schmid
-    F: "2015-03-01"
-    P: zep
-    R: C
-  - T: "2017-12-01"
-    C: Comsuisse
-    F: "2016-10-01"
-    P: zep
-    R: C
-  - T: "2018-03-01"
-    C: Independent
-    F: "2017-12-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: TEQABLE
-    F: "2018-03-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: jonas.pfaff!gmail.com
-    M: Jonas Pfaff
-    S: git
-  B: 0
-  U: Jonas Pfaff
-- E: jpf!zurich.ibm.com
-  R:
-  - T: "2018-01-20"
-    C: IBM
-    F: "2017-04-20"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2018-01-20"
-    C: IBM
-    F: "2017-04-20"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-01-20"
-    C: IBM
-    F: "2017-10-10"
-    P: dpdk-draft
-    R: C
-  - T: "2018-01-20"
-    C: IBM
-    F: "2017-10-10"
-    P: dpdk-next
-    R: C
-  S: male
-  I:
-  - E: jpf!zurich.ibm.com
-    M: Jonas Pfefferle
-    S: git
-  - E: JPF!zurich.ibm.com
-    M: Jonas Pfefferle1
-    S: pipermail
-  - E: jpf!zurich.ibm.com
-    M: Jonas Pfefferle
-    S: pipermail
-  B: 0
-  U: Jonas Pfefferle
-- C: US
-  R:
-  - T: "2016-07-01"
-    C: Dell
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2018-03-01"
-    C: Dell
-    F: "2016-07-01"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2018-03-01"
-    R: C
-  S: male
-  I:
-  - M: Jonas Rosland
-    S: github
-    U: jonasrosland
-  B: 0
-  U: Jonas Rosland
-- E: jonas.rosland!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2015-09-24"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: jonas.rosland!emc.com
-    M: Jonas Rosland
-    S: groupsio
-  - E: jonas.rosland!emc.com
-    M: Jonas Rosland
-    S: mbox
-  B: 0
-  U: Jonas Rosland
-- C: US
-  E: jonas.rosland!gmail.com
-  R:
-  - T: "2016-07-01"
-    C: Dell
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-03-01"
-    C: Dell
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Dell EMC
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-03-01"
-    C: Dell
-    F: "2016-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2018-03-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: jonas.rosland!gmail.com
-    M: jonasrosland
-    S: git
-  - E: jonas.rosland!gmail.com
-    M: Jonas Rosland
-    S: slack
-    U: jonasrosland
-  B: 0
-  U: Jonas Rosland
-- C: US
-  E: jrosland!vmware.com
-  R:
-  - T: "2016-07-01"
-    C: Dell
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-03-01"
-    C: Dell
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-03-01"
-    C: Dell
-    F: "2016-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2018-03-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: jrosland!vmware.com
-    M: Jonas Rosland
-    S: git
-  - E: jrosland!vmware.com
-    M: jonasrosland
-    S: git
-  - E: jrosland!vmware.com
-    M: Jonas Rosland
-    S: slack
-    U: jrosland
-  B: 0
-  U: Jonas Rosland
-- R:
-  - T: "2100-01-01"
-    C: CSS Versicherung
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Jonas Rutishauser
-    S: github
-    U: jonasrutishauser
-  B: 0
-  U: Jonas Rutishauser
-- E: jonas.rutishauser!alumni.ethz.ch
-  R:
-  - T: "2100-01-01"
-    C: CSS Versicherung
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: jonas.rutishauser!alumni.ethz.ch
-    M: Jonas Rutishauser
-    S: git
-  B: 0
-  U: Jonas Rutishauser
-- E: jonas.schnelli!include7.ch
-  R:
-  - T: "2100-01-01"
-    C: Include7
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jonas.schnelli!include7.ch
-    M: Jonas Schnelli
-    S: pipermail
-  B: 0
-  U: Jonas Schnelli
-- R:
-  - T: "2100-01-01"
-    C: Tomologic
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Jonas Tingeborn
-    S: github
-    U: jonastl
-  B: 0
-  U: Jonas Tingeborn
-- C: SE
-  E: tinjon!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Tomologic
-    F: "2017-11-07"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: tinjon!gmail.com
-    M: Jonas Tingeborn
-    S: git
-  B: 0
-  U: Jonas Tingeborn
-- C: CH
-  R:
-  - T: "2100-01-01"
-    C: Pix4D
-    F: "2017-08-21"
-    P: dronecode
-    R: C
-  S: male
-  I:
-  - M: Jonas Vautherin
-    S: github
-    U: JonasVautherin
-  B: 0
-  U: Jonas Vautherin

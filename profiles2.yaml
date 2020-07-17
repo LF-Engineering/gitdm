@@ -1,4 +1,83 @@
 P:
+- C: PL
+  R:
+  - T: "2015-01-01"
+    C: ASSA ABLOY
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2015-01-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Andrzej Głąbek
+    S: github
+    U: anangl
+  B: 0
+  U: Andrzej Głąbek
+- C: PL
+  E: andrzej.glabek!nordicsemi.no
+  R:
+  - T: "2015-01-01"
+    C: ASSA ABLOY
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2015-01-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: andrzej.glabek!nordicsemi.no
+    M: Andrzej Głąbek
+    S: git
+  - E: andrzej.glabek!nordicsemi.no
+    M: Andrzej Głąbek
+    S: slack
+    U: andrzej.glabek
+  B: 0
+  U: Andrzej Głąbek
+- E: a.hajda!samsung.com
+  R:
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: a.hajda!samsung.com
+    M: Andrzej Hajda
+    S: git
+  B: 0
+  U: Andrzej Hajda
+- C: PL
+  E: andrzej.kaczmarek!codecoup.pl
+  R:
+  - T: "2015-07-01"
+    C: Tieto
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Codecoup
+    F: "2015-07-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: andrzej.kaczmarek!codecoup.pl
+    M: Andrzej Kaczmarek
+    S: git
+  - E: andrzej.kaczmarek!codecoup.pl
+    M: Andrzej Kaczmarek
+    S: github
+    U: andrzej-kaczmarek
+  B: 0
+  U: Andrzej Kaczmarek
 - E: aostruszka!marvell.com
   R:
   - T: "2100-01-01"
@@ -60979,110 +61058,3 @@ P:
     U: byron-marohn
   B: 0
   U: Byron Marohn
-- E: jurobystricky!hotmail.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2014-11-12"
-    P: yocto
-    R: C
-  - T: "2017-09-09"
-    C: Intel Corporation
-    F: "2016-02-06"
-    P: zep
-    R: C
-  I:
-  - E: juro.bystricky!intel.com
-    S: bugzilla
-    U: juro.bystricky
-  - M: Juro Bystricky
-    S: bugzilla
-    U: juro.bystricky
-  - E: juro.bystricky!intel.com
-    M: Juro Bystricky
-    S: bugzilla
-    U: juro.bystricky
-  - E: juro.bystricky!intel.com
-    M: Juro Bystricky
-    S: git
-  - E: jurobystricky!hotmail.com
-    M: Juro Bystricky
-    S: git
-  - E: juro.bystricky!intel.com
-    M: Bystricky, Juro
-    S: groupsio
-  - E: juro.bystricky!intel.com
-    M: Juro Bystricky
-    S: groupsio
-  - E: juro.bystricky!intel.com
-    M: Bystricky, Juro
-    S: pipermail
-  - E: juro.bystricky!intel.com
-    M: Juro Bystricky
-    S: pipermail
-  - E: jurobystricky!hotmail.com
-    M: Juro Bystricky
-    S: pipermail
-  B: 0
-  U: Bystricky, Juro
-- E: byung-woo.jun!est.tech
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2017-05-11"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2018-12-14"
-    P: lfn-cntt
-    R: C
-  I:
-  - M: Byung-Woo Jun
-    S: confluence
-    U: byungwoojun
-  - E: byung-woo.jun!ericsson.com
-    M: Byung-Woo Jun
-    S: gerrit
-    U: byungwoojun
-  - E: byung-woo.jun!est.tech
-    M: Byung-Woo Jun
-    S: gerrit
-    U: byungwoojun
-  - E: byung-woo.jun!ericsson.com
-    M: Byung-Woo Jun
-    S: git
-  - E: byung-woo.jun!est.tech
-    M: Byung-Woo Jun
-    S: git
-  - E: byung-woo.jun!est.tech
-    M: Byung-Woo Jun
-    S: groupsio
-  - E: byung-woo.jun!ericsson.com
-    M: byung-woo.jun
-    S: groupsio
-  - M: Byung-Woo Jun
-    S: jira
-    U: byungwoojun
-  - E: byung-woo.jun!ericsson.com
-    M: Byung-Woo Jun
-    S: jira
-    U: byungwoojun
-  - E: byung-woo.jun!est.tech
-    M: Byung-Woo Jun
-    S: jira
-    U: byungwoojun
-  B: 0
-  U: Byung-Woo Jun
-- E: byungchul.park!lge.com
-  R:
-  - T: "2100-01-01"
-    C: LG Electronics
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: byungchul.park!lge.com
-    M: Byungchul Park
-    S: git
-  B: 0
-  U: Byungchul Park
