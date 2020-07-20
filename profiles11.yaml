@@ -1,4 +1,182 @@
 P:
+- C: IN
+  R:
+  - T: "2015-05-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-07-01"
+    C: CodeNation
+    F: "2015-05-01"
+    R: C
+  - T: "2015-12-01"
+    C: NVIDIA Corporation
+    F: "2015-07-01"
+    R: C
+  - T: "2016-03-01"
+    C: Central Electronics
+    F: "2015-12-01"
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "2016-03-01"
+    R: C
+  - T: "2017-07-01"
+    C: Trilogy
+    F: "2016-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Booking
+    F: "2017-07-01"
+    R: C
+  S: male
+  I:
+  - M: Rajdeep Das
+    S: github
+    U: irajdeep
+  B: 0
+  U: Rajdeep Das
+- C: IN
+  R:
+  - T: "2014-07-07"
+    C: VMware, Inc.
+    F: "2013-01-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - M: Rajdeep Dua
+    S: github
+    U: rajdeepd
+  B: 0
+  U: Rajdeep Dua
+- C: IN
+  E: dua_rajdeep!yahoo.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2016-06-16"
+    C: VMware, Inc.
+    F: "2014-12-03"
+    P: baetyl
+    R: C
+  I:
+  - E: dua_rajdeep!yahoo.com
+    M: Rajdeep Dua
+    S: git
+  B: 0
+  U: Rajdeep Dua
+- E: rajeev.6!tcs.com
+  R:
+  - T: "2017-04-10"
+    C: Tata Consultancy Services
+    F: "2017-04-05"
+    P: odl
+    R: C
+  I:
+  - E: rajeev.6!tcs.com
+    M: Rajeev 6
+    S: pipermail
+  B: 0
+  U: Rajeev 6
+- E: jetstream!customercaresolutions.com
+  R:
+  - T: "2018-02-10"
+    C: Customer Care Solutions
+    F: "2017-11-20"
+    R: C
+  - T: "2018-02-10"
+    C: Customer Care Solutions
+    F: "2017-11-20"
+    P: onap
+    R: C
+  I:
+  - M: Rajeev Kaul
+    S: confluence
+    U: ccionapdev
+  - E: jetstream!customercaresolutions.com
+    M: Rajeev Kaul
+    S: jira
+    U: ccionapdev
+  B: 0
+  U: Rajeev Kaul
+- E: rsirasan!codeaurora.org
+  R:
+  - T: "2100-01-01"
+    C: Code Aurora Forum
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: rsirasan!codeaurora.org
+    M: Rajeev Kumar Sirasanagandla
+    S: git
+  B: 0
+  U: Rajeev Kumar Sirasanagandla
+- E: rajeev.kumar1!sterlite.com
+  R:
+  - T: "2100-01-01"
+    C: Sterlite Technologies Limited
+    F: "2018-10-01"
+    P: akraino
+    R: C
+  I:
+  - E: rajeev.kumar1!sterlite.com
+    M: Rajeev Kumar
+    S: groupsio
+  B: 0
+  U: Rajeev Kumar
+- E: rajeev.mehta!amdocs.com
+  R:
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "2018-01-09"
+    R: C
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "2018-01-09"
+    P: onap
+    R: C
+  I:
+  - M: Rajeev Mehta
+    S: confluence
+    U: rajeevme
+  - E: rajeev.mehta!amdocs.com
+    M: Rajeev Mehta
+    S: gerrit
+    U: rajeevme
+  - E: rajeev.mehta!amdocs.com
+    M: Rajeev Mehta
+    S: git
+  - E: rajeev.mehta!amdocs.com
+    M: rajeevme
+    S: git
+  - E: rajeev.mehta!amdocs.com
+    M: Rajeev Mehta
+    S: groupsio
+  - M: Rajeev Mehta
+    S: jira
+    U: rajeevme
+  - E: rajeev.mehta!amdocs.com
+    M: Rajeev Mehta
+    S: jira
+    U: rajeevme
+  B: 0
+  U: Rajeev Mehta
+- E: Rajeev.Nagar!microsoft.com
+  R:
+  - T: "2014-07-24"
+    C: Microsoft Corporation
+    F: "2013-05-15"
+    P: odl
+    R: C
+  I:
+  - E: Rajeev.Nagar!microsoft.com
+    M: Rajeev Nagar
+    S: pipermail
+  B: 0
+  U: Rajeev Nagar
 - E: rajeev2.ranjan!intel.com
   R:
   - T: "2014-04-30"
@@ -60574,267 +60752,3 @@ P:
     S: pipermail
   B: 0
   U: Sebastian Reichel
-- C: DE
-  E: sebastian.reichel!collabora.com
-  R:
-  - T: "2017-04-01"
-    C: Debian
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2017-04-01"
-    R: C
-  S: male
-  I:
-  - E: sebastian.reichel!collabora.com
-    M: Sebastian Reichel
-    S: git
-  B: 0
-  U: Sebastian Reichel
-- C: DE
-  E: sre!kernel.org
-  R:
-  - T: "2017-04-01"
-    C: Debian
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2017-04-01"
-    R: C
-  S: male
-  I:
-  - E: sre!kernel.org
-    M: Sebastian Reichel
-    S: git
-  B: 0
-  U: Sebastian Reichel
-- C: DE
-  E: sebastian!sebastian-r.de
-  R:
-  - T: "2018-02-01"
-    C: XING
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: New Work
-    F: "2018-02-01"
-    R: C
-  S: male
-  I:
-  - E: sebastian!sebastian-r.de
-    M: Sebastian Röbke
-    S: github
-    U: boosty
-  B: 0
-  U: Sebastian Röbke
-- E: sebastian.sanchez!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sebastian.sanchez!intel.com
-    M: Sebastian Sanchez
-    S: git
-  B: 0
-  U: Sebastian Sanchez
-- E: sebassch!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: sebassch!gmail.com
-    M: Sebastian Sch
-    S: git
-  B: 0
-  U: Sebastian Sch
-- C: DE
-  R:
-  - T: "2100-01-01"
-    C: Loodse
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Sebastian Scheele
-    S: github
-    U: scheeles
-  B: 0
-  U: Sebastian Scheele
-- C: DE
-  E: scheeles!loodse.com
-  R:
-  - T: "2100-01-01"
-    C: Loodse
-    F: "2018-08-29"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: scheeles!loodse.com
-    M: Sebastian Scheele
-    S: git
-  - E: scheeles!loodse.com
-    M: Sebastian Scheele
-    S: slack
-    U: scheeles
-  B: 0
-  U: Sebastian Scheele
-- C: DE
-  E: sebastian!loodse.com
-  R:
-  - T: "2017-03-04"
-    C: Loodse
-    F: "2017-03-01"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: sebastian!loodse.com
-    M: Sebastian Scheele
-    S: git
-  B: 0
-  U: Sebastian Scheele
-- R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Sebastian Scheinkman
-    S: github
-    U: SchSeba
-  B: 0
-  U: Sebastian Scheinkman
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Sebastian Schmidt
-    S: github
-    U: schmidt-sebastian
-  B: 0
-  U: Sebastian Schmidt
-- C: US
-  E: mrschmidt!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: mrschmidt!google.com
-    M: Sebastian Schmidt
-    S: git
-  B: 0
-  U: Sebastian Schmidt
-- E: bigeasy!linutronix.de
-  R:
-  - T: "2100-01-01"
-    C: linutronix
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: bigeasy!linutronix.de
-    M: Sebastian Siewior
-    S: git
-  B: 0
-  U: Sebastian Siewior
-- E: bigeasy!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: bigeasy!linux.vnet.ibm.com
-    M: Sebastian Siewior
-    S: git
-  B: 0
-  U: Sebastian Siewior
-- E: sebastian.szwed!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sebastian.szwed!intel.com
-    M: Sebastian Szwed
-    S: github
-    U: sszwed
-  - E: sebastian_szwed!epam.com
-    M: Sebastian Szwed
-    S: github
-    U: sszwed
-  B: 0
-  U: Sebastian Szwed
-- E: stello!atlassian.com
-  R:
-  - T: "2100-01-01"
-    C: Atlassian
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: stello!atlassian.com
-    M: Sebastian Tello
-    S: slack
-    U: stello
-  B: 0
-  U: Sebastian Tello
-- E: stempo!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2017-10-05"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: stempo!vmware.com
-    M: Sebastian Tempo
-    S: slack
-    U: stempo
-  B: 0
-  U: Sebastian Tempo
-- C: US
-  R:
-  - T: "2017-06-01"
-    C: Quri
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: postmates
-    F: "2017-06-01"
-    R: C
-  S: male
-  I:
-  - M: Sebastian Thiebaud
-    S: github
-    U: SebastianThiebaud
-  B: 0
-  U: Sebastian Thiebaud
-- E: sverling!student.ethz.ch
-  R:
-  - T: "2019-05-24"
-    C: Wingtra
-    F: "2015-02-23"
-    P: dronecode
-    R: C
-  I:
-  - E: sverling!student.ethz.ch
-    M: Sebastian Verling
-    S: git
-  B: 0
-  U: Sebastian Verling

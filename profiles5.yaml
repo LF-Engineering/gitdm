@@ -1,4 +1,165 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2016-09-21"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: d067481!mo-e14fb736b.mo.sap.corp
+    M: Florian Tack
+    S: git
+  - E: florian.tack!sap.com
+    M: Florian Tack
+    S: git
+  - E: tack-sap!users.noreply.github.com
+    M: Florian Tack
+    S: git
+  - M: Florian Tack
+    S: github
+    U: tack-sap
+  - E: florian.tack!sap.com
+    M: Florian Tack
+    S: slack
+    U: tack-sap
+  B: 0
+  U: Florian Tack
+- C: DE
+  E: github!floriantraber.de
+  R:
+  - T: "2016-04-01"
+    C: Mattern Consult
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Avanade
+    F: "2016-04-01"
+    R: C
+  S: male
+  I:
+  - E: github!floriantraber.de
+    M: Florian Traber
+    S: git
+  - E: github!floriantraber.de
+    M: Florian Traber
+    S: github
+    U: floriantraber
+  B: 0
+  U: Florian Traber
+- C: CH
+  R:
+  - T: "2014-12-01"
+    C: EPFL
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2017-05-01"
+    C: REDS at HEIG-VD
+    F: "2014-12-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Geosatis
+    F: "2017-05-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Florian Vaussard
+    S: github
+    U: vaussard
+  B: 0
+  U: Florian Vaussard
+- C: CH
+  E: florian.vaussard!gmail.com
+  R:
+  - T: "2014-12-01"
+    C: EPFL
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2017-05-01"
+    C: REDS at HEIG-VD
+    F: "2014-12-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Geosatis
+    F: "2017-05-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: florian.vaussard!gmail.com
+    M: Florian Vaussard
+    S: git
+  - E: florian.vaussard!gmail.com
+    M: Florian Vaussard
+    S: slack
+    U: florian.vaussard
+  B: 0
+  U: Florian Vaussard
+- C: DE
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Florian Walker
+    S: github
+    U: fwalker
+  B: 0
+  U: Florian Walker
+- C: DE
+  E: florian.walker!est.fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "2015-10-30"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: florian.walker!est.fujitsu.com
+    M: Florian Walker
+    S: git
+  B: 0
+  U: Florian Walker
+- C: DE
+  E: fweimer!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: fweimer!redhat.com
+    M: Florian Weimer
+    S: git
+  B: 0
+  U: Florian Weimer
+- C: DE
+  E: florian.wilhelm02!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2019-04-24"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - M: Florian Wilhelm
+    S: github
+    U: fwilhe
+  - E: florian.wilhelm02!sap.com
+    M: Florian Wilhelm
+    S: github
+    U: fwilhe
+  B: 0
+  U: Florian Wilhelm
 - C: FR
   E: florian.woerner!onmyown.io
   R:
@@ -30721,6 +30882,9 @@ P:
   - E: guy!research.att.com
     M: Guy Jacobson
     S: git
+  - M: Guy Jacobson
+    S: jira
+    U: guyjacobson
   - E: gj2418!att.com
     M: Guy Jacobson
     S: jira
@@ -60265,164 +60429,3 @@ P:
     S: git
   B: 0
   U: Ingi Kim
-- E: ingitk!amdocs.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2018-11-12"
-    R: C
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2018-11-12"
-    P: onap
-    R: C
-  I:
-  - E: ingitk!amdocs.com
-    M: Ingit Kumar
-    S: gerrit
-    U: ingitk
-  - E: ingitk!amdocs.com
-    M: ingitk
-    S: git
-  - M: Ingit Kumar
-    S: jira
-    U: ingitk
-  - E: ingitk!amdocs.com
-    M: Ingit Kumar
-    S: jira
-    U: ingitk
-  B: 0
-  U: Ingit Kumar
-- E: ifranzki!linux.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ifranzki!linux.ibm.com
-    M: Ingo Franzki
-    S: git
-  B: 0
-  U: Ingo Franzki
-- R:
-  - T: "2100-01-01"
-    C: HolidayCheck
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Ingo Gottwald
-    S: github
-    U: gottwald
-  B: 0
-  U: Ingo Gottwald
-- E: in.gottwald!gmail.com
-  R:
-  - T: "2014-06-24"
-    C: HolidayCheck
-    F: "2014-06-20"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: in.gottwald!gmail.com
-    M: Ingo Gottwald
-    S: git
-  B: 0
-  U: Ingo Gottwald
-- E: mingo!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: mingo!redhat.com
-    M: Ingo Molnar
-    S: git
-  B: 0
-  U: Ingo Molnar
-- E: ingo.tuchscherer!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ingo.tuchscherer!linux.vnet.ibm.com
-    M: Ingo Tuchscherer
-    S: git
-  B: 0
-  U: Ingo Tuchscherer
-- E: ingo.wenda!siemens.com
-  R:
-  - T: "2100-01-01"
-    C: Siemens AG
-    F: "2018-02-12"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: ingo.wenda!siemens.com
-    M: Ingo Wenda
-    S: github
-    U: iwenda
-  B: 0
-  U: Ingo Wenda
-- E: inpe!oticon.com
-  R:
-  - T: "2100-01-01"
-    C: Oticon
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: inpe!oticon.com
-    M: Ingolf Petersen
-    S: slack
-    U: inpe
-  B: 0
-  U: Ingolf Petersen
-- E: inju.song!navercorp.com
-  R:
-  - T: "2100-01-01"
-    C: Naver
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: inju.song!navercorp.com
-    M: Inju Song
-    S: git
-  B: 0
-  U: Inju Song
-- C: KR
-  E: daeinki!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2019-04-01"
-    P: nnstreamer
-    R: C
-  I:
-  - E: daeinki!gmail.com
-    M: Inki Dae
-    S: git
-  - E: daeinki!gmail.com
-    M: Inki Dae
-    S: github
-    U: daeinki
-  B: 0
-  U: Inki Dae
-- C: KR
-  E: inki.dae!samsung.com
-  R:
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: inki.dae!samsung.com
-    M: Inki Dae
-    S: git
-  B: 0
-  U: Inki Dae
