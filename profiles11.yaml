@@ -1,4 +1,72 @@
 P:
+- C: US
+  R:
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: Cisco
+    F: "2014-05-01"
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cisco
+    F: "2015-01-01"
+    R: C
+  S: male
+  I:
+  - M: Rajath Agasthya
+    S: github
+    U: rajathagasthya
+  B: 0
+  U: Rajath Agasthya
+- C: US
+  E: rajathagasthya!gmail.com
+  R:
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2014-08-01"
+    C: Cisco
+    F: "2014-05-01"
+    P: baetyl
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-08-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Cisco
+    F: "2015-01-01"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: rajathagasthya!gmail.com
+    M: Rajath Agasthya
+    S: git
+  B: 0
+  U: Rajath Agasthya
+- C: IN
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-10-28"
+    P: zep
+    R: C
+  I:
+  - M: Rajavardhan Gundi
+    S: github
+    U: rgundi
+  B: 0
+  U: Rajavardhan Gundi
 - C: IN
   E: rajavardhan.gundi!intel.com
   R:
@@ -60677,67 +60745,3 @@ P:
     S: git
   B: 0
   U: Sebastian Müller
-- C: DE
-  R:
-  - T: "2100-01-01"
-    C: Babbel
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Sebastian Oelke
-    S: github
-    U: baschtl
-  B: 0
-  U: Sebastian Oelke
-- C: DE
-  E: soelke!babbel.com
-  R:
-  - T: "2100-01-01"
-    C: Babbel
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: soelke!babbel.com
-    M: Sebastian Oelke
-    S: git
-  B: 0
-  U: Sebastian Oelke
-- E: sebott!de.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sebott!de.ibm.com
-    M: Sebastian Ott
-    S: git
-  B: 0
-  U: Sebastian Ott
-- E: sebott!linux.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: sebott!linux.ibm.com
-    M: Sebastian Ott
-    S: git
-  B: 0
-  U: Sebastian Ott
-- E: sebott!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sebott!linux.vnet.ibm.com
-    M: Sebastian Ott
-    S: git
-  B: 0
-  U: Sebastian Ott
