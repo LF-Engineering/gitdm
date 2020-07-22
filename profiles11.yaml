@@ -1,4 +1,75 @@
 P:
+- E: prudence.au!amdocs.com
+  R:
+  - T: "2018-10-31"
+    C: Amdocs
+    F: "1900-01-01"
+    R: C
+  - T: "2018-10-31"
+    C: Amdocs
+    F: "1900-01-01"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: Bell Canada
+    F: "1900-01-01"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: Bell Canada
+    F: "2018-11-01"
+    R: C
+  I:
+  - M: Prudence Au
+    S: confluence
+    U: pau2882
+  - E: prudence.au!amdocs.com
+    M: Prudence Au
+    S: gerrit
+    U: pau2882
+  - E: prudence.au!bell.ca
+    M: Prudence Au
+    S: gerrit
+  - E: prudence.au!amdocs.com
+    M: Prudence Au
+    S: git
+  - E: prudence.au!amdocs.com
+    M: pau2882
+    S: git
+  - E: prudence.au!amdocs.com
+    M: Prudence Au
+    S: groupsio
+  - M: Prudence Au
+    S: jira
+    U: pau2882
+  - E: prudence.au!amdocs.com
+    M: Prudence Au
+    S: jira
+    U: pau2882
+  B: 0
+  U: Prudence Au
+- C: CA
+  E: prune!lecentre.net
+  R:
+  - T: "2100-01-01"
+    C: lecentre.net
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: prune!lecentre.net
+    M: Prune Sebastien THOMAS
+    S: git
+  - E: prune!lecentre.net
+    M: Prune Sebastien THOMAS
+    S: github
+    U: prune998
+  - E: prune!lecentre.net
+    M: Prune
+    S: slack
+    U: prune
+  B: 0
+  U: Prune
 - E: przemyslawx.czesnowicz!intel.com
   R:
   - T: "2100-01-01"
@@ -60811,25 +60882,3 @@ P:
     U: airsupplyme
   B: 0
   U: Sarah Lin
-- E: smcalear!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2015-12-23"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - M: Sarah McAlear
-    S: git
-  - E: smaclear!pivotal.io
-    M: Sarah McAlear
-    S: git
-  - E: smcalear!pivotal.io
-    M: Sarah McAlear
-    S: git
-  - E: smcalear!pivotal.io
-    M: Sarah McAlear
-    S: slack
-    U: sarah
-  B: 0
-  U: Sarah McAlear

@@ -8415,20 +8415,6 @@ P:
     S: git
   B: 0
   U: Taylor Barrella
-- E: t!vulk.co
-  R:
-  - T: "2100-01-01"
-    C: Vulk
-    F: "2020-04-03"
-    P: lfn-cntt
-    R: C
-  S: male
-  I:
-  - E: t!vulk.co
-    M: Taylor Carpenter
-    S: git
-  B: 0
-  U: Taylor Carpenter
 - E: taylor!vulk.coop
   R:
   - T: "2018-06-12"
@@ -8448,8 +8434,18 @@ P:
     U: taylorcc
   - E: taylor!vulk.coop
     M: Taylor Carpenter
+    S: confluence
+    U: taylorcc
+  - E: t!vulk.co
+    M: Taylor Carpenter
+    S: git
+  - E: taylor!vulk.coop
+    M: Taylor Carpenter
     S: github
     U: taylor
+  - M: Taylor Carpenter
+    S: jira
+    U: taylorcc
   - E: taylor!vulk.coop
     M: Taylor Carpenter
     S: jira
@@ -27525,9 +27521,15 @@ P:
   - E: tom.kivlin!vodafone.com
     M: Tom Kivlin
     S: git
+  - E: tom.kivlin!vodafone.com
+    M: Tom
+    S: git
   - M: Tom Kivlin
     S: github
     U: tomkivlin
+  - E: tom.kivlin!vodafone.com
+    M: Kivlin, Tom, Vodafone Group
+    S: groupsio
   - E: tom.kivlin!vodafone.com
     M: Tom Kivlin
     S: groupsio
@@ -60743,19 +60745,3 @@ P:
     S: pipermail
   B: 0
   U: Vivek Kumar Sharma
-- C: IN
-  E: vivekkmr45!yahoo.in
-  R:
-  - T: "2100-01-01"
-    C: Akamai Technologies, Inc.
-    F: "1900-01-01"
-    P: stackstorm
-    R: C
-  S: male
-  I:
-  - E: vivekkmr45!yahoo.in
-    M: Vivek Kumar Singh
-    S: github
-    U: viveksyngh
-  B: 0
-  U: Vivek Kumar Singh
