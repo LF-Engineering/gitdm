@@ -1,4 +1,195 @@
 P:
+- E: matan!mellanox.com
+  R:
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: dpdk-next
+    R: C
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2016-01-31"
+    C: EZchip
+    F: "2011-12-31"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2016-01-31"
+    C: EZchip
+    F: "2011-12-31"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2016-01-31"
+    C: EZchip
+    F: "2011-12-31"
+    P: dpdk-draft
+    R: C
+  - T: "2016-01-31"
+    C: EZchip
+    F: "2011-12-31"
+    P: dpdk-next
+    R: C
+  - T: "2016-01-31"
+    C: EZchip
+    F: "2011-12-31"
+    P: fdio
+    R: C
+  - T: "2016-01-31"
+    C: EZchip
+    F: "2011-12-31"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2016-01-31"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2016-01-31"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2016-01-31"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2016-01-31"
+    P: dpdk-next
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2016-01-31"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2016-01-31"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: matan!mellanox.com
+    M: Matan Azrad
+    S: git
+  - E: matan!mellanox.com
+    M: Matan Azrad
+    S: groupsio
+  - E: mazrad!juniper.net
+    M: Matan Azrad
+    S: jira
+    U: mazrad
+  - E: matan!mellanox.com
+    M: Matan Azrad
+    S: pipermail
+  B: 0
+  U: Matan Azrad
+- E: matanb!mellanox.com
+  R:
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: matanb!mellanox.com
+    M: Matan Barak
+    S: git
+  B: 0
+  U: Matan Barak
+- E: mcauffiez!inocybe.com
+  R:
+  - T: "2019-04-29"
+    C: Inocybe Technologies Inc.
+    F: "2017-03-03"
+    P: odl
+    R: C
+  I:
+  - S: gerrit
+    U: mcauffiez
+  - E: mcauffiez!inocybe.com
+    M: Matcauf
+    S: gerrit
+  - E: mcauffiez!inocybe.ca
+    M: Matthieu Cauffiez
+    S: gerrit
+    U: MCAUFFIEZ
+  - E: mcauffiez!inocybe.com
+    M: Matthieu Cauffiez
+    S: gerrit
+    U: mcauffiez
+  - E: mcauffiez!inocybe.ca
+    M: matcauf
+    S: gerrit
+  - E: mcauffiez!inocybe.com
+    M: matthieu cauffiez
+    S: gerrit
+  - E: mcauffiez!inocybe.com
+    M: matthieu
+    S: gerrit
+  - E: mcauffiez!inocybe.ca
+    M: mcauffiez
+    S: gerrit
+  - E: mcauffiez!inocybe.com
+    M: mcauffiez
+    S: gerrit
+  - E: mcauffiez!inocybe.com
+    M: Matcauf
+    S: git
+  - E: mcauffiez!inocybe.ca
+    M: matcauf
+    S: git
+  - E: mcauffiez!inocybe.com
+    M: matthieu cauffiez
+    S: git
+  - E: mcauffiez!inocybe.com
+    M: matthieu
+    S: git
+  - E: mcauffiez!inocybe.com
+    M: mcauffiez
+    S: git
+  - E: mcauffiez!inocybe.ca
+    M: Matthieu Cauffiez
+    S: jira
+    U: MCAUFFIEZ
+  - E: mcauffiez!inocybe.com
+    M: Matthieu Cauffiez
+    S: jira
+    U: mcauffiez
+  - E: mcauffiez!inocybe.ca
+    S: opendaylight:manual
+  - E: mcauffiez!inocybe.com
+    S: opendaylight:manual
+  - M: Mattieu Cauffiez
+    S: opendaylight:manual
+  - E: mcauffiez!inocybe.ca
+    M: matthieu
+    S: pipermail
+  B: 0
+  U: Matcauf
 - E: mate.lakat!citrix.com
   R:
   - T: "2100-01-01"
@@ -60568,127 +60759,3 @@ P:
     S: git
   B: 0
   U: Neeraj Poddar
-- E: prad.neeraj!gmail.com
-  R:
-  - T: "2007-06-30"
-    C: NCAOR, Goa
-    F: "2007-04-30"
-    P: pyro
-    R: C
-  - T: "2010-05-31"
-    C: Texas Instruments Incorporated
-    F: "2009-12-31"
-    P: pyro
-    R: C
-  - T: "2011-07-31"
-    C: Citi
-    F: "2010-06-30"
-    P: pyro
-    R: C
-  - T: "2012-01-31"
-    C: FabMart
-    F: "2011-07-31"
-    P: pyro
-    R: C
-  - T: "2012-07-31"
-    C: InMobi
-    F: "2012-05-31"
-    P: pyro
-    R: C
-  - T: "2013-08-31"
-    C: Groupon
-    F: "2013-05-31"
-    P: pyro
-    R: C
-  - T: "2014-05-31"
-    C: Stanford University
-    F: "2013-08-31"
-    P: pyro
-    R: C
-  - T: "2016-02-29"
-    C: Groupon
-    F: "2014-05-31"
-    P: pyro
-    R: C
-  - T: "2100-01-01"
-    C: Uber
-    F: "2016-03-31"
-    P: pyro
-    R: C
-  I:
-  - E: npradhan!uber.com
-    M: Neeraj Pradhan
-    S: git
-  - E: prad.neeraj!gmail.com
-    M: Neeraj Pradhan
-    S: git
-  - M: Neeraj Pradhan
-    S: github
-    U: neerajprad
-  B: 0
-  U: Neeraj Pradhan
-- E: ns00499861!techmahindra.com
-  R:
-  - T: "2013-09-30"
-    C: Aceventura Services
-    F: "2012-12-31"
-    P: acumos
-    R: C
-  - T: "2014-10-31"
-    C: OVSolution
-    F: "2014-01-31"
-    P: acumos
-    R: C
-  - T: "2016-12-31"
-    C: LTI - Larsen & Toubro Infotech
-    F: "2015-02-28"
-    P: acumos
-    R: C
-  - T: "2100-01-01"
-    C: tech mahindra
-    F: "2016-12-31"
-    P: acumos
-    R: C
-  I:
-  - E: ns00499861!techmahindra.com
-    M: Neeraj Sonar
-    S: gerrit
-    U: NeerajSonar
-  - E: ns00499861!techmahindra.com
-    M: Neeraj Sonar
-    S: git
-  - E: ns00499861!techmahindra.com
-    M: NeerajSonar
-    S: git
-  - E: ns00499861!techmahindra.com
-    M: Neeraj Sonar
-    S: jira
-    U: NeerajSonar
-  B: 0
-  U: Neeraj Sonar
-- E: netandon!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "2017-03-31"
-    P: fdio
-    R: C
-  - T: "2017-05-31"
-    C: Cisco
-    F: "2017-04-11"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2017-05-31"
-    C: Cisco
-    F: "2017-04-11"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: netandon!cisco.com
-    M: Neeraj Tandon (netandon)
-    S: groupsio
-  - E: netandon!cisco.com
-    M: Neeraj Tandon netandon
-    S: pipermail
-  B: 0
-  U: Neeraj Tandon (netandon)
