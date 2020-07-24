@@ -1,4 +1,19 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: T. Rowe Price
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: T. Rowe Price
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: confluence
+    U: btfrank
+  B: 0
+  U: Brandon Frank
 - C: US
   E: reterclose!gmail.com
   R:
@@ -35322,6 +35337,10 @@ P:
     M: Christophe Closset
     S: confluence
     U: ChrisC
+  - E: christophe.closset!intl.att.com
+    M: Christophe Closset
+    S: confluence
+    U: ChrisC
   - E: cc697w!intl.att.com
     M: ChrisC
     S: gerrit
@@ -61445,17 +61464,3 @@ P:
     S: pipermail
   B: 0
   U: Daniel Schultz
-- E: schwartzd!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2017-08-23"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: schwartzd!vmware.com
-    M: Daniel Schwartz
-    S: slack
-    U: schwartzd
-  B: 0
-  U: Daniel Schwartz
