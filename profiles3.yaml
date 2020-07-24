@@ -1,4 +1,17 @@
 P:
+- C: CD
+  R:
+  - T: "2100-01-01"
+    C: Content Analyst Company
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Brandon Gauthier
+    S: github
+    U: gauthierbl
+  B: 0
+  U: Brandon Gauthier
 - C: US
   R:
   - T: "2014-08-01"
@@ -106,6 +119,10 @@ P:
     P: zowe
     R: C
   I:
+  - E: brandon.jenkins!broadcom.com
+    M: brandon.jenkins
+    S: confluence
+    U: brandonj14
   - E: brandon.jenkins!broadcom.com
     M: Brandon Jenkins
     S: git
@@ -15285,6 +15302,10 @@ P:
   S: male
   I:
   - M: Casey Cain
+    S: confluence
+    U: CaseyCain
+  - E: ccain!linuxfoundation.org
+    M: Casey Cain
     S: confluence
     U: CaseyCain
   - E: wrathwolfk!gmail.com
@@ -61423,47 +61444,3 @@ P:
     S: git
   B: 0
   U: Daniel Shackelford
-- E: dashel!microsoft.com
-  R:
-  - T: "2018-08-16"
-    C: Microsoft Corporation
-    F: "2018-05-04"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2018-08-16"
-    C: Microsoft Corporation
-    F: "2018-05-04"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-05-21"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-05-21"
-    P: dpdk-next
-    R: C
-  I:
-  - E: dashel!microsoft.com
-    M: Daniel Shelepov
-    S: git
-  - E: dashel!microsoft.com
-    M: Daniel Shelepov
-    S: pipermail
-  B: 0
-  U: Daniel Shelepov
-- E: dshusta!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: dshusta!pivotal.io
-    M: Daniel Shusta
-    S: git
-  B: 0
-  U: Daniel Shusta
