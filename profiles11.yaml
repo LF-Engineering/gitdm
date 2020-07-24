@@ -55,73 +55,6 @@ P:
   - T: "2100-01-01"
     C: Ericsson AB
     F: "1900-01-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Lumina Networks
-    F: "1900-01-01"
-    P: odl
-    R: C
-  S: male
-  I:
-  - M: Prem Sankar G
-    S: confluence
-    U: premsankar
-  - E: premsankar!gmail.com
-    M: Prem Sankar G
-    S: confluence
-    U: premsankar
-  - E: premsankar!gmail.com
-    M: Prem Sankar G
-    S: gerrit
-    U: premsankar
-  - E: prem.sankar.g!ericsson.com
-    M: Prem Sankar
-    S: gerrit
-    U: gpremsankar
-  - E: prem.sankar.g!ericsson.com
-    M: Prem Sankar
-    S: gerrit
-    U: premsankar
-  - E: premsankar!gmail.com
-    M: Prem Sankar G
-    S: git
-  - E: prem.sankar.g!ericsson.com
-    M: Prem Sankar
-    S: git
-  - E: premsankar!gmail.com
-    M: Prem Sankar G
-    S: groupsio
-  - E: premsankar!gmail.com
-    M: Prem Sankar
-    S: groupsio
-  - E: premsankar!gmail.com
-    M: Prem Sankar G
-    S: jira
-    U: premsankar
-  - E: prem.sankar.g!ericsson.com
-    M: Prem Sankar
-    S: jira
-    U: prem.sankar.g
-  - M: Gpremsankar
-    S: mediawiki
-    U: Gpremsankar
-  - E: premsankar!gmail.com
-    M: Prem Sankar G
-    S: pipermail
-  - E: pgopannan!luminanetworks.com
-    M: Prem Sankar Gopannan
-    S: pipermail
-  - E: premsankar!gmail.com
-    M: Prem Sankar
-    S: pipermail
-  B: 0
-  U: Prem Sankar G
-- E: prem.sankar.g!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
     P: fdio
     R: C
   - T: "2100-01-01"
@@ -133,6 +66,11 @@ P:
     C: Ericsson AB
     F: "1900-01-01"
     P: onap
+    R: C
+  - T: "2100-01-01"
+    C: Lumina Networks
+    F: "1900-01-01"
+    P: odl
     R: C
   - T: "1997-12-01"
     C: Chipps Infosoft Pvt. Ltd
@@ -237,27 +175,58 @@ P:
   - T: "2100-01-01"
     C: Lumina Networks
     F: "2018-01-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Lumina Networks
-    F: "2018-01-01"
     P: onap
     R: C
+  S: male
   I:
+  - M: Prem Sankar G
+    S: confluence
+    U: premsankar
+  - E: premsankar!gmail.com
+    M: Prem Sankar G
+    S: confluence
+    U: premsankar
   - M: Prem Sankar Gopannan
     S: confluence
     U: premsankar74
+  - E: premsankar!gmail.com
+    M: Prem Sankar G
+    S: gerrit
+    U: premsankar
   - E: prem.sankar.g!ericsson.com
     M: Prem Sankar Gopannan
     S: gerrit
     U: premsankar74
   - E: prem.sankar.g!ericsson.com
+    M: Prem Sankar
+    S: gerrit
+    U: gpremsankar
+  - E: prem.sankar.g!ericsson.com
+    M: Prem Sankar
+    S: gerrit
+    U: premsankar
+  - E: premsankar!gmail.com
+    M: Prem Sankar G
+    S: git
+  - E: prem.sankar.g!ericsson.com
+    M: Prem Sankar
+    S: git
+  - E: prem.sankar.g!ericsson.com
     M: Prem sankar G
     S: gmane
+  - E: premsankar!gmail.com
+    M: Prem Sankar G
+    S: groupsio
+  - E: premsankar!gmail.com
+    M: Prem Sankar
+    S: groupsio
   - E: prem.sankar.g!ericsson.com
     M: Prem sankar G
     S: groupsio
+  - E: premsankar!gmail.com
+    M: Prem Sankar G
+    S: jira
+    U: premsankar
   - M: Prem Sankar Gopannan
     S: jira
     U: premsankar74
@@ -265,6 +234,10 @@ P:
     M: Prem Sankar Gopannan
     S: jira
     U: premsankar74
+  - E: prem.sankar.g!ericsson.com
+    M: Prem Sankar
+    S: jira
+    U: prem.sankar.g
   - E: prem.sankar.g!ericsson.com
     M: Prem Sankar Gopannan
     S: linux-foundation:scr
@@ -272,11 +245,23 @@ P:
   - E: prem.sankar.g!ericsson.com
     M: Prem sankar G
     S: mbox
+  - M: Gpremsankar
+    S: mediawiki
+    U: Gpremsankar
+  - E: premsankar!gmail.com
+    M: Prem Sankar G
+    S: pipermail
+  - E: pgopannan!luminanetworks.com
+    M: Prem Sankar Gopannan
+    S: pipermail
+  - E: premsankar!gmail.com
+    M: Prem Sankar
+    S: pipermail
   - E: prem.sankar.g!ericsson.com
     M: Prem sankar G
     S: pipermail
   B: 0
-  U: Prem Sankar Gopannan
+  U: Prem Sankar G
 - E: pb6115!us.att.com
   R:
   - T: "2100-01-01"
@@ -3980,9 +3965,9 @@ P:
     S: git
   B: 0
   U: Qiuyang Sun
-- E: renqzh!inspur.com
+- E: rqzcsu123!163.com
   R:
-  - T: "2018-10-29"
+  - T: "2100-01-01"
     C: Inspur
     F: "2018-06-21"
     P: odl
@@ -3992,16 +3977,6 @@ P:
     M: Qiuzheng Ren
     S: gerrit
     U: renqz
-  B: 0
-  U: Qiuzheng Ren
-- E: rqzcsu123!163.com
-  R:
-  - T: "2100-01-01"
-    C: Inspur
-    F: "2018-08-23"
-    P: odl
-    R: C
-  I:
   - E: rqzcsu123!163.com
     M: Qiuzheng Ren
     S: gerrit
@@ -15406,6 +15381,9 @@ P:
     P: odl
     R: C
   I:
+  - M: Ran Xiao
+    S: confluence
+    U: RanXiao
   - E: ran-xiao!vf.jp.nec.com
     M: Ran Xiao
     S: jira
@@ -19582,6 +19560,37 @@ P:
     S: git
   B: 0
   U: Ravindra Nath Thakur
+- E: ravindra.nath.thakur!ericsson.com
+  R:
+  - T: "2010-11-30"
+    C: Citrix Systems Inc.
+    F: "2007-07-12"
+    P: odl
+    R: C
+  - T: "2016-08-30"
+    C: Cisco
+    F: "2010-12-01"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2016-09-12"
+    P: odl
+    R: C
+  I:
+  - E: ravindra.nath.thakur!ericsson.com
+    M: Ravindra Thakur
+    S: gerrit
+    U: rnthakur
+  - E: ravindra.nath.thakur!ericsson.com
+    M: Ravindra Thakur
+    S: git
+  - E: ravindra.nath.thakur!ericsson.com
+    M: Ravindra Thakur
+    S: jira
+    U: rnthakur
+  B: 0
+  U: Ravindra Thakur
 - E: Sivashankar.Ravishankar!us.fujitsu.com
   R:
   - T: "2100-01-01"
@@ -34324,6 +34333,10 @@ P:
     R: C
   I:
   - M: Robert Varga
+    S: confluence
+    U: rovarga
+  - E: nite!hq.sk
+    M: Robert Varga
     S: confluence
     U: rovarga
   - S: gerrit
@@ -60824,27 +60837,3 @@ P:
     U: sanrr
   B: 0
   U: Sanjaya Pallikera
-- E: sanjeevb.bansal!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sanjeevb.bansal!broadcom.com
-    M: Sanjeev Bansal
-    S: git
-  B: 0
-  U: Sanjeev Bansal
-- E: sanjeev_chugh!mentor.com
-  R:
-  - T: "2100-01-01"
-    C: Mentor Graphics Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sanjeev_chugh!mentor.com
-    M: Sanjeev Chugh
-    S: git
-  B: 0
-  U: Sanjeev Chugh
