@@ -1,4 +1,63 @@
 P:
+- C: VN
+  E: hvn!familug.org
+  R:
+  - T: "2017-04-01"
+    C: Robotinfra
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Robotinfra.com
+    F: "1900-01-01"
+    R: C
+  - T: "2017-11-01"
+    C: PyMi.vn
+    F: "2017-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Grab
+    F: "2017-11-01"
+    R: C
+  S: male
+  I:
+  - E: hvn!familug.org
+    M: Hung Nguyen Viet
+    S: git
+  B: 0
+  U: Hung Nguyen Viet
+- E: hungpham!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco
+    F: "2016-08-17"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Cisco
+    F: "2016-08-17"
+    P: opnfv
+    R: C
+  I:
+  - E: hungpham!cisco.com
+    M: Hung Pham (hungpham)
+    S: groupsio
+  - E: hungpham!cisco.com
+    M: Hung Pham hungpham
+    S: pipermail
+  B: 0
+  U: Hung Pham hungpham
+- E: hungte!chromium.org
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: hungte!chromium.org
+    M: Hung-Te Lin
+    S: git
+  B: 0
+  U: Hung-Te Lin
 - C: TW
   E: hungwei!opennetworking.org
   R:
@@ -11856,8 +11915,23 @@ P:
     U: isaiahsf
   B: 0
   U: Isaiah Snell-Feikema
-- E: isaku.yamahata!gmail.com
+- E: isaku.yamahata!intel.com
   R:
+  - T: "2003-10-01"
+    C: Fujitsu Software Technologies Ltd
+    F: "1999-04-01"
+    P: odl
+    R: C
+  - T: "2014-09-01"
+    C: VA Linux Systems Japan
+    F: "2003-11-01"
+    P: odl
+    R: C
+  - T: "2012-11-26"
+    C: VA Linux Systems Japan
+    F: "2009-05-03"
+    P: zep
+    R: C
   - T: "2013-09-24"
     C: Intel Corporation
     F: "2013-08-05"
@@ -11867,6 +11941,10 @@ P:
     C: Intel Corporation
     F: "2015-02-11"
     P: odl
+    R: C
+  - T: "2018-03-23"
+    C: Intel Corporation
+    F: "2015-08-05"
     R: C
   - T: "2017-06-30"
     C: Intel Corporation
@@ -11900,61 +11978,37 @@ P:
   - E: yamahata!private.email.ne.jp
     M: Isaku Yamahata
     S: git
-  - E: isaku.yamahata!gmail.com
-    M: Isaku Yamahata
-    S: groupsio
-  - E: yamahata!private.email.ne.jp
-    M: Isaku Yamahata
-    S: groupsio
-  - M: Isaku Yamahata
-    S: jira
-    U: yamahata
-  - E: isaku.yamahata!gmail.com
-    M: Isaku Yamahata
-    S: jira
-    U: yamahata
-  - E: isaku.yamahata!gmail.com
-    S: onap:manual
-  - E: isaku.yamahata!intel.com
-    S: onap:manual
-  - M: Isaku Yamahata
-    S: onap:manual
-  - E: isaku.yamahata!gmail.com
-    M: Isaku Yamahata
-    S: pipermail
-  - E: yamahata!private.email.ne.jp
-    M: Isaku Yamahata
-    S: pipermail
-  B: 0
-  U: Isaku Yamahata
-- E: isaku.yamahata!intel.com
-  R:
-  - T: "2018-03-23"
-    C: Intel Corporation
-    F: "2015-08-05"
-    R: C
-  - T: "2018-03-23"
-    C: Intel Corporation
-    F: "2015-08-05"
-    P: odl
-    R: C
-  I:
-  - E: isaku.yamahata!intel.com
-    M: Yamahata, Isaku
-    S: pipermail
-  B: 0
-  U: Isaku Yamahata
-- E: yamahata!valinux.co.jp
-  R:
-  - T: "2012-11-26"
-    C: VA Linux Systems Japan
-    F: "2009-05-03"
-    P: zep
-    R: C
-  I:
   - E: yamahata!valinux.co.jp
     M: Isaku Yamahata
     S: git
+  - E: isaku.yamahata!gmail.com
+    M: Isaku Yamahata
+    S: groupsio
+  - E: yamahata!private.email.ne.jp
+    M: Isaku Yamahata
+    S: groupsio
+  - M: Isaku Yamahata
+    S: jira
+    U: yamahata
+  - E: isaku.yamahata!gmail.com
+    M: Isaku Yamahata
+    S: jira
+    U: yamahata
+  - E: isaku.yamahata!gmail.com
+    S: onap:manual
+  - E: isaku.yamahata!intel.com
+    S: onap:manual
+  - M: Isaku Yamahata
+    S: onap:manual
+  - E: isaku.yamahata!gmail.com
+    M: Isaku Yamahata
+    S: pipermail
+  - E: yamahata!private.email.ne.jp
+    M: Isaku Yamahata
+    S: pipermail
+  - E: isaku.yamahata!intel.com
+    M: Yamahata, Isaku
+    S: pipermail
   B: 0
   U: Isaku Yamahata
 - E: ishai.nadler!intel.com
@@ -20652,20 +20706,35 @@ P:
   U: Jaikrishna Nemallapudi
 - E: jaime.caamano.ruiz!ericsson.com
   R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
+  - T: "2003-09-30"
+    C: Telefónica
+    F: "2002-04-01"
+    P: odl
+    R: C
+  - T: "2005-06-30"
+    C: Lucent Technologies
+    F: "2004-02-01"
+    P: odl
+    R: C
+  - T: "2007-09-30"
+    C: Accenture
+    F: "2006-09-01"
     P: odl
     R: C
   - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
+    C: Ericsson AB
+    F: "2007-10-01"
     P: odl
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
     F: "2017-04-21"
     P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-10-01"
+    P: odl
     R: C
   S: male
   I:
@@ -37865,11 +37934,21 @@ P:
     S: git
   B: 0
   U: Jaya P G
-- E: jayapriyadarshini02!gmail.com
+- E: jaya.priyadarshini!ericsson.com
   R:
+  - T: "2016-12-30"
+    C: IP Infusion
+    F: "2012-07-01"
+    P: odl
+    R: C
   - T: "2100-01-01"
     C: Ericsson AB
     F: "2017-02-09"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: Infinera
+    F: "2019-11-01"
     P: odl
     R: C
   I:
@@ -37889,6 +37968,9 @@ P:
     M: Jaya Priyadarshini
     S: git
   - E: jaya.priyadarshini!ericsson.com
+    M: JayaPr
+    S: git
+  - E: jaya.priyadarshini!ericsson.com
     M: Jaya Priyadarshini
     S: jira
     U: JayaPr
@@ -37898,8 +37980,11 @@ P:
   - E: jayapriyadarshini02!gmail.com
     M: Jaya Priyadarshini
     S: pipermail
+  - M: Jayaprakash
+    S: rocketchat
+    U: JP
   B: 0
-  U: Jaya Priyadarshini
+  U: JayaPr
 - E: kyadlapalli!mvista.com
   R:
   - T: "2016-02-10"
@@ -61732,77 +61817,3 @@ P:
     U: jiangzihao2009
   B: 0
   U: Joey Jiang
-- E: xinxiang.mj!alibaba-inc.com
-  R:
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "2018-01-18"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: xinxiang.mj!alibaba-inc.com
-    M: Joey Ma
-    S: slack
-    U: xinxiang.mj
-  - E: xinxiang.mj!alibaba-inc.com
-    M: Jun Ma
-    S: slack
-    U: xinxiang.mj
-  B: 0
-  U: Joey Ma
-- E: jmaassen!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: jmaassen!pivotal.io
-    M: Joey Maassen
-    S: git
-  B: 0
-  U: Joey Maassen
-- E: jmcallister!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2015-12-17"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: jmcallister!pivotal.io
-    M: Joey McAllister
-    S: slack
-    U: joeymcallister
-  B: 0
-  U: Joey McAllister
-- C: US
-  E: joeypabalinas!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: joeypabalinas!gmail.com
-    M: Joey Pabalinas
-    S: git
-  B: 0
-  U: Joey Pabalinas
-- C: CA
-  E: legojoey17!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Stripe
-    F: "2017-10-12"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: legojoey17!gmail.com
-    M: Joey Pereira
-    S: git
-  B: 0
-  U: Joey Pereira

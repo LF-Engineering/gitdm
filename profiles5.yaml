@@ -1,4 +1,71 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Instana
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Fabian Lange
+    S: github
+    U: CodingFabian
+  B: 0
+  U: Fabian Lange
+- C: DE
+  R:
+  - T: "2016-04-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    R: C
+  - T: "2018-03-01"
+    C: Red Hat Inc.
+    F: "2016-04-01"
+    R: C
+  - T: "2018-04-01"
+    C: Red Hat Inc.
+    F: "2018-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-04-01"
+    R: C
+  S: male
+  I:
+  - M: Fabian Reinartz
+    S: github
+    U: fabxc
+  B: 0
+  U: Fabian Reinartz
+- C: DE
+  E: fab.reinartz!gmail.com
+  R:
+  - T: "2016-04-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2018-03-01"
+    C: Red Hat Inc.
+    F: "2016-04-01"
+    P: baetyl
+    R: C
+  - T: "2018-04-01"
+    C: Red Hat Inc.
+    F: "2018-03-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-04-01"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: fab.reinartz!gmail.com
+    M: Fabian Reinartz
+    S: git
+  B: 0
+  U: Fabian Reinartz
 - C: DE
   E: freinartz!google.com
   R:
@@ -7316,24 +7383,38 @@ P:
     F: "1900-01-01"
     P: odl
     R: C
-  - T: "2100-01-01"
+  - T: "2017-06-01"
     C: Pantheon Technologies
-    F: "1900-01-01"
+    F: "2015-09-01"
     P: odl
     R: C
   I:
   - E: fgregor!cisco.com
     M: Filip Gregor
     S: gerrit
+  - E: filip.gregor!pantheon.sk
+    M: Filip Gregor
+    S: gerrit
+  - E: filip.gregor!pantheon.tech
+    M: Filip Gregor
+    S: gerrit
+    U: Filip.Gregor
   - E: fgregor!cisco.com
     M: Filip.Gregor
     S: gerrit
   - E: fgregor!cisco.com
     M: Filip Gregor
     S: git
+  - E: filip.gregor!pantheon.sk
+    M: Filip Gregor
+    S: git
   - E: fgregor!cisco.com
     M: Filip.Gregor
     S: git
+  - E: filip.gregor!pantheon.tech
+    M: Filip Gregor
+    S: jira
+    U: filip.gregor
   B: 0
   U: Filip.Gregor
 - C: US
@@ -13657,6 +13738,11 @@ P:
     F: "1900-01-01"
     P: odl
     R: C
+  - T: "2019-07-01"
+    C: Bay Area Scala Enthusiasts
+    F: "2012-09-01"
+    P: odl
+    R: C
   - T: "2019-01-01"
     C: Red Hat Inc.
     F: "2015-08-01"
@@ -13677,6 +13763,11 @@ P:
     F: "2018-03-01"
     P: lfn/tungsten-fabric
     R: C
+  - T: "2019-01-01"
+    C: Palo Alto Networks
+    F: "2018-03-01"
+    P: odl
+    R: C
   - T: "2100-01-01"
     C: Doc.ai
     F: "2019-01-01"
@@ -13686,6 +13777,16 @@ P:
     C: Doc.ai
     F: "2019-01-01"
     P: lfn/tungsten-fabric
+    R: C
+  - T: "2020-03-01"
+    C: CNTT
+    F: "2019-09-01"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: IEEE Future Network
+    F: "2020-06-01"
+    P: odl
     R: C
   S: male
   I:
@@ -51702,71 +51803,6 @@ P:
     F: "2018-07-24"
     P: onap
     R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2019-01-02"
-    P: oran-sim
-    R: C
   I:
   - M: Henrik Andersson
     S: confluence
@@ -51788,6 +51824,10 @@ P:
     M: henrik.b.andersson
     S: groupsio
   - M: Henrik Andersson
+    S: jira
+    U: elinuxhenrik
+  - E: henrik.b.andersson!ericsson.com
+    M: Henrik Andersson
     S: jira
     U: elinuxhenrik
   - E: henrik.b.andersson!est.tech
@@ -60332,62 +60372,3 @@ P:
     U: hung.ngo
   B: 0
   U: Hung Ngo
-- C: VN
-  E: hvn!familug.org
-  R:
-  - T: "2017-04-01"
-    C: Robotinfra
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Robotinfra.com
-    F: "1900-01-01"
-    R: C
-  - T: "2017-11-01"
-    C: PyMi.vn
-    F: "2017-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Grab
-    F: "2017-11-01"
-    R: C
-  S: male
-  I:
-  - E: hvn!familug.org
-    M: Hung Nguyen Viet
-    S: git
-  B: 0
-  U: Hung Nguyen Viet
-- E: hungpham!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "2016-08-17"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Cisco
-    F: "2016-08-17"
-    P: opnfv
-    R: C
-  I:
-  - E: hungpham!cisco.com
-    M: Hung Pham (hungpham)
-    S: groupsio
-  - E: hungpham!cisco.com
-    M: Hung Pham hungpham
-    S: pipermail
-  B: 0
-  U: Hung Pham hungpham
-- E: hungte!chromium.org
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: hungte!chromium.org
-    M: Hung-Te Lin
-    S: git
-  B: 0
-  U: Hung-Te Lin
