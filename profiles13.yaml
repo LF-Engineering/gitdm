@@ -1,4 +1,69 @@
 P:
+- C: TH
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  I:
+  - M: Suracheth Chawla
+    S: github
+    U: blisscs
+  B: 0
+  U: Suracheth Chawla
+- C: TH
+  E: dev!blissweb.co
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: dev!blissweb.co
+    M: Suracheth Chawla
+    S: git
+  B: 0
+  U: Suracheth Chawla
+- C: IN
+  R:
+  - T: "2017-12-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2019-07-01"
+    C: Treeni
+    F: "2017-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: InfraCloud
+    F: "2019-07-01"
+    R: C
+  S: male
+  I:
+  - M: Suraj Banakar
+    S: github
+    U: vadasambar
+  B: 0
+  U: Suraj Banakar
+- E: s-das!ti.com
+  R:
+  - T: "2018-01-16"
+    C: Texas Instruments Incorporated
+    F: "2018-01-11"
+    P: yocto
+    R: C
+  I:
+  - E: s-das!ti.com
+    M: Suraj Das
+    S: git
+  - E: s-das!ti.com
+    M: Suraj Das
+    S: groupsio
+  - E: s-das!ti.com
+    M: Suraj Das
+    S: pipermail
+  B: 0
+  U: Suraj Das
 - C: IN
   E: surajd.service!gmail.com
   R:
@@ -25513,6 +25578,28 @@ P:
     U: timthelion
   B: 0
   U: Timothy Hobbs
+- E: tj.ebido!samsung.com
+  R:
+  - T: "2013-02-01"
+    C: Korea Advanced Institute of Science & Technology (KAIST)
+    F: "2011-02-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2013-03-01"
+    P: o-ran/o-ran-sc
+    R: C
+  I:
+  - M: Timothy John Ebido
+    S: jira
+    U: tj.ebido
+  - E: tj.ebido!samsung.com
+    M: Timothy John Ebido
+    S: jira
+    U: tj.ebido
+  B: 0
+  U: Timothy John Ebido
 - E: timothy.johnson!broadcom.com
   R:
   - T: "2100-01-01"
@@ -60558,171 +60645,3 @@ P:
     S: pipermail
   B: 0
   U: Vinothkumar
-- C: IN
-  E: vinothkumar_baskaran!comcast.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: Bosch
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Bosch
-    F: "1900-01-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Bosch
-    F: "1900-01-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: Comcast
-    F: "2010-12-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Comcast
-    F: "2010-12-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Comcast
-    F: "2010-12-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: Bosch
-    F: "2016-11-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Bosch
-    F: "2016-11-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Bosch
-    F: "2016-11-01"
-    P: yocto
-    R: C
-  S: male
-  I:
-  - E: m.vinoth!hcl.com
-    M: Vinothkumar
-    S: gerrit
-    U: vinoth
-  - E: vinraja!cs.stonybrook.edu
-    M: Vinothkumar Raja
-    S: git
-  - E: sidvin!amazon.com
-    M: Vinothkumar Siddharth
-    S: git
-  - E: m.vinoth!hcl.com
-    M: Vinothkumar
-    S: git
-  - E: vinothkumar_baskaran!comcast.com
-    M: Vinothkumar
-    S: git
-  - E: m.vinoth!hcl.com
-    M: Vinothkumar
-    S: jira
-    U: m.vinoth
-  - E: Vinothkumar.Eswaran!de.bosch.com
-    M: Eswaran Vinothkumar BEG-PT/PJ-IOT1
-    S: pipermail
-  - E: Vinothkumar.Eswaran!de.bosch.com
-    M: Eswaran Vinothkumar BEG/PJ-IOT-EL
-    S: pipermail
-  B: 0
-  U: Vinothkumar
-- E: vchuong!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2015-02-24"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: vchuong!pivotal.io
-    M: Vinson Chuong
-    S: slack
-    U: vchuong
-  B: 0
-  U: Vinson Chuong
-- E: vlee!freedesktop.org
-  R:
-  - T: "2015-12-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Dropbox
-    F: "2015-12-01"
-    R: C
-  S: male
-  I:
-  - E: vlee!freedesktop.org
-    M: Vinson Lee
-    S: git
-  B: 0
-  U: Vinson Lee
-- E: danielle.vinzant!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-11-11"
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-11-11"
-    P: opnfv
-    R: C
-  I:
-  - E: danielle.vinzant!intel.com
-    M: Vinzant, Danielle
-    S: groupsio
-  B: 0
-  U: Vinzant, Danielle
-- C: NI
-  E: vcheng!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: vcheng!pivotal.io
-    M: Violet Cheng
-    S: github
-    U: violet2016
-  B: 0
-  U: Violet Cheng
-- E: vgeorgieva!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: vgeorgieva!pivotal.io
-    M: Violeta Georgieva
-    S: git
-  B: 0
-  U: Violeta Georgieva
