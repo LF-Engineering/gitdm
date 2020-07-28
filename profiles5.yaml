@@ -1,4 +1,31 @@
 P:
+- C: DE
+  E: fuhbar!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Claranet
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: fuhbar!users.noreply.github.com
+    M: Fabian Dörk
+    S: git
+  B: 0
+  U: Fabian Dörk
+- E: fabf!skynet.be
+  R:
+  - T: "2100-01-01"
+    C: Telefonica Movistar
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: fabf!skynet.be
+    M: Fabian Frederick
+    S: git
+  B: 0
+  U: Fabian Frederick
 - R:
   - T: "2100-01-01"
     C: Instana
@@ -48298,12 +48325,32 @@ P:
   - T: "1994-04-01"
     C: Ericsson AB
     F: "1990-02-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "1994-04-01"
+    C: Ericsson AB
+    F: "1990-02-01"
     P: onap
+    R: C
+  - T: "2000-03-01"
+    C: Nortel Networks
+    F: "1994-05-01"
+    P: o-ran/o-ran-sc
     R: C
   - T: "2001-09-01"
     C: Nortel Networks
     F: "1994-05-01"
     P: onap
+    R: C
+  - T: "2001-09-01"
+    C: Kodiak Networks
+    F: "2000-05-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2001-09-01"
+    C: Nortel Networks
+    F: "2000-05-01"
+    P: o-ran/o-ran-sc
     R: C
   - T: "2002-06-01"
     C: Kodiak Networks
@@ -48313,7 +48360,17 @@ P:
   - T: "2010-01-01"
     C: Nortel Networks
     F: "2003-12-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2010-01-01"
+    C: Nortel Networks
+    F: "2003-12-01"
     P: onap
+    R: C
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2010-01-01"
+    P: o-ran/o-ran-sc
     R: C
   - T: "2100-01-01"
     C: Ericsson AB
@@ -60323,64 +60380,3 @@ P:
     S: git
   B: 0
   U: Huisong Li
-- C: IN
-  E: hchiramm!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2016-08-19"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: hchiramm!redhat.com
-    M: Humble Chirammal
-    S: git
-  - E: hchiramm!redhat.com
-    M: Humble Devassy Chirammal
-    S: git
-  - E: hchiramm!redhat.com
-    M: hchiramm
-    S: git
-  B: 0
-  U: Humble Chirammal
-- C: IN
-  E: humble.devassy!gmail.com
-  R:
-  - T: "2019-01-22"
-    C: Red Hat Inc.
-    F: "2016-04-29"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: humble.devassy!gmail.com
-    M: Humble Devassy Chirammal
-    S: git
-  - E: humble.devassy!gmail.com
-    M: Humble Devassy Chirammal
-    S: github
-    U: humblec
-  B: 0
-  U: Humble Devassy Chirammal
-- E: humera.nazneen!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-11-28"
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-11-28"
-    P: onap
-    R: C
-  I:
-  - M: Humera Nazneen
-    S: jira
-    U: humera14
-  - E: humera.nazneen!att.com
-    M: Humera Nazneen
-    S: jira
-    U: humera14
-  B: 0
-  U: Humera Nazneen
