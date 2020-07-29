@@ -1,4 +1,17 @@
 P:
+- E: k8s-publishing-bot!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: (Robots)
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: k8s-publishing-bot!users.noreply.github.com
+    M: Kubernetes Publisher
+    S: git
+  B: 0
+  U: Kubernetes Publisher
 - E: raphael.kubo.da.costa!intel.com
   R:
   - T: "2100-01-01"
@@ -4295,6 +4308,9 @@ P:
     P: onap
     R: C
   I:
+  - M: LUKAI
+    S: confluence
+    U: lukai
   - E: lukai!chinamobile.com
     M: LUKAI
     S: gerrit
@@ -60578,47 +60594,3 @@ P:
     S: git
   B: 0
   U: Mary Anthony
-- E: mary.camp!ptiglobal.net
-  R:
-  - T: "2017-12-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2018-02-01"
-    C: Independent
-    F: "2017-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: PTI Global
-    F: "2018-02-01"
-    R: C
-  S: female
-  I:
-  - E: mary.camp!ptiglobal.net
-    M: Mary Camp
-    S: git
-  B: 0
-  U: Mary Camp
-- C: US
-  E: maryx.camp!intel.com
-  R:
-  - T: "2017-12-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2018-02-01"
-    C: Independent
-    F: "2017-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: PTI Global
-    F: "2018-02-01"
-    R: C
-  S: male
-  I:
-  - E: maryx.camp!intel.com
-    M: Mary Camp
-    S: github
-    U: MCamp859
-  B: 0
-  U: Mary Camp
