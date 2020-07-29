@@ -1,4 +1,37 @@
 P:
+- C: FR
+  R:
+  - T: "2014-08-01"
+    C: Reservit
+    F: "1900-01-01"
+    R: C
+  - T: "2016-07-01"
+    C: Neotys
+    F: "2014-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-07-01"
+    R: C
+  S: male
+  I:
+  - M: Joel Takvorian
+    S: github
+    U: jotak
+  B: 0
+  U: Joel Takvorian
+- R:
+  - T: "2019-03-26"
+    C: ZEDEDA
+    F: "2019-03-19"
+    P: lfedge/state-of-the-edge
+    R: C
+  I:
+  - M: Joel Vincent
+    S: confluence
+    U: JoelVincent
+  B: 0
+  U: Joel Vincent
 - E: jdws.dev!gmail.com
   R:
   - T: "2017-04-01"
@@ -61321,39 +61354,3 @@ P:
     U: carlisia
   B: 0
   U: KubeKween
-- C: US
-  E: k8s-publish-robot!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: (Robots)
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: k8s-ci-robot!users.noreply.github.com
-    M: Kubernetes Prow Robot
-    S: git
-  - E: k8s-publish-robot!users.noreply.github.com
-    M: Kubernetes Publisher
-    S: git
-  - E: 34088196+k8s-publishing-bot!users.noreply.github.com
-    M: Kubernetes staging repo publishing bot
-    S: git
-  - E: k8s-ci-robot!users.noreply.github.com
-    M: k8s-ci-robot
-    S: git
-  - M: Kubernetes Bot
-    S: github
-    U: k8s-bot
-  - M: Kubernetes Prow Robot
-    S: github
-    U: k8s-ci-robot
-  - E: k8s.release.robot!gmail.com
-    M: Kubernetes Release Robot
-    S: github
-    U: k8s-release-robot
-  - M: Kubernetes staging repo publishing bot
-    S: github
-    U: k8s-publishing-bot
-  B: 1
-  U: Kubernetes Bot
