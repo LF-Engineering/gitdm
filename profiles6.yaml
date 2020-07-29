@@ -5976,15 +5976,30 @@ P:
     F: "2011-10-01"
     P: akraino
     R: C
+  - T: "2015-12-01"
+    C: wrkout
+    F: "2013-04-01"
+    P: onap
+    R: C
   - T: "2015-09-01"
     C: Instituto de Telecomunicações
     F: "2014-10-01"
     P: akraino
     R: C
+  - T: "2015-09-01"
+    C: Instituto de Telecomunicações
+    F: "2014-10-01"
+    P: onap
+    R: C
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2018-11-01"
     P: akraino
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-11-01"
+    P: onap
     R: C
   I:
   - E: igor.duarte.cardoso!intel.com
@@ -22234,6 +22249,52 @@ P:
     S: git
   B: 0
   U: Jakob Karalus
+- E: jakob.krieg!bcmsolutions.de
+  R:
+  - T: "2015-03-01"
+    C: Wenger Engineering GmbH
+    F: "2014-09-01"
+    P: onap
+    R: C
+  - T: "2018-09-01"
+    C: Hochschule Ansbach - University of Applied Sciences
+    F: "2015-08-01"
+    P: onap
+    R: C
+  - T: "2020-03-01"
+    C: Hochschule Ansbach - University of Applied Sciences
+    F: "2018-11-01"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: BCM Solutions GmbH
+    F: "2020-04-01"
+    P: onap
+    R: C
+  I:
+  - M: Jakob Krieg
+    S: confluence
+    U: JakobKrieg
+  - E: jakob.krieg!bcmsolutions.de
+    M: Jakob Krieg
+    S: confluence
+    U: JakobKrieg
+  - E: jakob.krieg!bcmsolutions.de
+    M: Jakob Krieg
+    S: gerrit
+    U: JakobKrieg
+  - E: jakob.krieg!bcmsolutions.de
+    M: JakobKrieg
+    S: git
+  - M: Jakob Krieg
+    S: jira
+    U: JakobKrieg
+  - E: jakob.krieg!bcmsolutions.de
+    M: Jakob Krieg
+    S: jira
+    U: JakobKrieg
+  B: 0
+  U: Jakob Krieg
 - C: US
   E: jolesen!fb.com
   R:
@@ -39819,6 +39880,21 @@ P:
   U: Jean-Yves Gastaud
 - E: jean-yves.geury!nokia.com
   R:
+  - T: "1988-05-01"
+    C: Lucent Technologies
+    F: "1985-07-01"
+    P: onap
+    R: C
+  - T: "1990-06-01"
+    C: CSC
+    F: "1988-07-01"
+    P: onap
+    R: C
+  - T: "2007-06-01"
+    C: Alcatel-Lucent
+    F: "1998-07-01"
+    P: onap
+    R: C
   - T: "2100-01-01"
     C: Nokia Corporation
     F: "2020-03-27"
@@ -61707,98 +61783,3 @@ P:
     S: pipermail
   B: 0
   U: Joel Xi Zhou Zhou
-- E: joel.stapleton!nordicsemi.no
-  R:
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: joel.stapleton!nordicsemi.no
-    M: Joel
-    S: slack
-    U: joel.stapleton
-  B: 0
-  U: Joel
-- E: joerg.erdmenger!de.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-12-06"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: joerg.erdmenger!de.ibm.com
-    M: Joerg Erdmenger
-    S: slack
-    U: joerg.erdmenger
-  B: 0
-  U: Joerg Erdmenger
-- E: joerg.roedel!amd.com
-  R:
-  - T: "2011-08-05"
-    C: AMD
-    F: "2010-10-20"
-    P: zep
-    R: C
-  I:
-  - E: joerg.roedel!amd.com
-    M: Joerg Roedel
-    S: git
-  B: 0
-  U: Joerg Roedel
-- C: DE
-  E: joro!8bytes.org
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: joro!8bytes.org
-    M: Joerg Roedel
-    S: git
-  B: 0
-  U: Joerg Roedel
-- E: jroedel!lemmy.amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jroedel!lemmy.amd.com
-    M: Joerg Roedel
-    S: git
-  B: 0
-  U: Joerg Roedel
-- C: DE
-  E: jroedel!suse.de
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: jroedel!suse.de
-    M: Joerg Roedel
-    S: git
-  B: 0
-  U: Joerg Roedel
-- C: US
-  E: joerg!mesosphere.io
-  R:
-  - T: "2015-06-15"
-    C: Mesosphere
-    F: "2015-06-04"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: joerg!mesosphere.io
-    M: Joerg Schad
-    S: git
-  B: 0
-  U: Joerg Schad

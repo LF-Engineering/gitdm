@@ -1,4 +1,113 @@
 P:
+- E: aswinp!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2016-11-22"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: aswinp!vmware.com
+    M: aswinp
+    S: slack
+    U: aswinp
+  B: 0
+  U: aswinp
+- E: aktalty!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-12-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: aktalty!us.ibm.com
+    M: atalty
+    S: slack
+    U: atalty
+  B: 0
+  U: atalty
+- E: afisher!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: Linux Foundation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: afisher!linuxfoundation.org
+    M: atarfish9
+    S: slack
+    U: atarfish9
+  B: 0
+  U: atarfish9
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Fastly
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - S: github
+    U: athomason
+  B: 0
+  U: athomason
+- C: JP
+  E: atoato88+github!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: NEC
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: atoato88+github!gmail.com
+    M: atoato88
+    S: git
+  - E: atoato88+github!gmail.com
+    M: atoato88
+    S: github
+    U: atoato88
+  B: 0
+  U: atoato88
+- E: atodd!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-02-15"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: atodd!us.ibm.com
+    M: atodd
+    S: slack
+    U: atodd
+  B: 0
+  U: atodd
+- E: auh!auh.yoctoproject.org
+  R:
+  - T: "2100-01-01"
+    C: Wind River Systems, Inc.
+    F: "2013-11-27"
+    P: yocto
+    R: C
+  I:
+  - E: auh!auh.yoctoproject.org
+    M: Upgrade Helper
+    S: git
+  - E: uh!not.set
+    M: Upgrade Helper
+    S: git
+  - E: upgrade.helper!windriver.com
+    M: Upgrade Helper
+    S: git
+  - E: auh!auh.yoctoproject.org
+    M: auh
+    S: groupsio
+  - E: auh!auh.yoctoproject.org
+    M: auh
+    S: pipermail
+  B: 0
+  U: auh
 - E: aurelien!aurel32.net
   R:
   - T: "2100-01-01"
@@ -29960,9 +30069,23 @@ P:
     P: onap
     R: C
   I:
+  - E: 18350830036!163.com
+    M: Lei Huang
+    S: confluence
+    U: Lei_Huang
+  - E: 18350830036!163.com
+    M: "18350830036"
+    S: groupsio
+  - E: 18350830036!163.com
+    M: hlfight_
+    S: groupsio
   - E: huangleiyjy!chinamobile.com
     M: hlfight_
     S: groupsio
+  - E: 18350830036!163.com
+    M: Lei Huang
+    S: jira
+    U: Lei_Huang
   B: 0
   U: hlfight_
 - R:
@@ -46466,6 +46589,30 @@ P:
     U: kwang
   B: 0
   U: kwang
+- E: katarzyna.wasiel!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2020-07-07"
+    P: onap
+    R: C
+  I:
+  - E: katarzyna.wasiel!nokia.com
+    M: Katarzyna Wasiel
+    S: gerrit
+    U: kwasiel
+  - E: katarzyna.wasiel!nokia.com
+    M: kwasiel
+    S: git
+  - M: Katarzyna Wasiel
+    S: jira
+    U: kwasiel
+  - E: katarzyna.wasiel!nokia.com
+    M: Katarzyna Wasiel
+    S: jira
+    U: kwasiel
+  B: 0
+  U: kwasiel
 - R:
   - T: "2100-01-01"
     C: Google
@@ -47432,41 +47579,6 @@ P:
     U: legolas-zeng
   B: 0
   U: legolas-zeng
-- E: lei.a.yao!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2016-08-03"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2016-08-03"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2019-03-07"
-    C: Intel Corporation
-    F: "2016-12-20"
-    P: dpdk-tools
-    R: C
-  I:
-  - E: lei.a.yao!intel.com
-    M: lei yao
-    S: git
-  - E: lei.a.yao!intel.com
-    M: Lei
-    S: pipermail
-  - E: lei.a.yao!intel.com
-    M: Yao Lei
-    S: pipermail
-  - E: lei.a.yao!intel.com
-    M: Yao, Lei A
-    S: pipermail
-  - E: lei.a.yao!intel.com
-    M: lei,yao
-    S: pipermail
-  B: 0
-  U: lei yao
 - R:
   - T: "2100-01-01"
     C: Google
@@ -62138,129 +62250,3 @@ P:
     U: nikushi
   B: 0
   U: nikushi
-- R:
-  - T: "2014-08-01"
-    C: Fraunhofer FOKUS
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-08-01"
-    P: zep
-    R: C
-  - T: "2018-10-01"
-    C: Nordic Semiconductor ASA
-    F: "2015-01-01"
-    P: zep
-    R: C
-  - T: "2018-12-01"
-    C: Independent
-    F: "2018-10-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Planetary Transportation Systems
-    F: "2018-12-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - S: github
-    U: nilsMontenegro
-  B: 0
-  U: nilsMontenegro
-- E: nilsson!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-06-23"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: nilsson!us.ibm.com
-    M: nilsson
-    S: slack
-    U: nilsson
-  B: 0
-  U: nilsson
-- R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - S: github
-    U: nimeshksingh
-  B: 0
-  U: nimeshksingh
-- E: zhangninglc!inspur.com
-  R:
-  - T: "2100-01-01"
-    C: Inspur
-    F: "2019-08-08"
-    P: odl
-    R: C
-  S: female
-  I:
-  - E: zhangninglc!inspur.com
-    M: ning zhang
-    S: gerrit
-    U: zhangninglc
-  - E: zhangninglc!inspur.com
-    M: Ning Zhang
-    S: git
-  - E: zhangninglc!inspur.com
-    M: ning zhang
-    S: jira
-    U: zhangninglc
-  B: 0
-  U: ning zhang
-- E: zhuning!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-09-09"
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-09-09"
-    P: onap
-    R: C
-  I:
-  - M: Ning Zhu
-    S: confluence
-    U: nealzhu
-  - E: zhuning!huawei.com
-    M: Zhuning
-    S: groupsio
-  - E: zhuning!huawei.com
-    M: ning zhu
-    S: jira
-    U: nealzhu
-  - E: zhuning!huawei.com
-    M: ning zhuning
-    S: jira
-    U: nealzhu
-  - E: zhuning!huawei.com
-    M: Zhuning
-    S: pipermail
-  B: 0
-  U: ning zhuning
-- E: ningx.ma!intel.com
-  R:
-  - T: "2012-10-02"
-    C: Intel Corporation
-    F: "2012-01-16"
-    P: yocto
-    R: C
-  I:
-  - E: ningx.ma!intel.com
-    S: bugzilla
-    U: ningx.ma
-  - E: ningx.ma!intel.com
-    M: MaNing
-    S: bugzilla
-    U: ningx.ma
-  B: 0
-  U: ningx.ma
