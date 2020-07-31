@@ -1,5 +1,175 @@
 P:
 - R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - S: github
+    U: ahg-g
+  B: 0
+  U: ahg-g
+- E: auke-jan.h.kok!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: auke-jan.h.kok!intel.com
+    M: Auke Kok
+    S: git
+  - E: auke-jan.h.kok!intel.com
+    M: Auke-Jan H Kok
+    S: git
+  - E: auke-jan.h.kok!intel.com
+    M: Kok, Auke
+    S: git
+  - E: auke-jan.h.kok!intel.com
+    S: github
+    U: ahkok
+  B: 0
+  U: ahkok
+- C: GB
+  E: wildan
+  R:
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: wildan
+    M: ahmad wildan
+    S: github
+    U: baksosapi
+  B: 0
+  U: ahmad wildan
+- C: IR
+  E: mail!ahmadalli.net
+  R:
+  - T: "2016-02-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-08-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2016-02-01"
+    R: C
+  - T: "2017-04-01"
+    C: AnuSystem
+    F: "2016-08-01"
+    R: C
+  - T: "2018-03-01"
+    C: ahmadalli.net
+    F: "2017-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Turned On Digital
+    F: "2018-03-01"
+    R: C
+  S: male
+  I:
+  - E: mail!ahmadalli.net
+    M: ahmadali shafiee
+    S: git
+  - E: mail!ahmadalli.net
+    M: ahmadali shafiee
+    S: github
+    U: ahmadalli
+  B: 0
+  U: ahmadali shafiee
+- E: ahmad.helmy!orange.com
+  R:
+  - T: "2018-05-09"
+    C: Orange S.A.
+    F: "2017-12-14"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "2019-06-24"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "2019-11-05"
+    P: onap
+    R: C
+  I:
+  - E: ahmad.helmy!orange.com
+    M: Ahmed Helmy
+    S: gerrit
+    U: ahmed.helmy
+  - E: ahmad.helmy!orange.com
+    M: Ahmed Abbas
+    S: git
+  - E: ahmad.helmy!orange.com
+    M: ahmed.helmy
+    S: git
+  - M: Ahmed Helmy
+    S: jira
+    U: ahmed.helmy
+  - E: ahmad.helmy!orange.com
+    M: Ahmed Helmy
+    S: jira
+    U: ahmed.helmy
+  B: 0
+  U: ahmed.helmy
+- E: aidan.j.obrien!emc.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "2016-05-23"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: aidan.j.obrien!emc.com
+    M: aidan
+    S: slack
+    U: aidan
+  B: 0
+  U: aidan
+- E: aijianwen!huawei.com
+  R:
+  - T: "2017-11-17"
+    C: Huawei Technologies Co., Ltd.
+    F: "2017-06-23"
+    R: C
+  - T: "2017-11-17"
+    C: Huawei Technologies Co., Ltd.
+    F: "2017-06-23"
+    P: onap
+    R: C
+  I:
+  - E: aijianwen!huawei.com
+    M: aijianwen
+    S: groupsio
+  - E: aijianwen!huawei.com
+    M: aijianwen
+    S: pipermail
+  B: 0
+  U: aijianwen
+- E: ailan.gl!alibaba-inc.com
+  R:
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "2017-09-19"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ailan.gl!alibaba-inc.com
+    S: git
+  - E: ailan.gl!alibaba-inc.com
+    M: ailan.gl
+    S: git
+  - E: ailan.gl!alibaba-inc.com
+    M: Lei Gao
+    S: slack
+    U: ailan.gl
+  B: 0
+  U: ailan.gl
+- R:
   - T: "2016-02-29"
     C: Goldman Sachs
     F: "2004-04-01"
@@ -61939,197 +62109,3 @@ P:
     S: git
   B: 0
   U: mcharleb
-- E: mchehab!s-opensource.com
-  R:
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: mchehab!s-opensource.com
-    M: Mauro Carvalho Chehab
-    S: git
-  - E: mchehab!s-opensource.com
-    M: mchehab
-    S: git
-  B: 0
-  U: mchehab
-- E: mciccone!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-06-30"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mciccone!us.ibm.com
-    M: mciccone
-    S: slack
-    U: mciccone
-  B: 0
-  U: mciccone
-- C: AU
-  E: mick!semb.wever.org
-  R:
-  - T: "2015-05-01"
-    C: Apache Software Foundation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: The Last Pickle
-    F: "2015-05-01"
-    R: C
-  S: male
-  I:
-  - E: mick!semb.wever.org
-    M: mck
-    S: git
-  B: 0
-  U: mck
-- C: AU
-  E: mick!thelastpickle.com
-  R:
-  - T: "2015-05-01"
-    C: Apache Software Foundation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: The Last Pickle
-    F: "2015-05-01"
-    R: C
-  S: male
-  I:
-  - E: mick!thelastpickle.com
-    M: mck
-    S: git
-  - E: mick!thelastpickle.com
-    M: mck
-    S: github
-    U: michaelsembwever
-  B: 0
-  U: mck
-- C: FR
-  E: corbin.math!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Zenika
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: corbin.math!gmail.com
-    M: Mathieu Corbin
-    S: git
-  - E: corbin.math!gmail.com
-    M: mcorbin
-    S: git
-  B: 0
-  U: mcorbin
-- E: mcsl!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "2014-02-03"
-    P: odl
-    R: C
-  I:
-  - E: mcsl!cisco.com
-    M: mcsl
-    S: gerrit
-  - E: mcsl!cisco.com
-    M: mcsl
-    S: git
-  B: 0
-  U: mcsl
-- E: martin.cole!vivint.com
-  R:
-  - T: "2100-01-01"
-    C: Vivint
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: martin.cole!vivint.com
-    M: mcvulin
-    S: git
-  B: 0
-  U: mcvulin
-- C: US
-  E: md!stoi.cc
-  R:
-  - T: "2100-01-01"
-    C: SourceClear
-    F: "2020-03-12"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: md!stoi.cc
-    M: mdaniel
-    S: slack
-    U: mdaniel
-  B: 0
-  U: mdaniel
-- E: mday!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2017-03-03"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mday!pivotal.io
-    M: Matt Day
-    S: slack
-    U: mday
-  - E: mday!pivotal.io
-    M: mday
-    S: slack
-    U: mday
-  B: 0
-  U: mday
-- E: mdcunha!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2015-01-05"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mdcunha!pivotal.io
-    M: Mark DCunha
-    S: slack
-    U: mdcunha
-  - E: mdcunha!pivotal.io
-    M: mdcunha
-    S: slack
-    U: mdcunha
-  B: 0
-  U: mdcunha
-- E: pietrzyk!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2016-06-17"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: pietrzyk!ge.com
-    M: mdpski
-    S: slack
-    U: mdpski
-  B: 0
-  U: mdpski
-- E: 1455975151!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: 1455975151!qq.com
-    S: github
-    U: mds1455975151
-  B: 0
-  U: mds1455975151
