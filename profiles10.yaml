@@ -1,4 +1,57 @@
 P:
+- C: IN
+  E: ghostwriternr!gmail.com
+  R:
+  - T: "2016-05-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-06-01"
+    C: ezDi
+    F: "2016-05-01"
+    R: C
+  - T: "2017-07-01"
+    C: Intuit, Inc.
+    F: "2016-06-01"
+    R: C
+  - T: "2018-04-01"
+    C: Independent
+    F: "2017-07-01"
+    R: C
+  - T: "2018-07-01"
+    C: CNCF
+    F: "2018-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2018-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "2018-07-01"
+    R: C
+  S: male
+  I:
+  - E: ghostwriternr!gmail.com
+    M: Naresh
+    S: github
+    U: ghostwriternr
+  B: 0
+  U: Naresh
+- C: JP
+  E: authornari!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: authornari!gmail.com
+    M: Narihiro Nakamura
+    S: git
+  B: 0
+  U: Narihiro Nakamura
 - E: nariman!opensource.wolfsonmicro.com
   R:
   - T: "2100-01-01"
@@ -61029,34 +61082,3 @@ P:
     U: pradeepchhetri
   B: 0
   U: Pradeep Chhetri
-- E: Pradeep.r.gaddam!intel.com
-  R:
-  - T: "2014-08-22"
-    C: Intel Corporation
-    F: "2014-07-17"
-    P: yocto
-    R: C
-  I:
-  - E: Pradeep.r.gaddam!intel.com
-    M: Pradeep Gaddam
-    S: git
-  B: 0
-  U: Pradeep Gaddam
-- E: pkathail!cisco.com
-  R:
-  - T: "2015-11-04"
-    C: Cisco
-    F: "2015-11-02"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2015-11-04"
-    C: Cisco
-    F: "2015-11-02"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: pkathail!cisco.com
-    M: Pradeep Kathail
-    S: pipermail
-  B: 0
-  U: Pradeep Kathail
