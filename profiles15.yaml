@@ -1,6 +1,88 @@
 P:
 - R:
   - T: "2100-01-01"
+    C: Amobee
+    F: "1900-01-01"
+    R: C
+  I:
+  - S: github
+    U: ahawtho
+  B: 0
+  U: ahawtho
+- E: ahawtho!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Amobee
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ahawtho!users.noreply.github.com
+    M: ahawtho
+    S: git
+  B: 0
+  U: ahawtho
+- C: US
+  R:
+  - T: "2015-08-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2015-08-01"
+    R: C
+  S: female
+  I:
+  - M: ahedberg
+    S: github
+    U: ahedberg
+  B: 0
+  U: ahedberg
+- C: US
+  E: ahedberg!google.com
+  R:
+  - T: "2015-08-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2015-08-01"
+    R: C
+  S: female
+  I:
+  - E: ahedberg!google.com
+    M: ahedberg
+    S: git
+  - E: ahedberg!google.com
+    M: ahedberg
+    S: github
+    U: ahedberg
+  B: 0
+  U: ahedberg
+- E: 40361897+ahg-g!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "2019-06-07"
+    P: baetyl
+    R: C
+  I:
+  - E: 40361897+ahg-g!users.noreply.github.com
+    M: ahg-g
+    S: git
+  B: 0
+  U: ahg-g
+- R:
+  - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
     R: C
@@ -6841,6 +6923,25 @@ P:
     U: banditsmile
   B: 0
   U: bandit
+- E: bangaru.nagendrababu!ltts.com
+  R:
+  - T: "2100-01-01"
+    C: Larsen & Toubro Infotech Ltd.
+    F: "2019-01-01"
+    P: onap
+    R: C
+  I:
+  - E: bangaru.nagendrababu!ltts.com
+    M: Bangaru Nagendra Babu
+    S: groupsio
+  - E: bangaru.nagendrababu!ltts.com
+    M: bangaru.nagendrababu
+    S: groupsio
+  - E: bangarunagendrababu!gmail.com
+    M: bangarunagendrababu
+    S: groupsio
+  B: 0
+  U: bangaru.nagendrababu
 - E: pawel.baniewski!nokia.com
   R:
   - T: "2100-01-01"
@@ -62002,110 +62103,3 @@ P:
     U: mcayland
   B: 0
   U: mcayland
-- C: GB
-  E: mccraigmccraig!gmail.com
-  R:
-  - T: "2015-08-01"
-    C: Trampolina Systems
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Employee Republic
-    F: "2015-08-01"
-    R: C
-  S: male
-  I:
-  - E: mccraigmccraig!gmail.com
-    M: mccraig mccraig of the clan mccraig
-    S: git
-  B: 0
-  U: mccraig mccraig of the clan mccraig
-- C: GB
-  R:
-  - T: "2015-08-01"
-    C: Trampolina Systems
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Employee Republic
-    F: "2015-08-01"
-    R: C
-  S: male
-  I:
-  - M: mccraigmccraig of the clan mccraig
-    S: github
-    U: mccraigmccraig
-  B: 0
-  U: mccraigmccraig of the clan mccraig
-- R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    R: C
-  I:
-  - S: github
-    U: mceaglens
-  B: 0
-  U: mceaglens
-- E: mark.cesario!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-07-15"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mark.cesario!us.ibm.com
-    M: mcesario
-    S: slack
-    U: mcesario
-  B: 0
-  U: mcesario
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  I:
-  - S: github
-    U: mcgreevy
-  B: 0
-  U: mcgreevy
-- R:
-  - T: "2016-08-31"
-    C: Pivotal
-    F: "2016-02-22"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - S: github
-    U: mchada
-  - E: mchada!pivotal.io
-    M: mchada
-    S: slack
-    U: mchada
-  B: 0
-  U: mchada
-- R:
-  - T: "2100-01-01"
-    C: Cisco
-    F: "1900-01-01"
-    R: C
-  I:
-  - S: github
-    U: mchalla
-  B: 0
-  U: mchalla
-- E: charlebm!gmail.com
-  R:
-  - T: "2015-05-15"
-    C: Qualcomm
-    F: "2015-04-27"
-    P: dronecode
-    R: C
-  I:
-  - E: charlebm!gmail.com
-    M: mcharleb
-    S: git
-  B: 0
-  U: mcharleb

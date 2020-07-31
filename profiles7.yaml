@@ -1,5 +1,34 @@
 P:
 - C: US
+  E: joeblackwaslike!me.com
+  R:
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: joeblackwaslike!me.com
+    M: Joe Black
+    S: git
+  B: 0
+  U: Joe Black
+- C: US
+  E: me!joeblack.nyc
+  R:
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: me!joeblack.nyc
+    M: Joe Black
+    S: github
+    U: joeblackwaslike
+  B: 0
+  U: Joe Black
+- C: US
   E: jbolinger!google.com
   R:
   - T: "2100-01-01"
@@ -61475,18 +61504,3 @@ P:
     S: git
   B: 0
   U: Kristian Haugene
-- E: krh!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: krh!redhat.com
-    M: Kristian Hoegsberg
-    S: git
-  - E: krh!redhat.com
-    M: Kristian Høgsberg
-    S: git
-  B: 0
-  U: Kristian Hoegsberg
