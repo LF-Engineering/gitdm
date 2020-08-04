@@ -1,4 +1,107 @@
 P:
+- C: US
+  E: martin!xevo.com
+  R:
+  - T: "2015-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: opx
+    R: C
+  - T: "2015-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: Xevo
+    F: "2015-01-01"
+    P: opx
+    R: C
+  - T: "2100-01-01"
+    C: Xevo
+    F: "2015-01-01"
+    P: yocto
+    R: C
+  S: male
+  I:
+  - E: mkelly!xevo.com
+    M: Martin Kelly
+    S: git
+  - E: martin!xevo.com
+    M: Martin Kelly
+    S: groupsio
+  - E: mkelly!xevo.com
+    M: Martin Kelly
+    S: groupsio
+  - E: martin!xevo.com
+    M: Martin Kelly
+    S: pipermail
+  - E: mkelly!xevo.com
+    M: Martin Kelly
+    S: pipermail
+  B: 0
+  U: Martin Kelly
+- C: AT
+  E: martink!posteo.de
+  R:
+  - T: "2016-05-01"
+    C: Theobroma
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: Ginzinger
+    F: "2016-05-01"
+    P: yocto
+    R: C
+  I:
+  - E: martin.kepplinger!ginzinger.com
+    M: Martin Kepplinger
+    S: git
+  - E: martink!posteo.de
+    M: Martin Kepplinger
+    S: git
+  - E: martin.kepplinger!ginzinger.com
+    M: Martin Kepplinger
+    S: groupsio
+  - E: martink!posteo.de
+    M: Martin Kepplinger
+    S: groupsio
+  - E: martin.kepplinger!ginzinger.com
+    M: Martin Kepplinger
+    S: pipermail
+  - E: martink!posteo.de
+    M: Martin Kepplinger
+    S: pipermail
+  B: 0
+  U: Martin Kepplinger
+- E: mkletzan!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-02-17"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-12-07"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-12-07"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  S: male
+  I:
+  - E: mkletzan!redhat.com
+    M: Martin Kletzander
+    S: git
+  - E: mkletzan!redhat.com
+    M: Martin Kletzander
+    S: pipermail
+  B: 0
+  U: Martin Kletzander
 - E: martinx.klozik!intel.com
   R:
   - T: "2100-01-01"
@@ -36256,6 +36359,26 @@ P:
   U: Michał Hudy
 - E: Jagieo
   R:
+  - T: "2015-06-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2012-02-01"
+    P: lfn-cntt
+    R: C
+  - T: "2016-09-01"
+    C: infullmobile
+    F: "2015-06-01"
+    P: lfn-cntt
+    R: C
+  - T: "2019-10-01"
+    C: NASK
+    F: "2016-09-01"
+    P: lfn-cntt
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile Polska
+    F: "2019-10-01"
+    P: lfn-cntt
+    R: C
   - T: "2100-01-01"
     C: T-Mobile PCS Holdings LLC
     F: "2019-10-11"
@@ -60482,273 +60605,3 @@ P:
     U: south37
   B: 0
   U: Nao Minami
-- E: nao.nishijima.xt!hitachi.com
-  R:
-  - T: "2100-01-01"
-    C: Hitachi
-    F: "2016-08-06"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: Hitachi
-    F: "2016-08-06"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2100-01-01"
-    C: Hitachi
-    F: "2016-08-06"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2100-01-01"
-    C: Hitachi
-    F: "2016-08-06"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: Hitachi
-    F: "2016-08-06"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: Hitachi
-    F: "2017-12-20"
-    P: explorer
-    R: C
-  I:
-  - E: Nao.nishijima!hal.hitachi.com
-    M: Nao Nishijima
-    S: gerrit
-  - E: nao.nishijima!hal.hitachi.com
-    M: Nao Nishijima
-    S: gerrit
-    U: nnao
-  - E: nao.nishijima.xt!hitachi.com
-    M: Nao Nishijima
-    S: gerrit
-    U: nnao
-  - E: nao.nishijima!hal.hitachi.com
-    M: Nao Nishijima
-    S: git
-  - E: nao.nishijima.xt!hitachi.com
-    M: Nao Nishijima
-    S: git
-  - E: nao.nishijima!hal.hitachi.com
-    M: Nao
-    S: git
-  - M: Nao Nishijima
-    S: jira
-    U: nao
-  - M: Nao Nishijima
-    S: jira
-    U: nnao
-  - E: nao.nishijima!hal.hitachi.com
-    M: Nao Nishijima
-    S: jira
-    U: nnao
-  B: 0
-  U: Nao Nishijima
-- E: naohiro.aota!hgst.com
-  R:
-  - T: "2100-01-01"
-    C: HGST
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: naohiro.aota!hgst.com
-    M: Naohiro Aota
-    S: git
-  B: 0
-  U: Naohiro Aota
-- C: JP
-  E: naohiro.aota!wdc.com
-  R:
-  - T: "2014-03-01"
-    C: Riken
-    F: "1900-01-01"
-    R: C
-  - T: "2014-10-01"
-    C: Fujitsu
-    F: "2014-03-01"
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2014-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: IIJ Innovation
-    F: "2015-03-01"
-    R: C
-  S: male
-  I:
-  - E: naohiro.aota!wdc.com
-    M: Naohiro Aota
-    S: git
-  B: 0
-  U: Naohiro Aota
-- C: JP
-  E: naota!elisp.net
-  R:
-  - T: "2014-03-01"
-    C: Riken
-    F: "1900-01-01"
-    R: C
-  - T: "2014-10-01"
-    C: Fujitsu
-    F: "2014-03-01"
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2014-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: IIJ Innovation
-    F: "2015-03-01"
-    R: C
-  S: male
-  I:
-  - E: naota!elisp.net
-    M: Naohiro Aota
-    S: git
-  B: 0
-  U: Naohiro Aota
-- E: naohirot!jp.fujitsu.com
-  R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "2017-07-08"
-    R: C
-  I:
-  - E: naohirot!jp.fujitsu.com
-    M: Naohiro Tamura
-    S: git
-  B: 0
-  U: Naohiro Tamura
-- R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "2017-07-10"
-    R: C
-  I:
-  - S: github
-    U: NaohiroTamura
-  B: 0
-  U: NaohiroTamura
-- C: JP
-  R:
-  - T: "2018-09-30"
-    C: recruit-mp
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Z Lab
-    F: "2018-09-30"
-    R: C
-  S: male
-  I:
-  - M: Naoki Ainoya
-    S: github
-    U: ainoya
-  B: 0
-  U: Naoki Ainoya
-- C: JP
-  E: ainonic!gmail.com
-  R:
-  - T: "2018-09-30"
-    C: recruit-mp
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Z Lab
-    F: "2018-09-30"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: ainonic!gmail.com
-    M: Naoki Ainoya
-    S: git
-  B: 0
-  U: Naoki Ainoya
-- E: naoki.oda.pg!hco.ntt.co.jp
-  R:
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "2020-02-14"
-    P: onap
-    R: C
-  I:
-  - M: Naoki Oda
-    S: jira
-    U: Nao1386
-  - E: naoki.oda.pg!hco.ntt.co.jp
-    M: Naoki Oda
-    S: jira
-    U: Nao1386
-  B: 0
-  U: Naoki Oda
-- C: DE
-  E: nslater!tumbolia.org
-  R:
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "1900-01-01"
-    R: C
-  S: female
-  I:
-  - E: nslater!tumbolia.org
-    M: Naomi Slater
-    S: git
-  B: 0
-  U: Naomi Slater
-- E: neduljee!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: lfedge/open-horizon
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-06-10"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - M: Naoshad Eduljee
-    S: meetup
-    U: "63534012"
-  - E: naoshad!us.ibm.com
-    M: Naoshad Eduljee
-    S: slack
-    U: naoshad
-  - E: naoshad!us.ibm.com
-    M: Naoshad Eduljee
-    S: slack
-    U: nash
-  - E: neduljee!gmail.com
-    M: Naoshad Eduljee
-    S: slack
-    U: neduljee
-  B: 0
-  U: Naoshad Eduljee
-- C: JP
-  R:
-  - T: "2016-09-07"
-    C: Fujitsu
-    F: "2014-07-07"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: t.naoto!jp.fujitsu.com
-    M: Naoto TAKAHASHI
-    S: git
-  - M: Naoto TAKAHASHi
-    S: github
-    U: tnaoto
-  - E: t.naoto!jp.fujitsu.com
-    M: Naoto TAKAHASHI
-    S: slack
-    U: tnaoto
-  B: 0
-  U: Naoto TAKAHASHi
