@@ -1,4 +1,132 @@
 P:
+- C: US
+  E: inbox!marshallford.me
+  R:
+  - T: "2014-05-01"
+    C: NDSU ITS
+    F: "1900-01-01"
+    R: C
+  - T: "2015-08-01"
+    C: BerganKDV
+    F: "2014-05-01"
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-08-01"
+    R: C
+  - T: "2017-12-01"
+    C: Clifton
+    F: "2016-01-01"
+    R: C
+  - T: "2018-12-01"
+    C: Independent
+    F: "2017-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: General Mills
+    F: "2018-12-01"
+    R: C
+  S: male
+  I:
+  - E: inbox!marshallford.me
+    M: Marshall Ford
+    S: git
+  - E: inbox!marshallford.me
+    M: Marshall Ford
+    S: github
+    U: marshallford
+  B: 0
+  U: Marshall Ford
+- E: mart.raudsepp!artecdesign.ee
+  R:
+  - T: "2100-01-01"
+    C: Artec Design
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mart.raudsepp!artecdesign.ee
+    M: Mart Raudsepp
+    S: git
+  B: 0
+  U: Mart Raudsepp
+- E: marta.lofstedt!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  S: female
+  I:
+  - E: marta.lofstedt!intel.com
+    M: Marta Lofstedt
+    S: git
+  B: 0
+  U: Marta Lofstedt
+- E: mpiekarska!linuxfoundation.org
+  R:
+  - T: "2017-11-29"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: indy
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: burrow
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: cello
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: fabric
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: iroha
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: sawtooth
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2016-12-31"
+    P: ursa
+    R: C
+  I:
+  - M: Marta Piekarska
+    S: confluence
+    U: mpiekarska
+  - E: mpiekarska!linuxfoundation.org
+    M: Marta Piekarska
+    S: confluence
+    U: mpiekarska
+  - E: marta!linuxfoundation.org
+    M: Marta Piekarska
+    S: groupsio
+  - E: mpiekarska!linuxfoundation.org
+    M: Marta Piekarska
+    S: groupsio
+  - S: rocketchat
+    U: mpiekarska
+  B: 0
+  U: Marta Piekarska
 - E: marta.ziosi!aiforpeople.org
   R:
   - T: "2018-08-01"
@@ -60518,43 +60646,3 @@ P:
     S: git
   B: 0
   U: Nadav Amit
-- E: namit!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: namit!vmware.com
-    M: Nadav Amit
-    S: git
-  B: 0
-  U: Nadav Amit
-- C: CA
-  R:
-  - T: "2018-01-02"
-    C: Pivotal
-    F: "2015-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - M: Nader Ziada
-    S: git
-  - E: n.ziada!pivotal.io
-    M: Nader Ziada
-    S: git
-  - E: nziada!pivotal.io
-    M: Nader Ziada
-    S: git
-  - E: pivotal-nader-ziada!pivotal.io
-    M: Nader Ziada
-    S: git
-  - M: Nader Ziada
-    S: github
-    U: pivotal-nader-ziada
-  - E: nziada!pivotal.io
-    M: Nader Ziada
-    S: slack
-    U: naderziada
-  B: 0
-  U: Nader Ziada
