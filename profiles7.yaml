@@ -1,4 +1,118 @@
 P:
+- C: US
+  E: liujbjl!linux.vnet.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: eBay, Inc.
+    F: "1900-01-01"
+    P: zep
+    R: C
+  S: female
+  I:
+  - E: jing2.liu!linux.intel.com
+    M: Jing Liu
+    S: git
+  - E: jliu23!ebay.com
+    M: Jing Liu
+    S: git
+  - E: liujbjl!linux.vnet.ibm.com
+    M: Jing Liu
+    S: git
+  - E: Wenjing.Liu!amd.com
+    M: Wenjing Liu
+    S: git
+  B: 0
+  U: Jing Liu
+- C: CN
+  E: lvjing5!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2016-05-06"
+    P: opnfv
+    R: C
+  - T: "2019-06-13"
+    C: Huawei Technologies Co., Ltd.
+    F: "2019-05-20"
+    P: lfn-cntt
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2019-09-02"
+    P: acumos
+    R: C
+  S: male
+  I:
+  - M: Jing Lu
+    S: confluence
+    U: JingLu5
+  - E: lvjing5!huawei.com
+    M: Jing Lu
+    S: gerrit
+    U: JingLu5
+  - E: lvjing5!huawei.com
+    M: Jing Lu
+    S: git
+  - E: lvjing5!huawei.com
+    M: JingLu5
+    S: git
+  - E: lvjing5!huawei.com
+    M: Lvjing Network Platform Development Mgmt Dept
+    S: gmane
+  - E: lvjing5!huawei.com
+    M: Lvjing (Jing Lu)
+    S: groupsio
+  - E: lvjing5!huawei.com
+    M: Lvjing (Network Platform Development Mgmt Dept)
+    S: groupsio
+  - M: Jing Lu
+    S: jira
+    U: JingLu5
+  - E: lvjing5!huawei.com
+    M: Jing Lu
+    S: jira
+    U: JingLu5
+  - M: Jing Lu
+    S: linux-foundation:its
+    U: JingLu5
+  - E: lvjing5!huawei.com
+    M: Jing Lu
+    S: linux-foundation:scr
+    U: JingLu5
+  - E: lvjing5!huawei.com
+    M: Lvjing Network Platform Development Mgmt Dept
+    S: mbox
+  - E: lvjing5!huawei.com
+    M: Lvjing Jing Lu
+    S: pipermail
+  - E: lvjing5!huawei.com
+    M: Lvjing Network Platform Development Mgmt Dept
+    S: pipermail
+  B: 0
+  U: Jing Lu
+- E: mjing!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1901-01-01"
+    P: zep
+    R: C
+  I:
+  - E: mjing!google.com
+    M: Jing Ma
+    S: git
+  B: 0
+  U: Jing Ma
 - E: zhaojingmin!vivecode.com
   R:
   - T: "2100-01-01"
@@ -7733,6 +7847,9 @@ P:
     R: C
   S: male
   I:
+  - E: john!insane.se
+    M: John Axel Eriksson
+    S: git
   - E: john!insane.se
     M: John Axel Eriksson
     S: github
@@ -27795,12 +27912,11 @@ P:
     C: Independent
     F: "2014-06-01"
     R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2015-10-01"
-    R: C
   S: male
   I:
+  - E: joshix!redhat.com
+    M: Josh Wood
+    S: git
   - E: joshix!redhat.com
     M: Josh Wood
     S: github
@@ -61511,56 +61627,3 @@ P:
     U: koudaiii
   B: 0
   U: Kodai Sakabe
-- E: kodilinye.atuchukwu!vodafone.com
-  R:
-  - T: "2004-09-01"
-    C: TELNET
-    F: "2002-03-01"
-    P: lfn-cntt
-    R: C
-  - T: "2004-09-01"
-    C: KPMG LLP
-    F: "2003-10-01"
-    P: lfn-cntt
-    R: C
-  - T: "2011-04-01"
-    C: Ericsson AB
-    F: "2008-07-01"
-    P: lfn-cntt
-    R: C
-  - T: "2014-05-01"
-    C: Juniper Networks, Inc.
-    F: "2011-04-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: Vodafone Group Services Limited
-    F: "2015-01-01"
-    P: lfn-cntt
-    R: C
-  I:
-  - M: Kodi Atuchukwu
-    S: confluence
-    U: kodi_001
-  - E: kodilinye.atuchukwu!vodafone.com
-    M: Kodi Atuchukwu
-    S: confluence
-    U: kodi_001
-  B: 0
-  U: Kodi Atuchukwu
-- E: yannick.koehler!hp.com
-  R:
-  - T: "2015-03-14"
-    C: HP
-    F: "2014-12-10"
-    P: yocto
-    R: C
-  I:
-  - E: yannick.koehler!hp.com
-    M: Koehler, Yannick (HP Networking)
-    S: groupsio
-  - E: yannick.koehler!hp.com
-    M: Koehler, Yannick HP Networking
-    S: pipermail
-  B: 0
-  U: Koehler, Yannick HP Networking
