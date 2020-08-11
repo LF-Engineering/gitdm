@@ -1,4 +1,91 @@
 P:
+- C: PH
+  R:
+  - T: "2014-07-01"
+    C: SAP
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: Morgan Stanley
+    F: "2014-07-01"
+    R: C
+  - T: "2016-02-01"
+    C: Independent
+    F: "2015-12-01"
+    R: C
+  - T: "2016-11-01"
+    C: AOK
+    F: "2016-02-01"
+    R: C
+  - T: "2017-06-01"
+    C: HSBC
+    F: "2016-11-01"
+    R: C
+  - T: "2018-11-01"
+    C: C&C
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Pioner
+    F: "2018-11-01"
+    R: C
+  S: male
+  I:
+  - M: Zbigniew Mandziejewicz
+    S: github
+    U: shaxbee
+  B: 0
+  U: Zbigniew Mandziejewicz
+- C: PH
+  E: shaxbee!gmail.com
+  R:
+  - T: "2014-07-01"
+    C: SAP
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: Morgan Stanley
+    F: "2014-07-01"
+    R: C
+  - T: "2016-02-01"
+    C: Independent
+    F: "2015-12-01"
+    R: C
+  - T: "2016-11-01"
+    C: AOK
+    F: "2016-02-01"
+    R: C
+  - T: "2017-06-01"
+    C: HSBC
+    F: "2016-11-01"
+    R: C
+  - T: "2018-11-01"
+    C: C&C
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Pioner
+    F: "2018-11-01"
+    R: C
+  S: male
+  I:
+  - E: shaxbee!gmail.com
+    M: Zbigniew Mandziejewicz
+    S: git
+  B: 0
+  U: Zbigniew Mandziejewicz
+- E: zkabelac!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zkabelac!redhat.com
+    M: Zdenek Kabelac
+    S: git
+  B: 0
+  U: Zdenek Kabelac
 - E: zkrnac!cisco.com
   R:
   - T: "2018-01-19"
@@ -61556,82 +61643,3 @@ P:
     U: koponen-styra
   B: 0
   U: koponen-styra
-- E: koray.parlar!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2016-10-18"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: koray.parlar!ge.com
-    M: korayparlar
-    S: slack
-    U: korayparlar
-  B: 0
-  U: korayparlar
-- E: kotaru.kiran!tcs.com
-  R:
-  - T: "2100-01-01"
-    C: Tata Consultancy Services
-    F: "2014-11-04"
-    P: odl
-    R: C
-  I:
-  - E: kotaru.kiran!tcs.com
-    M: kotaru kiran
-    S: gerrit
-    U: kotarukiran
-  - E: kotaru.kiran!tcs.com
-    M: kotarukiran
-    S: git
-  - E: kotaru.kiran!tcs.com
-    M: Kotaru Kiran
-    S: pipermail
-  - E: kotaru.kiran!tcs.com
-    M: kotaru.kiran
-    S: pipermail
-  B: 0
-  U: kotaru kiran
-- E: koulq!inspur.com
-  R:
-  - T: "2100-01-01"
-    C: Inspur
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: koulq!inspur.com
-    S: github
-    U: koulq
-  B: 0
-  U: koulq
-- C: DE
-  E: ruslan!crate.io
-  R:
-  - T: "2014-07-01"
-    C: Fraunhofer IAIS
-    F: "1900-01-01"
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-07-01"
-    R: C
-  - T: "2017-05-01"
-    C: Crate.io
-    F: "2015-07-01"
-    R: C
-  - T: "2018-08-01"
-    C: Independent
-    F: "2017-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: Crate.io
-    F: "2018-08-01"
-    R: C
-  S: male
-  I:
-  - E: ruslan!crate.io
-    M: kovrus
-    S: git
-  B: 0
-  U: kovrus
