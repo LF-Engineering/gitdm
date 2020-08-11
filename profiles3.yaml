@@ -1,5 +1,18 @@
 P:
 - C: BG
+  R:
+  - T: "2100-01-01"
+    C: tick42
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Boyko
+    S: github
+    U: boyskila
+  B: 0
+  U: Boyko
+- C: BG
   E: boyskila!users.noreply.github.com
   R:
   - T: "2100-01-01"
@@ -61003,15 +61016,3 @@ P:
     S: pipermail
   B: 0
   U: Daniel Forsgren
-- E: dfurse!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: dfurse!twitter.com
-    M: Daniel Furse
-    S: git
-  B: 0
-  U: Daniel Furse
