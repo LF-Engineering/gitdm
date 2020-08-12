@@ -1,4 +1,113 @@
 P:
+- C: US
+  E: kmestery!cisco.com
+  R:
+  - T: "2014-09-26"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: fdio
+    R: C
+  - T: "2015-10-09"
+    C: HP
+    F: "2014-09-26"
+    P: fdio
+    R: C
+  - T: "2018-04-01"
+    C: IBM
+    F: "2015-10-09"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2018-04-01"
+    P: fdio
+    R: C
+  S: male
+  I:
+  - E: kmestery!cisco.com
+    M: kmestery
+    S: groupsio
+  B: 0
+  U: kmestery
+- E: kevin.muldoon!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "2017-02-04"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: kevin.muldoon!ge.com
+    M: kmuldoon
+    S: slack
+    U: kmuldoon
+  B: 0
+  U: kmuldoon
+- E: someonegg!163.com
+  R:
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: someonegg!163.com
+    M: kngin
+    S: git
+  B: 0
+  U: kngin
+- C: CN
+  E: anonymousknight96!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: anonymousknight96!gmail.com
+    M: Jian Zeng
+    S: git
+  - E: anonymousknight96!gmail.com
+    M: knight42
+    S: git
+  - E: anonymousknight96!gmail.com
+    M: Jian Zeng
+    S: github
+    U: knight42
+  B: 0
+  U: knight42
+- C: CN
+  E: 1004815462!qq.com
+  R:
+  - T: "2018-10-12"
+    C: Huawei Technologies Co., Ltd.
+    F: "2017-03-29"
+    P: baetyl
+    R: C
+  I:
+  - E: 1004815462!qq.com
+    M: knight
+    S: git
+  - E: 1004815462!qq.com
+    M: knightXun
+    S: git
+  - E: 1004815462!qq.com
+    M: xu fei
+    S: git
+  B: 0
+  U: knight
+- C: CN
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    R: C
+  I:
+  - M: knight
+    S: github
+    U: knightXun
+  B: 0
+  U: knight
 - E: knitzsche!users.noreply.github.com
   R:
   - T: "2100-01-01"
@@ -693,6 +802,9 @@ P:
     P: yocto
     R: C
   I:
+  - M: Krzysztof Kajkowski
+    S: confluence
+    U: krzysztofkajkowski
   - E: cayco!poczta.cayco.pl
     M: Krzysztof Kajkowski
     S: groupsio
@@ -31792,9 +31904,15 @@ P:
     P: lfn/tungsten-fabric
     R: C
   I:
+  - M: sagar Chitnis
+    S: confluence
+    U: sagarc
   - E: sagarc!juniper.net
     M: sagarc
     S: groupsio
+  - M: Sagar Chitnis
+    S: jira
+    U: sagarc
   - E: sagarc!juniper.net
     M: sagar Chitnis
     S: jira
@@ -61424,97 +61542,3 @@ P:
     U: yarntime
   B: 0
   U: yarntime
-- E: yash.jani!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2016-09-11"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: yash.jani!ge.com
-    M: yashjani00
-    S: slack
-    U: yashjani00
-  B: 0
-  U: yashjani00
-- E: yasufum.o!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "2003-03-31"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "2003-03-31"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "2003-03-31"
-    P: dpdk-apps
-    R: C
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "2003-03-31"
-    P: dpdk-next
-    R: C
-  I:
-  - E: yasufum.o!gmail.com
-    M: Yasufumi Ogawa
-    S: git
-  - E: yasufum.o!gmail.com
-    M: Ogawa Yasufumi
-    S: pipermail
-  - E: yasufum.o!gmail.com
-    M: Yasufumi Ogawa
-    S: pipermail
-  - E: yasufum.o!gmail.com
-    M: yasufum.o
-    S: pipermail
-  B: 0
-  U: yasufum.o
-- C: IN
-  E: ykarel!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  S: male
-  I:
-  - E: ykarel!redhat.com
-    M: yatin
-    S: git
-  B: 0
-  U: yatin
-- R:
-  - T: "2100-01-01"
-    C: 亚信科技 AsiaInfo
-    F: "1900-01-01"
-    R: C
-  I:
-  - M: yaxinlx
-    S: github
-    U: yaxinlx
-  B: 0
-  U: yaxinlx
-- E: liuxu!asiainfo.com
-  R:
-  - T: "2017-05-12"
-    C: 亚信科技 AsiaInfo
-    F: "2017-05-03"
-    P: baetyl
-    R: C
-  I:
-  - E: liuxu!asiainfo.com
-    M: yaxinlx
-    S: git
-  B: 0
-  U: yaxinlx
