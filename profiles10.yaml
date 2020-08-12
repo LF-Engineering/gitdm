@@ -1,4 +1,188 @@
 P:
+- C: US
+  E: mot!mot.la
+  R:
+  - T: "2014-11-01"
+    C: SendGrid
+    F: "1900-01-01"
+    R: C
+  - T: "2016-05-01"
+    C: Rebel
+    F: "2014-11-01"
+    R: C
+  - T: "2017-03-01"
+    C: Bitium
+    F: "2016-05-01"
+    R: C
+  - T: "2018-03-01"
+    C: ALG
+    F: "2017-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Alloyx
+    F: "2018-03-01"
+    R: C
+  S: male
+  I:
+  - E: mot!mot.la
+    M: Mot
+    S: github
+    U: motdotla
+  B: 0
+  U: Mot
+- E: mg877n!att.com
+  R:
+  - T: "2017-07-20"
+    C: AT&T Services, Inc.
+    F: "2017-01-01"
+    R: C
+  - T: "2017-07-20"
+    C: AT&T Services, Inc.
+    F: "2017-01-01"
+    P: onap
+    R: C
+  I:
+  - E: mg877n!att.com
+    M: Moti Grinberg
+    S: gerrit
+    U: mg877n
+  - E: mg877n!att.com
+    M: Grinberg Moti
+    S: git
+  B: 0
+  U: Moti Grinberg
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Motoki Takigiku
+    S: github
+    U: mtakigiku
+  B: 0
+  U: Motoki Takigiku
+- E: mtakigiku!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: mtakigiku!google.com
+    M: Motoki Takigiku
+    S: git
+  B: 0
+  U: Motoki Takigiku
+- C: DE
+  E: m.benchchaoui!x-ion.de
+  R:
+  - T: "2100-01-01"
+    C: X-ION
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: m.benchchaoui!x-ion.de
+    M: Mouad Benchchaoui
+    S: git
+  B: 0
+  U: Mouad Benchchaoui
+- C: FR
+  R:
+  - T: "2100-01-01"
+    C: Cy-Play
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Mourad Maatoug
+    S: github
+    U: mrmm
+  B: 0
+  U: Mourad Maatoug
+- E: moutai10!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: AppNexus
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: moutai10!gmail.com
+    M: Moussa Taifi
+    S: git
+  - E: moutai10!gmail.com
+    M: Moussa Taifi
+    S: github
+    U: moutai
+  B: 0
+  U: Moussa Taifi
+- E: mousumix.jana!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mousumix.jana!intel.com
+    M: Mousumi Jana
+    S: git
+  B: 0
+  U: Mousumi Jana
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: mobilesti
+    F: "1900-01-01"
+    R: C
+  I:
+  - M: Moxiegirl
+    S: github
+    U: moxiegirl
+  B: 0
+  U: Moxiegirl
+- E: moyabrannan!uk.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-08-09"
+    P: odpi-egeria
+    R: C
+  I:
+  - E: moyabrannan!uk.ibm.com
+    M: Moya
+    S: git
+  - M: Moya
+    S: github
+    U: moyabrannan
+  - E: moyabrannan!uk.ibm.com
+    M: Moya
+    S: slack
+    U: moyabrannan
+  B: 0
+  U: Moya Brannan
+- E: marcinx.mozejko!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-10-11"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-10-11"
+    P: opnfv
+    R: C
+  I:
+  - E: marcinx.mozejko!intel.com
+    M: Mozejko, MarcinX
+    S: groupsio
+  - E: marcinx.mozejko!intel.com
+    M: Mozejko, MarcinX
+    S: pipermail
+  B: 0
+  U: Mozejko, MarcinX
 - E: adderbak!us.ibm.com
   R:
   - T: "2100-01-01"
@@ -28611,6 +28795,19 @@ P:
     U: ojmhetar
   B: 0
   U: Ojas Mhetar
+- E: ernesto.ojeda!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1901-01-01"
+    P: lfedge/edgex-foundry
+    R: C
+  I:
+  - E: ernesto.ojeda!intel.com
+    M: Ojeda, Ernesto
+    S: groupsio
+  B: 0
+  U: Ojeda, Ernesto
 - C: GB
   E: okash.khawaja!gmail.com
   R:
@@ -59873,816 +60070,3 @@ P:
     S: pipermail
   B: 0
   U: Phil Reid
-- E: probb!linuxfoundation.org
-  R:
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-sim
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: akraino
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: fdio
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: lfn-cntt
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: o-ran/documentation
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: o-ran/integration
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-inf
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-nonrtric
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-oam
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-ocu
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-oduhigh
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-odulow
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-ric
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-ricapp
-    R: C
-  - T: "1989-04-01"
-    C: Bull
-    F: "1987-04-01"
-    P: oran-sim
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: akraino
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: fdio
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: lfn-cntt
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: o-ran/documentation
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: o-ran/integration
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-inf
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-nonrtric
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-oam
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-ocu
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-oduhigh
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-odulow
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-ric
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-ricapp
-    R: C
-  - T: "1991-01-01"
-    C: Motorola
-    F: "1989-04-01"
-    P: oran-sim
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: akraino
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: fdio
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: o-ran/documentation
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: o-ran/integration
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-inf
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-nonrtric
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-oam
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-ocu
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-oduhigh
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-odulow
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-ric
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-ricapp
-    R: C
-  - T: "1999-06-01"
-    C: Thermo Fisher Scientific
-    F: "1991-01-01"
-    P: oran-sim
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: akraino
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: fdio
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: lfn-cntt
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: o-ran/integration
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-inf
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-oam
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-ocu
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-odulow
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-ric
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-ricapp
-    R: C
-  - T: "2001-06-01"
-    C: Critical Path
-    F: "1999-06-01"
-    P: oran-sim
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: akraino
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: fdio
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: o-ran/integration
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-inf
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-oam
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-ocu
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-odulow
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-ric
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-ricapp
-    R: C
-  - T: "2007-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2001-01-01"
-    P: oran-sim
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: akraino
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: fdio
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: lfn-cntt
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: o-ran/integration
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-inf
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-oam
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-ocu
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-odulow
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-ric
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-ricapp
-    R: C
-  - T: "2013-03-01"
-    C: Hewlett Packard Enterprise
-    F: "2007-11-01"
-    P: oran-sim
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: akraino
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: fdio
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: lfn-cntt
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: o-ran/integration
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-inf
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-oam
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-ocu
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-odulow
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-ric
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-ricapp
-    R: C
-  - T: "2019-06-01"
-    C: The Linux Foundation
-    F: "2013-03-01"
-    P: oran-sim
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: akraino
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: fdio
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: lfn-cntt
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: o-ran/integration
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-inf
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-oam
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-ocu
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-odulow
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-ric
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-ricapp
-    R: C
-  - T: "2018-01-01"
-    C: OpenDaylight
-    F: "2013-04-01"
-    P: oran-sim
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "2013-04-15"
-    P: odl
-    R: C
-  - T: "2019-01-15"
-    C: The Linux Foundation
-    F: "2015-02-26"
-    P: opnfv
-    R: C
-  - T: "2019-05-18"
-    C: The Linux Foundation
-    F: "2017-03-19"
-    P: onap
-    R: C
-  I:
-  - M: Phil Robb
-    S: confluence
-    U: PhilRobb
-  - M: Phil Robb
-    S: confluence
-    U: phrobb
-  - E: probb!linuxfoundation.org
-    M: Phil Robb
-    S: gerrit
-    U: phrobb
-  - E: probb!linuxfoundation.org
-    M: Philip Robb
-    S: gerrit
-    U: probb
-  - E: probb!linuxfoundation.org
-    M: Phil Robb
-    S: gmane
-  - E: phil.robb!est.tech
-    M: Phil Robb
-    S: groupsio
-  - E: probb!linuxfoundation.org
-    M: Phil Robb
-    S: groupsio
-  - E: probb!linuxfoundation.org
-    M: Phil Robb
-    S: jira
-    U: phrobb
-  - E: probb!linuxfoundation.org
-    M: Phil Robb
-    S: linux-foundation:mls
-    U: probb
-  - E: probb!linuxfoundation.org
-    M: Phil Robb
-    S: mbox
-  - E: probb!linuxfoundation.org
-    M: Phil Robb via Cisco WebEx
-    S: pipermail
-  - E: probb!linuxfoundation.org
-    M: Phil Robb
-    S: pipermail
-  - E: probb!linuxfoundation.org
-    M: Philip Robb
-    S: pipermail
-  - E: probb!linuxfoundation.org
-    M: probb
-    S: pipermail
-  B: 0
-  U: Phil Robb
-- C: US
-  E: 47129415+philrud!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: 47129415+philrud!users.noreply.github.com
-    M: Phil Rud
-    S: git
-  B: 0
-  U: Phil Rud
-- E: sorber!apache.org
-  R:
-  - T: "2100-01-01"
-    C: The Apache Software Foundation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sorber!apache.org
-    M: Phil Sorber
-    S: slack
-    U: sorber
-  B: 0
-  U: Phil Sorber
