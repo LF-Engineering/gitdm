@@ -1,4 +1,706 @@
 P:
+- E: XXX.YYY!amdocs.com
+  R:
+  - T: "2018-03-08"
+    C: Amdocs
+    F: "2018-02-27"
+    R: C
+  - T: "2018-03-08"
+    C: Amdocs
+    F: "2018-02-27"
+    P: onap
+    R: C
+  I:
+  - E: XXX.YYY!amdocs.com
+    M: ZZZ
+    S: gerrit
+  - E: XXX.YYY!amdocs.com
+    M: ZZZ
+    S: gerrit
+  B: 0
+  U: ZZZ
+- E: zabihullah.bayat!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2013-08-27"
+    P: yocto
+    R: C
+  I:
+  - E: zabihullah.bayat!ericsson.com
+    M: Zabihullah Bayat
+    S: groupsio
+  - E: zabihullah.bayat!ericsson.com
+    M: Zabihullah Bayat
+    S: pipermail
+  B: 0
+  U: Zabihullah Bayat
+- C: ZA
+  E: zacblazic!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: ZappiStore
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zacblazic!gmail.com
+    M: Zac Blazic
+    S: git
+  B: 0
+  U: Zac Blazic
+- C: BR
+  E: zac!bitwise.io
+  R:
+  - T: "2006-10-31"
+    C: Apple
+    F: "2003-10-31"
+    P: aries
+    R: C
+  - T: "2006-10-31"
+    C: Apple
+    F: "2003-10-31"
+    P: grid
+    R: C
+  - T: "2006-10-31"
+    C: Apple
+    F: "2003-10-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2006-10-31"
+    C: Apple
+    F: "2003-10-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2006-10-31"
+    C: Apple
+    F: "2003-10-31"
+    P: sawtooth
+    R: M
+  - T: "2010-04-30"
+    C: Central Connecticut State University
+    F: "2008-07-31"
+    P: aries
+    R: C
+  - T: "2010-04-30"
+    C: Central Connecticut State University
+    F: "2008-07-31"
+    P: grid
+    R: C
+  - T: "2010-04-30"
+    C: Central Connecticut State University
+    F: "2008-07-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2010-04-30"
+    C: Central Connecticut State University
+    F: "2008-07-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2010-04-30"
+    C: Central Connecticut State University
+    F: "2008-07-31"
+    P: sawtooth
+    R: M
+  - T: "2016-04-30"
+    C: Hack Reactor
+    F: "2016-01-31"
+    P: aries
+    R: C
+  - T: "2016-04-30"
+    C: Hack Reactor
+    F: "2016-01-31"
+    P: grid
+    R: C
+  - T: "2016-04-30"
+    C: Hack Reactor
+    F: "2016-01-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2016-04-30"
+    C: Hack Reactor
+    F: "2016-01-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2016-04-30"
+    C: Hack Reactor
+    F: "2016-01-31"
+    P: sawtooth
+    R: M
+  - T: "2018-07-31"
+    C: Bitwise
+    F: "2016-05-31"
+    P: aries
+    R: C
+  - T: "2018-07-31"
+    C: Bitwise
+    F: "2016-05-31"
+    P: grid
+    R: C
+  - T: "2018-07-31"
+    C: Bitwise
+    F: "2016-05-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2018-07-31"
+    C: Bitwise
+    F: "2016-05-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2018-07-31"
+    C: Bitwise
+    F: "2016-05-31"
+    P: sawtooth
+    R: M
+  - T: "2019-04-30"
+    C: Thrivent
+    F: "2018-07-31"
+    P: aries
+    R: C
+  - T: "2019-04-30"
+    C: Thrivent
+    F: "2018-07-31"
+    P: grid
+    R: C
+  - T: "2019-04-30"
+    C: Thrivent
+    F: "2018-07-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2019-04-30"
+    C: Thrivent
+    F: "2018-07-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2019-04-30"
+    C: Thrivent
+    F: "2018-07-31"
+    P: sawtooth
+    R: M
+  - T: "2019-09-30"
+    C: Best Buy
+    F: "2019-04-30"
+    P: aries
+    R: C
+  - T: "2019-09-30"
+    C: Best Buy
+    F: "2019-04-30"
+    P: grid
+    R: C
+  - T: "2019-09-30"
+    C: Best Buy
+    F: "2019-04-30"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2019-09-30"
+    C: Best Buy
+    F: "2019-04-30"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2019-09-30"
+    C: Best Buy
+    F: "2019-04-30"
+    P: sawtooth
+    R: M
+  S: male
+  I:
+  - M: Zac Delventhal
+    S: confluence
+    U: delventhalz
+  - E: delventhalz!gmail.com
+    M: Zac Delventhal
+    S: confluence
+    U: delventhalz
+  - E: delventhalz!gmail.com
+    M: Zac Delventhal
+    S: git
+  - E: zac!bitwise.io
+    M: Zac Delventhal
+    S: git
+  - E: zac!isotope.internal.bitwise.io
+    M: Zac Delventhal
+    S: git
+  - E: zac!bitwise.io
+    M: ZacX Delventhal
+    S: git
+  - E: delventhalz!gmail.com
+    M: Zac Delventhal
+    S: github
+    U: delventhalz
+  - E: zac!bitwise.io
+    M: Zac Delventhal
+    S: groupsio
+  - M: Zac Delventhal
+    S: jira
+    U: delventhalz
+  - E: delventhalz!gmail.com
+    M: Zac Delventhal
+    S: jira
+    U: delventhalz
+  - M: Zac Delventhal
+    S: rocketchat
+    U: zac
+  B: 0
+  U: Zac Delventhal
+- E: zdover!redhat.com
+  R:
+  - T: "2015-02-11"
+    C: Red Hat Inc.
+    F: "2015-02-03"
+    P: odl
+    R: C
+  I:
+  - E: zdover!redhat.com
+    M: Zac Dover
+    S: pipermail
+  B: 0
+  U: Zac Dover
+- C: US
+  E: zmedico!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Gaikai
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zmedico!gmail.com
+    M: Zac Medico
+    S: git
+  - E: zmedico!gmail.com
+    M: Zac Medico
+    S: github
+    U: zmedico
+  B: 0
+  U: Zac Medico
+- C: US
+  E: zacp!spotify.com
+  R:
+  - T: "2015-05-01"
+    C: SapientNitro
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Spotify AB
+    F: "1900-01-01"
+    R: C
+  - T: "2020-01-01"
+    C: Spotify
+    F: "2015-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: RADAR
+    F: "2020-01-01"
+    R: C
+  S: male
+  I:
+  - E: zacp!spotify.com
+    M: Zac Pustejovsky
+    S: git
+  B: 0
+  U: Zac Pustejovsky
+- E: zacx.delventhal!intel.com
+  R:
+  - T: "2017-01-25"
+    C: Intel Corporation
+    F: "2016-08-18"
+    P: grid
+    R: C
+  - T: "2017-01-25"
+    C: Intel Corporation
+    F: "2016-08-18"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2017-01-25"
+    C: Intel Corporation
+    F: "2016-08-18"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2017-01-25"
+    C: Intel Corporation
+    F: "2016-08-18"
+    P: sawtooth
+    R: C
+  I:
+  - E: zacx.delventhal!intel.com
+    M: Zac
+    S: git
+  B: 0
+  U: Zac
+- E: zdelvenX!rnnair-mobl3.amr.corp.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zdelvenX!rnnair-mobl3.amr.corp.intel.com
+    M: ZacX Delventhal
+    S: git
+  B: 0
+  U: ZacX Delventhal
+- E: zdelvenX!vaibhavt-mobl.amr.corp.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-11-07"
+    P: grid
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-11-07"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-11-07"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-11-07"
+    P: sawtooth
+    R: C
+  I:
+  - E: zdelvenX!vaibhavt-mobl.amr.corp.intel.com
+    M: ZacX Delventhal
+    S: git
+  B: 0
+  U: ZacX Delventhal
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Abrahamson
+    S: github
+    U: zacharya
+  B: 0
+  U: Zach Abrahamson
+- E: zachary.abrahamson!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "2016-04-02"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: zachary.abrahamson!ge.com
+    M: Zach Abrahamson
+    S: slack
+    U: zacharya
+  B: 0
+  U: Zach Abrahamson
+- C: US
+  E: zachaller!hotmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "2016-09-28"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: zachaller!hotmail.com
+    M: Zach Aller
+    S: git
+  B: 0
+  U: Zach Aller
+- C: US
+  E: zachaller!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zachaller!users.noreply.github.com
+    M: Zach Aller
+    S: git
+  B: 0
+  U: Zach Aller
+- C: US
+  E: zaller!iteris.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zaller!iteris.com
+    M: Zach Aller
+    S: git
+  B: 0
+  U: Zach Aller
+- R:
+  - T: "2014-08-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    R: C
+  - T: "2015-11-01"
+    C: eGroup
+    F: "2014-08-01"
+    R: C
+  - T: "2016-08-01"
+    C: Progetta
+    F: "2015-11-01"
+    R: C
+  - T: "2019-11-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: MSCI
+    F: "2019-11-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Arnold
+    S: github
+    U: zparnold
+  B: 0
+  U: Zach Arnold
+- E: me!zacharnold.org
+  R:
+  - T: "2014-08-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    R: C
+  - T: "2015-11-01"
+    C: eGroup
+    F: "2014-08-01"
+    R: C
+  - T: "2016-08-01"
+    C: Progetta
+    F: "2015-11-01"
+    R: C
+  - T: "2019-11-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: MSCI
+    F: "2019-11-01"
+    R: C
+  S: male
+  I:
+  - E: me!zacharnold.org
+    M: Zach Arnold
+    S: git
+  B: 0
+  U: Zach Arnold
+- E: zparnold!users.noreply.github.com
+  R:
+  - T: "2014-08-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    R: C
+  - T: "2015-11-01"
+    C: eGroup
+    F: "2014-08-01"
+    R: C
+  - T: "2016-08-01"
+    C: Progetta
+    F: "2015-11-01"
+    R: C
+  - T: "2019-11-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: MSCI
+    F: "2019-11-01"
+    R: C
+  S: male
+  I:
+  - E: zparnold!users.noreply.github.com
+    M: Zach Arnold
+    S: git
+  B: 0
+  U: Zach Arnold
+- E: zachary.berger!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-08-28"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: zachary.berger!intel.com
+    M: Zach Berger
+    S: slack
+    U: zachberger
+  B: 0
+  U: Zach Berger
+- C: US
+  E: zbbjornson!gmail.com
+  R:
+  - T: "2015-07-01"
+    C: Cytobank
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Cytobank
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Cytobank
+    F: "2015-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Primity Bio
+    F: "2015-10-01"
+    R: C
+  S: male
+  I:
+  - E: zbbjornson!gmail.com
+    M: Zach Bjornson
+    S: git
+  - E: zbbjornson!gmail.com
+    M: Zach Bjornson
+    S: github
+    U: zbjornson
+  B: 0
+  U: Zach Bjornson
+- E: zach.brown!ni.com
+  R:
+  - T: "2100-01-01"
+    C: National Instruments
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zach.brown!ni.com
+    M: Zach Brown
+    S: git
+  B: 0
+  U: Zach Brown
+- E: zach.brown!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zach.brown!oracle.com
+    M: Zach Brown
+    S: git
+  B: 0
+  U: Zach Brown
+- E: zbrown!pivotal.io
+  R:
+  - T: "2018-04-15"
+    C: Pivotal
+    F: "2015-12-21"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: zbrown!pivotal.io
+    M: Zach Brown
+    S: groupsio
+  - E: zbrown!pivotal.io
+    M: Zach Brown
+    S: mbox
+  - E: zbrown!pivotal.io
+    M: Zach Brown
+    S: slack
+    U: zachb
+  B: 0
+  U: Zach Brown
+- C: MX
+  R:
+  - T: "2014-05-15"
+    C: Moz
+    F: "1900-01-01"
+    R: C
+  - T: "2016-03-15"
+    C: Rackspace
+    F: "2014-05-15"
+    R: C
+  - T: "2017-06-01"
+    C: Microsoft Corporation
+    F: "2016-03-15"
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-06-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Corleissen
+    S: github
+    U: zacharysarah
+  B: 0
+  U: Zach Corleissen
+- E: zach.dunton!smartfrog.com
+  R:
+  - T: "2015-01-01"
+    C: Analab
+    F: "1900-01-01"
+    R: C
+  - T: "2015-05-01"
+    C: PersonalWeb
+    F: "2015-01-01"
+    R: C
+  - T: "2015-11-01"
+    C: Independent
+    F: "2015-05-01"
+    R: C
+  - T: "2016-02-01"
+    C: Delivery Hero Holding
+    F: "2015-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Smartfrog
+    F: "2016-02-01"
+    R: C
+  S: male
+  I:
+  - E: zach.dunton!smartfrog.com
+    M: Zach Dunton
+    S: git
+  B: 0
+  U: Zach Dunton
+- R:
+  - T: "2100-01-01"
+    C: Infoblox
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Eddy
+    S: github
+    U: ZachEddy
+  B: 0
+  U: Zach Eddy
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: WeaveUp
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Gardner
+    S: github
+    U: locriani
+  B: 0
+  U: Zach Gardner
 - C: US
   E: locriani!gmail.com
   R:
@@ -11743,6 +12445,9 @@ P:
   - E: ailusazh!126.com
     M: ailusazh
     S: git
+  - E: ailusazh!126.com
+    S: github
+    U: ailusazh
   B: 0
   U: ailusazh
 - R:
@@ -13632,19 +14337,6 @@ P:
     S: pipermail
   B: 0
   U: alvinx.zhang
-- E: alyssar!chromium.org
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  S: female
-  I:
-  - E: alyssar!chromium.org
-    M: alyssawilk
-    S: git
-  B: 0
-  U: alyssawilk
 - E: alyssar!google.com
   R:
   - T: "2100-01-01"
@@ -15546,6 +16238,10 @@ P:
   - E: avdtdow!gmail.com
     M: antonio
     S: git
+  - E: avdtdow!gmail.com
+    M: antonio
+    S: github
+    U: antoniovicente
   B: 0
   U: antonio
 - R:
@@ -30669,6 +31365,10 @@ P:
   - E: wangtong2712!gmail.com
     M: dbdd4us
     S: git
+  - E: wangtong2712!gmail.com
+    M: dbdd4us
+    S: github
+    U: dbdd4us
   B: 0
   U: dbdd4us
 - E: dbellagio!us.ibm.com
@@ -30693,6 +31393,9 @@ P:
     F: "1900-01-01"
     R: C
   I:
+  - E: github!dhb.is
+    M: dblackdblack
+    S: git
   - E: github!dhb.is
     S: github
     U: dblackdblack
@@ -38500,7 +39203,7 @@ P:
 - E: fang.hao!nokia-bell-labs.com
   R:
   - T: "2100-01-01"
-    C: Nokia Bell Labs
+    C: Nokia Corporation
     F: "2004-01-01"
     P: fdio
     R: C
@@ -44046,6 +44749,10 @@ P:
   - E: guohaifang!zju.edu.cn
     M: guohaifang
     S: git
+  - E: guohaifang!zju.edu.cn
+    M: guohaifang
+    S: github
+    U: guohaifang
   B: 0
   U: guohaifang
 - C: FR
@@ -60936,723 +61643,3 @@ P:
     S: git
   B: 0
   U: kbuild test robot
-- E: kchart!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-11-11"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kchart!us.ibm.com
-    M: kchart
-    S: slack
-    U: kchart
-  B: 0
-  U: kchart
-- E: kcombs!pivotal.io
-  R:
-  - T: "2017-01-02"
-    C: Pivotal
-    F: "2015-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kcombs!pivotal.io
-    M: Kira Combs
-    S: git
-  - E: kcombs!pivotal.io
-    M: Kira Combs
-    S: slack
-    U: kcombs
-  - E: kcombs!pivotal.io
-    M: kcombs
-    S: slack
-    U: kcombs
-  B: 0
-  U: kcombs
-- E: kcwillia!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-02-24"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kcwillia!us.ibm.com
-    M: kcwillia
-    S: slack
-    U: kcwillia
-  B: 0
-  U: kcwillia
-- E: ksbindra!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-02-14"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: ksbindra!us.ibm.com
-    M: kdbindra
-    S: slack
-    U: kdbindra
-  B: 0
-  U: kdbindra
-- E: kee.quah!emc.com
-  R:
-  - T: "2016-08-02"
-    C: EMC
-    F: "2016-07-13"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kee.quah!emc.com
-    M: kee.quah
-    S: slack
-    U: kee.quah
-  B: 0
-  U: kee.quah
-- E: keenan.johnson!gmail.com
-  R:
-  - T: "2019-03-27"
-    C: Impossible Aerospace
-    F: "2017-12-01"
-    P: dronecode
-    R: C
-  I:
-  - E: keenan.johnson!gmail.com
-    M: keenanjohnson
-    S: git
-  - E: keenan.johnson!gmail.com
-    M: Keenan Johnson
-    S: github
-    U: keenanjohnson
-  B: 0
-  U: keenanjohnson
-- R:
-  - T: "2017-03-16"
-    C: Intel Corporation
-    F: "2017-03-08"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - S: github
-    U: keenemaverick
-  - E: daniel.albertx.sheehan!intel.com
-    M: Daniel Sheehan
-    S: slack
-    U: keenemaverick
-  B: 0
-  U: keenemaverick
-- E: kees.van.de.fliert!ing.com
-  R:
-  - T: "2018-07-31"
-    C: ING Bank
-    F: "2018-06-07"
-    P: odpi-egeria
-    R: C
-  I:
-  - E: kees.van.de.fliert!ing.com
-    M: Kees van de Fliert
-    S: git
-  - E: kees.van.de.fliert!ing.com
-    M: kees.van.de.fliert
-    S: groupsio
-  B: 0
-  U: kees.van.de.fliert
-- E: keimig!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-01-30"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: keimig!us.ibm.com
-    M: keimig
-    S: slack
-    U: keimig
-  B: 0
-  U: keimig
-- C: JP
-  E: keisuke.oohashi!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: カブク
-    F: "2014-09-01"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: keisuke.oohashi!gmail.com
-    M: keisuke oohashi
-    S: git
-  B: 0
-  U: keisuke oohashi
-- E: keith.mcclellan!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Mesosphere
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: keith.mcclellan!gmail.com
-    M: keith-mcclellan
-    S: git
-  B: 0
-  U: keith-mcclellan
-- E: keith.mcclellan!mesosphere.io
-  R:
-  - T: "2100-01-01"
-    C: Mesosphere
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: keith.mcclellan!mesosphere.io
-    M: keith-mcclellan
-    S: git
-  B: 0
-  U: keith-mcclellan
-- C: CN
-  E: like_0903!163.com
-  R:
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: like_0903!163.com
-    M: kel
-    S: git
-  B: 0
-  U: kel
-- R:
-  - T: "2015-05-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2015-08-01"
-    C: Innovation
-    F: "2015-05-01"
-    R: C
-  - T: "2016-08-01"
-    C: Independent
-    F: "2015-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Datawire
-    F: "2016-08-01"
-    R: C
-  S: female
-  I:
-  - S: github
-    U: kelseyevans
-  B: 0
-  U: kelseyevans
-- E: kelsey!datawire.io
-  R:
-  - T: "2015-05-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2015-08-01"
-    C: Innovation
-    F: "2015-05-01"
-    R: C
-  - T: "2016-08-01"
-    C: Independent
-    F: "2015-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Datawire
-    F: "2016-08-01"
-    R: C
-  S: female
-  I:
-  - E: kelsey!datawire.io
-    M: kelseyevans
-    S: git
-  B: 0
-  U: kelseyevans
-- E: Qingqing.Wang!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: Qingqing.Wang!amd.com
-    M: Ken Wang
-    S: git
-  - E: Qingqing.Wang!amd.com
-    M: ken
-    S: git
-  B: 0
-  U: ken
-- E: kendall.murphy!capgemini.com
-  R:
-  - T: "2100-01-01"
-    C: Capgemini
-    F: "2016-11-04"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kendall.murphy!capgemini.com
-    M: kendall.murphy
-    S: slack
-    U: kendall.murphy
-  B: 0
-  U: kendall.murphy
-- E: kenji.okabe!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2016-02-24"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kenji.okabe!ge.com
-    M: kenjiokabe
-    S: slack
-    U: kenjiokabe
-  B: 0
-  U: kenjiokabe
-- E: git!kenjiskywalker.org
-  R:
-  - T: "2100-01-01"
-    C: Hitomedia
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: git!kenjiskywalker.org
-    M: kenjiskywalker
-    S: git
-  - E: git!kenjiskywalker.org
-    M: Kenji Naito
-    S: github
-    U: kenjiskywalker
-  B: 0
-  U: kenjiskywalker
-- E: kenneth.paul!dell.com
-  R:
-  - T: "2100-01-01"
-    C: Dell
-    F: "2017-11-02"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kenneth.paul!dell.com
-    M: kenneth paul
-    S: slack
-    U: kenneth.paul
-  B: 0
-  U: kenneth paul
-- E: kendrick.coleman!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2016-01-18"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kendrick.coleman!emc.com
-    M: kenny
-    S: slack
-    U: kenny
-  B: 0
-  U: kenny
-- E: kenneth.paul!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2016-12-06"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kenneth.paul!emc.com
-    M: kenpaul
-    S: slack
-    U: kenpaul
-  B: 0
-  U: kenpaul
-- E: kthapa!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-02-02"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kthapa!us.ibm.com
-    M: kenthapa
-    S: slack
-    U: kenthapa
-  B: 0
-  U: kenthapa
-- E: kento.nitta!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2016-05-12"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kento.nitta!emc.com
-    M: kento.nitta
-    S: slack
-    U: kento.nitta
-  B: 0
-  U: kento.nitta
-- C: CN
-  E: ikeontang!gmail.com
-  R:
-  - T: "2016-05-17"
-    C: Caicloud
-    F: "2016-05-07"
-    P: baetyl
-    R: C
-  I:
-  - E: ikeontang!gmail.com
-    M: keontang
-    S: git
-  B: 0
-  U: keontang
-- E: xiaohangx.cai!intel.com
-  R:
-  - T: "2017-06-14"
-    C: Intel Corporation
-    F: "2016-03-18"
-    P: yocto
-    R: C
-  I:
-  - E: xiaohangx.cai!intel.com
-    S: bugzilla
-    U: xiaohangx.cai
-  - E: xiaohangx.cai!intel.com
-    M: keral
-    S: bugzilla
-    U: xiaohangx.cai
-  B: 0
-  U: keral
-- E: kerim.cagri.akbaba!accenture.com
-  R:
-  - T: "2100-01-01"
-    C: Accenture
-    F: "2017-05-08"
-    P: yocto
-    R: C
-  I:
-  - E: kerim.cagri.akbaba!accenture.com
-    M: kerim.cagri.akbaba
-    S: groupsio
-  - E: kerim.cagri.akbaba!accenture.com
-    M: kerim.cagri.akbaba
-    S: pipermail
-  B: 0
-  U: kerim.cagri.akbaba
-- E: kstaley!lyft.com
-  R:
-  - T: "2015-10-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Lyft
-    F: "2015-10-01"
-    R: C
-  S: male
-  I:
-  - E: kstaley!lyft.com
-    M: kerrick-lyft
-    S: git
-  B: 0
-  U: kerrick-lyft
-- E: ketank!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ketank!us.ibm.com
-    M: ketan kunde
-    S: slack
-    U: ketank
-  B: 0
-  U: ketan kunde
-- R:
-  - T: "2019-03-30"
-    C: Vodafone Group Services Limited
-    F: "1989-06-01"
-    P: onap
-    R: C
-  I:
-  - M: kevin brackpool
-    S: confluence
-    U: kevb0001
-  B: 0
-  U: kevin brackpool
-- E: kevin.hong!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "2016-09-02"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kevin.hong!sap.com
-    M: kevin.hong
-    S: slack
-    U: kevin.hong
-  B: 0
-  U: kevin.hong
-- E: keminer!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-08-22"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: keminer!us.ibm.com
-    M: kevin.miner
-    S: slack
-    U: kevin.miner
-  B: 0
-  U: kevin.miner
-- C: CN
-  E: cming.xu!gmail.com
-  R:
-  - T: "2015-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: tarscloud
-    R: C
-  - T: "2015-08-01"
-    C: Wilson Sonsini Goodrich & Rosati
-    F: "2015-06-01"
-    P: tarscloud
-    R: C
-  - T: "2017-01-01"
-    C: Kailash
-    F: "2015-08-01"
-    P: tarscloud
-    R: C
-  - T: "2017-10-01"
-    C: Independent
-    F: "2017-01-01"
-    P: tarscloud
-    R: C
-  - T: "2019-07-01"
-    C: PingCAP
-    F: "2017-10-01"
-    P: tarscloud
-    R: C
-  - T: "2100-01-01"
-    C: OSS Capital
-    F: "2019-07-01"
-    P: tarscloud
-    R: C
-  S: male
-  I:
-  - E: cming.xu!gmail.com
-    M: kevin.xu
-    S: git
-  - E: cming.xu!gmail.com
-    M: xuchunming
-    S: git
-  - E: cming.xu!gmail.com
-    M: kevin.xu
-    S: github
-    U: cmingxu
-  B: 0
-  U: kevin.xu
-- R:
-  - T: "2100-01-01"
-    C: Kyodo News Digital
-    F: "1900-01-01"
-    R: C
-  I:
-  - S: github
-    U: kevinchow
-  B: 0
-  U: kevinchow
-- E: cyuhin!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Kyodo News Digital
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: cyuhin!gmail.com
-    M: kevinchow
-    S: git
-  B: 0
-  U: kevinchow
-- E: kaiwentan!harmonycloud.cn
-  R:
-  - T: "2100-01-01"
-    C: HarmonyCloud
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: kaiwentan!harmonycloud.cn
-    M: kevinetc123
-    S: git
-  B: 0
-  U: kevinetc123
-- E: kgates!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2015-10-13"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kgates!pivotal.io
-    M: kevingates
-    S: slack
-    U: kevingates
-  B: 0
-  U: kevingates
-- E: kangkim9264!gmail.com
-  R:
-  - T: "2015-05-01"
-    C: ParsPooyesh
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2017-02-01"
-    C: VIRGOLE
-    F: "2015-05-01"
-    P: baetyl
-    R: C
-  - T: "2019-04-01"
-    C: SnappTrip
-    F: "2017-02-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: The Hyve
-    F: "2019-04-01"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: kangkim9264!gmail.com
-    M: kevinkim
-    S: git
-  B: 0
-  U: kevinkim
-- C: US
-  E: imhael!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: imhael!gmail.com
-    M: kevinll
-    S: git
-  B: 0
-  U: kevinll
-- E: key.seong.lim!intel.com
-  R:
-  - T: "2016-07-13"
-    C: Intel Corporation
-    F: "2016-03-31"
-    P: yocto
-    R: C
-  I:
-  - E: key.seong.lim!intel.com
-    M: Lim Key Seong
-    S: groupsio
-  - E: key.seong.lim!intel.com
-    M: key.seong.lim
-    S: groupsio
-  - E: key.seong.lim!intel.com
-    M: Lim Key Seong
-    S: pipermail
-  - E: key.seong.lim!intel.com
-    M: key.seong.lim
-    S: pipermail
-  B: 0
-  U: key.seong.lim
-- E: keyolk!gmail.com
-  R:
-  - T: "2017-05-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Naver
-    F: "2017-05-01"
-    R: C
-  S: male
-  I:
-  - E: keyolk!gmail.com
-    M: keyolk
-    S: github
-    U: keyolk
-  B: 0
-  U: keyolk
-- E: kezban.bayir!accenture.com
-  R:
-  - T: "2100-01-01"
-    C: Accenture
-    F: "2017-01-25"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: kezban.bayir!accenture.com
-    M: kezban.bayir
-    S: slack
-    U: kezban.bayir
-  B: 0
-  U: kezban.bayir
-- R:
-  - T: "2100-01-01"
-    C: PNNL
-    F: "2019-01-21"
-    R: C
-  I:
-  - S: github
-    U: kfox1111
-  B: 0
-  U: kfox1111
-- E: Kevin.Fox!pnnl.gov
-  R:
-  - T: "2019-02-08"
-    C: Pacific Northwest National Laboratory
-    F: "2019-02-05"
-    P: pnda
-    R: C
-  I:
-  - E: Kevin.Fox!pnnl.gov
-    M: Kevin Fox
-    S: git
-  - E: Kevin.Fox!pnnl.gov
-    M: kfox1111
-    S: git
-  B: 0
-  U: kfox1111
-- E: karl.wagner!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2016-02-04"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: karl.wagner!ge.com
-    M: kfwagner
-    S: slack
-    U: kfwagner
-  B: 0
-  U: kfwagner
