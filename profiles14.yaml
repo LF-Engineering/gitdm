@@ -1,859 +1,4 @@
 P:
-- C: SE
-  E: Ulf.Magnusson!nordicsemi.no
-  R:
-  - T: "2014-11-01"
-    C: ARM
-    F: "1900-01-01"
-    P: sawtooth
-    R: C
-  - T: "2014-11-01"
-    C: ARM
-    F: "1900-01-01"
-    P: yocto
-    R: C
-  - T: "2014-11-01"
-    C: ARM
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2016-10-01"
-    C: BMW
-    F: "2014-11-01"
-    P: sawtooth
-    R: C
-  - T: "2016-10-01"
-    C: BMW
-    F: "2014-11-01"
-    P: yocto
-    R: C
-  - T: "2016-10-01"
-    C: BMW
-    F: "2014-11-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-10-01"
-    P: sawtooth
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-10-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-10-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: ulfalizer!gmail.com
-    S: bugzilla
-    U: ulfalizer
-  - E: ulfalizer!gmail.com
-    S: bugzilla
-    U: ulfalizer
-  - E: Ulf.Magnusson!bmw-carit.de
-    M: Ulf Magnusson
-    S: git
-  - E: Ulf.Magnusson!bmw.de
-    M: Ulf Magnusson
-    S: git
-  - E: Ulf.Magnusson!nordicsemi.no
-    M: Ulf Magnusson
-    S: git
-  - E: ulfalizer!gmail.com
-    M: Ulf Magnusson
-    S: git
-  - M: Ulf Magnusson
-    S: github
-    U: ulfalizer
-  - E: Ulf.Magnusson!bmw-carit.de
-    M: Ulf Magnusson
-    S: groupsio
-  - E: ulfalizer!gmail.com
-    M: Ulf Magnusson
-    S: groupsio
-  - E: Ulf.Magnusson!bmw.de
-    M: Ulf.Magnusson
-    S: groupsio
-  - E: Ulf.Magnusson!bmw-carit.de
-    M: Ulf Magnusson
-    S: pipermail
-  - E: ulfalizer!gmail.com
-    M: Ulf Magnusson
-    S: pipermail
-  - E: Ulf.Magnusson!bmw.de
-    M: Ulf.Magnusson
-    S: pipermail
-  - E: ulfalizer!gmail.com
-    M: Ulf Magnusson
-    S: slack
-    U: ulfalizer
-  B: 0
-  U: Ulf Magnusson
-- E: meta-ti!emagii.com
-  R:
-  - T: "2100-01-01"
-    C: Atmel
-    F: "2008-07-18"
-    P: yocto
-    R: C
-  - T: "2012-04-05"
-    C: Atmel
-    F: "2011-12-20"
-    P: zep
-    R: C
-  I:
-  - E: Ulf!emagii.com
-    S: bugzilla
-    U: Ulf
-  - M: Ulf Samuelsson
-    S: bugzilla
-    U: yocto
-  - E: Ulf!emagii.com
-    M: Ulf Samuelsson
-    S: bugzilla
-    U: Ulf
-  - E: yocto!emagii.com
-    M: Ulf Samuelsson
-    S: bugzilla
-    U: yocto
-  - E: ulf!emagii.com
-    M: Ulf Samuelsson
-    S: git
-  - E: ulf.samuelsson!atmel.com
-    M: Ulf Samuelsson
-    S: git
-  - E: ulf_samuelsson!telia.com
-    M: Ulf Samuelsson
-    S: git
-  - E: ulf!emagii.com
-    M: ulf
-    S: git
-  - E: angstrom-dev!emagii.com
-    M: Ulf Samuelsson80200++
-    S: groupsio
-  - E: angstrom-dev!emagii.com
-    M: Ulf Samuelsson
-    S: groupsio
-  - E: meta-ti!emagii.com
-    M: Ulf Samuelsson
-    S: groupsio
-  - E: openembedded-core!emagii.com
-    M: Ulf Samuelsson
-    S: groupsio
-  - E: ulf!emagii.com
-    M: Ulf Samuelsson
-    S: groupsio
-  - E: ulf.samuelsson!atmel.com
-    M: Ulf Samuelsson
-    S: groupsio
-  - E: ulf.samuelsson!external.atlascopco.com
-    M: Ulf Samuelsson
-    S: groupsio
-  - E: ulf_samuelsson!telia.com
-    M: Ulf Samuelsson
-    S: groupsio
-  - E: yocto!emagii.com
-    M: Ulf Samuelsson
-    S: groupsio
-  - E: ulf.samuelsson!atmel.com
-    M: ulf.samuelsson
-    S: groupsio
-  - E: ulf!emagii.com
-    M: ulf
-    S: groupsio
-  - E: ulf_samuelsson!telia.com
-    M: ulf_samuelsson
-    S: groupsio
-  - E: angstrom-dev!emagii.com
-    M: Ulf Samuelsson80200++
-    S: pipermail
-  - E: angstrom-dev!emagii.com
-    M: Ulf Samuelsson
-    S: pipermail
-  - E: meta-ti!emagii.com
-    M: Ulf Samuelsson
-    S: pipermail
-  - E: openembedded-core!emagii.com
-    M: Ulf Samuelsson
-    S: pipermail
-  - E: ulf!emagii.com
-    M: Ulf Samuelsson
-    S: pipermail
-  - E: ulf.samuelsson!atmel.com
-    M: Ulf Samuelsson
-    S: pipermail
-  - E: ulf.samuelsson!external.atlascopco.com
-    M: Ulf Samuelsson
-    S: pipermail
-  - E: ulf_samuelsson!telia.com
-    M: Ulf Samuelsson
-    S: pipermail
-  - E: yocto!emagii.com
-    M: Ulf Samuelsson
-    S: pipermail
-  - E: ulf.samuelsson!atmel.com
-    M: ulf.samuelsson
-    S: pipermail
-  - E: ulf!emagii.com
-    M: ulf
-    S: pipermail
-  - E: ulf_samuelsson!telia.com
-    M: ulf_samuelsson
-    S: pipermail
-  B: 0
-  U: Ulf Samuelsson
-- R:
-  - T: "2014-12-01"
-    C: Vital
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2014-12-01"
-    R: C
-  S: male
-  I:
-  - M: Uli Bubenheimer
-    S: github
-    U: bubenheimer
-  B: 0
-  U: Uli Bubenheimer
-- E: u.luckas!road.de
-  R:
-  - T: "2009-09-24"
-    C: ROAD
-    F: "2007-08-22"
-    P: yocto
-    R: C
-  I:
-  - E: u.luckas!road.de
-    M: Uli Luckas
-    S: git
-  - E: u.luckas!road.de
-    M: Uli Luckas
-    S: groupsio
-  - E: u.luckas!road.de
-    M: Uli Luckas
-    S: pipermail
-  B: 0
-  U: Uli Luckas
-- E: brindisu!lab126.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon.com, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: brindisu!lab126.com
-    M: Ulises Brindis
-    S: git
-  B: 0
-  U: Ulises Brindis
-- E: UllasKumar_Y!infosys.com
-  R:
-  - T: "2100-01-01"
-    C: Infosys Limited
-    F: "2018-04-05"
-    R: C
-  - T: "2100-01-01"
-    C: Infosys Limited
-    F: "2018-04-05"
-    P: onap
-    R: C
-  I:
-  - E: UllasKumar_Y!infosys.com
-    M: Ullas Kumar Kotrappa Yereseemi
-    S: groupsio
-  - E: ullaskumar_y!infosys.com
-    M: ullaskumar_y
-    S: groupsio
-  - E: UllasKumar_Y!infosys.com
-    M: Ullas Kumar Kotrappa Yereseemi
-    S: pipermail
-  B: 0
-  U: Ullas Kumar Kotrappa Yereseemi
-- E: u.oelmann!pengutronix.de
-  R:
-  - T: "2100-01-01"
-    C: Pengutronix
-    F: "2016-01-01"
-    P: yocto
-    R: C
-  I:
-  - E: u.oelmann!pengutronix.de
-    M: Ulrich Ölmann
-    S: git
-  - E: u.oelmann!pengutronix.de
-    M: Ulrich Ölmann
-    S: groupsio
-  - E: u.oelmann!pengutronix.de
-    M: Ulrich  Ölmann
-    S: pipermail
-  - E: u.oelmann!pengutronix.de
-    M: Ulrich Ölmann
-    S: pipermail
-  B: 0
-  U: Ulrich  Ölmann
-- E: drepper!gmail.com
-  R:
-  - T: "2017-04-01"
-    C: Goldman Sachs
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2017-04-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: drepper!gmail.com
-    M: Ulrich Drepper
-    S: git
-  B: 0
-  U: Ulrich Drepper
-- E: drepper!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: drepper!redhat.com
-    M: Ulrich Drepper
-    S: git
-  B: 0
-  U: Ulrich Drepper
-- E: ulrich.hoelscher!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2016-07-12"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: ulrich.hoelscher!emc.com
-    M: Ulrich Hoelscher
-    S: slack
-    U: ulrix
-  B: 0
-  U: Ulrich Hoelscher
-- E: ulrich.kleber!huawei.com
-  R:
-  - T: "2018-03-19"
-    C: Huawei Technologies Co., Ltd.
-    F: "2014-10-07"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-10-02"
-    P: lfn-cntt
-    R: C
-  I:
-  - M: Ulrich Kleber
-    S: confluence
-    U: ulik
-  - E: ulrich.kleber!huawei.com
-    M: Ulrich Kleber
-    S: confluence
-    U: ulik
-  - E: ulrich.kleber!huawei.com
-    M: Ulrich Kleber
-    S: gerrit
-    U: ulik
-  - E: ulrich.kleber!huawei.com
-    M: Uli Kleber
-    S: git
-  - E: 53302540+ulikleber!users.noreply.github.com
-    M: Ulrich Kleber
-    S: git
-  - E: ulrich.kleber!huawei.com
-    M: Ulrich Kleber
-    S: git
-  - E: ulrich.kleber!huawei.com
-    M: ulik
-    S: git
-  - M: Ulrich Kleber
-    S: github
-    U: ulikleber
-  - E: Ulrich.Kleber!huawei.com
-    M: Ulrich Kleber
-    S: gmane
-  - E: Ulrich.Kleber!huawei.com
-    M: Ulrich Kleber
-    S: groupsio
-  - M: Ulrich Kleber
-    S: jira
-    U: ulik
-  - E: ulrich.kleber!huawei.com
-    M: Ulrich Kleber
-    S: jira
-    U: ulik
-  - M: Ulrich Kleber
-    S: linux-foundation:its
-    U: ulik
-  - E: Ulrich.Kleber!huawei.com
-    M: Ulrich Kleber
-    S: linux-foundation:mls
-    U: Ulrich.Kleber
-  - E: ulrich.kleber!huawei.com
-    M: Uli Kleber
-    S: linux-foundation:scm
-  - E: ulrich.kleber!huawei.com
-    M: Ulrich Kleber
-    S: linux-foundation:scm
-  - E: ulrich.kleber!huawei.com
-    M: ulik
-    S: linux-foundation:scm
-  - E: ulrich.kleber!huawei.com
-    M: Ulrich Kleber
-    S: linux-foundation:scr
-    U: ulik
-  - E: Ulrich.Kleber!huawei.com
-    M: Ulrich Kleber
-    S: mbox
-  - E: Ulrich.Kleber!huawei.com
-    M: Ulrich Kleber
-    S: pipermail
-  B: 0
-  U: Ulrich Kleber
-- E: u.kramer!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "2019-01-31"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: u.kramer!sap.com
-    M: Ulrich Kramer
-    S: git
-  - M: Ulrich Kramer
-    S: github
-    U: kramerul
-  - E: u.kramer!sap.com
-    M: Ulrich Kramer
-    S: github
-    U: kramerul
-  - E: u.kramer!sap.com
-    M: Ulrich Kramer
-    S: slack
-    U: u.kramer
-  B: 0
-  U: Ulrich Kramer
-- E: ulmy!nordicsemi.no
-  R:
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ulmy!nordicsemi.no
-    M: Ulrich Myhre
-    S: slack
-    U: ulmy
-  B: 0
-  U: Ulrich Myhre
-- E: uobergfe!redhat.com
-  R:
-  - T: "2014-08-06"
-    C: Red Hat Inc.
-    F: "2011-03-25"
-    P: zep
-    R: C
-  I:
-  - E: uobergfe!redhat.com
-    M: Ulrich Obergfell
-    S: git
-  B: 0
-  U: Ulrich Obergfell
-- C: LU
-  R:
-  - T: "2015-05-01"
-    C: PayPal
-    F: "1900-01-01"
-    R: C
-  - T: "2016-05-01"
-    C: GRIN
-    F: "2015-05-01"
-    R: C
-  - T: "2016-12-01"
-    C: Docler Holding Luxembourg
-    F: "2016-05-01"
-    R: C
-  - T: "2017-09-01"
-    C: StubHub
-    F: "2016-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: Box
-    F: "2017-09-01"
-    R: C
-  S: male
-  I:
-  - M: Ulrich Romahn
-    S: github
-    U: uromahn
-  B: 0
-  U: Ulrich Romahn
-- C: FR
-  E: u.vachon!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Docker, Inc.
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: u.vachon!gmail.com
-    M: Ulrich VACHON
-    S: git
-  B: 0
-  U: Ulrich VACHON
-- C: FR
-  E: ulrich.vachon!docker.com
-  R:
-  - T: "2100-01-01"
-    C: Docker, Inc.
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: ulrich.vachon!docker.com
-    M: Ulrich VACHON
-    S: git
-  - E: ulrich.vachon!docker.com
-    M: Ulrich VACHON
-    S: github
-    U: ulrich
-  B: 0
-  U: Ulrich VACHON
-- E: ulrich.weber!riverbed.com
-  R:
-  - T: "2100-01-01"
-    C: Riverbed Technology, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ulrich.weber!riverbed.com
-    M: Ulrich Weber
-    S: git
-  B: 0
-  U: Ulrich Weber
-- E: ulrich.weigand!de.ibm.com
-  R:
-  - T: "2014-06-24"
-    C: IBM
-    F: "2014-04-30"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: ulrich.weigand!de.ibm.com
-    M: Ulrich Weigand
-    S: git
-  B: 0
-  U: Ulrich Weigand
-- E: ulrik.debie-os!e2big.org
-  R:
-  - T: "2100-01-01"
-    C: Newtec
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: ulrik.debie-os!e2big.org
-    M: Ulrik De Bie
-    S: git
-  B: 0
-  U: Ulrik De Bie
-- C: FR
-  E: ulysses.souza!docker.com
-  R:
-  - T: "2100-01-01"
-    C: Altim
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: ulysses.souza!docker.com
-    M: Ulysses Souza
-    S: github
-    U: ulyssessouza
-  B: 0
-  U: Ulysses Souza
-- C: FR
-  E: ulyssessouza!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Altim
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: ulyssessouza!gmail.com
-    M: Ulysses Souza
-    S: git
-  - E: ulyssessouza!gmail.com
-    M: ulyssessouza
-    S: git
-  - E: ulyssessouza!gmail.com
-    M: Ulysses Souza
-    S: github
-    U: ulyssessouza
-  B: 0
-  U: Ulysses Souza
-- E: ukrishn!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: ukrishn!linux.vnet.ibm.com
-    M: Uma Krishnan
-    S: git
-  B: 0
-  U: Uma Krishnan
-- C: IN
-  E: uma!mayadata.io
-  R:
-  - T: "2017-12-01"
-    C: MayaData
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: MayaData
-    F: "2017-12-01"
-    R: C
-  S: male
-  I:
-  - E: uma!mayadata.io
-    M: Uma Mukkara
-    S: git
-  - E: uma!mayadata.io
-    M: Uma Mukkara
-    S: github
-    U: umamukkara
-  B: 0
-  U: Uma Mukkara
-- E: uma.shankar!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: uma.shankar!intel.com
-    M: Uma Shankar
-    S: git
-  B: 0
-  U: Uma Shankar
-- E: usriniva!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2016-07-29"
-    P: odl
-    R: C
-  I:
-  - E: usriniva!cisco.com
-    M: Umakanth Srinivasan usriniva
-    S: pipermail
-  B: 0
-  U: Umakanth Srinivasan usriniva
-- E: umamahesh.y!hcl.com
-  R:
-  - T: "2017-10-24"
-    C: HCL Technologies Ltd.
-    F: "2017-07-07"
-    P: yocto
-    R: C
-  I:
-  - E: umamahesh.y!hcl.com
-    M: Umamahesh Yelchuruvenkata
-    S: groupsio
-  - E: umamahesh.y!hcl.com
-    M: Umamahesh Yelchuruvenkata
-    S: pipermail
-  B: 0
-  U: Umamahesh Yelchuruvenkata
-- C: IN
-  R:
-  - T: "2018-04-01"
-    C: Nikya
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-04-01"
-    R: C
-  S: male
-  I:
-  - M: Umanga Chapagain
-    S: github
-    U: umangachapagain
-  B: 0
-  U: Umanga Chapagain
-- E: umar1.farooq1!gmail.com
-  R:
-  - T: "2015-09-04"
-    C: NEC
-    F: "2015-06-18"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2015-09-04"
-    C: NEC
-    F: "2015-06-18"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-05-08"
-    C: NEC
-    F: "2017-05-29"
-    P: opnfv
-    R: C
-  I:
-  - E: umar.farooq!neclab.eu
-    M: Umar Farooq
-    S: gerrit
-    U: umarfarooq
-  - E: umar.farooq!neclab.eu
-    M: Umar Farooq
-    S: git
-  - M: Umar Farooq
-    S: jira
-    U: umarfarooq
-  - E: umar.farooq!neclab.eu
-    M: Umar Farooq
-    S: jira
-    U: umarfarooq
-  - E: umar1.farooq1!gmail.com
-    M: Umar Farooq
-    S: pipermail
-  B: 0
-  U: Umar Farooq
-- E: umayr.shahid!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: 10Pearls
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: umayr.shahid!gmail.com
-    M: Umayr Shahid
-    S: git
-  - E: umayr.shahid!gmail.com
-    M: Umayr Shahid
-    S: github
-    U: umayr
-  B: 0
-  U: Umayr Shahid
-- C: US
-  E: me!uraimo.com
-  R:
-  - T: "2100-01-01"
-    C: Individual
-    F: "2019-09-27"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: me!uraimo.com
-    M: Umberto Raimondi
-    S: git
-  B: 0
-  U: Umberto Raimondi
-- E: umesh.kartha!caviumnetworks.com
-  R:
-  - T: "2018-07-12"
-    C: Cavium
-    F: "2017-03-22"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2018-07-12"
-    C: Cavium
-    F: "2017-03-22"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-07-12"
-    C: Cavium
-    F: "2018-07-10"
-    P: dpdk-draft
-    R: C
-  - T: "2018-07-12"
-    C: Cavium
-    F: "2018-07-10"
-    P: dpdk-next
-    R: C
-  I:
-  - E: umesh.kartha!caviumnetworks.com
-    M: Umesh Kartha
-    S: git
-  - E: Umesh.Kartha!caviumnetworks.com
-    M: Umesh Kartha
-    S: pipermail
-  B: 0
-  U: Umesh Kartha
-- E: umesh.nerlige.ramappa!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: umesh.nerlige.ramappa!intel.com
-    M: Umesh Nerlige Ramappa
-    S: git
-  B: 0
-  U: Umesh Nerlige Ramappa
-- C: IN
-  R:
-  - T: "2017-08-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2018-09-01"
-    C: Docker, Inc.
-    F: "2017-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-09-01"
-    R: C
-  S: male
-  I:
-  - M: Umesh Yadav
-    S: github
-    U: imumesh18
-  B: 0
-  U: Umesh Yadav
-- C: IN
-  E: dungeonmaster18!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Docker, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: dungeonmaster18!users.noreply.github.com
-    M: Umesh Yadav
-    S: git
-  B: 0
-  U: Umesh Yadav
 - E: umut!tezduyar.com
   R:
   - T: "2016-11-25"
@@ -59857,3 +59002,865 @@ P:
     U: zparnold
   B: 0
   U: Zach Arnold
+- E: me!zacharnold.org
+  R:
+  - T: "2014-08-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    R: C
+  - T: "2015-11-01"
+    C: eGroup
+    F: "2014-08-01"
+    R: C
+  - T: "2016-08-01"
+    C: Progetta
+    F: "2015-11-01"
+    R: C
+  - T: "2019-11-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: MSCI
+    F: "2019-11-01"
+    R: C
+  S: male
+  I:
+  - E: me!zacharnold.org
+    M: Zach Arnold
+    S: git
+  B: 0
+  U: Zach Arnold
+- E: zparnold!users.noreply.github.com
+  R:
+  - T: "2014-08-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    R: C
+  - T: "2015-11-01"
+    C: eGroup
+    F: "2014-08-01"
+    R: C
+  - T: "2016-08-01"
+    C: Progetta
+    F: "2015-11-01"
+    R: C
+  - T: "2019-11-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ygrene Energy Fund
+    F: "2016-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: MSCI
+    F: "2019-11-01"
+    R: C
+  S: male
+  I:
+  - E: zparnold!users.noreply.github.com
+    M: Zach Arnold
+    S: git
+  B: 0
+  U: Zach Arnold
+- E: zachary.berger!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-08-28"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: zachary.berger!intel.com
+    M: Zach Berger
+    S: slack
+    U: zachberger
+  B: 0
+  U: Zach Berger
+- C: US
+  E: zbbjornson!gmail.com
+  R:
+  - T: "2015-07-01"
+    C: Cytobank
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Cytobank
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Cytobank
+    F: "2015-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Primity Bio
+    F: "2015-10-01"
+    R: C
+  S: male
+  I:
+  - E: zbbjornson!gmail.com
+    M: Zach Bjornson
+    S: git
+  - E: zbbjornson!gmail.com
+    M: Zach Bjornson
+    S: github
+    U: zbjornson
+  B: 0
+  U: Zach Bjornson
+- E: zach.brown!ni.com
+  R:
+  - T: "2100-01-01"
+    C: National Instruments
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zach.brown!ni.com
+    M: Zach Brown
+    S: git
+  B: 0
+  U: Zach Brown
+- E: zach.brown!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zach.brown!oracle.com
+    M: Zach Brown
+    S: git
+  B: 0
+  U: Zach Brown
+- E: zbrown!pivotal.io
+  R:
+  - T: "2018-04-15"
+    C: Pivotal
+    F: "2015-12-21"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: zbrown!pivotal.io
+    M: Zach Brown
+    S: groupsio
+  - E: zbrown!pivotal.io
+    M: Zach Brown
+    S: mbox
+  - E: zbrown!pivotal.io
+    M: Zach Brown
+    S: slack
+    U: zachb
+  B: 0
+  U: Zach Brown
+- C: MX
+  R:
+  - T: "2014-05-15"
+    C: Moz
+    F: "1900-01-01"
+    R: C
+  - T: "2016-03-15"
+    C: Rackspace
+    F: "2014-05-15"
+    R: C
+  - T: "2017-06-01"
+    C: Microsoft Corporation
+    F: "2016-03-15"
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-06-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Corleissen
+    S: github
+    U: zacharysarah
+  B: 0
+  U: Zach Corleissen
+- E: zach.dunton!smartfrog.com
+  R:
+  - T: "2015-01-01"
+    C: Analab
+    F: "1900-01-01"
+    R: C
+  - T: "2015-05-01"
+    C: PersonalWeb
+    F: "2015-01-01"
+    R: C
+  - T: "2015-11-01"
+    C: Independent
+    F: "2015-05-01"
+    R: C
+  - T: "2016-02-01"
+    C: Delivery Hero Holding
+    F: "2015-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Smartfrog
+    F: "2016-02-01"
+    R: C
+  S: male
+  I:
+  - E: zach.dunton!smartfrog.com
+    M: Zach Dunton
+    S: git
+  B: 0
+  U: Zach Dunton
+- R:
+  - T: "2100-01-01"
+    C: Infoblox
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Eddy
+    S: github
+    U: ZachEddy
+  B: 0
+  U: Zach Eddy
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: WeaveUp
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Gardner
+    S: github
+    U: locriani
+  B: 0
+  U: Zach Gardner
+- C: US
+  E: locriani!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: WeaveUp
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: locriani!gmail.com
+    M: Zach Gardner
+    S: git
+  B: 0
+  U: Zach Gardner
+- C: US
+  E: zach!anchore.com
+  R:
+  - T: "2100-01-01"
+    C: Anchore
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zach!anchore.com
+    M: Zach Hill
+    S: git
+  - E: zach!anchore.com
+    M: Zach Hill
+    S: github
+    U: zhill
+  B: 0
+  U: Zach Hill
+- C: US
+  E: zach.langbert!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Nike, Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zach.langbert!gmail.com
+    M: Zach Langbert
+    S: git
+  - E: zach.langbert!gmail.com
+    M: Zach Langbert
+    S: github
+    U: zlangbert
+  B: 0
+  U: Zach Langbert
+- C: US
+  E: zml!google.com
+  R:
+  - T: "2017-09-06"
+    C: Google
+    F: "2014-12-06"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: zml!google.com
+    M: Zach Loafman
+    S: git
+  - E: zml!google.com
+    M: Zach Loafman
+    S: github
+    U: zmerlynn
+  B: 0
+  U: Zach Loafman
+- E: zach.miller!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-07-14"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: zach.miller!ibm.com
+    M: Zach Miller
+    S: slack
+    U: zachmiller17
+  B: 0
+  U: Zach Miller
+- E: zach!monax.io
+  R:
+  - T: "2017-06-30"
+    C: Monax
+    F: "2015-06-30"
+    P: burrow
+    R: C
+  - T: "2017-06-30"
+    C: Monax
+    F: "2015-06-30"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2017-06-30"
+    C: Monax
+    F: "2015-06-30"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: Blue Collar Coding Company
+    F: "2017-04-30"
+    P: burrow
+    R: C
+  - T: "2100-01-01"
+    C: Blue Collar Coding Company
+    F: "2017-04-30"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: Blue Collar Coding Company
+    F: "2017-04-30"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2019-01-31"
+    C: Tendermint
+    F: "2017-07-31"
+    P: burrow
+    R: C
+  - T: "2019-01-31"
+    C: Tendermint
+    F: "2017-07-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2019-01-31"
+    C: Tendermint
+    F: "2017-07-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2019-06-30"
+    C: Interchain Foundation
+    F: "2019-01-31"
+    P: burrow
+    R: C
+  - T: "2019-06-30"
+    C: Interchain Foundation
+    F: "2019-01-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2019-06-30"
+    C: Interchain Foundation
+    F: "2019-01-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  I:
+  - E: zach!coinculture.info
+    M: Zach Ramsay
+    S: git
+  - E: zach!erisindustries.com
+    M: Zach Ramsay
+    S: git
+  - E: zach.ramsay!gmail.com
+    M: Zach Ramsay
+    S: git
+  - E: zach!erisindustries.com
+    M: Zach
+    S: git
+  - E: zach!monax.io
+    M: Zach
+    S: git
+  - E: zach!bluecollarcoding.ca
+    M: zramsay
+    S: git
+  - E: zach!erisindustries.com
+    M: zramsay
+    S: git
+  - E: zach!monax.io
+    M: zramsay
+    S: git
+  - E: zach!bluecollarcoding.ca
+    M: Zach
+    S: github
+    U: zramsay
+  B: 0
+  U: Zach Ramsay
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2013-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - E: zach.robinson!gmail.com
+    S: cloudfoundry:manual
+  - E: zrobinson!pivotal.io
+    S: cloudfoundry:manual
+  - M: Zach Robinson
+    S: cloudfoundry:manual
+  - E: zach.robinson!gmail.com
+    M: Zach Robinson
+    S: file:cff
+    U: zrob
+  - E: zrobinson!pivotal.io
+    M: Zach Robinson
+    S: file:cff
+    U: zrob
+  - M: Zach Robinson
+    S: git
+  - E: pair+
+    M: Zach Robinson
+    S: git
+  - E: pair+zrobinson!pivotal.io
+    M: Zach Robinson
+    S: git
+  - E: pair+zrobinson!pivotallabs.com
+    M: Zach Robinson
+    S: git
+  - E: zach.robinson!gmail.com
+    M: Zach Robinson
+    S: git
+  - E: zrobinson!pivotal.io
+    M: Zach Robinson
+    S: git
+  - E: zrobinson!pivotallabs.com
+    M: Zach Robinson
+    S: git
+  - E: zach.robinson!gmail.com
+    M: Zach
+    S: git
+  - S: github
+    U: zrob
+  - M: Zach Robinson
+    S: github
+    U: zrob
+  - E: zrobinson!pivotal.io
+    M: Zach Robinson
+    S: groupsio
+  - E: zrobinson!pivotal.io
+    M: Zach Robinson
+    S: mbox
+  - E: zrobinson!pivotal.io
+    M: zach robinson
+    S: slack
+    U: zach
+  B: 0
+  U: Zach Robinson
+- C: US
+  E: zach.sais!utexas.edu
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zach.sais!utexas.edu
+    M: Zach Sais
+    S: git
+  - E: zach.sais!utexas.edu
+    M: Zach Sais
+    S: github
+    U: zsais
+  B: 0
+  U: Zach Sais
+- E: seils!cisco.com
+  R:
+  - T: "2014-01-11"
+    C: Cisco Systems Inc.
+    F: "2013-04-20"
+    P: odl
+    R: C
+  I:
+  - E: seils!cisco.com
+    M: Zach Seils seils
+    S: pipermail
+  B: 0
+  U: Zach Seils seils
+- C: US
+  E: zachseils!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zachseils!google.com
+    M: Zach Seils
+    S: git
+  - E: zachseils!google.com
+    M: Zach Seils
+    S: github
+    U: seils
+  B: 0
+  U: Zach Seils
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Zach Shepherd
+    S: github
+    U: zjs
+  B: 0
+  U: Zach Shepherd
+- C: US
+  E: shepherdz!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: shepherdz!vmware.com
+    M: Zach Shepherd
+    S: git
+  B: 0
+  U: Zach Shepherd
+- C: US
+  E: zjs!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zjs!users.noreply.github.com
+    M: Zach Shepherd
+    S: git
+  B: 0
+  U: Zach Shepherd
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Poetic Systems
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Zach
+    S: github
+    U: osxi
+  B: 0
+  U: Zach
+- E: zachpuckett!gmail.com
+  R:
+  - T: "2018-05-31"
+    C: Nintex
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2018-05-31"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-06-19"
+    R: C
+  S: male
+  I:
+  - E: zach.puckett!nintex.com
+    M: Zach Puckett
+    S: git
+  - E: zachpuckett!gmail.com
+    M: Zach
+    S: git
+  - E: zachpuckett!gmail.com
+    M: zachpuck
+    S: git
+  - E: zachpuckett!gmail.com
+    M: Zach
+    S: github
+    U: zachpuck
+  B: 0
+  U: Zach
+- C: US
+  E: zlavallee!pivotal.io
+  R:
+  - T: "2018-04-02"
+    C: Pivotal
+    F: "2018-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - E: zlavallee!pivotal.io
+    M: Zach LaVallee
+    S: git
+  - E: zlavallee!pivotal.io
+    M: Zachary LaVallee
+    S: git
+  - E: zlavallee!pivotal.io
+    M: Zach
+    S: github
+    U: zlav
+  - E: zcjlavallee!gmail.com
+    M: Zach LaVallee
+    S: slack
+    U: zlavallee
+  - E: zlavallee!pivotal.io
+    M: Zach LaVallee
+    S: slack
+    U: zlavallee
+  B: 0
+  U: Zach
+- E: zachariusz.karwacki!microsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zachariusz.karwacki!microsoft.com
+    M: Zachariusz Karwacki
+    S: git
+  B: 0
+  U: Zachariusz Karwacki
+- C: US
+  R:
+  - T: "2015-05-01"
+    C: SapientNitro
+    F: "1900-01-01"
+    R: C
+  - T: "2020-01-01"
+    C: Spotify
+    F: "2015-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: RADAR
+    F: "2020-01-01"
+    R: C
+  S: male
+  I:
+  - M: Zachary (Zac) Pustejovsky
+    S: github
+    U: flylo
+  B: 0
+  U: Zachary (Zac) Pustejovsky
+- C: US
+  E: razic!viralkitty.com
+  R:
+  - T: "2100-01-01"
+    C: viralkitty
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: razic!viralkitty.com
+    M: Zachary Adam Kaplan
+    S: git
+  B: 0
+  U: Zachary Adam Kaplan
+- E: zach!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zach!vmware.com
+    M: Zachary Amsden
+    S: git
+  B: 0
+  U: Zachary Amsden
+- C: MX
+  E: zacharysarah!users.noreply.github.com
+  R:
+  - T: "2014-05-15"
+    C: Moz
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2016-03-15"
+    C: Rackspace
+    F: "2014-05-15"
+    P: baetyl
+    R: C
+  - T: "2017-06-01"
+    C: Microsoft Corporation
+    F: "2016-03-15"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-06-01"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: zacharysarah!users.noreply.github.com
+    M: Zach Corleissen
+    S: git
+  - E: zacharysarah!users.noreply.github.com
+    M: Zachary Corleissen
+    S: git
+  B: 0
+  U: Zachary Corleissen
+- E: zeddy!infoblox.com
+  R:
+  - T: "2100-01-01"
+    C: Infoblox
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: zeddy!infoblox.com
+    M: Zachary Eddy
+    S: git
+  B: 0
+  U: Zachary Eddy
+- C: US
+  E: pair+zgershman!pivotal.io
+  R:
+  - T: "2019-07-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: DigitalOcean
+    F: "2019-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - E: zachgersh!users.noreply.github.com
+    M: Zach Gershman
+    S: git
+  - E: zgershman!pivotal.io
+    M: Zach Gershman
+    S: git
+  - E: zachgersh!users.noreply.github.com
+    M: Zach
+    S: git
+  - M: Zachary Gershman
+    S: git
+  - E: pair+zgershman!pivotal.io
+    M: Zachary Gershman
+    S: git
+  - E: zgershman!pivotal.io
+    M: Zachary Gershman
+    S: git
+  - E: zachgersh!gmail.com
+    M: zachgersh
+    S: git
+  - E: zachgersh!gmail.com
+    M: Zach Gershman
+    S: github
+    U: zachgersh
+  - E: zgershman!pivotal.io
+    M: Zachary Gershman
+    S: slack
+    U: zachgersh
+  B: 0
+  U: Zachary Gershman
+- E: zachgitt!umich.edu
+  R:
+  - T: "2018-03-19"
+    C: University of Michigan
+    F: "2017-12-22"
+    P: fabric
+    R: C
+  I:
+  - E: zachgitt!umich.edu
+    M: Zachary Gittelman
+    S: github
+    U: zachgitt
+  B: 0
+  U: Zachary Gittelman
+- C: BR
+  E: no1!zmt.org
+  R:
+  - T: "2014-08-01"
+    C: Agari
+    F: "1900-01-01"
+    R: C
+  - T: "2015-02-01"
+    C: Xoom
+    F: "2014-08-01"
+    R: C
+  - T: "2016-01-01"
+    C: Lookout
+    F: "2015-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "2016-01-01"
+    R: C
+  I:
+  - E: no1!zmt.org
+    M: Zachary M. Train
+    S: github
+    U: zmt
+  B: 0
+  U: Zachary M. Train
+- C: US
+  E: zacharymunro2!gmail.com
+  R:
+  - T: "2019-05-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Day Zero Diagnostics
+    F: "2019-05-01"
+    R: C
+  S: male
+  I:
+  - E: zacharymunro2!gmail.com
+    M: Zachary Munro
+    S: github
+    U: zmunro
+  B: 0
+  U: Zachary Munro
+- E: ztaylor!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ztaylor!twitter.com
+    M: Zachary Taylor
+    S: git
+  B: 0
+  U: Zachary Taylor
