@@ -1,6 +1,43 @@
 P:
 - C: IN
   R:
+  - T: "2016-03-01"
+    C: BlueJeans by Verizon
+    F: "1900-01-01"
+    R: C
+  - T: "2016-03-01"
+    C: BlueJeans by Verizon
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2016-03-01"
+    C: BlueJeans by Verizon
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Gojek
+    F: "2016-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Gojek
+    F: "2016-03-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Gojek
+    F: "2016-03-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - M: Irfan Shah
+    S: github
+    U: irfn
+  B: 0
+  U: Irfan Shah
+- C: IN
+  R:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
@@ -7398,6 +7435,11 @@ P:
   R:
   - T: "2003-01-01"
     C: BMC Software Inc.
+    F: "2000-01-01"
+    P: angel
+    R: C
+  - T: "2003-01-01"
+    C: BMC Software Inc.
     F: "2002-01-01"
     P: adlik
     R: C
@@ -7410,6 +7452,11 @@ P:
     C: Red Hat Inc.
     F: "2006-04-01"
     P: adlik
+    R: C
+  - T: "2011-10-01"
+    C: Red Hat Inc.
+    F: "2006-04-01"
+    P: angel
     R: C
   - T: "2011-10-01"
     C: Red Hat Inc.
@@ -7435,6 +7482,11 @@ P:
     C: Ambianic.ai
     F: "2020-03-01"
     P: adlik
+    R: C
+  - T: "2100-01-01"
+    C: Ambianic.ai
+    F: "2020-03-01"
+    P: angel
     R: C
   - T: "2100-01-01"
     C: Ambianic.ai
@@ -62787,43 +62839,3 @@ P:
     U: sevein
   B: 0
   U: Jesús García Crespo
-- C: GB
-  E: jroncero!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Shazam
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Shazam
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Shazam
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: jroncero!gmail.com
-    M: Jesús Roncero
-    S: git
-  - E: jroncero!gmail.com
-    M: Jesús Roncero
-    S: github
-    U: octete
-  B: 0
-  U: Jesús Roncero
-- E: qiaojianfeng!unitedstack.com
-  R:
-  - T: "2100-01-01"
-    C: UnitedStack
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: qiaojianfeng!unitedstack.com
-    M: Jevon Qiao
-    S: git
-  B: 0
-  U: Jevon Qiao
