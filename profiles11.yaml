@@ -1,5 +1,139 @@
 P:
 - C: FR
+  R:
+  - T: "2016-09-01"
+    C: Ministère de l'Intérieur
+    F: "1900-01-01"
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-09-01"
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-10-01"
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-10-01"
+    P: container-networking-interface
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-10-01"
+    P: containerd
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-10-01"
+    P: etcd
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-10-01"
+    P: helm
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-10-01"
+    P: k8s
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-10-01"
+    P: prometheus
+    R: C
+  - T: "2017-11-01"
+    C: BlaBlaCar
+    F: "2016-10-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-11-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-11-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-11-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-11-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-11-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-11-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-11-01"
+    P: rkt
+    R: C
+  S: male
+  I:
+  - M: Julien Balestra
+    S: github
+    U: JulienBalestra
+  B: 0
+  U: Julien Balestra
+- C: FR
   E: julien.balestra!blablacar.com
   R:
   - T: "2016-09-01"
@@ -62030,57 +62164,3 @@ P:
     U: lgray
   B: 0
   U: Laurel Gray
-- E: ll7851!att.com
-  R:
-  - T: "2019-05-15"
-    C: AT&T Services, Inc.
-    F: "2018-06-07"
-    R: C
-  - T: "2019-05-15"
-    C: AT&T Services, Inc.
-    F: "2018-06-07"
-    P: onap
-    R: C
-  I:
-  - M: Lauren Lewis
-    S: confluence
-    U: ll7851
-  - M: Lauren Lewis
-    S: jira
-    U: ll7851
-  - E: ll7851!att.com
-    M: Lauren Lewis
-    S: jira
-    U: ll7851
-  B: 0
-  U: Lauren Lewis
-- E: lauren.li!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: open-mainframe-project/cobol-programming-course
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2019-03-18"
-    P: zowe
-    R: C
-  I:
-  - E: 45975633+lauren-li!users.noreply.github.com
-    M: Lauren Li
-    S: git
-  - E: Lauren.Li!ibm.com
-    M: Lauren Li
-    S: git
-  - E: 45975633+lauren-li!users.noreply.github.com
-    M: lauren-li
-    S: git
-  - S: github
-    U: lauren-li
-  - E: lauren.li!ibm.com
-    M: Lauren Li
-    S: slack
-    U: lauren.li
-  B: 0
-  U: Lauren Li

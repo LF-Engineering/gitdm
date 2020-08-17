@@ -1,4 +1,174 @@
 P:
+- C: US
+  R:
+  - T: "2015-01-01"
+    C: Upthere
+    F: "1900-01-01"
+    R: C
+  - T: "2015-01-01"
+    C: Upthere
+    F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2015-01-01"
+    C: Upthere
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2015-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2015-01-01"
+    P: notary
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2015-01-01"
+    P: opentracing
+    R: C
+  - T: "2016-11-01"
+    C: Docker, Inc.
+    F: "2015-03-01"
+    R: C
+  - T: "2016-11-01"
+    C: Docker, Inc.
+    F: "2015-03-01"
+    P: notary
+    R: C
+  - T: "2016-11-01"
+    C: Docker, Inc.
+    F: "2015-03-01"
+    P: opentracing
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-11-01"
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-11-01"
+    P: notary
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-11-01"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2017-01-01"
+    P: notary
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2017-01-01"
+    P: opentracing
+    R: C
+  S: male
+  I:
+  - M: Richard Scothern
+    S: github
+    U: RichardScothern
+  B: 0
+  U: Richard Scothern
+- E: rseroter!pivotal.io
+  R:
+  - T: "2016-05-11"
+    C: Pivotal
+    F: "2016-04-11"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rseroter!pivotal.io
+    M: Richard Seroter
+    S: slack
+    U: richardseroter
+  B: 0
+  U: Richard Seroter
+- E: rsharpe!samba.org
+  R:
+  - T: "2016-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2018-03-01"
+    C: Primary Data
+    F: "2016-05-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Hammerspace
+    F: "2018-03-01"
+    P: openebs
+    R: C
+  I:
+  - E: rsharpe!samba.org
+    M: Richard Sharpe
+    S: git
+  B: 0
+  U: Richard Sharpe
+- C: GB
+  E: richard!aggress.net
+  R:
+  - T: "2014-02-15"
+    C: Basho
+    F: "1900-01-01"
+    R: C
+  - T: "2014-02-15"
+    C: Basho
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-06-15"
+    C: MapR Technologies
+    F: "2014-02-15"
+    R: C
+  - T: "2016-06-15"
+    C: MapR Technologies
+    F: "2014-02-15"
+    P: k8s
+    R: C
+  - T: "2017-04-15"
+    C: Confluent
+    F: "2016-06-15"
+    R: C
+  - T: "2017-04-15"
+    C: Confluent
+    F: "2016-06-15"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "2017-04-15"
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "2017-04-15"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: richard!aggress.net
+    M: Richard Shaw
+    S: git
+  - E: richard!aggress.net
+    M: Richard Shaw
+    S: github
+    U: aggress
+  B: 0
+  U: Richard Shaw
 - E: rsimpson!uship.com
   R:
   - T: "2014-09-01"
@@ -22257,6 +22427,9 @@ P:
   - E: roman.shaposhnikov!globallogic.com
     M: Roman Shaposhnikov
     S: pipermail
+  - M: Roman Shaposhnik
+    S: slack
+    U: roman
   - E: roman!zededa.com
     M: Roman Shaposhnik
     S: slack
@@ -55449,6 +55622,28 @@ P:
     U: skmichaelson
   B: 0
   U: Sarah Michaelson
+- E: srn!prgmr.com
+  R:
+  - T: "2100-01-01"
+    C: Prgmr.com
+    F: "2012-11-01"
+    P: project-eve
+    R: C
+  I:
+  - E: srn!prgmr.com
+    M: Sarah Newman
+    S: git
+  - S: github
+    U: sarahn
+  - M: Sarah Newman
+    S: slack
+    U: srn
+  - E: srn!prgmr.com
+    M: Sarah Newman
+    S: slack
+    U: srn
+  B: 0
+  U: Sarah Newman
 - E: sparkle!pivotal.io
   R:
   - T: "2100-01-01"
@@ -62174,182 +62369,3 @@ P:
     U: ScottBrenner
   B: 0
   U: Scott Brenner
-- E: buettner.scott!live.com
-  R:
-  - T: "2100-01-01"
-    C: HP
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  I:
-  - E: buettner.scott!live.com
-    M: Scott Buettner
-    S: github
-    U: scottbuettner
-  B: 0
-  U: Scott Buettner
-- E: me!scottsosna.dev
-  R:
-  - T: "2100-01-01"
-    C: Individual
-    F: "2010-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  I:
-  - E: me!scottsosna.dev
-    M: Scott C Sosna
-    S: git
-  - M: Scott C Sosna
-    S: github
-    U: scsosna99
-  B: 0
-  U: Scott C Sosna
-- E: cabrinhascott!gmail.com
-  R:
-  - T: "2014-04-01"
-    C: Certified
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2014-04-01"
-    C: Certified
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-04-01"
-    C: Certified
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-04-01"
-    C: Certified
-    F: "1900-01-01"
-    P: openpolicyagent
-    R: C
-  - T: "2015-04-01"
-    C: Ultimate Internet Access
-    F: "2014-04-01"
-    P: argo
-    R: C
-  - T: "2015-04-01"
-    C: Ultimate Internet Access
-    F: "2014-04-01"
-    P: helm
-    R: C
-  - T: "2015-04-01"
-    C: Ultimate Internet Access
-    F: "2014-04-01"
-    P: k8s
-    R: C
-  - T: "2015-04-01"
-    C: Ultimate Internet Access
-    F: "2014-04-01"
-    P: openpolicyagent
-    R: C
-  - T: "2015-06-01"
-    C: Independent
-    F: "2015-04-01"
-    P: argo
-    R: C
-  - T: "2015-06-01"
-    C: Independent
-    F: "2015-04-01"
-    P: helm
-    R: C
-  - T: "2015-06-01"
-    C: Independent
-    F: "2015-04-01"
-    P: k8s
-    R: C
-  - T: "2015-06-01"
-    C: Independent
-    F: "2015-04-01"
-    P: openpolicyagent
-    R: C
-  - T: "2015-12-01"
-    C: Rackspace
-    F: "2015-06-01"
-    P: argo
-    R: C
-  - T: "2015-12-01"
-    C: Rackspace
-    F: "2015-06-01"
-    P: helm
-    R: C
-  - T: "2015-12-01"
-    C: Rackspace
-    F: "2015-06-01"
-    P: k8s
-    R: C
-  - T: "2015-12-01"
-    C: Rackspace
-    F: "2015-06-01"
-    P: openpolicyagent
-    R: C
-  - T: "2018-06-01"
-    C: Google
-    F: "2015-12-01"
-    P: argo
-    R: C
-  - T: "2018-06-01"
-    C: Google
-    F: "2015-12-01"
-    P: helm
-    R: C
-  - T: "2018-06-01"
-    C: Google
-    F: "2015-12-01"
-    P: k8s
-    R: C
-  - T: "2018-06-01"
-    C: Google
-    F: "2015-12-01"
-    P: openpolicyagent
-    R: C
-  - T: "2018-12-01"
-    C: Independent
-    F: "2018-06-01"
-    P: argo
-    R: C
-  - T: "2018-12-01"
-    C: Independent
-    F: "2018-06-01"
-    P: helm
-    R: C
-  - T: "2018-12-01"
-    C: Independent
-    F: "2018-06-01"
-    P: k8s
-    R: C
-  - T: "2018-12-01"
-    C: Independent
-    F: "2018-06-01"
-    P: openpolicyagent
-    R: C
-  - T: "2100-01-01"
-    C: GoPro
-    F: "2018-12-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: GoPro
-    F: "2018-12-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: GoPro
-    F: "2018-12-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: GoPro
-    F: "2018-12-01"
-    P: openpolicyagent
-    R: C
-  I:
-  - E: cabrinhascott!gmail.com
-    M: Scott Cabrinha
-    S: github
-    U: cabrinha
-  B: 0
-  U: Scott Cabrinha
