@@ -1,4 +1,16 @@
 P:
+- E: jenkins!smf1-fbo-33-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jenkins!smf1-fbo-33-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
 - E: jenkins!smf1-fbo-34-sr1.prod.twitter.com
   R:
   - T: "2100-01-01"
@@ -5008,6 +5020,19 @@ P:
     U: joycezhang
   B: 0
   U: joycezhang
+- E: joyjxu!tencent.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "2019-05-14"
+    P: angel
+    R: C
+  I:
+  - E: joyjxu!tencent.com
+    M: joyjxu
+    S: git
+  B: 0
+  U: joyjxu
 - R:
   - T: "2100-01-01"
     C: Inspur
@@ -61262,6 +61287,19 @@ P:
     U: shichangzhi
   B: 0
   U: shichangzhi
+- E: shichenggao!tencent.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "2020-04-08"
+    P: angel
+    R: C
+  I:
+  - E: shichenggao!tencent.com
+    M: shichenggao
+    S: git
+  B: 0
+  U: shichenggao
 - E: shidao.ytt!alibaba-inc.com
   R:
   - T: "2100-01-01"
