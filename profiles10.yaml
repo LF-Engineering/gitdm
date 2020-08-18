@@ -1,4 +1,43 @@
 P:
+- E: valarezo.jessica!gmail.com
+  R:
+  - T: "2016-05-01"
+    C: Yieldmo
+    F: "1900-01-01"
+    R: C
+  - T: "2016-05-01"
+    C: Yieldmo
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2018-03-01"
+    C: Docker, Inc.
+    F: "2016-05-01"
+    R: C
+  - T: "2018-03-01"
+    C: Docker, Inc.
+    F: "2016-05-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-03-01"
+    P: containerd
+    R: C
+  S: female
+  I:
+  - E: valarezo.jessica!gmail.com
+    M: Jess Valarezo
+    S: git
+  - E: valarezo.jessica!gmail.com
+    M: Jessica Valarezo
+    S: git
+  B: 0
+  U: Jessica Valarezo
 - E: jwagantall!linuxfoundation.org
   R:
   - T: "2100-01-01"
@@ -25102,6 +25141,11 @@ P:
   - E: john.jordan!gov.bc.ca
     M: John Jordan
     S: groupsio
+  - S: rocketchat
+    U: jljordan_bcgov
+  - M: John Jordan
+    S: rocketchat
+    U: jljordan_bcgov
   B: 0
   U: John Jordan
 - E: joycej!cisco.com
@@ -57536,6 +57580,19 @@ P:
     U: zehortigoza
   B: 0
   U: José Roberto de Souza
+- R:
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    R: C
+  I:
+  - M: Joubert Cilliers
+    S: confluence
+    U: DjCillers
+  - S: rocketchat
+    U: DjCillers
+  B: 0
+  U: Joubert Cilliers
 - C: CN
   E: admin!1stg.me
   R:
@@ -62606,307 +62663,3 @@ P:
     U: bx-julian
   B: 0
   U: Julian Mazzitelli
-- E: mazzitelli.julian!gmail.com
-  R:
-  - T: "2016-10-01"
-    C: StockRender
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2016-10-01"
-    C: StockRender
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2016-10-01"
-    C: StockRender
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-10-01"
-    C: Independent
-    F: "2016-10-01"
-    P: coredns
-    R: C
-  - T: "2019-10-01"
-    C: Independent
-    F: "2016-10-01"
-    P: fluxcd
-    R: C
-  - T: "2019-10-01"
-    C: Independent
-    F: "2016-10-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: BioBox
-    F: "2019-10-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: BioBox
-    F: "2019-10-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: BioBox
-    F: "2019-10-01"
-    P: k8s
-    R: C
-  I:
-  - E: mazzitelli.julian!gmail.com
-    M: Julian Mazzitelli
-    S: git
-  - E: mazzitelli.julian!gmail.com
-    M: Julian Mazzitelli
-    S: github
-    U: thejmazz
-  B: 0
-  U: Julian Mazzitelli
-- C: CH
-  R:
-  - T: "2014-12-01"
-    C: Independent
-    F: "1900-01-01"
-    P: dronecode
-    R: C
-  - T: "2100-01-01"
-    C: Auterion
-    F: "1900-01-01"
-    P: dronecode
-    R: C
-  - T: "2015-12-01"
-    C: Amazon
-    F: "2014-12-01"
-    P: dronecode
-    R: C
-  - T: "2016-08-01"
-    C: 3D Robotics
-    F: "2015-12-01"
-    P: dronecode
-    R: C
-  - T: "2017-02-01"
-    C: Yuneec International
-    F: "2016-08-01"
-    P: dronecode
-    R: C
-  - T: "2018-09-01"
-    C: Yuneec Software
-    F: "2017-02-01"
-    P: dronecode
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-09-01"
-    P: dronecode
-    R: C
-  - T: "2100-01-01"
-    C: Auterion
-    F: "2019-01-01"
-    P: dronecode
-    R: C
-  S: male
-  I:
-  - M: Julian Oes
-    S: github
-    U: julianoes
-  B: 0
-  U: Julian Oes
-- E: joes!student.ethz.ch
-  R:
-  - T: "2013-06-17"
-    C: Auterion
-    F: "2012-09-19"
-    P: dronecode
-    R: C
-  I:
-  - E: joes!student.ethz.ch
-    M: Julian Oes
-    S: git
-  B: 0
-  U: Julian Oes
-- E: julian!oes.ch
-  R:
-  - T: "2100-01-01"
-    C: Auterion
-    F: "2013-01-12"
-    P: dronecode
-    R: C
-  I:
-  - E: julian!oes.ch
-    M: Julian Oes
-    S: git
-  - E: julian!oes.ch
-    M: julianoes
-    S: git
-  - E: julian!oes.ch
-    M: Julian Oes
-    S: slack
-    U: julianoes
-  B: 0
-  U: Julian Oes
-- E: jparkin!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jparkin!amd.com
-    M: Julian Parkin
-    S: git
-  B: 0
-  U: Julian Parkin
-- E: julian.parkin!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: julian.parkin!amd.com
-    M: Julian Parkin
-    S: git
-  B: 0
-  U: Julian Parkin
-- C: DE
-  R:
-  - T: "2100-01-01"
-    C: LANCOM Systems
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: LANCOM Systems
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: LANCOM Systems
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - M: Julian Poschmann
-    S: github
-    U: Nonymus
-  B: 0
-  U: Julian Poschmann
-- E: julian.poschmann!lancom.de
-  R:
-  - T: "2100-01-01"
-    C: LANCOM Systems
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: julian.poschmann!lancom.de
-    M: Julian Poschmann
-    S: git
-  B: 0
-  U: Julian Poschmann
-- E: julian.reyes.romero!ericsson.com
-  R:
-  - T: "2016-10-06"
-    C: Ericsson AB
-    F: "2016-07-01"
-    P: odl
-    R: C
-  I:
-  - E: julian.reyes.romero!ericsson.com
-    M: Julian Reyes Romero
-    S: git
-  B: 0
-  U: Julian Reyes Romero
-- E: julian!jusst.de
-  R:
-  - T: "2012-10-18"
-    C: Jusst
-    F: "2012-07-01"
-    P: yocto
-    R: C
-  S: male
-  I:
-  - E: julian!jusst.de
-    M: Julian Scheel
-    S: git
-  - E: julian!jusst.de
-    M: Julian Scheel
-    S: groupsio
-  - E: julian!jusst.de
-    M: Julian Scheel
-    S: pipermail
-  B: 0
-  U: Julian Scheel
-- C: DE
-  E: jschlichtholz!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: jschlichtholz!users.noreply.github.com
-    M: Julian Schlichtholz
-    S: git
-  B: 0
-  U: Julian Schlichtholz
-- R:
-  - T: "2100-01-01"
-    C: Mapzen
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Julian Simioni
-    S: github
-    U: orangejulius
-  B: 0
-  U: Julian Simioni
-- C: US
-  E: julian!simioni.org
-  R:
-  - T: "2100-01-01"
-    C: Mapzen
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mapzen
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: julian!simioni.org
-    M: Julian Simioni
-    S: git
-  B: 0
-  U: Julian Simioni
-- R:
-  - T: "2100-01-01"
-    C: Endocode
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Endocode
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Julian Strobl
-    S: github
-    U: jmastr
-  B: 0
-  U: Julian Strobl
