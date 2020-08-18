@@ -1,5 +1,159 @@
 P:
 - C: US
+  R:
+  - T: "2017-04-01"
+    C: AcademicWorks
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-04-01"
+    C: AcademicWorks
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-04-01"
+    C: AcademicWorks
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2019-06-01"
+    C: Blackbaud
+    F: "2017-04-01"
+    P: helm
+    R: C
+  - T: "2019-06-01"
+    C: Blackbaud
+    F: "2017-04-01"
+    P: k8s
+    R: C
+  - T: "2019-06-01"
+    C: Blackbaud
+    F: "2017-04-01"
+    P: nats
+    R: C
+  - T: "2020-04-01"
+    C: Rephyr
+    F: "2019-06-01"
+    P: helm
+    R: C
+  - T: "2020-04-01"
+    C: Rephyr
+    F: "2019-06-01"
+    P: k8s
+    R: C
+  - T: "2020-04-01"
+    C: Rephyr
+    F: "2019-06-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Blackbaud
+    F: "2020-04-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Blackbaud
+    F: "2020-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Blackbaud
+    F: "2020-04-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - M: Christopher J. Bottaro
+    S: github
+    U: cjbottaro
+  B: 0
+  U: Christopher J. Bottaro
+- E: morrone2!llnl.gov
+  R:
+  - T: "2100-01-01"
+    C: Lawrence Livermore National Laboratory
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: morrone2!llnl.gov
+    M: Christopher J. Morrone
+    S: git
+  B: 0
+  U: Christopher J. Morrone
+- E: cpebenito!tresys.com
+  R:
+  - T: "2100-01-01"
+    C: Tresys
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: cpebenito!tresys.com
+    M: Christopher J. PeBenito
+    S: git
+  B: 0
+  U: Christopher J. PeBenito
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - M: Christopher J. Ruwe
+    S: github
+    U: cruwe
+  B: 0
+  U: Christopher J. Ruwe
+- E: cjr!cruwe.de
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2017-04-19"
+    C: Independent
+    F: "2017-04-04"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: cjr!cruwe.de
+    M: Christopher J. Ruwe
+    S: git
+  B: 0
+  U: Christopher J. Ruwe
+- C: AU
+  E: christopher.halse.rogers!canonical.com
+  R:
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: christopher.halse.rogers!canonical.com
+    M: Christopher James Halse Rogers
+    S: git
+  B: 0
+  U: Christopher James Halse Rogers
+- C: US
   E: tophj!linux.vnet.ibm.com
   R:
   - T: "2100-01-01"
@@ -9874,6 +10028,10 @@ P:
     S: git
   - E: colin.king!canonical.com
     M: Colin Ian King
+    S: github
+    U: ColinIanKing
+  - E: colin.king!canonical.com
+    M: Colin Ian King
     S: pipermail
   B: 0
   U: Colin Ian King
@@ -14381,6 +14539,9 @@ P:
     R: C
   S: male
   I:
+  - E: info!corinlangosch.com
+    M: Corin Langosch
+    S: git
   - E: info!corinlangosch.com
     M: Corin Langosch
     S: github
@@ -35656,6 +35817,10 @@ P:
   - E: dang!fprintf.net
     M: Daniel Gryniewicz
     S: git
+  - E: dang!fprintf.net
+    M: Daniel Gryniewicz
+    S: github
+    U: dang
   B: 0
   U: Daniel Gryniewicz
 - C: US
@@ -36315,6 +36480,9 @@ P:
   I:
   - E: helfand.4!gmail.com
     M: Daniel Helfand
+    S: git
+  - E: helfand.4!gmail.com
+    M: danielhelfand
     S: git
   - E: helfand.4!gmail.com
     M: Daniel Helfand
@@ -38519,6 +38687,10 @@ P:
   - E: daniel.lezcano!linaro.org
     M: Daniel Lezcano
     S: git
+  - E: daniel.lezcano!linaro.org
+    M: Daniel Lezcano
+    S: github
+    U: dlezcano
   B: 0
   U: Daniel Lezcano
 - E: dlezcano!fr.ibm.com
@@ -42303,6 +42475,9 @@ P:
     R: C
   S: male
   I:
+  - E: daniel!haxx.se
+    M: Daniel Stenberg
+    S: git
   - E: daniel!haxx.se
     M: Daniel Stenberg
     S: groupsio
@@ -46717,6 +46892,9 @@ P:
   I:
   - E: dardokleiner!gmail.com
     M: Dardo D Kleiner
+    S: git
+  - E: dardokleiner!gmail.com
+    M: Dardo D Kleiner
     S: github
     U: dardok
   B: 0
@@ -48106,13 +48284,9 @@ P:
   U: Darragh Bailey
 - E: daragh.bailey!gmail.com
   R:
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    R: C
   - T: "2100-01-01"
     C: HP
-    F: "2015-10-31"
+    F: "1900-01-01"
     R: C
   S: male
   I:
@@ -48120,6 +48294,9 @@ P:
     M: Darragh Bailey
     S: gerrit
     U: dbailey-k
+  - E: daragh.bailey!gmail.com
+    M: Darragh Bailey
+    S: git
   B: 0
   U: Darragh Bailey
 - E: dbailey!hpe.com
@@ -56561,6 +56738,9 @@ P:
     M: David
     S: git
   - E: chechiachang999!gmail.com
+    M: davidchang
+    S: git
+  - E: chechiachang999!gmail.com
     M: Che-Chia (David) Chang
     S: github
     U: chechiachang
@@ -58150,6 +58330,9 @@ P:
   - E: daviderickson!cs.stanford.edu
     M: David Erickson
     S: git
+  - E: derickso!stanford.edu
+    M: David Erickson
+    S: git
   - E: daviderickson!cs.stanford.edu
     M: David Erickson
     S: jira
@@ -58687,6 +58870,10 @@ P:
   - E: dgallowa!redhat.com
     M: David Galloway
     S: git
+  - E: dgallowa!redhat.com
+    M: David Galloway
+    S: github
+    U: djgalloway
   B: 0
   U: David Galloway
 - C: US
@@ -62487,174 +62674,3 @@ P:
     U: david-mcmahon
   B: 0
   U: David McMahon
-- C: US
-  E: djmm!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-03-13"
-    C: Google
-    F: "2016-01-19"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: djmm!google.com
-    M: David McMahon
-    S: git
-  B: 0
-  U: David McMahon
-- E: davemec!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2015-12-31"
-    P: besu
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  I:
-  - E: davemec!users.noreply.github.com
-    M: David Mechler
-    S: git
-  - M: David Mechler
-    S: github
-    U: davemec
-  - S: rocketchat
-    U: davemec
-  B: 0
-  U: David Mechler
-- E: dmm!1-4-5.net
-  R:
-  - T: "2016-07-01"
-    C: Brocade Communications Systems LLC
-    F: "2013-04-10"
-    P: odl
-    R: C
-  I:
-  - E: dmeyer!Brocade.com
-    M: David Meyer
-    S: pipermail
-  - E: dmm!1-4-5.net
-    M: David Meyer
-    S: pipermail
-  B: 0
-  U: David Meyer
-- R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  I:
-  - M: David Michael
-    S: github
-    U: dm0-
-  B: 0
-  U: David Michael
-- R:
-  - T: "2100-01-01"
-    C: Zeet
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: David Michael
-    S: github
-    U: hoffin
-  B: 0
-  U: David Michael
-- C: US
-  E: dave.michael!ntlworld.com
-  R:
-  - T: "2100-01-01"
-    C: Zeet
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Zeet
-    F: "2016-12-08"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: dave.michael!ntlworld.com
-    M: David Michael
-    S: git
-  B: 0
-  U: David Michael
-- C: US
-  E: david.michael!coreos.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  S: male
-  I:
-  - E: david.michael!coreos.com
-    M: David Michael
-    S: git
-  B: 0
-  U: David Michael
-- E: dmilburn!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: dmilburn!redhat.com
-    M: David Milburn
-    S: git
-  B: 0
-  U: David Milburn
-- E: davmiles!cisco.com
-  R:
-  - T: "2016-08-19"
-    C: Cisco Systems Inc.
-    F: "2016-07-01"
-    R: C
-  - T: "2016-08-19"
-    C: Cisco Systems Inc.
-    F: "2016-07-01"
-    P: opnfv
-    R: C
-  I:
-  - E: davmiles!cisco.com
-    M: David Miles (davmiles)
-    S: groupsio
-  - E: davmiles!cisco.com
-    M: David Miles davmiles
-    S: pipermail
-  B: 0
-  U: David Miles (davmiles)
-- E: davem!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: davem!redhat.com
-    M: David Miller
-    S: git
-  B: 0
-  U: David Miller

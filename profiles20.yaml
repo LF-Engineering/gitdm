@@ -1,4 +1,649 @@
 P:
+- C: DE
+  R:
+  - T: "2100-01-01"
+    C: Predic8
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Predic8
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Tobias Polley
+    S: github
+    U: rrayst
+  B: 0
+  U: Tobias Polley
+- C: DE
+  E: polley!predic8.de
+  R:
+  - T: "2100-01-01"
+    C: Predic8
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Predic8
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: polley!predic8.de
+    M: Tobias Polley
+    S: git
+  B: 0
+  U: Tobias Polley
+- C: DE
+  R:
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Tobias Schmidt
+    S: github
+    U: grobie
+  B: 0
+  U: Tobias Schmidt
+- C: DE
+  E: tobidt!gmail.com
+  R:
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: tobidt!gmail.com
+    M: Tobias Schmidt
+    S: git
+  - E: tobidt!gmail.com
+    M: Tobias Schmidt
+    S: slack
+    U: grobie
+  B: 0
+  U: Tobias Schmidt
+- C: DE
+  E: ts!soundcloud.com
+  R:
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: ts!soundcloud.com
+    M: Tobias Schmidt
+    S: git
+  B: 0
+  U: Tobias Schmidt
+- C: US
+  E: tobias.schottdorf!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "2016-08-18"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: tobias.schottdorf!gmail.com
+    M: Tobias Grieger
+    S: git
+  - E: tobias.schottdorf!gmail.com
+    M: Tobias Schottdorf
+    S: git
+  - E: tobias.schottdorf!gmail.com
+    M: Tobias Grieger
+    S: github
+    U: tbg
+  B: 0
+  U: Tobias Schottdorf
+- C: DE
+  E: tobias!phrase.com
+  R:
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: tobias!phrase.com
+    M: Tobias Schwab
+    S: github
+    U: tobstarr
+  B: 0
+  U: Tobias Schwab
+- E: tobstarr!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: tobstarr!gmail.com
+    M: Tobias Schwab
+    S: git
+  B: 0
+  U: Tobias Schwab
+- R:
+  - T: "2014-03-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2014-03-01"
+    P: fluentd
+    R: C
+  - T: "2015-04-01"
+    C: Rohde & Schwarz
+    F: "2015-03-01"
+    P: fluentd
+    R: C
+  - T: "2015-09-01"
+    C: Independent
+    F: "2015-04-01"
+    P: fluentd
+    R: C
+  - T: "2017-05-01"
+    C: Gestalt Systems
+    F: "2015-09-01"
+    P: fluentd
+    R: C
+  - T: "2019-12-01"
+    C: SpeedLedger
+    F: "2017-05-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Pagero AB
+    F: "2019-12-01"
+    P: fluentd
+    R: C
+  I:
+  - M: Tobias Sturm
+    S: github
+    U: toebbel
+  B: 0
+  U: Tobias Sturm
+- C: SE
+  R:
+  - T: "2016-05-01"
+    C: Hasselblad
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2018-12-01"
+    C: Infobric
+    F: "2016-05-01"
+    P: zep
+    R: C
+  - T: "2019-05-01"
+    C: ITAB ScanFlow AB
+    F: "2018-12-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Alvira
+    F: "2019-05-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Tobias Svehagen
+    S: github
+    U: tsvehagen
+  B: 0
+  U: Tobias Svehagen
+- C: SE
+  E: tobias.svehagen!gmail.com
+  R:
+  - T: "2016-05-01"
+    C: Hasselblad
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2018-12-01"
+    C: Infobric
+    F: "2016-05-01"
+    P: zep
+    R: C
+  - T: "2019-05-01"
+    C: ITAB ScanFlow AB
+    F: "2018-12-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Alvira
+    F: "2019-05-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: tobias.svehagen!gmail.com
+    M: Tobias Svehagen
+    S: git
+  - E: tobias.svehagen!gmail.com
+    M: Tobias Svehagen
+    S: slack
+    U: tobias.svehagen
+  B: 0
+  U: Tobias Svehagen
+- R:
+  - T: "2100-01-01"
+    C: Airbus SAS
+    F: "1900-01-01"
+    P: nats
+    R: C
+  I:
+  - M: Tobias Wellnitz
+    S: github
+    U: dh1tw
+  B: 0
+  U: Tobias Wellnitz
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: tobias.zipfel!de.ibm.com
+    S: cloudfoundry:manual
+  - M: Tobias Zipfel
+    S: cloudfoundry:manual
+  - E: tobias.zipfel!de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-96-127.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-96-232.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-96-94.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-97-122.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-97-99.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-98-13.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-98-3.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!tobiass-mbp.aag-de.ibmmobiledemo.com
+    M: Tobias Zipfel
+    S: git
+  - E: tobias.zipfel!de.ibm.com
+    M: eric-cartman
+    S: git
+  - S: github
+    U: eric-cartman
+  - E: tobias.zipfel!de.ibm.com
+    M: Tobias Zipfel
+    S: github
+    U: eric-cartman
+  - E: tobias.zipfel!de.ibm.com
+    M: Tobias Zipfel
+    S: slack
+    U: tobias.zipfel
+  B: 0
+  U: Tobias Zipfel
+- E: tobias.hunter!uk.ibm.com
+  R:
+  - T: "2017-07-22"
+    C: IBM
+    F: "2017-02-16"
+    R: C
+  I:
+  - E: tobias.hunter!uk.ibm.com
+    M: Tobias Hunter
+    S: git
+  - E: tobias.hunter!uk.ibm.com
+    M: Tobias-Hunter
+    S: git
+  B: 0
+  U: Tobias-Hunter
+- C: AU
+  E: me!tobin.cc
+  R:
+  - T: "2017-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2017-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2017-12-01"
+    C: Crowd Coded Pty
+    F: "2017-02-01"
+    P: baetyl
+    R: C
+  - T: "2017-12-01"
+    C: Crowd Coded Pty
+    F: "2017-02-01"
+    P: k8s
+    R: C
+  - T: "2017-12-01"
+    C: Crowd Coded Pty
+    F: "2017-02-01"
+    P: openebs
+    R: C
+  - T: "2018-10-01"
+    C: AppOrbit
+    F: "2017-12-01"
+    P: baetyl
+    R: C
+  - T: "2018-10-01"
+    C: AppOrbit
+    F: "2017-12-01"
+    P: k8s
+    R: C
+  - T: "2018-10-01"
+    C: AppOrbit
+    F: "2017-12-01"
+    P: openebs
+    R: C
+  - T: "2019-05-01"
+    C: Crowd Coded
+    F: "2018-10-01"
+    P: baetyl
+    R: C
+  - T: "2019-05-01"
+    C: Crowd Coded
+    F: "2018-10-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: Crowd Coded
+    F: "2018-10-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Crowd Coded Pty
+    F: "2018-10-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CoBloX
+    F: "2019-05-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CoBloX
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CoBloX
+    F: "2019-05-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - E: me!tobin.cc
+    M: Tobin C Harding
+    S: git
+  - E: me!tobin.cc
+    M: Tobin C. Harding
+    S: git
+  - E: me!tobin.cc
+    M: Tobin Harding
+    S: git
+  - E: me!tobin.cc
+    M: tcharding
+    S: git
+  - E: me!tobin.cc
+    M: Tobin C. Harding
+    S: github
+    U: tcharding
+  - E: me!tobin.cc
+    M: Tobin Harding
+    S: github
+    U: tcharding
+  B: 0
+  U: Tobin C Harding
+- E: tobinx.b.davis!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: tobinx.b.davis!intel.com
+    M: Tobin Davis
+    S: git
+  B: 0
+  U: Tobin Davis
+- C: AU
+  E: tobio85!gmail.com
+  R:
+  - T: "2015-05-01"
+    C: Campaign Monitor
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Independent
+    F: "2015-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Heap
+    F: "2015-10-01"
+    R: C
+  S: male
+  I:
+  - E: tobio85!gmail.com
+    M: Toby Brain
+    S: git
+  B: 0
+  U: Toby Brain
 - C: IN
   R:
   - T: "2014-10-01"
@@ -1723,6 +2368,10 @@ P:
   - E: tom.barbette!ulg.ac.be
     M: Tom Barbette
     S: git
+  - E: barbette!kth.se
+    M: Tom Barbette
+    S: github
+    U: tbarbette
   - E: barbette!kth.se
     M: Tom Barbette
     S: pipermail
@@ -8553,6 +9202,9 @@ P:
   I:
   - E: t!gorochowik.com
     M: Tomasz Gorochowik
+    S: git
+  - E: t!gorochowik.com
+    M: Tomasz Gorochowik
     S: github
     U: tgorochowik
   - E: t!gorochowik.com
@@ -11890,6 +12542,9 @@ P:
   I:
   - E: tone.zhang!arm.com
     M: Tone Zhang
+    S: git
+  - E: tone.zhang!arm.com
+    M: tone-zhang
     S: git
   - E: tone.zhang!arm.com
     M: tone.zhang
@@ -18434,6 +19089,9 @@ P:
   - E: trhoden!redhat.com
     M: Travis Rhoden
     S: git
+  - E: “trhoden!redhat.com”
+    M: Travis Rhoden
+    S: git
   B: 0
   U: Travis Rhoden
 - C: US
@@ -19026,6 +19684,9 @@ P:
     R: C
   S: male
   I:
+  - E: tseaver!palladion.com
+    M: Tres Seaver
+    S: git
   - E: tseaver!palladion.com
     M: Tres Seaver
     S: github
@@ -23816,21 +24477,6 @@ P:
   B: 0
   U: Tyler Baicar
 - C: US
-  E: tyler.baker!linaro.org
-  R:
-  - T: "2017-08-25"
-    C: Linaro Limited
-    F: "2016-09-06"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: tyler.baker!linaro.org
-    M: Tyler Baker
-    S: git
-  B: 0
-  U: Tyler Baker
-- C: US
   R:
   - T: "2017-06-01"
     C: New Relic
@@ -26378,6 +27024,10 @@ P:
   - E: drepper!gmail.com
     M: Ulrich Drepper
     S: git
+  - E: drepper!gmail.com
+    M: Ulrich Drepper
+    S: github
+    U: drepper
   B: 0
   U: Ulrich Drepper
 - E: drepper!redhat.com
@@ -34909,6 +35559,10 @@ P:
     S: git
   - E: vasilyf!mellanox.com
     M: Vasily Philipov
+    S: github
+    U: vasilyMellanox
+  - E: vasilyf!mellanox.com
+    M: Vasily Philipov
     S: pipermail
   B: 0
   U: Vasily Philipov
@@ -37259,6 +37913,10 @@ P:
   - E: vshankar!redhat.com
     M: Venky Shankar
     S: git
+  - E: vshankar!redhat.com
+    M: Venky Shankar
+    S: github
+    U: vshankar
   B: 0
   U: Venky Shankar
 - E: valmeida!csc.com
@@ -45546,6 +46204,9 @@ P:
   I:
   - E: vtejankar!criterionnetworks.com
     M: Vinayak Tejankar
+    S: git
+  - E: vtejankar!criterionnetworks.com
+    M: Vinayak Tejankar
     S: groupsio
   - E: vtejankar!criterionnetworks.com
     M: Vinayak Tejankar
@@ -53201,6 +53862,10 @@ P:
   - E: vitja.makarov!gmail.com
     M: Vitja Makarov
     S: git
+  - E: vitja.makarov!gmail.com
+    M: Vitja Makarov
+    S: github
+    U: vitek
   B: 0
   U: Vitja Makarov
 - C: RU
@@ -57946,6 +58611,10 @@ P:
     S: git
   - E: vuhuong!mellanox.com
     M: Vu Pham
+    S: github
+    U: vuhuong
+  - E: vuhuong!mellanox.com
+    M: Vu Pham
     S: pipermail
   - E: vuhuoong!mellanox.com
     M: Vu Pham
@@ -60799,659 +61468,3 @@ P:
     S: pipermail
   B: 0
   U: Wang Xin
-- C: CN
-  E: xin.wang!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-03-07"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: xin.wang!intel.com
-    M: Wang Xin
-    S: github
-    U: xwang98
-  B: 0
-  U: Wang Xin
-- E: xin.wang7!cn.bosch.com
-  R:
-  - T: "2100-01-01"
-    C: Bosch
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: xin.wang7!cn.bosch.com
-    M: Wang Xin
-    S: git
-  B: 0
-  U: Wang Xin
-- C: CN
-  E: hzwangxing!corp.netease.com
-  R:
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "2016-07-22"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: hzwangxing!corp.netease.com
-    M: Wang Xing
-    S: git
-  B: 0
-  U: Wang Xing
-- R:
-  - T: "2019-06-01"
-    C: BroadBand Tower
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: beBit
-    F: "2019-06-01"
-    P: k8s
-    R: C
-  I:
-  - M: Wang(わん)
-    S: github
-    U: ptux
-  B: 0
-  U: Wang(わん)
-- C: JP
-  E: ooocamel!icloud.com
-  R:
-  - T: "2100-01-01"
-    C: Apple
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ooocamel!icloud.com
-    M: Wang(わん)
-    S: git
-  - E: ooocamel!icloud.com
-    M: Wang(わん)
-    S: github
-    U: ptux
-  B: 0
-  U: Wang(わん)
-- E: dong1.wang!intel.com
-  R:
-  - T: "2018-11-15"
-    C: Intel Corporation
-    F: "2018-07-26"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2018-11-15"
-    C: Intel Corporation
-    F: "2018-07-26"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: dong1.wang!intel.com
-    M: Wang, Dong1
-    S: pipermail
-  B: 0
-  U: Wang, Dong1
-- E: feix.w.wang!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2016-02-19"
-    P: yocto
-    R: C
-  I:
-  - E: feix.w.wang!intel.com
-    M: Wang, FeiX W
-    S: groupsio
-  - E: feix.w.wang!intel.com
-    M: Wang, FeiX W
-    S: pipermail
-  B: 0
-  U: Wang, FeiX W
-- E: fengqinx.wang!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-08-30"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-08-30"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: fengqinx.wang!intel.com
-    M: Wang, FengqinX
-    S: pipermail
-  B: 0
-  U: Wang, FengqinX
-- E: hai.tao.wang!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1901-01-01"
-    P: akraino
-    R: C
-  I:
-  - E: hai.tao.wang!intel.com
-    M: Wang, Hai Tao
-    S: groupsio
-  B: 0
-  U: Wang, Hai Tao
-- E: Houwei.WANG!us.fujitsu.com
-  R:
-  - T: "2016-04-16"
-    C: Fujitsu
-    F: "2016-03-11"
-    P: odl
-    R: C
-  I:
-  - E: Houwei.WANG!us.fujitsu.com
-    M: Wang, Houwei
-    S: pipermail
-  B: 0
-  U: Wang, Houwei
-- E: qing.w.wang!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-02-21"
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-02-21"
-    P: opnfv
-    R: C
-  I:
-  - E: qing.w.wang!intel.com
-    M: Wang, Qing W
-    S: groupsio
-  B: 0
-  U: Wang, Qing W
-- E: shane.wang!intel.com
-  R:
-  - T: "2013-10-04"
-    C: Intel Corporation
-    F: "2011-05-08"
-    P: yocto
-    R: C
-  - T: "2018-09-07"
-    C: Intel Corporation
-    F: "2017-07-04"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-07-14"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-08-27"
-    P: akraino
-    R: C
-  I:
-  - E: shane.wang!intel.com
-    S: bugzilla
-    U: shane.wang
-  - M: Shane Wang
-    S: bugzilla
-    U: shane.wang
-  - E: shane.wang!intel.com
-    M: Shane Wang
-    S: bugzilla
-    U: shane.wang
-  - M: Shane Wang
-    S: confluence
-    U: Shane Wang
-  - M: Shane Wang
-    S: confluence
-    U: shanewang
-  - E: shane.wang!intel.com
-    M: Shane Wang
-    S: confluence
-    U: shanewang
-  - E: shane.wang!intel.com
-    M: Shane Wang
-    S: gerrit
-    U: shanewang
-  - E: shane.wang!intel.com
-    M: Shane Wang
-    S: git
-  - E: shane.wang!intel.com
-    M: Shane Wang
-    S: groupsio
-  - E: shane.wang!intel.com
-    M: Wang, Shane
-    S: groupsio
-  - E: shane.wang!intel.com
-    M: Shane Wang
-    S: jira
-    U: shanewang
-  - E: shane.wang!intel.com
-    M: Shane Wang
-    S: pipermail
-  - E: shane.wang!intel.com
-    M: Wang, Shane
-    S: pipermail
-  B: 0
-  U: Wang, Shane
-- E: xingbow!amazon.com
-  R:
-  - T: "2014-11-19"
-    C: Amazon.com, Inc.
-    F: "2013-11-01"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2014-11-19"
-    C: Amazon.com, Inc.
-    F: "2013-11-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: xingbow!amazon.com
-    M: Wang, Shawn
-    S: pipermail
-  B: 0
-  U: Wang, Shawn
-- E: Xuesong.Wang!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River Systems, Inc.
-    F: "2016-05-16"
-    R: C
-  - T: "2100-01-01"
-    C: Wind River Systems, Inc.
-    F: "2016-05-16"
-    P: opnfv
-    R: C
-  I:
-  - E: Xuesong.Wang!windriver.com
-    M: Wang, Xuesong
-    S: gmane
-  - E: Xuesong.Wang!windriver.com
-    M: Wang, Xuesong
-    S: groupsio
-  - E: Xuesong.Wang!windriver.com
-    M: Wang, Xuesong
-    S: mbox
-  - E: Xuesong.Wang!windriver.com
-    M: Wang, Xuesong
-    S: pipermail
-  B: 0
-  U: Wang, Xuesong
-- E: yalei.wang!intel.com
-  R:
-  - T: "2016-04-15"
-    C: Intel Corporation
-    F: "2016-04-12"
-    P: odl
-    R: C
-  I:
-  - E: yalei.wang!intel.com
-    M: Wang, Yalei
-    S: pipermail
-  B: 0
-  U: Wang, Yalei
-- E: yang.y.wang!intel.com
-  R:
-  - T: "2017-08-19"
-    C: Intel Corporation
-    F: "2013-12-03"
-    P: yocto
-    R: C
-  I:
-  - E: yang.y.wang!intel.com
-    M: Wang, Yang Y
-    S: groupsio
-  - E: yang.y.wang!intel.com
-    M: Wang, Yang Y
-    S: pipermail
-  B: 0
-  U: Wang, Yang Y
-- E: yingyicw!ad4.ad.alcatel.com
-  R:
-  - T: "2017-09-23"
-    C: Alcatel
-    F: "2017-07-01"
-    R: C
-  - T: "2017-09-23"
-    C: Alcatel
-    F: "2017-07-01"
-    P: onap
-    R: C
-  I:
-  - E: yingyicw!ad4.ad.alcatel.com
-    M: Wang
-    S: gerrit
-  - E: yingyicw!ad4.ad.alcatel.com
-    M: Wang
-    S: gerrit
-  - E: yingyicw!ad4.ad.alcatel.com
-    M: Wang
-    S: git
-  B: 0
-  U: Wang
-- E: box.b.wang!intel.com
-  R:
-  - T: "2015-10-15"
-    C: Intel Corporation
-    F: "2015-04-01"
-    P: yocto
-    R: C
-  I:
-  - E: box.b.wang!intel.com
-    M: WangBo
-    S: git
-  B: 0
-  U: WangBo
-- E: hailiangx.e.wang!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: hailiangx.e.wang!intel.com
-    M: WangHaiLiang
-    S: git
-  B: 0
-  U: WangHaiLiang
-- C: CN
-  E: wx347249478!gmail.com
-  R:
-  - T: "2014-11-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2014-11-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/chaosmesh
-    R: C
-  - T: "2014-11-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: tikv
-    R: C
-  - T: "2015-09-01"
-    C: Baidu
-    F: "2014-11-01"
-    R: C
-  - T: "2015-09-01"
-    C: Baidu
-    F: "2014-11-01"
-    P: cncf/chaosmesh
-    R: C
-  - T: "2015-09-01"
-    C: Baidu
-    F: "2014-11-01"
-    P: tikv
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-09-01"
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-09-01"
-    P: cncf/chaosmesh
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-09-01"
-    P: tikv
-    R: C
-  - T: "2017-09-01"
-    C: NetEase Games
-    F: "2016-01-01"
-    R: C
-  - T: "2017-09-01"
-    C: NetEase Games
-    F: "2016-01-01"
-    P: cncf/chaosmesh
-    R: C
-  - T: "2017-09-01"
-    C: NetEase Games
-    F: "2016-01-01"
-    P: tikv
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "2017-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "2017-09-01"
-    P: cncf/chaosmesh
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "2017-09-01"
-    P: tikv
-    R: C
-  S: male
-  I:
-  - E: wx347249478!gmail.com
-    M: WangXiangUSTC
-    S: git
-  - E: wx347249478!gmail.com
-    S: github
-    U: WangXiangUSTC
-  B: 0
-  U: WangXiangUSTC
-- C: US
-  R:
-  - T: "2014-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    R: C
-  - T: "2014-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2017-08-01"
-    C: Akamai Technologies, Inc.
-    F: "2014-10-01"
-    R: C
-  - T: "2017-08-01"
-    C: Akamai Technologies, Inc.
-    F: "2014-10-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Kong
-    F: "2017-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Kong
-    F: "2017-08-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - M: Wangchong Zhou
-    S: github
-    U: fffonion
-  B: 0
-  U: Wangchong Zhou
-- C: US
-  E: fffonion!gmail.com
-  R:
-  - T: "2014-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2014-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: yocto
-    R: C
-  - T: "2017-08-01"
-    C: Akamai Technologies, Inc.
-    F: "2014-10-01"
-    P: prometheus
-    R: C
-  - T: "2017-08-01"
-    C: Akamai Technologies, Inc.
-    F: "2014-10-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: Kong
-    F: "2017-08-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Kong
-    F: "2017-08-01"
-    P: yocto
-    R: C
-  S: male
-  I:
-  - E: fffonion!gmail.com
-    M: Wangchong Zhou
-    S: git
-  - E: fffonion!gmail.com
-    M: Wangchong Zhou
-    S: groupsio
-  - E: fffonion!gmail.com
-    M: Wangchong Zhou
-    S: pipermail
-  B: 0
-  U: Wangchong Zhou
-- E: wtan!cloudera.com
-  R:
-  - T: "2011-08-01"
-    C: Alibaba.com
-    F: "2010-03-01"
-    P: angel
-    R: C
-  - T: "2014-03-01"
-    C: Pivotal Software, Inc.
-    F: "2011-08-01"
-    P: angel
-    R: C
-  - T: "2019-01-01"
-    C: Hortonworks, Inc. ( acquired by Cloudera)
-    F: "2014-04-01"
-    P: angel
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2015-12-01"
-    P: angel
-    R: C
-  - T: "2100-01-01"
-    C: Cloudera Inc.
-    F: "2019-01-01"
-    P: angel
-    R: C
-  I:
-  - E: wtan!cloudera.com
-    M: Wangda Tan
-    S: groupsio
-  B: 0
-  U: Wangda Tan
-- E: sivan.wang!huawei.com
-  R:
-  - T: "2012-04-10"
-    C: Huawei Technologies Co., Ltd.
-    F: "2012-03-22"
-    P: yocto
-    R: C
-  I:
-  - E: sivan.wang!huawei.com
-    M: Wangdawei (Sivan)
-    S: groupsio
-  - E: sivan.wang!huawei.com
-    M: Wangdawei Sivan
-    S: pipermail
-  B: 0
-  U: Wangdawei Sivan
-- E: kyle.wangdawei!huawei.com
-  R:
-  - T: "2012-09-06"
-    C: Huawei Technologies Co., Ltd.
-    F: "2012-07-27"
-    P: yocto
-    R: C
-  I:
-  - E: kyle.wangdawei!huawei.com
-    M: Wangdawei
-    S: groupsio
-  - E: kyle.wangdawei!huawei.com
-    M: Wangdawei
-    S: pipermail
-  B: 0
-  U: Wangdawei
-- E: wangjianxia!huawei.com
-  R:
-  - T: "2014-09-18"
-    C: Huawei Technologies Co., Ltd.
-    F: "2014-03-21"
-    P: odl
-    R: C
-  I:
-  - E: wangjianxia!huawei.com
-    M: Wangjianxia shanghai
-    S: pipermail
-  B: 0
-  U: Wangjianxia shanghai
-- E: leowang.wanglei!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2018-02-16"
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2018-02-16"
-    P: opnfv
-    R: C
-  I:
-  - E: leowang.wanglei!huawei.com
-    M: Wanglei (Leo, CCN)
-    S: groupsio
-  B: 0
-  U: Wanglei (Leo, CCN)
-- E: cloud.wangxiaoyun!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-08-26"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-08-26"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-10-10"
-    P: dpdk-next
-    R: C
-  I:
-  - E: cloud.wangxiaoyun!huawei.com
-    M: Xiaoyun Wang
-    S: git
-  - E: cloud.wangxiaoyun!huawei.com
-    M: Wangxiaoyun Cloud, Network Chip Application Development Dept
-    S: pipermail
-  - E: cloud.wangxiaoyun!huawei.com
-    M: Xiaoyun Wang
-    S: pipermail
-  B: 0
-  U: Wangxiaoyun Cloud, Network Chip Application Development Dept
