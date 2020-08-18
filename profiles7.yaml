@@ -1,4 +1,249 @@
 P:
+- C: US
+  E: elee!github.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: spiffe
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: spire
+    R: C
+  S: male
+  I:
+  - E: elee!github.com
+    M: Eric Lee
+    S: git
+  - E: elee!github.com
+    M: Eric Lee
+    S: slack
+    U: elee
+  B: 0
+  U: Eric Lee
+- C: US
+  E: eclesh!gmail.com
+  R:
+  - T: "2017-05-01"
+    C: Tinder
+    F: "1900-01-01"
+    R: C
+  - T: "2017-05-01"
+    C: Tinder
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Goat Sneaker Marketplace
+    F: "2017-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Goat Sneaker Marketplace
+    F: "2017-05-01"
+    P: envoy
+    R: C
+  S: male
+  I:
+  - E: eclesh!gmail.com
+    M: Eric Lesh
+    S: github
+    U: eclesh
+  B: 0
+  U: Eric Lesh
+- C: US
+  E: eric.lesh!goat.com
+  R:
+  - T: "2017-05-01"
+    C: Tinder
+    F: "1900-01-01"
+    R: C
+  - T: "2017-05-01"
+    C: Tinder
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Goat Sneaker Marketplace
+    F: "2017-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Goat Sneaker Marketplace
+    F: "2017-05-01"
+    P: envoy
+    R: C
+  S: male
+  I:
+  - E: eric.lesh!goat.com
+    M: Eric Lesh
+    S: git
+  B: 0
+  U: Eric Lesh
+- C: US
+  E: eric.andrew.lewis!gmail.com
+  R:
+  - T: "2017-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    R: C
+  - T: "2017-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2017-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-01-01"
+    C: Codecademy
+    F: "2017-01-01"
+    R: C
+  - T: "2018-01-01"
+    C: Codecademy
+    F: "2017-01-01"
+    P: etcd
+    R: C
+  - T: "2018-01-01"
+    C: Codecademy
+    F: "2017-01-01"
+    P: k8s
+    R: C
+  - T: "2018-10-01"
+    C: General Assembly
+    F: "2018-01-01"
+    R: C
+  - T: "2018-10-01"
+    C: General Assembly
+    F: "2018-01-01"
+    P: etcd
+    R: C
+  - T: "2018-10-01"
+    C: General Assembly
+    F: "2018-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-10-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-10-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: eric.andrew.lewis!gmail.com
+    M: Eric Lewis
+    S: github
+    U: ericandrewlewis
+  B: 0
+  U: Eric Lewis
+- E: elin!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: elin!twitter.com
+    M: Eric Lin
+    S: git
+  B: 0
+  U: Eric Lin
+- E: line.eric!gmail.com
+  R:
+  - T: "2015-06-01"
+    C: Bazinga
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-06-01"
+    C: Bazinga
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-05-01"
+    C: LePort Schools
+    F: "2015-06-01"
+    P: fluentd
+    R: C
+  - T: "2016-05-01"
+    C: LePort Schools
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Wiivv
+    F: "2016-05-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Wiivv
+    F: "2016-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: line.eric!gmail.com
+    M: Eric Lin
+    S: github
+    U: ericln
+  B: 0
+  U: Eric Lin
+- R:
+  - T: "2100-01-01"
+    C: SavaNet
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SavaNet
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: confluence
+    U: eric.linder
+  B: 0
+  U: Eric Linder
+- E: eric.long!spreadtrum.com
+  R:
+  - T: "2016-02-01"
+    C: Spreadtrum
+    F: "1900-01-01"
+    R: C
+  - T: "2017-10-01"
+    C: Intel Corporation
+    F: "2016-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Northern light
+    F: "2017-10-01"
+    R: C
+  S: male
+  I:
+  - E: eric.long!spreadtrum.com
+    M: Eric Long
+    S: git
+  B: 0
+  U: Eric Long
 - E: elordahl!vt.edu
   R:
   - T: "2100-01-01"
@@ -5193,6 +5438,9 @@ P:
   I:
   - E: frodopwns!gmail.com
     M: Erin Corson
+    S: git
+  - E: frodopwns!gmail.com
+    M: Erin Corson
     S: github
     U: frodopwns
   B: 0
@@ -6276,6 +6524,10 @@ P:
   - E: me!errancarey.com
     M: Erran Carey
     S: git
+  - E: me!errancarey.com
+    M: Erran Carey
+    S: github
+    U: erran
   B: 0
   U: Erran Carey
 - E: erwan.duval!nokia.com
@@ -6905,6 +7157,10 @@ P:
   - E: esteve!apache.org
     M: Esteve Fernandez
     S: bugzilla
+    U: esteve
+  - E: esteve!apache.org
+    M: Esteve Fernandez
+    S: github
     U: esteve
   B: 0
   U: Esteve Fernandez
@@ -13295,6 +13551,9 @@ P:
   I:
   - E: eyalb!jfrog.com
     M: Eyal Ben Moshe
+    S: git
+  - E: eyalb!jfrog.com
+    M: Eyal Ben Moshe
     S: github
     U: eyalbe4
   B: 0
@@ -15118,6 +15377,9 @@ P:
     P: cri-o
     R: C
   I:
+  - E: fabiano!fidencio.org
+    M: Fabiano Fidêncio
+    S: git
   - E: fabiano!fidencio.org
     M: Fabiano Fidêncio
     S: github
@@ -27735,6 +27997,9 @@ P:
   I:
   - E: dren.dk!gmail.com
     M: Flemming Frandsen
+    S: git
+  - E: dren.dk!gmail.com
+    M: Flemming Frandsen
     S: github
     U: dren-dk
   B: 0
@@ -29897,6 +30162,9 @@ P:
   S: male
   I:
   - E: florinpatan!gmail.com
+    M: Florin Patan
+    S: git
+  - E: florinpatan!gmail.com
     M: Florin Pățan
     S: github
     U: dlsniper
@@ -31381,6 +31649,12 @@ P:
     R: C
   S: male
   I:
+  - E: francisu!gmail.com
+    M: Francis Upton IV
+    S: git
+  - E: francisu!gmail.com
+    M: Francis Upton
+    S: git
   - E: francisu!gmail.com
     M: Francis Upton IV
     S: github
@@ -36709,6 +36983,9 @@ P:
     R: C
   S: male
   I:
+  - E: free!ekanayaka.io
+    M: Free Ekanayaka
+    S: git
   - E: free!ekanayaka.io
     M: Free Ekanayaka
     S: github
@@ -43750,6 +44027,7 @@ P:
   B: 0
   U: Gareth Clay
 - C: GB
+  E: Gareth.Evans!monitise.com
   R:
   - T: "2014-11-01"
     C: Monitise plc is Fiserv
@@ -43773,6 +44051,9 @@ P:
     R: C
   S: male
   I:
+  - E: Gareth.Evans!monitise.com
+    M: Gareth Evans
+    S: git
   - M: Gareth Evans
     S: github
     U: garethjevans
@@ -48609,6 +48890,9 @@ P:
   I:
   - E: gema.gomez-solano!linaro.org
     M: Gema Gomez
+    S: git
+  - E: gema.gomez-solano!linaro.org
+    M: Gema Gomez
     S: pipermail
   B: 0
   U: Gema Gomez
@@ -53355,6 +53639,9 @@ P:
     R: C
   S: male
   I:
+  - E: github!aschemann.net
+    M: Gerd Aschemann
+    S: git
   - E: github!aschemann.net
     M: Gerd Aschemann
     S: github
@@ -60880,6 +61167,10 @@ P:
   - E: gotcha!bubblenet.be
     M: Godefroid Chapelle
     S: git
+  - E: gotcha!bubblenet.be
+    M: Godefroid Chapelle
+    S: github
+    U: gotcha
   B: 0
   U: Godefroid Chapelle
 - E: 1250394994!qq.com
@@ -61162,6 +61453,9 @@ P:
     P: helm
     R: C
   I:
+  - E: topikachu!163.com
+    M: Gong Yi
+    S: git
   - E: topikachu!163.com
     M: GongYi
     S: git
@@ -61802,308 +62096,3 @@ P:
     S: pipermail
   B: 0
   U: Gordon Kelly
-- E: Gordon.Olson!amdocs.com
-  R:
-  - T: "2018-09-19"
-    C: Amdocs
-    F: "2017-11-14"
-    R: C
-  - T: "2018-09-19"
-    C: Amdocs
-    F: "2017-11-14"
-    P: onap
-    R: C
-  I:
-  - E: Gordon.Olson!amdocs.com
-    M: Gordon Olson
-    S: gerrit
-    U: GordonOlson
-  - M: Gordon Olson
-    S: jira
-    U: GordonOlson
-  - E: Gordon.Olson!amdocs.com
-    M: Gordon Olson
-    S: jira
-    U: GordonOlson
-  B: 0
-  U: Gordon Olson
-- E: gshannon!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: gshannon!twitter.com
-    M: Gordon Shannon
-    S: git
-  B: 0
-  U: Gordon Shannon
-- R:
-  - T: "2100-01-01"
-    C: CircleCI
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: CircleCI
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - M: Gordon Syme
-    S: github
-    U: gordonsyme
-  B: 0
-  U: Gordon Syme
-- E: gordonsyme!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: CircleCI
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: CircleCI
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - E: gordonsyme!users.noreply.github.com
-    M: Gordon Syme
-    S: git
-  B: 0
-  U: Gordon Syme
-- E: gordon.warrack!amdocs.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2017-08-04"
-    R: C
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2017-08-04"
-    P: onap
-    R: C
-  I:
-  - M: Gordon Warrack
-    S: confluence
-    U: gwarrack
-  - M: Gordon Warrack
-    S: jira
-    U: gwarrack
-  - E: gordon.warrack!amdocs.com
-    M: Gordon Warrack
-    S: jira
-    U: gwarrack
-  B: 0
-  U: Gordon Warrack
-- E: zhanggor!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-07-06"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: zhanggor!us.ibm.com
-    M: Gordon Zhang
-    S: slack
-    U: zhanggor
-  B: 0
-  U: Gordon Zhang
-- C: ES
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Gorka Eguileor
-    S: github
-    U: Akrog
-  B: 0
-  U: Gorka Eguileor
-- C: ES
-  E: geguileo!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-08-12"
-    C: Red Hat Inc.
-    F: "2015-07-17"
-    P: stackstorm
-    R: C
-  S: male
-  I:
-  - E: geguileo!redhat.com
-    M: Gorka Eguileor
-    S: git
-  B: 0
-  U: Gorka Eguileor
-- C: ES
-  E: gorka!eguileor.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: gorka!eguileor.com
-    M: Gorka Eguileor
-    S: git
-  B: 0
-  U: Gorka Eguileor
-- E: ggarcia!marvell.com
-  R:
-  - T: "2018-12-13"
-    C: Marvell
-    F: "1901-01-01"
-    P: fdio
-    R: C
-  - T: "2019-02-06"
-    C: Marvell
-    F: "1901-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2019-06-14"
-    C: Marvell
-    F: "1901-01-01"
-    P: project-eve
-    R: C
-  I:
-  - E: Gorka.Garcia!cavium.com
-    M: Gorka Garcia
-    S: gerrit
-    U: gorkagarcia
-  - M: Gorka Garcia
-    S: github
-    U: garciagorka
-  - E: ggarcia!marvell.com
-    M: Gorka Garcia
-    S: groupsio
-  - E: gorka.garcia!cavium.com
-    M: Gorka Garcia
-    S: groupsio
-  B: 0
-  U: Gorka Garcia
-- R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Gorka Lerchundi Osa
-    S: github
-    U: glerchundi
-  B: 0
-  U: Gorka Lerchundi Osa
-- E: glertxundi!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: glertxundi!gmail.com
-    M: Gorka Lerchundi Osa
-    S: git
-  - E: glertxundi!gmail.com
-    M: Gorka Lerchundi Osa
-    S: slack
-    U: glertxundi
-  B: 0
-  U: Gorka Lerchundi Osa
-- E: gosia.bakota!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-05-28"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-05-28"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-06-12"
-    P: dpdk-next
-    R: C
-  I:
-  - E: gosia.bakota!intel.com
-    M: Gosia Bakota
-    S: git
-  - E: gosia.bakota!intel.com
-    M: Gosia Bakota
-    S: pipermail
-  B: 0
-  U: Gosia Bakota

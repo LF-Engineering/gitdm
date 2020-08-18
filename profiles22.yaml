@@ -1,4 +1,117 @@
 P:
+- C: HU
+  E: zoltan.reegn!gmail.com
+  R:
+  - T: "2014-07-01"
+    C: AdNovum
+    F: "1900-01-01"
+    R: C
+  - T: "2014-07-01"
+    C: AdNovum
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2014-07-01"
+    C: AdNovum
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-05-01"
+    C: Morgan Stanley
+    F: "2014-07-01"
+    R: C
+  - T: "2015-05-01"
+    C: Morgan Stanley
+    F: "2014-07-01"
+    P: argo
+    R: C
+  - T: "2015-05-01"
+    C: Morgan Stanley
+    F: "2014-07-01"
+    P: k8s
+    R: C
+  - T: "2016-02-01"
+    C: BlackBelt
+    F: "2015-05-01"
+    R: C
+  - T: "2016-02-01"
+    C: BlackBelt
+    F: "2015-05-01"
+    P: argo
+    R: C
+  - T: "2016-02-01"
+    C: BlackBelt
+    F: "2015-05-01"
+    P: k8s
+    R: C
+  - T: "2019-01-01"
+    C: AdNovum
+    F: "2016-02-01"
+    R: C
+  - T: "2019-01-01"
+    C: AdNovum
+    F: "2016-02-01"
+    P: argo
+    R: C
+  - T: "2019-01-01"
+    C: AdNovum
+    F: "2016-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CloudStorm
+    F: "2019-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: CloudStorm
+    F: "2019-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: CloudStorm
+    F: "2019-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: zoltan.reegn!gmail.com
+    M: Zoltán Reegn
+    S: git
+  B: 0
+  U: Zoltán Reegn
+- C: TW
+  E: zongbox!gmail.com
+  R:
+  - T: "2016-08-01"
+    C: Advantech
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Updates
+    F: "2016-08-01"
+    R: C
+  S: male
+  I:
+  - E: zongbox!gmail.com
+    M: Zong Li
+    S: git
+  - E: zongbox!gmail.com
+    M: zongbox
+    S: git
+  B: 0
+  U: Zong Li
+- E: kevin_yang!realtek.com
+  R:
+  - T: "2100-01-01"
+    C: Realtek
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: kevin_yang!realtek.com
+    M: Zong-Zhe Yang
+    S: git
+  B: 0
+  U: Zong-Zhe Yang
 - E: zongchun.yu!nxp.com
   R:
   - T: "2100-01-01"
@@ -3200,6 +3313,9 @@ P:
   I:
   - E: adrien.pailhes!adioss.fr
     M: adioss
+    S: git
+  - E: adrien.pailhes!adioss.fr
+    M: adrien pailhes
     S: git
   - E: adrien.pailhes!adioss.fr
     M: adrien pailhes
@@ -11636,24 +11752,6 @@ P:
   I:
   - S: github
     U: arthurvanduynhoven
-  B: 0
-  U: arthurvanduynhoven
-- E: arthur.vanduynhoven!irdeto.com
-  R:
-  - T: "2100-01-01"
-    C: Irdeto
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Irdeto
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: arthur.vanduynhoven!irdeto.com
-    M: arthurvanduynhoven
-    S: git
   B: 0
   U: arthurvanduynhoven
 - E: artur.kryczka!accenture.com
@@ -22662,6 +22760,12 @@ P:
     M: chao zhang
     S: bugzilla
     U: chao.b.zhang
+  - E: chao.b.zhang!intel.com
+    M: Chao Zhang
+    S: git
+  - E: chao.b.zhang!intel.com
+    M: Chao, Zhang
+    S: git
   B: 0
   U: chao zhang
 - R:
@@ -27217,6 +27321,9 @@ P:
     P: k8s
     R: C
   I:
+  - E: corinnekrych!gmail.com
+    M: Corinne Krych
+    S: git
   - E: corinnekrych!gmail.com
     M: corinnekrych
     S: git
@@ -63035,90 +63142,6 @@ P:
     R: C
   I:
   - E: jenkins!smf1-drl-31-sr1.prod.twitter.com
-    M: jenkins
-    S: git
-  B: 0
-  U: jenkins
-- E: jenkins!smf1-drl-32-sr1.prod.twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jenkins!smf1-drl-32-sr1.prod.twitter.com
-    M: jenkins
-    S: git
-  B: 0
-  U: jenkins
-- E: jenkins!smf1-drl-33-sr1.prod.twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jenkins!smf1-drl-33-sr1.prod.twitter.com
-    M: jenkins
-    S: git
-  B: 0
-  U: jenkins
-- E: jenkins!smf1-drl-34-sr1.prod.twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jenkins!smf1-drl-34-sr1.prod.twitter.com
-    M: jenkins
-    S: git
-  B: 0
-  U: jenkins
-- E: jenkins!smf1-drl-35-sr1.prod.twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jenkins!smf1-drl-35-sr1.prod.twitter.com
-    M: jenkins
-    S: git
-  B: 0
-  U: jenkins
-- E: jenkins!smf1-drl-36-sr1.prod.twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jenkins!smf1-drl-36-sr1.prod.twitter.com
-    M: jenkins
-    S: git
-  B: 0
-  U: jenkins
-- E: jenkins!smf1-drl-37-sr1.prod.twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jenkins!smf1-drl-37-sr1.prod.twitter.com
-    M: jenkins
-    S: git
-  B: 0
-  U: jenkins
-- E: jenkins!smf1-ees-20-sr1.prod.twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jenkins!smf1-ees-20-sr1.prod.twitter.com
     M: jenkins
     S: git
   B: 0

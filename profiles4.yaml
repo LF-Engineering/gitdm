@@ -1,4 +1,100 @@
 P:
+- C: US
+  E: bison!coreos.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  S: male
+  I:
+  - E: bison!coreos.com
+    M: Brad Ison
+    S: git
+  B: 0
+  U: Brad Ison
+- C: US
+  E: bison!xvdf.io
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: bison!xvdf.io
+    M: Brad Ison
+    S: git
+  - E: bison!xvdf.io
+    M: Brad Ison
+    S: github
+    U: bison
+  B: 0
+  U: Brad Ison
+- E: brad!beechwoods.com
+  R:
+  - T: "2018-01-18"
+    C: Beechwoods
+    F: "1901-01-01"
+    P: lfedge/edgex-foundry
+    R: C
+  I:
+  - E: brad!beechwoods.com
+    M: Brad Kemp
+    S: git
+  - E: brad!beechwoods.com
+    M: Brad Kemp
+    S: groupsio
+  B: 0
+  U: Brad Kemp
+- C: US
+  E: brad!nextdimension.cc
+  R:
+  - T: "2100-01-01"
+    C: Hauppauge
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: brad!nextdimension.cc
+    M: Brad Love
+    S: git
+  B: 0
+  U: Brad Love
+- E: bradley.manor!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "2017-08-15"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: bradley.manor!ge.com
+    M: Brad Manor
+    S: slack
+    U: brad_manor
+  B: 0
+  U: Brad Manor
 - E: brad.mouring!ni.com
   R:
   - T: "2018-10-01"
@@ -4163,6 +4259,9 @@ P:
   I:
   - E: brendan.nolan!gmail.com
     M: Brendan Nolan
+    S: git
+  - E: brendan.nolan!gmail.com
+    M: brendan.nolan
     S: git
   - E: brendan.nolan!gmail.com
     M: Brendan Nolan
@@ -8888,6 +8987,9 @@ P:
     F: "2020-04-01"
     R: C
   I:
+  - E: brianm!skife.org
+    M: Brian McCallister
+    S: git
   - E: brianm!skife.org
     M: Brian McCallister
     S: slack
@@ -15888,6 +15990,9 @@ P:
   I:
   - E: bue!praqma.net
     M: Bue Petersen
+    S: git
+  - E: bue!praqma.net
+    M: Bue Petersen
     S: groupsio
   - E: bue!praqma.net
     M: Bue Petersen
@@ -18451,6 +18556,10 @@ P:
   - E: calebboylan!gmail.com
     M: Caleb Boylan
     S: git
+  - E: calebboylan!gmail.com
+    M: Caleb Boylan
+    S: github
+    U: squidboylan
   B: 0
   U: Caleb Boylan
 - C: MX
@@ -27220,6 +27329,9 @@ P:
     R: C
   S: male
   I:
+  - E: carsten.otto!sap.com
+    M: Carsten Otto
+    S: git
   - E: github!c-otto.de
     M: Carsten Otto
     S: github
@@ -35741,6 +35853,9 @@ P:
   I:
   - E: charles.wh.chan!gmail.com
     M: Charles Chan
+    S: git
+  - E: charles.wh.chan!gmail.com
+    M: Charles Chan
     S: groupsio
   - E: charles.wh.chan!gmail.com
     M: Charles Chan
@@ -35862,6 +35977,9 @@ P:
     R: C
   S: male
   I:
+  - E: charles!dyfis.net
+    M: Charles Duffy
+    S: git
   - E: charles!dyfis.net
     M: Charles Duffy
     S: github
@@ -38863,18 +38981,6 @@ P:
     S: git
   B: 0
   U: Chen Hong
-- E: hu1.chen!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: hu1.chen!intel.com
-    M: Chen Hu
-    S: git
-  B: 0
-  U: Chen Hu
 - R:
   - T: "2015-06-01"
     C: 尊嘉资产管理有限公司
@@ -39478,6 +39584,21 @@ P:
     S: pipermail
   B: 0
   U: Chen, Erlu
+- E: hu1.chen!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: hu1.chen!intel.com
+    M: Chen Hu
+    S: git
+  - E: hu1.chen!intel.com
+    M: Chen, Hu
+    S: git
+  B: 0
+  U: Chen, Hu
 - E: jv246a!att.com
   R:
   - T: "2100-01-01"
@@ -54869,11 +54990,14 @@ P:
   S: male
   I:
   - E: docwhat!gerf.org
+    M: Christian Höltje
+    S: git
+  - E: docwhat!gerf.org
     M: Christian Höltje
     S: github
     U: docwhat
   B: 0
-  U: Christian Holtje
+  U: Christian Höltje
 - E: chuller!suse.de
   R:
   - T: "2017-07-02"
@@ -59799,6 +59923,9 @@ P:
   I:
   - E: christophe.furmaniak!gmail.com
     M: Christophe Furmaniak
+    S: git
+  - E: christophe.furmaniak!gmail.com
+    M: Christophe Furmaniak
     S: github
     U: looztra
   B: 0
@@ -62142,30 +62269,3 @@ P:
     U: tophj-ibm
   B: 0
   U: Christopher Jones
-- E: ckulla!imageworks.com
-  R:
-  - T: "2016-07-26"
-    C: Sony Pictures Imageworks
-    F: "2007-06-01"
-    P: openexr
-    R: C
-  - T: "2100-01-01"
-    C: Sony Pictures Imageworks
-    F: "2007-06-01"
-    P: open-timeline-io
-    R: C
-  I:
-  - E: ckulla!gmail.com
-    M: Christopher Kulla
-    S: git
-  - E: ckulla!imageworks.com
-    M: Christopher Kulla
-    S: git
-  - E: fpsunflower!users.noreply.github.com
-    M: Christopher Kulla
-    S: git
-  - M: Christopher Kulla
-    S: github
-    U: fpsunflower
-  B: 0
-  U: Christopher Kulla

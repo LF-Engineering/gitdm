@@ -1,4 +1,88 @@
 P:
+- E: jenkins!smf1-drl-32-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jenkins!smf1-drl-32-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-drl-33-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jenkins!smf1-drl-33-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-drl-34-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jenkins!smf1-drl-34-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-drl-35-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jenkins!smf1-drl-35-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-drl-36-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jenkins!smf1-drl-36-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-drl-37-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jenkins!smf1-drl-37-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
+- E: jenkins!smf1-ees-20-sr1.prod.twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jenkins!smf1-ees-20-sr1.prod.twitter.com
+    M: jenkins
+    S: git
+  B: 0
+  U: jenkins
 - E: jenkins!smf1-ees-27-sr1.prod.twitter.com
   R:
   - T: "2100-01-01"
@@ -10583,6 +10667,9 @@ P:
     P: k8s
     R: C
   I:
+  - E: kyleezhu!gmail.com
+    M: killuazhu
+    S: git
   - E: kyleezhu!gmail.com
     M: killuazhu
     S: github
@@ -22817,6 +22904,9 @@ P:
     M: Mang Guo
     S: bugzilla
     U: mang.guo
+  - E: mang.guo!intel.com
+    M: Mang Guo
+    S: git
   B: 0
   U: mang.guo
 - C: US
@@ -25314,6 +25404,10 @@ P:
     S: git
   - E: matt.ranostay!konsulko.com
     M: Matt Ranostay
+    S: github
+    U: mranostay
+  - E: matt.ranostay!konsulko.com
+    M: Matt Ranostay
     S: groupsio
   - E: matt.ranostay!konsulko.com
     M: Matt Ranostay
@@ -25767,23 +25861,6 @@ P:
   I:
   - S: github
     U: maximecharron
-  B: 0
-  U: maximecharron
-- E: charron.maxime97!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: La Petite Fanfare
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: La Petite Fanfare
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: charron.maxime97!gmail.com
-    M: maximecharron
-    S: git
   B: 0
   U: maximecharron
 - C: FI
@@ -38300,6 +38377,66 @@ P:
     U: olivier.leprince
   B: 0
   U: olivier.leprince
+- C: FR
+  E: o.lemasle!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Apalia
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Apalia
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Apalia
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Apalia
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2016-02-26"
+    C: Apalia
+    F: "2015-08-10"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: o.lemasle!gmail.com
+    M: Olivier Lemasle
+    S: git
+  - E: o.lemasle!gmail.com
+    M: olivierlemasle
+    S: git
+  B: 0
+  U: olivierlemasle
+- C: FR
+  E: olivier.lemasle!apalia.net
+  R:
+  - T: "2100-01-01"
+    C: Apalia
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Apalia
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: olivier.lemasle!apalia.net
+    M: Olivier Lemasle
+    S: git
+  - E: olivier.lemasle!apalia.net
+    M: olivierlemasle
+    S: git
+  B: 0
+  U: olivierlemasle
 - E: olof!lixom.net
   R:
   - T: "2016-05-01"
@@ -38572,8 +38709,15 @@ P:
     R: C
   I:
   - E: ong.hock.yu!intel.com
+    M: Ong Hock Yu
+    S: git
+  - E: ong.hock.yu!intel.com
     M: Yu, Ong Hock
     S: git
+  - E: ong.hock.yu!intel.com
+    M: Yu Ong Hock
+    S: github
+    U: yuonghock
   - E: ong.hock.yu!intel.com
     M: Yu, Ong Hock
     S: groupsio
@@ -53243,23 +53387,6 @@ P:
     U: roshandawrani
   B: 0
   U: roshandawrani
-- E: roshandawrani!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: roshandawrani!gmail.com
-    M: roshandawrani
-    S: git
-  B: 0
-  U: roshandawrani
 - E: ross.cavanagh!ericsson.com
   R:
   - T: "2100-01-01"
@@ -61540,6 +61667,9 @@ P:
     M: Lu_Shifei
     S: bugzilla
     U: shifeix.a.lu
+  - E: shifeix.a.lu!intel.com
+    M: Lu Shifei
+    S: git
   B: 0
   U: shifeix.a.lu
 - E: shiftky!gmail.com
@@ -62677,148 +62807,3 @@ P:
     S: pipermail
   B: 0
   U: shuai chen
-- E: shuaib.ahamed!radisys.com
-  R:
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2019-02-01"
-    P: oran-sim
-    R: C
-  I:
-  - E: shuaib.ahamed!radisys.com
-    M: shuaib ahamed
-    S: gerrit
-    U: sahamed
-  - M: shuaib ahamed
-    S: jira
-    U: sahamed
-  - E: shuaib.ahamed!radisys.com
-    M: shuaib ahamed
-    S: jira
-    U: sahamed
-  B: 0
-  U: shuaib ahamed
-- C: CN
-  E: shuaibird!icloud.com
-  R:
-  - T: "2100-01-01"
-    C: Apple
-    F: "2018-10-23"
-    R: C
-  I:
-  - E: shuaibird!icloud.com
-    M: shuaibird
-    S: github
-    U: shuaibird
-  B: 0
-  U: shuaibird
-- E: shuang.he!intel.com
-  R:
-  - T: "2016-02-07"
-    C: Intel Corporation
-    F: "2015-10-16"
-    P: zep
-    R: C
-  I:
-  - E: shuang.he!intel.com
-    M: Shuang He
-    S: git
-  - E: shuang.he!intel.com
-    M: shuang.he
-    S: git
-  B: 0
-  U: shuang.he
-- E: shubham.kumar4!wipro.com
-  R:
-  - T: "2016-02-26"
-    C: Wipro Limited
-    F: "2016-01-30"
-    P: yocto
-    R: C
-  I:
-  - E: shubham.kumar4!wipro.com
-    M: shubham.kumar4
-    S: groupsio
-  - E: shubham.kumar4!wipro.com
-    M: shubham.kumar4
-    S: pipermail
-  B: 0
-  U: shubham.kumar4
-- E: shubham14bajpai!gmail.com
-  R:
-  - T: "2018-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2019-03-01"
-    C: Tata
-    F: "2018-07-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: MayaData
-    F: "2019-03-01"
-    P: openebs
-    R: C
-  I:
-  - E: shubham14bajpai!gmail.com
-    M: shubham14bajpai
-    S: git
-  B: 0
-  U: shubham14bajpai

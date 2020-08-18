@@ -1,5 +1,112 @@
 P:
 - C: RU
+  E: zaa!ikato.com
+  R:
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    P: containerd
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    P: fluentd
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    P: helm
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    P: k8s
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    P: containerd
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    P: fluentd
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    P: helm
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: zaa!ikato.com
+    M: Alexander Zhuravlev
+    S: github
+    U: zaa
+  B: 0
+  U: Alexander Zhuravlev
+- C: RU
   E: goldifit!gmail.com
   R:
   - T: "2100-01-01"
@@ -2896,6 +3003,28 @@ P:
     S: git
   B: 0
   U: Alexei Avshalom Lazar
+- E: alexei.fedorov!arm.com
+  R:
+  - T: "2019-02-16"
+    C: ARM
+    F: "2019-01-24"
+    P: yocto
+    R: C
+  I:
+  - E: Alexei.Fedorov!arm.com
+    S: bugzilla
+    U: Alexei.Fedorov
+  - E: Alexei.Fedorov!arm.com
+    S: bugzilla
+    U: Alexei.Fedorov
+  - E: alexei.fedorov!arm.com
+    M: Alexei Fedorov
+    S: git
+  - E: alexei.fedorov!arm.com
+    M: AlexeiFedorov
+    S: git
+  B: 0
+  U: Alexei Fedorov
 - C: IL
   E: alexei.led!gmail.com
   R:
@@ -3071,22 +3200,6 @@ P:
     U: softkot
   B: 0
   U: Alexei Volkov
-- E: Alexei.Fedorov!arm.com
-  R:
-  - T: "2019-02-16"
-    C: ARM
-    F: "2019-01-24"
-    P: yocto
-    R: C
-  I:
-  - E: Alexei.Fedorov!arm.com
-    S: bugzilla
-    U: Alexei.Fedorov
-  - E: Alexei.Fedorov!arm.com
-    S: bugzilla
-    U: Alexei.Fedorov
-  B: 0
-  U: Alexei.Fedorov
 - E: s_a1977!hotmail.com
   R:
   - T: "2008-04-01"
@@ -3808,6 +3921,9 @@ P:
     P: prometheus
     R: C
   I:
+  - E: melezhik!gmail.com
+    M: Alexey Melezhik
+    S: git
   - E: melezhik!gmail.com
     M: Alexey Melezhik
     S: github
@@ -7642,6 +7758,9 @@ P:
   I:
   - E: aburau!infoblox.com
     M: Aliaksei Burau
+    S: git
+  - E: aburau!infoblox.com
+    M: Aliaksei Burau
     S: github
     U: burov
   B: 0
@@ -10763,6 +10882,9 @@ P:
   I:
   - E: mail!alokrajiv.com
     M: Alok Rajiv
+    S: git
+  - E: mail!alokrajiv.com
+    M: alokrajiv
     S: git
   - E: mail!alokrajiv.com
     M: Alok Rajiv
@@ -24270,14 +24392,9 @@ P:
   U: Andrea Frittoli
 - E: andrea.frittoli!gmail.com
   R:
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: opnfv
-    R: C
   - T: "2016-11-11"
     C: HP
-    F: "2015-10-31"
+    F: "1900-01-01"
     P: opnfv
     R: C
   - T: "2100-01-01"
@@ -24287,6 +24404,9 @@ P:
     R: C
   S: female
   I:
+  - E: andrea.frittoli!gmail.com
+    M: Andrea Frittoli
+    S: git
   - E: andrea.frittoli!gmail.com
     M: Andrea Frittoli
     S: groupsio
@@ -30826,6 +30946,9 @@ P:
     R: C
   S: male
   I:
+  - E: acho!synopsys.com
+    M: Andrew Cho
+    S: git
   - E: acho!synopsys.com
     M: Andrew Cho
     S: github
@@ -56277,6 +56400,9 @@ P:
   I:
   - E: ant.weiss!gmail.com
     M: Ant Weiss
+    S: git
+  - E: ant.weiss!gmail.com
+    M: Ant Weiss
     S: github
     U: antweiss
   B: 0
@@ -60120,6 +60246,9 @@ P:
   I:
   - E: antoon.johansson!gmail.com
     M: Anton Johansson
+    S: git
+  - E: antoon.johansson!gmail.com
+    M: Anton Johansson
     S: github
     U: anton-johansson
   B: 0
@@ -62491,71 +62620,3 @@ P:
     S: git
   B: 0
   U: Antony Pavlov
-- C: IN
-  E: am00119082!techmahindra.com
-  R:
-  - T: "2018-05-26"
-    C: Tech Mahindra Ltd.
-    F: "2017-06-14"
-    R: C
-  - T: "2018-05-26"
-    C: Tech Mahindra Ltd.
-    F: "2017-06-14"
-    P: onap
-    R: C
-  I:
-  - M: Antony Prabhu M
-    S: confluence
-    U: maprabhu1976
-  - E: noreply!onap.org
-    M: Ankitkumar Patel (Confluence)
-    S: groupsio
-  - E: noreply!onap.org
-    M: Antony Prabhu M (Confluence)
-    S: groupsio
-  - E: noreply!onap.org
-    M: Prem Kumar S P (Confluence)
-    S: groupsio
-  - E: noreply!onap.org
-    M: Ankitkumar Patel Confluence
-    S: pipermail
-  - E: noreply!onap.org
-    M: Antony Prabhu M Confluence
-    S: pipermail
-  - E: noreply!onap.org
-    M: Prem Kumar S P Confluence
-    S: pipermail
-  B: 0
-  U: Antony Prabhu M
-- E: intermonino!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Individual
-    F: "2010-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  I:
-  - E: intermonino!gmail.com
-    M: Antony
-    S: slack
-    U: intermonino
-  B: 0
-  U: Antony
-- C: FI
-  R:
-  - T: "2100-01-01"
-    C: SC5 Online Ltd
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SC5 Online Ltd
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Antti Ahti
-    S: github
-    U: apaatsio
-  B: 0
-  U: Antti Ahti

@@ -1,4 +1,146 @@
 P:
+- R:
+  - T: "2016-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cortex
+    R: C
+  - T: "2016-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2016-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2017-06-01"
+    C: APIMatic
+    F: "2016-07-01"
+    P: cortex
+    R: C
+  - T: "2017-06-01"
+    C: APIMatic
+    F: "2016-07-01"
+    P: fluxcd
+    R: C
+  - T: "2017-06-01"
+    C: APIMatic
+    F: "2016-07-01"
+    P: helm
+    R: C
+  - T: "2017-06-01"
+    C: APIMatic
+    F: "2016-07-01"
+    P: openpolicyagent
+    R: C
+  - T: "2018-12-01"
+    C: Aurora
+    F: "2017-06-01"
+    P: cortex
+    R: C
+  - T: "2018-12-01"
+    C: Aurora
+    F: "2017-06-01"
+    P: fluxcd
+    R: C
+  - T: "2018-12-01"
+    C: Aurora
+    F: "2017-06-01"
+    P: helm
+    R: C
+  - T: "2018-12-01"
+    C: Aurora
+    F: "2017-06-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: AB Trav och Galopp
+    F: "2018-12-01"
+    P: cortex
+    R: C
+  - T: "2100-01-01"
+    C: AB Trav och Galopp
+    F: "2018-12-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: AB Trav och Galopp
+    F: "2018-12-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: AB Trav och Galopp
+    F: "2018-12-01"
+    P: openpolicyagent
+    R: C
+  I:
+  - M: Waseem Hassan Shahid
+    S: github
+    U: waseem-h
+  B: 0
+  U: Waseem Hassan Shahid
+- E: waseemhassanshahid!gmail.com
+  R:
+  - T: "2016-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2017-06-01"
+    C: APIMatic
+    F: "2016-07-01"
+    P: fluxcd
+    R: C
+  - T: "2018-12-01"
+    C: Aurora
+    F: "2017-06-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: AB Trav och Galopp
+    F: "2018-12-01"
+    P: fluxcd
+    R: C
+  I:
+  - E: waseemhassanshahid!gmail.com
+    M: Waseem Hassan
+    S: git
+  B: 0
+  U: Waseem Hassan
+- E: wasim!thabraze.me
+  R:
+  - T: "2016-03-01"
+    C: ZeMoSo
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2016-08-01"
+    C: Independent
+    F: "2016-03-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: ZeMoSo
+    F: "2016-08-01"
+    P: openebs
+    R: C
+  I:
+  - E: wasim!thabraze.me
+    M: Wasim Thabraze
+    S: git
+  - E: wasim!thabraze.me
+    M: Wasim Thabraze
+    S: github
+    U: waseem18
+  B: 0
+  U: Wasim Thabraze
 - E: wassim.berriche!orange.com
   R:
   - T: "2100-01-01"
@@ -7492,6 +7634,9 @@ P:
   I:
   - E: will.gorman!gmail.com
     M: Will Gorman
+    S: git
+  - E: will.gorman!gmail.com
+    M: Will Gorman
     S: github
     U: willgorman
   B: 0
@@ -8276,29 +8421,6 @@ P:
     U: wbrefvem
   B: 0
   U: Will Refvem 文仁
-- C: US
-  E: wrefvem!cloudbees.com
-  R:
-  - T: "2016-07-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2016-07-01"
-    R: C
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2018-01-01"
-    R: C
-  S: male
-  I:
-  - E: wrefvem!cloudbees.com
-    M: Will Refvem 文仁
-    S: github
-    U: wbrefvem
-  B: 0
-  U: Will Refvem 文仁
 - E: wbrefvem!gmail.com
   R:
   - T: "2016-07-01"
@@ -8320,6 +8442,35 @@ P:
   - E: wbrefvem!gmail.com
     M: Will Refvem
     S: git
+  B: 0
+  U: Will Refvem
+- C: US
+  E: wrefvem!cloudbees.com
+  R:
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2018-01-01"
+    C: Red Hat Inc.
+    F: "2016-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: CloudBees
+    F: "2018-01-01"
+    R: C
+  S: male
+  I:
+  - E: wrefvem!cloudbees.com
+    M: Will Refvem 文仁
+    S: git
+  - E: wrefvem!cloudbees.com
+    M: Will Refvem
+    S: git
+  - E: wrefvem!cloudbees.com
+    M: Will Refvem 文仁
+    S: github
+    U: wbrefvem
   B: 0
   U: Will Refvem
 - C: AU
@@ -11949,6 +12100,10 @@ P:
   - E: tomas.winkler!intel.com
     M: Winkler, Tomas
     S: git
+  - E: tomas.winkler!intel.com
+    M: Tomas Winkler
+    S: github
+    U: tomasbw
   - E: tomas.winkler!intel.com
     M: Tomas Winkler
     S: groupsio
@@ -17885,19 +18040,6 @@ P:
     S: pipermail
   B: 0
   U: Xiayinben
-- E: nanlin.xie!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: nanlin.xie!intel.com
-    M: Xie Nanlin
-    S: slack
-    U: nanlin.xie
-  B: 0
-  U: Xie Nanlin
 - E: xiexiuqi!huawei.com
   R:
   - T: "2100-01-01"
@@ -17984,6 +18126,22 @@ P:
     S: pipermail
   B: 0
   U: Xie, Huawei
+- E: nanlin.xie!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: nanlin.xie!intel.com
+    M: Xie, nanlin
+    S: git
+  - E: nanlin.xie!intel.com
+    M: Xie Nanlin
+    S: slack
+    U: nanlin.xie
+  B: 0
+  U: Xie, nanlin
 - E: weix.xie!intel.com
   R:
   - T: "2100-01-01"
@@ -20040,6 +20198,9 @@ P:
   I:
   - E: gnawux!gmail.com
     M: Wang Xu
+    S: git
+  - E: gnawux!gmail.com
+    M: Xu Wang
     S: git
   - E: gnawux!gmail.com
     M: Xu Wang
@@ -25318,6 +25479,9 @@ P:
     S: git
   - E: fei.yang!intel.com
     M: Yang, Fei
+    S: git
+  - E: fei.yang!intel.com
+    M: Yang, Fei
     S: groupsio
   - E: fei.yang!intel.com
     M: Yang, Fei
@@ -28674,6 +28838,10 @@ P:
   - E: debian!onerussian.com
     M: Yaroslav Halchenko
     S: git
+  - E: debian!onerussian.com
+    M: Yaroslav Halchenko
+    S: github
+    U: yarikoptic
   B: 0
   U: Yaroslav Halchenko
 - E: ylobankov!mirantis.com
@@ -36152,6 +36320,9 @@ P:
   I:
   - E: jiangyt.cn!gmail.com
     M: Yi Tao Jiang
+    S: git
+  - E: jiangyt.cn!gmail.com
+    M: Yi Tao Jiang
     S: github
     U: jiangytcn
   - E: jiangyt.cn!gmail.com
@@ -39351,6 +39522,9 @@ P:
     R: C
   S: male
   I:
+  - E: yorammi!tikalk.com
+    M: Yoram Michaeli
+    S: git
   - E: yorammi!tikalk.com
     M: Yoram Michaeli
     S: github
@@ -53019,6 +53193,9 @@ P:
     M: Zeeshan Ali
     S: bugzilla
     U: zeeshan.ali
+  - E: zeeshanak!gnome.org
+    M: Zeeshan Ali (Khattak)
+    S: git
   - E: zeeshan.ali!pelagicore.com
     M: Zeeshan Ali
     S: git
@@ -57734,20 +57911,19 @@ P:
     F: "1900-01-01"
     P: stackstorm
     R: C
-  - T: "2015-06-05"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-10-31"
-    P: stackstorm
-    R: C
   - T: "2015-10-31"
-    C: HP
-    F: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-06-05"
     P: stackstorm
     R: C
   I:
   - E: aji.zqfan!gmail.com
     M: ZhiQiang Fan
     S: git
+  - E: aji.zqfan!gmail.com
+    M: ZhiQiang Fan
+    S: github
+    U: zqfan
   B: 0
   U: ZhiQiang Fan
 - C: NI
@@ -58312,6 +58488,10 @@ P:
   - E: zhipeng.gong!intel.com
     M: Zhipeng Gong
     S: git
+  - E: zhipeng.gong!intel.com
+    M: Zhipeng Gong
+    S: github
+    U: zhipenggong
   B: 0
   U: Zhipeng Gong
 - C: CN
@@ -61445,116 +61625,3 @@ P:
     U: reegnz
   B: 0
   U: Zoltán Reegn
-- C: HU
-  E: zoltan.reegn!gmail.com
-  R:
-  - T: "2014-07-01"
-    C: AdNovum
-    F: "1900-01-01"
-    R: C
-  - T: "2014-07-01"
-    C: AdNovum
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2014-07-01"
-    C: AdNovum
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-05-01"
-    C: Morgan Stanley
-    F: "2014-07-01"
-    R: C
-  - T: "2015-05-01"
-    C: Morgan Stanley
-    F: "2014-07-01"
-    P: argo
-    R: C
-  - T: "2015-05-01"
-    C: Morgan Stanley
-    F: "2014-07-01"
-    P: k8s
-    R: C
-  - T: "2016-02-01"
-    C: BlackBelt
-    F: "2015-05-01"
-    R: C
-  - T: "2016-02-01"
-    C: BlackBelt
-    F: "2015-05-01"
-    P: argo
-    R: C
-  - T: "2016-02-01"
-    C: BlackBelt
-    F: "2015-05-01"
-    P: k8s
-    R: C
-  - T: "2019-01-01"
-    C: AdNovum
-    F: "2016-02-01"
-    R: C
-  - T: "2019-01-01"
-    C: AdNovum
-    F: "2016-02-01"
-    P: argo
-    R: C
-  - T: "2019-01-01"
-    C: AdNovum
-    F: "2016-02-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: CloudStorm
-    F: "2019-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: CloudStorm
-    F: "2019-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: CloudStorm
-    F: "2019-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: zoltan.reegn!gmail.com
-    M: Zoltán Reegn
-    S: git
-  B: 0
-  U: Zoltán Reegn
-- C: TW
-  E: zongbox!gmail.com
-  R:
-  - T: "2016-08-01"
-    C: Advantech
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Updates
-    F: "2016-08-01"
-    R: C
-  S: male
-  I:
-  - E: zongbox!gmail.com
-    M: Zong Li
-    S: git
-  - E: zongbox!gmail.com
-    M: zongbox
-    S: git
-  B: 0
-  U: Zong Li
-- E: kevin_yang!realtek.com
-  R:
-  - T: "2100-01-01"
-    C: Realtek
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: kevin_yang!realtek.com
-    M: Zong-Zhe Yang
-    S: git
-  B: 0
-  U: Zong-Zhe Yang
