@@ -1,4 +1,240 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Richard Megginson
+    S: github
+    U: richm
+  B: 0
+  U: Richard Megginson
+- E: richm!oldelvet.org.uk
+  R:
+  - T: "2018-09-01"
+    C: XL Catlin
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: AXA
+    F: "2018-09-01"
+    R: C
+  S: male
+  I:
+  - E: richm!oldelvet.org.uk
+    M: Richard Mortimer
+    S: git
+  B: 0
+  U: Richard Mortimer
+- C: DE
+  E: mail!richard-musiol.de
+  R:
+  - T: "2015-06-01"
+    C: Rocket
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Rocket
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-06-01"
+    C: Rocket
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  - T: "2015-06-01"
+    C: Rocket
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-01-01"
+    C: Sourcegraph
+    F: "2015-06-01"
+    R: C
+  - T: "2018-01-01"
+    C: Sourcegraph
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2018-01-01"
+    C: Sourcegraph
+    F: "2015-06-01"
+    P: opentracing
+    R: C
+  - T: "2018-01-01"
+    C: Sourcegraph
+    F: "2015-06-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Afilio
+    F: "2018-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Afilio
+    F: "2018-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Afilio
+    F: "2018-01-01"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: Afilio
+    F: "2018-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: mail!richard-musiol.de
+    M: Richard Musiol
+    S: git
+  - E: mail!richard-musiol.de
+    M: Richard Musiol
+    S: github
+    U: neelance
+  B: 0
+  U: Richard Musiol
+- C: GB
+  E: richard.osterloh!gmail.com
+  R:
+  - T: "2014-03-01"
+    C: Becrypt
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2014-03-01"
+    C: Becrypt
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2015-12-01"
+    C: Buddi
+    F: "2014-03-01"
+    P: yocto
+    R: C
+  - T: "2015-12-01"
+    C: Buddi
+    F: "2014-03-01"
+    P: zep
+    R: C
+  - T: "2016-06-01"
+    C: TomTom
+    F: "2015-12-01"
+    P: yocto
+    R: C
+  - T: "2016-06-01"
+    C: TomTom
+    F: "2015-12-01"
+    P: zep
+    R: C
+  - T: "2018-01-01"
+    C: WaveOptics
+    F: "2016-06-01"
+    P: yocto
+    R: C
+  - T: "2018-01-01"
+    C: WaveOptics
+    F: "2016-06-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: OXSIGHT Limited
+    F: "2018-01-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: OXSIGHT Limited
+    F: "2018-01-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: richard.osterloh!gmail.com
+    M: Richard Osterloh
+    S: git
+  - E: richard.osterloh!gmail.com
+    M: Richard Osterloh
+    S: github
+    U: rosterloh
+  B: 0
+  U: Richard Osterloh
+- E: me!terorie.dev
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: rook
+    R: C
+  I:
+  - E: me!terorie.dev
+    M: Richard Patel
+    S: git
+  - E: me!terorie.dev
+    M: Richard Patel
+    S: github
+    U: terorie
+  B: 0
+  U: Richard Patel
+- C: DE
+  E: mail!richardpeters.de
+  R:
+  - T: "2015-07-01"
+    C: Rohde & Schwarz Cybersecurity
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2016-02-01"
+    C: Berner & Mattner Systemtechnik
+    F: "2015-07-01"
+    P: zep
+    R: C
+  - T: "2016-11-01"
+    C: ITK Engineering
+    F: "2016-02-01"
+    P: zep
+    R: C
+  - T: "2017-12-01"
+    C: Meise & Peters GbR
+    F: "2016-11-01"
+    P: zep
+    R: C
+  - T: "2018-03-01"
+    C: HTW Berlin
+    F: "2017-12-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: ITK
+    F: "2017-12-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: ITK Engineering
+    F: "2018-03-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: mail!richardpeters.de
+    M: Richard Peters
+    S: git
+  B: 0
+  U: Richard Peters
 - E: richard.purdie!intel.com
   R:
   - T: "2008-08-01"
@@ -62009,171 +62245,3 @@ P:
     U: scothis
   B: 0
   U: Scott Andrews
-- E: sbardone!chelsio.com
-  R:
-  - T: "2100-01-01"
-    C: Chelsio Communications
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sbardone!chelsio.com
-    M: Scott Bardone
-    S: git
-  B: 0
-  U: Scott Bardone
-- E: scott.bauer!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: scott.bauer!intel.com
-    M: Scott Bauer
-    S: git
-  B: 0
-  U: Scott Bauer
-- E: berenss!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-05-11"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: berenss!us.ibm.com
-    M: Scott Berens
-    S: slack
-    U: berenss
-  B: 0
-  U: Scott Berens
-- R:
-  - T: "2100-01-01"
-    C: LifeSouth
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: LifeSouth
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  S: male
-  I:
-  - M: Scott Bevington
-    S: github
-    U: sbevington
-  B: 0
-  U: Scott Bevington
-- E: csb!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2017-04-12"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-03-21"
-    P: lfn-cntt
-    R: C
-  I:
-  - M: Scott Blandford
-    S: confluence
-    U: csbford
-  - E: cb1694!att.com
-    M: Scott Blandford
-    S: confluence
-    U: csbford
-  - E: csb!att.com
-    M: Scott Blandford
-    S: gerrit
-    U: csbford
-  - E: cb1694!att.com
-    M: BLANDFORD, SCOTT
-    S: groupsio
-  - E: cb1694!att.com
-    M: Scott Blandford
-    S: groupsio
-  - M: Scott Blandford
-    S: jira
-    U: csbford
-  - E: cb1694!att.com
-    M: Scott Blandford
-    S: jira
-    U: csbford
-  - E: csb!att.com
-    M: Scott Blandford
-    S: jira
-    U: csbford
-  - E: cb1694!att.com
-    M: BLANDFORD, SCOTT
-    S: pipermail
-  B: 0
-  U: Scott Blandford
-- C: CA
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "2020-01-15"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Scott Branden
-    S: github
-    U: sbranden
-  B: 0
-  U: Scott Branden
-- C: CA
-  E: scott.branden!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "2017-04-21"
-    P: yocto
-    R: C
-  - T: "2018-07-10"
-    C: Broadcom Corporation
-    F: "2018-03-26"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2018-07-10"
-    C: Broadcom Corporation
-    F: "2018-03-26"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-07-03"
-    C: Broadcom Corporation
-    F: "2018-04-02"
-    P: dpdk-draft
-    R: C
-  - T: "2018-07-03"
-    C: Broadcom Corporation
-    F: "2018-04-02"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "2020-01-08"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: scott.branden!broadcom.com
-    S: bugzilla
-    U: scott.branden
-  - E: scott.branden!broadcom.com
-    M: Scott Branden
-    S: bugzilla
-    U: scott.branden
-  - E: scott.branden!broadcom.com
-    M: Scott Branden
-    S: git
-  - E: scott.branden!broadcom.com
-    M: Scott Branden
-    S: groupsio
-  - E: scott.branden!broadcom.com
-    M: Scott Branden
-    S: pipermail
-  B: 0
-  U: Scott Branden

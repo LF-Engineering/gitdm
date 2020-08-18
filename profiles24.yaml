@@ -1,4 +1,767 @@
 P:
+- C: IN
+  E: shishir.gowda!sandisk.com
+  R:
+  - T: "2100-01-01"
+    C: SanDisk
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SanDisk
+    F: "1900-01-01"
+    P: rook
+    R: C
+  I:
+  - E: shishir.gowda!sandisk.com
+    M: shishir gowda
+    S: git
+  B: 0
+  U: shishir gowda
+- E: ssaurav!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-05-31"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ssaurav!us.ibm.com
+    M: shitesh
+    S: slack
+    U: shitesh
+  B: 0
+  U: shitesh
+- E: shiv.shakti!ericsson.com
+  R:
+  - T: "2016-09-01"
+    C: Accenture
+    F: "2013-02-01"
+    P: acumos
+    R: C
+  - T: "2017-05-01"
+    C: Tech Mahindra Ltd.
+    F: "2016-09-01"
+    P: acumos
+    R: C
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2019-08-01"
+    P: acumos
+    R: C
+  I:
+  - M: shiv Shakti
+    S: confluence
+    U: shiv070
+  - E: shiv.shakti!ericsson.com
+    M: shiv Shakti
+    S: confluence
+    U: shiv070
+  - E: shiv.shakti!ericsson.com
+    M: shiv Shakti
+    S: gerrit
+    U: shiv070
+  - E: shiv.shakti!est.tech
+    M: shiv Shakti
+    S: gerrit
+    U: shiv070
+  - E: shiv.shakti!ericsson.com
+    M: shiv shakti
+    S: gerrit
+  - E: shiv.shakti!ericsson.com
+    M: shiv shakti
+    S: git
+  - M: shiv Shakti
+    S: jira
+    U: shiv070
+  - E: shiv.shakti!ericsson.com
+    M: shiv Shakti
+    S: jira
+    U: shiv070
+  B: 0
+  U: shiv Shakti
+- E: shiva-charan.m-s!hp.com
+  R:
+  - T: "2016-01-27"
+    C: HP
+    F: "2016-01-01"
+    R: C
+  - T: "2016-01-27"
+    C: HP
+    F: "2016-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: shiva-charan.m-s!hp.com
+    M: shiva-charan.m-s
+    S: gerrit
+  - E: shiva-charan.m-s!hp.com
+    M: shiva-charan.m-s
+    S: gerrit
+  - E: shiva-charan.m-s!hp.com
+    M: shiva-charan.m-s
+    S: git
+  - E: shiva-charan.m-s!hp.com
+    M: shiva-charan.m-s
+    S: linux-foundation:scm
+  B: 0
+  U: shiva-charan.m-s
+- E: shiva-charan.m-s!hpe.com
+  R:
+  - T: "2017-03-16"
+    C: Hewlett Packard Enterprise
+    F: "2015-10-01"
+    R: C
+  - T: "2017-03-16"
+    C: Hewlett Packard Enterprise
+    F: "2015-10-01"
+    P: opnfv
+    R: C
+  I:
+  - E: shiva-charan.m-s!hpe.com
+    M: Shiva Charan M S
+    S: gerrit
+    U: shiva-charan
+  - E: shiva-charan.m-s!hpe.com
+    M: Shiva Charan
+    S: git
+  - E: shiva-charan.m-s!hpe.com
+    M: shiva-charan.m-s
+    S: git
+  - E: shiva-charan.m-s!hpe.com
+    M: shiva-charan
+    S: git
+  - E: shiva-charan.m-s!hpe.com
+    M: M S, Shiva Charan NFV BU
+    S: gmane
+  - E: shiva-charan.m-s!hpe.com
+    M: M S, Shiva Charan (NFV BU)
+    S: groupsio
+  - E: shiva-charan.m-s!hpe.com
+    M: Shiva Charan M S
+    S: jira
+    U: shiva-charan
+  - M: Shiva Charan M S
+    S: linux-foundation:its
+    U: shiva-charan
+  - E: shiva-charan.m-s!hpe.com
+    M: M S, Shiva Charan NFV BU
+    S: linux-foundation:mls
+    U: shiva-charan.m-s
+  - E: shiva-charan.m-s!hpe.com
+    M: Shiva Charan
+    S: linux-foundation:scm
+  - E: shiva-charan.m-s!hpe.com
+    M: Shiva Charan M S
+    S: linux-foundation:scr
+    U: shiva-charan
+  - E: shiva-charan.m-s!hpe.com
+    M: M S, Shiva Charan NFV BU
+    S: mbox
+  - E: shiva-charan.m-s!hpe.com
+    M: M S, Shiva Charan NFV BU
+    S: pipermail
+  B: 0
+  U: shiva-charan.m-s
+- C: IN
+  E: shivram.srivastava!huawei.com
+  R:
+  - T: "2015-10-01"
+    C: Temenos Group USA
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Temenos Group USA
+    F: "1900-01-01"
+    P: cncf/volcano
+    R: C
+  - T: "2015-10-01"
+    C: Temenos Group USA
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: Independent
+    F: "2015-10-01"
+    R: C
+  - T: "2015-12-01"
+    C: Independent
+    F: "2015-10-01"
+    P: cncf/volcano
+    R: C
+  - T: "2015-12-01"
+    C: Independent
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-12-01"
+    P: cncf/volcano
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-12-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: shivram.srivastava!huawei.com
+    M: Shivram Srivastava
+    S: git
+  - E: shivram.srivastava!huawei.com
+    M: shivramsrivastava
+    S: git
+  - E: shivram.srivastava!huawei.com
+    M: “shivramsrivastava”
+    S: git
+  - E: shivram.srivastava!huawei.com
+    M: Shivram Srivastava
+    S: github
+    U: shivramsrivastava
+  B: 0
+  U: shivramsrivastava
+- E: 35836235+shiyuan1992!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Alauda
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "1900-01-01"
+    P: helm
+    R: C
+  I:
+  - E: 35836235+shiyuan1992!users.noreply.github.com
+    M: shiyuan1992
+    S: git
+  B: 0
+  U: shiyuan1992
+- R:
+  - T: "2100-01-01"
+    C: Alauda
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: shiyuan
+    S: github
+    U: shiyuan1992
+  B: 0
+  U: shiyuan
+- C: CN
+  E: shiywang!redhat.com
+  R:
+  - T: "2016-04-01"
+    C: Mogujie
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2016-04-01"
+    C: Mogujie
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2016-04-01"
+    C: Mogujie
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-04-01"
+    C: Mogujie
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-04-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-04-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-04-01"
+    P: kubevirt
+    R: C
+  S: male
+  I:
+  - E: shiywang!redhat.com
+    M: Shiyang Wang
+    S: git
+  - E: shiywang!redhat.com
+    M: shiywang
+    S: git
+  - E: shiywang!redhat.com
+    M: Shiyang Wang
+    S: github
+    U: shiywang
+  B: 0
+  U: shiywang
+- R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - S: github
+    U: shkhisti
+  B: 0
+  U: shkhisti
+- E: shoel!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-02-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: shoel!us.ibm.com
+    M: shoel
+    S: slack
+    U: shoel
+  B: 0
+  U: shoel
+- E: shogan!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2015-12-10"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: shogan!pivotal.io
+    M: shogan
+    S: slack
+    U: shogan
+  B: 0
+  U: shogan
+- R:
+  - T: "2100-01-01"
+    C: Beary Innovative
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: shonenada
+    S: github
+    U: shonenada
+  B: 0
+  U: shonenada
+- E: shonenada!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Beary Innovative
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: shonenada!gmail.com
+    M: shonenada
+    S: git
+  B: 0
+  U: shonenada
+- E: shouhong.zhang!outlook.com
+  R:
+  - T: "2100-01-01"
+    C: TenxCloud
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: TenxCloud
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: TenxCloud
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: TenxCloud
+    F: "1900-01-01"
+    P: kubeedge
+    R: C
+  I:
+  - E: shouhong.zhang!outlook.com
+    M: shouhong
+    S: git
+  - E: shouhong.zhang!outlook.com
+    S: github
+    U: shouhong
+  B: 0
+  U: shouhong
+- E: 1220642745!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: 1220642745!qq.com
+    S: github
+    U: show168
+  B: 0
+  U: show168
+- E: shravani.n!tcs.com
+  R:
+  - T: "2016-11-15"
+    C: Tata Consultancy Services
+    F: "2010-01-01"
+    R: C
+  - T: "2016-11-15"
+    C: Tata Consultancy Services
+    F: "2016-08-03"
+    P: odl
+    R: C
+  I:
+  - E: shravani.n!tcs.com
+    M: shravani n
+    S: gerrit
+    U: shravani
+  - E: shravani.n!tcs.com
+    M: Shravani N
+    S: pipermail
+  B: 0
+  U: shravani n
+- E: shravanix.paladugula!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Tata Consultancy Services
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Tata Consultancy Services
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - M: shravani paladugula
+    S: confluence
+    U: Shravanix
+  - E: shravani.p!tcs.com
+    M: Shravani Paladugula
+    S: gerrit
+    U: Shravani
+  - E: shravanix.paladugula!intel.com
+    M: shravani paladugula
+    S: gerrit
+    U: Shravanix
+  - E: shravani.p!tcs.com
+    M: Shravani Paladugula
+    S: git
+  - E: shravani.p!tcs.com
+    M: Shravani
+    S: git
+  - E: shravanix.paladugula!intel.com
+    M: shravani paladugula
+    S: git
+  - E: shravanix.paladugula!intel.com
+    M: Paladugula, ShravaniX
+    S: groupsio
+  - M: Shravani Paladugula
+    S: jira
+    U: Shravani
+  - E: shravani.p!tcs.com
+    M: Shravani Paladugula
+    S: jira
+    U: Shravani
+  - M: shravani paladugula
+    S: jira
+    U: Shravanix
+  - E: shravanix.paladugula!intel.com
+    M: shravani paladugula
+    S: jira
+    U: Shravanix
+  - E: shravanix.paladugula!intel.com
+    M: Paladugula, ShravaniX
+    S: pipermail
+  B: 0
+  U: shravani paladugula
+- E: shreyas.sriganesh.rao!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  I:
+  - E: shreyas.sriganesh.rao!sap.com
+    M: shreyas-s-rao
+    S: git
+  B: 0
+  U: shreyas-s-rao
+- E: shreyas.zingre!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "2016-08-09"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: shreyas.zingre!ge.com
+    M: shreyas
+    S: slack
+    U: shreyas
+  B: 0
+  U: shreyas
+- C: US
+  R:
+  - T: "2014-11-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2014-11-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2014-11-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  - T: "2014-11-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-07-01"
+    C: Goldman Sachs
+    F: "2014-11-01"
+    R: C
+  - T: "2016-07-01"
+    C: Goldman Sachs
+    F: "2014-11-01"
+    P: jaeger
+    R: C
+  - T: "2016-07-01"
+    C: Goldman Sachs
+    F: "2014-11-01"
+    P: opentelemetry
+    R: C
+  - T: "2016-07-01"
+    C: Goldman Sachs
+    F: "2014-11-01"
+    P: prometheus
+    R: C
+  - T: "2019-09-01"
+    C: Uber
+    F: "2016-07-01"
+    R: C
+  - T: "2019-09-01"
+    C: Uber
+    F: "2016-07-01"
+    P: jaeger
+    R: C
+  - T: "2019-09-01"
+    C: Uber
+    F: "2016-07-01"
+    P: opentelemetry
+    R: C
+  - T: "2019-09-01"
+    C: Uber
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Chronosphere
+    F: "2019-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Chronosphere
+    F: "2019-09-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Chronosphere
+    F: "2019-09-01"
+    P: opentelemetry
+    R: C
+  - T: "2100-01-01"
+    C: Chronosphere
+    F: "2019-09-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - S: github
+    U: shreyassrivatsan
+  B: 0
+  U: shreyassrivatsan
+- E: shrike_!mail.ru
+  R:
+  - T: "2100-01-01"
+    C: Progmatic Lab
+    F: "2020-04-08"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: shrike_!mail.ru
+    M: Sergey Galas'
+    S: gerrit
+    U: shrike742
+  - E: shrike_!mail.ru
+    M: shrike
+    S: git
+  B: 0
+  U: shrike
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  S: female
+  I:
+  - S: github
+    U: shrutip
+  B: 0
+  U: shrutip
+- E: 416435596!qq.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: 416435596!qq.com
+    M: shsjshentao
+    S: git
+  B: 0
+  U: shsjshentao
+- R:
+  - T: "2100-01-01"
+    C: Gardener
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Gardener
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - S: github
+    U: shturec
+  B: 0
+  U: shturec
+- C: JP
+  E: shu-mutou!rf.jp.nec.com
+  R:
+  - T: "2100-01-01"
+    C: NEC
+    F: "2015-12-15"
+    P: stackstorm
+    R: C
+  S: male
+  I:
+  - E: shu-mutou!rf.jp.nec.com
+    M: shu-mutou
+    S: git
+  B: 0
+  U: shu-mutou
+- E: chenshuai!huawei.com
+  R:
+  - T: "2018-04-08"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-06-09"
+    R: C
+  - T: "2018-04-08"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-06-09"
+    P: opnfv
+    R: C
+  I:
+  - E: chenshuai!huawei.com
+    M: shuai chen
+    S: gerrit
+    U: chenshuai
+  - E: chenshuai!huawei.com
+    M: chenshuai
+    S: git
+  - E: chenshuai!huawei.com
+    M: chenshuai
+    S: git
+  - E: chenshuai!huawei.com
+    M: shuai chen
+    S: git
+  - E: chenshuai!huawei.com
+    M: Chenshuai
+    S: gmane
+  - E: chenshuai!huawei.com
+    M: Chenshuai
+    S: groupsio
+  - M: shuai chen
+    S: jira
+    U: chenshuai
+  - E: chenshuai!huawei.com
+    M: shuai chen
+    S: jira
+    U: chenshuai
+  - M: shuai chen
+    S: linux-foundation:its
+    U: chenshuai
+  - E: chenshuai!huawei.com
+    M: chenshuai
+    S: linux-foundation:mls
+    U: chenshuai
+  - E: chenshuai!huawei.com
+    M: chenshuai
+    S: linux-foundation:scm
+  - E: chenshuai!huawei.com
+    M: chenshuai
+    S: linux-foundation:scm
+  - E: chenshuai!huawei.com
+    M: shuai chen
+    S: linux-foundation:scm
+  - E: chenshuai!huawei.com
+    M: shuai chen
+    S: linux-foundation:scr
+    U: chenshuai
+  - E: chenshuai!huawei.com
+    M: Chenshuai
+    S: mbox
+  - E: chenshuai!huawei.com
+    M: chenshuai
+    S: pipermail
+  B: 0
+  U: shuai chen
 - E: shuaib.ahamed!radisys.com
   R:
   - T: "2100-01-01"

@@ -1,4 +1,146 @@
 P:
+- C: CA
+  E: peter.swica!moodys.com
+  R:
+  - T: "2017-08-01"
+    C: Sunnybrook
+    F: "1900-01-01"
+    R: C
+  - T: "2017-08-01"
+    C: Sunnybrook
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Signature Retirement Living
+    F: "2017-08-01"
+    R: C
+  - T: "2018-09-01"
+    C: Signature Retirement Living
+    F: "2017-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Moody's Analytics
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Moody's Analytics
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: peter.swica!moodys.com
+    M: Peter Swica
+    S: git
+  B: 0
+  U: Peter Swica
+- C: CA
+  E: peter.swica!outlook.com
+  R:
+  - T: "2017-08-01"
+    C: Sunnybrook
+    F: "1900-01-01"
+    R: C
+  - T: "2017-08-01"
+    C: Sunnybrook
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-08-01"
+    C: Sunnybrook
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-09-01"
+    C: Signature Retirement Living
+    F: "2017-08-01"
+    R: C
+  - T: "2018-09-01"
+    C: Signature Retirement Living
+    F: "2017-08-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Signature Retirement Living
+    F: "2017-08-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Moody's Analytics
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Moody's Analytics
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Moody's Analytics
+    F: "2018-09-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: peter.swica!outlook.com
+    M: Peter Swica
+    S: git
+  - E: peter.swica!outlook.com
+    M: Peter Swica
+    S: github
+    U: pswica
+  B: 0
+  U: Peter Swica
+- E: 92.peter.szalai!gmail.com
+  R:
+  - T: "2016-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2018-11-01"
+    C: Prezi
+    F: "2016-09-01"
+    P: k8s
+    R: C
+  - T: "2018-11-01"
+    C: Prezi
+    F: "2016-09-01"
+    P: thanos
+    R: C
+  - T: "2019-07-01"
+    C: G-Research
+    F: "2018-11-01"
+    P: k8s
+    R: C
+  - T: "2019-07-01"
+    C: G-Research
+    F: "2018-11-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Attest
+    F: "2019-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Attest
+    F: "2019-07-01"
+    P: thanos
+    R: C
+  I:
+  - E: 92.peter.szalai!gmail.com
+    M: Peter Szalai
+    S: github
+    U: szalai1
+  B: 0
+  U: Peter Szalai
 - E: peter.3.szilagyi!nokia.com
   R:
   - T: "2010-12-01"
@@ -61030,239 +61172,3 @@ P:
     U: richard.maynard
   B: 0
   U: Richard Maynard
-- R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Richard Megginson
-    S: github
-    U: richm
-  B: 0
-  U: Richard Megginson
-- E: richm!oldelvet.org.uk
-  R:
-  - T: "2018-09-01"
-    C: XL Catlin
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: AXA
-    F: "2018-09-01"
-    R: C
-  S: male
-  I:
-  - E: richm!oldelvet.org.uk
-    M: Richard Mortimer
-    S: git
-  B: 0
-  U: Richard Mortimer
-- C: DE
-  E: mail!richard-musiol.de
-  R:
-  - T: "2015-06-01"
-    C: Rocket
-    F: "1900-01-01"
-    R: C
-  - T: "2015-06-01"
-    C: Rocket
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-06-01"
-    C: Rocket
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  - T: "2015-06-01"
-    C: Rocket
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2018-01-01"
-    C: Sourcegraph
-    F: "2015-06-01"
-    R: C
-  - T: "2018-01-01"
-    C: Sourcegraph
-    F: "2015-06-01"
-    P: k8s
-    R: C
-  - T: "2018-01-01"
-    C: Sourcegraph
-    F: "2015-06-01"
-    P: opentracing
-    R: C
-  - T: "2018-01-01"
-    C: Sourcegraph
-    F: "2015-06-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Afilio
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Afilio
-    F: "2018-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Afilio
-    F: "2018-01-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: Afilio
-    F: "2018-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - E: mail!richard-musiol.de
-    M: Richard Musiol
-    S: git
-  - E: mail!richard-musiol.de
-    M: Richard Musiol
-    S: github
-    U: neelance
-  B: 0
-  U: Richard Musiol
-- C: GB
-  E: richard.osterloh!gmail.com
-  R:
-  - T: "2014-03-01"
-    C: Becrypt
-    F: "1900-01-01"
-    P: yocto
-    R: C
-  - T: "2014-03-01"
-    C: Becrypt
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2015-12-01"
-    C: Buddi
-    F: "2014-03-01"
-    P: yocto
-    R: C
-  - T: "2015-12-01"
-    C: Buddi
-    F: "2014-03-01"
-    P: zep
-    R: C
-  - T: "2016-06-01"
-    C: TomTom
-    F: "2015-12-01"
-    P: yocto
-    R: C
-  - T: "2016-06-01"
-    C: TomTom
-    F: "2015-12-01"
-    P: zep
-    R: C
-  - T: "2018-01-01"
-    C: WaveOptics
-    F: "2016-06-01"
-    P: yocto
-    R: C
-  - T: "2018-01-01"
-    C: WaveOptics
-    F: "2016-06-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: OXSIGHT Limited
-    F: "2018-01-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: OXSIGHT Limited
-    F: "2018-01-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: richard.osterloh!gmail.com
-    M: Richard Osterloh
-    S: git
-  - E: richard.osterloh!gmail.com
-    M: Richard Osterloh
-    S: github
-    U: rosterloh
-  B: 0
-  U: Richard Osterloh
-- E: me!terorie.dev
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: rook
-    R: C
-  I:
-  - E: me!terorie.dev
-    M: Richard Patel
-    S: git
-  - E: me!terorie.dev
-    M: Richard Patel
-    S: github
-    U: terorie
-  B: 0
-  U: Richard Patel
-- C: DE
-  E: mail!richardpeters.de
-  R:
-  - T: "2015-07-01"
-    C: Rohde & Schwarz Cybersecurity
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2016-02-01"
-    C: Berner & Mattner Systemtechnik
-    F: "2015-07-01"
-    P: zep
-    R: C
-  - T: "2016-11-01"
-    C: ITK Engineering
-    F: "2016-02-01"
-    P: zep
-    R: C
-  - T: "2017-12-01"
-    C: Meise & Peters GbR
-    F: "2016-11-01"
-    P: zep
-    R: C
-  - T: "2018-03-01"
-    C: HTW Berlin
-    F: "2017-12-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: ITK
-    F: "2017-12-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: ITK Engineering
-    F: "2018-03-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: mail!richardpeters.de
-    M: Richard Peters
-    S: git
-  B: 0
-  U: Richard Peters

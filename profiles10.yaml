@@ -1,4 +1,119 @@
 P:
+- E: 30397961+jessica-dl!users.noreply.github.com
+  R:
+  - T: "2015-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2017-06-01"
+    C: Mathnasium
+    F: "2015-12-01"
+    P: openpolicyagent
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2017-06-01"
+    P: openpolicyagent
+    R: C
+  - T: "2019-08-01"
+    C: Google
+    F: "2019-05-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-08-01"
+    P: openpolicyagent
+    R: C
+  I:
+  - E: 30397961+jessica-dl!users.noreply.github.com
+    M: Jessica
+    S: git
+  B: 0
+  U: Jessica
+- R:
+  - T: "2015-12-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-01"
+    C: Mathnasium
+    F: "2015-12-01"
+    R: C
+  - T: "2017-06-01"
+    C: Mathnasium
+    F: "2015-12-01"
+    P: k8s
+    R: C
+  - T: "2017-06-01"
+    C: Mathnasium
+    F: "2015-12-01"
+    P: openpolicyagent
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2017-06-01"
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2017-06-01"
+    P: openpolicyagent
+    R: C
+  - T: "2019-08-01"
+    C: Google
+    F: "2019-05-01"
+    R: C
+  - T: "2019-08-01"
+    C: Google
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  - T: "2019-08-01"
+    C: Google
+    F: "2019-05-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-08-01"
+    P: openpolicyagent
+    R: C
+  S: female
+  I:
+  - M: Jessica
+    S: github
+    U: jessica-dl
+  B: 0
+  U: Jessica
 - E: jessie.lynn.barnett!gmail.com
   R:
   - T: "2100-01-01"
@@ -36621,6 +36736,32 @@ P:
     S: git
   B: 0
   U: Jonathan D. Simms
+- E: contact!jonathandekhtiar.eu
+  R:
+  - T: "2014-02-01"
+    C: Valeo
+    F: "2013-09-01"
+    P: horovod
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "2018-10-01"
+    P: horovod
+    R: C
+  I:
+  - E: contact!jonathandekhtiar.eu
+    M: Jonathan DEKHTIAR
+    S: git
+  - E: contact!jonathandekhtiar.eu
+    M: Jonathan DEKHTIAR
+    S: github
+    U: DEKHTIARJonathan
+  - E: contact!jonathandekhtiar.eu
+    M: Jonathan DEKHTIAR
+    S: slack
+    U: jonathandekhtiar
+  B: 0
+  U: Jonathan DEKHTIAR
 - E: jonathan.david!ni.com
   R:
   - T: "2015-12-28"
@@ -62439,271 +62580,3 @@ P:
     S: git
   B: 0
   U: Julian V. Modesto
-- C: US
-  E: julianvmodesto!gmail.com
-  R:
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: brigade
-    R: C
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: openmetrics
-    R: C
-  - T: "2100-01-01"
-    C: The New York Times
-    F: "1900-01-01"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: The New York Times
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: The New York Times
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: The New York Times
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: The New York Times
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: The New York Times
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: The New York Times
-    F: "1900-01-01"
-    P: openmetrics
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: brigade
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: coredns
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: helm
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: jaeger
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: k8s
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: openmetrics
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: openmetrics
-    R: C
-  S: male
-  I:
-  - E: julianvmodesto!gmail.com
-    M: Julian V. Modesto
-    S: git
-  - E: julianvmodesto!gmail.com
-    M: Julian V. Modesto
-    S: github
-    U: julianvmodesto
-  - E: julianvmodesto!gmail.com
-    M: Julian V. Modesto
-    S: slack
-    U: julianvmodesto
-  B: 0
-  U: Julian V. Modesto
-- C: US
-  E: julianvmodesto!users.noreply.github.com
-  R:
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    R: C
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2016-03-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: coredns
-    R: C
-  - T: "2017-03-01"
-    C: The New York Times
-    F: "2016-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: LiveRamp
-    F: "2017-03-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: julianvmodesto!users.noreply.github.com
-    M: Julian V. Modesto
-    S: git
-  B: 0
-  U: Julian V. Modesto
-- E: jwi!linux.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: jwi!linux.ibm.com
-    M: Julian Wiedmann
-    S: git
-  B: 0
-  U: Julian Wiedmann
-- E: jwi!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: jwi!linux.vnet.ibm.com
-    M: Julian Wiedmann
-    S: git
-  B: 0
-  U: Julian Wiedmann
-- R:
-  - T: "2014-12-01"
-    C: cron
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-06-01"
-    C: Schommer
-    F: "2014-12-01"
-    P: helm
-    R: C
-  - T: "2019-02-01"
-    C: Mercedes-Benz
-    F: "2016-06-01"
-    P: helm
-    R: C
-  - T: "2019-04-01"
-    C: Independent
-    F: "2019-02-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Netcentric
-    F: "2019-04-01"
-    P: helm
-    R: C
-  I:
-  - M: Julian Xhokaxhiu
-    S: github
-    U: julianxhokaxhiu
-  B: 0
-  U: Julian Xhokaxhiu
