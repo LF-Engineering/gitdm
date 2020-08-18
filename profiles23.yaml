@@ -1,16 +1,4 @@
 P:
-- E: jenkins!smf1-ava-37-sr1.prod.twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jenkins!smf1-ava-37-sr1.prod.twitter.com
-    M: jenkins
-    S: git
-  B: 0
-  U: jenkins
 - E: jenkins!smf1-avl-21-sr4.prod.twitter.com
   R:
   - T: "2100-01-01"
@@ -1626,6 +1614,11 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "2018-10-22"
     P: edl
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2018-10-22"
+    P: lfai/forestflow
     R: C
   I:
   - M: Jessica Kim
