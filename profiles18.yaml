@@ -1,4 +1,121 @@
 P:
+- C: CH
+  E: zioproto!gmail.com
+  R:
+  - T: "2014-10-01"
+    C: GARR
+    F: "1900-01-01"
+    R: C
+  - T: "2014-10-01"
+    C: GARR
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-10-01"
+    C: GARR
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SWITCH
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Ricardo AG
+    F: "2014-10-01"
+    R: C
+  - T: "2015-06-01"
+    C: Ricardo AG
+    F: "2014-10-01"
+    P: helm
+    R: C
+  - T: "2015-06-01"
+    C: Ricardo AG
+    F: "2014-10-01"
+    P: k8s
+    R: C
+  - T: "2017-08-01"
+    C: Independent
+    F: "2015-06-01"
+    R: C
+  - T: "2017-08-01"
+    C: Independent
+    F: "2015-06-01"
+    P: helm
+    R: C
+  - T: "2017-08-01"
+    C: Independent
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: SWITCH
+    F: "2017-08-01"
+    R: C
+  - T: "2018-09-01"
+    C: SWITCH
+    F: "2017-08-01"
+    P: helm
+    R: C
+  - T: "2018-09-01"
+    C: SWITCH
+    F: "2017-08-01"
+    P: k8s
+    R: C
+  - T: "2019-12-01"
+    C: Magic Leap
+    F: "2018-09-01"
+    R: C
+  - T: "2019-12-01"
+    C: Magic Leap
+    F: "2018-09-01"
+    P: helm
+    R: C
+  - T: "2019-12-01"
+    C: Magic Leap
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2019-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2019-12-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2019-12-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: zioproto!gmail.com
+    M: Saverio Proto
+    S: git
+  - E: zioproto!gmail.com
+    M: Saverio Proto
+    S: github
+    U: zioproto
+  B: 0
+  U: Saverio Proto
+- E: tglx!cruncher.tec.linutronix.de
+  R:
+  - T: "2100-01-01"
+    C: linutronix
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: tglx!cruncher.tec.linutronix.de
+    M: Savin Zlobec
+    S: git
+  - E: tglx!cruncher.tec.linutronix.de
+    M: Thomas Gleixner
+    S: git
+  B: 0
+  U: Savin Zlobec
 - E: savinay.dharmappa!intel.com
   R:
   - T: "2100-01-01"
@@ -3339,6 +3456,10 @@ P:
   - E: srifenbark!gmail.com
     M: Scott Rifenbark
     S: git
+  - E: srifenbark!gmail.com
+    M: Scott Rifenbark
+    S: github
+    U: scottrifenbark
   - E: scott.m.rifenbark!intel.com
     M: Rifenbark, Scott M
     S: groupsio
@@ -34321,6 +34442,13 @@ P:
   I:
   - E: skjha832!gmail.com
     M: Shubham Kumar Jha
+    S: git
+  - E: skjha832!gmail.com
+    M: Shubham Kumar Jha
+    S: github
+    U: ShubhamKJha
+  - E: skjha832!gmail.com
+    M: Shubham Kumar Jha
     S: slack
     U: skjha832
   B: 0
@@ -61025,69 +61153,3 @@ P:
     S: git
   B: 0
   U: Steffen Trumtrar
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-04-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: Steffen.Uhlig!de.ibm.com
-    S: cloudfoundry:manual
-  - E: suhlig!users.noreply.github.com
-    S: cloudfoundry:manual
-  - M: Steffen Uhlig
-    S: cloudfoundry:manual
-  - E: Steffen.Uhlig!de.ibm.com
-    M: Steffen Uhlig
-    S: file:cff
-    U: suhlig
-  - E: suhlig!users.noreply.github.com
-    M: Steffen Uhlig
-    S: file:cff
-    U: suhlig
-  - M: Steffen Uhlig, suhlig-ibm
-    S: git
-  - M: Steffen Uhlig, suhlig
-    S: git
-  - M: Steffen Uhlig
-    S: git
-  - E: Steffen.Uhlig!de.ibm.com
-    M: Steffen Uhlig
-    S: git
-  - E: Steffen.Uhlig!de.ibmA.com
-    M: Steffen Uhlig
-    S: git
-  - E: Steffen.Uhlig!gmail.com
-    M: Steffen Uhlig
-    S: git
-  - E: suhlig!users.noreply.github.com
-    M: Steffen Uhlig
-    S: git
-  - S: github
-    U: suhlig
-  - M: Steffen Uhlig
-    S: github
-    U: suhlig
-  - E: Steffen.Uhlig!de.ibm.com
-    M: Steffen Uhlig
-    S: groupsio
-  - E: Steffen.Uhlig!de.ibm.com
-    M: Steffen Uhlig
-    S: mbox
-  - M: Steffen Uhlig
-    S: meetup
-    U: "225520591"
-  - E: steffen.uhlig!gmail.com
-    M: Steffen Uhlig
-    S: slack
-    U: suhlig
-  B: 0
-  U: Steffen Uhlig
