@@ -1,4 +1,291 @@
 P:
+- C: CH
+  E: domi!fortysix.ch
+  R:
+  - T: "2014-07-01"
+    C: UBS
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Yooture
+    F: "2014-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - E: domi!fortysix.ch
+    M: imod
+    S: git
+  - E: domi!fortysix.ch
+    M: domi
+    S: slack
+    U: domi
+  B: 0
+  U: imod
+- R:
+  - T: "2100-01-01"
+    C: Symphony LLC
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Symphony LLC
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: github
+    U: imrokas
+  B: 0
+  U: imrokas
+- C: US
+  E: charlie.robbins!gmail.com
+  R:
+  - T: "2015-02-01"
+    C: Nodejitsu
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "2015-02-01"
+    R: C
+  - T: "2017-01-01"
+    C: Nodejitsu
+    F: "2015-06-01"
+    R: C
+  - T: "2018-10-01"
+    C: Muxta
+    F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: GoDaddy
+    F: "2018-10-01"
+    R: C
+  S: male
+  I:
+  - E: charlie.robbins!gmail.com
+    M: indexzero
+    S: git
+  B: 0
+  U: indexzero
+- R:
+  - T: "2015-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2015-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2015-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-06-01"
+    C: 株式会社キャレオ
+    F: "2015-02-01"
+    P: cncf
+    R: C
+  - T: "2016-06-01"
+    C: 株式会社キャレオ
+    F: "2015-02-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2016-06-01"
+    C: 株式会社キャレオ
+    F: "2015-02-01"
+    P: containerd
+    R: C
+  - T: "2016-06-01"
+    C: 株式会社キャレオ
+    F: "2015-02-01"
+    P: k8s
+    R: C
+  - T: "2018-03-01"
+    C: Hitomedia
+    F: "2016-06-01"
+    P: cncf
+    R: C
+  - T: "2018-03-01"
+    C: Hitomedia
+    F: "2016-06-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2018-03-01"
+    C: Hitomedia
+    F: "2016-06-01"
+    P: containerd
+    R: C
+  - T: "2018-03-01"
+    C: Hitomedia
+    F: "2016-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: ZOZO Technologies
+    F: "2018-03-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: ZOZO Technologies
+    F: "2018-03-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2100-01-01"
+    C: ZOZO Technologies
+    F: "2018-03-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: ZOZO Technologies
+    F: "2018-03-01"
+    P: k8s
+    R: C
+  I:
+  - M: inductor(Kohei)
+    S: github
+    U: inductor
+  B: 0
+  U: inductor(Kohei)
+- C: JP
+  R:
+  - T: "2015-02-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-06-01"
+    C: 株式会社キャレオ
+    F: "2015-02-01"
+    R: C
+  - T: "2018-03-01"
+    C: Hitomedia
+    F: "2016-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: ZOZO
+    F: "2018-03-01"
+    R: C
+  S: male
+  I:
+  - M: inductor
+    S: github
+    U: inductor
+  B: 0
+  U: inductor
+- R:
+  - T: "2018-10-01"
+    C: Consult Americas
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  - T: "2100-01-01"
+    C: Daimler AG
+    F: "2018-10-01"
+    P: cncf/dex
+    R: C
+  I:
+  - M: ingo pansa
+    S: github
+    U: ingopansa
+  B: 0
+  U: ingo pansa
+- E: ingo.brenckmann!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2016-02-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ingo.brenckmann!sap.com
+    M: ingo-bre
+    S: slack
+    U: ingo-bre
+  B: 0
+  U: ingo-bre
+- E: inna.sosunova.mail!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Individual
+    F: "2010-01-01"
+    P: project-eve
+    R: C
+  I:
+  - E: inna.sosunova.mail!gmail.com
+    M: inna.sosunova.mail
+    S: groupsio
+  - E: inna.sosunova.mail!gmail.com
+    M: Инна Сосунова
+    S: groupsio
+  B: 0
+  U: inna.sosunova.mail
+- R:
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  I:
+  - M: insomniac
+    S: github
+    U: insomniacslk
+  B: 0
+  U: insomniac
+- E: insomniacslk!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  I:
+  - E: insomniacslk!users.noreply.github.com
+    M: insomniac
+    S: git
+  B: 0
+  U: insomniac
+- R:
+  - T: "2100-01-01"
+    C: PoleX
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: PoleX
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: PoleX
+    F: "1900-01-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2100-01-01"
+    C: PoleX
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  I:
+  - M: int32bit
+    S: github
+    U: int32bit
+  B: 0
+  U: int32bit
 - E: krystism!gmail.com
   R:
   - T: "2100-01-01"
@@ -4067,6 +4354,10 @@ P:
     P: fdio
     R: C
   I:
+  - E: actionmystique!gmail.com
+    M: Jean-Christophe Manciot
+    S: github
+    U: jean-christophe-manciot
   - E: manciot.jeanchristophe!gmail.com
     M: jean-christophe Manciot
     S: groupsio
@@ -6242,6 +6533,11 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "2018-10-22"
     P: lfai/forestflow
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2018-10-22"
+    P: lfai/ludwig
     R: C
   I:
   - M: Jessica Kim
@@ -14960,6 +15256,28 @@ P:
     S: git
   B: 0
   U: kelseyevans
+- C: US
+  E: kelvinjin!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - E: kelvinjin!google.com
+    M: Kelvin Jin
+    S: git
+  - E: kelvinjin!google.com
+    M: kelvinjin
+    S: git
+  B: 0
+  U: kelvinjin
 - E: Qingqing.Wang!amd.com
   R:
   - T: "2100-01-01"
@@ -29214,6 +29532,23 @@ P:
     S: git
   B: 0
   U: marinamoore
+- E: mario.briggs!in.ibm.com
+  R:
+  - T: "2015-07-01"
+    C: IBM
+    F: "2015-04-30"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: mario.briggs!in.ibm.com
+    M: mariobriggs
+    S: git
+  - E: mario.briggs!in.ibm.com
+    M: Mario Briggs
+    S: github
+    U: mariobriggs
+  B: 0
+  U: mariobriggs
 - E: bakerni!us.ibm.com
   R:
   - T: "2100-01-01"
@@ -31127,6 +31462,69 @@ P:
   B: 0
   U: mattm
 - C: US
+  E: matt!ydekproductions.com
+  R:
+  - T: "2015-09-15"
+    C: YDEK Productions
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2015-09-15"
+    C: YDEK Productions
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-09-15"
+    C: YDEK Productions
+    F: "1900-01-01"
+    P: intoto
+    R: C
+  - T: "2015-09-15"
+    C: YDEK Productions
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2015-09-15"
+    C: YDEK Productions
+    F: "1900-01-01"
+    P: stackstorm
+    R: C
+  - T: "2100-01-01"
+    C: Sentry
+    F: "2015-09-15"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Sentry
+    F: "2015-09-15"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Sentry
+    F: "2015-09-15"
+    P: intoto
+    R: C
+  - T: "2100-01-01"
+    C: Sentry
+    F: "2015-09-15"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Sentry
+    F: "2015-09-15"
+    P: stackstorm
+    R: C
+  S: male
+  I:
+  - E: matt!ydekproductions.com
+    M: Matt Robenolt
+    S: git
+  - E: matt!ydekproductions.com
+    M: mattrobenolt
+    S: git
+  B: 0
+  U: mattrobenolt
+- C: US
   R:
   - T: "2100-01-01"
     C: E*TRADE
@@ -31450,6 +31848,9 @@ P:
   I:
   - E: max!laverse.net
     M: Max Laverse
+    S: git
+  - E: max!laverse.net
+    M: max.laverse
     S: git
   - E: max!laverse.net
     M: maxlaverse
@@ -62553,384 +62954,3 @@ P:
     S: groupsio
   B: 0
   U: sankar
-- R:
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: santachopa
-    S: github
-    U: santachopa
-  B: 0
-  U: santachopa
-- E: santhosh.yeduguri!emc.com
-  R:
-  - T: "2016-03-16"
-    C: EMC
-    F: "2016-03-03"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: santhosh.yeduguri!emc.com
-    M: santhosh
-    S: slack
-    U: santhosh
-  B: 0
-  U: santhosh
-- E: santiago.diaz!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-10-20"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: santiago.diaz!us.ibm.com
-    M: santidiaz
-    S: slack
-    U: santidiaz
-  B: 0
-  U: santidiaz
-- C: US
-  E: santosh.shilimkar!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: santosh.shilimkar!oracle.com
-    M: Santosh Shilimkar
-    S: git
-  - E: santosh.shilimkar!oracle.com
-    M: santosh.shilimkar
-    S: git
-  B: 0
-  U: santosh.shilimkar
-- E: santosh.shukla!caviumnetworks.com
-  R:
-  - T: "2018-10-29"
-    C: Cavium
-    F: "2016-05-10"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2018-10-29"
-    C: Cavium
-    F: "2016-05-10"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-10-29"
-    C: Cavium
-    F: "2016-07-21"
-    P: dpdk-draft
-    R: C
-  - T: "2018-10-29"
-    C: Cavium
-    F: "2016-07-21"
-    P: dpdk-next
-    R: C
-  I:
-  - E: santosh.shukla!caviumnetworks.com
-    M: Santosh Shukla
-    S: git
-  - E: santosh.shukla!caviumnetworks.com
-    M: Santosh Shukla
-    S: pipermail
-  - E: santosh.shukla!caviumnetworks.com
-    M: santosh.shukla
-    S: pipermail
-  - E: santosh.shukla!caviumnetworks.com
-    M: santosh
-    S: pipermail
-  B: 0
-  U: santosh.shukla
-- E: santosu.tapamagaru.ev!hco.ntt.co.jp
-  R:
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "2019-12-06"
-    P: onap
-    R: C
-  I:
-  - E: santosu.tapamagaru.ev!hco.ntt.co.jp
-    S: groupsio
-  - E: santosu.tapamagaru.ev!hco.ntt.co.jp
-    M: santosu.tapamagaru.ev
-    S: groupsio
-  B: 0
-  U: santosu.tapamagaru.ev
-- R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: helm
-    R: C
-  I:
-  - S: github
-    U: sanverm2
-  B: 0
-  U: sanverm2
-- E: sanverm2!in.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: helm
-    R: C
-  I:
-  - E: sanverm2!in.ibm.com
-    M: sanverm2
-    S: git
-  B: 0
-  U: sanverm2
-- E: sbstrope!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-07-08"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: sbstrope!us.ibm.com
-    M: sara
-    S: slack
-    U: sara
-  B: 0
-  U: sara
-- E: sarabala1979!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Intuit, Inc.
-    F: "1900-01-01"
-    P: argo
-    R: C
-  I:
-  - E: sarabala1979!users.noreply.github.com
-    M: sarabala1979
-    S: git
-  B: 0
-  U: sarabala1979
-- E: sarah.novotny!gmail.com
-  R:
-  - T: "2015-11-01"
-    C: Nginx
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2015-11-01"
-    C: Nginx
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2015-11-01"
-    C: Nginx
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2015-11-01"
-    C: Nginx
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-11-01"
-    C: Nginx
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2015-11-01"
-    C: Nginx
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2015-11-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2015-11-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2015-11-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2015-11-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2015-11-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2015-11-01"
-    P: openebs
-    R: C
-  I:
-  - E: sarah.novotny!gmail.com
-    M: sarahnovotny
-    S: git
-  - E: sarah.novotny!gmail.com
-    S: github
-    U: sarahnovotny
-  B: 0
-  U: sarahnovotny
-- E: y.yakkala!tcs.com
-  R:
-  - T: "2016-11-18"
-    C: Tata Consultancy Services
-    F: "2016-01-01"
-    P: odl
-    R: C
-  I:
-  - E: y.yakkala!tcs.com
-    M: sarvani
-    S: git
-  - E: y.yakkala!tcs.com
-    M: Yakkala  Yakkala
-    S: pipermail
-  B: 0
-  U: sarvani
-- E: hylke.visser!sas.com
-  R:
-  - T: "2100-01-01"
-    C: SAS
-    F: "2016-08-17"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: hylke.visser!sas.com
-    M: sas_hylkev
-    S: slack
-    U: sas_hylkev
-  B: 0
-  U: sas_hylkev
-- R:
-  - T: "2100-01-01"
-    C: Symphony LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Symphony LLC
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - S: github
-    U: sashasinkevich
-  B: 0
-  U: sashasinkevich
-- E: alexander.zubev!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "2017-03-14"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: alexander.zubev!sap.com
-    M: sasho
-    S: slack
-    U: sasho
-  B: 0
-  U: sasho
-- E: saswat.kumar.sahoo!accenture.com
-  R:
-  - T: "2100-01-01"
-    C: Accenture
-    F: "2015-11-26"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: saswat.kumar.sahoo!accenture.com
-    M: saswat kumar sahoo
-    S: github
-    U: saswatkumarsahoo
-  - E: saswat.kumar.sahoo!accenture.com
-    M: saswat sahoo
-    S: groupsio
-  - E: saswat.kumar.sahoo!accenture.com
-    M: saswat sahoo
-    S: mbox
-  B: 0
-  U: saswat kumar sahoo
-- E: satag.isgm2!gmail.com
-  R:
-  - T: "2016-05-01"
-    C: NEC Corporation
-    F: "2015-02-01"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: satag.isgm2!gmail.com
-    M: sat aung
-    S: jira
-    U: sataung
-  B: 0
-  U: sat aung
-- E: satbir.singh!mayadata.io
-  R:
-  - T: "2017-02-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2017-12-01"
-    C: Dell EMC
-    F: "2017-02-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: MayaData
-    F: "2017-12-01"
-    P: openebs
-    R: C
-  I:
-  - E: satbir.singh!mayadata.io
-    M: satbir
-    S: git
-  B: 0
-  U: satbir
-- E: s.a.t.e.3.ths!gmail.com
-  R:
-  - T: "2017-10-06"
-    C: Soramitsu
-    F: "2014-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2017-10-06"
-    C: Soramitsu
-    F: "2014-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2019-01-22"
-    C: Soramitsu
-    F: "2014-12-31"
-    P: iroha
-    R: C
-  I:
-  - E: s.a.t.e.3.ths!gmail.com
-    M: satellitex
-    S: git
-  - M: satellitex
-    S: github
-    U: satellitex
-  B: 0
-  U: satellitex

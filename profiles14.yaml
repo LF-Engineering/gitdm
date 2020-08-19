@@ -1,4 +1,531 @@
 P:
+- C: GB
+  E: michael.hausenblas!gmail.com
+  R:
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: chubaofs
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2015-04-01"
+    C: MapR Technologies
+    F: "1900-01-01"
+    P: spiffe
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: chubaofs
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: cncf
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: container-networking-interface
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: cri-o
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: fluentd
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: linkerd
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: openpolicyagent
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: prometheus
+    R: C
+  - T: "2017-03-01"
+    C: Mesosphere
+    F: "2015-04-01"
+    P: spiffe
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: chubaofs
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: cncf
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: container-networking-interface
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: cri-o
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: fluentd
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: k8s
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: linkerd
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: openpolicyagent
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: prometheus
+    R: C
+  - T: "2019-02-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    P: spiffe
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2017-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: chubaofs
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    P: spiffe
+    R: C
+  S: male
+  I:
+  - E: michael.hausenblas!gmail.com
+    M: Michael Hausenblas
+    S: git
+  - E: michael.hausenblas!gmail.com
+    M: Michael Hausenblas
+    S: github
+    U: mhausenblas
+  - E: michael.hausenblas!gmail.com
+    M: Michael Hausenblas
+    S: slack
+    U: michael.hausenblas
+  B: 0
+  U: Michael Hausenblas
+- R:
+  - T: "2014-04-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2015-11-01"
+    C: UtiliPro
+    F: "2014-04-01"
+    R: C
+  - T: "2015-11-01"
+    C: UtiliPro
+    F: "2014-04-01"
+    P: vitess
+    R: C
+  - T: "2015-11-02"
+    C: Oliver & Spence
+    F: "2015-11-01"
+    R: C
+  - T: "2015-11-02"
+    C: Oliver & Spence
+    F: "2015-11-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: SharpSpring
+    F: "2015-11-02"
+    R: C
+  - T: "2100-01-01"
+    C: SharpSpring
+    F: "2015-11-02"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - M: Michael Hebelka
+    S: github
+    U: Santiclause
+  B: 0
+  U: Michael Hebelka
+- E: michael.hebelka!sharpspring.com
+  R:
+  - T: "2014-04-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2015-11-01"
+    C: UtiliPro
+    F: "2014-04-01"
+    R: C
+  - T: "2015-11-01"
+    C: UtiliPro
+    F: "2014-04-01"
+    P: vitess
+    R: C
+  - T: "2015-11-02"
+    C: Oliver & Spence
+    F: "2015-11-01"
+    R: C
+  - T: "2015-11-02"
+    C: Oliver & Spence
+    F: "2015-11-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: SharpSpring
+    F: "2015-11-02"
+    R: C
+  - T: "2100-01-01"
+    C: SharpSpring
+    F: "2015-11-02"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: michael.hebelka!sharpspring.com
+    M: Michael Hebelka
+    S: git
+  B: 0
+  U: Michael Hebelka
+- E: mhenkel!juniper.net
+  R:
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2017-07-26"
+    C: Juniper Networks, Inc.
+    F: "2016-07-01"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "2017-07-19"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - M: Michael Henkel
+    S: confluence
+    U: mhenkel
+  - E: mhenkel!juniper.net
+    M: Michael Henkel
+    S: git
+  - E: michael.henkel!gmail.com
+    M: Michael Henkel
+    S: git
+  - E: mhenkel!juniper.net
+    M: michaelhenkel
+    S: git
+  - E: mhenkel!juniper.net
+    M: Michael  Henkel
+    S: jira
+    U: mhenkel
+  - E: michael.henkel!gmail.com
+    M: Michael Henkel
+    S: jira
+    U: mhenkel
+  B: 0
+  U: Michael Henkel
+- C: DE
+  R:
+  - T: "2018-10-19"
+    C: Analog Devices
+    F: "2018-07-06"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Michael Hennerich
+    S: github
+    U: mhennerich
+  B: 0
+  U: Michael Hennerich
+- C: DE
+  E: michael.hennerich!analog.com
+  R:
+  - T: "2018-10-19"
+    C: Analog Devices
+    F: "2018-07-09"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: Michael.Hennerich!analog.com
+    M: Hennerich, Michael
+    S: git
+  - E: michael.hennerich!analog.com
+    M: Michael Hennerich
+    S: git
+  B: 0
+  U: Michael Hennerich
+- E: michael.henretty!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Mozilla
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  I:
+  - E: michael.henretty!gmail.com
+    M: Michael Henretty
+    S: git
+  B: 0
+  U: Michael Henretty
+- E: henriksen.mike!gmail.com
+  R:
+  - T: "2014-10-01"
+    C: Storiant
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2016-05-01"
+    C: SilverSky
+    F: "2014-10-01"
+    P: kubevirt
+    R: C
+  - T: "2017-01-01"
+    C: Wayfair
+    F: "2016-05-01"
+    P: kubevirt
+    R: C
+  - T: "2018-06-01"
+    C: Edgewise Networks
+    F: "2017-01-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2018-06-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: henriksen.mike!gmail.com
+    M: Michael Henriksen
+    S: github
+    U: mhenriks
+  B: 0
+  U: Michael Henriksen
+- E: mhenriks!redhat.com
+  R:
+  - T: "2014-10-01"
+    C: Storiant
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2016-05-01"
+    C: SilverSky
+    F: "2014-10-01"
+    P: kubevirt
+    R: C
+  - T: "2017-01-01"
+    C: Wayfair
+    F: "2016-05-01"
+    P: kubevirt
+    R: C
+  - T: "2018-06-01"
+    C: Edgewise Networks
+    F: "2017-01-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2018-06-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: mhenriks!redhat.com
+    M: Michael Henriksen
+    S: git
+  B: 0
+  U: Michael Henriksen
+- E: michael!mherman.org
+  R:
+  - T: "2018-08-01"
+    C: GoScrape
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2019-01-01"
+    C: Thinkful
+    F: "2018-08-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Eldarion
+    F: "2019-01-01"
+    P: fluentd
+    R: C
+  I:
+  - E: michael!mherman.org
+    M: Michael Herman
+    S: github
+    U: mjhea0
+  B: 0
+  U: Michael Herman
+- E: mhernandez!marvell.com
+  R:
+  - T: "2100-01-01"
+    C: Marvell
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mhernandez!marvell.com
+    M: Michael Hernandez
+    S: git
+  B: 0
+  U: Michael Hernandez
+- E: michael.hernandez!cavium.com
+  R:
+  - T: "2100-01-01"
+    C: Cavium
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: michael.hernandez!cavium.com
+    M: Michael Hernandez
+    S: git
+  B: 0
+  U: Michael Hernandez
 - C: US
   E: mlhess!umich.edu
   R:
@@ -23428,6 +23955,9 @@ P:
   I:
   - E: mikeal.rogers!gmail.com
     M: Mikeal Rogers
+    S: git
+  - E: mikeal.rogers!gmail.com
+    M: Mikeal Rogers
     S: github
     U: mikeal
   B: 0
@@ -28916,6 +29446,9 @@ P:
     R: C
   S: male
   I:
+  - E: mikisabate!gmail.com
+    M: Miquel Sabaté Solà
+    S: git
   - E: mikisabate!gmail.com
     M: Miquel Sabaté
     S: git
@@ -43317,6 +43850,9 @@ P:
   I:
   - E: musahamwala!icloud.com
     M: Musa Hamwala II
+    S: git
+  - E: musahamwala!icloud.com
+    M: Musa Hamwala II
     S: github
     U: mhamwala
   B: 0
@@ -44378,6 +44914,11 @@ P:
 - C: KR
   E: myungjoo.ham!samsung.com
   R:
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2009-09-01"
+    P: lfai/ludwig
+    R: C
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2016-04-01"
@@ -60576,6 +61117,9 @@ P:
   I:
   - E: nicholas!nicholaswyoung.com
     M: Nicholas Young
+    S: git
+  - E: nicholas!nicholaswyoung.com
+    M: Nicholas Young
     S: github
     U: nicholaswyoung
   B: 0
@@ -61370,288 +61914,3 @@ P:
     U: drozd
   B: 0
   U: Nick Drozd
-- C: GB
-  E: nick!shmanahar.org
-  R:
-  - T: "2016-07-01"
-    C: ITDev
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Roke
-    F: "2016-07-01"
-    R: C
-  S: male
-  I:
-  - E: nick!shmanahar.org
-    M: Nick Dyer
-    S: git
-  B: 0
-  U: Nick Dyer
-- C: GB
-  E: nick.dyer!itdev.co.uk
-  R:
-  - T: "2016-07-01"
-    C: ITDev
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Roke
-    F: "2016-07-01"
-    R: C
-  S: male
-  I:
-  - E: nick.dyer!itdev.co.uk
-    M: Nick Dyer
-    S: git
-  B: 0
-  U: Nick Dyer
-- C: US
-  E: ncethier!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Hashicorp
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Hashicorp
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: Hashicorp
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-01-13"
-    C: Hashicorp
-    F: "2018-09-07"
-    R: C
-  S: male
-  I:
-  - E: ncethier!gmail.com
-    M: Nick Ethier
-    S: github
-    U: nickethier
-  B: 0
-  U: Nick Ethier
-- C: US
-  E: nethier!hashicorp.com
-  R:
-  - T: "2100-01-01"
-    C: Hashicorp
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Hashicorp
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Hashicorp
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  S: male
-  I:
-  - E: nethier!hashicorp.com
-    M: Nick Ethier
-    S: git
-  B: 0
-  U: Nick Ethier
-- E: nicholasewalt!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: nicholasewalt!google.com
-    M: Nick Ewalt
-    S: git
-  B: 0
-  U: Nick Ewalt
-- E: fitzgen!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: tikv
-    R: C
-  I:
-  - E: fitzgen!gmail.com
-    M: Nick Fitzgerald
-    S: git
-  B: 0
-  U: Nick Fitzgerald
-- C: JP
-  R:
-  - T: "2100-01-01"
-    C: Signal Sciences
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Signal Sciences
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  I:
-  - M: Nick Galbreath
-    S: github
-    U: client9
-  B: 0
-  U: Nick Galbreath
-- C: JP
-  E: nickg!client9.com
-  R:
-  - T: "2100-01-01"
-    C: Signal Sciences
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Signal Sciences
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  I:
-  - E: nickg!client9.com
-    M: Nick Galbreath
-    S: git
-  B: 0
-  U: Nick Galbreath
-- E: nick.gaski!consensys.net
-  R:
-  - T: "2018-01-01"
-    C: IBM
-    F: "2015-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-01-01"
-    C: IBM
-    F: "2015-01-01"
-    P: fabric
-    R: C
-  - T: "2018-01-01"
-    C: IBM
-    F: "2015-01-01"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2018-01-01"
-    C: IBM
-    F: "2015-01-01"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2018-01-01"
-    C: IBM
-    F: "2015-01-01"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2018-01-01"
-    C: IBM
-    F: "2015-01-01"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: Kaleido
-    F: "2018-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Kaleido
-    F: "2018-01-01"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: Kaleido
-    F: "2018-01-01"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2100-01-01"
-    C: Kaleido
-    F: "2018-01-01"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2100-01-01"
-    C: Kaleido
-    F: "2018-01-01"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: Kaleido
-    F: "2018-01-01"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  I:
-  - E: ngaski!us.ibm.com
-    M: Nick Gaski
-    S: gerrit
-  - E: nick.gaski!consensys.net
-    M: Nick Gaski
-    S: gerrit
-  - E: nickgaski!gmail.com
-    M: Nick Gaski
-    S: gerrit
-    U: nickgaski
-  - E: ngaski!us.ibm.com
-    M: Nick Gaski
-    S: git
-  - E: nickgaski!gmail.com
-    M: Nick Gaski
-    S: git
-  - E: nick.gaski!consensys.net
-    M: Nick Gaski
-    S: github
-    U: nickgaski
-  - M: Nick Gaski
-    S: jira
-    U: nickgaski
-  - E: ngaski!us.ibm.com
-    M: nickgaski
-    S: slack
-    U: nickgaski
-  B: 0
-  U: Nick Gaski
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: MeetSpace
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: MeetSpace
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  S: male
-  I:
-  - M: Nick Gauthier
-    S: github
-    U: ngauthier
-  B: 0
-  U: Nick Gauthier
-- C: US
-  E: ngauthier!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: MeetSpace
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: MeetSpace
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: MeetSpace
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  S: male
-  I:
-  - E: ngauthier!gmail.com
-    M: Nick Gauthier
-    S: git
-  B: 0
-  U: Nick Gauthier

@@ -1,4 +1,423 @@
 P:
+- E: glenn.block!gmail.com
+  R:
+  - T: "2016-09-01"
+    C: Splunk
+    F: "1900-01-01"
+    R: C
+  - T: "2016-09-01"
+    C: Splunk
+    F: "1900-01-01"
+    P: cloudevents
+    R: C
+  - T: "2018-12-01"
+    C: Auth0
+    F: "2016-09-01"
+    R: C
+  - T: "2018-12-01"
+    C: Auth0
+    F: "2016-09-01"
+    P: cloudevents
+    R: C
+  - T: "2019-02-01"
+    C: Rubicon
+    F: "2018-12-01"
+    R: C
+  - T: "2019-02-01"
+    C: Rubicon
+    F: "2018-12-01"
+    P: cloudevents
+    R: C
+  - T: "2020-02-02"
+    C: DocuSign
+    F: "2019-02-01"
+    R: C
+  - T: "2020-02-02"
+    C: DocuSign
+    F: "2019-02-01"
+    P: cloudevents
+    R: C
+  - T: "2020-04-01"
+    C: ProductTank Bellevue
+    F: "2020-02-02"
+    R: C
+  - T: "2020-04-01"
+    C: ProductTank Bellevue
+    F: "2020-02-02"
+    P: cloudevents
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2020-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2020-04-01"
+    P: cloudevents
+    R: C
+  S: male
+  I:
+  - E: glenn.block!gmail.com
+    M: Glenn Block
+    S: git
+  - E: glenn.block!gmail.com
+    M: glennblock
+    S: git
+  - E: glenn.block!gmail.com
+    M: Glenn Block
+    S: github
+    U: glennblock
+  B: 0
+  U: Glenn Block
+- R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: kubeedge
+    R: C
+  I:
+  - M: Glenn Li
+    S: github
+    U: glenn-lg
+  B: 0
+  U: Glenn Li
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2011-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - M: Glenn Oppegard
+    S: git
+  - E: goppegard!pivotal.io
+    M: Glenn Oppegard
+    S: git
+  - E: goppegard!pivotallabs.com
+    M: Glenn Oppegard
+    S: git
+  - E: oppegard!gmail.com
+    M: Glenn Oppegard
+    S: git
+  - E: pair+glenn!pivotallabs.com
+    M: Glenn Oppegard
+    S: git
+  - E: pair+goppegard!pivotallabs.com
+    M: Glenn Oppegard
+    S: git
+  - E: pair+oppegard!pivotallabs.com
+    M: Glenn Oppegard
+    S: git
+  - E: oppegard!gmail.com
+    M: oppegard
+    S: git
+  - M: Glenn Oppegard
+    S: github
+    U: oppegard
+  - M: Glenn Oppegard
+    S: meetup
+    U: "25230952"
+  - E: goppegard!pivotal.io
+    M: Glenn Oppegard
+    S: slack
+    U: goppegard
+  B: 0
+  U: Glenn Oppegard
+- E: grenfro!pivotal.io
+  R:
+  - T: "2016-09-14"
+    C: Pivotal
+    F: "2015-08-13"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: grenfro!pivotal.io
+    M: Glenn Renfro
+    S: git
+  - E: grenfro!pivotal.io
+    M: Glenn Renfro
+    S: github
+    U: cppwfs
+  - E: grenfro!pivotal.io
+    M: Glenn Renfro
+    S: slack
+    U: grenfro
+  B: 0
+  U: Glenn Renfro
+- C: AU
+  R:
+  - T: "2100-01-01"
+    C: Codeacious
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Codeacious
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Glenn Schmidt
+    S: github
+    U: glennschmidt
+  B: 0
+  U: Glenn Schmidt
+- E: Glenn.seiler!windriver.com
+  R:
+  - T: "1990-12-01"
+    C: Texas Instruments Incorporated
+    F: "1984-05-01"
+    P: akraino
+    R: C
+  - T: "1990-12-01"
+    C: Texas Instruments Incorporated
+    F: "1984-05-01"
+    P: lfn-cntt
+    R: C
+  - T: "2000-06-01"
+    C: Santa Cruz Operation
+    F: "1991-01-01"
+    P: lfn-cntt
+    R: C
+  - T: "2001-05-01"
+    C: BSDi
+    F: "2000-06-01"
+    P: lfn-cntt
+    R: C
+  - T: "2005-08-01"
+    C: MontaVista Software, LLC
+    F: "2001-06-01"
+    P: akraino
+    R: C
+  - T: "2005-08-05"
+    C: MontaVista Software, LLC
+    F: "2001-06-01"
+    P: lfn-cntt
+    R: C
+  - T: "2020-07-01"
+    C: Wind River Systems, Inc.
+    F: "2005-08-01"
+    P: lfn-cntt
+    R: C
+  - T: "2100-01-01"
+    C: Wind River Systems, Inc.
+    F: "2005-08-01"
+    P: akraino
+    R: C
+  - T: "2018-03-24"
+    C: Wind River Systems, Inc.
+    F: "2014-10-02"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Alaska and Beyond
+    F: "2020-07-01"
+    P: lfn-cntt
+    R: C
+  I:
+  - M: Glenn Seiler
+    S: confluence
+    U: gseiler
+  - E: glenn.seiler!windriver.com
+    M: Glenn Seiler
+    S: confluence
+    U: gseiler
+  - E: glenn.seiler!windriver.com
+    M: Seiler, Glenn
+    S: gmane
+  - E: Glenn.seiler!windriver.com
+    M: Glenn Seiler
+    S: groupsio
+  - E: glenn.seiler!windriver.com
+    M: Seiler, Glenn
+    S: groupsio
+  - E: glenn.seiler!windriver.com
+    M: Seiler, Glenn
+    S: linux-foundation:mls
+    U: glenn.seiler
+  - E: glenn.seiler!windriver.com
+    M: Seiler, Glenn
+    S: mbox
+  - E: glenn.seiler!windriver.com
+    M: Seiler, Glenn
+    S: pipermail
+  B: 0
+  U: Glenn Seiler
+- C: AU
+  R:
+  - T: "2100-01-01"
+    C: Section
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Section
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Section
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Glenn Slaven
+    S: github
+    U: glennslaven
+  B: 0
+  U: Glenn Slaven
+- C: AU
+  E: glenn!section.io
+  R:
+  - T: "2100-01-01"
+    C: Section
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Section
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: glenn!section.io
+    M: Glenn Slaven
+    S: git
+  B: 0
+  U: Glenn Slaven
+- E: gstreiff!neteffect.com
+  R:
+  - T: "2100-01-01"
+    C: neteffect technologies
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: gstreiff!neteffect.com
+    M: Glenn Streiff
+    S: git
+  B: 0
+  U: Glenn Streiff
+- C: US
+  E: zzyyyww9595!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  S: male
+  I:
+  - E: zzyyyww9595!gmail.com
+    M: Glitter
+    S: git
+  - E: zzyyyww9595!gmail.com
+    M: Glitter
+    S: github
+    U: GlitterIsMe
+  B: 0
+  U: Glitter
+- C: DE
+  E: markus.padourek!ecosia.org
+  R:
+  - T: "2015-05-01"
+    C: Artificial Labs
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-05-01"
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-06-01"
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2018-02-01"
+    C: Hufsy
+    F: "2016-12-01"
+    R: C
+  - T: "2018-12-01"
+    C: Hufsy
+    F: "2016-12-01"
+    R: C
+  - T: "2018-12-01"
+    C: Hufsy
+    F: "2016-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: markus.padourek!ecosia.org
+    M: Globegitter
+    S: git
+  - E: markus.padourek!ecosia.org
+    M: Markus Padourek
+    S: git
+  B: 0
+  U: Globegitter
+- E: rg9975!att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2020-04-15"
+    P: onap
+    R: C
+  I:
+  - E: rg9975!att.com
+    M: Glover, Rene (rg9975)
+    S: gerrit
+  B: 0
+  U: Glover, Rene (rg9975)
+- E: rene.glover!att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "1900-01-01"
+    P: onap
+    R: C
+  I:
+  - E: rene.glover!att.com
+    M: Glover, Rene
+    S: git
+  B: 0
+  U: Glover, Rene
 - R:
   - T: "2100-01-01"
     C: Pivotal
@@ -7217,6 +7636,9 @@ P:
   I:
   - E: gregersrygg!gmail.com
     M: Gregers Gram Rygg
+    S: git
+  - E: gregersrygg!gmail.com
+    M: Gregers Gram Rygg
     S: github
     U: gregersrygg
   B: 0
@@ -13584,6 +14006,10 @@ P:
   - E: rauchg!gmail.com
     M: Guillermo Rauch
     S: git
+  - E: rauchg!gmail.com
+    M: Guillermo Rauch
+    S: github
+    U: rauchg
   B: 0
   U: Guillermo Rauch
 - R:
@@ -38301,6 +38727,10 @@ P:
     M: Hiroki Shirokura
     S: git
   - E: slank.dev!gmail.com
+    M: Hiroki SHIROKURA
+    S: github
+    U: slankdev
+  - E: slank.dev!gmail.com
     M: Hiroki Shirokura
     S: groupsio
   - E: slank.dev!gmail.com
@@ -46411,6 +46841,9 @@ P:
   I:
   - E: hunter!hunterloftis.com
     M: Hunter Loftis
+    S: git
+  - E: hunter!hunterloftis.com
+    M: hunterloftis
     S: git
   - E: hunter!hunterloftis.com
     M: Hunter Loftis
@@ -61498,391 +61931,3 @@ P:
     U: IARUMUGH
   B: 0
   U: Indhira Arumughan
-- E: indirajithv!gmail.com
-  R:
-  - T: "2014-11-30"
-    C: Truecaller
-    F: "2013-10-31"
-    P: cello
-    R: C
-  - T: "2014-11-30"
-    C: Truecaller
-    F: "2013-10-31"
-    P: fabric
-    R: C
-  - T: "2014-11-30"
-    C: Truecaller
-    F: "2013-10-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2016-04-30"
-    C: Ecode Networks
-    F: "2015-12-31"
-    P: cello
-    R: C
-  - T: "2016-04-30"
-    C: Ecode Networks
-    F: "2015-12-31"
-    P: fabric
-    R: C
-  - T: "2016-04-30"
-    C: Ecode Networks
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: University of Rome Tor Vergata
-    F: "2017-01-31"
-    P: cello
-    R: C
-  - T: "2100-01-01"
-    C: University of Rome Tor Vergata
-    F: "2017-01-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: University of Rome Tor Vergata
-    F: "2017-01-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2017-07-31"
-    C: Hyperledger
-    F: "2017-05-31"
-    P: cello
-    R: C
-  - T: "2017-07-31"
-    C: Hyperledger
-    F: "2017-05-31"
-    P: fabric
-    R: C
-  - T: "2017-07-31"
-    C: Hyperledger
-    F: "2017-05-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  I:
-  - E: indirajithv!gmail.com
-    M: indirajith vijai ananth
-    S: gerrit
-    U: indirajith
-  - E: indirajithv!gmail.com
-    M: indirajith
-    S: git
-  - E: indirajithv!gmail.com
-    M: indirajith
-    S: groupsio
-  - M: indirajith vijai ananth
-    S: jira
-    U: indirajith
-  - E: indirajithv!gmail.com
-    M: indirajith vijai ananth
-    S: jira
-    U: indirajith
-  B: 0
-  U: Indirajith Vijai Ananth
-- E: indra.harijono!huawei.com
-  R:
-  - T: "2018-08-15"
-    C: Huawei Technologies Co., Ltd.
-    F: "2018-05-09"
-    R: C
-  - T: "2018-08-15"
-    C: Huawei Technologies Co., Ltd.
-    F: "2018-05-09"
-    P: opnfv
-    R: C
-  I:
-  - E: indra.harijono!huawei.com
-    M: Indra Harijono
-    S: gerrit
-    U: iharijono
-  - E: indra.harijono!huawei.com
-    M: Indra Harijono
-    S: git
-  - E: indra.harijono!huawei.com
-    M: iharijono
-    S: git
-  - M: Indra Harijono
-    S: jira
-    U: iharijono
-  - E: indra.harijono!huawei.com
-    M: Indra Harijono
-    S: jira
-    U: iharijono
-  B: 0
-  U: Indra Harijono
-- C: IN
-  E: indradhanush.gupta!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  I:
-  - E: indradhanush.gupta!gmail.com
-    M: Indradhanush Gupta
-    S: git
-  - E: indradhanush.gupta!gmail.com
-    M: Indradhanush Gupta
-    S: github
-    U: indradhanush
-  B: 0
-  U: Indradhanush Gupta
-- E: ipoddar!us.ibm.com
-  R:
-  - T: "2016-04-03"
-    C: IBM
-    F: "2014-09-24"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: ipoddar!us.ibm.com
-    M: Indrajit Poddar
-    S: git
-  - E: ipoddar!us.ibm.com
-    M: Indrajit Poddar
-    S: github
-    U: ipoddar-ibm
-  B: 0
-  U: Indrajit Poddar
-- C: EE
-  E: indrek!urgas.eu
-  R:
-  - T: "2100-01-01"
-    C: Glia
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Glia
-    F: "1900-01-01"
-    P: opentelemetry
-    R: C
-  - T: "2100-01-01"
-    C: Glia
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  S: male
-  I:
-  - E: indrek!urgas.eu
-    M: Indrek Juhkam
-    S: git
-  - E: indrek!urgas.eu
-    M: Indrek Juhkam
-    S: github
-    U: indrekj
-  B: 0
-  U: Indrek Juhkam
-- E: indriku1!in.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2020-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2020-01-01"
-    P: onap
-    R: C
-  I:
-  - E: indriku1!in.ibm.com
-    M: Indrijeet Kumar
-    S: gerrit
-    U: Indrijeet2042
-  - E: indriku1!in.ibm.com
-    M: Indrijeet kumar
-    S: git
-  - M: Indrijeet Kumar
-    S: jira
-    U: Indrijeet2042
-  - E: indriku1!in.ibm.com
-    M: Indrijeet Kumar
-    S: jira
-    U: Indrijeet2042
-  B: 0
-  U: Indrijeet Kumar
-- C: US
-  E: prakash.indu!gmail.com
-  R:
-  - T: "2015-06-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2015-06-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "2015-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "2015-06-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: prakash.indu!gmail.com
-    M: Indu Prakash Chaube
-    S: github
-    U: ipchaube
-  B: 0
-  U: Indu Prakash Chaube
-- E: indumathi.buddi!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "1900-01-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: akraino
-    R: C
-  I:
-  - M: Indumathi Buddi
-    S: confluence
-    U: Indumathi
-  - E: indumathi.buddi!ericsson.com
-    M: Indumathi Buddi
-    S: confluence
-    U: Indumathi
-  - E: ib405q!att.com
-    M: Indumathi Buddi
-    S: gerrit
-    U: indubuddi24
-  - E: indumathi.buddi!ericsson.com
-    M: Indumathi Buddi
-    S: gerrit
-    U: Indumathi
-  - E: ib405q!att.com
-    M: Indumathi Buddi
-    S: git
-  - E: indumathi.buddi!ericsson.com
-    M: Indumathi
-    S: git
-  - E: ib405q!att.com
-    M: ib405q
-    S: git
-  - E: ib405q!att.com
-    M: Indumathi Buddi
-    S: jira
-    U: indubuddi24
-  - E: indumathi.buddi!ericsson.com
-    M: Indumathi Buddi
-    S: jira
-    U: Indumathi
-  B: 0
-  U: Indumathi Buddi
-- E: ivasilevskaya!mirantis.com
-  R:
-  - T: "2019-01-01"
-    C: Mirantis
-    F: "2014-10-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-02-01"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: ivasilevskaya!mirantis.com
-    M: Inessa Vasilevskaya
-    S: jira
-    U: ivasilevskaya
-  B: 0
-  U: Inessa Vasilevskaya
-- E: Ing-Wher_Chen!jabil.com
-  R:
-  - T: "2018-04-20"
-    C: Jabil
-    F: "2018-02-13"
-    P: onap
-    R: C
-  I:
-  - M: I Chen
-    S: confluence
-    U: ichen
-  - E: Ing-Wher_Chen!jabil.com
-    M: Ing-Wher Chen
-    S: groupsio
-  - E: ing-wher_chen!jabil.com
-    M: I Chen
-    S: jira
-    U: ichen
-  - E: Ing-Wher_Chen!jabil.com
-    M: Ing-Wher Chen
-    S: pipermail
-  B: 0
-  U: Ing-Wher Chen
-- E: ingi2.kim!samsung.com
-  R:
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ingi2.kim!samsung.com
-    M: Ingi Kim
-    S: git
-  B: 0
-  U: Ingi Kim
-- E: ingitk!amdocs.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2018-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2018-10-01"
-    P: onap
-    R: C
-  I:
-  - E: ingitk!amdocs.com
-    M: Ingit Kumar
-    S: gerrit
-    U: ingitk
-  - E: ingitk!amdocs.com
-    M: ingitk
-    S: git
-  - M: Ingit Kumar
-    S: jira
-    U: ingitk
-  - E: ingitk!amdocs.com
-    M: Ingit Kumar
-    S: jira
-    U: ingitk
-  B: 0
-  U: Ingit Kumar
-- E: ifranzki!linux.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ifranzki!linux.ibm.com
-    M: Ingo Franzki
-    S: git
-  B: 0
-  U: Ingo Franzki
