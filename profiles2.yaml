@@ -1,4 +1,168 @@
 P:
+- C: RU
+  E: zaa!ikato.com
+  R:
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-03-01"
+    C: Echo
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    P: containerd
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    P: fluentd
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    P: helm
+    R: C
+  - T: "2016-09-01"
+    C: MZ
+    F: "2015-03-01"
+    P: k8s
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    P: containerd
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    P: fluentd
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    P: helm
+    R: C
+  - T: "2017-05-01"
+    C: Restream
+    F: "2016-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: postmates
+    F: "2017-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: zaa!ikato.com
+    M: Alexander Zhuravlev
+    S: github
+    U: zaa
+  B: 0
+  U: Alexander Zhuravlev
+- C: RU
+  E: goldifit!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: JetBrains
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: JetBrains
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - E: goldifit!gmail.com
+    M: Alexander Zolotov
+    S: git
+  - E: goldifit!gmail.com
+    M: Alexander Zolotov
+    S: github
+    U: zolotov
+  B: 0
+  U: Alexander Zolotov
+- R:
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: Alexander
+    S: github
+    U: abij
+  B: 0
+  U: Alexander
+- R:
+  - T: "2014-05-01"
+    C: Parallels
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-07-01"
+    C: Odin
+    F: "2014-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: CFT
+    F: "2016-07-01"
+    P: helm
+    R: C
+  I:
+  - M: Alexander
+    S: github
+    U: alextuning
+  B: 0
+  U: Alexander
 - R:
   - T: "2100-01-01"
     C: NFLabs
@@ -824,7 +988,7 @@ P:
   U: Alexandre Belloni
 - R:
   - T: "2014-11-01"
-    C: OCTO
+    C: OCTO Technology
     F: "1900-01-01"
     P: etcd
     R: C
@@ -852,7 +1016,7 @@ P:
 - E: abeslic!abronan.com
   R:
   - T: "2014-11-01"
-    C: OCTO
+    C: OCTO Technology
     F: "1900-01-01"
     P: etcd
     R: C
@@ -885,7 +1049,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2014-11-01"
-    C: OCTO
+    C: OCTO Technology
     F: "1900-01-01"
     P: nats
     R: C
@@ -931,7 +1095,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2014-11-01"
-    C: OCTO
+    C: OCTO Technology
     F: "1900-01-01"
     P: nats
     R: C
@@ -1056,7 +1220,7 @@ P:
 - E: abrianik!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -1402,7 +1566,7 @@ P:
 - E: abrianik!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -1550,7 +1714,7 @@ P:
 - E: adcmenezes!gmail.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: nsm
     R: C
@@ -1760,7 +1924,7 @@ P:
 - E: alexandre.veyrenc!orange.com
   R:
   - T: "2100-01-01"
-    C: Orange
+    C: Orange S.A.
     F: "1900-01-01"
     P: helm
     R: C
@@ -2083,7 +2247,7 @@ P:
 - E: alexandrecetto!gmail.com
   R:
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: nats
     R: C
@@ -2865,17 +3029,17 @@ P:
   E: alexei.led!gmail.com
   R:
   - T: "2015-01-01"
-    C: NetApp
+    C: NetApp, Inc.
     F: "1900-01-01"
     P: brigade
     R: C
   - T: "2015-01-01"
-    C: NetApp
+    C: NetApp, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2015-01-01"
-    C: NetApp
+    C: NetApp, Inc.
     F: "1900-01-01"
     P: telepresence
     R: C
@@ -3293,12 +3457,12 @@ P:
     F: "2017-09-01"
     R: C
   - T: "2018-07-01"
-    C: Symantec
+    C: Symantec Corporation
     F: "2017-09-01"
     P: helm
     R: C
   - T: "2018-07-01"
-    C: Symantec
+    C: Symantec Corporation
     F: "2017-09-01"
     P: k8s
     R: C
@@ -3388,12 +3552,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: etcd
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -3411,7 +3575,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: fluxcd
     R: C
@@ -3708,7 +3872,7 @@ P:
   E: amakhalov!amakhalov-a02.vmware.com
   R:
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: nats
     R: C
@@ -5445,7 +5609,7 @@ P:
   U: Alexis de Talhouet
 - R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -6153,7 +6317,7 @@ P:
     F: "2014-06-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2014-06-01"
     P: rook
     R: C
@@ -6180,7 +6344,7 @@ P:
     F: "2014-06-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2014-06-01"
     P: rook
     R: C
@@ -6885,7 +7049,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: rook
     R: C
@@ -6951,7 +7115,7 @@ P:
 - E: aliok!apache.org
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/operatorframework
     R: C
@@ -6964,12 +7128,12 @@ P:
 - E: aliok!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cloudevents
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/operatorframework
     R: C
@@ -7244,12 +7408,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Orange
+    C: Orange S.A.
     F: "1900-01-01"
     P: cri-o
     R: C
   - T: "2100-01-01"
-    C: Orange
+    C: Orange S.A.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -7737,7 +7901,7 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: eBay
+    C: eBay, Inc.
     F: "2014-07-01"
     P: k8s
     R: C
@@ -8230,7 +8394,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Samsung SDS
+    C: Samsung Electronics Co. Ltd.
     F: "1900-01-01"
     P: helm
     R: C
@@ -8794,7 +8958,7 @@ P:
 - E: abonas!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -9088,7 +9252,7 @@ P:
 - E: avatar!arkane-systems.net
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: etcd
     R: C
@@ -9187,7 +9351,7 @@ P:
 - E: allain.legacy!icloud.com
   R:
   - T: "2100-01-01"
-    C: Wind River
+    C: Wind River Systems, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -9202,7 +9366,7 @@ P:
   E: allain.legacy!windriver.com
   R:
   - T: "2100-01-01"
-    C: Wind River
+    C: Wind River Systems, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -9682,17 +9846,17 @@ P:
     P: k8s
     R: C
   - T: "2016-01-01"
-    C: Zynga
+    C: Zynga, Inc.
     F: "2015-03-01"
     P: argo
     R: C
   - T: "2016-01-01"
-    C: Zynga
+    C: Zynga, Inc.
     F: "2015-03-01"
     P: helm
     R: C
   - T: "2016-01-01"
-    C: Zynga
+    C: Zynga, Inc.
     F: "2015-03-01"
     P: k8s
     R: C
@@ -10676,7 +10840,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Square
+    C: Square, Inc.
     F: "1900-01-01"
     P: spiffe
     R: C
@@ -10695,7 +10859,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Square
+    C: Square, Inc.
     F: "1900-01-01"
     P: spiffe
     R: C
@@ -10789,7 +10953,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: envoy
     R: C
@@ -10965,7 +11129,7 @@ P:
     P: kubevirt
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2019-03-01"
     P: kubevirt
     R: C
@@ -11012,7 +11176,7 @@ P:
 - E: alkaplan!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -11168,7 +11332,7 @@ P:
   E: altonf!vmware.com
   R:
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: cncf
     R: C
@@ -11973,17 +12137,17 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: cncf/operatorframework
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: openebs
     R: C
@@ -12058,12 +12222,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: cri-o
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: k8s
     R: C
@@ -12670,7 +12834,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: harbor
     R: C
@@ -13170,12 +13334,12 @@ P:
   U: Amarnath Valluri
 - R:
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: cncf/contour
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -13189,7 +13353,7 @@ P:
   E: vaa!vmware.com
   R:
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -13733,7 +13897,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2014-05-01"
-    C: Persistent
+    C: Persistent Systems
     F: "1900-01-01"
     P: k8s
     R: C
@@ -14158,17 +14322,17 @@ P:
   - T: "2015-06-01"
     C: Virtusa Corporation
     F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2015-06-01"
-    C: Virtusa
-    F: "1900-01-01"
     P: jaeger
     R: C
   - T: "2015-06-01"
-    C: Virtusa
+    C: Virtusa Corporation
     F: "1900-01-01"
     P: k8s
+    R: C
+  - T: "2015-06-01"
+    C: Virtusa Corporation
+    F: "1900-01-01"
+    P: stackstorm
     R: C
   - T: "2017-11-01"
     C: Pearson
@@ -14737,7 +14901,7 @@ P:
   U: Amir Caduri
 - R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -14750,7 +14914,7 @@ P:
 - E: amirfefer!gmail.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -15268,7 +15432,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: eBay
+    C: eBay, Inc.
     F: "1900-01-01"
     P: grpc
     R: C
@@ -15400,18 +15564,18 @@ P:
 - C: US
   R:
   - T: "2014-11-01"
-    C: TCS
+    C: Tata Consultancy Services
     F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2014-11-01"
-    C: TCS
-    F: "1900-01-01"
-    P: vitess
     R: C
   - T: "2014-11-01"
     C: Tata Consultancy Services
     F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2014-11-01"
+    C: Tata Consultancy Services
+    F: "1900-01-01"
+    P: vitess
     R: C
   - T: "2017-09-01"
     C: BatterCloud
@@ -15452,13 +15616,13 @@ P:
   E: adkhare!gmail.com
   R:
   - T: "2014-11-01"
-    C: TCS
+    C: Tata Consultancy Services
     F: "1900-01-01"
-    P: vitess
     R: C
   - T: "2014-11-01"
     C: Tata Consultancy Services
     F: "1900-01-01"
+    P: vitess
     R: C
   - T: "2017-09-01"
     C: BatterCloud
@@ -15501,7 +15665,7 @@ P:
   E: amit.krishnan!oracle.com
   R:
   - T: "2100-01-01"
-    C: Oracle
+    C: Oracle America Inc.
     F: "1900-01-01"
     P: containerd
     R: C
@@ -15808,7 +15972,7 @@ P:
   U: Amit Kumar Prasad
 - R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -15825,12 +15989,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: virtualkubelet
     R: C
@@ -15848,12 +16012,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -15871,12 +16035,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/cnigenie
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: container-networking-interface
     R: C
@@ -17550,7 +17714,7 @@ P:
     F: "2017-12-01"
     R: C
   - T: "2018-12-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-12-01"
     P: k8s
     R: C
@@ -17559,7 +17723,7 @@ P:
     F: "2018-12-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-01"
     P: k8s
     R: C
@@ -17653,7 +17817,7 @@ P:
     F: "2017-12-01"
     R: C
   - T: "2018-12-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-12-01"
     P: k8s
     R: C
@@ -17662,7 +17826,7 @@ P:
     F: "2018-12-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-01"
     P: k8s
     R: C
@@ -17756,7 +17920,7 @@ P:
     F: "2017-12-01"
     R: C
   - T: "2018-12-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-12-01"
     P: k8s
     R: C
@@ -17765,7 +17929,7 @@ P:
     F: "2018-12-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-01"
     P: k8s
     R: C
@@ -17831,7 +17995,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Oracle
+    C: Oracle America Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -18127,32 +18291,32 @@ P:
     P: thanos
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: brigade
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: cncf
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: cncf/volcano
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: falco
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: intoto
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: thanos
     R: C
@@ -18259,22 +18423,22 @@ P:
     P: thanos
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: cncf
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: cncf/contour
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: intoto
     R: C
   - T: "2019-04-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-08-01"
     P: thanos
     R: C
@@ -20570,12 +20734,12 @@ P:
     P: envoy
     R: C
   - T: "2020-06-01"
-    C: Orange
+    C: Orange S.A.
     F: "2020-02-01"
     P: cncf/kuma
     R: C
   - T: "2020-06-01"
-    C: Orange
+    C: Orange S.A.
     F: "2020-02-01"
     P: envoy
     R: C
@@ -21493,12 +21657,12 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2017-05-01"
     P: cncf/operatorframework
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2017-05-01"
     P: k8s
     R: C
@@ -24090,7 +24254,7 @@ P:
   U: Andrea Bernardo Ciddio
 - R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -24103,7 +24267,7 @@ P:
 - E: abologna!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -24160,17 +24324,17 @@ P:
   E: ancosen!gmail.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: etcd
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: nats
     R: C
@@ -25535,7 +25699,7 @@ P:
   U: Andrea Tabone
 - R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: strimzi
     R: C
@@ -25548,7 +25712,7 @@ P:
 - E: andrea.tarocchi!gmail.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: strimzi
     R: C
@@ -26291,7 +26455,7 @@ P:
     F: "2017-06-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2017-06-01"
     P: rook
     R: C
@@ -26319,7 +26483,7 @@ P:
     F: "2017-06-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2017-06-01"
     P: rook
     R: C
@@ -26634,12 +26798,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: k8s
     R: C
@@ -26674,17 +26838,17 @@ P:
   E: jaegerandi!gmail.com
   R:
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "1900-01-01"
     P: vitess
     R: C
@@ -26724,7 +26888,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Strato
+    C: STRATO AG
     F: "1900-01-01"
     P: etcd
     R: C
@@ -27155,17 +27319,17 @@ P:
 - E: anlutro!gmail.com
   R:
   - T: "2014-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: fluxcd
     R: C
   - T: "2014-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: intoto
     R: C
   - T: "2014-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -29583,7 +29747,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: helm
     R: C
@@ -29601,7 +29765,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: helm
     R: C
@@ -29783,7 +29947,7 @@ P:
     P: vitess
     R: C
   - T: "2019-11-01"
-    C: Square
+    C: Square, Inc.
     F: "2018-06-01"
     P: vitess
     R: C
@@ -29828,7 +29992,7 @@ P:
     F: "2018-06-01"
     R: C
   - T: "2019-11-01"
-    C: Square
+    C: Square, Inc.
     F: "2018-06-01"
     P: vitess
     R: C
@@ -29882,22 +30046,22 @@ P:
     F: "2015-05-01"
     R: C
   - T: "2015-11-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2015-05-01"
     P: cncf
     R: C
   - T: "2015-11-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2015-05-01"
     P: k8s
     R: C
   - T: "2015-11-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2015-05-01"
     P: spiffe
     R: C
   - T: "2015-11-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2015-05-01"
     P: spire
     R: C
@@ -30010,7 +30174,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: helm
     R: C
@@ -30351,12 +30515,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -30378,22 +30542,22 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/dex
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/operatorframework
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: openpolicyagent
     R: C
@@ -30651,7 +30815,7 @@ P:
   E: abutcher!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -31010,7 +31174,7 @@ P:
     P: prometheus
     R: C
   - T: "2018-04-01"
-    C: Rakuten
+    C: Rakuten, Inc.
     F: "2015-04-01"
     P: prometheus
     R: C
@@ -31121,12 +31285,12 @@ P:
     P: vitess
     R: C
   - T: "2019-08-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-06-01"
     P: cncf
     R: C
   - T: "2019-08-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-06-01"
     P: vitess
     R: C
@@ -31174,27 +31338,27 @@ P:
     P: rook
     R: C
   - T: "2019-08-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-06-01"
     P: cncf
     R: C
   - T: "2019-08-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-06-01"
     P: envoy
     R: C
   - T: "2019-08-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-06-01"
     P: etcd
     R: C
   - T: "2019-08-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-06-01"
     P: k8s
     R: C
   - T: "2019-08-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-06-01"
     P: rook
     R: C
@@ -33762,12 +33926,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2016-03-01"
-    C: Thales
+    C: Thales Group
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2016-03-01"
-    C: Thales
+    C: Thales Group
     F: "1900-01-01"
     P: k8s
     R: C
@@ -33814,7 +33978,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2016-03-01"
-    C: Thales
+    C: Thales Group
     F: "1900-01-01"
     P: k8s
     R: C
@@ -33951,17 +34115,17 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2016-09-01"
-    C: Yahoo
+    C: Yahoo! Inc.
     F: "1900-01-01"
     P: fluxcd
     R: C
   - T: "2016-09-01"
-    C: Yahoo
+    C: Yahoo! Inc.
     F: "1900-01-01"
     P: nats
     R: C
   - T: "2016-09-01"
-    C: Yahoo
+    C: Yahoo! Inc.
     F: "1900-01-01"
     P: notary
     R: C
@@ -33999,17 +34163,17 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2016-09-01"
-    C: Yahoo
+    C: Yahoo! Inc.
     F: "1900-01-01"
     P: containerd
     R: C
   - T: "2016-09-01"
-    C: Yahoo
+    C: Yahoo! Inc.
     F: "1900-01-01"
     P: notary
     R: C
   - T: "2016-09-01"
-    C: Yahoo
+    C: Yahoo! Inc.
     F: "1900-01-01"
     P: opentelemetry
     R: C
@@ -34696,12 +34860,12 @@ P:
   U: Andrew Jones
 - R:
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -34726,12 +34890,12 @@ P:
 - E: akeesler!vmware.com
   R:
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -34821,22 +34985,22 @@ P:
     P: baetyl
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-01-18"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-01-18"
     P: cncf/contour
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-01-18"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-01-18"
     P: vitess
     R: C
@@ -35063,7 +35227,7 @@ P:
     F: "2018-03-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-03-01"
     P: k8s
     R: C
@@ -35095,12 +35259,12 @@ P:
     F: "2018-03-01"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-03-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-03-01"
     P: k8s
     R: C
@@ -35119,7 +35283,7 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-03-01"
     P: k8s
     R: C
@@ -35493,7 +35657,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -36232,7 +36396,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -36246,7 +36410,7 @@ P:
 - E: aim!frobware.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -36265,7 +36429,7 @@ P:
 - E: amcdermo!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -37033,12 +37197,12 @@ P:
     F: "2017-05-31"
     R: C
   - T: "2019-08-02"
-    C: Samsung SDS
+    C: Samsung Electronics Co. Ltd.
     F: "2017-05-31"
     P: helm
     R: C
   - T: "2019-08-02"
-    C: Samsung SDS
+    C: Samsung Electronics Co. Ltd.
     F: "2017-05-31"
     P: k8s
     R: C
@@ -37086,7 +37250,7 @@ P:
     P: baetyl
     R: C
   - T: "2019-08-02"
-    C: Samsung SDS
+    C: Samsung Electronics Co. Ltd.
     F: "2017-05-31"
     P: k8s
     R: C
@@ -37258,7 +37422,7 @@ P:
   U: Andrew Perepechko
 - R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: prometheus
     R: C
@@ -37625,7 +37789,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Oracle
+    C: Oracle America Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -37644,7 +37808,7 @@ P:
   E: andrew.pryde!oracle.com
   R:
   - T: "2100-01-01"
-    C: Oracle
+    C: Oracle America Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -38373,7 +38537,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: rook
     R: C
@@ -38396,7 +38560,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: rook
     R: C
@@ -39004,27 +39168,27 @@ P:
     F: "2018-02-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-02-01"
     P: cncf/dex
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-02-01"
     P: etcd
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-02-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-02-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-02-01"
     P: prometheus
     R: C
@@ -39348,7 +39512,7 @@ P:
 - E: acsulli!users.noreply.github.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -39361,7 +39525,7 @@ P:
 - E: ansulliv!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -39416,17 +39580,17 @@ P:
     F: "2019-01-18"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-01-18"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-01-18"
     P: cncf/contour
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-01-18"
     P: k8s
     R: C
@@ -40004,7 +40168,7 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-06-13"
     P: k8s
     R: C
@@ -40083,22 +40247,22 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-06-13"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-06-13"
     P: cri-o
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-06-13"
     P: etcd
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-06-13"
     P: k8s
     R: C
@@ -41560,12 +41724,12 @@ P:
     F: "2017-01-01"
     R: C
   - T: "2100-01-01"
-    C: Ultimate
+    C: Ultimate Software
     F: "2017-01-01"
     P: fluentd
     R: C
   - T: "2100-01-01"
-    C: Ultimate
+    C: Ultimate Software
     F: "2017-01-01"
     P: k8s
     R: C
@@ -41640,17 +41804,17 @@ P:
     F: "2017-01-01"
     R: C
   - T: "2100-01-01"
-    C: Ultimate
+    C: Ultimate Software
     F: "2017-01-01"
     P: fluentd
     R: C
   - T: "2100-01-01"
-    C: Ultimate
+    C: Ultimate Software
     F: "2017-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Ultimate
+    C: Ultimate Software
     F: "2017-01-01"
     P: k8s
     R: C
@@ -41696,7 +41860,7 @@ P:
     F: "2017-01-01"
     R: C
   - T: "2100-01-01"
-    C: Ultimate
+    C: Ultimate Software
     F: "2017-01-01"
     P: k8s
     R: C
@@ -43737,12 +43901,12 @@ P:
 - E: neverov.andrey!gmail.com
   R:
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -46267,7 +46431,7 @@ P:
 - E: avalor!hotmail.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: jaeger
     R: C
@@ -46419,7 +46583,7 @@ P:
   U: Andy Boyett
 - R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -46432,7 +46596,7 @@ P:
 - E: abraren!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -46448,7 +46612,7 @@ P:
 - E: andybraren!gmail.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -46464,7 +46628,7 @@ P:
 - E: andybraren!users.noreply.github.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -47385,17 +47549,17 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: fluxcd
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -47404,17 +47568,17 @@ P:
     F: "2017-06-02"
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: fluxcd
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: k8s
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: kubevirt
     R: C
@@ -47427,17 +47591,17 @@ P:
     F: "2018-12-11"
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: fluxcd
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: kubevirt
     R: C
@@ -47464,32 +47628,32 @@ P:
     P: baetyl
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/kudo
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: coredns
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: vitess
     R: C
@@ -47499,32 +47663,32 @@ P:
     P: baetyl
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: cncf
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: cncf/kudo
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: container-networking-interface
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: coredns
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: k8s
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: vitess
     R: C
@@ -47534,32 +47698,32 @@ P:
     P: baetyl
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: cncf/kudo
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: container-networking-interface
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: coredns
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: vitess
     R: C
@@ -47579,12 +47743,12 @@ P:
     P: baetyl
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/kudo
     R: C
   - T: "2017-06-02"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -47594,12 +47758,12 @@ P:
     P: baetyl
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: cncf/kudo
     R: C
   - T: "2018-12-11"
-    C: VMware
+    C: VMware, Inc.
     F: "2017-06-02"
     P: k8s
     R: C
@@ -47609,12 +47773,12 @@ P:
     P: baetyl
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: cncf/kudo
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2018-12-11"
     P: k8s
     R: C
@@ -47739,7 +47903,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: openebs
     R: C
@@ -48462,7 +48626,7 @@ P:
 - E: andy.nihon!gmail.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -48475,7 +48639,7 @@ P:
 - E: anpicker!redhat.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -49412,12 +49576,12 @@ P:
     P: kubevirt
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-03-01"
     P: container-networking-interface
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-03-01"
     P: kubevirt
     R: C
@@ -49651,12 +49815,12 @@ P:
     P: helm
     R: C
   - T: "2019-05-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2016-05-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2019-05-01"
     P: helm
     R: C
@@ -50392,47 +50556,47 @@ P:
   - T: "2019-06-01"
     C: VMware, Inc.
     F: "2016-10-01"
-    P: yocto
-    R: C
-  - T: "2019-06-01"
-    C: VMware
-    F: "2016-10-01"
     P: container-networking-interface
     R: C
   - T: "2019-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2016-10-01"
     P: etcd
     R: C
   - T: "2019-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2016-10-01"
     P: helm
     R: C
   - T: "2019-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2016-10-01"
     P: k8s
     R: C
   - T: "2019-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2016-10-01"
     P: openebs
     R: C
   - T: "2019-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2016-10-01"
     P: prometheus
     R: C
   - T: "2019-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2016-10-01"
     P: rkt
     R: C
   - T: "2019-06-01"
-    C: VMware
+    C: VMware, Inc.
     F: "2016-10-01"
     P: rook
+    R: C
+  - T: "2019-06-01"
+    C: VMware, Inc.
+    F: "2016-10-01"
+    P: yocto
     R: C
   - T: "2100-01-01"
     C: Amazon
@@ -50551,7 +50715,7 @@ P:
     P: baetyl
     R: C
   - T: "2014-01-03"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -50591,7 +50755,7 @@ P:
     P: baetyl
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-09-01"
     P: k8s
     R: C
@@ -50610,17 +50774,17 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2014-01-03"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2014-01-03"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2014-01-03"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: vitess
     R: C
@@ -50686,17 +50850,17 @@ P:
     F: "2018-09-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-09-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-09-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-09-01"
     P: vitess
     R: C
@@ -51034,7 +51198,7 @@ P:
     P: cncf/operatorframework
     R: C
   - T: "2019-06-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2019-01-01"
     P: cncf/operatorframework
     R: C
@@ -51044,7 +51208,7 @@ P:
     P: cncf/operatorframework
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2019-09-01"
     P: cncf/operatorframework
     R: C
@@ -51141,25 +51305,25 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2014-09-01"
-    C: Spirent
+    C: Spirent Communications Inc
     F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-05-01"
-    C: Nuage Networks from Nokia
-    F: "2014-09-01"
     P: k8s
     R: C
   - T: "2019-05-01"
     C: Nuage Networks
     F: "2014-09-01"
     R: C
+  - T: "2019-05-01"
+    C: Nuage Networks
+    F: "2014-09-01"
+    P: k8s
+    R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2019-05-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2019-05-01"
     P: k8s
     R: C
@@ -51393,7 +51557,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Oracle
+    C: Oracle America Inc.
     F: "1900-01-01"
     P: helm
     R: C
@@ -51412,7 +51576,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Oracle
+    C: Oracle America Inc.
     F: "1900-01-01"
     P: helm
     R: C
@@ -54741,7 +54905,7 @@ P:
     P: kubevirt
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-01-01"
     P: kubevirt
     R: C
@@ -55137,7 +55301,7 @@ P:
     P: kubevirt
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2018-11-01"
     P: kubevirt
     R: C
@@ -55964,7 +56128,7 @@ P:
     P: k8s
     R: C
   - T: "2016-02-01"
-    C: Reliance
+    C: Reliance Industries Limited
     F: "2015-03-01"
     P: k8s
     R: C
@@ -56152,7 +56316,7 @@ P:
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2017-07-01"
     P: helm
     R: C
@@ -57499,12 +57663,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: etcd
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: grpc
     R: C
@@ -57523,7 +57687,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: etcd
     R: C
@@ -57542,7 +57706,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: etcd
     R: C
@@ -58877,27 +59041,27 @@ P:
     F: "2016-09-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-09-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-09-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-09-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-09-01"
     P: kubevirt
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-09-01"
     P: vitess
     R: C
@@ -58925,12 +59089,12 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-09-01"
     P: cncf/operatorframework
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2016-09-01"
     P: k8s
     R: C
@@ -61675,12 +61839,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: telepresence
     R: C
@@ -61695,17 +61859,17 @@ P:
   E: antonin!stefanutti.fr
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/operatorframework
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: kubevirt
     R: C
@@ -61724,7 +61888,7 @@ P:
 - E: astefanutti!users.noreply.github.com
   R:
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/operatorframework
     R: C
@@ -62045,32 +62209,32 @@ P:
     P: baetyl
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-09-01"
     P: containerd
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-09-01"
     P: cri-o
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-09-01"
     P: fluxcd
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-09-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-09-01"
     P: notary
     R: C
   - T: "2100-01-01"
-    C: Red Hat
+    C: Red Hat Inc.
     F: "2015-09-01"
     P: rkt
     R: C
@@ -62207,17 +62371,17 @@ P:
     P: baetyl
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "2018-01-01"
     P: container-networking-interface
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "2018-01-01"
     P: containerd
     R: C
   - T: "2100-01-01"
-    C: SUSE
+    C: SUSE LLC
     F: "2018-01-01"
     P: k8s
     R: C
@@ -62463,181 +62627,3 @@ P:
     U: aterreno
   B: 0
   U: Antonio Terreno
-- C: GB
-  E: antonio.terreno!gmail.com
-  R:
-  - T: "2017-07-01"
-    C: Equal Experts
-    F: "1900-01-01"
-    R: C
-  - T: "2017-07-01"
-    C: Equal Experts
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Labradory
-    F: "2017-07-01"
-    R: C
-  - T: "2100-01-01"
-    C: Labradory
-    F: "2017-07-01"
-    P: etcd
-    R: C
-  S: male
-  I:
-  - E: antonio.terreno!gmail.com
-    M: Antonio Terreno
-    S: git
-  B: 0
-  U: Antonio Terreno
-- C: LV
-  E: akranga!gmail.com
-  R:
-  - T: "2016-10-01"
-    C: Accenture
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2016-10-01"
-    C: Accenture
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2016-10-01"
-    C: Accenture
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: Agile Stacks
-    F: "2016-10-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Agile Stacks
-    F: "2016-10-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Agile Stacks
-    F: "2016-10-01"
-    P: harbor
-    R: C
-  S: male
-  I:
-  - E: akranga!gmail.com
-    M: Antons Kranga
-    S: git
-  - E: akranga!gmail.com
-    M: Antons Kranga
-    S: github
-    U: akranga
-  B: 0
-  U: Antons Kranga
-- E: antony.bett!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2017-10-25"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: antony.bett!emc.com
-    M: Antony Bett
-    S: slack
-    U: antony.bett
-  B: 0
-  U: Antony Bett
-- E: antonyderham!gmail.com
-  R:
-  - T: "2017-06-01"
-    C: Benton Furniture
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2017-06-01"
-    C: Benton Furniture
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: UK Hydrographic
-    F: "2017-06-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: UK Hydrographic
-    F: "2017-06-01"
-    P: fluxcd
-    R: C
-  I:
-  - E: antonyderham!gmail.com
-    M: Antony Derham
-    S: github
-    U: Ant59
-  B: 0
-  U: Antony Derham
-- R:
-  - T: "2100-01-01"
-    C: ОАО ТриА
-    F: "2019-04-18"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Antony Pavlov
-    S: github
-    U: frantony
-  B: 0
-  U: Antony Pavlov
-- E: antonynpavlov!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: ОАО ТриА
-    F: "2011-06-13"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: antonynpavlov!gmail.com
-    M: Antony Pavlov
-    S: git
-  B: 0
-  U: Antony Pavlov
-- C: IN
-  E: am00119082!techmahindra.com
-  R:
-  - T: "2018-05-26"
-    C: Tech Mahindra Ltd.
-    F: "2017-06-14"
-    R: C
-  - T: "2018-05-26"
-    C: Tech Mahindra Ltd.
-    F: "2017-06-14"
-    P: onap
-    R: C
-  I:
-  - M: Antony Prabhu M
-    S: confluence
-    U: maprabhu1976
-  - E: noreply!onap.org
-    M: Ankitkumar Patel (Confluence)
-    S: groupsio
-  - E: noreply!onap.org
-    M: Antony Prabhu M (Confluence)
-    S: groupsio
-  - E: noreply!onap.org
-    M: Prem Kumar S P (Confluence)
-    S: groupsio
-  - E: noreply!onap.org
-    M: Ankitkumar Patel Confluence
-    S: pipermail
-  - E: noreply!onap.org
-    M: Antony Prabhu M Confluence
-    S: pipermail
-  - E: noreply!onap.org
-    M: Prem Kumar S P Confluence
-    S: pipermail
-  B: 0
-  U: Antony Prabhu M
