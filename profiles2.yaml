@@ -1,4 +1,222 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Alexander
+    S: github
+    U: asm89
+  B: 0
+  U: Alexander
+- R:
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Alexander
+    S: github
+    U: aee11
+  B: 0
+  U: Alexander
+- R:
+  - T: "2015-08-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2019-03-01"
+    C: 2GIS
+    F: "2015-08-01"
+    R: C
+  - T: "2019-08-01"
+    C: Independent
+    F: "2019-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Xored
+    F: "2019-08-01"
+    R: C
+  S: male
+  I:
+  - M: Alexander
+    S: github
+    U: alex-yust
+  B: 0
+  U: Alexander
+- R:
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Alexander
+    S: github
+    U: angry-cellophane
+  B: 0
+  U: Alexander
+- R:
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Alexander
+    S: github
+    U: de1m
+  B: 0
+  U: Alexander
+- C: ES
+  R:
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Alexander
+    S: github
+    U: bzz
+  B: 0
+  U: Alexander
+- C: NL
+  R:
+  - T: "2016-09-01"
+    C: RafTech.nl
+    F: "1900-01-01"
+    P: stackstorm
+    R: C
+  - T: "2100-01-01"
+    C: Schuberg Philis
+    F: "2016-09-01"
+    P: stackstorm
+    R: C
+  S: male
+  I:
+  - M: Alexander
+    S: github
+    U: sanderv32
+  B: 0
+  U: Alexander
+- C: RU
+  R:
+  - T: "2100-01-01"
+    C: William Hill
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: William Hill
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Alexander
+    S: github
+    U: bekbulatov
+  B: 0
+  U: Alexander
+- C: US
+  E: a.sinchinov!gmail.com
+  R:
+  - T: "2014-05-01"
+    C: Parallels
+    F: "1900-01-01"
+    R: C
+  - T: "2014-05-01"
+    C: Parallels
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-07-01"
+    C: Odin
+    F: "2014-05-01"
+    R: C
+  - T: "2016-07-01"
+    C: Odin
+    F: "2014-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: CFT
+    F: "2016-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: CFT
+    F: "2016-07-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: a.sinchinov!gmail.com
+    M: Alexander
+    S: git
+  B: 0
+  U: Alexander
+- C: UA
+  E: abezzubov!nflabs.com
+  R:
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "2015-12-08"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: abezzubov!nflabs.com
+    M: Alexander
+    S: git
+  B: 0
+  U: Alexander
+- C: ES
+  E: alex2789!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NFLabs
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: alex2789!gmail.com
+    M: Alexander
+    S: git
+  B: 0
+  U: Alexander
 - E: iam.asm89!gmail.com
   R:
   - T: "2100-01-01"
@@ -233,22 +451,22 @@ P:
     F: "2017-02-01"
     R: C
   - T: "2018-02-01"
-    C: EPAM
+    C: EPAM Systems
     F: "2017-02-01"
     P: fluxcd
     R: C
   - T: "2018-02-01"
-    C: EPAM
+    C: EPAM Systems
     F: "2017-02-01"
     P: helm
     R: C
   - T: "2018-02-01"
-    C: EPAM
+    C: EPAM Systems
     F: "2017-02-01"
     P: k8s
     R: C
   - T: "2018-02-01"
-    C: EPAM
+    C: EPAM Systems
     F: "2017-02-01"
     P: prometheus
     R: C
@@ -308,7 +526,7 @@ P:
     P: baetyl
     R: C
   - T: "2016-10-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -344,7 +562,7 @@ P:
     P: baetyl
     R: C
   - T: "2016-10-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -616,7 +834,7 @@ P:
     P: etcd
     R: C
   - T: "2016-09-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2015-03-01"
     P: etcd
     R: C
@@ -644,7 +862,7 @@ P:
     P: etcd
     R: C
   - T: "2016-09-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2015-03-01"
     P: etcd
     R: C
@@ -685,7 +903,7 @@ P:
     F: "2015-03-01"
     R: C
   - T: "2016-09-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2015-03-01"
     P: nats
     R: C
@@ -731,7 +949,7 @@ P:
     F: "2015-03-01"
     R: C
   - T: "2016-09-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2015-03-01"
     P: nats
     R: C
@@ -816,12 +1034,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Intel
+    C: Intel Corporation
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Intel
+    C: Intel Corporation
     F: "1900-01-01"
     P: prometheus
     R: C
@@ -993,17 +1211,17 @@ P:
   E: fiorix!gmail.com
   R:
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: etcd
     R: C
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: rkt
     R: C
@@ -1936,12 +2154,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "1900-01-01"
     P: containerd
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -2510,7 +2728,7 @@ P:
     F: "2016-12-01"
     R: C
   - T: "2100-01-01"
-    C: Adobe
+    C: Adobe Systems, Inc.
     F: "2016-12-01"
     P: envoy
     R: C
@@ -2893,12 +3111,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Intel
+    C: Intel Corporation
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Intel
+    C: Intel Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -3516,7 +3734,7 @@ P:
 - E: alexeymar!mellanox.com
   R:
   - T: "2100-01-01"
-    C: Intel
+    C: Intel Corporation
     F: "1900-01-01"
     P: openebs
     R: C
@@ -3896,7 +4114,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2016-09-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -4517,17 +4735,17 @@ P:
     F: "2015-01-01"
     R: C
   - T: "2018-07-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-01-01"
     P: argo
     R: C
   - T: "2018-07-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-01-01"
     P: helm
     R: C
   - T: "2018-07-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-01-01"
     P: k8s
     R: C
@@ -7312,12 +7530,12 @@ P:
 - E: jahstreetlove!gmail.com
   R:
   - T: "2100-01-01"
-    C: EPAM
+    C: EPAM Systems
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: EPAM
+    C: EPAM Systems
     F: "1900-01-01"
     P: virtualkubelet
     R: C
@@ -7418,7 +7636,7 @@ P:
     P: linkerd
     R: C
   - T: "2100-01-01"
-    C: EPAM
+    C: EPAM Systems
     F: "2018-08-01"
     P: linkerd
     R: C
@@ -7770,12 +7988,12 @@ P:
     P: helm
     R: C
   - T: "2015-04-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-03-01"
     P: cncf/cloudcustodian
     R: C
   - T: "2015-04-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-03-01"
     P: helm
     R: C
@@ -7850,12 +8068,12 @@ P:
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Expedia
+    C: Expedia Group
     F: "2019-04-01"
     P: cncf/cloudcustodian
     R: C
   - T: "2100-01-01"
-    C: Expedia
+    C: Expedia Group
     F: "2019-04-01"
     P: helm
     R: C
@@ -7889,12 +8107,12 @@ P:
     P: helm
     R: C
   - T: "2015-04-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-03-01"
     P: cncf/cloudcustodian
     R: C
   - T: "2015-04-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-03-01"
     P: helm
     R: C
@@ -7969,12 +8187,12 @@ P:
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Expedia
+    C: Expedia Group
     F: "2019-04-01"
     P: cncf/cloudcustodian
     R: C
   - T: "2100-01-01"
-    C: Expedia
+    C: Expedia Group
     F: "2019-04-01"
     P: helm
     R: C
@@ -8420,7 +8638,7 @@ P:
   U: Alin-Gheorghe Balutoiu
 - R:
   - T: "2019-04-01"
-    C: Adobe
+    C: Adobe Systems, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -9044,7 +9262,7 @@ P:
   U: Allain Legacy
 - R:
   - T: "2100-01-01"
-    C: LinkedIn
+    C: LinkedIn Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -9057,7 +9275,7 @@ P:
 - E: allan.caffee!gmail.com
   R:
   - T: "2100-01-01"
-    C: LinkedIn
+    C: LinkedIn Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -9289,7 +9507,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -9308,7 +9526,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -9327,7 +9545,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -10521,7 +10739,7 @@ P:
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2016-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-01-01"
     P: helm
     R: C
@@ -11693,12 +11911,12 @@ P:
   - T: "2100-01-01"
     C: Akamai Technologies, Inc.
     F: "2017-06-15"
-    P: presto
+    P: cri-o
     R: C
   - T: "2100-01-01"
-    C: Akamai Technologies
+    C: Akamai Technologies, Inc.
     F: "2017-06-15"
-    P: cri-o
+    P: presto
     R: C
   S: male
   I:
@@ -12227,7 +12445,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: etcd
     R: C
@@ -12912,7 +13130,7 @@ P:
 - E: amarnath.valluri!intel.com
   R:
   - T: "2100-01-01"
-    C: Intel
+    C: Intel Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -13267,7 +13485,7 @@ P:
   U: Ameed Ashour
 - R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: keda
     R: C
@@ -13306,7 +13524,7 @@ P:
 - E: amelia.blachuciak!intel.com
   R:
   - T: "2100-01-01"
-    C: Intel
+    C: Intel Corporation
     F: "1900-01-01"
     P: openebs
     R: C
@@ -14282,7 +14500,7 @@ P:
     F: "2015-10-01"
     R: C
   - T: "2016-01-01"
-    C: Inria
+    C: Inria (French Institute for Research in Computer Science and Automation)
     F: "2015-10-01"
     P: k8s
     R: C
@@ -14337,7 +14555,7 @@ P:
     P: k8s
     R: C
   - T: "2016-01-01"
-    C: Inria
+    C: Inria (French Institute for Research in Computer Science and Automation)
     F: "2015-10-01"
     P: k8s
     R: C
@@ -15539,18 +15757,18 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: NTT Data Services
+    C: NTT Data
     F: "2016-10-15"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: NTT Data Services
-    F: "2016-10-15"
-    P: k8s
     R: C
   - T: "2100-01-01"
     C: NTT Data
     F: "2016-10-15"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: NTT Data
+    F: "2016-10-15"
+    P: k8s
     R: C
   S: male
   I:
@@ -15573,12 +15791,12 @@ P:
     P: openebs
     R: C
   - T: "2100-01-01"
-    C: NTT Data Services
+    C: NTT Data
     F: "2016-10-15"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: NTT Data Services
+    C: NTT Data
     F: "2016-10-15"
     P: openebs
     R: C
@@ -15844,27 +16062,27 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2014-12-01"
-    C: Juniper Networks
+    C: Juniper Networks, Inc.
     F: "1900-01-01"
     P: fluentd
     R: C
   - T: "2014-12-01"
-    C: Juniper Networks
+    C: Juniper Networks, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2014-12-01"
-    C: Juniper Networks
+    C: Juniper Networks, Inc.
     F: "1900-01-01"
     P: linkerd
     R: C
   - T: "2014-12-01"
-    C: Juniper Networks
+    C: Juniper Networks, Inc.
     F: "1900-01-01"
     P: openpolicyagent
     R: C
   - T: "2014-12-01"
-    C: Juniper Networks
+    C: Juniper Networks, Inc.
     F: "1900-01-01"
     P: prometheus
     R: C
@@ -15931,27 +16149,27 @@ P:
     F: "2015-01-01"
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: fluentd
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: linkerd
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: openpolicyagent
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: prometheus
     R: C
@@ -16731,17 +16949,17 @@ P:
 - E: amrh!microsoft.com
   R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: keda
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: opentelemetry
     R: C
@@ -17085,7 +17303,7 @@ P:
     F: "2014-10-01"
     R: C
   - T: "2017-12-01"
-    C: Infosys
+    C: Infosys Limited
     F: "2014-10-01"
     P: harbor
     R: C
@@ -17278,7 +17496,7 @@ P:
     F: "2015-05-01"
     R: C
   - T: "2015-08-01"
-    C: Adobe
+    C: Adobe Systems, Inc.
     F: "2015-05-01"
     P: k8s
     R: C
@@ -17296,7 +17514,7 @@ P:
     F: "2016-05-01"
     R: C
   - T: "2016-08-01"
-    C: Adobe
+    C: Adobe Systems, Inc.
     F: "2016-05-01"
     P: k8s
     R: C
@@ -17381,7 +17599,7 @@ P:
     F: "2015-05-01"
     R: C
   - T: "2015-08-01"
-    C: Adobe
+    C: Adobe Systems, Inc.
     F: "2015-05-01"
     P: k8s
     R: C
@@ -17399,7 +17617,7 @@ P:
     F: "2016-05-01"
     R: C
   - T: "2016-08-01"
-    C: Adobe
+    C: Adobe Systems, Inc.
     F: "2016-05-01"
     P: k8s
     R: C
@@ -17484,7 +17702,7 @@ P:
     F: "2015-05-01"
     R: C
   - T: "2015-08-01"
-    C: Adobe
+    C: Adobe Systems, Inc.
     F: "2015-05-01"
     P: k8s
     R: C
@@ -17502,7 +17720,7 @@ P:
     F: "2016-05-01"
     R: C
   - T: "2016-08-01"
-    C: Adobe
+    C: Adobe Systems, Inc.
     F: "2016-05-01"
     P: k8s
     R: C
@@ -17819,32 +18037,32 @@ P:
 - E: amye!linuxfoundation.org
   R:
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: brigade
     R: C
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: cncf/volcano
     R: C
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: falco
     R: C
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: intoto
     R: C
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: thanos
     R: C
@@ -17981,22 +18199,22 @@ P:
 - E: amye!users.noreply.github.com
   R:
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: cncf/contour
     R: C
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: intoto
     R: C
   - T: "2014-04-01"
-    C: ACQUIA
+    C: Acquia, Inc.
     F: "1900-01-01"
     P: thanos
     R: C
@@ -19207,7 +19425,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -19221,7 +19439,7 @@ P:
 - E: indrayam!users.noreply.github.com
   R:
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -19758,7 +19976,7 @@ P:
   E: anantha!juniper.net
   R:
   - T: "2100-01-01"
-    C: Juniper Networks
+    C: Juniper Networks, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -20674,7 +20892,7 @@ P:
     P: cncf/cloudcustodian
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2015-04-01"
     P: cncf/cloudcustodian
     R: C
@@ -20696,7 +20914,7 @@ P:
     P: k8s
     R: C
   - T: "2017-08-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2017-05-01"
     P: k8s
     R: C
@@ -20706,7 +20924,7 @@ P:
     P: k8s
     R: C
   - T: "2018-08-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "2018-06-01"
     P: k8s
     R: C
@@ -20716,7 +20934,7 @@ P:
     P: k8s
     R: C
   - T: "2019-10-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "2019-07-01"
     P: k8s
     R: C
@@ -20785,12 +21003,12 @@ P:
     P: baetyl
     R: C
   - T: "2017-08-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2017-05-01"
     P: cncf/kudo
     R: C
   - T: "2017-08-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2017-05-01"
     P: k8s
     R: C
@@ -20815,12 +21033,12 @@ P:
     P: baetyl
     R: C
   - T: "2018-08-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "2018-06-01"
     P: cncf/kudo
     R: C
   - T: "2018-08-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "2018-06-01"
     P: k8s
     R: C
@@ -20845,12 +21063,12 @@ P:
     P: baetyl
     R: C
   - T: "2019-10-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "2019-07-01"
     P: cncf/kudo
     R: C
   - T: "2019-10-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "2019-07-01"
     P: k8s
     R: C
@@ -21712,27 +21930,27 @@ P:
     F: "2016-07-01"
     R: C
   - T: "2018-05-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "2016-07-01"
     P: cri-o
     R: C
   - T: "2018-05-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "2016-07-01"
     P: falco
     R: C
   - T: "2018-05-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "2016-07-01"
     P: k8s
     R: C
   - T: "2018-05-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "2016-07-01"
     P: kubevirt
     R: C
   - T: "2018-05-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "2016-07-01"
     P: openebs
     R: C
@@ -22188,7 +22406,7 @@ P:
   U: Anders Janmyr
 - R:
   - T: "2100-01-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "1900-01-01"
     P: cncf/contour
     R: C
@@ -22682,12 +22900,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: cncf/contour
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -22802,12 +23020,12 @@ P:
   U: Andor Uhlár
 - R:
   - T: "2015-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2017-01-01"
-    C: Juniper Networks
+    C: Juniper Networks, Inc.
     F: "2015-01-01"
     P: cncf
     R: C
@@ -22829,7 +23047,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2015-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: cncf
     R: C
@@ -22838,7 +23056,7 @@ P:
     F: "2015-01-01"
     R: C
   - T: "2017-01-01"
-    C: Juniper Networks
+    C: Juniper Networks, Inc.
     F: "2015-01-01"
     P: cncf
     R: C
@@ -23499,7 +23717,7 @@ P:
   E: andre.marschalek!outlook.com
   R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -23847,7 +24065,7 @@ P:
   U: Andrea Baldovin
 - R:
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: prometheus
     R: C
@@ -23860,7 +24078,7 @@ P:
 - E: bcandrea!gmail.com
   R:
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: prometheus
     R: C
@@ -25002,7 +25220,7 @@ P:
     F: "2014-09-01"
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2014-09-01"
     P: nats
     R: C
@@ -25606,7 +25824,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -26342,23 +26560,23 @@ P:
   E: andreas.holmsten!gmail.com
   R:
   - T: "2016-02-01"
-    C: Axians SE
+    C: Axians
     F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2016-02-01"
-    C: Axians SE
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-02-01"
-    C: Axians SE
-    F: "1900-01-01"
-    P: k8s
     R: C
   - T: "2016-02-01"
     C: Axians
     F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2016-02-01"
+    C: Axians
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-02-01"
+    C: Axians
+    F: "1900-01-01"
+    P: k8s
     R: C
   - T: "2017-01-01"
     C: DGC DeltaAB
@@ -28091,12 +28309,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2015-11-01"
-    C: EPAM
+    C: EPAM Systems
     F: "1900-01-01"
     P: prometheus
     R: C
   - T: "2015-11-01"
-    C: EPAM
+    C: EPAM Systems
     F: "1900-01-01"
     P: rkt
     R: C
@@ -28137,7 +28355,7 @@ P:
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2015-11-01"
-    C: EPAM
+    C: EPAM Systems
     F: "1900-01-01"
     P: etcd
     R: C
@@ -28707,7 +28925,7 @@ P:
   U: Andrei Vagin
 - R:
   - T: "2014-03-01"
-    C: EPAM
+    C: EPAM Systems
     F: "1900-01-01"
     P: helm
     R: C
@@ -28717,7 +28935,7 @@ P:
     P: helm
     R: C
   - T: "2100-01-01"
-    C: EPAM
+    C: EPAM Systems
     F: "2015-04-01"
     P: helm
     R: C
@@ -29517,7 +29735,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: prometheus
     R: C
@@ -29536,12 +29754,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: prometheus
     R: C
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "1900-01-01"
     P: tikv
     R: C
@@ -29640,22 +29858,22 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2015-05-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2015-05-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2015-05-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: spiffe
     R: C
   - T: "2015-05-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: spire
     R: C
@@ -29688,22 +29906,22 @@ P:
     F: "2015-11-01"
     R: C
   - T: "2018-08-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-11-01"
     P: cncf
     R: C
   - T: "2018-08-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-11-01"
     P: k8s
     R: C
   - T: "2018-08-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-11-01"
     P: spiffe
     R: C
   - T: "2018-08-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-11-01"
     P: spire
     R: C
@@ -29911,7 +30129,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: grpc
     R: C
@@ -30913,12 +31131,12 @@ P:
     P: vitess
     R: C
   - T: "2100-01-01"
-    C: CloudFlare
+    C: CloudFlare, Inc.
     F: "2019-08-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: CloudFlare
+    C: CloudFlare, Inc.
     F: "2019-08-01"
     P: vitess
     R: C
@@ -30981,27 +31199,27 @@ P:
     P: rook
     R: C
   - T: "2100-01-01"
-    C: CloudFlare
+    C: CloudFlare, Inc.
     F: "2019-08-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: CloudFlare
+    C: CloudFlare, Inc.
     F: "2019-08-01"
     P: envoy
     R: C
   - T: "2100-01-01"
-    C: CloudFlare
+    C: CloudFlare, Inc.
     F: "2019-08-01"
     P: etcd
     R: C
   - T: "2100-01-01"
-    C: CloudFlare
+    C: CloudFlare, Inc.
     F: "2019-08-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: CloudFlare
+    C: CloudFlare, Inc.
     F: "2019-08-01"
     P: rook
     R: C
@@ -31628,12 +31846,12 @@ P:
     P: linkerd
     R: C
   - T: "2018-10-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2017-12-01"
     P: cncf/operatorframework
     R: C
   - T: "2018-10-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2017-12-01"
     P: linkerd
     R: C
@@ -33485,7 +33703,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -33752,17 +33970,17 @@ P:
     F: "2016-09-01"
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2016-09-01"
     P: fluxcd
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2016-09-01"
     P: nats
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2016-09-01"
     P: notary
     R: C
@@ -33800,17 +34018,17 @@ P:
     F: "2016-09-01"
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2016-09-01"
     P: containerd
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2016-09-01"
     P: notary
     R: C
   - T: "2100-01-01"
-    C: Docker
+    C: Docker, Inc.
     F: "2016-09-01"
     P: opentelemetry
     R: C
@@ -34357,7 +34575,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: F5Networks
+    C: F5 Networks, Inc.
     F: "1900-01-01"
     P: envoy
     R: C
@@ -34377,7 +34595,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: F5Networks
+    C: F5 Networks, Inc.
     F: "1900-01-01"
     P: envoy
     R: C
@@ -34739,7 +34957,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -34758,7 +34976,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -35382,7 +35600,7 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Facebook
+    C: Facebook, Inc.
     F: "2015-05-01"
     P: k8s
     R: C
@@ -36461,7 +36679,7 @@ P:
     P: argo
     R: C
   - T: "2018-11-01"
-    C: Intuit
+    C: Intuit, Inc.
     F: "2018-02-01"
     P: argo
     R: C
@@ -37469,17 +37687,17 @@ P:
     F: "2019-03-20"
     R: C
   - T: "2100-01-01"
-    C: Kinvolk
+    C: Kinvolk GmbH
     F: "2019-03-20"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Kinvolk
+    C: Kinvolk GmbH
     F: "2019-03-20"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Kinvolk
+    C: Kinvolk GmbH
     F: "2019-03-20"
     P: vitess
     R: C
@@ -38614,7 +38832,7 @@ P:
 - E: andrew!stanton-nurse.com
   R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: grpc
     R: C
@@ -38631,17 +38849,17 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: prometheus
     R: C
@@ -38679,12 +38897,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: prometheus
     R: C
@@ -40982,7 +41200,7 @@ P:
   U: Andrey Chilikin
 - R:
   - T: "2015-08-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "1900-01-01"
     P: k8s
     R: C
@@ -41025,7 +41243,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2015-08-01"
-    C: Ericsson
+    C: Ericsson AB
     F: "1900-01-01"
     P: k8s
     R: C
@@ -42143,7 +42361,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: virtualkubelet
     R: C
@@ -42810,17 +43028,17 @@ P:
 - E: andrey.velichkevich!gmail.com
   R:
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: argo
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "1900-01-01"
     P: vitess
     R: C
@@ -42989,7 +43207,7 @@ P:
     F: "2017-05-01"
     R: C
   - T: "2019-04-01"
-    C: EPAM
+    C: EPAM Systems
     F: "2017-05-01"
     P: k8s
     R: C
@@ -43017,7 +43235,7 @@ P:
     P: k8s
     R: C
   - T: "2019-04-01"
-    C: EPAM
+    C: EPAM Systems
     F: "2017-05-01"
     P: k8s
     R: C
@@ -45071,23 +45289,23 @@ P:
     P: prometheus
     R: C
   - T: "2100-01-01"
-    C: Globo.com
+    C: Globo
     F: "2016-03-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Globo.com
-    F: "2016-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Globo.com
-    F: "2016-03-01"
-    P: prometheus
     R: C
   - T: "2100-01-01"
     C: Globo
     F: "2016-03-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Globo
+    F: "2016-03-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Globo
+    F: "2016-03-01"
+    P: prometheus
     R: C
   S: male
   I:
@@ -45423,32 +45641,32 @@ P:
     F: "2015-01-01"
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: container-networking-interface
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: containerd
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: envoy
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: etcd
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: k8s
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: prometheus
     R: C
@@ -45506,12 +45724,12 @@ P:
     P: k8s
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: grpc
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: k8s
     R: C
@@ -45571,17 +45789,17 @@ P:
   - T: "2017-01-01"
     C: Cisco Systems Inc.
     F: "2015-01-01"
-    P: odl
-    R: C
-  - T: "2017-01-01"
-    C: Cisco
-    F: "2015-01-01"
     P: container-networking-interface
     R: C
   - T: "2017-01-01"
-    C: Cisco
+    C: Cisco Systems Inc.
     F: "2015-01-01"
     P: k8s
+    R: C
+  - T: "2017-01-01"
+    C: Cisco Systems Inc.
+    F: "2015-01-01"
+    P: odl
     R: C
   - T: "2100-01-01"
     C: Cilium
@@ -46599,7 +46817,7 @@ P:
   U: Andy Chou
 - R:
   - T: "2015-07-01"
-    C: Harris
+    C: Harris Corporation
     F: "1900-01-01"
     P: argo
     R: C
@@ -46926,32 +47144,32 @@ P:
   - T: "2014-07-01"
     C: Canonical Group Limited
     F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2014-07-01"
-    C: Canonical
-    F: "1900-01-01"
     P: containerd
     R: C
   - T: "2014-07-01"
-    C: Canonical
+    C: Canonical Group Limited
     F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2014-07-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2014-07-01"
+    P: containerd
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2014-07-01"
     P: notary
     R: C
   - T: "2017-10-01"
     C: Linaro Limited
     F: "2014-07-01"
     P: zep
-    R: C
-  - T: "2017-10-01"
-    C: Linaro
-    F: "2014-07-01"
-    P: containerd
-    R: C
-  - T: "2017-10-01"
-    C: Linaro
-    F: "2014-07-01"
-    P: notary
     R: C
   - T: "2100-01-01"
     C: Foundries.io
@@ -48029,7 +48247,7 @@ P:
   U: Andy Lowe
 - R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: cncf/cloudcustodian
     R: C
@@ -48291,7 +48509,7 @@ P:
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: Kinvolk
+    C: Kinvolk GmbH
     F: "2019-03-20"
     P: k8s
     R: C
@@ -50806,7 +51024,7 @@ P:
     P: cncf/operatorframework
     R: C
   - T: "2016-10-01"
-    C: Infosys
+    C: Infosys Limited
     F: "2015-08-01"
     P: cncf/operatorframework
     R: C
@@ -51805,7 +52023,7 @@ P:
 - E: anil.veerabhadrappa!broadcom.com
   R:
   - T: "2100-01-01"
-    C: Broadcom
+    C: Broadcom Corporation
     F: "1900-01-01"
     P: openebs
     R: C
@@ -52324,7 +52542,7 @@ P:
   U: Anirudh Aithal
 - R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: keda
     R: C
@@ -52337,12 +52555,12 @@ P:
 - E: anirudhgarg!gmail.com
   R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: keda
     R: C
@@ -52603,12 +52821,12 @@ P:
 - E: anish!gatech.edu
   R:
   - T: "2015-09-11"
-    C: Chelsio
+    C: Chelsio Communications
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Georgia Tech
+    C: Georgia Institute of Technology
     F: "1900-01-01"
     P: k8s
     R: C
@@ -52805,22 +53023,22 @@ P:
     F: "2019-03-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: openpolicyagent
     R: C
@@ -52865,22 +53083,22 @@ P:
     P: baetyl
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: openpolicyagent
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: vitess
     R: C
@@ -52920,7 +53138,7 @@ P:
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-03-01"
     P: k8s
     R: C
@@ -53606,7 +53824,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Intel
+    C: Intel Corporation
     F: "1900-01-01"
     P: rook
     R: C
@@ -53792,7 +54010,7 @@ P:
 - E: ankit.dahiya!samsung.com
   R:
   - T: "2014-10-01"
-    C: HCL
+    C: HCL Technologies Ltd.
     F: "1900-01-01"
     P: cncf/cloudcustodian
     R: C
@@ -53847,7 +54065,7 @@ P:
     F: "2016-05-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2016-05-01"
     P: cortex
     R: C
@@ -54262,7 +54480,7 @@ P:
     P: argo
     R: C
   - T: "2100-01-01"
-    C: Intuit
+    C: Intuit, Inc.
     F: "2015-08-01"
     P: argo
     R: C
@@ -54518,7 +54736,7 @@ P:
     P: kubevirt
     R: C
   - T: "2016-01-01"
-    C: Infosys
+    C: Infosys Limited
     F: "2015-08-01"
     P: kubevirt
     R: C
@@ -55835,7 +56053,7 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-05-01"
     P: k8s
     R: C
@@ -55894,12 +56112,12 @@ P:
     P: openebs
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-12-01"
     P: cncf/litmuschaos
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "2019-12-01"
     P: openebs
     R: C
@@ -55960,7 +56178,7 @@ P:
     P: helm
     R: C
   - T: "2018-04-01"
-    C: Intuit
+    C: Intuit, Inc.
     F: "2016-10-01"
     P: helm
     R: C
@@ -56512,7 +56730,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: virtualkubelet
     R: C
@@ -56630,12 +56848,12 @@ P:
   U: Anthony Dahanne
 - R:
   - T: "2017-04-01"
-    C: LinkedIn
+    C: LinkedIn Corporation
     F: "1900-01-01"
     P: prometheus
     R: C
   - T: "2017-04-01"
-    C: LinkedIn
+    C: LinkedIn Corporation
     F: "1900-01-01"
     P: thanos
     R: C
@@ -56668,7 +56886,7 @@ P:
 - E: taintedkernel!users.noreply.github.com
   R:
   - T: "2017-04-01"
-    C: LinkedIn
+    C: LinkedIn Corporation
     F: "1900-01-01"
     P: thanos
     R: C
@@ -56984,7 +57202,7 @@ P:
   U: Anthony Ho
 - R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -56997,7 +57215,7 @@ P:
 - E: anhowe!microsoft.com
   R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -57565,7 +57783,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: k8s
     R: C
@@ -58034,12 +58252,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Huawei
+    C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
     P: cncf/kudo
     R: C
   - T: "2100-01-01"
-    C: Huawei
+    C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -61556,12 +61774,12 @@ P:
     P: nats
     R: C
   - T: "2017-12-01"
-    C: Avaya
+    C: Avaya Inc.
     F: "2014-12-01"
     P: cncf/buildpacks
     R: C
   - T: "2017-12-01"
-    C: Avaya
+    C: Avaya Inc.
     F: "2014-12-01"
     P: nats
     R: C
@@ -62208,7 +62426,7 @@ P:
   U: Antonio Russo
 - R:
   - T: "2100-01-01"
-    C: Microsoft
+    C: Microsoft Corporation
     F: "1900-01-01"
     P: thanos
     R: C
@@ -62423,321 +62641,3 @@ P:
     S: pipermail
   B: 0
   U: Antony Prabhu M
-- E: intermonino!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Individual
-    F: "2010-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  I:
-  - E: intermonino!gmail.com
-    M: Antony
-    S: slack
-    U: intermonino
-  B: 0
-  U: Antony
-- C: FI
-  R:
-  - T: "2100-01-01"
-    C: SC5 Online Ltd
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SC5 Online Ltd
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Antti Ahti
-    S: github
-    U: apaatsio
-  B: 0
-  U: Antti Ahti
-- E: antti.ahti!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: SC5 Online Ltd
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: SC5 Online Ltd
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: antti.ahti!gmail.com
-    M: Antti Ahti
-    S: git
-  B: 0
-  U: Antti Ahti
-- C: FI
-  E: antti.kervinen!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intel
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: antti.kervinen!intel.com
-    M: Antti Kervinen
-    S: git
-  - E: antti.kervinen!intel.com
-    M: Antti Kervinen
-    S: github
-    U: askervin
-  B: 0
-  U: Antti Kervinen
-- C: NL
-  E: akupila!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: supernode
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: supernode
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: supernode
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  S: male
-  I:
-  - E: akupila!gmail.com
-    M: Antti Kupila
-    S: git
-  - E: akupila!gmail.com
-    M: Antti Kupila
-    S: github
-    U: akupila
-  B: 0
-  U: Antti Kupila
-- C: FI
-  E: crope!iki.fi
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: crope!iki.fi
-    M: Antti Palosaari
-    S: git
-  B: 0
-  U: Antti Palosaari
-- E: antti.puhakka!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-sim
-    R: C
-  I:
-  - E: antti.puhakka!nokia.com
-    M: Antti Puhakka
-    S: gerrit
-    U: anpuhakk
-  - M: Antti Puhakka
-    S: jira
-    U: anpuhakk
-  - E: antti.puhakka!nokia.com
-    M: Antti Puhakka
-    S: jira
-    U: anpuhakk
-  B: 0
-  U: Antti Puhakka
-- E: a.salmi!partner.samsung.com
-  R:
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2018-07-17"
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2018-07-17"
-    P: onap
-    R: C
-  I:
-  - E: a.salmi!partner.samsung.com
-    M: Antti Salmi
-    S: groupsio
-  B: 0
-  U: Antti Salmi
-- E: a.seppala!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Elisa
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: a.seppala!gmail.com
-    M: Antti Seppälä
-    S: git
-  B: 0
-  U: Antti Seppälä
-- E: antonio.miguel.almeida!celfocus.com
-  R:
-  - T: "2100-01-01"
-    C: CelFocus
-    F: "2020-04-14"
-    P: onap
-    R: C
-  I:
-  - M: António Almeida
-    S: jira
-    U: antonioalmeida
-  - E: antonio.miguel.almeida!celfocus.com
-    M: António Almeida
-    S: jira
-    U: antonioalmeida
-  B: 0
-  U: António Almeida
-- C: PT
-  R:
-  - T: "2100-01-01"
-    C: Foresight
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Foresight
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: António Meireles
-    S: github
-    U: AntonioMeireles
-  B: 0
-  U: António Meireles
-- C: PT
-  E: antonio.meireles!reformi.st
-  R:
-  - T: "2100-01-01"
-    C: Foresight
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-05-30"
-    C: Foresight
-    F: "2015-03-10"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: antonio.meireles!reformi.st
-    M: António Meireles
-    S: git
-  B: 0
-  U: António Meireles
-- E: anu.nair!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2014-04-01"
-    P: odl
-    R: C
-  I:
-  - E: anu.nair!ericsson.com
-    M: Anu Nair
-    S: gerrit
-    U: anu.nair
-  - E: anu.nair!ericsson.com
-    M: Anu Nair
-    S: git
-  - E: anu.nair!ericsson.com
-    M: Anu Nair
-    S: jira
-    U: anu.nair
-  - E: anu.nair!ericsson.com
-    M: Anu Nair
-    S: pipermail
-  B: 0
-  U: Anu Nair
-- C: IN
-  E: anubha_bt2k14!dtu.ac.in
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: anubha_bt2k14!dtu.ac.in
-    M: Anubha Kushwaha
-    S: git
-  B: 0
-  U: Anubha Kushwaha
