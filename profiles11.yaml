@@ -1,4 +1,83 @@
 P:
+- E: jbe!pengutronix.de
+  R:
+  - T: "2100-01-01"
+    C: Pengutronix
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jbe!pengutronix.de
+    M: Juergen Beisert
+    S: git
+  B: 0
+  U: Juergen Beisert
+- E: j.graf!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: j.graf!sap.com
+    M: Juergen Graf
+    S: git
+  B: 0
+  U: Juergen Graf
+- E: jgross!suse.com
+  R:
+  - T: "2017-04-22"
+    C: SUSE LLC
+    F: "2016-05-12"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: jgross!suse.com
+    M: Juergen Gross
+    S: git
+  B: 0
+  U: Juergen Gross
+- E: juergen.heymann!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2016-07-07"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: juergen.heymann!sap.com
+    M: Juergen Heymann
+    S: slack
+    U: juergenheymann
+  B: 0
+  U: Juergen Heymann
+- C: DE
+  E: juergen!archlinux.org
+  R:
+  - T: "2100-01-01"
+    C: Archlinux
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Archlinux
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: juergen!archlinux.org
+    M: Juergen Hoetzel
+    S: git
+  - E: juergen!archlinux.org
+    M: Jürgen Hötzel
+    S: git
+  - E: juergen!archlinux.org
+    M: Jürgen Hötzel
+    S: github
+    U: juergenhoetzel
+  B: 0
+  U: Juergen Hoetzel
 - E: juha.haapavirta!nokia.com
   R:
   - T: "2018-02-28"
@@ -62026,141 +62105,3 @@ P:
     S: git
   B: 0
   U: Lambert Sun (RD-CN)
-- E: layousef!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-06-15"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: layousef!microsoft.com
-    M: Lamia Youseff
-    S: slack
-    U: layousef
-  B: 0
-  U: Lamia Youseff
-- C: GR
-  R:
-  - T: "2016-07-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-10-01"
-    C: Plaisio - Πλαίσιο
-    F: "2016-07-01"
-    R: C
-  - T: "2016-10-01"
-    C: Plaisio - Πλαίσιο
-    F: "2016-07-01"
-    P: k8s
-    R: C
-  - T: "2017-03-01"
-    C: Independent
-    F: "2016-10-01"
-    R: C
-  - T: "2017-03-01"
-    C: Independent
-    F: "2016-10-01"
-    P: k8s
-    R: C
-  - T: "2017-08-01"
-    C: INRA
-    F: "2017-03-01"
-    R: C
-  - T: "2017-08-01"
-    C: INRA
-    F: "2017-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2017-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2017-08-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Lampros Smyrnaios
-    S: github
-    U: LSmyrnaios
-  B: 0
-  U: Lampros Smyrnaios
-- E: Tianyu.Lan!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: Tianyu.Lan!microsoft.com
-    M: Lan Tianyu
-    S: git
-  - E: Tianyu.Lan!microsoft.com
-    M: Tianyu Lan
-    S: git
-  B: 0
-  U: Lan Tianyu
-- E: lan.tran!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - E: lan.tran!ericsson.com
-    M: Lan Tran
-    S: jira
-    U: lmclatr
-  B: 0
-  U: Lan Tran
-- R:
-  - T: "2014-09-01"
-    C: Rakuten, Inc.
-    F: "1900-01-01"
-    P: thanos
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2014-09-01"
-    P: thanos
-    R: C
-  - T: "2015-09-01"
-    C: インフォメティス株式会社
-    F: "2015-08-01"
-    P: thanos
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-09-01"
-    P: thanos
-    R: C
-  - T: "2017-06-01"
-    C: Softwire
-    F: "2016-01-01"
-    P: thanos
-    R: C
-  - T: "2100-01-01"
-    C: Improbable
-    F: "2017-06-01"
-    P: thanos
-    R: C
-  I:
-  - M: Lan Xiao
-    S: github
-    U: lx223
-  B: 0
-  U: Lan Xiao
