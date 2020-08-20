@@ -1,4 +1,43 @@
 P:
+- C: US
+  R:
+  - T: "2014-08-01"
+    C: Apixio
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2014-08-01"
+    C: Apixio
+    F: "1900-01-01"
+    P: presto
+    R: C
+  - T: "2018-05-01"
+    C: Edmodo
+    F: "2014-08-01"
+    P: fluentd
+    R: C
+  - T: "2018-05-01"
+    C: Edmodo
+    F: "2014-08-01"
+    P: presto
+    R: C
+  - T: "2100-01-01"
+    C: Walmart
+    F: "2018-05-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Walmart
+    F: "2018-05-01"
+    P: presto
+    R: C
+  S: male
+  I:
+  - M: Lance Norskog
+    S: github
+    U: LanceNorskog
+  B: 0
+  U: Lance Norskog
 - E: lance.richardson!broadcom.com
   R:
   - T: "2100-01-01"
@@ -61720,44 +61759,3 @@ P:
     U: marcosnils
   B: 0
   U: Marcos Lilljedahl
-- E: marcos.lopez.samaniego!ericsson.com
-  R:
-  - T: "2018-04-06"
-    C: Ericsson AB
-    F: "2016-07-01"
-    P: odl
-    R: C
-  I:
-  - E: marcos.lopez.samaniego!ericsson.com
-    M: Marcos Lopez Samaniego
-    S: gerrit
-  - E: marcos.lopez.samaniego!ericsson.com
-    M: Marcos Lopez Samaniego
-    S: gerrit
-    U: eloomas
-  - E: marcos.lopez.samaniego!ericsson.com
-    M: Marcos López Samaniego
-    S: git
-  - E: marcos.lopez.samaniego!ericsson.com
-    M: Marcos López Samaniego
-    S: jira
-    U: marcos.lopez.samaniego
-  - E: marcos.lopez.samaniego!ericsson.com
-    M: Marcos Lopez Samaniego
-    S: pipermail
-  B: 0
-  U: Marcos López Samaniego
-- E: marcosma!br.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-01-18"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: marcosma!br.ibm.com
-    M: Marcos Marinho
-    S: slack
-    U: marcosma
-  B: 0
-  U: Marcos Marinho
