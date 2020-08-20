@@ -2,6 +2,218 @@ P:
 - C: US
   R:
   - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Eric Dobson
+    S: github
+    U: endobson
+  B: 0
+  U: Eric Dobson
+- E: endobson!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: endobson!google.com
+    M: Eric Dobson
+    S: git
+  B: 0
+  U: Eric Dobson
+- E: eric.n.dobson!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: eric.n.dobson!gmail.com
+    M: Eric Dobson
+    S: git
+  B: 0
+  U: Eric Dobson
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Sixgill
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sixgill
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  S: male
+  I:
+  - M: Eric Drechsel
+    S: github
+    U: edrex
+  B: 0
+  U: Eric Drechsel
+- E: ericdrex!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Sixgill
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: ericdrex!gmail.com
+    M: Eric Drechsel
+    S: git
+  B: 0
+  U: Eric Drechsel
+- E: eric.dujardin!sagem.com
+  R:
+  - T: "2100-01-01"
+    C: Sagemcom
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: eric.dujardin!sagem.com
+    M: Eric Dujardin
+    S: git
+  B: 0
+  U: Eric Dujardin
+- E: dada1!cosmosbay.com
+  R:
+  - T: "2100-01-01"
+    C: Cosmosbay~Vectis
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: dada1!cosmosbay.com
+    M: Eric Dumazet
+    S: git
+  B: 0
+  U: Eric Dumazet
+- E: edumazet!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: edumazet!google.com
+    M: Eric Dumazet
+    S: git
+  B: 0
+  U: Eric Dumazet
+- C: US
+  E: eric.edens!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: eric.edens!gmail.com
+    M: Eric Edens
+    S: git
+  B: 0
+  U: Eric Edens
+- C: US
+  E: ericeden!amazon.com
+  R:
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - E: ericeden!amazon.com
+    M: Eric Edens
+    S: git
+  - E: ericeden!amazon.com
+    M: ericeden
+    S: git
+  B: 0
+  U: Eric Edens
+- R:
+  - T: "2100-01-01"
+    C: Alberta Energy
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Eric Elliott
+    S: github
+    U: ericelliott
+  B: 0
+  U: Eric Elliott
+- C: US
+  E: dilvie!dilvie.com
+  R:
+  - T: "2100-01-01"
+    C: Alberta Energy
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Alberta Energy
+    F: "2015-06-23"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: dilvie!dilvie.com
+    M: Eric Elliott
+    S: git
+  B: 0
+  U: Eric Elliott
+- C: GB
+  E: eric!engestrom.ch
+  R:
+  - T: "2018-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-04-01"
+    P: yocto
+    R: C
+  S: male
+  I:
+  - E: eric!engestrom.ch
+    M: Eric Engestrom
+    S: git
+  B: 0
+  U: Eric Engestrom
+- C: GB
+  E: eric.engestrom!imgtec.com
+  R:
+  - T: "2018-04-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-04-01"
+    R: C
+  S: male
+  I:
+  - E: eric.engestrom!imgtec.com
+    M: Eric Engestrom
+    S: git
+  B: 0
+  U: Eric Engestrom
+- C: US
+  R:
+  - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
     P: containerd
@@ -61987,169 +62199,3 @@ P:
     U: 9len
   B: 0
   U: Glen D Sanford
-- E: glen!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: glen!twitter.com
-    M: Glen D Sanford
-    S: git
-  B: 0
-  U: Glen D Sanford
-- E: glendarling!us.ibm.com
-  R:
-  - T: "2011-07-01"
-    C: Cisco Systems Inc.
-    F: "2000-07-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2013-04-01"
-    P: lfedge/edgex-foundry
-    R: C
-  I:
-  - M: Glen Darling
-    S: confluence
-    U: MegaMosquito
-  - E: glendarling!us.ibm.com
-    M: Glen Darling
-    S: confluence
-    U: MegaMosquito
-  - E: glendarling!us.ibm.com
-    M: Glen Darling
-    S: git
-  - E: glendarling!us.ibm.com
-    M: Glen Darling
-    S: github
-    U: TheMosquito
-  - E: glendarling!us.ibm.com
-    M: Glen Darling
-    S: groupsio
-  - E: glendarling!us.ibm.com
-    M: glendarling
-    S: groupsio
-  - E: glendarling!us.ibm.com
-    M: Glen Darling (IBM)
-    S: slack
-    U: glendarling
-  - E: glendarling!us.ibm.com
-    M: Glen Darling
-    S: slack
-    U: glendarling
-  B: 0
-  U: Glen Darling
-- E: glenkeane.94!gmail.com
-  R:
-  - T: "2020-01-01"
-    C: nearForm
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Threefold Systems
-    F: "2020-01-01"
-    P: argo
-    R: C
-  I:
-  - E: glenkeane.94!gmail.com
-    M: Glen Keane
-    S: git
-  - E: glenkeane.94!gmail.com
-    M: Glen Keane
-    S: github
-    U: GlenTiki
-  B: 0
-  U: Glen Keane
-- E: overby!sgi.com
-  R:
-  - T: "2100-01-01"
-    C: SGI
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: overby!sgi.com
-    M: Glen Overby
-    S: git
-  B: 0
-  U: Glen Overby
-- C: GB
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2018-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: glenmrodgers!gmail.com
-    M: Glen Rodgers
-    S: git
-  - E: grodgers!pivotal.io
-    M: Glen Rodgers
-    S: git
-  - M: Glen Rodgers
-    S: github
-    U: gmrodgers
-  - E: grodgers!pivotal.io
-    M: Glen Rodgers
-    S: slack
-    U: grodgers
-  B: 0
-  U: Glen Rodgers
-- E: glen!turbinelabs.io
-  R:
-  - T: "2015-04-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  - T: "2018-10-01"
-    C: Slack
-    F: "2015-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Slack
-    F: "2018-10-01"
-    R: C
-  S: male
-  I:
-  - E: glen!turbinelabs.io
-    M: Glen Sanford
-    S: slack
-    U: glen
-  B: 0
-  U: Glen Sanford
-- E: pair+tonaglen!pivotal.io
-  R:
-  - T: "2015-01-02"
-    C: Pivotal
-    F: "2014-06-05"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - M: Glen Tona
-    S: git
-  - E: pair+tonaglen!pivotal.io
-    M: Glen Tona
-    S: git
-  - M: Glen Tona
-    S: meetup
-    U: "106459602"
-  B: 0
-  U: Glen Tona
-- E: zchao!cn.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: zchao!cn.ibm.com
-    M: Glen Zheng
-    S: git
-  B: 0
-  U: Glen Zheng
