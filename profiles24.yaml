@@ -1,4 +1,419 @@
 P:
+- E: sameer.tamane!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-01-11"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: sameer.tamane!us.ibm.com
+    M: sameert
+    S: slack
+    U: sameert
+  B: 0
+  U: sameert
+- E: sam.gupta!capgemini.com
+  R:
+  - T: "2100-01-01"
+    C: Capgemini
+    F: "2016-11-23"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: sam.gupta!capgemini.com
+    M: samgupta
+    S: slack
+    U: samgupta
+  B: 0
+  U: samgupta
+- R:
+  - T: "2015-11-15"
+    C: CAS
+    F: "1900-01-01"
+    R: C
+  - T: "2015-11-15"
+    C: CAS
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CoverMyMeds
+    F: "2015-11-15"
+    R: C
+  - T: "2100-01-01"
+    C: CoverMyMeds
+    F: "2015-11-15"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: samiam
+  B: 0
+  U: samiam
+- E: samnap+github!gmail.com
+  R:
+  - T: "2015-11-15"
+    C: CAS
+    F: "1900-01-01"
+    R: C
+  - T: "2015-11-15"
+    C: CAS
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CoverMyMeds
+    F: "2015-11-15"
+    R: C
+  - T: "2100-01-01"
+    C: CoverMyMeds
+    F: "2015-11-15"
+    P: k8s
+    R: C
+  I:
+  - E: samnap+github!gmail.com
+    M: samiam
+    S: git
+  B: 0
+  U: samiam
+- C: US
+  E: shan.aminzadeh!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Uber
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  S: female
+  I:
+  - E: shan.aminzadeh!gmail.com
+    M: saminzadeh
+    S: git
+  B: 0
+  U: saminzadeh
+- R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: samjeyam
+    S: github
+    U: samjeyam
+  B: 0
+  U: samjeyam
+- E: sam.jeyam!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: sam.jeyam!gmail.com
+    M: samjeyam
+    S: git
+  B: 0
+  U: samjeyam
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - S: github
+    U: sammcveety
+  B: 0
+  U: sammcveety
+- E: sam.mcveety!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: sam.mcveety!gmail.com
+    M: sammcveety
+    S: git
+  B: 0
+  U: sammcveety
+- E: sampathx.k.ayitha!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-11-04"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: sampathx.k.ayitha!intel.com
+    M: sampath.aitha
+    S: slack
+    U: sampath.aitha
+  B: 0
+  U: sampath.aitha
+- C: AU
+  E: skainsworth!gmail.com
+  R:
+  - T: "2014-08-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/contour
+    R: C
+  - T: "2014-08-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-09-01"
+    C: Independent
+    F: "2014-08-01"
+    R: C
+  - T: "2016-09-01"
+    C: Independent
+    F: "2014-08-01"
+    P: cncf/contour
+    R: C
+  - T: "2016-09-01"
+    C: Independent
+    F: "2014-08-01"
+    P: k8s
+    R: C
+  - T: "2016-12-01"
+    C: SigOpt
+    F: "2016-09-01"
+    R: C
+  - T: "2016-12-01"
+    C: SigOpt
+    F: "2016-09-01"
+    P: cncf/contour
+    R: C
+  - T: "2016-12-01"
+    C: SigOpt
+    F: "2016-09-01"
+    P: k8s
+    R: C
+  - T: "2017-02-01"
+    C: Independent
+    F: "2016-12-01"
+    R: C
+  - T: "2017-02-01"
+    C: Independent
+    F: "2016-12-01"
+    P: cncf/contour
+    R: C
+  - T: "2017-02-01"
+    C: Independent
+    F: "2016-12-01"
+    P: k8s
+    R: C
+  - T: "2017-07-01"
+    C: Cruise Automation
+    F: "2017-02-01"
+    P: cncf/contour
+    R: C
+  - T: "2017-07-01"
+    C: Cruise Automation
+    F: "2017-02-01"
+    P: k8s
+    R: C
+  - T: "2017-07-01"
+    C: Cruise
+    F: "2017-02-01"
+    R: C
+  - T: "2018-05-01"
+    C: Independent
+    F: "2017-07-01"
+    R: C
+  - T: "2018-05-01"
+    C: Independent
+    F: "2017-07-01"
+    P: cncf/contour
+    R: C
+  - T: "2018-05-01"
+    C: Independent
+    F: "2017-07-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: Google
+    F: "2018-05-01"
+    R: C
+  - T: "2018-08-01"
+    C: Google
+    F: "2018-05-01"
+    P: cncf/contour
+    R: C
+  - T: "2018-08-01"
+    C: Google
+    F: "2018-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-08-01"
+    P: cncf/contour
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: skainsworth!gmail.com
+    M: samuela
+    S: git
+  - E: skainsworth!gmail.com
+    M: samuela
+    S: github
+    U: samuela
+  B: 0
+  U: samuela
+- E: samuelmacedo!recife.ifpe.edu.br
+  R:
+  - T: "2014-06-30"
+    C: FCAP JR. Consultoria
+    F: "2010-01-31"
+    P: sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Federal Institute of Pernambuco
+    F: "2014-09-30"
+    P: sparklyr
+    R: C
+  I:
+  - E: samuelmacedo!recife.ifpe.edu.br
+    M: Samuel Macêdo
+    S: git
+  - E: samuelmacedo!recife.ifpe.edu.br
+    M: samuelmacedo83
+    S: git
+  - E: samuelmacedo!recife.ifpe.edu.br
+    M: Samuel Macêdo
+    S: github
+    U: samuelmacedo83
+  - E: samuelmacedo!recife.ifpe.edu.br
+    M: samuelmacedo
+    S: groupsio
+  B: 0
+  U: samuelmacedo
+- E: samuelw!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: samuelw!google.com
+    M: samuelw
+    S: git
+  B: 0
+  U: samuelw
+- E: 732834509!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: 732834509!qq.com
+    M: samuelyao314
+    S: github
+    U: samuelyao314
+  B: 0
+  U: samuelyao314
+- E: samwinslet!uk.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-10-31"
+    P: caliper
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-10-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  I:
+  - E: samwinslet!uk.ibm.com
+    M: samwinslet
+    S: git
+  B: 0
+  U: samwinslet
+- R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: kubeedge
+    R: C
+  I:
+  - S: github
+    U: samy2019
+  B: 0
+  U: samy2019
+- E: sameer.sarkar!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: kubeedge
+    R: C
+  I:
+  - E: sameer.sarkar!huawei.com
+    M: samy2019
+    S: git
+  B: 0
+  U: samy2019
+- E: sander!droneslab.com
+  R:
+  - T: "2100-01-01"
+    C: Vertical Technologies
+    F: "2015-12-27"
+    P: dronecode
+    R: C
+  I:
+  - E: sander!droneslab.com
+    M: sander
+    S: git
+  B: 0
+  U: sander
+- E: sander!droneslab.com
+  R:
+  - T: "2018-10-19"
+    C: Vertical Technologies
+    F: "2015-11-19"
+    P: dronecode
+    R: C
+  I:
+  - E: sander!droneslab.com
+    M: sanderux
+    S: git
+  B: 0
+  U: sanderux
 - R:
   - T: "2100-01-01"
     C: Tencent Holdings Limited

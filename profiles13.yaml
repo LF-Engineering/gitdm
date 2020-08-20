@@ -1,4 +1,202 @@
 P:
+- C: ES
+  E: marcos.stvz!gmail.com
+  R:
+  - T: "2015-01-01"
+    C: Softonic
+    F: "1900-01-01"
+    R: C
+  - T: "2015-01-01"
+    C: Softonic
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-01-01"
+    C: Softonic
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: Kodify
+    F: "2015-01-01"
+    R: C
+  - T: "2017-10-01"
+    C: Kodify
+    F: "2015-01-01"
+    P: helm
+    R: C
+  - T: "2017-10-01"
+    C: Kodify
+    F: "2015-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Broker Genius
+    F: "2017-10-01"
+    R: C
+  - T: "2018-09-01"
+    C: Broker Genius
+    F: "2017-10-01"
+    P: helm
+    R: C
+  - T: "2018-09-01"
+    C: Broker Genius
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Service layer
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Service layer
+    F: "2018-09-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Service layer
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: marcos.stvz!gmail.com
+    M: Marcos Estevez
+    S: git
+  - E: marcos.stvz!gmail.com
+    M: Marcos Estévez Martínez
+    S: git
+  B: 0
+  U: Marcos Estevez
+- C: ES
+  R:
+  - T: "2015-01-01"
+    C: Softonic
+    F: "1900-01-01"
+    R: C
+  - T: "2017-10-01"
+    C: Kodify
+    F: "2015-01-01"
+    R: C
+  - T: "2018-09-01"
+    C: Broker Genius
+    F: "2017-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Service layer
+    F: "2018-09-01"
+    R: C
+  S: male
+  I:
+  - M: Marcos Estévez Martínez
+    S: github
+    U: marcostvz
+  B: 0
+  U: Marcos Estévez Martínez
+- R:
+  - T: "2015-01-01"
+    C: Softonic
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2015-01-01"
+    C: Softonic
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-01-01"
+    C: Softonic
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: Kodify
+    F: "2015-01-01"
+    P: harbor
+    R: C
+  - T: "2017-10-01"
+    C: Kodify
+    F: "2015-01-01"
+    P: helm
+    R: C
+  - T: "2017-10-01"
+    C: Kodify
+    F: "2015-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Broker Genius
+    F: "2017-10-01"
+    P: harbor
+    R: C
+  - T: "2018-09-01"
+    C: Broker Genius
+    F: "2017-10-01"
+    P: helm
+    R: C
+  - T: "2018-09-01"
+    C: Broker Genius
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Service layer
+    F: "2018-09-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: Service layer
+    F: "2018-09-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Service layer
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  I:
+  - M: Marcos Estévez
+    S: github
+    U: marcostvz
+  B: 0
+  U: Marcos Estévez
+- R:
+  - T: "2016-07-01"
+    C: CERN
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2016-07-01"
+    C: CERN
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2017-10-01"
+    C: OpenStack
+    F: "2016-07-01"
+    P: fluentd
+    R: C
+  - T: "2017-10-01"
+    C: OpenStack
+    F: "2016-07-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Nexthink
+    F: "2017-10-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Nexthink
+    F: "2017-10-01"
+    P: nats
+    R: C
+  I:
+  - M: Marcos F. Lobo
+    S: github
+    U: marcosflobo
+  B: 0
+  U: Marcos F. Lobo
 - C: AR
   E: marcosnils!gmail.com
   R:
@@ -62184,243 +62382,3 @@ P:
     S: git
   B: 0
   U: Michael Halcrow
-- E: mhall!linux.com
-  R:
-  - T: "2019-12-31"
-    C: The Linux Foundation
-    F: "2018-08-03"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2019-12-31"
-    C: The Linux Foundation
-    F: "2019-01-25"
-    P: akraino
-    R: C
-  - T: "2019-12-31"
-    C: The Linux Foundation
-    F: "2019-05-15"
-    P: project-eve
-    R: C
-  - T: "2019-12-31"
-    C: The Linux Foundation
-    F: "2019-09-09"
-    P: lfedge/state-of-the-edge
-    R: C
-  I:
-  - M: Michael Hall
-    S: confluence
-    U: mhall119
-  - E: mhall!linux.com
-    M: Michael Hall
-    S: confluence
-    U: mhall119
-  - M: Michael Hall
-    S: discourse
-    U: mhall119
-  - E: mhall119!gmail.com
-    M: Michael Hall
-    S: git
-  - E: mhall119!gmail.com
-    M: Michael Hall
-    S: git
-  - M: Michael Hall
-    S: github
-    U: mhall119
-  - M: Michael Hall
-    S: github
-    U: mhall119
-  - E: releng!rt.linuxfoundation.org
-    M: Michael Hall via RT
-    S: groupsio
-  - E: mhall!linux.com
-    M: Michael Hall
-    S: groupsio
-  - E: mhall119!gmail.com
-    M: Michael Hall
-    S: groupsio
-  - E: mhall119!gmail.com
-    M: Michael Hall
-    S: groupsio
-  - E: mhall119!gmail.com
-    M: Michael Hall
-    S: slack
-    U: mhall119
-  B: 0
-  U: Michael Hall
-- E: michael!yoctoproject.org
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: yocto
-    R: C
-  I:
-  - E: michael!yoctoproject.org
-    S: bugzilla
-    U: michael
-  - E: michaelx.d.halstead!intel.com
-    S: bugzilla
-    U: michaelx.d.halstead
-  - M: Michael Halstead
-    S: bugzilla
-    U: michael
-  - M: Michael Halstead
-    S: bugzilla
-    U: michaelx.d.halstead
-  - E: michael!yoctoproject.org
-    M: Michael Halstead
-    S: bugzilla
-    U: michael
-  - E: michaelx.d.halstead!intel.com
-    M: Michael Halstead
-    S: bugzilla
-    U: michaelx.d.halstead
-  - E: mhalstead!linuxfoundation.org
-    M: Michael Halstead
-    S: git
-  - E: michael!yoctoproject.org
-    M: Michael Halstead
-    S: git
-  - E: mhalstead!linuxfoundation.org
-    M: Michael Halstead
-    S: groupsio
-  - E: michael!yoctoproject.org
-    M: Michael Halstead
-    S: groupsio
-  - E: michaelx.d.halstead!intel.com
-    M: Michael Halstead
-    S: groupsio
-  - E: mhalstead!linuxfoundation.org
-    M: Yocto Project Advocacy Group
-    S: groupsio
-  - E: mhalstead!linuxfoundation.org
-    M: Michael Halstead
-    S: pipermail
-  - E: michael!yoctoproject.org
-    M: Michael Halstead
-    S: pipermail
-  - E: michaelx.d.halstead!intel.com
-    M: Michael Halstead
-    S: pipermail
-  - E: mhalstead!linuxfoundation.org
-    M: Yocto Project Advocacy Group
-    S: pipermail
-  B: 0
-  U: Michael Halstead
-- C: US
-  E: m!hamrah.com
-  R:
-  - T: "2100-01-01"
-    C: Uber
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Uber
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  S: male
-  I:
-  - E: m!hamrah.com
-    M: Michael Hamrah
-    S: git
-  - E: m!hamrah.com
-    M: Michael Hamrah
-    S: github
-    U: mhamrah
-  B: 0
-  U: Michael Hamrah
-- E: michael.hansen!amdocs.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2017-05-16"
-    R: C
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2017-05-16"
-    P: onap
-    R: C
-  I:
-  - E: michael.hansen!amdocs.com
-    M: Michael Hansen
-    S: gerrit
-    U: michahan
-  B: 0
-  U: Michael Hansen
-- E: michael.j.hansen!hp.com
-  R:
-  - T: "2018-12-21"
-    C: HP
-    F: "2016-04-01"
-    P: yocto
-    R: C
-  I:
-  - M: Michael Hansen
-    S: bugzilla
-    U: michael.j.hansen
-  - E: michael.j.hansen!hp.com
-    M: Michael Hansen
-    S: bugzilla
-    U: michael.j.hansen
-  - E: michael.j.hansen!hp.com
-    M: Michael Hansen
-    S: git
-  B: 0
-  U: Michael Hansen
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Center for Open Science
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Center for Open Science
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Center for Open Science
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Michael Haselton
-    S: github
-    U: icereval
-  B: 0
-  U: Michael Haselton
-- C: US
-  E: icereval!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Center for Open Science
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Center for Open Science
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-07-17"
-    C: Center for Open Science
-    F: "2017-06-12"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: icereval!gmail.com
-    M: Michael Haselton
-    S: git
-  - E: icereval!gmail.com
-    M: icereval
-    S: git
-  B: 0
-  U: Michael Haselton
