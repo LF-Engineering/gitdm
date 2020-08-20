@@ -1,4 +1,39 @@
 P:
+- R:
+  - T: "2015-04-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: Twitter
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2018-10-01"
+    C: Slack
+    F: "2015-04-01"
+    R: C
+  - T: "2018-10-01"
+    C: Slack
+    F: "2015-04-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Slack
+    F: "2018-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Slack
+    F: "2018-10-01"
+    P: envoy
+    R: C
+  S: male
+  I:
+  - M: Glen D Sanford
+    S: github
+    U: 9len
+  B: 0
+  U: Glen D Sanford
 - E: glen!twitter.com
   R:
   - T: "2100-01-01"
@@ -61855,21 +61890,3 @@ P:
     S: git
   B: 0
   U: Imre Kaloz
-- E: imre.pinter!ericsson.com
-  R:
-  - T: "2017-06-09"
-    C: Ericsson AB
-    F: "2017-06-01"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2017-06-09"
-    C: Ericsson AB
-    F: "2017-06-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: imre.pinter!ericsson.com
-    M: Imre Pinter
-    S: pipermail
-  B: 0
-  U: Imre Pinter
