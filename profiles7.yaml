@@ -1,4 +1,41 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Yelp
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: Eric Chu
+    S: github
+    U: ericchu94
+  B: 0
+  U: Eric Chu
+- E: ericchu!yelp.com
+  R:
+  - T: "2100-01-01"
+    C: Yelp
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: ericchu!yelp.com
+    M: Eric Chu
+    S: git
+  B: 0
+  U: Eric Chu
+- E: Eric.Cook!amd.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: Eric.Cook!amd.com
+    M: Eric Cook
+    S: git
+  B: 0
+  U: Eric Cook
 - E: ecc!cmu.edu
   R:
   - T: "2100-01-01"
@@ -62143,36 +62180,3 @@ P:
     S: git
   B: 0
   U: Gjorgji Rosikopulos
-- E: agladkov!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: agladkov!redhat.com
-    M: Gladkov Alexey
-    S: git
-  B: 0
-  U: Gladkov Alexey
-- E: gcosta!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: gcosta!redhat.com
-    M: Glauber Costa
-    S: git
-  - E: gcosta!redhat.com
-    M: Glauber de Oliveira Costa
-    S: git
-  B: 0
-  U: Glauber Costa
