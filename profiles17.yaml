@@ -1,4 +1,234 @@
 P:
+- R:
+  - T: "2016-02-01"
+    C: Iseit
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-05-01"
+    C: HeyStaks
+    F: "2016-02-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: MongoDB
+    F: "2017-05-01"
+    P: helm
+    R: C
+  I:
+  - M: Ricardo Hernandez
+    S: github
+    U: richerve
+  B: 0
+  U: Ricardo Hernandez
+- C: BR
+  R:
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Ricardo Katz
+    S: github
+    U: rikatz
+  B: 0
+  U: Ricardo Katz
+- C: BR
+  E: rikatz!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SERPRO
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  S: male
+  I:
+  - E: rikatz!users.noreply.github.com
+    M: Ricardo Katz
+    S: git
+  B: 0
+  U: Ricardo Katz
+- E: rlourenc!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: rlourenc!redhat.com
+    M: Ricardo Lourenco
+    S: git
+  B: 0
+  U: Ricardo Lourenco
+- C: CZ
+  E: rfplourenco!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: rfplourenco!gmail.com
+    M: Ricardo Lourenço
+    S: github
+    U: rflorenc
+  B: 0
+  U: Ricardo Lourenço
+- E: rmaugusto!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: OrusPay
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: OrusPay
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: OrusPay
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: rmaugusto!gmail.com
+    M: Ricardo M. Augusto
+    S: git
+  - E: rmaugusto!gmail.com
+    M: Ricardo M. Augusto
+    S: github
+    U: rmaugusto
+  B: 0
+  U: Ricardo M. Augusto
+- E: rmarasch!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: rmarasch!redhat.com
+    M: Ricardo Maraschini
+    S: git
+  B: 0
+  U: Ricardo Maraschini
+- C: PT
+  R:
+  - T: "2019-05-10"
+    C: Microsoft Corporation
+    F: "2018-10-08"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Ricardo Marramaque
+    S: github
+    U: Ralms
+  B: 0
+  U: Ricardo Marramaque
+- C: PT
+  E: ralm!rmarramaque.com
+  R:
+  - T: "2019-01-11"
+    C: Microsoft Corporation
+    F: "2018-10-10"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: ralm!rmarramaque.com
+    M: Ricardo Marramaque
+    S: git
+  B: 0
+  U: Ricardo Marramaque
+- E: ricardo.neri!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ricardo.neri!intel.com
+    S: bugzilla
+    U: ricardo.neri
+  - E: ricardo.neri!intel.com
+    M: Ricardo Neri
+    S: bugzilla
+    U: ricardo.neri
+  B: 0
+  U: Ricardo Neri
+- E: ricardo.neri-calderon!linux.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-01-01"
+    P: yocto
+    R: C
+  S: male
+  I:
+  - E: ricardo.neri-calderon!linux.intel.com
+    M: Ricardo Neri
+    S: git
+  - E: ricardo.neri-calderon!linux.intel.com
+    M: Ricardo Neri
+    S: groupsio
+  - E: ricardo.neri-calderon!linux.intel.com
+    M: Ricardo Neri
+    S: pipermail
+  B: 0
+  U: Ricardo Neri
 - E: rnoriega!redhat.com
   R:
   - T: "2100-01-01"
@@ -62061,403 +62291,3 @@ P:
     S: git
   B: 0
   U: SaschaWeisenberger
-- C: ES
-  R:
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: fabric
-    R: C
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-02-01"
-    C: Touchido
-    F: "2014-09-01"
-    P: fabric
-    R: C
-  - T: "2015-02-01"
-    C: Touchido
-    F: "2014-09-01"
-    P: helm
-    R: C
-  - T: "2015-02-01"
-    C: Touchido
-    F: "2014-09-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2015-02-01"
-    C: Touchido
-    F: "2014-09-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2015-02-01"
-    C: Touchido
-    F: "2014-09-01"
-    P: k8s
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-02-01"
-    P: fabric
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-02-01"
-    P: helm
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-02-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-02-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-02-01"
-    P: k8s
-    R: C
-  - T: "2016-03-01"
-    C: Entrepreneur First
-    F: "2015-08-01"
-    P: fabric
-    R: C
-  - T: "2016-03-01"
-    C: Entrepreneur First
-    F: "2015-08-01"
-    P: helm
-    R: C
-  - T: "2016-03-01"
-    C: Entrepreneur First
-    F: "2015-08-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2016-03-01"
-    C: Entrepreneur First
-    F: "2015-08-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2016-03-01"
-    C: Entrepreneur First
-    F: "2015-08-01"
-    P: k8s
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2016-03-01"
-    P: fabric
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2016-03-01"
-    P: helm
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2016-03-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2016-03-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2016-03-01"
-    P: k8s
-    R: C
-  - T: "2016-12-01"
-    C: Techstars
-    F: "2016-06-01"
-    P: fabric
-    R: C
-  - T: "2016-12-01"
-    C: Techstars
-    F: "2016-06-01"
-    P: helm
-    R: C
-  - T: "2016-12-01"
-    C: Techstars
-    F: "2016-06-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2016-12-01"
-    C: Techstars
-    F: "2016-06-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2016-12-01"
-    C: Techstars
-    F: "2016-06-01"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: Avalon Al
-    F: "2016-12-01"
-    P: fabric
-    R: C
-  - T: "2017-04-01"
-    C: Avalon Al
-    F: "2016-12-01"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: Avalon Al
-    F: "2016-12-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2017-04-01"
-    C: Avalon Al
-    F: "2016-12-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2017-04-01"
-    C: Avalon Al
-    F: "2016-12-01"
-    P: k8s
-    R: C
-  - T: "2019-10-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: fabric
-    R: C
-  - T: "2019-10-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2019-10-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2019-10-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2019-10-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2100-01-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2100-01-01"
-    C: Curious
-    F: "2019-10-01"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: Curious
-    F: "2019-10-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Curious
-    F: "2019-10-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2100-01-01"
-    C: Curious
-    F: "2019-10-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2100-01-01"
-    C: Curious
-    F: "2019-10-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Sasha (Alejandro Vicente Grabovetsky)
-    S: github
-    U: alexvicegrab
-  B: 0
-  U: Sasha (Alejandro Vicente Grabovetsky)
-- C: ES
-  E: a.vicente.grab!gmail.com
-  R:
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2015-02-01"
-    C: Touchido
-    F: "2014-09-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2015-02-01"
-    C: Touchido
-    F: "2014-09-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-02-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-02-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2016-03-01"
-    C: Entrepreneur First
-    F: "2015-08-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2016-03-01"
-    C: Entrepreneur First
-    F: "2015-08-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2016-03-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2016-03-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2016-12-01"
-    C: Techstars
-    F: "2016-06-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2016-12-01"
-    C: Techstars
-    F: "2016-06-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2017-04-01"
-    C: Avalon Al
-    F: "2016-12-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2017-04-01"
-    C: Avalon Al
-    F: "2016-12-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2019-10-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2019-10-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2100-01-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2100-01-01"
-    C: AID:Tech
-    F: "2017-04-01"
-    P: hyperledger-labs/nephos
-    R: C
-  - T: "2100-01-01"
-    C: Curious
-    F: "2019-10-01"
-    P: hyperledger-labs/hyperledger-labs-github-io
-    R: C
-  - T: "2100-01-01"
-    C: Curious
-    F: "2019-10-01"
-    P: hyperledger-labs/nephos
-    R: C
-  S: male
-  I:
-  - E: a.vicente.grab!gmail.com
-    M: Sasha (Alejandro Vicente Grabovetsky)
-    S: git
-  - E: a.vicente.grab!gmail.com
-    M: Sasha
-    S: git
-  B: 0
-  U: Sasha (Alejandro Vicente Grabovetsky)
-- E: sasha.jeltuhin!appdynamics.com
-  R:
-  - T: "2100-01-01"
-    C: AppDynamics
-    F: "2019-05-17"
-    P: pnda
-    R: C
-  I:
-  - E: sasha.jeltuhin!appdynamics.com
-    M: Sasha Jeltuhin
-    S: git
-  B: 0
-  U: Sasha Jeltuhin
-- E: sashakot!mellanox.com
-  R:
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: sashakot!mellanox.com
-    M: Sasha Kotchubievsky
-    S: git
-  B: 0
-  U: Sasha Kotchubievsky
-- E: Alexander.Levin!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: Alexander.Levin!microsoft.com
-    M: Sasha Levin
-    S: git
-  B: 0
-  U: Sasha Levin

@@ -1,4 +1,113 @@
 P:
+- C: RU
+  R:
+  - T: "2016-02-01"
+    C: ООО «Центр ИКТ»
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2017-08-01"
+    C: Telematics-One
+    F: "2016-02-01"
+    P: nats
+    R: C
+  - T: "2018-04-01"
+    C: Upwork
+    F: "2017-08-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Akvelon
+    F: "2018-04-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - M: Vladimir Sundupey
+    S: github
+    U: vsundupey
+  B: 0
+  U: Vladimir Sundupey
+- C: DE
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "2018-09-24"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - E: vladimir.videlov!sap.com
+    M: Vladimir Videlov
+    S: git
+  - M: Vladimir Videlov
+    S: github
+    U: videlov
+  - E: vladimir.videlov!sap.com
+    M: Vladimir Videlov
+    S: slack
+    U: vladimir.videlov
+  B: 0
+  U: Vladimir Videlov
+- C: US
+  E: vivienv!vmware.com
+  R:
+  - T: "2015-05-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2015-05-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-10-01"
+    C: Xor
+    F: "2015-05-01"
+    P: baetyl
+    R: C
+  - T: "2015-10-01"
+    C: Xor
+    F: "2015-05-01"
+    P: k8s
+    R: C
+  - T: "2018-03-01"
+    C: Dell
+    F: "2015-10-01"
+    P: baetyl
+    R: C
+  - T: "2018-03-01"
+    C: Dell
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-03-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-03-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: vivienv!vmware.com
+    M: Vladimir Vivien
+    S: git
+  - E: vivienv!vmware.com
+    M: Vladimir Vivien
+    S: github
+    U: vladimirvivien
+  B: 0
+  U: Vladimir Vivien
 - E: vladimir.vivien!gmail.com
   R:
   - T: "2015-05-01"
@@ -44972,6 +45081,38 @@ P:
     S: git
   B: 0
   U: Yonghong Song
+- E: zhaoyonghui!gmail.com
+  R:
+  - T: "2006-09-01"
+    C: IBM
+    F: "2006-07-01"
+    P: horovod
+    R: C
+  - T: "2011-12-01"
+    C: Microsoft Corporation
+    F: "2007-07-01"
+    P: horovod
+    R: C
+  - T: "2012-10-01"
+    C: Tencent Holdings Limited
+    F: "2012-01-01"
+    P: horovod
+    R: C
+  - T: "2019-11-01"
+    C: Xiaomi Digital Technology Co.,Ltd.
+    F: "2013-01-01"
+    P: horovod
+    R: C
+  I:
+  - E: zhaoyonghui!xiaomi.com
+    M: Yonghui Zhao
+    S: git
+  - E: zhaoyonghui!gmail.com
+    M: Yonghui Zhao
+    S: github
+    U: yozhao
+  B: 0
+  U: Yonghui Zhao
 - E: xyjxie!linux.vnet.ibm.com
   R:
   - T: "2017-03-04"
@@ -61441,148 +61582,3 @@ P:
     S: git
   B: 0
   U: ZhangXiaoxu
-- E: zhangzihao!chinamobile.com
-  R:
-  - T: "2100-01-01"
-    C: China Mobile Communication Company Ltd
-    F: "2019-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: China Mobile Communication Company Ltd
-    F: "2019-04-01"
-    P: onap
-    R: C
-  I:
-  - E: zhangzihao!chinamobile.com
-    M: Zihao Zhang
-    S: gerrit
-    U: ZhangZihao
-  - E: zhangzihao!chinamobile.com
-    M: ZhangZihao
-    S: git
-  - E: zhangzihao!chinamobile.com
-    M: Zihao Zhang
-    S: git
-  B: 0
-  U: ZhangZihao
-- E: zhangfei.gao!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: zhangfei.gao!linaro.org
-    M: Zhangfei Gao
-    S: git
-  B: 0
-  U: Zhangfei Gao
-- E: kenny.zhangjun!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-10-19"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-10-19"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: kenny.zhangjun!huawei.com
-    M: Zhangjun Kenny
-    S: pipermail
-  B: 0
-  U: Zhangjun Kenny
-- E: zhang.zhangkun!huawei.com
-  R:
-  - T: "2017-07-25"
-    C: Huawei Technologies Co., Ltd.
-    F: "2014-08-19"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2017-07-25"
-    C: Huawei Technologies Co., Ltd.
-    F: "2014-08-19"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: zhang.zhangkun!huawei.com
-    M: Zhangkun K
-    S: pipermail
-  - E: zhang.zhangkun!huawei.com
-    M: zhang.zhangkun
-    S: pipermail
-  B: 0
-  U: Zhangkun K
-- E: zhangk.zhangkun!huawei.com
-  R:
-  - T: "2014-08-30"
-    C: Huawei Technologies Co., Ltd.
-    F: "2014-08-19"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2014-08-30"
-    C: Huawei Technologies Co., Ltd.
-    F: "2014-08-19"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2014-08-30"
-    C: Huawei Technologies Co., Ltd.
-    F: "2014-08-19"
-    P: dpdk-draft
-    R: C
-  - T: "2014-08-30"
-    C: Huawei Technologies Co., Ltd.
-    F: "2014-08-19"
-    P: dpdk-next
-    R: C
-  I:
-  - E: zhangk.zhangkun!huawei.com
-    M: Zhangkun
-    S: git
-  B: 0
-  U: Zhangkun
-- C: CN
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Zhanglong Xia
-    S: github
-    U: zhanglongxia
-  B: 0
-  U: Zhanglong Xia
-- C: CN
-  E: zhanglongxia!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-01-08"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: zhanglongxia!google.com
-    M: Zhanglong Xia
-    S: git
-  B: 0
-  U: Zhanglong Xia
-- E: w.zhang!huawei.com
-  R:
-  - T: "2016-06-09"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-10-16"
-    P: odl
-    R: C
-  I:
-  - E: w.zhang!huawei.com
-    M: Zhangwei William
-    S: pipermail
-  B: 0
-  U: Zhangwei William

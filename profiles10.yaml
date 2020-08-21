@@ -1,5 +1,110 @@
 P:
 - C: US
+  E: jc!linux.com
+  R:
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2017-01-01"
+    C: Xda
+    F: "2015-03-01"
+    R: C
+  - T: "2017-10-01"
+    C: LineageOS
+    F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: ACM
+    F: "2017-10-01"
+    R: C
+  S: male
+  I:
+  - E: jc!linux.com
+    M: Jesse Chan
+    S: git
+  B: 0
+  U: Jesse Chan
+- R:
+  - T: "2014-09-01"
+    C: CVPartners
+    F: "1900-01-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2014-09-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2015-08-01"
+    C: Taos
+    F: "2015-03-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2017-02-01"
+    C: AnyPerk
+    F: "2015-08-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2019-05-01"
+    C: Capital One
+    F: "2017-02-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2019-12-01"
+    C: Omada Health
+    F: "2019-05-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2100-01-01"
+    C: The Duckbill Group
+    F: "2019-12-01"
+    P: cncf/cloudcustodian
+    R: C
+  I:
+  - M: Jesse DeRose
+    S: github
+    U: jcderose
+  B: 0
+  U: Jesse DeRose
+- E: jesse.dearing!gmail.com
+  R:
+  - T: "2016-05-01"
+    C: New Relic
+    F: "1900-01-01"
+    P: cncf/contour
+    R: C
+  - T: "2018-08-01"
+    C: InVision AG
+    F: "2016-05-01"
+    P: cncf/contour
+    R: C
+  - T: "2018-12-01"
+    C: VMware, Inc.
+    F: "2018-08-01"
+    P: cncf/contour
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-08-01"
+    P: cncf/contour
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-12-01"
+    P: cncf/contour
+    R: C
+  I:
+  - E: jesse.dearing!gmail.com
+    M: Jesse Dearing
+    S: git
+  - E: jesse.dearing!gmail.com
+    M: Jesse Dearing
+    S: github
+    U: jessedearing
+  B: 0
+  U: Jesse Dearing
+- C: US
   E: jdubay!discogsinc.com
   R:
   - T: "2100-01-01"
@@ -62644,144 +62749,3 @@ P:
     S: git
   B: 0
   U: Juanli Shen
-- C: US
-  E: juanlishen!google.com
-  R:
-  - T: "2014-09-01"
-    C: EMC
-    F: "1900-01-01"
-    R: C
-  - T: "2014-09-01"
-    C: EMC
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2014-09-01"
-    C: EMC
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2016-05-01"
-    C: Microsoft Corporation
-    F: "2014-09-01"
-    R: C
-  - T: "2016-05-01"
-    C: Microsoft Corporation
-    F: "2014-09-01"
-    P: envoy
-    R: C
-  - T: "2016-05-01"
-    C: Microsoft Corporation
-    F: "2014-09-01"
-    P: grpc
-    R: C
-  - T: "2017-07-01"
-    C: Facebook, Inc.
-    F: "2016-05-01"
-    R: C
-  - T: "2017-07-01"
-    C: Facebook, Inc.
-    F: "2016-05-01"
-    P: envoy
-    R: C
-  - T: "2017-07-01"
-    C: Facebook, Inc.
-    F: "2016-05-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-07-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-07-01"
-    P: grpc
-    R: C
-  S: female
-  I:
-  - E: juanlishen!google.com
-    M: Juanli Shen
-    S: git
-  - E: juanlishen!google.com
-    M: Juanli Shen
-    S: github
-    U: AspirinSJL
-  B: 0
-  U: Juanli Shen
-- C: US
-  E: contact!judsonwhite.com
-  R:
-  - T: "2014-01-01"
-    C: Rovi Corporation
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2014-01-01"
-    C: Rovi Corporation
-    F: "1900-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Dell
-    F: "2014-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Dell
-    F: "2014-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  S: male
-  I:
-  - E: contact!judsonwhite.com
-    M: Jud White
-    S: github
-    U: judwhite
-  B: 0
-  U: Jud White
-- C: US
-  E: github!judsonwhite.com
-  R:
-  - T: "2014-01-01"
-    C: Rovi Corporation
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2014-01-01"
-    C: Rovi Corporation
-    F: "1900-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Dell
-    F: "2014-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Dell
-    F: "2014-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  S: male
-  I:
-  - E: github!judsonwhite.com
-    M: Jud White
-    S: git
-  B: 0
-  U: Jud White
