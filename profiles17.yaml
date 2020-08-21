@@ -1,4 +1,165 @@
 P:
+- C: GB
+  R:
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Ricardo Cordeiro
+    S: github
+    U: rjmco
+  B: 0
+  U: Ricardo Cordeiro
+- E: ptlamb!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: ptlamb!gmail.com
+    M: Ricardo Cordeiro
+    S: git
+  B: 0
+  U: Ricardo Cordeiro
+- C: PT
+  E: rdias!suse.com
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: rdias!suse.com
+    M: Ricardo Dias
+    S: git
+  B: 0
+  U: Ricardo Dias
+- E: ricardo.diaz.campos!ericsson.com
+  R:
+  - T: "2016-09-08"
+    C: Ericsson AB
+    F: "2016-07-26"
+    P: odl
+    R: C
+  I:
+  - E: ricardo.diaz.campos!ericsson.com
+    M: Ricardo Diaz Campos
+    S: git
+  - E: ricardo.diaz.campos!ericsson.com
+    M: ericdia
+    S: git
+  - E: ricardo.diaz.campos!ericsson.com
+    M: RICARDO DIAZ CAMPOS
+    S: pipermail
+  B: 0
+  U: Ricardo Diaz Campos
+- R:
+  - T: "2016-01-01"
+    C: Runweb
+    F: "1900-01-01"
+    R: C
+  - T: "2016-01-01"
+    C: Runweb
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Arquivei
+    F: "2016-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Arquivei
+    F: "2016-01-01"
+    P: fluentd
+    R: C
+  S: male
+  I:
+  - M: Ricardo F. Verhaeg
+    S: github
+    U: Verhaeg
+  B: 0
+  U: Ricardo F. Verhaeg
+- C: PT
+  R:
+  - T: "2017-03-01"
+    C: Banco de Portugal
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-03-01"
+    C: Banco de Portugal
+    F: "1900-01-01"
+    P: presto
+    R: C
+  - T: "2100-01-01"
+    C: Web Summit
+    F: "2017-03-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Web Summit
+    F: "2017-03-01"
+    P: presto
+    R: C
+  S: male
+  I:
+  - M: Ricardo Gândara Pinto
+    S: github
+    U: rmgpinto
+  B: 0
+  U: Ricardo Gândara Pinto
+- C: GB
+  E: 430024+richerve!users.noreply.github.com
+  R:
+  - T: "2016-02-01"
+    C: Iseit
+    F: "1900-01-01"
+    R: C
+  - T: "2016-02-01"
+    C: Iseit
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-05-01"
+    C: HeyStaks
+    F: "2016-02-01"
+    R: C
+  - T: "2017-05-01"
+    C: HeyStaks
+    F: "2016-02-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: MongoDB
+    F: "2017-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: MongoDB
+    F: "2017-05-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: 430024+richerve!users.noreply.github.com
+    M: Ricardo Hernandez
+    S: git
+  B: 0
+  U: Ricardo Hernandez
 - R:
   - T: "2016-02-01"
     C: Iseit
@@ -62226,68 +62387,3 @@ P:
     S: git
   B: 0
   U: Sascha Marcel Schmidt
-- C: DE
-  E: torvitas!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Seidemann Web GmbH
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Seidemann Web GmbH
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: torvitas!users.noreply.github.com
-    M: Sascha Marcel Schmidt
-    S: git
-  B: 0
-  U: Sascha Marcel Schmidt
-- C: DE
-  E: sascha!peilicke.de
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: sascha!peilicke.de
-    M: Sascha Peilicke
-    S: git
-  - E: sascha!peilicke.de
-    M: Sascha Peilicke
-    S: github
-    U: saschpe
-  B: 0
-  U: Sascha Peilicke
-- E: sascha.scherer!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "2016-04-27"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: sascha.scherer!sap.com
-    M: Sascha Scherer
-    S: slack
-    U: sascha.scherer
-  B: 0
-  U: Sascha Scherer
-- E: sascha.weisenberger!siemens.com
-  R:
-  - T: "2016-09-28"
-    C: Siemens AG
-    F: "2016-07-01"
-    P: yocto
-    R: C
-  I:
-  - E: sascha.weisenberger!siemens.com
-    M: SaschaWeisenberger
-    S: git
-  B: 0
-  U: SaschaWeisenberger
