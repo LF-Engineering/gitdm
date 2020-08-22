@@ -1,4 +1,66 @@
 P:
+- C: DE
+  E: vladmos!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  S: male
+  I:
+  - E: vladmos!gmail.com
+    M: Vladimir Moskva
+    S: git
+  B: 0
+  U: Vladimir Moskva
+- E: vladmos!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: vladmos!google.com
+    M: Vladimir Moskva
+    S: git
+  B: 0
+  U: Vladimir Moskva
+- E: vladimir.murzin!arm.com
+  R:
+  - T: "2100-01-01"
+    C: ARM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: vladimir.murzin!arm.com
+    M: Vladimir Murzin
+    S: git
+  B: 0
+  U: Vladimir Murzin
+- C: BG
+  E: vladimir.nachev!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: vladimir.nachev!sap.com
+    M: Vladimir Nachev
+    S: git
+  - E: vladimir.nachev!sap.com
+    M: Vladimir Nachev
+    S: github
+    U: vpnachev
+  B: 0
+  U: Vladimir Nachev
 - E: vladimirn!mellanox.com
   R:
   - T: "2100-01-01"
@@ -34117,6 +34179,18 @@ P:
     U: Yannig
   B: 0
   U: Yannig
+- R:
+  - T: "2100-01-01"
+    C: Phytium
+    F: "1901-01-01"
+    P: akraino
+    R: C
+  I:
+  - M: Yanning Wang
+    S: confluence
+    U: aiflying
+  B: 0
+  U: Yanning Wang
 - C: GR
   R:
   - T: "2018-09-01"
@@ -61539,70 +61613,3 @@ P:
     S: pipermail
   B: 0
   U: Zhang, JunhuiX
-- C: US
-  E: lz.llcb07!alibaba-inc.com
-  R:
-  - T: "2018-03-01"
-    C: HyperHQ
-    F: "1900-01-01"
-    R: C
-  - T: "2018-03-01"
-    C: HyperHQ
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2018-03-01"
-    C: HyperHQ
-    F: "1900-01-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2018-03-01"
-    C: HyperHQ
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2018-06-01"
-    C: Microsoft Corporation
-    F: "2018-03-01"
-    R: C
-  - T: "2018-06-01"
-    C: Microsoft Corporation
-    F: "2018-03-01"
-    P: cncf
-    R: C
-  - T: "2018-06-01"
-    C: Microsoft Corporation
-    F: "2018-03-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2018-06-01"
-    C: Microsoft Corporation
-    F: "2018-03-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "2018-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "2018-06-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "2018-06-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "2018-06-01"
-    P: openebs
-    R: C
-  S: male
-  I:
-  - E: lz.llcb07!alibaba-inc.com
-    M: Zhang, Lei
-    S: git
-  B: 0
-  U: Zhang, Lei

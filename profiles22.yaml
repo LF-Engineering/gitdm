@@ -1,4 +1,71 @@
 P:
+- C: US
+  E: lz.llcb07!alibaba-inc.com
+  R:
+  - T: "2018-03-01"
+    C: HyperHQ
+    F: "1900-01-01"
+    R: C
+  - T: "2018-03-01"
+    C: HyperHQ
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2018-03-01"
+    C: HyperHQ
+    F: "1900-01-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2018-03-01"
+    C: HyperHQ
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2018-06-01"
+    C: Microsoft Corporation
+    F: "2018-03-01"
+    R: C
+  - T: "2018-06-01"
+    C: Microsoft Corporation
+    F: "2018-03-01"
+    P: cncf
+    R: C
+  - T: "2018-06-01"
+    C: Microsoft Corporation
+    F: "2018-03-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2018-06-01"
+    C: Microsoft Corporation
+    F: "2018-03-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "2018-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "2018-06-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "2018-06-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "2018-06-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - E: lz.llcb07!alibaba-inc.com
+    M: Zhang, Lei
+    S: git
+  B: 0
+  U: Zhang, Lei
 - E: Xiaohua.Zhang!windriver.com
   R:
   - T: "2010-08-31"
@@ -5130,6 +5197,18 @@ P:
     S: groupsio
   B: 0
   U: Zhuangyang Chen
+- R:
+  - T: "2100-01-01"
+    C: Xinhong
+    F: "1901-01-01"
+    P: akraino
+    R: C
+  I:
+  - M: ZhumingZhang
+    S: confluence
+    U: SimmyZhang
+  B: 0
+  U: ZhumingZhang
 - E: tianzhuo3!huawei.com
   R:
   - T: "2100-01-01"
@@ -62537,421 +62616,3 @@ P:
     S: git
   B: 0
   U: huimin
-- C: BR
-  E: hmtai!cn.ibm.com
-  R:
-  - T: "2014-03-01"
-    C: Tecpetrol
-    F: "1900-01-01"
-    R: C
-  - T: "2014-03-01"
-    C: Tecpetrol
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2014-03-01"
-    C: Tecpetrol
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2014-03-01"
-    C: Tecpetrol
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-04-01"
-    C: Tenaris
-    F: "2014-03-01"
-    R: C
-  - T: "2015-04-01"
-    C: Tenaris
-    F: "2014-03-01"
-    P: containerd
-    R: C
-  - T: "2015-04-01"
-    C: Tenaris
-    F: "2014-03-01"
-    P: cri-o
-    R: C
-  - T: "2015-04-01"
-    C: Tenaris
-    F: "2014-03-01"
-    P: k8s
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-04-01"
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-04-01"
-    P: containerd
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-04-01"
-    P: cri-o
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-04-01"
-    P: k8s
-    R: C
-  - T: "2016-03-01"
-    C: Kaitzen Solutions
-    F: "2016-01-01"
-    R: C
-  - T: "2016-03-01"
-    C: Kaitzen Solutions
-    F: "2016-01-01"
-    P: containerd
-    R: C
-  - T: "2016-03-01"
-    C: Kaitzen Solutions
-    F: "2016-01-01"
-    P: cri-o
-    R: C
-  - T: "2016-03-01"
-    C: Kaitzen Solutions
-    F: "2016-01-01"
-    P: k8s
-    R: C
-  - T: "2018-09-01"
-    C: Intel Corporation
-    F: "2016-03-01"
-    R: C
-  - T: "2018-09-01"
-    C: Intel Corporation
-    F: "2016-03-01"
-    P: containerd
-    R: C
-  - T: "2018-09-01"
-    C: Intel Corporation
-    F: "2016-03-01"
-    P: cri-o
-    R: C
-  - T: "2018-09-01"
-    C: Intel Corporation
-    F: "2016-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Scytale
-    F: "2018-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Scytale
-    F: "2018-09-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: Scytale
-    F: "2018-09-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Scytale
-    F: "2018-09-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: hmtai!cn.ibm.com
-    M: huimin
-    S: github
-    U: hmtai
-  B: 0
-  U: huimin
-- E: 1847234666!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2018-09-22"
-    C: Tencent Holdings Limited
-    F: "2018-09-14"
-    P: fabric
-    R: C
-  - T: "2018-09-22"
-    C: Tencent Holdings Limited
-    F: "2018-09-14"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2018-09-22"
-    C: Tencent Holdings Limited
-    F: "2018-09-14"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  I:
-  - E: 1847234666!qq.com
-    M: huiqiang li
-    S: gerrit
-    U: manxiaqu
-  - E: 1847234666!qq.com
-    M: manxiaqu
-    S: git
-  B: 0
-  U: huiqiang li
-- E: hzhou!slack-corp.com
-  R:
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  I:
-  - E: hzhou!slack-corp.com
-    M: huiqing zhou
-    S: git
-  B: 0
-  U: huiqing zhou
-- E: huisebug!outlook.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: huisebug!outlook.com
-    S: github
-    U: huisebug
-  B: 0
-  U: huisebug
-- E: 541176616!qq.com
-  R:
-  - T: "2018-01-20"
-    C: Tencent Holdings Limited
-    F: "2018-01-18"
-    P: cello
-    R: C
-  - T: "2018-01-20"
-    C: Tencent Holdings Limited
-    F: "2018-01-18"
-    P: hyperledger/hyperledger-all
-    R: C
-  I:
-  - E: 541176616!qq.com
-    M: huiying gong
-    S: gerrit
-    U: huiyingGong
-  - E: 541176616!qq.com
-    M: Huiying Gong
-    S: git
-  - E: 541176616!qq.com
-    M: huiying gong
-    S: jira
-    U: huiyingGong
-  B: 0
-  U: huiying gong
-- E: hungpham!cisco.com
-  R:
-  - T: "2016-09-01"
-    C: Cisco Systems Inc.
-    F: "2000-01-01"
-    P: fdio
-    R: C
-  - T: "2018-09-01"
-    C: Inventec
-    F: "2016-10-01"
-    P: fdio
-    R: C
-  I:
-  - E: hungpham!cisco.com
-    M: hung pham
-    S: jira
-    U: hungtuanpham
-  B: 0
-  U: hung pham
-- E: hunter.ashmore!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2016-07-11"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: hunter.ashmore!ge.com
-    M: hunter_ashmore
-    S: slack
-    U: hunter_ashmore
-  B: 0
-  U: hunter_ashmore
-- C: VN
-  E: huynq0911!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: tuf
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  - T: "2019-02-21"
-    C: Fujitsu
-    F: "2018-12-13"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: huynq0911!gmail.com
-    M: Nguyen Quang Huy
-    S: git
-  - E: huynq0911!gmail.com
-    M: huynq0911
-    S: git
-  - E: huynq0911!gmail.com
-    M: Nguyen Quang Huy
-    S: github
-    U: huynq0911
-  B: 0
-  U: huynq0911
-- E: inexplicable.huiqing!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  I:
-  - E: inexplicable.huiqing!gmail.com
-    M: huz
-    S: github
-    U: inexplicable
-  B: 0
-  U: huz
-- E: zhengchuanhu!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: EasyStack
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: EasyStack
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: EasyStack
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: zhengchuanhu!gmail.com
-    M: huzhengchuan
-    S: github
-    U: huzhengchuan
-  B: 0
-  U: huzhengchuan
