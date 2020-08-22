@@ -1,4 +1,2822 @@
 P:
+- E: ronit.shechter!intl.att.com
+  R:
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: o-ran/documentation
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: o-ran/integration
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-inf
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-nonrtric
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-oam
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-ocu
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-oduhigh
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-odulow
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-ric
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-ricapp
+    R: C
+  - T: "2011-01-01"
+    C: VCON
+    F: "2004-01-01"
+    P: oran-sim
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: o-ran/documentation
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: o-ran/integration
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-inf
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-nonrtric
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-oam
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-ocu
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-oduhigh
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-odulow
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-ric
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-ricapp
+    R: C
+  - T: "2013-01-01"
+    C: Better Place
+    F: "2011-01-01"
+    P: oran-sim
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: o-ran/documentation
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: o-ran/integration
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-inf
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-nonrtric
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-oam
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-ocu
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-oduhigh
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-odulow
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-ric
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-ricapp
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-01-01"
+    P: oran-sim
+    R: C
+  I:
+  - E: ronit.shechter!intl.att.com
+    M: ronit shechter
+    S: gerrit
+    U: ronit
+  - E: ronit.shechter!intl.att.com
+    M: ronit shechter
+    S: git
+  - M: ronit shechter
+    S: jira
+    U: ronit
+  - E: ronit.shechter!intl.att.com
+    M: ronit shechter
+    S: jira
+    U: ronit
+  B: 0
+  U: ronit shechter
+- E: ronit.shechter!intl.att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-01-02"
+    P: o-ran/integration
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-01-02"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-01-02"
+    P: oran-ric
+    R: C
+  I:
+  - E: ronit.shechter!intl.att.com
+    M: ronit
+    S: git
+  B: 0
+  U: ronit
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: ronnielai
+  B: 0
+  U: ronnielai
+- E: 32555418+ronthalanki!users.noreply.github.com
+  R:
+  - T: "2016-06-30"
+    C: Teradyne, Inc.
+    F: "2016-05-31"
+    P: marquez
+    R: C
+  - T: "2016-07-31"
+    C: City of Thousand Oaks
+    F: "2016-05-31"
+    P: marquez
+    R: C
+  - T: "2018-06-30"
+    C: The Hive, LLC
+    F: "2018-05-31"
+    P: marquez
+    R: C
+  - T: "2019-07-31"
+    C: WeWork
+    F: "2019-06-30"
+    P: marquez
+    R: C
+  I:
+  - E: 32555418+ronthalanki!users.noreply.github.com
+    M: Ron Thalanki
+    S: git
+  - E: 51385880+ronthalanki-wework!users.noreply.github.com
+    M: Sairanjith Thalanki
+    S: git
+  - E: 32555418+ronthalanki!users.noreply.github.com
+    M: ronthalanki
+    S: git
+  - M: Ron Thalanki
+    S: github
+    U: ronthalanki
+  - M: Sairanjith Thalanki
+    S: github
+    U: ronthalanki-wework
+  B: 0
+  U: ronthalanki
+- E: ronunes!gmail.com
+  R:
+  - T: "2014-10-31"
+    C: Freescale
+    F: "2013-04-01"
+    P: yocto
+    R: C
+  I:
+  - E: ronunes!gmail.com
+    S: bugzilla
+    U: ronunes
+  - M: Rogerio Nunes
+    S: bugzilla
+    U: ronunes
+  - E: ronunes!gmail.com
+    M: Rogerio Nunes
+    S: bugzilla
+    U: ronunes
+  - E: rogerio.nunes!freescale.com
+    M: Rogerio Nunes
+    S: git
+  - E: ronunes!gmail.com
+    M: Rogerio Nunes
+    S: git
+  - E: ronunes!gmail.com
+    M: Rogerio Nunes
+    S: groupsio
+  - E: ronunes!gmail.com
+    M: ronunes
+    S: groupsio
+  - E: ronunes!gmail.com
+    M: Rogerio Nunes
+    S: pipermail
+  - E: ronunes!gmail.com
+    M: ronunes
+    S: pipermail
+  B: 0
+  U: ronunes
+- R:
+  - T: "2100-01-01"
+    C: Platform9
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Platform9
+    F: "1900-01-01"
+    P: cortex
+    R: C
+  - T: "2100-01-01"
+    C: Platform9
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Platform9
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: roopakparikh
+  B: 0
+  U: roopakparikh
+- E: rparikh!platform9.net
+  R:
+  - T: "2100-01-01"
+    C: Platform9
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Platform9
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: rparikh!platform9.net
+    M: roopakparikh
+    S: git
+  B: 0
+  U: roopakparikh
+- C: IN
+  E: 837829664!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-03-01"
+    C: Independent
+    F: "2016-07-05"
+    P: baetyl
+    R: C
+  I:
+  - E: 837829664!qq.com
+    M: root
+    S: git
+  - E: 837829664!qq.com
+    M: timchenxiaoyu
+    S: git
+  B: 0
+  U: root
+- E: dpdk-test!ibm.com
+  R:
+  - T: "2016-11-02"
+    C: IBM
+    F: "2015-08-06"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2016-11-02"
+    C: IBM
+    F: "2015-08-06"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  I:
+  - E: dpdk-test!ibm.com
+    M: IBM
+    S: pipermail
+  - E: dpdk-test!ibm.com
+    M: root
+    S: pipermail
+  B: 0
+  U: root
+- C: NI
+  E: hongjiansun2012!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Transwarp
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Transwarp
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-10-01"
+    C: Transwarp
+    F: "2018-06-22"
+    P: baetyl
+    R: C
+  I:
+  - E: hongjiansun2012!gmail.com
+    M: hongjian.sun
+    S: git
+  - E: hongjiansun2012!gmail.com
+    M: root
+    S: git
+  - E: hongjiansun2012!gmail.com
+    M: Dylan
+    S: github
+    U: DylanBLE
+  B: 0
+  U: root
+- E: onesolpark!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: onesolpark!gmail.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: priyanka.sharma!citrix.com
+  R:
+  - T: "2100-01-01"
+    C: Citrix Systems Inc.
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Citrix Systems Inc.
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Citrix Systems Inc.
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: Citrix Systems Inc.
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Citrix Systems Inc.
+    F: "2019-03-22"
+    P: pnda
+    R: C
+  I:
+  - E: priyanka.sharma!citrix.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: ronit.shechter!intl.att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-01-02"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-01-02"
+    P: oran-ric
+    R: C
+  I:
+  - E: ronit.shechter!intl.att.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!antsatel05.an.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-06-29"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-06-29"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-06-29"
+    P: dpdk-apps
+    R: C
+  I:
+  - E: root!antsatel05.an.intel.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!clove83.zte.com.cn
+  R:
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!clove83.zte.com.cn
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!dpdktestzhiwei171.sh.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2019-08-30"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2019-08-30"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2019-08-30"
+    P: dpdk-tools
+    R: C
+  I:
+  - E: root!dpdktestzhiwei171.sh.intel.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!dts-maintain.sh.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!dts-maintain.sh.intel.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!gluster5.gfs.fsw.fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!gluster5.gfs.fsw.fujitsu.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!host18-rack11.scale.openstack.engineering.redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!host18-rack11.scale.openstack.engineering.redhat.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!jk-desktop.jf.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!jk-desktop.jf.intel.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!kmaster.huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!kmaster.huawei.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!localdomain.local
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: linweibin1!huawei.com
+    M: linweibin
+    S: git
+  - E: linweibin1!huawei.com
+    M: root
+    S: git
+  - E: root!localdomain.local
+    M: root
+    S: git
+  - E: root!pek2-office-9th-10-117-170-254.eng.vmware.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!lxbre43a05.cern.ch
+  R:
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!lxbre43a05.cern.ch
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!otcnfv02.sc.intel.com
+  R:
+  - T: "2017-10-14"
+    C: Intel Corporation
+    F: "2017-10-01"
+    R: C
+  - T: "2017-10-14"
+    C: Intel Corporation
+    F: "2017-10-01"
+    P: opnfv
+    R: C
+  I:
+  - E: root!otcnfv02.sc.intel.com
+    M: root
+    S: gerrit
+  - E: root!otcnfv02.sc.intel.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!promc-2n-dhcp68.eng.vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!promc-2n-dhcp68.eng.vmware.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!review.openstack.org
+  R:
+  - T: "2100-01-01"
+    C: OpenStack Foundation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!review.openstack.org
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!sbct-5.watson.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!sbct-5.watson.ibm.com
+    M: root
+    S: git
+  - E: root!sbct-5.watson.ibm.com
+    M: root
+    S: git
+    U: stefanberger
+  B: 0
+  U: root
+- E: root!sc2-rdops-vm04-dhcp-129-83.nimbus.eng.vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!sc2-rdops-vm04-dhcp-129-83.nimbus.eng.vmware.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!sc2-rdops-vm06-dhcp-199-73.nimbus.eng.vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!sc2-rdops-vm06-dhcp-199-73.nimbus.eng.vmware.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: root!shotover.hursley.uk.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: root!shotover.hursley.uk.ibm.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- C: IN
+  E: shah.suramya!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-11-06"
+    C: Independent
+    F: "2017-10-28"
+    P: baetyl
+    R: C
+  I:
+  - E: shah.suramya!gmail.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- C: IN
+  E: sourabh!openxcell.info
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: sourabh!openxcell.info
+    M: root
+    S: github
+    U: sourabhmodi
+  B: 0
+  U: root
+- E: srivatsavcool5!gmail.com
+  R:
+  - T: "2015-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: kubeedge
+    R: C
+  - T: "2016-01-01"
+    C: BHARATH ELECTRONICS
+    F: "2015-01-01"
+    P: kubeedge
+    R: C
+  - T: "2100-01-01"
+    C: SpanIdea
+    F: "2016-01-01"
+    P: kubeedge
+    R: C
+  I:
+  - E: srivatsavcool5!gmail.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- C: CN
+  E: tdd108128!163.com
+  R:
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: tdd108128!163.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- E: wangyuqing4!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: cncf/volcano
+    R: C
+  I:
+  - E: wangyuqing4!huawei.com
+    M: root
+    S: git
+  B: 0
+  U: root
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - S: github
+    U: rootfs
+  B: 0
+  U: rootfs
+- C: CN
+  E: rootsongjc!gmail.com
+  R:
+  - T: "2015-07-01"
+    C: Anhui USTC iFLYTEK
+    F: "1900-01-01"
+    R: C
+  - T: "2015-07-01"
+    C: Anhui USTC iFLYTEK
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-07-01"
+    C: Anhui USTC iFLYTEK
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2015-07-01"
+    C: Anhui USTC iFLYTEK
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-02-01"
+    C: TalkingData
+    F: "1900-01-01"
+    R: C
+  - T: "2018-02-01"
+    C: TalkingData
+    F: "2015-07-01"
+    R: C
+  - T: "2018-02-01"
+    C: TalkingData
+    F: "2015-07-01"
+    P: cncf
+    R: C
+  - T: "2018-02-01"
+    C: TalkingData
+    F: "2015-07-01"
+    P: envoy
+    R: C
+  - T: "2018-02-01"
+    C: TalkingData
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Ant Financial
+    F: "2018-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ant Financial
+    F: "2018-02-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Ant Financial
+    F: "2018-02-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Ant Financial
+    F: "2018-02-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: rootsongjc!gmail.com
+    M: Jimmy Song
+    S: git
+  - E: rootsongjc!gmail.com
+    M: rootsongjc
+    S: git
+  B: 0
+  U: rootsongjc
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: roshandawrani
+  B: 0
+  U: roshandawrani
+- E: ross.cavanagh!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2016-06-16"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ross.cavanagh!ericsson.com
+    M: rosscav
+    S: slack
+    U: rosscav
+  B: 0
+  U: rosscav
+- E: rsblendido!suse.com
+  R:
+  - T: "2014-02-15"
+    C: Midokura
+    F: "1900-01-01"
+    P: lfn-cntt
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2014-02-15"
+    P: lfn-cntt
+    R: C
+  - T: "2019-08-06"
+    C: SUSE LLC
+    F: "2016-09-21"
+    P: opnfv
+    R: C
+  S: female
+  I:
+  - M: Rossella Sblendido
+    S: confluence
+    U: rossella
+  - E: rsblendido!suse.com
+    M: Rossella Sblendido
+    S: gerrit
+    U: rossella
+  - E: rsblendido!suse.com
+    M: Rossella Sblendido
+    S: gerrit
+    U: rossella_s
+  - E: rsblendido!suse.com
+    M: rossella
+    S: gerrit
+  - E: rsblendido!suse.com
+    M: rossella
+    S: git
+  - E: rsblendido!suse.com
+    M: Rossella Sblendido
+    S: gmane
+  - E: RSblendido!suse.com
+    M: Rosella Sblendido
+    S: groupsio
+  - E: rsblendido!suse.com
+    M: Rossella Sblendido
+    S: groupsio
+  - E: rsblendido!suse.com
+    M: Rossella Sblendido
+    S: pipermail
+  B: 0
+  U: rossella
+- E: rross!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rross!pivotal.io
+    M: rossr3-pivotal
+    S: git
+  B: 0
+  U: rossr3-pivotal
+- C: RU
+  E: rowanruseler!gmail.com
+  R:
+  - T: "2017-06-01"
+    C: Panasonic
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Eagle Eye Networks
+    F: "2017-06-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: rowanruseler!gmail.com
+    M: rowanr
+    S: git
+  - E: rowanruseler!gmail.com
+    M: rowanr
+    S: github
+    U: rowanruseler
+  B: 0
+  U: rowanr
+- C: CA
+  R:
+  - T: "2100-01-01"
+    C: Zoom.ai
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Zoom.ai
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: confluence
+    U: roy
+  - S: github
+    U: roymap
+  B: 0
+  U: roymap
+- R:
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: nats
+    R: C
+  I:
+  - S: github
+    U: roytan883
+  B: 0
+  U: roytan883
+- E: blueness883!163.com
+  R:
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: nats
+    R: C
+  I:
+  - E: blueness883!163.com
+    M: roytan883
+    S: git
+  B: 0
+  U: roytan883
+- E: rpister!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-11-02"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rpister!us.ibm.com
+    M: rpister
+    S: slack
+    U: rpister
+  B: 0
+  U: rpister
+- R:
+  - T: "2100-01-01"
+    C: Adtran
+    F: "1900-01-01"
+    P: helm
+    R: C
+  I:
+  - S: github
+    U: rpocase
+  B: 0
+  U: rpocase
+- R:
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: rpothier
+  B: 0
+  U: rpothier
+- R:
+  - T: "2100-01-01"
+    C: Vungle
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Vungle
+    F: "1900-01-01"
+    P: helm
+    R: C
+  I:
+  - S: github
+    U: rprobotics
+  B: 0
+  U: rprobotics
+- E: rpscott!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-09-13"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rpscott!us.ibm.com
+    M: rpscott
+    S: slack
+    U: rpscott
+  B: 0
+  U: rpscott
+- C: CA
+  E: rputinski!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2017-11-14"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rputinski!pivotal.io
+    M: Rebecca P
+    S: git
+  - E: h4xnoodle!gmail.com
+    M: Rebecca Putinski
+    S: git
+  - E: rputinski!pivotal.io
+    M: Rebecca Putinski
+    S: git
+  - E: rputinski!pivotal.io
+    M: Rebecca
+    S: git
+  - M: Rebecca P
+    S: github
+    U: h4xnoodle
+  - M: Rebecca
+    S: github
+    U: h4xnoodle
+  - E: h4xnoodle!gmail.com
+    M: Rebecca P
+    S: slack
+    U: h4xnoodle
+  - E: rputinski!pivotal.io
+    M: Rebecca P
+    S: slack
+    U: rputinski
+  - E: rputinski!pivotal.io
+    M: rputinski
+    S: slack
+    U: rputinski
+  B: 0
+  U: rputinski
+- E: mckinley1411!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Reddit
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: mckinley1411!gmail.com
+    M: rrmckinley
+    S: git
+  B: 0
+  U: rrmckinley
+- C: US
+  E: electroma!gmail.com
+  R:
+  - T: "2016-10-15"
+    C: Citygroup
+    F: "1900-01-01"
+    R: C
+  - T: "2016-10-15"
+    C: Citygroup
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-10-15"
+    C: Citygroup
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-04-15"
+    C: Buildit
+    F: "2016-10-15"
+    R: C
+  - T: "2017-04-15"
+    C: Buildit
+    F: "2016-10-15"
+    P: helm
+    R: C
+  - T: "2017-04-15"
+    C: Buildit
+    F: "2016-10-15"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "2017-04-15"
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "2017-04-15"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "2017-04-15"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: electroma!gmail.com
+    M: Roman Safronov
+    S: git
+  - E: electroma!gmail.com
+    M: electroma
+    S: git
+  - E: electroma!gmail.com
+    M: rsafronov
+    S: git
+  B: 0
+  U: rsafronov
+- R:
+  - T: "2100-01-01"
+    C: Daitan Group
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Daitan Group
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: github
+    U: rsanchez-daitan
+  B: 0
+  U: rsanchez-daitan
+- E: rschatz!ea.com
+  R:
+  - T: "2100-01-01"
+    C: Electronic Arts
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: rschatz!ea.com
+    M: Reik Schatz
+    S: git
+  - E: rschatz!ea.com
+    M: rschatz
+    S: git
+  B: 0
+  U: rschatz
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - S: github
+    U: rsgowman
+  B: 0
+  U: rsgowman
+- E: rgowman!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: rgowman!google.com
+    M: rsgowman
+    S: git
+  B: 0
+  U: rsgowman
+- E: rshacham!research.att.com
+  R:
+  - T: "2018-08-09"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: o-ran/documentation
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: o-ran/integration
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-inf
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-nonrtric
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-oam
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-ocu
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-oduhigh
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-odulow
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-ric
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-ricapp
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2007-09-30"
+    P: oran-sim
+    R: C
+  I:
+  - M: Ron Shacham
+    S: confluence
+    U: rshacham
+  - E: rshacham!research.att.com
+    M: Ron Shacham
+    S: confluence
+    U: rshacham
+  - E: rshacham!research.att.com
+    M: Ron Shacham
+    S: gerrit
+    U: rshacham
+  - E: rshacham!research.att.com
+    M: Ron Shacham
+    S: git
+  - E: rshacham!research.att.com
+    M: rshacham
+    S: git
+  - E: rshacham!research.att.com
+    M: Ron Shacham
+    S: groupsio
+  - E: rshacham!research.att.com
+    M: SHACHAM, RON  (RON)
+    S: groupsio
+  - M: Ron Shacham
+    S: jira
+    U: rshacham
+  - E: rshacham!research.att.com
+    M: Ron Shacham
+    S: jira
+    U: rshacham
+  - E: rshacham!research.att.com
+    M: SHACHAM, RON  RON
+    S: pipermail
+  B: 0
+  U: rshacham
+- E: rao.shoaib!oracle.com
+  R:
+  - T: "2016-10-29"
+    C: Oracle America Inc.
+    F: "2014-05-07"
+    P: odl
+    R: C
+  I:
+  - E: rao.shoaib!oracle.com
+    M: Rao Shoaib
+    S: git
+  - E: rao.shoaib!oracle.com
+    M: rshoaib
+    S: git
+  - E: rao.shoaib!oracle.com
+    M: Rao Shoaib
+    S: groupsio
+  - E: rao.shoaib!oracle.com
+    M: Rao Shoaib
+    S: pipermail
+  B: 0
+  U: rshoaib
+- E: rsinha!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-08-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rsinha!us.ibm.com
+    M: rsinha
+    S: slack
+    U: rsinha
+  B: 0
+  U: rsinha
+- E: ravikumar_sivasankar!dell.com
+  R:
+  - T: "2016-09-28"
+    C: Dell
+    F: "2016-08-08"
+    P: opx
+    R: C
+  I:
+  - E: ravikumar_sivasankar!dell.com
+    M: rsivasankar
+    S: git
+  B: 0
+  U: rsivasankar
+- E: p.ritesh!tcs.com
+  R:
+  - T: "2016-02-06"
+    C: Tata Consultancy Services
+    F: "2016-01-01"
+    R: C
+  - T: "2016-02-06"
+    C: Tata Consultancy Services
+    F: "2016-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: p.ritesh!tcs.com
+    M: Ritesh Paiboina
+    S: gerrit
+    U: riteshpaiboina
+  - E: p.ritesh!tcs.com
+    M: rsritesh
+    S: git
+  - E: p.ritesh!tcs.com
+    M: Ritesh Paiboina
+    S: jira
+    U: riteshpaiboina
+  - E: rsritesh!rediff.com
+    M: Ritesh Paiboina
+    S: jira
+    U: rsritesh
+  - M: Ritesh Paiboina
+    S: linux-foundation:its
+    U: riteshpaiboina
+  - M: Ritesh Paiboina
+    S: linux-foundation:its
+    U: rsritesh
+  - E: p.ritesh!tcs.com
+    M: rsritesh
+    S: linux-foundation:scm
+  - E: p.ritesh!tcs.com
+    M: Ritesh Paiboina
+    S: linux-foundation:scr
+    U: riteshpaiboina
+  B: 0
+  U: rsritesh
+- C: US
+  E: rturner3!users.noreply.github.com
+  R:
+  - T: "2016-11-01"
+    C: GE Healthcare
+    F: "1900-01-01"
+    R: C
+  - T: "2016-11-01"
+    C: GE Healthcare
+    F: "1900-01-01"
+    P: spire
+    R: C
+  - T: "2017-05-01"
+    C: LUMEDX
+    F: "2016-11-01"
+    R: C
+  - T: "2017-05-01"
+    C: LUMEDX
+    F: "2016-11-01"
+    P: spire
+    R: C
+  - T: "2019-07-01"
+    C: VMware, Inc.
+    F: "2017-05-01"
+    R: C
+  - T: "2019-07-01"
+    C: VMware, Inc.
+    F: "2017-05-01"
+    P: spire
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "2019-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "2019-07-01"
+    P: spire
+    R: C
+  S: male
+  I:
+  - E: rturner3!users.noreply.github.com
+    M: rturner3
+    S: git
+  B: 0
+  U: rturner3
+- E: 1253280434!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  S: female
+  I:
+  - E: 1253280434!qq.com
+    M: rubick
+    S: github
+    U: dotaaxe
+  B: 0
+  U: rubick
+- E: 276743616!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: 276743616!qq.com
+    M: rubyPhotoM1
+    S: github
+    U: cuteworld
+  B: 0
+  U: rubyPhotoM1
+- E: rudi.leibbrandt!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2016-12-14"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rudi.leibbrandt!sap.com
+    M: rudi.leibbrandt
+    S: slack
+    U: rudi.leibbrandt
+  B: 0
+  U: rudi.leibbrandt
+- E: shdyanxm!163.com
+  R:
+  - T: "2100-01-01"
+    C: NetEase
+    F: "2018-09-29"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: shdyanxm!163.com
+    M: rudy yan
+    S: git
+  B: 0
+  U: rudy yan
+- E: rmogaver!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-01-25"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rmogaver!us.ibm.com
+    M: rudymogavero
+    S: slack
+    U: rudymogavero
+  B: 0
+  U: rudymogavero
+- E: ruediger.maass!de.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  S: male
+  I:
+  - E: ruediger.maass!de.ibm.com
+    M: Ruediger Maass
+    S: git
+  - E: ruediger.maass!de.ibm.com
+    M: ruediger-maass
+    S: git
+  - E: ruediger.maass!de.ibm.com
+    M: ruediger maass
+    S: github
+    U: ruediger-maass
+  B: 0
+  U: ruediger-maass
+- E: rubin.gerritsen!nordicsemi.no
+  R:
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "1901-01-01"
+    P: zep
+    R: C
+  I:
+  - E: rubin.gerritsen!nordicsemi.no
+    M: ruge
+    S: git
+  B: 0
+  U: ruge
+- E: hu.rui2!zte.com.cn
+  R:
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "2015-09-02"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "2017-01-01"
+    P: onap
+    R: C
+  I:
+  - M: rui hu
+    S: confluence
+    U: hu.rui
+  - E: hu.rui2!zte.com.cn
+    M: rui hu
+    S: gerrit
+    U: hu.rui
+  - E: hu.rui2!zte.com.cn
+    M: hu.rui
+    S: git
+  - E: hu.rui2!zte.com.cn
+    M: rui hu
+    S: git
+  - E: hu.rui2!zte.com.cn
+    M: rui hu
+    S: jira
+    U: hu.rui
+  - E: hu.rui2!zte.com.cn
+    M: rui hu
+    S: jira
+    U: hu.rui2
+  B: 0
+  U: rui hu
+- E: rui!oc5140334547.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-11-22"
+    P: feilong
+    R: C
+  - T: "2019-06-06"
+    C: IBM
+    F: "2019-05-22"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2019-06-06"
+    C: IBM
+    F: "2019-05-22"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  I:
+  - M: Rui Zhang
+    S: confluence
+    U: ZhangRui_CN
+  - E: rui!oc5140334547.ibm.com
+    M: rui
+    S: git
+  B: 0
+  U: rui
+- E: rui!oc6617611367.ibm.com
+  R:
+  - T: "2018-11-23"
+    C: IBM
+    F: "2018-11-21"
+    P: feilong
+    R: C
+  I:
+  - E: rui!oc6617611367.ibm.com
+    M: rui
+    S: git
+  B: 0
+  U: rui
+- E: rui!oc7478431083.ibm.com
+  R:
+  - T: "2018-01-16"
+    C: IBM
+    F: "2018-01-11"
+    P: feilong
+    R: C
+  I:
+  - E: rui!oc7478431083.ibm.com
+    M: rui
+    S: git
+  B: 0
+  U: rui
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  S: male
+  I:
+  - S: github
+    U: ruig2
+  B: 0
+  U: ruig2
+- E: ruijian.wang!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ruijian.wang!ibm.com
+    M: ruijian
+    S: slack
+    U: ruijian
+  B: 0
+  U: ruijian
+- R:
+  - T: "2100-01-01"
+    C: Spotify
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  I:
+  - S: github
+    U: rulex123
+  B: 0
+  U: rulex123
+- C: JP
+  E: suezawa!gmail.com
+  R:
+  - T: "2019-02-01"
+    C: NRI
+    F: "1900-01-01"
+    R: C
+  - T: "2019-02-01"
+    C: NRI
+    F: "1900-01-01"
+    P: falco
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    P: falco
+    R: C
+  S: male
+  I:
+  - E: suezawa!gmail.com
+    M: rung
+    S: git
+  B: 0
+  U: rung
+- E: 502164295!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: 502164295!qq.com
+    M: running charles
+    S: github
+    U: RunningCharles
+  B: 0
+  U: running charles
+- E: jwills!google.com
+  R:
+  - T: "2100-01-01"
+    C: Cryptic Studios
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Cryptic Studios
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  I:
+  - E: jwills!google.com
+    S: github
+    U: runningwild
+  B: 0
+  U: runningwild
+- C: CN
+  E: runsisi!hust.edu.cn
+  R:
+  - T: "2100-01-01"
+    C: CDGCC
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: CDGCC
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: HUST
+    F: "2100-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: HUST
+    F: "2100-01-01"
+    P: rook
+    R: C
+  I:
+  - E: runsisi!hust.edu.cn
+    M: runsisi
+    S: git
+  B: 0
+  U: runsisi
+- E: runsisi!zte.com.cn
+  R:
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: runsisi!zte.com.cn
+    M: runsisi
+    S: git
+  B: 0
+  U: runsisi
+- C: CN
+  E: root!junwuhui.cn
+  R:
+  - T: "2100-01-01"
+    C: Yunify
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Yunify
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: root!junwuhui.cn
+    M: runzexia
+    S: git
+  - E: root!junwuhui.cn
+    M: runzexia
+    S: slack
+    U: root
+  B: 0
+  U: runzexia
+- C: CN
+  E: runzexia!yunify.com
+  R:
+  - T: "2100-01-01"
+    C: Yunify
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Yunify
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: runzexia!yunify.com
+    M: runzexia
+    S: git
+  - E: runzexia!yunify.com
+    M: runzexia
+    S: github
+    U: runzexia
+  B: 0
+  U: runzexia
+- E: ryder.xia!sap.com
+  R:
+  - T: "2100-01-01"
+    C: Yunify
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Yunify
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: Yunify
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: ryder.xia!sap.com
+    M: runzexia
+    S: github
+    U: runzexia
+  B: 0
+  U: runzexia
+- C: US
+  E: r!inven.io
+  R:
+  - T: "2100-01-01"
+    C: invenio
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: invenio
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: r!inven.io
+    M: rushtehrani
+    S: git
+  B: 0
+  U: rushtehrani
+- E: russell.s.pierce!gmail.com
+  R:
+  - T: "2007-08-01"
+    C: California State University, Long Beach
+    F: "2005-06-01"
+    P: sparklyr
+    R: C
+  - T: "2013-08-01"
+    C: University of California, Riverside
+    F: "2008-04-01"
+    P: sparklyr
+    R: C
+  - T: "2016-05-01"
+    C: PowerInbox
+    F: "2014-12-01"
+    P: sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Zapier
+    F: "2016-05-01"
+    P: sparklyr
+    R: C
+  I:
+  - E: russell.s.pierce!gmail.com
+    M: russellpierce
+    S: git
+  B: 0
+  U: russellpierce
+- E: reuven!twistlock.com
+  R:
+  - T: "2100-01-01"
+    C: Twistlock
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Twistlock
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  S: female
+  I:
+  - E: reuven!twistlock.com
+    M: ruven
+    S: git
+  B: 0
+  U: ruven
+- E: 38323616+rverma-nikiai!users.noreply.github.com
+  R:
+  - T: "2015-03-01"
+    C: QASource
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: QASource
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-07-01"
+    C: Io-Tahoe
+    F: "2015-03-01"
+    R: C
+  - T: "2017-07-01"
+    C: Io-Tahoe
+    F: "2015-03-01"
+    P: helm
+    R: C
+  - T: "2017-11-01"
+    C: Sprinklr
+    F: "2017-07-01"
+    R: C
+  - T: "2017-11-01"
+    C: Sprinklr
+    F: "2017-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Niki
+    F: "2017-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Niki
+    F: "2017-11-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: 38323616+rverma-nikiai!users.noreply.github.com
+    M: rverma-nikiai
+    S: git
+  B: 0
+  U: rverma-nikiai
+- E: rkubiak!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: rkubiak!google.com
+    M: Ryan Kubiak
+    S: git
+  - E: rkubiak!google.com
+    M: rvkubiak
+    S: git
+  - E: rkubiak!google.com
+    S: github
+    U: rvkubiak
+  B: 0
+  U: rvkubiak
+- E: rwillard!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2016-07-20"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rwillard!pivotal.io
+    M: rwillard
+    S: slack
+    U: rwillard
+  B: 0
+  U: rwillard
+- E: ryan.jarvinen!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: ryan.jarvinen!gmail.com
+    M: ryan jarvinen
+    S: git
+  B: 0
+  U: ryan jarvinen
+- E: ryanj!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: ryanj!redhat.com
+    M: ryan jarvinen
+    S: github
+    U: ryanj
+  B: 0
+  U: ryan jarvinen
+- R:
+  - T: "2017-12-15"
+    C: Dell EMC
+    F: "2017-02-01"
+    P: lfedge/edgex-foundry
+    R: C
+  I:
+  - S: github
+    U: ryan-comer
+  B: 0
+  U: ryan-comer
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: ryan-ibm
+  B: 0
+  U: ryan-ibm
+- E: ryan.loney!intel.com
+  R:
+  - T: "2010-12-31"
+    C: Bera for Congress
+    F: "2009-12-31"
+    P: lfai-onnx
+    R: C
+  - T: "2010-12-31"
+    C: Bera for Congress
+    F: "2009-12-31"
+    P: lfai/lfai
+    R: C
+  - T: "2011-11-30"
+    C: AMERIPAC - Steny Hoyer
+    F: "2011-01-31"
+    P: lfai-onnx
+    R: C
+  - T: "2011-11-30"
+    C: AMERIPAC - Steny Hoyer
+    F: "2011-01-31"
+    P: lfai/lfai
+    R: C
+  - T: "2013-09-30"
+    C: VIctory Fund and Institute
+    F: "2013-01-31"
+    P: lfai-onnx
+    R: C
+  - T: "2013-09-30"
+    C: VIctory Fund and Institute
+    F: "2013-01-31"
+    P: lfai/lfai
+    R: C
+  - T: "2015-12-31"
+    C: ValleyInternet
+    F: "2014-01-31"
+    P: lfai-onnx
+    R: C
+  - T: "2015-12-31"
+    C: ValleyInternet
+    F: "2014-01-31"
+    P: lfai/lfai
+    R: C
+  - T: "2016-08-31"
+    C: Nervana
+    F: "2016-03-31"
+    P: lfai-onnx
+    R: C
+  - T: "2016-08-31"
+    C: Nervana
+    F: "2016-03-31"
+    P: lfai/lfai
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-08-31"
+    P: lfai-onnx
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-08-31"
+    P: lfai/lfai
+    R: C
+  I:
+  - E: ryan.loney!intel.com
+    M: Ryan Loney
+    S: git
+  - E: ryan.loney!intel.com
+    M: Ryan Loney
+    S: github
+    U: ryan-nervana
+  - E: ryan.loney!intel.com
+    M: ryan.loney
+    S: groupsio
+  B: 0
+  U: ryan.loney
+- E: rd!seldon.io
+  R:
+  - T: "2016-02-01"
+    C: City
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2016-02-01"
+    C: City
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-02-01"
+    C: City
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2016-02-01"
+    C: City
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2016-02-01"
+    C: City
+    F: "1900-01-01"
+    P: pnda
+    R: C
+  - T: "2016-12-01"
+    C: HSBC
+    F: "2016-02-01"
+    P: argo
+    R: C
+  - T: "2016-12-01"
+    C: HSBC
+    F: "2016-02-01"
+    P: helm
+    R: C
+  - T: "2016-12-01"
+    C: HSBC
+    F: "2016-02-01"
+    P: linkerd
+    R: C
+  - T: "2016-12-01"
+    C: HSBC
+    F: "2016-02-01"
+    P: nats
+    R: C
+  - T: "2016-12-01"
+    C: HSBC
+    F: "2016-02-01"
+    P: pnda
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: argo
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: helm
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: linkerd
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: nats
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: pnda
+    R: C
+  - T: "2100-01-01"
+    C: Alfresco
+    F: "2017-04-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Alfresco
+    F: "2017-04-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Alfresco
+    F: "2017-04-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: Alfresco
+    F: "2017-04-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Alfresco
+    F: "2017-04-01"
+    P: pnda
+    R: C
+  S: male
+  I:
+  - E: rd!seldon.io
+    M: Ryan Dawson
+    S: git
+  - E: rd!seldon.io
+    M: ryandawsonuk
+    S: git
+  B: 0
+  U: ryandawsonuk
+- C: US
+  E: ryanesc!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Jossware
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: ryanesc!gmail.com
+    M: ryane
+    S: git
+  B: 0
+  U: ryane
+- R:
+  - T: "2100-01-01"
+    C: None
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-11-03"
+    C: None
+    F: "2018-09-25"
+    R: C
+  I:
+  - S: github
+    U: ryarnyah
+  B: 0
+  U: ryarnyah
+- E: lizhenqiangsnake!gmail.com
+  R:
+  - T: "2014-09-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2014-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  - T: "2015-08-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2014-09-01"
+    R: C
+  - T: "2015-08-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2014-09-01"
+    P: rook
+    R: C
+  - T: "2015-08-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2014-09-01"
+    P: tikv
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-08-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-08-01"
+    P: tikv
+    R: C
+  S: male
+  I:
+  - E: lizhenqiangsnake!gmail.com
+    M: Ryne Li
+    S: git
+  - E: lizhenqiangsnake!gmail.com
+    M: ryneli
+    S: git
+  - E: lizhenqiangsnake!gmail.com
+    S: github
+    U: ryneli
+  B: 0
+  U: ryneli
+- E: ronald.f.brown!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2017-03-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ronald.f.brown!ericsson.com
+    M: ryrokron
+    S: slack
+    U: ryrokron
+  B: 0
+  U: ryrokron
+- E: ricky.yunata!au.fujitsu.com
+  R:
+  - T: "2015-06-05"
+    C: Fujitsu
+    F: "2015-05-28"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ricky.yunata!au.fujitsu.com
+    M: ryunata
+    S: groupsio
+  - E: ricky.yunata!au.fujitsu.com
+    M: ryunata
+    S: mbox
+  B: 0
+  U: ryunata
+- C: US
+  E: s-anna!ti.com
+  R:
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "2020-05-04"
+    P: yocto
+    R: C
+  S: female
+  I:
+  - E: s-anna!ti.com
+    M: s-anna
+    S: groupsio
+  B: 0
+  U: s-anna
+- E: 42854771+s-ito-ts!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: NEC
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: 42854771+s-ito-ts!users.noreply.github.com
+    M: s-ito-ts
+    S: git
+  B: 0
+  U: s-ito-ts
+- R:
+  - T: "2100-01-01"
+    C: NEC
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NEC
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: s-ito-ts
+  B: 0
+  U: s-ito-ts
+- E: s-ito!ts.jp.nec.com
+  R:
+  - T: "2100-01-01"
+    C: NEC
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2019-05-30"
+    C: NEC
+    F: "2019-02-13"
+    P: baetyl
+    R: C
+  I:
+  - E: s-ito!ts.jp.nec.com
+    M: s-ito-ts
+    S: git
+  B: 0
+  U: s-ito-ts
+- C: DE
+  E: s.hauer!pengutronix.de
+  R:
+  - T: "2100-01-01"
+    C: Pengutronix
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: s.hauer!pengutronix.de
+    M: Sascha Hauer
+    S: git
+  - E: s.hauer!pengutronix.de
+    M: s.hauer
+    S: git
+  B: 0
+  U: s.hauer
+- E: s.liu!t-systems.com
+  R:
+  - T: "2100-01-01"
+    C: T-Systems
+    F: "2020-03-17"
+    P: onap
+    R: C
+  I:
+  - E: s.liu!t-systems.com
+    M: s.liu
+    S: groupsio
+  B: 0
+  U: s.liu
+- C: GB
+  E: s0rc3r3r01!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Devops
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Devops
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: s0rc3r3r01!users.noreply.github.com
+    M: s0rc3r3r01
+    S: git
+  B: 0
+  U: s0rc3r3r01
+- E: sa2785!att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-05-21"
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-05-21"
+    P: onap
+    R: C
+  I:
+  - E: sa2785!att.com
+    M: sa2785
+    S: groupsio
+  B: 0
+  U: sa2785
+- C: US
+  E: saadali!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2019-04-18"
+    C: Google
+    F: "2014-12-10"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: saadali!google.com
+    M: Saad Ali
+    S: git
+  - E: saadali!google.com
+    M: saad-ali
+    S: git
+  - E: saadali!google.com
+    M: saadali
+    S: git
+  - E: saadali!google.com
+    M: Saad Ali
+    S: github
+    U: saad-ali
+  B: 0
+  U: saad-ali
+- E: saar.cohen!emc.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "2016-06-28"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: saar.cohen!emc.com
+    M: saarco
+    S: slack
+    U: saarco
+  B: 0
+  U: saarco
+- E: saarthakjain15!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: cncf/litmuschaos
+    R: C
+  I:
+  - E: saarthakjain15!gmail.com
+    M: saarthak jain
+    S: git
+  - E: saarthakjain15!gmail.com
+    M: saarthak jain
+    S: github
+    U: jainsaarthak
+  B: 0
+  U: saarthak jain
+- E: sabahat.khan!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "2016-07-15"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: sabahat.khan!ge.com
+    M: sabkhan
+    S: slack
+    U: sabkhan
+  B: 0
+  U: sabkhan
+- R:
+  - T: "2017-03-14"
+    C: Adobe Systems, Inc.
+    F: "2014-06-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - S: github
+    U: sacgarg
+  - E: sacgarg!adobe.com
+    M: sacgarg
+    S: slack
+    U: sacgarg
+  B: 0
+  U: sacgarg
+- E: SK00500818!TechMahindra.com
+  R:
+  - T: "2015-03-01"
+    C: Xoriant Corporation
+    F: "2013-07-01"
+    P: acumos
+    R: C
+  - T: "2017-01-01"
+    C: Silicus Technologies Inc.
+    F: "2015-04-01"
+    P: acumos
+    R: C
+  - T: "2100-01-01"
+    C: Tech Mahindra Ltd.
+    F: "2017-02-01"
+    P: acumos
+    R: C
+  I:
+  - M: sachin kanase
+    S: confluence
+    U: sbkanase
+  - E: sk00500818!techmahindra.com
+    M: sachin kanase
+    S: confluence
+    U: sbkanase
+  - E: SK00500818!TechMahindra.com
+    M: sachin kanase
+    S: gerrit
+    U: sbkanase
+  - E: SK00500818!TechMahindra.com
+    M: Sachin Kanase
+    S: git
+  - M: sachin kanase
+    S: jira
+    U: sbkanase
+  - E: SK00500818!TechMahindra.com
+    M: sachin kanase
+    S: jira
+    U: sbkanase
+  B: 0
+  U: sachin kanase
+- E: sachin.shinde1000!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-01-18"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: sachin.shinde1000!ibm.com
+    M: sachinshinde
+    S: slack
+    U: sachinshinde
+  B: 0
+  U: sachinshinde
+- E: sadhanakesavan!gmail.com
+  R:
+  - T: "2014-07-01"
+    C: Samsung R&D Institute India
+    F: "2014-05-01"
+    P: fdio
+    R: C
+  - T: "2016-11-01"
+    C: Microsoft India
+    F: "2015-06-01"
+    P: fdio
+    R: C
+  - T: "2019-07-01"
+    C: Amazon
+    F: "2016-12-01"
+    P: fdio
+    R: C
+  - T: "2019-06-01"
+    C: Expanion
+    F: "2018-05-01"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Nimble Storage
+    F: "2020-05-01"
+    P: fdio
+    R: C
+  I:
+  - E: sadhanakesavan!gmail.com
+    M: sadhanakesavan
+    S: groupsio
+  B: 0
+  U: sadhanakesavan
+- E: sadiq.obaidi!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2016-11-17"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: sadiq.obaidi!ericsson.com
+    M: sadiq
+    S: slack
+    U: sadiq
+  B: 0
+  U: sadiq
 - C: SG
   E: sadlil!appscode.com
   R:
@@ -4276,6 +7094,9 @@ P:
   - E: senthil-b!hcl.com
     M: senthil
     S: git
+  - E: senthil-b!hcl.com
+    M: Senthil Balachandran
+    S: groupsio
   - E: senthil-b!hcl.com
     M: Senthil Balachandran
     S: pipermail
@@ -8819,6 +11640,9 @@ P:
     S: git
   - E: sirisha.sangam!tcs.com
     M: Sirisha Sangam
+    S: groupsio
+  - E: sirisha.sangam!tcs.com
+    M: Sirisha Sangam
     S: jira
     U: sirisha.sangam
   - E: sirisha.sangam!tcs.com
@@ -11304,6 +14128,9 @@ P:
   - E: kalyan.ds!gmail.com
     M: Sreekalyan Devaraj
     S: git
+  - E: sdevaraj!Brocade.com
+    M: Sreekalyan Devaraj
+    S: groupsio
   - E: kalyan.ds!gmail.com
     M: sreekalyan devaraj
     S: jira
@@ -11330,6 +14157,9 @@ P:
     P: odl
     R: C
   I:
+  - E: sreekalyan_devaraj!Dell.com
+    M: sreekalyan_devaraj
+    S: groupsio
   - E: sreekalyan_devaraj!Dell.com
     M: sreekalyan_devaraj
     S: pipermail
@@ -14659,6 +17489,9 @@ P:
   - E: subhash.kumar.singh!huawei.com
     M: subhash.kumar.singh
     S: git
+  - E: subh.singh007!gmail.com
+    M: Subhash Kumar Singh
+    S: groupsio
   - E: subhash.kumar.singh!huawei.com
     M: subhash kumar singh
     S: groupsio
@@ -15217,6 +18050,9 @@ P:
     M: sumitkapoor
     S: git
   - E: sumit.kapoor!tcs.com
+    M: Sumit Kapoor
+    S: groupsio
+  - E: sumit.kapoor!tcs.com
     M: sumit kapoor
     S: jira
     U: sumit.kapoor
@@ -15522,6 +18358,9 @@ P:
   - E: sunil.g.kumar!ericsson.com
     M: sunilkumarms
     S: git
+  - E: sunil.g.kumar!ericsson.com
+    M: Sunil Kumar G
+    S: groupsio
   - E: sunil.g.kumar!ericsson.com
     M: Sunil Kumar M S
     S: jira
@@ -16260,6 +19099,9 @@ P:
   - E: susantchandra.s!hcl.com
     M: susant
     S: git
+  - E: susantchandra.s!hcl.com
+    M: Susant chandra Sarangi
+    S: groupsio
   - E: susantchandra.s!hcl.com
     M: Susant chandra Sarangi
     S: pipermail
@@ -21570,6 +24412,9 @@ P:
     M: tomas.vahancik
     S: git
   - E: tomas.vahancik!pantheon.tech
+    M: Tomáš Vahančík
+    S: groupsio
+  - E: tomas.vahancik!pantheon.tech
     M: Tomas Vahancik
     S: jira
     U: tomas.vahancik
@@ -24412,6 +27257,12 @@ P:
     M: usha
     S: git
   - E: usha.m.s!ericsson.com
+    M: Usha S
+    S: groupsio
+  - E: usha.m.s!ericsson.com
+    M: esssuuu
+    S: groupsio
+  - E: usha.m.s!ericsson.com
     M: Usha M S
     S: pipermail
   - E: usha.m.s!ericsson.com
@@ -24582,6 +27433,9 @@ P:
     P: odl
     R: C
   I:
+  - E: vaddireddy.deepa!wipro.com
+    M: vaddireddy.deepa
+    S: groupsio
   - E: vaddireddy.deepa!wipro.com
     M: vaddireddy.deepa
     S: pipermail
@@ -27325,6 +30179,9 @@ P:
   I:
   - E: vishwanath.edavayyanamath!wipro.com
     M: vishwanath.edavayyanamath
+    S: groupsio
+  - E: vishwanath.edavayyanamath!wipro.com
+    M: vishwanath.edavayyanamath
     S: pipermail
   B: 0
   U: vishwanath.edavayyanamath
@@ -27790,6 +30647,9 @@ P:
   - E: an.ho!huawei.com
     M: volcano
     S: git
+  - E: an.ipbu!gmail.com
+    M: An H
+    S: groupsio
   - E: an.ho!huawei.com
     M: A H
     S: jira
@@ -28772,6 +31632,9 @@ P:
     P: onap
     R: C
   I:
+  - E: wang.senxiao!zte.com.cn
+    M: Wang senxiao
+    S: groupsio
   - E: wang.senxiao!zte.com.cn
     M: wang.senxiao
     S: groupsio
@@ -34932,6 +37795,9 @@ P:
     M: xiaofenggang
     S: git
   - E: xiao.fenggang!zte.com.cn
+    M: xiao.fenggang
+    S: groupsio
+  - E: xiao.fenggang!zte.com.cn
     M: xiaofenggang
     S: jira
     U: xiao.fenggang
@@ -36268,6 +39134,9 @@ P:
   - E: xingjun.chu!huawei.com
     M: xingjun chu
     S: git
+  - E: Xingjun.Chu!huawei.com
+    M: Xingjun Chu
+    S: groupsio
   - E: xingjun.chu!huawei.com
     M: xingjun chu
     S: jira
@@ -36656,6 +39525,9 @@ P:
     P: odl
     R: C
   I:
+  - E: 362661902!qq.com
+    M: ｘｐ
+    S: groupsio
   - E: 362661902!qq.com
     M: xp
     S: pipermail
@@ -40314,6 +43186,9 @@ P:
     M: yogalakshmi.pa
     S: git
   - E: yogalakshmi.pa!hcl.com
+    M: Yoga Lakshmi Swetha Payyavula
+    S: groupsio
+  - E: yogalakshmi.pa!hcl.com
     M: YOGA LAKSHMI SWETHA PAYYAVULA
     S: jira
     U: yogalakshmi.pa
@@ -41215,6 +44090,9 @@ P:
   I:
   - E: yu.jinghai!zte.com.cn
     M: yu.jinghai
+    S: groupsio
+  - E: yu.jinghai!zte.com.cn
+    M: yu.jinghai
     S: pipermail
   B: 0
   U: yu.jinghai
@@ -41705,6 +44583,12 @@ P:
   - E: yulingchen54!gmail.com
     M: yuling_c
     S: git
+  - E: yulingchen54!gmail.com
+    M: YuLing Chen
+    S: groupsio
+  - E: Yuling_C!DELL.com
+    M: Yuling_C
+    S: groupsio
   - E: yulingchen54!gmail.com
     M: YuLing Chen
     S: jira
@@ -45812,6 +48696,9 @@ P:
     P: odl
     R: C
   I:
+  - E: zhou.xingwang!zte.com.cn
+    M: zhou.xingwang
+    S: groupsio
   - E: zhou.xingwang!zte.com.cn
     M: zhou.xingwang
     S: pipermail
