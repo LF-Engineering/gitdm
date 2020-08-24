@@ -1,6 +1,88 @@
 P:
 - R:
   - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: hekra01
+  B: 0
+  U: hekra01
+- E: hekra!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: hekra!cisco.com
+    M: hekra01
+    S: git
+  B: 0
+  U: hekra01
+- E: helen.kleanthous!capgemini.com
+  R:
+  - T: "2100-01-01"
+    C: Capgemini
+    F: "2016-10-05"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: helen.kleanthous!capgemini.com
+    M: helenk
+    S: slack
+    U: helenk
+  B: 0
+  U: helenk
+- E: helge.gose!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2017-03-14"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: helge.gose!sap.com
+    M: helge
+    S: slack
+    U: helge
+  B: 0
+  U: helge
+- C: CN
+  E: helight!helight.info
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: helight!helight.info
+    M: helight
+    S: git
+  - E: helight!helight.info
+    M: helight
+    S: github
+    U: helight
+  B: 0
+  U: helight
+- R:
+  - T: "2100-01-01"
     C: NetEase
     F: "1900-01-01"
     R: C

@@ -11203,17 +11203,17 @@ P:
   - T: "2016-05-01"
     C: FreshBooks
     F: "1900-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2016-05-01"
-    C: FreshBooks
-    F: "1900-01-01"
     P: nats
     R: C
   - T: "2012-10-01"
     C: Synapse, Inc
     F: "2011-03-01"
     P: onap
+    R: C
+  - T: "2016-05-01"
+    C: FreshBooks
+    F: "2013-09-01"
+    P: lfedge/edgex-foundry
     R: C
   - T: "2100-01-01"
     C: Synapse, Inc
@@ -11253,6 +11253,15 @@ P:
   - M: Colin Hutchinson
     S: github
     U: hutchic
+  - E: colin!konghq.com
+    M: Colin Hutchinson
+    S: groupsio
+  - E: chutchic!gmail.com
+    M: chutchic
+    S: groupsio
+  - M: Colin Hutchinson
+    S: slack
+    U: chutchic
   - E: chutchic!gmail.com
     M: Colin Hutchinson
     S: slack
@@ -39933,11 +39942,6 @@ P:
   - T: "2100-01-01"
     C: OSIsoft
     F: "1901-01-01"
-    P: fledge
-    R: C
-  - T: "2100-01-01"
-    C: OSIsoft
-    F: "1901-01-01"
     P: lfedge/state-of-the-edge
     R: C
   - T: "2100-01-01"
@@ -39945,12 +39949,34 @@ P:
     F: "1901-01-01"
     P: lfn-cntt
     R: C
+  - T: "2000-02-01"
+    C: Bull HN Information Systems, Inc.
+    F: "1999-09-01"
+    P: fledge
+    R: C
+  - T: "2100-01-01"
+    C: OSIsoft
+    F: "2010-10-01"
+    P: fledge
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-01-01"
+    P: fledge
+    R: C
   I:
   - M: Daniel Lazaro
     S: confluence
     U: dlazaro
   - E: kapokasa!gmail.com
     M: Daniel Lazaro
+    S: confluence
+    U: dlazaro
+  - M: Daniel LÃ¡zaro Cuadrado
+    S: confluence
+    U: dlazaro
+  - E: kapokasa!gmail.com
+    M: Daniel LÃ¡zaro Cuadrado
     S: confluence
     U: dlazaro
   - M: Daniel Lázaro Cuadrado
@@ -40664,23 +40690,6 @@ P:
     U: dlynch
   B: 0
   U: Daniel Lynch
-- E: kapokasa!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: OSIsoft
-    F: "1901-01-01"
-    P: akraino
-    R: C
-  I:
-  - M: Daniel LÃ¡zaro Cuadrado
-    S: confluence
-    U: dlazaro
-  - E: kapokasa!gmail.com
-    M: Daniel LÃ¡zaro Cuadrado
-    S: confluence
-    U: dlazaro
-  B: 0
-  U: Daniel LÃ¡zaro Cuadrado
 - C: FR
   R:
   - T: "2014-11-01"
@@ -62565,19 +62574,6 @@ P:
   S: male
   I:
   - E: klempner!google.com
-    M: David Klempner
-    S: git
-  B: 0
-  U: David Klempner
-- E: klempner!imsanet.org
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  I:
-  - E: klempner!imsanet.org
     M: David Klempner
     S: git
   B: 0
