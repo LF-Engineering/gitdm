@@ -1,4 +1,279 @@
 P:
+- C: IN
+  E: hello!rohit.io
+  R:
+  - T: "2014-03-01"
+    C: Plivo
+    F: "1900-01-01"
+    R: C
+  - T: "2014-03-01"
+    C: Plivo
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2014-06-01"
+    C: Independent
+    F: "2014-03-01"
+    R: C
+  - T: "2014-06-01"
+    C: Independent
+    F: "2014-03-01"
+    P: prometheus
+    R: C
+  - T: "2015-11-01"
+    C: Knowlarity
+    F: "2014-06-01"
+    R: C
+  - T: "2015-11-01"
+    C: Knowlarity
+    F: "2014-06-01"
+    P: prometheus
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-11-01"
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-11-01"
+    P: prometheus
+    R: C
+  - T: "2018-09-01"
+    C: Ola
+    F: "2016-01-01"
+    R: C
+  - T: "2018-09-01"
+    C: Ola
+    F: "2016-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-11-01"
+    C: Independent
+    F: "2018-09-01"
+    R: C
+  - T: "2018-11-01"
+    C: Independent
+    F: "2018-09-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-11-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: hello!rohit.io
+    M: Rohit Gupta
+    S: git
+  - E: hello!rohit.io
+    M: rohit01
+    S: git
+  B: 0
+  U: rohit01
+- E: rohitj!vmware.com
+  R:
+  - T: "2018-02-08"
+    C: VMware, Inc.
+    F: "2017-08-16"
+    P: baetyl
+    R: C
+  I:
+  - E: rohitj!vmware.com
+    M: Rohit Jog
+    S: git
+  - E: rohitj!vmware.com
+    M: rohitjogvmw
+    S: git
+  B: 0
+  U: rohitjogvmw
+- E: rbenhaim!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2017-10-31"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rbenhaim!vmware.com
+    M: roie ben haim
+    S: slack
+    U: rbenhaim
+  B: 0
+  U: roie ben haim
+- E: rojacob!lenovo.com
+  R:
+  - T: "1995-05-01"
+    C: Siemens AG
+    F: "1994-06-01"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "1996-10-01"
+    C: NEC Corporation
+    F: "1995-06-01"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2013-04-01"
+    C: Nokia Corporation
+    F: "1998-12-01"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: Lenovo (United States) Inc.
+    F: "2013-05-01"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: rojacob!lenovo.com
+    M: rojacob
+    S: groupsio
+  B: 0
+  U: rojacob
+- C: GB
+  E: rojer!rojer.me
+  R:
+  - T: "2015-03-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2019-05-01"
+    C: Cesanta
+    F: "2015-03-01"
+    R: C
+  - T: "2019-05-01"
+    C: Cesanta
+    F: "2015-03-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-05-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: rojer!rojer.me
+    M: rojer
+    S: git
+  B: 0
+  U: rojer
+- R:
+  - T: "2100-01-01"
+    C: Symphony LLC
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Symphony LLC
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: github
+    U: roland-symphony
+  B: 0
+  U: roland-symphony
+- E: romain.gimbert!orange.com
+  R:
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "2018-01-29"
+    R: C
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "2018-01-29"
+    P: onap
+    R: C
+  I:
+  - S: confluence
+    U: romaingimbert
+  - M: romain gimbert
+    S: confluence
+    U: romaingimbert
+  - S: gerrit
+    U: romaingimbert
+  - E: romain.gimbert!orange.com
+    M: romain gimbert
+    S: gerrit
+    U: romaingimbert
+  - E: romain.gimbert!orange.com
+    M: raag8290
+    S: git
+  - E: romain.gimbert!orange.com
+    M: romaingimbert
+    S: git
+  - S: jira
+    U: romaingimbert
+  - M: romain gimbert
+    S: jira
+    U: romaingimbert
+  - E: romain.gimbert!orange.com
+    M: romain gimbert
+    S: jira
+    U: romaingimbert
+  - E: romain.gimbert!orange.com
+    S: onap:manual
+  - M: Romain Gimbert
+    S: onap:manual
+  B: 0
+  U: romain gimbert
+- E: roman.stratiienko!globallogic.com
+  R:
+  - T: "2100-01-01"
+    C: GlobalLogic
+    F: "2018-10-01"
+    P: yocto
+    R: C
+  I:
+  - E: roman.stratiienko!globallogic.com
+    M: Roman Stratiienko
+    S: git
+  - E: roman.stratiienko!globallogic.com
+    M: roman.stratiienko
+    S: groupsio
+  - E: roman.stratiienko!globallogic.com
+    M: roman.stratiienko
+    S: pipermail
+  B: 0
+  U: roman.stratiienko
+- R:
+  - T: "2100-01-01"
+    C: I-Link Infosoft Consultants
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: I-Link Infosoft Consultants
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: I-Link Infosoft Consultants
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: I-Link Infosoft Consultants
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - S: github
+    U: ronakpandya7
+  B: 0
+  U: ronakpandya7
 - E: 31612939+ronenschafferibm!users.noreply.github.com
   R:
   - T: "2100-01-01"
