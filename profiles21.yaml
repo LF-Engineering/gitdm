@@ -1,5 +1,50 @@
 P:
 - C: IT
+  R:
+  - T: "2016-09-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2017-03-01"
+    C: CSE
+    F: "2016-09-01"
+    R: C
+  - T: "2017-03-01"
+    C: CSE
+    F: "2016-09-01"
+    P: jaeger
+    R: C
+  - T: "2020-05-01"
+    C: iGenius
+    F: "2017-03-01"
+    R: C
+  - T: "2020-05-01"
+    C: iGenius
+    F: "2017-03-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2020-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2020-05-01"
+    P: jaeger
+    R: C
+  S: male
+  I:
+  - M: Vittorio Camisa
+    S: github
+    U: ProvoK
+  B: 0
+  U: Vittorio Camisa
+- C: IT
   E: vittorio.camisa!gmail.com
   R:
   - T: "2016-09-01"
@@ -42248,6 +42293,19 @@ P:
     S: pipermail
   B: 0
   U: Yevgeny.Shakhnovich
+- E: yinghao.zou!zilliz.com
+  R:
+  - T: "2100-01-01"
+    C: Zilliz
+    F: "2019-10-11"
+    P: lfai-milvus
+    R: C
+  I:
+  - E: yinghao.zou!zilliz.com
+    M: Yhz
+    S: git
+  B: 0
+  U: Yhz
 - E: yic!twitter.com
   R:
   - T: "2100-01-01"
@@ -44099,7 +44157,7 @@ P:
     U: Alienero
   B: 0
   U: Yim
-- E: dingyin!gmail.com
+- E: yin.ding!futurewei.com
   R:
   - T: "2100-01-01"
     C: VMware, Inc.
@@ -44176,12 +44234,18 @@ P:
   - E: yding!vmware.com
     M: Yin Ding
     S: git
+  - E: yin.ding!futurewei.com
+    M: Yin Ding
+    S: git
   - E: yding!vmware.com
     M: dingyin
     S: git
   - M: Yin Ding
     S: github
     U: dingyin
+  - E: yin.ding!futurewei.com
+    M: Yin Ding
+    S: groupsio
   B: 0
   U: Yin Ding
 - E: jifeng.yin!gmail.com
@@ -61522,50 +61586,3 @@ P:
     U: zaneb
   B: 0
   U: Zane Bitter
-- E: zbitter!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-07-12"
-    C: Red Hat Inc.
-    F: "2016-01-01"
-    P: opnfv
-    R: C
-  - T: "2016-09-30"
-    C: Red Hat Inc.
-    F: "2016-09-28"
-    P: stackstorm
-    R: C
-  S: female
-  I:
-  - E: zbitter!redhat.com
-    M: Zane Bitter
-    S: git
-  B: 0
-  U: Zane Bitter
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Airbnb
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Airbnb
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - M: Zane Claes
-    S: github
-    U: zaneclaes
-  B: 0
-  U: Zane Claes
