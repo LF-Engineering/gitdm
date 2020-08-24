@@ -1,4 +1,93 @@
 P:
+- E: hfernandez!mesosphere.com
+  R:
+  - T: "2015-04-01"
+    C: ElasticBox
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-02-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2017-12-01"
+    C: Red Hat Inc.
+    F: "2017-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "2017-12-01"
+    P: k8s
+    R: C
+  I:
+  - E: hfernandez!mesosphere.com
+    M: hectorj2f
+    S: git
+  B: 0
+  U: hectorj2f
+- E: thomas.heeley!intel.com
+  R:
+  - T: "2016-02-07"
+    C: Intel Corporation
+    F: "2015-07-08"
+    P: zep
+    R: C
+  I:
+  - E: thomas.heeley!intel.com
+    M: Thomas Heeley
+    S: git
+  - E: thomas.heeley!intel.com
+    M: heeleyth
+    S: git
+  B: 0
+  U: heeleyth
+- E: julie.jiang!emc.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "2016-10-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: julie.jiang!emc.com
+    M: hehejxw
+    S: slack
+    U: hehejxw
+  B: 0
+  U: hehejxw
+- E: heidsoft!sina.com
+  R:
+  - T: "2100-01-01"
+    C: heidsoft
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: heidsoft
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  I:
+  - E: heidsoft!sina.com
+    M: heidsoft
+    S: github
+    U: heidsoft
+  B: 0
+  U: heidsoft
+- E: 414175749!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "2017-02-22"
+    P: fabric
+    R: C
+  I:
+  - E: 414175749!qq.com
+    S: github
+    U: hejjiiee
+  B: 0
+  U: hejjiiee
 - R:
   - T: "2100-01-01"
     C: Cisco Systems Inc.
@@ -12501,6 +12590,39 @@ P:
     S: git
   B: 0
   U: jingxueli
+- E: hai.jin!zilliz.com
+  R:
+  - T: "2014-01-01"
+    C: Ericsson AB
+    F: "2006-11-01"
+    P: lfai-milvus
+    R: C
+  - T: "2017-10-01"
+    C: BMW
+    F: "2014-01-01"
+    P: lfai-milvus
+    R: C
+  - T: "2100-01-01"
+    C: Zilliz
+    F: "2017-10-01"
+    P: lfai-milvus
+    R: C
+  I:
+  - E: hai.jin!zilliz.com
+    M: Jin Hai
+    S: git
+  - E: hai.jin!zilliz.com
+    M: JinHai-CN
+    S: git
+  - E: hai.jin!zilliz.com
+    M: jinhai
+    S: git
+  - E: haijin.chn!gmail.com
+    M: Jin Hai
+    S: github
+    U: JinHai-CN
+  B: 0
+  U: jinhai
 - E: jordan.lim!samsung.com
   R:
   - T: "2100-01-01"
@@ -62758,154 +62880,3 @@ P:
     U: ronhowell
   B: 0
   U: ronhowell
-- E: roni.riska!nokia.com
-  R:
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: o-ran/documentation
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: o-ran/integration
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-inf
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-nonrtric
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-oam
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-ocu
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-oduhigh
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-odulow
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-ric
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-ricapp
-    R: C
-  - T: "2006-12-31"
-    C: Nokia Corporation
-    F: "1997-12-31"
-    P: oran-sim
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-01-02"
-    P: oran-sim
-    R: C
-  I:
-  - M: Roni Riska
-    S: confluence
-    U: riska
-  - E: roni.riska!nokia.com
-    M: Roni Riska
-    S: gerrit
-    U: riska
-  - E: rriska!vm021273.nsn-intra.net
-    M: Roni Riska
-    S: gerrit
-  - E: roni.riska!nokia.com
-    M: Roni Riska
-    S: git
-  - E: rriska!vm021273.nsn-intra.net
-    M: Roni Riska
-    S: git
-  - E: roni.riska!nokia.com
-    M: roni.riska
-    S: groupsio
-  - M: Roni Riska
-    S: jira
-    U: riska
-  - E: roni.riska!nokia.com
-    M: Roni Riska
-    S: jira
-    U: riska
-  B: 0
-  U: roni.riska
