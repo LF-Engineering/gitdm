@@ -1,4 +1,144 @@
 P:
+- E: mernst!de.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mernst!de.ibm.com
+    M: Michael Ernst
+    S: git
+  B: 0
+  U: Michael Ernst
+- E: linuxfoundation!michaelestrin.com
+  R:
+  - T: "2100-01-01"
+    C: Dell
+    F: "2018-11-01"
+    P: lfedge/edgex-foundry
+    R: C
+  I:
+  - M: Michael Estrin
+    S: confluence
+    U: michaelestrin
+  - E: linuxfoundation!michaelestrin.com
+    M: Michael Estrin
+    S: confluence
+    U: michaelestrin
+  - M: Michael Estrin
+    S: discourse
+    U: michaelestrin
+  - E: m.estrin!dell.com
+    M: Michael Estrin
+    S: git
+  - E: michaelestrin!users.noreply.github.com
+    M: Michael Estrin
+    S: git
+  - E: me!michaelestrin.com
+    M: Michael W. Estrin
+    S: git
+  - M: Michael Estrin
+    S: github
+    U: michaelestrin
+  - E: m.estrin!dell.com
+    M: Michael Estrin
+    S: groupsio
+  - E: m.estrin!dell.com
+    M: Michael Estrin
+    S: slack
+    U: m.estrin
+  B: 0
+  U: Michael Estrin
+- E: mrobbins!MIT.EDU
+  R:
+  - T: "2100-01-01"
+    C: MIT
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mrobbins!MIT.EDU
+    M: Michael F. Robbins
+    S: git
+  B: 0
+  U: Michael F. Robbins
+- C: CA
+  E: michael!fig.org
+  R:
+  - T: "2015-11-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2015-11-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: LiveBlock
+    F: "2015-11-01"
+    R: C
+  - T: "2019-05-01"
+    C: LiveBlock
+    F: "2015-11-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Agoric
+    F: "2019-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Agoric
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: michael!fig.org
+    M: Michael FIG
+    S: git
+  B: 0
+  U: Michael FIG
+- C: CA
+  E: michael!liveblockauctions.com
+  R:
+  - T: "2015-11-01"
+    C: Google
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2015-11-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: LiveBlock
+    F: "2015-11-01"
+    P: baetyl
+    R: C
+  - T: "2019-05-01"
+    C: LiveBlock
+    F: "2015-11-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Agoric
+    F: "2019-05-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Agoric
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: michael!liveblockauctions.com
+    M: Michael FIG
+    S: git
+  B: 0
+  U: Michael FIG
 - C: CA
   E: michael+github!fig.org
   R:
@@ -61408,185 +61548,3 @@ P:
     S: pipermail
   B: 0
   U: Nevrekar Subhash
-- E: mei.yeen.ng!intel.com
-  R:
-  - T: "2017-07-21"
-    C: Intel Corporation
-    F: "2015-07-15"
-    P: yocto
-    R: C
-  I:
-  - E: mei.yeen.ng!intel.com
-    S: bugzilla
-    U: mei.yeen.ng
-  - M: Mei Yeen Ng
-    S: bugzilla
-    U: mei.yeen.ng
-  - E: mei.yeen.ng!intel.com
-    M: Mei Yeen Ng
-    S: bugzilla
-    U: mei.yeen.ng
-  - E: mei.yeen.ng!intel.com
-    M: Ng, Mei Yeen
-    S: git
-  - E: mei.yeen.ng!intel.com
-    M: Mei Yeen Ng
-    S: groupsio
-  - E: mei.yeen.ng!intel.com
-    M: Ng, Mei Yeen
-    S: groupsio
-  - E: mei.yeen.ng!intel.com
-    M: mei.yeen.ng
-    S: groupsio
-  - E: mei.yeen.ng!intel.com
-    M: Mei Yeen Ng
-    S: pipermail
-  - E: mei.yeen.ng!intel.com
-    M: Ng, Mei Yeen
-    S: pipermail
-  - E: mei.yeen.ng!intel.com
-    M: mei.yeen.ng
-    S: pipermail
-  B: 0
-  U: Ng, Mei Yeen
-- E: wei.tee.ng!intel.com
-  R:
-  - T: "2018-03-04"
-    C: Intel Corporation
-    F: "2014-08-28"
-    P: yocto
-    R: C
-  I:
-  - E: wei.tee.ng!intel.com
-    S: bugzilla
-    U: wei.tee.ng
-  - E: wei.tee.ng!intel.com
-    M: Ng, Wei Tee
-    S: bugzilla
-    U: wei.tee.ng
-  - E: wei.tee.ng!intel.com
-    M: Ng Wei Tee
-    S: git
-  - E: wei.tee.ng!intel.com
-    M: Ng, Wei Tee
-    S: git
-  - E: wei.tee.ng!intel.com
-    M: Ng, Wei Tee
-    S: groupsio
-  - E: wei.tee.ng!intel.com
-    M: wei.tee.ng
-    S: groupsio
-  - E: wei.tee.ng!intel.com
-    M: Ng, Wei Tee
-    S: pipermail
-  - E: wei.tee.ng!intel.com
-    M: wei.tee.ng
-    S: pipermail
-  B: 0
-  U: Ng, Wei Tee
-- E: ngai-mint.kwan!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ngai-mint.kwan!intel.com
-    M: Ngai-Mint Kwan
-    S: git
-  B: 0
-  U: Ngai-Mint Kwan
-- E: quocnghia.nguyen!orange.com
-  R:
-  - T: "2019-03-21"
-    C: Orange S.A.
-    F: "2018-04-01"
-    R: C
-  - T: "2019-03-21"
-    C: Orange S.A.
-    F: "2018-04-01"
-    P: onap
-    R: C
-  I:
-  - S: gerrit
-    U: qnnguyen
-  - E: quocnghia.nguyen!orange.com
-    M: Nghia Nguyen
-    S: gerrit
-    U: qnnguyen
-  - E: quocnghia.nguyen!orange.com
-    M: Quoc Nghia Nguyen
-    S: git
-  - E: quocnghia.nguyen!orange.com
-    M: Quoc-Nghia Nguyen
-    S: git
-  - E: quocnghia.nguyen!orange.com
-    M: quocnghia.nguyen
-    S: groupsio
-  - M: Nghia Nguyen
-    S: jira
-    U: qnnguyen
-  - E: quocnghia.nguyen!orange.com
-    M: Nghia Nguyen
-    S: jira
-    U: qnnguyen
-  - E: quocnghia.nguyen!orange.com
-    S: onap:manual
-  - M: Nghia Nguyen
-    S: onap:manual
-  - E: quocnghia.nguyen!orange.com
-    M: quocnghia.nguyen
-    S: pipermail
-  B: 0
-  U: Nghia Nguyen
-- E: nghia!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-05-30"
-    C: Google
-    F: "2015-05-14"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: nghia!google.com
-    M: Nghia Tran
-    S: git
-  B: 0
-  U: Nghia Tran
-- E: tcnghia!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-04-07"
-    C: Google
-    F: "2015-01-01"
-    R: C
-  S: male
-  I:
-  - E: tcnghia!gmail.com
-    M: Nghia Tran
-    S: git
-  - E: tcnghia!gmail.com
-    M: Nghia Tran
-    S: github
-    U: tcnghia
-  B: 0
-  U: Nghia Tran

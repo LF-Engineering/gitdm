@@ -1,4 +1,131 @@
 P:
+- R:
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-01-01"
+    C: Siteplus
+    F: "2016-07-01"
+    R: C
+  - T: "2017-01-01"
+    C: Siteplus
+    F: "2016-07-01"
+    P: helm
+    R: C
+  - T: "2017-01-01"
+    C: Siteplus
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2017-01-01"
+    C: Siteplus
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: ServerBee
+    F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: ServerBee
+    F: "2017-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: ServerBee
+    F: "2017-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: ServerBee
+    F: "2017-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Vitaly Yakovenko
+    S: github
+    U: mr-yaky
+  B: 0
+  U: Vitaly Yakovenko
+- R:
+  - T: "2100-01-01"
+    C: Netcracker Technology Corporation
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: Vitaly
+    S: github
+    U: vitaly-m
+  B: 0
+  U: Vitaly
+- E: vmrnkv!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Netcracker Technology Corporation
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: vmrnkv!gmail.com
+    M: Vitaly
+    S: git
+  B: 0
+  U: Vitaly
+- E: vitezslavvit.vlcek!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2019-02-14"
+    P: zowe
+    R: C
+  I:
+  - E: 43439912+VitekVlcek-Broadcom!users.noreply.github.com
+    M: Vitek Vlcek
+    S: git
+  - E: vitezslav!vvvlcek.info
+    M: Vitek Vlcek
+    S: git
+  - E: vitezslavvit.vlcek!broadcom.com
+    M: Vitek Vlcek
+    S: git
+  - E: vitezslavvit.vlcek!ca.com
+    M: Vitek Vlcek
+    S: git
+  - E: vv632728!broadcom.net
+    M: Vitek Vlcek
+    S: git
+  - E: vitezslav+github!vvvlcek.info
+    M: vvvlc
+    S: git
+  - S: github
+    U: vvvlc
+  - M: Vitek Vlcek
+    S: github
+    U: VitekVlcek-Broadcom
+  - E: vitezslavvit.vlcek!broadcom.com
+    M: Vitezslav Vit Vlcek
+    S: slack
+    U: vitezslavvit.vlcek
+  B: 0
+  U: Vitezslav Vit Vlcek
 - C: US
   E: vitja.makarov!gmail.com
   R:
@@ -26563,6 +26690,41 @@ P:
     S: git
   B: 0
   U: Xiaoguang Wang
+- E: xiaohai.xu!zilliz.com
+  R:
+  - T: "2018-02-01"
+    C: Microsoft Corporation
+    F: "2017-11-01"
+    P: lfai-milvus
+    R: C
+  - T: "2100-01-01"
+    C: Zilliz
+    F: "2020-02-01"
+    P: lfai-milvus
+    R: C
+  I:
+  - E: xiaohai.xu!zilliz.com
+    M: Xiaohai Xu
+    S: git
+  - E: xiaohaix!student.unimelb.edu.au
+    M: Xiaohai Xu
+    S: git
+  - E: xiaohai.xu!zilliz.com
+    M: sahuang
+    S: git
+  - E: xiaohaix!student.unimelb.edu.au
+    M: sahuang
+    S: git
+  - E: xiaohai.xu!zilliz.com
+    M: Xiaohai Xu
+    S: github
+    U: sahuang
+  - E: xiaohaix!student.unimelb.edu.au
+    M: Xiaohai Xu
+    S: github
+    U: sahuang
+  B: 0
+  U: Xiaohai Xu
 - E: Xiaojie.Yuan!amd.com
   R:
   - T: "2100-01-01"
@@ -61447,155 +61609,3 @@ P:
     U: zmalik
   B: 0
   U: Zain Malik
-- R:
-  - T: "2019-01-10"
-    C: Pivotal
-    F: "2014-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: zak!zaksoup.com
-    M: Zachary Auerbach
-    S: git
-  - E: zauerbach!pivotal.io
-    M: Zachary Auerbach
-    S: git
-  - M: Zak Auerbach
-    S: git
-  - E: pair+zauerbach!pivotal.io
-    M: Zak Auerbach
-    S: git
-  - E: zak!zaksoup.com
-    M: Zak Auerbach
-    S: git
-  - E: zauerbach!pivotal.io
-    M: Zak Auerbach
-    S: git
-  - M: Zak Auerbach
-    S: github
-    U: zaksoup
-  - E: zauerbach!pivotal.io
-    M: Zachary Auerbach
-    S: groupsio
-  - E: zauerbach!pivotal.io
-    M: Zachary Auerbach
-    S: mbox
-  - E: zak!zaksoup.com
-    M: Zak Auerbach
-    S: slack
-    U: zaksoup
-  B: 0
-  U: Zak Auerbach
-- C: PH
-  E: zakame!zakame.net
-  R:
-  - T: "2100-01-01"
-    C: Yoyo Holdings
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Yoyo Holdings
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Yoyo Holdings
-    F: "1900-01-01"
-    P: nats
-    R: C
-  I:
-  - E: zakame!zakame.net
-    M: Zak B. Elep
-    S: git
-  - E: zakame!zakame.net
-    M: Zak B. Elep
-    S: github
-    U: zakame
-  B: 0
-  U: Zak B. Elep
-- R:
-  - T: "2015-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2015-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-06-01"
-    C: Humana
-    F: "2015-05-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2019-06-01"
-    C: Humana
-    F: "2015-05-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Zendesk
-    F: "2019-06-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2100-01-01"
-    C: Zendesk
-    F: "2019-06-01"
-    P: k8s
-    R: C
-  I:
-  - M: Zak Scholl
-    S: github
-    U: zscholl
-  B: 0
-  U: Zak Scholl
-- E: zscholl!users.noreply.github.com
-  R:
-  - T: "2015-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2019-06-01"
-    C: Humana
-    F: "2015-05-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2100-01-01"
-    C: Zendesk
-    F: "2019-06-01"
-    P: cncf/cloudcustodian
-    R: C
-  I:
-  - E: zscholl!users.noreply.github.com
-    M: Zak Scholl
-    S: git
-  B: 0
-  U: Zak Scholl
-- E: zakariabouazza!fastmail.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-12-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  I:
-  - E: 54307711+zakariahere!users.noreply.github.com
-    M: Zak
-    S: git
-  - M: Zak
-    S: github
-    U: zakariahere
-  B: 0
-  U: Zakaria Bouazza

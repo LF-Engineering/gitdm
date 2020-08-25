@@ -1,4 +1,58 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: virtualkubelet
+    R: C
+  - T: "2016-09-11"
+    C: Google
+    F: "2015-07-08"
+    R: C
+  I:
+  - M: Jess Frazelle
+    S: github
+    U: jessfraz
+  - M: Jess Frazelle
+    S: oci_csv
+    U: jfrazelle
+  B: 0
+  U: Jess Frazelle
 - E: acidburn!google.com
   R:
   - T: "2014-09-01"
@@ -62670,297 +62724,3 @@ P:
     U: judavi
   B: 0
   U: Juan David Gomez
-- C: US
-  E: jdpcbs!gmail.com
-  R:
-  - T: "2015-03-01"
-    C: Caltech
-    F: "1900-01-01"
-    R: C
-  - T: "2015-03-01"
-    C: Caltech
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-03-01"
-    C: Caltech
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2015-09-01"
-    C: eddi
-    F: "2015-03-01"
-    R: C
-  - T: "2015-09-01"
-    C: eddi
-    F: "2015-03-01"
-    P: k8s
-    R: C
-  - T: "2015-09-01"
-    C: eddi
-    F: "2015-03-01"
-    P: nats
-    R: C
-  - T: "2015-12-01"
-    C: Independent
-    F: "2015-09-01"
-    R: C
-  - T: "2015-12-01"
-    C: Independent
-    F: "2015-09-01"
-    P: k8s
-    R: C
-  - T: "2015-12-01"
-    C: Independent
-    F: "2015-09-01"
-    P: nats
-    R: C
-  - T: "2016-05-01"
-    C: Orbital Insight
-    F: "2015-12-01"
-    R: C
-  - T: "2016-05-01"
-    C: Orbital Insight
-    F: "2015-12-01"
-    P: k8s
-    R: C
-  - T: "2016-05-01"
-    C: Orbital Insight
-    F: "2015-12-01"
-    P: nats
-    R: C
-  - T: "2016-06-01"
-    C: Caltech
-    F: "2016-05-01"
-    R: C
-  - T: "2016-06-01"
-    C: Caltech
-    F: "2016-05-01"
-    P: k8s
-    R: C
-  - T: "2016-06-01"
-    C: Caltech
-    F: "2016-05-01"
-    P: nats
-    R: C
-  - T: "2016-10-01"
-    C: Independent
-    F: "2016-06-01"
-    R: C
-  - T: "2016-10-01"
-    C: Independent
-    F: "2016-06-01"
-    P: k8s
-    R: C
-  - T: "2016-10-01"
-    C: Independent
-    F: "2016-06-01"
-    P: nats
-    R: C
-  - T: "2019-05-01"
-    C: Orbital Insight
-    F: "2016-10-01"
-    R: C
-  - T: "2019-05-01"
-    C: Orbital Insight
-    F: "2016-10-01"
-    P: k8s
-    R: C
-  - T: "2019-05-01"
-    C: Orbital Insight
-    F: "2016-10-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Flexport
-    F: "2019-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: Flexport
-    F: "2019-05-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Flexport
-    F: "2019-05-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: jdpcbs!gmail.com
-    M: Juan Diego Palomino
-    S: git
-  - E: jdpcbs!gmail.com
-    M: Juan Diego Palomino
-    S: github
-    U: juandiegopalomino
-  B: 0
-  U: Juan Diego Palomino
-- E: juan.gutierrez!nxp.com
-  R:
-  - T: "2100-01-01"
-    C: NXP Semiconductors Netherlands B.V.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: juan.gutierrez!nxp.com
-    M: Juan Gutierrez
-    S: git
-  B: 0
-  U: Juan Gutierrez
-- E: juan.hernandez!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: juan.hernandez!redhat.com
-    M: Juan Hernandez
-    S: git
-  B: 0
-  U: Juan Hernandez
-- E: jhernand!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: jhernand!redhat.com
-    M: Juan Hernandez
-    S: git
-  - E: jhernand!redhat.com
-    M: Juan Hernández
-    S: github
-    U: jhernand
-  B: 0
-  U: Juan Hernández
-- E: jjalvare!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jjalvare!linux.vnet.ibm.com
-    M: Juan J. Alvarez
-    S: git
-  B: 0
-  U: Juan J. Alvarez
-- R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - M: Juan J. Jimenez-Anca
-    S: github
-    U: cortopy
-  B: 0
-  U: Juan J. Jimenez-Anca
-- E: cortopy!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  I:
-  - E: cortopy!users.noreply.github.com
-    M: Juan Jimenez-Anca
-    S: git
-  B: 0
-  U: Juan Jimenez-Anca
-- C: DE
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - M: Juan Jimenez
-    S: github
-    U: flybd5
-  B: 0
-  U: Juan Jimenez
-- C: DE
-  E: flybd5!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: flybd5!users.noreply.github.com
-    M: Juan Jimenez
-    S: git
-  B: 0
-  U: Juan Jimenez
-- E: juanjo.vazquez.delgado!tecsisa.com
-  R:
-  - T: "2100-01-01"
-    C: Tecsisa
-    F: "1900-01-01"
-    P: cncf/dex
-    R: C
-  I:
-  - E: juanjo.vazquez.delgado!tecsisa.com
-    M: Juan José Vázquez
-    S: github
-    U: juanjovazquez
-  B: 0
-  U: Juan José Vázquez
-- C: CO
-  E: juan.baptiste!gmail.com
-  R:
-  - T: "2017-01-01"
-    C: CacheSimple
-    F: "1900-01-01"
-    R: C
-  - T: "2017-01-01"
-    C: CacheSimple
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Akam SRL
-    F: "2017-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Akam SRL
-    F: "2017-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: juan.baptiste!gmail.com
-    M: Juan Luis Baptiste
-    S: git
-  B: 0
-  U: Juan Luis Baptiste

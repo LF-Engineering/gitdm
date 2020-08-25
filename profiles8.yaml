@@ -1,4 +1,80 @@
 P:
+- C: US
+  E: gkalele!google.com
+  R:
+  - T: "2018-04-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2018-04-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-04-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-04-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: gkalele!google.com
+    M: Girish Kalele
+    S: git
+  B: 0
+  U: Girish Kalele
+- E: girishkumar.bk!netapp.com
+  R:
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "1901-01-01"
+    P: akraino
+    R: C
+  I:
+  - E: girishkumar.bk!netapp.com
+    M: Girish Kumar BK
+    S: confluence
+    U: giriatlf
+  B: 0
+  U: Girish Kumar BK
+- E: girishm!codeaurora.org
+  R:
+  - T: "2100-01-01"
+    C: Code Aurora Forum
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: girishm!codeaurora.org
+    M: Girish Mahadevan
+    S: git
+  B: 0
+  U: Girish Mahadevan
+- E: girish.moodalbail!oracle.com
+  R:
+  - T: "2014-10-11"
+    C: Oracle America Inc.
+    F: "2014-10-09"
+    R: C
+  - T: "2014-10-11"
+    C: Oracle America Inc.
+    F: "2014-10-09"
+    P: odl
+    R: C
+  I:
+  - E: girish.moodalbail!oracle.com
+    M: Girish Moodalbail
+    S: git
+  - E: girish.moodalbail!oracle.com
+    M: Girish Moodalbail
+    S: pipermail
+  B: 0
+  U: Girish Moodalbail
 - E: girish.nandibasappa!amd.com
   R:
   - T: "2010-07-01"
@@ -61689,142 +61765,3 @@ P:
     U: depohmel
   B: 0
   U: Ilya Kislenko
-- E: ilya!kasten.io
-  R:
-  - T: "2014-09-01"
-    C: FireEye
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2014-09-01"
-    C: FireEye
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-09-01"
-    C: FireEye
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2014-09-01"
-    C: FireEye
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2014-09-01"
-    C: FireEye
-    F: "1900-01-01"
-    P: pnda
-    R: C
-  - T: "2015-01-01"
-    C: Maginatics
-    F: "2014-09-01"
-    P: argo
-    R: C
-  - T: "2015-01-01"
-    C: Maginatics
-    F: "2014-09-01"
-    P: helm
-    R: C
-  - T: "2015-01-01"
-    C: Maginatics
-    F: "2014-09-01"
-    P: linkerd
-    R: C
-  - T: "2015-01-01"
-    C: Maginatics
-    F: "2014-09-01"
-    P: nats
-    R: C
-  - T: "2015-01-01"
-    C: Maginatics
-    F: "2014-09-01"
-    P: pnda
-    R: C
-  - T: "2017-06-01"
-    C: Dell EMC
-    F: "2015-01-01"
-    P: argo
-    R: C
-  - T: "2017-06-01"
-    C: Dell EMC
-    F: "2015-01-01"
-    P: helm
-    R: C
-  - T: "2017-06-01"
-    C: Dell EMC
-    F: "2015-01-01"
-    P: linkerd
-    R: C
-  - T: "2017-06-01"
-    C: Dell EMC
-    F: "2015-01-01"
-    P: nats
-    R: C
-  - T: "2017-06-01"
-    C: Dell EMC
-    F: "2015-01-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: Kasten
-    F: "2017-06-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Kasten
-    F: "2017-06-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Kasten
-    F: "2017-06-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Kasten
-    F: "2017-06-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Kasten
-    F: "2017-06-01"
-    P: pnda
-    R: C
-  S: male
-  I:
-  - E: ilya!kasten.io
-    M: Ilya Kislenko
-    S: git
-  - E: ilya!kasten.io
-    M: depohmel
-    S: git
-  B: 0
-  U: Ilya Kislenko
-- C: US
-  R:
-  - T: "2015-10-01"
-    C: Cellebrite
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-01"
-    C: Cellebrite
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Lyft
-    F: "2015-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: Lyft
-    F: "2015-10-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - M: Ilya Konstantinov
-    S: github
-    U: ikonst
-  B: 0
-  U: Ilya Konstantinov
