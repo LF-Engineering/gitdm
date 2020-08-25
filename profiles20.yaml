@@ -1,4 +1,99 @@
 P:
+- C: DE
+  E: github!moo.gl
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cortex
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: github!moo.gl
+    M: Tim Foerster
+    S: git
+  - E: github!moo.gl
+    M: Tim Foerster
+    S: github
+    U: tonobo
+  B: 0
+  U: Tim Foerster
+- C: US
+  R:
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-08-01"
+    C: PodLearn
+    F: "2014-05-01"
+    R: C
+  - T: "2014-08-01"
+    C: PodLearn
+    F: "2014-05-01"
+    P: k8s
+    R: C
+  - T: "2017-04-01"
+    C: MLH
+    F: "2014-08-01"
+    R: C
+  - T: "2017-04-01"
+    C: MLH
+    F: "2014-08-01"
+    P: k8s
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2017-04-01"
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2017-04-01"
+    P: k8s
+    R: C
+  - T: "2018-10-01"
+    C: mLab
+    F: "2017-06-01"
+    R: C
+  - T: "2018-10-01"
+    C: mLab
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: mLab
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: MongoDB
+    F: "2018-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: MongoDB
+    F: "2018-10-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Tim Fogarty
+    S: github
+    U: tfogo
+  B: 0
+  U: Tim Fogarty
 - C: US
   E: tim!tfogo.com
   R:
@@ -61713,110 +61808,3 @@ P:
     U: vitalvas
   B: 0
   U: Vitaliy Vasilenko
-- C: PL
-  R:
-  - T: "2016-07-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2016-07-01"
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2016-07-01"
-    P: jaeger
-    R: C
-  S: female
-  I:
-  - M: Vitaliy Zabolotskyy
-    S: github
-    U: zablvit
-  B: 0
-  U: Vitaliy Zabolotskyy
-- C: PL
-  E: zablvit!users.noreply.github.com
-  R:
-  - T: "2016-07-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2016-07-01"
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2016-07-01"
-    P: jaeger
-    R: C
-  S: female
-  I:
-  - E: zablvit!users.noreply.github.com
-    M: Vitaliy Zabolotskyy
-    S: git
-  B: 0
-  U: Vitaliy Zabolotskyy
-- E: vitalya!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments Incorporated
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: vitalya!ti.com
-    M: Vitaly Andrianov
-    S: git
-  B: 0
-  U: Vitaly Andrianov
-- E: vbordug!ru.mvista.com
-  R:
-  - T: "2100-01-01"
-    C: MontaVista Software, LLC
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: vbordug!ru.mvista.com
-    M: Vitaly Bordug
-    S: git
-  B: 0
-  U: Vitaly Bordug
-- E: vitalybuka!chromium.org
-  R:
-  - T: "2100-01-01"
-    C: Chromium
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  I:
-  - E: vitalybuka!chromium.org
-    M: Vitaly Buka
-    S: git
-  B: 0
-  U: Vitaly Buka
-- C: PL
-  E: vitalybuka!google.com
-  R:
-  - T: "2100-01-01"
-    C: Chromium
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: vitalybuka!google.com
-    M: Vitaly Buka
-    S: github
-    U: vitalybuka
-  B: 0
-  U: Vitaly Buka
