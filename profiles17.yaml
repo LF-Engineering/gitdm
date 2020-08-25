@@ -1,4 +1,105 @@
 P:
+- C: DE
+  E: treffer+github!measite.de
+  R:
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-06-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-06-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: treffer+github!measite.de
+    M: Rene Treffer
+    S: git
+  - E: treffer+github!measite.de
+    M: Rene Treffer
+    S: github
+    U: rtreffer
+  B: 0
+  U: Rene Treffer
+- E: wagner!smartclip.de
+  R:
+  - T: "2100-01-01"
+    C: Smartclip
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Smartclip
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - E: wagner!smartclip.de
+    M: Rene Wagner
+    S: git
+  B: 0
+  U: Rene Wagner
+- C: CH
+  R:
+  - T: "2100-01-01"
+    C: PostFinance
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: PostFinance
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: PostFinance
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: PostFinance
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Rene Zbinden
+    S: github
+    U: zbindenren
+  B: 0
+  U: Rene Zbinden
 - E: rene.zbinden!postfinance.ch
   R:
   - T: "2100-01-01"
@@ -62414,31 +62515,3 @@ P:
     U: SaraG
   B: 0
   U: Sara Garifullina
-- E: saramontecino!outlook.com
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2018-10-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: saramontecino!outlook.com
-    M: Sara Montecino
-    S: git
-  - E: smontecino!pivotal.io
-    M: Sara Montecino
-    S: git
-  - E: saramontecino!outlook.com
-    M: Sara Montecino
-    S: github
-    U: Polar-Beard
-  - E: smontecino!pivotal.io
-    M: Sara Montecino
-    S: github
-    U: Polar-Beard
-  - E: smontecino!pivotal.io
-    M: Sara Montecino
-    S: slack
-    U: smontecino
-  B: 0
-  U: Sara Montecino

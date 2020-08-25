@@ -1,4 +1,134 @@
 P:
+- E: per.q.holmgren!ericsson.com
+  R:
+  - T: "2017-05-29"
+    C: Ericsson AB
+    F: "2015-10-01"
+    R: C
+  - T: "2017-05-29"
+    C: Ericsson AB
+    F: "2015-10-01"
+    P: opnfv
+    R: C
+  I:
+  - E: per.q.holmgren!ericsson.com
+    M: Per Holmgren
+    S: gerrit
+    U: uabholn
+  - E: per.q.holmgren!ericsson.com
+    M: Per Holmgren
+    S: git
+  - E: per.q.holmgren!ericsson.com
+    M: Per Holmgren
+    S: jira
+    U: uabholn
+  - M: Per Holmgren
+    S: linux-foundation:its
+    U: uabholn
+  - E: per.q.holmgren!ericsson.com
+    M: Per Holmgren
+    S: linux-foundation:scm
+  - E: per.q.holmgren!ericsson.com
+    M: Per Holmgren
+    S: linux-foundation:scr
+    U: uabholn
+  B: 0
+  U: Per Holmgren
+- E: per.liden!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: per.liden!ericsson.com
+    M: Per Liden
+    S: git
+  B: 0
+  U: Per Liden
+- E: per.liden!nospam.ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: per.liden!nospam.ericsson.com
+    M: Per Liden
+    S: git
+  B: 0
+  U: Per Liden
+- E: perlun!gmail.com
+  R:
+  - T: "2014-03-01"
+    C: eCraft
+    F: "1900-01-01"
+    R: C
+  - T: "2014-03-01"
+    C: eCraft
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2014-03-01"
+    C: eCraft
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2014-03-01"
+    C: eCraft
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Hibox
+    F: "2014-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Hibox
+    F: "2014-03-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Hibox
+    F: "2014-03-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Hibox
+    F: "2014-03-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: perlun!gmail.com
+    M: Per Lundberg
+    S: git
+  - E: perlun!gmail.com
+    M: Per Lundberg
+    S: github
+    U: perlun
+  B: 0
+  U: Per Lundberg
+- C: SE
+  E: per.malmberg!gmail.com
+  R:
+  - T: "2015-12-01"
+    C: Code Zeal
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Snow Software
+    F: "2015-12-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: per.malmberg!gmail.com
+    M: Per Malmberg
+    S: git
+  B: 0
+  U: Per Malmberg
 - E: per.otterstrom!ericsson.com
   R:
   - T: "2100-01-01"
@@ -60901,104 +61031,3 @@ P:
     U: rene.treffer
   B: 0
   U: Rene Treffer
-- C: DE
-  E: treffer+github!measite.de
-  R:
-  - T: "2016-06-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: SoundCloud
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SoundCloud
-    F: "2016-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: SoundCloud
-    F: "2016-06-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: SoundCloud
-    F: "2016-06-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: SoundCloud
-    F: "2016-06-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - E: treffer+github!measite.de
-    M: Rene Treffer
-    S: git
-  - E: treffer+github!measite.de
-    M: Rene Treffer
-    S: github
-    U: rtreffer
-  B: 0
-  U: Rene Treffer
-- E: wagner!smartclip.de
-  R:
-  - T: "2100-01-01"
-    C: Smartclip
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Smartclip
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  I:
-  - E: wagner!smartclip.de
-    M: Rene Wagner
-    S: git
-  B: 0
-  U: Rene Wagner
-- C: CH
-  R:
-  - T: "2100-01-01"
-    C: PostFinance
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: PostFinance
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: PostFinance
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: PostFinance
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - M: Rene Zbinden
-    S: github
-    U: zbindenren
-  B: 0
-  U: Rene Zbinden

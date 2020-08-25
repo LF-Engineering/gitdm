@@ -1,4 +1,197 @@
 P:
+- E: releng+lf-jobbuilder!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2018-11-27"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-02-12"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-03-22"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-04-06"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-05-01"
+    P: acumos
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: o-ran/documentation
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: o-ran/integration
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-inf
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-nonrtric
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-oam
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-ocu
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-oduhigh
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-odulow
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-ric
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-ricapp
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-08-13"
+    P: oran-sim
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-12-13"
+    P: akraino
+    R: C
+  I:
+  - E: releng+lf-jobbuilder!linuxfoundation.org
+    M: LF Jenkins CI
+    S: gerrit
+    U: lf-jobbuilder
+  - E: releng+lf-jobbuilder!linuxfoundation.org
+    M: LF Jenkins CI
+    S: git
+  B: 1
+  U: LF Jenkins CI
+- E: info!cncf.io
+  R:
+  - T: "2018-12-16"
+    C: (Robots)
+    F: "2018-12-01"
+    P: lfai/lfai
+    R: C
+  I:
+  - E: info!cncf.io
+    M: LFDL-bot
+    S: git
+  B: 0
+  U: LFDL-bot
+- E: LHearen!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: PinDuoDuo
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: PinDuoDuo
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: LHearen!gmail.com
+    M: LHearen
+    S: github
+    U: Hearen
+  B: 0
+  U: LHearen
+- E: lidaobing!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Jd.Com
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  I:
+  - E: lidaobing!gmail.com
+    M: LI Daobing
+    S: git
+  - E: lidaobing!gmail.com
+    M: LI Daobing
+    S: github
+    U: lidaobing
+  B: 0
+  U: LI Daobing
+- E: menglinyjy!chinamobile.com
+  R:
+  - T: "2100-01-01"
+    C: China Mobile Communication Company Ltd
+    F: "2018-05-14"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: China Mobile Communication Company Ltd
+    F: "2018-12-16"
+    P: lfn-cntt
+    R: C
+  I:
+  - M: LIN MENG
+    S: confluence
+    U: LINMENG
+  - E: menglinyjy!chinamobile.com
+    M: LIN MENG
+    S: confluence
+    U: LINMENG
+  - E: menglinyjy!chinamobile.com
+    M: LIN MENG
+    S: gerrit
+    U: LINMENG
+  - E: menglinyjy!chinamobile.com
+    M: LINMENG
+    S: git
+  - E: menglinyjy!chinamobile.com
+    M: LinMeng
+    S: groupsio
+  - M: LIN MENG
+    S: jira
+    U: LINMENG
+  - E: menglinyjy!chinamobile.com
+    M: LIN MENG
+    S: jira
+    U: LINMENG
+  - E: menglinyjy!chinamobile.com
+    M: LinMeng
+    S: pipermail
+  B: 0
+  U: LIN MENG
 - C: CN
   E: sdliyong!gmail.com
   R:
@@ -61518,151 +61711,3 @@ P:
     S: git
   B: 0
   U: Marcin Wyszynski
-- C: PL
-  E: mwielgus!google.com
-  R:
-  - T: "2016-06-01"
-    C: ING Bank Slaski
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2016-06-01"
-    C: ING Bank Slaski
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: mwielgus!google.com
-    M: Marcin Wielgus
-    S: git
-  - E: mwielgus!google.com
-    M: Marcin
-    S: git
-  B: 0
-  U: Marcin
-- E: kosinskim!student.mini.pw.edu.pl
-  R:
-  - T: "2015-04-30"
-    C: ICM University of Warsaw
-    F: "2014-06-30"
-    P: sparklyr
-    R: C
-  - T: "2016-12-31"
-    C: MI2DataLab
-    F: "2014-09-30"
-    P: sparklyr
-    R: C
-  - T: "2100-01-01"
-    C: Gradient
-    F: "2016-12-31"
-    P: sparklyr
-    R: C
-  - T: "2018-06-30"
-    C: Why R?
-    F: "2017-10-31"
-    P: sparklyr
-    R: C
-  I:
-  - E: m.p.kosinski!gmail.com
-    M: Marcin Kosiński
-    S: git
-  - E: kosinskim!student.mini.pw.edu.pl
-    M: MarcinKosinski
-    S: git
-  - E: m.p.kosinski!gmail.com
-    M: Marcin Kosiński
-    S: github
-    U: MarcinKosinski
-  B: 0
-  U: MarcinKosinski
-- R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-02-09"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Marcio Montenegro
-    S: github
-    U: mtuxpe
-  B: 0
-  U: Marcio Montenegro
-- E: msam!cesar.org.br
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "2019-03-18"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: msam!cesar.org.br
-    M: Marcio Montenegro
-    S: git
-  B: 0
-  U: Marcio Montenegro
-- E: mtuxpe!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-12-14"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: mtuxpe!gmail.com
-    M: Marcio Montenegro
-    S: git
-  - E: mtuxpe!gmail.com
-    M: Marcio Montenegro
-    S: slack
-    U: mtuxpe
-  B: 0
-  U: Marcio Montenegro
-- R:
-  - T: "2100-01-01"
-    C: American Express
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Marcio Puga
-    S: github
-    U: marciopuga
-  B: 0
-  U: Marcio Puga
-- E: marciopuga!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: American Express
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: marciopuga!gmail.com
-    M: Marcio Puga
-    S: git
-  B: 0
-  U: Marcio Puga
