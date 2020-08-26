@@ -1,4 +1,526 @@
 P:
+- C: US
+  E: demmer!gmail.com
+  R:
+  - T: "2016-04-01"
+    C: Jut
+    F: "1900-01-01"
+    R: C
+  - T: "2016-04-01"
+    C: Jut
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "2016-04-01"
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "2016-04-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: Slack
+    F: "2016-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Slack
+    F: "2016-10-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: demmer!gmail.com
+    M: Michael Demmer
+    S: git
+  B: 0
+  U: Michael Demmer
+- C: US
+  E: mdemmer!slack-corp.com
+  R:
+  - T: "2016-04-01"
+    C: Jut
+    F: "1900-01-01"
+    R: C
+  - T: "2016-04-01"
+    C: Jut
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2016-04-01"
+    C: Jut
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "2016-04-01"
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "2016-04-01"
+    P: cncf
+    R: C
+  - T: "2016-10-01"
+    C: Independent
+    F: "2016-04-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: Slack
+    F: "2016-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Slack
+    F: "2016-10-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Slack
+    F: "2016-10-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: mdemmer!slack-corp.com
+    M: Michael Demmer
+    S: git
+  B: 0
+  U: Michael Demmer
+- R:
+  - T: "2017-06-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-01"
+    C: IBM
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-06-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: Nubix
+    F: "2017-06-01"
+    R: C
+  - T: "2018-08-01"
+    C: Nubix
+    F: "2017-06-01"
+    P: helm
+    R: C
+  - T: "2018-08-01"
+    C: Nubix
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Senzing
+    F: "2018-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Senzing
+    F: "2018-08-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Senzing
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Michael Dockter
+    S: github
+    U: docktermj
+  B: 0
+  U: Michael Dockter
+- E: mdolan!linuxfoundation.org
+  R:
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2013-02-01"
+    C: International Business Machines Corporation (IBM)
+    F: "2004-05-01"
+    P: acumos
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2013-02-01"
+    P: acumos
+    R: C
+  - T: "2013-06-29"
+    C: The Linux Foundation
+    F: "2013-03-23"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2015-04-21"
+    P: opnfv
+    R: C
+  - T: "2019-11-30"
+    C: Sony Pictures Imageworks
+    F: "2015-05-01"
+    P: opencolorio
+    R: C
+  - T: "2017-03-28"
+    C: The Linux Foundation
+    F: "2016-10-31"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2017-03-28"
+    C: The Linux Foundation
+    F: "2016-10-31"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-06-26"
+    P: tarscloud
+    R: C
+  - T: "2100-01-01"
+    C: Epic Games
+    F: "2019-12-01"
+    P: opencolorio
+    R: C
+  S: male
+  I:
+  - E: mdolan!linuxfoundation.org
+    M: Michael Dolan
+    S: confluence
+    U: mdolan
+  - E: mdolan!imageworks.com
+    M: Michael Dolan
+    S: git
+  - E: michdolan!gmail.com
+    M: Michael Dolan
+    S: git
+  - E: email!michaeldolan.com
+    M: Mike Dolan
+    S: git
+  - E: michdolan!gmail.com
+    M: michdolan
+    S: git
+  - M: Michael Dolan
+    S: github
+    U: michdolan
+  - M: Mike Dolan
+    S: github
+    U: mkdolan
+  - E: mdolan!linuxfoundation.org
+    M: Mike Dolan
+    S: gmane
+  - E: mdolan!linuxfoundation.org
+    M: Michael Dolan
+    S: groupsio
+  - E: mdolan!linuxfoundation.org
+    M: Mike Dolan
+    S: groupsio
+  - S: linux-foundation:irc
+    U: mdolan
+  - E: mdolan!linuxfoundation.org
+    M: Mike Dolan
+    S: linux-foundation:mls
+    U: mdolan
+  - S: linux-foundation:qaforums
+    U: mdolan
+  - E: mdolan!linuxfoundation.org
+    M: Mike Dolan
+    S: mbox
+  - M: Mdolan
+    S: mediawiki
+    U: Mdolan
+  - M: Mike Dolan
+    S: meetup
+    U: "183528896"
+  - E: mdolan!linuxfoundation.org
+    M: Michael Dolan
+    S: pipermail
+  - E: mdolan!linuxfoundation.org
+    M: Mike Dolan
+    S: pipermail
+  - E: michdolan!gmail.com
+    M: Michael Dolan
+    S: slack
+    U: michdolan
+  - M: Mike Dolan
+    S: slack
+    U: mdolan
+  B: 0
+  U: Michael Dolan
+- E: miked63017!gmail.com
+  R:
+  - T: "2016-03-01"
+    C: Advance
+    F: "1900-01-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2020-04-01"
+    C: Reinsurance Group of America
+    F: "2016-03-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2100-01-01"
+    C: WFH
+    F: "2020-04-01"
+    P: cncf/cloudcustodian
+    R: C
+  I:
+  - E: miked63017!gmail.com
+    M: Michael Donlon
+    S: github
+    U: miked63017
+  B: 0
+  U: Michael Donlon
+- E: michael.p.dop!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Harris Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Harris Corporation
+    F: "1900-01-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: michael.p.dop!gmail.com
+    M: Michael Dop
+    S: git
+  - E: michael.p.dop!gmail.com
+    M: Michael Dop
+    S: github
+    U: dojadop
+  B: 0
+  U: Michael Dop
+- E: michael.drake!codethink.co.uk
+  R:
+  - T: "2100-01-01"
+    C: Codethink
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: michael.drake!codethink.co.uk
+    M: Michael Drake
+    S: git
+  B: 0
+  U: Michael Drake
+- R:
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: falco
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: falco
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Michael Ducy
+    S: github
+    U: mfdii
+  B: 0
+  U: Michael Ducy
+- E: michael!ducy.org
+  R:
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: cncf/cnigenie
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: cncf/contour
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: cncf/keptn
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: falco
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: intoto
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-11-01"
+    C: Chef
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: cncf/buildpacks
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: cncf/cnigenie
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: cncf/contour
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: cncf/keptn
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: falco
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: intoto
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2017-11-01"
+    P: thanos
+    R: C
+  S: male
+  I:
+  - E: michael!ducy.org
+    M: Michael Ducy
+    S: git
+  B: 0
+  U: Michael Ducy
+- E: m-github!divisive.info
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1901-01-01"
+    P: lfedge/open-horizon
+    R: C
+  I:
+  - E: mdye!us.ibm.com
+    M: Michael Dye
+    S: git
+  - E: m-github!divisive.info
+    M: michael dye
+    S: git
+  - M: Michael Dye
+    S: github
+    U: michaeldye
+  B: 0
+  U: Michael Dye
 - E: michael.duerre!highstreet-technologies.com
   R:
   - T: "2100-01-01"
@@ -11398,6 +11920,36 @@ P:
     U: michailsalichos
   B: 0
   U: Michail Salichos
+- E: michal.banik!pantheon.tech
+  R:
+  - T: "2014-05-01"
+    C: Airbus SAS
+    F: "2014-01-01"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: PANTHEON.tech
+    F: "2015-08-01"
+    P: odl
+    R: C
+  I:
+  - E: michal.banik!pantheon.tech
+    M: Michal Banik
+    S: gerrit
+    U: mibanik
+  - M: Michal Banik
+    S: jira
+    U: mibanik
+  - E: michal.banik!pantheon.sk
+    M: Michal Banik
+    S: jira
+    U: michal.banik
+  - E: michal.banik!pantheon.tech
+    M: Michal Banik
+    S: jira
+    U: mibanik
+  B: 0
+  U: Michal Banik
 - C: SK
   R:
   - T: "2015-01-01"
@@ -61006,524 +61558,3 @@ P:
     S: git
   B: 0
   U: Nenad Dedic
-- C: DE
-  R:
-  - T: "2015-01-01"
-    C: Dark-1
-    F: "1900-01-01"
-    R: C
-  - T: "2015-01-01"
-    C: Dark-1
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-01-01"
-    C: Dark-1
-    F: "1900-01-01"
-    P: opentelemetry
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2015-01-01"
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2015-01-01"
-    P: helm
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2015-01-01"
-    P: opentelemetry
-    R: C
-  - T: "2016-08-01"
-    C: VOX TENEO
-    F: "2015-07-01"
-    R: C
-  - T: "2016-08-01"
-    C: VOX TENEO
-    F: "2015-07-01"
-    P: helm
-    R: C
-  - T: "2016-08-01"
-    C: VOX TENEO
-    F: "2015-07-01"
-    P: opentelemetry
-    R: C
-  - T: "2100-01-01"
-    C: HelloFresh
-    F: "2016-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: HelloFresh
-    F: "2016-08-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: HelloFresh
-    F: "2016-08-01"
-    P: opentelemetry
-    R: C
-  S: male
-  I:
-  - M: Nenad Stojanovikj
-    S: github
-    U: nenad
-  B: 0
-  U: Nenad Stojanovikj
-- R:
-  - T: "2015-05-01"
-    C: FastNet
-    F: "1900-01-01"
-    R: C
-  - T: "2015-05-01"
-    C: FastNet
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2015-05-01"
-    C: FastNet
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2015-05-01"
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2015-05-01"
-    P: harbor
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2015-05-01"
-    P: helm
-    R: C
-  - T: "2018-08-01"
-    C: Optimised Healthcare
-    F: "2017-09-01"
-    R: C
-  - T: "2018-08-01"
-    C: Optimised Healthcare
-    F: "2017-09-01"
-    P: harbor
-    R: C
-  - T: "2018-08-01"
-    C: Optimised Healthcare
-    F: "2017-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Asseco South Eastern
-    F: "2018-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Asseco South Eastern
-    F: "2018-08-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: Asseco South Eastern
-    F: "2018-08-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - M: Nenad Strainovic
-    S: github
-    U: strainovic
-  B: 0
-  U: Nenad Strainovic
-- E: nenad.strainovic!gmail.com
-  R:
-  - T: "2015-05-01"
-    C: FastNet
-    F: "1900-01-01"
-    R: C
-  - T: "2015-05-01"
-    C: FastNet
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2015-05-01"
-    C: FastNet
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2015-05-01"
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2015-05-01"
-    P: harbor
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2015-05-01"
-    P: helm
-    R: C
-  - T: "2018-08-01"
-    C: Optimised Healthcare
-    F: "2017-09-01"
-    R: C
-  - T: "2018-08-01"
-    C: Optimised Healthcare
-    F: "2017-09-01"
-    P: harbor
-    R: C
-  - T: "2018-08-01"
-    C: Optimised Healthcare
-    F: "2017-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Asseco South Eastern
-    F: "2018-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Asseco South Eastern
-    F: "2018-08-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: Asseco South Eastern
-    F: "2018-08-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: nenad.strainovic!gmail.com
-    M: Nenad Strainovic
-    S: git
-  - E: nenad.strainovic!gmail.com
-    M: strainovic
-    S: git
-  B: 0
-  U: Nenad Strainovic
-- R:
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  I:
-  - S: github
-    U: NeoCN
-  B: 0
-  U: NeoCN
-- E: raise-0!163.com
-  R:
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  I:
-  - E: raise-0!163.com
-    M: NeoCN
-    S: git
-  B: 0
-  U: NeoCN
-- C: JP
-  R:
-  - T: "2019-02-01"
-    C: CyberAgent
-    F: "1900-01-01"
-    R: C
-  - T: "2019-02-01"
-    C: CyberAgent
-    F: "1900-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2019-02-01"
-    C: CyberAgent
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2019-02-01"
-    C: CyberAgent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: CyberAgent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - M: Neri Marschik
-    S: github
-    U: codesuki
-  B: 0
-  U: Neri Marschik
-- C: JP
-  E: codesuki!users.noreply.github.com
-  R:
-  - T: "2019-02-01"
-    C: CyberAgent
-    F: "1900-01-01"
-    R: C
-  - T: "2019-02-01"
-    C: CyberAgent
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: CyberAgent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - E: codesuki!users.noreply.github.com
-    M: Neri Marschik
-    S: git
-  B: 0
-  U: Neri Marschik
-- E: nermin.mohamed!huawei.com
-  R:
-  - T: "2018-10-23"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-05-11"
-    R: C
-  - T: "2018-10-23"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-05-11"
-    P: onap
-    R: C
-  I:
-  - M: Nermin Mohamed
-    S: confluence
-    U: mohamedn
-  - E: nermin.mohamed!huawei.com
-    M: Nermin Mohamed
-    S: groupsio
-  - E: nermin.mohamed!huawei.com
-    M: Nermin Mohamed
-    S: pipermail
-  B: 0
-  U: Nermin Mohamed
-- E: Netaji.Surve!amdocs.com
-  R:
-  - T: "2019-07-05"
-    C: Amdocs
-    F: "2017-06-30"
-    R: C
-  - T: "2019-07-05"
-    C: Amdocs
-    F: "2017-06-30"
-    P: onap
-    R: C
-  I:
-  - E: Netaji.Surve!amdocs.com
-    M: Netaji Surve
-    S: gerrit
-    U: Netajisu
-  - E: Netaji.Surve!amdocs.com
-    M: Netajisu
-    S: git
-  - E: Netaji.Surve!amdocs.com
-    M: Netaji Surve
-    S: groupsio
-  - M: Netaji Surve
-    S: jira
-    U: Netajisu
-  - E: Netaji.Surve!amdocs.com
-    M: Netaji Surve
-    S: jira
-    U: Netajisu
-  - E: Netaji.Surve!amdocs.com
-    M: Netaji Surve
-    S: pipermail
-  B: 0
-  U: Netaji Surve
-- E: Sameera.Netala!cavium.com
-  R:
-  - T: "2100-01-01"
-    C: Cavium
-    F: "2017-02-13"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Cavium
-    F: "2017-02-13"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: Sameera.Netala!cavium.com
-    M: Netala, Sameera
-    S: pipermail
-  B: 0
-  U: Netala, Sameera
-- E: netanel!amazon.com
-  R:
-  - T: "2015-01-01"
-    C: Annapurna
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2015-01-01"
-    R: C
-  I:
-  - E: netanel!amazon.com
-    M: Netanel Belgazal
-    S: git
-  B: 0
-  U: Netanel Belgazal
-- E: craig.neth!verizon.com
-  R:
-  - T: "2014-07-12"
-    C: Verizon Communications
-    F: "2014-07-03"
-    P: yocto
-    R: C
-  I:
-  - E: craig.neth!verizon.com
-    M: Neth, Craig Allen
-    S: groupsio
-  - E: craig.neth!verizon.com
-    M: Neth, Craig Allen
-    S: pipermail
-  B: 0
-  U: Neth, Craig Allen
-- E: info!cncf.io
-  R:
-  - T: "2100-01-01"
-    C: (Robots)
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  I:
-  - E: info!cncf.io
-    M: Netlify Publisher
-    S: git
-  B: 0
-  U: Netlify Publisher
-- C: FR
-  E: netmonk!netmonk.org
-  R:
-  - T: "2100-01-01"
-    C: Netmonk
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Netmonk
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: netmonk!netmonk.org
-    M: Netmonk
-    S: git
-  - E: netmonk!netmonk.org
-    M: netmonk
-    S: git
-  - E: netmonk!netmonk.org
-    M: Netmonk
-    S: github
-    U: netmonk
-  B: 0
-  U: Netmonk
-- E: nvong!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: nvong!twitter.com
-    M: Neuman Vong
-    S: git
-  B: 0
-  U: Neuman Vong
-- E: neo.neutron!gmail.com
-  R:
-  - T: "2017-07-01"
-    C: Debian
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Cenergy Innovation
-    F: "2017-07-01"
-    P: argo
-    R: C
-  I:
-  - E: neo.neutron!gmail.com
-    M: Neutron Soutmun
-    S: git
-  - E: neo.neutron!gmail.com
-    M: Neutron Soutmun
-    S: github
-    U: neutronth
-  B: 0
-  U: Neutron Soutmun
-- E: nevenc!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-08-26"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: nevenc!pivotal.io
-    M: Neven Cvetkovic
-    S: slack
-    U: nevenc
-  B: 0
-  U: Neven Cvetkovic

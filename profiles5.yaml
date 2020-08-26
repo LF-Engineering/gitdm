@@ -1,4 +1,158 @@
 P:
+- C: US
+  E: cab!skippbox.com
+  R:
+  - T: "2019-09-01"
+    C: CABNetworks
+    F: "1900-01-01"
+    R: C
+  - T: "2019-09-01"
+    C: CABNetworks
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CABNetworks
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: TriggerMesh
+    F: "2019-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: TriggerMesh
+    F: "2019-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: cab!skippbox.com
+    M: Chris Baumbauer
+    S: git
+  - E: cab!skippbox.com
+    M: Christopher A. Baumbauer
+    S: git
+  B: 0
+  U: Christopher A. Baumbauer
+- C: NG
+  R:
+  - T: "2017-11-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    R: C
+  - T: "2017-11-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2017-11-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2017-11-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-01-01"
+    C: Independent
+    F: "2017-11-01"
+    R: C
+  - T: "2018-01-01"
+    C: Independent
+    F: "2017-11-01"
+    P: argo
+    R: C
+  - T: "2018-01-01"
+    C: Independent
+    F: "2017-11-01"
+    P: fluxcd
+    R: C
+  - T: "2018-01-01"
+    C: Independent
+    F: "2017-11-01"
+    P: k8s
+    R: C
+  - T: "2019-06-01"
+    C: Cloudssky
+    F: "2018-01-01"
+    R: C
+  - T: "2019-06-01"
+    C: Cloudssky
+    F: "2018-01-01"
+    P: argo
+    R: C
+  - T: "2019-06-01"
+    C: Cloudssky
+    F: "2018-01-01"
+    P: fluxcd
+    R: C
+  - T: "2019-06-01"
+    C: Cloudssky
+    F: "2018-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Loodse
+    F: "2019-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Loodse
+    F: "2019-06-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Loodse
+    F: "2019-06-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Loodse
+    F: "2019-06-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Christopher Adigun
+    S: github
+    U: infinitydon
+  B: 0
+  U: Christopher Adigun
+- C: GB
+  E: christopher.batey!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: chbatey
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: chbatey
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: chbatey
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-03-02"
+    C: chbatey
+    F: "2016-02-29"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: christopher.batey!gmail.com
+    M: Christopher Batey
+    S: git
+  - E: christopher.batey!gmail.com
+    M: Christopher Batey
+    S: github
+    U: chbatey
+  B: 0
+  U: Christopher Batey
 - E: bennage!microsoft.com
   R:
   - T: "2100-01-01"
@@ -6864,6 +7018,23 @@ P:
     S: git
   B: 0
   U: Clark Boylan
+- E: song.lin!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericssons
+    F: "2020-03-31"
+    P: odl
+    R: C
+  I:
+  - E: song.lin!ericsson.com
+    M: Clark Lin
+    S: groupsio
+  - E: song.lin!ericsson.com
+    M: Clark Lin
+    S: jira
+    U: clark-lin
+  B: 0
+  U: Clark Lin
 - E: clark.rawlins!escient.com
   R:
   - T: "2100-01-01"
@@ -32650,6 +32821,11 @@ P:
     F: "1985-01-01"
     P: onap
     R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2020-01-15"
+    P: odl
+    R: C
   I:
   - M: Dan Timoney
     S: confluence
@@ -34259,6 +34435,29 @@ P:
     S: git
   B: 0
   U: Dani Comnea
+- E: daniocampo1992!hotmail.com
+  R:
+  - T: "2013-10-01"
+    C: Ericssons
+    F: "2011-01-01"
+    P: odl
+    R: C
+  - T: "2015-03-01"
+    C: Cisco Systems Inc.
+    F: "2013-11-01"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2015-03-01"
+    P: odl
+    R: C
+  I:
+  - E: daniocampo1992!hotmail.com
+    M: Dani Ocampo
+    S: groupsio
+  B: 0
+  U: Dani Ocampo
 - E: ddelarosa!luminanetworks.com
   R:
   - T: "2100-01-01"
@@ -62399,41 +62598,3 @@ P:
     U: dkimura
   B: 0
   U: David Kimura
-- C: US
-  E: david.b.kinder!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2016-06-16"
-    P: zep
-    R: C
-  - T: "2018-06-09"
-    C: Intel Corporation
-    F: "2018-05-15"
-    P: akraino
-    R: C
-  S: male
-  I:
-  - M: David Kinder
-    S: confluence
-    U: dkinder
-  - E: david.b.kinder!intel.com
-    M: David Kinder
-    S: confluence
-    U: dkinder
-  - E: david.b.kinder!intel.com
-    M: David B. Kinder
-    S: git
-  - E: david.b.kinder!intel.com
-    M: David Kinder
-    S: git
-  - E: david.b.kinder!intel.com
-    M: David Kinder
-    S: github
-    U: dbkinder
-  - E: david.b.kinder!intel.com
-    M: David Kinder
-    S: slack
-    U: david.b.kinder
-  B: 0
-  U: David Kinder

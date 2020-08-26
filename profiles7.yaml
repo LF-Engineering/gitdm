@@ -1,4 +1,421 @@
 P:
+- C: US
+  E: erez!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: erez!google.com
+    M: Erez Louidor
+    S: git
+  B: 0
+  U: Erez Louidor
+- C: US
+  E: erzel!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: erzel!users.noreply.github.com
+    M: Erez Louidor
+    S: git
+  B: 0
+  U: Erez Louidor
+- E: erezsh!mellanox.com
+  R:
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: erezsh!mellanox.com
+    M: Erez Shitrit
+    S: git
+  B: 0
+  U: Erez Shitrit
+- E: erezz!voltaire.com
+  R:
+  - T: "2100-01-01"
+    C: Voltaire
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: erezz!voltaire.com
+    M: Erez Zilber
+    S: git
+  B: 0
+  U: Erez Zilber
+- C: US
+  E: erbesharat!gmail.com
+  R:
+  - T: "2017-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-10-01"
+    C: HotelSys
+    F: "2017-06-01"
+    R: C
+  - T: "2017-10-01"
+    C: HotelSys
+    F: "2017-06-01"
+    P: coredns
+    R: C
+  - T: "2017-10-01"
+    C: HotelSys
+    F: "2017-06-01"
+    P: prometheus
+    R: C
+  - T: "2018-09-01"
+    C: FullFekr
+    F: "2017-10-01"
+    R: C
+  - T: "2018-09-01"
+    C: FullFekr
+    F: "2017-10-01"
+    P: coredns
+    R: C
+  - T: "2018-09-01"
+    C: FullFekr
+    F: "2017-10-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Okkur
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Okkur
+    F: "2018-09-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Okkur
+    F: "2018-09-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: erbesharat!gmail.com
+    M: Erfan Besharat
+    S: git
+  - E: erbesharat!gmail.com
+    M: Erfan Besharat
+    S: github
+    U: erbesharat
+  B: 0
+  U: Erfan Besharat
+- C: CA
+  R:
+  - T: "2017-06-15"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2017-06-15"
+    C: Pivotal
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-06-15"
+    C: Pivotal
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-06-15"
+    C: Pivotal
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "2017-06-15"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "2017-06-15"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "2017-06-15"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "2017-06-15"
+    P: thanos
+    R: C
+  I:
+  - M: Ergin Babani
+    S: git
+  - E: ebabani!pivotal.io
+    M: Ergin Babani
+    S: git
+  - E: ebabani!users.noreply.github.com
+    M: Ergin Babani
+    S: git
+  - E: ergin!pivotal.io
+    M: Ergin Babani
+    S: git
+  - E: pair+ebabani!pivotal.io
+    M: Ergin Babani
+    S: git
+  - E: pair+ergin!pivotal.io
+    M: Ergin Babani
+    S: git
+  - M: Ergin Babani
+    S: github
+    U: ebabani
+  - M: Ergin Babani
+    S: meetup
+    U: "107418392"
+  - E: ebabani!gmail.com
+    M: ebabani
+    S: slack
+    U: ebabani
+  - E: ebabani!pivotal.io
+    M: ergin
+    S: slack
+    U: ergin
+  B: 0
+  U: Ergin Babani
+- C: CA
+  E: ebabani!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ebabani!gmail.com
+    M: Ergin Babani
+    S: git
+  B: 0
+  U: Ergin Babani
+- C: CA
+  E: ergin!autonomic.ai
+  R:
+  - T: "2017-06-15"
+    C: Pivotal
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-15"
+    C: Pivotal
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "2017-06-15"
+    R: C
+  - T: "2100-01-01"
+    C: Autonomic
+    F: "2017-06-15"
+    P: k8s
+    R: C
+  I:
+  - E: ergin!autonomic.ai
+    M: Ergin Babani
+    S: git
+  B: 0
+  U: Ergin Babani
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  S: male
+  I:
+  - M: Eric Anderson
+    S: github
+    U: aroc
+  B: 0
+  U: Eric Anderson
+- E: ejona86!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - E: ejona86!gmail.com
+    M: Eric Anderson
+    S: git
+  B: 0
+  U: Eric Anderson
+- E: eric!ericanderson.ca
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  S: male
+  I:
+  - E: eric!ericanderson.ca
+    M: Eric Anderson
+    S: git
+  B: 0
+  U: Eric Anderson
+- C: US
+  E: eric!anholt.net
+  R:
+  - T: "2014-05-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2014-05-01"
+    R: C
+  S: male
+  I:
+  - E: eric!anholt.net
+    M: Eric Anholt
+    S: git
+  B: 0
+  U: Eric Anholt
+- E: KaChun.Au!amdocs.com
+  R:
+  - T: "2018-04-05"
+    C: Amdocs
+    F: "2017-06-06"
+    R: C
+  - T: "2018-04-05"
+    C: Amdocs
+    F: "2017-06-06"
+    P: onap
+    R: C
+  I:
+  - E: KaChun.Au!amdocs.com
+    M: Eric Au
+    S: gerrit
+    U: kceau
+  - E: kachun.au!amdocs.com
+    M: Eric Au
+    S: gerrit
+  - E: kachun.au!amdocs.com
+    M: Eric Au
+    S: gerrit
+  - E: kachun.au!amdocs.com
+    M: Eric Au
+    S: git
+  - E: KaChun.Au!amdocs.com
+    M: Eric Au
+    S: groupsio
+  - M: Eric Au
+    S: jira
+    U: kceau
+  - E: KaChun.Au!amdocs.com
+    M: Eric Au
+    S: jira
+    U: kceau
+  - E: KaChun.Au!amdocs.com
+    M: Eric Au
+    S: pipermail
+  B: 0
+  U: Eric Au
+- E: eric.auger!linaro.org
+  R:
+  - T: "2016-02-20"
+    C: Linaro Limited
+    F: "2014-10-31"
+    P: zep
+    R: C
+  I:
+  - E: eric.auger!linaro.org
+    M: Eric Auger
+    S: git
+  B: 0
+  U: Eric Auger
+- E: eric.auger!redhat.com
+  R:
+  - T: "2017-04-01"
+    C: Red Hat Inc.
+    F: "2016-10-04"
+    P: zep
+    R: C
+  I:
+  - E: eric.auger!redhat.com
+    M: Eric Auger
+    S: git
+  B: 0
+  U: Eric Auger
+- E: emunson!akamai.com
+  R:
+  - T: "2100-01-01"
+    C: Akamai Technologies, Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: emunson!akamai.com
+    M: Eric B Munson
+    S: git
+  B: 0
+  U: Eric B Munson
 - R:
   - T: "2014-05-01"
     C: Independent
@@ -22276,6 +22693,9 @@ P:
   - E: k.faseela!gmail.com
     M: Faseela K
     S: groupsio
+  - M: Faseela K
+    S: jira
+    U: k.faseela
   - E: k.faseela!gmail.com
     M: Faseela K
     S: jira
@@ -50457,6 +50877,9 @@ P:
   - E: gautam.chennai!gmail.com
     M: gautvenk
     S: git
+  - M: Gautvenk
+    S: mediawiki
+    U: Gautvenk
   B: 0
   U: Gautam Venkataramanan
 - C: "NO"
@@ -61792,479 +62215,3 @@ P:
     U: nemo83
   B: 0
   U: Giovanni Gargiulo
-- E: giovanni.liva!dynatrace.com
-  R:
-  - T: "2100-01-01"
-    C: Dynatrace
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Dynatrace
-    F: "1900-01-01"
-    P: opentelemetry
-    R: C
-  I:
-  - E: giovanni.liva!dynatrace.com
-    M: Giovanni Liva
-    S: git
-  - E: giovanni.liva!dynatrace.com
-    M: Giovanni Liva
-    S: github
-    U: thisthat
-  B: 0
-  U: Giovanni Liva
-- E: giovanni.liva.91!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Dynatrace
-    F: "1900-01-01"
-    P: opentelemetry
-    R: C
-  I:
-  - E: giovanni.liva.91!gmail.com
-    M: Giovanni Liva
-    S: git
-  B: 0
-  U: Giovanni Liva
-- C: IT
-  E: giovanni.lovato!axians.it
-  R:
-  - T: "2006-07-01"
-    C: Giovanni Lovato
-    F: "2006-04-01"
-    P: fdio
-    R: C
-  - T: "2007-07-01"
-    C: Infracom Italia S.p.A
-    F: "2007-05-01"
-    P: fdio
-    R: C
-  - T: "2008-09-01"
-    C: EDALAB S.r.l
-    F: "2008-02-01"
-    P: fdio
-    R: C
-  - T: "2016-06-01"
-    C: Technogel
-    F: "2011-01-01"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Axians Italia Information Technology & Services
-    F: "2012-03-01"
-    P: fdio
-    R: C
-  S: male
-  I:
-  - E: giovanni.lovato!axians.it
-    M: Giovanni Lovato
-    S: gerrit
-    U: heruan
-  - E: heruan!aldu.net
-    M: Giovanni Lovato
-    S: jira
-    U: heruan
-  B: 0
-  U: Giovanni Lovato
-- E: gmeo!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1998-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2013-03-22"
-    P: odl
-    R: C
-  I:
-  - E: g_meo!hotmail.com
-    M: Giovanni Meo
-    S: gerrit
-    U: g_meo
-  - E: gmeo!cisco.com
-    M: Giovanni Meo
-    S: gerrit
-    U: gmeo
-  - E: gmeo!cisco.com
-    M: Giovanni Meo
-    S: git
-  - E: giovannimeo!gmail.com
-    M: Giovanni Meo
-    S: groupsio
-  - E: gmeo!cisco.com
-    M: Giovanni Meo
-    S: groupsio
-  - E: gmeo!cisco.com
-    M: Giovanni Meo
-    S: jira
-    U: gmeo
-  - E: giovannimeo!gmail.com
-    M: Giovanni Meo
-    S: pipermail
-  - E: gmeo!cisco.com
-    M: Giovanni Meo
-    S: pipermail
-  B: 0
-  U: Giovanni Meo
-- C: IT
-  E: giovannipaolo.gibilisco!polimi.it
-  R:
-  - T: "2016-02-01"
-    C: politecnico di milano
-    F: "2012-12-01"
-    R: C
-  - T: "2018-10-01"
-    C: AKAMAS
-    F: "2016-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: AKAMAS
-    F: "2018-10-01"
-    R: C
-  S: male
-  I:
-  - E: giovannipaolo.gibilisco!polimi.it
-    M: Giovanni Paolo Gibilisco
-    S: github
-    U: GiovanniPaoloGibilisco
-  B: 0
-  U: Giovanni Paolo Gibilisco
-- C: BR
-  R:
-  - T: "2015-03-15"
-    C: Mars
-    F: "1900-01-01"
-    R: C
-  - T: "2015-03-15"
-    C: Mars
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2015-03-15"
-    C: Mars
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-03-15"
-    C: Mars
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2015-03-15"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2015-03-15"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2015-03-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2015-03-15"
-    P: rkt
-    R: C
-  S: male
-  I:
-  - M: Giovanni Tirloni
-    S: github
-    U: gtirloni
-  B: 0
-  U: Giovanni Tirloni
-- C: BR
-  E: giovanni.tirloni!gmail.com
-  R:
-  - T: "2015-03-15"
-    C: Mars
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2015-03-15"
-    C: Mars
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2015-03-15"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2015-03-15"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: giovanni.tirloni!gmail.com
-    M: Giovanni Tirloni
-    S: git
-  B: 0
-  U: Giovanni Tirloni
-- E: guillaume.girard!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-07-11"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-07-11"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: guillaume.girard!intel.com
-    M: Girard, Guillaume
-    S: pipermail
-  B: 0
-  U: Girard, Guillaume
-- C: IN
-  E: gpunathi!in.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-09-12"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: gpunathi!in.ibm.com
-    M: Gireesh Punathil
-    S: git
-  - E: gpunathi!in.ibm.com
-    M: Gireesh Punathil
-    S: github
-    U: gireeshpunathil
-  B: 0
-  U: Gireesh Punathil
-- R:
-  - T: "2016-11-01"
-    C: AugmentIQ
-    F: "1900-01-01"
-    R: C
-  - T: "2016-11-01"
-    C: AugmentIQ
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: LTI - Larsen & Toubro Infotech
-    F: "2016-11-01"
-    R: C
-  - T: "2100-01-01"
-    C: LTI - Larsen & Toubro Infotech
-    F: "2016-11-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Gireesh Puthumana
-    S: github
-    U: gireeshp
-  B: 0
-  U: Gireesh Puthumana
-- C: ID
-  R:
-  - T: "2018-04-09"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-04-09"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2018-04-09"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-04-09"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-04-09"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-04-09"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Giri Kuncoro
-    S: github
-    U: girikuncoro
-  B: 0
-  U: Giri Kuncoro
-- C: ID
-  E: girikuncoro!gmail.com
-  R:
-  - T: "2018-04-09"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-04-09"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2018-04-09"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-04-09"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-04-09"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-04-09"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: girikuncoro!gmail.com
-    M: Giri Kuncoro
-    S: git
-  - E: girikuncoro!gmail.com
-    M: Giri Kuncoro
-    S: slack
-    U: giri
-  B: 0
-  U: Giri Kuncoro
-- C: US
-  E: girikuncoro!users.noreply.github.com
-  R:
-  - T: "2018-04-09"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2018-04-09"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-04-09"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Gojek
-    F: "2018-04-09"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: girikuncoro!users.noreply.github.com
-    M: Giri Kuncoro
-    S: git
-  B: 0
-  U: Giri Kuncoro
-- E: gkuncoro!vmware.com
-  R:
-  - T: "2017-06-03"
-    C: VMware, Inc.
-    F: "2017-06-01"
-    P: baetyl
-    R: C
-  I:
-  - E: gkuncoro!vmware.com
-    M: Giri Kuncoro
-    S: git
-  B: 0
-  U: Giri Kuncoro
-- E: giridhara.prasad!cloudbyte.com
-  R:
-  - T: "2100-01-01"
-    C: MayaData-IO
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: giridhara.prasad!cloudbyte.com
-    M: Giri Prasath
-    S: git
-  B: 0
-  U: Giri Prasath
-- E: gjayavelu!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2018-03-15"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2018-03-15"
-    P: onap
-    R: C
-  I:
-  - E: gjayavelu!vmware.com
-    M: Giridhar Jayavelu
-    S: groupsio
-  - E: gjayavelu!vmware.com
-    M: Giridhar Jayavelu
-    S: pipermail
-  B: 0
-  U: Giridhar Jayavelu
-- E: giridhar.malavali!cavium.com
-  R:
-  - T: "2100-01-01"
-    C: Cavium
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: giridhar.malavali!cavium.com
-    M: Giridhar Malavali
-    S: git
-  B: 0
-  U: Giridhar Malavali
-- E: gmalavali!marvell.com
-  R:
-  - T: "2100-01-01"
-    C: Marvell
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: gmalavali!marvell.com
-    M: Giridhar Malavali
-    S: git
-  B: 0
-  U: Giridhar Malavali
