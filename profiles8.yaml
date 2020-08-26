@@ -4799,13 +4799,12 @@ P:
   R:
   - T: "2100-01-01"
     C: PegaSys Protocol Engineering
-    F: "2015-12-31"
-    P: besu
+    F: "2015-12-30"
     R: C
   - T: "2100-01-01"
     C: PegaSys Protocol Engineering
     F: "2015-12-31"
-    P: hyperledger/hyperledger-all
+    P: besu
     R: C
   - T: "2100-01-01"
     C: PegaSys Protocol Engineering
@@ -4826,6 +4825,8 @@ P:
   - E: grace.hartley!consensys.net
     M: grace.hartley
     S: groupsio
+  - S: rocketchat
+    U: grace.hartley
   B: 0
   U: Grace Hartley
 - E: grace.pan!analog.com
@@ -57094,29 +57095,17 @@ P:
     S: git
   B: 0
   U: Igor Druzhinin
-- R:
+- E: igordcard!gmail.com
+  R:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1901-01-01"
     P: akraino
     R: C
-  I:
-  - M: Igor Duarte Cardoso
-    S: jira
-    U: igordcard
-  B: 0
-  U: Igor Duarte Cardoso
-- E: igordcard!gmail.com
-  R:
   - T: "2015-04-17"
     C: Intel Corporation
     F: "2015-04-07"
     P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-09-01"
-    P: akraino
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -57139,6 +57128,9 @@ P:
     M: Igor Duarte Cardoso
     S: confluence
     U: igordcard
+  - M: Igor Duarte Cardoso
+    S: gerrit
+    U: igordcard
   - E: igor.duarte.cardoso!intel.com
     M: Igor Duarte Cardoso
     S: gerrit
@@ -57153,6 +57145,9 @@ P:
   - E: igordcard!gmail.com
     M: Igor DC
     S: git
+  - M: Igor Duarte Cardoso
+    S: jira
+    U: igordcard
   - E: igordcard!gmail.com
     M: Igor Duarte Cardoso
     S: jira
