@@ -1,4 +1,175 @@
 P:
+- C: US
+  R:
+  - T: "2014-03-01"
+    C: PeerFit
+    F: "1900-01-01"
+    R: C
+  - T: "2014-03-01"
+    C: PeerFit
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2014-03-01"
+    C: PeerFit
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-03-01"
+    C: PeerFit
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-12-01"
+    C: SumTotal
+    F: "2014-03-01"
+    R: C
+  - T: "2014-12-01"
+    C: SumTotal
+    F: "2014-03-01"
+    P: cncf
+    R: C
+  - T: "2014-12-01"
+    C: SumTotal
+    F: "2014-03-01"
+    P: helm
+    R: C
+  - T: "2014-12-01"
+    C: SumTotal
+    F: "2014-03-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: Egen
+    F: "2014-12-01"
+    R: C
+  - T: "2018-08-01"
+    C: Egen
+    F: "2014-12-01"
+    P: cncf
+    R: C
+  - T: "2018-08-01"
+    C: Egen
+    F: "2014-12-01"
+    P: helm
+    R: C
+  - T: "2018-08-01"
+    C: Egen
+    F: "2014-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Here
+    F: "2018-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Here
+    F: "2018-08-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Here
+    F: "2018-08-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Here
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Sanket Patel
+    S: github
+    U: sanketjpatel
+  B: 0
+  U: Sanket Patel
+- C: US
+  E: sanketjpatel!users.noreply.github.com
+  R:
+  - T: "2014-03-01"
+    C: PeerFit
+    F: "1900-01-01"
+    R: C
+  - T: "2014-03-01"
+    C: PeerFit
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2014-03-01"
+    C: PeerFit
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-03-01"
+    C: PeerFit
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-12-01"
+    C: SumTotal
+    F: "2014-03-01"
+    R: C
+  - T: "2014-12-01"
+    C: SumTotal
+    F: "2014-03-01"
+    P: cncf
+    R: C
+  - T: "2014-12-01"
+    C: SumTotal
+    F: "2014-03-01"
+    P: helm
+    R: C
+  - T: "2014-12-01"
+    C: SumTotal
+    F: "2014-03-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: Egen
+    F: "2014-12-01"
+    R: C
+  - T: "2018-08-01"
+    C: Egen
+    F: "2014-12-01"
+    P: cncf
+    R: C
+  - T: "2018-08-01"
+    C: Egen
+    F: "2014-12-01"
+    P: helm
+    R: C
+  - T: "2018-08-01"
+    C: Egen
+    F: "2014-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Here
+    F: "2018-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Here
+    F: "2018-08-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Here
+    F: "2018-08-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Here
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: sanketjpatel!users.noreply.github.com
+    M: Sanket Patel
+    S: git
+  B: 0
+  U: Sanket Patel
 - R:
   - T: "2015-07-01"
     C: Independent
@@ -10750,6 +10921,17 @@ P:
     U: sdpeters
   B: 0
   U: Scott Peterson
+- R:
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    R: C
+  I:
+  - E: 30843220+pscott!users.noreply.github.com
+    M: pscott
+    S: git
+  B: 0
+  U: Scott Piriou
 - E: srifenbark!gmail.com
   R:
   - T: "2015-07-01"
@@ -41948,6 +42130,7 @@ P:
   B: 0
   U: Shubham Jain
 - C: IN
+  E: shubham.koli!outlook.in
   R:
   - T: "2100-01-01"
     C: Independent
@@ -41960,17 +42143,26 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
+    C: Undisclosed
+    F: "2016-12-11"
+    R: C
+  - T: "2100-01-01"
     C: Independent
     F: "2019-11-27"
     P: fabric
     R: C
   S: male
   I:
+  - E: 37935825+Shubham-koli!users.noreply.github.com
+    M: Shubham Koli (FaultyCarry)
+    S: git
   - M: Shubham Koli (FaultyCarry)
     S: github
     U: Shubham-koli
+  - S: rocketchat
+    U: Shubham-koli
   B: 0
-  U: Shubham Koli (FaultyCarry)
+  U: Shubham Koli
 - E: skjha832!gmail.com
   R:
   - T: "2099-12-31"
@@ -60927,139 +61119,3 @@ P:
     S: git
   B: 0
   U: Sridhar Samudrala
-- E: sriduth.jayhari!gmail.com
-  R:
-  - T: "2015-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2015-12-01"
-    C: Abyeti
-    F: "2015-01-01"
-    R: C
-  - T: "2015-12-01"
-    C: Abyeti
-    F: "2015-01-01"
-    P: envoy
-    R: C
-  - T: "2015-12-01"
-    C: Abyeti
-    F: "2015-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "2015-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "2015-12-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "2015-12-01"
-    P: fluentd
-    R: C
-  S: male
-  I:
-  - E: sriduth.jayhari!gmail.com
-    M: Sriduth Jayhari
-    S: git
-  - E: sriduth.jayhari!gmail.com
-    M: Sriduth Jayhari
-    S: github
-    U: sriduth
-  B: 0
-  U: Sriduth Jayhari
-- E: srihmano!cisco.com
-  R:
-  - T: "2015-11-20"
-    C: Cisco Systems Inc.
-    F: "2015-07-22"
-    P: odl
-    R: C
-  I:
-  - E: srihmano!cisco.com
-    M: Srihari Manoharan srihmano
-    S: pipermail
-  B: 0
-  U: Srihari Manoharan srihmano
-- E: srihari!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2016-04-01"
-    P: odl
-    R: C
-  I:
-  - E: srihari!cisco.com
-    M: Srihari Raghavan
-    S: gerrit
-    U: sriharirag
-  - E: srihari!cisco.com
-    M: Srihari Raghavan
-    S: git
-  B: 0
-  U: Srihari Raghavan
-- E: sriharsha.basavapatna!broadcom.com
-  R:
-  - T: "2019-06-22"
-    C: Broadcom Corporation
-    F: "2019-05-15"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "2019-05-15"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "2019-05-15"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: sriharsha.basavapatna!broadcom.com
-    M: Sriharsha Basavapatna
-    S: git
-  - E: sriharsha.basavapatna!broadcom.com
-    M: Sriharsha Basavapatna
-    S: pipermail
-  B: 0
-  U: Sriharsha Basavapatna
-- E: srijit_nair!persistent.co.in
-  R:
-  - T: "2100-01-01"
-    C: Persistent Systems
-    F: "2014-10-16"
-    P: odl
-    R: C
-  I:
-  - E: srijit_nair!persistent.co.in
-    M: Srijit Nair
-    S: pipermail
-  B: 0
-  U: Srijit Nair
-- E: s.ritolia!samsung.com
-  R:
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: s.ritolia!samsung.com
-    M: Srikant Ritolia
-    S: git
-  B: 0
-  U: Srikant Ritolia
