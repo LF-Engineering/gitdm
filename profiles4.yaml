@@ -1,4 +1,697 @@
 P:
+- E: bp!suse.de
+  R:
+  - T: "2015-03-11"
+    C: SUSE LLC
+    F: "2013-04-25"
+    P: zep
+    R: C
+  - T: "2017-06-19"
+    C: SUSE LLC
+    F: "2016-11-12"
+    P: opnfv
+    R: C
+  I:
+  - E: bp!suse.de
+    M: Borislav Petkov
+    S: gerrit
+  - E: bp!suse.de
+    M: Borislav Petkov
+    S: gerrit
+  - E: bp!suse.de
+    M: Borislav Petkov
+    S: git
+  B: 0
+  U: Borislav Petkov
+- E: bpetkov!suse.de
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: bpetkov!suse.de
+    M: Borislav Petkov
+    S: git
+  B: 0
+  U: Borislav Petkov
+- C: ES
+  E: farandac!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-05-12"
+    C: Red Hat Inc.
+    F: "2018-02-08"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: farandac!redhat.com
+    M: Borja Aranda
+    S: git
+  B: 0
+  U: Borja Aranda
+- E: david.borman!windriver.com
+  R:
+  - T: "2011-02-25"
+    C: Wind River Systems, Inc.
+    F: "2011-01-01"
+    P: yocto
+    R: C
+  I:
+  - E: david.borman!windriver.com
+    M: David Borman
+    S: git
+  - E: david.borman!windriver.com
+    M: Borman, David
+    S: groupsio
+  - E: david.borman!windriver.com
+    M: Borman, David
+    S: pipermail
+  B: 0
+  U: Borman, David
+- E: ebornier!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2017-09-18"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ebornier!pivotal.io
+    M: Bornier Erwan
+    S: slack
+    U: ebornier
+  B: 0
+  U: Bornier Erwan
+- C: BE
+  E: bart!intux.be
+  R:
+  - T: "2100-01-01"
+    C: Intux
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intux
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Intux
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: bart!intux.be
+    M: Bort Verwilst
+    S: git
+  B: 0
+  U: Bort Verwilst
+- C: BE
+  E: bart!verwilst.be
+  R:
+  - T: "2100-01-01"
+    C: Intux
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intux
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Intux
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: bart!verwilst.be
+    M: Bart Verwilst
+    S: git
+  - E: bart!verwilst.be
+    M: Bort Verwilst
+    S: git
+  - E: bart!verwilst.be
+    M: Bort Verwilst
+    S: github
+    U: verwilst
+  B: 0
+  U: Bort Verwilst
+- R:
+  - T: "2100-01-01"
+    C: OWOX
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: Borys Borysenko
+    S: github
+    U: bborysenko
+  B: 0
+  U: Borys Borysenko
+- E: borys.borysenko!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: OWOX
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: borys.borysenko!gmail.com
+    M: Borys Borysenko
+    S: git
+  B: 0
+  U: Borys Borysenko
+- E: borys!pierov.com
+  R:
+  - T: "2014-08-01"
+    C: WebRiders
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: WebRiders
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2014-09-15"
+    C: WebRiders
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2014-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2014-08-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: NCBI
+    F: "2014-09-15"
+    R: C
+  S: male
+  I:
+  - E: borys!pierov.com
+    M: Borys Pierov
+    S: git
+  B: 0
+  U: Borys Pierov
+- E: github!ashald.net
+  R:
+  - T: "2014-08-01"
+    C: WebRiders
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: WebRiders
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2014-09-15"
+    C: WebRiders
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2014-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2014-08-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: NCBI
+    F: "2014-09-15"
+    R: C
+  S: male
+  I:
+  - E: github!ashald.net
+    M: Borys Pierov
+    S: git
+  B: 0
+  U: Borys Pierov
+- E: xashald!gmail.com
+  R:
+  - T: "2014-08-01"
+    C: WebRiders
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: WebRiders
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2014-09-15"
+    C: WebRiders
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2014-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2014-08-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: NCBI
+    F: "2014-09-15"
+    R: C
+  S: male
+  I:
+  - E: xashald!gmail.com
+    M: Borys Pierov
+    S: git
+  B: 0
+  U: Borys Pierov
+- C: DE
+  R:
+  - T: "2100-01-01"
+    C: Bosch
+    F: "2018-09-05"
+    P: zep
+    R: C
+  I:
+  - M: Bosch Sensortec
+    S: github
+    U: BoschSensortec
+  B: 0
+  U: Bosch Sensortec
+- C: DE
+  E: github!bosch-sensortec.com
+  R:
+  - T: "2019-06-01"
+    C: Bosch
+    F: "2018-09-05"
+    P: zep
+    R: C
+  I:
+  - E: github!bosch-sensortec.com
+    M: Bosch Sensortec
+    S: git
+  B: 0
+  U: Bosch Sensortec
+- E: Bose_Perumal!Dell.com
+  R:
+  - T: "2100-01-01"
+    C: Dell
+    F: "2015-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Dell
+    F: "2015-10-01"
+    P: opnfv
+    R: C
+  I:
+  - E: Bose_Perumal!Dell.com
+    M: Bose_Perumal
+    S: gmane
+  - E: Bose_Perumal!Dell.com
+    M: Bose_Perumal
+    S: groupsio
+  - E: Bose_Perumal!Dell.com
+    M: Bose_Perumal
+    S: linux-foundation:mls
+    U: Bose_Perumal
+  - E: Bose_Perumal!Dell.com
+    M: Bose_Perumal
+    S: mbox
+  - E: Bose_Perumal!Dell.com
+    M: Bose_Perumal
+    S: pipermail
+  B: 0
+  U: Bose_Perumal
+- C: CN
+  E: bolian!microsoft.com
+  R:
+  - T: "2013-02-01"
+    C: Tabao Marketplace
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Alibaba
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-11-01"
+    C: AliCloud
+    F: "2013-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2015-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2015-11-01"
+    R: C
+  S: male
+  I:
+  - E: bolian!microsoft.com
+    M: Boshi Lian
+    S: git
+  B: 0
+  U: Boshi Lian
+- C: CN
+  E: farmer1992!gmail.com
+  R:
+  - T: "2013-02-01"
+    C: Tabao Marketplace
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Alibaba
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-11-01"
+    C: AliCloud
+    F: "2013-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2015-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2015-11-01"
+    R: C
+  S: male
+  I:
+  - E: farmer1992!gmail.com
+    M: Boshi Lian
+    S: git
+  - E: farmer1992!gmail.com
+    M: Boshi Lian
+    S: github
+    U: tg123
+  B: 0
+  U: Boshi Lian
+- E: wangboshi!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: wangboshi!huawei.com
+    M: Boshi Wang
+    S: git
+  B: 0
+  U: Boshi Wang
+- C: US
+  E: bsavla!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: bsavla!vmware.com
+    M: Boskey Savla
+    S: git
+  - E: bsavla!vmware.com
+    M: Boskey Savla
+    S: github
+    U: Boskey
+  B: 0
+  U: Boskey Savla
+- C: US
+  E: bsavla!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-04-23"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: bsavla!vmware.com
+    M: Boskey
+    S: slack
+    U: bsavla
+  B: 0
+  U: Boskey
+- R:
+  - T: "2100-01-01"
+    C: Soramitsu
+    F: "2016-12-31"
+    P: iroha
+    R: C
+  I:
+  - M: Bot Soramitsu
+    S: jira
+    U: bot_soramitsu
+  B: 1
+  U: Bot Soramitsu
+- E: erik.boto!pelagicore.com
+  R:
+  - T: "2100-01-01"
+    C: Pelagicore AB
+    F: "2009-01-01"
+    P: yocto
+    R: C
+  - T: "2011-01-15"
+    C: Pelagicore AB
+    F: "2011-01-10"
+    P: zep
+    R: C
+  I:
+  - E: erik.boto!gmail.com
+    S: bugzilla
+    U: erik.boto
+  - M: Erik Boto
+    S: bugzilla
+    U: erik.boto
+  - E: erik.boto!gmail.com
+    M: Erik Botö
+    S: bugzilla
+    U: erik.boto
+  - E: erik.boto at pelagicore.com
+    M: Erik Boto
+    S: git
+  - E: erik.boto!gmail.com
+    M: Erik Boto
+    S: git
+  - E: erik.boto!pelagicore.com
+    M: Erik Botö
+    S: git
+  - E: erik.boto!pelagicore.com
+    M: Boto, Erik (Pelagicore)
+    S: groupsio
+  - E: erik.boto!gmail.com
+    M: Erik Botö
+    S: groupsio
+  - E: erik.boto!gmail.com
+    M: Erik Botö
+    S: groupsio
+  - E: erik.boto!pelagicore.com
+    M: Erik Botö
+    S: groupsio
+  - E: erik.boto!pelagicore.com
+    M: Boto, Erik Pelagicore
+    S: pipermail
+  - E: erik.boto!gmail.com
+    M: Erik Boto
+    S: pipermail
+  - E: erik.boto!pelagicore.com
+    M: Erik Botö
+    S: pipermail
+  B: 0
+  U: Boto, Erik Pelagicore
+- E: botond.borbely!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2019-06-18"
+    P: akraino
+    R: C
+  I:
+  - E: botond.borbely!nokia.com
+    M: Botond Borbély
+    S: gerrit
+    U: BBzzz
+  B: 0
+  U: Botond Borbély
+- E: n.boubakr!outlook.com
+  R:
+  - T: "2100-01-01"
+    C: Beijing Institute of Technology
+    F: "2016-09-01"
+    P: fdio
+    R: C
+  I:
+  - E: n.boubakr!outlook.com
+    M: Boubakr Nour
+    S: groupsio
+  - E: n.boubakr!outlook.com
+    M: n.boubakr
+    S: groupsio
+  B: 0
+  U: Boubakr Nour
+- C: CA
+  R:
+  - T: "2100-01-01"
+    C: Shopify
+    F: "1900-01-01"
+    R: C
+  I:
+  - M: Bouke van der Bijl
+    S: github
+    U: bouk
+  B: 0
+  U: Bouke van der Bijl
+- C: CA
+  E: boukevanderbijl!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Shopify
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Shopify
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2019-01-09"
+    C: Shopify
+    F: "2018-11-09"
+    P: baetyl
+    R: C
+  I:
+  - E: boukevanderbijl!gmail.com
+    M: Bouke van der Bijl
+    S: git
+  B: 0
+  U: Bouke van der Bijl
+- C: CA
+  E: me!bou.ke
+  R:
+  - T: "2100-01-01"
+    C: Shopify
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-12-19"
+    C: Shopify
+    F: "2018-11-30"
+    P: baetyl
+    R: C
+  I:
+  - E: me!bou.ke
+    M: Bouke van der Bijl
+    S: git
+  B: 0
+  U: Bouke van der Bijl
+- R:
+  - T: "2018-11-01"
+    C: Independent
+    F: "1900-01-01"
+    P: nsm
+    R: C
+  - T: "2020-01-01"
+    C: Orange S.A.
+    F: "2018-11-01"
+    P: nsm
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2020-01-01"
+    P: nsm
+    R: C
+  I:
+  - M: Boutheina
+    S: github
+    U: BoutheinaDab
+  B: 0
+  U: Boutheina
+- R:
+  - T: "2016-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2019-06-01"
+    C: Waiter Assist
+    F: "2016-04-01"
+    P: k8s
+    R: C
+  - T: "2019-06-01"
+    C: Waiter Assist
+    F: "2016-04-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: Rombit
+    F: "2019-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Rombit
+    F: "2019-06-01"
+    P: openpolicyagent
+    R: C
+  I:
+  - M: Bouwe Ceunen
+    S: github
+    U: BouweCeunen
+  B: 0
+  U: Bouwe Ceunen
+- E: Alex.Bowden!netapp.com
+  R:
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "2016-07-22"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "2016-07-22"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  I:
+  - E: Alex.Bowden!netapp.com
+    M: Bowden, Alex
+    S: pipermail
+  B: 0
+  U: Bowden, Alex
 - C: US
   E: bowei!google.com
   R:
@@ -61543,722 +62236,3 @@ P:
     U: cbornet
   B: 0
   U: Christophe Bornet
-- E: christophe.closset!intl.att.com
-  R:
-  - T: "2013-09-01"
-    C: Alcatel-Lucent
-    F: "2001-09-01"
-    P: lfn-cntt
-    R: C
-  - T: "2013-09-01"
-    C: Nokia Corporation
-    F: "2001-09-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2013-10-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2015-07-01"
-    P: onap
-    R: C
-  I:
-  - M: Christophe Closset
-    S: confluence
-    U: ChrisC
-  - E: cc697w!intl.att.com
-    M: Christophe Closset
-    S: confluence
-    U: ChrisC
-  - E: christophe.closset!intl.att.com
-    M: Christophe Closset
-    S: confluence
-    U: ChrisC
-  - E: cc697w!intl.att.com
-    M: ChrisC
-    S: gerrit
-  - E: cc697w!intl.att.com
-    M: Christophe Closset
-    S: gerrit
-    U: ChrisC
-  - E: christophe.closset!intl.att.com
-    M: Christophe Closset
-    S: gerrit
-    U: ChrisC
-  - E: cc697w!intl.att.com
-    M: ChrisC
-    S: git
-  - E: christophe.closset!intl.att.com
-    M: ChrisC
-    S: git
-  - E: cc697w!intl.att.com
-    M: Christophe Closset
-    S: git
-  - E: christophe.closset!intl.att.com
-    M: Christophe Closset
-    S: git
-  - E: cc697w!intl.att.com
-    M: Christophe Closset
-    S: groupsio
-  - E: cc697w!intl.att.com
-    M: Closset, Christophe
-    S: groupsio
-  - E: christophe.closset!intl.att.com
-    M: Closset, Christophe
-    S: groupsio
-  - E: christophe.closset!intl.att.com
-    M: christophe.closset
-    S: groupsio
-  - M: Christophe Closset
-    S: jira
-    U: ChrisC
-  - E: cc697w!intl.att.com
-    M: Christophe Closset
-    S: jira
-    U: ChrisC
-  - E: christophe.closset!intl.att.com
-    M: Christophe Closset
-    S: jira
-    U: ChrisC
-  - E: cc697w!intl.att.com
-    M: Closset, Christophe
-    S: pipermail
-  B: 0
-  U: Christophe Closset
-- E: christophe.courtaut!gmail.com
-  R:
-  - T: "2014-06-01"
-    C: Cloudwatt
-    F: "1900-01-01"
-    R: C
-  - T: "2014-06-01"
-    C: Cloudwatt
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-06-01"
-    C: Cloudwatt
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2014-12-01"
-    C: Photobox
-    F: "2014-06-01"
-    R: C
-  - T: "2014-12-01"
-    C: Photobox
-    F: "2014-06-01"
-    P: helm
-    R: C
-  - T: "2014-12-01"
-    C: Photobox
-    F: "2014-06-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Videolabs
-    F: "2014-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: Videolabs
-    F: "2014-12-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Videolabs
-    F: "2014-12-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: christophe.courtaut!gmail.com
-    M: Christophe Courtaut
-    S: git
-  - E: christophe.courtaut!gmail.com
-    M: Kri5
-    S: git
-  - E: christophe.courtaut!gmail.com
-    M: Kri5
-    S: github
-    U: kri5
-  B: 0
-  U: Christophe Courtaut
-- E: christophe.dervieux!gmail.com
-  R:
-  - T: "2009-09-01"
-    C: Bouygues
-    F: "2009-07-01"
-    P: sparklyr
-    R: C
-  - T: "2010-09-01"
-    C: b.pulse
-    F: "2009-09-01"
-    P: sparklyr
-    R: C
-  - T: "2011-06-01"
-    C: Groupe PSA
-    F: "2009-09-01"
-    P: sparklyr
-    R: C
-  - T: "2100-01-01"
-    C: Réseau de Transport d'Électricité
-    F: "2011-09-01"
-    P: sparklyr
-    R: C
-  I:
-  - E: christophe.dervieux!gmail.com
-    M: Christophe Dervieux
-    S: git
-  - M: Christophe Dervieux
-    S: github
-    U: cderv
-  B: 0
-  U: Christophe Dervieux
-- E: celek!ca.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-02-23"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: celek!ca.ibm.com
-    M: Christophe ELEK
-    S: slack
-    U: celek
-  B: 0
-  U: Christophe ELEK
-- C: FR
-  E: cfergeau!redhat.com
-  R:
-  - T: "2016-12-06"
-    C: Red Hat Inc.
-    F: "2011-05-31"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: cfergeau!redhat.com
-    M: Christophe Fergeau
-    S: git
-  B: 0
-  U: Christophe Fergeau
-- E: christophe.fontaine!enea.com
-  R:
-  - T: "2007-06-30"
-    C: Neopost
-    F: "2007-01-31"
-    P: fdio
-    R: C
-  - T: "2007-06-30"
-    C: Neopost
-    F: "2007-01-31"
-    P: odl
-    R: C
-  - T: "2008-11-30"
-    C: Ingenico Group
-    F: "2007-08-31"
-    P: fdio
-    R: C
-  - T: "2008-11-30"
-    C: Ingenico Group
-    F: "2007-08-31"
-    P: odl
-    R: C
-  - T: "2015-01-31"
-    C: Theoris SAS
-    F: "2007-08-31"
-    P: fdio
-    R: C
-  - T: "2015-01-31"
-    C: Theoris SAS
-    F: "2007-08-31"
-    P: odl
-    R: C
-  - T: "2010-01-31"
-    C: Neopost
-    F: "2008-12-31"
-    P: fdio
-    R: C
-  - T: "2010-01-31"
-    C: Neopost
-    F: "2008-12-31"
-    P: odl
-    R: C
-  - T: "2011-10-31"
-    C: Ingenico Group
-    F: "2010-06-30"
-    P: fdio
-    R: C
-  - T: "2011-10-31"
-    C: Ingenico Group
-    F: "2010-06-30"
-    P: odl
-    R: C
-  - T: "2018-04-30"
-    C: ENEA AB
-    F: "2015-02-28"
-    P: fdio
-    R: C
-  - T: "2018-04-30"
-    C: ENEA AB
-    F: "2015-02-28"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-04-30"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-04-30"
-    P: odl
-    R: C
-  I:
-  - E: christophe.fontaine!qosmos.com
-    M: Christophe Fontaine
-    S: gerrit
-    U: cfontaine
-  - E: christophefontaine!mac.com
-    M: Christophe Fontaine
-    S: gerrit
-    U: christophefontaine
-  - E: christophe.fontaine!enea.com
-    M: Christophe Fontaine
-    S: git
-  - E: christophe.fontaine!qosmos.com
-    M: Christophe Fontaine
-    S: git
-  - E: Christophe.FONTAINE!qosmos.com
-    M: Christophe FONTAINE
-    S: groupsio
-  - E: Christophe.Fontaine!enea.com
-    M: Christophe Fontaine
-    S: groupsio
-  - E: fontaine!qosmos.com
-    M: Christophe Fontaine
-    S: groupsio
-  - E: christophe.fontaine!qosmos.com
-    M: Christophe Fontaine
-    S: jira
-    U: christophe.fontaine
-  - E: christophefontaine!mac.com
-    M: Christophe Fontaine
-    S: jira
-    U: christophefontaine
-  - E: Christophe.FONTAINE!qosmos.com
-    M: Christophe FONTAINE
-    S: pipermail
-  - E: fontaine!qosmos.com
-    M: Christophe Fontaine
-    S: pipermail
-  B: 0
-  U: Christophe Fontaine
-- E: christophe.furmaniak!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Zenika
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: christophe.furmaniak!gmail.com
-    M: Christophe Furmaniak
-    S: git
-  - E: christophe.furmaniak!gmail.com
-    M: Christophe Furmaniak
-    S: github
-    U: looztra
-  B: 0
-  U: Christophe Furmaniak
-- E: christophe.guillon!st.com
-  R:
-  - T: "2015-06-29"
-    C: STMicroelectronics
-    F: "2015-04-01"
-    P: yocto
-    R: C
-  I:
-  - E: christophe.guillon!st.com
-    M: Christophe Guillon
-    S: git
-  - E: christophe.guillon!st.com
-    M: Christophe Guillon
-    S: groupsio
-  - E: christophe.guillon!st.com
-    M: Christophe Guillon
-    S: pipermail
-  B: 0
-  U: Christophe Guillon
-- E: christophe.jaillet!wanadoo.fr
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: christophe.jaillet!wanadoo.fr
-    M: Christophe Jaillet
-    S: git
-  B: 0
-  U: Christophe Jaillet
-- E: christophe.kerello!st.com
-  R:
-  - T: "2100-01-01"
-    C: STMicroelectronics
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: christophe.kerello!st.com
-    M: Christophe Kerello
-    S: git
-  B: 0
-  U: Christophe Kerello
-- C: FR
-  R:
-  - T: "2100-01-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: notary
-    R: C
-  S: male
-  I:
-  - M: Christophe Labouisse
-    S: github
-    U: ggtools
-  B: 0
-  U: Christophe Labouisse
-- C: FR
-  E: christophe!labouisse.org
-  R:
-  - T: "2100-01-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Credit Suisse
-    F: "1900-01-01"
-    P: notary
-    R: C
-  - T: "2100-01-01"
-    C: Credit Suisse
-    F: "2014-07-11"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: christophe!labouisse.org
-    M: Christophe Labouisse
-    S: git
-  B: 0
-  U: Christophe Labouisse
-- E: clombard!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: clombard!linux.vnet.ibm.com
-    M: Christophe Lombard
-    S: git
-  B: 0
-  U: Christophe Lombard
-- C: FR
-  E: christophe.meessen!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: China Cloud
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: China Cloud
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: christophe.meessen!gmail.com
-    M: Christophe Meessen
-    S: github
-    U: chmike
-  B: 0
-  U: Christophe Meessen
-- E: moc!odoo.com
-  R:
-  - T: "2100-01-01"
-    C: Odoo
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Odoo
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: moc!odoo.com
-    M: Christophe Monniez
-    S: git
-  B: 0
-  U: Christophe Monniez
-- E: cniclaes!develtech.com
-  R:
-  - T: "2100-01-01"
-    C: Develtech
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: cniclaes!develtech.com
-    M: Christophe Niclaes
-    S: git
-  B: 0
-  U: Christophe Niclaes
-- E: christophe.priouzeau!st.com
-  R:
-  - T: "2100-01-01"
-    C: ST Microelectronics
-    F: "2015-07-01"
-    P: yocto
-    R: C
-  - T: "2019-08-01"
-    C: ST Microelectronics
-    F: "2018-05-16"
-    P: zep
-    R: C
-  I:
-  - E: christophe.priouzeau!st.com
-    M: Christophe PRIOUZEAU
-    S: git
-  - E: christophe.priouzeau!linaro.org
-    M: Christophe Priouzeau
-    S: git
-  - E: christophe.priouzeau!st.com
-    M: Christophe PRIOUZEAU
-    S: groupsio
-  - E: christophe.priouzeau!st.com
-    M: Christophe PRIOUZEAU
-    S: pipermail
-  B: 0
-  U: Christophe PRIOUZEAU
-- E: christophe.roullier!st.com
-  R:
-  - T: "2100-01-01"
-    C: STMicroelectronics
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: christophe.roullier!st.com
-    M: Christophe Roullier
-    S: git
-  B: 0
-  U: Christophe Roullier
-- C: CH
-  E: christophe!tafani-dereeper.me
-  R:
-  - T: "2016-06-01"
-    C: Junior Entntreprise
-    F: "1900-01-01"
-    R: C
-  - T: "2016-06-01"
-    C: Junior Entntreprise
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-06-01"
-    C: Junior Entntreprise
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2016-06-01"
-    C: Junior Entntreprise
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  - T: "2017-02-01"
-    C: TransferWise
-    F: "2016-06-01"
-    R: C
-  - T: "2017-02-01"
-    C: TransferWise
-    F: "2016-06-01"
-    P: k8s
-    R: C
-  - T: "2017-02-01"
-    C: TransferWise
-    F: "2016-06-01"
-    P: linkerd
-    R: C
-  - T: "2017-02-01"
-    C: TransferWise
-    F: "2016-06-01"
-    P: opentracing
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2017-02-01"
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2017-02-01"
-    P: k8s
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2017-02-01"
-    P: linkerd
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2017-02-01"
-    P: opentracing
-    R: C
-  - T: "2018-03-01"
-    C: ELCA
-    F: "2017-09-01"
-    R: C
-  - T: "2018-03-01"
-    C: ELCA
-    F: "2017-09-01"
-    P: k8s
-    R: C
-  - T: "2018-03-01"
-    C: ELCA
-    F: "2017-09-01"
-    P: linkerd
-    R: C
-  - T: "2018-03-01"
-    C: ELCA
-    F: "2017-09-01"
-    P: opentracing
-    R: C
-  - T: "2018-04-01"
-    C: EPFC
-    F: "2018-03-01"
-    R: C
-  - T: "2018-04-01"
-    C: EPFC
-    F: "2018-03-01"
-    P: k8s
-    R: C
-  - T: "2018-04-01"
-    C: EPFC
-    F: "2018-03-01"
-    P: linkerd
-    R: C
-  - T: "2018-04-01"
-    C: EPFC
-    F: "2018-03-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: Hacknowledge
-    F: "2018-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Hacknowledge
-    F: "2018-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Hacknowledge
-    F: "2018-04-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Hacknowledge
-    F: "2018-04-01"
-    P: opentracing
-    R: C
-  S: male
-  I:
-  - E: christophe!tafani-dereeper.me
-    M: Christophe Tafani-Dereeper
-    S: github
-    U: christophetd
-  B: 0
-  U: Christophe Tafani-Dereeper
-- C: FR
-  E: christophe.vila!gemalto.com
-  R:
-  - T: "2019-04-01"
-    C: Gemalto
-    F: "1900-01-01"
-    R: C
-  - T: "2019-04-01"
-    C: Gemalto
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2019-04-01"
-    C: Gemalto
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Thales Group
-    F: "2019-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Thales Group
-    F: "2019-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Thales Group
-    F: "2019-04-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: christophe.vila!gemalto.com
-    M: Christophe VILA
-    S: git
-  - E: christophe.vila!gemalto.com
-    M: Christophe VILA
-    S: github
-    U: cvila84
-  B: 0
-  U: Christophe VILA
-- C: FR
-  E: cvubrugier!fastmail.fm
-  R:
-  - T: "2100-01-01"
-    C: FastMail.FM
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: cvubrugier!fastmail.fm
-    M: Christophe Vu-Brugier
-    S: git
-  B: 0
-  U: Christophe Vu-Brugier
-- E: christophe!dinechin.org
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: christophe!dinechin.org
-    M: Christophe de Dinechin
-    S: github
-    U: c3d
-  B: 0
-  U: Christophe de Dinechin
