@@ -1,4 +1,82 @@
 P:
+- C: FR
+  E: narmstrong!baylibre.com
+  R:
+  - T: "2015-08-01"
+    C: Neotion
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2015-08-01"
+    C: Neotion
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: BabyLibre
+    F: "2015-08-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: BabyLibre
+    F: "2015-08-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: narmstrong!baylibre.com
+    M: Neil Armstrong
+    S: git
+  - E: narmstrong!baylibre.com
+    M: Neil Armstrong
+    S: github
+    U: superna9999
+  - E: narmstrong!baylibre.com
+    M: Neil Armstrong
+    S: groupsio
+  - E: narmstrong!baylibre.com
+    M: Neil Armstrong
+    S: pipermail
+  B: 0
+  U: Neil Armstrong
+- C: GB
+  E: neil!confluent.io
+  R:
+  - T: "2100-01-01"
+    C: Confluent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Confluent
+    F: "1900-01-01"
+    P: cloudevents
+    R: C
+  S: male
+  I:
+  - E: neil!confluent.io
+    M: Neil Avery
+    S: git
+  - E: neil!confluent.io
+    M: Neil Avery
+    S: github
+    U: bluemonk3y
+  B: 0
+  U: Neil Avery
+- E: neil!brown.name
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: neil!brown.name
+    M: Neil Brown
+    S: git
+  - E: neil!brown.name
+    M: NeilBrown
+    S: git
+  B: 0
+  U: Neil Brown
 - E: neilb!suse.com
   R:
   - T: "2100-01-01"
@@ -22334,6 +22412,9 @@ P:
   I:
   - E: Dan.Noal!windriver.com
     M: Noal, Dan
+    S: groupsio
+  - E: Dan.Noal!windriver.com
+    M: Noal, Dan
     S: pipermail
   B: 0
   U: Noal, Dan
@@ -26484,6 +26565,9 @@ P:
     F: "1900-01-01"
     R: C
   I:
+  - E: Ola.Dahl!enea.com
+    M: Ola Dahl
+    S: groupsio
   - E: Ola.Dahl!enea.com
     M: Ola Dahl
     S: pipermail
@@ -62385,38 +62469,3 @@ P:
     U: Pensu
   B: 0
   U: Peeyush Gupta
-- C: IN
-  E: gpeeyush!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: gpeeyush!linux.vnet.ibm.com
-    M: Peeyush gupta
-    S: git
-  B: 0
-  U: Peeyush gupta
-- R:
-  - T: "2100-01-01"
-    C: OpenCredo
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Pegerto
-    S: github
-    U: pegerto
-  B: 0
-  U: Pegerto

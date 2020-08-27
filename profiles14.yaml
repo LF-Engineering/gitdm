@@ -1,5 +1,46 @@
 P:
 - C: FI
+  R:
+  - T: "2014-06-01"
+    C: CGI
+    F: "1900-01-01"
+    R: C
+  - T: "2014-06-01"
+    C: CGI
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2014-06-01"
+    C: CGI
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-06-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-06-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Michael Burman
+    S: github
+    U: burmanm
+  B: 0
+  U: Michael Burman
+- C: FI
   E: yak!iki.fi
   R:
   - T: "2014-06-01"
@@ -27888,6 +27929,12 @@ P:
   I:
   - E: mike.woster!gmail.com
     M: Mike Woster
+    S: groupsio
+  - E: mwoster!linuxfoundation.org
+    M: Mike Woster
+    S: groupsio
+  - E: mike.woster!gmail.com
+    M: Mike Woster
     S: pipermail
   - E: mwoster!linuxfoundation.org
     M: Mike Woster
@@ -54804,6 +54851,12 @@ P:
   I:
   - E: ed.nash!timesys.com
     M: Ed Nash
+    S: groupsio
+  - E: ed.nash!timesys.com
+    M: Nash, Ed
+    S: groupsio
+  - E: ed.nash!timesys.com
+    M: Ed Nash
     S: pipermail
   - E: ed.nash!timesys.com
     M: Nash, Ed
@@ -61551,81 +61604,3 @@ P:
     S: git
   B: 0
   U: Nehal Shah
-- C: FR
-  E: narmstrong!baylibre.com
-  R:
-  - T: "2015-08-01"
-    C: Neotion
-    F: "1900-01-01"
-    P: yocto
-    R: C
-  - T: "2015-08-01"
-    C: Neotion
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: BabyLibre
-    F: "2015-08-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: BabyLibre
-    F: "2015-08-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: narmstrong!baylibre.com
-    M: Neil Armstrong
-    S: git
-  - E: narmstrong!baylibre.com
-    M: Neil Armstrong
-    S: github
-    U: superna9999
-  - E: narmstrong!baylibre.com
-    M: Neil Armstrong
-    S: groupsio
-  - E: narmstrong!baylibre.com
-    M: Neil Armstrong
-    S: pipermail
-  B: 0
-  U: Neil Armstrong
-- C: GB
-  E: neil!confluent.io
-  R:
-  - T: "2100-01-01"
-    C: Confluent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Confluent
-    F: "1900-01-01"
-    P: cloudevents
-    R: C
-  S: male
-  I:
-  - E: neil!confluent.io
-    M: Neil Avery
-    S: git
-  - E: neil!confluent.io
-    M: Neil Avery
-    S: github
-    U: bluemonk3y
-  B: 0
-  U: Neil Avery
-- E: neil!brown.name
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: neil!brown.name
-    M: Neil Brown
-    S: git
-  - E: neil!brown.name
-    M: NeilBrown
-    S: git
-  B: 0
-  U: Neil Brown
