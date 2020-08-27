@@ -1,4 +1,95 @@
 P:
+- E: marcin.biegan!getbase.com
+  R:
+  - T: "2100-01-01"
+    C: BaseCRM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: BaseCRM
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: BaseCRM
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  S: male
+  I:
+  - E: marcin.biegan!getbase.com
+    M: Marcin Biegan
+    S: git
+  B: 0
+  U: Marcin Biegan
+- E: marcin.branski!spreaker.com
+  R:
+  - T: "2100-01-01"
+    C: Spreaker
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Spreaker
+    F: "1900-01-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: marcin.branski!spreaker.com
+    M: Marcin Brański
+    S: git
+  - E: marcin.branski!spreaker.com
+    M: Marcin Branski
+    S: github
+    U: 3h4x
+  B: 0
+  U: Marcin Brański
+- C: PL
+  E: marcin.dziegielewski!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - E: marcin.dziegielewski!intel.com
+    M: Marcin Dziegielewski
+    S: git
+  B: 0
+  U: Marcin Dziegielewski
+- C: PL
+  E: marcin.falkowski!allegro.pl
+  R:
+  - T: "2100-01-01"
+    C: Allegro
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Allegro
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  S: male
+  I:
+  - E: marcin.falkowski!allegro.pl
+    M: Marcin Falkowski
+    S: git
+  - E: marcin.falkowski!allegro.pl
+    M: Marcin Falkowski
+    S: github
+    U: MarcinFalkowski
+  - E: marcin.falkowski!allegro.pl
+    M: Marcin Falkowski
+    S: slack
+    U: marcin.falkowski
+  B: 0
+  U: Marcin Falkowski
 - E: marcin.formela!intel.com
   R:
   - T: "2100-01-01"
@@ -62154,50 +62245,5 @@ P:
   - M: Michael Burman
     S: github
     U: burmanm
-  B: 0
-  U: Michael Burman
-- C: FI
-  E: yak!iki.fi
-  R:
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: yak!iki.fi
-    M: Michael Burman
-    S: git
   B: 0
   U: Michael Burman

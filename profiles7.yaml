@@ -1,4 +1,135 @@
 P:
+- C: AU
+  R:
+  - T: "2016-05-01"
+    C: Zanui
+    F: "1900-01-01"
+    R: C
+  - T: "2016-05-01"
+    C: Zanui
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2016-05-01"
+    C: Zanui
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-05-01"
+    C: Zanui
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-05-01"
+    C: Zanui
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: hipages
+    F: "2016-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: hipages
+    F: "2016-05-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: hipages
+    F: "2016-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: hipages
+    F: "2016-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: hipages
+    F: "2016-05-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Enrico Stahn
+    S: github
+    U: estahn
+  B: 0
+  U: Enrico Stahn
+- C: AU
+  E: enrico.stahn!gmail.com
+  R:
+  - T: "2016-05-01"
+    C: Zanui
+    F: "1900-01-01"
+    R: C
+  - T: "2016-05-01"
+    C: Zanui
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2016-05-01"
+    C: Zanui
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: hipages
+    F: "2016-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: hipages
+    F: "2016-05-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: hipages
+    F: "2016-05-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: enrico.stahn!gmail.com
+    M: Enrico Stahn
+    S: git
+  - E: enrico.stahn!gmail.com
+    M: Enrico Stahn
+    S: slack
+    U: enrico.stahn
+  B: 0
+  U: Enrico Stahn
+- E: info!metux.net
+  R:
+  - T: "2100-01-01"
+    C: metux IT service
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: info!metux.net
+    M: Enrico Weigelt, metux IT consult
+    S: git
+  - E: info!metux.net
+    M: Enrico Weigelt
+    S: git
+  - E: info!metux.net
+    M: Enrico Weigelt
+    S: github
+    U: metux
+  B: 0
+  U: Enrico Weigelt, metux IT consult
+- E: Enrik.Berkhan!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: Enrik.Berkhan!ge.com
+    M: Enrik Berkhan
+    S: git
+  B: 0
+  U: Enrik Berkhan
 - C: ES
   E: enrique.arizonbenito!gmail.com
   R:
@@ -62105,134 +62236,3 @@ P:
     S: git
   B: 0
   U: Gilbert Wu
-- E: gildas.lanilis!huawei.com
-  R:
-  - T: "2017-04-12"
-    C: Huawei Technologies Co., Ltd.
-    F: "2016-11-22"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2016-12-20"
-    P: onap
-    R: C
-  - T: "2018-12-22"
-    C: Huawei Technologies Co., Ltd.
-    F: "2018-02-20"
-    P: lfn-cntt
-    R: C
-  I:
-  - M: Gildas Lanilis
-    S: confluence
-    U: glanilis
-  - E: gildas.lanilis!huawei.com
-    M: Gildas Lanilis
-    S: gerrit
-  - E: gildas.lanilis!huawei.com
-    M: Gildas Lanilis
-    S: gerrit
-    U: glanilis
-  - E: gildaslanilis!Gildass-MacBook-Air.local
-    M: Gildas Lanilis
-    S: gerrit
-  - E: gildaslanilis!Gildass-MacBook-Air.local
-    M: Gildas Lanilis
-    S: gerrit
-  - E: gildaslanilis!gmail.com
-    M: Gildas Lanilis
-    S: gerrit
-    U: glanilis
-  - E: gildas.lanilis!huawei.com
-    M: Gildas Lanilis
-    S: git
-  - E: gildaslanilis!Gildass-MacBook-Air.local
-    M: Gildas Lanilis
-    S: git
-  - E: gildas.lanilis!huawei.com
-    M: Gildas Lanilis
-    S: groupsio
-  - E: gildas.lanilis!huawei.com
-    M: gildas.lanilis
-    S: groupsio
-  - M: Gildas Lanilis
-    S: jira
-    U: glanilis
-  - E: gildas.lanilis!huawei.com
-    M: Gildas Lanilis
-    S: jira
-    U: glanilis
-  - E: gildaslanilis!gmail.com
-    M: Gildas Lanilis
-    S: jira
-    U: glanilis
-  - E: gildas.lanilis!huawei.com
-    M: Gildas Lanilis
-    S: pipermail
-  B: 0
-  U: Gildas Lanilis
-- R:
-  - T: "2018-06-01"
-    C: Cisco Systems Inc.
-    F: "2017-06-20"
-    P: onap
-    R: C
-  I:
-  - M: Giles Heron
-    S: confluence
-    U: gilesheron
-  - E: giheron!cisco.com
-    M: Giles Heron (giheron)
-    S: groupsio
-  - E: giheron!cisco.com
-    M: Giles Heron giheron
-    S: pipermail
-  B: 0
-  U: Giles Heron
-- E: giheron!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2014-01-20"
-    P: odl
-    R: C
-  - T: "2019-07-20"
-    C: Cisco Systems Inc.
-    F: "2017-09-18"
-    P: fdio
-    R: C
-  I:
-  - E: giheron!cisco.com
-    M: Giles Heron
-    S: gerrit
-    U: giles
-  - E: giheron!cisco.com
-    M: Giles Heron
-    S: gerrit
-    U: gilesheron
-  - E: giheron!cisco.com
-    M: Giles Heron
-    S: git
-  - E: giles.heron!gmail.com
-    M: Giles Heron
-    S: groupsio
-  - E: giheron!cisco.com
-    M: Giles Heron
-    S: jira
-    U: giheron
-  - E: giheron!cisco.com
-    M: Giles Heron
-    S: jira
-    U: gilesheron
-  - E: giles.heron!gmail.com
-    M: Giles Heron
-    S: pipermail
-  - E: giles.heron!gmail.com
-    M: gizzer68
-    S: pipermail
-  - E: giheron!cisco.com
-    M: Giles Heron
-    S: slack
-    U: giheron
-  B: 0
-  U: Giles Heron
