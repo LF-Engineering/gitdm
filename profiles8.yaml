@@ -2598,15 +2598,30 @@ P:
   U: Glen D Sanford
 - E: glendarling!us.ibm.com
   R:
+  - T: "2000-06-01"
+    C: University of Victoria
+    F: "1987-01-01"
+    P: lfedge/open-horizon
+    R: C
   - T: "2011-07-01"
     C: Cisco Systems Inc.
     F: "2000-07-01"
     P: lfedge/edgex-foundry
     R: C
+  - T: "2011-07-01"
+    C: Cisco Systems Inc.
+    F: "2000-07-01"
+    P: lfedge/open-horizon
+    R: C
   - T: "2100-01-01"
     C: IBM
     F: "2013-04-01"
     P: lfedge/edgex-foundry
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2013-04-01"
+    P: lfedge/open-horizon
     R: C
   I:
   - M: Glen Darling
@@ -2631,6 +2646,9 @@ P:
     S: groupsio
   - E: glendarling!us.ibm.com
     M: Glen Darling (IBM)
+    S: slack
+    U: glendarling
+  - M: Glen Darling
     S: slack
     U: glendarling
   - E: glendarling!us.ibm.com
@@ -59386,6 +59404,19 @@ P:
     U: igor.kazmyr271
   B: 0
   U: Igor Kazmyr
+- E: ikolin!softserveinc.com
+  R:
+  - T: "2100-01-01"
+    C: SoftServe
+    F: "2020-08-09"
+    P: lfedge/open-horizon
+    R: C
+  I:
+  - E: ikolin!softserveinc.com
+    M: Igor Kolinko
+    S: git
+  B: 0
+  U: Igor Kolinko
 - E: igork!elbrys.com
   R:
   - T: "2017-10-31"
@@ -61728,63 +61759,3 @@ P:
     U: skikkh
   B: 0
   U: Ikki SHOKA
-- E: ikram!research.att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "1900-01-01"
-    P: onap
-    R: C
-  - T: "2009-11-30"
-    C: Netpace
-    F: "2007-03-01"
-    P: onap
-    R: C
-  - T: "2012-05-30"
-    C: Breezecom
-    F: "2009-12-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2017-08-23"
-    R: C
-  I:
-  - M: Ikram Ikramullah
-    S: confluence
-    U: ikram
-  - E: ikram!research.att.com
-    M: Ikram Ikramullah
-    S: confluence
-    U: ikram
-  - E: ikram!research.att.com
-    M: Ikram Ikramullah
-    S: gerrit
-    U: ikram
-  - E: ikram!research.att.com
-    M: Ikram Ikramullah (ikram
-    S: git
-  - E: ikram!research.att.com
-    M: Ikram Ikramullah
-    S: git
-  - E: ikram!research.att.com
-    M: Ikramullah, Ikram
-    S: git
-  - E: ikram!research.att.com
-    M: ikram
-    S: git
-  - E: ikram!research.att.com
-    M: IKRAMULLAH, IKRAM  (IKRAM)
-    S: groupsio
-  - M: Ikram Ikramullah
-    S: jira
-    U: ikram
-  - E: ikram!research.att.com
-    M: Ikram Ikramullah
-    S: jira
-    U: ikram
-  - E: ikram!research.att.com
-    M: IKRAMULLAH, IKRAM  IKRAM
-    S: pipermail
-  B: 0
-  U: Ikram Ikramullah
