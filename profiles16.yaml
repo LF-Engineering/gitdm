@@ -1,4 +1,25 @@
 P:
+- C: US
+  R:
+  - T: "2016-09-01"
+    C: Sentry
+    F: "1900-01-01"
+    R: C
+  - T: "2018-09-01"
+    C: IBM
+    F: "2016-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Summa Financial Technology
+    F: "2018-09-01"
+    R: C
+  S: male
+  I:
+  - M: Nick
+    S: github
+    U: nmnellis
+  B: 0
+  U: Nick
 - C: UA
   E: grigor60!gmail.com
   R:
@@ -7446,6 +7467,23 @@ P:
     S: git
   B: 0
   U: Niklas Cassel
+- C: CH
+  E: mail!nh2.me
+  R:
+  - T: "2100-01-01"
+    C: FP Complete
+    F: "2015-01-01"
+    R: C
+  I:
+  - E: mail!nh2.me
+    M: Niklas Hambüchen
+    S: git
+  - E: mail!nh2.me
+    M: Niklas Hambüchen
+    S: github
+    U: nh2
+  B: 0
+  U: Niklas Hambüchen
 - R:
   - T: "2015-06-01"
     C: Independent
@@ -62234,169 +62272,3 @@ P:
     U: pickledrick
   B: 0
   U: Peter Grant
-- E: peter.james.grant!gmail.com
-  R:
-  - T: "2016-12-01"
-    C: Bulletproof
-    F: "1900-01-01"
-    R: C
-  - T: "2016-12-01"
-    C: Bulletproof
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-12-01"
-    C: Bulletproof
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-12-01"
-    C: Bulletproof
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Fairfax Media
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Fairfax Media
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Fairfax Media
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Fairfax Media
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2018-02-01"
-    C: Fairfax
-    F: "2016-12-01"
-    R: C
-  - T: "2018-02-01"
-    C: Fairfax
-    F: "2016-12-01"
-    P: helm
-    R: C
-  - T: "2018-02-01"
-    C: Fairfax
-    F: "2016-12-01"
-    P: k8s
-    R: C
-  - T: "2018-02-01"
-    C: Fairfax
-    F: "2016-12-01"
-    P: openebs
-    R: C
-  - T: "2019-01-01"
-    C: adidas
-    F: "2018-02-01"
-    R: C
-  - T: "2019-01-01"
-    C: adidas
-    F: "2018-02-01"
-    P: helm
-    R: C
-  - T: "2019-01-01"
-    C: adidas
-    F: "2018-02-01"
-    P: k8s
-    R: C
-  - T: "2019-01-01"
-    C: adidas
-    F: "2018-02-01"
-    P: openebs
-    R: C
-  - T: "2019-05-01"
-    C: Macquarie
-    F: "2019-01-01"
-    R: C
-  - T: "2019-05-01"
-    C: Macquarie
-    F: "2019-01-01"
-    P: helm
-    R: C
-  - T: "2019-05-01"
-    C: Macquarie
-    F: "2019-01-01"
-    P: k8s
-    R: C
-  - T: "2019-05-01"
-    C: Macquarie
-    F: "2019-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-05-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-05-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-05-01"
-    P: openebs
-    R: C
-  S: male
-  I:
-  - E: peter.james.grant!gmail.com
-    M: Peter Grant
-    S: git
-  B: 0
-  U: Peter Grant
-- E: peter!de.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-09-29"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: peter!de.ibm.com
-    M: Peter Grauvogel
-    S: slack
-    U: petschni
-  B: 0
-  U: Peter Grauvogel
-- C: GB
-  E: peter.griffin!linaro.org
-  R:
-  - T: "2017-10-17"
-    C: Linaro Limited
-    F: "2017-06-12"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "2017-11-08"
-    P: yocto
-    R: C
-  S: male
-  I:
-  - E: peter.griffin!linaro.org
-    M: Peter Griffin
-    S: git
-  - E: peter.griffin!linaro.org
-    M: Peter Griffin
-    S: groupsio
-  - E: peter.griffin!linaro.org
-    M: peter.griffin
-    S: groupsio
-  - E: peter.griffin!linaro.org
-    M: Peter Griffin
-    S: pipermail
-  B: 0
-  U: Peter Griffin
