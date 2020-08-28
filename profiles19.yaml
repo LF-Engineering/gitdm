@@ -1,4 +1,170 @@
 P:
+- C: IN
+  E: sandipan!linux.vnet.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: sandipan!linux.vnet.ibm.com
+    M: Sandipan Das
+    S: git
+  B: 0
+  U: Sandipan Das
+- E: spatra!nvidia.com
+  R:
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: spatra!nvidia.com
+    M: Sandipan Patra
+    S: git
+  B: 0
+  U: Sandipan Patra
+- E: sandon!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: rook
+    R: C
+  I:
+  - E: sandon!redhat.com
+    M: Sandon Van Ness
+    S: git
+  B: 0
+  U: Sandon Van Ness
+- E: sandon!inktank.com
+  R:
+  - T: "2100-01-01"
+    C: Inktank
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Inktank
+    F: "1900-01-01"
+    P: rook
+    R: C
+  I:
+  - E: sandon!inktank.com
+    M: Sandon Van Ness
+    S: git
+  - E: sandon!inktank.com
+    M: SandonV
+    S: git
+  B: 0
+  U: SandonV
+- C: HU
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Sandor Szombat
+    S: github
+    U: aga20
+  B: 0
+  U: Sandor Szombat
+- E: sandor.szombat!ibm.com
+  R:
+  - T: "2015-04-01"
+    C: AVENTICS
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-12-01"
+    C: Nokia Corporation
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2020-01-01"
+    C: Independent
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2020-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: sandor.szombat!ibm.com
+    M: Sandor Szombat
+    S: git
+  - E: sandor.szombat!ibm.com
+    M: Sandor Szombat
+    S: github
+    U: szombi
+  B: 0
+  U: Sandor Szombat
+- E: sandor.szuecs!zalando.de
+  R:
+  - T: "2100-01-01"
+    C: Zalando
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  I:
+  - E: sandor.szuecs!zalando.de
+    M: Sandor Szuecs
+    S: git
+  B: 0
+  U: Sandor Szuecs
+- R:
+  - T: "2100-01-01"
+    C: Zalando
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Zalando
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  - T: "2100-01-01"
+    C: Zalando
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Zalando
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Zalando
+    F: "1900-01-01"
+    P: keda
+    R: C
+  - T: "2100-01-01"
+    C: Zalando
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Sandor Szücs
+    S: github
+    U: szuecs
+  B: 0
+  U: Sandor Szücs
 - E: sandor.szuecs!zalando.de
   R:
   - T: "2100-01-01"
@@ -61078,180 +61244,3 @@ P:
     S: pipermail
   B: 0
   U: Song.Li
-- E: wenjie.song!daocloud.io
-  R:
-  - T: "2100-01-01"
-    C: DaoCloud
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: DaoCloud
-    F: "1900-01-01"
-    P: d7y
-    R: C
-  - T: "2100-01-01"
-    C: DaoCloud
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: DaoCloud
-    F: "2018-11-02"
-    P: baetyl
-    R: C
-  I:
-  - E: wenjie.song!daocloud.io
-    M: Songjoy
-    S: git
-  - E: wenjie.song!daocloud.io
-    M: 宋文杰
-    S: git
-  - E: wenjie.song!daocloud.io
-    S: github
-    U: Songjoy
-  B: 0
-  U: Songjoy
-- E: songjun.wu!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: songjun.wu!linux.intel.com
-    M: Songjun Wu
-    S: git
-  B: 0
-  U: Songjun Wu
-- E: songjun.wu!microchip.com
-  R:
-  - T: "2100-01-01"
-    C: Microchip Technology, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: songjun.wu!microchip.com
-    M: Songjun Wu
-    S: git
-  B: 0
-  U: Songjun Wu
-- C: CN
-  E: yangsonglin!caicloud.io
-  R:
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: yangsonglin!caicloud.io
-    M: Songlin Yang
-    S: github
-    U: lsytj0413
-  B: 0
-  U: Songlin Yang
-- E: tiansm!lemote.com
-  R:
-  - T: "2100-01-01"
-    C: JiangSu Lemote Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: tiansm!lemote.com
-    M: Songmao Tian
-    S: git
-  B: 0
-  U: Songmao Tian
-- E: songnon.zhang!ericsson.com
-  R:
-  - T: "2016-08-12"
-    C: Ericsson AB
-    F: "2016-06-17"
-    R: C
-  - T: "2016-08-12"
-    C: Ericsson AB
-    F: "2016-06-17"
-    P: opnfv
-    R: C
-  I:
-  - E: songnon.zhang!ericsson.com
-    M: Shenglong Zhang
-    S: gerrit
-    U: Songnon
-  - E: songnon.zhang!ericsson.com
-    M: Songnon Zhang
-    S: gerrit
-    U: Songnon
-  - E: songnon.zhang!ericsson.com
-    M: Songnon
-    S: git
-  B: 0
-  U: Songnon
-- E: songwei80!huawei.com
-  R:
-  - T: "2016-06-15"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-08-26"
-    P: odl
-    R: C
-  I:
-  - E: songwei80!huawei.com
-    M: Songwei David, EBG
-    S: pipermail
-  B: 0
-  U: Songwei David, EBG
-- E: anand.soni!verizon.com
-  R:
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2016-09-20"
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2016-09-20"
-    P: opnfv
-    R: C
-  I:
-  - E: anand.soni!verizon.com
-    M: Soni, Anand Kumar
-    S: gmane
-  - E: anand.soni!verizon.com
-    M: Soni, Anand Kumar
-    S: groupsio
-  - E: anand.soni!verizon.com
-    M: Soni, Anand Kumar
-    S: mbox
-  - E: anand.soni!verizon.com
-    M: Soni, Anand Kumar
-    S: pipermail
-  B: 0
-  U: Soni, Anand Kumar
-- E: shivsoni!amazon.com
-  R:
-  - T: "2019-01-17"
-    C: Amazon.com, Inc.
-    F: "2019-01-08"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2019-01-17"
-    C: Amazon.com, Inc.
-    F: "2019-01-08"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - E: shivsoni!amazon.com
-    M: Soni, Shivam
-    S: pipermail
-  B: 0
-  U: Soni, Shivam

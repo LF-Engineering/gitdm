@@ -1,4 +1,198 @@
 P:
+- C: US
+  R:
+  - T: "2015-06-01"
+    C: Pixable
+    F: "1900-01-01"
+    P: dronecode
+    R: C
+  - T: "2015-06-01"
+    C: Pixable
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-10-01"
+    C: Ustwo
+    F: "2015-06-01"
+    P: dronecode
+    R: C
+  - T: "2015-10-01"
+    C: Ustwo
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2016-01-01"
+    C: Lantum
+    F: "2015-10-01"
+    P: dronecode
+    R: C
+  - T: "2016-01-01"
+    C: Lantum
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  - T: "2016-10-01"
+    C: Neumob
+    F: "2016-01-01"
+    P: dronecode
+    R: C
+  - T: "2016-10-01"
+    C: Neumob
+    F: "2016-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2016-10-01"
+    P: dronecode
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2016-10-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Thomas Catterall
+    S: github
+    U: swizzlr
+  B: 0
+  U: Thomas Catterall
+- C: US
+  E: me!swizzlr.co
+  R:
+  - T: "2015-06-01"
+    C: Pixable
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Pixable
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2015-10-01"
+    C: Ustwo
+    F: "2015-06-01"
+    R: C
+  - T: "2015-10-01"
+    C: Ustwo
+    F: "2015-06-01"
+    P: nats
+    R: C
+  - T: "2016-01-01"
+    C: Lantum
+    F: "2015-10-01"
+    R: C
+  - T: "2016-01-01"
+    C: Lantum
+    F: "2015-10-01"
+    P: nats
+    R: C
+  - T: "2016-10-01"
+    C: Neumob
+    F: "2016-01-01"
+    R: C
+  - T: "2016-10-01"
+    C: Neumob
+    F: "2016-01-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2016-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2016-10-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - E: me!swizzlr.co
+    M: Thomas Catterall
+    S: git
+  B: 0
+  U: Thomas Catterall
+- C: US
+  E: swizzlr!users.noreply.github.com
+  R:
+  - T: "2015-06-01"
+    C: Pixable
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Pixable
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-06-01"
+    C: Pixable
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2015-10-01"
+    C: Ustwo
+    F: "2015-06-01"
+    R: C
+  - T: "2015-10-01"
+    C: Ustwo
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2015-10-01"
+    C: Ustwo
+    F: "2015-06-01"
+    P: nats
+    R: C
+  - T: "2016-01-01"
+    C: Lantum
+    F: "2015-10-01"
+    R: C
+  - T: "2016-01-01"
+    C: Lantum
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  - T: "2016-01-01"
+    C: Lantum
+    F: "2015-10-01"
+    P: nats
+    R: C
+  - T: "2016-10-01"
+    C: Neumob
+    F: "2016-01-01"
+    R: C
+  - T: "2016-10-01"
+    C: Neumob
+    F: "2016-01-01"
+    P: k8s
+    R: C
+  - T: "2016-10-01"
+    C: Neumob
+    F: "2016-01-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2016-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2016-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2016-10-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - E: swizzlr!users.noreply.github.com
+    M: Thomas Catterall
+    S: git
+  B: 0
+  U: Thomas Catterall
 - E: thomas!wytron.com.tw
   R:
   - T: "2100-01-01"
@@ -61988,103 +62182,3 @@ P:
     U: devx
   B: 0
   U: Victor Palma
-- E: vpickard!redhat.com
-  R:
-  - T: "2000-01-01"
-    C: Nortel Networks
-    F: "1984-01-01"
-    R: C
-  - T: "2006-01-01"
-    C: Caspian Networks
-    F: "2000-01-01"
-    R: C
-  - T: "2016-01-01"
-    C: Extreme Networks, Inc.
-    F: "2006-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2016-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2016-01-01"
-    P: odl
-    R: C
-  I:
-  - E: vpickard!redhat.com
-    M: Victor Pickard
-    S: gerrit
-    U: vpickard
-  - E: vpickard!redhat.com
-    M: Victor Pickard
-    S: git
-  - E: vpickard!redhat.com
-    M: Victor Pickard
-    S: groupsio
-  - E: vpickard!redhat.com
-    M: Victor Pickard
-    S: jira
-    U: vpickard
-  - E: vpickard!redhat.com
-    M: Victor Pickard
-    S: jira
-    U: vpickard-redacted
-  - E: vpickard!redhat.com
-    M: Victor Pickard
-    S: pipermail
-  B: 0
-  U: Victor Pickard
-- R:
-  - T: "2015-07-01"
-    C: Selectel
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Lockwood Publishing
-    F: "2015-07-01"
-    P: nats
-    R: C
-  I:
-  - M: Victor Poluksht
-    S: github
-    U: vpol
-  B: 0
-  U: Victor Poluksht
-- C: US
-  E: mail!victorquinn.com
-  R:
-  - T: "2100-01-01"
-    C: shopspring
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: shopspring
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: mail!victorquinn.com
-    M: Victor Quinn
-    S: git
-  - E: mail!victorquinn.com
-    M: Victor Quinn
-    S: github
-    U: victorquinn
-  B: 0
-  U: Victor Quinn
-- E: victor.raj!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: victor.raj!intel.com
-    M: Victor Raj
-    S: git
-  B: 0
-  U: Victor Raj

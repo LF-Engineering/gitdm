@@ -1,4 +1,115 @@
 P:
+- E: htuch!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - E: htuch!google.com
+    M: Harvey Tuch
+    S: git
+  B: 0
+  U: Harvey Tuch
+- E: michael.harvey!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-02-09"
+    P: yocto
+    R: C
+  I:
+  - E: michael.harvey!intel.com
+    M: Harvey, Michael
+    S: groupsio
+  - E: michael.harvey!intel.com
+    M: Harvey, Michael
+    S: pipermail
+  B: 0
+  U: Harvey, Michael
+- E: 799029078!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: 799029078!qq.com
+    M: Harvey
+    S: github
+    U: HarveyJie
+  B: 0
+  U: Harvey
+- E: hasanq!mellanox.com
+  R:
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2018-03-01"
+    P: odl
+    R: C
+  I:
+  - E: hasanq!mellanox.com
+    M: Hasan Qunoo
+    S: gerrit
+    U: HasanQunoo
+  B: 0
+  U: Hasan Qunoo
+- E: turkenh!gmail.com
+  R:
+  - T: "2019-10-01"
+    C: SAP
+    F: "1900-01-01"
+    P: cncf/crossplane
+    R: C
+  - T: "2100-01-01"
+    C: Upbound
+    F: "2019-10-01"
+    P: cncf/crossplane
+    R: C
+  I:
+  - E: turkenh!gmail.com
+    M: Hasan Turken
+    S: git
+  - E: turkenh!gmail.com
+    M: Hasan Turken
+    S: github
+    U: turkenh
+  B: 0
+  U: Hasan Turken
+- R:
+  - T: "2100-01-01"
+    C: Hazelcast
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Hazelcast
+    F: "1900-01-01"
+    P: helm
+    R: C
+  I:
+  - M: Hasan Çelik
+    S: github
+    U: hasancelik
+  B: 0
+  U: Hasan Çelik
 - C: US
   E: hasanatkazmi!gmail.com
   R:
@@ -62182,82 +62293,3 @@ P:
     U: jama22
   B: 0
   U: James Ma
-- E: James.MacNider!amdocs.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2017-06-20"
-    R: C
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2017-06-20"
-    P: onap
-    R: C
-  I:
-  - M: James MacNider
-    S: confluence
-    U: jmac
-  - E: James.MacNider!amdocs.com
-    M: James MacNider
-    S: gerrit
-    U: jmac
-  - E: james.macnider!amdocs.com
-    M: jmac
-    S: gerrit
-  - E: james.macnider!amdocs.com
-    M: jmac
-    S: gerrit
-  - E: James.MacNider!amdocs.com
-    M: James MacNider
-    S: git
-  - E: james.macnider!amdocs.com
-    M: jmac
-    S: git
-  - E: James.MacNider!amdocs.com
-    M: James MacNider
-    S: groupsio
-  - M: James MacNider
-    S: jira
-    U: jmac
-  - E: James.MacNider!amdocs.com
-    M: James MacNider
-    S: jira
-    U: jmac
-  - E: James.MacNider!amdocs.com
-    M: James MacNider
-    S: pipermail
-  B: 0
-  U: James MacNider
-- E: macon!us.ibm.com
-  R:
-  - T: "2012-09-07"
-    C: IBM
-    F: "2012-09-05"
-    P: yocto
-    R: C
-  I:
-  - E: macon!us.ibm.com
-    M: James Macon
-    S: groupsio
-  - E: macon!us.ibm.com
-    M: James Macon
-    S: pipermail
-  B: 0
-  U: James Macon
-- E: james!packet.com
-  R:
-  - T: "2100-01-01"
-    C: Packet
-    F: "2019-06-19"
-    P: akraino
-    R: C
-  I:
-  - M: James Malachowski
-    S: confluence
-    U: JamesMalachowski
-  - E: james!packet.com
-    M: James Malachowski
-    S: confluence
-    U: JamesMalachowski
-  B: 0
-  U: James Malachowski
