@@ -1,4 +1,105 @@
 P:
+- C: NL
+  E: swordbeta!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Expand Online
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Expand Online
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Expand Online
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: swordbeta!users.noreply.github.com
+    M: Michael van Tricht
+    S: git
+  B: 0
+  U: Michael van Tricht
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - S: github
+    U: Michael-Baylis
+  B: 0
+  U: Michael-Baylis
+- E: mlj28!cam.ac.uk
+  R:
+  - T: "2006-12-18"
+    C: University of Cambridge
+    F: "2006-07-01"
+    P: yocto
+    R: C
+  I:
+  - E: mlj28!cam.ac.uk
+    M: Michael-Luke Jones
+    S: git
+  B: 0
+  U: Michael-Luke Jones
+- R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Michael
+    S: github
+    U: mchangxe
+  B: 0
+  U: Michael
+- C: DE
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - M: Michael
+    S: github
+    U: MichaelSp
+  B: 0
+  U: Michael
+- C: DE
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Michael
+    S: github
+    U: michael-k
+  B: 0
+  U: Michael
 - C: FR
   R:
   - T: "2014-09-01"
@@ -61818,167 +61919,3 @@ P:
     S: git
   B: 0
   U: Nickolay
-- E: nickren19!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-06-10"
-    C: Caicloud
-    F: "2016-10-26"
-    P: baetyl
-    R: C
-  I:
-  - E: nickren19!gmail.com
-    M: NickrenREN
-    S: git
-  - E: nickren19!gmail.com
-    M: Yuquan Ren
-    S: github
-    U: NickrenREN
-  B: 0
-  U: NickrenREN
-- E: renyuquan!caicloud.io
-  R:
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2018-09-07"
-    C: Caicloud
-    F: "2017-06-22"
-    P: baetyl
-    R: C
-  I:
-  - E: renyuquan!caicloud.io
-    M: NickrenREN
-    S: git
-  B: 0
-  U: NickrenREN
-- E: renyuquan1!163.com
-  R:
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-06-21"
-    C: NetEase
-    F: "2016-12-09"
-    P: baetyl
-    R: C
-  I:
-  - E: renyuquan1!163.com
-    M: NickrenREN
-    S: git
-  B: 0
-  U: NickrenREN
-- E: yuquan.ren!easystack.cn
-  R:
-  - T: "2100-01-01"
-    C: EasyStack
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: EasyStack
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-05-09"
-    C: EasyStack
-    F: "2016-11-21"
-    P: baetyl
-    R: C
-  I:
-  - E: yuquan.ren!easystack.cn
-    M: NickrenREN
-    S: git
-  B: 0
-  U: NickrenREN
-- R:
-  - T: "2100-01-01"
-    C: LetsTalk.nl
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - M: Nicky Gerritsen
-    S: github
-    U: nickygerritsen
-  B: 0
-  U: Nicky Gerritsen
-- E: nicky!streamone.nl
-  R:
-  - T: "2100-01-01"
-    C: LetsTalk.nl
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: nicky!streamone.nl
-    M: Nicky Gerritsen
-    S: git
-  B: 0
-  U: Nicky Gerritsen
-- C: US
-  E: nicky!nickysemenza.com
-  R:
-  - T: "2100-01-01"
-    C: CloudFlare, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: CloudFlare, Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: female
-  I:
-  - E: nicky!nickysemenza.com
-    M: Nicky Semenza
-    S: git
-  - E: nicky!nickysemenza.com
-    M: Nicky Semenza
-    S: github
-    U: nickysemenza
-  B: 0
-  U: Nicky Semenza
-- C: FI
-  E: gmnicke!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Walkbase
-    F: "1900-01-01"
-    P: nats
-    R: C
-  I:
-  - E: gmnicke!gmail.com
-    M: Niclas Jern
-    S: github
-    U: njern
-  B: 0
-  U: Niclas Jern

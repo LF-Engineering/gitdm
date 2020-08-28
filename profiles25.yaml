@@ -1,4 +1,113 @@
 P:
+- E: matej.hasul!gooddata.com
+  R:
+  - T: "2014-02-01"
+    C: EmbedIT
+    F: "1900-01-01"
+    R: C
+  - T: "2014-02-01"
+    C: EmbedIT
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-07-01"
+    C: Independent
+    F: "2014-02-01"
+    R: C
+  - T: "2014-07-01"
+    C: Independent
+    F: "2014-02-01"
+    P: helm
+    R: C
+  - T: "2014-09-01"
+    C: AUTOCONT
+    F: "2014-07-01"
+    R: C
+  - T: "2014-09-01"
+    C: AUTOCONT
+    F: "2014-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: GoodData
+    F: "2014-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: GoodData
+    F: "2014-09-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: matej.hasul!gooddata.com
+    M: matejhasul
+    S: git
+  B: 0
+  U: matejhasul
+- C: PL
+  E: mateusz.j.ciesielski!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/volcano
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: mateusz.j.ciesielski!intel.com
+    M: mateusz-ciesielski
+    S: git
+  - E: mateusz.j.ciesielski!intel.com
+    M: Mateusz Ciesielski
+    S: github
+    U: mateusz-ciesielski
+  B: 0
+  U: mateusz-ciesielski
+- R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  I:
+  - S: github
+    U: mathianasj
+  B: 0
+  U: mathianasj
+- E: mat.bultel!gmail.com
+  R:
+  - T: "2017-09-15"
+    C: Red Hat Inc.
+    F: "2016-01-01"
+    R: C
+  - T: "2017-09-15"
+    C: Red Hat Inc.
+    F: "2016-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: mbultel!redhat.com
+    M: Mathieu Bultel
+    S: git
+  - E: mat.bultel!gmail.com
+    M: mathieu bultel
+    S: git
+  B: 0
+  U: mathieu bultel
 - R:
   - T: "2100-01-01"
     C: ZTE Corporation
@@ -15972,6 +16081,27 @@ P:
     U: parichay12
   B: 0
   U: parichay gupta
+- R:
+  - T: "2016-12-01"
+    C: Makani
+    F: "2016-02-01"
+    P: lfedge/open-horizon
+    R: C
+  - T: "2100-01-01"
+    C: UC Berkeley Electrical Engineering & Computer Sciences (EECS
+    F: "2017-05-01"
+    P: lfedge/open-horizon
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-07-01"
+    P: lfedge/open-horizon
+    R: C
+  I:
+  - S: github
+    U: parisalotfi
+  B: 0
+  U: parisalotfi
 - E: partha.srivathsa!ge.com
   R:
   - T: "2100-01-01"
@@ -62545,131 +62675,3 @@ P:
     S: git
   B: 0
   U: visualapps
-- C: IN
-  E: viswanath.kumarskandpriya!verizon.com
-  R:
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2017-05-05"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2019-05-22"
-    P: oran-sim
-    R: C
-  I:
-  - M: Viswanath KSP
-    S: confluence
-    U: kspviswa
-  - M: Viswanath Kumar Skand Priya
-    S: confluence
-    U: kspviswa-vz
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Viswanath Kumar Skand Priya
-    S: gerrit
-    U: kspviswa-vz
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Viswanath KSP
-    S: git
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Viswanath Kumar Skand Priya
-    S: git
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Kumar Skand Priya, Viswanath V
-    S: groupsio
-  - E: kspviswa.github!gmail.com
-    M: Viswa KSP
-    S: groupsio
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Viswanath Kumar Skand Priya
-    S: groupsio
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Viswanath V Kumar Skand Priya
-    S: groupsio
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: viswanath.kumarskandpriya
-    S: groupsio
-  - M: Viswanath Kumar Skand Priya
-    S: jira
-    U: kspviswa
-  - M: Viswanath Kumar Skand Priya
-    S: jira
-    U: kspviswa-vz
-  - E: kspviswa.github!gmail.com
-    M: Viswanath Kumar Skand Priya
-    S: jira
-    U: kspviswa
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Viswanath Kumar Skand Priya
-    S: jira
-    U: kspviswa-vz
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Kumar Skand Priya, Viswanath V
-    S: pipermail
-  - E: kspviswa.github!gmail.com
-    M: Viswa KSP
-    S: pipermail
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: Viswanath V Kumar Skand Priya
-    S: pipermail
-  - E: viswanath.kumarskandpriya!verizon.com
-    M: viswanath.kumarskandpriya
-    S: pipermail
-  B: 0
-  U: viswanath.kumarskandpriya
