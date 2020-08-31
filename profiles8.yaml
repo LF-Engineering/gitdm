@@ -1,4 +1,41 @@
 P:
+- C: CN
+  E: fenglixa!cn.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: fenglixa!cn.ibm.com
+    M: Francis
+    S: git
+  - E: fenglixa!cn.ibm.com
+    M: fenglixa
+    S: git
+  - E: fenglixa!cn.ibm.com
+    M: Francis
+    S: github
+    U: fenglixa
+  B: 0
+  U: Francis
+- R:
+  - T: "2100-01-01"
+    C: Kii
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - M: Francisco A. Lozano
+    S: github
+    U: flozano
+  B: 0
+  U: Francisco A. Lozano
 - E: flozano!gmail.com
   R:
   - T: "2100-01-01"
