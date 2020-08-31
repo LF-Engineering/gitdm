@@ -5011,6 +5011,18 @@ P:
     U: mikebrule
   B: 0
   U: mikebrule
+- R:
+  - T: "2100-01-01"
+    C: Individual
+    F: "2010-01-01"
+    P: lfedge/open-horizon
+    R: C
+  I:
+  - M: mikechang
+    S: slack
+    U: mjchang
+  B: 0
+  U: mikechang
 - E: mchristi!redhat.com
   R:
   - T: "2100-01-01"
@@ -62743,20 +62755,3 @@ P:
     S: pipermail
   B: 0
   U: vinayak.ram
-- E: vinay.rao!nuagenetworks.net
-  R:
-  - T: "2015-11-26"
-    C: Nuage Networks
-    F: "2015-10-01"
-    R: C
-  - T: "2015-11-26"
-    C: Nuage Networks
-    F: "2015-10-01"
-    P: opnfv
-    R: C
-  I:
-  - E: vinay.rao!nuagenetworks.net
-    M: vinayrao123
-    S: git
-  B: 0
-  U: vinayrao123
