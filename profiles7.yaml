@@ -1,4 +1,149 @@
 P:
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-10-12"
+    C: Red Hat Inc.
+    F: "2018-06-27"
+    R: C
+  S: male
+  I:
+  - M: David Eads
+    S: github
+    U: deads2k
+  B: 0
+  U: David Eads
+- C: US
+  E: deads!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2019-07-10"
+    C: Red Hat Inc.
+    F: "2014-10-08"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: deads!redhat.com
+    M: David Eads
+    S: git
+  - E: deads!redhat.com
+    M: deads2k
+    S: git
+  B: 0
+  U: David Eads
+- C: US
+  E: deads2k!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-12-02"
+    C: Red Hat Inc.
+    F: "2015-11-13"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: deads2k!users.noreply.github.com
+    M: David Eads
+    S: git
+  B: 0
+  U: David Eads
+- R:
+  - T: "2100-01-01"
+    C: BI
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - M: David Eagen
+    S: github
+    U: davideagen
+  B: 0
+  U: David Eagen
+- E: david!eagen.com
+  R:
+  - T: "2100-01-01"
+    C: BI
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - E: david!eagen.com
+    M: David Eagen
+    S: git
+  B: 0
+  U: David Eagen
+- R:
+  - T: "2017-06-10"
+    C: Pivotal
+    F: "2017-05-02"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - M: David Edwards
+    S: github
+    U: davwards
+  - E: dedwards!pivotal.io
+    M: David Edwards
+    S: slack
+    U: davwards
+  B: 0
+  U: David Edwards
+- E: pair+dedwards!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: pair+dedwards!pivotal.io
+    M: David Edwards
+    S: git
+  B: 0
+  U: David Edwards
 - C: "NO"
   R:
   - T: "2014-06-01"
@@ -62572,193 +62717,3 @@ P:
     S: git
   B: 0
   U: Eduardo Arango
-- C: BR
-  E: eduardobaitello!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: eduardobaitello!gmail.com
-    M: Eduardo Baitello
-    S: git
-  - E: eduardobaitello!gmail.com
-    M: Eduardo Baitello
-    S: github
-    U: eduardobaitello
-  B: 0
-  U: Eduardo Baitello
-- E: edu_kueyar!hotmail.com
-  R:
-  - T: "2019-04-01"
-    C: Ajedrez Cuéllar
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2019-05-01"
-    C: GMV
-    F: "2019-04-01"
-    P: grpc
-    R: C
-  - T: "2019-10-01"
-    C: Medefer
-    F: "2019-05-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Totaljobs
-    F: "2019-10-01"
-    P: grpc
-    R: C
-  I:
-  - E: edu_kueyar!hotmail.com
-    M: Eduardo Caceres
-    S: git
-  B: 0
-  U: Eduardo Caceres
-- E: eduherminio!users.noreply.github.com
-  R:
-  - T: "2019-04-01"
-    C: Ajedrez Cuéllar
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2019-05-01"
-    C: GMV
-    F: "2019-04-01"
-    P: grpc
-    R: C
-  - T: "2019-10-01"
-    C: Medefer
-    F: "2019-05-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Totaljobs
-    F: "2019-10-01"
-    P: grpc
-    R: C
-  I:
-  - E: eduherminio!users.noreply.github.com
-    M: Eduardo Cáceres de la Calle
-    S: git
-  B: 0
-  U: Eduardo Cáceres de la Calle
-- C: ES
-  R:
-  - T: "2019-04-01"
-    C: Ajedrez Cuéllar
-    F: "1900-01-01"
-    P: dronecode
-    R: C
-  - T: "2019-04-01"
-    C: Ajedrez Cuéllar
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2019-05-01"
-    C: GMV
-    F: "2019-04-01"
-    P: dronecode
-    R: C
-  - T: "2019-05-01"
-    C: GMV
-    F: "2019-04-01"
-    P: grpc
-    R: C
-  - T: "2019-10-01"
-    C: Medefer
-    F: "2019-05-01"
-    P: dronecode
-    R: C
-  - T: "2019-10-01"
-    C: Medefer
-    F: "2019-05-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Totaljobs
-    F: "2019-10-01"
-    P: dronecode
-    R: C
-  - T: "2100-01-01"
-    C: Totaljobs
-    F: "2019-10-01"
-    P: grpc
-    R: C
-  S: male
-  I:
-  - M: Eduardo Cáceres
-    S: github
-    U: eduherminio
-  B: 0
-  U: Eduardo Cáceres
-- E: eduherminio!users.noreply.github.com
-  R:
-  - T: "2019-04-01"
-    C: Ajedrez Cuéllar
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-05-01"
-    C: GMV
-    F: "2019-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-10-01"
-    C: Medefer
-    F: "2019-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Totaljobs
-    F: "2019-10-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: eduherminio!users.noreply.github.com
-    M: Eduardo Cáceres
-    S: git
-  B: 0
-  U: Eduardo Cáceres
-- C: GB
-  E: edbergavera!gmail.com
-  R:
-  - T: "2017-01-01"
-    C: Upwork
-    F: "1900-01-01"
-    R: C
-  - T: "2017-01-01"
-    C: Upwork
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: BBA Mastro
-    F: "2017-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: BBA Mastro
-    F: "2017-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: edbergavera!gmail.com
-    M: Eduardo D. Bergavera Jr.
-    S: github
-    U: edbergavera
-  B: 0
-  U: Eduardo D. Bergavera Jr.

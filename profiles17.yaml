@@ -1,4 +1,155 @@
 P:
+- C: BE
+  E: de.mey.michiel!gmail.com
+  R:
+  - T: "2015-12-01"
+    C: Storied
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: Storied
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-12-01"
+    C: Storied
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-01-01"
+    C: I The Pocket
+    F: "2015-12-01"
+    R: C
+  - T: "2017-01-01"
+    C: I The Pocket
+    F: "2015-12-01"
+    P: helm
+    R: C
+  - T: "2017-01-01"
+    C: I The Pocket
+    F: "2015-12-01"
+    P: k8s
+    R: C
+  - T: "2017-08-01"
+    C: Flavr
+    F: "2017-01-01"
+    R: C
+  - T: "2017-08-01"
+    C: Flavr
+    F: "2017-01-01"
+    P: helm
+    R: C
+  - T: "2017-08-01"
+    C: Flavr
+    F: "2017-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Poppy Mobility
+    F: "2017-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Poppy Mobility
+    F: "2017-08-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Poppy Mobility
+    F: "2017-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: de.mey.michiel!gmail.com
+    M: Michiel De Mey
+    S: git
+  - E: de.mey.michiel!gmail.com
+    M: Michiel De Mey
+    S: github
+    U: MichielDeMey
+  B: 0
+  U: Michiel De Mey
+- C: AU
+  E: michiel!nosuchtype.com
+  R:
+  - T: "2015-01-01"
+    C: Sense Observation Systems
+    F: "1900-01-01"
+    R: C
+  - T: "2015-01-01"
+    C: Sense Observation Systems
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-06-01"
+    C: Rabobank
+    F: "2015-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Rabobank
+    F: "2015-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-11-01"
+    C: APM Terminals
+    F: "2015-06-01"
+    R: C
+  - T: "2015-11-01"
+    C: APM Terminals
+    F: "2015-06-01"
+    P: fluentd
+    R: C
+  - T: "2016-08-01"
+    C: Independent
+    F: "2015-11-01"
+    R: C
+  - T: "2016-08-01"
+    C: Independent
+    F: "2015-11-01"
+    P: fluentd
+    R: C
+  - T: "2017-03-01"
+    C: Rabobank
+    F: "2016-08-01"
+    R: C
+  - T: "2017-03-01"
+    C: Rabobank
+    F: "2016-08-01"
+    P: fluentd
+    R: C
+  - T: "2019-02-01"
+    C: Shelde
+    F: "2017-03-01"
+    R: C
+  - T: "2019-02-01"
+    C: Shelde
+    F: "2017-03-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Shelde
+    F: "2017-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: DigIO
+    F: "2019-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: DigIO
+    F: "2019-02-01"
+    P: fluentd
+    R: C
+  S: male
+  I:
+  - E: michiel!nosuchtype.com
+    M: Michiel Kalkman
+    S: git
+  - E: michiel!nosuchtype.com
+    M: Michiel Kalkman
+    S: github
+    U: michiel
+  B: 0
+  U: Michiel Kalkman
 - C: AU
   E: mkalkman!shelde.com
   R:
@@ -61945,240 +62096,3 @@ P:
     S: git
   B: 0
   U: Nicolai Schmid
-- C: FR
-  E: nicolai!schmid.uno
-  R:
-  - T: "2016-10-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-10-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-10-01"
-    C: Independent
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2016-10-01"
-    C: Independent
-    F: "1900-01-01"
-    P: telepresence
-    R: C
-  - T: "2017-01-01"
-    C: PPI AG
-    F: "2016-10-01"
-    R: C
-  - T: "2017-01-01"
-    C: PPI AG
-    F: "2016-10-01"
-    P: k8s
-    R: C
-  - T: "2017-01-01"
-    C: PPI AG
-    F: "2016-10-01"
-    P: rook
-    R: C
-  - T: "2017-01-01"
-    C: PPI AG
-    F: "2016-10-01"
-    P: telepresence
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "2017-01-01"
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "2017-01-01"
-    P: k8s
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "2017-01-01"
-    P: rook
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "2017-01-01"
-    P: telepresence
-    R: C
-  - T: "2018-07-01"
-    C: ISEO
-    F: "2018-05-01"
-    R: C
-  - T: "2018-07-01"
-    C: ISEO
-    F: "2018-05-01"
-    P: k8s
-    R: C
-  - T: "2018-07-01"
-    C: ISEO
-    F: "2018-05-01"
-    P: rook
-    R: C
-  - T: "2018-07-01"
-    C: ISEO
-    F: "2018-05-01"
-    P: telepresence
-    R: C
-  - T: "2019-02-01"
-    C: Tecbeast
-    F: "2018-07-01"
-    R: C
-  - T: "2019-02-01"
-    C: Tecbeast
-    F: "2018-07-01"
-    P: k8s
-    R: C
-  - T: "2019-02-01"
-    C: Tecbeast
-    F: "2018-07-01"
-    P: rook
-    R: C
-  - T: "2019-02-01"
-    C: Tecbeast
-    F: "2018-07-01"
-    P: telepresence
-    R: C
-  - T: "2019-03-01"
-    C: Musikum E.V.
-    F: "2019-02-01"
-    R: C
-  - T: "2019-03-01"
-    C: Musikum E.V.
-    F: "2019-02-01"
-    P: k8s
-    R: C
-  - T: "2019-03-01"
-    C: Musikum E.V.
-    F: "2019-02-01"
-    P: rook
-    R: C
-  - T: "2019-03-01"
-    C: Musikum E.V.
-    F: "2019-02-01"
-    P: telepresence
-    R: C
-  - T: "2100-01-01"
-    C: Maon
-    F: "2019-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: Maon
-    F: "2019-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Maon
-    F: "2019-03-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Maon
-    F: "2019-03-01"
-    P: telepresence
-    R: C
-  S: male
-  I:
-  - E: nicolai!schmid.uno
-    M: Nicolai Schmid
-    S: github
-    U: NicolaiSchmid
-  B: 0
-  U: Nicolai Schmid
-- C: "NO"
-  E: nicolai.skogheim!gmail.com
-  R:
-  - T: "2013-12-15"
-    C: Jimmy Royal
-    F: "1900-01-01"
-    R: C
-  - T: "2013-12-15"
-    C: Jimmy Royal
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2013-12-15"
-    C: Jimmy Royal
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2013-12-15"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2013-12-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2013-12-15"
-    P: opentracing
-    R: C
-  S: male
-  I:
-  - E: nicolai.skogheim!gmail.com
-    M: Nicolai Skogheim
-    S: git
-  - E: nicolai.skogheim!gmail.com
-    M: Nicolai Skogheim
-    S: github
-    U: nicolaiskogheim
-  B: 0
-  U: Nicolai Skogheim
-- C: DE
-  E: nicstange!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: nicstange!gmail.com
-    M: Nicolai Stange
-    S: git
-  B: 0
-  U: Nicolai Stange
-- C: DE
-  E: nstange!suse.de
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: nstange!suse.de
-    M: Nicolai Stange
-    S: git
-  B: 0
-  U: Nicolai Stange
-- E: nicolai!vonneudeck.com
-  R:
-  - T: "2100-01-01"
-    C: TalonOne
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: nicolai!vonneudeck.com
-    M: Nicolai von Neudeck
-    S: git
-  B: 0
-  U: Nicolai von Neudeck

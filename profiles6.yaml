@@ -1,4 +1,108 @@
 P:
+- E: 27088+claytono!users.noreply.github.com
+  R:
+  - T: "2016-05-01"
+    C: Time Warner Cable
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-05-01"
+    C: Time Warner Cable
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2018-02-01"
+    C: Charter Communications
+    F: "2016-05-01"
+    P: prometheus
+    R: C
+  - T: "2018-02-01"
+    C: Charter Communications
+    F: "2016-05-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-02-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-02-01"
+    P: thanos
+    R: C
+  I:
+  - E: 27088+claytono!users.noreply.github.com
+    M: Clayton O'Neill
+    S: git
+  B: 0
+  U: Clayton O'Neill
+- C: US
+  R:
+  - T: "2016-05-01"
+    C: Time Warner Cable
+    F: "1900-01-01"
+    R: C
+  - T: "2016-05-01"
+    C: Time Warner Cable
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-05-01"
+    C: Time Warner Cable
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-05-01"
+    C: Time Warner Cable
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2018-02-01"
+    C: Charter Communications
+    F: "2016-05-01"
+    R: C
+  - T: "2018-02-01"
+    C: Charter Communications
+    F: "2016-05-01"
+    P: k8s
+    R: C
+  - T: "2018-02-01"
+    C: Charter Communications
+    F: "2016-05-01"
+    P: prometheus
+    R: C
+  - T: "2018-02-01"
+    C: Charter Communications
+    F: "2016-05-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-02-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-02-01"
+    P: thanos
+    R: C
+  S: male
+  I:
+  - M: Clayton O'Neill
+    S: github
+    U: claytono
+  B: 0
+  U: Clayton O'Neill
 - C: US
   E: clayton!oneill.net
   R:
@@ -62804,148 +62908,3 @@ P:
     S: git
   B: 0
   U: David E. Box
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-10-12"
-    C: Red Hat Inc.
-    F: "2018-06-27"
-    R: C
-  S: male
-  I:
-  - M: David Eads
-    S: github
-    U: deads2k
-  B: 0
-  U: David Eads
-- C: US
-  E: deads!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2019-07-10"
-    C: Red Hat Inc.
-    F: "2014-10-08"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: deads!redhat.com
-    M: David Eads
-    S: git
-  - E: deads!redhat.com
-    M: deads2k
-    S: git
-  B: 0
-  U: David Eads
-- C: US
-  E: deads2k!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-12-02"
-    C: Red Hat Inc.
-    F: "2015-11-13"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: deads2k!users.noreply.github.com
-    M: David Eads
-    S: git
-  B: 0
-  U: David Eads
-- R:
-  - T: "2100-01-01"
-    C: BI
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  I:
-  - M: David Eagen
-    S: github
-    U: davideagen
-  B: 0
-  U: David Eagen
-- E: david!eagen.com
-  R:
-  - T: "2100-01-01"
-    C: BI
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  I:
-  - E: david!eagen.com
-    M: David Eagen
-    S: git
-  B: 0
-  U: David Eagen
-- R:
-  - T: "2017-06-10"
-    C: Pivotal
-    F: "2017-05-02"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - M: David Edwards
-    S: github
-    U: davwards
-  - E: dedwards!pivotal.io
-    M: David Edwards
-    S: slack
-    U: davwards
-  B: 0
-  U: David Edwards
-- E: pair+dedwards!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: pair+dedwards!pivotal.io
-    M: David Edwards
-    S: git
-  B: 0
-  U: David Edwards

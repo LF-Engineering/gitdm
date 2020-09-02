@@ -1,5 +1,72 @@
 P:
 - C: CA
+  R:
+  - T: "2018-07-01"
+    C: Sauce Labs
+    F: "1900-01-01"
+    R: C
+  - T: "2018-07-01"
+    C: Sauce Labs
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2018-07-01"
+    C: Sauce Labs
+    F: "1900-01-01"
+    P: cortex
+    R: C
+  - T: "2018-07-01"
+    C: Sauce Labs
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2018-07-01"
+    C: Sauce Labs
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-07-01"
+    C: Sauce Labs
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Grafana Labs
+    F: "2018-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Grafana Labs
+    F: "2018-07-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Grafana Labs
+    F: "2018-07-01"
+    P: cortex
+    R: C
+  - T: "2100-01-01"
+    C: Grafana Labs
+    F: "2018-07-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Grafana Labs
+    F: "2018-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Grafana Labs
+    F: "2018-07-01"
+    P: thanos
+    R: C
+  S: male
+  I:
+  - M: Callum Styan
+    S: github
+    U: cstyan
+  B: 0
+  U: Callum Styan
+- C: CA
   E: callumstyan!gmail.com
   R:
   - T: "2018-07-01"
@@ -57951,6 +58018,51 @@ P:
     S: git
   B: 0
   U: Chun-Hung Wu
+- E: jacky82226!gmail.com
+  R:
+  - T: "2015-02-01"
+    C: National Taiwan University of Science and Technology
+    F: "2014-09-01"
+    P: lfai-onnx
+    R: C
+  - T: "2015-08-01"
+    C: Trend Micro Incorporated
+    F: "2015-07-01"
+    P: lfai-onnx
+    R: C
+  - T: "2016-02-01"
+    C: National Taiwan University of Science and Technology
+    F: "2015-09-01"
+    P: lfai-onnx
+    R: C
+  - T: "2018-12-01"
+    C: Carnegie Mellon University Silicon Valley
+    F: "2018-08-01"
+    P: lfai-onnx
+    R: C
+  - T: "2019-08-01"
+    C: Microsoft Corporation
+    F: "2019-05-01"
+    P: lfai-onnx
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2020-03-01"
+    P: lfai-onnx
+    R: C
+  I:
+  - E: jacky82226!gmail.com
+    M: Chun-Wei Chen
+    S: git
+  - M: Chun-Wei Chen
+    S: github
+    U: jcwchen
+  - E: jacky82226!gmail.com
+    M: Chun-Wei Chen
+    S: github
+    U: jacky82226
+  B: 0
+  U: Chun-Wei Chen
 - E: yeohchunyeow!cozybit.com
   R:
   - T: "2100-01-01"
@@ -62133,107 +62245,3 @@ P:
     U: smarterclayton
   B: 0
   U: Clayton Coleman
-- E: 27088+claytono!users.noreply.github.com
-  R:
-  - T: "2016-05-01"
-    C: Time Warner Cable
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2016-05-01"
-    C: Time Warner Cable
-    F: "1900-01-01"
-    P: thanos
-    R: C
-  - T: "2018-02-01"
-    C: Charter Communications
-    F: "2016-05-01"
-    P: prometheus
-    R: C
-  - T: "2018-02-01"
-    C: Charter Communications
-    F: "2016-05-01"
-    P: thanos
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-02-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-02-01"
-    P: thanos
-    R: C
-  I:
-  - E: 27088+claytono!users.noreply.github.com
-    M: Clayton O'Neill
-    S: git
-  B: 0
-  U: Clayton O'Neill
-- C: US
-  R:
-  - T: "2016-05-01"
-    C: Time Warner Cable
-    F: "1900-01-01"
-    R: C
-  - T: "2016-05-01"
-    C: Time Warner Cable
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-05-01"
-    C: Time Warner Cable
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2016-05-01"
-    C: Time Warner Cable
-    F: "1900-01-01"
-    P: thanos
-    R: C
-  - T: "2018-02-01"
-    C: Charter Communications
-    F: "2016-05-01"
-    R: C
-  - T: "2018-02-01"
-    C: Charter Communications
-    F: "2016-05-01"
-    P: k8s
-    R: C
-  - T: "2018-02-01"
-    C: Charter Communications
-    F: "2016-05-01"
-    P: prometheus
-    R: C
-  - T: "2018-02-01"
-    C: Charter Communications
-    F: "2016-05-01"
-    P: thanos
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-02-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-02-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-02-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-02-01"
-    P: thanos
-    R: C
-  S: male
-  I:
-  - M: Clayton O'Neill
-    S: github
-    U: claytono
-  B: 0
-  U: Clayton O'Neill

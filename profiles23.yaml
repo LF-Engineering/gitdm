@@ -1,4 +1,213 @@
 P:
+- E: stjepang!gmail.com
+  R:
+  - T: "2014-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2014-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "2014-09-01"
+    P: nats
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "2014-09-01"
+    P: tikv
+    R: C
+  - T: "2015-09-01"
+    C: Jane Street
+    F: "2015-07-01"
+    P: nats
+    R: C
+  - T: "2015-09-01"
+    C: Jane Street
+    F: "2015-07-01"
+    P: tikv
+    R: C
+  - T: "2016-03-01"
+    C: HashCode
+    F: "2015-09-01"
+    P: nats
+    R: C
+  - T: "2016-03-01"
+    C: HashCode
+    F: "2015-09-01"
+    P: tikv
+    R: C
+  - T: "2017-05-01"
+    C: Jargonauts
+    F: "2016-03-01"
+    P: nats
+    R: C
+  - T: "2017-05-01"
+    C: Jargonauts
+    F: "2016-03-01"
+    P: tikv
+    R: C
+  - T: "2019-06-01"
+    C: Independent
+    F: "2017-05-01"
+    P: nats
+    R: C
+  - T: "2019-06-01"
+    C: Independent
+    F: "2017-05-01"
+    P: tikv
+    R: C
+  - T: "2020-03-01"
+    C: Ferrous
+    F: "2019-06-01"
+    P: nats
+    R: C
+  - T: "2020-03-01"
+    C: Ferrous
+    F: "2019-06-01"
+    P: tikv
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2020-03-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2020-03-01"
+    P: tikv
+    R: C
+  I:
+  - E: stjepang!gmail.com
+    M: Stjepan Glavina
+    S: git
+  - E: stjepang!gmail.com
+    M: Stjepan Glavina
+    S: github
+    U: stjepang
+  B: 0
+  U: Stjepan Glavina
+- E: cosmin.stoica!nxp.com
+  R:
+  - T: "2100-01-01"
+    C: NXP Semiconductors Netherlands B.V.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: cosmin.stoica!nxp.com
+    M: Stoica Cosmin-Stefan
+    S: git
+  B: 0
+  U: Stoica Cosmin-Stefan
+- E: corneliux.stoicescu!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2012-08-27"
+    P: yocto
+    R: C
+  I:
+  - E: corneliux.stoicescu!intel.com
+    S: bugzilla
+    U: corneliux.stoicescu
+  - M: Stoicescu COrnel
+    S: bugzilla
+    U: stoicescu_cornel
+  - M: Stoicescu Cornel
+    S: bugzilla
+    U: corneliux.stoicescu
+  - E: corneliux.stoicescu!intel.com
+    M: Stoicescu Cornel
+    S: bugzilla
+    U: corneliux.stoicescu
+  - E: corneliux.stoicescu!intel.com
+    M: Cornel Stoicescu
+    S: git
+  - E: corneliux.stoicescu!intel.com
+    M: Corneliu Stoicescu
+    S: git
+  - E: corneliux.stoicescu!intel.com
+    M: Corneliu Stoicescu
+    S: groupsio
+  - E: corneliux.stoicescu!intel.com
+    M: Stoicescu Cornel
+    S: groupsio
+  - E: corneliux.stoicescu!intel.com
+    M: Stoicescu, CorneliuX
+    S: groupsio
+  - E: corneliux.stoicescu!intel.com
+    M: Corneliu Stoicescu
+    S: pipermail
+  - E: corneliux.stoicescu!intel.com
+    M: Stoicescu Cornel
+    S: pipermail
+  - E: corneliux.stoicescu!intel.com
+    M: Stoicescu, CorneliuX
+    S: pipermail
+  B: 0
+  U: Stoicescu, CorneliuX
+- C: PL
+  E: dariuszx.stojaczyk!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2018-11-27"
+    C: Intel Corporation
+    F: "2017-05-11"
+    P: data-plane-development-kit/dpdk
+    R: C
+  - T: "2018-11-27"
+    C: Intel Corporation
+    F: "2017-05-11"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2018-10-30"
+    C: Intel Corporation
+    F: "2017-05-26"
+    P: dpdk-draft
+    R: C
+  - T: "2018-10-30"
+    C: Intel Corporation
+    F: "2017-05-26"
+    P: dpdk-next
+    R: C
+  S: male
+  I:
+  - E: dariuszx.stojaczyk!intel.com
+    M: Dariusz Stojaczyk
+    S: git
+  - E: dariuszx.stojaczyk!intel.com
+    M: Dariusz Stojaczyk
+    S: pipermail
+  - E: dariuszx.stojaczyk!intel.com
+    M: Stojaczyk, DariuszX
+    S: pipermail
+  B: 0
+  U: Stojaczyk, DariuszX
+- E: 676580030!qq.com
+  R:
+  - T: "2100-01-01"
+    C: eBay, Inc.
+    F: "1900-01-01"
+    P: argo
+    R: C
+  I:
+  - E: 676580030!qq.com
+    M: StoneHuang
+    S: git
+  - E: 676580030!qq.com
+    M: StoneHuang
+    S: github
+    U: StoneRelax
+  B: 0
+  U: StoneHuang
 - E: stoyan.gradev!sap.com
   R:
   - T: "2100-01-01"
@@ -61920,50 +62129,3 @@ P:
     S: git
   B: 0
   U: Todd Lyons
-- E: todd.malsbary!linux.intel.com
-  R:
-  - T: "2003-03-01"
-    C: Interactive Objects
-    F: "1999-08-01"
-    P: akraino
-    R: C
-  - T: "2007-12-01"
-    C: Open Interface North America
-    F: "2003-03-01"
-    P: akraino
-    R: C
-  - T: "2010-04-01"
-    C: MOD Systems
-    F: "2008-01-01"
-    P: akraino
-    R: C
-  - T: "2016-01-01"
-    C: Qualcomm
-    F: "2010-04-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2016-02-01"
-    P: akraino
-    R: C
-  I:
-  - E: todd.malsbary!intel.com
-    M: Todd Malsbary
-    S: confluence
-    U: todd.malsbary
-  - E: todd.malsbary!intel.com
-    M: Todd Malsbary
-    S: gerrit
-    U: todd.malsbary
-  - E: tmalsbar!qce.qualcomm.com
-    M: Todd Malsbary
-    S: git
-  - E: todd.malsbary!linux.intel.com
-    M: Todd Malsbary
-    S: git
-  - M: Todd Malsbary
-    S: jira
-    U: todd.malsbary
-  B: 0
-  U: Todd Malsbary

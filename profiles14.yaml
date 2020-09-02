@@ -1,5 +1,159 @@
 P:
 - C: US
+  R:
+  - T: "2015-12-01"
+    C: NuoDB
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: NuoDB
+    F: "1900-01-01"
+    P: falco
+    R: C
+  - T: "2015-12-01"
+    C: NuoDB
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: draios
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2015-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2015-12-01"
+    P: falco
+    R: C
+  - T: "2100-01-01"
+    C: Sysdig
+    F: "2015-12-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Knox
+    S: github
+    U: KnoxAnderson
+  B: 0
+  U: Knox
+- C: DE
+  E: github-pub!luzifer.io
+  R:
+  - T: "2017-06-01"
+    C: Jimdo
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-01"
+    C: Jimdo
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-09-01"
+    C: RISK IDENT
+    F: "2017-06-01"
+    R: C
+  - T: "2017-09-01"
+    C: RISK IDENT
+    F: "2017-06-01"
+    P: prometheus
+    R: C
+  - T: "2018-03-01"
+    C: ABOUT YOU
+    F: "2017-09-01"
+    R: C
+  - T: "2018-03-01"
+    C: ABOUT YOU
+    F: "2017-09-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Contentflow
+    F: "2018-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Contentflow
+    F: "2018-03-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: github-pub!luzifer.io
+    M: Knut Ahlers
+    S: github
+    U: Luzifer
+  B: 0
+  U: Knut Ahlers
+- E: knut.omang!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-10-19"
+    C: Oracle America Inc.
+    F: "2012-12-18"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: knut.omang!oracle.com
+    M: Knut Omang
+    S: git
+  B: 0
+  U: Knut Omang
+- E: knut.wohlrab!de.bosch.com
+  R:
+  - T: "2100-01-01"
+    C: Bosch
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: knut.wohlrab!de.bosch.com
+    M: Knut Wohlrab
+    S: git
+  B: 0
+  U: Knut Wohlrab
+- E: kobayashi.da-06!fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: kobayashi.da-06!fujitsu.com
+    M: Kobayashi Daisuke
+    S: git
+  - E: kobayashi.da-06!fujitsu.com
+    M: Kobayashi Daisuke
+    S: github
+    U: KobayashiD27
+  B: 0
+  U: Kobayashi Daisuke
+- E: kobe-cp.wu!mediatek.com
+  R:
+  - T: "2100-01-01"
+    C: MediaTek, Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: kobe-cp.wu!mediatek.com
+    M: Kobe Wu
+    S: git
+  B: 0
+  U: Kobe Wu
+- C: US
   E: kobi.c.f!gmail.com
   R:
   - T: "2015-04-01"
@@ -61518,148 +61672,3 @@ P:
     S: git
   B: 0
   U: Lukas Wöhrl
-- E: lukas.woehrl!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: lukas.woehrl!microsoft.com
-    M: Lukas Wöhrl
-    S: github
-    U: woehrl01
-  B: 0
-  U: Lukas Wöhrl
-- E: lzap+git!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: lzap+git!redhat.com
-    M: Lukas Zapletal
-    S: git
-  B: 0
-  U: Lukas Zapletal
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2019-09-26"
-    P: lfai-onnx
-    R: C
-  S: male
-  I:
-  - M: Lukas
-    S: github
-    U: lukasheinrich
-  B: 0
-  U: Lukas
-- C: US
-  E: lhampe!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: lhampe!users.noreply.github.com
-    M: Lukas
-    S: git
-  B: 0
-  U: Lukas
-- R:
-  - T: "2015-12-01"
-    C: JBoss
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-12-01"
-    C: JBoss
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2018-11-01"
-    C: Tibco
-    F: "2015-12-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2018-11-01"
-    C: Tibco
-    F: "2015-12-01"
-    P: etcd
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-11-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-11-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2019-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2019-01-01"
-    P: etcd
-    R: C
-  I:
-  - M: Lukasz Antoniak
-    S: github
-    U: lukasz-antoniak
-  B: 0
-  U: Lukasz Antoniak
-- E: lbartosik!marvell.com
-  R:
-  - T: "2100-01-01"
-    C: Marvell
-    F: "2019-04-30"
-    P: data-plane-development-kit/dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Marvell
-    F: "2019-04-30"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Marvell
-    F: "2019-05-29"
-    P: dpdk-next
-    R: C
-  I:
-  - E: lbartosik!marvell.com
-    M: Lukasz Bartosik
-    S: git
-  - E: lbartosik!marvell.com
-    M: Lukas Bartosik
-    S: pipermail
-  - E: lbartosik!marvell.com
-    M: Lukasz Bartosik
-    S: pipermail
-  B: 0
-  U: Lukasz Bartosik
