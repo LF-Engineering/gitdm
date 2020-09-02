@@ -1,4 +1,131 @@
 P:
+- E: pkepka!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: pkepka!google.com
+    M: Paweł Kępka
+    S: git
+  B: 0
+  U: Paweł Kępka
+- E: pawelx.niedzwiecki!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  I:
+  - E: pawelx.niedzwiecki!intel.com
+    M: Pawel Niedzwiecki
+    S: git
+  - E: pawelx.niedzwiecki!intel.com
+    M: Paweł Niedźwiecki
+    S: git
+  B: 0
+  U: Paweł Niedźwiecki
+- C: PL
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Paweł Oczadły
+    S: github
+    U: paweloczadly
+  B: 0
+  U: Paweł Oczadły
+- C: PL
+  E: paweloczadly!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: paweloczadly!gmail.com
+    M: Paweł Oczadły
+    S: git
+  B: 0
+  U: Paweł Oczadły
+- E: pawel.piskorski!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: pawel.piskorski!intel.com
+    M: Paweł Piskorski
+    S: git
+  B: 0
+  U: Paweł Piskorski
+- C: PL
+  E: pawel.poskrobko!icloud.com
+  R:
+  - T: "2015-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Microsoft Corporation
+    F: "2015-02-01"
+    P: helm
+    R: C
+  - T: "2017-05-01"
+    C: e-point SA
+    F: "2015-06-01"
+    P: helm
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "2017-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2017-10-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: pawel.poskrobko!icloud.com
+    M: Paweł Poskrobko
+    S: git
+  - E: pawel.poskrobko!icloud.com
+    M: Paweł Poskrobko
+    S: github
+    U: pposkrobko
+  B: 0
+  U: Paweł Poskrobko
 - R:
   - T: "2014-05-01"
     C: Fast White
@@ -61384,76 +61511,3 @@ P:
     S: pipermail
   B: 0
   U: Ramajayam, Yugeraj
-- E: ramakanth.muthyala!emc.com
-  R:
-  - T: "2016-05-17"
-    C: EMC
-    F: "2016-03-03"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - M: Ramakanth Muthyala
-    S: github
-    U: rama78
-  - E: ramakanth.muthyala!emc.com
-    M: Ramakanth Muthyala
-    S: github
-    U: rama78
-  B: 0
-  U: Ramakanth Muthyala
-- E: ramakrishnagp!aarnanetworks.com
-  R:
-  - T: "2100-01-01"
-    C: Aarna Networks
-    F: "2020-06-07"
-    P: onap
-    R: C
-  I:
-  - E: ramakrishnagp!aarnanetworks.com
-    M: Ramakrishna G P
-    S: gerrit
-    U: ramagp
-  - E: ramakrishnagp!aarnanetworks.com
-    M: ramagp
-    S: git
-  - M: Ramakrishna G P
-    S: jira
-    U: ramagp
-  - E: ramakrishnagp!aarnanetworks.com
-    M: Ramakrishna G P
-    S: jira
-    U: ramagp
-  B: 0
-  U: Ramakrishna G P
-- E: ramakrishna.pallala!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-03-30"
-    C: Intel Corporation
-    F: "2017-08-28"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: ramakrishna.pallala!intel.com
-    M: Ramakrishna Pallala
-    S: git
-  B: 0
-  U: Ramakrishna Pallala
-- E: rreddy!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: rreddy!redhat.com
-    M: Ramakrishna Reddy Yekulla
-    S: git
-  B: 0
-  U: Ramakrishna Reddy Yekulla
