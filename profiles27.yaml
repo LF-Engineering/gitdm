@@ -1,4 +1,73 @@
 P:
+- E: zhongming.chang!daocloud.io
+  R:
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: d7y
+    R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  I:
+  - E: zhongming.chang!daocloud.io
+    M: AllenZMC
+    S: git
+  - E: zhongming.chang!daocloud.io
+    M: czm
+    S: git
+  - E: zhongming.chang!daocloud.io
+    M: 常仲民
+    S: git
+  B: 0
+  U: czm
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - S: github
+    U: czoellin
+  B: 0
+  U: czoellin
 - E: cao.zou!windriver.com
   R:
   - T: "2015-07-16"
@@ -63275,44 +63344,3 @@ P:
     U: laurian
   B: 0
   U: laurian
-- R:
-  - T: "2017-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-07-01"
-    C: FZI
-    F: "2017-11-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-08-01"
-    C: drivEddy
-    F: "2018-07-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-12-01"
-    C: Independent
-    F: "2018-08-01"
-    P: cncf/k3s
-    R: C
-  - T: "2019-03-01"
-    C: lawpilots
-    F: "2018-12-01"
-    P: cncf/k3s
-    R: C
-  - T: "2019-11-01"
-    C: Independent
-    F: "2019-03-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: PwC
-    F: "2019-11-01"
-    P: cncf/k3s
-    R: C
-  I:
-  - S: github
-    U: laurids-reichardt
-  B: 0
-  U: laurids-reichardt

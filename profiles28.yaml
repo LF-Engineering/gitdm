@@ -1,4 +1,45 @@
 P:
+- R:
+  - T: "2017-11-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-07-01"
+    C: FZI
+    F: "2017-11-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-08-01"
+    C: drivEddy
+    F: "2018-07-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-12-01"
+    C: Independent
+    F: "2018-08-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-03-01"
+    C: lawpilots
+    F: "2018-12-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-11-01"
+    C: Independent
+    F: "2019-03-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: PwC
+    F: "2019-11-01"
+    P: cncf/k3s
+    R: C
+  I:
+  - S: github
+    U: laurids-reichardt
+  B: 0
+  U: laurids-reichardt
 - E: lau.sena.gabriel!gmail.com
   R:
   - T: "2016-02-01"
@@ -63291,23 +63332,6 @@ P:
     M: myufei
     S: git
   - E: myufei!vmware.com
-    M: sigsbee
-    S: git
-  B: 0
-  U: sigsbee
-- E: zrst!sina.com
-  R:
-  - T: "2100-01-01"
-    C: Sina
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Sina
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  I:
-  - E: zrst!sina.com
     M: sigsbee
     S: git
   B: 0

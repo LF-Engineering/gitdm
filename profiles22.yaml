@@ -1,4 +1,51 @@
 P:
+- E: shannon.nelson!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: shannon.nelson!intel.com
+    M: Nelson, Shannon
+    S: git
+  - E: shannon.nelson!intel.com
+    M: Shannon Nelson
+    S: git
+  B: 0
+  U: Shannon Nelson
+- E: shannon.nelson!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: shannon.nelson!oracle.com
+    M: Shannon Nelson
+    S: git
+  B: 0
+  U: Shannon Nelson
+- C: CN
+  E: shannon.zhao!linaro.org
+  R:
+  - T: "2100-01-01"
+    C: Linaro Limited
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-21"
+    C: Linaro Limited
+    F: "2015-04-02"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: shannon.zhao!linaro.org
+    M: Shannon Zhao
+    S: git
+  B: 0
+  U: Shannon Zhao
 - C: CN
   E: zhaoshenglong!huawei.com
   R:
@@ -20549,6 +20596,29 @@ P:
     S: git
   B: 0
   U: Simen Tinderholt
+- E: sdmonov!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: International Business Machines Corporation (IBM)
+    F: "2017-09-01"
+    P: lfai-onnx
+    R: C
+  I:
+  - E: sdmonov!us.ibm.com
+    M: Simeon Monov
+    S: git
+  - E: smonov!gmail.com
+    M: Simeon Monov
+    S: git
+  - M: Simeon Monov
+    S: github
+    U: sdmonov
+  - E: smonov!gmail.com
+    M: Simeon Monov
+    S: github
+    U: sdmonov
+  B: 0
+  U: Simeon Monov
 - R:
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -61244,135 +61314,3 @@ P:
     S: git
   B: 0
   U: Stewart-YU
-- C: "NO"
-  E: sovrevage!gmail.com
-  R:
-  - T: "2016-08-01"
-    C: Peritus
-    F: "1900-01-01"
-    R: C
-  - T: "2016-08-01"
-    C: Peritus
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2016-08-01"
-    C: Peritus
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2016-08-01"
-    C: Peritus
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-08-01"
-    C: Peritus
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-08-01"
-    C: Peritus
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2016-08-01"
-    C: Peritus
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2018-04-01"
-    C: DataDynamics
-    F: "2016-08-01"
-    R: C
-  - T: "2018-04-01"
-    C: DataDynamics
-    F: "2016-08-01"
-    P: argo
-    R: C
-  - T: "2018-04-01"
-    C: DataDynamics
-    F: "2016-08-01"
-    P: harbor
-    R: C
-  - T: "2018-04-01"
-    C: DataDynamics
-    F: "2016-08-01"
-    P: helm
-    R: C
-  - T: "2018-04-01"
-    C: DataDynamics
-    F: "2016-08-01"
-    P: k8s
-    R: C
-  - T: "2018-04-01"
-    C: DataDynamics
-    F: "2016-08-01"
-    P: prometheus
-    R: C
-  - T: "2018-04-01"
-    C: DataDynamics
-    F: "2016-08-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: K30
-    F: "2018-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: K30
-    F: "2018-04-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: K30
-    F: "2018-04-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: K30
-    F: "2018-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: K30
-    F: "2018-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: K30
-    F: "2018-04-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: K30
-    F: "2018-04-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: sovrevage!gmail.com
-    M: Stian Ovrevage
-    S: git
-  - E: sovrevage!gmail.com
-    M: Stian Øvrevåge
-    S: git
-  - E: sovrevage!gmail.com
-    M: Stian Øvrevåge
-    S: github
-    U: StianOvrevage
-  B: 0
-  U: Stian Øvrevåge
-- E: dennis!yuneecresearch.com
-  R:
-  - T: "2019-08-01"
-    C: Yuneec Research
-    F: "2019-07-30"
-    P: dronecode
-    R: C
-  I:
-  - E: dennis!yuneecresearch.com
-    M: Stifael
-    S: git
-  B: 0
-  U: Stifael
