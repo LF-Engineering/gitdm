@@ -56,12 +56,12 @@ P:
   - T: "2100-01-01"
     C: Ericsson AB
     F: "2014-12-09"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Ericsson AB
     F: "2014-12-09"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: andras.kovacs!ericsson.com
@@ -737,12 +737,12 @@ P:
   - T: "2100-01-01"
     C: Tencent Holdings Limited
     F: "2018-12-09"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Tencent Holdings Limited
     F: "2018-12-09"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: 1534898891!qq.com
@@ -1036,12 +1036,22 @@ P:
   - T: "2015-11-01"
     C: PLUMgrid
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2015-11-01"
+    C: PLUMgrid
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
     F: "2015-11-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2015-11-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
@@ -1063,12 +1073,22 @@ P:
   - T: "2015-11-01"
     C: PLUMgrid
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2015-11-01"
+    C: PLUMgrid
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
     F: "2015-11-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2015-11-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
@@ -1457,6 +1477,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-08-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-08-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -1709,6 +1734,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -1971,6 +2001,11 @@ P:
     C: Analog Devices
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Analog Devices
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Analog Devices
@@ -3300,6 +3335,11 @@ P:
     F: "1900-01-01"
     P: cncf/shared
     R: C
+  - T: "2100-01-01"
+    C: Pengutronix
+    F: "1900-01-01"
+    P: korg
+    R: C
   I:
   - E: u.kleine-koenig!pengutronix.de
     M: =?utf-8?q?Uwe=20Kleine-K=C3=B6nig?=
@@ -4452,6 +4492,11 @@ P:
   - T: "2100-01-01"
     C: InfluxData
     F: "2018-11-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: InfluxData
+    F: "2018-11-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -4658,12 +4703,12 @@ P:
   - T: "2017-08-15"
     C: Intel Corporation
     F: "2017-01-06"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-08-15"
     C: Intel Corporation
     F: "2017-01-06"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-06-24"
     C: Intel Corporation
@@ -4959,6 +5004,11 @@ P:
     C: Red Hat Inc.
     F: "2018-07-01"
     P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2018-07-01"
+    P: k8s
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -5287,6 +5337,11 @@ P:
   - T: "2017-05-01"
     C: Independent
     F: "2016-08-01"
+    P: korg
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-08-01"
     P: zep
     R: C
   - T: "2018-05-01"
@@ -5318,6 +5373,11 @@ P:
     C: NVIDIA Corporation
     F: "2018-05-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "2018-05-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: NVIDIA Corporation
@@ -5534,12 +5594,12 @@ P:
   - T: "2015-05-02"
     C: Nokia Corporation
     F: "2014-08-26"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-05-02"
     C: Nokia Corporation
     F: "2014-08-26"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   S: male
   I:
@@ -5586,6 +5646,11 @@ P:
   - T: "2100-01-01"
     C: Nokia Corporation
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -5611,12 +5676,12 @@ P:
   - T: "2014-08-30"
     C: Nokia Corporation
     F: "2014-02-04"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2014-08-30"
     C: Nokia Corporation
     F: "2014-02-04"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2014-08-30"
     C: Nokia Corporation
@@ -5836,12 +5901,12 @@ P:
   - T: "2015-08-01"
     C: Azimuth
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-08-01"
     C: Azimuth
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2015-08-01"
     C: Azimuth
@@ -5856,12 +5921,12 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -5881,6 +5946,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-08-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-08-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -5891,12 +5961,12 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-08-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-08-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -7664,6 +7734,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-03-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-03-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
@@ -7924,6 +7999,11 @@ P:
   - T: "2100-01-01"
     C: NVIDIA Corporation
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -7956,6 +8036,11 @@ P:
   - T: "2100-01-01"
     C: SAP
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -7970,6 +8055,11 @@ P:
     C: SAP
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: SAP
@@ -8422,6 +8512,11 @@ P:
     C: Extreme Engineering Solutions
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Extreme Engineering Solutions
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Extreme Engineering Solutions
@@ -9118,12 +9213,12 @@ P:
   - T: "2014-10-01"
     C: Cisco Systems Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2014-10-01"
     C: Cisco Systems Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2014-10-01"
     C: Cisco Systems Inc.
@@ -9213,12 +9308,12 @@ P:
   - T: "2014-11-01"
     C: MarkedUp
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2014-11-01"
     C: MarkedUp
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2014-11-01"
     C: MarkedUp
@@ -9308,12 +9403,12 @@ P:
   - T: "2015-01-01"
     C: Teladoc Health
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-01-01"
     C: Teladoc Health
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2015-01-01"
     C: Teladoc Health
@@ -9398,12 +9493,12 @@ P:
   - T: "2015-04-01"
     C: Design Ventures
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-04-01"
     C: Design Ventures
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2015-04-01"
     C: Design Ventures
@@ -9493,12 +9588,12 @@ P:
   - T: "2015-05-15"
     C: MIT
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-05-15"
     C: MIT
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2015-05-15"
     C: MIT
@@ -9578,12 +9673,12 @@ P:
   - T: "2015-08-01"
     C: Azimuth
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-08-01"
     C: Azimuth
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2015-08-01"
     C: Azimuth
@@ -9668,12 +9763,12 @@ P:
   - T: "2015-08-01"
     C: KeyW
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-08-01"
     C: KeyW
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2015-08-01"
     C: KeyW
@@ -9763,12 +9858,12 @@ P:
   - T: "2016-03-01"
     C: Rackspace
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-03-01"
     C: Rackspace
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-03-01"
     C: Rackspace
@@ -9853,12 +9948,12 @@ P:
   - T: "2016-05-01"
     C: Code42
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-05-01"
     C: Code42
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-05-01"
     C: Code42
@@ -9948,12 +10043,12 @@ P:
   - T: "2016-05-01"
     C: Independent
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-05-01"
     C: Independent
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-05-01"
     C: Independent
@@ -10038,12 +10133,12 @@ P:
   - T: "2016-09-01"
     C: VMware, Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-09-01"
     C: VMware, Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-09-01"
     C: VMware, Inc.
@@ -10133,12 +10228,12 @@ P:
   - T: "2016-11-01"
     C: CloudGenera
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-11-01"
     C: CloudGenera
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-11-01"
     C: CloudGenera
@@ -10223,12 +10318,12 @@ P:
   - T: "2017-03-01"
     C: HPE
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-03-01"
     C: HPE
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-03-01"
     C: HPE
@@ -10313,12 +10408,12 @@ P:
   - T: "2017-08-01"
     C: DocuSign
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-08-01"
     C: DocuSign
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-08-01"
     C: DocuSign
@@ -10403,12 +10498,12 @@ P:
   - T: "2018-02-01"
     C: Alkami Technology
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-02-01"
     C: Alkami Technology
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2018-02-01"
     C: Alkami Technology
@@ -10498,12 +10593,12 @@ P:
   - T: "2100-01-01"
     C: AT&T Services, Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: AT&T Services, Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: AT&T Services, Inc.
@@ -10593,12 +10688,12 @@ P:
   - T: "2100-01-01"
     C: Analog Devices
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Analog Devices
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Analog Devices
@@ -10683,12 +10778,12 @@ P:
   - T: "2100-01-01"
     C: Arista Networks
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Arista Networks
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Arista Networks
@@ -10773,12 +10868,12 @@ P:
   - T: "2100-01-01"
     C: Booz Allen Hamilton
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Booz Allen Hamilton
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Booz Allen Hamilton
@@ -10863,12 +10958,12 @@ P:
   - T: "2100-01-01"
     C: Databricks
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Databricks
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Databricks
@@ -10953,12 +11048,12 @@ P:
   - T: "2100-01-01"
     C: Diffeo
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Diffeo
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Diffeo
@@ -11043,12 +11138,12 @@ P:
   - T: "2100-01-01"
     C: Element Analytics
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Element Analytics
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Element Analytics
@@ -11133,12 +11228,12 @@ P:
   - T: "2100-01-01"
     C: Facebook, Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
@@ -11228,12 +11323,12 @@ P:
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Google
@@ -11318,12 +11413,12 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -11403,12 +11498,12 @@ P:
   - T: "2100-01-01"
     C: Logic Supply
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Logic Supply
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Logic Supply
@@ -11493,12 +11588,12 @@ P:
   - T: "2100-01-01"
     C: Mother Earth
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Mother Earth
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Mother Earth
@@ -11583,12 +11678,12 @@ P:
   - T: "2100-01-01"
     C: Outwide
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Outwide
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Outwide
@@ -11668,12 +11763,12 @@ P:
   - T: "2100-01-01"
     C: Pivotal
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Pivotal
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Pivotal
@@ -11758,12 +11853,12 @@ P:
   - T: "2100-01-01"
     C: Return Path
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Return Path
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Return Path
@@ -11848,12 +11943,12 @@ P:
   - T: "2100-01-01"
     C: SGI
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: SGI
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: SGI
@@ -11933,12 +12028,12 @@ P:
   - T: "2100-01-01"
     C: Sicortex
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Sicortex
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Sicortex
@@ -12023,12 +12118,12 @@ P:
   - T: "2100-01-01"
     C: Square, Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Square, Inc.
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Square, Inc.
@@ -12113,12 +12208,12 @@ P:
   - T: "2100-01-01"
     C: Superpixel
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Superpixel
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Superpixel
@@ -12203,12 +12298,12 @@ P:
   - T: "2100-01-01"
     C: Symphony Software Foundation
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Symphony Software Foundation
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Symphony Software Foundation
@@ -12298,12 +12393,12 @@ P:
   - T: "2100-01-01"
     C: Twitter
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Twitter
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Twitter
@@ -12388,12 +12483,12 @@ P:
   - T: "2100-01-01"
     C: US National Security Agency
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: US National Security Agency
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: US National Security Agency
@@ -12478,12 +12573,12 @@ P:
   - T: "2100-01-01"
     C: ZJU-SEL
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: ZJU-SEL
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: ZJU-SEL
@@ -12568,12 +12663,12 @@ P:
   - T: "2100-01-01"
     C: base2Services
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: base2Services
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: base2Services
@@ -12688,12 +12783,12 @@ P:
   - T: "2016-10-01"
     C: Rangle
     F: "2014-08-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-10-01"
     C: Rangle
     F: "2014-08-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-10-01"
     C: Rangle
@@ -12783,12 +12878,12 @@ P:
   - T: "2017-04-01"
     C: YPlan
     F: "2014-12-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-04-01"
     C: YPlan
     F: "2014-12-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-04-01"
     C: YPlan
@@ -12878,12 +12973,12 @@ P:
   - T: "2100-01-01"
     C: LendKey
     F: "2015-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: LendKey
     F: "2015-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: LendKey
@@ -12973,12 +13068,12 @@ P:
   - T: "2100-01-01"
     C: Petabridge
     F: "2015-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Petabridge
     F: "2015-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Petabridge
@@ -13068,12 +13163,12 @@ P:
   - T: "2017-01-01"
     C: Dynamic
     F: "2015-04-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-01-01"
     C: Dynamic
     F: "2015-04-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-01-01"
     C: Dynamic
@@ -13163,12 +13258,12 @@ P:
   - T: "2016-04-15"
     C: ADP
     F: "2015-05-15"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-04-15"
     C: ADP
     F: "2015-05-15"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-04-15"
     C: ADP
@@ -13258,12 +13353,12 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2015-08-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: IBM
     F: "2015-08-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -13353,12 +13448,12 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-08-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-08-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -13448,12 +13543,12 @@ P:
   - T: "2017-08-01"
     C: DigitalOcean
     F: "2016-03-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-08-01"
     C: DigitalOcean
     F: "2016-03-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-08-01"
     C: DigitalOcean
@@ -13543,12 +13638,12 @@ P:
   - T: "2016-08-01"
     C: Cerner Corporation
     F: "2016-05-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-08-01"
     C: Cerner Corporation
     F: "2016-05-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-08-01"
     C: Cerner Corporation
@@ -13638,12 +13733,12 @@ P:
   - T: "2019-02-01"
     C: YA | Engage
     F: "2016-05-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2019-02-01"
     C: YA | Engage
     F: "2016-05-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2019-02-01"
     C: YA | Engage
@@ -13733,12 +13828,12 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "2016-08-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Independent
     F: "2016-08-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -13828,12 +13923,12 @@ P:
   - T: "2100-01-01"
     C: PostMunk
     F: "2016-09-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: PostMunk
     F: "2016-09-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: PostMunk
@@ -13923,12 +14018,12 @@ P:
   - T: "2017-03-01"
     C: Planswell
     F: "2016-10-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-03-01"
     C: Planswell
     F: "2016-10-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-03-01"
     C: Planswell
@@ -14018,12 +14113,12 @@ P:
   - T: "2017-05-01"
     C: Puppet
     F: "2016-11-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-05-01"
     C: Puppet
     F: "2016-11-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-05-01"
     C: Puppet
@@ -14113,12 +14208,12 @@ P:
   - T: "2100-01-01"
     C: Rocket.Chat
     F: "2017-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Rocket.Chat
     F: "2017-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Rocket.Chat
@@ -14208,12 +14303,12 @@ P:
   - T: "2100-01-01"
     C: SUSE LLC
     F: "2017-03-02"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
     F: "2017-03-02"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
@@ -14298,12 +14393,12 @@ P:
   - T: "2018-09-01"
     C: Weaveworks
     F: "2017-04-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-09-01"
     C: Weaveworks
     F: "2017-04-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2018-09-01"
     C: Weaveworks
@@ -14388,12 +14483,12 @@ P:
   - T: "2100-01-01"
     C: Cerner Corporation
     F: "2017-04-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Cerner Corporation
     F: "2017-04-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Cerner Corporation
@@ -14483,12 +14578,12 @@ P:
   - T: "2018-08-01"
     C: Docker, Inc.
     F: "2017-05-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-08-01"
     C: Docker, Inc.
     F: "2017-05-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2018-08-01"
     C: Docker, Inc.
@@ -14578,12 +14673,12 @@ P:
   - T: "2100-01-01"
     C: Sensu
     F: "2017-08-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Sensu
     F: "2017-08-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Sensu
@@ -14668,12 +14763,12 @@ P:
   - T: "2018-10-01"
     C: Source Allies
     F: "2018-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-10-01"
     C: Source Allies
     F: "2018-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2018-10-01"
     C: Source Allies
@@ -14763,12 +14858,12 @@ P:
   - T: "2100-01-01"
     C: Lumina Digital
     F: "2018-02-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Lumina Digital
     F: "2018-02-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Lumina Digital
@@ -14858,12 +14953,12 @@ P:
   - T: "2018-10-01"
     C: Hamilton
     F: "2018-04-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-10-01"
     C: Hamilton
     F: "2018-04-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2018-10-01"
     C: Hamilton
@@ -14948,12 +15043,12 @@ P:
   - T: "2100-01-01"
     C: VMware, Inc.
     F: "2018-08-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
     F: "2018-08-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
@@ -15038,12 +15133,12 @@ P:
   - T: "2100-01-01"
     C: Thread
     F: "2018-09-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Thread
     F: "2018-09-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Thread
@@ -15128,12 +15223,12 @@ P:
   - T: "2100-01-01"
     C: Two Chairs
     F: "2018-10-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Two Chairs
     F: "2018-10-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Two Chairs
@@ -15218,12 +15313,12 @@ P:
   - T: "2100-01-01"
     C: WealthyPlanet
     F: "2018-10-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: WealthyPlanet
     F: "2018-10-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: WealthyPlanet
@@ -15308,12 +15403,12 @@ P:
   - T: "2100-01-01"
     C: Movable Ink
     F: "2019-02-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Movable Ink
     F: "2019-02-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Movable Ink
@@ -15408,12 +15503,12 @@ P:
   - T: "2020-02-02"
     C: ZEDEDA
     F: "2019-08-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2020-02-02"
     C: ZEDEDA
     F: "2019-08-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2020-02-02"
     C: ZEDEDA
@@ -15528,12 +15623,12 @@ P:
   - T: "2100-01-01"
     C: The Linux Foundation
     F: "2020-02-03"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: The Linux Foundation
     F: "2020-02-03"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: The Linux Foundation
@@ -15687,6 +15782,11 @@ P:
   U: Aaron Williams
 - C: US
   R:
+  - T: "2100-01-01"
+    C: Verizon Communications
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
   - T: "2100-01-01"
     C: Verizon Communications
     F: "1900-01-01"
@@ -16881,12 +16981,12 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2019-08-27"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2019-08-27"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   S: male
   I:
@@ -16936,6 +17036,19 @@ P:
     S: pipermail
   B: 0
   U: Abdul Halim
+- E: hafizabdul_karim!mentor.com
+  R:
+  - T: "2100-01-01"
+    C: Mentor Graphics Corporation
+    F: "2017-08-01"
+    P: yocto
+    R: C
+  I:
+  - E: hafizabdul_karim!mentor.com
+    M: Abdul Karim
+    S: git
+  B: 0
+  U: Abdul Karim
 - C: PK
   E: abdulraufmujahid!gmail.com
   R:
@@ -17014,6 +17127,11 @@ P:
     F: "2014-10-01"
     P: kernelci
     R: C
+  - T: "2017-10-01"
+    C: Netsol
+    F: "2014-10-01"
+    P: korg
+    R: C
   - T: "2100-01-01"
     C: Red Math
     F: "2017-10-01"
@@ -17048,6 +17166,11 @@ P:
     C: Red Math
     F: "2017-10-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Red Math
+    F: "2017-10-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: Red Math
@@ -18292,12 +18415,12 @@ P:
   - T: "2100-01-01"
     C: Tata Consultancy Services
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Tata Consultancy Services
     F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Tata Consultancy Services
@@ -18307,12 +18430,12 @@ P:
   - T: "2017-09-01"
     C: Tata Consultancy Services
     F: "2010-02-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-09-01"
     C: Tata Consultancy Services
     F: "2010-02-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-09-01"
     C: Tata Consultancy Services
@@ -18322,12 +18445,12 @@ P:
   - T: "2100-01-01"
     C: Cisco Systems Inc.
     F: "2017-10-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Cisco Systems Inc.
     F: "2017-10-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Cisco Systems Inc.
@@ -20249,6 +20372,11 @@ P:
   - T: "2016-11-01"
     C: Dell
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2016-11-01"
+    C: Dell
+    F: "1900-01-01"
     P: cni
     R: C
   - T: "2016-11-01"
@@ -20335,6 +20463,11 @@ P:
     C: DataSine
     F: "2016-11-01"
     P: helm
+    R: C
+  - T: "2100-01-01"
+    C: DataSine
+    F: "2016-11-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: DataSine
@@ -21458,12 +21591,12 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2019-09-19"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2019-09-19"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: Abhishek.Marathe!microsoft.com
@@ -21571,12 +21704,12 @@ P:
   - T: "2100-01-01"
     C: Altran
     F: "2019-08-19"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Altran
     F: "2019-08-19"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Altran
@@ -23503,6 +23636,11 @@ P:
   - T: "2100-01-01"
     C: Mellanox Technologies, Ltd
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -24230,6 +24368,70 @@ P:
     S: git
   B: 0
   U: Adam Borowski
+- E: aboscarino!devoted.com
+  R:
+  - T: "2009-03-01"
+    C: Travelers
+    F: "2005-06-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2010-03-01"
+    C: Byrne Healthcare
+    F: "2009-06-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2011-05-01"
+    C: Oco
+    F: "2010-03-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2012-05-01"
+    C: Deloitte
+    F: "2011-05-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2016-01-01"
+    C: Carbonite
+    F: "2012-05-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2017-03-01"
+    C: Fitbit
+    F: "2016-01-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2017-11-01"
+    C: Carbonite
+    F: "2017-03-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2018-12-01"
+    C: DigitalOcean
+    F: "2017-11-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2019-06-01"
+    C: Promoboxx
+    F: "2018-12-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Devoted Health
+    F: "2019-03-01"
+    P: lfai/amundsen
+    R: C
+  I:
+  - E: aboscarino!devoted.com
+    M: Adam Boscarino
+    S: git
+  - E: ajboscarino!gmail.com
+    M: Adam Boscarino
+    S: git
+  - M: Adam Boscarino
+    S: github
+    U: ajbosco
+  B: 0
+  U: Adam Boscarino
 - R:
   - T: "2014-07-01"
     C: Independent
@@ -25077,6 +25279,11 @@ P:
     C: Google
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Google
@@ -28353,6 +28560,11 @@ P:
   - T: "2100-01-01"
     C: SUSE LLC
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -30405,6 +30617,11 @@ P:
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
     F: "2018-03-21"
     P: opencolorio
     R: C
@@ -31862,6 +32079,11 @@ P:
   - T: "2100-01-01"
     C: OctoML
     F: "2020-02-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: OctoML
+    F: "2020-02-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -32057,6 +32279,11 @@ P:
   - T: "2100-01-01"
     C: Cloudbase Solutions
     F: "2017-11-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Cloudbase Solutions
+    F: "2017-11-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
@@ -32142,6 +32369,11 @@ P:
     C: Cloudbase Solutions
     F: "2017-11-01"
     P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Cloudbase Solutions
+    F: "2017-11-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: Cloudbase Solutions
@@ -32250,12 +32482,12 @@ P:
   - T: "2019-05-30"
     C: Mellanox Technologies, Ltd
     F: "2019-05-19"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2019-05-30"
     C: Mellanox Technologies, Ltd
     F: "2019-05-19"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2019-05-30"
     C: Mellanox Technologies, Ltd
@@ -33280,6 +33512,11 @@ P:
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
@@ -33542,6 +33779,11 @@ P:
   - T: "2100-01-01"
     C: Yahoo! Inc.
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Yahoo! Inc.
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -33560,6 +33802,11 @@ P:
   - T: "2100-01-01"
     C: Yahoo! Inc.
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Yahoo! Inc.
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -33573,6 +33820,11 @@ P:
     C: Microsoft Corporation
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
@@ -34997,6 +35249,11 @@ P:
   - T: "2100-01-01"
     C: Secretlab
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Secretlab
+    F: "1900-01-01"
     P: elisa
     R: C
   - T: "2100-01-01"
@@ -35640,6 +35897,11 @@ P:
     F: "1900-01-01"
     P: kernelci
     R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: korg
+    R: C
   - T: "2018-01-07"
     C: CERN
     F: "2016-12-15"
@@ -35731,6 +35993,11 @@ P:
     C: SUSE LLC
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
@@ -35833,6 +36100,11 @@ P:
     C: Google
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Google
@@ -36322,12 +36594,12 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2019-09-06"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2019-09-06"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -37245,6 +37517,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -38351,12 +38628,12 @@ P:
   - T: "2100-01-01"
     C: 6WIND S.A.
     F: "2012-07-30"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: 6WIND S.A.
     F: "2012-07-30"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: 6WIND S.A.
@@ -38401,6 +38678,11 @@ P:
     C: LSE
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2016-02-01"
+    C: LSE
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2016-02-01"
     C: LSE
@@ -39154,12 +39436,12 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2018-06-28"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2018-06-28"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -39390,12 +39672,12 @@ P:
   - T: "2100-01-01"
     C: Ericsson AB
     F: "2017-12-05"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Ericsson AB
     F: "2017-12-05"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: agota.benyhe!ericsson.com
@@ -39751,6 +40033,10 @@ P:
     M: Ahila P
     S: confluence
     U: ahilap
+  - E: ahila.pandaram!wipro.com
+    M: Ahila P
+    S: gerrit
+    U: ahilap
   - M: Ahila P
     S: jira
     U: ahilap
@@ -39884,6 +40170,11 @@ P:
     C: Pengutronix
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Pengutronix
+    F: "1900-01-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: Pengutronix
@@ -40855,12 +41146,12 @@ P:
   - T: "2018-03-15"
     C: NXP Semiconductors Netherlands B.V.
     F: "2017-12-18"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-03-15"
     C: NXP Semiconductors Netherlands B.V.
     F: "2017-12-18"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: ahmed.mansour!nxp.com
@@ -41583,6 +41874,11 @@ P:
   - T: "2100-01-01"
     C: Google
     F: "2016-12-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-12-01"
     P: iovisor/iovisor
     R: C
   - T: "2100-01-01"
@@ -41869,6 +42165,11 @@ P:
   B: 0
   U: Aidan McGinley
 - R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
   - T: "2100-01-01"
     C: Pivotal
     F: "1900-01-01"
@@ -43525,6 +43826,14 @@ P:
     F: "2016-12-31"
     P: ursa
     R: C
+  - T: "2100-01-01"
+    C: AyanWorks
+    F: "2019-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Blockster Labs
+    F: "2019-06-01"
+    R: C
   I:
   - M: Ajay Jadhav (AyanWorks)
     S: confluence
@@ -43538,13 +43847,26 @@ P:
   - M: Ajay Jadhav
     S: confluence
     U: jadhavajay
+  - E: ajay!ayanworks.com
+    M: Ajay Jadhav
+    S: confluence
+    U: ajayjadhav
   - E: jadhavajay!gmail.com
     M: Ajay Jadhav
     S: git
   - M: Ajay Jadhav
     S: github
     U: jadhavajay
+  - E: ajay!ayanworks.com
+    M: Ajay Jadhav (AyanWorks)
+    S: groupsio
+  - E: ajay!ayanworks.com
+    M: Ajay Jadhav
+    S: groupsio
   - S: rocketchat
+    U: ajayjadhav
+  - M: Ajay Jadhav
+    S: rocketchat
     U: ajayjadhav
   - M: Ajay Jadhav
     S: rocketchat
@@ -43963,12 +44285,12 @@ P:
   - T: "2017-09-27"
     C: Cisco Systems Inc.
     F: "2016-02-28"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-09-27"
     C: Cisco Systems Inc.
     F: "2016-02-28"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: ajgill!cisco.com
@@ -44759,12 +45081,12 @@ P:
   - T: "2100-01-01"
     C: Cavium
     F: "2018-10-11"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Cavium
     F: "2018-10-11"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2018-12-20"
     C: Cavium
@@ -45274,12 +45596,12 @@ P:
   - T: "2100-01-01"
     C: NXP Semiconductors Netherlands B.V.
     F: "2016-07-18"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: NXP Semiconductors Netherlands B.V.
     F: "2016-07-18"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2019-04-24"
     C: NXP Semiconductors Netherlands B.V.
@@ -46608,12 +46930,12 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-06-13"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: IBM
     F: "2016-06-13"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: ZRLKOS!ch.ibm.com
@@ -46919,6 +47241,11 @@ P:
     C: Timesys Corporation
     F: "2015-03-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Timesys Corporation
+    F: "2015-03-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Timesys Corporation
@@ -48163,6 +48490,11 @@ P:
   - T: "2100-01-01"
     C: Cypress
     F: "2016-07-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Cypress
+    F: "2016-07-01"
     P: zep
     R: C
   S: male
@@ -48492,12 +48824,12 @@ P:
   - T: "2014-12-13"
     C: Intel Corporation
     F: "2014-03-27"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2014-12-13"
     C: Intel Corporation
     F: "2014-03-27"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2014-12-06"
     C: Intel Corporation
@@ -48786,12 +49118,12 @@ P:
   - T: "2017-02-15"
     C: Brocade Communications Systems LLC
     F: "2017-02-06"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-02-15"
     C: Brocade Communications Systems LLC
     F: "2017-02-06"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: adewar!brocade.com
@@ -49513,6 +49845,11 @@ P:
   - T: "2100-01-01"
     C: Oracle America Inc.
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -49672,6 +50009,11 @@ P:
     C: SoftIron
     F: "2015-09-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: SoftIron
+    F: "2015-09-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: SoftIron
@@ -50132,12 +50474,12 @@ P:
   - T: "2016-12-10"
     C: Brocade Communications Systems LLC
     F: "2016-12-07"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-12-10"
     C: Brocade Communications Systems LLC
     F: "2016-12-07"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: aroberts!Brocade.com
@@ -50227,12 +50569,12 @@ P:
   - T: "2017-09-14"
     C: FreeBSD
     F: "2017-07-27"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-09-14"
     C: FreeBSD
     F: "2017-07-27"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   S: male
   I:
@@ -50944,6 +51286,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -51061,6 +51408,11 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2015-12-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-12-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -51077,6 +51429,11 @@ P:
     C: IBM
     F: "2015-12-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-12-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -51244,12 +51601,22 @@ P:
   - T: "2019-02-01"
     C: G-Research
     F: "2017-03-01"
+    P: iovisor
+    R: C
+  - T: "2019-02-01"
+    C: G-Research
+    F: "2017-03-01"
     P: iovisor/iovisor
     R: C
   - T: "2100-01-01"
     C: Yellowbrick Data
     F: "2019-02-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Yellowbrick Data
+    F: "2019-02-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Yellowbrick Data
@@ -51277,12 +51644,22 @@ P:
   - T: "2017-03-01"
     C: Cisco Systems Inc.
     F: "2016-02-01"
+    P: iovisor
+    R: C
+  - T: "2017-03-01"
+    C: Cisco Systems Inc.
+    F: "2016-02-01"
     P: iovisor/iovisor
     R: C
   - T: "2019-02-01"
     C: G-Research
     F: "2017-03-01"
     P: cncf/shared
+    R: C
+  - T: "2019-02-01"
+    C: G-Research
+    F: "2017-03-01"
+    P: iovisor
     R: C
   - T: "2019-02-01"
     C: G-Research
@@ -51293,6 +51670,11 @@ P:
     C: Yellowbrick Data
     F: "2019-02-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Yellowbrick Data
+    F: "2019-02-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Yellowbrick Data
@@ -51320,12 +51702,22 @@ P:
   - T: "2017-03-01"
     C: Cisco Systems Inc.
     F: "2016-02-01"
+    P: iovisor
+    R: C
+  - T: "2017-03-01"
+    C: Cisco Systems Inc.
+    F: "2016-02-01"
     P: iovisor/iovisor
     R: C
   - T: "2019-02-01"
     C: G-Research
     F: "2017-03-01"
     P: cncf/shared
+    R: C
+  - T: "2019-02-01"
+    C: G-Research
+    F: "2017-03-01"
+    P: iovisor
     R: C
   - T: "2019-02-01"
     C: G-Research
@@ -51336,6 +51728,11 @@ P:
     C: Yellowbrick Data
     F: "2019-02-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Yellowbrick Data
+    F: "2019-02-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Yellowbrick Data
@@ -51560,6 +51957,11 @@ P:
   - T: "2100-01-01"
     C: Basetis
     F: "2017-05-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Basetis
+    F: "2017-05-01"
     P: iovisor/iovisor
     R: C
   - T: "2100-01-01"
@@ -51591,6 +51993,11 @@ P:
   - T: "2100-01-01"
     C: Avionic Design GmbH
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Avionic Design GmbH
+    F: "1900-01-01"
     P: cni
     R: C
   - T: "2100-01-01"
@@ -51616,6 +52023,11 @@ P:
     C: Avionic Design GmbH
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Avionic Design GmbH
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Avionic Design GmbH
@@ -51987,12 +52399,22 @@ P:
   - T: "2100-01-01"
     C: Kinvolk GmbH
     F: "2015-08-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Kinvolk GmbH
+    F: "2015-08-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
     C: Kinvolk GmbH
     F: "2015-08-01"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Kinvolk GmbH
+    F: "2015-08-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: Kinvolk GmbH
@@ -52028,6 +52450,11 @@ P:
     C: Kinvolk GmbH
     F: "2015-08-01"
     P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Kinvolk GmbH
+    F: "2015-08-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Kinvolk GmbH
@@ -52113,6 +52540,11 @@ P:
     C: Collabora
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2014-11-01"
+    C: Collabora
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2014-11-01"
     C: Collabora
@@ -52531,6 +52963,11 @@ P:
     C: Verse Technologies
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Verse Technologies
+    F: "1900-01-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: Verse Technologies
@@ -53148,6 +53585,11 @@ P:
     C: Igalia
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Igalia
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Igalia
@@ -54114,6 +54556,11 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -54538,12 +54985,12 @@ P:
   - T: "2013-12-01"
     C: Parallels
     F: "2000-10-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2013-12-01"
     C: Parallels
     F: "2000-10-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2013-12-01"
     C: Parallels
@@ -54553,12 +55000,12 @@ P:
   - T: "2014-10-01"
     C: Synchronoss Technologies, Inc.
     F: "2014-07-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2014-10-01"
     C: Synchronoss Technologies, Inc.
     F: "2014-07-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2014-10-01"
     C: Synchronoss Technologies, Inc.
@@ -54568,12 +55015,12 @@ P:
   - T: "2020-02-01"
     C: F5 Networks, Inc.
     F: "2014-11-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2020-02-01"
     C: F5 Networks, Inc.
     F: "2014-11-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2020-02-01"
     C: F5 Networks, Inc.
@@ -54593,12 +55040,12 @@ P:
   - T: "2100-01-01"
     C: Zulily
     F: "2020-03-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Zulily
     F: "2020-03-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Zulily
@@ -55431,6 +55878,21 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2014-08-01"
+    P: dronecode
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-08-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-08-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-08-01"
     P: yocto
     R: C
   - T: "2020-01-31"
@@ -55871,12 +56333,12 @@ P:
   - T: "2100-01-01"
     C: Netronome Systems, Inc.
     F: "2014-08-21"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Netronome Systems, Inc.
     F: "2014-08-21"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2019-04-13"
     C: Netronome Systems, Inc.
@@ -56119,6 +56581,11 @@ P:
     C: NodeConf
     F: "2015-11-01"
     P: cncf/shared
+    R: C
+  - T: "2018-06-01"
+    C: NodeConf
+    F: "2015-11-01"
+    P: iovisor
     R: C
   - T: "2018-06-01"
     C: NodeConf
@@ -56423,6 +56890,11 @@ P:
   - T: "2100-01-01"
     C: Datto
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Datto
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   - T: "2100-01-01"
@@ -56438,6 +56910,11 @@ P:
   U: Alek P
 - E: alek-p!users.noreply.github.com
   R:
+  - T: "2100-01-01"
+    C: Datto
+    F: "1900-01-01"
+    P: iovisor
+    R: C
   - T: "2100-01-01"
     C: Datto
     F: "1900-01-01"
@@ -56671,12 +57148,22 @@ P:
   - T: "2100-01-01"
     C: SUSE LLC
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
     F: "1900-01-01"
     P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
@@ -57224,12 +57711,12 @@ P:
   - T: "2017-02-11"
     C: Intel Corporation
     F: "2017-02-07"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-02-11"
     C: Intel Corporation
     F: "2017-02-07"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-02-11"
     C: Intel Corporation
@@ -57303,6 +57790,11 @@ P:
     C: Aleksander
     F: "2014-02-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Aleksander
+    F: "2014-02-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Aleksander
@@ -57432,6 +57924,11 @@ P:
     C: EKE Group
     F: "2009-09-16"
     P: cephfoundation
+    R: C
+  - T: "2011-07-23"
+    C: EKE Group
+    F: "2009-09-16"
+    P: cip
     R: C
   - T: "2011-07-23"
     C: EKE Group
@@ -57680,34 +58177,6 @@ P:
     U: seleznev
   B: 0
   U: Aleksandr Seleznev
-- E: candiduslynx!gmail.com
-  R:
-  - T: "2017-10-01"
-    C: Dell EMC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-12-01"
-    C: YADRO
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Yandex
-    F: "2018-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Yandex
-    F: "2018-12-01"
-    P: jenkins
-    R: C
-  I:
-  - E: candiduslynx!gmail.com
-    M: Aleksandr Shcherbakov
-    S: git
-  B: 0
-  U: Aleksandr Shcherbakov
 - C: UA
   E: alexandrst88!gmail.com
   R:
@@ -60393,6 +60862,11 @@ P:
   - T: "2100-01-01"
     C: Elettra
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Elettra
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -60699,6 +61173,11 @@ P:
   - T: "2100-01-01"
     C: Linaro Limited
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Linaro Limited
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -60742,6 +61221,11 @@ P:
     C: SUSE LLC
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
@@ -60853,6 +61337,11 @@ P:
     C: Mountstephen Advisers LLP
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2017-02-01"
+    C: Mountstephen Advisers LLP
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2017-02-01"
     C: Mountstephen Advisers LLP
@@ -60981,6 +61470,11 @@ P:
   - T: "2100-01-01"
     C: wellcometrust
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: wellcometrust
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
@@ -61084,439 +61578,3 @@ P:
     U: "182976055"
   B: 0
   U: Alex Chan
-- C: IL
-  E: alexettelis!gmail.com
-  R:
-  - T: "2015-02-01"
-    C: IDF
-    F: "1900-01-01"
-    R: C
-  - T: "2015-02-01"
-    C: IDF
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2015-02-01"
-    C: IDF
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-02-01"
-    C: IDF
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2015-04-01"
-    C: Independent
-    F: "2015-02-01"
-    R: C
-  - T: "2015-04-01"
-    C: Independent
-    F: "2015-02-01"
-    P: envoy
-    R: C
-  - T: "2015-04-01"
-    C: Independent
-    F: "2015-02-01"
-    P: k8s
-    R: C
-  - T: "2015-04-01"
-    C: Independent
-    F: "2015-02-01"
-    P: prometheus
-    R: C
-  - T: "2017-05-01"
-    C: Active
-    F: "2015-04-01"
-    R: C
-  - T: "2017-05-01"
-    C: Active
-    F: "2015-04-01"
-    P: envoy
-    R: C
-  - T: "2017-05-01"
-    C: Active
-    F: "2015-04-01"
-    P: k8s
-    R: C
-  - T: "2017-05-01"
-    C: Active
-    F: "2015-04-01"
-    P: prometheus
-    R: C
-  - T: "2018-02-01"
-    C: Independent
-    F: "2017-05-01"
-    R: C
-  - T: "2018-02-01"
-    C: Independent
-    F: "2017-05-01"
-    P: envoy
-    R: C
-  - T: "2018-02-01"
-    C: Independent
-    F: "2017-05-01"
-    P: k8s
-    R: C
-  - T: "2018-02-01"
-    C: Independent
-    F: "2017-05-01"
-    P: prometheus
-    R: C
-  - T: "2019-12-01"
-    C: Zeekit
-    F: "2018-02-01"
-    R: C
-  - T: "2019-12-01"
-    C: Zeekit
-    F: "2018-02-01"
-    P: envoy
-    R: C
-  - T: "2019-12-01"
-    C: Zeekit
-    F: "2018-02-01"
-    P: k8s
-    R: C
-  - T: "2019-12-01"
-    C: Zeekit
-    F: "2018-02-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Outbrain
-    F: "2019-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: Outbrain
-    F: "2019-12-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Outbrain
-    F: "2019-12-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Outbrain
-    F: "2019-12-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - E: alexettelis!gmail.com
-    M: Alex Chaplianka
-    S: github
-    U: aclowkey
-  B: 0
-  U: Alex Chaplianka
-- R:
-  - T: "2015-10-01"
-    C: NuoDB
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-01"
-    C: NuoDB
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  - T: "2100-01-01"
-    C: HubSpot
-    F: "2015-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: HubSpot
-    F: "2015-10-01"
-    P: vitess
-    R: C
-  S: male
-  I:
-  - M: Alex Charis
-    S: github
-    U: acharis
-  B: 0
-  U: Alex Charis
-- E: acharis!hubspot.com
-  R:
-  - T: "2015-10-01"
-    C: NuoDB
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-01"
-    C: NuoDB
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  - T: "2100-01-01"
-    C: HubSpot
-    F: "2015-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: HubSpot
-    F: "2015-10-01"
-    P: vitess
-    R: C
-  S: male
-  I:
-  - E: acharis!hubspot.com
-    M: Alex Charis
-    S: git
-  B: 0
-  U: Alex Charis
-- R:
-  - T: "2100-01-01"
-    C: Klick Health
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Alex Chesser
-    S: github
-    U: AlexChesser
-  B: 0
-  U: Alex Chesser
-- C: CA
-  E: alex.chesser!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Klick Health
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Klick Health
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Klick Health
-    F: "2015-11-20"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: alex.chesser!gmail.com
-    M: Alex Chesser
-    S: git
-  B: 0
-  U: Alex Chesser
-- E: achiang!hp.com
-  R:
-  - T: "2100-01-01"
-    C: HP
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: achiang!hp.com
-    M: Alex Chiang
-    S: git
-  B: 0
-  U: Alex Chiang
-- E: alex.ba.chin!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: cni
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2013-10-30"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: female
-  I:
-  - E: achin!pivotal.io
-    M: Angela Chin
-    S: git
-  - E: alex.ba.chin!gmail.com
-    M: Alex Chin
-    S: github
-    U: achin
-  - E: achin!pivotal.io
-    M: Angela Chin
-    S: groupsio
-  - E: achin!pivotal.io
-    M: Angela Chin
-    S: slack
-    U: achin
-  B: 0
-  U: Alex Chin
-- R:
-  - T: "2014-01-01"
-    C: Gazprom
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2015-11-01"
-    C: CloudTalent an Avanade Company
-    F: "2014-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: StorageOS
-    F: "2015-11-01"
-    P: cncf
-    R: C
-  I:
-  - M: Alex Chircop
-    S: github
-    U: chira001
-  B: 0
-  U: Alex Chircop
-- E: chira001!users.noreply.github.com
-  R:
-  - T: "2014-01-01"
-    C: Gazprom
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2015-11-01"
-    C: CloudTalent an Avanade Company
-    F: "2014-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: StorageOS
-    F: "2015-11-01"
-    P: cncf
-    R: C
-  I:
-  - E: chira001!users.noreply.github.com
-    M: Alex Chircop
-    S: git
-  B: 0
-  U: Alex Chircop
-- E: alex.ciocan!ownzones.com
-  R:
-  - T: "2100-01-01"
-    C: Ownzones
-    F: "2019-09-20"
-    P: opencolorio
-    R: C
-  - T: "2100-01-01"
-    C: Ownzones
-    F: "2019-09-20"
-    P: opencue
-    R: C
-  - T: "2100-01-01"
-    C: Ownzones
-    F: "2019-09-20"
-    P: openexr
-    R: C
-  I:
-  - E: alex.ciocan!ownzones.com
-    M: Alex Ciocan
-    S: slack
-    U: alex.ciocan
-  B: 0
-  U: Alex Ciocan
-- E: alexander_clark!comcast.com
-  R:
-  - T: "2100-01-01"
-    C: Comcast
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: alexander_clark!comcast.com
-    M: Alex Clark
-    S: slack
-    U: alexander_clark
-  B: 0
-  U: Alex Clark
-- C: US
-  E: clemmer.alexander!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  S: male
-  I:
-  - E: clemmer.alexander!gmail.com
-    M: Alex Clemmer
-    S: git
-  - E: clemmer.alexander!gmail.com
-    M: Alex Clemmer
-    S: github
-    U: hausdorff
-  - E: clemmer.alexander!gmail.com
-    M: Alex Clemmer
-    S: slack
-    U: clemmer.alexander
-  B: 0
-  U: Alex Clemmer
-- C: GB
-  R:
-  - T: "2016-04-01"
-    C: Gamesys
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intuit, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intuit, Inc.
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Intuit, Inc.
-    F: "1900-01-01"
-    P: cncf/chaosmesh
-    R: C
-  - T: "2100-01-01"
-    C: Intuit, Inc.
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Intuit, Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Intuit, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-05-01"
-    C: HM Revenue & Customs
-    F: "2016-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intuit, Inc.
-    F: "2017-05-01"
-    R: C
-  S: male
-  I:
-  - M: Alex Collins
-    S: github
-    U: alexec
-  B: 0
-  U: Alex Collins

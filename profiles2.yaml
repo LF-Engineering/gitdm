@@ -1,4 +1,445 @@
 P:
+- C: IL
+  E: alexettelis!gmail.com
+  R:
+  - T: "2015-02-01"
+    C: IDF
+    F: "1900-01-01"
+    R: C
+  - T: "2015-02-01"
+    C: IDF
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2015-02-01"
+    C: IDF
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-02-01"
+    C: IDF
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2015-02-01"
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2015-02-01"
+    P: envoy
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2015-02-01"
+    P: k8s
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2015-02-01"
+    P: prometheus
+    R: C
+  - T: "2017-05-01"
+    C: Active
+    F: "2015-04-01"
+    R: C
+  - T: "2017-05-01"
+    C: Active
+    F: "2015-04-01"
+    P: envoy
+    R: C
+  - T: "2017-05-01"
+    C: Active
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2017-05-01"
+    C: Active
+    F: "2015-04-01"
+    P: prometheus
+    R: C
+  - T: "2018-02-01"
+    C: Independent
+    F: "2017-05-01"
+    R: C
+  - T: "2018-02-01"
+    C: Independent
+    F: "2017-05-01"
+    P: envoy
+    R: C
+  - T: "2018-02-01"
+    C: Independent
+    F: "2017-05-01"
+    P: k8s
+    R: C
+  - T: "2018-02-01"
+    C: Independent
+    F: "2017-05-01"
+    P: prometheus
+    R: C
+  - T: "2019-12-01"
+    C: Zeekit
+    F: "2018-02-01"
+    R: C
+  - T: "2019-12-01"
+    C: Zeekit
+    F: "2018-02-01"
+    P: envoy
+    R: C
+  - T: "2019-12-01"
+    C: Zeekit
+    F: "2018-02-01"
+    P: k8s
+    R: C
+  - T: "2019-12-01"
+    C: Zeekit
+    F: "2018-02-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Outbrain
+    F: "2019-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: Outbrain
+    F: "2019-12-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Outbrain
+    F: "2019-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Outbrain
+    F: "2019-12-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: alexettelis!gmail.com
+    M: Alex Chaplianka
+    S: github
+    U: aclowkey
+  B: 0
+  U: Alex Chaplianka
+- R:
+  - T: "2015-10-01"
+    C: NuoDB
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: NuoDB
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: HubSpot
+    F: "2015-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: HubSpot
+    F: "2015-10-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - M: Alex Charis
+    S: github
+    U: acharis
+  B: 0
+  U: Alex Charis
+- E: acharis!hubspot.com
+  R:
+  - T: "2015-10-01"
+    C: NuoDB
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: NuoDB
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: HubSpot
+    F: "2015-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: HubSpot
+    F: "2015-10-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: acharis!hubspot.com
+    M: Alex Charis
+    S: git
+  B: 0
+  U: Alex Charis
+- R:
+  - T: "2100-01-01"
+    C: Klick Health
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Alex Chesser
+    S: github
+    U: AlexChesser
+  B: 0
+  U: Alex Chesser
+- C: CA
+  E: alex.chesser!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Klick Health
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Klick Health
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Klick Health
+    F: "2015-11-20"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: alex.chesser!gmail.com
+    M: Alex Chesser
+    S: git
+  B: 0
+  U: Alex Chesser
+- E: achiang!hp.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: achiang!hp.com
+    M: Alex Chiang
+    S: git
+  B: 0
+  U: Alex Chiang
+- E: alex.ba.chin!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cni
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2013-10-30"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: female
+  I:
+  - E: achin!pivotal.io
+    M: Angela Chin
+    S: git
+  - E: alex.ba.chin!gmail.com
+    M: Alex Chin
+    S: github
+    U: achin
+  - E: achin!pivotal.io
+    M: Angela Chin
+    S: groupsio
+  - E: achin!pivotal.io
+    M: Angela Chin
+    S: slack
+    U: achin
+  B: 0
+  U: Alex Chin
+- R:
+  - T: "2014-01-01"
+    C: Gazprom
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-11-01"
+    C: CloudTalent an Avanade Company
+    F: "2014-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: StorageOS
+    F: "2015-11-01"
+    P: cncf
+    R: C
+  I:
+  - M: Alex Chircop
+    S: github
+    U: chira001
+  B: 0
+  U: Alex Chircop
+- E: chira001!users.noreply.github.com
+  R:
+  - T: "2014-01-01"
+    C: Gazprom
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-11-01"
+    C: CloudTalent an Avanade Company
+    F: "2014-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: StorageOS
+    F: "2015-11-01"
+    P: cncf
+    R: C
+  I:
+  - E: chira001!users.noreply.github.com
+    M: Alex Chircop
+    S: git
+  B: 0
+  U: Alex Chircop
+- E: alex.ciocan!ownzones.com
+  R:
+  - T: "2100-01-01"
+    C: Ownzones
+    F: "2019-09-20"
+    P: opencolorio
+    R: C
+  - T: "2100-01-01"
+    C: Ownzones
+    F: "2019-09-20"
+    P: opencue
+    R: C
+  - T: "2100-01-01"
+    C: Ownzones
+    F: "2019-09-20"
+    P: openexr
+    R: C
+  I:
+  - E: alex.ciocan!ownzones.com
+    M: Alex Ciocan
+    S: slack
+    U: alex.ciocan
+  B: 0
+  U: Alex Ciocan
+- E: alexander_clark!comcast.com
+  R:
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: alexander_clark!comcast.com
+    M: Alex Clark
+    S: slack
+    U: alexander_clark
+  B: 0
+  U: Alex Clark
+- C: US
+  E: clemmer.alexander!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/contour
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  S: male
+  I:
+  - E: clemmer.alexander!gmail.com
+    M: Alex Clemmer
+    S: git
+  - E: clemmer.alexander!gmail.com
+    M: Alex Clemmer
+    S: github
+    U: hausdorff
+  - E: clemmer.alexander!gmail.com
+    M: Alex Clemmer
+    S: slack
+    U: clemmer.alexander
+  B: 0
+  U: Alex Clemmer
+- C: GB
+  R:
+  - T: "2016-04-01"
+    C: Gamesys
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "1900-01-01"
+    P: cncf/chaosmesh
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-05-01"
+    C: HM Revenue & Customs
+    F: "2016-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "2017-05-01"
+    R: C
+  S: male
+  I:
+  - M: Alex Collins
+    S: github
+    U: alexec
+  B: 0
+  U: Alex Collins
 - C: GB
   E: alex_collins!intuit.com
   R:
@@ -225,6 +666,11 @@ P:
     C: Google
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: Google
@@ -1535,12 +1981,17 @@ P:
   - T: "2100-01-01"
     C: Facebook, Inc.
     F: "2015-03-13"
-    P: data-plane-development-kit/dpdk
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
     F: "2015-03-13"
     P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2015-03-13"
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
@@ -1613,6 +2064,11 @@ P:
     C: Rackspace
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: Rackspace
@@ -1806,6 +2262,11 @@ P:
   - T: "2100-01-01"
     C: NVIDIA Corporation
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -1923,6 +2384,11 @@ P:
     C: Digi International
     F: "2012-11-30"
     P: kernelci
+    R: C
+  - T: "2019-07-03"
+    C: Digi International
+    F: "2012-11-30"
+    P: korg
     R: C
   - T: "2019-07-03"
     C: Digi International
@@ -3235,6 +3701,52 @@ P:
     S: git
   B: 0
   U: Alex Leong
+- E: 37639249+alevene!users.noreply.github.com
+  R:
+  - T: "2002-06-01"
+    C: MessageMedia
+    F: "2000-09-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2004-09-01"
+    C: DoubleClick
+    F: "2004-06-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2006-04-01"
+    C: Abacus
+    F: "2004-09-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2010-07-01"
+    C: Epsilon
+    F: "2006-04-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2011-08-01"
+    C: Reed Group
+    F: "2011-01-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2018-02-01"
+    C: Healthgrades
+    F: "2011-11-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Gusto
+    F: "2018-03-01"
+    P: lfai/amundsen
+    R: C
+  I:
+  - E: 37639249+alevene!users.noreply.github.com
+    M: Alex Levene
+    S: git
+  - M: Alex Levene
+    S: github
+    U: alevene
+  B: 0
+  U: Alex Levene
 - E: alexlevenson!twitter.com
   R:
   - T: "2100-01-01"
@@ -5723,12 +6235,12 @@ P:
   - T: "2015-07-02"
     C: Mellanox Technologies, Ltd
     F: "2015-06-30"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-07-02"
     C: Mellanox Technologies, Ltd
     F: "2015-06-30"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2015-07-02"
     C: Mellanox Technologies, Ltd
@@ -6025,12 +6537,12 @@ P:
   - T: "2014-06-30"
     C: Netflix
     F: "2012-10-04"
-    P: open-timeline-io
+    P: academy-software-foundation/openshadinglanguage
     R: C
   - T: "2100-01-01"
     C: Netflix
     F: "2016-12-28"
-    P: academy-software-foundation/opentimelineio
+    P: open-timeline-io
     R: C
   - T: "2100-01-01"
     C: Netflix
@@ -7298,6 +7810,11 @@ P:
     F: "1900-01-01"
     P: kernelci
     R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
   I:
   - E: alexander.sverdlin!nokia.com
     M: Alex Sverdlin
@@ -7337,6 +7854,11 @@ P:
     C: Mellanox Technologies, Ltd
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Mellanox Technologies, Ltd
@@ -7773,6 +8295,11 @@ P:
   - T: "2100-01-01"
     C: VMware, Inc.
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -7793,12 +8320,12 @@ P:
   - T: "2100-01-01"
     C: VMware, Inc.
     F: "2014-07-28"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
     F: "2014-07-28"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Nicira
@@ -7844,7 +8371,7 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2012-01-01"
-    P: open-timeline-io
+    P: academy-software-foundation/openshadinglanguage
     R: C
   I:
   - E: alex.m.wells!intel.com
@@ -7884,7 +8411,7 @@ P:
   - T: "2019-06-30"
     C: Laika Studios
     F: "2017-08-09"
-    P: academy-software-foundation/opentimelineio
+    P: open-timeline-io
     R: C
   I:
   - E: 3489076+boredstiff!users.noreply.github.com
@@ -8040,6 +8567,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -8070,12 +8602,12 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-12-02"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-12-02"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   S: male
   I:
@@ -8245,6 +8777,11 @@ P:
     C: Amazon
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: korg
     R: C
   I:
   - E: thetewood!gmail.com
@@ -9425,6 +9962,10 @@ P:
   - E: a!alemayhu.com
     M: Alexander Alemayhu
     S: github
+    U: aalemayhu
+  - E: a!alemayhu.com
+    M: Alexander Alemayhu
+    S: github
     U: scanf
   B: 0
   U: Alexander Alemayhu
@@ -9757,6 +10298,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -10834,6 +11380,11 @@ P:
     C: Independent
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2018-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2018-09-01"
     C: Independent
@@ -12105,6 +12656,11 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
@@ -12830,12 +13386,12 @@ P:
   - T: "2100-01-01"
     C: Wind River Systems, Inc.
     F: "2010-01-01"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Wind River Systems, Inc.
     F: "2010-01-01"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Wind River Systems, Inc.
@@ -12916,6 +13472,11 @@ P:
     C: Fraunhofer-Gesellschaft
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Fraunhofer-Gesellschaft
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Fraunhofer-Gesellschaft
@@ -15300,34 +15861,6 @@ P:
     U: stackedsax
   B: 0
   U: Alexander Scammon
-- E: candiduslynx!gmail.com
-  R:
-  - T: "2017-10-01"
-    C: Dell EMC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-12-01"
-    C: YADRO
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Yandex
-    F: "2018-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Yandex
-    F: "2018-12-01"
-    P: jenkins
-    R: C
-  I:
-  - E: candiduslynx!gmail.com
-    M: Alexander Scherbakov
-    S: git
-  B: 0
-  U: Alexander Scherbakov
 - C: DE
   E: hello!damongant.de
   R:
@@ -15874,10 +16407,24 @@ P:
   U: Alexander Shapiotko
 - E: alexander.sherbakov!dsr-company.com
   R:
+  - T: "2017-10-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-10-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2017-10-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    P: jenkins
+    R: C
   - T: "2100-01-01"
-    C: DSR Corporation
-    F: "2016-09-08"
-    P: hyperledger/hyperledger-all
+    C: Data Storage Research LLC
+    F: "2010-11-01"
     R: C
   - T: "2100-01-01"
     C: DSR Corporation
@@ -15894,6 +16441,36 @@ P:
     F: "2016-09-08"
     P: indy
     R: C
+  - T: "2018-12-01"
+    C: YADRO
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-12-01"
+    C: YADRO
+    F: "2017-10-01"
+    P: jaeger
+    R: C
+  - T: "2018-12-01"
+    C: YADRO
+    F: "2017-10-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Yandex
+    F: "2018-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Yandex
+    F: "2018-12-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Yandex
+    F: "2018-12-01"
+    P: jenkins
+    R: C
   - T: "2100-01-01"
     C: DSR Corporation
     F: "2020-01-27"
@@ -15907,7 +16484,19 @@ P:
     M: Alexander Shcherbakov
     S: confluence
     U: ashcherbakov
+  - E: candiduslynx!gmail.com
+    M: Aleksandr Shcherbakov
+    S: git
+  - E: candiduslynx!gmail.com
+    M: Alexander Scherbakov
+    S: git
+  - E: a.shcherbakov!yadro.com
+    M: Alexander Shcherbakov
+    S: git
   - E: alexander.sherbakov!dsr-company.com
+    M: Alexander Shcherbakov
+    S: git
+  - E: candiduslynx!gmail.com
     M: Alexander Shcherbakov
     S: git
   - E: alexander.sherbakov!dsr-company.com
@@ -15919,9 +16508,24 @@ P:
   - E: alexander.sherbakov!dsr-corporation.com
     M: ashcherbakov
     S: git
+  - E: candiduslynx!gmail.com
+    M: candidulsynx
+    S: git
+  - E: candiduslynx!gmail.com
+    M: candiduslynx
+    S: git
+  - E: candiduslynx!users.noreply.github.com
+    M: candiduslynx
+    S: git
   - M: ashcherbakov
     S: github
     U: ashcherbakov
+  - M: candiduslynx
+    S: github
+    U: candiduslynx
+  - E: alexander.sherbakov!dsr-corporation.com
+    M: Alexander Shcherbakov
+    S: groupsio
   - M: Alexander Shcherbakov
     S: jira
     U: ashcherbakov
@@ -15929,39 +16533,9 @@ P:
     M: Alexander Shcherbakov
     S: jira
     U: ashcherbakov
-  B: 0
-  U: Alexander Shcherbakov
-- E: candiduslynx!gmail.com
-  R:
-  - T: "2017-10-01"
-    C: Dell EMC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-12-01"
-    C: YADRO
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-12-01"
-    C: YADRO
-    F: "2017-10-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Yandex
-    F: "2018-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Yandex
-    F: "2018-12-01"
-    P: jenkins
-    R: C
-  I:
-  - E: candiduslynx!gmail.com
-    M: Alexander Shcherbakov
-    S: git
+  - M: Alexander Shcherbakov
+    S: rocketchat
+    U: ashcherbakov
   B: 0
   U: Alexander Shcherbakov
 - E: alexander.shekhovcov!dsr-company.com
@@ -16014,6 +16588,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: korg
     R: C
   I:
   - E: ash!koowaldah.org
@@ -16312,6 +16891,11 @@ P:
   - T: "2013-06-12"
     C: Siemens AG
     F: "2011-04-01"
+    P: cip
+    R: C
+  - T: "2013-06-12"
+    C: Siemens AG
+    F: "2011-04-01"
     P: elisa
     R: C
   - T: "2013-06-12"
@@ -16370,6 +16954,11 @@ P:
     C: SAMSUNG
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: SAMSUNG
+    F: "1900-01-01"
+    P: korg
     R: C
   I:
   - E: a.soldatov!yadro.com
@@ -16608,6 +17197,11 @@ P:
     C: SYS TEC electronic GmbH
     F: "2014-10-14"
     P: cephfoundation
+    R: C
+  - T: "2015-01-11"
+    C: SYS TEC electronic GmbH
+    F: "2014-10-14"
+    P: cip
     R: C
   - T: "2015-01-11"
     C: SYS TEC electronic GmbH
@@ -16882,6 +17476,11 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -17144,6 +17743,11 @@ P:
     F: "2018-03-09"
     P: lfn-cntt
     R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-03-09"
+    P: odim
+    R: C
   I:
   - M: Alexander Vul
     S: confluence
@@ -17162,6 +17766,10 @@ P:
     M: Alexander Vul
     S: jira
     U: avul
+  - E: alex.vul!intel.com
+    M: Alex Vul
+    S: slack
+    U: alex.vul
   B: 0
   U: Alexander Vul
 - E: ablocker!gmail.com
@@ -17329,6 +17937,11 @@ P:
     C: IBM
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -18578,6 +19191,11 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -18844,6 +19462,11 @@ P:
   - T: "2013-03-01"
     C: Adeneo Embedded
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2013-03-01"
+    C: Adeneo Embedded
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2013-03-01"
@@ -18875,6 +19498,11 @@ P:
     C: Bootlin
     F: "2013-03-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Bootlin
+    F: "2013-03-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Bootlin
@@ -19326,6 +19954,11 @@ P:
   - T: "2017-03-01"
     C: NVIDIA Corporation
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2017-03-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2017-03-01"
@@ -19372,6 +20005,11 @@ P:
     C: Google
     F: "2017-03-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-03-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: Google
@@ -19527,12 +20165,12 @@ P:
   - T: "2015-03-19"
     C: Ericsson AB
     F: "2015-01-27"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-03-19"
     C: Ericsson AB
     F: "2015-01-27"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: alexandre.frigon!ericsson.com
@@ -20061,6 +20699,11 @@ P:
   - T: "2100-01-01"
     C: ARM
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -20095,6 +20738,11 @@ P:
     C: Multi Holding
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2014-06-01"
+    C: Multi Holding
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2014-06-01"
     C: Multi Holding
@@ -20246,6 +20894,11 @@ P:
     C: ST Microelectronics
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: ST Microelectronics
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: ST Microelectronics
@@ -21077,6 +21730,11 @@ P:
   - T: "2014-03-01"
     C: Logista
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2014-03-01"
+    C: Logista
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2014-03-01"
@@ -21125,6 +21783,11 @@ P:
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -21154,6 +21817,11 @@ P:
     C: Wind River Systems, Inc.
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2017-03-01"
+    C: Wind River Systems, Inc.
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2017-03-01"
     C: Wind River Systems, Inc.
@@ -21259,6 +21927,11 @@ P:
     C: Flex LTD (Formerly Flextronics)
     F: "2017-03-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Flex LTD (Formerly Flextronics)
+    F: "2017-03-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: Flex LTD (Formerly Flextronics)
@@ -21849,6 +22522,11 @@ P:
   - T: "2100-01-01"
     C: Facebook, Inc.
     F: "2015-11-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2015-11-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -22098,6 +22776,11 @@ P:
   - T: "2100-01-01"
     C: Synopsys
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Synopsys
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -22145,6 +22828,11 @@ P:
     C: Synopsys
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Synopsys
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Synopsys
@@ -22229,6 +22917,11 @@ P:
     C: Oliver
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2016-07-01"
+    C: Oliver
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2016-07-01"
     C: Oliver
@@ -22577,6 +23270,11 @@ P:
   - T: "2100-01-01"
     C: Dropbox
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Dropbox
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -22591,6 +23289,11 @@ P:
     C: Dropbox
     F: "1900-01-01"
     P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Dropbox
+    F: "1900-01-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Dropbox
@@ -22625,6 +23328,11 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -22655,12 +23363,12 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-01-25"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: IBM
     F: "2016-01-25"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-05-01"
     C: IBM
@@ -22925,6 +23633,11 @@ P:
     C: VMware, Inc.
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
@@ -23340,6 +24053,11 @@ P:
   - T: "2100-01-01"
     C: SAMSUNG
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: SAMSUNG
+    F: "1900-01-01"
     P: elisa
     R: C
   - T: "2100-01-01"
@@ -23360,12 +24078,12 @@ P:
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2017-08-31"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2017-08-31"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   S: male
   I:
@@ -24669,6 +25387,11 @@ P:
     F: "1900-01-01"
     P: kernelci
     R: C
+  - T: "2100-01-01"
+    C: Constellium
+    F: "1900-01-01"
+    P: korg
+    R: C
   - T: "2017-04-30"
     C: Constellium
     F: "2016-06-11"
@@ -25089,6 +25812,11 @@ P:
   - T: "2015-07-15"
     C: Spotify
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2015-07-15"
+    C: Spotify
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2015-07-15"
@@ -25291,6 +26019,11 @@ P:
     C: Weaveworks
     F: "2015-07-15"
     P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Weaveworks
+    F: "2015-07-15"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Weaveworks
@@ -25717,12 +26450,12 @@ P:
   - T: "2007-05-31"
     C: RIPE NCC
     F: "2007-03-31"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2007-05-31"
     C: RIPE NCC
     F: "2007-03-31"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2007-05-31"
     C: RIPE NCC
@@ -25732,12 +26465,12 @@ P:
   - T: "2008-02-29"
     C: Scuola Normale Superiore
     F: "2007-09-30"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2008-02-29"
     C: Scuola Normale Superiore
     F: "2007-09-30"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2008-02-29"
     C: Scuola Normale Superiore
@@ -25747,12 +26480,12 @@ P:
   - T: "2100-01-01"
     C: NTOP
     F: "2010-12-31"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: NTOP
     F: "2010-12-31"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: NTOP
@@ -25932,12 +26665,12 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2018-08-30"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: IBM
     F: "2018-08-30"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: mendoza1!us.ibm.com
@@ -25991,6 +26724,11 @@ P:
     C: Linaro Limited
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Linaro Limited
+    F: "1900-01-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Linaro Limited
@@ -26084,12 +26822,12 @@ P:
   - T: "2100-01-01"
     C: Mellanox Technologies, Ltd
     F: "2018-01-07"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Mellanox Technologies, Ltd
     F: "2018-01-07"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Mellanox Technologies, Ltd
@@ -28730,6 +29468,11 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -28961,6 +29704,11 @@ P:
     F: "1900-01-01"
     P: kernelci
     R: C
+  - T: "2100-01-01"
+    C: Western Digital
+    F: "1900-01-01"
+    P: korg
+    R: C
   - T: "2019-01-04"
     C: Western Digital
     F: "2019-01-02"
@@ -29010,6 +29758,11 @@ P:
     C: Western Digital
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Western Digital
+    F: "1900-01-01"
+    P: korg
     R: C
   - T: "2100-01-01"
     C: Western Digital
@@ -29367,12 +30120,12 @@ P:
   - T: "2100-01-01"
     C: Wind River Systems, Inc.
     F: "2017-02-25"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Wind River Systems, Inc.
     F: "2017-02-25"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2018-04-16"
     C: Wind River Systems, Inc.
@@ -29783,6 +30536,11 @@ P:
   - T: "2100-01-01"
     C: Sky
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Sky
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -30158,6 +30916,11 @@ P:
     C: Dell
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Dell
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Dell
@@ -31380,12 +32143,12 @@ P:
   - T: "2018-07-31"
     C: NXP Semiconductors Netherlands B.V.
     F: "2017-10-12"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-07-31"
     C: NXP Semiconductors Netherlands B.V.
     F: "2017-10-12"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: alok.makhariya!nxp.com
@@ -31455,6 +32218,11 @@ P:
     C: SAMSUNG
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: SAMSUNG
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: SAMSUNG
@@ -34194,12 +34962,12 @@ P:
   - T: "2100-01-01"
     C: AMD
     F: "2019-10-14"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: AMD
     F: "2019-10-14"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: AMD
@@ -34384,12 +35152,12 @@ P:
   - T: "2018-07-27"
     C: Riverbed Technology, Inc.
     F: "2018-07-05"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-07-27"
     C: Riverbed Technology, Inc.
     F: "2018-07-05"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: Amarnath.Nallapothula!riverbed.com
@@ -34728,6 +35496,11 @@ P:
     C: Texas Instruments Incorporated
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Texas Instruments Incorporated
@@ -35479,6 +36252,11 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "2014-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2014-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -35534,12 +36312,12 @@ P:
   - T: "2017-04-15"
     C: Radware, Inc.
     F: "2017-02-22"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-04-15"
     C: Radware, Inc.
     F: "2017-02-22"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2017-04-15"
     C: Radware, Inc.
@@ -36477,12 +37255,12 @@ P:
   - T: "2016-09-17"
     C: 6WIND S.A.
     F: "2015-10-14"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2016-09-17"
     C: 6WIND S.A.
     F: "2015-10-14"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2016-09-17"
     C: 6WIND S.A.
@@ -36713,6 +37491,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -37052,6 +37835,11 @@ P:
   - T: "2015-10-01"
     C: Mllanox Technologies
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2015-10-01"
+    C: Mllanox Technologies
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2015-10-01"
@@ -37096,6 +37884,11 @@ P:
     C: Independent
     F: "2015-10-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2015-10-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -37783,6 +38576,11 @@ P:
     C: Linaro Limited
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Linaro Limited
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Linaro Limited
@@ -39183,12 +39981,12 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-10-28"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-10-28"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -39371,6 +40169,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -39411,6 +40214,11 @@ P:
     C: Red Hat Inc.
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -39564,12 +40372,12 @@ P:
   - T: "2019-07-01"
     C: Intel Corporation
     F: "2017-08-25"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2019-07-01"
     C: Intel Corporation
     F: "2017-08-25"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2019-01-11"
     C: Intel Corporation
@@ -40646,6 +41454,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -41930,6 +42743,11 @@ P:
   - T: "2014-09-01"
     C: Independent
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2014-09-01"
+    C: Independent
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2014-09-01"
@@ -41988,6 +42806,11 @@ P:
   - T: "2014-09-01"
     C: Independent
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2014-09-01"
+    C: Independent
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2014-09-01"
@@ -42014,6 +42837,11 @@ P:
     C: Soleta
     F: "2014-09-01"
     P: cephfoundation
+    R: C
+  - T: "2015-03-01"
+    C: Soleta
+    F: "2014-09-01"
+    P: cip
     R: C
   - T: "2015-03-01"
     C: Soleta
@@ -42096,6 +42924,11 @@ P:
     C: Red Hat Inc.
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -42650,12 +43483,12 @@ P:
   - T: "2019-05-14"
     C: Intel Corporation
     F: "2019-02-15"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2019-05-14"
     C: Intel Corporation
     F: "2019-02-15"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2019-05-14"
     C: Intel Corporation
@@ -42771,6 +43604,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -42846,12 +43684,12 @@ P:
   - T: "2100-01-01"
     C: HCL Technologies Ltd.
     F: "2019-02-13"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: HCL Technologies Ltd.
     F: "2019-02-13"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: anandaramanv!hcl.com
@@ -44644,6 +45482,11 @@ P:
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -45282,12 +46125,12 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2011-10-31"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2011-10-31"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -45380,6 +46223,11 @@ P:
     C: SAMSUNG
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2016-09-01"
+    C: SAMSUNG
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2016-09-01"
     C: SAMSUNG
@@ -45489,12 +46337,12 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2014-07-16"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
     F: "2014-07-16"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: anbarasanx.murugesan!intel.com
@@ -45628,6 +46476,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -46155,6 +47008,11 @@ P:
   - T: "2100-01-01"
     C: ChargeStorm
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: ChargeStorm
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -46561,6 +47419,11 @@ P:
   - T: "2100-01-01"
     C: Linaro Limited
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Linaro Limited
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -46611,12 +47474,12 @@ P:
   - T: "2017-03-29"
     C: Linaro Limited
     F: "2017-01-18"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2017-03-29"
     C: Linaro Limited
     F: "2017-01-18"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: anders.roxell!enea.com
@@ -47118,6 +47981,11 @@ P:
     C: SAMSUNG
     F: "2015-09-01"
     P: cephfoundation
+    R: C
+  - T: "2018-03-01"
+    C: SAMSUNG
+    F: "2015-09-01"
+    P: cip
     R: C
   - T: "2018-03-01"
     C: SAMSUNG
@@ -47856,6 +48724,11 @@ P:
   - T: "2100-01-01"
     C: Tyco
     F: "2015-11-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Tyco
+    F: "2015-11-01"
     P: libuv
     R: C
   - T: "2100-01-01"
@@ -48074,6 +48947,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: korg
     R: C
   - T: "2017-02-24"
     C: Intel Corporation
@@ -48451,6 +49329,11 @@ P:
     C: FULCRO SRLU
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: FULCRO SRLU
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: FULCRO SRLU
@@ -49260,12 +50143,12 @@ P:
   - T: "2018-01-27"
     C: Intel Corporation
     F: "2017-11-22"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2018-01-27"
     C: Intel Corporation
     F: "2017-11-22"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: andrea.grandi!intel.com
@@ -50338,6 +51221,11 @@ P:
   - T: "2100-01-01"
     C: Dave S.r.l.
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Dave S.r.l.
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -50918,6 +51806,11 @@ P:
   - T: "2100-01-01"
     C: Texas Instruments Incorporated
     F: "2016-04-20"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "2016-04-20"
     P: elisa
     R: C
   - T: "2100-01-01"
@@ -51090,6 +51983,11 @@ P:
   - T: "2100-01-01"
     C: SUSE LLC
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -51149,6 +52047,11 @@ P:
     C: digitalSTROM
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: digitalSTROM
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: digitalSTROM
@@ -51253,6 +52156,11 @@ P:
     C: Pivotal
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Pivotal
@@ -51378,6 +52286,11 @@ P:
     C: SUSE LLC
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
@@ -51515,6 +52428,11 @@ P:
     C: Red Hat Inc.
     F: "2017-06-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2017-06-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -53225,6 +54143,11 @@ P:
   - T: "2015-08-01"
     C: Independent
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2015-08-01"
+    C: Independent
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2015-08-01"
@@ -53305,6 +54228,11 @@ P:
     C: Canonical Group Limited
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Canonical Group Limited
@@ -53436,6 +54364,11 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -53459,6 +54392,52 @@ P:
     S: git
   B: 0
   U: Andreas Ruprecht
+- C: GB
+  E: andreas!sandberg.uk
+  R:
+  - T: "2014-04-01"
+    C: Uppsala University
+    F: "2009-03-01"
+    P: korg
+    R: C
+  - T: "2014-04-01"
+    C: Uppsala University
+    F: "2009-03-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2014-06-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2014-06-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2014-06-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: andreas!sandberg.pp.se
+    M: Andreas Sandberg
+    S: git
+  - E: andreas.sandberg!arm.com
+    M: Andreas Sandberg
+    S: git
+  - E: andreas!sandberg.uk
+    M: Andreas Sandberg
+    S: github
+    U: andysan
+  - E: andreas!sandberg.pp.se
+    M: Andreas Sandberg
+    S: slack
+    U: andreas
+  B: 0
+  U: Andreas Sandberg
 - E: andreas.scheuring!de.ibm.com
   R:
   - T: "2100-01-01"
@@ -53530,6 +54509,11 @@ P:
     C: Travelping GmbH
     F: "2013-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Travelping GmbH
+    F: "2013-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Travelping GmbH
@@ -54491,6 +55475,11 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -54535,6 +55524,11 @@ P:
     C: Microsoft Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2016-12-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2016-12-01"
     C: Microsoft Corporation
@@ -55116,6 +56110,11 @@ P:
     C: Cockroach
     F: "1900-01-01"
     P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Cockroach
@@ -55717,6 +56716,11 @@ P:
     C: Chris Phillips
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Chris Phillips
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Chris Phillips
@@ -56582,6 +57586,11 @@ P:
   - T: "2017-04-01"
     C: Intel Corporation
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2017-04-01"
+    C: Intel Corporation
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2017-04-01"
@@ -57244,6 +58253,11 @@ P:
   - T: "2100-01-01"
     C: ABBYY
     F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: ABBYY
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -57493,12 +58507,12 @@ P:
   - T: "2019-05-09"
     C: Microsoft Corporation
     F: "2017-09-04"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2019-05-09"
     C: Microsoft Corporation
     F: "2017-09-04"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   I:
   - E: andbain!microsoft.com
@@ -57818,6 +58832,11 @@ P:
   - T: "2100-01-01"
     C: Facebook, Inc.
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -57832,6 +58851,11 @@ P:
     C: Facebook, Inc.
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    P: iovisor
     R: C
   - T: "2100-01-01"
     C: Facebook, Inc.
@@ -57894,6 +58918,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -58978,6 +60007,11 @@ P:
     F: "1900-01-01"
     P: kernelci
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: korg
+    R: C
   - T: "2019-07-10"
     C: IBM
     F: "2019-07-01"
@@ -59356,6 +60390,11 @@ P:
     C: Texas Instruments Incorporated
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Texas Instruments Incorporated
@@ -59806,12 +60845,12 @@ P:
   - T: "2015-12-09"
     C: Cisco Systems Inc.
     F: "2015-05-30"
-    P: data-plane-development-kit/dpdk
+    P: data-plane-development-kit/dpdk-summary
     R: C
   - T: "2015-12-09"
     C: Cisco Systems Inc.
     F: "2015-05-30"
-    P: data-plane-development-kit/dpdk-summary
+    P: dpdk
     R: C
   - T: "2015-12-09"
     C: Cisco Systems Inc.
@@ -59843,6 +60882,11 @@ P:
     C: Mentor Graphics Corporation
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Mentor Graphics Corporation
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Mentor Graphics Corporation
@@ -60342,1759 +61386,3 @@ P:
     U: agregory999
   B: 0
   U: Andrew Gregory
-- E: tykeal!linux.com
-  R:
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: acumos
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: adlik
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: angel
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: edl
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: fossology
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: horovod
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfai-milvus
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfai-onnx
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfai/forestflow
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfai/lfai
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfai/ludwig
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: marquez
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: nnstreamer
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: openvdb
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: oran-sim
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: pyro
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: sparklyr
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "1900-01-01"
-    P: zowe
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: acumos
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: adlik
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: akraino
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: angel
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: edl
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: fdio
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: horovod
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: lfai-milvus
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: lfai-onnx
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: lfai/forestflow
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: lfai/lfai
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: lfai/ludwig
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: lfn-cntt
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: marquez
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: nnstreamer
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: o-ran/documentation
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: o-ran/integration
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: openvdb
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-inf
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-nonrtric
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-oam
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-ocu
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-oduhigh
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-odulow
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-ric
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-ricapp
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: oran-sim
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: pyro
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: sparklyr
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: zep
-    R: C
-  - T: "2000-01-31"
-    C: Volt
-    F: "1999-08-31"
-    P: zowe
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: acumos
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: adlik
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: akraino
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: angel
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: edl
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: fdio
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: horovod
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: lfai-milvus
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: lfai-onnx
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: lfai/forestflow
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: lfai/lfai
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: lfai/ludwig
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: lfn-cntt
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: marquez
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: nnstreamer
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: o-ran/documentation
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: o-ran/integration
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: openvdb
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-inf
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-nonrtric
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-oam
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-ocu
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-oduhigh
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-odulow
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-ric
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-ricapp
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: oran-sim
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: pyro
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: sparklyr
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: zep
-    R: C
-  - T: "2001-02-28"
-    C: TEKsystems
-    F: "2000-12-31"
-    P: zowe
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: acumos
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: adlik
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: akraino
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: angel
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: edl
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: fdio
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: horovod
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: lfai-milvus
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: lfai-onnx
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: lfai/forestflow
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: lfai/lfai
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: lfai/ludwig
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: lfn-cntt
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: marquez
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: nnstreamer
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: o-ran/documentation
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: o-ran/integration
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: openvdb
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-inf
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-nonrtric
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-oam
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-ocu
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-oduhigh
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-odulow
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-ric
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-ricapp
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: oran-sim
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: pyro
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: sparklyr
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: zep
-    R: C
-  - T: "2004-09-30"
-    C: Kforce Inc
-    F: "2001-05-31"
-    P: zowe
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: acumos
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: adlik
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: akraino
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: angel
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: edl
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: fdio
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: horovod
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: lfai-milvus
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: lfai-onnx
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: lfai/forestflow
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: lfai/lfai
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: lfai/ludwig
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: lfn-cntt
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: marquez
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: nnstreamer
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: o-ran/documentation
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: o-ran/integration
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: openvdb
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-inf
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-nonrtric
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-oam
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-ocu
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-oduhigh
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-odulow
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-ric
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-ricapp
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: oran-sim
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: pyro
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: sparklyr
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: zep
-    R: C
-  - T: "2006-08-31"
-    C: City of Seattle
-    F: "2004-09-30"
-    P: zowe
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: acumos
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: adlik
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: akraino
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: angel
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: edl
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: fdio
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: horovod
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: lfai-milvus
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: lfai-onnx
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: lfai/forestflow
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: lfai/lfai
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: lfai/ludwig
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: lfn-cntt
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: marquez
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: nnstreamer
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: o-ran/documentation
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: o-ran/integration
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: openvdb
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-inf
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-nonrtric
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-oam
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-ocu
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-oduhigh
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-odulow
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-ric
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-ricapp
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: oran-sim
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: pyro
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: sparklyr
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: zep
-    R: C
-  - T: "2011-10-31"
-    C: BlackBerry
-    F: "2011-01-31"
-    P: zowe
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: acumos
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: adlik
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: akraino
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: angel
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: edl
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: fdio
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: horovod
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: lfai-milvus
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: lfai-onnx
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: lfai/forestflow
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: lfai/lfai
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: lfai/ludwig
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: lfn-cntt
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: marquez
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: nnstreamer
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: o-ran/documentation
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: o-ran/integration
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: openvdb
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-inf
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-nonrtric
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-oam
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-ocu
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-oduhigh
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-odulow
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-ric
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-ricapp
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: oran-sim
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: pyro
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: sparklyr
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: zep
-    R: C
-  - T: "2011-12-31"
-    C: Yapta
-    F: "2011-07-31"
-    P: zowe
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "2013-02-26"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "2014-12-18"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: The Linux Foundation
-    F: "2016-08-08"
-    P: onap
-    R: C
-  S: male
-  I:
-  - M: Andrew Grimberg
-    S: confluence
-    U: agrimberg
-  - E: tykeal!linux.com
-    M: Andrew Grimberg
-    S: confluence
-    U: agrimberg
-  - E: agrimberg!linuxfoundation.org
-    M: Andrew Grimberg
-    S: gerrit
-    U: agrimberg
-  - E: tykeal!bardicgrove.org
-    M: Andrew Grimberg
-    S: gerrit
-  - E: agrimberg!linuxfoundation.org
-    M: Andrew Grimberg
-    S: git
-  - E: tykeal!bardicgrove.org
-    M: Andrew Grimberg
-    S: git
-  - E: tykeal!bardicgrove.org
-    M: Andrew Grimberg
-    S: github
-    U: tykeal
-  - E: agrimberg!linuxfoundation.org
-    M: Andrew Grimberg
-    S: gmane
-  - E: fdio-helpdesk!rt.linuxfoundation.org
-    M: Andrew Grimberg via RT
-    S: groupsio
-  - E: releng!rt.linuxfoundation.org
-    M: Andrew Grimberg via RT
-    S: groupsio
-  - E: agrimberg!linuxfoundation.org
-    M: Andrew Grimberg
-    S: groupsio
-  - E: tykeal!bardicgrove.org
-    M: Andrew Grimberg
-    S: groupsio
-  - M: Andrew Grimberg
-    S: jira
-    U: agrimberg
-  - E: agrimberg!linuxfoundation.org
-    M: Andrew Grimberg
-    S: jira
-    U: agrimberg
-  - E: tykeal!linux.com
-    M: Andrew Grimberg
-    S: jira
-    U: agrimberg
-  - E: agrimberg!linuxfoundation.org
-    M: Andrew Grimberg
-    S: linux-foundation:mls
-    U: agrimberg
-  - E: agrimberg!linuxfoundation.org
-    M: Andrew Grimberg
-    S: mbox
-  - M: Agrimberg
-    S: mediawiki
-    U: Agrimberg
-  - E: agrimberg!linuxfoundation.org
-    M: Andrew Grimberg
-    S: pipermail
-  - E: tykeal!bardicgrove.org
-    M: Andrew Grimberg
-    S: pipermail
-  B: 0
-  U: Andrew Grimberg
-- C: US
-  E: dioptre!gmail.com
-  R:
-  - T: "2018-01-01"
-    C: FlowPro.io
-    F: "1900-01-01"
-    R: C
-  - T: "2018-01-01"
-    C: FlowPro.io
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2019-04-01"
-    C: Independent
-    F: "2018-01-01"
-    R: C
-  - T: "2019-04-01"
-    C: Independent
-    F: "2018-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: SFPL
-    F: "2019-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: SFPL
-    F: "2019-04-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: dioptre!gmail.com
-    M: Andrew Grosser
-    S: github
-    U: dioptre
-  B: 0
-  U: Andrew Grosser
-- R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  S: male
-  I:
-  - M: Andrew Gunnerson (IBM)
-    S: github
-    U: agunnerson-ibm
-  B: 0
-  U: Andrew Gunnerson (IBM)
-- E: andrew.gunnerson!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-10-25"
-    C: IBM
-    F: "2018-10-08"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: andrew.gunnerson!us.ibm.com
-    M: Andrew Gunnerson
-    S: git
-  B: 0
-  U: Andrew Gunnerson
-- E: aph!redhat.com
-  R:
-  - T: "2007-09-12"
-    C: Red Hat Inc.
-    F: "2000-02-22"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2013-11-07"
-    P: odl
-    R: C
-  I:
-  - E: aph!redhat.com
-    M: Andrew Haley
-    S: git
-  - E: aph!redhat.com
-    M: Andrew Haley
-    S: groupsio
-  - E: aph!redhat.com
-    M: Andrew Haley
-    S: pipermail
-  B: 0
-  U: Andrew Haley
-- E: hall!fb.com
-  R:
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: hall!fb.com
-    M: Andrew Hall
-    S: git
-  B: 0
-  U: Andrew Hall
-- E: azdagron!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Scytale
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Scytale
-    F: "1900-01-01"
-    P: spiffe
-    R: C
-  - T: "2100-01-01"
-    C: Scytale
-    F: "1900-01-01"
-    P: spire
-    R: C
-  S: male
-  I:
-  - E: azdagron!gmail.com
-    M: Andrew Harding
-    S: git
-  - E: azdagron!gmail.com
-    M: Andrew Harding
-    S: github
-    U: azdagron
-  B: 0
-  U: Andrew Harding
-- E: andrew.harp!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: onf-p4
-    R: C
-  I:
-  - E: andrew.harp!gmail.com
-    M: Andrew Harp
-    S: git
-  B: 0
-  U: Andrew Harp
-- E: andrewharp!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: onf-p4
-    R: C
-  I:
-  - E: andrewharp!users.noreply.github.com
-    M: Andrew Harp
-    S: git
-  B: 0
-  U: Andrew Harp
-- E: abh!cray.com
-  R:
-  - T: "2100-01-01"
-    C: Cray
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: abh!cray.com
-    M: Andrew Hastings
-    S: git
-  B: 0
-  U: Andrew Hastings
-- E: andrew.r.hawker!gmail.com
-  R:
-  - T: "2015-07-01"
-    C: AppThwack
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-07-01"
-    C: AppThwack
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2016-11-01"
-    C: Amazon
-    F: "2015-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-11-01"
-    C: Amazon
-    F: "2015-07-01"
-    P: jenkins
-    R: C
-  - T: "2017-01-01"
-    C: Sabbaticals
-    F: "2016-11-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Apptentive
-    F: "2017-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: andrew.r.hawker!gmail.com
-    M: Andrew Hawker
-    S: git
-  - E: andrew.r.hawker!gmail.com
-    M: Andrew Hawker
-    S: github
-    U: ahawker
-  B: 0
-  U: Andrew Hawker
-- C: GB
-  R:
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - M: Andrew Hemming
-    S: github
-    U: drewhemm
-  B: 0
-  U: Andrew Hemming
-- C: GB
-  E: ahemming!cambridge.org
-  R:
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - E: ahemming!cambridge.org
-    M: Andrew Hemming
-    S: git
-  B: 0
-  U: Andrew Hemming
-- C: GB
-  E: andrew!footprintmedia.net
-  R:
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: andrew!footprintmedia.net
-    M: Andrew Hemming
-    S: git
-  - E: andrew!footprintmedia.net
-    M: Hemming, Andrew
-    S: git
-  B: 0
-  U: Andrew Hemming
-- E: drewhemm!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Footprint Media
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: drewhemm!users.noreply.github.com
-    M: Andrew Hemming
-    S: git
-  B: 0
-  U: Andrew Hemming
-- C: US
-  E: aheuermann!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: C2FO
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: C2FO
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: aheuermann!gmail.com
-    M: Andrew Heuermann
-    S: git
-  B: 0
-  U: Andrew Heuermann
-- C: GB
-  E: andrew_hibbert!hotmail.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: andrew_hibbert!hotmail.com
-    M: Andrew Hibbert
-    S: github
-    U: hibbert
-  B: 0
-  U: Andrew Hibbert
-- R:
-  - T: "2100-01-01"
-    C: Individual
-    F: "2010-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Individual
-    F: "2010-01-01"
-    P: project-eve
-    R: C
-  S: male
-  I:
-  - M: Andrew Hlynskyi
-    S: github
-    U: ahlinc
-  B: 0
-  U: Andrew Hlynskyi
-- C: US
-  E: andrew!hoverbear.org
-  R:
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "1900-01-01"
-    P: tikv
-    R: C
-  S: male
-  I:
-  - E: andrew!hoverbear.org
-    M: A. Hobden
-    S: git
-  - E: andrew!hoverbear.org
-    M: Andrew Hobden
-    S: git
-  B: 0
-  U: Andrew Hobden
-- C: GB
-  R:
-  - T: "2016-03-01"
-    C: Thales Group
-    F: "1900-01-01"
-    R: C
-  - T: "2016-03-01"
-    C: Thales Group
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-03-01"
-    C: Thales Group
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-02-01"
-    C: PrivateFly
-    F: "2016-03-01"
-    R: C
-  - T: "2018-02-01"
-    C: PrivateFly
-    F: "2016-03-01"
-    P: helm
-    R: C
-  - T: "2018-02-01"
-    C: PrivateFly
-    F: "2016-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Santander UK
-    F: "2018-02-01"
-    R: C
-  - T: "2100-01-01"
-    C: Santander UK
-    F: "2018-02-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Santander UK
-    F: "2018-02-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Andrew Holland
-    S: github
-    U: a1dutch
-  B: 0
-  U: Andrew Holland
