@@ -1663,6 +1663,11 @@ P:
   - T: "2100-01-01"
     C: Cerner Corporation
     F: "2017-04-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Cerner Corporation
+    F: "2017-04-01"
     P: cncf/shared
     R: C
   I:
@@ -5686,6 +5691,9 @@ P:
     R: C
   S: male
   I:
+  - E: '[aaro.koskinen!iki.fi]'
+    M: Aaro Koskinen
+    S: git
   - E: aaro.koskinen!iki.fi
     M: Aaro Koskinen
     S: git
@@ -36328,6 +36336,11 @@ P:
   - T: "2100-01-01"
     C: Workday
     F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Workday
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   I:
@@ -47225,6 +47238,9 @@ P:
     R: C
   I:
   - E: akiyama.nobuyuk!jp.fujitsu.com
+    M: Akiyama Nobuyuki
+    S: git
+  - E: akiyama.nobuyuk!jp.fujitsu.com
     M: Akiyama, Nobuyuki
     S: git
   B: 0
@@ -51615,31 +51631,21 @@ P:
     F: "1900-01-01"
     P: cncf/shared
     R: C
-  S: male
-  I:
-  - E: agk!redhat.com
-    M: Alasdair G Kergon
-    S: git
-  B: 0
-  U: Alasdair G Kergon
-- E: agk!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
     P: korg
     R: C
+  S: male
   I:
+  - E: agk!redhat.com
+    M: Alasdair G Kergon
+    S: git
   - E: agk!redhat.com
     M: Alasdair G. Kergon
     S: git
   B: 0
-  U: Alasdair G. Kergon
+  U: Alasdair G Kergon
 - E: agk!redhat.com
   R:
   - T: "2100-01-01"
@@ -52982,6 +52988,11 @@ P:
     C: Kinvolk GmbH
     F: "2015-08-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Kinvolk GmbH
+    F: "2015-08-01"
+    P: dronecode
     R: C
   I:
   - E: alban!donecle.com
@@ -57312,6 +57323,11 @@ P:
     F: "2019-01-01"
     P: cncf/shared
     R: C
+  - T: "2100-01-01"
+    C: Flare Systems
+    F: "2019-01-01"
+    P: dronecode
+    R: C
   I:
   - E: aviau!ufm.edu
     M: Alejandro Viau
@@ -61632,43 +61648,3 @@ P:
     S: git
   B: 0
   U: Alex Bagehot
-- R:
-  - T: "2100-01-01"
-    C: Diamanti
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Diamanti
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Diamanti
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Alex Bahel
-    S: github
-    U: AlexDiamanti
-  B: 0
-  U: Alex Bahel
-- E: alex!diamanti.com
-  R:
-  - T: "2100-01-01"
-    C: Diamanti
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Diamanti
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  S: male
-  I:
-  - E: alex!diamanti.com
-    M: Alex Bahel
-    S: git
-  B: 0
-  U: Alex Bahel

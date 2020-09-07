@@ -1,4 +1,114 @@
 P:
+- E: nbarthwal!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: tekton
+    R: C
+  I:
+  - E: nbarthwal!google.com
+    M: Nikhil Barthwal
+    S: git
+  B: 0
+  U: Nikhil Barthwal
+- E: benesch!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  I:
+  - E: benesch!users.noreply.github.com
+    M: Nikhil Benesch
+    S: git
+  B: 0
+  U: Nikhil Benesch
+- C: US
+  E: nikhil.benesch!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: intoto
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  S: male
+  I:
+  - E: nikhil.benesch!gmail.com
+    M: Nikhil Benesch
+    S: git
+  - E: nikhil.benesch!gmail.com
+    M: Nikhil Benesch
+    S: github
+    U: benesch
+  B: 0
+  U: Nikhil Benesch
+- E: 47204011+nbhoski!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Math Works
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Math Works
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: 47204011+nbhoski!users.noreply.github.com
+    M: Nikhil Bhoski
+    S: git
+  B: 0
+  U: Nikhil Bhoski
+- E: nbhoski!mathworks.com
+  R:
+  - T: "2100-01-01"
+    C: Math Works
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Math Works
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: nbhoski!mathworks.com
+    M: Nikhil Bhoski
+    S: git
+  B: 0
+  U: Nikhil Bhoski
 - R:
   - T: "2016-05-01"
     C: Independent
@@ -18691,6 +18801,11 @@ P:
   - T: "2019-01-01"
     C: Doctor Web
     F: "2015-02-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2019-01-01"
+    C: Doctor Web
+    F: "2015-02-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -30809,6 +30924,11 @@ P:
     C: Intel Corporation
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: dronecode
     R: C
   I:
   - E: otaviobp!gmail.com
@@ -62192,96 +62312,6 @@ P:
     R: C
   I:
   - E: piastry!etersoft.ru
-    M: Pavel Shilovsky
-    S: git
-  B: 0
-  U: Pavel Shilovsky
-- E: piastryyy!gmail.com
-  R:
-  - T: "2015-01-01"
-    C: NVIDIA Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2015-01-01"
-    C: NVIDIA Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-02-01"
-    C: Etersoft
-    F: "2015-01-01"
-    R: C
-  - T: "2015-02-01"
-    C: Etersoft
-    F: "2015-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-09-01"
-    C: Acronis Inc.
-    F: "2015-02-01"
-    R: C
-  - T: "2016-09-01"
-    C: Acronis Inc.
-    F: "2015-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-09-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: piastryyy!gmail.com
-    M: Pavel Shilovsky
-    S: git
-  B: 0
-  U: Pavel Shilovsky
-- E: pshilov!microsoft.com
-  R:
-  - T: "2015-01-01"
-    C: NVIDIA Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2015-01-01"
-    C: NVIDIA Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-02-01"
-    C: Etersoft
-    F: "2015-01-01"
-    R: C
-  - T: "2015-02-01"
-    C: Etersoft
-    F: "2015-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-09-01"
-    C: Acronis Inc.
-    F: "2015-02-01"
-    R: C
-  - T: "2016-09-01"
-    C: Acronis Inc.
-    F: "2015-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-09-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: pshilov!microsoft.com
     M: Pavel Shilovsky
     S: git
   B: 0

@@ -12420,6 +12420,11 @@ P:
     F: "1900-01-01"
     P: cncf/shared
     R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: dronecode
+    R: C
   I:
   - E: zehortigoza!gmail.com
     M: Jose Souza
@@ -19068,6 +19073,11 @@ P:
     C: Microsoft Corporation
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: dronecode
     R: C
   I:
   - E: josh!impossible.aero
@@ -31028,6 +31038,11 @@ P:
   U: Julian Fischer
 - E: julian.fischer!anynines.com
   R:
+  - T: "2018-09-01"
+    C: Avarteq
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
   - T: "2018-09-01"
     C: Avarteq
     F: "1900-01-01"
@@ -51937,6 +51952,9 @@ P:
     M: Nitin A Kamble
     S: git
   - E: nitin.a.kamble!intel.com
+    M: Nitin A. Kamble
+    S: git
+  - E: nitin.a.kamble!intel.com
     M: Kamble, Nitin A
     S: groupsio
   - E: nitin.a.kamble!intel.com
@@ -55512,6 +55530,11 @@ P:
     F: "1900-01-01"
     P: cncf/shared
     R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: dronecode
+    R: C
   I:
   - E: karan!khanna.io
     M: Karan Khanna
@@ -58126,10 +58149,21 @@ P:
     S: git
   B: 0
   U: Karl
-- R:
+- E: 1703543+ksaur!users.noreply.github.com
+  R:
+  - T: "2005-08-01"
+    C: United States Department of Defense
+    F: "2005-05-01"
+    P: lfai-onnx
+    R: C
   - T: "2007-08-01"
     C: Google
     F: "2007-04-01"
+    P: lfai-onnx
+    R: C
+  - T: "2007-08-01"
+    C: MITRE
+    F: "2007-05-01"
     P: lfai-onnx
     R: C
   - T: "2015-09-01"
@@ -58148,6 +58182,9 @@ P:
     P: lfai-onnx
     R: C
   I:
+  - E: 1703543+ksaur!users.noreply.github.com
+    M: Karla Saur
+    S: git
   - M: Karla Saur
     S: github
     U: ksaur
@@ -62345,35 +62382,3 @@ P:
     S: git
   B: 0
   U: Katerina Patticha
-- C: UA
-  R:
-  - T: "2019-10-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2019-10-01"
-    C: Independent
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: BMTP
-    F: "2019-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: BMTP
-    F: "2019-10-01"
-    P: linkerd
-    R: C
-  S: female
-  I:
-  - M: Kateryna Melnyk
-    S: github
-    U: KatherineMelnyk
-  B: 0
-  U: Kateryna Melnyk

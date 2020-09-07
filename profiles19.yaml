@@ -1,4 +1,171 @@
 P:
+- C: US
+  R:
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-09-01"
+    C: Astronomer
+    F: "2016-07-01"
+    R: C
+  - T: "2017-09-01"
+    C: Astronomer
+    F: "2016-07-01"
+    P: helm
+    R: C
+  - T: "2017-09-01"
+    C: Astronomer
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Alchemy
+    F: "2017-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Alchemy
+    F: "2017-09-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Alchemy
+    F: "2017-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Mike
+    S: github
+    U: perryao
+  B: 0
+  U: Mike
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  S: male
+  I:
+  - M: Mike
+    S: github
+    U: thequailman
+  B: 0
+  U: Mike
+- E: bat9r.dzuno!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: SoftServe
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - E: bat9r.dzuno!gmail.com
+    M: Mike
+    S: github
+    U: bat9r
+  B: 0
+  U: Mike
+- E: mike!mcdargh.com
+  R:
+  - T: "2015-10-01"
+    C: FnnTEK
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: FnnTEK
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: TaxSlayer
+    F: "2015-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: TaxSlayer
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: mike!mcdargh.com
+    M: Mike
+    S: git
+  B: 0
+  U: Mike
+- C: DE
+  E: mike.loll!gmail.com
+  R:
+  - T: "2015-10-01"
+    C: FnnTEK
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: FnnTEK
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoftServe
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoftServe
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: TaxSlayer
+    F: "2015-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: TaxSlayer
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: mike.loll!gmail.com
+    M: Mike
+    S: git
+  B: 0
+  U: Mike
 - E: mjohanson!gesdate.com
   R:
   - T: "2100-01-01"
@@ -15821,6 +15988,11 @@ P:
     C: Aura Identity Guard
     F: "2016-06-01"
     P: cncf/shared
+    R: C
+  - T: "2019-03-01"
+    C: Aura Identity Guard
+    F: "2016-06-01"
+    P: dronecode
     R: C
   - T: "2100-01-01"
     C: CaziSoft
@@ -32531,6 +32703,9 @@ P:
     M: Naoya Horiguchi
     S: gerrit
     U: n-horiguchi
+  - E: '[n-horiguchi!ah.jp.nec.com]'
+    M: Naoya Horiguchi
+    S: git
   - E: n-horiguchi!ah.jp.nec.com
     M: Naoya Horiguchi
     S: git
@@ -43456,22 +43631,17 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: korg
     R: C
   I:
   - E: nhorman!gmail.com
     M: Neil Horman
     S: git
-  B: 0
-  U: Neil Horman
-- E: nhorman!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
   - E: nhorman!gmail.com
     M: Neil Horman
     S: github
@@ -44709,6 +44879,11 @@ P:
     C: VOX TENEO
     F: "2015-07-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: HelloFresh
+    F: "2016-08-01"
+    P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
     C: HelloFresh
@@ -61718,6 +61893,11 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: libuv
     R: C
   - T: "2100-01-01"
@@ -62014,113 +62194,3 @@ P:
     U: nbarthwal
   B: 0
   U: Nikhil Barthwal
-- E: nbarthwal!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: tekton
-    R: C
-  I:
-  - E: nbarthwal!google.com
-    M: Nikhil Barthwal
-    S: git
-  B: 0
-  U: Nikhil Barthwal
-- E: benesch!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    P: tikv
-    R: C
-  I:
-  - E: benesch!users.noreply.github.com
-    M: Nikhil Benesch
-    S: git
-  B: 0
-  U: Nikhil Benesch
-- C: US
-  E: nikhil.benesch!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    P: intoto
-    R: C
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    P: tikv
-    R: C
-  S: male
-  I:
-  - E: nikhil.benesch!gmail.com
-    M: Nikhil Benesch
-    S: git
-  - E: nikhil.benesch!gmail.com
-    M: Nikhil Benesch
-    S: github
-    U: benesch
-  B: 0
-  U: Nikhil Benesch
-- E: 47204011+nbhoski!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Math Works
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Math Works
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: 47204011+nbhoski!users.noreply.github.com
-    M: Nikhil Bhoski
-    S: git
-  B: 0
-  U: Nikhil Bhoski
-- E: nbhoski!mathworks.com
-  R:
-  - T: "2100-01-01"
-    C: Math Works
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Math Works
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: nbhoski!mathworks.com
-    M: Nikhil Bhoski
-    S: git
-  B: 0
-  U: Nikhil Bhoski

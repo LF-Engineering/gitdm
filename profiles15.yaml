@@ -1,4 +1,36 @@
 P:
+- C: UA
+  R:
+  - T: "2019-10-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2019-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: BMTP
+    F: "2019-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: BMTP
+    F: "2019-10-01"
+    P: linkerd
+    R: C
+  S: female
+  I:
+  - M: Kateryna Melnyk
+    S: github
+    U: KatherineMelnyk
+  B: 0
+  U: Kateryna Melnyk
 - C: US
   E: kateryna.nezdolii!gmail.com
   R:
@@ -4312,6 +4344,11 @@ P:
     C: Google
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: dronecode
     R: C
   I:
   - E: kees!molvis.nl
@@ -20946,7 +20983,19 @@ P:
     U: khelll
   B: 0
   U: Khaled alHabache
-- E: khalid.aziz!hp.com
+- E: khalid.aziz!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: khalid.aziz!oracle.com
+    M: Khalid Aziz
+    S: git
+  B: 0
+  U: Khalid Aziz
+- E: khalid_aziz!hp.com
   R:
   - T: "2100-01-01"
     C: HP
@@ -20956,16 +21005,7 @@ P:
   - E: khalid.aziz!hp.com
     M: Khalid Aziz
     S: git
-  B: 0
-  U: Khalid Aziz
-- E: khalid.aziz!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: khalid.aziz!oracle.com
+  - E: khalid_aziz!hp.com
     M: Khalid Aziz
     S: git
   B: 0
@@ -43025,6 +43065,11 @@ P:
   - T: "2100-01-01"
     C: Arthrex, Inc
     F: "2013-12-01"
+    P: dronecode
+    R: C
+  - T: "2100-01-01"
+    C: Arthrex, Inc
+    F: "2013-12-01"
     P: yocto
     R: C
   I:
@@ -45124,6 +45169,11 @@ P:
     C: Inspur
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Inspur
+    F: "1900-01-01"
+    P: dronecode
     R: C
   I:
   - E: kyle!fireflydroneshows.com
@@ -61824,223 +61874,3 @@ P:
     S: git
   B: 0
   U: Leif Lindholm
-- C: AU
-  E: lmadsen!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2006-01-01"
-    C: Core Telecom Innovations Inc
-    F: "2004-05-01"
-    P: akraino
-    R: C
-  - T: "2006-01-01"
-    C: Core Telecom Innovations Inc
-    F: "2004-05-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2007-08-01"
-    C: Sokol & Associates, L.L.C.
-    F: "2004-10-01"
-    P: akraino
-    R: C
-  - T: "2007-08-01"
-    C: Sokol & Associates, L.L.C.
-    F: "2004-10-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2007-10-01"
-    C: MIX Networks, Inc
-    F: "2005-01-01"
-    P: akraino
-    R: C
-  - T: "2007-10-01"
-    C: MIX Networks, Inc
-    F: "2005-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2012-11-01"
-    C: LeifMadsen Enterprises, Inc
-    F: "2005-08-01"
-    P: akraino
-    R: C
-  - T: "2012-11-01"
-    C: LeifMadsen Enterprises, Inc
-    F: "2005-08-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2011-12-01"
-    C: Digium, Inc.
-    F: "2007-07-01"
-    P: akraino
-    R: C
-  - T: "2011-12-01"
-    C: Digium, Inc.
-    F: "2007-07-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2012-11-01"
-    C: CoreDial, LLC
-    F: "2011-12-01"
-    P: akraino
-    R: C
-  - T: "2012-11-01"
-    C: CoreDial, LLC
-    F: "2011-12-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2015-01-01"
-    C: ThinkingPhones
-    F: "2012-11-01"
-    P: akraino
-    R: C
-  - T: "2015-01-01"
-    C: ThinkingPhones
-    F: "2012-11-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2015-12-01"
-    C: AVOXI
-    F: "2015-02-01"
-    P: akraino
-    R: C
-  - T: "2015-12-01"
-    C: AVOXI
-    F: "2015-02-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2016-04-07"
-    P: opnfv
-    R: C
-  I:
-  - M: Leif Madsen
-    S: confluence
-    U: leifmadsen
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: confluence
-    U: leifmadsen
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: gerrit
-    U: leifmadsen
-  - E: leif!leifmadsen.com
-    M: Leif Madsen
-    S: git
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: git
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: github
-    U: leifmadsen
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: gmane
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: groupsio
-  - M: Leif Madsen
-    S: jira
-    U: leifmadsen
-  - E: lmadsen!juniper.net
-    M: Leif Madsen
-    S: jira
-    U: lmadsen
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: jira
-    U: leifmadsen
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: mbox
-  - E: lmadsen!redhat.com
-    M: Leif Madsen
-    S: pipermail
-  B: 0
-  U: Leif Madsen
-- C: DK
-  R:
-  - T: "2100-01-01"
-    C: NorMedia
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: NorMedia
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: NorMedia
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Leif Ringstad
-    S: github
-    U: leifcr
-  B: 0
-  U: Leif Ringstad
-- C: DK
-  E: leif!symbolia.com
-  R:
-  - T: "2100-01-01"
-    C: NorMedia
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: NorMedia
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: leif!symbolia.com
-    M: Leif Ringstad
-    S: git
-  B: 0
-  U: Leif Ringstad
-- E: lmadsen!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: lmadsen!redhat.com
-    M: Leif
-    S: git
-  B: 0
-  U: Leif

@@ -1,4 +1,44 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Diamanti
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Diamanti
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Diamanti
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Alex Bahel
+    S: github
+    U: AlexDiamanti
+  B: 0
+  U: Alex Bahel
+- E: alex!diamanti.com
+  R:
+  - T: "2100-01-01"
+    C: Diamanti
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Diamanti
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  S: male
+  I:
+  - E: alex!diamanti.com
+    M: Alex Bahel
+    S: git
+  B: 0
+  U: Alex Bahel
 - E: AlexRBarnes!gmail.com
   R:
   - T: "2100-01-01"
@@ -3851,6 +3891,11 @@ P:
     C: Rackspace
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: dronecode
     R: C
   I:
   - E: alex!droneseed.co
@@ -9067,7 +9112,13 @@ P:
     P: zep
     R: C
   I:
+  - E: '[alex.williamson!hp.com'
+    M: Alex Williamson
+    S: git
   - E: alex.williamson!hp.com
+    M: Alex Williamson
+    S: git
+  - E: alex_williamson!hp.com
     M: Alex Williamson
     S: git
   B: 0
@@ -44816,6 +44867,9 @@ P:
   - E: ananth!in.ibm.com
     M: Ananth N Mavinakayanahalli
     S: git
+  - E: ananth!in.ibm.com
+    M: Ananth N. Mavinakayanahalli
+    S: git
   B: 0
   U: Ananth N Mavinakayanahalli
 - E: ananth!linux.vnet.ibm.com
@@ -62091,52 +62145,3 @@ P:
     U: AndrewGnagy
   B: 0
   U: Andrew Gnagy
-- R:
-  - T: "2015-11-01"
-    C: NexTraq
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-11-01"
-    C: NexTraq
-    F: "1900-01-01"
-    P: ojsf-mocha
-    R: C
-  - T: "2017-02-01"
-    C: npm
-    F: "2015-11-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: SalesVista
-    F: "2017-02-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: Andrew Goode
-    S: github
-    U: nexdrew
-  B: 0
-  U: Andrew Goode
-- E: andrew!agrnwd.com
-  R:
-  - T: "2100-01-01"
-    C: Autodata Solutions
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Autodata Solutions
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: andrew!agrnwd.com
-    M: Andrew Greenwood
-    S: git
-  - E: andrew!agrnwd.com
-    M: Andrew Greenwood
-    S: github
-    U: skyscooby
-  B: 0
-  U: Andrew Greenwood
