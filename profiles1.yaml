@@ -772,6 +772,11 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2100-01-01"
@@ -1639,6 +1644,35 @@ P:
   - E: mayreply!aaronfriel.com
     M: Aaron Friel
     S: git
+- R:
+  - T: "2016-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-08-01"
+    C: Cerner Corporation
+    F: "2016-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Cerner Corporation
+    F: "2017-04-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: aegershman!gmail.com
+    M: Aaron Gershman
+    S: git
+  - E: aegershman!gmail.com
+    M: Aaron Gershman
+    S: slack
+    U: aegershman
 - R:
   - T: "2014-12-01"
     C: Independent
@@ -2757,6 +2791,40 @@ P:
   - E: opnfv-helpdesk!rt.linuxfoundation.org
     M: ollivier.cedric
     S: pipermail
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - S: slack
+    U: sesmith177
+- R:
+  - T: "2014-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-04-01"
+    C: YPlan
+    F: "2014-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-09-01"
+    C: Weaveworks
+    F: "2017-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Thread
+    F: "2018-09-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: aaron7
+    S: supybot
+    U: aaron7
 - C: IL
   R:
   - T: "2017-04-01"
@@ -4990,15 +5058,30 @@ P:
     F: "1900-01-01"
     P: cncf/operatorframework
     R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
   - T: "2018-05-01"
     C: Red Hat Inc.
     F: "2017-05-01"
     P: cncf/operatorframework
     R: C
+  - T: "2018-05-01"
+    C: Red Hat Inc.
+    F: "2017-05-01"
+    P: k8s
+    R: C
   - T: "2018-07-01"
     C: Independent
     F: "2018-05-01"
     P: cncf/operatorframework
+    R: C
+  - T: "2018-07-01"
+    C: Independent
+    F: "2018-05-01"
+    P: k8s
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -7612,6 +7695,11 @@ P:
   - T: "2015-03-01"
     C: PubNub
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-03-01"
+    C: PubNub
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2015-03-01"
@@ -7632,6 +7720,11 @@ P:
     C: Red Hat Inc.
     F: "2015-03-01"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-03-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -7700,6 +7793,11 @@ P:
     C: PubNub
     F: "1900-01-01"
     P: baetyl
+    R: C
+  - T: "2015-03-01"
+    C: PubNub
+    F: "1900-01-01"
+    P: cncf/cni
     R: C
   - T: "2015-03-01"
     C: PubNub
@@ -15854,6 +15952,11 @@ P:
   - T: "2100-01-01"
     C: Verizon Communications
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Verizon Communications
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2100-01-01"
@@ -17049,6 +17152,60 @@ P:
     S: git
   B: 0
   U: Abdul Karim
+- R:
+  - T: "2014-09-01"
+    C: Kracked Eggs
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-10-01"
+    C: Fatima
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-10-01"
+    C: Netsol
+    F: "2014-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Math
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Abdul Rauf
+    S: jira
+    U: armujahid
+  B: 0
+  U: Abdul Rauf
+- R:
+  - T: "2014-09-01"
+    C: Kracked Eggs
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-10-01"
+    C: Fatima
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-10-01"
+    C: Netsol
+    F: "2014-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Math
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Abdul Rauf
+    S: rocketchat
+    U: armujahid
+  B: 0
+  U: Abdul Rauf
 - C: PK
   E: abdulraufmujahid!gmail.com
   R:
@@ -18124,6 +18281,11 @@ P:
   U: Abhay Kumar
 - E: ankatare!hotmail.com
   R:
+  - T: "2100-01-01"
+    C: NEC
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
   - T: "2100-01-01"
     C: NEC
     F: "2018-05-07"
@@ -20448,6 +20610,11 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "2012-06-01"
     P: stackstorm
+    R: C
+  - T: "2100-01-01"
+    C: DataSine
+    F: "2016-11-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: DataSine
@@ -23872,6 +24039,20 @@ P:
     U: gozali
   B: 0
   U: Achmad Gozali
+- E: gozali!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Mataharimall
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: gozali!gmail.com
+    M: Achmad Gozali
+    S: slack
+    U: gozali
+  B: 0
+  U: Achmad Gozali
 - E: achuth.maniyedath!ericsson.com
   R:
   - T: "2100-01-01"
@@ -26947,6 +27128,41 @@ P:
     U: hev
   B: 0
   U: Adam Hevenor
+- E: adamhosier!improbable.io
+  R:
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2016-09-01"
+    C: Funnelback
+    F: "2016-06-01"
+    P: thanos
+    R: C
+  - T: "2017-09-01"
+    C: Independent
+    F: "2016-09-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Improbable
+    F: "2017-09-01"
+    P: thanos
+    R: C
+  I:
+  - E: adamhosier!improbable.io
+    M: Adam Hosier
+    S: git
+  - E: adamhosier!improbable.io
+    M: adamhosier
+    S: git
+  - E: adamhosier!improbable.io
+    M: Adam Hosier
+    S: slack
+    U: adamhosier
+  B: 0
+  U: Adam Hosier
 - E: shook!datacatessen.com
   R:
   - T: "2014-10-01"
@@ -31444,6 +31660,43 @@ P:
     U: adarsh
   B: 0
   U: Adarsh Srinivasan
+- R:
+  - T: "2015-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-12-01"
+    C: HumGenie
+    F: "2015-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-11-01"
+    C: AntiAlias Ventures
+    F: "2016-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-11-01"
+    C: RecordsKeeper
+    F: "2017-11-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-03-01"
+    C: BlockCore and Tokenization
+    F: "2018-11-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Lynkit
+    F: "2019-03-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Adarsha Jha
+    S: jira
+    U: adarshaJha
+  B: 0
+  U: Adarsha Jha
 - E: adarshajha!live.com
   R:
   - T: "2015-08-01"
@@ -32119,6 +32372,11 @@ P:
   - T: "2016-12-01"
     C: Cloudbase Solutions
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2016-12-01"
+    C: Cloudbase Solutions
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2016-12-01"
@@ -32142,6 +32400,11 @@ P:
   - T: "2017-02-01"
     C: Independent
     F: "2016-12-01"
+    P: cncf/cni
+    R: C
+  - T: "2017-02-01"
+    C: Independent
+    F: "2016-12-01"
     P: container-networking-interface
     R: C
   - T: "2017-02-01"
@@ -32157,6 +32420,11 @@ P:
   - T: "2017-11-01"
     C: Dream Production
     F: "2017-02-01"
+    R: C
+  - T: "2017-11-01"
+    C: Dream Production
+    F: "2017-02-01"
+    P: cncf/cni
     R: C
   - T: "2017-11-01"
     C: Dream Production
@@ -32176,6 +32444,11 @@ P:
   - T: "2100-01-01"
     C: Cloudbase Solutions
     F: "2017-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cloudbase Solutions
+    F: "2017-11-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: Cloudbase Solutions
@@ -32209,6 +32482,11 @@ P:
   - T: "2016-12-01"
     C: Cloudbase Solutions
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2016-12-01"
+    C: Cloudbase Solutions
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2016-12-01"
@@ -32234,6 +32512,11 @@ P:
   - T: "2017-02-01"
     C: Independent
     F: "2016-12-01"
+    P: cncf/cni
+    R: C
+  - T: "2017-02-01"
+    C: Independent
+    F: "2016-12-01"
     P: cncf/k3s
     R: C
   - T: "2017-02-01"
@@ -32250,6 +32533,11 @@ P:
     C: Dream Production
     F: "2017-02-01"
     P: baetyl
+    R: C
+  - T: "2017-11-01"
+    C: Dream Production
+    F: "2017-02-01"
+    P: cncf/cni
     R: C
   - T: "2017-11-01"
     C: Dream Production
@@ -35613,6 +35901,11 @@ P:
   - T: "2100-01-01"
     C: Mellanox Technologies, Ltd
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2100-01-01"
@@ -36030,6 +36323,20 @@ P:
     S: git
   B: 0
   U: Adrian Glaubitz
+- E: adrian!backbase.com
+  R:
+  - T: "2100-01-01"
+    C: Workday
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: adrian!backbase.com
+    M: Adrian H
+    S: slack
+    U: adrian
+  B: 0
+  U: Adrian H
 - E: mail!adrianheine.de
   R:
   - T: "2100-01-01"
@@ -43218,6 +43525,11 @@ P:
   - T: "2100-01-01"
     C: Amazon
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   S: male
@@ -44751,6 +45063,23 @@ P:
     S: git
   B: 0
   U: Akansha Sharma
+- E: akarsh.es!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  I:
+  - E: akarsh.es!gmail.com
+    M: Akarsh Ellore Sreenath
+    S: git
+  - E: akarsh.es!gmail.com
+    M: Akarsh Ellore Sreenath
+    S: github
+    U: AkarshES
+  B: 0
+  U: Akarsh Ellore Sreenath
 - E: akash.a!moonraft.com
   R:
   - T: "2019-06-20"
@@ -50207,6 +50536,28 @@ P:
   B: 0
   U: Alan Post
 - R:
+  - T: "2017-03-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-08-01"
+    C: Teradata
+    F: "2017-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-08-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Alan Post
+    S: slack
+    U: alandpost
+  B: 0
+  U: Alan Post
+- R:
   - T: "2014-08-01"
     C: Cisco Systems Inc.
     F: "1900-01-01"
@@ -51276,6 +51627,19 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: agk!redhat.com
+    M: Alasdair G. Kergon
+    S: git
+  B: 0
+  U: Alasdair G. Kergon
+- E: agk!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: acrn/acrn
     R: C
   - T: "2100-01-01"
@@ -52071,6 +52435,11 @@ P:
   - T: "2100-01-01"
     C: Avionic Design GmbH
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Avionic Design GmbH
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   S: male
@@ -52269,6 +52638,11 @@ P:
   - T: "2014-11-01"
     C: Collabora
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2014-11-01"
+    C: Collabora
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2014-11-01"
@@ -52330,6 +52704,11 @@ P:
     C: Endocode
     F: "2014-11-01"
     P: cncf
+    R: C
+  - T: "2015-08-01"
+    C: Endocode
+    F: "2014-11-01"
+    P: cncf/cni
     R: C
   - T: "2015-08-01"
     C: Endocode
@@ -52582,6 +52961,30 @@ P:
     S: git
   B: 0
   U: Alban Crequy
+- E: alban!donecle.com
+  R:
+  - T: "2014-11-01"
+    C: Collabora
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-08-01"
+    C: Endocode
+    F: "2014-11-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Kinvolk GmbH
+    F: "2015-08-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: alban!donecle.com
+    M: Alban Deruaz
+    S: slack
+    U: alban
+  B: 0
+  U: Alban Deruaz
 - E: alban.fonrouge!visma.com
   R:
   - T: "2100-01-01"
@@ -55415,6 +55818,110 @@ P:
     U: alejandraferreirovidal
   B: 0
   U: Alejandra Ferreiro Vidal
+- R:
+  - T: "2014-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-02-01"
+    C: Touchido
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-08-01"
+    C: Independent
+    F: "2015-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-03-01"
+    C: Entrepreneur First
+    F: "2015-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "2016-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-12-01"
+    C: Techstars
+    F: "2016-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-04-01"
+    C: Avalon Al
+    F: "2016-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-10-01"
+    C: AID:Tech
+    F: "2017-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Curious
+    F: "2019-10-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Alejandro (Sasha) Vicente Grabovetsky
+    S: confluence
+    U: alexvicegrab
+  B: 0
+  U: Alejandro (Sasha) Vicente Grabovetsky
+- R:
+  - T: "2014-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-02-01"
+    C: Touchido
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-08-01"
+    C: Independent
+    F: "2015-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-03-01"
+    C: Entrepreneur First
+    F: "2015-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "2016-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-12-01"
+    C: Techstars
+    F: "2016-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-04-01"
+    C: Avalon Al
+    F: "2016-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-10-01"
+    C: AID:Tech
+    F: "2017-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Curious
+    F: "2019-10-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Alejandro (Sasha) Vicente Grabovetsky
+    S: jira
+    U: alexvicegrab
+  B: 0
+  U: Alejandro (Sasha) Vicente Grabovetsky
 - E: a.vicente.grab!gmail.com
   R:
   - T: "2014-09-01"
@@ -56778,6 +57285,35 @@ P:
     S: groupsio
   B: 0
   U: Alejandro Saucedo
+- E: aviau!ufm.edu
+  R:
+  - T: "2014-08-01"
+    C: GIA
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-12-01"
+    C: Savoir-faire Linux
+    F: "2014-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-01-01"
+    C: Debian
+    F: "2018-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Flare Systems
+    F: "2019-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: aviau!ufm.edu
+    M: Alejandro Viau
+    S: slack
+    U: aviau
+  B: 0
+  U: Alejandro Viau
 - R:
   - T: "2100-01-01"
     C: National Instruments
@@ -61131,450 +61667,3 @@ P:
     S: git
   B: 0
   U: Alex Bahel
-- E: AlexRBarnes!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: SalesLoft
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: AlexRBarnes!gmail.com
-    M: Alex Barnes
-    S: github
-    U: AlexB138
-  B: 0
-  U: Alex Barnes
-- E: alex.belits!cavium.com
-  R:
-  - T: "2100-01-01"
-    C: Cavium
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: alex.belits!cavium.com
-    M: Alex Belits
-    S: git
-  B: 0
-  U: Alex Belits
-- C: US
-  E: alex.bennee!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2017-04-11"
-    C: Linaro Limited
-    F: "2013-12-23"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: alex.bennee!linaro.org
-    M: Alex Bennée
-    S: git
-  - E: alex.bennee!linaro.org
-    M: alex.bennee
-    S: git
-  B: 0
-  U: Alex Bennée
-- E: alex!linlab.net
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: alex!linlab.net
-    M: Alex Bergmann
-    S: git
-  B: 0
-  U: Alex Bergmann
-- E: alex.bien-aime!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - E: alex.bien-aime!ericsson.com
-    M: Alex Bien-Aime
-    S: jira
-    U: ealebie
-  B: 0
-  U: Alex Bien-Aime
-- E: alexblease!gmail.com
-  R:
-  - T: "2019-05-03"
-    C: Pivotal
-    F: "2015-07-17"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: ablease!pivotal.io
-    M: Alex Blease
-    S: git
-  - E: alex!cloudcredo.com
-    M: Alex Blease
-    S: git
-  - E: alexblease!gmail.com
-    M: Alex
-    S: git
-  - E: alexblease!gmail.com
-    M: Alex Blease
-    S: github
-    U: ablease
-  - E: ablease!pivotal.io
-    M: Alexander Blease
-    S: groupsio
-  - E: ablease!pivotal.io
-    M: Alexander Blease
-    S: mbox
-  - E: ablease!pivotal.io
-    M: ablease
-    S: slack
-    U: ablease
-  B: 0
-  U: Alex Blease
-- R:
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-02-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: Alex Bligh
-    S: github
-    U: abligh
-  B: 0
-  U: Alex Bligh
-- E: alex!alex.org.uk
-  R:
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2017-02-01"
-    C: Mountstephen Advisers LLP
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-02-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: alex!alex.org.uk
-    M: Alex Bligh
-    S: git
-  B: 0
-  U: Alex Bligh
-- E: alex.bou9!gmail.com
-  R:
-  - T: "2018-03-01"
-    C: IDT
-    F: "1900-01-01"
-    R: C
-  - T: "2018-03-01"
-    C: IDT
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Syntronic
-    F: "2018-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: Syntronic
-    F: "2018-03-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: alex.bou9!gmail.com
-    M: Alex Bounine
-    S: git
-  - E: alex.bou9!gmail.com
-    M: Alexandre Bounine
-    S: git
-  B: 0
-  U: Alex Bounine
-- R:
-  - T: "2015-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2015-08-01"
-    C: BAE Systems
-    F: "2015-06-01"
-    P: argo
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2015-08-01"
-    P: argo
-    R: C
-  - T: "2016-09-01"
-    C: Sequel
-    F: "2016-06-01"
-    P: argo
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2016-09-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: blackrock
-    F: "2017-08-01"
-    P: argo
-    R: C
-  I:
-  - M: Alex Capras
-    S: github
-    U: alexcapras
-  B: 0
-  U: Alex Capras
-- R:
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  I:
-  - M: Alex Chan
-    S: github
-    U: alexchan
-  B: 0
-  U: Alex Chan
-- C: US
-  E: alex!alexwlchan.net
-  R:
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: cncf/cni
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: cni
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-09-02"
-    C: wellcometrust
-    F: "2015-08-28"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: alex!alexwlchan.net
-    M: Alex Chan
-    S: git
-  - E: alex!alexwlchan.net
-    M: Alex Chan
-    S: github
-    U: alexwlchan
-  B: 0
-  U: Alex Chan
-- E: alex!silverprogram.com
-  R:
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  S: male
-  I:
-  - E: alex!silverprogram.com
-    M: Alex Chan
-    S: git
-  B: 0
-  U: Alex Chan
-- C: US
-  E: alex.chan!metaswitch.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: wellcometrust
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  S: male
-  I:
-  - E: alex.chan!metaswitch.com
-    M: Alex Chan
-    S: git
-  - E: alexc2!cisco.com
-    M: Alex Chan
-    S: git
-  - M: Alex Chan
-    S: meetup
-    U: "14680411"
-  - M: Alex Chan
-    S: meetup
-    U: "182976055"
-  B: 0
-  U: Alex Chan

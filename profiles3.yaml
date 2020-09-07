@@ -1306,11 +1306,21 @@ P:
   - T: "2018-01-01"
     C: FlowPro.io
     F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-01-01"
+    C: FlowPro.io
+    F: "1900-01-01"
     P: nats
     R: C
   - T: "2019-04-01"
     C: Independent
     F: "2018-01-01"
+    R: C
+  - T: "2019-04-01"
+    C: Independent
+    F: "2018-01-01"
+    P: cncf/shared
     R: C
   - T: "2019-04-01"
     C: Independent
@@ -1320,6 +1330,11 @@ P:
   - T: "2100-01-01"
     C: SFPL
     F: "2019-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: SFPL
+    F: "2019-04-01"
+    P: cncf/shared
     R: C
   - T: "2100-01-01"
     C: SFPL
@@ -1714,12 +1729,12 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2016-03-01"
-    C: Thales Group
+    C: Thales
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2016-03-01"
-    C: Thales Group
+    C: Thales
     F: "1900-01-01"
     P: k8s
     R: C
@@ -1766,7 +1781,7 @@ P:
     F: "1900-01-01"
     R: C
   - T: "2016-03-01"
-    C: Thales Group
+    C: Thales
     F: "1900-01-01"
     P: k8s
     R: C
@@ -7798,6 +7813,11 @@ P:
   - T: "2014-07-01"
     C: T4G
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2014-07-01"
+    C: T4G
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2014-07-01"
@@ -7809,6 +7829,11 @@ P:
     C: T4G
     F: "1900-01-01"
     P: openpolicyagent
+    R: C
+  - T: "2015-10-01"
+    C: HOOPP
+    F: "2014-07-01"
+    P: cncf/cni
     R: C
   - T: "2015-10-01"
     C: HOOPP
@@ -12516,6 +12541,23 @@ P:
     U: Envek
   B: 0
   U: Andrey Novikov
+- R:
+  - T: "2018-12-01"
+    C: Lebedev Physical Institute of the Russian Academy of Sciences
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Yandex
+    F: "2018-12-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Andrey Pavlov
+    S: jira
+    U: Andrey-mp
+  B: 0
+  U: Andrey Pavlov
 - C: RU
   E: andrey.mp!gmail.com
   R:
@@ -16095,6 +16137,20 @@ P:
     U: szundi
   B: 0
   U: András Szabó
+- E: szundi!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: iData Kft
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: szundi!gmail.com
+    M: András Szabó
+    S: slack
+    U: szundi
+  B: 0
+  U: András Szabó
 - E: andras.1.toth!nokia.com
   R:
   - T: "2100-01-01"
@@ -16821,6 +16877,9 @@ P:
     R: C
   S: male
   I:
+  - E: andrestc!fb.com
+    M: Andre Carvalho
+    S: git
   - E: asantostc!gmail.com
     M: André Carvalho
     S: git
@@ -16828,9 +16887,20 @@ P:
     M: André Carvalho
     S: github
     U: andrestc
+  - E: andrestc!fb.com
+    M: Andre Carvalho
+    S: groupsio
+  - M: Andre Carvalho
+    S: meetup
+    U: "281095635"
   B: 0
   U: André Carvalho
 - R:
+  - T: "2016-06-01"
+    C: Baboom
+    F: "1900-01-01"
+    P: cloudevents
+    R: C
   - T: "2016-06-01"
     C: Baboom
     F: "1900-01-01"
@@ -16880,6 +16950,18 @@ P:
   - M: André Cruz
     S: github
     U: satazor
+  B: 0
+  U: André Cruz
+- R:
+  - T: "2100-01-01"
+    C: Bright Pixel
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: André Cruz
+    S: jira
+    U: edevil
   B: 0
   U: André Cruz
 - C: PT
@@ -17082,6 +17164,23 @@ P:
     S: git
   B: 0
   U: André Cruz
+- E: byo!andred.net
+  R:
+  - T: "2100-01-01"
+    C: OVH
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: byo!andred.net
+    S: bugzilla
+    U: byo
+  - E: byo!andred.net
+    M: André Draszik
+    S: bugzilla
+    U: byo
+  B: 0
+  U: André Draszik
 - C: DE
   E: andre!gaul.io
   R:
@@ -17258,6 +17357,11 @@ P:
   - T: "2015-01-01"
     C: Independent
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2015-01-01"
@@ -17297,6 +17401,11 @@ P:
   - T: "2017-01-01"
     C: Cisco Systems Inc.
     F: "2015-01-01"
+    R: C
+  - T: "2017-01-01"
+    C: Cisco Systems Inc.
+    F: "2015-01-01"
+    P: cncf/cni
     R: C
   - T: "2017-01-01"
     C: Cisco Systems Inc.
@@ -17336,6 +17445,11 @@ P:
   - T: "2100-01-01"
     C: Cilium
     F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cilium
+    F: "2017-01-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: Cilium
@@ -17427,6 +17541,11 @@ P:
   - T: "2015-01-01"
     C: Independent
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2015-01-01"
@@ -17483,6 +17602,11 @@ P:
     C: Cilium
     F: "2017-01-01"
     P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Cilium
+    F: "2017-01-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: Cilium
@@ -19392,6 +19516,11 @@ P:
   - T: "2017-06-02"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2017-06-02"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2017-06-02"
@@ -19421,6 +19550,11 @@ P:
   - T: "2018-12-11"
     C: VMware, Inc.
     F: "2017-06-02"
+    P: cncf/cni
+    R: C
+  - T: "2018-12-11"
+    C: VMware, Inc.
+    F: "2017-06-02"
     P: container-networking-interface
     R: C
   - T: "2018-12-11"
@@ -19446,6 +19580,11 @@ P:
     C: VMware, Inc.
     F: "2018-12-11"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-12-11"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
@@ -19588,6 +19727,11 @@ P:
   - T: "2017-06-02"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2017-06-02"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2017-06-02"
@@ -19684,6 +19828,11 @@ P:
     C: VMware, Inc.
     F: "2018-12-11"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-12-11"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
@@ -19811,6 +19960,18 @@ P:
   I:
   - M: Andy Gospodarek
     S: github
+    U: gospo
+  B: 0
+  U: Andy Gospodarek
+- R:
+  - T: "2100-01-01"
+    C: Cumulus
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Andy Gospodarek
+    S: slack
     U: gospo
   B: 0
   U: Andy Gospodarek
@@ -20608,6 +20769,11 @@ P:
   - T: "2016-07-01"
     C: Shoop
     F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2016-07-01"
+    C: Shoop
+    F: "1900-01-01"
     P: k8s
     R: C
   - T: "2016-07-01"
@@ -20622,6 +20788,11 @@ P:
   - T: "2017-03-01"
     C: PT. Kreatif Media Karya
     F: "2016-07-01"
+    P: cri-o
+    R: C
+  - T: "2017-03-01"
+    C: PT. Kreatif Media Karya
+    F: "2016-07-01"
     P: k8s
     R: C
   - T: "2017-03-01"
@@ -20636,6 +20807,11 @@ P:
   - T: "2019-05-01"
     C: BBM
     F: "2017-03-01"
+    P: cri-o
+    R: C
+  - T: "2019-05-01"
+    C: BBM
+    F: "2017-03-01"
     P: k8s
     R: C
   - T: "2019-05-01"
@@ -20646,6 +20822,11 @@ P:
   - T: "2100-01-01"
     C: Vidio
     F: "2019-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Vidio
+    F: "2019-05-01"
+    P: cri-o
     R: C
   - T: "2100-01-01"
     C: Vidio
@@ -22421,6 +22602,11 @@ P:
   - T: "2014-03-01"
     C: CCC
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2014-03-01"
+    C: CCC
+    F: "1900-01-01"
     P: cncf/operatorframework
     R: C
   - T: "2014-03-01"
@@ -22432,6 +22618,11 @@ P:
     C: CCC
     F: "1900-01-01"
     P: kubevirt
+    R: C
+  - T: "2016-03-01"
+    C: Stratus
+    F: "2014-03-01"
+    P: cncf/cni
     R: C
   - T: "2016-03-01"
     C: Stratus
@@ -23803,6 +23994,11 @@ P:
   - T: "2014-03-01"
     C: Google
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2014-03-01"
+    C: Google
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2014-03-01"
@@ -23923,6 +24119,11 @@ P:
   - T: "2019-06-01"
     C: VMware, Inc.
     F: "2016-10-01"
+    P: cncf/cni
+    R: C
+  - T: "2019-06-01"
+    C: VMware, Inc.
+    F: "2016-10-01"
     P: cncf/k3s
     R: C
   - T: "2019-06-01"
@@ -23974,6 +24175,11 @@ P:
     C: Amazon
     F: "2019-06-01"
     P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-06-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: Amazon
@@ -25148,6 +25354,30 @@ P:
     S: git
   B: 0
   U: Anil Arora
+- E: abelur!linux.com
+  R:
+  - T: "2015-04-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "2015-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: OpenDaylight
+    F: "2016-06-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: abelur!linux.com
+    M: Anil Belur
+    S: jira
+    U: askb
+  B: 0
+  U: Anil Belur
 - C: AU
   E: askb23!gmail.com
   R:
@@ -26462,6 +26692,11 @@ P:
   - T: "2100-01-01"
     C: Amazon
     F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: Amazon
@@ -30068,10 +30303,25 @@ P:
   B: 0
   U: Anna Stopel
 - R:
+  - T: "2014-09-01"
+    C: Express Scripts
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-10-01"
+    C: Maryville
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
   - T: "2019-04-19"
     C: Pivotal
     F: "2016-07-01"
     P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Rubin Observatory
+    F: "2016-10-01"
+    P: cncf/shared
     R: C
   I:
   - M: Anna Thornton
@@ -31285,6 +31535,18 @@ P:
     F: "1900-01-01"
     P: cncf/shared
     R: C
+  I:
+  - M: Anoop J.
+    S: slack
+    U: anoopj
+  B: 0
+  U: Anoop J.
+- R:
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
   - T: "2100-01-01"
     C: Amazon
     F: "1900-01-01"
@@ -31437,6 +31699,11 @@ P:
   U: Anshu Prateek
 - E: anshprat!gmail.com
   R:
+  - T: "2015-03-01"
+    C: Aerospike
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
   - T: "2008-08-01"
     C: Google
     F: "2008-05-01"
@@ -31453,14 +31720,34 @@ P:
     P: lfn/tungsten-fabric
     R: C
   - T: "2016-02-01"
+    C: Reliance Industries Limited
+    F: "2015-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-02-01"
     C: Reliance Jio Infocomm Limited
     F: "2015-04-01"
     P: lfn/tungsten-fabric
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "2016-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-06-01"
+    C: Freecharge
+    F: "2016-06-01"
+    P: cncf/shared
     R: C
   - T: "2017-06-01"
     C: Freecharge
     F: "2016-06-01"
     P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: Grab
+    F: "2017-06-01"
+    P: cncf/shared
     R: C
   - T: "2100-01-01"
     C: Grab
@@ -33805,6 +34092,23 @@ P:
     U: avirtuos
   B: 0
   U: Anthony Virtuoso
+- R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: presto
+    R: C
+  I:
+  - M: Anthony Virtuoso
+    S: slack
+    U: virtuoso
+  B: 0
+  U: Anthony Virtuoso
 - C: US
   E: voutasaurus!gmail.com
   R:
@@ -34463,6 +34767,18 @@ P:
     U: tanant
   B: 0
   U: Anthony
+- R:
+  - T: "2100-01-01"
+    C: Backplane.io
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Anthony
+    S: rocketchat
+    U: voutasaurus
+  B: 0
+  U: Anthony
 - E: anthony.lansangan26!gmail.com
   R:
   - T: "2015-08-01"
@@ -34648,6 +34964,17 @@ P:
     S: git
   B: 0
   U: Anti Sullin
+- R:
+  - T: "2100-01-01"
+    C: Enapter
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - S: rocketchat
+    U: Antiarchitect
+  B: 0
+  U: Antiarchitect
 - E: todd!antiheavy.com
   R:
   - T: "2100-01-01"
@@ -39108,6 +39435,30 @@ P:
     S: git
   B: 0
   U: Anton
+- E: donnikanton!gmail.com
+  R:
+  - T: "2015-08-01"
+    C: Yandex
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-07-01"
+    C: Groupon
+    F: "2015-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: MangoDB
+    F: "2017-07-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: donnikanton!gmail.com
+    M: Anton
+    S: slack
+    U: donnikanton
+  B: 0
+  U: Anton
 - C: ES
   E: toniflorithomar!gmail.com
   R:
@@ -40154,6 +40505,11 @@ P:
   - T: "2015-05-01"
     C: Redes
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-05-01"
+    C: Redes
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2015-05-01"
@@ -40184,6 +40540,11 @@ P:
   - T: "2017-10-01"
     C: Midokura
     F: "2015-05-01"
+    P: cncf/cni
+    R: C
+  - T: "2017-10-01"
+    C: Midokura
+    F: "2015-05-01"
     P: cncf/k3s
     R: C
   - T: "2017-10-01"
@@ -40205,6 +40566,11 @@ P:
     C: Independent
     F: "2017-10-01"
     P: baetyl
+    R: C
+  - T: "2018-01-01"
+    C: Independent
+    F: "2017-10-01"
+    P: cncf/cni
     R: C
   - T: "2018-01-01"
     C: Independent
@@ -40332,6 +40698,11 @@ P:
   - T: "2015-05-01"
     C: Redes
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-05-01"
+    C: Redes
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2015-05-01"
@@ -40358,6 +40729,11 @@ P:
     C: Midokura
     F: "2015-05-01"
     P: cncf
+    R: C
+  - T: "2017-10-01"
+    C: Midokura
+    F: "2015-05-01"
+    P: cncf/cni
     R: C
   - T: "2017-10-01"
     C: Midokura
@@ -40398,6 +40774,11 @@ P:
     C: Independent
     F: "2017-10-01"
     P: cncf
+    R: C
+  - T: "2018-01-01"
+    C: Independent
+    F: "2017-10-01"
+    P: cncf/cni
     R: C
   - T: "2018-01-01"
     C: Independent
@@ -40812,6 +41193,18 @@ P:
     U: antonio-rojas
   B: 0
   U: Antonio Rojas
+- R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Antonio Romero
+    S: slack
+    U: antonio
+  B: 0
+  U: Antonio Romero
 - E: antonio.e.russo!gmail.com
   R:
   - T: "2100-01-01"
@@ -40978,6 +41371,20 @@ P:
   - E: amuniz!users.noreply.github.com
     M: Antonio
     S: git
+  B: 0
+  U: Antonio
+- E: antonio!thelabrador.co.uk
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: antonio!thelabrador.co.uk
+    M: Antonio
+    S: slack
+    U: antonio
   B: 0
   U: Antonio
 - C: LV
@@ -45618,6 +46025,11 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2100-01-01"
@@ -49898,7 +50310,7 @@ P:
     P: cncf/k3s
     R: C
   - T: "2019-02-01"
-    C: Thales Group
+    C: Thales
     F: "2017-10-01"
     P: cncf/k3s
     R: C
@@ -53746,6 +54158,36 @@ P:
   U: Artem Belov
 - E: artem.belov!xored.com
   R:
+  - T: "2014-03-01"
+    C: ACS
+    F: "1900-01-01"
+    P: nsm
+    R: C
+  - T: "2015-04-01"
+    C: OptTechMarket
+    F: "2014-03-01"
+    P: nsm
+    R: C
+  - T: "2015-09-01"
+    C: DataKrat
+    F: "2015-04-01"
+    P: nsm
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "2015-09-01"
+    P: nsm
+    R: C
+  - T: "2018-09-01"
+    C: Rohlik
+    F: "2017-10-01"
+    P: nsm
+    R: C
+  - T: "2019-02-01"
+    C: Independent
+    F: "2018-09-01"
+    P: nsm
+    R: C
   - T: "2020-04-01"
     C: Xored
     F: "2019-01-01"
@@ -53754,6 +54196,11 @@ P:
   - T: "2020-04-01"
     C: Xored
     F: "2019-01-01"
+    P: nsm
+    R: C
+  - T: "2100-01-01"
+    C: System4u
+    F: "2019-02-01"
     P: nsm
     R: C
   I:
@@ -59290,6 +59737,23 @@ P:
     S: git
   B: 0
   U: Arunvel Sriram
+- R:
+  - T: "2017-01-01"
+    C: Ooyala
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Lyft
+    F: "2017-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Arup Malakar
+    S: slack
+    U: amalakar
+  B: 0
+  U: Arup Malakar
 - E: amalakar!gmail.com
   R:
   - T: "2017-01-01"
@@ -60499,6 +60963,25 @@ P:
   I:
   - M: Arvind Thangamani
     S: github
+    U: dnivra26
+  B: 0
+  U: Arvind Thangamani
+- E: dnivra26!gmail.com
+  R:
+  - T: "2014-11-01"
+    C: Infosys Limited
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "2014-11-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: dnivra26!gmail.com
+    M: Arvind Thangamani
+    S: slack
     U: dnivra26
   B: 0
   U: Arvind Thangamani
@@ -62746,6 +63229,11 @@ P:
   - T: "2015-06-20"
     C: IBM
     F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-06-20"
+    C: IBM
+    F: "1900-01-01"
     P: container-networking-interface
     R: C
   - T: "2015-06-20"
@@ -62762,6 +63250,11 @@ P:
     C: IBM
     F: "1900-01-01"
     P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: SAMSUNG
+    F: "2015-06-20"
+    P: cncf/cni
     R: C
   - T: "2100-01-01"
     C: SAMSUNG
@@ -63339,534 +63832,3 @@ P:
     S: pipermail
   B: 0
   U: Ashish Pandey
-- R:
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: cncf
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: k8s
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: kubevirt
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: openebs
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: rook
-    R: C
-  I:
-  - M: Ashish Ranjan
-    S: github
-    U: ashishranjan738
-  B: 0
-  U: Ashish Ranjan
-- C: LK
-  E: aranjan!redhat.com
-  R:
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: kubevirt
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: openebs
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: aranjan!redhat.com
-    M: Ashish Ranjan
-    S: git
-  - E: aranjan!redhat.com
-    M: Ashish Ranjan
-    S: github
-    U: ashishranjan738
-  B: 0
-  U: Ashish Ranjan
-- C: IN
-  E: ashishranjan738!gmail.com
-  R:
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: baetyl
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: cncf
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: cncf/k3s
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: k8s
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: openebs
-    R: C
-  - T: "2019-04-01"
-    C: MayaData
-    F: "2018-05-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-04-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: ashishranjan738!gmail.com
-    M: Ashish Ranjan
-    S: git
-  - E: ashishranjan738!gmail.com
-    M: Ashish Ranjan
-    S: slack
-    U: ashishranjan738
-  B: 0
-  U: Ashish Ranjan
-- E: ashish.samant!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ashish.samant!oracle.com
-    M: Ashish Samant
-    S: git
-  B: 0
-  U: Ashish Samant
-- E: ashishsangwan2!gmail.com
-  R:
-  - T: "2015-09-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2015-09-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2015-09-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2015-09-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-09-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2015-09-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2015-09-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2018-05-01"
-    C: MapR Technologies
-    F: "2015-09-01"
-    P: cephfoundation
-    R: C
-  - T: "2018-05-01"
-    C: MapR Technologies
-    F: "2015-09-01"
-    P: cip
-    R: C
-  - T: "2018-05-01"
-    C: MapR Technologies
-    F: "2015-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-05-01"
-    C: MapR Technologies
-    F: "2015-09-01"
-    P: elisa
-    R: C
-  - T: "2018-05-01"
-    C: MapR Technologies
-    F: "2015-09-01"
-    P: kernelci
-    R: C
-  - T: "2018-05-01"
-    C: MapR Technologies
-    F: "2015-09-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: Nutanix
-    F: "2018-05-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: ashishsangwan2!gmail.com
-    M: Ashish Sangwan
-    S: git
-  B: 0
-  U: Ashish Sangwan
-- E: ashish.n.shah!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ashish.n.shah!intel.com
-    M: Ashish Shah
-    S: git
-  B: 0
-  U: Ashish Shah
-- E: ashish.shrivastava!axis.com
-  R:
-  - T: "2016-03-30"
-    C: Axis Communications
-    F: "2016-03-16"
-    P: yocto
-    R: C
-  I:
-  - E: ashish.shrivastava!axis.com
-    M: Ashish Shrivastava
-    S: groupsio
-  - E: ashish.shrivastava!axis.com
-    M: Ashish Shrivastava
-    S: pipermail
-  B: 0
-  U: Ashish Shrivastava
-- E: ashish.singh7!tcs.com
-  R:
-  - T: "2016-11-26"
-    C: Tata Consultancy Services
-    F: "2016-08-25"
-    R: C
-  - T: "2016-11-26"
-    C: Tata Consultancy Services
-    F: "2016-08-25"
-    P: opnfv
-    R: C
-  I:
-  - E: ashish.singh7!tcs.com
-    M: Ashish Singh7
-    S: gmane
-  - E: ashish.singh7!tcs.com
-    M: Ashish Singh7
-    S: groupsio
-  - E: ashish.singh7!tcs.com
-    M: Ashish Singh7
-    S: mbox
-  - E: ashish.singh7!tcs.com
-    M: Ashish Singh7
-    S: pipermail
-  B: 0
-  U: Ashish Singh7
-- C: IN
-  E: assingh!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2016-11-09"
-    C: Red Hat Inc.
-    F: "2015-11-26"
-    P: opnfv
-    R: C
-  S: male
-  I:
-  - M: Ashish Singh
-    S: confluence
-    U: ashishsingh2k8
-  - E: 1998ashishsingh!gmail.com
-    M: ashish singh
-    S: confluence
-    U: ashlin123
-  - M: ashish singh
-    S: confluence
-    U: ashlin123
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish Singh
-    S: gerrit
-    U: ashishsingh2k8
-  - E: 1998ashishsingh!gmail.com
-    M: ashish singh
-    S: gerrit
-    U: ashlin123
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish Singh
-    S: git
-  - E: assingh!redhat.com
-    M: Ashish Singh
-    S: git
-  - E: assingh!redhat.com
-    M: Ashish Singh
-    S: github
-    U: ashishkumsingh
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish singh
-    S: gmane
-  - E: 1998ashishsingh!gmail.com
-    M: 1998ashishsingh
-    S: groupsio
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish singh
-    S: groupsio
-  - M: Ashish Singh
-    S: jira
-    U: ashishsingh2k8
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish Singh
-    S: jira
-    U: ashishsingh2k8
-  - E: 1998ashishsingh!gmail.com
-    M: ashish singh
-    S: jira
-    U: ashlin123
-  - M: ashish singh
-    S: jira
-    U: ashlin123
-  - M: Ashish Singh
-    S: linux-foundation:its
-    U: ashishsingh2k8
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish singh
-    S: linux-foundation:mls
-    U: ashishsingh2k8
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish Singh
-    S: linux-foundation:scr
-    U: ashishsingh2k8
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish Singh
-    S: mbox
-  - E: ashishsingh2k8!gmail.com
-    M: Ashish Singh
-    S: pipermail
-  B: 0
-  U: Ashish Singh
