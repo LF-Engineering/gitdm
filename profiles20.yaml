@@ -49308,36 +49308,38 @@ P:
     U: pp5762
   B: 0
   U: PUCKETT
-- R:
-  - T: "2100-01-01"
-    C: PX4 Bots
-    F: "2019-02-19"
-    P: dronecode
-    R: C
-  I:
-  - M: PX4 Build Bot
-    S: github
-    U: PX4BuildBot
-  B: 0
-  U: PX4 Build Bot
 - E: bot!px4.io
   R:
+  - T: "2018-08-06"
+    C: PX4 Bots
+    F: "2017-10-30"
+    P: dronecode
+    R: C
   - T: "2100-01-01"
     C: PX4 Bots
     F: "2018-08-12"
     P: dronecode
     R: C
   I:
+  - E: bot!pixhawk.org
+    M: PX4 Build Bot
+    S: git
   - E: bot!px4.io
     M: PX4 Build Bot
     S: git
   - E: bot!px4.io
     M: PX4 BuildBot
     S: git
+  - E: bot!pixhawk.org
+    M: PX4BuildBot
+    S: git
   - E: bot!px4.io
     M: PX4BuildBot
     S: git
-  B: 0
+  - M: PX4 Build Bot
+    S: github
+    U: PX4BuildBot
+  B: 1
   U: PX4 Build Bot
 - E: bot!pixhawk.org
   R:
@@ -49365,22 +49367,6 @@ P:
     S: git
   B: 0
   U: PX4 Jenkins
-- E: bot!pixhawk.org
-  R:
-  - T: "2018-08-06"
-    C: PX4 Bots
-    F: "2017-10-30"
-    P: dronecode
-    R: C
-  I:
-  - E: bot!pixhawk.org
-    M: PX4 Build Bot
-    S: git
-  - E: bot!pixhawk.org
-    M: PX4BuildBot
-    S: git
-  B: 0
-  U: PX4BuildBot
 - E: pshanbhag!platform9.net
   R:
   - T: "2100-01-01"

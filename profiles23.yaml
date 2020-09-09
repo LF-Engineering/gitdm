@@ -1,4 +1,58 @@
 P:
+- R:
+  - T: "2015-06-01"
+    C: Altisource
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Altisource
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-06-01"
+    C: Altisource
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "1900-01-01"
+    R: C
+  - T: "2017-04-01"
+    C: Verizon Communications
+    F: "2015-06-01"
+    R: C
+  - T: "2017-04-01"
+    C: Verizon Communications
+    F: "2015-06-01"
+    P: helm
+    R: C
+  - T: "2017-04-01"
+    C: Verizon Communications
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "2017-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "2017-04-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "2017-04-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Rob Kernick
+    S: github
+    U: rjkernick
+  B: 0
+  U: Rob Kernick
 - E: rjkernick!gmail.com
   R:
   - T: "2015-06-01"
@@ -5503,6 +5557,10 @@ P:
   R:
   - T: "2100-01-01"
     C: ARTIS.eco
+    F: "2017-08-31"
+    R: C
+  - T: "2100-01-01"
+    C: ARTIS.eco
     F: "2017-09-01"
     P: aries
     R: C
@@ -5510,11 +5568,6 @@ P:
     C: ARTIS.eco
     F: "2017-09-01"
     P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: ARTIS.eco
-    F: "2017-09-01"
-    P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
     C: ARTIS.eco
@@ -62489,75 +62542,3 @@ P:
     U: sanjay990
   B: 0
   U: Sanjay Sharma
-- E: supadhya!redhat.com
-  R:
-  - T: "2017-06-09"
-    C: Red Hat Inc.
-    F: "2016-04-01"
-    R: C
-  - T: "2017-06-09"
-    C: Red Hat Inc.
-    F: "2016-04-01"
-    P: opnfv
-    R: C
-  I:
-  - E: supadhya!redhat.com
-    M: Sanjay Upadhyay
-    S: git
-  B: 0
-  U: Sanjay Upadhyay
-- R:
-  - T: "2016-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-12-01"
-    C: Center for Cloud Computing
-    F: "2016-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-07-01"
-    C: Walmart
-    F: "2016-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-12-01"
-    C: Independent
-    F: "2017-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-01-01"
-    C: Independent
-    F: "2017-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Walmart
-    F: "2018-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Walmart
-    F: "2018-01-01"
-    P: presto
-    R: C
-  I:
-  - S: github
-    U: SanjayJosh
-  B: 0
-  U: SanjayJosh
-- C: IN
-  E: sanjay!ridgerun.com
-  R:
-  - T: "2100-01-01"
-    C: RidgeRun, LLC
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sanjay!ridgerun.com
-    M: Sanjaya Pallikera
-    S: github
-    U: sanrr
-  B: 0
-  U: Sanjaya Pallikera

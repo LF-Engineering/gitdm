@@ -1,4 +1,102 @@
 P:
+- C: DE
+  R:
+  - T: "2016-09-01"
+    C: Mayflower
+    F: "1900-01-01"
+    R: C
+  - T: "2016-09-01"
+    C: Mayflower
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2016-09-01"
+    C: Mayflower
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-04-01"
+    C: Convercus
+    F: "2016-09-01"
+    R: C
+  - T: "2018-04-01"
+    C: Convercus
+    F: "2016-09-01"
+    P: argo
+    R: C
+  - T: "2018-04-01"
+    C: Convercus
+    F: "2016-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "2018-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "2018-04-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "2018-04-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Sigi
+    S: github
+    U: Sicaine
+  B: 0
+  U: Sigi
+- E: sigmund!snap.tv
+  R:
+  - T: "2100-01-01"
+    C: SnapTV
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: sigmund!snap.tv
+    M: Sigmund Augdal Helberg
+    S: git
+  - E: sigmund!snap.tv
+    M: Sigmund Augdal
+    S: git
+  B: 0
+  U: Sigmund Augdal Helberg
+- C: US
+  E: eric.lee!hgst.com
+  R:
+  - T: "2100-01-01"
+    C: HGST
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: eric.lee!hgst.com
+    M: 'Signed-off-by: Eric Lee'
+    S: git
+  B: 0
+  U: 'Signed-off-by: Eric Lee'
+- E: fengguang.wu!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: fengguang.wu!intel.com
+    M: 'Signed-off-by: Fengguang Wu'
+    S: git
+  B: 0
+  U: 'Signed-off-by: Fengguang Wu'
 - E: jack!suse.cz
   R:
   - T: "2100-01-01"
@@ -5083,11 +5181,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2017-04-28"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-04-28"
     P: hyperledger/hyperledger-dlt
     R: C
   S: male
@@ -5114,6 +5207,9 @@ P:
   - E: sstone1!uk.ibm.com
     M: Simon Stone
     S: groupsio
+  - E: sstone1!uk.ibm.com
+    M: sstone1
+    S: groupsio
   - M: Simon Stone
     S: jira
     U: simonstone1
@@ -5123,6 +5219,8 @@ P:
   - E: sstone1!uk.ibm.com
     M: Simon Stone
     S: jira
+    U: sstone1
+  - S: rocketchat
     U: sstone1
   - M: Simon Stone
     S: rocketchat
@@ -9596,33 +9694,6 @@ P:
     S: git
   B: 0
   U: Slawomir Skowron
-- E: tkyonezu!gmail.com
-  R:
-  - T: "2019-06-21"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: iroha
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  I:
-  - E: tkyonezu!gmail.com
-    M: Sleepy Senzu
-    S: git
-  - E: tkyonezu!gmail.com
-    M: Sleepy Senzu
-    S: github
-    U: tkyonezu
-  B: 0
-  U: Sleepy Senzu
 - E: aurora.sletnes!nordicsemi.no
   R:
   - T: "2100-01-01"
@@ -34226,12 +34297,11 @@ P:
   - T: "2100-01-01"
     C: Cloud Compass Computing, Inc.
     F: "2011-06-30"
-    P: aries
     R: C
   - T: "2100-01-01"
     C: Cloud Compass Computing, Inc.
     F: "2011-06-30"
-    P: hyperledger/hyperledger-all
+    P: aries
     R: C
   - T: "2100-01-01"
     C: Cloud Compass Computing, Inc.
@@ -44806,6 +44876,50 @@ P:
     U: sgregglives
   B: 0
   U: Steven Gregg
+- E: stevegubler!protonmail.com
+  R:
+  - T: "2100-01-01"
+    C: Sovrin Foundation
+    F: "2015-12-31"
+    R: C
+  I:
+  - M: Steven Gubler
+    S: confluence
+    U: SteveGoob
+  - E: stevegubler!pm.me
+    M: Steven Gubler
+    S: confluence
+    U: SteveGoob
+  - E: stevegubler!protonmail.com
+    M: Steven Gubler
+    S: git
+  - E: steven.gubler!sovrin.org
+    M: Steven Gubler
+    S: git
+  - M: Steven Gubler
+    S: github
+    U: stevengubler
+  - E: steven.gubler!sovrin.org
+    M: Steven Gubler
+    S: github
+    U: stevengubler
+  - E: steven.gubler!sovrin.org
+    M: Steven Gubler
+    S: groupsio
+  - M: Steven Gubler
+    S: jira
+    U: SteveGoob
+  - E: stevegubler!pm.me
+    M: Steven Gubler
+    S: jira
+    U: SteveGoob
+  - S: rocketchat
+    U: SteveGoob
+  - M: Steven Gubler
+    S: rocketchat
+    U: SteveGoob
+  B: 0
+  U: Steven Gubler
 - R:
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -52468,7 +52582,7 @@ P:
   B: 0
   U: Sudheesh Mavila
 - C: IN
-  E: ssudheesh!student.nitw.ac.in
+  E: sudheesh!cs.washington.edu
   R:
   - T: "2013-02-28"
     C: Cloudsgreen
@@ -52538,11 +52652,6 @@ P:
   - T: "2013-06-30"
     C: Microsoft Corporation
     F: "2013-04-30"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2013-06-30"
-    C: Microsoft Corporation
-    F: "2013-04-30"
     P: hyperledger/hyperledger-dlt
     R: C
   - T: "2013-06-30"
@@ -52849,11 +52958,6 @@ P:
     C: Microsoft Corporation
     F: "2015-12-31"
     P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2019-06-30"
-    C: Microsoft Corporation
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
     R: C
   - T: "2019-06-30"
     C: Microsoft Corporation
@@ -52884,6 +52988,14 @@ P:
     C: Microsoft Corporation
     F: "2015-12-31"
     P: sawtooth
+    R: C
+  - T: "2019-07-31"
+    C: Microsoft Corporation
+    F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: University of Washington
+    F: "2018-12-31"
     R: C
   S: male
   I:
@@ -52927,6 +53039,8 @@ P:
   - E: sudheesh95!gmail.com
     M: Sudheesh Singanamalla
     S: jira
+    U: sudheesh001
+  - S: rocketchat
     U: sudheesh001
   - M: Sudheesh Singanamalla
     S: rocketchat
