@@ -27367,6 +27367,10 @@ P:
     F: "1900-01-01"
     P: prometheus
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2008-04-01"
+    R: C
   - T: "2016-10-18"
     C: IBM
     F: "2014-03-03"
@@ -27376,11 +27380,6 @@ P:
     C: IBM
     F: "2016-02-12"
     P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-02-12"
-    P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -36504,6 +36503,31 @@ P:
     S: git
   B: 0
   U: Claudio Carvalho
+- E: claudio!hashdog.com
+  R:
+  - T: "2100-01-01"
+    C: HashDog
+    F: "2010-01-01"
+    R: C
+  I:
+  - E: claudio!hashdog.com
+    M: Claudio Ceballos Paz
+    S: confluence
+    U: claudiocebpaz
+  - E: claudio!hashdog.com
+    M: Claudio Ceballos Paz
+    S: git
+  - E: claudioceballospaz!MacBook-Air-de-Claudio.local
+    M: Claudio Ceballos Paz
+    S: git
+  - E: claudio!hashdog.com
+    M: Claudio Ceballos Paz
+    S: github
+    U: claudiocebpaz
+  - S: rocketchat
+    U: claudiocebpaz
+  B: 0
+  U: Claudio Ceballos Paz
 - E: cgaspari!cisco.com
   R:
   - T: "2017-01-31"
@@ -39418,6 +39442,90 @@ P:
     S: git
   B: 0
   U: Clinton Knight
+- E: clive.boulton!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-30"
+    R: C
+  - T: "2018-12-08"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: iroha
+    R: C
+  - T: "2019-06-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: sawtooth
+    R: C
+  - T: "2019-06-28"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: quilt
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: burrow
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: fabric
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: grid
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger/cactus
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger/shared
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: indy
+    R: C
+  I:
+  - M: clive boulton
+    S: confluence
+    U: cliveb
+  - E: clive.boulton!gmail.com
+    M: clive boulton
+    S: confluence
+    U: cliveb
+  - M: clive boulton
+    S: github
+    U: cliveb
+  - E: clive.boulton!gmail.com
+    M: clive boulton
+    S: groupsio
+  - M: clive boulton
+    S: jira
+    U: cliveb
+  - E: clive.boulton!gmail.com
+    M: clive boulton
+    S: jira
+    U: cliveb
+  - S: rocketchat
+    U: cliveb
+  - M: clive boulton
+    S: rocketchat
+    U: cliveb
+  B: 0
+  U: Clive Boulton
 - E: cf-identity-eng!pivotal.io
   R:
   - T: "2100-01-01"
@@ -62362,49 +62470,3 @@ P:
     U: dduportal
   B: 0
   U: Damien Duportal
-- R:
-  - T: "2017-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2018-01-01"
-    C: Apstra
-    F: "2017-01-01"
-    P: fluentd
-    R: C
-  - T: "2019-06-01"
-    C: Roblox
-    F: "2018-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Network to Code
-    F: "2019-06-01"
-    P: fluentd
-    R: C
-  I:
-  - M: Damien Garros
-    S: github
-    U: dgarros
-  B: 0
-  U: Damien Garros
-- C: FR
-  R:
-  - T: "2100-01-01"
-    C: Actigraph
-    F: "1900-01-01"
-    P: cncf/kuma
-    R: C
-  - T: "2100-01-01"
-    C: Actigraph
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Damien Goujard
-    S: github
-    U: dgoujard
-  B: 0
-  U: Damien Goujard

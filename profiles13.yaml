@@ -1,4 +1,353 @@
 P:
+- E: jed!isovalent.com
+  R:
+  - T: "2015-07-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/contour
+    R: C
+  - T: "2015-07-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-12-01"
+    C: Etsy
+    F: "2015-07-01"
+    P: cncf/contour
+    R: C
+  - T: "2015-12-01"
+    C: Etsy
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2017-03-01"
+    C: Google
+    F: "2015-12-01"
+    P: cncf/contour
+    R: C
+  - T: "2017-03-01"
+    C: Google
+    F: "2015-12-01"
+    P: k8s
+    R: C
+  - T: "2018-10-01"
+    C: Pivotal
+    F: "2017-03-01"
+    P: cncf/contour
+    R: C
+  - T: "2018-10-01"
+    C: Pivotal
+    F: "2017-03-01"
+    P: k8s
+    R: C
+  - T: "2018-12-01"
+    C: VMware, Inc.
+    F: "2018-10-01"
+    P: cncf/contour
+    R: C
+  - T: "2018-12-01"
+    C: VMware, Inc.
+    F: "2018-10-01"
+    P: k8s
+    R: C
+  - T: "2020-05-01"
+    C: VMware, Inc.
+    F: "2018-12-01"
+    P: cncf/contour
+    R: C
+  - T: "2020-05-01"
+    C: VMware, Inc.
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Isovalent
+    F: "2020-05-01"
+    P: cncf/contour
+    R: C
+  - T: "2100-01-01"
+    C: Isovalent
+    F: "2020-05-01"
+    P: k8s
+    R: C
+  I:
+  - E: jed!isovalent.com
+    M: Jed Salazar
+    S: github
+    U: jedsalazar
+  B: 0
+  U: Jed Salazar
+- E: jedsalazar!gmail.com
+  R:
+  - T: "2015-07-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-12-01"
+    C: Etsy
+    F: "2015-07-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-03-01"
+    C: Google
+    F: "2015-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-10-01"
+    C: Pivotal
+    F: "2017-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-12-01"
+    C: VMware, Inc.
+    F: "2018-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2020-05-01"
+    C: VMware, Inc.
+    F: "2018-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Isovalent
+    F: "2020-05-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: jedsalazar!gmail.com
+    M: Jed Salazar
+    S: slack
+    U: jedsalazar
+  B: 0
+  U: Jed Salazar
+- E: jsalazar!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2017-06-21"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: jsalazar!pivotal.io
+    M: Jed Salazar
+    S: slack
+    U: jsalazar
+  - E: jsalazar!pivotal.io
+    M: jsalazar
+    S: slack
+    U: jsalazar
+  B: 0
+  U: Jed Salazar
+- C: US
+  E: jed!jedsmith.org
+  R:
+  - T: "2017-08-01"
+    C: Apple
+    F: "1900-01-01"
+    R: C
+  - T: "2017-08-01"
+    C: Apple
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "2017-08-01"
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "2017-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-02-01"
+    C: Rackspace
+    F: "2017-10-01"
+    R: C
+  - T: "2019-02-01"
+    C: Rackspace
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-04-01"
+    C: Independent
+    F: "2019-02-01"
+    R: C
+  - T: "2019-04-01"
+    C: Independent
+    F: "2019-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2020-02-01"
+    C: ForgeRock
+    F: "2019-04-01"
+    R: C
+  - T: "2020-02-01"
+    C: ForgeRock
+    F: "2019-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: NewWave Telecom & Technologies
+    F: "2020-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: NewWave Telecom & Technologies
+    F: "2020-02-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: jed!jedsmith.org
+    M: Jed Smith
+    S: git
+  - E: jed!jedsmith.org
+    M: Jed Smith
+    S: github
+    U: jedsmith
+  B: 0
+  U: Jed Smith
+- R:
+  - T: "2100-01-01"
+    C: Thinkmill
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Thinkmill
+    F: "1900-01-01"
+    P: ojsf-eslint
+    R: C
+  - T: "2100-01-01"
+    C: Thinkmill
+    F: "1900-01-01"
+    P: ojsf-express
+    R: C
+  - T: "2100-01-01"
+    C: Thinkmill
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  I:
+  - M: Jed Watson
+    S: github
+    U: JedWatson
+  B: 0
+  U: Jed Watson
+- E: jed.watson!me.com
+  R:
+  - T: "2100-01-01"
+    C: Thinkmill
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Thinkmill
+    F: "1900-01-01"
+    P: ojsf-express
+    R: C
+  - T: "2100-01-01"
+    C: Thinkmill
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  I:
+  - E: jed.watson!me.com
+    M: Jed Watson
+    S: git
+  B: 0
+  U: Jed Watson
+- E: jed!jedsmith.org
+  R:
+  - T: "2017-08-01"
+    C: Apple
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2017-08-01"
+    C: Apple
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "2017-08-01"
+    P: etcd
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "2017-08-01"
+    P: k8s
+    R: C
+  - T: "2019-02-01"
+    C: Rackspace
+    F: "2017-10-01"
+    P: etcd
+    R: C
+  - T: "2019-02-01"
+    C: Rackspace
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2019-02-01"
+    C: Rackspace
+    F: "2017-10-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2019-04-01"
+    C: Independent
+    F: "2019-02-01"
+    P: etcd
+    R: C
+  - T: "2019-04-01"
+    C: Independent
+    F: "2019-02-01"
+    P: k8s
+    R: C
+  - T: "2020-02-01"
+    C: ForgeRock
+    F: "2019-04-01"
+    P: etcd
+    R: C
+  - T: "2020-02-01"
+    C: ForgeRock
+    F: "2019-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: NewWave Telecom & Technologies
+    F: "2020-02-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: NewWave Telecom & Technologies
+    F: "2020-02-01"
+    P: k8s
+    R: C
+  I:
+  - E: jed!jedsmith.org
+    M: Jedidiah Smith
+    S: github
+    U: jedsmith
+  B: 0
+  U: Jedidiah Smith
+- E: jedrzej.ciupis!nordicsemi.no
+  R:
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2017-07-01"
+    P: zep
+    R: C
+  I:
+  - E: jedrzej.ciupis!nordicsemi.no
+    M: Jedrzej Ciupis
+    S: git
+  - M: Jędrzej Ciupis
+    S: github
+    U: jciupis
+  B: 0
+  U: Jedrzej Ciupis
 - C: PL
   E: jnowak!mirantis.com
   R:
@@ -417,7 +766,7 @@ P:
     S: git
   B: 0
   U: Jeeva Kandasamy
-- E: jsankarapandian!dtcc.com
+- E: jeevasang!gmail.com
   R:
   - T: "2100-01-01"
     C: Depository Trust & Clearing Corporation
@@ -426,8 +775,7 @@ P:
     R: C
   - T: "2100-01-01"
     C: Depository Trust & Clearing Corporation
-    F: "2017-09-05"
-    P: hyperledger/hyperledger-all
+    F: "2017-09-04"
     R: C
   - T: "2100-01-01"
     C: Depository Trust & Clearing Corporation
@@ -435,6 +783,9 @@ P:
     P: explorer
     R: M
   I:
+  - M: jeeva sang
+    S: confluence
+    U: jeevasang
   - E: jeevasang!gmail.com
     M: jeeva sang
     S: confluence
@@ -443,6 +794,9 @@ P:
     M: Jeeva Sankarapandian
     S: gerrit
     U: jeevas
+  - E: jeevasang!gmail.com
+    M: Jeeva
+    S: git
   - E: jeevasang!gmail.com
     M: JeevaSang
     S: git
@@ -455,6 +809,10 @@ P:
   - S: github
     U: JeevaSang
   - E: jeevasang!gmail.com
+    S: github
+    U: JeevaSang
+  - E: jeevasang!gmail.com
+    M: Jeeva
     S: github
     U: JeevaSang
   - M: Jeeva Sankarapandian
@@ -470,6 +828,8 @@ P:
   - E: jeevasang!gmail.com
     M: jeeva sang
     S: jira
+    U: jeevasang
+  - S: rocketchat
     U: jeevasang
   B: 0
   U: Jeeva Sankarapandian
@@ -30576,8 +30936,12 @@ P:
     S: git
   B: 0
   U: Jim Zhang
-- E: jim.zhang!consensys.net
+- E: jim.zhang!kaleido.io
   R:
+  - T: "2017-10-29"
+    C: IBM
+    F: "2002-09-30"
+    R: C
   - T: "2017-10-30"
     C: IBM
     F: "2002-10-01"
@@ -30597,11 +30961,6 @@ P:
     C: IBM
     F: "2002-10-01"
     P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2017-10-30"
-    C: IBM
-    F: "2002-10-01"
-    P: hyperledger/hyperledger-all
     R: C
   - T: "2017-10-30"
     C: IBM
@@ -30630,6 +30989,14 @@ P:
     R: C
   - T: "2100-01-01"
     C: ConsenSys
+    F: "2017-10-31"
+    R: C
+  - T: "2100-01-01"
+    C: Kaleido
+    F: "2017-10-31"
+    R: C
+  - T: "2100-01-01"
+    C: ConsenSys
     F: "2017-11-01"
     P: avalon
     R: C
@@ -30647,11 +31014,6 @@ P:
     C: ConsenSys
     F: "2017-11-01"
     P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2100-01-01"
-    C: ConsenSys
-    F: "2017-11-01"
-    P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
     C: ConsenSys
@@ -30697,11 +31059,6 @@ P:
     C: Kaleido
     F: "2017-11-01"
     P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2100-01-01"
-    C: Kaleido
-    F: "2017-11-01"
-    P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
     C: Kaleido
@@ -62606,324 +62963,3 @@ P:
     S: pipermail
   B: 0
   U: Johnson Thomas
-- E: brian.johnson!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2017-11-14"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2017-11-14"
-    P: dpdk
-    R: C
-  I:
-  - E: brian.johnson!intel.com
-    M: Johnson, Brian
-    S: pipermail
-  B: 0
-  U: Johnson, Brian
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2016-11-19"
-    C: Cisco Systems Inc.
-    F: "2015-08-11"
-    P: stackstorm
-    R: C
-  S: male
-  I:
-  - M: Johnu George
-    S: github
-    U: johnugeorge
-  B: 0
-  U: Johnu George
-- C: US
-  E: johnugeo!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: johnugeo!cisco.com
-    M: Johnu George
-    S: git
-  B: 0
-  U: Johnu George
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: cncf/cni
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Joji Mekkatt
-    S: github
-    U: jojimt
-  B: 0
-  U: Joji Mekkatt
-- E: joji!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: joji!cisco.com
-    M: Joji Mekkatt
-    S: git
-  B: 0
-  U: Joji Mekkatt
-- C: US
-  E: jojimtt!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: jojimtt!gmail.com
-    M: Joji Mekkatt
-    S: git
-  B: 0
-  U: Joji Mekkatt
-- C: NI
-  E: jojy_varghese!apple.com
-  R:
-  - T: "2100-01-01"
-    C: Apple
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: jojy_varghese!apple.com
-    M: Jojy George Varghese
-    S: github
-    U: conqerAtapple
-  - E: jojy_varghese!apple.com
-    M: Jojy George Varghese
-    S: slack
-    U: jojy_varghese
-  B: 0
-  U: Jojy George Varghese
-- E: stephen.k.jolley!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2014-01-21"
-    P: yocto
-    R: C
-  I:
-  - E: stephen.k.jolley!intel.com
-    M: Jolley, Stephen K
-    S: groupsio
-  - E: stephen.k.jolley!intel.com
-    M: Jolley, Stephen K
-    S: pipermail
-  B: 0
-  U: Jolley, Stephen K
-- E: jolly.shah!xilinx.com
-  R:
-  - T: "2100-01-01"
-    C: Xilinx, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jolly.shah!xilinx.com
-    M: Jolly Shah
-    S: git
-  B: 0
-  U: Jolly Shah
-- E: Jon.Aldama!enea.com
-  R:
-  - T: "2100-01-01"
-    C: ENEA AB
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: Jon.Aldama!enea.com
-    M: Jon Aldama
-    S: groupsio
-  - E: Jon.Aldama!enea.com
-    M: Jon Aldama
-    S: pipermail
-  B: 0
-  U: Jon Aldama
-- C: GB
-  E: jonallie!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: jonallie!google.com
-    M: Jon Allie
-    S: git
-  B: 0
-  U: Jon Allie
-- R:
-  - T: "2015-01-01"
-    C: Deusto
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "2015-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Scaleout System
-    F: "2018-05-01"
-    P: helm
-    R: C
-  I:
-  - M: Jon Ander Novella
-    S: github
-    U: jonandernovella
-  B: 0
-  U: Jon Ander Novella
-- E: jonandernovella!users.noreply.github.com
-  R:
-  - T: "2015-01-01"
-    C: Deusto
-    F: "1900-01-01"
-    R: C
-  - T: "2015-01-01"
-    C: Deusto
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "2015-01-01"
-    R: C
-  - T: "2018-05-01"
-    C: Independent
-    F: "2015-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Scaleout System
-    F: "2018-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: Scaleout System
-    F: "2018-05-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: jonandernovella!users.noreply.github.com
-    M: Jon Ander Novella
-    S: git
-  B: 0
-  U: Jon Ander Novella
-- E: jobrenne!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2016-07-19"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: jobrenne!cisco.com
-    M: Jon B
-    S: slack
-    U: jonbee
-  B: 0
-  U: Jon B
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Mavenlink
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mavenlink
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Mavenlink
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - M: Jon Bardin
-    S: github
-    U: diclophis
-  B: 0
-  U: Jon Bardin
-- C: US
-  E: diclophis!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Mavenlink
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mavenlink
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: diclophis!gmail.com
-    M: Jon Bardin
-    S: git
-  B: 0
-  U: Jon Bardin

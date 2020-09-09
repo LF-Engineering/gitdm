@@ -1,4 +1,156 @@
 P:
+- C: US
+  E: elijah.caine!coreos.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  S: male
+  I:
+  - E: elijah.caine!coreos.com
+    M: Elijah C. Voigt
+    S: git
+  B: 0
+  U: Elijah C. Voigt
+- C: US
+  E: voigte!osuosl.org
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: voigte!osuosl.org
+    M: Elijah Caine
+    S: git
+  B: 0
+  U: Elijah Caine
+- C: NG
+  E: elijah.oyekunle!ehealthnigeria.org
+  R:
+  - T: "2015-09-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-11-01"
+    C: Avalanche NG
+    F: "2015-09-01"
+    R: C
+  - T: "2015-11-01"
+    C: Avalanche NG
+    F: "2015-09-01"
+    P: k8s
+    R: C
+  - T: "2016-08-01"
+    C: Independent
+    F: "2015-11-01"
+    R: C
+  - T: "2016-08-01"
+    C: Independent
+    F: "2015-11-01"
+    P: k8s
+    R: C
+  - T: "2016-10-01"
+    C: Nerve
+    F: "2016-08-01"
+    R: C
+  - T: "2016-10-01"
+    C: Nerve
+    F: "2016-08-01"
+    P: k8s
+    R: C
+  - T: "2018-07-01"
+    C: MyMusic Africa
+    F: "2016-10-01"
+    R: C
+  - T: "2018-10-01"
+    C: MyMusic Africa
+    F: "2016-10-01"
+    R: C
+  - T: "2018-10-01"
+    C: MyMusic Africa
+    F: "2016-10-01"
+    P: k8s
+    R: C
+  - T: "2019-02-01"
+    C: eHealth Africa
+    F: "2018-07-01"
+    R: C
+  - T: "2019-02-01"
+    C: eHealth Africa
+    F: "2018-10-01"
+    R: C
+  - T: "2019-02-01"
+    C: eHealth Africa
+    F: "2018-10-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2019-02-01"
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2019-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-02-01"
+    R: C
+  - T: "2019-08-01"
+    C: CNCF
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Replex.io
+    F: "2019-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: elijah.oyekunle!ehealthnigeria.org
+    M: Elijah Oyekunle
+    S: git
+  B: 0
+  U: Elijah Oyekunle
 - C: NG
   E: eloyekunle!gmail.com
   R:
@@ -4004,17 +4156,16 @@ P:
     S: git
   B: 0
   U: Emiliano Berenbaum
-- E: emiliano.sune!quartech.com
+- E: emiliano.sune!gmail.com
   R:
   - T: "2100-01-01"
     C: Quartech Systems Ltd.
-    F: "2016-12-31"
-    P: aries
+    F: "2016-12-30"
     R: C
   - T: "2100-01-01"
     C: Quartech Systems Ltd.
     F: "2016-12-31"
-    P: hyperledger/hyperledger-all
+    P: aries
     R: C
   I:
   - E: emiliano.sune!gmail.com
@@ -4025,6 +4176,11 @@ P:
     S: git
   - M: Emiliano Suñé
     S: github
+    U: esune
+  - S: rocketchat
+    U: esune
+  - M: Emiliano Sune
+    S: rocketchat
     U: esune
   B: 0
   U: Emiliano Suñé
@@ -62553,416 +62709,3 @@ P:
     U: mcfedr
   B: 0
   U: Fred Cox
-- E: 43351173+fredlas!users.noreply.github.com
-  R:
-  - T: "2017-08-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-08-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - E: 43351173+fredlas!users.noreply.github.com
-    M: Fred Douglas
-    S: git
-  B: 0
-  U: Fred Douglas
-- R:
-  - T: "2017-08-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-08-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - M: Fred Douglas
-    S: github
-    U: fredlas
-  B: 0
-  U: Fred Douglas
-- E: fredlas!google.com
-  R:
-  - T: "2017-08-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2017-08-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: fredlas!google.com
-    M: Fred Douglas
-    S: slack
-    U: fredlas
-  B: 0
-  U: Fred Douglas
-- C: CA
-  R:
-  - T: "2017-08-01"
-    C: Morgan Stanley
-    F: "1900-01-01"
-    R: C
-  - T: "2017-08-01"
-    C: Morgan Stanley
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2017-08-01"
-    C: Morgan Stanley
-    F: "1900-01-01"
-    P: falco
-    R: C
-  - T: "2017-08-01"
-    C: Morgan Stanley
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: AppDirect
-    F: "2017-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: AppDirect
-    F: "2017-08-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: AppDirect
-    F: "2017-08-01"
-    P: falco
-    R: C
-  - T: "2100-01-01"
-    C: AppDirect
-    F: "2017-08-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Fred Dubois
-    S: github
-    U: duboisf
-  B: 0
-  U: Fred Dubois
-- C: CA
-  E: fred.dubois!gmail.com
-  R:
-  - T: "2017-08-01"
-    C: Morgan Stanley
-    F: "1900-01-01"
-    R: C
-  - T: "2017-08-01"
-    C: Morgan Stanley
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: AppDirect
-    F: "2017-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: AppDirect
-    F: "2017-08-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: fred.dubois!gmail.com
-    M: Fred Dubois
-    S: git
-  B: 0
-  U: Fred Dubois
-- R:
-  - T: "2100-01-01"
-    C: Verizon Communications
-    F: "2020-02-03"
-    P: onap
-    R: C
-  I:
-  - M: Fred Feisullin
-    S: confluence
-    U: ffeisullin
-  B: 0
-  U: Fred Feisullin
-- R:
-  - T: "2100-01-01"
-    C: Eclips
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Eclips
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2018-04-10"
-    C: Eclips
-    F: "2017-09-01"
-    P: dronecode
-    R: C
-  S: male
-  I:
-  - M: Fred G
-    S: github
-    U: fredg02
-  B: 0
-  U: Fred G
-- E: fredg02!hotmail.com
-  R:
-  - T: "2100-01-01"
-    C: Eclips
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Eclips
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: fredg02!hotmail.com
-    M: Fred G
-    S: git
-  B: 0
-  U: Fred G
-- E: fred.herard!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: fred.herard!oracle.com
-    M: Fred Herard
-    S: git
-  B: 0
-  U: Fred Herard
-- E: fhsu!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2013-04-24"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2013-04-24"
-    P: odl
-    R: C
-  I:
-  - E: fhsu!cisco.com
-    M: Fred Hsu
-    S: gerrit
-    U: fredhsu
-  - E: fredlhsu!gmail.com
-    M: Fred Hsu
-    S: groupsio
-  - E: fhsu!cisco.com
-    M: Fred Hsu
-    S: jira
-    U: fhsu
-  - E: fredlhsu!gmail.com
-    M: Fred Hsu
-    S: pipermail
-  B: 0
-  U: Fred Hsu
-- E: iisaman!citi.umich.edu
-  R:
-  - T: "2100-01-01"
-    C: University of Michigan - CITI
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: iisaman!citi.umich.edu
-    M: Fred Isaman
-    S: git
-  - E: iisaman!citi.umich.edu
-    M: Fred
-    S: git
-  B: 0
-  U: Fred Isaman
-- C: US
-  E: fred!fredjean.net
-  R:
-  - T: "2100-01-01"
-    C: Walt Disney Animation Studios
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Walt Disney Animation Studios
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-08-29"
-    C: Walt Disney Animation Studios
-    F: "2015-07-17"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: fred!fredjean.net
-    M: Fred Jean
-    S: git
-  B: 0
-  U: Fred Jean
-- E: fkschott!gmail.com
-  R:
-  - T: "2015-02-01"
-    C: Box
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-02-01"
-    C: Box
-    F: "1900-01-01"
-    P: ojsf-eslint
-    R: C
-  - T: "2015-02-01"
-    C: Box
-    F: "1900-01-01"
-    P: ojsf-mocha
-    R: C
-  - T: "2015-02-01"
-    C: Box
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  - T: "2015-12-01"
-    C: Worklife
-    F: "2015-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-12-01"
-    C: Worklife
-    F: "2015-02-01"
-    P: ojsf-eslint
-    R: C
-  - T: "2016-04-01"
-    C: Independent
-    F: "2015-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-04-01"
-    C: Google
-    F: "2016-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-05-01"
-    C: Ripple
-    F: "2018-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Pika
-    F: "2019-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Pika
-    F: "2019-05-01"
-    P: ojsf-nodejs
-    R: C
-  - T: "2100-01-01"
-    C: Pika
-    F: "2019-05-01"
-    P: webpack
-    R: C
-  I:
-  - E: fkschott!gmail.com
-    M: FredKSchott
-    S: git
-  - E: fkschott!gmail.com
-    M: Fred K. Schott
-    S: github
-    U: FredKSchott
-  B: 0
-  U: Fred K. Schott
-- R:
-  - T: "2014-06-01"
-    C: Hipflat
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Omise Co
-    F: "2014-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Omise Co
-    F: "2014-06-01"
-    P: presto
-    R: C
-  I:
-  - M: Fred Kauber
-    S: slack
-    U: fred
-  B: 0
-  U: Fred Kauber
-- E: fmowers!icloud.com
-  R:
-  - T: "2100-01-01"
-    C: Apple
-    F: "1900-01-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: Apple
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: fmowers!icloud.com
-    M: Fred L Mowers
-    S: git
-  - E: fmowers!icloud.com
-    M: Fred L Mowers
-    S: github
-    U: Fmowers
-  B: 0
-  U: Fred L Mowers
-- E: fred.lifton!docker.com
-  R:
-  - T: "2100-01-01"
-    C: Docker, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: fred.lifton!docker.com
-    M: Fred Lifton
-    S: git
-  B: 0
-  U: Fred Lifton

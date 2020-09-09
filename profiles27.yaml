@@ -1,4 +1,553 @@
 P:
+- E: tmillington!solarflare.com
+  R:
+  - T: "2018-09-28"
+    C: Solarflare Communications, Inc.
+    F: "2018-09-24"
+    P: cephfoundation
+    R: C
+  - T: "2018-09-28"
+    C: Solarflare Communications, Inc.
+    F: "2018-09-24"
+    P: danos
+    R: C
+  - T: "2018-09-28"
+    C: Solarflare Communications, Inc.
+    F: "2018-09-24"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2018-09-28"
+    C: Solarflare Communications, Inc.
+    F: "2018-09-24"
+    P: dpdk
+    R: C
+  - T: "2018-09-28"
+    C: Solarflare Communications, Inc.
+    F: "2018-09-24"
+    P: dpdk-draft
+    R: C
+  - T: "2018-09-28"
+    C: Solarflare Communications, Inc.
+    F: "2018-09-24"
+    P: dpdk-next
+    R: C
+  I:
+  - E: tmillington!solarflare.com
+    M: Tom Millington
+    S: git
+  B: 0
+  U: Tom Millington
+- C: GB
+  E: tmurphy!arista.com
+  R:
+  - T: "2100-01-01"
+    C: Arista Networks
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: tmurphy!arista.com
+    M: Tom Murphy
+    S: git
+  B: 0
+  U: Tom Murphy
+- E: tnadeau!Brocade.com
+  R:
+  - T: "2100-01-01"
+    C: Brocade Communications Systems LLC
+    F: "2014-09-24"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Brocade Communications Systems LLC
+    F: "2014-09-24"
+    P: opnfv
+    R: C
+  - T: "2016-10-11"
+    C: Brocade Communications Systems LLC
+    F: "2015-02-12"
+    P: dpdk
+    R: C
+  - T: "2016-10-11"
+    C: Brocade Communications Systems LLC
+    F: "2015-02-12"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: Brocade Communications Systems LLC
+    F: "2017-07-20"
+    P: onap
+    R: C
+  I:
+  - M: tom nadeau
+    S: confluence
+    U: tdnadeau
+  - E: tnadeau!Brocade.com
+    M: Tom Nadeau
+    S: gmane
+  - E: tnadeau!Brocade.com
+    M: Tom Nadeau
+    S: groupsio
+  - E: tnadeau!Brocade.com
+    M: Tom Nadeau
+    S: linux-foundation:mls
+    U: tnadeau
+  - E: tnadeau!Brocade.com
+    M: Tom Nadeau
+    S: mbox
+  - E: tnadeau!Brocade.com
+    M: Tom Nadeau
+    S: pipermail
+  B: 0
+  U: Tom Nadeau
+- E: tom.o.neill!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2018-07-27"
+    R: C
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2018-07-27"
+    P: onap
+    R: C
+  I:
+  - M: Tom ONeill
+    S: confluence
+    U: oneito
+  - E: tom.o.neill!ericsson.com
+    M: Tom ONeill
+    S: gerrit
+    U: oneito
+  - M: Tom ONeill
+    S: jira
+    U: oneito
+  - E: tom.o.neill!ericsson.com
+    M: Tom ONeill
+    S: jira
+    U: oneito
+  B: 0
+  U: Tom ONeill
+- C: GB
+  R:
+  - T: "2014-10-01"
+    C: Satellite Applications Catapult
+    F: "1900-01-01"
+    R: C
+  - T: "2014-10-01"
+    C: Satellite Applications Catapult
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-10-01"
+    C: Satellite Applications Catapult
+    F: "1900-01-01"
+    P: longhorn
+    R: C
+  - T: "2014-10-01"
+    C: Satellite Applications Catapult
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-11-01"
+    C: On Track Retality
+    F: "2014-10-01"
+    R: C
+  - T: "2016-11-01"
+    C: On Track Retality
+    F: "2014-10-01"
+    P: k8s
+    R: C
+  - T: "2016-11-01"
+    C: On Track Retality
+    F: "2014-10-01"
+    P: longhorn
+    R: C
+  - T: "2016-11-01"
+    C: On Track Retality
+    F: "2014-10-01"
+    P: prometheus
+    R: C
+  - T: "2017-02-01"
+    C: Health Forge
+    F: "2016-11-01"
+    R: C
+  - T: "2017-02-01"
+    C: Health Forge
+    F: "2016-11-01"
+    P: k8s
+    R: C
+  - T: "2017-02-01"
+    C: Health Forge
+    F: "2016-11-01"
+    P: longhorn
+    R: C
+  - T: "2017-02-01"
+    C: Health Forge
+    F: "2016-11-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: CloudHaul
+    F: "2017-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: CloudHaul
+    F: "2017-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CloudHaul
+    F: "2017-02-01"
+    P: longhorn
+    R: C
+  - T: "2100-01-01"
+    C: CloudHaul
+    F: "2017-02-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Tom Paine
+    S: github
+    U: aioue
+  B: 0
+  U: Tom Paine
+- E: aioue!users.noreply.github.com
+  R:
+  - T: "2014-10-01"
+    C: Satellite Applications Catapult
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-10-01"
+    C: Satellite Applications Catapult
+    F: "1900-01-01"
+    P: longhorn
+    R: C
+  - T: "2014-10-01"
+    C: Satellite Applications Catapult
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-11-01"
+    C: On Track Retality
+    F: "2014-10-01"
+    P: k8s
+    R: C
+  - T: "2016-11-01"
+    C: On Track Retality
+    F: "2014-10-01"
+    P: longhorn
+    R: C
+  - T: "2016-11-01"
+    C: On Track Retality
+    F: "2014-10-01"
+    P: prometheus
+    R: C
+  - T: "2017-02-01"
+    C: Health Forge
+    F: "2016-11-01"
+    P: k8s
+    R: C
+  - T: "2017-02-01"
+    C: Health Forge
+    F: "2016-11-01"
+    P: longhorn
+    R: C
+  - T: "2017-02-01"
+    C: Health Forge
+    F: "2016-11-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: CloudHaul
+    F: "2017-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CloudHaul
+    F: "2017-02-01"
+    P: longhorn
+    R: C
+  - T: "2100-01-01"
+    C: CloudHaul
+    F: "2017-02-01"
+    P: prometheus
+    R: C
+  I:
+  - E: aioue!users.noreply.github.com
+    M: Tom Paine
+    S: git
+  B: 0
+  U: Tom Paine
+- E: tpanteli!brocade.com
+  R:
+  - T: "2017-04-01"
+    C: Brocade Communications Systems LLC
+    F: "1900-01-01"
+    P: dpdk
+    R: C
+  - T: "2017-04-01"
+    C: Brocade Communications Systems LLC
+    F: "1900-01-01"
+    P: odl
+    R: C
+  - T: "2014-03-01"
+    C: CA Technologies
+    F: "1996-09-01"
+    P: onap
+    R: C
+  - T: "2017-03-01"
+    C: Brocade Communications Systems LLC
+    F: "2014-04-01"
+    P: dpdk
+    R: C
+  - T: "2017-03-01"
+    C: Brocade Communications Systems LLC
+    F: "2014-04-01"
+    P: onap
+    R: C
+  - T: "2018-11-01"
+    C: Kontron Communications
+    F: "2017-04-01"
+    P: dpdk
+    R: C
+  - T: "2018-11-01"
+    C: Kontron Communications
+    F: "2017-04-01"
+    P: odl
+    R: C
+  - T: "2018-11-01"
+    C: Kontron Communications
+    F: "2017-04-01"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: Inocybe Technologies Inc.
+    F: "2017-04-02"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2018-11-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2018-11-01"
+    P: onap
+    R: C
+  I:
+  - E: tompantelis!gmail.com
+    S: file:odl
+  - E: tpanteli!brocade.com
+    S: file:odl
+  - E: tpantelis!comcast.net
+    S: file:odl
+  - M: Thomas Pantelis
+    S: file:odl
+  - S: gerrit
+    U: tpantelis
+  - E: tompantelis!gmail.com
+    M: Tom Pantelis
+    S: gerrit
+    U: tpantelis
+  - E: tpanteli!brocade.com
+    M: Tom Pantelis
+    S: gerrit
+  - E: tpantelis!brocade.com
+    M: Tom Pantelis
+    S: gerrit
+  - E: tompantelis!gmail.com
+    M: Tom Pantelis
+    S: git
+  - E: tpanteli!brocade.com
+    M: Tom Pantelis
+    S: git
+  - E: tompantelis!gmail.com
+    M: Tom Pantelis
+    S: groupsio
+  - E: tpanteli!Brocade.com
+    M: Tom Pantelis
+    S: groupsio
+  - E: tpantelis!comcast.net
+    M: tpantelis
+    S: groupsio
+  - E: tompantelis!gmail.com
+    M: Tom Pantelis
+    S: jira
+    U: tpantelis
+  - S: mediawiki
+    U: '-'
+  - S: mediawiki
+    U: T
+  - S: mediawiki
+    U: a
+  - S: mediawiki
+    U: e
+  - S: mediawiki
+    U: i
+  - S: mediawiki
+    U: l
+  - S: mediawiki
+    U: "n"
+  - S: mediawiki
+    U: p
+  - S: mediawiki
+    U: s
+  - M: Tpantelis
+    S: mediawiki
+    U: Tpantelis
+  - E: tompantelis!gmail.com
+    S: opendaylight:manual
+  - E: tpanteli!brocade.com
+    S: opendaylight:manual
+  - E: tpantelis!comcast.net
+    S: opendaylight:manual
+  - M: Thomas Pantelis
+    S: opendaylight:manual
+  - E: tompantelis!gmail.com
+    M: Tom Pantelis
+    S: pipermail
+  - E: tpanteli!Brocade.com
+    M: Tom Pantelis
+    S: pipermail
+  - E: tpantelis!inocybe.ca
+    M: Tom Pantelis
+    S: pipermail
+  - E: tpantelis!comcast.net
+    M: tpantelis
+    S: pipermail
+  B: 0
+  U: Tom Pantelis
+- E: tom.patzig!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: tom.patzig!sap.com
+    M: Tom Patzig
+    S: git
+  B: 0
+  U: Tom Patzig
+- C: CH
+  E: twpayne!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Camptocamp
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Camptocamp
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Camptocamp
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Camptocamp
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: twpayne!gmail.com
+    M: Tom Payne
+    S: git
+  - E: twpayne!gmail.com
+    M: Tom Payne
+    S: github
+    U: twpayne
+  B: 0
+  U: Tom Payne
+- C: US
+  E: tpeters!synacor.com
+  R:
+  - T: "2100-01-01"
+    C: ACV Auctions
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: tpeters!synacor.com
+    M: Tom Peters
+    S: git
+  B: 0
+  U: Tom Peters
+- C: US
+  E: trpetr!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: HubSpot
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: HubSpot
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: HubSpot
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: HubSpot
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: trpetr!gmail.com
+    M: Tom Petr
+    S: github
+    U: tpetr
+  B: 0
+  U: Tom Petr
+- E: tom.pollard!codethink.co.uk
+  R:
+  - T: "2016-09-07"
+    C: Codethink
+    F: "2016-07-25"
+    P: yocto
+    R: C
+  I:
+  - E: tom.pollard!codethink.co.uk
+    M: Tom Pollard
+    S: git
+  - E: tom.pollard!codethink.co.uk
+    M: Tom Pollard
+    S: groupsio
+  - E: tom.pollard!codethink.co.uk
+    M: Tom Pollard
+    S: pipermail
+  B: 0
+  U: Tom Pollard
+- E: tom.poole!emc.com
+  R:
+  - T: "2016-06-07"
+    C: EMC
+    F: "2016-05-22"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: tom.poole!emc.com
+    M: Tom Poole
+    S: slack
+    U: tomgpoole
+  B: 0
+  U: Tom Poole
 - C: US
   E: tom.powell!datadoghq.com
   R:
@@ -61207,619 +61756,3 @@ P:
     S: git
   B: 0
   U: Vineeth Reddy
-- E: vineethp!amazon.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon.com, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: vineethp!amazon.com
-    M: Vineeth Remanan Pillai
-    S: git
-  B: 0
-  U: Vineeth Remanan Pillai
-- C: CH
-  E: vinh.nguyen!hcl.com
-  R:
-  - T: "2100-01-01"
-    C: HCL Technologies Ltd.
-    F: "2016-03-11"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: HCL Technologies Ltd.
-    F: "2016-03-11"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: HCL Technologies Ltd.
-    F: "2016-03-11"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: HCL Technologies Ltd.
-    F: "2016-03-11"
-    P: prometheus
-    R: C
-  I:
-  - E: vinh.nguyen!hcl.com
-    M: Vinh Nguyen
-    S: gerrit
-    U: VinhNguyen
-  - E: vinh.nguyen!hcl.com
-    M: Vinh Nguyen
-    S: gerrit
-    U: vinh.nguyen
-  - E: vinh.nguyen!hcl.com
-    M: Vinh Nguyen
-    S: git
-  - E: vinh.nguyen!hcl.com
-    M: vinh.nguyen
-    S: git
-  - M: Tan-Vinh Nguyen
-    S: github
-    U: cinhtau
-  - E: vinh.nguyen!hcl.com
-    M: Vinh Nguyen
-    S: jira
-    U: VinhNguyen
-  - E: vinh.nguyen!hcl.com
-    M: Vinh Nguyen
-    S: jira
-    U: vinh.nguyen
-  - M: Vinh.nguyen
-    S: mediawiki
-    U: Vinh.nguyen
-  - M: Vinh Nguyen
-    S: meetup
-    U: "201212089"
-  - E: Vinh.Nguyen!hcl.com
-    M: Vinh Nguyen
-    S: pipermail
-  B: 0
-  U: Vinh Nguyen
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: wikiwi
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: wikiwi
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: female
-  I:
-  - M: Vinh
-    S: github
-    U: cvle
-  B: 0
-  U: Vinh
-- C: BR
-  E: me!vnbrs.com
-  R:
-  - T: "2015-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Apple
-    F: "1900-01-01"
-    R: C
-  - T: "2018-01-01"
-    C: IdealSoft
-    F: "2015-11-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-03-01"
-    C: EBANX
-    F: "2018-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-10-01"
-    C: Runtastic
-    F: "2019-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2020-04-01"
-    C: Bcredi
-    F: "2019-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Delivery Center
-    F: "2020-04-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: me!vnbrs.com
-    M: Vini Brasil
-    S: github
-    U: vnbrs
-  B: 0
-  U: Vini Brasil
-- E: vini!hey.com
-  R:
-  - T: "2015-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-01-01"
-    C: IdealSoft
-    F: "2015-11-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-03-01"
-    C: EBANX
-    F: "2018-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-10-01"
-    C: Runtastic
-    F: "2019-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2020-04-01"
-    C: Bcredi
-    F: "2019-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Delivery Center
-    F: "2020-04-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: vini!hey.com
-    M: Vini Brasil
-    S: github
-    U: vnbrs
-  B: 0
-  U: Vini Brasil
-- E: marcosbrasilaraujo!gmail.com
-  R:
-  - T: "2015-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2015-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2018-01-01"
-    C: IdealSoft
-    F: "2015-11-01"
-    P: grpc
-    R: C
-  - T: "2018-01-01"
-    C: IdealSoft
-    F: "2015-11-01"
-    P: nats
-    R: C
-  - T: "2019-03-01"
-    C: EBANX
-    F: "2018-01-01"
-    P: grpc
-    R: C
-  - T: "2019-03-01"
-    C: EBANX
-    F: "2018-01-01"
-    P: nats
-    R: C
-  - T: "2019-10-01"
-    C: Runtastic
-    F: "2019-03-01"
-    P: grpc
-    R: C
-  - T: "2019-10-01"
-    C: Runtastic
-    F: "2019-03-01"
-    P: nats
-    R: C
-  - T: "2020-04-01"
-    C: Bcredi
-    F: "2019-10-01"
-    P: grpc
-    R: C
-  - T: "2020-04-01"
-    C: Bcredi
-    F: "2019-10-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Delivery Center
-    F: "2020-04-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Delivery Center
-    F: "2020-04-01"
-    P: nats
-    R: C
-  I:
-  - E: marcosbrasilaraujo!gmail.com
-    M: Vinicius Brasil
-    S: git
-  B: 0
-  U: Vinicius Brasil
-- E: vini!hey.com
-  R:
-  - T: "2015-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2018-01-01"
-    C: IdealSoft
-    F: "2015-11-01"
-    P: grpc
-    R: C
-  - T: "2019-03-01"
-    C: EBANX
-    F: "2018-01-01"
-    P: grpc
-    R: C
-  - T: "2019-10-01"
-    C: Runtastic
-    F: "2019-03-01"
-    P: grpc
-    R: C
-  - T: "2020-04-01"
-    C: Bcredi
-    F: "2019-10-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Delivery Center
-    F: "2020-04-01"
-    P: grpc
-    R: C
-  I:
-  - E: vini!hey.com
-    M: Vinicius Brasil
-    S: github
-    U: vnbrs
-  B: 0
-  U: Vinicius Brasil
-- E: vnbrs!icloud.com
-  R:
-  - T: "2015-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2018-01-01"
-    C: IdealSoft
-    F: "2015-11-01"
-    P: nats
-    R: C
-  - T: "2019-03-01"
-    C: EBANX
-    F: "2018-01-01"
-    P: nats
-    R: C
-  - T: "2019-10-01"
-    C: Runtastic
-    F: "2019-03-01"
-    P: nats
-    R: C
-  - T: "2020-04-01"
-    C: Bcredi
-    F: "2019-10-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Delivery Center
-    F: "2020-04-01"
-    P: nats
-    R: C
-  I:
-  - E: vnbrs!icloud.com
-    M: Vinicius Brasil
-    S: git
-  B: 0
-  U: Vinicius Brasil
-- C: US
-  E: vinicius.gomes!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2017-03-10"
-    C: Intel Corporation
-    F: "2015-12-18"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: vinicius.gomes!intel.com
-    M: Vinicius Costa Gomes
-    S: git
-  B: 0
-  U: Vinicius Costa Gomes
-- E: vin175pacheco!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: gql
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: webpack
-    R: C
-  I:
-  - E: vin175pacheco!gmail.com
-    M: Vinicius Pacheco Furtado
-    S: github
-    U: vinpac
-  B: 0
-  U: Vinicius Pacheco Furtado
-- C: BR
-  E: viniciusclo!gmail.com
-  R:
-  - T: "2016-05-01"
-    C: Governo
-    F: "1900-01-01"
-    R: C
-  - T: "2016-05-01"
-    C: Governo
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-09-01"
-    C: Independent
-    F: "2016-05-01"
-    R: C
-  - T: "2018-09-01"
-    C: Independent
-    F: "2016-05-01"
-    P: k8s
-    R: C
-  - T: "2018-10-01"
-    C: EEL Ventures
-    F: "2018-09-01"
-    R: C
-  - T: "2018-10-01"
-    C: EEL Ventures
-    F: "2018-09-01"
-    P: k8s
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-10-01"
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-10-01"
-    P: k8s
-    R: C
-  - T: "2019-10-01"
-    C: Accenture
-    F: "2019-01-01"
-    R: C
-  - T: "2019-10-01"
-    C: Accenture
-    F: "2019-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Escala
-    F: "2019-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: Escala
-    F: "2019-10-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: viniciusclo!gmail.com
-    M: Vinicius de Andrade
-    S: github
-    U: ViniciusDeAndrade
-  B: 0
-  U: Vinicius de Andrade
-- C: BR
-  R:
-  - T: "2016-08-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-08-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-08-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Luizalabs
-    F: "2016-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Luizalabs
-    F: "2016-08-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Luizalabs
-    F: "2016-08-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Vinicyus Macedo
-    S: github
-    U: vinicyusmacedo
-  B: 0
-  U: Vinicyus Macedo
-- E: vinit.azad!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: vinit.azad!intel.com
-    M: Vinit Azad
-    S: git
-  B: 0
-  U: Vinit Azad
-- C: IN
-  R:
-  - T: "2013-08-15"
-    C: OSIsoft
-    F: "1900-01-01"
-    R: C
-  - T: "2013-08-15"
-    C: OSIsoft
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-10-15"
-    C: Yahoo! Inc.
-    F: "2013-08-15"
-    R: C
-  - T: "2015-10-15"
-    C: Yahoo! Inc.
-    F: "2013-08-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Moz
-    F: "2015-10-15"
-    R: C
-  - T: "2100-01-01"
-    C: Moz
-    F: "2015-10-15"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Vinit Mahedia
-    S: github
-    U: vmahedia
-  B: 0
-  U: Vinit Mahedia
-- C: IN
-  E: vinit.mahedia!gmail.com
-  R:
-  - T: "2013-08-15"
-    C: OSIsoft
-    F: "1900-01-01"
-    R: C
-  - T: "2013-08-15"
-    C: OSIsoft
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-10-15"
-    C: Yahoo! Inc.
-    F: "2013-08-15"
-    R: C
-  - T: "2015-10-15"
-    C: Yahoo! Inc.
-    F: "2013-08-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Moz
-    F: "2015-10-15"
-    R: C
-  - T: "2100-01-01"
-    C: Moz
-    F: "2015-10-15"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: vinit.mahedia!gmail.com
-    M: Vinit Mahedia
-    S: git
-  B: 0
-  U: Vinit Mahedia

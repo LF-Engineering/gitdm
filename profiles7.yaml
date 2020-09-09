@@ -1,4 +1,50 @@
 P:
+- R:
+  - T: "2017-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2018-01-01"
+    C: Apstra
+    F: "2017-01-01"
+    P: fluentd
+    R: C
+  - T: "2019-06-01"
+    C: Roblox
+    F: "2018-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Network to Code
+    F: "2019-06-01"
+    P: fluentd
+    R: C
+  I:
+  - M: Damien Garros
+    S: github
+    U: dgarros
+  B: 0
+  U: Damien Garros
+- C: FR
+  R:
+  - T: "2100-01-01"
+    C: Actigraph
+    F: "1900-01-01"
+    P: cncf/kuma
+    R: C
+  - T: "2100-01-01"
+    C: Actigraph
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Damien Goujard
+    S: github
+    U: dgoujard
+  B: 0
+  U: Damien Goujard
 - E: dgrisonn!redhat.com
   R:
   - T: "2016-07-01"
@@ -3423,6 +3469,34 @@ P:
     U: deverton
   B: 0
   U: Dan Everton
+- E: absltkaos!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Evernym, Inc
+    F: "2017-06-01"
+    R: C
+  I:
+  - E: absltkaos!gmail.com
+    M: Dan Farnsworth
+    S: git
+  - E: absltkaos!users.noreply.github.com
+    M: Dan Farnsworth
+    S: git
+  - E: dan.farnsworth!evernym.com
+    M: Dan Farnsworth
+    S: git
+  - M: Dan Farnsworth
+    S: github
+    U: absltkaos
+  - M: Dan Farnsworth
+    S: jira
+    U: dfarns
+  - E: absltkaos!gmail.com
+    M: Dan Farnsworth
+    S: jira
+    U: dfarns
+  B: 0
+  U: Dan Farnsworth
 - R:
   - T: "2014-10-01"
     C: Bloom Health
@@ -12864,7 +12938,7 @@ P:
     S: git
   B: 0
   U: Daniel Black
-- E: daniel.bluhm!sovrin.org
+- E: dbluhm!pm.me
   R:
   - T: "2013-05-31"
     C: City of Olathe
@@ -12929,12 +13003,11 @@ P:
   - T: "2100-01-01"
     C: Sovrin Foundation
     F: "2018-03-31"
-    P: aries
     R: C
   - T: "2100-01-01"
     C: Sovrin Foundation
     F: "2018-03-31"
-    P: hyperledger/hyperledger-all
+    P: aries
     R: C
   - T: "2100-01-01"
     C: Sovrin Foundation
@@ -62510,251 +62583,3 @@ P:
     S: git
   B: 0
   U: Davide Belloni
-- C: NL
-  R:
-  - T: "2014-07-01"
-    C: TXT e-solutions
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-07-01"
-    C: TXT e-solutions
-    F: "1900-01-01"
-    P: lfai/ludwig
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2014-07-01"
-    P: helm
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2014-07-01"
-    P: lfai/ludwig
-    R: C
-  - T: "2018-03-01"
-    C: Yieldr
-    F: "2016-01-01"
-    P: helm
-    R: C
-  - T: "2018-03-01"
-    C: Yieldr
-    F: "2016-01-01"
-    P: lfai/ludwig
-    R: C
-  - T: "2018-09-01"
-    C: PRIME I The Analytics Company
-    F: "2018-03-01"
-    P: helm
-    R: C
-  - T: "2018-09-01"
-    C: PRIME I The Analytics Company
-    F: "2018-03-01"
-    P: lfai/ludwig
-    R: C
-  - T: "2100-01-01"
-    C: RTL Group
-    F: "2018-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: RTL Group
-    F: "2018-09-01"
-    P: lfai/ludwig
-    R: C
-  - T: "2100-01-01"
-    C: RTL Group
-    F: "2018-09-01"
-    P: presto
-    R: C
-  S: male
-  I:
-  - M: Davide Berdin
-    S: github
-    U: spaghettifunk
-  B: 0
-  U: Davide Berdin
-- C: IT
-  R:
-  - T: "2015-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-10-01"
-    C: Altroconsumo
-    F: "2015-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-05-01"
-    C: IG-Global
-    F: "2015-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-05-01"
-    C: Würth Phoenix
-    F: "2016-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-03-01"
-    C: eMundo
-    F: "2018-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-03-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - M: Davide Bizzarri
-    S: github
-    U: b1zzu
-  B: 0
-  U: Davide Bizzarri
-- E: dbizzarr!redhat.com
-  R:
-  - T: "2015-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-10-01"
-    C: Altroconsumo
-    F: "2015-09-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-10-01"
-    C: Altroconsumo
-    F: "2015-09-01"
-    P: k8s
-    R: C
-  - T: "2016-05-01"
-    C: IG-Global
-    F: "2015-10-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2016-05-01"
-    C: IG-Global
-    F: "2015-10-01"
-    P: k8s
-    R: C
-  - T: "2018-05-01"
-    C: Würth Phoenix
-    F: "2016-05-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2018-05-01"
-    C: Würth Phoenix
-    F: "2016-05-01"
-    P: k8s
-    R: C
-  - T: "2019-03-01"
-    C: eMundo
-    F: "2018-05-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2019-03-01"
-    C: eMundo
-    F: "2018-05-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-03-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-03-01"
-    P: ojsf-appium
-    R: C
-  I:
-  - E: dbizzarr!redhat.com
-    M: Davide Bizzarri
-    S: github
-    U: b1zzu
-  B: 0
-  U: Davide Bizzarri
-- E: dcaratti!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2019-02-14"
-    C: Red Hat Inc.
-    F: "2019-02-12"
-    P: dpdk-draft
-    R: C
-  - T: "2019-04-11"
-    C: Red Hat Inc.
-    F: "2019-02-12"
-    P: dpdk-next
-    R: C
-  - T: "2019-07-24"
-    C: Red Hat Inc.
-    F: "2019-02-12"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2019-07-24"
-    C: Red Hat Inc.
-    F: "2019-02-12"
-    P: dpdk
-    R: C
-  I:
-  - E: dcaratti!redhat.com
-    M: Davide Caratti
-    S: git
-  - E: dcaratti!redhat.com
-    M: Davide Caratti
-    S: pipermail
-  B: 0
-  U: Davide Caratti

@@ -1,4 +1,585 @@
 P:
+- E: beeman!beeman.nl
+  R:
+  - T: "2015-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-05-01"
+    C: Fullcube
+    F: "2015-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-05-01"
+    C: Fullcube
+    F: "2015-04-01"
+    P: ojsf-express
+    R: C
+  - T: "2100-01-01"
+    C: Colmena Consultancy
+    F: "2017-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Colmena Consultancy
+    F: "2017-05-01"
+    P: gql
+    R: C
+  I:
+  - E: beeman!beeman.nl
+    M: beeman
+    S: github
+    U: beeman
+  B: 0
+  U: beeman
+- E: beenaben.patel!emc.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "2017-09-19"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: beenaben.patel!emc.com
+    M: beena
+    S: slack
+    U: beenaben.patel
+  B: 0
+  U: beena
+- R:
+  - T: "2017-02-01"
+    C: Converse in Code
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Embedded Apprentice
+    F: "2017-02-01"
+    P: cncf/shared
+    R: C
+  I:
+  - S: bugzilla
+    U: behanw
+  B: 0
+  U: behanw
+- E: benjamin!herbert.cc
+  R:
+  - T: "2100-01-01"
+    C: Selbstandig
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Selbstandig
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  I:
+  - E: benjamin!herbert.cc
+    M: behe
+    S: git
+  B: 0
+  U: behe
+- E: beibei.yang!emc.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "2016-05-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: beibei.yang!emc.com
+    M: beibeiyang
+    S: slack
+    U: beibeiyang
+  B: 0
+  U: beibeiyang
+- C: RU
+  E: alexander!bekbulatov.ru
+  R:
+  - T: "2100-01-01"
+    C: William Hill
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: William Hill
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: alexander!bekbulatov.ru
+    M: bekbulatov
+    S: git
+  B: 0
+  U: bekbulatov
+- E: belenbarrospena!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2011-12-15"
+    P: yocto
+    R: C
+  I:
+  - E: belen.barros.pena!intel.com
+    S: bugzilla
+    U: belen.barros.pena
+  - M: Belen Barros Pena
+    S: bugzilla
+    U: belen.barros.pena
+  - E: belen.barros.pena!intel.com
+    M: Belen Barros Pena
+    S: bugzilla
+    U: belen.barros.pena
+  - E: belen.barros.pena!intel.com
+    M: Barros Pena, Belen
+    S: git
+  - E: belen.barros.pena!intel.com
+    M: Belen Barros Pena
+    S: git
+  - E: belen.barros.pena!intel.linux.com
+    M: Belen Barros Pena
+    S: git
+  - E: belen.barros.pena!linux.intel.com
+    M: Belen Barros Pena
+    S: git
+  - E: belen.barros.pena!intel.com
+    M: Belen Barros
+    S: git
+  - E: belenbarrospena!gmail.com
+    M: Belen
+    S: git
+  - E: belen.barros.pena!intel.com
+    M: Barros Pena, Belen
+    S: groupsio
+  - E: belen.barros.pena!linux.intel.com
+    M: Belen Barros Pena (Intel)
+    S: groupsio
+  - E: belen.barros.pena!linux.intel.com
+    M: Belen Barros Pena
+    S: groupsio
+  - E: belenbarrospena!gmail.com
+    M: belen barros pena
+    S: groupsio
+  - E: belen.barros.pena!intel.com
+    M: Barros Pena, Belen
+    S: pipermail
+  - E: belen.barros.pena!linux.intel.com
+    M: Belen Barros Pena Intel
+    S: pipermail
+  - E: belen.barros.pena!linux.intel.com
+    M: Belen Barros Pena
+    S: pipermail
+  - E: belenbarrospena!gmail.com
+    M: belen barros pena
+    S: pipermail
+  B: 0
+  U: belen barros pena
+- C: JP
+  R:
+  - T: "2100-01-01"
+    C: mixi
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: mixi
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: mixi
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: mixi
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: bells17
+    S: github
+    U: bells17
+  B: 0
+  U: bells17
+- C: JP
+  E: bells171!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: mixi
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: mixi
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: mixi
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: bells171!gmail.com
+    M: Daiki Hayakawa
+    S: git
+  - E: bells171!gmail.com
+    M: bells17
+    S: git
+  - E: bells171!gmail.com
+    M: bells17
+    S: slack
+    U: bells171
+  B: 0
+  U: bells17
+- E: ben!bentarnoff.com
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2016-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ben!bentarnoff.com
+    M: Ben Tarnoff
+    S: git
+  - E: btarnoff!pivotal.io
+    M: Ben Tarnoff
+    S: git
+  - E: ben!bentarnoff.com
+    M: ben tarnoff
+    S: github
+    U: bentarnoff
+  - E: btarnoff!pivotal.io
+    M: Ben Tarnoff
+    S: slack
+    U: bentarnoff
+  B: 0
+  U: ben tarnoff
+- E: bgale!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2015-05-07"
+    P: opx
+    R: C
+  I:
+  - E: bgale!broadcom.com
+    M: ben-gale
+    S: git
+  B: 0
+  U: ben-gale
+- E: bkolt!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-05-18"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: bkolt!us.ibm.com
+    M: ben.kolt
+    S: slack
+    U: ben.kolt
+  B: 0
+  U: ben.kolt
+- E: bencourliss!ibm.com
+  R:
+  - T: "2019-11-01"
+    C: Cisco Systems Inc.
+    F: "2010-05-01"
+    P: lfedge/open-horizon
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-10-01"
+    P: lfedge/open-horizon
+    R: C
+  I:
+  - E: bencourliss!ibm.com
+    M: bencourliss
+    S: git
+  - E: bencourliss!gmail.com
+    M: Ben Courliss
+    S: github
+    U: bencourliss
+  B: 0
+  U: bencourliss
+- E: benedetto.mangiapane!italtel.com
+  R:
+  - T: "2019-06-07"
+    C: Italtel
+    F: "2000-09-01"
+    P: onap
+    R: C
+  I:
+  - E: benedetto.mangiapane!italtel.com
+    M: Mangiapane Benedetto
+    S: groupsio
+  - E: benedetto.mangiapane!italtel.com
+    M: benedetto.mangiapane
+    S: groupsio
+  B: 0
+  U: benedetto.mangiapane
+- E: benjamin.heilbrunn!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: benjamin.heilbrunn!sap.com
+    S: github
+    U: benhei
+  B: 0
+  U: benhei
+- E: benjamin.esquivel!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-12-03"
+    P: yocto
+    R: C
+  I:
+  - E: benjamin.esquivel!intel.com
+    S: bugzilla
+    U: benjamin.esquivel
+  - E: benjamin.esquivel!intel.com
+    M: Benjamin Esquivel
+    S: bugzilla
+    U: benjamin.esquivel
+  B: 0
+  U: benjamin.esquivel
+- E: admin!benjaminapetersen.me
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: admin!benjaminapetersen.me
+    M: benjaminapetersen
+    S: git
+  B: 0
+  U: benjaminapetersen
+- E: ben!benjaminapetersen.me
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: ben!benjaminapetersen.me
+    M: benjaminapetersen
+    S: git
+  B: 0
+  U: benjaminapetersen
+- E: benjaminfair!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2020-04-17"
+    P: yocto
+    R: C
+  I:
+  - E: benjaminfair!google.com
+    M: Benjamin Fair
+    S: git
+  - E: benjaminfair!google.com
+    M: benjaminfair
+    S: groupsio
+  B: 0
+  U: benjaminfair
+- E: benoit.laurent!ge.com
+  R:
+  - T: "2017-01-28"
+    C: General Electric
+    F: "2016-10-20"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: benoit.laurent!ge.com
+    M: benoitl
+    S: slack
+    U: benoitl
+  B: 0
+  U: benoitl
+- C: DE
+  R:
+  - T: "2018-08-01"
+    C: Volatiles
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-08-01"
+    C: Volatiles
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: ML!PA
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: ML!PA
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: ML!PA
+    F: "2018-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: ML!PA
+    F: "2018-08-01"
+    P: zep
+    R: C
+  - T: "2018-08-01"
+    C: Volatiles
+    F: "2100-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-08-01"
+    C: Volatiles
+    F: "2100-01-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - S: github
+    U: benpicco
+  B: 0
+  U: benpicco
+- E: bente.kamperud!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2016-11-18"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: bente.kamperud!sap.com
+    M: bente
+    S: slack
+    U: bente
+  B: 0
+  U: bente
+- E: ben.montgomery!emc.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "2016-07-07"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: ben.montgomery!emc.com
+    M: benville32
+    S: slack
+    U: benville32
+  B: 0
+  U: benville32
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: benvitale
+  B: 0
+  U: benvitale
+- E: vitale!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: vitale!google.com
+    M: benvitale
+    S: git
+  B: 0
+  U: benvitale
+- E: benzy.mathew!capgemini.com
+  R:
+  - T: "2100-01-01"
+    C: Capgemini
+    F: "2016-09-15"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: benzy.mathew!capgemini.com
+    M: benzym18
+    S: slack
+    U: benzym18
+  B: 0
+  U: benzym18
 - C: DE
   E: bjoern!rabenste.in
   R:
@@ -15851,91 +16432,6 @@ P:
     S: git
   B: 0
   U: cliffano
-- E: clive.boulton!gmail.com
-  R:
-  - T: "2018-12-08"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: iroha
-    R: C
-  - T: "2019-06-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: sawtooth
-    R: C
-  - T: "2019-06-28"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: quilt
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: burrow
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: grid
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/cactus
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/shared
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: indy
-    R: C
-  I:
-  - M: clive boulton
-    S: confluence
-    U: cliveb
-  - E: clive.boulton!gmail.com
-    M: clive boulton
-    S: confluence
-    U: cliveb
-  - M: clive boulton
-    S: github
-    U: cliveb
-  - E: clive.boulton!gmail.com
-    M: clive boulton
-    S: groupsio
-  - M: clive boulton
-    S: jira
-    U: cliveb
-  - E: clive.boulton!gmail.com
-    M: clive boulton
-    S: jira
-    U: cliveb
-  - S: rocketchat
-    U: cliveb
-  - M: clive boulton
-    S: rocketchat
-    U: cliveb
-  B: 0
-  U: clive boulton
 - R:
   - T: "2100-01-01"
     C: Seldon
@@ -62998,711 +63494,3 @@ P:
     S: git
   B: 0
   U: indexzero
-- R:
-  - T: "2015-02-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2015-02-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2015-02-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2015-02-01"
-    C: Independent
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2015-02-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-06-01"
-    C: 株式会社キャレオ
-    F: "2015-02-01"
-    P: cncf
-    R: C
-  - T: "2016-06-01"
-    C: 株式会社キャレオ
-    F: "2015-02-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2016-06-01"
-    C: 株式会社キャレオ
-    F: "2015-02-01"
-    P: cncf/k3s
-    R: C
-  - T: "2016-06-01"
-    C: 株式会社キャレオ
-    F: "2015-02-01"
-    P: containerd
-    R: C
-  - T: "2016-06-01"
-    C: 株式会社キャレオ
-    F: "2015-02-01"
-    P: k8s
-    R: C
-  - T: "2018-03-01"
-    C: Hitomedia
-    F: "2016-06-01"
-    P: cncf
-    R: C
-  - T: "2018-03-01"
-    C: Hitomedia
-    F: "2016-06-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2018-03-01"
-    C: Hitomedia
-    F: "2016-06-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-03-01"
-    C: Hitomedia
-    F: "2016-06-01"
-    P: containerd
-    R: C
-  - T: "2018-03-01"
-    C: Hitomedia
-    F: "2016-06-01"
-    P: k8s
-    R: C
-  - T: "2020-03-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: cncf
-    R: C
-  - T: "2020-03-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2020-03-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: cncf/k3s
-    R: C
-  - T: "2020-03-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: containerd
-    R: C
-  - T: "2020-03-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: k8s
-    R: C
-  - T: "2020-03-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: ojsf-nodejs
-    R: C
-  - T: "2100-01-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2100-01-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2020-03-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2020-03-01"
-    P: cncf/buildpacks
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2020-03-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2020-03-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2020-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2020-03-01"
-    P: tekton
-    R: C
-  I:
-  - M: inductor(Kohei)
-    S: github
-    U: inductor
-  B: 0
-  U: inductor(Kohei)
-- C: JP
-  R:
-  - T: "2015-02-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2015-02-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-06-01"
-    C: 株式会社キャレオ
-    F: "2015-02-01"
-    R: C
-  - T: "2016-06-01"
-    C: 株式会社キャレオ
-    F: "2015-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-03-01"
-    C: Hitomedia
-    F: "2016-06-01"
-    R: C
-  - T: "2018-03-01"
-    C: Hitomedia
-    F: "2016-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2020-03-01"
-    C: ZOZO Technologies
-    F: "2018-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: ZOZO
-    F: "2018-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2020-03-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - M: inductor
-    S: github
-    U: inductor
-  B: 0
-  U: inductor
-- E: ingbyr!outlook.com
-  R:
-  - T: "2100-01-01"
-    C: RTG-Studio
-    F: "2020-08-05"
-    P: baetyl
-    R: C
-  I:
-  - E: ingbyr!outlook.com
-    M: ingbyr
-    S: github
-    U: ingbyr
-  B: 0
-  U: ingbyr
-- R:
-  - T: "2018-10-01"
-    C: Consult Americas
-    F: "1900-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: Daimler AG
-    F: "2018-10-01"
-    P: cncf/dex
-    R: C
-  I:
-  - M: ingo pansa
-    S: github
-    U: ingopansa
-  B: 0
-  U: ingo pansa
-- E: ingo.brenckmann!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "2016-02-26"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: ingo.brenckmann!sap.com
-    M: ingo-bre
-    S: slack
-    U: ingo-bre
-  B: 0
-  U: ingo-bre
-- E: inna.sosunova.mail!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Individual
-    F: "2010-01-01"
-    P: project-eve
-    R: C
-  I:
-  - E: inna.sosunova.mail!gmail.com
-    M: inna.sosunova.mail
-    S: groupsio
-  - E: inna.sosunova.mail!gmail.com
-    M: Инна Сосунова
-    S: groupsio
-  B: 0
-  U: inna.sosunova.mail
-- R:
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  I:
-  - M: insomniac
-    S: github
-    U: insomniacslk
-  B: 0
-  U: insomniac
-- E: insomniacslk!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  I:
-  - E: insomniacslk!users.noreply.github.com
-    M: insomniac
-    S: git
-  B: 0
-  U: insomniac
-- R:
-  - T: "2100-01-01"
-    C: Inspur
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Inspur
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: inspur-zhangduan
-    S: github
-    U: zhangduan-inspur
-  B: 0
-  U: inspur-zhangduan
-- R:
-  - T: "2100-01-01"
-    C: PoleX
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: PoleX
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: PoleX
-    F: "1900-01-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2100-01-01"
-    C: PoleX
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  I:
-  - M: int32bit
-    S: github
-    U: int32bit
-  B: 0
-  U: int32bit
-- E: krystism!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: PoleX
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: PoleX
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: PoleX
-    F: "1900-01-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2100-01-01"
-    C: PoleX
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2017-10-06"
-    C: PoleX
-    F: "2017-04-20"
-    P: stackstorm
-    R: C
-  I:
-  - E: krystism!gmail.com
-    M: int32bit
-    S: git
-  B: 0
-  U: int32bit
-- C: CN
-  E: hma!pivotal.io
-  R:
-  - T: "2016-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    R: C
-  - T: "2016-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2016-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-10-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-10-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: hma!pivotal.io
-    M: interma
-    S: git
-  B: 0
-  U: interma
-- C: CN
-  E: interma!outlook.com
-  R:
-  - T: "2016-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2016-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2016-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2016-10-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-10-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-10-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-10-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-10-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: interma!outlook.com
-    M: interma
-    S: git
-  - E: interma!outlook.com
-    M: Hongxu Ma
-    S: github
-    U: interma
-  B: 0
-  U: interma
-- E: brian.carpenter!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2016-02-29"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: brian.carpenter!emc.com
-    M: inthedc
-    S: slack
-    U: inthedc
-  B: 0
-  U: inthedc
-- E: intakhab.ali!mayadata.io
-  R:
-  - T: "2016-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2016-07-01"
-    C: Tata Steel
-    F: "2016-06-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2016-07-01"
-    C: Tata Steel
-    F: "2016-06-01"
-    P: openebs
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2016-07-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "2016-07-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: MayaData
-    F: "2017-09-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2100-01-01"
-    C: MayaData
-    F: "2017-09-01"
-    P: openebs
-    R: C
-  I:
-  - E: intakhab.ali!mayadata.io
-    M: inyee786
-    S: git
-  B: 0
-  U: inyee786
-- E: robipolli!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Par-Tec SpA
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: robipolli!gmail.com
-    M: ioggstream
-    S: git
-  B: 0
-  U: ioggstream
-- E: ionut-arm!users.noreply.github.com
-  R:
-  - T: "2015-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/parsec
-    R: C
-  - T: "2016-08-01"
-    C: STFC
-    F: "2015-09-01"
-    P: cncf/parsec
-    R: C
-  - T: "2019-06-01"
-    C: Sophos
-    F: "2016-08-01"
-    P: cncf/parsec
-    R: C
-  - T: "2100-01-01"
-    C: ARM
-    F: "2019-06-01"
-    P: cncf/parsec
-    R: C
-  I:
-  - E: ionut-arm!users.noreply.github.com
-    M: ionut-arm
-    S: git
-  B: 0
-  U: ionut-arm
-- E: ionutx.chisanovici!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2013-09-24"
-    P: yocto
-    R: C
-  I:
-  - E: ionutx.chisanovici!intel.com
-    S: bugzilla
-    U: ionutx.chisanovici
-  - M: Ionut Chisanovici
-    S: bugzilla
-    U: ionutx.chisanovici
-  - E: ionutx.chisanovici!intel.com
-    M: Ionut Chisanovici
-    S: bugzilla
-    U: ionutx.chisanovici
-  - E: ionutx.chisanovici!intel.com
-    M: Ionut Chisanovici
-    S: git
-  - E: ionutx.chisanovici!intel.com
-    M: Chisanovici, IonutX
-    S: groupsio
-  - E: ionutx.chisanovici!intel.com
-    M: Ionut Chisanovici
-    S: groupsio
-  - E: ionutx.chisanovici!intel.com
-    M: Chisanovici, IonutX
-    S: pipermail
-  - E: ionutx.chisanovici!intel.com
-    M: Ionut Chisanovici
-    S: pipermail
-  B: 0
-  U: ionutx.chisanovici
-- E: ionutx.radu!intel.com
-  R:
-  - T: "2013-08-07"
-    C: Intel Corporation
-    F: "2013-05-08"
-    P: yocto
-    R: C
-  I:
-  - E: ionutx.radu!intel.com
-    S: bugzilla
-    U: ionutx.radu
-  - M: Ionut Radu
-    S: bugzilla
-    U: ionutx.radu
-  - E: ionutx.radu!intel.com
-    M: Ionut Radu
-    S: bugzilla
-    U: ionutx.radu
-  - E: ionutx.radu!intel.com
-    M: Ionut Radu
-    S: git
-  - E: ionutx.radu!intel.com
-    M: Ionut Radu
-    S: groupsio
-  - E: ionutx.radu!intel.com
-    M: Radu, IonutX
-    S: groupsio
-  - E: ionutx.radu!intel.com
-    M: Ionut Radu
-    S: pipermail
-  - E: ionutx.radu!intel.com
-    M: Radu, IonutX
-    S: pipermail
-  B: 0
-  U: ionutx.radu
-- R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - S: github
-    U: iotsiabah
-  B: 0
-  U: iotsiabah
-- E: ipinto!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: ipinto!redhat.com
-    M: ipinto
-    S: git
-  B: 0
-  U: ipinto
-- E: iraj!luminanetworks.com
-  R:
-  - T: "2100-01-01"
-    C: Lumina Networks
-    F: "1900-01-01"
-    P: onap
-    R: C
-  I:
-  - E: iraj!luminanetworks.com
-    M: iraj
-    S: groupsio
-  B: 0
-  U: iraj
-- E: irfan_sadiq!mentor.com
-  R:
-  - T: "2018-05-24"
-    C: Mentor Graphics Corporation
-    F: "2010-10-01"
-    P: yocto
-    R: C
-  I:
-  - E: irfan_sadiq!mentor.com
-    M: irfan sadiq
-    S: git
-  - E: irfan_sadiq!mentor.com
-    M: irfan sadiq
-    S: groupsio
-  - E: irfan_sadiq!mentor.com
-    M: irfan sadiq
-    S: pipermail
-  B: 0
-  U: irfan sadiq
