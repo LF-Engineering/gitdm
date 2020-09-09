@@ -1,4 +1,183 @@
 P:
+- C: GR
+  R:
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-10-01"
+    C: Plaisio - Πλαίσιο
+    F: "2016-07-01"
+    R: C
+  - T: "2016-10-01"
+    C: Plaisio - Πλαίσιο
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2017-03-01"
+    C: Independent
+    F: "2016-10-01"
+    R: C
+  - T: "2017-03-01"
+    C: Independent
+    F: "2016-10-01"
+    P: k8s
+    R: C
+  - T: "2017-08-01"
+    C: INRA
+    F: "2017-03-01"
+    R: C
+  - T: "2017-08-01"
+    C: INRA
+    F: "2017-03-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2017-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2017-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Lampros Smyrnaios
+    S: github
+    U: LSmyrnaios
+  B: 0
+  U: Lampros Smyrnaios
+- E: Tianyu.Lan!microsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: Tianyu.Lan!microsoft.com
+    M: Lan Tianyu
+    S: git
+  - E: Tianyu.Lan!microsoft.com
+    M: Tianyu Lan
+    S: git
+  B: 0
+  U: Lan Tianyu
+- E: lan.tran!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: lan.tran!ericsson.com
+    M: Lan Tran
+    S: jira
+    U: lmclatr
+  B: 0
+  U: Lan Tran
+- R:
+  - T: "2014-09-01"
+    C: Rakuten, Inc.
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2015-08-01"
+    C: Independent
+    F: "2014-09-01"
+    P: thanos
+    R: C
+  - T: "2015-09-01"
+    C: インフォメティス株式会社
+    F: "2015-08-01"
+    P: thanos
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-09-01"
+    P: thanos
+    R: C
+  - T: "2017-06-01"
+    C: Softwire
+    F: "2016-01-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Improbable
+    F: "2017-06-01"
+    P: thanos
+    R: C
+  I:
+  - M: Lan Xiao
+    S: github
+    U: lx223
+  B: 0
+  U: Lan Xiao
+- E: Lan.Xiao!amd.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: Lan.Xiao!amd.com
+    M: Lan Xiao
+    S: git
+  B: 0
+  U: Lan Xiao
+- E: lx223!users.noreply.github.com
+  R:
+  - T: "2014-09-01"
+    C: Rakuten, Inc.
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2015-08-01"
+    C: Independent
+    F: "2014-09-01"
+    P: thanos
+    R: C
+  - T: "2015-09-01"
+    C: インフォメティス株式会社
+    F: "2015-08-01"
+    P: thanos
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-09-01"
+    P: thanos
+    R: C
+  - T: "2017-06-01"
+    C: Softwire
+    F: "2016-01-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Improbable
+    F: "2017-06-01"
+    P: onf-p4
+    R: C
+  - T: "2100-01-01"
+    C: Improbable
+    F: "2017-06-01"
+    P: thanos
+    R: C
+  I:
+  - E: lx223!users.noreply.github.com
+    M: Lan Xiao
+    S: git
+  B: 0
+  U: Lan Xiao
 - E: tianyu.lan!intel.com
   R:
   - T: "2015-08-22"
@@ -10516,6 +10695,11 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-09-01"
+    P: tikv
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-09-01"
     P: yocto
     R: C
   S: male
@@ -12830,6 +13014,19 @@ P:
     S: git
   B: 0
   U: Leo Di Donato
+- E: yufang!cn.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2010-09-01"
+    R: C
+  I:
+  - E: yufang!cn.ibm.com
+    M: Leo Fang
+    S: slack
+    U: yufang
+  B: 0
+  U: Leo Fang
 - C: DE
   E: elgalu3!gmail.com
   R:
@@ -29935,6 +30132,24 @@ P:
     U: LmYjQ
   B: 0
   U: LmYjQ
+- E: savannah.loberger!intel.com
+  R:
+  - T: "2020-09-01"
+    C: Intel Corporation
+    F: "2015-07-01"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2020-09-01"
+    C: Intel Corporation
+    F: "2015-07-01"
+    P: dpdk-apps
+    R: C
+  I:
+  - E: savannah.loberger!intel.com
+    M: Loberger, Savannah
+    S: git
+  B: 0
+  U: Loberger, Savannah
 - E: lho!amcc.com
   R:
   - T: "2100-01-01"
@@ -45072,6 +45287,19 @@ P:
     S: git
   B: 0
   U: Luis Felipe Sandoval Castro
+- E: fernandezgarcialuis6!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: everis
+    F: "2007-03-01"
+    R: C
+  I:
+  - E: fernandezgarcialuis6!gmail.com
+    M: Luis Fernández García
+    S: slack
+    U: fernandezgarcialuis6
+  B: 0
+  U: Luis Fernández García
 - E: lgarciaac!gmail.com
   R:
   - T: "2018-11-01"
@@ -61682,229 +61910,3 @@ P:
     U: Mahesh.N
   B: 0
   U: Mahesh Nanjappa
-- E: mpatil!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mpatil!vmware.com
-    M: Mahesh Patil
-    S: git
-  - E: mpatil!vmware.com
-    M: Mahesh
-    S: git
-  B: 0
-  U: Mahesh Patil
-- C: IN
-  E: mahesh.poojary!commscope.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  I:
-  - E: mahesh.poojary!commscope.com
-    M: Mahesh Poojary S
-    S: github
-    U: maheshps-huawei
-  B: 0
-  U: Mahesh Poojary S
-- E: mahesh.poojary!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: onf-onos
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: onf-sd-ran
-    R: C
-  I:
-  - E: mahesh.poojary!huawei.com
-    M: Mahesh Poojary S
-    S: git
-  B: 0
-  U: Mahesh Poojary S
-- C: IN
-  E: Mahesh.Poojary!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: onf-onos
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: onf-sd-ran
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-06-05"
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-06-05"
-    P: onap
-    R: C
-  I:
-  - M: Mahesh Poojary
-    S: confluence
-    U: maheshpoojary
-  - M: Mahesh Poojary
-    S: confluence
-    U: maheshps
-  - E: mahesh.poojary!huawei.com
-    M: Mahesh Poojary Huawei
-    S: gerrit
-    U: maheshps
-  - E: mahesh.poojary!huawei.com
-    M: Mahesh Poojary Huawei
-    S: git
-  - E: mahesh.poojary!huawei.com
-    M: Mahesh Poojary
-    S: git
-  - E: Mahesh.Poojary!huawei.com
-    M: Mahesh Poojary
-    S: groupsio
-  - E: Mahesh.Poojary!huawei.com
-    M: Mahesh Poojary
-    S: pipermail
-  B: 0
-  U: Mahesh Poojary
-- C: IN
-  E: mahesh!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: mahesh!linux.vnet.ibm.com
-    M: Mahesh Salgaonkar
-    S: git
-  B: 0
-  U: Mahesh Salgaonkar
-- E: msivakumar!juniper.net
-  R:
-  - T: "2018-03-01"
-    C: Cisco Systems Inc.
-    F: "2007-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "2018-03-01"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: msivakumar!juniper.net
-    M: Mahesh Sivakumar
-    S: jira
-    U: msivakumar
-  B: 0
-  U: Mahesh Sivakumar
-- E: msivasub!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: msivasub!codeaurora.org
-    M: Mahesh Sivasubramanian
-    S: git
-  B: 0
-  U: Mahesh Sivasubramanian
-- E: Mahesh.Kelkar!lookout.com
-  R:
-  - T: "2100-01-01"
-    C: Lookout, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: Mahesh.Kelkar!lookout.com
-    M: Mahesh V Kelkar
-    S: git
-  B: 0
-  U: Mahesh V Kelkar
-- E: mahesh.somalaraju!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: onf-onos
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: onf-sd-ran
-    R: C
-  I:
-  - E: mahesh.somalaraju!huawei.com
-    M: Mahesh Raju-Huawei
-    S: git
-  - E: mahesh.somalaraju!huawei.com
-    M: MaheshRaju-Huawei
-    S: git
-  B: 0
-  U: MaheshRaju-Huawei
-- E: mchalla!marvell.com
-  R:
-  - T: "2100-01-01"
-    C: Cavium
-    F: "2019-12-06"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Cavium
-    F: "2019-12-06"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Cavium
-    F: "2020-01-13"
-    P: dpdk-next
-    R: C
-  I:
-  - E: mchalla!cavium.com
-    M: Mahipal Challa
-    S: git
-  - E: mchalla!marvell.com
-    M: Mahipal Challa
-    S: git
-  - E: mchalla!marvell.com
-    M: Mahipal Challa
-    S: pipermail
-  B: 0
-  U: Mahipal Challa

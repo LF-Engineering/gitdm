@@ -1,4 +1,420 @@
 P:
+- R:
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-12-01"
+    C: Sabre Corporation
+    F: "2016-07-01"
+    R: C
+  - T: "2016-12-01"
+    C: Sabre Corporation
+    F: "2016-07-01"
+    P: fluentd
+    R: C
+  - T: "2016-12-01"
+    C: Sabre Corporation
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2016-12-01"
+    C: Sabre Corporation
+    F: "2016-07-01"
+    P: opentelemetry
+    R: C
+  - T: "2016-12-01"
+    C: Sabre Corporation
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: fluentd
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: k8s
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: opentelemetry
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2016-12-01"
+    P: prometheus
+    R: C
+  - T: "2018-04-01"
+    C: Codeheroes
+    F: "2017-04-01"
+    R: C
+  - T: "2018-04-01"
+    C: Codeheroes
+    F: "2017-04-01"
+    P: fluentd
+    R: C
+  - T: "2018-04-01"
+    C: Codeheroes
+    F: "2017-04-01"
+    P: k8s
+    R: C
+  - T: "2018-04-01"
+    C: Codeheroes
+    F: "2017-04-01"
+    P: opentelemetry
+    R: C
+  - T: "2018-04-01"
+    C: Codeheroes
+    F: "2017-04-01"
+    P: prometheus
+    R: C
+  - T: "2018-07-01"
+    C: Independent
+    F: "2018-04-01"
+    R: C
+  - T: "2018-07-01"
+    C: Independent
+    F: "2018-04-01"
+    P: fluentd
+    R: C
+  - T: "2018-07-01"
+    C: Independent
+    F: "2018-04-01"
+    P: k8s
+    R: C
+  - T: "2018-07-01"
+    C: Independent
+    F: "2018-04-01"
+    P: opentelemetry
+    R: C
+  - T: "2018-07-01"
+    C: Independent
+    F: "2018-04-01"
+    P: prometheus
+    R: C
+  - T: "2018-09-01"
+    C: Microsoft Corporation
+    F: "2018-07-01"
+    R: C
+  - T: "2018-09-01"
+    C: Microsoft Corporation
+    F: "2018-07-01"
+    P: fluentd
+    R: C
+  - T: "2018-09-01"
+    C: Microsoft Corporation
+    F: "2018-07-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Microsoft Corporation
+    F: "2018-07-01"
+    P: opentelemetry
+    R: C
+  - T: "2018-09-01"
+    C: Microsoft Corporation
+    F: "2018-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-09-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-09-01"
+    P: opentelemetry
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-09-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - S: github
+    U: olagacek
+  B: 0
+  U: olagacek
+- E: olalonde!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Blockai
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Blockai
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  I:
+  - E: olalonde!gmail.com
+    M: olalonde
+    S: git
+  B: 0
+  U: olalonde
+- E: olivier!vernin.me
+  R:
+  - T: "2100-01-01"
+    C: CloudBees
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: CloudBees
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: olivier!vernin.me
+    M: olblak
+    S: git
+  B: 0
+  U: olblak
+- E: richm!oldelvet.org.uk
+  R:
+  - T: "2018-09-01"
+    C: XL Catlin
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-09-01"
+    C: XL Catlin
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: AXA
+    F: "2018-09-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: richm!oldelvet.org.uk
+    M: oldelvet
+    S: git
+  B: 0
+  U: oldelvet
+- E: oleksii.khliupin!nytimes.com
+  R:
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: oleksii.khliupin!nytimes.com
+    M: oleksii khliupin
+    S: git
+  B: 0
+  U: oleksii khliupin
+- E: oleksii.vorobiov!globallogic.com
+  R:
+  - T: "2019-07-02"
+    C: GlobalLogic
+    F: "2018-11-01"
+    P: openexr
+    R: C
+  I:
+  - E: oleksii.vorobiov!globallogic.com
+    M: oleksii.vorobiov
+    S: git
+  B: 0
+  U: oleksii.vorobiov
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: olekzabl
+  B: 0
+  U: olekzabl
+- E: olekz!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  I:
+  - E: olekz!google.com
+    M: olekzabl
+    S: git
+  B: 0
+  U: olekzabl
+- E: code!mikec.123mail.org
+  R:
+  - T: "2018-04-01"
+    C: Bullhorn
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-04-01"
+    C: Bullhorn
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Threat Stack
+    F: "2018-04-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: code!mikec.123mail.org
+    M: olhado
+    S: git
+  B: 0
+  U: olhado
+- E: github!mikec.123mail.org
+  R:
+  - T: "2018-04-01"
+    C: Bullhorn
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-04-01"
+    C: Bullhorn
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Threat Stack
+    F: "2018-04-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: github!mikec.123mail.org
+    M: olhado
+    S: git
+  B: 0
+  U: olhado
+- R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: female
+  I:
+  - M: olive power
+    S: github
+    U: opowbow
+  B: 0
+  U: olive power
+- E: olivepower1!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: female
+  I:
+  - E: olivepower1!gmail.com
+    M: olive power
+    S: git
+  B: 0
+  U: olive power
+- C: US
+  E: doliveirabrz!gmail.com
+  R:
+  - T: "2015-04-01"
+    C: Novell
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: Novell
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2015-11-01"
+    C: Cisco Systems Inc.
+    F: "2015-04-01"
+    R: C
+  - T: "2015-11-01"
+    C: Cisco Systems Inc.
+    F: "2015-04-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2015-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2015-11-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: doliveirabrz!gmail.com
+    M: oliveiradan
+    S: git
+  B: 0
+  U: oliveiradan
 - E: ogondza!gmail.com
   R:
   - T: "2100-01-01"
@@ -49557,6 +49973,27 @@ P:
     U: TadeyBilan
   B: 0
   U: tadei.bilan
+- E: tagomaru!users.noreply.github.com
+  R:
+  - T: "2014-12-01"
+    C: NRI (Nomura Research Institute)
+    F: "2008-04-01"
+    P: lfai/adversarial-robustness-toolbox
+    R: C
+  - T: "2100-01-01"
+    C: NRI SecureTechnologies, Ltd.
+    F: "2015-01-01"
+    P: lfai/adversarial-robustness-toolbox
+    R: C
+  I:
+  - E: tagomaru!users.noreply.github.com
+    M: tagomaru
+    S: git
+  - M: Teruhiro Tagomori
+    S: github
+    U: tagomaru
+  B: 0
+  U: tagomaru
 - E: tahsynx!gmail.com
   R:
   - T: "2017-11-01"
@@ -62592,241 +63029,3 @@ P:
     U: venkatarg
   B: 0
   U: venkata ramana g
-- E: venkata.subbareddy.koppolu!intel.com
-  R:
-  - T: "2011-03-01"
-    C: CA Technologies
-    F: "2002-06-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2013-05-01"
-    C: Yesmail
-    F: "2011-04-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2015-08-01"
-    C: Vodafone-Australia
-    F: "2013-06-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2015-11-01"
-    C: Telstra
-    F: "2015-08-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2016-03-01"
-    C: UNSW
-    F: "2015-12-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2017-07-01"
-    C: Hivery
-    F: "2016-04-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2018-02-01"
-    C: Optus
-    F: "2017-07-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Sydney Water
-    F: "2018-03-01"
-    P: lfedge/edgex-foundry
-    R: C
-  I:
-  - E: venkata.subbareddy.koppolu!intel.com
-    M: venkata-subbareddyK
-    S: git
-  - S: github
-    U: venkata-subbareddyK
-  - E: venkata.subbareddy.koppolu!intel.com
-    S: github
-    U: venkata-subbareddyK
-  B: 0
-  U: venkata-subbareddyK
-- E: venkata.katakam!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2017-01-11"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: venkata.katakam!ge.com
-    M: venkata.katakam
-    S: slack
-    U: venkata.katakam
-  B: 0
-  U: venkata.katakam
-- C: IN
-  E: venkatamaheshkotha!gmail.com
-  R:
-  - T: "2016-06-08"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-06-08"
-    C: Independent
-    F: "1900-01-01"
-    P: odl
-    R: C
-  - T: "2016-06-08"
-    C: Independent
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Infinite
-    F: "2016-06-08"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Infinite
-    F: "2016-06-08"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Infinite
-    F: "2016-06-08"
-    P: opnfv
-    R: C
-  I:
-  - M: venkatamahesh kotha
-    S: confluence
-    U: venkatamahesh
-  - E: venkatamaheshkotha!gmail.com
-    M: venkatamahesh kotha
-    S: gerrit
-    U: venkatamahesh
-  - E: venkatamaheshkotha!gmail.com
-    M: venkatamahesh kotha
-    S: git
-  - M: venkatamahesh kotha
-    S: jira
-    U: venkatamahesh
-  - E: venkatamaheshkotha!gmail.com
-    M: venkatamahesh kotha
-    S: jira
-    U: venkatamahesh
-  - E: venkatamaheshkotha!gmail.com
-    M: venkatamahesh kotha
-    S: jira
-    U: venkatamaheshkotha
-  - E: venkatamaheshkotha!yahoo.com
-    M: venkatamahesh kotha
-    S: jira
-    U: venkatamahesh
-  B: 0
-  U: venkatamahesh kotha
-- R:
-  - T: "2016-06-08"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Infinite
-    F: "2016-06-08"
-    P: cncf/shared
-    R: C
-  I:
-  - M: venkatamahesh
-    S: askbot
-    U: venkatamahesh
-  B: 0
-  U: venkatamahesh
-- E: venkatamaheshkotha!gmail.com
-  R:
-  - T: "2016-06-08"
-    C: Independent
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2016-06-08"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-06-08"
-    C: Independent
-    F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Infinite
-    F: "2016-06-08"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Infinite
-    F: "2016-06-08"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Infinite
-    F: "2016-06-08"
-    P: onf-onos
-    R: C
-  - T: "2100-01-01"
-    C: Infinite
-    F: "2016-06-08"
-    P: onf-sd-ran
-    R: C
-  I:
-  - E: venkatamaheshkotha!gmail.com
-    M: venkatamahesh
-    S: git
-  B: 0
-  U: venkatamahesh
-- E: vn166g!att.com
-  R:
-  - T: "2019-04-21"
-    C: AT&T Services, Inc.
-    F: "2019-01-01"
-    R: C
-  - T: "2019-04-21"
-    C: AT&T Services, Inc.
-    F: "2019-01-01"
-    P: onap
-    R: C
-  I:
-  - E: vn166g!att.com
-    M: venkatanaresh cherukuri
-    S: gerrit
-    U: vn166g
-  - E: vn166g!att.com
-    M: Cherukuri, Venkatanaresh (vn166g)
-    S: git
-  - E: vn166g!att.com
-    M: venkatanaresh cherukuri
-    S: git
-  - M: venkatanaresh cherukuri
-    S: jira
-    U: vn166g
-  - E: vn166g!att.com
-    M: venkatanaresh cherukuri
-    S: jira
-    U: vn166g
-  B: 0
-  U: venkatanaresh cherukuri
-- E: venkatasubramanianx.pattu!intel.com
-  R:
-  - T: "2015-07-11"
-    C: Intel Corporation
-    F: "2015-05-08"
-    P: yocto
-    R: C
-  I:
-  - E: venkatasubramanianx.pattu!intel.com
-    M: venkatasubramanian pattu
-    S: git
-  - E: venkatasubramanianx.pattu!intel.com
-    M: venkatasubramanian pattu
-    S: groupsio
-  - E: venkatasubramanianx.pattu!intel.com
-    M: venkatasubramanian pattu
-    S: pipermail
-  B: 0
-  U: venkatasubramanian pattu

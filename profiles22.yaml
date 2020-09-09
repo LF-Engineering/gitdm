@@ -1,4 +1,97 @@
 P:
+- C: EE
+  E: priit.laes!paf.com
+  R:
+  - T: "2014-05-01"
+    C: Teadusmosaiik
+    F: "1900-01-01"
+    R: C
+  - T: "2014-05-01"
+    C: Teadusmosaiik
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-01-01"
+    C: Stipit
+    F: "2014-05-01"
+    R: C
+  - T: "2016-01-01"
+    C: Stipit
+    F: "2014-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-11-01"
+    C: Icefire
+    F: "2016-01-01"
+    R: C
+  - T: "2016-11-01"
+    C: Icefire
+    F: "2016-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-03-01"
+    C: Swedbank
+    F: "2016-11-01"
+    R: C
+  - T: "2018-03-01"
+    C: Swedbank
+    F: "2016-11-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-03-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: priit.laes!paf.com
+    M: Priit Laes
+    S: git
+  B: 0
+  U: Priit Laes
+- E: Prike.Liang!amd.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: Prike.Liang!amd.com
+    M: Prike Liang
+    S: git
+  - E: Prike.Liang!amd.com
+    M: Prike.Liang
+    S: git
+  B: 0
+  U: Prike.Liang
+- E: prpereir!partner.ciena.com
+  R:
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: onf-onos
+    R: C
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: onf-sd-ran
+    R: C
+  I:
+  - E: prpereir!partner.ciena.com
+    M: Prince Pereira
+    S: git
+  B: 0
+  U: Prince Pereira
 - C: IN
   E: atheos.commune!gmail.com
   R:
@@ -27864,6 +27957,19 @@ P:
     S: pipermail
   B: 0
   U: Ramu N
+- E: Phuluso.Ramulifho!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2020-01-01"
+    R: C
+  I:
+  - E: Phuluso.Ramulifho!ibm.com
+    M: Ramulifho Phuluso
+    S: slack
+    U: phuluso.ramulifho
+  B: 0
+  U: Ramulifho Phuluso
 - E: vadivel.muruganx.ramuthevar!linux.intel.com
   R:
   - T: "2100-01-01"
@@ -41495,6 +41601,35 @@ P:
     S: git
   B: 0
   U: Renat Valiullin
+- E: renata.saiakhova!ekinops.com
+  R:
+  - T: "2100-01-01"
+    C: OneAccess
+    F: "2018-11-20"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: OneAccess
+    F: "2018-11-20"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: OneAccess
+    F: "2018-11-20"
+    P: dpdk-next
+    R: C
+  I:
+  - E: renata.saiakhova!ekinops.com
+    M: Renata Saiakhova
+    S: git
+  - E: Renata.Saiakhova!ekinops.com
+    M: Renata Saiakhova
+    S: pipermail
+  - E: Renata.Saiakhova!oneaccess-net.com
+    M: Renata Saiakhova
+    S: pipermail
+  B: 0
+  U: Renata Saiakhova
 - E: renata.toktar!dsr-corporation.com
   R:
   - T: "2016-02-29"
@@ -61430,267 +61565,3 @@ P:
     U: rjkernick
   B: 0
   U: Rob Kernick
-- E: rjkernick!gmail.com
-  R:
-  - T: "2015-06-01"
-    C: Altisource
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-06-01"
-    C: Altisource
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-06-01"
-    C: Altisource
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2015-06-01"
-    C: Altisource
-    F: "1900-01-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: Oteemo
-    F: "1900-01-01"
-    P: pnda
-    R: C
-  - T: "2017-04-01"
-    C: Verizon Communications
-    F: "2015-06-01"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: Verizon Communications
-    F: "2015-06-01"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: Verizon Communications
-    F: "2015-06-01"
-    P: nats
-    R: C
-  - T: "2017-04-01"
-    C: Verizon Communications
-    F: "2015-06-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: Oteemo
-    F: "2017-04-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Oteemo
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Oteemo
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Oteemo
-    F: "2017-04-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Oteemo
-    F: "2017-04-01"
-    P: pnda
-    R: C
-  S: male
-  I:
-  - E: rjkernick!gmail.com
-    M: Rob Kernick
-    S: git
-  B: 0
-  U: Rob Kernick
-- R:
-  - T: "2100-01-01"
-    C: Koyfin
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Koyfin
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - S: confluence
-    U: Koyfin
-  B: 0
-  U: Rob Koyfman
-- C: CA
-  E: rlalonde!univa.com
-  R:
-  - T: "2100-01-01"
-    C: Univa
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Univa
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Univa
-    F: "2017-10-12"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: rlalonde!univa.com
-    M: roblalonde
-    S: git
-  - E: rlalonde!univa.com
-    M: Rob Lalonde
-    S: github
-    U: roblalonde
-  - E: rlalonde!univa.com
-    M: Rob Lalonde
-    S: slack
-    U: rlalonde
-  B: 0
-  U: Rob Lalonde
-- C: US
-  E: landers.robert!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Automattic
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Automattic
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Automattic
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  - T: "2100-01-01"
-    C: Automattic
-    F: "2015-01-24"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: landers.robert!gmail.com
-    M: Rob Landers
-    S: git
-  - E: landers.robert!gmail.com
-    M: Rob Landers
-    S: github
-    U: withinboredom
-  B: 0
-  U: Rob Landers
-- C: US
-  E: rob!landley.net
-  R:
-  - T: "2100-01-01"
-    C: se-instruments
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: se-instruments
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: se-instruments
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: se-instruments
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: se-instruments
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: se-instruments
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: se-instruments
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: se-instruments
-    F: "2010-03-28"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: rob!landley.net
-    M: Rob Landley
-    S: git
-  B: 0
-  U: Rob Landley
-- C: US
-  E: rleidle!google.com
-  R:
-  - T: "2018-03-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2018-03-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-03-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2018-03-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-03-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-03-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-03-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-03-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: rleidle!google.com
-    M: Rob Leidle
-    S: git
-  - E: rleidle!google.com
-    M: Rob Leidle
-    S: github
-    U: spew
-  B: 0
-  U: Rob Leidle

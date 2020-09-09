@@ -1,4 +1,268 @@
 P:
+- E: rjkernick!gmail.com
+  R:
+  - T: "2015-06-01"
+    C: Altisource
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-06-01"
+    C: Altisource
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-06-01"
+    C: Altisource
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2015-06-01"
+    C: Altisource
+    F: "1900-01-01"
+    P: pnda
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "1900-01-01"
+    P: pnda
+    R: C
+  - T: "2017-04-01"
+    C: Verizon Communications
+    F: "2015-06-01"
+    P: helm
+    R: C
+  - T: "2017-04-01"
+    C: Verizon Communications
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2017-04-01"
+    C: Verizon Communications
+    F: "2015-06-01"
+    P: nats
+    R: C
+  - T: "2017-04-01"
+    C: Verizon Communications
+    F: "2015-06-01"
+    P: pnda
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "2017-04-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "2017-04-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "2017-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "2017-04-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Oteemo
+    F: "2017-04-01"
+    P: pnda
+    R: C
+  S: male
+  I:
+  - E: rjkernick!gmail.com
+    M: Rob Kernick
+    S: git
+  B: 0
+  U: Rob Kernick
+- R:
+  - T: "2100-01-01"
+    C: Koyfin
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Koyfin
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: confluence
+    U: Koyfin
+  B: 0
+  U: Rob Koyfman
+- C: CA
+  E: rlalonde!univa.com
+  R:
+  - T: "2100-01-01"
+    C: Univa
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Univa
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Univa
+    F: "2017-10-12"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rlalonde!univa.com
+    M: roblalonde
+    S: git
+  - E: rlalonde!univa.com
+    M: Rob Lalonde
+    S: github
+    U: roblalonde
+  - E: rlalonde!univa.com
+    M: Rob Lalonde
+    S: slack
+    U: rlalonde
+  B: 0
+  U: Rob Lalonde
+- C: US
+  E: landers.robert!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Automattic
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Automattic
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Automattic
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2100-01-01"
+    C: Automattic
+    F: "2015-01-24"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: landers.robert!gmail.com
+    M: Rob Landers
+    S: git
+  - E: landers.robert!gmail.com
+    M: Rob Landers
+    S: github
+    U: withinboredom
+  B: 0
+  U: Rob Landers
+- C: US
+  E: rob!landley.net
+  R:
+  - T: "2100-01-01"
+    C: se-instruments
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: se-instruments
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: se-instruments
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: se-instruments
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: se-instruments
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: se-instruments
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: se-instruments
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: se-instruments
+    F: "2010-03-28"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: rob!landley.net
+    M: Rob Landley
+    S: git
+  B: 0
+  U: Rob Landley
+- C: US
+  E: rleidle!google.com
+  R:
+  - T: "2018-03-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2018-03-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-03-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2018-03-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-03-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-03-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-03-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-03-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: rleidle!google.com
+    M: Rob Leidle
+    S: git
+  - E: rleidle!google.com
+    M: Rob Leidle
+    S: github
+    U: spew
+  B: 0
+  U: Rob Leidle
 - R:
   - T: "2100-01-01"
     C: Ammeon
@@ -3803,6 +4067,19 @@ P:
     S: git
   B: 0
   U: Robert Günzler
+- E: haimo!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1980-01-01"
+    R: C
+  I:
+  - E: haimo!us.ibm.com
+    M: Robert Haimowitz
+    S: slack
+    U: haimo
+  B: 0
+  U: Robert Haimowitz
 - E: robert.hakimi!intel.com
   R:
   - T: "2100-01-01"
@@ -19648,26 +19925,24 @@ P:
     S: git
   B: 0
   U: Roman Kagan
-- E: rka!sysgo.com
-  R:
-  - T: "2017-03-17"
-    C: SYSGO GmbH
-    F: "2017-01-09"
-    P: zep
-    R: C
-  I:
-  - E: rka!sysgo.com
-    M: Roman Kapl
-    S: git
-  B: 0
-  U: Roman Kapl
 - E: roman.kapl!sysgo.com
   R:
   - T: "2100-01-01"
     C: SYSGO GmbH
     F: "1900-01-01"
     R: C
+  - T: "2017-03-17"
+    C: SYSGO GmbH
+    F: "2017-01-09"
+    P: zep
+    R: C
   I:
+  - E: code!rkapl.cz
+    M: Roman Kapl
+    S: git
+  - E: rka!sysgo.com
+    M: Roman Kapl
+    S: git
   - E: roman.kapl!sysgo.com
     M: Roman Kapl
     S: git
@@ -62286,179 +62561,3 @@ P:
     U: sanrr
   B: 0
   U: Sanjaya Pallikera
-- E: sanjeevb.bansal!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sanjeevb.bansal!broadcom.com
-    M: Sanjeev Bansal
-    S: git
-  B: 0
-  U: Sanjeev Bansal
-- E: sanjeev_chugh!mentor.com
-  R:
-  - T: "2100-01-01"
-    C: Mentor Graphics Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sanjeev_chugh!mentor.com
-    M: Sanjeev Chugh
-    S: git
-  B: 0
-  U: Sanjeev Chugh
-- C: SG
-  E: ghane0!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: DCS1 Pte
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: DCS1 Pte
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: DCS1 Pte
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: DCS1 Pte
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: DCS1 Pte
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: DCS1 Pte
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: DCS1 Pte
-    F: "1900-01-01"
-    P: lfedge/open-horizon
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1901-01-01"
-    P: lfedge/open-horizon
-    R: C
-  S: male
-  I:
-  - E: ghane0!gmail.com
-    M: Sanjeev Gupta
-    S: git
-  - E: ghane0!gmail.com
-    M: Sanjeev
-    S: git
-  - M: Sanjeev Gupta
-    S: github
-    U: edgedock
-  - M: Sanjeev Gupta
-    S: slack
-    U: skgupta72
-  - E: skgupta72!in.ibm.com
-    M: Sanjeev Gupta
-    S: slack
-    U: skgupta72
-  B: 0
-  U: Sanjeev Gupta
-- E: srampal!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: srampal!cisco.com
-    M: Sanjeev Rampal
-    S: git
-  - E: srampal!cisco.com
-    M: Sanjeev Rampal
-    S: github
-    U: srampal
-  B: 0
-  U: Sanjeev Rampal
-- R:
-  - T: "2100-01-01"
-    C: OpsMx
-    F: "1900-01-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: OpsMx
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: Sanjeev Thatiparthi
-    S: github
-    U: sanopsmx
-  B: 0
-  U: Sanjeev Thatiparthi
-- E: sanjidas!cisco.com
-  R:
-  - T: "2015-09-30"
-    C: Cisco Systems Inc.
-    F: "2015-09-18"
-    P: dpdk
-    R: C
-  - T: "2015-09-30"
-    C: Cisco Systems Inc.
-    F: "2015-09-18"
-    P: odl
-    R: C
-  I:
-  - E: sanjidas!cisco.com
-    M: Sanjib Das sanjidas
-    S: pipermail
-  B: 0
-  U: Sanjib Das sanjidas
-- E: sanjib.mohapatra!ericsson.com
-  R:
-  - T: "2018-10-06"
-    C: Ericsson AB
-    F: "2015-08-21"
-    P: dpdk
-    R: C
-  - T: "2018-10-06"
-    C: Ericsson AB
-    F: "2015-08-21"
-    P: odl
-    R: C
-  I:
-  - E: sanjib.mohapatra!ericsson.com
-    M: Sanjib Mohapatra
-    S: gerrit
-    U: SanjibMohapatra
-  - E: sanjib.mohapatra!ericsson.com
-    M: Sanjib Mohapatra
-    S: git
-  - E: sanjib.mohapatra!ericsson.com
-    M: Sanjib Mohapatra
-    S: groupsio
-  - E: sanjib.mohapatra!ericsson.com
-    M: Sanjib Mohapatra
-    S: jira
-    U: sanjib.mohapatra
-  - E: sanjib.mohapatra!ericsson.com
-    M: Sanjib Mohapatra
-    S: pipermail
-  B: 0
-  U: Sanjib Mohapatra

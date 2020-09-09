@@ -1,4 +1,94 @@
 P:
+- R:
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-08-01"
+    C: ShareThis
+    F: "2014-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Armory
+    F: "2016-08-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2100-01-01"
+    C: Armory
+    F: "2016-08-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Isaac Mosquera
+    S: github
+    U: imosquera
+  B: 0
+  U: Isaac Mosquera
+- C: US
+  E: imosquer!gmail.com
+  R:
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-08-01"
+    C: ShareThis
+    F: "2014-08-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2016-08-01"
+    C: ShareThis
+    F: "2014-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Armory
+    F: "2016-08-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2100-01-01"
+    C: Armory
+    F: "2016-08-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Armory
+    F: "2016-08-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: imosquer!gmail.com
+    M: Isaac Mosquera
+    S: git
+  - E: imosquer!gmail.com
+    M: Isaac Mosquera
+    S: slack
+    U: imosquera
+  B: 0
+  U: Isaac Mosquera
+- E: irivera!cr.ibm.com
+  R:
+  - T: "2016-10-29"
+    C: IBM
+    F: "2016-08-31"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: irivera!cr.ibm.com
+    M: Isaac Rivera
+    S: slack
+    U: irivera
+  B: 0
+  U: Isaac Rivera
 - E: i!izs.me
   R:
   - T: "2100-01-01"
@@ -25819,6 +25909,11 @@ P:
     C: Brigham Young University
     F: "2014-12-01"
     P: sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: RStudio PBC
+    F: "2018-05-01"
+    P: mlf
     R: C
   - T: "2100-01-01"
     C: RStudio PBC
@@ -62667,115 +62762,3 @@ P:
     U: jciupis
   B: 0
   U: Jedrzej Ciupis
-- C: PL
-  E: jnowak!mirantis.com
-  R:
-  - T: "2015-09-01"
-    C: Codernity
-    F: "1900-01-01"
-    R: C
-  - T: "2015-09-01"
-    C: Codernity
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2019-12-01"
-    C: Mirantis
-    F: "2015-09-01"
-    R: C
-  - T: "2019-12-01"
-    C: Mirantis
-    F: "2015-09-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Travelping GmbH
-    F: "2019-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: Travelping GmbH
-    F: "2019-12-01"
-    P: cncf
-    R: C
-  S: male
-  I:
-  - E: jnowak!mirantis.com
-    M: Jedrzej Nowak
-    S: git
-  B: 0
-  U: Jedrzej Nowak
-- C: PL
-  E: pigmej!gmail.com
-  R:
-  - T: "2015-09-01"
-    C: Codernity
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2015-09-01"
-    C: Codernity
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2015-09-01"
-    C: Codernity
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2015-09-01"
-    C: Codernity
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-12-01"
-    C: Mirantis
-    F: "2015-09-01"
-    P: baetyl
-    R: C
-  - T: "2019-12-01"
-    C: Mirantis
-    F: "2015-09-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2019-12-01"
-    C: Mirantis
-    F: "2015-09-01"
-    P: cncf
-    R: C
-  - T: "2019-12-01"
-    C: Mirantis
-    F: "2015-09-01"
-    P: cncf/k3s
-    R: C
-  - T: "2019-12-01"
-    C: Mirantis
-    F: "2015-09-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Travelping GmbH
-    F: "2019-12-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Travelping GmbH
-    F: "2019-12-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Travelping GmbH
-    F: "2019-12-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Travelping GmbH
-    F: "2019-12-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: pigmej!gmail.com
-    M: Jedrzej Nowak
-    S: git
-  B: 0
-  U: Jedrzej Nowak

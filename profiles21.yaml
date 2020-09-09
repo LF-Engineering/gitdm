@@ -1,4 +1,163 @@
 P:
+- E: patrick!mezard.eu
+  R:
+  - T: "2015-07-01"
+    C: MASA
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2015-07-01"
+    C: MASA
+    F: "1900-01-01"
+    P: internet-security-research-group
+    R: C
+  - T: "2100-01-01"
+    C: Clustree
+    F: "2015-07-01"
+    P: etcd
+    R: C
+  I:
+  - E: patrick!mezard.eu
+    M: Patrick Mezard
+    S: git
+  B: 0
+  U: Patrick Mezard
+- E: mochel!linux.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mochel!linux.intel.com
+    M: Patrick Mochel
+    S: git
+  B: 0
+  U: Patrick Mochel
+- E: patrick.mochel!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: patrick.mochel!intel.com
+    M: Patrick Mochel
+    S: git
+  B: 0
+  U: Patrick Mochel
+- E: pmuellr!apache.org
+  R:
+  - T: "2100-01-01"
+    C: The Apache Software Foundation
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: The Apache Software Foundation
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  I:
+  - E: pmuellr!apache.org
+    M: Patrick Mueller
+    S: git
+  B: 0
+  U: Patrick Mueller
+- E: pm.mullaney!gmail.com
+  R:
+  - T: "2017-04-20"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2017-04-20"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2017-04-20"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2017-04-20"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger/hyperledger-twgc
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: fabric
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger-labs/fabric-block-archiving
+    R: C
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2015-12-31"
+    P: hyperledger-labs/pluggable-hcs
+    R: C
+  S: male
+  I:
+  - E: pm.mullaney!gmail.com
+    M: Patrick Mullaney
+    S: gerrit
+    U: pmullaney
+  - E: pm.mullaney!gmail.com
+    M: Patrick Mullaney
+    S: git
+  - E: pm.mullaney!gmail.com
+    M: Patrick Mullaney
+    S: github
+    U: pmullaney
+  - E: pm.mullaney!gmail.com
+    M: Patrick Mullaney
+    S: groupsio
+  - M: Patrick Mullaney
+    S: jira
+    U: pmullaney
+  B: 0
+  U: Patrick Mullaney
+- E: pnoonan!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-04-14"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: pnoonan!us.ibm.com
+    M: Patrick Noonan
+    S: slack
+    U: pnoonan
+  B: 0
+  U: Patrick Noonan
+- R:
+  - T: "2016-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/litmuschaos
+    R: C
+  - T: "2100-01-01"
+    C: Workiva
+    F: "2016-05-01"
+    P: cncf/litmuschaos
+    R: C
+  I:
+  - M: Patrick O'Connor
+    S: github
+    U: PatOConnor43
+  B: 0
+  U: Patrick O'Connor
 - E: pohannigan!cloudbees.com
   R:
   - T: "2014-04-01"
@@ -13718,7 +13877,22 @@ P:
   - T: "2100-01-01"
     C: NFWare
     F: "2015-04-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: NFWare
+    F: "2015-04-01"
     P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: NFWare
+    F: "2015-04-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: NFWare
+    F: "2015-04-01"
+    P: dpdk-next
     R: C
   I:
   - E: pivashchenko!nfware.com
@@ -31002,6 +31176,16 @@ P:
     C: Broadcom Corporation
     F: "2010-09-01"
     P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2010-09-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2010-09-01"
+    P: dpdk-next
     R: C
   I:
   - E: peter.spreadborough!broadcom.com
@@ -57912,7 +58096,8 @@ P:
     U: prashantchari
   B: 0
   U: Prashant
-- R:
+- E: beeps!google.com
+  R:
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
@@ -57937,15 +58122,6 @@ P:
     F: "1900-01-01"
     P: k8s
     R: C
-  S: male
-  I:
-  - M: Prashanth B
-    S: github
-    U: bprashanth
-  B: 0
-  U: Prashanth B
-- E: beeps!google.com
-  R:
   - T: "2017-02-10"
     C: Google
     F: "2010-01-01"
@@ -57966,16 +58142,7 @@ P:
     F: "2010-01-01"
     P: cncf/k3s
     R: C
-  - T: "2017-02-10"
-    C: Google
-    F: "2010-01-01"
-    P: etcd
-    R: C
-  - T: "2017-02-10"
-    C: Google
-    F: "2010-01-01"
-    P: k8s
-    R: C
+  S: male
   I:
   - E: beeps!google.com
     M: Prashanth B
@@ -57986,8 +58153,11 @@ P:
   - E: beeps!google.com
     M: bprashanth
     S: git
+  - M: Prashanth B
+    S: github
+    U: bprashanth
   B: 0
-  U: Prashanth Balasubramanian
+  U: Prashanth B
 - E: prashanth.candade!mavenir.com
   R:
   - T: "1997-10-01"
@@ -61842,96 +62012,3 @@ P:
     S: pipermail
   B: 0
   U: Priit Laes
-- C: EE
-  E: priit.laes!paf.com
-  R:
-  - T: "2014-05-01"
-    C: Teadusmosaiik
-    F: "1900-01-01"
-    R: C
-  - T: "2014-05-01"
-    C: Teadusmosaiik
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-01-01"
-    C: Stipit
-    F: "2014-05-01"
-    R: C
-  - T: "2016-01-01"
-    C: Stipit
-    F: "2014-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-11-01"
-    C: Icefire
-    F: "2016-01-01"
-    R: C
-  - T: "2016-11-01"
-    C: Icefire
-    F: "2016-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-03-01"
-    C: Swedbank
-    F: "2016-11-01"
-    R: C
-  - T: "2018-03-01"
-    C: Swedbank
-    F: "2016-11-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-03-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: priit.laes!paf.com
-    M: Priit Laes
-    S: git
-  B: 0
-  U: Priit Laes
-- E: Prike.Liang!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: Prike.Liang!amd.com
-    M: Prike Liang
-    S: git
-  - E: Prike.Liang!amd.com
-    M: Prike.Liang
-    S: git
-  B: 0
-  U: Prike.Liang
-- E: prpereir!partner.ciena.com
-  R:
-  - T: "2100-01-01"
-    C: Wipro Limited
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Wipro Limited
-    F: "1900-01-01"
-    P: onf-onos
-    R: C
-  - T: "2100-01-01"
-    C: Wipro Limited
-    F: "1900-01-01"
-    P: onf-sd-ran
-    R: C
-  I:
-  - E: prpereir!partner.ciena.com
-    M: Prince Pereira
-    S: git
-  B: 0
-  U: Prince Pereira

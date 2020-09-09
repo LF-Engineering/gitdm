@@ -1,4 +1,366 @@
 P:
+- C: US
+  E: tom.powell!datadoghq.com
+  R:
+  - T: "2015-04-01"
+    C: MSE
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: MSE
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2015-04-01"
+    C: MSE
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-07-01"
+    C: PageDNA
+    F: "2015-04-01"
+    R: C
+  - T: "2015-07-01"
+    C: PageDNA
+    F: "2015-04-01"
+    P: argo
+    R: C
+  - T: "2015-07-01"
+    C: PageDNA
+    F: "2015-04-01"
+    P: helm
+    R: C
+  - T: "2016-08-01"
+    C: Cyanogen
+    F: "2015-07-01"
+    R: C
+  - T: "2016-08-01"
+    C: Cyanogen
+    F: "2015-07-01"
+    P: argo
+    R: C
+  - T: "2016-08-01"
+    C: Cyanogen
+    F: "2015-07-01"
+    P: helm
+    R: C
+  - T: "2017-07-01"
+    C: Mason
+    F: "2016-08-01"
+    R: C
+  - T: "2017-07-01"
+    C: Mason
+    F: "2016-08-01"
+    P: argo
+    R: C
+  - T: "2017-07-01"
+    C: Mason
+    F: "2016-08-01"
+    P: helm
+    R: C
+  - T: "2019-06-01"
+    C: Nordstrom
+    F: "2017-07-01"
+    R: C
+  - T: "2019-06-01"
+    C: Nordstrom
+    F: "2017-07-01"
+    P: argo
+    R: C
+  - T: "2019-06-01"
+    C: Nordstrom
+    F: "2017-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2019-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2019-06-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2019-06-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: tom.powell!datadoghq.com
+    M: Tom Powell
+    S: git
+  - E: tom.powell!datadoghq.com
+    M: Tom Powell
+    S: github
+    U: tompowell-dd
+  B: 0
+  U: Tom Powell
+- E: tom.prince!hocat.ca
+  R:
+  - T: "2016-03-01"
+    C: ClusterHQ
+    F: "1900-01-01"
+    R: C
+  - T: "2016-03-01"
+    C: ClusterHQ
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-03-01"
+    C: Buildbot
+    F: "2016-03-01"
+    R: C
+  - T: "2017-03-01"
+    C: Buildbot
+    F: "2016-03-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Mozilla
+    F: "2017-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mozilla
+    F: "2017-03-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: tom.prince!hocat.ca
+    M: Tom Prince
+    S: github
+    U: tomprince
+  B: 0
+  U: Tom Prince
+- E: tom.prince!twistedmatrix.com
+  R:
+  - T: "2016-03-01"
+    C: ClusterHQ
+    F: "1900-01-01"
+    R: C
+  - T: "2016-03-01"
+    C: ClusterHQ
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-03-01"
+    C: Buildbot
+    F: "2016-03-01"
+    R: C
+  - T: "2017-03-01"
+    C: Buildbot
+    F: "2016-03-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Mozilla
+    F: "2017-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mozilla
+    F: "2017-03-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: tom.prince!twistedmatrix.com
+    M: Tom Prince
+    S: git
+  - E: tom.prince!twistedmatrix.com
+    M: Tom Prince
+    S: github
+    U: tomprince
+  B: 0
+  U: Tom Prince
+- E: tom.prince!ualberta.net
+  R:
+  - T: "2016-03-01"
+    C: ClusterHQ
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2016-03-01"
+    C: ClusterHQ
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2016-03-01"
+    C: ClusterHQ
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-03-01"
+    C: Buildbot
+    F: "2016-03-01"
+    P: openebs
+    R: C
+  - T: "2017-03-01"
+    C: Buildbot
+    F: "2016-03-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Mozilla
+    F: "2017-03-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Mozilla
+    F: "2017-03-01"
+    P: prometheus
+    R: C
+  I:
+  - E: tom.prince!ualberta.net
+    M: Tom Prince
+    S: git
+  B: 0
+  U: Tom Prince
+- C: AU
+  E: tom!devopsify.io
+  R:
+  - T: "2015-06-01"
+    C: SapientRazorfish
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: SapientRazorfish
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: DevOpsify
+    F: "2015-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: DevOpsify
+    F: "2015-06-01"
+    P: helm
+    R: C
+  I:
+  - E: tom!devopsify.io
+    M: Tom Qiang Wu
+    S: git
+  B: 0
+  U: Tom Qiang Wu
+- C: AU
+  E: tom.q.wu!gmail.com
+  R:
+  - T: "2015-06-01"
+    C: SapientRazorfish
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: SapientRazorfish
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-06-01"
+    C: SapientRazorfish
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-06-01"
+    C: SapientRazorfish
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: DevOpsify
+    F: "2015-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: DevOpsify
+    F: "2015-06-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: DevOpsify
+    F: "2015-06-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: DevOpsify
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  I:
+  - E: tom.q.wu!gmail.com
+    M: Tom Qiang Wu
+    S: github
+    U: tomqwu
+  B: 0
+  U: Tom Qiang Wu
+- C: IL
+  R:
+  - T: "2015-08-01"
+    C: Contentful
+    F: "1900-01-01"
+    R: C
+  - T: "2015-08-01"
+    C: Contentful
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-08-01"
+    C: Contentful
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Tapingo
+    F: "2015-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Tapingo
+    F: "2015-08-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Tapingo
+    F: "2015-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Tom Reznik
+    S: github
+    U: tomxor
+  B: 0
+  U: Tom Reznik
+- C: IL
+  E: tom!monad.wtf
+  R:
+  - T: "2015-08-01"
+    C: Contentful
+    F: "1900-01-01"
+    R: C
+  - T: "2015-08-01"
+    C: Contentful
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Tapingo
+    F: "2015-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Tapingo
+    F: "2015-08-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: tom!monad.wtf
+    M: Tom Reznik
+    S: git
+  - E: tom!monad.wtf
+    M: Tom R.
+    S: slack
+    U: tom
+  B: 0
+  U: Tom Reznik
 - C: IL
   E: tomxor!users.noreply.github.com
   R:
@@ -61457,276 +61819,3 @@ P:
     S: git
   B: 0
   U: Vinit Mahedia
-- E: vinitachinoy!yahoo.com
-  R:
-  - T: "2100-01-01"
-    C: The Depository Trust & Clearing Corporation (DTCC)
-    F: "2016-12-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: The Depository Trust & Clearing Corporation (DTCC)
-    F: "2016-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: The Depository Trust & Clearing Corporation (DTCC)
-    F: "2016-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: The Depository Trust & Clearing Corporation (DTCC)
-    F: "2016-12-31"
-    P: hyperledger/shared
-    R: C
-  - T: "2100-01-01"
-    C: The Depository Trust & Clearing Corporation (DTCC)
-    F: "2016-12-31"
-    P: explorer
-    R: M
-  I:
-  - M: Vinita Chinoy
-    S: confluence
-    U: vchinoy
-  - E: vinitachinoy!yahoo.com
-    M: Vinita Chinoy
-    S: confluence
-    U: vchinoy
-  - E: vinitachinoy!yahoo.com
-    M: Vinita Chinoy
-    S: gerrit
-    U: vchinoy
-  - E: vinitachinoy!yahoo.com
-    M: Vinita Chinoy
-    S: git
-  - E: vinitachinoy!yahoo.com
-    M: Vinita
-    S: git
-  - M: Vinita Chinoy
-    S: jira
-    U: vchinoy
-  - E: vinitachinoy!yahoo.com
-    M: Vinita Chinoy
-    S: jira
-    U: vchinoy
-  B: 0
-  U: Vinita Chinoy
-- R:
-  - T: "2014-05-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-08-01"
-    C: Independent
-    F: "2014-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-05-01"
-    C: LinkedIn Corporation
-    F: "2014-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Netflix
-    F: "2017-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Netflix
-    F: "2017-05-01"
-    P: presto
-    R: C
-  I:
-  - M: Vinitha Reddy Gankidi
-    S: github
-    U: vgankidi
-  B: 0
-  U: Vinitha Reddy Gankidi
-- R:
-  - T: "2014-05-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-08-01"
-    C: Independent
-    F: "2014-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-05-01"
-    C: LinkedIn Corporation
-    F: "2014-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Netflix
-    F: "2017-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Netflix
-    F: "2017-05-01"
-    P: presto
-    R: C
-  I:
-  - M: Vinitha
-    S: slack
-    U: vgankidi
-  B: 0
-  U: Vinitha
-- E: viswamy!microsoft.com
-  R:
-  - T: "2011-08-01"
-    C: Google
-    F: "2011-06-01"
-    P: lfai-onnx
-    R: C
-  - T: "2016-03-01"
-    C: Google
-    F: "2014-12-01"
-    P: lfai-onnx
-    R: C
-  - T: "2015-08-01"
-    C: LinkedIn Corporation
-    F: "2015-06-01"
-    P: lfai-onnx
-    R: C
-  - T: "2017-08-01"
-    C: International Business Machines Corporation (IBM)
-    F: "2017-05-01"
-    P: lfai-onnx
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-09-01"
-    P: lfai-onnx
-    R: C
-  - T: "2020-08-01"
-    C: University of Washington
-    F: "2020-06-01"
-    P: lfai-onnx
-    R: C
-  I:
-  - E: vinitra.swamy!microsoft.com
-    M: Vinitra Swamy
-    S: git
-  - E: vinitras!gmail.com
-    M: Vinitra Swamy
-    S: git
-  - E: viswamy!microsoft.com
-    M: Vinitra Swamy
-    S: git
-  - E: vinitras!gmail.com
-    M: vinitra
-    S: git
-  - M: Vinitra Swamy
-    S: github
-    U: vinitra
-  - E: vinitra!berkeley.edu
-    M: Vinitra Swamy
-    S: github
-    U: vinitra
-  B: 0
-  U: Vinitra Swamy
-- E: vinnie!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2016-04-14"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: vinnie!ge.com
-    M: Vinnie Lavallee
-    S: slack
-    U: vinnie
-  B: 0
-  U: Vinnie Lavallee
-- E: vinoyang!tencent.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    P: lfedge/state-of-the-edge
-    R: C
-  - T: "2100-01-01"
-    C: The Apache Software Foundation
-    F: "1900-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: The Apache Software Foundation
-    F: "1900-01-01"
-    P: lfedge/state-of-the-edge
-    R: C
-  I:
-  - E: vinoyang!tencent.com
-    M: vinoyang
-    S: git
-  - E: yanghua1127!gmail.com
-    M: vinoyang
-    S: git
-  - E: yanghua1127!gmail.com
-    M: yanghua
-    S: git
-  - E: vinoyang!apache.org
-    M: vinoyang
-    S: github
-    U: yanghua
-  - E: yanghua1127!gmail.com
-    M: vinoyang
-    S: github
-    U: yanghua
-  - E: yanghua1127!gmail.com
-    M: vino yang
-    S: groupsio
-  - E: yanghua1127!gmail.com
-    M: vinoyang
-    S: groupsio
-  B: 0
-  U: Vino Yang
-- E: vinodg!nvidia.com
-  R:
-  - T: "2100-01-01"
-    C: NVIDIA Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: vinodg!nvidia.com
-    M: Vinod G
-    S: git
-  B: 0
-  U: Vinod G
-- R:
-  - T: "2016-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Mesosphere
-    F: "2016-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Mesosphere
-    F: "2016-01-01"
-    P: jenkins
-    R: C
-  I:
-  - M: Vinod Kone
-    S: github
-    U: vinodkone
-  B: 0
-  U: Vinod Kone

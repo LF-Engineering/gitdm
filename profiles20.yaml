@@ -1,4 +1,94 @@
 P:
+- E: nab!linux-iscsi.org
+  R:
+  - T: "2100-01-01"
+    C: Datera
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Datera
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Datera
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Datera
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Datera
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Datera
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Datera
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2013-04-20"
+    C: Datera
+    F: "2010-05-17"
+    P: zep
+    R: C
+  I:
+  - E: nab!linux-iscsi.org
+    M: Nicholas Bellinger
+    S: git
+  B: 0
+  U: Nicholas Bellinger
+- E: bering.nicholas!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Solinea
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Solinea
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  I:
+  - E: bering.nicholas!gmail.com
+    M: Nicholas Bering
+    S: github
+    U: nbering
+  B: 0
+  U: Nicholas Bering
+- E: brownn!brocade.com
+  R:
+  - T: "2100-01-01"
+    C: Brocade Communications Systems LLC
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Brocade Communications Systems LLC
+    F: "1900-01-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Brocade Communications Systems LLC
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: brownn!brocade.com
+    M: Nicholas Brown
+    S: git
+  B: 0
+  U: Nicholas Brown
 - R:
   - T: "2100-01-01"
     C: Pivotal
@@ -47345,6 +47435,16 @@ P:
     F: "2018-07-01"
     P: data-plane-development-kit/dpdk-summary
     R: C
+  - T: "2100-01-01"
+    C: UNH InterOperability Lab
+    F: "2018-07-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: UNH InterOperability Lab
+    F: "2018-07-01"
+    P: dpdk-tools
+    R: C
   I:
   - M: Owen Hilyard
     S: bugzillarest
@@ -56856,6 +56956,37 @@ P:
     S: git
   B: 0
   U: Pascal Brand
+- E: pascal.brogle!simplysoft.ch
+  R:
+  - T: "2015-05-01"
+    C: Koubachi
+    F: "2011-09-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: SBB CFF FFS
+    F: "2011-11-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: GARDENA digital hub Zürich
+    F: "2015-10-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: GARDENA digital hub Zürich
+    F: "2015-10-01"
+    P: zep
+    R: C
+  I:
+  - E: pascal.brogle!simplysoft.ch
+    M: Pascal Brogle
+    S: git
+  - M: Pascal Brogle
+    S: github
+    U: broglep-koubachi
+  B: 0
+  U: Pascal Brogle
 - R:
   - T: "2015-04-01"
     C: Anatoletype
@@ -62238,162 +62369,3 @@ P:
     S: git
   B: 0
   U: Patrick McIlroy
-- E: patrick!mezard.eu
-  R:
-  - T: "2015-07-01"
-    C: MASA
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2015-07-01"
-    C: MASA
-    F: "1900-01-01"
-    P: internet-security-research-group
-    R: C
-  - T: "2100-01-01"
-    C: Clustree
-    F: "2015-07-01"
-    P: etcd
-    R: C
-  I:
-  - E: patrick!mezard.eu
-    M: Patrick Mezard
-    S: git
-  B: 0
-  U: Patrick Mezard
-- E: mochel!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: mochel!linux.intel.com
-    M: Patrick Mochel
-    S: git
-  B: 0
-  U: Patrick Mochel
-- E: patrick.mochel!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: patrick.mochel!intel.com
-    M: Patrick Mochel
-    S: git
-  B: 0
-  U: Patrick Mochel
-- E: pmuellr!apache.org
-  R:
-  - T: "2100-01-01"
-    C: The Apache Software Foundation
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: The Apache Software Foundation
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  I:
-  - E: pmuellr!apache.org
-    M: Patrick Mueller
-    S: git
-  B: 0
-  U: Patrick Mueller
-- E: pm.mullaney!gmail.com
-  R:
-  - T: "2017-04-20"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2017-04-20"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2017-04-20"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-labs
-    R: C
-  - T: "2017-04-20"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-twgc
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2100-01-01"
-    C: Undisclosed
-    F: "2015-12-31"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  S: male
-  I:
-  - E: pm.mullaney!gmail.com
-    M: Patrick Mullaney
-    S: gerrit
-    U: pmullaney
-  - E: pm.mullaney!gmail.com
-    M: Patrick Mullaney
-    S: git
-  - E: pm.mullaney!gmail.com
-    M: Patrick Mullaney
-    S: github
-    U: pmullaney
-  - E: pm.mullaney!gmail.com
-    M: Patrick Mullaney
-    S: groupsio
-  - M: Patrick Mullaney
-    S: jira
-    U: pmullaney
-  B: 0
-  U: Patrick Mullaney
-- E: pnoonan!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-04-14"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: pnoonan!us.ibm.com
-    M: Patrick Noonan
-    S: slack
-    U: pnoonan
-  B: 0
-  U: Patrick Noonan
-- R:
-  - T: "2016-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/litmuschaos
-    R: C
-  - T: "2100-01-01"
-    C: Workiva
-    F: "2016-05-01"
-    P: cncf/litmuschaos
-    R: C
-  I:
-  - M: Patrick O'Connor
-    S: github
-    U: PatOConnor43
-  B: 0
-  U: Patrick O'Connor

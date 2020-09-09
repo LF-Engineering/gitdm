@@ -1,4 +1,110 @@
 P:
+- E: gaohaifeng.gao!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: danos
+    R: C
+  - T: "2015-03-04"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-02-28"
+    P: zep
+    R: C
+  - T: "2015-08-30"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-03-23"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2015-08-30"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-03-23"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-03-23"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-03-23"
+    P: dpdk-next
+    R: C
+  I:
+  - E: gaohaifeng.gao!huawei.com
+    M: Haifeng Gao
+    S: git
+  - E: gaohaifeng.gao!huawei.com
+    M: gaohaifeng
+    S: git
+  - E: gaohaifeng.gao!huawei.com
+    M: Gaohaifeng A
+    S: pipermail
+  - E: gaohaifeng.gao!huawei.com
+    M: gaohaifeng
+    S: pipermail
+  B: 0
+  U: Haifeng Gao
+- E: haifeng.lin!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2014-08-08"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2014-08-08"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2014-08-08"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2014-08-08"
+    P: dpdk
+    R: C
+  - T: "2017-01-18"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-03-21"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-03-21"
+    P: dpdk-next
+    R: C
+  I:
+  - E: haifeng.lin!huawei.com
+    M: Haifeng Lin
+    S: git
+  - E: haifeng.lin!huawei.com
+    M: Haifeng Lin
+    S: pipermail
+  - E: haifeng.lin!huawei.com
+    M: linhaifeng
+    S: pipermail
+  B: 0
+  U: Haifeng Lin
 - R:
   - T: "2018-04-01"
     C: Jd.Com
@@ -8494,6 +8600,11 @@ P:
     C: Microsoft Corporation
     F: "2018-02-01"
     P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-02-01"
+    P: dpdk-next
     R: C
   I:
   - E: haramakr!microsoft.com
@@ -54926,6 +55037,19 @@ P:
     S: git
   B: 0
   U: Ilya Konstantinov
+- E: ilya.kreynin!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2020-03-01"
+    R: C
+  I:
+  - E: ilya.kreynin!ibm.com
+    M: Ilya Kreynin
+    S: slack
+    U: ilya.kreynin
+  B: 0
+  U: Ilya Kreynin
 - E: ilya.ksenofontov!ocrv.ru
   R:
   - T: "2100-01-01"
@@ -61911,93 +62035,3 @@ P:
     U: totahuanocotl
   B: 0
   U: Isaac Martinez Aceves
-- R:
-  - T: "2014-08-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-08-01"
-    C: ShareThis
-    F: "2014-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Armory
-    F: "2016-08-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: Armory
-    F: "2016-08-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: Isaac Mosquera
-    S: github
-    U: imosquera
-  B: 0
-  U: Isaac Mosquera
-- C: US
-  E: imosquer!gmail.com
-  R:
-  - T: "2014-08-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2014-08-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-08-01"
-    C: ShareThis
-    F: "2014-08-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2016-08-01"
-    C: ShareThis
-    F: "2014-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Armory
-    F: "2016-08-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: Armory
-    F: "2016-08-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Armory
-    F: "2016-08-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: imosquer!gmail.com
-    M: Isaac Mosquera
-    S: git
-  - E: imosquer!gmail.com
-    M: Isaac Mosquera
-    S: slack
-    U: imosquera
-  B: 0
-  U: Isaac Mosquera
-- E: irivera!cr.ibm.com
-  R:
-  - T: "2016-10-29"
-    C: IBM
-    F: "2016-08-31"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: irivera!cr.ibm.com
-    M: Isaac Rivera
-    S: slack
-    U: irivera
-  B: 0
-  U: Isaac Rivera
