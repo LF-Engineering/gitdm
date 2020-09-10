@@ -3,6 +3,52 @@ P:
   - T: "2100-01-01"
     C: SuperAwesome
     F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - M: David
+    S: github
+    U: David-Gee
+  B: 0
+  U: David
+- R:
+  - T: "2100-01-01"
+    C: SuperAwesome
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: SuperAwesome
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: David
+    S: github
+    U: david92rl
+  B: 0
+  U: David
+- R:
+  - T: "2100-01-01"
+    C: SuperAwesome
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SuperAwesome
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: David
+    S: github
+    U: PhoenixAD
+  B: 0
+  U: David
+- R:
+  - T: "2100-01-01"
+    C: SuperAwesome
+    F: "1900-01-01"
     R: C
   - T: "2100-01-01"
     C: SuperAwesome
@@ -17978,6 +18024,42 @@ P:
     S: git
   B: 0
   U: Dewet Thibaut
+- E: morgand!vyatta.att-mail.com
+  R:
+  - T: "2000-07-01"
+    C: SCO
+    F: "1990-09-01"
+    P: danos
+    R: C
+  - T: "2014-10-01"
+    C: Cisco Systems
+    F: "2000-08-01"
+    P: danos
+    R: C
+  - T: "2017-06-01"
+    C: Brocade Communications Systems LLC
+    F: "2014-12-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Telecommunication
+    F: "2017-07-01"
+    P: danos
+    R: C
+  I:
+  - E: dewi.morgan!intl.att.com
+    M: Dewi Morgan
+    S: git
+  - E: morgand!mail.eng.vyatta.net
+    M: Dewi Morgan
+    S: git
+  - E: morgand!vyatta.att-mail.com
+    M: Dewi Morgan
+    S: git
+  - M: Dewi Morgan
+    S: jira
+  B: 0
+  U: Dewi Morgan
 - C: US
   E: decui!microsoft.com
   R:
@@ -46397,6 +46479,11 @@ P:
   - T: "2100-01-01"
     C: AT&T Telecommunication
     F: "2017-07-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Telecommunication
+    F: "2017-07-01"
     P: danos
     R: C
   S: male
@@ -62498,153 +62585,3 @@ P:
     S: git
   B: 0
   U: Eli Mallon
-- E: enudler!gmail.com
-  R:
-  - T: "2015-02-01"
-    C: NCR
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2015-02-01"
-    C: NCR
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-02-01"
-    C: NCR
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2015-02-01"
-    C: NCR
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2015-02-01"
-    C: NCR
-    F: "1900-01-01"
-    P: pnda
-    R: C
-  - T: "2015-02-01"
-    C: NCR
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  - T: "2100-01-01"
-    C: PayU
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: PayU
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: PayU
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: PayU
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: PayU
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  - T: "2100-01-01"
-    C: ZOOZ
-    F: "2015-02-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: ZOOZ
-    F: "2015-02-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: ZOOZ
-    F: "2015-02-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: ZOOZ
-    F: "2015-02-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: ZOOZ
-    F: "2015-02-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: ZOOZ
-    F: "2015-02-01"
-    P: vitess
-    R: C
-  I:
-  - E: enudler!gmail.com
-    M: Eli Nudler
-    S: git
-  - E: enudler!gmail.com
-    S: github
-    U: enudler
-  B: 0
-  U: Eli Nudler
-- E: epleaner!pivotal.io
-  R:
-  - T: "2017-10-24"
-    C: Pivotal
-    F: "2017-10-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: epleaner!pivotal.io
-    M: Eli Pleaner
-    S: git
-  - E: epleaner!pivotal.io
-    M: Eli Pleaner
-    S: slack
-    U: epleaner
-  B: 0
-  U: Eli Pleaner
-- E: esilva!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2016-09-12"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: esilva!pivotal.io
-    M: Eli Silva
-    S: slack
-    U: eli
-  B: 0
-  U: Eli Silva
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Docker, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Docker, Inc.
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: Docker, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Eli Uriegas
-    S: github
-    U: seemethere
-  B: 0
-  U: Eli Uriegas

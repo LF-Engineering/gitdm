@@ -1,5 +1,80 @@
 P:
 - R:
+  - T: "2015-03-01"
+    C: CashStar
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-06-01"
+    C: AOC
+    F: "2015-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-01-01"
+    C: Smarter Risk
+    F: "2015-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-03-01"
+    C: Independent
+    F: "2016-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-05-01"
+    C: VMware, Inc.
+    F: "2016-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-11-01"
+    C: JASK
+    F: "2018-05-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2019-11-01"
+    C: JASK
+    F: "2018-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-12-01"
+    C: Sumo
+    F: "2019-11-01"
+    P: cncf/shared
+    R: C
+  - T: "2020-05-01"
+    C: Ellevation
+    F: "2019-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Sevco
+    F: "2020-05-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Nevins Bartolomeo
+    S: github
+    U: nevins-jask
+  B: 0
+  U: Nevins Bartolomeo
+- E: tsnevrekar!in.ibm.com
+  R:
+  - T: "2013-10-11"
+    C: IBM
+    F: "2013-04-18"
+    P: dpdk
+    R: C
+  - T: "2013-10-11"
+    C: IBM
+    F: "2013-04-18"
+    P: odl
+    R: C
+  I:
+  - E: tsnevrekar!in.ibm.com
+    M: Nevrekar Subhash
+    S: pipermail
+  B: 0
+  U: Nevrekar Subhash
+- R:
   - T: "2014-05-01"
     C: Intel Corporation
     F: "1900-01-01"
@@ -15197,6 +15272,20 @@ P:
     S: pipermail
   B: 0
   U: Nidhi Adhvaryu
+- E: nidhi.parmar!volansys.com
+  R:
+  - T: "2100-01-01"
+    C: VOLANSYS Technologies
+    F: "2018-12-01"
+    P: lfai/amundsen
+    R: C
+  I:
+  - E: nidhi.parmar!volansys.com
+    M: Nidhi Parmar
+    S: slack
+    U: nidhi.parmar
+  B: 0
+  U: Nidhi Parmar
 - E: niviswan!cisco.com
   R:
   - T: "2016-07-20"

@@ -1,4 +1,154 @@
 P:
+- E: enudler!gmail.com
+  R:
+  - T: "2015-02-01"
+    C: NCR
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2015-02-01"
+    C: NCR
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-02-01"
+    C: NCR
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2015-02-01"
+    C: NCR
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2015-02-01"
+    C: NCR
+    F: "1900-01-01"
+    P: pnda
+    R: C
+  - T: "2015-02-01"
+    C: NCR
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: PayU
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: PayU
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: PayU
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: PayU
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: PayU
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: ZOOZ
+    F: "2015-02-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: ZOOZ
+    F: "2015-02-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: ZOOZ
+    F: "2015-02-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: ZOOZ
+    F: "2015-02-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: ZOOZ
+    F: "2015-02-01"
+    P: pnda
+    R: C
+  - T: "2100-01-01"
+    C: ZOOZ
+    F: "2015-02-01"
+    P: vitess
+    R: C
+  I:
+  - E: enudler!gmail.com
+    M: Eli Nudler
+    S: git
+  - E: enudler!gmail.com
+    S: github
+    U: enudler
+  B: 0
+  U: Eli Nudler
+- E: epleaner!pivotal.io
+  R:
+  - T: "2017-10-24"
+    C: Pivotal
+    F: "2017-10-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: epleaner!pivotal.io
+    M: Eli Pleaner
+    S: git
+  - E: epleaner!pivotal.io
+    M: Eli Pleaner
+    S: slack
+    U: epleaner
+  B: 0
+  U: Eli Pleaner
+- E: esilva!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2016-09-12"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: esilva!pivotal.io
+    M: Eli Silva
+    S: slack
+    U: eli
+  B: 0
+  U: Eli Silva
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Docker, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Docker, Inc.
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Docker, Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Eli Uriegas
+    S: github
+    U: seemethere
+  B: 0
+  U: Eli Uriegas
 - C: US
   E: eli.uriegas!docker.com
   R:
@@ -23617,7 +23767,7 @@ P:
   B: 0
   U: Erwin Oldenkamp
 - C: NL
-  E: erwin!erwinrol.com
+  E: info!erwinrol.com
   R:
   - T: "2100-01-01"
     C: Independent
@@ -23634,27 +23784,14 @@ P:
   - E: erwin!erwinrol.com
     M: Erwin Rol
     S: git
-  B: 0
-  U: Erwin Rol
-- C: NL
-  E: info!erwinrol.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2017-05-20"
-    P: zep
-    R: C
-  S: male
-  I:
   - E: info!erwinrol.com
     M: Erwin Rol
     S: github
     U: lowlander
+  - E: mailinglists!erwinrol.com
+    M: Erwin Rol
+    S: slack
+    U: mailinglists
   B: 0
   U: Erwin Rol
 - C: US
@@ -62551,185 +62688,3 @@ P:
     S: git
   B: 0
   U: Frans Klaver
-- E: fransmeulenbroeks!gmail.com
-  R:
-  - T: "2002-11-30"
-    C: Philips
-    F: "1984-10-31"
-    P: yocto
-    R: C
-  - T: "2009-10-31"
-    C: Philips
-    F: "2002-12-31"
-    P: yocto
-    R: C
-  - T: "2016-07-31"
-    C: Intel Corporation
-    F: "2010-12-31"
-    P: acrn/acrn
-    R: C
-  - T: "2016-07-31"
-    C: Intel Corporation
-    F: "2010-12-31"
-    P: cephfoundation
-    R: C
-  - T: "2016-07-31"
-    C: Intel Corporation
-    F: "2010-12-31"
-    P: cip
-    R: C
-  - T: "2016-07-31"
-    C: Intel Corporation
-    F: "2010-12-31"
-    P: elisa
-    R: C
-  - T: "2016-07-31"
-    C: Intel Corporation
-    F: "2010-12-31"
-    P: kernelci
-    R: C
-  - T: "2016-07-31"
-    C: Intel Corporation
-    F: "2010-12-31"
-    P: korg
-    R: C
-  - T: "2016-07-31"
-    C: Intel Corporation
-    F: "2010-12-31"
-    P: yocto
-    R: C
-  - T: "2019-10-31"
-    C: Genexis
-    F: "2016-08-31"
-    P: acrn/acrn
-    R: C
-  - T: "2019-10-31"
-    C: Genexis
-    F: "2016-08-31"
-    P: cephfoundation
-    R: C
-  - T: "2019-10-31"
-    C: Genexis
-    F: "2016-08-31"
-    P: elisa
-    R: C
-  - T: "2019-10-31"
-    C: Genexis
-    F: "2016-08-31"
-    P: kernelci
-    R: C
-  - T: "2019-10-31"
-    C: Genexis
-    F: "2016-08-31"
-    P: korg
-    R: C
-  - T: "2019-10-31"
-    C: Genexis
-    F: "2016-08-31"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: Thermo Fisher Scientific
-    F: "2019-11-30"
-    P: yocto
-    R: C
-  I:
-  - E: fransmeulenbroeks!gmail.com
-    S: bugzilla
-    U: fransmeulenbroeks
-  - M: Frans Meulenbroeks
-    S: bugzilla
-    U: fransmeulenbroeks
-  - E: fransmeulenbroeks!gmail.com
-    M: Frans Meulenbroeks
-    S: bugzilla
-    U: fransmeulenbroeks
-  - E: '[fransmeulenbroeks!gmail.com]'
-    M: Frans Meulenbroeks
-    S: git
-  - E: fransmeulenbroeks!gmail.com
-    M: Frans Meulenbroeks
-    S: git
-  - E: fransmeulenbroeks!yahoo.com
-    M: Frans Meulenbroeks
-    S: git
-  - E: fransmeulenbroeks!gmail.com
-    M: Frans Meulenbroeks
-    S: groupsio
-  - E: fransmeulenbroeks!yahoo.com
-    M: Frans Meulenbroeks
-    S: groupsio
-  - E: fransmeulenbroeks!gmail.com
-    M: Frans Meulenbroeks
-    S: pipermail
-  - E: fransmeulenbroeks!yahoo.com
-    M: Frans Meulenbroeks
-    S: pipermail
-  B: 0
-  U: Frans Meulenbroeks
-- E: frantisek.mejta!studentagency.cz
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: frantisek.mejta!studentagency.cz
-    M: Franta Mejta
-    S: git
-  B: 0
-  U: Franta Mejta
-- E: mejta!rewor.cz
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: mejta!rewor.cz
-    M: Franta Mejta
-    S: git
-  B: 0
-  U: Franta Mejta
-- R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - S: github
-    U: FrantaM
-  B: 0
-  U: FrantaM
-- E: frantisek.dolezel!tieto.com
-  R:
-  - T: "2100-01-01"
-    C: Tieto
-    F: "2016-05-24"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: frantisek.dolezel!tieto.com
-    M: Frantisek Dolezel
-    S: slack
-    U: frantisek
-  B: 0
-  U: Frantisek Dolezel

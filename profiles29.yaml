@@ -1,4 +1,148 @@
 P:
+- C: IN
+  E: thakkaryash94!gmail.com
+  R:
+  - T: "2014-04-01"
+    C: Aceblink
+    F: "1900-01-01"
+    R: C
+  - T: "2014-04-01"
+    C: Aceblink
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2014-04-01"
+    C: Aceblink
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Viyet
+    F: "1900-01-01"
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2014-04-01"
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2014-04-01"
+    P: fluentd
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2014-04-01"
+    P: k8s
+    R: C
+  - T: "2015-07-01"
+    C: Tata
+    F: "2015-05-01"
+    R: C
+  - T: "2015-07-01"
+    C: Tata
+    F: "2015-05-01"
+    P: fluentd
+    R: C
+  - T: "2015-07-01"
+    C: Tata
+    F: "2015-05-01"
+    P: k8s
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-07-01"
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-07-01"
+    P: fluentd
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2016-04-01"
+    C: Evive
+    F: "2016-01-01"
+    R: C
+  - T: "2016-04-01"
+    C: Evive
+    F: "2016-01-01"
+    P: fluentd
+    R: C
+  - T: "2016-04-01"
+    C: Evive
+    F: "2016-01-01"
+    P: k8s
+    R: C
+  - T: "2018-03-01"
+    C: Independent
+    F: "2016-04-01"
+    R: C
+  - T: "2018-03-01"
+    C: Independent
+    F: "2016-04-01"
+    P: fluentd
+    R: C
+  - T: "2018-03-01"
+    C: Independent
+    F: "2016-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: LOGICWIND
+    F: "2018-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: LOGICWIND
+    F: "2018-03-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: LOGICWIND
+    F: "2018-03-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: thakkaryash94!gmail.com
+    M: Yash Thakkar
+    S: git
+  - E: thakkaryash94!gmail.com
+    M: Yash Thakkar
+    S: github
+    U: thakkaryash94
+  B: 0
+  U: Yash Thakkar
+- E: yashkt!google.com
+  R:
+  - T: "2016-08-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2016-08-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-06-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-06-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: yashkt!google.com
+    M: Yash Tibrewal
+    S: git
+  B: 0
+  U: Yash Tibrewal
 - E: yashykt!gmail.com
   R:
   - T: "2016-08-01"
@@ -45407,6 +45551,35 @@ P:
     S: mbox
   B: 0
   U: abhijeet.r.patil
+- E: abhijeet!aira-technology.com
+  R:
+  - T: "2016-08-01"
+    C: Aeronautical Development Agency
+    F: "2016-06-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2018-10-01"
+    C: HAL Robotics
+    F: "2018-04-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2019-06-01"
+    C: EY
+    F: "2018-12-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Aira Technologies
+    F: "2020-06-01"
+    P: lfai/amundsen
+    R: C
+  I:
+  - E: abhijeet!aira-technology.com
+    M: abhijeet_srivastava
+    S: slack
+    U: abhijeet
+  B: 0
+  U: abhijeet_srivastava
 - E: abhijitj!qubole.com
   R:
   - T: "2011-04-01"
@@ -62104,92 +62277,3 @@ P:
     S: git
   B: 0
   U: axgillies
-- E: axino!canonical.com
-  R:
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-02-27"
-    C: Canonical Group Limited
-    F: "2017-01-18"
-    P: baetyl
-    R: C
-  I:
-  - E: axino!canonical.com
-    M: axino
-    S: git
-  B: 0
-  U: axino
-- C: AU
-  E: axozoid!gmail.com
-  R:
-  - T: "2014-11-01"
-    C: IntegraSky
-    F: "1900-01-01"
-    R: C
-  - T: "2014-11-01"
-    C: IntegraSky
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-08-01"
-    C: JivoChat
-    F: "2014-11-01"
-    R: C
-  - T: "2015-08-01"
-    C: JivoChat
-    F: "2014-11-01"
-    P: helm
-    R: C
-  - T: "2018-09-01"
-    C: Wargaming
-    F: "2015-08-01"
-    R: C
-  - T: "2018-09-01"
-    C: Wargaming
-    F: "2015-08-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Fairfax Media
-    F: "2018-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Fairfax Media
-    F: "2018-09-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: axozoid!gmail.com
-    M: axozoid
-    S: git
-  B: 0
-  U: axozoid
-- E: ayush.garg3!wipro.com
-  R:
-  - T: "2017-11-25"
-    C: Wipro Limited
-    F: "2017-09-29"
-    R: C
-  - T: "2017-11-25"
-    C: Wipro Limited
-    F: "2017-09-29"
-    P: onap
-    R: C
-  I:
-  - E: ayush.garg3!wipro.com
-    M: ayush.garg3
-    S: groupsio
-  - E: ayush.garg3!wipro.com
-    M: ayush.garg3
-    S: pipermail
-  B: 0
-  U: ayush.garg3

@@ -1,4 +1,64 @@
 P:
+- C: PL
+  E: jeedigv!amazon.com
+  R:
+  - T: "2016-11-01"
+    C: Independent
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2016-11-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2016-11-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-10-01"
+    C: Google
+    F: "2016-11-01"
+    P: baetyl
+    R: C
+  - T: "2018-10-01"
+    C: Google
+    F: "2016-11-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-10-01"
+    C: Google
+    F: "2016-11-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2018-10-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2018-10-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2018-10-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2018-10-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: jeedigv!amazon.com
+    M: Shyam Jeedigunta
+    S: git
+  B: 0
+  U: Shyam Jeedigunta
 - E: shyam.radhakrishnan!oracle.com
   R:
   - T: "2100-01-01"
@@ -31817,6 +31877,35 @@ P:
     U: StefanBruens
   B: 0
   U: StefanBruens
+- E: stefan.maurer!skopei.com
+  R:
+  - T: "2008-06-01"
+    C: Raiffeisen Lagerhaus GmbH
+    F: "2003-07-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2019-02-01"
+    C: AUVA Unfallkrankenhaus Meidling
+    F: "2008-08-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2020-04-01"
+    C: Bosch Engineering GmbH
+    F: "2019-07-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Skopei
+    F: "2020-06-01"
+    P: lfai/amundsen
+    R: C
+  I:
+  - E: stefan.maurer!skopei.com
+    M: StefanM87
+    S: slack
+    U: stefan.maurer
+  B: 0
+  U: StefanM87
 - E: stefani!seibold.net
   R:
   - T: "2100-01-01"
@@ -33828,6 +33917,11 @@ P:
     C: Mango solutions
     F: "2015-08-01"
     P: sparklyr
+    R: C
+  - T: "2018-07-01"
+    C: Microsoft Corporation
+    F: "2016-01-01"
+    P: r-hub
     R: C
   - T: "2018-07-01"
     C: Microsoft Corporation
@@ -61195,100 +61289,5 @@ P:
     M: Suraj Deshmukh
     S: slack
     U: surajd
-  B: 0
-  U: Suraj Deshmukh
-- C: IN
-  E: surajssd009005!gmail.com
-  R:
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2018-07-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "2018-07-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "2018-07-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "2018-07-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "2018-07-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "2018-07-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "2018-07-01"
-    P: openebs
-    R: C
-  S: male
-  I:
-  - E: surajssd009005!gmail.com
-    M: Suraj Deshmukh
-    S: git
   B: 0
   U: Suraj Deshmukh
