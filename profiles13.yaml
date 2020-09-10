@@ -1,4 +1,639 @@
 P:
+- C: CA
+  E: jplachance!coveo.com
+  R:
+  - T: "2014-09-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Coveo
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Coveo
+    F: "1900-01-01"
+    P: falco
+    R: C
+  - T: "2100-01-01"
+    C: Coveo
+    F: "2014-09-01"
+    R: C
+  S: male
+  I:
+  - E: jplachance!coveo.com
+    M: Jean-Philippe Lachance
+    S: git
+  - E: jplachance!coveo.com
+    M: Jean-Philippe Lachance
+    S: github
+    U: JPLachance
+  B: 0
+  U: Jean-Philippe Lachance
+- C: DE
+  R:
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2016-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: GroupAlarm
+    F: "2016-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: GroupAlarm
+    F: "2016-06-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: GroupAlarm
+    F: "2016-06-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: GroupAlarm
+    F: "2016-06-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - M: Jean-Philippe Quéméner
+    S: github
+    U: JohnnyQQQQ
+  B: 0
+  U: Jean-Philippe Quéméner
+- C: CH
+  R:
+  - T: "2100-01-01"
+    C: Novaccess
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-11-30"
+    C: Novaccess
+    F: "2017-10-11"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Jean-Philippe Rey
+    S: github
+    U: yerpj
+  B: 0
+  U: Jean-Philippe Rey
+- R:
+  - T: "2100-01-01"
+    C: Moogsoft
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Jean-Pierre Huynh
+    S: github
+    U: jphuynh
+  B: 0
+  U: Jean-Pierre Huynh
+- E: jean-pierre.huynh!ounet.fr
+  R:
+  - T: "2100-01-01"
+    C: Moogsoft
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Moogsoft
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: jean-pierre.huynh!ounet.fr
+    M: Jean-Pierre Huynh
+    S: git
+  B: 0
+  U: Jean-Pierre Huynh
+- E: jp!moogsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Moogsoft
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Moogsoft
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: jp!moogsoft.com
+    M: Jean-Pierre Huynh
+    S: git
+  B: 0
+  U: Jean-Pierre Huynh
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: Jean-Ralph Aviles
+    S: github
+    U: jeanralphaviles
+  B: 0
+  U: Jean-Ralph Aviles
+- E: jeanralphaviles!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: jeanralphaviles!users.noreply.github.com
+    M: Jean-Ralph Aviles
+    S: git
+  B: 0
+  U: Jean-Ralph Aviles
+- E: jrdavid!8d.com
+  R:
+  - T: "2100-01-01"
+    C: 8D Technologies
+    F: "2016-02-12"
+    P: yocto
+    R: C
+  I:
+  - E: jrdavid!8d.com
+    M: Jean-René David
+    S: groupsio
+  - E: jrdavid!8d.com
+    M: Jean-René David
+    S: pipermail
+  B: 0
+  U: Jean-René David
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Jean-Rémy Bancel
+    S: github
+    U: JRBANCEL
+  B: 0
+  U: Jean-Rémy Bancel
+- E: dev!bancel.me
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: dev!bancel.me
+    M: Jean-Rémy Bancel
+    S: git
+  B: 0
+  U: Jean-Rémy Bancel
+- E: jsdelfino!apache.org
+  R:
+  - T: "2100-01-01"
+    C: The Apache Software Foundation
+    F: "2015-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: jsdelfino!apache.org
+    M: Jean-Sebastien Delfino
+    S: git
+  - E: jsdelfino!gmail.com
+    M: Jean-Sebastien Delfino
+    S: git
+  - E: jsdelfino!apache.org
+    M: Jean-Sebastien Delfino
+    S: github
+    U: jsdelfino
+  - E: jsdelfino!gmail.com
+    M: Jean-Sebastien Delfino
+    S: groupsio
+  - E: jsdelfino!gmail.com
+    M: Jean-Sebastien Delfino
+    S: mbox
+  - E: jsdelfino!gmail.com
+    M: jsdelfino
+    S: slack
+    U: jsdelfino
+  B: 0
+  U: Jean-Sebastien Delfino
+- C: FR
+  E: jeansebastien.ney!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Oyst
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Oyst
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Oyst
+    F: "1900-01-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - E: jeansebastien.ney!gmail.com
+    M: Jean-Sébastien Ney
+    S: git
+  - E: jeansebastien.ney!gmail.com
+    M: Jean-Sébastien Ney
+    S: github
+    U: jney
+  B: 0
+  U: Jean-Sébastien Ney
+- E: jt!yadutaf.fr
+  R:
+  - T: "2017-05-01"
+    C: OVH
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-05-01"
+    C: OVH
+    F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2017-05-01"
+    C: OVH
+    F: "1900-01-01"
+    P: iovisor/iovisor
+    R: C
+  - T: "2017-05-01"
+    C: OVH
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2100-01-01"
+    C: EasyMile
+    F: "2017-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: EasyMile
+    F: "2017-05-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: EasyMile
+    F: "2017-05-01"
+    P: iovisor/iovisor
+    R: C
+  I:
+  - E: jt!yadutaf.fr
+    M: Jean-Tiare Le Bigot
+    S: git
+  - E: jt!yadutaf.fr
+    M: Jean-Tiare Le Bigot
+    S: github
+    U: yadutaf
+  B: 0
+  U: Jean-Tiare Le Bigot
+- C: FR
+  R:
+  - T: "2017-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Clever Age
+    F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Clever Age
+    F: "2017-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Jean-Yves Gastaud
+    S: github
+    U: jygastaud
+  B: 0
+  U: Jean-Yves Gastaud
+- E: jygastaud!users.noreply.github.com
+  R:
+  - T: "2017-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Clever Age
+    F: "2017-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: jygastaud!users.noreply.github.com
+    M: Jean-Yves Gastaud
+    S: git
+  B: 0
+  U: Jean-Yves Gastaud
+- E: jean-yves.geury!nokia.com
+  R:
+  - T: "1988-05-01"
+    C: Siemens AG
+    F: "1985-07-01"
+    P: onap
+    R: C
+  - T: "1990-06-01"
+    C: CSC
+    F: "1988-07-01"
+    P: onap
+    R: C
+  - T: "2007-06-01"
+    C: Alcatel-Lucent
+    F: "1990-06-01"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2007-06-01"
+    P: onap
+    R: C
+  I:
+  - M: Jean-Yves Geury
+    S: confluence
+    U: geury
+  - E: jean-yves.geury!nokia.com
+    M: Geury
+    S: gerrit
+  - E: Jean-Yves.Geury!nokia.com
+    M: Jean-Yves Geury
+    S: gerrit
+    U: geury
+  - E: jean-yves.geury!nokia.com
+    M: Jean-Yves Geury
+    S: gerrit
+  - E: jean-yves.geury!nokia.com
+    M: Geury
+    S: git
+  - E: Jean-Yves.Geury!nokia.com
+    M: Jean-Yves Geury
+    S: git
+  B: 0
+  U: Jean-Yves Geury
+- E: jbisson!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-02-07"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: jbisson!us.ibm.com
+    M: JeanCarl Bisson
+    S: slack
+    U: jbisson
+  B: 0
+  U: JeanCarl Bisson
+- E: jbooher-lasell!pivotal.io
+  R:
+  - T: "2018-10-02"
+    C: Pivotal
+    F: "2017-03-07"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: jbooher-lasell!pivotal.io
+    M: Jeanette Booher-LaSell
+    S: git
+  - E: jbooher-lasell!pivotal.io
+    M: Jeanette Booher
+    S: git
+  - E: jbooher-lasell!pivotal.io
+    M: Jeanette Booher
+    S: slack
+    U: jbooher
+  B: 0
+  U: Jeanette Booher-LaSell
+- E: jfarcand!apache.org
+  R:
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: jfarcand!apache.org
+    M: Jeanfrancois Arcand
+    S: git
+  B: 0
+  U: Jeanfrancois Arcand
+- R:
+  - T: "2017-01-02"
+    C: Pivotal
+    F: "2015-06-15"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: jeaniejung!berkeley.edu
+    S: cloudfoundry:manual
+  - E: jjung!pivotal.io
+    S: cloudfoundry:manual
+  - M: Jeanie Jung
+    S: cloudfoundry:manual
+  - E: jeaniejung!berkeley.edu
+    M: Jeanie Jung
+    S: file:cff
+    U: jeaniejung
+  - E: jjung!pivotal.io
+    M: Jeanie Jung
+    S: file:cff
+    U: jeaniejung
+  - E: ejung!pivotal.io
+    M: Jeanie Jung
+    S: git
+  - E: jeaniejung!berkeley.edu
+    M: Jeanie Jung
+    S: git
+  - E: jjung!pivotal.io
+    M: Jeanie Jung
+    S: git
+  - S: github
+    U: jeaniejung
+  - M: Jeanie Jung
+    S: github
+    U: jeaniejung
+  - E: jjung!pivotal.io
+    M: jeaniej
+    S: slack
+    U: jeaniej
+  - E: ejung!pivotal.io
+    M: jeaniejung
+    S: slack
+    U: jeaniejung
+  B: 0
+  U: Jeanie Jung
+- E: jcohren!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Dell
+    F: "2017-08-17"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: jcohren!gmail.com
+    M: Jeanne Ohren
+    S: slack
+    U: jeanne.ohren
+  - E: jcohren!gmail.com
+    M: Jeanne Ohren
+    S: slack
+    U: ohrenj
+  - E: jeanne.ohren!dell.com
+    M: Jeanne Ohren
+    S: slack
+    U: ohrenj
+  B: 0
+  U: Jeanne Ohren
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  S: male
+  I:
+  - M: Jearvon Dharrie
+    S: github
+    U: iamjarvo
+  B: 0
+  U: Jearvon Dharrie
+- C: US
+  E: j.dharrie!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  S: male
+  I:
+  - E: j.dharrie!gmail.com
+    M: Jearvon Dharrie
+    S: git
+  B: 0
+  U: Jearvon Dharrie
+- E: cramerj!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: cramerj!intel.com
+    M: Jeb Cramer
+    S: git
+  B: 0
+  U: Jeb Cramer
+- E: jeb.j.cramer!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jeb.j.cramer!intel.com
+    M: Jeb Cramer
+    S: git
+  B: 0
+  U: Jeb Cramer
+- E: jebap!juniper.net
+  R:
+  - T: "2005-05-01"
+    C: HCL Technologies Ltd.
+    F: "2003-02-01"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "2010-04-01"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: jebap!juniper.net
+    M: Jeba Paulaiyan
+    S: jira
+    U: jebap
+  B: 0
+  U: Jeba Paulaiyan
 - C: US
   R:
   - T: "2017-02-01"
@@ -16103,7 +16738,6 @@ P:
   - T: "2100-01-01"
     C: Endian Technologies AB
     F: "2018-06-01"
-    P: lfai/amundsen
     R: C
   - T: "2100-01-01"
     C: Endian Technologies AB
@@ -35381,6 +36015,29 @@ P:
     S: pipermail
   B: 0
   U: Jintack Lim
+- E: jintaolin!google.com
+  R:
+  - T: "2014-11-01"
+    C: Marvell
+    F: "2012-04-01"
+    P: zep
+    R: C
+  - T: "2019-05-01"
+    C: Quantenna Communications
+    F: "2014-11-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2019-06-01"
+    P: zep
+    R: C
+  I:
+  - E: jintaolin!google.com
+    M: Jintao Lin
+    S: git
+  B: 0
+  U: Jintao Lin
 - E: zhangjintao9020!gmail.com
   R:
   - T: "2018-05-01"
@@ -62248,684 +62905,3 @@ P:
     S: git
   B: 0
   U: JohnZheng
-- C: US
-  E: jshahid!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2013-07-24"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2013-07-24"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - E: j.shahid!pivotal.io
-    S: cloudfoundry:manual
-  - E: jshahid!pivotal.io
-    S: cloudfoundry:manual
-  - E: jshahiid!pivotal.io
-    S: cloudfoundry:manual
-  - E: jvshahid!gmail.com
-    S: cloudfoundry:manual
-  - E: jvshahid!pivotal.io
-    S: cloudfoundry:manual
-  - M: John Shahid
-    S: cloudfoundry:manual
-  - M: jshahid
-    S: cloudfoundry:manual
-  - E: jshahid!pivotal.io
-    M: Ben Moss
-    S: git
-  - M: John Shahid
-    S: git
-  - E: j.shahid!pivotal.io
-    M: John Shahid
-    S: git
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: git
-  - E: jshahiid!pivotal.io
-    M: John Shahid
-    S: git
-  - E: jvshahid!gmail.com
-    M: John Shahid
-    S: git
-  - E: jvshahid!pivotal.io
-    M: John Shahid
-    S: git
-  - E: jshahid!pivotal.io
-    M: John_Shahid
-    S: git
-  - E: jvshahid!pivotal.io
-    M: John_Shahid
-    S: git
-  - M: jvshahid
-    S: git
-  - S: github
-    U: jvshahid
-  - M: John Shahid
-    S: github
-    U: jvshahid
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: groupsio
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: mbox
-  - S: slack
-    U: jvshahid
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: slack
-    U: jshahid
-  - E: jshahid!pivotal.io
-    M: John Shahid
-    S: slack
-    U: jvshahid
-  B: 0
-  U: John_Shahid
-- R:
-  - T: "2016-06-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2016-06-01"
-    C: Google
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2016-06-01"
-    C: Google
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2016-06-01"
-    C: Google
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-06-01"
-    C: Google
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2016-06-01"
-    C: Google
-    F: "1900-01-01"
-    P: thanos
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2016-06-01"
-    P: argo
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2016-06-01"
-    P: fluxcd
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2016-06-01"
-    P: helm
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2016-06-01"
-    P: prometheus
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2016-06-01"
-    P: thanos
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-06-01"
-    P: thanos
-    R: C
-  - T: "2020-04-01"
-    C: Barracuda
-    F: "2017-08-01"
-    P: argo
-    R: C
-  - T: "2020-04-01"
-    C: Barracuda
-    F: "2017-08-01"
-    P: fluxcd
-    R: C
-  - T: "2020-04-01"
-    C: Barracuda
-    F: "2017-08-01"
-    P: helm
-    R: C
-  - T: "2020-04-01"
-    C: Barracuda
-    F: "2017-08-01"
-    P: prometheus
-    R: C
-  - T: "2020-04-01"
-    C: Barracuda
-    F: "2017-08-01"
-    P: thanos
-    R: C
-  - T: "2100-01-01"
-    C: CloudCheckr
-    F: "2020-04-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: CloudCheckr
-    F: "2020-04-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: CloudCheckr
-    F: "2020-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: CloudCheckr
-    F: "2020-04-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: CloudCheckr
-    F: "2020-04-01"
-    P: thanos
-    R: C
-  S: male
-  I:
-  - M: Johnathan Falk
-    S: github
-    U: jdfalk
-  B: 0
-  U: Johnathan Falk
-- R:
-  - T: "2017-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2017-08-01"
-    C: KWAME
-    F: "2017-05-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: PowerHRG
-    F: "2017-08-01"
-    P: helm
-    R: C
-  I:
-  - M: Johnathan Rodgers
-    S: github
-    U: jar361
-  B: 0
-  U: Johnathan Rodgers
-- E: jrodgers!powerhrg.com
-  R:
-  - T: "2017-05-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: PowerHRG
-    F: "1900-01-01"
-    R: C
-  - T: "2017-08-01"
-    C: KWAME
-    F: "2017-05-01"
-    R: C
-  - T: "2017-08-01"
-    C: KWAME
-    F: "2017-05-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: PowerHRG
-    F: "2017-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: PowerHRG
-    F: "2017-08-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: jrodgers!powerhrg.com
-    M: Johnathan Rodgers
-    S: git
-  B: 0
-  U: Johnathan Rodgers
-- E: pair+jbritz!pivotallabs.com
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - M: Johnathon Britz
-    S: git
-  - E: jbritz!pivotal.io
-    M: Johnathon Britz
-    S: git
-  - E: pair+jbritz!pivotallabs.com
-    M: Johnathon Britz
-    S: git
-  B: 0
-  U: Johnathon Britz
-- C: SE
-  E: github!joonix.se
-  R:
-  - T: "2014-04-01"
-    C: Duego
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2014-04-01"
-    C: Duego
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2014-04-01"
-    C: Duego
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2014-04-01"
-    C: Duego
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-04-01"
-    C: Duego
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-04-01"
-    C: Duego
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2014-04-01"
-    C: Duego
-    F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Joonix
-    F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-04-01"
-    P: coredns
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-04-01"
-    P: etcd
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-04-01"
-    P: grpc
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-04-01"
-    P: helm
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-04-01"
-    P: k8s
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-04-01"
-    P: prometheus
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-04-01"
-    P: stackstorm
-    R: C
-  - T: "2016-09-01"
-    C: AppData
-    F: "2015-01-01"
-    P: coredns
-    R: C
-  - T: "2016-09-01"
-    C: AppData
-    F: "2015-01-01"
-    P: etcd
-    R: C
-  - T: "2016-09-01"
-    C: AppData
-    F: "2015-01-01"
-    P: grpc
-    R: C
-  - T: "2016-09-01"
-    C: AppData
-    F: "2015-01-01"
-    P: helm
-    R: C
-  - T: "2016-09-01"
-    C: AppData
-    F: "2015-01-01"
-    P: k8s
-    R: C
-  - T: "2016-09-01"
-    C: AppData
-    F: "2015-01-01"
-    P: prometheus
-    R: C
-  - T: "2016-09-01"
-    C: AppData
-    F: "2015-01-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Klaudify
-    F: "2016-09-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Klaudify
-    F: "2016-09-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: Klaudify
-    F: "2016-09-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Klaudify
-    F: "2016-09-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Klaudify
-    F: "2016-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Klaudify
-    F: "2016-09-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Klaudify
-    F: "2016-09-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Klaudify
-    F: "2016-09-01"
-    P: stackstorm
-    R: C
-  S: male
-  I:
-  - E: github!joonix.se
-    M: Johnny Bergström
-    S: git
-  - E: github!joonix.se
-    M: Johnny Bergström
-    S: github
-    U: balboah
-  B: 0
-  U: Johnny Bergström
-- E: jbieren!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: opencolorio
-    R: C
-  - T: "2016-09-15"
-    C: Red Hat Inc.
-    F: "2016-09-13"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: jbieren!redhat.com
-    M: Johnny Bieren
-    S: git
-  - E: jbieren!redhat.com
-    M: Johnny Bieren
-    S: git
-    U: johnbieren
-  - M: Johnny Bieren
-    S: github
-    U: johnbieren
-  - E: jbieren!redhat.com
-    M: Johnny Bieren
-    S: github
-    U: johnbieren
-  - M: Johnny Bieren
-    S: oci_csv
-    U: johnbieren
-  B: 0
-  U: Johnny Bieren
-- E: johnnyc!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-18"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: johnnyc!microsoft.com
-    M: Johnny Coleman
-    S: slack
-    U: johnnycf
-  B: 0
-  U: Johnny Coleman
-- E: johnny.dacosta!he-arc.ch
-  R:
-  - T: "2100-01-01"
-    C: Haute École Arc
-    F: "2016-12-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: Haute École Arc
-    F: "2016-12-31"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2100-01-01"
-    C: Haute École Arc
-    F: "2016-12-31"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2100-01-01"
-    C: Haute École Arc
-    F: "2016-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: Haute École Arc
-    F: "2016-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: Haute École Arc
-    F: "2016-12-31"
-    P: hyperledger/hyperledger-labs
-    R: C
-  - T: "2100-01-01"
-    C: Haute École Arc
-    F: "2016-12-31"
-    P: hyperledger/hyperledger-twgc
-    R: C
-  I:
-  - E: johnny.dacosta!he-arc.ch
-    M: Johnny Da Costa
-    S: git
-  B: 0
-  U: Johnny Da Costa
-- R:
-  - T: "2100-01-01"
-    C: Apple
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Apple
-    F: "1900-01-01"
-    P: webpack
-    R: C
-  I:
-  - M: Johnny Hung
-    S: github
-    U: masterfung
-  B: 0
-  U: Johnny Hung
-- E: johnny.kim!atmel.com
-  R:
-  - T: "2100-01-01"
-    C: Atmel
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Atmel
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Atmel
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Atmel
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Atmel
-    F: "1900-01-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Atmel
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Atmel
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Atmel
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: johnny.kim!atmel.com
-    M: Johnny Kim
-    S: git
-  B: 0
-  U: Johnny Kim
-- E: github!jstenback.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: github!jstenback.com
-    M: Johnny Stenback
-    S: git
-  B: 0
-  U: Johnny Stenback
-- C: TW
-  E: f46284628!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Yoctol
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Yoctol
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: f46284628!gmail.com
-    M: Johnny You
-    S: git
-  - E: f46284628!gmail.com
-    M: Johnny You
-    S: github
-    U: LittleWhiteYA
-  B: 0
-  U: Johnny You
