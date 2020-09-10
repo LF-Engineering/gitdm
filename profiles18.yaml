@@ -1,4 +1,212 @@
 P:
+- E: mglb!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-01-24"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: mglb!google.com
+    M: Matt Brown
+    S: slack
+    U: mglb
+  B: 0
+  U: Matt Brown
+- E: octavius!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Spotify
+    F: "1900-01-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2100-01-01"
+    C: Spotify
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: octavius!gmail.com
+    M: Matt Brown
+    S: git
+  B: 0
+  U: Matt Brown
+- C: US
+  R:
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    R: C
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: cncf/cni
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: container-networking-interface
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Matt Bruzek
+    S: github
+    U: mbruzek
+  B: 0
+  U: Matt Bruzek
+- C: US
+  E: matthew.bruzek!canonical.com
+  R:
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: baetyl
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: matthew.bruzek!canonical.com
+    M: Matt Bruzek
+    S: git
+  B: 0
+  U: Matt Bruzek
+- C: US
+  E: mbruzek!gmail.com
+  R:
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2017-04-01"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: baetyl
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-09-01"
+    C: Red Hat Inc.
+    F: "2017-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Leidos
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: mbruzek!gmail.com
+    M: Matt Bruzek
+    S: git
+  B: 0
+  U: Matt Bruzek
 - C: US
   E: burdz!burdz.net
   R:
@@ -62094,267 +62302,3 @@ P:
     U: michal.grochala
   B: 0
   U: Michał Grochala
-- C: PL
-  R:
-  - T: "2018-01-01"
-    C: Mentor Graphics Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2018-01-01"
-    C: Mentor Graphics Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2020-07-01"
-    C: SAP
-    F: "2018-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Travelping GmbH
-    F: "2020-07-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - M: Michał Hudy
-    S: github
-    U: michal-hudy
-  B: 0
-  U: Michał Hudy
-- E: Jagieo
-  R:
-  - T: "2015-06-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2012-02-01"
-    P: lfn-cntt
-    R: C
-  - T: "2016-09-01"
-    C: infullmobile
-    F: "2015-06-01"
-    P: lfn-cntt
-    R: C
-  - T: "2019-10-01"
-    C: NASK
-    F: "2016-09-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: T-Mobile Polska
-    F: "2019-10-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: T-Mobile PCS Holdings LLC
-    F: "2019-10-11"
-    P: onap
-    R: C
-  I:
-  - M: Micha Jagieo
-    S: confluence
-    U: MichalJagielloTMPL
-  - E: michal.jagiello!t-mobile.pl
-    M: Michał Jagiełło
-    S: gerrit
-    U: MichalJagielloTMPL
-  - E: michal.jagiello!t-mobile.pl
-    M: Michal Jagiello
-    S: git
-  - E: michal.jagiello!t-mobile.pl
-    M: Michał Jagiełło
-    S: git
-  - E: Jagieo
-    M: Jagieo
-    S: groupsio
-  - E: michal.jagiello!t-mobile.pl
-    M: michal.jagiello
-    S: groupsio
-  - E: michal.jagiello!t-mobile.pl
-    M: Micha Jagieo
-    S: jira
-    U: MichalJagielloTMPL
-  - M: Michał Jagiełło
-    S: jira
-    U: MichalJagielloTMPL
-  B: 0
-  U: Michał Jagiełło
-- C: GB
-  E: inc007!gmail.com
-  R:
-  - T: "2014-08-01"
-    C: Allegro
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: Allegro
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2014-08-01"
-    C: Allegro
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2018-09-01"
-    C: Intel Corporation
-    F: "2014-08-01"
-    R: C
-  - T: "2018-09-01"
-    C: Intel Corporation
-    F: "2014-08-01"
-    P: argo
-    R: C
-  - T: "2018-09-01"
-    C: Intel Corporation
-    F: "2014-08-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-09-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2018-09-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: inc007!gmail.com
-    M: Michał Jastrzębski
-    S: github
-    U: inc0
-  B: 0
-  U: Michał Jastrzębski
-- E: michal.kruszewski!nordicsemi.no
-  R:
-  - T: "2018-05-15"
-    C: Nordic Semiconductor ASA
-    F: "2017-07-09"
-    P: zep
-    R: C
-  I:
-  - E: michal.kruszewski!nordicsemi.no
-    M: Michał Kruszewski
-    S: git
-  B: 0
-  U: Michał Kruszewski
-- R:
-  - T: "2015-06-01"
-    C: CompuGroup
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-06-01"
-    C: CompuGroup
-    F: "1900-01-01"
-    P: lodash
-    R: C
-  - T: "2015-10-01"
-    C: Independent
-    F: "2015-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-10-01"
-    C: Independent
-    F: "2015-06-01"
-    P: lodash
-    R: C
-  - T: "2017-03-01"
-    C: Hewlett
-    F: "2015-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-03-01"
-    C: Hewlett
-    F: "2015-10-01"
-    P: lodash
-    R: C
-  - T: "2018-04-01"
-    C: DXC
-    F: "2017-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-04-01"
-    C: DXC
-    F: "2017-03-01"
-    P: lodash
-    R: C
-  - T: "2100-01-01"
-    C: GOG
-    F: "2018-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: GOG
-    F: "2018-04-01"
-    P: lodash
-    R: C
-  - T: "2100-01-01"
-    C: GOG
-    F: "2018-04-01"
-    P: webpack
-    R: C
-  I:
-  - M: Michał Lipiński
-    S: github
-    U: falsyvalues
-  B: 0
-  U: Michał Lipiński
-- E: mylith!gmail.com
-  R:
-  - T: "2015-06-01"
-    C: CompuGroup
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-10-01"
-    C: Independent
-    F: "2015-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-03-01"
-    C: Hewlett
-    F: "2015-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-03-01"
-    C: Hewlett
-    F: "2015-10-01"
-    P: lodash
-    R: C
-  - T: "2018-04-01"
-    C: DXC
-    F: "2017-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-04-01"
-    C: DXC
-    F: "2017-03-01"
-    P: lodash
-    R: C
-  - T: "2100-01-01"
-    C: GOG
-    F: "2018-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: GOG
-    F: "2018-04-01"
-    P: lodash
-    R: C
-  I:
-  - E: mylith!gmail.com
-    M: Michał Lipiński
-    S: git
-  B: 0
-  U: Michał Lipiński

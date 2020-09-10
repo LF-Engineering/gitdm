@@ -1,4 +1,230 @@
 P:
+- C: RU
+  E: igor.kalashnikov!me.com
+  R:
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  S: male
+  I:
+  - E: igor.kalashnikov!me.com
+    M: Kalashnikov Igor
+    S: git
+  - E: igor.kalashnikov!me.com
+    M: Kalashnikov Igor
+    S: github
+    U: silentroach
+  B: 0
+  U: Kalashnikov Igor
+- E: Michal.Kalderon!cavium.com
+  R:
+  - T: "2100-01-01"
+    C: Cavium
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: Michal.Kalderon!cavium.com
+    M: Kalderon, Michal
+    S: git
+  - E: Michal.Kalderon!cavium.com
+    M: Michal Kalderon
+    S: git
+  B: 0
+  U: Kalderon, Michal
+- C: US
+  R:
+  - T: "2014-04-15"
+    C: Network Business Systems
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-04-15"
+    C: Network Business Systems
+    F: "1900-01-01"
+    P: stackstorm
+    R: C
+  - T: "2014-11-15"
+    C: Leverage Information Systems
+    F: "2014-04-15"
+    P: k8s
+    R: C
+  - T: "2014-11-15"
+    C: Leverage Information Systems
+    F: "2014-04-15"
+    P: stackstorm
+    R: C
+  - T: "2015-07-15"
+    C: SolidFire
+    F: "2014-11-15"
+    P: k8s
+    R: C
+  - T: "2015-07-15"
+    C: SolidFire
+    F: "2014-11-15"
+    P: stackstorm
+    R: C
+  - T: "2016-06-15"
+    C: Plexxi
+    F: "2015-07-15"
+    P: k8s
+    R: C
+  - T: "2016-06-15"
+    C: Plexxi
+    F: "2015-07-15"
+    P: stackstorm
+    R: C
+  - T: "2100-01-01"
+    C: ACME AtronOmatic
+    F: "2016-06-15"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: ACME AtronOmatic
+    F: "2016-06-15"
+    P: stackstorm
+    R: C
+  S: male
+  I:
+  - M: Kale Blankenship
+    S: github
+    U: vcabbage
+  B: 0
+  U: Kale Blankenship
+- C: US
+  E: kale!lemnisys.com
+  R:
+  - T: "2014-04-15"
+    C: Network Business Systems
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-04-15"
+    C: Network Business Systems
+    F: "1900-01-01"
+    P: stackstorm
+    R: C
+  - T: "2014-11-15"
+    C: Leverage Information Systems
+    F: "2014-04-15"
+    P: k8s
+    R: C
+  - T: "2014-11-15"
+    C: Leverage Information Systems
+    F: "2014-04-15"
+    P: stackstorm
+    R: C
+  - T: "2015-07-15"
+    C: SolidFire
+    F: "2014-11-15"
+    P: k8s
+    R: C
+  - T: "2015-07-15"
+    C: SolidFire
+    F: "2014-11-15"
+    P: stackstorm
+    R: C
+  - T: "2016-06-15"
+    C: Plexxi
+    F: "2015-07-15"
+    P: k8s
+    R: C
+  - T: "2016-06-15"
+    C: Plexxi
+    F: "2015-07-15"
+    P: stackstorm
+    R: C
+  - T: "2100-01-01"
+    C: ACME AtronOmatic
+    F: "2016-06-15"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: ACME AtronOmatic
+    F: "2016-06-15"
+    P: stackstorm
+    R: C
+  S: male
+  I:
+  - E: kale!lemnisys.com
+    M: Kale Blankenship
+    S: git
+  B: 0
+  U: Kale Blankenship
+- E: levente.kale!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2011-06-01"
+    P: akraino
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-01-01"
+    P: akraino
+    R: C
+  I:
+  - E: levente.kale!nokia.com
+    M: Kale, Levente (Nokia - HU/Budapest)
+    S: groupsio
+  B: 0
+  U: Kale, Levente (Nokia - HU/Budapest)
+- E: kalesh-anakkur.purayil!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2019-06-08"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2019-06-08"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2019-06-08"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "2019-06-08"
+    P: dpdk-next
+    R: C
+  I:
+  - E: kalesh-anakkur.purayil!broadcom.com
+    M: Kalesh A P
+    S: git
+  - E: kalesh-anakkur.purayil!broadcom.com
+    M: Kalesh AP
+    S: git
+  - E: kalesh-anakkur.purayil!broadcom.com
+    M: Kalesh A P
+    S: pipermail
+  B: 0
+  U: Kalesh A P
+- E: kaleshsingh!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: kaleshsingh!google.com
+    M: Kalesh Singh
+    S: git
+  B: 0
+  U: Kalesh Singh
 - R:
   - T: "2014-01-01"
     C: TinyCo
@@ -5581,6 +5807,35 @@ P:
     S: git
   B: 0
   U: Karen Chu
+- E: k.gonzalez!wootzano.com
+  R:
+  - T: "2012-09-01"
+    C: Neoris
+    F: "2011-07-01"
+    P: zep
+    R: C
+  - T: "2018-03-01"
+    C: Hunabsys R&D
+    F: "2015-03-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Durham University
+    F: "2018-03-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Wootzano Ltd
+    F: "2019-12-01"
+    P: zep
+    R: C
+  I:
+  - E: k.gonzalez!wootzano.com
+    M: Karen Gonzalez
+    S: slack
+    U: k.gonzalez
+  B: 0
+  U: Karen Gonzalez
 - E: khuddleston!pivotal.io
   R:
   - T: "2016-12-06"
@@ -11519,6 +11774,9 @@ P:
   - M: Kate Hsuan
     S: confluence
     U: mizunoami123
+  - E: kate.hsuan!qct.io
+    M: Kate Hsuan
+    S: gerrit
   - E: kate.hsuan!qct.io
     M: Kate Hsuan
     S: gerrit
@@ -35669,6 +35927,30 @@ P:
     U: kimsterv
   B: 0
   U: Kim Lewandowski
+- E: kim.hjort.lofkvist!prevas.dk
+  R:
+  - T: "2100-01-01"
+    C: SysCON
+    F: "2004-01-01"
+    P: zep
+    R: C
+  - T: "2018-10-01"
+    C: Intel Corporation
+    F: "2013-10-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Prevas
+    F: "2018-11-01"
+    P: zep
+    R: C
+  I:
+  - E: kim.hjort.lofkvist!prevas.dk
+    M: Kim Løfkvist
+    S: slack
+    U: kim.hjort.lofkvist
+  B: 0
+  U: Kim Løfkvist
 - E: kamcmahon!hotmail.com
   R:
   - T: "2018-05-01"
@@ -61501,570 +61783,3 @@ P:
     U: lachlancooper
   B: 0
   U: Lachlan Cooper
-- C: US
-  E: lachlan.evenson!lithium.com
-  R:
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: openpolicyagent
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: smi
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: tarscloud
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
-    P: virtualkubelet
-    R: C
-  - T: "2007-02-01"
-    C: Integ Group
-    F: "2004-03-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2007-02-01"
-    C: Integ Group
-    F: "2004-03-01"
-    P: stackstorm
-    R: C
-  - T: "2007-02-01"
-    C: Integ Group
-    F: "2004-03-01"
-    P: tarscloud
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: cdf-spinnaker
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: cncf
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: cncf/operatorframework
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: fluxcd
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: helm
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: k8s
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: openpolicyagent
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: smi
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: stackstorm
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: tarscloud
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
-    P: virtualkubelet
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: cephfoundation
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: cncf
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: fluxcd
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: jenkins
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: openpolicyagent
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: smi
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: stackstorm
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: tarscloud
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: virtualkubelet
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: tarscloud
-    R: C
-  - T: "2017-04-01"
-    C: Deis, Inc
-    F: "2016-08-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2017-04-01"
-    C: Deis, Inc
-    F: "2016-08-01"
-    P: stackstorm
-    R: C
-  - T: "2017-04-01"
-    C: Deis, Inc
-    F: "2016-08-01"
-    P: tarscloud
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: opencolorio
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: openpolicyagent
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: smi
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: tarscloud
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    P: virtualkubelet
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2018-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2018-01-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2018-01-01"
-    P: tarscloud
-    R: C
-  S: male
-  I:
-  - E: lachie83!users.noreply.github.com
-    M: Lachlan Evenson
-    S: git
-  - E: lachlan!deis.com
-    M: Lachlan Evenson
-    S: git
-  - E: lachlan.evenson!microsoft.com
-    M: Lachlan Evenson
-    S: git
-  - M: Lachlan Evenson
-    S: github
-    U: lachie83
-  - E: lachlan.evenson!lithium.com
-    M: Lachlan Evenson
-    S: jira
-    U: lachlan.evenson
-  B: 0
-  U: Lachlan Evenson
-- C: GB
-  E: lmason!turing.ac.uk
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2019-04-03"
-    P: stackstorm
-    R: C
-  S: male
-  I:
-  - E: lmason!turing.ac.uk
-    M: Lachlan Mason
-    S: github
-    U: masonlr
-  B: 0
-  U: Lachlan Mason
-- E: lachlan!redback.melbourne.sgi.com
-  R:
-  - T: "2100-01-01"
-    C: SGI
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: lachlan!redback.melbourne.sgi.com
-    M: Lachlan McIlroy
-    S: git
-  B: 0
-  U: Lachlan McIlroy
-- E: lachlan!sgi.com
-  R:
-  - T: "2100-01-01"
-    C: SGI
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: lachlan!sgi.com
-    M: Lachlan McIlroy
-    S: git
-  B: 0
-  U: Lachlan McIlroy
-- E: laci!boundarydevices.com
-  R:
-  - T: "2100-01-01"
-    C: Boundary Devices
-    F: "2017-04-20"
-    P: yocto
-    R: C
-  I:
-  - E: laci!boundarydevices.com
-    M: Laci Tele
-    S: groupsio
-  - E: laci!boundarydevices.com
-    M: Laci Tele
-    S: pipermail
-  B: 0
-  U: Laci Tele
-- R:
-  - T: "2100-01-01"
-    C: Symphony LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Symphony LLC
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - S: github
-    U: Laclaire
-  B: 0
-  U: Laclaire
-- C: BE
-  E: laczenjms!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Laczen
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Laczen
-    F: "2018-03-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: laczenjms!gmail.com
-    M: Laczen JMS
-    S: git
-  - E: laczenjms!gmail.com
-    M: Laczen
-    S: slack
-    U: laczenjms
-  B: 0
-  U: Laczen JMS
-- E: lprosek!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2017-03-28"
-    C: Microsoft Corporation
-    F: "2016-03-01"
-    P: zep
-    R: C
-  - T: "2017-12-13"
-    C: Microsoft Corporation
-    F: "2017-12-04"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2017-12-13"
-    C: Microsoft Corporation
-    F: "2017-12-04"
-    P: dpdk
-    R: C
-  S: female
-  I:
-  - E: lprosek!redhat.com
-    M: Ladi Prosek
-    S: git
-  - E: lprosek!redhat.com
-    M: Ladi Prosek
-    S: pipermail
-  B: 0
-  U: Ladi Prosek
-- C: JP
-  E: Ladiclexxx!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: NTT Corporation
-    F: "2016-10-28"
-    R: C
-  S: female
-  I:
-  - E: aigarash!zlab.co.jp
-    M: Aya Igarashi
-    S: git
-  - E: Ladiclexxx!gmail.com
-    M: Ladicle
-    S: git
-  - E: Ladiclexxx!gmail.com
-    S: github
-    U: Ladicle
-  - E: Ladiclexxx!gmail.com
-    M: Aya Igarashi
-    S: github
-    U: Ladicle
-  - E: aigarash!zlab.co.jp
-    M: Aya Igarashi
-    S: github
-    U: Ladicle
-  - E: ladiclexxx!gmail.com
-    M: Aya Igarashi
-    S: slack
-    U: ladiclexxx
-  B: 0
-  U: Ladicle
