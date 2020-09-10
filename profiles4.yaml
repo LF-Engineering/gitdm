@@ -1,5 +1,32 @@
 P:
 - C: IN
+  E: me!aru.sh
+  R:
+  - T: "2100-01-01"
+    C: rtCamp
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: rtCamp
+    F: "1900-01-01"
+    P: cncf/crossplane
+    R: C
+  - T: "2100-01-01"
+    C: rtCamp
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: me!aru.sh
+    M: Arush Salil
+    S: git
+  - E: me!aru.sh
+    M: Arush Salil
+    S: github
+    U: arush-sal
+  B: 0
+  U: Arush Salil
+- C: IN
   E: arushisinghal19971997!gmail.com
   R:
   - T: "2017-11-01"
@@ -62209,102 +62236,3 @@ P:
     S: git
   B: 0
   U: Boris Protopopov
-- E: bprotopopov!users.noreply.github.com
-  R:
-  - T: "2014-01-01"
-    C: Nexenta
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2017-07-01"
-    C: Actifio
-    F: "2014-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2017-07-01"
-    P: openebs
-    R: C
-  I:
-  - E: bprotopopov!users.noreply.github.com
-    M: Boris Protopopov
-    S: git
-  B: 0
-  U: Boris Protopopov
-- R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: Boris Ranto
-    S: github
-    U: b-ranto
-  B: 0
-  U: Boris Ranto
-- E: branto!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: branto!redhat.com
-    M: Boris Ranto
-    S: git
-  - E: branto!redhat.com
-    M: branto1
-    S: git
-  B: 0
-  U: Boris Ranto
-- E: brenski!freedomfi.com
-  R:
-  - T: "2020-01-01"
-    C: Mirantis
-    F: "2006-06-01"
-    P: akraino
-    R: C
-  I:
-  - M: Boris Renski
-    S: confluence
-    U: zer0tweets
-  - E: brenski!freedomfi.com
-    M: Boris Renski
-    S: confluence
-    U: zer0tweets
-  - E: brenski!mirantis.com
-    M: Boris Renski
-    S: slack
-    U: brenski
-  B: 0
-  U: Boris Renski
-- R:
-  - T: "2100-01-01"
-    C: Schuberg Philis
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Schuberg Philis
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Boris Schrijver
-    S: github
-    U: borisroman
-  B: 0
-  U: Boris Schrijver
