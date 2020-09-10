@@ -1,4 +1,40 @@
 P:
+- C: GB
+  R:
+  - T: "2016-04-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2017-06-01"
+    C: Kinvolk GmbH
+    F: "2016-04-01"
+    R: C
+  - T: "2017-06-01"
+    C: Kinvolk GmbH
+    F: "2016-04-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Huq Industries
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Huq Industries
+    F: "2017-06-01"
+    P: rkt
+    R: C
+  S: male
+  I:
+  - M: Alessandro Puccetti
+    S: github
+    U: alepuccetti
+  B: 0
+  U: Alessandro Puccetti
 - E: alessandro!kinvolk.io
   R:
   - T: "2016-04-01"
@@ -38722,6 +38758,11 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2017-01-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2017-01-01"
     P: webpack
     R: C
   I:
@@ -62112,39 +62153,3 @@ P:
     U: acosta
   B: 0
   U: Andrew Costa
-- E: acrump!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2013-10-07"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2013-10-07"
-    P: prometheus
-    R: C
-  I:
-  - E: acrump!pivotal.io
-    M: Andrew Crump
-    S: git
-  - E: andrew!cloudcredo.com
-    M: Andrew Crump
-    S: git
-  - E: acrump!pivotal.io
-    M: Andrew Crump
-    S: github
-    U: acrmp
-  - E: andrew.crump!ieee.org
-    M: Andrew Crump
-    S: github
-    U: acrmp
-  - M: Andrew Crump
-    S: meetup
-    U: "8394002"
-  - E: acrump!pivotal.io
-    M: Andrew Crump
-    S: slack
-    U: acrump
-  B: 0
-  U: Andrew Crump

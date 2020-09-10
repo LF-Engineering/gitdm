@@ -1,4 +1,771 @@
 P:
+- E: vafoster!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-03-18"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: vafoster!us.ibm.com
+    M: vafoster
+    S: slack
+    U: vafoster
+  B: 0
+  U: vafoster
+- E: vagrant!aai.onap.org
+  R:
+  - T: "2018-04-19"
+    C: The Linux Foundation
+    F: "2018-01-01"
+    P: onap
+    R: C
+  I:
+  - E: vagrant!aai.onap.org
+    M: vagrant
+    S: gerrit
+  - E: vagrant!aai.onap.org
+    M: vagrant
+    S: gerrit
+  - E: vagrant!aai.onap.org
+    M: vagrant
+    S: git
+  B: 0
+  U: vagrant
+- E: vagrant!fedora24-vbox.localdomain
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: opencolorio
+    R: C
+  I:
+  - E: vagrant!fedora24-vbox.localdomain
+    M: vagrant
+    S: git
+  - E: vagrant!fedora24-vbox.localdomain
+    M: vagrant
+    S: git
+    U: hmeng-19
+  B: 0
+  U: vagrant
+- E: vagrant!localhost.localdomain
+  R:
+  - T: "2100-01-01"
+    C: Examplempany
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Examplempany
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Examplempany
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2017-04-20"
+    C: Examplempany
+    F: "2017-04-07"
+    P: fdio
+    R: C
+  S: male
+  I:
+  - E: vagrant!localhost.localdomain
+    M: vagrant
+    S: gerrit
+  - E: vagrant!localhost.localdomain
+    M: vagrant
+    S: git
+  B: 0
+  U: vagrant
+- E: vagrant!onap
+  R:
+  - T: "2017-06-06"
+    C: The Linux Foundation
+    F: "2017-05-19"
+    P: onap
+    R: C
+  I:
+  - E: vagrant!onap
+    M: vagrant
+    S: gerrit
+  - E: vagrant!onap
+    M: vagrant
+    S: gerrit
+  B: 0
+  U: vagrant
+- E: vagrant!vagrant.vm
+  R:
+  - T: "2100-01-01"
+    C: Examplempany
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Examplempany
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Examplempany
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Examplempany
+    F: "2020-02-03"
+    P: onap
+    R: C
+  S: male
+  I:
+  - E: vagrant!vagrant.vm
+    M: vagrant
+    S: gerrit
+  - E: vagrant!vagrant.vm
+    M: vagrant
+    S: git
+  B: 0
+  U: vagrant
+- E: vaibhav.jain1!amdocs.com
+  R:
+  - T: "2014-10-01"
+    C: EMC
+    F: "1900-01-01"
+    R: C
+  - T: "2014-10-01"
+    C: EMC
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2014-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2014-10-01"
+    P: cncf
+    R: C
+  - T: "2017-11-10"
+    C: Amdocs
+    F: "2017-07-01"
+    P: onap
+    R: C
+  S: male
+  I:
+  - E: vaibhav.jain1!amdocs.com
+    M: vaibhav jain
+    S: gerrit
+    U: vaibhav.jain1
+  - E: vaibhav.jain1!amdocs.com
+    M: Vaibhav Jain
+    S: git
+  - E: vaibhav.jain1!amdocs.com
+    M: vaibhav.jain1
+    S: git
+  - E: vaibhav.jain1!amdocs.com
+    M: vaibhav jain
+    S: jira
+    U: vaibhav.jain1
+  B: 0
+  U: vaibhav jain
+- E: vaibhav.jayas!amdocs.com
+  R:
+  - T: "2018-10-03"
+    C: Amdocs
+    F: "2018-07-31"
+    R: C
+  - T: "2018-10-03"
+    C: Amdocs
+    F: "2018-07-31"
+    P: onap
+    R: C
+  I:
+  - M: vaibhav jayas
+    S: confluence
+    U: vaibhavjayas
+  - E: vaibhav.jayas!amdocs.com
+    M: vaibhav jayas
+    S: gerrit
+    U: vaibhavjayas
+  - E: vaibhav.jayas!amdocs.com
+    M: vaibhavjayas
+    S: git
+  - M: vaibhav jayas
+    S: jira
+    U: vaibhavjayas
+  - E: vaibhav.jayas!amdocs.com
+    M: vaibhav jayas
+    S: jira
+    U: vaibhavjayas
+  B: 0
+  U: vaibhav jayas
+- E: vaibhav!dianomic.com
+  R:
+  - T: "2017-11-30"
+    C: Dianomic
+    F: "2017-06-29"
+    P: fledge
+    R: C
+  I:
+  - E: vaibhav!dianomic.com
+    M: vaibhav-ScaleDB
+    S: git
+  - E: vaibhav!scaledb.com
+    M: vaibhav-ScaleDB
+    S: git
+  B: 0
+  U: vaibhav-ScaleDB
+- R:
+  - T: "2015-12-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-07-01"
+    C: Wipro Limited
+    F: "2015-12-01"
+    R: C
+  - T: "2017-07-01"
+    C: Wipro Limited
+    F: "2015-12-01"
+    P: prometheus
+    R: C
+  - T: "2018-08-01"
+    C: Media
+    F: "2017-07-01"
+    R: C
+  - T: "2018-08-01"
+    C: Media
+    F: "2017-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Razorpay
+    F: "2018-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Razorpay
+    F: "2018-08-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - S: github
+    U: vaibhavkhurana2018
+  B: 0
+  U: vaibhavkhurana2018
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  I:
+  - S: github
+    U: vaibhavsood
+  B: 0
+  U: vaibhavsood
+- C: US
+  E: vaikas-google!users.noreply.github.com
+  R:
+  - T: "2019-11-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2019-11-01"
+    C: Google
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2019-11-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-11-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-11-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: vaikas-google!users.noreply.github.com
+    M: Ville Aikas
+    S: git
+  - E: vaikas-google!users.noreply.github.com
+    M: vaikas-google
+    S: git
+  B: 0
+  U: vaikas-google
+- E: vaikas!vaikas-glaptop.roam.corp.google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: vaikas!vaikas-glaptop.roam.corp.google.com
+    M: vaikas
+    S: git
+  B: 0
+  U: vaikas
+- E: valentin.boucher!orange.com
+  R:
+  - T: "2100-01-01"
+    C: Kontron
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Kontron
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  - T: "2017-07-19"
+    C: Orange S.A.
+    F: "2017-05-22"
+    P: onap
+    R: C
+  I:
+  - M: valentin boucher
+    S: confluence
+    U: boucherv
+  - E: valentin.boucher!orange.com
+    M: boucherv
+    S: gerrit
+  - E: bouchervvalentin!gmail.com
+    M: valentin boucher
+    S: gerrit
+    U: boucherv
+  - E: valentin.boucher!kontron.com
+    M: valentin boucher
+    S: gerrit
+    U: boucherv
+  - E: valentin.boucher!orange.com
+    M: valentin boucher
+    S: gerrit
+    U: boucherv
+  - E: valentin.boucher!orange.com
+    M: boucherv
+    S: git
+  - E: valentin.boucher!kontron.com
+    M: valentin boucher
+    S: git
+  - E: valentin.boucher!orange.com
+    M: valentin boucher
+    S: git
+  - E: valentin.boucher!orange.com
+    M: valentin.boucher
+    S: gmane
+  - E: Valentin.Boucher!kontron.com
+    M: Valentin Boucher
+    S: groupsio
+  - E: valentin.boucher!orange.com
+    M: valentin.boucher
+    S: groupsio
+  - M: valentin boucher
+    S: jira
+    U: boucherv
+  - E: valentin.boucher!kontron.com
+    M: valentin boucher
+    S: jira
+    U: boucherv
+  - E: valentin.boucher!orange.com
+    M: valentin boucher
+    S: jira
+    U: boucherv
+  - E: valentin.boucher!orange.com
+    M: boucherv
+    S: linux-foundation:scm
+  - E: valentin.boucher!orange.com
+    M: valentin boucher
+    S: linux-foundation:scm
+  - E: valentin.boucher!orange.com
+    M: valentin boucher
+    S: linux-foundation:scr
+    U: boucherv
+  - E: valentin.boucher!orange.com
+    M: valentin.boucher
+    S: mbox
+  - E: Valentin.Boucher!kontron.com
+    M: Valentin Boucher
+    S: pipermail
+  - E: valentin.boucher!orange.com
+    M: valentin.boucher
+    S: pipermail
+  B: 0
+  U: valentin boucher
+- E: valentin.cobelea!enea.com
+  R:
+  - T: "2014-04-12"
+    C: ENEA AB
+    F: "2013-08-06"
+    P: yocto
+    R: C
+  I:
+  - E: valentin.cobelea!enea.com
+    S: bugzilla
+    U: valentin.cobelea
+  - M: Valentin Cobelea
+    S: bugzilla
+    U: valentin.cobelea
+  - E: valentin.cobelea!enea.com
+    M: Valentin Cobelea
+    S: bugzilla
+    U: valentin.cobelea
+  - E: valentin.cobelea!enea.com
+    M: Valentin Cobelea
+    S: git
+  - E: valentin.cobelea!enea.com
+    M: Vali Cobelea
+    S: groupsio
+  - E: valentin.cobelea!enea.com
+    M: Vali Cobelea
+    S: pipermail
+  B: 0
+  U: valentin.cobelea
+- E: valentin.popa!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2013-09-23"
+    P: yocto
+    R: C
+  I:
+  - E: valentin.popa!intel.com
+    S: bugzilla
+    U: valentin.popa
+  - E: valentin.popa!intel.com
+    M: valentin
+    S: bugzilla
+    U: valentin.popa
+  B: 0
+  U: valentin
+- E: varmenise!cloudbees.com
+  R:
+  - T: "2018-05-01"
+    C: CloudBees
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-05-01"
+    C: CloudBees
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Spotify
+    F: "2018-05-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: varmenise!cloudbees.com
+    M: valentina
+    S: git
+  B: 0
+  U: valentina
+- E: valentinx.hangan!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-07-02"
+    P: yocto
+    R: C
+  I:
+  - E: valentinx.hangan!intel.com
+    S: bugzilla
+    U: valentinx.hangan
+  - E: valentinx.hangan!intel.com
+    M: Valentin Hangan
+    S: bugzilla
+    U: valentinx.hangan
+  B: 0
+  U: valentinx.hangan
+- E: vpham!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-06-05"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: vpham!us.ibm.com
+    M: valerie
+    S: slack
+    U: valerie
+  B: 0
+  U: valerie
+- E: vam!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: vam!google.com
+    M: vam-google
+    S: git
+  B: 0
+  U: vam-google
+- E: vam!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: vam!google.com
+    M: vam
+    S: git
+  B: 0
+  U: vam
+- E: vamsin!codeaurora.org
+  R:
+  - T: "2100-01-01"
+    C: Code Aurora Forum
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: vamsin!codeaurora.org
+    M: vamsi krishna
+    S: git
+  B: 0
+  U: vamsi krishna
+- E: vamsin!qti.qualcomm.com
+  R:
+  - T: "2100-01-01"
+    C: Qualcomm
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: vamsin!qti.qualcomm.com
+    M: vamsi krishna
+    S: git
+  B: 0
+  U: vamsi krishna
+- E: fllinden!amazon.com
+  R:
+  - T: "2100-01-01"
+    C: Amazon.com, Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: fllinden!amazon.com
+    M: Frank van der Linden
+    S: git
+  - E: fllinden!amazon.com
+    M: van der Linden, Frank
+    S: git
+  B: 0
+  U: van der Linden, Frank
+- E: vmorris!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-04-23"
+    P: composer
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-04-23"
+    P: fabric
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-04-23"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-04-23"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  I:
+  - E: vmorris!us.ibm.com
+    M: vance morris
+    S: gerrit
+    U: holocron
+  - E: vmorris!us.ibm.com
+    M: Vance Morris
+    S: git
+  - E: vmorris!us.ibm.com
+    M: Vance Morris
+    S: groupsio
+  B: 0
+  U: vance morris
+- E: vanderliang!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: cncf/volcano
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-11-13"
+    C: Letv Cloud Computing
+    F: "2015-10-31"
+    R: C
+  - T: "2015-11-13"
+    C: Letv Cloud Computing
+    F: "2015-10-31"
+    P: cncf/volcano
+    R: C
+  - T: "2015-11-13"
+    C: Letv Cloud Computing
+    F: "2015-10-31"
+    P: k8s
+    R: C
+  - T: "2015-10-31"
+    C: HP
+    F: "2100-01-01"
+    R: C
+  - T: "2015-10-31"
+    C: HP
+    F: "2100-01-01"
+    P: cncf/volcano
+    R: C
+  - T: "2015-10-31"
+    C: HP
+    F: "2100-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: vanderliang!gmail.com
+    M: vanderliang
+    S: git
+  B: 0
+  U: vanderliang
+- E: vkadam!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: vkadam!us.ibm.com
+    M: vandita
+    S: slack
+    U: vkadam
+  B: 0
+  U: vandita
+- C: VN
+  E: ducnv!vn.fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-02-26"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: ducnv!vn.fujitsu.com
+    M: vanduc95
+    S: git
+  B: 0
+  U: vanduc95
+- E: 8667089+vanou!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: 8667089+vanou!users.noreply.github.com
+    M: vanou
+    S: git
+  B: 0
+  U: vanou
+- C: PH
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: vanou
+    S: github
+    U: vanou
+  B: 0
+  U: vanou
 - E: ishii.vanou!fujitsu.com
   R:
   - T: "2100-01-01"
@@ -11295,6 +12062,11 @@ P:
     C: Smals
     F: "1900-01-01"
     P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Smals
+    F: "1900-01-01"
+    P: openapi
     R: C
   I:
   - S: github

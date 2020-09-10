@@ -20027,6 +20027,11 @@ P:
     F: "2017-02-01"
     P: lfai/amundsen
     R: C
+  - T: "2017-12-01"
+    C: Google
+    F: "2017-02-01"
+    P: openapi
+    R: C
   - T: "2018-11-01"
     C: Amazon Web Services (AWS)
     F: "2018-01-01"
@@ -28763,6 +28768,11 @@ P:
     C: Transposit
     F: "2016-11-15"
     P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Transposit
+    F: "2016-11-15"
+    P: openapi
     R: C
   I:
   - M: Adam Leventhal
@@ -47553,6 +47563,11 @@ P:
   - T: "2018-11-01"
     C: GMO Pepabo
     F: "2016-04-01"
+    P: openapi
+    R: C
+  - T: "2018-11-01"
+    C: GMO Pepabo
+    F: "2016-04-01"
     P: sawtooth
     R: C
   - T: "2100-01-01"
@@ -61120,6 +61135,11 @@ P:
     F: "2019-04-01"
     P: ojsf-nodejs
     R: C
+  - T: "2100-01-01"
+    C: Foodoso
+    F: "2019-04-01"
+    P: openapi
+    R: C
   I:
   - E: alekitto!gmail.com
     M: Alessandro Chitolina
@@ -61564,39 +61584,3 @@ P:
     S: git
   B: 0
   U: Alessandro Pilotti
-- C: GB
-  R:
-  - T: "2016-04-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-04-01"
-    C: Independent
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  - T: "2017-06-01"
-    C: Kinvolk GmbH
-    F: "2016-04-01"
-    R: C
-  - T: "2017-06-01"
-    C: Kinvolk GmbH
-    F: "2016-04-01"
-    P: rkt
-    R: C
-  - T: "2100-01-01"
-    C: Huq Industries
-    F: "2017-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Huq Industries
-    F: "2017-06-01"
-    P: rkt
-    R: C
-  S: male
-  I:
-  - M: Alessandro Puccetti
-    S: github
-    U: alepuccetti
-  B: 0
-  U: Alessandro Puccetti
