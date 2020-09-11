@@ -1,4 +1,127 @@
 P:
+- E: john.spray!inktank.com
+  R:
+  - T: "2014-07-01"
+    C: Inktank
+    F: "1900-01-01"
+    R: C
+  - T: "2014-07-01"
+    C: Inktank
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2018-11-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    R: C
+  - T: "2018-11-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Citadel
+    F: "2018-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Citadel
+    F: "2018-11-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: john.spray!inktank.com
+    M: John Spray
+    S: git
+  B: 0
+  U: John Spray
+- E: john.spray!redhat.com
+  R:
+  - T: "2014-07-01"
+    C: Inktank
+    F: "1900-01-01"
+    R: C
+  - T: "2014-07-01"
+    C: Inktank
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2018-11-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    R: C
+  - T: "2018-11-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Citadel
+    F: "2018-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Citadel
+    F: "2018-11-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: john.spray!redhat.com
+    M: John Spray
+    S: git
+  B: 0
+  U: John Spray
+- E: jspray!redhat.com
+  R:
+  - T: "2014-07-01"
+    C: Inktank
+    F: "1900-01-01"
+    R: C
+  - T: "2014-07-01"
+    C: Inktank
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2018-11-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    R: C
+  - T: "2018-11-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Citadel
+    F: "2018-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Citadel
+    F: "2018-11-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: jspray!redhat.com
+    M: John Spray
+    S: git
+  - E: jspray!redhat.com
+    M: john
+    S: git
+  B: 0
+  U: John Spray
 - E: jstarich!us.ibm.com
   R:
   - T: "2100-01-01"
@@ -12795,6 +12918,11 @@ P:
     C: The Linux Foundation
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "1900-01-01"
+    P: easycla
     R: C
   I:
   - E: jkinred!linuxfoundation.org
@@ -49401,6 +49529,11 @@ P:
   - T: "2100-01-01"
     C: Cisco Systems Inc.
     F: "2012-03-02"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2012-03-02"
     P: korg
     R: C
   - T: "2100-01-01"
@@ -62316,77 +62449,3 @@ P:
     S: git
   B: 0
   U: Kai Engert
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: InVision AG
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: InVision AG
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: InVision AG
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  S: male
-  I:
-  - M: Kai Forsthövel
-    S: github
-    U: kforsthoevel
-  B: 0
-  U: Kai Forsthövel
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Maternity Neighborhood
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Maternity Neighborhood
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Maternity Neighborhood
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Kai Groner
-    S: github
-    U: groner
-  B: 0
-  U: Kai Groner
-- E: kai!gronr.com
-  R:
-  - T: "2100-01-01"
-    C: Maternity Neighborhood
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Maternity Neighborhood
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Maternity Neighborhood
-    F: "1900-01-01"
-    P: libuv
-    R: C
-  - T: "2100-01-01"
-    C: Maternity Neighborhood
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  I:
-  - E: kai!gronr.com
-    M: Kai Groner
-    S: git
-  B: 0
-  U: Kai Groner

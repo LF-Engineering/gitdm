@@ -1,4 +1,174 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Neil Horman
+    S: bugzilla
+    U: nhorman
+  B: 0
+  U: Neil Horman
+- R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  I:
+  - M: Neil Horman
+    S: bugzillarest
+    U: nhorman
+  B: 0
+  U: Neil Horman
+- E: nhorman!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: nhorman!gmail.com
+    M: Neil Horman
+    S: git
+  - E: nhorman!gmail.com
+    M: Neil Horman
+    S: github
+    U: nhorman
+  B: 0
+  U: Neil Horman
+- E: nhorman!redhat.com
+  R:
+  - T: "2017-10-13"
+    C: Red Hat Inc.
+    F: "2016-01-19"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2017-10-13"
+    C: Red Hat Inc.
+    F: "2016-01-19"
+    P: dpdk
+    R: C
+  I:
+  - E: nhorman!redhat.com
+    M: Neil Horman
+    S: git
+  - E: nhorman!redhat.com
+    M: Neil Horman
+    S: pipermail
+  B: 0
+  U: Neil Horman
+- E: nhorman!tuxdriver.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-03-06"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-03-06"
+    P: dpdk
+    R: C
+  - T: "2018-11-19"
+    C: Red Hat Inc.
+    F: "2014-03-25"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-03-25"
+    P: dpdk-next
+    R: C
+  S: male
+  I:
+  - E: nhorman!tuxdriver.com
+    M: Neil Horman
+    S: git
+  - E: nhorman!tuxdriver.com
+    M: Neil Horman
+    S: pipermail
+  - E: nhorman!tuxdriver.com
+    M: Tuxdriver
+    S: pipermail
+  B: 0
+  U: Neil Horman
+- E: neil!tigera.io
+  R:
+  - T: "2100-01-01"
+    C: Tigera
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Tigera
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: neil!tigera.io
+    M: Neil Jerram
+    S: git
+  B: 0
+  U: Neil Jerram
 - E: neiljerram!gmail.com
   R:
   - T: "2100-01-01"
@@ -6272,6 +6442,11 @@ P:
     C: DataCore Software
     F: "1998-01-01"
     P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: DataCore Software
+    F: "1998-01-01"
+    P: dpdk
     R: C
   - T: "2100-01-01"
     C: MayaData
@@ -52996,6 +53171,11 @@ P:
     F: "2013-06-01"
     P: dpdk
     R: C
+  - T: "2018-07-01"
+    C: Savoir-faire Linux
+    F: "2013-06-01"
+    P: kernelci
+    R: C
   I:
   - E: patrick.keroulas!savoirfairelinux.com
     M: Patrick Keroulas
@@ -58991,6 +59171,16 @@ P:
   - T: "2100-01-01"
     C: Alstom
     F: "2008-03-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Alstom
+    F: "2008-03-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Alstom
+    F: "2008-03-01"
     P: zep
     R: C
   S: male
@@ -62179,211 +62369,3 @@ P:
     U: pmoroney
   B: 0
   U: Pat Moroney
-- E: riehecky!fnal.gov
-  R:
-  - T: "2100-01-01"
-    C: Fermilab
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Fermilab
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2018-12-21"
-    C: Fermilab
-    F: "2017-10-25"
-    P: yocto
-    R: C
-  S: female
-  I:
-  - E: riehecky!fnal.gov
-    S: bugzilla
-    U: riehecky
-  - E: riehecky!fnal.gov
-    S: bugzilla
-    U: riehecky
-  - E: riehecky!fnal.gov
-    M: Pat Riehecky
-    S: git
-  B: 0
-  U: Pat Riehecky
-- E: rapatchi!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: rapatchi!microsoft.com
-    M: Patchigolla
-    S: git
-  B: 0
-  U: Patchigolla
-- E: jay.p.patel!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jay.p.patel!intel.com
-    M: Patel Jay P
-    S: git
-  B: 0
-  U: Patel Jay P
-- E: gitesh.patel!alcatel-lucent.com
-  R:
-  - T: "2013-11-26"
-    C: Alcatel-Lucent
-    F: "2013-06-28"
-    P: dpdk
-    R: C
-  - T: "2013-11-26"
-    C: Alcatel-Lucent
-    F: "2013-06-28"
-    P: odl
-    R: C
-  I:
-  - E: gitesh.patel!alcatel-lucent.com
-    M: Patel, Gitesh (Gitesh)
-    S: groupsio
-  - E: gitesh.patel!alcatel-lucent.com
-    M: Patel, Gitesh Gitesh
-    S: pipermail
-  B: 0
-  U: Patel, Gitesh Gitesh
-- C: US
-  E: gupatel!ciena.com
-  R:
-  - T: "2100-01-01"
-    C: Tigera
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Tigera
-    F: "1900-01-01"
-    P: dpdk
-    R: C
-  - T: "2016-06-22"
-    C: Tigera
-    F: "2015-04-07"
-    P: odl
-    R: C
-  S: male
-  I:
-  - E: gupatel!ciena.com
-    M: Patel, Gunjan
-    S: groupsio
-  - E: gupatel!ciena.com
-    M: Patel, Gunjan
-    S: pipermail
-  B: 0
-  U: Patel, Gunjan
-- E: rashmin.n.patel!intel.com
-  R:
-  - T: "2015-11-20"
-    C: Intel Corporation
-    F: "2013-07-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2015-11-20"
-    C: Intel Corporation
-    F: "2013-07-01"
-    P: dpdk
-    R: C
-  I:
-  - E: rashmin.n.patel!intel.com
-    M: Patel, Rashmin N
-    S: pipermail
-  B: 0
-  U: Patel, Rashmin N
-- E: vedang.patel!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2017-03-30"
-    C: Intel Corporation
-    F: "2017-03-21"
-    P: yocto
-    R: C
-  I:
-  - E: vedang.patel!intel.com
-    M: Patel, Vedang
-    S: git
-  - E: vedang.patel!intel.com
-    M: Vedang Patel
-    S: git
-  - E: vedang.patel!intel.com
-    M: Patel, Vedang
-    S: groupsio
-  - E: vedang.patel!intel.com
-    M: Vedang Patel
-    S: groupsio
-  - E: vedang.patel!intel.com
-    M: Patel, Vedang
-    S: pipermail
-  - E: vedang.patel!intel.com
-    M: Vedang Patel
-    S: pipermail
-  B: 0
-  U: Patel, Vedang
-- E: pravin.pathak!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-10-18"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-10-18"
-    P: dpdk
-    R: C
-  I:
-  - E: pravin.pathak!intel.com
-    M: Pathak, Pravin
-    S: pipermail
-  B: 0
-  U: Pathak, Pravin

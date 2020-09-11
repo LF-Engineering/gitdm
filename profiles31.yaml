@@ -1,4 +1,83 @@
 P:
+- E: hemant!mnkcg.com
+  R:
+  - T: "2016-06-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-12-01"
+    C: Independent
+    F: "2016-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-07-01"
+    C: Casa Systems
+    F: "2016-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: MNK Consulting
+    F: "2017-07-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: MNK Consulting
+    F: "2017-07-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: hemant!mnkcg.com
+    M: hesingh
+    S: git
+  B: 0
+  U: hesingh
+- E: heiko.ettelbrueck!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2017-03-09"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: heiko.ettelbrueck!sap.com
+    M: hettelbrueck
+    S: slack
+    U: hettelbrueck
+  B: 0
+  U: hettelbrueck
+- E: hf9857!att.com
+  R:
+  - T: "1996-12-01"
+    C: Telcordia Technologies
+    F: "1984-01-01"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2020-01-01"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: hf9857!att.com
+    M: hf9857
+    S: groupsio
+  B: 0
+  U: hf9857
+- E: hari.golla!emc.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "2016-12-04"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: hari.golla!emc.com
+    M: hgolla
+    S: slack
+    U: hgolla
+  B: 0
+  U: hgolla
 - C: US
   E: hart.hoover!gmail.com
   R:
@@ -10052,6 +10131,11 @@ P:
     C: Google
     F: "2018-11-01"
     P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-11-01"
+    P: zep
     R: C
   I:
   - S: github
@@ -28405,6 +28489,11 @@ P:
   - T: "2100-01-01"
     C: Linaro Limited
     F: "2013-05-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Linaro Limited
+    F: "2013-05-01"
     P: korg
     R: C
   - T: "2100-01-01"
@@ -35413,6 +35502,11 @@ P:
     C: Irdeto
     F: "2019-02-01"
     P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Irdeto
+    F: "2019-02-01"
+    P: zep
     R: C
   I:
   - S: github
@@ -63345,93 +63439,3 @@ P:
     U: nakhanha
   B: 0
   U: nakhanha
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  I:
-  - S: github
-    U: nallohki
-  B: 0
-  U: nallohki
-- R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: fabric
-    R: C
-  I:
-  - S: rocketchat
-    U: nammn
-  B: 0
-  U: nammn
-- R:
-  - T: "2015-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2018-08-01"
-    C: Razorpay
-    F: "2015-07-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-08-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Dynatrace
-    F: "2019-02-01"
-    P: cncf/keptn
-    R: C
-  - T: "2100-01-01"
-    C: Dynatrace
-    F: "2019-02-01"
-    P: cncf/operatorframework
-    R: C
-  I:
-  - S: github
-    U: namratachaudhary
-  B: 0
-  U: namratachaudhary
-- E: namratachaudhary!users.noreply.github.com
-  R:
-  - T: "2015-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2018-08-01"
-    C: Razorpay
-    F: "2015-07-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-08-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Dynatrace
-    F: "2019-02-01"
-    P: cncf/operatorframework
-    R: C
-  I:
-  - E: namratachaudhary!users.noreply.github.com
-    M: namratachaudhary
-    S: git
-  B: 0
-  U: namratachaudhary

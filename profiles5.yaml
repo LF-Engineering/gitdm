@@ -1,5 +1,32 @@
 P:
 - R:
+  - T: "2019-03-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2019-03-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2019-03-01"
+    C: IBM
+    F: "1900-01-01"
+    P: tekton
+    R: C
+  - T: "2100-01-01"
+    C: Qlik
+    F: "2019-03-01"
+    P: k8s
+    R: C
+  I:
+  - M: Boris Kuschel
+    S: github
+    U: bkuschel
+  B: 0
+  U: Boris Kuschel
+- R:
   - T: "2014-09-15"
     C: TU Delft Solar Boat Team
     F: "1900-01-01"
@@ -17148,6 +17175,11 @@ P:
     C: Brocade Communications Systems LLC
     F: "1900-01-01"
     P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Brocade Communications Systems LLC
+    F: "1900-01-01"
+    P: cip
     R: C
   - T: "2100-01-01"
     C: Brocade Communications Systems LLC
@@ -62154,59 +62186,3 @@ P:
     U: ChenjieXu
   B: 0
   U: ChenjieXu
-- E: chenmin.sun!intel.com
-  R:
-  - T: "2019-03-30"
-    C: Intel Corporation
-    F: "2019-01-23"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-01-23"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-01-23"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-01-23"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-01-23"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-01-23"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-03-13"
-    P: fdio
-    R: C
-  I:
-  - E: chenmin.sun!intel.com
-    M: Chenmin Sun
-    S: gerrit
-    U: ChenminSun
-  - E: chenmin.sun!intel.com
-    M: Chenmin Sun
-    S: git
-  - E: chenmin.sun!intel.com
-    M: ChenminSun
-    S: git
-  - E: chenmin.sun!intel.com
-    M: chenmin.sun
-    S: groupsio
-  - E: chenmin.sun!intel.com
-    M: chenmin.sun
-    S: pipermail
-  B: 0
-  U: ChenminSun

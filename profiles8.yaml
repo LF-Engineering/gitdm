@@ -18823,12 +18823,12 @@ P:
     P: lfai/amundsen
     R: C
   - T: "2100-01-01"
-    C: NXP Semiconductors
+    C: NXP Semiconductors Netherlands B.V.
     F: "2019-12-01"
     P: lfai/amundsen
     R: C
   - T: "2100-01-01"
-    C: NXP Semiconductors
+    C: NXP Semiconductors Netherlands B.V.
     F: "2019-12-01"
     P: zep
     R: C
@@ -18991,7 +18991,17 @@ P:
   - T: "2100-01-01"
     C: AT&T Telecommunication
     F: "2017-07-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Telecommunication
+    F: "2017-07-01"
     P: danos
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Telecommunication
+    F: "2017-07-01"
+    P: kernelci
     R: C
   I:
   - E: dewi.morgan!intl.att.com
@@ -22459,6 +22469,30 @@ P:
     S: git
   B: 0
   U: Diego Louzán
+- E: diego.masini!gmail.com
+  R:
+  - T: "2018-04-15"
+    C: IBM
+    F: "2014-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: IOV labs
+    F: "2018-04-16"
+    R: C
+  I:
+  - E: masini!ar.ibm.com
+    M: Diego Angel Masini
+    S: git
+  - E: diego.masini!gmail.com
+    M: Diego Masini
+    S: git
+  - M: Diego Masini
+    S: github
+    U: diegomasini
+  - S: rocketchat
+    U: diegomasini
+  B: 0
+  U: Diego Masini
 - C: GB
   R:
   - T: "2016-05-01"
@@ -39868,6 +39902,11 @@ P:
     F: "2008-06-01"
     P: danos
     R: C
+  - T: "2100-01-01"
+    C: KAVB
+    F: "2008-06-01"
+    P: opx
+    R: C
   - T: "2011-01-01"
     C: TrueCar, Inc.
     F: "2009-07-01"
@@ -47505,6 +47544,11 @@ P:
     C: AT&T Telecommunication
     F: "2017-07-01"
     P: danos
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Telecommunication
+    F: "2017-07-01"
+    P: kernelci
     R: C
   S: male
   I:
@@ -62697,63 +62741,3 @@ P:
     S: git
   B: 0
   U: Elena Petrova
-- C: FI
-  E: elena.reshetova!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2016-08-30"
-    C: Intel Corporation
-    F: "2015-08-27"
-    P: yocto
-    R: C
-  I:
-  - E: elena.reshetova!intel.com
-    S: bugzilla
-    U: elena.reshetova
-  - E: elena.reshetova!intel.com
-    M: Elena Reshetova
-    S: bugzilla
-    U: elena.reshetova
-  - E: elena.reshetova!intel.com
-    M: Elena Reshetova
-    S: git
-  - E: elena.reshetova!intel.com
-    M: Reshetova, Elena
-    S: git
-  - E: elena.reshetova!intel.com
-    M: Reshetova, Elena
-    S: groupsio
-  - E: elena.reshetova!intel.com
-    M: Reshetova, Elena
-    S: pipermail
-  B: 0
-  U: Elena Reshetova

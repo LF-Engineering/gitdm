@@ -1,5 +1,160 @@
 P:
 - C: DE
+  E: mrostecki!suse.com
+  R:
+  - T: "2015-08-07"
+    C: Allegro
+    F: "1900-01-01"
+    R: C
+  - T: "2015-08-07"
+    C: Allegro
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-08-07"
+    C: Allegro
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2015-08-07"
+    C: Allegro
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2015-08-07"
+    C: Allegro
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-08-07"
+    C: Allegro
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  - T: "2015-08-19"
+    C: Independent
+    F: "2015-08-07"
+    R: C
+  - T: "2015-08-19"
+    C: Independent
+    F: "2015-08-07"
+    P: cncf/cni
+    R: C
+  - T: "2015-08-19"
+    C: Independent
+    F: "2015-08-07"
+    P: container-networking-interface
+    R: C
+  - T: "2015-08-19"
+    C: Independent
+    F: "2015-08-07"
+    P: jaeger
+    R: C
+  - T: "2015-08-19"
+    C: Independent
+    F: "2015-08-07"
+    P: k8s
+    R: C
+  - T: "2015-08-19"
+    C: Independent
+    F: "2015-08-07"
+    P: opentracing
+    R: C
+  - T: "2016-11-30"
+    C: Mirantis
+    F: "2015-08-19"
+    R: C
+  - T: "2016-11-30"
+    C: Mirantis
+    F: "2015-08-19"
+    P: cncf/cni
+    R: C
+  - T: "2016-11-30"
+    C: Mirantis
+    F: "2015-08-19"
+    P: container-networking-interface
+    R: C
+  - T: "2016-11-30"
+    C: Mirantis
+    F: "2015-08-19"
+    P: jaeger
+    R: C
+  - T: "2016-11-30"
+    C: Mirantis
+    F: "2015-08-19"
+    P: k8s
+    R: C
+  - T: "2016-11-30"
+    C: Mirantis
+    F: "2015-08-19"
+    P: opentracing
+    R: C
+  - T: "2017-12-31"
+    C: Kinvolk GmbH
+    F: "2016-11-30"
+    R: C
+  - T: "2017-12-31"
+    C: Kinvolk GmbH
+    F: "2016-11-30"
+    P: cncf/cni
+    R: C
+  - T: "2017-12-31"
+    C: Kinvolk GmbH
+    F: "2016-11-30"
+    P: container-networking-interface
+    R: C
+  - T: "2017-12-31"
+    C: Kinvolk GmbH
+    F: "2016-11-30"
+    P: jaeger
+    R: C
+  - T: "2017-12-31"
+    C: Kinvolk GmbH
+    F: "2016-11-30"
+    P: k8s
+    R: C
+  - T: "2017-12-31"
+    C: Kinvolk GmbH
+    F: "2016-11-30"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-12-31"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-12-31"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-12-31"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-12-31"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-12-31"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-12-31"
+    P: opentracing
+    R: C
+  S: male
+  I:
+  - E: mrostecki!suse.com
+    M: Michal Rostecki
+    S: git
+  B: 0
+  U: Michal Rostecki
+- C: DE
   E: mrostecki!suse.de
   R:
   - T: "2015-08-07"
@@ -22655,6 +22810,30 @@ P:
     U: yue9944882
   B: 0
   U: Min Kim
+- E: luomin_tokyotech!hotmail.com
+  R:
+  - T: "2100-01-01"
+    C: Undisclosed
+    F: "2014-12-01"
+    R: C
+  I:
+  - E: luomin_tokyotech!hotmail.com
+    M: Min Luo
+    S: gerrit
+    U: luomin
+  - E: luomin_tokyotech!hotmail.com
+    M: Min Luo
+    S: git
+  - E: luomin_tokyotech!hotmail.com
+    M: luomin
+    S: git
+  - M: Min Luo
+    S: jira
+    U: luomin
+  - S: rocketchat
+    U: luomin
+  B: 0
+  U: Min Luo
 - C: TH
   R:
   - T: "2015-10-31"
@@ -40899,7 +41078,22 @@ P:
   - T: "2100-01-01"
     C: Mentor Graphics Corporation
     F: "2018-06-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Mentor Graphics Corporation
+    F: "2018-06-01"
     P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Mentor Graphics Corporation
+    F: "2018-06-01"
+    P: riscv/open-sbi
+    R: C
+  - T: "2100-01-01"
+    C: Mentor Graphics Corporation
+    F: "2018-06-01"
+    P: zep
     R: C
   I:
   - E: musamaanjum!gmail.com
@@ -61792,173 +61986,3 @@ P:
     U: nhickey
   B: 0
   U: Neil Hickey
-- R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: Neil Horman
-    S: bugzilla
-    U: nhorman
-  B: 0
-  U: Neil Horman
-- R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  I:
-  - M: Neil Horman
-    S: bugzillarest
-    U: nhorman
-  B: 0
-  U: Neil Horman
-- E: nhorman!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: nhorman!gmail.com
-    M: Neil Horman
-    S: git
-  - E: nhorman!gmail.com
-    M: Neil Horman
-    S: github
-    U: nhorman
-  B: 0
-  U: Neil Horman
-- E: nhorman!redhat.com
-  R:
-  - T: "2017-10-13"
-    C: Red Hat Inc.
-    F: "2016-01-19"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2017-10-13"
-    C: Red Hat Inc.
-    F: "2016-01-19"
-    P: dpdk
-    R: C
-  I:
-  - E: nhorman!redhat.com
-    M: Neil Horman
-    S: git
-  - E: nhorman!redhat.com
-    M: Neil Horman
-    S: pipermail
-  B: 0
-  U: Neil Horman
-- E: nhorman!tuxdriver.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-03-06"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-03-06"
-    P: dpdk
-    R: C
-  - T: "2018-11-19"
-    C: Red Hat Inc.
-    F: "2014-03-25"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-03-25"
-    P: dpdk-next
-    R: C
-  S: male
-  I:
-  - E: nhorman!tuxdriver.com
-    M: Neil Horman
-    S: git
-  - E: nhorman!tuxdriver.com
-    M: Neil Horman
-    S: pipermail
-  - E: nhorman!tuxdriver.com
-    M: Tuxdriver
-    S: pipermail
-  B: 0
-  U: Neil Horman
-- E: neil!tigera.io
-  R:
-  - T: "2100-01-01"
-    C: Tigera
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Tigera
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: neil!tigera.io
-    M: Neil Jerram
-    S: git
-  B: 0
-  U: Neil Jerram

@@ -1,4 +1,169 @@
 P:
+- C: "NO"
+  E: Kyrremann!gmail.com
+  R:
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2017-10-01"
+    C: SYNQ
+    F: "2015-06-01"
+    R: C
+  - T: "2017-10-01"
+    C: SYNQ
+    F: "2015-06-01"
+    P: helm
+    R: C
+  - T: "2017-10-01"
+    C: SYNQ
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: SYNQ
+    F: "2015-06-01"
+    P: kubevirt
+    R: C
+  - T: "2018-11-01"
+    C: Tise
+    F: "2017-10-01"
+    R: C
+  - T: "2018-11-01"
+    C: Tise
+    F: "2017-10-01"
+    P: helm
+    R: C
+  - T: "2018-11-01"
+    C: Tise
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2018-11-01"
+    C: Tise
+    F: "2017-10-01"
+    P: kubevirt
+    R: C
+  - T: "2020-02-01"
+    C: Capra
+    F: "2018-11-01"
+    R: C
+  - T: "2020-02-01"
+    C: Capra
+    F: "2018-11-01"
+    P: helm
+    R: C
+  - T: "2020-02-01"
+    C: Capra
+    F: "2018-11-01"
+    P: k8s
+    R: C
+  - T: "2020-02-01"
+    C: Capra
+    F: "2018-11-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: Redpill Linpro
+    F: "2020-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Redpill Linpro
+    F: "2020-02-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Redpill Linpro
+    F: "2020-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Redpill Linpro
+    F: "2020-02-01"
+    P: kubevirt
+    R: C
+  S: male
+  I:
+  - E: Kyrremann!gmail.com
+    M: Kyrre Havik Eriksen
+    S: git
+  - E: Kyrremann!gmail.com
+    M: Kyrre Havik Eriksen
+    S: github
+    U: Kyrremann
+  B: 0
+  U: Kyrre Havik Eriksen
+- E: kyrylo.shatskyy!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: kyrylo.shatskyy!gmail.com
+    M: Kyrylo Shatskyy
+    S: git
+  B: 0
+  U: Kyrylo Shatskyy
+- E: kyrylo.tkachov!arm.com
+  R:
+  - T: "2100-01-01"
+    C: ARM
+    F: "2013-03-11"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2013-03-11"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2013-03-11"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2013-03-11"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2013-03-11"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2013-03-11"
+    P: zep
+    R: C
+  I:
+  - E: kyrylo.tkachov!arm.com
+    M: Kyrylo Tkachov
+    S: git
+  B: 0
+  U: Kyrylo Tkachov
 - E: kyuhwi.choi!atto-research.com
   R:
   - T: "2014-08-01"
@@ -48676,6 +48841,11 @@ P:
   - T: "2100-01-01"
     C: IBM Research
     F: "2005-02-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: IBM Research
+    F: "2005-02-01"
     P: lfai/amundsen
     R: C
   I:
@@ -61797,97 +61967,3 @@ P:
     S: git
   B: 0
   U: Maciek Fijalkowski
-- E: mkonstan!cisco.com
-  R:
-  - T: "2010-01-31"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: dpdk
-    R: C
-  - T: "1999-10-31"
-    C: Olicom
-    F: "1997-05-31"
-    P: fdio
-    R: C
-  - T: "2012-01-31"
-    C: Juniper Networks, Inc.
-    F: "2010-02-28"
-    P: fdio
-    R: C
-  - T: "2015-11-30"
-    C: Cisco Systems Inc.
-    F: "2012-01-31"
-    P: fdio
-    R: C
-  - T: "2016-11-15"
-    C: Cisco Systems Inc.
-    F: "2015-10-28"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: FD.io
-    F: "2016-01-31"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2016-03-01"
-    P: fdio
-    R: C
-  S: male
-  I:
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz
-    S: gerrit
-    U: mackonstan
-  - E: mackonstan!gmail.com
-    M: Maciek Konstantynowicz
-    S: git
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz
-    S: git
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz mkonstan
-    S: gmane
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz (mkonstan)
-    S: groupsio
-  - E: fdio-helpdesk!rt.linuxfoundation.org
-    M: Maciek Konstantynowicz via RT
-    S: groupsio
-  - E: mackonstan!gmail.com
-    M: Maciek Konstantynowicz
-    S: groupsio
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz
-    S: jira
-    U: mackonstan
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz mkonstan
-    S: linux-foundation:mls
-    U: mkonstan
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz
-    S: linux-foundation:scr
-    U: mackonstan
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz mkonstan
-    S: mbox
-  - E: mkonstan!cisco.com
-    M: Maciek Konstantynowicz mkonstan
-    S: pipermail
-  - M: Maciek Konstantynowicz
-    S: slack
-    U: mackonstan
-  B: 0
-  U: Maciek Konstantynowicz

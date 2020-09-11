@@ -1,4 +1,98 @@
 P:
+- E: mkonstan!cisco.com
+  R:
+  - T: "2010-01-31"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: dpdk
+    R: C
+  - T: "1999-10-31"
+    C: Olicom
+    F: "1997-05-31"
+    P: fdio
+    R: C
+  - T: "2012-01-31"
+    C: Juniper Networks, Inc.
+    F: "2010-02-28"
+    P: fdio
+    R: C
+  - T: "2015-11-30"
+    C: Cisco Systems Inc.
+    F: "2012-01-31"
+    P: fdio
+    R: C
+  - T: "2016-11-15"
+    C: Cisco Systems Inc.
+    F: "2015-10-28"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: FD.io
+    F: "2016-01-31"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2016-03-01"
+    P: fdio
+    R: C
+  S: male
+  I:
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz
+    S: gerrit
+    U: mackonstan
+  - E: mackonstan!gmail.com
+    M: Maciek Konstantynowicz
+    S: git
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz
+    S: git
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz mkonstan
+    S: gmane
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz (mkonstan)
+    S: groupsio
+  - E: fdio-helpdesk!rt.linuxfoundation.org
+    M: Maciek Konstantynowicz via RT
+    S: groupsio
+  - E: mackonstan!gmail.com
+    M: Maciek Konstantynowicz
+    S: groupsio
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz
+    S: jira
+    U: mackonstan
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz mkonstan
+    S: linux-foundation:mls
+    U: mkonstan
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz
+    S: linux-foundation:scr
+    U: mackonstan
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz mkonstan
+    S: mbox
+  - E: mkonstan!cisco.com
+    M: Maciek Konstantynowicz mkonstan
+    S: pipermail
+  - M: Maciek Konstantynowicz
+    S: slack
+    U: mackonstan
+  B: 0
+  U: Maciek Konstantynowicz
 - R:
   - T: "2014-09-01"
     C: Hewlett
@@ -48656,6 +48750,13 @@ P:
   I:
   - E: martin!millnert.se
     M: Martin Millnert
+    S: gerrit
+    U: Millnert
+  - E: martin!millnert.se
+    M: Martin Millnert
+    S: git
+  - E: martin!millnert.se
+    M: Martin Millnert
     S: groupsio
   - E: martin!millnert.se
     M: Martin Millnert
@@ -51868,6 +51969,11 @@ P:
     C: Network Device Education Foundation
     F: "2013-04-01"
     P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Network Device Education Foundation
+    F: "2013-04-01"
+    P: frr/frr
     R: C
   - T: "2100-01-01"
     C: RIPE NCC
@@ -61805,115 +61911,3 @@ P:
     S: git
   B: 0
   U: Mathieu Rohon
-- E: mathsinn!ie.ibm.com
-  R:
-  - T: "2009-09-01"
-    C: Universität zu Lübeck
-    F: "2003-10-01"
-    P: lfai/adversarial-robustness-toolbox
-    R: C
-  - T: "2011-12-01"
-    C: University of Waterloo
-    F: "2009-09-01"
-    P: lfai/adversarial-robustness-toolbox
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2011-12-01"
-    P: lfai/adversarial-robustness-toolbox
-    R: C
-  I:
-  - E: mathsinn!ie.ibm.com
-    M: Mathieu Sinn
-    S: git
-  B: 0
-  U: Mathieu Sinn
-- C: US
-  E: mathieu.velten!cern.ch
-  R:
-  - T: "2100-01-01"
-    C: CERN
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: CERN
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-10-15"
-    C: CERN
-    F: "2016-09-06"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: mathieu.velten!cern.ch
-    M: Mathieu Velten
-    S: git
-  B: 0
-  U: Mathieu Velten
-- C: US
-  E: matmaul!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: CERN
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: CERN
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-08-27"
-    C: CERN
-    F: "2015-07-23"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: matmaul!gmail.com
-    M: Mathieu Velten
-    S: git
-  - E: matmaul!gmail.com
-    M: Mathieu Velten
-    S: github
-    U: MatMaul
-  B: 0
-  U: Mathieu Velten
-- R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - M: Mathieu Wang
-    S: github
-    U: mathieu-wang
-  B: 0
-  U: Mathieu Wang
-- E: mathieu.wang!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: mathieu.wang!ericsson.com
-    M: Mathieu Wang
-    S: git
-  B: 0
-  U: Mathieu Wang

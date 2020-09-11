@@ -11534,6 +11534,11 @@ P:
   - T: "2100-01-01"
     C: Fortress Reklamebyrå
     F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Fortress Reklamebyrå
+    F: "1900-01-01"
     P: iovisor/iovisor
     R: C
   I:
@@ -56949,6 +56954,11 @@ P:
   - T: "2014-04-01"
     C: Uppsala University
     F: "2009-03-01"
+    P: kernelci
+    R: C
+  - T: "2014-04-01"
+    C: Uppsala University
+    F: "2009-03-01"
     P: korg
     R: C
   - T: "2014-04-01"
@@ -56975,6 +56985,11 @@ P:
     C: ARM
     F: "2014-06-01"
     P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2014-06-01"
+    P: kernelci
     R: C
   - T: "2100-01-01"
     C: ARM
@@ -62115,15 +62130,3 @@ P:
     U: anchang
   B: 0
   U: Andrew Chang
-- E: achant!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: achant!google.com
-    M: Andrew Chant
-    S: git
-  B: 0
-  U: Andrew Chant
