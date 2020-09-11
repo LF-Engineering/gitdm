@@ -1,4 +1,110 @@
 P:
+- E: frank!runscope.com
+  R:
+  - T: "2017-09-01"
+    C: Runscope
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-09-01"
+    C: Runscope
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2018-12-01"
+    C: CA Technologies
+    F: "2017-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-01-01"
+    C: Independent
+    F: "2018-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-05-01"
+    C: Whittle
+    F: "2019-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Riza.io
+    F: "2019-05-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: frank!runscope.com
+    M: Frank Stratton
+    S: git
+  B: 0
+  U: Frank Stratton
+- R:
+  - T: "2100-01-01"
+    C: Inspur
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Inspur
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - M: Frank Wang
+    S: github
+    U: JackSunshine
+  B: 0
+  U: Frank Wang
+- C: CN
+  E: frank.wang!rock-chips.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Rockchip
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Rockchip
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-11-08"
+    C: AT&T Services, Inc.
+    F: "2017-07-12"
+    P: onap
+    R: C
+  S: male
+  I:
+  - E: gw1218!att.com
+    M: Frank Wang
+    S: gerrit
+    U: guangxingwang
+  - E: frank.wang!rock-chips.com
+    M: Frank Wang
+    S: git
+  - E: gw1218!att.com
+    M: Wang, Frank(gw1218)
+    S: git
+  - E: gw1218!att.com
+    M: Wang,Frank(gw1218)
+    S: git
+  - E: gw1218!att.com
+    M: cookiewang
+    S: git
+  - E: gw1218!att.com
+    M: guangxingwang
+    S: git
+  - M: Frank Wang
+    S: jira
+    U: guangxingwang
+  - E: gw1218!att.com
+    M: Frank Wang
+    S: jira
+    U: guangxingwang
+  B: 0
+  U: Frank Wang
 - E: flyxiaoyu!gmail.com
   R:
   - T: "2100-01-01"
@@ -61694,105 +61800,3 @@ P:
     S: git
   B: 0
   U: Gábor Buella
-- C: GB
-  E: csardi.gabor!gmail.com
-  R:
-  - T: "2011-02-01"
-    C: SIB Swiss Institute of Bioinformatics
-    F: "2008-01-01"
-    P: akraino
-    R: C
-  - T: "2011-02-01"
-    C: University of Lausanne - UNIL
-    F: "2008-01-01"
-    P: akraino
-    R: C
-  - T: "2015-08-01"
-    C: Harvard University
-    F: "2011-03-01"
-    P: akraino
-    R: C
-  - T: "2015-08-01"
-    C: Harvard University
-    F: "2011-03-01"
-    P: r-hub
-    R: C
-  - T: "2015-08-01"
-    C: Harvard University
-    F: "2011-03-01"
-    P: r-ladies
-    R: C
-  - T: "2016-12-01"
-    C: Mango solutions
-    F: "2015-10-01"
-    P: akraino
-    R: C
-  - T: "2016-12-01"
-    C: Mango solutions
-    F: "2015-10-01"
-    P: jenkins
-    R: C
-  - T: "2016-12-01"
-    C: Mango solutions
-    F: "2015-10-01"
-    P: r-hub
-    R: C
-  - T: "2016-12-01"
-    C: Mango solutions
-    F: "2015-10-01"
-    P: r-ladies
-    R: C
-  - T: "2016-12-01"
-    C: Mango solutions
-    F: "2015-10-01"
-    P: sparklyr
-    R: C
-  - T: "2100-01-01"
-    C: RStudio PBC
-    F: "2017-04-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: RStudio PBC
-    F: "2017-04-01"
-    P: r-hub
-    R: C
-  - T: "2100-01-01"
-    C: RStudio PBC
-    F: "2017-04-01"
-    P: r-ladies
-    R: C
-  S: male
-  I:
-  - E: csardi.gabor!gmail.com
-    M: Gábor Csárdi
-    S: git
-  - M: Gábor Csárdi
-    S: github
-    U: gaborcsardi
-  - E: csardi.gabor!gmail.com
-    M: Gábor Csárdi
-    S: github
-    U: gaborcsardi
-  B: 0
-  U: Gábor Csárdi
-- E: gabor.illes!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-05-08"
-    P: akraino
-    R: C
-  I:
-  - E: gabor.illes!nokia.com
-    M: Gábor Illés
-    S: gerrit
-    U: gabor.illes
-  - E: gabor.illes!nokia.com
-    M: Illes Gabor
-    S: git
-  - E: gabor.illes!nokia.com
-    M: gabor.illes
-    S: git
-  B: 0
-  U: Gábor Illés

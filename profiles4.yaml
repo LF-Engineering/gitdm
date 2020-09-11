@@ -1,4 +1,89 @@
 P:
+- E: aruna!linux.vnet.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: aruna!linux.vnet.ibm.com
+    M: Aruna Balakrishnaiah
+    S: git
+  B: 0
+  U: Aruna Balakrishnaiah
+- R:
+  - T: "2018-01-01"
+    C: Opentext, Inc.
+    F: "2009-01-01"
+    P: horovod
+    R: C
+  I:
+  - M: Aruna Neervannan
+    S: github
+    U: arunarn2
+  B: 0
+  U: Aruna Neervannan
+- E: aruna.ramakrishna!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: aruna.ramakrishna!oracle.com
+    M: Aruna Ramakrishna
+    S: git
+  B: 0
+  U: Aruna Ramakrishna
+- E: Aruna.Potti!us.fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "2018-04-13"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "2018-04-13"
+    P: odl
+    R: C
+  I:
+  - E: Aruna.Potti!us.fujitsu.com
+    M: Aruna.Potti
+    S: pipermail
+  B: 0
+  U: Aruna.Potti
 - C: IN
   E: arundpil!in.ibm.com
   R:
@@ -18254,6 +18339,11 @@ P:
     C: Silicon Labs
     F: "2018-06-01"
     P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Silicon Labs
+    F: "2018-06-01"
+    P: zep
     R: C
   I:
   - E: badiss.djafar!silabs.com
@@ -62148,116 +62238,3 @@ P:
     U: bkuschel
   B: 0
   U: Boris Kuschel
-- R:
-  - T: "2014-09-15"
-    C: TU Delft Solar Boat Team
-    F: "1900-01-01"
-    R: C
-  - T: "2014-09-15"
-    C: TU Delft Solar Boat Team
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-02-15"
-    C: Skischule
-    F: "2014-09-15"
-    R: C
-  - T: "2015-02-15"
-    C: Skischule
-    F: "2014-09-15"
-    P: k8s
-    R: C
-  - T: "2015-05-15"
-    C: RTM Business
-    F: "2015-02-15"
-    R: C
-  - T: "2015-05-15"
-    C: RTM Business
-    F: "2015-02-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Nerdalize
-    F: "2015-05-15"
-    R: C
-  - T: "2100-01-01"
-    C: Nerdalize
-    F: "2015-05-15"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Boris Mattijssen
-    S: github
-    U: borismattijssen
-  B: 0
-  U: Boris Mattijssen
-- E: borismattijssen!gmail.com
-  R:
-  - T: "2014-09-15"
-    C: TU Delft Solar Boat Team
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2014-09-15"
-    C: TU Delft Solar Boat Team
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2014-09-15"
-    C: TU Delft Solar Boat Team
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-02-15"
-    C: Skischule
-    F: "2014-09-15"
-    P: baetyl
-    R: C
-  - T: "2015-02-15"
-    C: Skischule
-    F: "2014-09-15"
-    P: cncf/k3s
-    R: C
-  - T: "2015-02-15"
-    C: Skischule
-    F: "2014-09-15"
-    P: k8s
-    R: C
-  - T: "2015-05-15"
-    C: RTM Business
-    F: "2015-02-15"
-    P: baetyl
-    R: C
-  - T: "2015-05-15"
-    C: RTM Business
-    F: "2015-02-15"
-    P: cncf/k3s
-    R: C
-  - T: "2015-05-15"
-    C: RTM Business
-    F: "2015-02-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Nerdalize
-    F: "2015-05-15"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Nerdalize
-    F: "2015-05-15"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Nerdalize
-    F: "2015-05-15"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: borismattijssen!gmail.com
-    M: Boris Mattijssen
-    S: git
-  B: 0
-  U: Boris Mattijssen

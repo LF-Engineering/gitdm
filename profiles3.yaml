@@ -1,4 +1,49 @@
 P:
+- C: US
+  R:
+  - T: "2014-12-01"
+    C: Kavalry
+    F: "1900-01-01"
+    R: C
+  - T: "2014-12-01"
+    C: Kavalry
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-07-01"
+    C: SanDisk
+    F: "2014-12-01"
+    R: C
+  - T: "2015-07-01"
+    C: SanDisk
+    F: "2014-12-01"
+    P: k8s
+    R: C
+  - T: "2016-10-01"
+    C: Apple
+    F: "2015-07-01"
+    R: C
+  - T: "2016-10-01"
+    C: Apple
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-10-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Andrew Chen
+    S: github
+    U: chenopis
+  B: 0
+  U: Andrew Chen
 - E: andrewmnchen!gmail.com
   R:
   - T: "2100-01-01"
@@ -566,6 +611,39 @@ P:
     U: adinunzio84
   B: 0
   U: Andrew DiNunzio
+- C: GB
+  E: andrew.kennedy!cloudsoftcorp.com
+  R:
+  - T: "2100-01-01"
+    C: Cloudsoft
+    F: "2015-12-31"
+    R: C
+  S: male
+  I:
+  - E: andrew.international!gmail.com
+    M: Andrew Donald Kennedy
+    S: git
+  - E: andrew.kennedy!cloudsoftcorp.com
+    M: Andrew Donald Kennedy
+    S: git
+  - E: andrew!cloudsoft.io
+    M: Andrew Donald Kennedy
+    S: github
+    U: grkvlt
+  - M: Andrew Kennedy
+    S: jira
+    U: grkvlt
+  - E: andrew.kennedy!cloudsoft.io
+    M: Andrew Kennedy
+    S: jira
+    U: grkvlt
+  - S: rocketchat
+    U: grkvlt
+  - M: Andrew Donald Kennedy
+    S: rocketchat
+    U: grkvlt
+  B: 0
+  U: Andrew Donald Kennedy
 - C: AU
   E: ajd!linux.ibm.com
   R:
@@ -20430,6 +20508,11 @@ P:
     C: Nexxiot AG
     F: "2017-08-01"
     P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Nexxiot AG
+    F: "2017-08-01"
+    P: zep
     R: C
   I:
   - E: andres.cao!nexxiot.com
@@ -62470,88 +62553,3 @@ P:
     U: arunramachandran15
   B: 0
   U: Arun
-- E: aruna!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: aruna!linux.vnet.ibm.com
-    M: Aruna Balakrishnaiah
-    S: git
-  B: 0
-  U: Aruna Balakrishnaiah
-- R:
-  - T: "2018-01-01"
-    C: Opentext, Inc.
-    F: "2009-01-01"
-    P: horovod
-    R: C
-  I:
-  - M: Aruna Neervannan
-    S: github
-    U: arunarn2
-  B: 0
-  U: Aruna Neervannan
-- E: aruna.ramakrishna!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: aruna.ramakrishna!oracle.com
-    M: Aruna Ramakrishna
-    S: git
-  B: 0
-  U: Aruna Ramakrishna
-- E: Aruna.Potti!us.fujitsu.com
-  R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "2018-04-13"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "2018-04-13"
-    P: odl
-    R: C
-  I:
-  - E: Aruna.Potti!us.fujitsu.com
-    M: Aruna.Potti
-    S: pipermail
-  B: 0
-  U: Aruna.Potti

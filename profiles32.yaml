@@ -1,4 +1,412 @@
 P:
+- C: JP
+  E: namusyaka!gmail.com
+  R:
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2016-07-01"
+    C: Dwango
+    F: "2015-03-01"
+    R: C
+  - T: "2016-07-01"
+    C: Dwango
+    F: "2015-03-01"
+    P: fluentd
+    R: C
+  - T: "2018-09-01"
+    C: DeNA
+    F: "2016-07-01"
+    R: C
+  - T: "2018-09-01"
+    C: DeNA
+    F: "2016-07-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2018-09-01"
+    P: fluentd
+    R: C
+  I:
+  - E: namusyaka!gmail.com
+    M: namusyaka
+    S: git
+  - E: namusyaka!gmail.com
+    M: namusyaka
+    S: github
+    U: namusyaka
+  B: 0
+  U: namusyaka
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - S: github
+    U: nanahpang
+  B: 0
+  U: nanahpang
+- E: nancydan!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-11-18"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: nancydan!us.ibm.com
+    M: nancydan
+    S: slack
+    U: nancydan
+  B: 0
+  U: nancydan
+- C: CN
+  R:
+  - T: "2100-01-01"
+    C: Qunar
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Qunar
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - S: github
+    U: nancykyo
+  B: 0
+  U: nancykyo
+- E: weinancy!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-06-15"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: weinancy!us.ibm.com
+    M: nancyw
+    S: slack
+    U: nancyw
+  B: 0
+  U: nancyw
+- E: np00602065!techmahindra.com
+  R:
+  - T: "2100-01-01"
+    C: Tech Mahindra Ltd.
+    F: "2019-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Tech Mahindra Ltd.
+    F: "2019-07-01"
+    P: onap
+    R: C
+  I:
+  - E: np00602065!techmahindra.com
+    M: nandkumar patil
+    S: gerrit
+    U: nandkumar
+  - E: np00602065!techmahindra.com
+    M: nandkumar
+    S: git
+  - M: nandkumar patil
+    S: jira
+    U: nandkumar
+  - E: np00602065!techmahindra.com
+    M: nandkumar patil
+    S: jira
+    U: nandkumar
+  B: 0
+  U: nandkumar patil
+- E: nanduni!wso2.com
+  R:
+  - T: "2100-01-01"
+    C: WSO2
+    F: "2016-01-06"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: nanduni!wso2.com
+    M: nanduni
+    S: slack
+    U: nanduni
+  B: 0
+  U: nanduni
+- E: naomi.dickerson!intel.com
+  R:
+  - T: "2017-12-09"
+    C: Intel Corporation
+    F: "2015-09-24"
+    P: yocto
+    R: C
+  I:
+  - E: naomi.dickerson!intel.com
+    S: bugzilla
+    U: naomi.dickerson
+  - E: naomi.dickerson!intel.com
+    M: Naomi Dickerson
+    S: bugzilla
+    U: naomi.dickerson
+  B: 0
+  U: naomi.dickerson
+- E: naota!elisp.net
+  R:
+  - T: "2014-03-01"
+    C: Riken
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-10-01"
+    C: Fujitsu
+    F: "2014-03-01"
+    P: acrn/acrn
+    R: C
+  - T: "2014-10-01"
+    C: Fujitsu
+    F: "2014-03-01"
+    P: cephfoundation
+    R: C
+  - T: "2014-10-01"
+    C: Fujitsu
+    F: "2014-03-01"
+    P: cip
+    R: C
+  - T: "2014-10-01"
+    C: Fujitsu
+    F: "2014-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-10-01"
+    C: Fujitsu
+    F: "2014-03-01"
+    P: elisa
+    R: C
+  - T: "2014-10-01"
+    C: Fujitsu
+    F: "2014-03-01"
+    P: kernelci
+    R: C
+  - T: "2014-10-01"
+    C: Fujitsu
+    F: "2014-03-01"
+    P: korg
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2014-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: IIJ Innovation
+    F: "2015-03-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: naota!elisp.net
+    M: naota
+    S: git
+  B: 0
+  U: naota
+- E: narendra.parigi!accenture.com
+  R:
+  - T: "2100-01-01"
+    C: Accenture
+    F: "2016-11-10"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: narendra.parigi!accenture.com
+    M: narendra.parigi
+    S: slack
+    U: narendra.parigi
+  B: 0
+  U: narendra.parigi
+- C: JP
+  R:
+  - T: "2100-01-01"
+    C: LINE
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: LINE
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: nasa9084
+    S: github
+    U: nasa9084
+  B: 0
+  U: nasa9084
+- C: JP
+  E: nasa9084!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: LINE
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: LINE
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: nasa9084!users.noreply.github.com
+    M: nasa9084
+    S: git
+  B: 0
+  U: nasa9084
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: fabric
+    R: C
+  I:
+  - S: rocketchat
+    U: nasht00
+  B: 0
+  U: nasht00
+- E: atanas.mirchev!est.fujitsu.com
+  R:
+  - T: "2017-03-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-03-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Volkswagen
+    F: "2017-03-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Volkswagen
+    F: "2017-03-01"
+    P: openebs
+    R: C
+  I:
+  - E: atanas.mirchev!est.fujitsu.com
+    M: nasko
+    S: git
+  B: 0
+  U: nasko
+- E: nassima.setbel!capgemini.com
+  R:
+  - T: "2100-01-01"
+    C: Capgemini
+    F: "2017-02-14"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: nassima.setbel!capgemini.com
+    M: nassima
+    S: slack
+    U: nassima
+  B: 0
+  U: nassima
+- E: 5048814+99!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Reddit
+    F: "1900-01-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2100-01-01"
+    C: Reddit
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: 5048814+99!users.noreply.github.com
+    M: natalie
+    S: git
+  B: 0
+  U: natalie
+- R:
+  - T: "2100-01-01"
+    C: Reddit
+    F: "1900-01-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2100-01-01"
+    C: Reddit
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: natalie
+    S: github
+    U: "99"
+  B: 0
+  U: natalie
+- C: US
+  E: natalie.p.arellano!gmail.com
+  R:
+  - T: "2019-08-02"
+    C: Pivotal
+    F: "2016-09-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: female
+  I:
+  - E: narellano!pivotal.io
+    M: Natalie Arellano
+    S: git
+  - E: natalie.p.arellano!gmail.com
+    M: Natalie Arellano
+    S: git
+  - E: natalieparellano!users.noreply.github.com
+    M: Natalie Arellano
+    S: git
+  - M: Natalie Arellano
+    S: github
+    U: natalieparellano
+  - E: narellano!pivotal.io
+    M: Natalie Arellano
+    S: slack
+    U: narellano
+  - E: natalie.p.arellano!gmail.com
+    M: Natalie Arellano
+    S: slack
+    U: natalieparellano
+  - E: narellano!pivotal.io
+    M: narellano
+    S: slack
+    U: narellano
+  - E: natalie.p.arellano!gmail.com
+    M: natalieparellano
+    S: slack
+    U: natalieparellano
+  B: 0
+  U: natalieparellano
 - E: natarajan.subramanian!techmahindra.com
   R:
   - T: "2016-06-01"
@@ -14858,6 +15266,11 @@ P:
     C: eInfochips
     F: "2014-05-01"
     P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: eInfochips
+    F: "2014-05-01"
+    P: zep
     R: C
   I:
   - E: guptaprabhunath678!gmail.com
@@ -33709,24 +34122,6 @@ P:
     U: samuelyao314
   B: 0
   U: samuelyao314
-- E: samwinslet!uk.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2018-10-31"
-    P: caliper
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2018-10-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  I:
-  - E: samwinslet!uk.ibm.com
-    M: samwinslet
-    S: git
-  B: 0
-  U: samwinslet
 - R:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -62688,344 +63083,3 @@ P:
     S: pipermail
   B: 0
   U: tom nadeau
-- E: tom.boucher!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-08-02"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: tom.boucher!us.ibm.com
-    M: tom.boucher
-    S: slack
-    U: tom.boucher
-  B: 0
-  U: tom.boucher
-- E: tom.connor!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2016-02-07"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: tom.connor!emc.com
-    M: tom.connor
-    S: slack
-    U: tom.connor
-  B: 0
-  U: tom.connor
-- E: tom!onlab.us
-  R:
-  - T: "2014-07-01"
-    C: HP
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-07-01"
-    C: ON.Lab
-    F: "2014-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-07-01"
-    C: ON.Lab
-    F: "2014-07-01"
-    P: onf-onos
-    R: C
-  - T: "2017-07-01"
-    C: ON.Lab
-    F: "2014-07-01"
-    P: onf-sd-ran
-    R: C
-  - T: "2100-01-01"
-    C: Open Networking Foundation
-    F: "2017-07-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: tom!onlab.us
-    M: tom
-    S: git
-  B: 0
-  U: tom
-- R:
-  - T: "2015-01-01"
-    C: Stryker
-    F: "1900-01-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2016-12-01"
-    C: eHealth
-    F: "2015-01-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2017-07-01"
-    C: Gracenote
-    F: "2016-12-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2100-01-01"
-    C: ZapLabs
-    F: "2017-07-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: ZapLabs
-    F: "2017-07-01"
-    P: cncf/cloudcustodian
-    R: C
-  I:
-  - M: tomarv2
-    S: github
-    U: tomarv2
-  B: 0
-  U: tomarv2
-- E: tomas.makara!gooddata.com
-  R:
-  - T: "2100-01-01"
-    C: GoodData
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: tomas.makara!gooddata.com
-    M: tomas makara
-    S: git
-  B: 0
-  U: tomas makara
-- E: tomas.zigardi!accenture.com
-  R:
-  - T: "2100-01-01"
-    C: Accenture
-    F: "1900-01-01"
-    P: hyperledger-labs/blockchain-automation-framework
-    R: C
-  - T: "2100-01-01"
-    C: Accenture
-    F: "1900-01-01"
-    P: hyperledger/hyperledger-labs
-    R: C
-  I:
-  - E: tomas.zigardi!accenture.com
-    M: tomas-zigardi
-    S: git
-  B: 0
-  U: tomas-zigardi
-- E: tomas.vahancik!pantheon.sk
-  R:
-  - T: "2017-11-25"
-    C: PANTHEON.tech
-    F: "2016-01-01"
-    P: dpdk
-    R: C
-  - T: "2017-11-25"
-    C: PANTHEON.tech
-    F: "2016-01-01"
-    P: odl
-    R: C
-  I:
-  - E: tomas.vahancik!pantheon.sk
-    M: Tomas Vahancik
-    S: gerrit
-    U: vahancik
-  - E: tomas.vahancik!pantheon.tech
-    M: Tomas Vahancik
-    S: gerrit
-  - E: tomas.vahancik!pantheon.tech
-    M: tomas.vahancik
-    S: gerrit
-  - E: tomas.vahancik!pantheon.sk
-    M: Tomas Vahancik
-    S: git
-  - E: tomas.vahancik!pantheon.tech
-    M: Tomáš Vahančík
-    S: git
-  - E: tomas.vahancik!pantheon.sk
-    M: tomas.vahancik
-    S: git
-  - E: tomas.vahancik!pantheon.tech
-    M: tomas.vahancik
-    S: git
-  - E: tomas.vahancik!pantheon.tech
-    M: Tomáš Vahančík
-    S: groupsio
-  - E: tomas.vahancik!pantheon.tech
-    M: Tomas Vahancik
-    S: jira
-    U: tomas.vahancik
-  - E: tomas.vahancik!pantheon.tech
-    M: Tomas Vahancik
-    S: pipermail
-  B: 0
-  U: tomas.vahancik
-- R:
-  - T: "2016-12-01"
-    C: PZU
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-12-01"
-    C: PZU
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: EY
-    F: "2016-12-01"
-    P: cncf/shared
-    R: C
-  I:
-  - S: github
-    U: tomaszbech
-  B: 0
-  U: tomaszbech
-- E: tomaszbech!users.noreply.github.com
-  R:
-  - T: "2016-12-01"
-    C: PZU
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-12-01"
-    C: PZU
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: EY
-    F: "2016-12-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: tomaszbech!users.noreply.github.com
-    M: tomaszbech
-    S: git
-  B: 0
-  U: tomaszbech
-- E: tomaszbechdev!gmail.com
-  R:
-  - T: "2016-12-01"
-    C: PZU
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-12-01"
-    C: PZU
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: EY
-    F: "2016-12-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: tomaszbechdev!gmail.com
-    M: tomaszbech
-    S: git
-  B: 0
-  U: tomaszbech
-- R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: fabric
-    R: C
-  I:
-  - S: rocketchat
-    U: tomconte
-  B: 0
-  U: tomconte
-- R:
-  - T: "2016-05-01"
-    C: Metaswitch
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-09-01"
-    C: Project Calico
-    F: "2016-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-10-01"
-    C: Tigera
-    F: "2018-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Vanta
-    F: "2018-10-01"
-    P: cncf/shared
-    R: C
-  I:
-  - S: linux-foundation:irc
-    U: tomdee
-  B: 0
-  U: tomdee
-- R:
-  - T: "2016-05-01"
-    C: Metaswitch
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-09-01"
-    C: Project Calico
-    F: "2016-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-10-01"
-    C: Tigera
-    F: "2018-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Vanta
-    F: "2018-10-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: tomdee
-    S: supybot
-    U: tomdee
-  B: 0
-  U: tomdee
-- E: tomer.oster!amdocs.com
-  R:
-  - T: "2017-10-18"
-    C: Amdocs
-    F: "2017-05-10"
-    R: C
-  - T: "2017-10-18"
-    C: Amdocs
-    F: "2017-05-10"
-    P: onap
-    R: C
-  I:
-  - M: tomer oster
-    S: confluence
-    U: tomero
-  - E: tomer.oster!amdocs.com
-    M: tomer oster
-    S: jira
-    U: tomero
-  B: 0
-  U: tomer oster
-- E: tommyg!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-10-18"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: tommyg!us.ibm.com
-    M: tomgallacher
-    S: slack
-    U: tomgallacher
-  B: 0
-  U: tomgallacher

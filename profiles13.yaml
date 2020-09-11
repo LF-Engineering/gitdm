@@ -1,4 +1,106 @@
 P:
+- C: CA
+  R:
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Jean-Francois Chevrette
+    S: github
+    U: jfchevrette
+  B: 0
+  U: Jean-Francois Chevrette
+- C: CA
+  E: jf.cron0!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2016-01-22"
+    C: Funio
+    F: "2015-07-16"
+    P: baetyl
+    R: C
+  I:
+  - E: jf.cron0!gmail.com
+    M: Jean-Francois Chevrette
+    S: git
+  B: 0
+  U: Jean-Francois Chevrette
+- C: CA
+  E: jfchevrette!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: Funio
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-10-01"
+    C: Funio
+    F: "2018-09-29"
+    P: baetyl
+    R: C
+  I:
+  - E: jfchevrette!gmail.com
+    M: Jean-Francois Chevrette
+    S: git
+  - E: jfchevrette!gmail.com
+    M: Jean-Francois Chevrette
+    S: github
+    U: jfchevrette
+  B: 0
+  U: Jean-Francois Chevrette
+- E: dagenaisj!sonatest.com
+  R:
+  - T: "2019-02-13"
+    C: Sonatest Limited
+    F: "2012-01-01"
+    P: yocto
+    R: C
+  I:
+  - E: dagenaisj!sonatest.com
+    M: Jean-Francois Dagenais
+    S: git
+  B: 0
+  U: Jean-Francois Dagenais
 - E: jeff.dagenais!gmail.com
   R:
   - T: "2100-01-01"
@@ -38733,6 +38835,11 @@ P:
     F: "2015-07-01"
     P: lfai/amundsen
     R: C
+  - T: "2100-01-01"
+    C: CoreFragment Technologies
+    F: "2015-07-01"
+    P: zep
+    R: C
   I:
   - E: jitendra!corefragment.com
     M: Jitendra Zala
@@ -39709,6 +39816,11 @@ P:
     C: ASSA ABLOY i Sverige
     F: "2019-01-01"
     P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: ASSA ABLOY i Sverige
+    F: "2019-01-01"
+    P: zep
     R: C
   I:
   - E: joachim.holst!assaabloy.com
@@ -62678,167 +62790,3 @@ P:
     S: git
   B: 0
   U: John Spray
-- E: jstarich!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-07-05"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: jstarich!us.ibm.com
-    M: John Starich
-    S: slack
-    U: jstarich
-  B: 0
-  U: John Starich
-- E: jostarks!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2017-07-04"
-    C: Microsoft Corporation
-    F: "2017-04-01"
-    R: C
-  S: male
-  I:
-  - E: jostarks!microsoft.com
-    M: John Starks
-    S: git
-  - E: jostarks!microsoft.com
-    M: John Starks
-    S: github
-    U: jstarks
-  B: 0
-  U: John Starks
-- E: strazpdj!gmail.com
-  R:
-  - T: "2015-03-25"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-03-03"
-    P: dpdk
-    R: C
-  - T: "2015-03-25"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-03-03"
-    P: odl
-    R: C
-  - T: "2018-11-17"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-06-02"
-    P: dpdk
-    R: C
-  - T: "2018-11-17"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-06-02"
-    P: onap
-    R: C
-  I:
-  - M: John Strassner
-    S: confluence
-    U: strazzie
-  - E: strazpdj!gmail.com
-    M: John Strassner
-    S: groupsio
-  - E: strazpdj!gmail.com
-    M: John Strassner
-    S: pipermail
-  B: 0
-  U: John Strassner
-- C: US
-  E: jstrunk!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-12-10"
-    P: pnda
-    R: C
-  S: male
-  I:
-  - E: jstrunk!redhat.com
-    M: John Strunk
-    S: git
-  - E: jstrunk!redhat.com
-    M: John Strunk
-    S: github
-    U: JohnStrunk
-  B: 0
-  U: John Strunk
-- E: john.stultz!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: john.stultz!linaro.org
-    M: John Stultz
-    S: git
-  B: 0
-  U: John Stultz
-- R:
-  - T: "2017-08-01"
-    C: Arkiv Digital
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2017-12-01"
-    C: Atlas Copco
-    F: "2017-08-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Epiroc
-    F: "2017-12-01"
-    P: nats
-    R: C
-  I:
-  - M: John Susi
-    S: github
-    U: johnsusi
-  B: 0
-  U: John Susi
