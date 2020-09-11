@@ -1,4 +1,183 @@
 P:
+- E: zyqsempai!mail.ru
+  R:
+  - T: "2015-12-01"
+    C: YOPESO
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: YOPESO
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-12-01"
+    C: YOPESO
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2015-12-01"
+    C: YOPESO
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-12-01"
+    C: YOPESO
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2017-06-01"
+    C: OpsWay
+    F: "2015-12-01"
+    R: C
+  - T: "2017-06-01"
+    C: OpsWay
+    F: "2015-12-01"
+    P: cncf
+    R: C
+  - T: "2017-06-01"
+    C: OpsWay
+    F: "2015-12-01"
+    P: containerd
+    R: C
+  - T: "2017-06-01"
+    C: OpsWay
+    F: "2015-12-01"
+    P: k8s
+    R: C
+  - T: "2017-06-01"
+    C: OpsWay
+    F: "2015-12-01"
+    P: nats
+    R: C
+  - T: "2017-07-01"
+    C: Gisauto
+    F: "2017-06-01"
+    R: C
+  - T: "2017-07-01"
+    C: Gisauto
+    F: "2017-06-01"
+    P: cncf
+    R: C
+  - T: "2017-07-01"
+    C: Gisauto
+    F: "2017-06-01"
+    P: containerd
+    R: C
+  - T: "2017-07-01"
+    C: Gisauto
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2017-07-01"
+    C: Gisauto
+    F: "2017-06-01"
+    P: nats
+    R: C
+  - T: "2018-03-01"
+    C: Shagreen
+    F: "2017-07-01"
+    R: C
+  - T: "2018-03-01"
+    C: Shagreen
+    F: "2017-07-01"
+    P: cncf
+    R: C
+  - T: "2018-03-01"
+    C: Shagreen
+    F: "2017-07-01"
+    P: containerd
+    R: C
+  - T: "2018-03-01"
+    C: Shagreen
+    F: "2017-07-01"
+    P: k8s
+    R: C
+  - T: "2018-03-01"
+    C: Shagreen
+    F: "2017-07-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Pentalog
+    F: "2018-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: Pentalog
+    F: "2018-03-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Pentalog
+    F: "2018-03-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Pentalog
+    F: "2018-03-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Pentalog
+    F: "2018-03-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - E: zyqsempai!mail.ru
+    M: Boris Popovschi
+    S: git
+  - E: zyqsempai!mail.ru
+    M: Boris Popovschi
+    S: github
+    U: Zyqsempai
+  B: 0
+  U: Boris Popovschi
+- E: boris.protopopov!actifio.com
+  R:
+  - T: "2014-01-01"
+    C: Nexenta
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2017-07-01"
+    C: Actifio
+    F: "2014-01-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2017-07-01"
+    P: openebs
+    R: C
+  I:
+  - E: boris.protopopov!actifio.com
+    M: Boris Protopopov
+    S: git
+  B: 0
+  U: Boris Protopopov
+- E: boris.protopopov!nexenta.com
+  R:
+  - T: "2014-01-01"
+    C: Nexenta
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2017-07-01"
+    C: Actifio
+    F: "2014-01-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2017-07-01"
+    P: openebs
+    R: C
+  I:
+  - E: boris.protopopov!nexenta.com
+    M: Boris Protopopov
+    S: git
+  B: 0
+  U: Boris Protopopov
 - E: bprotopopov!users.noreply.github.com
   R:
   - T: "2014-01-01"
@@ -62109,45 +62288,3 @@ P:
     U: chethanv28
   B: 0
   U: Chethan Venkatesh
-- E: chethana!luminanetworks.com
-  R:
-  - T: "2019-01-23"
-    C: Lumina Networks
-    F: "2017-10-19"
-    P: dpdk
-    R: C
-  - T: "2019-01-23"
-    C: Lumina Networks
-    F: "2017-10-19"
-    P: odl
-    R: C
-  I:
-  - E: chethana!luminanetworks.com
-    M: Chethana Lakshmanappa
-    S: gerrit
-    U: chethana7
-  - E: chethana!luminanetworks.com
-    M: Chethana Lakshmanappa
-    S: git
-  - E: chethana!luminanetworks.com
-    M: Chethana Lakshmanappa
-    S: jira
-    U: chethana7
-  - E: chethana!luminanetworks.com
-    M: Chethana Lakshmanappa
-    S: pipermail
-  B: 0
-  U: Chethana Lakshmanappa
-- E: cwleung!kth.se
-  R:
-  - T: "2018-10-14"
-    C: KTH Royal Institute of Technology
-    F: "2018-10-01"
-    P: yocto
-    R: C
-  I:
-  - E: cwleung!kth.se
-    M: Cheuk Wing Leung
-    S: git
-  B: 0
-  U: Cheuk Wing Leung

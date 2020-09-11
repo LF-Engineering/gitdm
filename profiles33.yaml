@@ -1,4 +1,927 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Vodafone Group Services Limited
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Vodafone Group Services Limited
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Vodafone Group Services Limited
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: trobert2
+  B: 0
+  U: trobert2
+- E: tingirica.robert!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Vodafone Group Services Limited
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Vodafone Group Services Limited
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Vodafone Group Services Limited
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: tingirica.robert!gmail.com
+    M: Robert Tingirică
+    S: git
+  - E: tingirica.robert!gmail.com
+    M: trobert2
+    S: git
+  B: 0
+  U: trobert2
+- E: trobertsjr!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2016-06-09"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: trobertsjr!vmware.com
+    M: trobertsjr
+    S: slack
+    U: trobertsjr
+  B: 0
+  U: trobertsjr
+- E: troy.sdu!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: wecash
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: wecash
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: wecash
+    F: "1900-01-01"
+    P: telepresence
+    R: C
+  I:
+  - E: troy.sdu!gmail.com
+    M: troy.wang
+    S: github
+    U: ermazi
+  B: 0
+  U: troy.wang
+- C: CN
+  E: troy.sdu!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: wecash
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: wecash
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: troy.sdu!gmail.com
+    M: troy
+    S: github
+    U: ermazi
+  B: 0
+  U: troy
+- E: troy.ronda!securekey.com
+  R:
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: aries
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: besu
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: grid
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: hyperledger-labs/fabric-block-archiving
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: hyperledger-labs/pluggable-hcs
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: indy
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: ursa
+    R: C
+  - T: "2007-07-01"
+    C: Microsoft Corporation
+    F: "2007-05-01"
+    P: fabric
+    R: M
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: aries
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: besu
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: grid
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: hyperledger-labs/fabric-block-archiving
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: hyperledger-labs/pluggable-hcs
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: indy
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: ursa
+    R: C
+  - T: "2008-07-01"
+    C: OANDA
+    F: "2008-01-01"
+    P: fabric
+    R: M
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: aries
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: besu
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: grid
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: hyperledger-labs/fabric-block-archiving
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: hyperledger-labs/pluggable-hcs
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: hyperledger/hyperledger-twgc
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: hyperledger/shared
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: indy
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: ursa
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2008-08-01"
+    P: fabric
+    R: M
+  I:
+  - M: Troy Ronda
+    S: confluence
+    U: troyronda
+  - E: troy!troyronda.com
+    M: Troy Ronda
+    S: confluence
+    U: troyronda
+  - E: troy!troyronda.com
+    M: Troy Ronda
+    S: gerrit
+    U: troyronda
+  - E: troy!troyronda.com
+    M: Troy Ronda
+    S: git
+  - E: troy.ronda!securekey.com
+    M: Troy Ronda
+    S: git
+  - M: Troy Ronda
+    S: github
+    U: troyronda
+  - E: troy!troyronda.com
+    M: Troy Ronda
+    S: github
+    U: troyronda
+  - E: troy!troyronda.com
+    M: Troy Ronda
+    S: groupsio
+  - M: Troy Ronda
+    S: jira
+    U: troyronda
+  - E: troy!troyronda.com
+    M: Troy Ronda
+    S: jira
+    U: troyronda
+  - M: Troy Ronda
+    S: meetup
+    U: "121295652"
+  - S: rocketchat
+    U: troyronda
+  - M: troyronda
+    S: supybot
+    U: troyronda
+  B: 0
+  U: troyronda
+- E: 1753177225!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: 1753177225!qq.com
+    M: truman.p.du
+    S: git
+  B: 0
+  U: truman.p.du
+- E: d.taylor!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2017-01-04"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: d.taylor!sap.com
+    M: trustedbi
+    S: slack
+    U: trustedbi
+  B: 0
+  U: trustedbi
+- E: todd.christ!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-01-19"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: todd.christ!intel.com
+    M: tschrist
+    S: slack
+    U: tschrist
+  B: 0
+  U: tschrist
+- R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - S: github
+    U: tserlin
+  B: 0
+  U: tserlin
+- E: tspero!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2016-02-29"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: tspero!pivotal.io
+    M: tspero
+    S: slack
+    U: tspero
+  B: 0
+  U: tspero
+- E: suryaseetharaman.9!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: suryaseetharaman.9!gmail.com
+    M: tssurya
+    S: git
+  B: 0
+  U: tssurya
+- E: tstannard!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2018-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: tstannard!pivotal.io
+    M: Teal Stannard
+    S: git
+  - S: github
+    U: tstannard
+  - M: Teal Stannard
+    S: github
+    U: tstannard
+  - E: tstannard!pivotal.io
+    M: Teal Stannard
+    S: github
+    U: tstannard
+  - E: tstannard!pivotal.io
+    M: Teal Stannard
+    S: slack
+    U: tstannard
+  B: 0
+  U: tstannard
+- E: tsurdilo!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cloudevents
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  I:
+  - E: tsurdilo!redhat.com
+    M: tsurdilo
+    S: git
+  B: 0
+  U: tsurdilo
+- E: wangyetao!inspur.com
+  R:
+  - T: "2100-01-01"
+    C: Inspur
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: wangyetao!inspur.com
+    M: ttonline6
+    S: git
+  B: 0
+  U: ttonline6
+- E: 546568711!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Inspur
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: 546568711!qq.com
+    M: ttonline
+    S: git
+  B: 0
+  U: ttonline
+- E: wangyetao!inspur.com
+  R:
+  - T: "2100-01-01"
+    C: Inspur
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Inspur
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: wangyetao!inspur.com
+    M: ttonline
+    S: git
+  - E: wangyetao!inspur.com
+    M: ttonline
+    S: github
+    U: ttonline6
+  B: 0
+  U: ttonline
+- E: ttpcodes!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: longhorn
+    R: C
+  I:
+  - E: ttpcodes!users.noreply.github.com
+    M: ttpcodes
+    S: git
+  B: 0
+  U: ttpcodes
+- R:
+  - T: "2100-01-01"
+    C: OpenStack Foundation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - S: linux-foundation:irc
+    U: ttx
+  B: 0
+  U: ttx
+- R:
+  - T: "2100-01-01"
+    C: OpenStack Foundation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: ttx
+    S: supybot
+    U: ttx
+  B: 0
+  U: ttx
+- R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: tuanvcw
+    S: github
+    U: tuanvcw
+  B: 0
+  U: tuanvcw
+- E: tuanvc!vn.fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: tuf
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2017-06-14"
+    C: Fujitsu
+    F: "2017-06-06"
+    P: stackstorm
+    R: C
+  - T: "2019-02-28"
+    C: Fujitsu
+    F: "2019-02-15"
+    P: baetyl
+    R: C
+  I:
+  - E: tuanvc!vn.fujitsu.com
+    M: Vu Cong Tuan
+    S: git
+  - E: tuanvc!vn.fujitsu.com
+    M: tuanvcw
+    S: git
+  B: 0
+  U: tuanvcw
+- E: tuanvcw!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: tuf
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  I:
+  - E: tuanvcw!gmail.com
+    M: tuanvcw
+    S: github
+    U: tuanvcw
+  B: 0
+  U: tuanvcw
+- R:
+  - T: "2016-11-01"
+    C: Altisource
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2018-04-01"
+    C: J.P. Morgan
+    F: "2016-11-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2018-07-01"
+    C: Independent
+    F: "2018-04-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: FICO
+    F: "2018-07-01"
+    P: cncf/operatorframework
+    R: C
+  I:
+  - M: tuhin subhra mandal
+    S: github
+    U: mandaltu123
+  B: 0
+  U: tuhin subhra mandal
+- E: tulasi.r!tcs.com
+  R:
+  - T: "2100-01-01"
+    C: Tata
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-07-19"
+    C: Tata
+    F: "2016-07-05"
+    P: zep
+    R: C
+  I:
+  - E: tulasi.r!tcs.com
+    M: tulasinagraj
+    S: git
+  B: 0
+  U: tulasinagraj
+- E: bapstr!ethz.ch
+  R:
+  - T: "2016-04-12"
+    C: Auterion
+    F: "2014-11-04"
+    P: dronecode
+    R: C
+  I:
+  - E: bapstr!ethz.ch
+    M: tumbili
+    S: git
+  B: 0
+  U: tumbili
+- E: roman!px4.io
+  R:
+  - T: "2016-11-22"
+    C: Auterion
+    F: "2016-04-01"
+    P: dronecode
+    R: C
+  I:
+  - E: roman!px4.io
+    M: tumbili
+    S: git
+  B: 0
+  U: tumbili
+- C: CA
+  E: sjung!squareup.com
+  R:
+  - T: "2100-01-01"
+    C: Square, Inc.
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Square, Inc.
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Square, Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-10-06"
+    C: Square, Inc.
+    F: "2015-09-09"
+    P: baetyl
+    R: C
+  I:
+  - E: sjung!squareup.com
+    M: tummychow
+    S: git
+  B: 0
+  U: tummychow
+- C: US
+  E: mturon!nestlabs.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-09-01"
+    C: Google
+    F: "2016-05-12"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: mturon!nestlabs.com
+    M: turon
+    S: git
+  B: 0
+  U: turon
+- E: tusharty!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: opx
+    R: C
+  I:
+  - E: tusharty!broadcom.com
+    M: tushar-ty
+    S: git
+  B: 0
+  U: tushar-ty
+- E: tushar686!gmail.com
+  R:
+  - T: "2018-07-01"
+    C: Cognizant Technology Solutions
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-07-01"
+    C: Cognizant Technology Solutions
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Splunk
+    F: "2018-07-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: tushar686!gmail.com
+    M: tushar686
+    S: git
+  B: 0
+  U: tushar686
+- E: raphb.bis!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: NotFond
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  I:
+  - E: raphb.bis!gmail.com
+    M: tux
+    S: git
+  B: 0
+  U: tux
+- E: tuxoko!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Senao Networks
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  I:
+  - E: tuxoko!gmail.com
+    M: tuxoko
+    S: git
+  B: 0
+  U: tuxoko
 - E: tvesely!pivotal.io
   R:
   - T: "2100-01-01"

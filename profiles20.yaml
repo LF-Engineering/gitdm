@@ -1,5 +1,730 @@
 P:
 - R:
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  I:
+  - S: github
+    U: NeoCN
+  B: 0
+  U: NeoCN
+- E: raise-0!163.com
+  R:
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  I:
+  - E: raise-0!163.com
+    M: NeoCN
+    S: git
+  B: 0
+  U: NeoCN
+- E: jiri!kerestes.cz
+  R:
+  - T: "2100-01-01"
+    C: Trustica s.r.o.
+    F: "2013-06-01"
+    P: zep
+    R: C
+  I:
+  - E: jiri!kerestes.cz
+    M: Jiří Keresteš
+    S: git
+  - M: Jiří Keresteš
+    S: github
+    U: Nephirus
+  - M: Nephirus
+    S: github
+    U: Nephirus
+  - E: jiri!kerestes.cz
+    M: Jiří Keresteš
+    S: slack
+    U: jiri
+  B: 0
+  U: Nephirus
+- C: JP
+  R:
+  - T: "2019-02-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    R: C
+  - T: "2019-02-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  - T: "2019-02-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2019-02-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2019-02-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    P: cncf/dex
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - M: Neri Marschik
+    S: github
+    U: codesuki
+  B: 0
+  U: Neri Marschik
+- C: JP
+  E: codesuki!users.noreply.github.com
+  R:
+  - T: "2019-02-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    R: C
+  - T: "2019-02-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: CyberAgent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2019-02-01"
+    P: envoy
+    R: C
+  S: male
+  I:
+  - E: codesuki!users.noreply.github.com
+    M: Neri Marschik
+    S: git
+  B: 0
+  U: Neri Marschik
+- E: nermin.mohamed!huawei.com
+  R:
+  - T: "2018-10-23"
+    C: Huawei Technologies Co., Ltd.
+    F: "2017-05-11"
+    R: C
+  - T: "2018-10-23"
+    C: Huawei Technologies Co., Ltd.
+    F: "2017-05-11"
+    P: onap
+    R: C
+  I:
+  - M: Nermin Mohamed
+    S: confluence
+    U: mohamedn
+  - E: nermin.mohamed!huawei.com
+    M: Nermin Mohamed
+    S: groupsio
+  - E: nermin.mohamed!huawei.com
+    M: Nermin Mohamed
+    S: pipermail
+  B: 0
+  U: Nermin Mohamed
+- E: Netaji.Surve!amdocs.com
+  R:
+  - T: "2019-07-05"
+    C: Amdocs
+    F: "2017-06-30"
+    R: C
+  - T: "2019-07-05"
+    C: Amdocs
+    F: "2017-06-30"
+    P: onap
+    R: C
+  I:
+  - E: Netaji.Surve!amdocs.com
+    M: Netaji Surve
+    S: gerrit
+    U: Netajisu
+  - E: Netaji.Surve!amdocs.com
+    M: Netajisu
+    S: git
+  - E: Netaji.Surve!amdocs.com
+    M: Netaji Surve
+    S: groupsio
+  - M: Netaji Surve
+    S: jira
+    U: Netajisu
+  - E: Netaji.Surve!amdocs.com
+    M: Netaji Surve
+    S: jira
+    U: Netajisu
+  - E: Netaji.Surve!amdocs.com
+    M: Netaji Surve
+    S: pipermail
+  B: 0
+  U: Netaji Surve
+- E: Sameera.Netala!cavium.com
+  R:
+  - T: "2100-01-01"
+    C: Cavium
+    F: "2017-02-13"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Cavium
+    F: "2017-02-13"
+    P: dpdk
+    R: C
+  I:
+  - E: Sameera.Netala!cavium.com
+    M: Netala, Sameera
+    S: pipermail
+  B: 0
+  U: Netala, Sameera
+- E: netanel!amazon.com
+  R:
+  - T: "2015-01-01"
+    C: Annapurna
+    F: "1900-01-01"
+    R: C
+  - T: "2015-01-01"
+    C: Annapurna
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2015-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2015-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: netanel!amazon.com
+    M: Netanel Belgazal
+    S: git
+  B: 0
+  U: Netanel Belgazal
+- E: craig.neth!verizon.com
+  R:
+  - T: "2014-07-12"
+    C: Verizon Communications
+    F: "2014-07-03"
+    P: yocto
+    R: C
+  I:
+  - E: craig.neth!verizon.com
+    M: Neth, Craig Allen
+    S: groupsio
+  - E: craig.neth!verizon.com
+    M: Neth, Craig Allen
+    S: pipermail
+  B: 0
+  U: Neth, Craig Allen
+- E: info!cncf.io
+  R:
+  - T: "2100-01-01"
+    C: (Robots)
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  I:
+  - E: info!cncf.io
+    M: Netlify Publisher
+    S: git
+  B: 0
+  U: Netlify Publisher
+- C: FR
+  E: netmonk!netmonk.org
+  R:
+  - T: "2100-01-01"
+    C: Netmonk
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Netmonk
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: netmonk!netmonk.org
+    M: Netmonk
+    S: git
+  - E: netmonk!netmonk.org
+    M: netmonk
+    S: git
+  - E: netmonk!netmonk.org
+    M: Netmonk
+    S: github
+    U: netmonk
+  B: 0
+  U: Netmonk
+- E: nvong!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - E: nvong!twitter.com
+    M: Neuman Vong
+    S: git
+  B: 0
+  U: Neuman Vong
+- E: neo.neutron!gmail.com
+  R:
+  - T: "2017-07-01"
+    C: Debian
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2017-07-01"
+    C: Debian
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Cenergy Innovation
+    F: "2017-07-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Cenergy Innovation
+    F: "2017-07-01"
+    P: k8s
+    R: C
+  I:
+  - E: neo.neutron!gmail.com
+    M: Neutron Soutmun
+    S: git
+  - E: neo.neutron!gmail.com
+    M: Neutron Soutmun
+    S: github
+    U: neutronth
+  B: 0
+  U: Neutron Soutmun
+- E: nevenc!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2016-08-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: nevenc!pivotal.io
+    M: Neven Cvetkovic
+    S: slack
+    U: nevenc
+  B: 0
+  U: Neven Cvetkovic
+- E: neven.miculinic!gmail.com
+  R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: telepresence
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: baetyl
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: cncf/dex
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: cncf/k3s
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: container-networking-interface
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: containerd
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: helm
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: jaeger
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: nats
+    R: C
+  - T: "2015-09-01"
+    C: Facebook, Inc.
+    F: "2015-07-01"
+    P: telepresence
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: baetyl
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: cncf/cni
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: cncf/dex
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: cncf/k3s
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: container-networking-interface
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: containerd
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: helm
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: jaeger
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: k8s
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: nats
+    R: C
+  - T: "2017-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: telepresence
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: baetyl
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: cncf/cni
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: cncf/dex
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: container-networking-interface
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: containerd
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: helm
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: jaeger
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: nats
+    R: C
+  - T: "2018-08-01"
+    C: Ozone Platform
+    F: "2017-07-01"
+    P: telepresence
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: cncf/dex
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: cni
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Kraken
+    F: "2018-08-01"
+    P: telepresence
+    R: C
+  S: male
+  I:
+  - E: neven.miculinic!gmail.com
+    M: Neven Miculinic
+    S: git
+  - E: neven.miculinic!gmail.com
+    M: Neven Miculinic
+    S: github
+    U: nmiculinic
+  B: 0
+  U: Neven Miculinic
+- E: Nevenko.Stupar!amd.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: Nevenko.Stupar!amd.com
+    M: Nevenko Stupar
+    S: git
+  B: 0
+  U: Nevenko Stupar
+- E: neville_george!cable.comcast.com
+  R:
+  - T: "2100-01-01"
+    C: Comcast
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: neville_george!cable.comcast.com
+    M: Neville George
+    S: git
+  B: 0
+  U: Neville George
+- R:
   - T: "2015-03-01"
     C: CashStar
     F: "1900-01-01"
@@ -61599,854 +62324,3 @@ P:
     S: git
   B: 0
   U: Patrick Caulfield
-- C: US
-  E: patlist!chanezon.com
-  R:
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/cnigenie
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/keptn
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: intoto
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: thanos
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: cncf/cnigenie
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: cncf/keptn
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: intoto
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: thanos
-    R: C
-  S: male
-  I:
-  - E: patlist!chanezon.com
-    M: Patrick Chanezon
-    S: git
-  - E: patlist!chanezon.com
-    M: Patrick Chanezon
-    S: git
-    U: chanezon
-  - M: Patrick Chanezon
-    S: oci_csv
-    U: chanezon
-  B: 0
-  U: Patrick Chanezon
-- C: GB
-  E: patrick.chanezon!microsoft.com
-  R:
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2015-03-15"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2015-03-15"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: patrick.chanezon!microsoft.com
-    M: Patrick Chanezon
-    S: github
-    U: chanezon
-  B: 0
-  U: Patrick Chanezon
-- E: coffeepac!gmail.com
-  R:
-  - T: "2013-03-01"
-    C: HP
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2013-03-01"
-    C: HP
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2013-03-01"
-    C: HP
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2013-03-01"
-    C: HP
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  - T: "2015-04-01"
-    C: MTN Satellite Communications
-    F: "2013-03-01"
-    P: cncf
-    R: C
-  - T: "2015-04-01"
-    C: MTN Satellite Communications
-    F: "2013-03-01"
-    P: cncf/k3s
-    R: C
-  - T: "2015-04-01"
-    C: MTN Satellite Communications
-    F: "2013-03-01"
-    P: k8s
-    R: C
-  - T: "2015-04-01"
-    C: MTN Satellite Communications
-    F: "2013-03-01"
-    P: vitess
-    R: C
-  - T: "2016-07-01"
-    C: PayScale
-    F: "2015-04-01"
-    P: cncf
-    R: C
-  - T: "2016-07-01"
-    C: PayScale
-    F: "2015-04-01"
-    P: cncf/k3s
-    R: C
-  - T: "2016-07-01"
-    C: PayScale
-    F: "2015-04-01"
-    P: k8s
-    R: C
-  - T: "2016-07-01"
-    C: PayScale
-    F: "2015-04-01"
-    P: vitess
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: cephfoundation
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: cncf
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: k8s
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: vitess
-    R: C
-  - T: "2018-10-23"
-    C: Independent
-    F: "2018-05-11"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2018-10-23"
-    C: Independent
-    F: "2018-05-11"
-    P: cncf
-    R: C
-  - T: "2018-10-23"
-    C: Independent
-    F: "2018-05-11"
-    P: cncf/k3s
-    R: C
-  - T: "2018-10-23"
-    C: Independent
-    F: "2018-05-11"
-    P: k8s
-    R: C
-  - T: "2018-10-23"
-    C: Independent
-    F: "2018-05-11"
-    P: vitess
-    R: C
-  - T: "2019-06-01"
-    C: Remitly
-    F: "2018-10-23"
-    P: cncf
-    R: C
-  - T: "2019-06-01"
-    C: Remitly
-    F: "2018-10-23"
-    P: cncf/k3s
-    R: C
-  - T: "2019-06-01"
-    C: Remitly
-    F: "2018-10-23"
-    P: k8s
-    R: C
-  - T: "2019-06-01"
-    C: Remitly
-    F: "2018-10-23"
-    P: vitess
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2019-06-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2019-06-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2019-06-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2019-06-01"
-    P: vitess
-    R: C
-  I:
-  - E: coffeepac!gmail.com
-    M: Patrick Christopher
-    S: git
-  B: 0
-  U: Patrick Christopher
-- E: patch!remitly.com
-  R:
-  - T: "2013-03-01"
-    C: HP
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2013-03-01"
-    C: HP
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  - T: "2015-04-01"
-    C: MTN Satellite Communications
-    F: "2013-03-01"
-    P: cncf
-    R: C
-  - T: "2015-04-01"
-    C: MTN Satellite Communications
-    F: "2013-03-01"
-    P: vitess
-    R: C
-  - T: "2016-07-01"
-    C: PayScale
-    F: "2015-04-01"
-    P: cncf
-    R: C
-  - T: "2016-07-01"
-    C: PayScale
-    F: "2015-04-01"
-    P: vitess
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: cncf
-    R: C
-  - T: "2018-05-11"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-07-01"
-    P: vitess
-    R: C
-  - T: "2018-10-23"
-    C: Independent
-    F: "2018-05-11"
-    P: cncf
-    R: C
-  - T: "2018-10-23"
-    C: Independent
-    F: "2018-05-11"
-    P: vitess
-    R: C
-  - T: "2019-06-01"
-    C: Remitly
-    F: "2018-10-23"
-    P: cncf
-    R: C
-  - T: "2019-06-01"
-    C: Remitly
-    F: "2018-10-23"
-    P: vitess
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2019-06-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2019-06-01"
-    P: vitess
-    R: C
-  I:
-  - E: patch!remitly.com
-    M: Patrick Christopher
-    S: git
-  B: 0
-  U: Patrick Christopher
-- E: patrichu!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2013-01-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2013-01-01"
-    P: odl
-    R: C
-  I:
-  - E: patrichu!cisco.com
-    M: Patrick Chu
-    S: gerrit
-    U: patrichu
-  - E: patrichu!cisco.com
-    M: Patrick Chu
-    S: git
-  - E: patrichu!cisco.com
-    M: Patrick Chu patrichu
-    S: pipermail
-  B: 0
-  U: Patrick Chu
-- R:
-  - T: "2100-01-01"
-    C: ProBoards Forums
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: ProBoards Forums
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Patrick Clinger
-    S: github
-    U: pclinger
-  B: 0
-  U: Patrick Clinger
-- E: pclinger!proboards.com
-  R:
-  - T: "2100-01-01"
-    C: ProBoards Forums
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: ProBoards Forums
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: pclinger!proboards.com
-    M: Patrick Clinger
-    S: git
-  B: 0
-  U: Patrick Clinger
-- E: patrick.crocker!gmail.com
-  R:
-  - T: "2016-12-15"
-    C: Pivotal
-    F: "2016-01-27"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: patrick.crocker!gmail.com
-    M: Patrick Crocker
-    S: git
-  - E: patrick.crocker!gmail.com
-    M: Patrick Crocker
-    S: slack
-    U: pcrocker
-  - E: pcrocker!pivotal.io
-    M: Patrick Crocker
-    S: slack
-    U: pcrocker
-  B: 0
-  U: Patrick Crocker
-- C: US
-  E: patrick.devivo!gmail.com
-  R:
-  - T: "2016-04-01"
-    C: MuleSoft
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2016-04-01"
-    C: MuleSoft
-    F: "1900-01-01"
-    P: cortex
-    R: C
-  - T: "2016-04-01"
-    C: MuleSoft
-    F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2017-02-01"
-    C: fact0ry
-    F: "2016-04-01"
-    P: argo
-    R: C
-  - T: "2017-02-01"
-    C: fact0ry
-    F: "2016-04-01"
-    P: cortex
-    R: C
-  - T: "2017-02-01"
-    C: fact0ry
-    F: "2016-04-01"
-    P: stackstorm
-    R: C
-  - T: "2017-09-01"
-    C: Gigster
-    F: "2017-02-01"
-    P: argo
-    R: C
-  - T: "2017-09-01"
-    C: Gigster
-    F: "2017-02-01"
-    P: cortex
-    R: C
-  - T: "2017-09-01"
-    C: Gigster
-    F: "2017-02-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Opendoor
-    F: "2017-09-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Opendoor
-    F: "2017-09-01"
-    P: cortex
-    R: C
-  - T: "2100-01-01"
-    C: Opendoor
-    F: "2017-09-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Opendoor
-    F: "2017-09-01"
-    P: webpack
-    R: C
-  S: male
-  I:
-  - E: patrick.devivo!gmail.com
-    M: Patrick DeVivo
-    S: git
-  - E: patrick.devivo!gmail.com
-    M: Patrick DeVivo
-    S: github
-    U: patrickdevivo
-  B: 0
-  U: Patrick DeVivo
-- C: FR
-  E: pdecat!gmail.com
-  R:
-  - T: "2015-03-15"
-    C: Generali France
-    F: "1900-01-01"
-    R: C
-  - T: "2015-03-15"
-    C: Generali France
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2015-03-15"
-    C: Generali France
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-03-15"
-    C: Generali France
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Morea
-    F: "2015-03-15"
-    R: C
-  - T: "2100-01-01"
-    C: Morea
-    F: "2015-03-15"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Morea
-    F: "2015-03-15"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Morea
-    F: "2015-03-15"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: pdecat!gmail.com
-    M: Patrick Decat
-    S: git
-  - E: pdecat!gmail.com
-    M: Patrick Decat
-    S: github
-    U: pdecat
-  B: 0
-  U: Patrick Decat
-- E: patrick.devine!docker.com
-  R:
-  - T: "2018-04-07"
-    C: Docker, Inc.
-    F: "2015-10-01"
-    R: C
-  I:
-  - E: patrick.devine!docker.com
-    M: Patrick Devine
-    S: git
-  B: 0
-  U: Patrick Devine
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - M: Patrick Donnelly
-    S: github
-    U: batrick
-  B: 0
-  U: Patrick Donnelly
-- C: US
-  E: batrick!batbytes.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: batrick!batbytes.com
-    M: Patrick Donnelly
-    S: git
-  B: 0
-  U: Patrick Donnelly
-- E: batrick!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: batrick!users.noreply.github.com
-    M: Patrick Donnelly
-    S: git
-  B: 0
-  U: Patrick Donnelly
-- C: US
-  E: pdonnell!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: pdonnell!redhat.com
-    M: Patrick Donnelly
-    S: git
-  B: 0
-  U: Patrick Donnelly
-- C: US
-  E: east.patrick!gmail.com
-  R:
-  - T: "2014-08-01"
-    C: BSQUARE
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: BSQUARE
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-08-01"
-    C: BSQUARE
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-08-01"
-    C: BSQUARE
-    F: "1900-01-01"
-    P: openpolicyagent
-    R: C
-  - T: "2100-01-01"
-    C: Styra
-    F: "1900-01-01"
-    R: C
-  - T: "2019-03-01"
-    C: Pure Storage
-    F: "2014-08-01"
-    R: C
-  - T: "2019-03-01"
-    C: Pure Storage
-    F: "2014-08-01"
-    P: helm
-    R: C
-  - T: "2019-03-01"
-    C: Pure Storage
-    F: "2014-08-01"
-    P: k8s
-    R: C
-  - T: "2019-03-01"
-    C: Pure Storage
-    F: "2014-08-01"
-    P: openpolicyagent
-    R: C
-  - T: "2100-01-01"
-    C: Styra
-    F: "2019-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: Styra
-    F: "2019-03-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Styra
-    F: "2019-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Styra
-    F: "2019-03-01"
-    P: openpolicyagent
-    R: C
-  S: male
-  I:
-  - E: east.patrick!gmail.com
-    M: Patrick East
-    S: git
-  - E: east.patrick!gmail.com
-    M: Patrick East
-    S: github
-    U: patrick-east
-  B: 0
-  U: Patrick East
-- C: US
-  E: patrick!patrickeasters.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: patrick!patrickeasters.com
-    M: Patrick Easters
-    S: git
-  - E: patrick!patrickeasters.com
-    M: Patrick Easters
-    S: github
-    U: patrickeasters
-  B: 0
-  U: Patrick Easters
-- E: peasters!greenshoot.io
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: peasters!greenshoot.io
-    M: Patrick Easters
-    S: git
-  B: 0
-  U: Patrick Easters
-- E: pedgett!pivotal.io
-  R:
-  - T: "2016-07-02"
-    C: Pivotal
-    F: "2016-06-07"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: pedgett!pivotal.io
-    M: Patrick Edgett
-    S: git
-  - E: pedgett!pivotal.io
-    M: pedgett
-    S: slack
-    U: pedgett
-  B: 0
-  U: Patrick Edgett
-- R:
-  - T: "2100-01-01"
-    C: SoundCloud
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - M: Patrick Ellis
-    S: github
-    U: pje
-  B: 0
-  U: Patrick Ellis
-- E: patrick!soundcloud.com
-  R:
-  - T: "2100-01-01"
-    C: SoundCloud
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: patrick!soundcloud.com
-    M: Patrick Ellis
-    S: git
-  B: 0
-  U: Patrick Ellis

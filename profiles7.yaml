@@ -1,4 +1,87 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Damian ONeill
+    S: github
+    U: damianoneill
+  B: 0
+  U: Damian ONeill
+- R:
+  - T: "2015-12-01"
+    C: SoftArch
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  - T: "2018-08-01"
+    C: SAP
+    F: "2015-12-01"
+    P: cncf/dex
+    R: C
+  - T: "2100-01-01"
+    C: Jamf
+    F: "2018-08-01"
+    P: cncf/dex
+    R: C
+  I:
+  - M: Damian Pacierpnik
+    S: github
+    U: dpacierpnik
+  B: 0
+  U: Damian Pacierpnik
+- E: damian.sniezek!bitbar.com
+  R:
+  - T: "2100-01-01"
+    C: Bitbar
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Bitbar
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: damian.sniezek!bitbar.com
+    M: Damian Sniezek
+    S: git
+  - E: damian.sniezek!bitbar.com
+    M: Damian Śnieżek
+    S: github
+    U: snieguu
+  B: 0
+  U: Damian Sniezek
+- R:
+  - T: "2014-09-01"
+    C: SAMSUNG
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Sollers Consulting
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Sollers Consulting
+    F: "2014-09-01"
+    P: jenkins
+    R: C
+  I:
+  - M: Damian Szczepanik
+    S: github
+    U: damianszczepanik
+  B: 0
+  U: Damian Szczepanik
 - E: damian.publicemail!gmail.com
   R:
   - T: "2014-09-01"
@@ -62473,63 +62556,6 @@ P:
   S: male
   I:
   - E: 12752197+dvonthenen!users.noreply.github.com
-    M: David vonThenen
-    S: git
-  B: 0
-  U: David vonThenen
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - M: David vonThenen
-    S: github
-    U: dvonthenen
-  B: 0
-  U: David vonThenen
-- C: US
-  E: david.vonthenen!dell.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  S: male
-  I:
-  - E: david.vonthenen!dell.com
     M: David vonThenen
     S: git
   B: 0
