@@ -30030,6 +30030,11 @@ P:
   - T: "2100-01-01"
     C: Stillwater Supercomputing
     F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Stillwater Supercomputing
+    F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
@@ -41924,6 +41929,11 @@ P:
     C: Trivago
     F: "2015-04-01"
     P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Trivago
+    F: "2015-04-01"
+    P: k8s
     R: C
   I:
   - E: iwilltry42!gmail.com
@@ -62448,15 +62458,3 @@ P:
     U: tcahill
   B: 0
   U: Tom Cahill
-- E: spot!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: spot!redhat.com
-    M: Tom Callaway
-    S: git
-  B: 0
-  U: Tom Callaway

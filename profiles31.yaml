@@ -22669,6 +22669,11 @@ P:
     F: "1900-01-01"
     P: cncf/operatorframework
     R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
   I:
   - S: github
     U: kapilpau
@@ -33537,6 +33542,11 @@ P:
     C: Weaveworks
     F: "2019-03-01"
     P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Weaveworks
+    F: "2019-03-01"
+    P: helm
     R: C
   - T: "2100-01-01"
     C: Weaveworks
@@ -63541,21 +63551,3 @@ P:
     U: nirnanaaa
   B: 0
   U: nirnanaaa
-- E: nishakumarx!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: nishakumarx!gmail.com
-    M: nisha
-    S: git
-  B: 0
-  U: nisha

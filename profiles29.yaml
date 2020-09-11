@@ -11065,6 +11065,11 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
     P: hyperledger-labs/fabric-block-archiving
     R: C
   - T: "2100-01-01"
@@ -23560,6 +23565,11 @@ P:
     R: C
   - T: "2100-01-01"
     C: NEC
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: NEC
     F: "2016-09-08"
     R: C
   - T: "2100-01-01"
@@ -27623,6 +27633,11 @@ P:
     C: StopTech
     F: "2014-06-01"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: StopTech
+    F: "2014-06-01"
+    P: k8s
     R: C
   - T: "2014-06-01"
     C: National Pipe&Plasties
@@ -62248,19 +62263,3 @@ P:
     S: git
   B: 0
   U: axelsteingrimsson
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - S: github
-    U: axgillies
-  B: 0
-  U: axgillies
