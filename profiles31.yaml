@@ -1,4 +1,20 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: herver
+    S: github
+    U: herver
+  B: 0
+  U: herver
 - E: hemant!mnkcg.com
   R:
   - T: "2016-06-01"
@@ -63405,37 +63421,3 @@ P:
     S: git
   B: 0
   U: najeira
-- E: nakamura!nulab.co.jp
-  R:
-  - T: "2100-01-01"
-    C: Nulab
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Nulab
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: nakamura!nulab.co.jp
-    M: nakamura
-    S: git
-  B: 0
-  U: nakamura
-- R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: presto
-    R: C
-  I:
-  - S: github
-    U: nakhanha
-  B: 0
-  U: nakhanha
