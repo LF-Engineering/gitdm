@@ -1,4 +1,121 @@
 P:
+- C: CA
+  E: damian!gryski.com
+  R:
+  - T: "2017-06-01"
+    C: Booking.com
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-01"
+    C: Booking.com
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2017-06-01"
+    C: Booking.com
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2017-06-01"
+    C: Booking.com
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2017-06-01"
+    C: Booking.com
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: Fastly
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Fastly
+    F: "2017-06-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Fastly
+    F: "2017-06-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Fastly
+    F: "2017-06-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Fastly
+    F: "2017-06-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: damian!gryski.com
+    M: Damian Gryski
+    S: git
+  - E: damian!gryski.com
+    M: Damian Gryski
+    S: github
+    U: dgryski
+  B: 0
+  U: Damian Gryski
+- E: dhobsong!igel.co.jp
+  R:
+  - T: "2100-01-01"
+    C: igel
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: igel
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: igel
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: igel
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: igel
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: igel
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: igel
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: dhobsong!igel.co.jp
+    M: Damian Hobson-Garcia
+    S: git
+  B: 0
+  U: Damian Hobson-Garcia
+- E: dkos!cadence.com
+  R:
+  - T: "2100-01-01"
+    C: Cadence Design Systems
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: dkos!cadence.com
+    M: Damian Kos
+    S: git
+  B: 0
+  U: Damian Kos
 - E: damian.krolik!nordicsemi.no
   R:
   - T: "2018-03-01"
@@ -62461,51 +62578,3 @@ P:
     U: davit-y
   B: 0
   U: David Yeghshatyan
-- R:
-  - T: "2100-01-01"
-    C: REA
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  I:
-  - M: David Yeung
-    S: github
-    U: yeungda-rea
-  B: 0
-  U: David Yeung
-- E: david.yeung!rea-group.com
-  R:
-  - T: "2100-01-01"
-    C: REA
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  I:
-  - E: david.yeung!rea-group.com
-    M: David Yeung
-    S: git
-  B: 0
-  U: David Yeung
-- C: CA
-  E: davidykay!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Merge Conflicts
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Merge Conflicts
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  S: male
-  I:
-  - E: davidykay!gmail.com
-    M: David Young-Chan Kay
-    S: git
-  - E: davidykay!gmail.com
-    M: David Young-Chan Kay
-    S: github
-    U: DavidYKay
-  B: 0
-  U: David Young-Chan Kay
