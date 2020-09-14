@@ -1,4 +1,769 @@
 P:
+- E: le.petit.fou!web.de
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: le.petit.fou!web.de
+    M: Tobias Roeser
+    S: git
+  B: 0
+  U: Tobias Roeser
+- E: tobiasschaffner87!outlook.com
+  R:
+  - T: "2017-10-01"
+    C: GeNUA
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Mixed
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Mixed
+    F: "2017-10-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Mixed
+    F: "2017-10-01"
+    P: zep
+    R: C
+  I:
+  - E: tobiasschaffner87!outlook.com
+    M: Tobias Schaffner
+    S: git
+  - E: tobiasschaffner87!outlook.com
+    M: Tobias Schaffner
+    S: github
+    U: TobiasSchaffner
+  - E: tobiasschaffner87!outlook.com
+    M: Tobias Schaffner
+    S: slack
+    U: tobiasschaffner87
+  B: 0
+  U: Tobias Schaffner
+- C: DE
+  R:
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Tobias Schmidt
+    S: github
+    U: grobie
+  B: 0
+  U: Tobias Schmidt
+- C: DE
+  E: tobidt!gmail.com
+  R:
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2012-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2012-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: tobidt!gmail.com
+    M: Tobias Schmidt
+    S: git
+  - E: tobidt!gmail.com
+    M: Tobias Schmidt
+    S: slack
+    U: grobie
+  B: 0
+  U: Tobias Schmidt
+- C: DE
+  E: ts!soundcloud.com
+  R:
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2016-07-01"
+    C: groom gbr
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: ts!soundcloud.com
+    M: Tobias Schmidt
+    S: git
+  B: 0
+  U: Tobias Schmidt
+- C: US
+  E: tobias.schottdorf!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Cockroach
+    F: "2016-08-18"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: tobias.schottdorf!gmail.com
+    M: Tobias Grieger
+    S: git
+  - E: tobias.schottdorf!gmail.com
+    M: Tobias Schottdorf
+    S: git
+  - E: tobias.schottdorf!gmail.com
+    M: Tobias Grieger
+    S: github
+    U: tbg
+  B: 0
+  U: Tobias Schottdorf
+- C: DE
+  E: tobias!phrase.com
+  R:
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: tobias!phrase.com
+    M: Tobias Schwab
+    S: github
+    U: tobstarr
+  B: 0
+  U: Tobias Schwab
+- E: tobstarr!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: PhraseApp
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: tobstarr!gmail.com
+    M: Tobias Schwab
+    S: git
+  B: 0
+  U: Tobias Schwab
+- E: tsoloschenko!apache.org
+  R:
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "1900-01-01"
+    P: reactive-rsocket
+    R: C
+  I:
+  - E: tsoloschenko!apache.org
+    M: Tobias Soloschenko
+    S: github
+    U: klopfdreh
+  B: 0
+  U: Tobias Soloschenko
+- R:
+  - T: "2014-03-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2014-03-01"
+    P: fluentd
+    R: C
+  - T: "2015-04-01"
+    C: Rohde & Schwarz
+    F: "2015-03-01"
+    P: fluentd
+    R: C
+  - T: "2015-09-01"
+    C: Independent
+    F: "2015-04-01"
+    P: fluentd
+    R: C
+  - T: "2017-05-01"
+    C: Gestalt Systems
+    F: "2015-09-01"
+    P: fluentd
+    R: C
+  - T: "2019-12-01"
+    C: SpeedLedger
+    F: "2017-05-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Pagero AB
+    F: "2019-12-01"
+    P: fluentd
+    R: C
+  I:
+  - M: Tobias Sturm
+    S: github
+    U: toebbel
+  B: 0
+  U: Tobias Sturm
+- C: SE
+  R:
+  - T: "2016-05-01"
+    C: Hasselblad
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-05-01"
+    C: Hasselblad
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2018-12-01"
+    C: Infobric
+    F: "2016-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-12-01"
+    C: Infobric
+    F: "2016-05-01"
+    P: zep
+    R: C
+  - T: "2019-05-01"
+    C: ITAB ScanFlow AB
+    F: "2018-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-05-01"
+    C: ITAB ScanFlow AB
+    F: "2018-12-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Alvira
+    F: "2019-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Alvira
+    F: "2019-05-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Tobias Svehagen
+    S: github
+    U: tsvehagen
+  B: 0
+  U: Tobias Svehagen
+- C: SE
+  E: tobias.svehagen!gmail.com
+  R:
+  - T: "2016-05-01"
+    C: Hasselblad
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-05-01"
+    C: Hasselblad
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2018-12-01"
+    C: Infobric
+    F: "2016-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-12-01"
+    C: Infobric
+    F: "2016-05-01"
+    P: korg
+    R: C
+  - T: "2018-12-01"
+    C: Infobric
+    F: "2016-05-01"
+    P: zep
+    R: C
+  - T: "2019-05-01"
+    C: ITAB ScanFlow AB
+    F: "2018-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-05-01"
+    C: ITAB ScanFlow AB
+    F: "2018-12-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Alvira
+    F: "2019-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Alvira
+    F: "2019-05-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: tobias.svehagen!gmail.com
+    M: Tobias Svehagen
+    S: git
+  - E: tobias.svehagen!gmail.com
+    M: Tobias Svehagen
+    S: slack
+    U: tobias.svehagen
+  B: 0
+  U: Tobias Svehagen
+- R:
+  - T: "2014-09-01"
+    C: gridsolut GmbH & Co.KG
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-09-01"
+    C: gridsolut GmbH & Co.KG
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2015-10-01"
+    C: Yenlo
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-06-01"
+    C: dimago
+    F: "2015-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: OPITZ CONSULTING
+    F: "2016-06-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Tobias Unger
+    S: github
+    U: ungerts
+  B: 0
+  U: Tobias Unger
+- E: ungerts!googlemail.com
+  R:
+  - T: "2014-09-01"
+    C: gridsolut GmbH & Co.KG
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-09-01"
+    C: gridsolut GmbH & Co.KG
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2015-10-01"
+    C: Yenlo
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-06-01"
+    C: dimago
+    F: "2015-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: OPITZ CONSULTING
+    F: "2016-06-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: ungerts!googlemail.com
+    M: Tobias Unger
+    S: git
+  B: 0
+  U: Tobias Unger
+- E: tobias!waldekranz.com
+  R:
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: iovisor/iovisor
+    R: C
+  I:
+  - E: tobias!waldekranz.com
+    M: Tobias Waldekranz.com
+    S: git
+  B: 0
+  U: Tobias Waldekranz.com
+- E: tobias!waldekranz.com
+  R:
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: iovisor/iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Westermo
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: tobias!waldekranz.com
+    M: Tobias Waldekranz
+    S: git
+  - E: tobias!waldekranz.com
+    M: Tobias Waldekranz
+    S: github
+    U: wkz
+  B: 0
+  U: Tobias Waldekranz
+- R:
+  - T: "2100-01-01"
+    C: Airbus SAS
+    F: "1900-01-01"
+    P: nats
+    R: C
+  I:
+  - M: Tobias Wellnitz
+    S: github
+    U: dh1tw
+  B: 0
+  U: Tobias Wellnitz
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2018-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: tobias.zipfel!de.ibm.com
+    S: cloudfoundry:manual
+  - M: Tobias Zipfel
+    S: cloudfoundry:manual
+  - E: tobias.zipfel!de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-96-127.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-96-232.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-96-94.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-97-122.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-97-99.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-98-13.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!dyn-9-152-98-3.boeblingen.de.ibm.com
+    M: Tobias Zipfel
+    S: git
+  - E: tzip!tobiass-mbp.aag-de.ibmmobiledemo.com
+    M: Tobias Zipfel
+    S: git
+  - E: tobias.zipfel!de.ibm.com
+    M: eric-cartman
+    S: git
+  - S: github
+    U: eric-cartman
+  - E: tobias.zipfel!de.ibm.com
+    M: Tobias Zipfel
+    S: github
+    U: eric-cartman
+  - E: tobias.zipfel!de.ibm.com
+    M: Tobias Zipfel
+    S: slack
+    U: tobias.zipfel
+  B: 0
+  U: Tobias Zipfel
+- E: tobias.hunter!uk.ibm.com
+  R:
+  - T: "2017-07-22"
+    C: IBM
+    F: "2017-02-16"
+    R: C
+  I:
+  - E: tobias.hunter!uk.ibm.com
+    M: Tobias Hunter
+    S: git
+  - E: tobias.hunter!uk.ibm.com
+    M: Tobias-Hunter
+    S: git
+  B: 0
+  U: Tobias-Hunter
 - E: tobias!olsson.be
   R:
   - T: "2015-12-01"
@@ -2678,6 +3443,11 @@ P:
     F: "1901-01-01"
     P: lfedge/shared
     R: C
+  - T: "2007-10-01"
+    C: Intel Corporation
+    F: "1996-07-01"
+    P: lfedge/securedeviceonboard
+    R: C
   - T: "2018-10-10"
     C: Intel Corporation
     F: "2016-05-10"
@@ -2721,6 +3491,10 @@ P:
     M: Thomas Barnes
     S: jira
     U: Tom Barnes
+  - E: thomas.j.barnes!intel.com
+    M: thomas j barnes
+    S: slack
+    U: thomas.j.barnes
   B: 0
   U: Tom Barnes
 - E: tbarron!redhat.com
@@ -60993,773 +61767,3 @@ P:
     S: git
   B: 0
   U: Vimal K
-- C: MU
-  E: vimal78!gmail.com
-  R:
-  - T: "2019-03-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    R: C
-  - T: "2019-03-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2019-03-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-03-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2019-03-01"
-    P: fluentd
-    R: C
-  S: male
-  I:
-  - E: vimal78!gmail.com
-    M: Vimal Kumar
-    S: git
-  - E: vimal78!gmail.com
-    M: vimalk78
-    S: git
-  - E: vimal78!gmail.com
-    M: Vimal Kumar
-    S: github
-    U: vimalk78
-  B: 0
-  U: Vimal Kumar
-- C: CA
-  E: vraghubir0418!gmail.com
-  R:
-  - T: "2014-05-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2014-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-12-01"
-    C: Independent
-    F: "2014-05-01"
-    R: C
-  - T: "2014-12-01"
-    C: Independent
-    F: "2014-05-01"
-    P: k8s
-    R: C
-  - T: "2015-05-01"
-    C: CIBC
-    F: "2014-12-01"
-    R: C
-  - T: "2015-05-01"
-    C: CIBC
-    F: "2014-12-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: BMO Financial Group
-    F: "2015-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: BMO Financial Group
-    F: "2015-05-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: vraghubir0418!gmail.com
-    M: Vimal Raghubir
-    S: git
-  - E: vraghubir0418!gmail.com
-    M: Vimal Raghubir
-    S: github
-    U: Vimal-Raghubir
-  B: 0
-  U: Vimal Raghubir
-- E: j.vimal!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: JUSPAY
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: j.vimal!gmail.com
-    M: Vimalkumar
-    S: git
-  B: 0
-  U: Vimalkumar
-- E: ermagan!gmail.com
-  R:
-  - T: "2019-03-22"
-    C: Cisco Systems Inc.
-    F: "2012-10-01"
-    P: fdio
-    R: C
-  - T: "2019-03-22"
-    C: Cisco Systems Inc.
-    F: "2012-10-01"
-    P: odl
-    R: C
-  I:
-  - E: ermagan!gmail.com
-    M: Vina Ermagan
-    S: gerrit
-    U: ermagan
-  - E: ermagan!gmail.com
-    M: Vina Ermagan
-    S: git
-  - E: ermagan!gmail.com
-    M: Vina Ermagan
-    S: jira
-    U: ermagan
-  B: 0
-  U: Vina Ermagan
-- E: vermagan!cisco.com
-  R:
-  - T: "2008-12-01"
-    C: UC San Diego
-    F: "2005-01-01"
-    P: fdio
-    R: C
-  - T: "2008-12-01"
-    C: UC San Diego
-    F: "2005-01-01"
-    P: odl
-    R: C
-  - T: "2008-12-01"
-    C: UC San Diego
-    F: "2005-01-01"
-    P: opnfv
-    R: C
-  - T: "2008-09-01"
-    C: Cisco Systems Inc.
-    F: "2008-06-01"
-    P: fdio
-    R: C
-  - T: "2008-09-01"
-    C: Cisco Systems Inc.
-    F: "2008-06-01"
-    P: odl
-    R: C
-  - T: "2008-09-01"
-    C: Cisco Systems Inc.
-    F: "2008-06-01"
-    P: opnfv
-    R: C
-  - T: "2018-10-01"
-    C: Cisco Systems Inc.
-    F: "2008-09-01"
-    P: dpdk
-    R: C
-  - T: "2018-10-01"
-    C: Cisco Systems Inc.
-    F: "2008-09-01"
-    P: fdio
-    R: C
-  - T: "2018-10-01"
-    C: Cisco Systems Inc.
-    F: "2008-09-01"
-    P: odl
-    R: C
-  - T: "2018-10-01"
-    C: Cisco Systems Inc.
-    F: "2008-09-01"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-11-01"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-11-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-11-01"
-    P: opnfv
-    R: C
-  I:
-  - E: vermagan!cisco.com
-    M: Vina Ermagan
-    S: gerrit
-    U: vina
-  - E: vermagan!cisco.com
-    M: Vina Ermagan
-    S: git
-  - E: vermagan!cisco.com
-    M: Vina Ermagan (vermagan)
-    S: groupsio
-  - E: vermagan!cisco.com
-    M: Vina Ermagan vermagan
-    S: pipermail
-  B: 0
-  U: Vina Ermagan
-- E: vinal.narendrabhai.patel!ibm.com
-  R:
-  - T: "2019-03-23"
-    C: IBM
-    F: "2018-11-15"
-    R: C
-  - T: "2019-03-23"
-    C: IBM
-    F: "2018-11-15"
-    P: onap
-    R: C
-  I:
-  - M: Vinal Patel
-    S: confluence
-    U: vinalpatel
-  - E: vinal.narendrabhai.patel!ibm.com
-    M: Vinal Patel
-    S: gerrit
-    U: vinalpatel
-  - E: vinal.narendrabhai.patel!ibm.com
-    M: Vinal Patel
-    S: git
-  - E: vinal.narendrabhai.patel!ibm.com
-    M: Vinal
-    S: git
-  - E: vinal.narendrabhai.patel!ibm.com
-    M: vinal.narendrabhai.patel
-    S: groupsio
-  - M: Vinal Patel
-    S: jira
-    U: vinalpatel
-  - E: vinal.narendrabhai.patel!ibm.com
-    M: Vinal Patel
-    S: jira
-    U: vinalpatel
-  B: 0
-  U: Vinal Patel
-- R:
-  - T: "2016-10-01"
-    C: Delta Dental
-    F: "1900-01-01"
-    R: C
-  - T: "2016-10-01"
-    C: Delta Dental
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-10-01"
-    C: Delta Dental
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-01-01"
-    C: Multiple
-    F: "2016-10-01"
-    R: C
-  - T: "2019-01-01"
-    C: Multiple
-    F: "2016-10-01"
-    P: helm
-    R: C
-  - T: "2019-01-01"
-    C: Multiple
-    F: "2016-10-01"
-    P: k8s
-    R: C
-  - T: "2019-07-01"
-    C: Prospus
-    F: "2019-01-01"
-    R: C
-  - T: "2019-07-01"
-    C: Prospus
-    F: "2019-01-01"
-    P: helm
-    R: C
-  - T: "2019-07-01"
-    C: Prospus
-    F: "2019-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: JFrog
-    F: "2019-07-01"
-    R: C
-  - T: "2100-01-01"
-    C: JFrog
-    F: "2019-07-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: JFrog
-    F: "2019-07-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Vinay Aggarwal
-    S: github
-    U: vinayagg
-  B: 0
-  U: Vinay Aggarwal
-- E: vinay.bagul!xooa.com
-  R:
-  - T: "2014-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-07-01"
-    C: Reliance Energy
-    F: "2014-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-09-01"
-    C: Yuñ Solutions
-    F: "2015-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-02-01"
-    C: Electus Network
-    F: "2018-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Xooa
-    F: "2019-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Xooa
-    F: "2019-02-01"
-    P: jenkins
-    R: C
-  I:
-  - E: vinay.bagul!xooa.com
-    M: Vinay Bagul
-    S: git
-  B: 0
-  U: Vinay Bagul
-- R:
-  - T: "2017-05-01"
-    C: InterLegis
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2017-05-01"
-    C: InterLegis
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2019-07-01"
-    C: BNSF Railway
-    F: "2017-05-01"
-    P: cncf/k3s
-    R: C
-  - T: "2019-07-01"
-    C: BNSF Railway
-    F: "2017-05-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2019-07-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2019-07-01"
-    P: nats
-    R: C
-  I:
-  - M: Vinay Balamuru
-    S: github
-    U: balamuru
-  B: 0
-  U: Vinay Balamuru
-- C: US
-  E: bannai!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: bannai!google.com
-    M: Vinay Bannai
-    S: git
-  - E: bannai!google.com
-    M: Vinay Bannai
-    S: github
-    U: vbannai
-  B: 0
-  U: Vinay Bannai
-- E: vinay.bhoj!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "2016-05-28"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: vinay.bhoj!sap.com
-    M: Vinay Bhoj
-    S: slack
-    U: vinaybhoj
-  B: 0
-  U: Vinay Bhoj
-- E: nvinay!juniper.net
-  R:
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: nvinay!juniper.net
-    M: Vinay K Nallamothu
-    S: git
-  B: 0
-  U: Vinay K Nallamothu
-- E: vveeranki!hp.com
-  R:
-  - T: "2015-04-04"
-    C: HP
-    F: "2015-04-02"
-    P: odl
-    R: C
-  I:
-  - E: vveeranki!hp.com
-    M: Vinay Kumar Veeranki
-    S: gerrit
-    U: veerankv
-  B: 0
-  U: Vinay Kumar Veeranki
-- E: Vinay.G!kpit.com
-  R:
-  - T: "2100-01-01"
-    C: KPIT Technologies, Ltd.
-    F: "2014-07-08"
-    P: yocto
-    R: C
-  I:
-  - E: Vinay.G!kpit.com
-    M: Vinay Kumar. G
-    S: groupsio
-  - E: Vinay.G!kpit.com
-    M: Vinay Kumar. G
-    S: pipermail
-  B: 0
-  U: Vinay Kumar. G
-- C: IN
-  R:
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: notary
-    R: C
-  I:
-  - M: Vinay Mahuli
-    S: github
-    U: vmahuli
-  B: 0
-  U: Vinay Mahuli
-- C: IN
-  E: vmahuli!juniper.net
-  R:
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-10-09"
-    C: Juniper Networks, Inc.
-    F: "2018-03-23"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: vmahuli!juniper.net
-    M: Vinay Mahuli
-    S: git
-  - E: vmahuli!juniper.net
-    M: Vinay Vithal Mahuli
-    S: git
-  - E: vmahuli!juniper.net
-    M: Vinay Mahuli
-    S: jira
-    U: vmahuli
-  B: 0
-  U: Vinay Mahuli
-- E: vinay.puranik!rakuten.com
-  R:
-  - T: "2016-01-01"
-    C: Mindtree
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-01-01"
-    C: Envestnet Yodlee
-    F: "2016-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-05-01"
-    C: Rakuten, Inc.
-    F: "2017-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-05-01"
-    C: Rakuten, Inc.
-    F: "2017-01-01"
-    P: jenkins
-    R: C
-  - T: "2018-11-01"
-    C: Independent
-    F: "2018-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Change Finance
-    F: "2018-11-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: vinay.puranik!rakuten.com
-    M: Vinay Puranik
-    S: git
-  B: 0
-  U: Vinay Puranik
-- C: IN
-  E: simhavcs!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Inforce
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Inforce
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: simhavcs!gmail.com
-    M: Vinay Simha BN
-    S: git
-  B: 0
-  U: Vinay Simha BN
-- C: US
-  E: vupadhya!pivotal.io
-  R:
-  - T: "2019-01-08"
-    C: Pivotal
-    F: "2015-10-23"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: vupadhya!pivotal.io
-    M: Vinay Upadhya
-    S: github
-    U: vinayu
-  - E: vupadhya!pivotal.io
-    M: Vinay Upadhya
-    S: slack
-    U: vinayu
-  B: 0
-  U: Vinay Upadhya
-- E: v-vibhal!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2014-02-04"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2014-02-04"
-    P: odl
-    R: C
-  I:
-  - E: v-vibhal!microsoft.com
-    M: Vinayak Bhalerao Introp Software Solutions Inc
-    S: pipermail
-  B: 0
-  U: Vinayak Bhalerao Introp Software Solutions Inc
-- E: Vinayak.Joshi!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2014-06-04"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2014-06-04"
-    P: odl
-    R: C
-  I:
-  - E: Vinayak.Joshi!ericsson.com
-    M: Vinayak Joshi
-    S: gerrit
-    U: joshivinayak
-  - E: Vinayak.Joshi!ericsson.com
-    M: Vinayak Joshi
-    S: git
-  - E: joshivinayak!hotmail.com
-    M: Vinayak Joshi
-    S: pipermail
-  - E: vinayak.joshi!ericsson.com
-    M: Vinayak Joshi
-    S: pipermail
-  B: 0
-  U: Vinayak Joshi
-- E: vinayak.kale!seagate.com
-  R:
-  - T: "2100-01-01"
-    C: Seagate
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Seagate
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Seagate
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Seagate
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Seagate
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Seagate
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Seagate
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: vinayak.kale!seagate.com
-    M: Vinayak Kale
-    S: git
-  B: 0
-  U: Vinayak Kale
-- E: vich!nordicsemi.no
-  R:
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "2016-05-02"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: vinayak.kariappa.chettimada!nordicsemi.no
-    M: Vinayak Chettimada
-    S: git
-  - E: vich!nordicsemi.no
-    M: Vinayak Kariappa Chettimada
-    S: git
-  - E: vinayak.chettimada!gmail.com
-    M: Vinayak Kariappa Chettimada
-    S: git
-  - E: vinayak.kariappa!gmail.com
-    M: Vinayak Kariappa Chettimada
-    S: git
-  - E: vinayak.kariappa.chettimada!nordicsemi.no
-    M: Vinayak Kariappa Chettimada
-    S: git
-  - M: Vinayak Kariappa Chettimada
-    S: github
-    U: cvinayak
-  - E: vinayak.kariappa.chettimada!nordicsemi.no
-    M: Vinayak Kariappa Chettimada
-    S: slack
-    U: vinayak.kariappa.chet
-  B: 0
-  U: Vinayak Kariappa Chettimada
-- E: vinmenon!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: vinmenon!codeaurora.org
-    M: Vinayak Menon
-    S: git
-  B: 0
-  U: Vinayak Menon

@@ -1,4 +1,836 @@
 P:
+- C: US
+  R:
+  - T: "2016-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2016-05-01"
+    C: VMware, Inc.
+    F: "2016-01-01"
+    R: C
+  - T: "2016-05-01"
+    C: VMware, Inc.
+    F: "2016-01-01"
+    P: k8s
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-05-01"
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-05-01"
+    P: k8s
+    R: C
+  S: female
+  I:
+  - M: Yankai Zhang
+    S: github
+    U: grayluck
+  B: 0
+  U: Yankai Zhang
+- R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-08-01"
+    C: NTT Corporation
+    F: "2015-07-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-09-01"
+    C: Toshiba Corporation
+    F: "2015-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2015-09-01"
+    P: cephfoundation
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2015-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-01-01"
+    C: Fuji Xerox
+    F: "2017-04-01"
+    P: cephfoundation
+    R: C
+  - T: "2019-01-01"
+    C: Fuji Xerox
+    F: "2017-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Rakuten, Inc.
+    F: "2019-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Rakuten, Inc.
+    F: "2019-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: YankunLi
+    S: github
+    U: YankunLi
+  B: 0
+  U: YankunLi
+- E: lioveni99!gmail.com
+  R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2015-08-01"
+    C: NTT Corporation
+    F: "2015-07-01"
+    R: C
+  - T: "2015-08-01"
+    C: NTT Corporation
+    F: "2015-07-01"
+    P: rook
+    R: C
+  - T: "2015-09-01"
+    C: Toshiba Corporation
+    F: "2015-08-01"
+    R: C
+  - T: "2015-09-01"
+    C: Toshiba Corporation
+    F: "2015-08-01"
+    P: rook
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2015-09-01"
+    R: C
+  - T: "2017-04-01"
+    C: Independent
+    F: "2015-09-01"
+    P: rook
+    R: C
+  - T: "2019-01-01"
+    C: Fuji Xerox
+    F: "2017-04-01"
+    R: C
+  - T: "2019-01-01"
+    C: Fuji Xerox
+    F: "2017-04-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: Rakuten, Inc.
+    F: "2019-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Rakuten, Inc.
+    F: "2019-01-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: lioveni99!gmail.com
+    M: YankunLi
+    S: git
+  B: 0
+  U: YankunLi
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  S: female
+  I:
+  - M: Yanming Tang
+    S: github
+    U: yantang-msft
+  B: 0
+  U: Yanming Tang
+- C: FR
+  R:
+  - T: "2015-12-01"
+    C: Busit
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: Busit
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  - T: "2016-06-01"
+    C: ATALIAN
+    F: "2015-12-01"
+    R: C
+  - T: "2016-06-01"
+    C: ATALIAN
+    F: "2015-12-01"
+    P: tikv
+    R: C
+  - T: "2017-03-01"
+    C: Centile
+    F: "2016-06-01"
+    R: C
+  - T: "2017-03-01"
+    C: Centile
+    F: "2016-06-01"
+    P: tikv
+    R: C
+  - T: "2100-01-01"
+    C: 1001PHARMACIES
+    F: "2017-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: 1001PHARMACIES
+    F: "2017-03-01"
+    P: tikv
+    R: C
+  S: male
+  I:
+  - M: Yann Autissier
+    S: github
+    U: aya
+  B: 0
+  U: Yann Autissier
+- C: FR
+  E: aya!users.noreply.github.com
+  R:
+  - T: "2015-12-01"
+    C: Busit
+    F: "1900-01-01"
+    R: C
+  - T: "2015-12-01"
+    C: Busit
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  - T: "2016-06-01"
+    C: ATALIAN
+    F: "2015-12-01"
+    R: C
+  - T: "2016-06-01"
+    C: ATALIAN
+    F: "2015-12-01"
+    P: tikv
+    R: C
+  - T: "2017-03-01"
+    C: Centile
+    F: "2016-06-01"
+    R: C
+  - T: "2017-03-01"
+    C: Centile
+    F: "2016-06-01"
+    P: tikv
+    R: C
+  - T: "2100-01-01"
+    C: 1001PHARMACIES
+    F: "2017-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: 1001PHARMACIES
+    F: "2017-03-01"
+    P: tikv
+    R: C
+  S: male
+  I:
+  - E: aya!users.noreply.github.com
+    M: Yann Autissier
+    S: git
+  B: 0
+  U: Yann Autissier
+- E: yann.autissier!gmail.com
+  R:
+  - T: "2015-12-01"
+    C: Busit
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  - T: "2016-06-01"
+    C: ATALIAN
+    F: "2015-12-01"
+    P: tikv
+    R: C
+  - T: "2017-03-01"
+    C: Centile
+    F: "2016-06-01"
+    P: tikv
+    R: C
+  - T: "2100-01-01"
+    C: 1001PHARMACIES
+    F: "2017-03-01"
+    P: tikv
+    R: C
+  I:
+  - E: yann.autissier!gmail.com
+    M: Yann Autissier
+    S: git
+  B: 0
+  U: Yann Autissier
+- C: FR
+  R:
+  - T: "2100-01-01"
+    C: SKALE-5
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: SKALE-5
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: SKALE-5
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-03-07"
+    C: SKALE-5
+    F: "2015-10-27"
+    R: C
+  S: male
+  I:
+  - M: Yann Coleu
+    S: github
+    U: yanc0
+  B: 0
+  U: Yann Coleu
+- E: davidyann88!gmail.com
+  R:
+  - T: "2014-01-01"
+    C: Beyond the Rack
+    F: "1900-01-01"
+    R: C
+  - T: "2014-01-01"
+    C: Beyond the Rack
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2014-01-01"
+    C: Beyond the Rack
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-01-01"
+    C: Beyond the Rack
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-01-01"
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-01-01"
+    P: harbor
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-01-01"
+    P: helm
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-01-01"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: Lightspeed HQ
+    F: "2015-01-01"
+    R: C
+  - T: "2017-10-01"
+    C: Lightspeed HQ
+    F: "2015-01-01"
+    P: harbor
+    R: C
+  - T: "2017-10-01"
+    C: Lightspeed HQ
+    F: "2015-01-01"
+    P: helm
+    R: C
+  - T: "2017-10-01"
+    C: Lightspeed HQ
+    F: "2015-01-01"
+    P: k8s
+    R: C
+  - T: "2018-04-01"
+    C: Shutterstock
+    F: "2017-10-01"
+    R: C
+  - T: "2018-04-01"
+    C: Shutterstock
+    F: "2017-10-01"
+    P: harbor
+    R: C
+  - T: "2018-04-01"
+    C: Shutterstock
+    F: "2017-10-01"
+    P: helm
+    R: C
+  - T: "2018-04-01"
+    C: Shutterstock
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: AdGear
+    F: "2018-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: AdGear
+    F: "2018-04-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: AdGear
+    F: "2018-04-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: AdGear
+    F: "2018-04-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: davidyann88!gmail.com
+    M: Yann David
+    S: git
+  - E: davidyann88!gmail.com
+    M: Yann David
+    S: github
+    U: Typositoire
+  B: 0
+  U: Yann David
+- E: ydroneaud!mandriva.com
+  R:
+  - T: "2100-01-01"
+    C: Mandriva
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ydroneaud!mandriva.com
+    M: Yann Droneaud
+    S: git
+  B: 0
+  U: Yann Droneaud
+- E: ydroneaud!opteya.com
+  R:
+  - T: "2100-01-01"
+    C: OPTEYA
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: OPTEYA
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: OPTEYA
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: OPTEYA
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: OPTEYA
+    F: "1900-01-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: OPTEYA
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: OPTEYA
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: OPTEYA
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: ydroneaud!opteya.com
+    M: Yann Droneaud
+    S: git
+  B: 0
+  U: Yann Droneaud
+- C: FR
+  E: yann!objoo.org
+  R:
+  - T: "2014-08-01"
+    C: Renault
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: Renault
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2015-09-01"
+    C: Pressto
+    F: "2014-08-01"
+    R: C
+  - T: "2015-09-01"
+    C: Pressto
+    F: "2014-08-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: ALTRAD ARNHOLDT
+    F: "2015-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: ALTRAD ARNHOLDT
+    F: "2015-09-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: yann!objoo.org
+    M: Yann Dupont
+    S: git
+  - E: yann!objoo.org
+    M: Yann Dupont
+    S: github
+    U: dupont-y
+  B: 0
+  U: Yann Dupont
+- E: yann.morin.1998!anciens.enib.fr
+  R:
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2015-01-01"
+    C: Red Letter Films
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2015-06-01"
+    C: MPC
+    F: "2015-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-06-01"
+    C: MPC
+    F: "2015-01-01"
+    P: kernelci
+    R: C
+  - T: "2015-06-01"
+    C: MPC
+    F: "2015-01-01"
+    P: yocto
+    R: C
+  - T: "2015-06-01"
+    C: MPC
+    F: "2015-01-01"
+    P: zep
+    R: C
+  - T: "2016-12-01"
+    C: photographer
+    F: "2015-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-12-01"
+    C: photographer
+    F: "2015-06-01"
+    P: kernelci
+    R: C
+  - T: "2016-12-01"
+    C: photographer
+    F: "2015-06-01"
+    P: yocto
+    R: C
+  - T: "2016-12-01"
+    C: photographer
+    F: "2015-06-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: Rodeo FX
+    F: "2016-12-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: yann.morin.1998!anciens.enib.fr
+    M: Yann E. MORIN"
+    S: git
+  - E: yann.morin.1998!free.fr
+    M: Yann E. MORIN"
+    S: git
+  - E: devnull!localhost
+    M: Yann E. MORIN
+    S: git
+  - E: yann.morin.1998!anciens.enib.fr
+    M: Yann E. MORIN
+    S: git
+  - E: yann.morin.1998!free.fr
+    M: Yann E. MORIN
+    S: git
+  B: 0
+  U: Yann E. MORIN
+- C: US
+  E: yann.hodique!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: yann.hodique!gmail.com
+    M: Yann Hodique
+    S: git
+  - E: yann.hodique!gmail.com
+    M: Yann Hodique
+    S: github
+    U: sigma
+  B: 0
+  U: Yann Hodique
+- C: US
+  E: yhodique!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-11-14"
+    C: Google
+    F: "2018-04-18"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: yhodique!google.com
+    M: Yann Hodique
+    S: git
+  B: 0
+  U: Yann Hodique
+- E: yann!yelp.com
+  R:
+  - T: "2100-01-01"
+    C: Yelp
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: yann!yelp.com
+    M: Yann Landry
+    S: slack
+    U: yann
+  B: 0
+  U: Yann Landry
+- E: atrus!stackworks.net
+  R:
+  - T: "2015-09-01"
+    C: Twitter
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: Lyft
+    F: "2015-09-01"
+    P: cri-o
+    R: C
+  I:
+  - E: atrus!stackworks.net
+    M: Yann Ramin
+    S: git
+  B: 0
+  U: Yann Ramin
+- E: theatrus!gmail.com
+  R:
+  - T: "2015-09-01"
+    C: Twitter
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Lyft
+    F: "2015-09-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: theatrus!gmail.com
+    M: Yann Ramin
+    S: slack
+    U: theatrus
+  B: 0
+  U: Yann Ramin
+- E: yann!theatr.us
+  R:
+  - T: "2015-09-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  - T: "2015-09-01"
+    C: Twitter
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: Lyft
+    F: "2015-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Lyft
+    F: "2015-09-01"
+    P: cri-o
+    R: C
+  S: male
+  I:
+  - E: yann!theatr.us
+    M: Yann Ramin
+    S: github
+    U: theatrus
+  B: 0
+  U: Yann Ramin
+- E: yramin!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: yramin!twitter.com
+    M: Yann Ramin
+    S: git
+  B: 0
+  U: Yann Ramin
 - C: DE
   R:
   - T: "2100-01-01"
@@ -47761,29 +48593,6 @@ P:
     U: a-palchikov
   B: 0
   U: a-palchikov
-- E: aroberts!uk.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: tekton
-    R: C
-  I:
-  - E: aroberts!uk.ibm.com
-    M: a-roberts
-    S: git
-  B: 0
-  U: a-roberts
 - E: ajith.sreekumar!bell.ca
   R:
   - T: "2100-01-01"
@@ -61336,773 +62145,3 @@ P:
     U: ap2516
   B: 0
   U: ap2516
-- E: ap2516!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  I:
-  - E: ap2516!att.com
-    M: ap2516
-    S: git
-  B: 0
-  U: ap2516
-- E: apache!rt.linuxfoundation.org
-  R:
-  - T: "2019-05-30"
-    C: The Linux Foundation
-    F: "2017-01-01"
-    P: akraino
-    R: C
-  - T: "2019-05-30"
-    C: The Linux Foundation
-    F: "2017-01-01"
-    P: fdio
-    R: C
-  - T: "2019-05-31"
-    C: The Linux Foundation
-    F: "2017-01-01"
-    P: onap
-    R: C
-  - T: "2019-06-07"
-    C: The Linux Foundation
-    F: "2017-01-01"
-    P: acumos
-    R: C
-  I:
-  - E: apache!rt.linuxfoundation.org
-    M: Kenny Paul via RT
-    S: groupsio
-  - E: apache!rt.linuxfoundation.org
-    M: apache
-    S: groupsio
-  B: 0
-  U: apache
-- E: spooren!informatik.uni-leipzig.de
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: spooren!informatik.uni-leipzig.de
-    M: aparcar
-    S: git
-  B: 0
-  U: aparcar
-- E: apeek!pivotal.io
-  R:
-  - T: "2018-04-02"
-    C: Pivotal
-    F: "2017-12-05"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: apeek!pivotal.io
-    M: apeek4
-    S: git
-  - E: apeek!pivotal.io
-    M: Alison Peek
-    S: slack
-    U: apeek
-  B: 0
-  U: apeek4
-- C: GB
-  E: peeyushagarwal1994!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: CSE IIT KANPUR
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: CSE IIT KANPUR
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-11-12"
-    C: CSE IIT KANPUR
-    F: "2015-08-12"
-    P: baetyl
-    R: C
-  I:
-  - E: peeyushagarwal1994!gmail.com
-    M: Peeyush Agarwal
-    S: git
-  - E: peeyushagarwal1994!gmail.com
-    M: apeeyush
-    S: git
-  - E: peeyushagarwal1994!gmail.com
-    M: Peeyush Agarwal
-    S: github
-    U: apeeyush
-  B: 0
-  U: apeeyush
-- E: aphilip!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-11-11"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: aphilip!us.ibm.com
-    M: aphilip
-    S: slack
-    U: aphilip
-  B: 0
-  U: aphilip
-- R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  I:
-  - S: github
-    U: apm-opentt
-  B: 0
-  U: apm-opentt
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  I:
-  - S: github
-    U: apmichaud
-  B: 0
-  U: apmichaud
-- E: apogue!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-02-05"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: apogue!us.ibm.com
-    M: apogue
-    S: slack
-    U: apogue
-  B: 0
-  U: apogue
-- E: apoorv.sangal!intel.com
-  R:
-  - T: "2018-06-02"
-    C: Intel Corporation
-    F: "2018-05-31"
-    P: yocto
-    R: C
-  I:
-  - E: apoorv.sangal!intel.com
-    S: bugzilla
-    U: apoorv.sangal
-  - E: apoorv.sangal!intel.com
-    M: Apoorv
-    S: bugzilla
-    U: apoorv.sangal
-  - E: apoorv.sangal!intel.com
-    M: Sangal, Apoorv
-    S: groupsio
-  - E: apoorv.sangal!intel.com
-    M: Sangal, Apoorv
-    S: pipermail
-  B: 0
-  U: apoorv.sangal
-- E: appaji.adabala!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-11-04"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: appaji.adabala!us.ibm.com
-    M: appajia
-    S: slack
-    U: appajia
-  B: 0
-  U: appajia
-- C: PT
-  E: lchb!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: lchb!qq.com
-    M: appnet
-    S: github
-    U: lchb369
-  B: 0
-  U: appnet
-- E: aprilp!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-12-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: aprilp!us.ibm.com
-    M: aprilp
-    S: slack
-    U: aprilp
-  B: 0
-  U: aprilp
-- R:
-  - T: "2100-01-01"
-    C: PlanetScale
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  I:
-  - S: github
-    U: aquarapid
-  B: 0
-  U: aquarapid
-- E: aquarellian!gmail.com
-  R:
-  - T: "2014-06-01"
-    C: Maxoptra
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-04-01"
-    C: Independent
-    F: "2014-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-04-01"
-    C: Independent
-    F: "2014-06-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: BJSS
-    F: "2018-04-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: aquarellian!gmail.com
-    M: aquarellian
-    S: git
-  B: 0
-  U: aquarellian
-- E: arachman!redhat.com
-  R:
-  - T: "2015-08-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2018-03-01"
-    C: Nokia Corporation
-    F: "2015-08-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-03-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: arachman!redhat.com
-    M: arachmani
-    S: git
-  B: 0
-  U: arachmani
-- E: abewords!gmail.com
-  R:
-  - T: "2014-06-15"
-    C: Pivotal
-    F: "2014-04-16"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: abewords!gmail.com
-    M: araher
-    S: git
-  - E: araher!pivotallabs.com
-    M: araher
-    S: git
-  - E: abewords!gmail.com
-    S: github
-    U: araher
-  B: 0
-  U: araher
-- E: me+cloudfoundry!aramprice.com
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2013-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - M: Aram Price
-    S: git
-  - E: aprice!pivotallabs.com
-    M: Aram Price
-    S: git
-  - E: pair+aprice!pivotallabs.com
-    M: Aram Price
-    S: git
-  - E: aprice!pivotal.io
-    M: aram price
-    S: git
-  - E: aramprice!users.noreply.github.com
-    M: aram price
-    S: git
-  - M: aram price
-    S: github
-    U: aramprice
-  - E: aprice+slack!pivotal.io
-    M: aram price
-    S: slack
-    U: ap
-  - E: me+cloudfoundry!aramprice.com
-    M: aram price
-    S: slack
-    U: ap
-  - E: aprice+slack-cloudfoundry-oss!pivotal.io
-    M: aramprice
-    S: slack
-    U: aramprice
-  B: 0
-  U: aram price
-- E: kannan!rightscale.com
-  R:
-  - T: "2100-01-01"
-    C: Rightscale
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  I:
-  - E: kannan!rightscale.com
-    M: arangamani
-    S: git
-  B: 0
-  U: arangamani
-- R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: nats
-    R: C
-  I:
-  - S: github
-    U: aratz-lasa
-  B: 0
-  U: aratz-lasa
-- C: US
-  E: 277525065!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: 277525065!qq.com
-    S: github
-    U: archerbj
-  B: 0
-  U: archerbj
-- R:
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: architect.bian
-    S: github
-    U: greatbsky
-  B: 0
-  U: architect.bian
-- E: greatbsky!163.com
-  R:
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: greatbsky!163.com
-    M: architect.bian
-    S: git
-  B: 0
-  U: architect.bian
-- E: archit.mathur!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-09-02"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: archit.mathur!ibm.com
-    M: architmathur
-    S: slack
-    U: architmathur
-  B: 0
-  U: architmathur
-- E: architmohan!nmsworks.co.in
-  R:
-  - T: "2100-01-01"
-    C: NSMWorks
-    F: "2020-03-06"
-    P: onap
-    R: C
-  I:
-  - E: architmohan!nmsworks.co.in
-    M: architmohan
-    S: groupsio
-  B: 0
-  U: architmohan
-- E: archnag!cdot.in
-  R:
-  - T: "2100-01-01"
-    C: Center for Development of Telematics
-    F: "2020-02-12"
-    P: onap
-    R: C
-  I:
-  - E: archnag!cdot.in
-    M: archnag
-    S: groupsio
-  B: 0
-  U: archnag
-- R:
-  - T: "2100-01-01"
-    C: Signal
-    F: "1900-01-01"
-    P: argo
-    R: C
-  I:
-  - M: archnode
-    S: github
-    U: archnode
-  B: 0
-  U: archnode
-- E: ard.biesheuvel!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: ard.biesheuvel!linaro.org
-    M: ard
-    S: git
-  B: 0
-  U: ard
-- C: PH
-  E: arden!tujiao.com
-  R:
-  - T: "2100-01-01"
-    C: 深圳市土椒科技有限公司
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: 深圳市土椒科技有限公司
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: arden!tujiao.com
-    M: arden
-    S: github
-    U: arden
-  B: 0
-  U: arden
-- R:
-  - T: "2100-01-01"
-    C: Daitan Group
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Daitan Group
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - S: github
-    U: ardsilva
-  B: 0
-  U: ardsilva
-- C: DE
-  E: aeneas!ory.am
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openpolicyagent
-    R: C
-  S: male
-  I:
-  - E: aeneas!ory.am
-    M: arekkas
-    S: git
-  B: 0
-  U: arekkas
-- R:
-  - T: "2100-01-01"
-    C: BoCloud
-    F: "1900-01-01"
-    P: d7y
-    R: C
-  - T: "2100-01-01"
-    C: BoCloud
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: BoCloud
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: ares
-    S: github
-    U: Aresforchina
-  B: 0
-  U: ares
-- E: andriyrosa!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    P: presto
-    R: C
-  I:
-  - E: andriyrosa!gmail.com
-    M: arhimondr
-    S: git
-  B: 0
-  U: arhimondr
-- C: SG
-  R:
-  - T: "2016-01-01"
-    C: Portek
-    F: "1900-01-01"
-    R: C
-  - T: "2016-01-01"
-    C: Portek
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2016-01-01"
-    C: Portek
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-01-01"
-    C: Portek
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-05-01"
-    C: JPMorgan Chase
-    F: "2016-01-01"
-    R: C
-  - T: "2017-05-01"
-    C: JPMorgan Chase
-    F: "2016-01-01"
-    P: grpc
-    R: C
-  - T: "2017-05-01"
-    C: JPMorgan Chase
-    F: "2016-01-01"
-    P: helm
-    R: C
-  - T: "2017-05-01"
-    C: JPMorgan Chase
-    F: "2016-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "2017-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "2017-05-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "2017-05-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "2017-05-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: arief hidayat
-    S: github
-    U: arief-hidayat
-  B: 0
-  U: arief hidayat
-- C: SG
-  E: mr.arief.hidayat!gmail.com
-  R:
-  - T: "2016-01-01"
-    C: Portek
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2016-01-01"
-    C: Portek
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-01-01"
-    C: Portek
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-05-01"
-    C: JPMorgan Chase
-    F: "2016-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2017-05-01"
-    C: JPMorgan Chase
-    F: "2016-01-01"
-    P: helm
-    R: C
-  - T: "2017-05-01"
-    C: JPMorgan Chase
-    F: "2016-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "2017-05-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "2017-05-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "2017-05-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: mr.arief.hidayat!gmail.com
-    M: arief hidayat
-    S: git
-  - E: mr.arief.hidayat!gmail.com
-    M: arief hidayat
-    S: slack
-    U: mr.arief.hidayat
-  B: 0
-  U: arief hidayat
-- E: ariel.lenisd!gmail.com
-  R:
-  - T: "2015-05-01"
-    C: U.A.T.F.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-04-01"
-    C: Fundación Jala
-    F: "2015-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Jalasoft
-    F: "2016-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Jalasoft
-    F: "2016-04-01"
-    P: jenkins
-    R: C
-  I:
-  - E: ariel.lenisd!gmail.com
-    M: Ariel Lenis
-    S: git
-  - E: ariel.lenisd!gmail.com
-    M: ariel-lenis
-    S: git
-  B: 0
-  U: ariel-lenis
