@@ -1,4 +1,577 @@
 P:
+- C: US
+  R:
+  - T: "2015-04-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2016-03-01"
+    C: YouEye
+    F: "2015-04-01"
+    R: C
+  - T: "2016-03-01"
+    C: YouEye
+    F: "2015-04-01"
+    P: helm
+    R: C
+  - T: "2016-03-01"
+    C: YouEye
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2016-03-01"
+    C: YouEye
+    F: "2015-04-01"
+    P: linkerd
+    R: C
+  - T: "2016-07-01"
+    C: UserZoom
+    F: "2016-03-01"
+    R: C
+  - T: "2016-07-01"
+    C: UserZoom
+    F: "2016-03-01"
+    P: helm
+    R: C
+  - T: "2016-07-01"
+    C: UserZoom
+    F: "2016-03-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: UserZoom
+    F: "2016-03-01"
+    P: linkerd
+    R: C
+  - T: "2018-06-01"
+    C: Rentlytics
+    F: "2016-07-01"
+    R: C
+  - T: "2018-06-01"
+    C: Rentlytics
+    F: "2016-07-01"
+    P: helm
+    R: C
+  - T: "2018-06-01"
+    C: Rentlytics
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2018-06-01"
+    C: Rentlytics
+    F: "2016-07-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-06-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-06-01"
+    P: linkerd
+    R: C
+  S: male
+  I:
+  - M: John Ruiz
+    S: github
+    U: jar349
+  B: 0
+  U: John Ruiz
+- C: US
+  E: jruiz!johnruiz.com
+  R:
+  - T: "2015-04-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-03-01"
+    C: YouEye
+    F: "2015-04-01"
+    R: C
+  - T: "2016-03-01"
+    C: YouEye
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: UserZoom
+    F: "2016-03-01"
+    R: C
+  - T: "2016-07-01"
+    C: UserZoom
+    F: "2016-03-01"
+    P: k8s
+    R: C
+  - T: "2018-06-01"
+    C: Rentlytics
+    F: "2016-07-01"
+    R: C
+  - T: "2018-06-01"
+    C: Rentlytics
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: jruiz!johnruiz.com
+    M: John Ruiz
+    S: git
+  B: 0
+  U: John Ruiz
+- R:
+  - T: "2100-01-01"
+    C: Dynatrace
+    F: "1900-01-01"
+    P: cncf/keptn
+    R: C
+  I:
+  - M: John Rusaw
+    S: github
+    U: johnrusaw
+  B: 0
+  U: John Rusaw
+- C: US
+  E: john.sanda!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: john.sanda!gmail.com
+    M: John Sanda
+    S: github
+    U: jsanda
+  B: 0
+  U: John Sanda
+- E: jsandfort!pivotal.io
+  R:
+  - T: "2016-08-03"
+    C: Pivotal
+    F: "2016-01-04"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: jsandfort!pivotal.io
+    M: John Sandfort
+    S: slack
+    U: jsandfort
+  B: 0
+  U: John Sandfort
+- E: john!apcera.com
+  R:
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Apcera
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: baetyl
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: k8s
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: baetyl
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: john!apcera.com
+    M: John Schnake
+    S: git
+  B: 0
+  U: John Schnake
+- E: jschnake!vmware.com
+  R:
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Apcera
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: baetyl
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: cncf
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: k8s
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: baetyl
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: cncf
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: jschnake!vmware.com
+    M: John Schnake
+    S: git
+  B: 0
+  U: John Schnake
+- E: schnake.john!gmail.com
+  R:
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-03-01"
+    C: Affirmative
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: cncf
+    R: C
+  - T: "2018-06-01"
+    C: Apcera
+    F: "2015-03-01"
+    P: k8s
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: cncf
+    R: C
+  - T: "2019-01-01"
+    C: Ericsson AB
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: schnake.john!gmail.com
+    M: John Schnake
+    S: git
+  - E: schnake.john!gmail.com
+    M: John Schnake
+    S: github
+    U: johnSchnake
+  B: 0
+  U: John Schnake
+- C: IL
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-06-12"
+    C: Red Hat Inc.
+    F: "2019-06-10"
+    P: dronecode
+    R: C
+  I:
+  - M: John Schwarz
+    S: github
+    U: jschwarz89
+  B: 0
+  U: John Schwarz
+- C: IL
+  E: jschwarz!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-07-28"
+    C: Red Hat Inc.
+    F: "2016-07-14"
+    P: stackstorm
+    R: C
+  - T: "2016-11-29"
+    C: Red Hat Inc.
+    F: "2016-10-01"
+    P: opnfv
+    R: C
+  I:
+  - E: jschwarz!redhat.com
+    M: John Schwarz
+    S: git
+  B: 0
+  U: John Schwarz
+- E: pair+jshahid+bmoss!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: pair+jshahid+bmoss!pivotal.io
+    M: Ben Moss & John Shahid
+    S: git
+  - E: pair+jshahid+bmoss!pivotal.io
+    M: John Shahid & Ben Moss
+    S: git
+  B: 0
+  U: John Shahid & Ben Moss
+- E: pair+jshahid+dgoddard!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: pair+jshahid+dgoddard!pivotal.io
+    M: John Shahid & David Goddard
+    S: git
+  B: 0
+  U: John Shahid & David Goddard
+- E: pair+jshahid+dmorhovich!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: dmorhovich+jshahid!pivotal.io
+    M: David Morhovich & John Shahid
+    S: git
+  - E: pair+jshahid+dmorhovich!pivotal.io
+    M: David Morhovich & John Shahid
+    S: git
+  - E: pair+jshahid+dmorhovich!pivotal.io
+    M: John Shahid & David Morhovich
+    S: git
+  B: 0
+  U: John Shahid & David Morhovich
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: EagleEye Intelligence
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: EagleEye Intelligence
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: John Shanahan
+    S: github
+    U: shanahanjrs
+  B: 0
+  U: John Shanahan
+- C: US
+  E: shanahan.jrs!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: EagleEye Intelligence
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: EagleEye Intelligence
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: shanahan.jrs!gmail.com
+    M: John Shanahan
+    S: git
+  B: 0
+  U: John Shanahan
 - E: sheu!chromium.org
   R:
   - T: "2100-01-01"
@@ -61901,466 +62474,3 @@ P:
     S: git
   B: 0
   U: KONRAD Frederic
-- E: davek!research.att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-01-02"
-    P: oran-sim
-    R: C
-  I:
-  - E: davek!research.att.com
-    M: d k
-    S: gerrit
-    U: multics
-  - E: davek!research.att.com
-    M: d k
-    S: git
-  - E: davek!research.att.com
-    M: KORMANN, DAVID P (DAVID)
-    S: groupsio
-  - E: davek!research.att.com
-    M: d k
-    S: jira
-    U: multics
-  B: 0
-  U: KORMANN, DAVID P (DAVID)
-- C: JP
-  E: kosaki.motohiro!jp.fujitsu.com
-  R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: kosaki.motohiro!jp.fujitsu.com
-    M: KOSAKI Motohiro
-    S: git
-  - E: kosaki.motohiro!jp.fujitsu.com
-    M: kosaki.motohiro
-    S: git
-  B: 0
-  U: KOSAKI Motohiro
-- E: hidden!balabit.com
-  R:
-  - T: "2100-01-01"
-    C: BalaBit
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: hidden!balabit.com
-    M: KOVACS Krisztian
-    S: git
-  B: 0
-  U: KOVACS Krisztian
-- E: hidden!balabit.hu
-  R:
-  - T: "2100-01-01"
-    C: BalaBit
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: hidden!balabit.hu
-    M: KOVACS Krisztian
-    S: git
-  B: 0
-  U: KOVACS Krisztian
-- E: kirk!zothcorp.com
-  R:
-  - T: "2018-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: Datadog
-    F: "2018-05-01"
-    P: opentracing
-    R: C
-  I:
-  - E: kirk!zothcorp.com
-    M: KP Kaiser
-    S: github
-    U: burningion
-  B: 0
-  U: KP Kaiser
-- C: JP
-  R:
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: brigade
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: falco
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: telepresence
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: virtualkubelet
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: falco
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: telepresence
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: virtualkubelet
-    R: C
-  S: male
-  I:
-  - M: KUOKA Yusuke
-    S: github
-    U: mumoshu
-  B: 0
-  U: KUOKA Yusuke
-- C: JP
-  E: ykuoka!gmail.com
-  R:
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: brigade
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: falco
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-10-01"
-    C: Cloud Works
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: falco
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: ChatWork
-    F: "2015-10-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: ykuoka!gmail.com
-    M: KUOKA Yusuke
-    S: git
-  - E: ykuoka!gmail.com
-    M: Yusuke Kuoka
-    S: git
-  B: 0
-  U: KUOKA Yusuke
-- E: kurosawa!valinux.co.jp
-  R:
-  - T: "2100-01-01"
-    C: VA Linux Systems Japan
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: kurosawa!valinux.co.jp
-    M: KUROSAWA Takahiro
-    S: git
-  B: 0
-  U: KUROSAWA Takahiro
-- E: ka-cheong.poon!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: ka-cheong.poon!oracle.com
-    M: Ka-Cheong Poon
-    S: git
-  B: 0
-  U: Ka-Cheong Poon
-- E: kamil.sroka!nordicsemi.no
-  R:
-  - T: "2015-03-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2016-09-01"
-    C: ABB Ltd
-    F: "2015-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-09-01"
-    C: ABB Ltd
-    F: "2015-03-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "2016-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "2016-09-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: kamil.sroka!nordicsemi.no
-    M: KaSroka
-    S: git
-  - E: kamil.sroka!nordicsemi.no
-    M: Kamil Sroka
-    S: git
-  B: 0
-  U: KaSroka
-- E: kabir!uasys.io
-  R:
-  - T: "2100-01-01"
-    C: MIT
-    F: "2016-08-15"
-    P: dronecode
-    R: C
-  I:
-  - E: kabir!uasys.io
-    M: Kabir Mohammed
-    S: git
-  B: 0
-  U: Kabir Mohammed
-- E: mhkabir!mit.edu
-  R:
-  - T: "2100-01-01"
-    C: MIT
-    F: "2014-06-06"
-    P: dronecode
-    R: C
-  I:
-  - E: mhkabir!mit.edu
-    M: Kabir Mohammed
-    S: github
-    U: mhkabir
-  B: 0
-  U: Kabir Mohammed
-- E: x0153567!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments Incorporated
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: x0153567!ti.com
-    M: Kabir Sahane
-    S: git
-  B: 0
-  U: Kabir Sahane
-- R:
-  - T: "2100-01-01"
-    C: Symphony Software Foundation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Symphony Software Foundation
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - S: confluence
-    U: nikolay.ganev
-  - S: github
-    U: Kabrakssis
-  B: 0
-  U: Kabrakssis
-- E: xarthisius!gentoo.org
-  R:
-  - T: "2100-01-01"
-    C: Gentoo Linux
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: xarthisius!gentoo.org
-    M: Kacper Kowalik (Xarthisius)
-    S: git
-  - E: xarthisius!gentoo.org
-    M: Kacper Kowalik
-    S: git
-  B: 0
-  U: Kacper Kowalik (Xarthisius)
