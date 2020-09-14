@@ -1,5 +1,74 @@
 P:
 - C: US
+  R:
+  - T: "2014-09-26"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2014-09-26"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-09-26"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: nsm
+    R: C
+  - T: "2015-10-09"
+    C: HP
+    F: "2014-09-26"
+    R: C
+  - T: "2015-10-09"
+    C: HP
+    F: "2014-09-26"
+    P: k8s
+    R: C
+  - T: "2015-10-09"
+    C: HP
+    F: "2014-09-26"
+    P: nsm
+    R: C
+  - T: "2018-04-01"
+    C: IBM
+    F: "2015-10-09"
+    R: C
+  - T: "2018-04-01"
+    C: IBM
+    F: "2015-10-09"
+    P: k8s
+    R: C
+  - T: "2018-04-01"
+    C: IBM
+    F: "2015-10-09"
+    P: nsm
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-10-09"
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2018-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2018-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2018-04-01"
+    P: nsm
+    R: C
+  S: male
+  I:
+  - M: Kyle Mestery
+    S: github
+    U: mestery
+  B: 0
+  U: Kyle Mestery
+- C: US
   E: mestery!mestery.com
   R:
   - T: "2014-09-26"
@@ -62014,134 +62083,3 @@ P:
     U: nebril
   B: 0
   U: Maciej Kwiek
-- E: maciej.iai!gmail.com
-  R:
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: maciej.iai!gmail.com
-    M: Maciej Kwiek
-    S: git
-  B: 0
-  U: Maciej Kwiek
-- E: mkwiek!mirantis.com
-  R:
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: mkwiek!mirantis.com
-    M: Maciej Kwiek
-    S: git
-  B: 0
-  U: Maciej Kwiek
-- E: docent.net!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Codewise.com
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Codewise.com
-    F: "1900-01-01"
-    P: onf-p4
-    R: C
-  I:
-  - E: docent.net!gmail.com
-    M: Maciej Lasyk
-    S: git
-  B: 0
-  U: Maciej Lasyk

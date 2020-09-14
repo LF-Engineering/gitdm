@@ -1,5 +1,56 @@
 P:
 - C: US
+  R:
+  - T: "2015-06-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Twitter
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-06-01"
+    C: Twitter
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2017-10-01"
+    C: Airbnb
+    F: "2015-06-01"
+    R: C
+  - T: "2017-10-01"
+    C: Airbnb
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: Airbnb
+    F: "2015-06-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-10-01"
+    P: linkerd
+    R: C
+  S: male
+  I:
+  - M: Ricky Pai
+    S: github
+    U: rickypai
+  B: 0
+  U: Ricky Pai
+- C: US
   E: ricky.pai!airbnb.com
   R:
   - T: "2015-06-01"
@@ -62708,71 +62759,3 @@ P:
     U: SamiSousa
   B: 0
   U: Sami Shahin
-- E: salph.tabet!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Datadog
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Datadog
-    F: "1900-01-01"
-    P: iovisor
-    R: C
-  - T: "2100-01-01"
-    C: Datadog
-    F: "1900-01-01"
-    P: iovisor/iovisor
-    R: C
-  I:
-  - E: salph.tabet!gmail.com
-    M: Sami Tabet
-    S: git
-  - E: salph.tabet!gmail.com
-    M: Sami Tabet
-    S: github
-    U: sfluor
-  B: 0
-  U: Sami Tabet
-- E: sami.tabet!datadoghq.com
-  R:
-  - T: "2100-01-01"
-    C: Datadog
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Datadog
-    F: "1900-01-01"
-    P: iovisor
-    R: C
-  - T: "2100-01-01"
-    C: Datadog
-    F: "1900-01-01"
-    P: iovisor/iovisor
-    R: C
-  I:
-  - E: sami.tabet!datadoghq.com
-    M: Sami Tabet
-    S: git
-  B: 0
-  U: Sami Tabet
-- E: samitolvanen!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: samitolvanen!google.com
-    M: Sami Tolvanen
-    S: git
-  B: 0
-  U: Sami Tolvanen

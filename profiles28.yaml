@@ -1,4 +1,89 @@
 P:
+- E: vpetersson!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: WireLoad
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: WireLoad
+    F: "1900-01-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: vpetersson!users.noreply.github.com
+    M: Viktor Petersson
+    S: git
+  B: 0
+  U: Viktor Petersson
+- E: vpetersson!wireload.net
+  R:
+  - T: "2100-01-01"
+    C: WireLoad
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: WireLoad
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: vpetersson!wireload.net
+    M: Viktor Petersson
+    S: git
+  B: 0
+  U: Viktor Petersson
+- C: RU
+  E: vitek!vitek.tomsk.ru
+  R:
+  - T: "2017-05-01"
+    C: ЦВЗ
+    F: "1900-01-01"
+    R: C
+  - T: "2017-05-01"
+    C: ЦВЗ
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Avito
+    F: "2017-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Avito
+    F: "2017-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: vitek!vitek.tomsk.ru
+    M: Viktor Safronov
+    S: git
+  - E: vitek!vitek.tomsk.ru
+    M: Victor Safronov
+    S: github
+    U: viteksafronov
+  B: 0
+  U: Viktor Safronov
+- E: viktors!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: viktors!google.com
+    M: Viktor Slavkovic
+    S: git
+  B: 0
+  U: Viktor Slavkovic
 - C: US
   R:
   - T: "2014-04-01"
@@ -61254,129 +61339,3 @@ P:
     S: pipermail
   B: 0
   U: Yang, Zhangle Eric
-- E: zhiyong.yang!intel.com
-  R:
-  - T: "2018-05-26"
-    C: Intel Corporation
-    F: "2013-09-01"
-    P: cephfoundation
-    R: C
-  - T: "2018-05-26"
-    C: Intel Corporation
-    F: "2013-09-01"
-    P: danos
-    R: C
-  - T: "2018-05-26"
-    C: Intel Corporation
-    F: "2013-09-01"
-    P: dpdk-draft
-    R: C
-  - T: "2018-05-26"
-    C: Intel Corporation
-    F: "2013-09-01"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2013-09-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2013-09-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2013-09-01"
-    P: fdio
-    R: C
-  I:
-  - E: zhiyong.yang!intel.com
-    M: Zhiyong Yang
-    S: gerrit
-    U: ZhiyongYang
-  - E: zhiyong.yang!intel.com
-    M: Zhiyong Yang
-    S: git
-  - E: zhiyong.yang!intel.com
-    M: Yang, Zhiyong
-    S: groupsio
-  - E: zhiyong.yang!intel.com
-    M: Zhiyong Yang
-    S: groupsio
-  - E: zhiyong.yang!intel.com
-    M: Yang, Zhiyong
-    S: pipermail
-  - E: zhiyong.yang!intel.com
-    M: Zhiyong Yang
-    S: pipermail
-  - E: zhiyong.yang!intel.com
-    M: zhiyong.yang
-    S: pipermail
-  B: 0
-  U: Yang, Zhiyong
-- E: ziye.yang!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2018-12-29"
-    C: Intel Corporation
-    F: "2015-12-29"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-12-29"
-    C: Intel Corporation
-    F: "2015-12-29"
-    P: dpdk
-    R: C
-  - T: "2018-10-29"
-    C: Intel Corporation
-    F: "2016-02-17"
-    P: dpdk-draft
-    R: C
-  - T: "2018-10-29"
-    C: Intel Corporation
-    F: "2016-02-17"
-    P: dpdk-next
-    R: C
-  I:
-  - E: ziye.yang!intel.com
-    M: Ziye Yang
-    S: git
-  - E: ziye.yang!intel.com
-    M: Yang, Ziye
-    S: pipermail
-  - E: ziye.yang!intel.com
-    M: Ziye Yang
-    S: pipermail
-  B: 0
-  U: Yang, Ziye

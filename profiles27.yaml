@@ -1,4 +1,122 @@
 P:
+- E: tobias-github!23.gs
+  R:
+  - T: "2100-01-01"
+    C: INFORM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: INFORM
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: tobias-github!23.gs
+    M: Tobias Gruetzmacher
+    S: git
+  B: 0
+  U: Tobias Gruetzmacher
+- C: DE
+  R:
+  - T: "2019-09-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2019-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2019-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2019-09-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - M: Tobias Guggenmos
+    S: github
+    U: slrtbtfs
+  B: 0
+  U: Tobias Guggenmos
+- E: tguggenm!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: tguggenm!redhat.com
+    M: Tobias Guggenmos
+    S: git
+  B: 0
+  U: Tobias Guggenmos
+- E: tobias.guggenmos!uni-ulm.de
+  R:
+  - T: "2019-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2019-09-01"
+    P: prometheus
+    R: C
+  I:
+  - E: tobias.guggenmos!uni-ulm.de
+    M: Tobias Guggenmos
+    S: git
+  - E: tobias.guggenmos!uni-ulm.de
+    M: Tobias Guggenmos
+    S: github
+    U: slrtbtfs
+  B: 0
+  U: Tobias Guggenmos
+- E: tobiasha!axis.com
+  R:
+  - T: "2100-01-01"
+    C: Axis Communications
+    F: "2016-08-08"
+    P: yocto
+    R: C
+  I:
+  - E: tobiasha!axis.com
+    S: bugzilla
+    U: tobiasha
+  - M: Tobias Hagelborn
+    S: bugzilla
+    U: tobias.hagelborn
+  - M: Tobias Hagelborn
+    S: bugzilla
+    U: tobiasha
+  - E: tobias.hagelborn!axis.com
+    M: Tobias Hagelborn
+    S: bugzilla
+    U: tobias.hagelborn
+  - E: tobiasha!axis.com
+    M: Tobias Hagelborn
+    S: bugzilla
+    U: tobiasha
+  - E: tobias.hagelborn!axis.com
+    M: Tobias Hagelborn
+    S: git
+  - E: tobiasha!axis.com
+    M: Tobias Hagelborn
+    S: git
+  - E: tobias.hagelborn!axis.com
+    M: Tobias Hagelborn
+    S: groupsio
+  - E: tobias.hagelborn!axis.com
+    M: Tobias Hagelborn
+    S: pipermail
+  B: 0
+  U: Tobias Hagelborn
 - C: DE
   E: tobias.henkel!bmw.de
   R:
@@ -46583,6 +46701,11 @@ P:
   - T: "2019-07-30"
     C: Soramitsu
     F: "2016-12-31"
+    P: fabric
+    R: C
+  - T: "2019-07-30"
+    C: Soramitsu
+    F: "2016-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2019-07-30"
@@ -61640,88 +61763,3 @@ P:
     U: vpetersson
   B: 0
   U: Viktor Petersson
-- E: vpetersson!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: WireLoad
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: WireLoad
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: vpetersson!users.noreply.github.com
-    M: Viktor Petersson
-    S: git
-  B: 0
-  U: Viktor Petersson
-- E: vpetersson!wireload.net
-  R:
-  - T: "2100-01-01"
-    C: WireLoad
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: WireLoad
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: vpetersson!wireload.net
-    M: Viktor Petersson
-    S: git
-  B: 0
-  U: Viktor Petersson
-- C: RU
-  E: vitek!vitek.tomsk.ru
-  R:
-  - T: "2017-05-01"
-    C: ЦВЗ
-    F: "1900-01-01"
-    R: C
-  - T: "2017-05-01"
-    C: ЦВЗ
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Avito
-    F: "2017-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: Avito
-    F: "2017-05-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: vitek!vitek.tomsk.ru
-    M: Viktor Safronov
-    S: git
-  - E: vitek!vitek.tomsk.ru
-    M: Victor Safronov
-    S: github
-    U: viteksafronov
-  B: 0
-  U: Viktor Safronov
-- E: viktors!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: viktors!google.com
-    M: Viktor Slavkovic
-    S: git
-  B: 0
-  U: Viktor Slavkovic
