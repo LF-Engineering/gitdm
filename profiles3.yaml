@@ -1,4 +1,16 @@
 P:
+- E: andrew!transitive.com
+  R:
+  - T: "2100-01-01"
+    C: Transitive
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: andrew!transitive.com
+    M: Andrew Burgess
+    S: git
+  B: 0
+  U: Andrew Burgess
 - E: abursavich!gmail.com
   R:
   - T: "2015-01-01"
@@ -21440,6 +21452,25 @@ P:
     U: cookandy
   B: 0
   U: Andy Cook
+- E: culottaenterprises!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Culotta Enterprises
+    F: "2011-04-01"
+    P: open-mainframe-project/cobol-programming-course
+    R: C
+  - T: "2019-09-01"
+    C: IBM
+    F: "2018-11-01"
+    P: open-mainframe-project/cobol-programming-course
+    R: C
+  I:
+  - E: culottaenterprises!gmail.com
+    M: Andy Culotta
+    S: slack
+    U: culottaenterprises
+  B: 0
+  U: Andy Culotta
 - E: acurrid!nvidia.com
   R:
   - T: "2100-01-01"
@@ -62496,58 +62527,3 @@ P:
     U: sarun87
   B: 0
   U: Arun Sriraman
-- E: sarun87!gmail.com
-  R:
-  - T: "2014-10-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Platform9
-    F: "2014-10-01"
-    P: k8s
-    R: C
-  I:
-  - E: sarun87!gmail.com
-    M: Arun Sriraman
-    S: git
-  B: 0
-  U: Arun Sriraman
-- E: aruns.suresh!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: aruns.suresh!gmail.com
-    M: Arun Suresh
-    S: github
-    U: arunsure
-  B: 0
-  U: Arun Suresh
-- E: arunsure!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: arunsure!us.ibm.com
-    M: Arun Suresh
-    S: git
-  B: 0
-  U: Arun Suresh

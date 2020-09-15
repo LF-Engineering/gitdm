@@ -1,4 +1,36 @@
 P:
+- R:
+  - T: "2014-09-26"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-10-09"
+    C: HP
+    F: "2014-09-26"
+    P: cncf/shared
+    R: C
+  - T: "2018-04-01"
+    C: IBM
+    F: "2015-10-09"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2018-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2018-04-01"
+    P: lfn-cntt
+    R: C
+  I:
+  - M: Kyle Mestery
+    S: confluence
+    U: mestery
+  B: 0
+  U: Kyle Mestery
 - C: US
   R:
   - T: "2014-09-26"
@@ -10500,6 +10532,11 @@ P:
     C: Amundi
     F: "1900-01-01"
     P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: LaFourchette
+    F: "2016-03-01"
+    P: cncf/backstage
     R: C
   - T: "2100-01-01"
     C: LaFourchette
@@ -22220,6 +22257,9 @@ P:
     P: feilong
     R: C
   I:
+  - E: 37855844+haolp!users.noreply.github.com
+    M: Li Ping Hao
+    S: git
   - E: haolp!cn.ibm.com
     M: haolp
     S: git
@@ -51154,6 +51194,20 @@ P:
     S: git
   B: 0
   U: Luis Tomas Bolivar
+- E: tumialan!ieee.org
+  R:
+  - T: "2100-01-01"
+    C: Seneca College
+    F: "2020-06-22"
+    P: open-mainframe-project/cobol-programming-course
+    R: C
+  I:
+  - E: tumialan!ieee.org
+    M: Luis Tumialan
+    S: slack
+    U: tumialan
+  B: 0
+  U: Luis Tumialan
 - C: GB
   E: me!lurraca.com
   R:
@@ -61988,98 +62042,3 @@ P:
     U: maciejgrzybek
   B: 0
   U: Maciej Grzybek
-- E: mjagiello!juniper.net
-  R:
-  - T: "2018-11-27"
-    C: Juniper Networks, Inc.
-    F: "2017-06-22"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: mjagiello!juniper.net
-    M: Maciej Jagiello
-    S: jira
-    U: mjagiello
-  B: 0
-  U: Maciej Jagiello
-- E: maciej!kucia.net
-  R:
-  - T: "2013-09-01"
-    C: Texas Instruments Incorporated
-    F: "2012-06-01"
-    P: baetyl
-    R: C
-  - T: "2016-08-01"
-    C: Motorola Solutions
-    F: "2013-10-01"
-    P: baetyl
-    R: C
-  - T: "2019-12-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2016-09-01"
-    P: baetyl
-    R: C
-  I:
-  - E: maciej!kucia.net
-    M: Maciej Kucia
-    S: git
-  B: 0
-  U: Maciej Kucia
-- E: maciej.kwiecien!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: maciej.kwiecien!nokia.com
-    M: Maciej Kwiecien
-    S: git
-  B: 0
-  U: Maciej Kwiecien
-- R:
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2017-09-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Stealth Startup
-    F: "2017-09-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Maciej Kwiek
-    S: github
-    U: nebril
-  B: 0
-  U: Maciej Kwiek
