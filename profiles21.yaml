@@ -1,4 +1,917 @@
 P:
+- C: IN
+  E: parinay.kondekar!seagate.com
+  R:
+  - T: "2100-01-01"
+    C: Seagate
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Seagate
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: parinay.kondekar!seagate.com
+    M: Parinay Kondekar
+    S: git
+  B: 0
+  U: Parinay Kondekar
+- E: paris_pittman!apple.com
+  R:
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: cncf
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: k8s
+    R: C
+  I:
+  - E: paris_pittman!apple.com
+    M: Paris Pittman
+    S: git
+  B: 0
+  U: Paris Pittman
+- C: US
+  R:
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: cncf/shared
+    R: C
+  S: female
+  I:
+  - M: Paris
+    S: github
+    U: parispittman
+  B: 0
+  U: Paris
+- E: paris.pittman!gmail.com
+  R:
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: cncf
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: k8s
+    R: C
+  I:
+  - E: paris.pittman!gmail.com
+    M: Paris
+    S: git
+  - E: paris.pittman!gmail.com
+    M: Paris
+    S: github
+    U: parispittman
+  B: 0
+  U: Paris
+- E: paris_pittman!apple.com
+  R:
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: cncf
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: k8s
+    R: C
+  I:
+  - E: paris_pittman!apple.com
+    M: Paris
+    S: git
+  B: 0
+  U: Paris
+- C: US
+  E: parispittman!google.com
+  R:
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-06-01"
+    C: AOL
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: cncf
+    R: C
+  - T: "2020-06-01"
+    C: Google
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "2020-06-01"
+    P: k8s
+    R: C
+  S: female
+  I:
+  - E: parispittman!google.com
+    M: Paris Pittman
+    S: git
+  - E: parispittman!google.com
+    M: Paris
+    S: git
+  - E: parispittman!google.com
+    M: parispittman
+    S: git
+  B: 0
+  U: Paris
+- E: paranjan!in.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: hyperledger-labs/fabric-block-archiving
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: hyperledger-labs/pluggable-hcs
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-08-27"
+    P: fabric
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-08-27"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-08-27"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-08-27"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-08-27"
+    P: hyperledger/hyperledger-twgc
+    R: C
+  I:
+  - E: paranjan!in.ibm.com
+    M: Paritosh Ranjan
+    S: gerrit
+    U: paranjan
+  - E: paranjan!in.ibm.com
+    M: Paritosh Ranjan
+    S: git
+  - E: paranjan!in.ibm.com
+    M: Paritosh Ranjan
+    S: groupsio
+  B: 0
+  U: Paritosh Ranjan
+- E: pberberian!iol.unh.edu
+  R:
+  - T: "2100-01-01"
+    C: UNH InterOperability Lab
+    F: "2019-01-01"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: UNH InterOperability Lab
+    F: "2019-01-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: UNH InterOperability Lab
+    F: "2019-01-01"
+    P: dpdk-tools
+    R: C
+  - T: "2100-01-01"
+    C: UNH InterOperability Lab
+    F: "2019-01-01"
+    P: lfn-cntt
+    R: C
+  - T: "2100-01-01"
+    C: UNH InterOperability Lab
+    F: "2019-01-01"
+    P: opnfv
+    R: C
+  I:
+  - M: Parker Berberian
+    S: confluence
+    U: ParkerBerberian
+  - E: pberberian!iol.unh.edu
+    M: Parker Berberian
+    S: gerrit
+    U: ParkerBerberian
+  - E: pberberian!iol.unh.edu
+    M: Parker Berberian
+    S: git
+  - E: pberberian!iol.unh.edu
+    M: Parker Berberian
+    S: groupsio
+  - M: Parker Berberian
+    S: jira
+    U: ParkerBerberian
+  - E: pberberian!iol.unh.edu
+    M: Parker Berberian
+    S: jira
+    U: ParkerBerberian
+  - E: pberberian!iol.unh.edu
+    M: Parker Berberian
+    S: pipermail
+  B: 0
+  U: Parker Berberian
+- C: CN
+  E: phan!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2016-03-03"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - E: phan!pivotal.io
+    M: Parker Han
+    S: slack
+    U: parker
+  B: 0
+  U: Parker Han
+- C: US
+  E: 237985+parkr!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: 237985+parkr!users.noreply.github.com
+    M: Parker Moore
+    S: git
+  B: 0
+  U: Parker Moore
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Parker Moore
+    S: github
+    U: parkr
+  B: 0
+  U: Parker Moore
+- E: parkrmoore!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: internet-security-research-group
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: messageformat
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: ojsf-mocha
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: parkrmoore!gmail.com
+    M: Parker Moore
+    S: git
+  B: 0
+  U: Parker Moore
+- E: parrasajad!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: parrasajad!gmail.com
+    M: Parrasajad
+    S: git
+  B: 0
+  U: Parrasajad
+- E: pars.patel!samsung.com
+  R:
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2017-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2017-11-01"
+    P: onap
+    R: C
+  I:
+  - M: Parshad Patel
+    S: confluence
+    U: Pars
+  - E: pars.patel!samsung.com
+    M: Parshad Patel
+    S: gerrit
+    U: Pars
+  - E: pars.patel!samsung.com
+    M: Parshad Ramniklal Patel
+    S: gerrit
+    U: Pars
+  - E: pars.patel!samsung.com
+    M: Parshad Patel
+    S: git
+  - E: pars.patel!samsung.com
+    M: Parshad Patel
+    S: jira
+    U: Pars
+  - M: Parshad Ramniklal Patel
+    S: jira
+    U: Pars
+  - E: pars.patel!samsung.com
+    M: Parshad Ramniklal Patel
+    S: jira
+    U: Pars
+  B: 0
+  U: Parshad Ramniklal Patel
+- E: gaglani!ca.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: gaglani!ca.ibm.com
+    M: Parth Gaglani
+    S: git
+  B: 0
+  U: Parth Gaglani
+- E: pgaglani1!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: pgaglani1!gmail.com
+    M: Parth Gaglani
+    S: github
+    U: pgaglani1
+  B: 0
+  U: Parth Gaglani
+- E: htrapdev!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: htrapdev!gmail.com
+    M: Parth Oberoi
+    S: github
+    U: hTrap
+  B: 0
+  U: Parth Oberoi
+- C: IN
+  E: parthoberoi!hotmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-01-22"
+    C: Independent
+    F: "2015-01-19"
+    P: baetyl
+    R: C
+  I:
+  - E: parthoberoi!hotmail.com
+    M: Parth Oberoi
+    S: git
+  B: 0
+  U: Parth Oberoi
+- C: US
+  E: laerdevstudios!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: laerdevstudios!gmail.com
+    M: Parth Sane
+    S: git
+  B: 0
+  U: Parth Sane
+- C: IN
+  E: parth1989shandilya!gmail.com
+  R:
+  - T: "2020-07-31"
+    C: Rocket Software
+    F: "2020-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "2020-08-01"
+    R: C
+  I:
+  - E: parth1989shandilya!gmail.com
+    M: Parth Shandilya
+    S: github
+    U: ParthS007
+  - E: parth1989shandilya!gmail.com
+    M: Parth Shandilya
+    S: slack
+    U: parth1989shandilya
+  B: 0
+  U: Parth Shandilya
+- E: pathakka!in.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: pathakka!in.ibm.com
+    M: Parth Thakkar
+    S: gerrit
+    U: tparth
+  B: 0
+  U: Parth Thakkar
+- E: parthyadav3105!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Ramanujan
+    F: "2019-01-20"
+    P: lfn-cntt
+    R: C
+  - T: "2100-01-01"
+    C: Ramanujan
+    F: "2019-01-20"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: Ramanujan
+    F: "2019-01-20"
+    P: opnfv
+    R: C
+  I:
+  - M: Parth yadav
+    S: confluence
+    U: Parthyadav
+  - E: parth.yadav!ramanujan.du.ac.in
+    M: Parth yadav
+    S: gerrit
+    U: Parthyadav
+  - E: parthyadav3105!gmail.com
+    M: Parth yadav
+    S: gerrit
+    U: Parthyadav
+  - E: parth.yadav!ramanujan.du.ac.in
+    M: Parth Yadav
+    S: git
+  - E: parthyadav3105!gmail.com
+    M: Parth yadav
+    S: jira
+    U: Parthyadav
+  B: 0
+  U: Parth yadav
+- E: partha.datta!tcs.com
+  R:
+  - T: "2017-11-15"
+    C: Tata Consultancy Services
+    F: "2014-01-24"
+    P: dpdk
+    R: C
+  - T: "2017-11-15"
+    C: Tata Consultancy Services
+    F: "2014-01-24"
+    P: odl
+    R: C
+  I:
+  - E: partha.datta!tcs.com
+    M: Partha Datta
+    S: groupsio
+  - E: partha.datta!tcs.com
+    M: Partha Datta
+    S: jira
+    U: partha.datta
+  - E: partha.datta!tcs.com
+    M: Partha Datta
+    S: pipermail
+  B: 0
+  U: Partha Datta
+- E: parthasarathy.bhuvaragan!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: parthasarathy.bhuvaragan!ericsson.com
+    M: Parthasarathy Bhuvaragan
+    S: git
+  B: 0
+  U: Parthasarathy Bhuvaragan
+- E: jananeex.m.parthasarathy!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-04-25"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-04-25"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-04-25"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-04-25"
+    P: dpdk
+    R: C
+  - T: "2018-10-30"
+    C: Intel Corporation
+    F: "2018-07-02"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-07-02"
+    P: dpdk-next
+    R: C
+  I:
+  - E: jananeex.m.parthasarathy!intel.com
+    M: Jananee Parthasarathy
+    S: git
+  - E: jananeex.m.parthasarathy!intel.com
+    M: Jananee Parthasarathy
+    S: pipermail
+  - E: jananeex.m.parthasarathy!intel.com
+    M: Parthasarathy, JananeeX M
+    S: pipermail
+  B: 0
+  U: Parthasarathy, JananeeX M
+- C: DE
+  E: parthiban!linumiz.com
+  R:
+  - T: "2100-01-01"
+    C: Bosch
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: Bosch
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: zep
+    R: C
+  I:
+  - E: parthiban!linumiz.com
+    M: Parthiban Nallathambi
+    S: git
+  - E: parthitce!gmail.com
+    M: Parthiban Nallathambi
+    S: git
+  - E: pn!denx.de
+    M: Parthiban Nallathambi
+    S: git
+  - E: pn!denx.de
+    M: Parthiban
+    S: github
+    U: parthitce
+  - E: Parthiban.Nallathambi!in.bosch.com
+    M: Parthiban Nallathambi (RBEI/ECF3)
+    S: groupsio
+  - E: parthitce!gmail.com
+    M: Parthiban Nallathambi
+    S: groupsio
+  - E: pn!denx.de
+    M: Parthiban Nallathambi
+    S: groupsio
+  - E: Parthiban.Nallathambi!in.bosch.com
+    M: Parthiban Nallathambi RBEI/ECF3
+    S: pipermail
+  - E: parthitce!gmail.com
+    M: Parthiban Nallathambi
+    S: pipermail
+  - E: pn!denx.de
+    M: Parthiban Nallathambi
+    S: pipermail
+  - E: parthiban!linumiz.com
+    M: Parthiban Nallathambi
+    S: slack
+    U: parthitce
+  - E: parthitce!gmail.com
+    M: Parthiban Nallathambi
+    S: slack
+    U: parthitce
+  B: 0
+  U: Parthiban Nallathambi
+- E: parthiban!linumiz.com
+  R:
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: zep
+    R: C
+  I:
+  - E: parthiban!linumiz.com
+    M: Parthiban
+    S: github
+    U: parthitce
+  - E: parthiban!linumiz.com
+    M: Parthiban
+    S: slack
+    U: parthitce
+  B: 0
+  U: Parthiban
+- C: DE
+  E: parthitce!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: DENX Software Engineering
+    F: "2019-05-01"
+    P: yocto
+    R: C
+  I:
+  - E: parthitce!gmail.com
+    M: Parthiban
+    S: github
+    U: parthitce
+  - E: parthitce!gmail.com
+    M: Parthiban
+    S: groupsio
+  - E: parthitce!gmail.com
+    M: Parthiban
+    S: pipermail
+  B: 0
+  U: Parthiban
+- C: US
+  E: pgeetha!andrew.cmu.edu
+  R:
+  - T: "2100-01-01"
+    C: Carnegie Mellon University
+    F: "1900-01-01"
+    R: C
+  S: female
+  I:
+  - E: pgeetha!andrew.cmu.edu
+    M: Parvathy Geetha
+    S: github
+    U: Parvathy-Geetha
+  - E: pgeetha!andrew.cmu.edu
+    M: Parvathy Geetha
+    S: slack
+    U: pgeetha
+  B: 0
+  U: Parvathy Geetha
 - E: parvezbasha.shaik!amdocs.com
   R:
   - T: "2100-01-01"
@@ -1617,6 +2530,59 @@ P:
     S: git
   B: 0
   U: Pat Riehecky
+- E: pat!voltanet.io
+  R:
+  - T: "1992-07-01"
+    C: Heathrow
+    F: "1989-09-01"
+    P: danos
+    R: C
+  - T: "1996-01-01"
+    C: Shiva Europe
+    F: "1992-01-01"
+    P: danos
+    R: C
+  - T: "1995-07-01"
+    C: Spider Systems Limited
+    F: "1992-09-01"
+    P: danos
+    R: C
+  - T: "1997-09-01"
+    C: Shiva
+    F: "1996-09-01"
+    P: danos
+    R: C
+  - T: "1998-11-01"
+    C: Spider Software Limited
+    F: "1998-03-01"
+    P: danos
+    R: C
+  - T: "2014-10-01"
+    C: Cisco Systems
+    F: "1998-11-01"
+    P: danos
+    R: C
+  - T: "2017-07-01"
+    C: Brocade Communications Systems LLC
+    F: "2014-12-01"
+    P: danos
+    R: C
+  - T: "2019-12-01"
+    C: Vyatta, AT&T Advanced Development
+    F: "2017-07-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Volta Networks
+    F: "2019-12-01"
+    P: danos
+    R: C
+  I:
+  - E: pat!voltanet.io
+    M: Pat Ruddy
+    S: git
+  B: 0
+  U: Pat Ruddy
 - E: rapatchi!microsoft.com
   R:
   - T: "2100-01-01"
@@ -13797,6 +14763,11 @@ P:
   - T: "2100-01-01"
     C: ARM
     F: "2018-11-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "2018-11-01"
     P: lfedge/edgex-foundry
     R: C
   I:
@@ -22826,6 +23797,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-03-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-03-01"
     P: intoto
     R: C
   - T: "2100-01-01"
@@ -25330,6 +26306,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cncf/metal3
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: kubevirt
     R: C
   I:
@@ -27764,6 +28745,11 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "1900-01-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
     P: intoto
     R: C
   - T: "2100-01-01"
@@ -28326,6 +29312,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cncf/metal3
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: kubevirt
     R: C
   I:
@@ -28336,6 +29327,11 @@ P:
   U: Pep Turró Mauri
 - E: pep!redhat.com
   R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/metal3
+    R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
@@ -29321,6 +30317,11 @@ P:
     C: Edinburgh Napier University
     F: "2010-09-30"
     P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: OpenStack
+    F: "2016-11-30"
+    P: cncf/metal3
     R: C
   - T: "2100-01-01"
     C: OpenStack
@@ -32939,6 +33940,18 @@ P:
     S: pipermail
   B: 0
   U: Peter Gubka
+- R:
+  - T: "2100-01-01"
+    C: Danske Bank
+    F: "1998-08-01"
+    P: zowe
+    R: C
+  I:
+  - M: Peter Halsted
+    S: github
+    U: PeterHalsted
+  B: 0
+  U: Peter Halsted
 - E: phaumer!us.ibm.com
   R:
   - T: "2100-01-01"
@@ -42457,6 +43470,11 @@ P:
     C: IBM
     F: "1900-01-01"
     P: cncf/keptn
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -61198,952 +62216,3 @@ P:
     S: pipermail
   B: 0
   U: Pragash Vijayaragavan
-- R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: keda
-    R: C
-  I:
-  - M: Pragna Gopa
-    S: github
-    U: pragnagopa
-  B: 0
-  U: Pragna Gopa
-- C: IN
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: female
-  I:
-  - M: Pragya Mehta
-    S: github
-    U: pragyamehta
-  B: 0
-  U: Pragya Mehta
-- C: IN
-  E: pragme!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: female
-  I:
-  - E: pragme!microsoft.com
-    M: Pragya Mehta
-    S: git
-  B: 0
-  U: Pragya Mehta
-- R:
-  - T: "2018-02-01"
-    C: Rotor Studios
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2018-12-01"
-    C: Genbook
-    F: "2018-02-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "2018-12-01"
-    P: cncf/contour
-    R: C
-  I:
-  - M: Prahalad Ramji
-    S: github
-    U: prahaladramji
-  B: 0
-  U: Prahalad Ramji
-- E: pnp249!nyu.edu
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: pnp249!nyu.edu
-    M: Prahsant Patel
-    S: github
-    U: prashant182
-  B: 0
-  U: Prahsant Patel
-- E: prajaya.talwar!tcs.com
-  R:
-  - T: "2015-11-20"
-    C: Tata Consultancy Services
-    F: "2015-09-18"
-    P: dpdk
-    R: C
-  - T: "2015-11-20"
-    C: Tata Consultancy Services
-    F: "2015-09-18"
-    P: odl
-    R: C
-  I:
-  - E: prajaya.talwar!tcs.com
-    M: Prajaya Talwar
-    S: gerrit
-    U: Prajaya
-  - E: prajaya.talwar!tcs.com
-    M: Prajaya
-    S: git
-  - E: prajaya.talwar!tcs.com
-    M: Prajaya Talwar
-    S: pipermail
-  B: 0
-  U: Prajaya
-- E: prajwalmmath!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Dr. Ambedkar Institute Of Technology
-    F: "2016-12-31"
-    R: C
-  I:
-  - E: prajwalmmath!gmail.com
-    M: PrajwalM2212
-    S: git
-  - M: PRAJWAL M
-    S: github
-    U: PrajwalM2212
-  - E: prajwalmmath!gmail.com
-    M: Prajwal M
-    S: slack
-    U: prajwalmmath
-  B: 0
-  U: Prajwal M
-- E: prakashmb!juniper.net
-  R:
-  - T: "2017-06-01"
-    C: Juniper Networks, Inc.
-    F: "2012-12-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Volterra Inc
-    F: "2017-06-01"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: prakashmb!juniper.net
-    M: Prakash Bailkeri
-    S: jira
-    U: prakashmb
-  B: 0
-  U: Prakash Bailkeri
-- E: guptap!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: guptap!codeaurora.org
-    M: Prakash Gupta
-    S: git
-  B: 0
-  U: Prakash Gupta
-- E: pbhandar!techmahindra.com
-  R:
-  - T: "2019-04-11"
-    C: Tech Mahindra Ltd.
-    F: "2019-01-21"
-    R: C
-  - T: "2019-04-11"
-    C: Tech Mahindra Ltd.
-    F: "2019-01-21"
-    P: onap
-    R: C
-  I:
-  - E: pbhandar!techmahindra.com
-    M: Prakash H
-    S: gerrit
-    U: PrakashH
-  - E: pbhandar!techmahindra.com
-    M: Prakash H
-    S: git
-  - E: pbhandar!techmahindra.com
-    M: PrakashH
-    S: git
-  - M: Prakash H
-    S: jira
-    U: PrakashH
-  - E: pbhandar!techmahindra.com
-    M: Prakash H
-    S: jira
-    U: PrakashH
-  B: 0
-  U: Prakash H
-- E: pkamliya!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: pkamliya!codeaurora.org
-    M: Prakash Kamliya
-    S: git
-  B: 0
-  U: Prakash Kamliya
-- E: prakashjjcet!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "2020-04-27"
-    P: fdio
-    R: C
-  I:
-  - E: prajagopal!twitter.com
-    M: Prakash Rajagopal
-    S: git
-  - E: prakashjjcet!gmail.com
-    M: Prakash Rajagopal
-    S: groupsio
-  B: 0
-  U: Prakash Rajagopal
-- E: prakash.rajendran!capgemini.com
-  R:
-  - T: "2100-01-01"
-    C: Capgemini
-    F: "2017-03-13"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: prakash.rajendran!capgemini.com
-    M: Prakash Rajendran
-    S: slack
-    U: prakashvgr
-  B: 0
-  U: Prakash Rajendran
-- E: PR00465610!TechMahindra.com
-  R:
-  - T: "2100-01-01"
-    C: Tech Mahindra Ltd.
-    F: "2020-02-10"
-    P: onap
-    R: C
-  I:
-  - E: PR00465610!TechMahindra.com
-    M: Prakash Ramachandraiah
-    S: groupsio
-  B: 0
-  U: Prakash Ramachandraiah
-- E: prakash.ramchandran!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-03-09"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-03-09"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-06-29"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-01-10"
-    P: lfn-cntt
-    R: C
-  I:
-  - M: Prakash Ramchandran
-    S: confluence
-    U: pramchan
-  - M: Prakash Ramchandran
-    S: confluence
-    U: rprakash
-  - E: pramchan!yahoo.com
-    M: Prakash Ramchandran
-    S: confluence
-    U: pramchan
-  - E: prakash.ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: gerrit
-    U: rprakash
-  - E: pramchan!yahoo.com
-    M: Prakash Ramchandran
-    S: gerrit
-    U: pramchan
-  - E: prakash.ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: git
-  - E: Prakash.Ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: gmane
-  - E: pramchan!yahoo.com
-    M: prakash RAMCHANDRAN
-    S: gmane
-  - E: pramchan!yahoo.com
-    M: pramchan
-    S: gmane
-  - E: Prakash.Ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: groupsio
-  - E: pramchan!yahoo.com
-    M: prakash RAMCHANDRAN
-    S: groupsio
-  - E: pramchan!yahoo.com
-    M: pramchan
-    S: groupsio
-  - M: Prakash Ramchandran
-    S: jira
-    U: pramchan
-  - M: Prakash Ramchandran
-    S: jira
-    U: rprakash
-  - E: prakash.ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: jira
-    U: rprakash
-  - E: pramchan!yahoo.com
-    M: Prakash Ramchandran
-    S: jira
-    U: pramchan
-  - E: Prakash.Ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: linux-foundation:mls
-    U: Prakash.Ramchandran
-  - E: pramchan!yahoo.com
-    M: pramchan
-    S: linux-foundation:mls
-    U: pramchan
-  - E: prakash.ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: linux-foundation:scm
-  - E: prakash.ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: linux-foundation:scr
-    U: rprakash
-  - E: pramchan!yahoo.com
-    M: Prakash Ramchandran
-    S: linux-foundation:scr
-    U: pramchan
-  - E: Prakash.Ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: mbox
-  - E: pramchan!yahoo.com
-    M: prakash RAMCHANDRAN
-    S: mbox
-  - E: pramchan!yahoo.com
-    M: pramchan
-    S: mbox
-  - E: Prakash.Ramchandran!huawei.com
-    M: Prakash Ramchandran
-    S: pipermail
-  - E: pramchan!yahoo.com
-    M: prakash RAMCHANDRAN
-    S: pipermail
-  - E: pramchan!yahoo.com
-    M: pramchan
-    S: pipermail
-  B: 0
-  U: Prakash Ramchandran
-- E: prakash.sangappa!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: prakash.sangappa!oracle.com
-    M: Prakash Sangappa
-    S: git
-  B: 0
-  U: Prakash Sangappa
-- E: Prakash.Siva!radisys.com
-  R:
-  - T: "1999-12-01"
-    C: Agilent Technologies, Inc.
-    F: "1993-05-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: Radisys Corporation
-    F: "2009-01-01"
-    P: akraino
-    R: C
-  I:
-  - E: Prakash.Siva!radisys.com
-    M: Prakash Siva
-    S: groupsio
-  B: 0
-  U: Prakash Siva
-- E: prakash.surya!delphix.com
-  R:
-  - T: "2100-01-01"
-    C: Lawrence Livermore National Laboratory
-    F: "1900-01-01"
-    P: iovisor
-    R: C
-  - T: "2100-01-01"
-    C: Lawrence Livermore National Laboratory
-    F: "1900-01-01"
-    P: iovisor/iovisor
-    R: C
-  - T: "2100-01-01"
-    C: Lawrence Livermore National Laboratory
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: prakash.surya!delphix.com
-    M: Prakash Surya
-    S: git
-  - E: prakash.surya!delphix.com
-    M: Prakash Surya
-    S: github
-    U: prakashsurya
-  B: 0
-  U: Prakash Surya
-- C: US
-  E: surya1!llnl.gov
-  R:
-  - T: "2100-01-01"
-    C: Lawrence Livermore National Laboratory
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Lawrence Livermore National Laboratory
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  S: male
-  I:
-  - E: surya1!llnl.gov
-    M: Prakash Surya
-    S: git
-  B: 0
-  U: Prakash Surya
-- E: pprakash!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: pprakash!codeaurora.org
-    M: Prakash, Prashanth
-    S: git
-  - E: pprakash!codeaurora.org
-    M: Prashanth Prakash
-    S: git
-  B: 0
-  U: Prakash, Prashanth
-- E: sathya.prakash!lsi.com
-  R:
-  - T: "2100-01-01"
-    C: LSI Logic
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sathya.prakash!lsi.com
-    M: Prakash, Sathya
-    S: git
-  B: 0
-  U: Prakash, Sathya
-- E: Prakash.Ramchandran!Dell.com
-  R:
-  - T: "2019-07-09"
-    C: Dell
-    F: "2018-08-30"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Dell
-    F: "2019-10-10"
-    P: lfn-cntt
-    R: C
-  I:
-  - E: Prakash.Ramchandran!Dell.com
-    M: Prakash.Ramchandran
-    S: groupsio
-  B: 0
-  U: Prakash.Ramchandran
-- E: prakash.p!verizon.com
-  R:
-  - T: "2019-01-08"
-    C: Verizon Communications
-    F: "2018-07-12"
-    R: C
-  - T: "2019-01-08"
-    C: Verizon Communications
-    F: "2018-07-12"
-    P: onap
-    R: C
-  I:
-  - E: prakash.p!verizon.com
-    M: Prakash
-    S: groupsio
-  B: 0
-  U: Prakash
-- C: US
-  E: prakharagarwal!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Treasure Data Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Treasure Data Inc.
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  S: male
-  I:
-  - E: prakharagarwal!users.noreply.github.com
-    M: Prakhar Agarwal
-    S: git
-  B: 0
-  U: Prakhar Agarwal
-- E: Prakhar.Pandey!amdocs.com
-  R:
-  - T: "2017-10-11"
-    C: Amdocs
-    F: "2017-04-26"
-    R: C
-  - T: "2017-10-11"
-    C: Amdocs
-    F: "2017-04-26"
-    P: onap
-    R: C
-  I:
-  - E: Prakhar.Pandey!amdocs.com
-    M: Prakhar Pandey
-    S: gerrit
-    U: pprakhar
-  - E: Prakhar.Pandey!amdocs.com
-    M: pprakhar
-    S: git
-  - E: Prakhar.Pandey!amdocs.com
-    M: Prakhar Pandey
-    S: groupsio
-  - E: Prakhar.Pandey!amdocs.com
-    M: Prakhar Pandey
-    S: jira
-    U: pprakhar
-  - E: Prakhar.Pandey!amdocs.com
-    M: Prakhar Pandey
-    S: pipermail
-  B: 0
-  U: Prakhar Pandey
-- E: pheragu!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: pheragu!codeaurora.org
-    M: Prakruthi Deepak Heragu
-    S: git
-  B: 0
-  U: Prakruthi Deepak Heragu
-- E: pramisin!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2013-04-15"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2013-04-15"
-    P: odl
-    R: C
-  I:
-  - E: pramisin!cisco.com
-    M: Pramila Singh
-    S: gerrit
-    U: pramisin
-  - E: pramisin!cisco.com
-    M: Pramila Singh
-    S: git
-  - E: pramisin!cisco.com
-    M: Pramila Singh pramisin
-    S: pipermail
-  B: 0
-  U: Pramila Singh
-- E: pramod.gurav!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: pramod.gurav!linaro.org
-    M: Pramod Gurav
-    S: git
-  B: 0
-  U: Pramod Gurav
-- E: pramod!research.att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-09-19"
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-09-19"
-    P: onap
-    R: C
-  I:
-  - M: Pramod Jamkhedkar
-    S: confluence
-    U: pramod.jamkhedkar
-  - E: pramod!research.att.com
-    M: Pramod Jamkhedkar
-    S: gerrit
-    U: pramod.jamkhedkar
-  - E: pramod!research.att.com
-    M: Pramod Jamkhedkar
-    S: git
-  - E: pramod!research.att.com
-    M: pramod.jamkhedkar
-    S: git
-  - M: Pramod Jamkhedkar
-    S: jira
-    U: pramod.jamkhedkar
-  - E: pramod!research.att.com
-    M: Pramod Jamkhedkar
-    S: jira
-    U: pramod.jamkhedkar
-  B: 0
-  U: Pramod Jamkhedkar
-- E: pramod.kumarsharma!amdocs.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2017-11-29"
-    R: C
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2017-11-29"
-    P: onap
-    R: C
-  I:
-  - E: pramod.kumarsharma!amdocs.com
-    M: Pramod Kumar Sharma
-    S: gerrit
-    U: pramodksamdocs
-  - E: Pramod.kumarsharma!amdocs.com
-    M: Pramod
-    S: gerrit
-  - E: Pramod.kumarsharma!amdocs.com
-    M: Pramod
-    S: gerrit
-  - E: pramod.kumarsharma!amdocs.com
-    M: Pramod
-    S: git
-  - E: pramod.kumarsharma!amdocs.com
-    M: pramodksamdocs
-    S: git
-  - M: Pramod Kumar Sharma
-    S: jira
-    U: pramodksamdocs
-  - E: pramod.kumarsharma!amdocs.com
-    M: Pramod Kumar Sharma
-    S: jira
-    U: pramodksamdocs
-  B: 0
-  U: Pramod Kumar Sharma
-- E: pramod.kumar!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: pramod.kumar!broadcom.com
-    M: Pramod Kumar
-    S: git
-  B: 0
-  U: Pramod Kumar
-- E: pramod.kumar_1!nxp.com
-  R:
-  - T: "2100-01-01"
-    C: NXP Semiconductors Netherlands B.V.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: pramod.kumar_1!nxp.com
-    M: Pramod Kumar
-    S: git
-  B: 0
-  U: Pramod Kumar
-- E: pramodku!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: pramodku!broadcom.com
-    M: Pramod Kumar
-    S: git
-  B: 0
-  U: Pramod Kumar
-- C: US
-  E: nagapramod!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-06-25"
-    C: IBM
-    F: "2015-07-06"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: nagapramod!gmail.com
-    M: Pramod Mandagere
-    S: groupsio
-  - E: nagapramod!gmail.com
-    M: Pramod Mandagere
-    S: mbox
-  B: 0
-  U: Pramod Mandagere
-- E: pramod.raghavendra.jayathirth!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-08-06"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-08-06"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-03-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-04-17"
-    P: akraino
-    R: C
-  I:
-  - M: Pramod Raghavendra Jayathirth
-    S: confluence
-    U: Pramod
-  - E: pramod.raghavendra.jayathirth!intel.com
-    M: Pramod Raghavendra Jayathirth
-    S: gerrit
-    U: Pramod
-  - E: pramod.raghavendra.jayathirth!intel.com
-    M: Pramod
-    S: gerrit
-    U: Pramod
-  - E: pramod.raghavendra.jayathirth!intel.com
-    M: Pramod Raghavendra Jayathirth
-    S: git
-  - E: pramod.raghavendra.jayathirth!intel.com
-    M: Pramod
-    S: git
-  - E: pramod.raghavendra.jayathirth!intel.com
-    M: Pramod Raghavendra Jayathirth
-    S: jira
-    U: Pramod
-  - E: pramod.raghavendra.jayathirth!intel.com
-    M: Pramod Raghavendra Jayathirth
-    S: jira
-    U: pramod.raghavendra.jayathirth
-  - E: pramod.raghavendra.jayathirth!intel.com
-    M: Pramod
-    S: jira
-    U: Pramod
-  - M: Pramod
-    S: mediawiki
-    U: Pramod
-  - E: pramod.raghavendra.jayathirth!intel.com
-    M: Jayathirth, Pramod Raghavendra
-    S: pipermail
-  B: 0
-  U: Pramod Raghavendra Jayathirth
-- E: pdeore!redhat.com
-  R:
-  - T: "2017-10-11"
-    C: Red Hat Inc.
-    F: "2017-07-01"
-    R: C
-  - T: "2017-10-11"
-    C: Red Hat Inc.
-    F: "2017-07-01"
-    P: opnfv
-    R: C
-  I:
-  - E: pdeore!redhat.com
-    M: Pranali Deore
-    S: git
-  - E: pdeore!redhat.com
-    M: PranaliD
-    S: git
-  B: 0
-  U: Pranali Deore
-- E: Pranav.Dixit!amdocs.com
-  R:
-  - T: "2017-10-25"
-    C: Amdocs
-    F: "2017-07-01"
-    R: C
-  - T: "2017-10-25"
-    C: Amdocs
-    F: "2017-07-01"
-    P: onap
-    R: C
-  I:
-  - E: Pranav.Dixit!amdocs.com
-    M: Pranav Dixit
-    S: gerrit
-    U: Pranav2
-  - E: Pranav.Dixit!amdocs.com
-    M: pranavdi
-    S: git
-  - E: Pranav.Dixit!amdocs.com
-    M: Pranav Dixit
-    S: groupsio
-  - E: Pranav.Dixit!amdocs.com
-    M: Pranav Dixit
-    S: jira
-    U: Pranav2
-  - E: Pranav.Dixit!amdocs.com
-    M: Pranav Dixit
-    S: pipermail
-  B: 0
-  U: Pranav Dixit
-- E: 2017uee1091!mnit.ac.in
-  R:
-  - T: "2099-12-31"
-    C: Malaviya National Institute of Technology Jaipur
-    F: "1969-12-31"
-    P: cephfoundation
-    R: C
-  - T: "2099-12-31"
-    C: Malaviya National Institute of Technology Jaipur
-    F: "1969-12-31"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2099-12-31"
-    C: Malaviya National Institute of Technology Jaipur
-    F: "1969-12-31"
-    P: feilong
-    R: C
-  - T: "2099-12-31"
-    C: Malaviya National Institute of Technology Jaipur
-    F: "1969-12-31"
-    P: zowe
-    R: C
-  I:
-  - M: Pranav Kulshrestha
-    S: github
-    U: pranav1698
-  - E: hulkcodexl16!gmail.com
-    M: Pranav Kulshrestha
-    S: github
-    U: pranav1698
-  - E: 2017uee1091!mnit.ac.in
-    M: Pranav Kulshrestha
-    S: slack
-    U: 2017uee1091
-  B: 0
-  U: Pranav Kulshrestha
-- E: abheyogy!gmail.com
-  R:
-  - T: "2014-04-15"
-    C: Aptira
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-12-28"
-    C: SUSE LLC
-    F: "2014-04-15"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-12-28"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2016-12-28"
-    P: cncf/shared
-    R: C
-  I:
-  - E: abheyogy!gmail.com
-    M: Pranav Salunke
-    S: slack
-    U: abheyogy
-  B: 0
-  U: Pranav Salunke

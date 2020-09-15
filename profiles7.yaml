@@ -1,4 +1,49 @@
 P:
+- C: SN
+  R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-07-01"
+    C: IBM
+    F: "2015-07-01"
+    R: C
+  - T: "2016-07-01"
+    C: IBM
+    F: "2015-07-01"
+    P: helm
+    R: C
+  - T: "2018-10-01"
+    C: Independent
+    F: "2016-07-01"
+    R: C
+  - T: "2018-10-01"
+    C: Independent
+    F: "2016-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-10-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - M: Dalitso Banda
+    S: github
+    U: dbanda
+  B: 0
+  U: Dalitso Banda
 - E: dabanda!microsoft.com
   R:
   - T: "2019-05-09"
@@ -6550,6 +6595,11 @@ P:
   - T: "2020-06-01"
     C: CNCF
     F: "2016-05-01"
+    P: cncf/tremor
+    R: C
+  - T: "2020-06-01"
+    C: CNCF
+    F: "2016-05-01"
     P: containerd
     R: C
   - T: "2020-06-01"
@@ -11135,6 +11185,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: cni
     R: C
   - T: "2100-01-01"
@@ -11369,6 +11424,11 @@ P:
     C: SAP Concur
     F: "1900-01-01"
     P: cncf/keptn
+    R: C
+  - T: "2019-10-01"
+    C: SAP Concur
+    F: "1900-01-01"
+    P: cncf/tremor
     R: C
   - T: "2019-10-01"
     C: SAP Concur
@@ -16431,6 +16491,11 @@ P:
     C: Carveco
     F: "2019-06-01"
     P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Carveco
+    F: "2019-06-01"
+    P: mojaglobal
     R: C
   I:
   - E: daniel.evans!carveco.com
@@ -38020,6 +38085,11 @@ P:
   - T: "2100-01-01"
     C: VMware, Inc.
     F: "2019-06-14"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-06-14"
     P: containerd
     R: C
   - T: "2100-01-01"
@@ -43417,6 +43487,11 @@ P:
     C: Spotify
     F: "2017-04-01"
     P: cncf/keptn
+    R: C
+  - T: "2100-01-01"
+    C: Spotify
+    F: "2017-04-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: Spotify
@@ -52343,6 +52418,11 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "1900-01-01"
+    P: cncf/openservicemesh
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
     P: k8s
     R: C
   I:
@@ -53674,6 +53754,11 @@ P:
     C: Docker, Inc.
     F: "1900-01-01"
     P: cncf/keptn
+    R: C
+  - T: "2100-01-01"
+    C: Docker, Inc.
+    F: "1900-01-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: Docker, Inc.
@@ -55329,6 +55414,11 @@ P:
     C: InfluxData
     F: "2018-11-01"
     P: cncf/keptn
+    R: C
+  - T: "2100-01-01"
+    C: InfluxData
+    F: "2018-11-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: InfluxData
@@ -60076,6 +60166,37 @@ P:
     U: dstangl
   B: 0
   U: David Stangl
+- E: dstaplet!brocade.com
+  R:
+  - T: "2013-09-01"
+    C: Cisco Systems
+    F: "2013-06-01"
+    P: danos
+    R: C
+  - T: "2014-11-01"
+    C: Cisco Systems
+    F: "2014-08-01"
+    P: danos
+    R: C
+  - T: "2017-06-01"
+    C: Vyatta, a Brocade Company
+    F: "2014-12-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Telecommunication
+    F: "2017-07-01"
+    P: danos
+    R: C
+  I:
+  - E: dstaplet!brocade.com
+    M: David Stapleton
+    S: git
+  - E: dstaplet!mail.eng.vyatta.net
+    M: David Stapleton
+    S: git
+  B: 0
+  U: David Stapleton
 - C: DE
   E: adinatbust!gmail.com
   R:
@@ -62421,116 +62542,3 @@ P:
     S: git
   B: 0
   U: David Woods
-- E: dworth!strava.com
-  R:
-  - T: "2100-01-01"
-    C: DigitalOcean
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
-  - E: dworth!strava.com
-    M: David Worth
-    S: git
-  B: 0
-  U: David Worth
-- E: david!weave.works
-  R:
-  - T: "2014-12-01"
-    C: LShift
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-05-01"
-    C: Weaveworks
-    F: "2014-12-01"
-    P: acrn/acrn
-    R: C
-  - T: "2016-05-01"
-    C: Weaveworks
-    F: "2014-12-01"
-    P: cephfoundation
-    R: C
-  - T: "2016-05-01"
-    C: Weaveworks
-    F: "2014-12-01"
-    P: cip
-    R: C
-  - T: "2016-05-01"
-    C: Weaveworks
-    F: "2014-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-05-01"
-    C: Weaveworks
-    F: "2014-12-01"
-    P: elisa
-    R: C
-  - T: "2016-05-01"
-    C: Weaveworks
-    F: "2014-12-01"
-    P: kernelci
-    R: C
-  - T: "2016-05-01"
-    C: Weaveworks
-    F: "2014-12-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: CloudFlare, Inc.
-    F: "2016-05-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: CloudFlare, Inc.
-    F: "2016-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: CloudFlare, Inc.
-    F: "2016-05-01"
-    P: korg
-    R: C
-  I:
-  - E: david!weave.works
-    M: David Wragg
-    S: git
-  B: 0
-  U: David Wragg
-- E: david!wragg.org
-  R:
-  - T: "2014-12-01"
-    C: LShift
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-12-01"
-    C: LShift
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2014-12-01"
-    C: LShift
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  - T: "2016-05-01"
-    C: Weaveworks
-    F: "2014-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: CloudFlare, Inc.
-    F: "2016-05-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: david!wragg.org
-    M: David Wragg
-    S: git
-  - E: david!wragg.org
-    M: David Wragg
-    S: github
-    U: dpw
-  B: 0
-  U: David Wragg

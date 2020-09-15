@@ -1,4 +1,62 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2014-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2014-01-01"
+    P: jaeger
+    R: C
+  S: male
+  I:
+  - E: abruce!pivotal.io
+    S: cloudfoundry:manual
+  - E: andrew!camelpunch.com
+    S: cloudfoundry:manual
+  - E: me!andrewbruce.net
+    S: cloudfoundry:manual
+  - M: Andrew Bruce
+    S: cloudfoundry:manual
+  - E: abruce!pivotal.io
+    M: Andrew Bruce
+    S: file:cff
+    U: camelpunch
+  - E: andrew!camelpunch.com
+    M: Andrew Bruce
+    S: file:cff
+    U: camelpunch
+  - E: me!andrewbruce.net
+    M: Andrew Bruce
+    S: file:cff
+    U: camelpunch
+  - E: abruce!pivotal.io
+    M: Andrew Bruce
+    S: git
+  - E: andrew!camelpunch.com
+    M: Andrew Bruce
+    S: git
+  - E: me!andrewbruce.net
+    M: Andrew Bruce
+    S: git
+  - S: github
+    U: camelpunch
+  - E: me!andrewbruce.net
+    M: Andrew Bruce
+    S: github
+    U: camelpunch
+  - E: abruce!pivotal.io
+    M: Andrew Bruce
+    S: slack
+    U: andrewbruce
+  - E: abruce!pivotal.io
+    M: andrewbruce
+    S: slack
+    U: andrewbruce
+  B: 0
+  U: Andrew Bruce
 - E: andrew!transitive.com
   R:
   - T: "2100-01-01"
@@ -20916,6 +20974,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cncf/metal3
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: kubevirt
     R: C
   I:
@@ -25306,6 +25369,11 @@ P:
     C: Red Hat Inc.
     F: "2016-03-01"
     P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-03-01"
+    P: cncf/metal3
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -30409,6 +30477,11 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2019-03-01"
+    P: cncf/openservicemesh
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2019-03-01"
     P: k8s
     R: C
   - T: "2100-01-01"
@@ -31941,6 +32014,11 @@ P:
     C: VT iDirect
     F: "1900-01-01"
     P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Appian
+    F: "2016-08-01"
+    P: helm
     R: C
   - T: "2100-01-01"
     C: Appian
@@ -48640,6 +48718,11 @@ P:
   - T: "2100-01-01"
     C: Hashnode
     F: "2018-01-01"
+    P: cncf/porter
+    R: C
+  - T: "2100-01-01"
+    C: Hashnode
+    F: "2018-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
@@ -54989,6 +55072,11 @@ P:
   - T: "2100-01-01"
     C: Invoxia
     F: "2010-05-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Invoxia
+    F: "2010-05-01"
     P: kernelci
     R: C
   - T: "2100-01-01"
@@ -60860,6 +60948,11 @@ P:
     F: "2018-04-01"
     P: cncf/crossplane
     R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-04-01"
+    P: cncf/porter
+    R: C
   I:
   - E: artursouza.ms!outlook.com
     M: Artur Souza
@@ -62457,73 +62550,3 @@ P:
     U: arsulegai
   B: 0
   U: Arun S M
-- E: arun.sharma!google.com
-  R:
-  - T: "2011-05-09"
-    C: Intel Corporation
-    F: "2010-09-06"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2010-09-06"
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2017-01-17"
-    P: odl
-    R: C
-  I:
-  - E: arun.e.sharma!ericsson.com
-    M: Arun Sharma
-    S: gerrit
-  - E: arun.e.sharma!ericsson.com
-    M: Arun Sharma
-    S: gerrit
-    U: eucdddg
-  - E: arun.e.sharma!ericsson.com
-    M: Arun Sharma
-    S: gerrit
-    U: sharmaarun
-  - E: arun.e.sharma!ericsson.com
-    M: Arun Sharma
-    S: git
-  - E: arun.sharma!google.com
-    M: Arun Sharma
-    S: git
-  - E: arun.sharma!intel.com
-    M: Arun Sharma
-    S: git
-  - E: arun.e.sharma!ericsson.com
-    M: Arun Sharma E
-    S: groupsio
-  - E: arun.e.sharma!ericsson.com
-    M: Arun Sharma
-    S: jira
-    U: arun.e.sharma
-  - E: arun.e.sharma!ericsson.com
-    M: Arun Sharma
-    S: jira
-    U: sharmaarun
-  - E: arun.e.sharma!ericsson.com
-    M: Arun Sharma E
-    S: pipermail
-  B: 0
-  U: Arun Sharma
-- R:
-  - T: "2014-10-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Platform9
-    F: "2014-10-01"
-    P: k8s
-    R: C
-  I:
-  - M: Arun Sriraman
-    S: github
-    U: sarun87
-  B: 0
-  U: Arun Sriraman

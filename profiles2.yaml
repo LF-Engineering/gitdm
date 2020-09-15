@@ -1,4 +1,40 @@
 P:
+- E: aogier!users.noreply.github.com
+  R:
+  - T: "2018-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2018-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-03-01"
+    C: kiratech
+    F: "2018-01-01"
+    R: C
+  - T: "2018-03-01"
+    C: kiratech
+    F: "2018-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: NEEN
+    F: "2018-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: NEEN
+    F: "2018-03-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: aogier!users.noreply.github.com
+    M: Alessandro Ogier
+    S: git
+  B: 0
+  U: Alessandro Ogier
 - R:
   - T: "2100-01-01"
     C: Cloudbase Solutions
@@ -4642,6 +4678,9 @@ P:
     P: zowe
     R: C
   I:
+  - M: Alex KIM
+    S: github
+    U: ykimvicom
   - M: Yongkook(Alex) Kim
     S: github
     U: likepunk
@@ -38282,6 +38321,29 @@ P:
     S: git
   B: 0
   U: Amey Telawane
+- E: adharkar!vmware.com
+  R:
+  - T: "2014-02-01"
+    C: Ciena Corporation
+    F: "2013-06-01"
+    P: danos
+    R: C
+  - T: "2018-05-01"
+    C: Cisco Systems
+    F: "2014-02-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-05-01"
+    P: danos
+    R: C
+  I:
+  - E: adharkar!vmware.com
+    M: Ameya Dharkar
+    S: git
+  B: 0
+  U: Ameya Dharkar
 - E: ameya.gawde!docker.com
   R:
   - T: "2100-01-01"
@@ -44044,6 +44106,11 @@ P:
   - T: "2100-01-01"
     C: CNCF
     F: "2019-04-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-04-01"
     P: cncf/volcano
     R: C
   - T: "2100-01-01"
@@ -44204,6 +44271,11 @@ P:
     C: CNCF
     F: "2019-04-01"
     P: cncf/contour
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-04-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: CNCF
@@ -48065,6 +48137,11 @@ P:
     C: cyber•Fund
     F: "2017-01-01"
     P: cncf/keptn
+    R: C
+  - T: "2100-01-01"
+    C: cyber•Fund
+    F: "2017-01-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: cyber•Fund
@@ -60108,6 +60185,11 @@ P:
   - T: "2015-05-01"
     C: Sony Mobile Communications
     F: "2010-04-01"
+    P: a092m00001iv4dqqal
+    R: C
+  - T: "2015-05-01"
+    C: Sony Mobile Communications
+    F: "2010-04-01"
     P: lfai/amundsen
     R: C
   - T: "2015-12-01"
@@ -62033,61 +62115,3 @@ P:
     S: git
   B: 0
   U: Andrew Bresticker
-- R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2014-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2014-01-01"
-    P: jaeger
-    R: C
-  S: male
-  I:
-  - E: abruce!pivotal.io
-    S: cloudfoundry:manual
-  - E: andrew!camelpunch.com
-    S: cloudfoundry:manual
-  - E: me!andrewbruce.net
-    S: cloudfoundry:manual
-  - M: Andrew Bruce
-    S: cloudfoundry:manual
-  - E: abruce!pivotal.io
-    M: Andrew Bruce
-    S: file:cff
-    U: camelpunch
-  - E: andrew!camelpunch.com
-    M: Andrew Bruce
-    S: file:cff
-    U: camelpunch
-  - E: me!andrewbruce.net
-    M: Andrew Bruce
-    S: file:cff
-    U: camelpunch
-  - E: abruce!pivotal.io
-    M: Andrew Bruce
-    S: git
-  - E: andrew!camelpunch.com
-    M: Andrew Bruce
-    S: git
-  - E: me!andrewbruce.net
-    M: Andrew Bruce
-    S: git
-  - S: github
-    U: camelpunch
-  - E: me!andrewbruce.net
-    M: Andrew Bruce
-    S: github
-    U: camelpunch
-  - E: abruce!pivotal.io
-    M: Andrew Bruce
-    S: slack
-    U: andrewbruce
-  - E: abruce!pivotal.io
-    M: andrewbruce
-    S: slack
-    U: andrewbruce
-  B: 0
-  U: Andrew Bruce

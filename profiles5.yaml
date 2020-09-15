@@ -1,4 +1,67 @@
 P:
+- E: bora!soundcloud.com
+  R:
+  - T: "2100-01-01"
+    C: SoundCloud Ltd
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: bora!soundcloud.com
+    M: Bora Tunca
+    S: git
+  B: 0
+  U: Bora Tunca
+- E: grandbora!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: grandbora!users.noreply.github.com
+    M: Bora Tunca
+    S: git
+  B: 0
+  U: Bora Tunca
+- R:
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Bora
+    S: github
+    U: grandbora
+  B: 0
+  U: Bora
+- R:
+  - T: "2100-01-01"
+    C: CollabNet
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: CollabNet
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - S: github
+    U: BoraAksoy
+  B: 0
+  U: BoraAksoy
 - C: CZ
   E: borekb!gmail.com
   R:
@@ -264,6 +327,11 @@ P:
     C: IBM
     F: "1900-01-01"
     P: tekton
+    R: C
+  - T: "2100-01-01"
+    C: Qlik
+    F: "2019-03-01"
+    P: cncf/porter
     R: C
   - T: "2100-01-01"
     C: Qlik
@@ -3843,6 +3911,11 @@ P:
 - C: US
   E: brad!redhat.com
   R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/metal3
+    R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
@@ -15563,6 +15636,11 @@ P:
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
     P: intoto
     R: C
   - T: "2100-01-01"
@@ -15666,6 +15744,11 @@ P:
     C: Google
     F: "1900-01-01"
     P: cncf/keptn
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: Google
@@ -19361,6 +19444,11 @@ P:
     C: Microsoft Corporation
     F: "2017-08-01"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2017-08-01"
+    P: cncf/openservicemesh
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
@@ -38963,6 +39051,11 @@ P:
   - T: "2100-01-01"
     C: Crunch Accounting
     F: "2016-01-01"
+    P: cncf/openservicemesh
+    R: C
+  - T: "2100-01-01"
+    C: Crunch Accounting
+    F: "2016-01-01"
     P: fluentd
     R: C
   - T: "2100-01-01"
@@ -45775,6 +45868,11 @@ P:
   - T: "2100-01-01"
     C: Caicloud
     F: "1900-01-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
     P: cncf/volcano
     R: C
   - T: "2100-01-01"
@@ -46105,6 +46203,11 @@ P:
     C: Microsoft Corporation
     F: "2017-09-01"
     P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2017-09-01"
+    P: cncf/openservicemesh
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
@@ -57887,6 +57990,11 @@ P:
   - T: "2100-01-01"
     C: Wikimedia Foundation
     F: "1900-01-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: Wikimedia Foundation
+    F: "1900-01-01"
     P: intoto
     R: C
   - T: "2100-01-01"
@@ -61138,6 +61246,19 @@ P:
     U: leakingtapan
   B: 0
   U: Cheng Pan
+- E: cheng.peng5!zte.com.cn
+  R:
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "2020-04-13"
+    P: danos
+    R: C
+  I:
+  - E: cheng.peng5!zte.com.cn
+    M: Cheng Peng
+    S: git
+  B: 0
+  U: Cheng Peng
 - E: cxing!cxing-macbookpro.roam.corp.google.com
   R:
   - T: "2100-01-01"

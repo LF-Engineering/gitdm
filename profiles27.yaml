@@ -1,4 +1,745 @@
 P:
+- E: tiwei.bie!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-12-03"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-12-03"
+    P: dpdk
+    R: C
+  - T: "2019-05-04"
+    C: Intel Corporation
+    F: "2017-01-13"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-01-13"
+    P: dpdk-next
+    R: C
+  S: male
+  I:
+  - E: tiwei.bie!intel.com
+    M: Tiwei Bie
+    S: git
+  - E: tiwei.bie!intel.com
+    M: Tiwei Bie
+    S: pipermail
+  B: 0
+  U: Tiwei Bie
+- C: GB
+  E: tiziano88!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - E: tiziano88!gmail.com
+    M: Tiziano Santoro
+    S: git
+  - E: tiziano88!gmail.com
+    M: Tiziano Santoro
+    S: github
+    U: tiziano88
+  B: 0
+  U: Tiziano Santoro
+- E: tzn!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: tzn!google.com
+    M: Tiziano Santoro
+    S: git
+  B: 0
+  U: Tiziano Santoro
+- C: NL
+  R:
+  - T: "2014-06-01"
+    C: Eneco
+    F: "1900-01-01"
+    R: C
+  - T: "2014-06-01"
+    C: Eneco
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Ordina
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2014-06-01"
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2014-06-01"
+    P: k8s
+    R: C
+  - T: "2016-04-01"
+    C: SIM-CI
+    F: "2015-04-01"
+    R: C
+  - T: "2016-04-01"
+    C: SIM-CI
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: ProRail
+    F: "2016-04-01"
+    R: C
+  - T: "2018-08-01"
+    C: ProRail
+    F: "2016-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: DTN
+    F: "2018-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: DTN
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: DTN
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Tjeerd Jan van der Molen
+    S: github
+    U: Aidamina
+  B: 0
+  U: Tjeerd Jan van der Molen
+- E: aidamina!gmail.com
+  R:
+  - T: "2014-06-01"
+    C: Eneco
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Ordina
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2014-06-01"
+    P: k8s
+    R: C
+  - T: "2016-04-01"
+    C: SIM-CI
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: ProRail
+    F: "2016-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: DTN
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: DTN
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  I:
+  - E: aidamina!gmail.com
+    M: Tjeerd Jan van der Molen
+    S: git
+  B: 0
+  U: Tjeerd Jan van der Molen
+- E: tkhai!yandex.ru
+  R:
+  - T: "2100-01-01"
+    C: Virtuozzo
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Virtuozzo
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Virtuozzo
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Virtuozzo
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Virtuozzo
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Virtuozzo
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Virtuozzo
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: tkhai!yandex.ru
+    M: Tkhai Kirill
+    S: git
+  B: 0
+  U: Tkhai Kirill
+- E: tn2126!att.com
+  R:
+  - T: "2018-08-09"
+    C: AT&T Services, Inc.
+    F: "2018-02-07"
+    R: C
+  - T: "2018-08-09"
+    C: AT&T Services, Inc.
+    F: "2018-02-07"
+    P: onap
+    R: C
+  I:
+  - E: tn2126!att.com
+    M: Toan Nguyen
+    S: gerrit
+    U: TN2126
+  - E: tn2126!att.com
+    M: Toan Nguyen
+    S: git
+  - M: Toan Nguyen
+    S: jira
+    U: TN2126
+  - E: tn2126!att.com
+    M: Toan Nguyen
+    S: jira
+    U: TN2126
+  B: 0
+  U: Toan Nguyen
+- C: CN
+  E: jinyuxi!cambricon.com
+  R:
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: jinyuxi!cambricon.com
+    M: TobeyJ
+    S: github
+    U: YuxiJin-tobeyjin
+  B: 0
+  U: TobeyJ
+- R:
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Tobi Knaup
+    S: github
+    U: guenter
+  B: 0
+  U: Tobi Knaup
+- C: US
+  E: tobi!mesosphere.io
+  R:
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2015-05-01"
+    C: Mesosphere
+    F: "2015-04-02"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: tobi!mesosphere.io
+    M: Tobi Knaup
+    S: git
+  B: 0
+  U: Tobi Knaup
+- R:
+  - T: "2015-04-01"
+    C: e-conomic
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-04-01"
+    C: e-conomic
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2016-04-01"
+    C: Thrive-AI
+    F: "2015-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-04-01"
+    P: ojsf-express
+    R: C
+  - T: "2019-04-01"
+    C: Samestate
+    F: "2017-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Onomondo
+    F: "2019-04-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Tobias Baunbæk Christensen
+    S: github
+    U: freeall
+  B: 0
+  U: Tobias Baunbæk Christensen
+- E: freeall!gmail.com
+  R:
+  - T: "2015-04-01"
+    C: e-conomic
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-04-01"
+    C: e-conomic
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2016-04-01"
+    C: Thrive-AI
+    F: "2015-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-04-01"
+    P: ojsf-express
+    R: C
+  - T: "2019-04-01"
+    C: Samestate
+    F: "2017-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Onomondo
+    F: "2019-04-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: freeall!gmail.com
+    M: Tobias Baunbæk
+    S: git
+  B: 0
+  U: Tobias Baunbæk
+- E: tbosch1009!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: a092m00001iv4dqqal
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: ojsf-jqm
+    R: C
+  I:
+  - E: tbosch1009!gmail.com
+    M: Tobias Bosch
+    S: github
+    U: tbosch
+  B: 0
+  U: Tobias Bosch
+- C: DE
+  R:
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Tobias Bradtke
+    S: github
+    U: webwurst
+  B: 0
+  U: Tobias Bradtke
+- C: DE
+  E: webwurst!gmail.com
+  R:
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-04-01"
+    C: e-learning
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Giant Swarm
+    F: "2015-04-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - E: webwurst!gmail.com
+    M: Tobias Bradtke
+    S: git
+  - E: webwurst!gmail.com
+    M: Tobias Bradtke
+    S: slack
+    U: webwurst
+  B: 0
+  U: Tobias Bradtke
+- C: CH
+  R:
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-03-01"
+    C: Wuala
+    F: "2014-08-01"
+    R: C
+  - T: "2015-03-01"
+    C: Wuala
+    F: "2014-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: VSHN AG
+    F: "2015-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: VSHN AG
+    F: "2015-03-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - M: Tobias Brunner
+    S: github
+    U: tobru
+  B: 0
+  U: Tobias Brunner
+- C: CH
+  E: tobias!tobru.ch
+  R:
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-03-01"
+    C: Wuala
+    F: "2014-08-01"
+    R: C
+  - T: "2015-03-01"
+    C: Wuala
+    F: "2014-08-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2015-03-01"
+    C: Wuala
+    F: "2014-08-01"
+    P: helm
+    R: C
+  - T: "2015-03-01"
+    C: Wuala
+    F: "2014-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: VSHN AG
+    F: "2015-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: VSHN AG
+    F: "2015-03-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: VSHN AG
+    F: "2015-03-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: VSHN AG
+    F: "2015-03-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: tobias!tobru.ch
+    M: Tobias Brunner
+    S: git
+  B: 0
+  U: Tobias Brunner
 - E: tobias.brunner!vshn.ch
   R:
   - T: "2014-08-01"
@@ -22110,6 +22851,11 @@ P:
   - T: "2100-01-01"
     C: Styra
     F: "2016-02-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: Styra
+    F: "2016-02-01"
     P: coredns
     R: C
   - T: "2100-01-01"
@@ -26481,6 +27227,27 @@ P:
     S: git
   B: 0
   U: Travis
+- E: travatine!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: HCL Technologies Ltd.
+    F: "2017-02-01"
+    P: tersedecompress
+    R: C
+  - T: "2100-01-01"
+    C: HCL Technologies Ltd.
+    F: "2017-02-01"
+    P: zowe
+    R: C
+  I:
+  - S: github
+    U: travatine
+  - E: travatine!gmail.com
+    M: Travis
+    S: slack
+    U: travatine
+  B: 0
+  U: Travis
 - C: CN
   E: 30678878+lcfang!users.noreply.github.com
   R:
@@ -28334,6 +29101,39 @@ P:
     U: trevor.g.wood
   B: 0
   U: Trevor Wood
+- E: taspelund!cumulusnetworks.com
+  R:
+  - T: "2016-05-01"
+    C: Kohl's
+    F: "2015-10-01"
+    P: danos
+    R: C
+  - T: "2017-10-01"
+    C: Cradlepoint
+    F: "2016-05-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems
+    F: "2017-10-01"
+    P: danos
+    R: C
+  - T: "2020-06-01"
+    C: Cumulus Networks
+    F: "2018-06-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "2020-06-01"
+    P: danos
+    R: C
+  I:
+  - E: taspelund!cumulusnetworks.com
+    M: Trey Aspelund
+    S: git
+  B: 0
+  U: Trey Aspelund
 - C: US
   R:
   - T: "2100-01-01"
@@ -39700,6 +40500,11 @@ P:
   - T: "2100-01-01"
     C: Pivotal
     F: "1900-01-01"
+    P: cncf/porter
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -42587,6 +43392,11 @@ P:
     C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/litmuschaos
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/metal3
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -50440,6 +51250,11 @@ P:
   - T: "2100-01-01"
     C: SAP
     F: "1900-01-01"
+    P: cncf/tremor
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
     P: intoto
     R: C
   - T: "2100-01-01"
@@ -52213,6 +53028,23 @@ P:
     U: venilnoronha
   B: 0
   U: Venil Noronha
+- R:
+  - T: "2011-10-01"
+    C: Infosys
+    F: "2008-06-01"
+    P: zowe
+    R: C
+  - T: "2100-01-01"
+    C: TCS
+    F: "2011-10-01"
+    P: zowe
+    R: C
+  I:
+  - M: Venkat Avinash Kavirayani
+    S: github
+    U: aviVzm05
+  B: 0
+  U: Venkat Avinash Kavirayani
 - E: 33162229+venkatzhub!users.noreply.github.com
   R:
   - T: "2100-01-01"
@@ -60997,834 +61829,3 @@ P:
     S: git
   B: 0
   U: Vikas Shivappa
-- E: vikas.varma!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2001-05-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2001-05-01"
-    P: onap
-    R: C
-  I:
-  - M: Vikas Varma
-    S: confluence
-    U: vrvarma
-  - M: Vikas Varma
-    S: confluence
-    U: vv8305
-  - E: vv8305!att.com
-    M: Varma, Vikas (vv8305)
-    S: gerrit
-  - E: vv8305!us.att.com
-    M: Varma, Vikas (vv8305)
-    S: gerrit
-  - E: vv8305!att.com
-    M: Varma, Vikas
-    S: gerrit
-  - E: vikas.varma!att.com
-    M: Vikas Varma
-    S: gerrit
-    U: vrvarma
-  - E: vrvarma!gmail.com
-    M: Vikas Varma
-    S: gerrit
-    U: vv8305
-  - E: vv8305!att.com
-    M: Vikas Varma
-    S: gerrit
-    U: vrvarma
-  - E: vv8305!att.com
-    M: Vikas Varma
-    S: gerrit
-    U: vv8305
-  - E: vv8305!att.com
-    M: vrvarma
-    S: gerrit
-  - E: vv8305!att.com
-    M: Varma, Vikas (vv8305)
-    S: git
-  - E: vv8305!us.att.com
-    M: Varma, Vikas (vv8305)
-    S: git
-  - E: vv8305!att.com
-    M: Varma, Vikas
-    S: git
-  - E: vikas.varma!att.com
-    M: Vikas Varma
-    S: git
-  - E: vv8305!att.com
-    M: Vikas Varma
-    S: git
-  - E: vv8305!att.com
-    M: vrvarma
-    S: git
-  - E: vv8305!att.com
-    M: VARMA, VIKAS R
-    S: groupsio
-  - E: vv8305!att.com
-    M: vv8305
-    S: groupsio
-  - M: Vikas Varma
-    S: jira
-    U: vrvarma
-  - M: Vikas Varma
-    S: jira
-    U: vv8305
-  - E: vikas.varma!att.com
-    M: Vikas Varma
-    S: jira
-    U: vrvarma
-  - E: vrvarma!gmail.com
-    M: Vikas Varma
-    S: jira
-    U: vv8305
-  - E: vv8305!att.com
-    M: Vikas Varma
-    S: jira
-    U: vrvarma
-  - E: vv8305!att.com
-    M: Vikas Varma
-    S: jira
-    U: vv8305
-  B: 0
-  U: Vikas Varma
-- C: BR
-  E: manochavikas!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: STMicroelectronics
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-02-07"
-    C: STMicroelectronics
-    F: "2019-01-29"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: manochavikas!gmail.com
-    M: Vikas
-    S: github
-    U: manochavikas
-  B: 0
-  U: Vikas
-- R:
-  - T: "2100-01-01"
-    C: Symphony LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Symphony LLC
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Adwitiya Technologies
-    F: "2011-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: Adwitiya Technologies
-    F: "2011-05-01"
-    P: opnfv
-    R: C
-  I:
-  - S: github
-    U: VikasShashidhar
-  B: 0
-  U: VikasShashidhar
-- E: vgarodia!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: vgarodia!codeaurora.org
-    M: Vikash Garodia
-    S: git
-  B: 0
-  U: Vikash Garodia
-- R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - M: Vikhyat Umrao
-    S: github
-    U: vumrao
-  B: 0
-  U: Vikhyat Umrao
-- E: vumrao!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2016-06-17"
-    C: Red Hat Inc.
-    F: "2016-05-09"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: vumrao!redhat.com
-    M: Vikhyat Umrao
-    S: git
-  B: 0
-  U: Vikhyat Umrao
-- E: vbalimidi!tatacommunications.com
-  R:
-  - T: "2100-01-01"
-    C: Tata Communications Limited
-    F: "1901-01-01"
-    P: akraino
-    R: C
-  I:
-  - M: Vikram Balimidi
-    S: confluence
-    U: vikrambalimidi1
-  - E: vbalimidi!tatacommunications.com
-    M: Vikram Balimidi
-    S: confluence
-    U: vikrambalimidi1
-  B: 0
-  U: Vikram Balimidi
-- E: vikram.choudhary!huawei.com
-  R:
-  - T: "2016-04-16"
-    C: Huawei Technologies Co., Ltd.
-    F: "2016-04-07"
-    P: dpdk
-    R: C
-  - T: "2016-04-16"
-    C: Huawei Technologies Co., Ltd.
-    F: "2016-04-07"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2016-04-15"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2016-04-15"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2017-05-24"
-    P: fdio
-    R: C
-  I:
-  - E: vikram.choudhary!huawei.com
-    M: Vikram Choudhary
-    S: gerrit
-    U: vikram.choudhary
-  - E: vikram.choudhary!huawei.com
-    M: Vikram Choudhary
-    S: gmane
-  - E: vikram.choudhary!huawei.com
-    M: Vikram Choudhary
-    S: groupsio
-  - E: vikram.choudhary!huawei.com
-    M: Vikram Choudhary
-    S: linux-foundation:mls
-    U: vikram.choudhary
-  - E: vikram.choudhary!huawei.com
-    M: Vikram Choudhary
-    S: mbox
-  - E: vikram.choudhary!huawei.com
-    M: Vikram Choudhary
-    S: pipermail
-  B: 0
-  U: Vikram Choudhary
-- E: vdarsi!advaoptical.com
-  R:
-  - T: "2014-02-01"
-    C: Tata Elxsi
-    F: "2011-12-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Adva Optical Networking SE
-    F: "2014-02-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Adva Optical Networking SE
-    F: "2014-02-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Adva Optical Networking SE
-    F: "2014-02-01"
-    P: onap
-    R: C
-  I:
-  - E: vdarsi!advaoptical.com
-    M: Vikram Darsi
-    S: gerrit
-    U: vikramd
-  - E: VDarsi!adva.com
-    M: Vikram Darsi
-    S: groupsio
-  - E: VDarsi!advaoptical.com
-    M: Vikram Darsi
-    S: groupsio
-  - E: vikram.darsi!overturenetworks.com
-    M: Vikram Darsi
-    S: groupsio
-  - E: vdarsi!adva.com
-    M: vdarsi
-    S: groupsio
-  - E: vdarsi!advaoptical.com
-    M: Vikram Darsi
-    S: jira
-    U: vdarsi
-  - E: vikram_darsi!yahoo.co.in
-    M: Vikram Darsi
-    S: jira
-    U: vikram_darsi
-  - E: VDarsi!advaoptical.com
-    M: Vikram Darsi
-    S: pipermail
-  - E: vikram.darsi!overturenetworks.com
-    M: Vikram Darsi
-    S: pipermail
-  B: 0
-  U: Vikram Darsi
-- E: vikramdham!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Dell
-    F: "1900-01-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Dell
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - M: Vikram Dham
-    S: confluence
-    U: vikramdham
-  - E: vikram!nvirters.com
-    M: Vikram Dham
-    S: gerrit
-    U: v_dham
-  - E: vikram.dham!huawei.com
-    M: Vikram Dham
-    S: gerrit
-    U: vikramhuawei
-  - E: vikramdham!gmail.com
-    M: Vikram Dham
-    S: gerrit
-    U: vikramdham
-  - E: vikramdham!gmail.com
-    M: Vikram Dham
-    S: git
-  - E: V_Dham!Dell.com
-    M: V_Dham
-    S: gmane
-  - E: vikram!nvirters.com
-    M: vikram
-    S: gmane
-  - E: V_Dham!Dell.com
-    M: V_Dham
-    S: groupsio
-  - E: vikramdham!gmail.com
-    M: Vikram Dham
-    S: groupsio
-  - E: vikram!nvirters.com
-    M: vikram
-    S: groupsio
-  - E: vikramdham!gmail.com
-    M: vikramdham
-    S: groupsio
-  - M: Vikram Dham
-    S: jira
-    U: v_dham
-  - E: v_dham!dell.com
-    M: Vikram Dham
-    S: jira
-    U: v_dham
-  - E: vikram.dham!huawei.com
-    M: Vikram Dham
-    S: jira
-    U: vikramhuawei
-  - M: Vikram Dham
-    S: linux-foundation:its
-    U: v_dham
-  - E: V_Dham!Dell.com
-    M: V_Dham
-    S: linux-foundation:mls
-    U: V_Dham
-  - E: vikram!nvirters.com
-    M: vikram
-    S: linux-foundation:mls
-    U: vikram
-  - E: v_dham!dell.com
-    M: Vikram Dham
-    S: linux-foundation:scr
-    U: v_dham
-  - E: V_Dham!Dell.com
-    M: V_Dham
-    S: mbox
-  - E: vikram!nvirters.com
-    M: vikram
-    S: mbox
-  - E: V_Dham!Dell.com
-    M: V_Dham
-    S: pipermail
-  - E: vikramdham!gmail.com
-    M: Vikram Dham
-    S: pipermail
-  - E: vikram!nvirters.com
-    M: vikram
-    S: pipermail
-  - E: vikramdham!gmail.com
-    M: vikramdham
-    S: pipermail
-  B: 0
-  U: Vikram Dham
-- R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Vikram Hosakote
-    S: github
-    U: vhosakot
-  B: 0
-  U: Vikram Hosakote
-- E: vhosakot!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-02-18"
-    C: Cisco Systems Inc.
-    F: "2017-08-10"
-    P: fdio
-    R: C
-  S: male
-  I:
-  - E: vhosakot!cisco.com
-    M: Vikram Hosakote
-    S: git
-  - E: vhosakot!cisco.com
-    M: Vikram Hosakote
-    S: jira
-    U: vhosakot
-  B: 0
-  U: Vikram Hosakote
-- E: vikramkrishnamu!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2018-12-25"
-    P: baetyl
-    R: C
-  I:
-  - E: vikramkrishnamu!vmware.com
-    M: Vikram Krishnamurthy
-    S: git
-  B: 0
-  U: Vikram Krishnamurthy
-- E: markivx!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: markivx!codeaurora.org
-    M: Vikram Mulukutla
-    S: git
-  B: 0
-  U: Vikram Mulukutla
-- E: vikram.pandita!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments Incorporated
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: vikram.pandita!ti.com
-    M: Vikram Pandita
-    S: git
-  B: 0
-  U: Vikram Pandita
-- E: apotturi!gmail.com
-  R:
-  - T: "2018-09-06"
-    C: AT&T Services, Inc.
-    F: "2018-04-01"
-    R: C
-  - T: "2018-09-06"
-    C: AT&T Services, Inc.
-    F: "2018-04-01"
-    P: onap
-    R: C
-  I:
-  - E: apotturi!gmail.com
-    M: VIKRAMADITYA POTTURI
-    S: gerrit
-    U: apotturi
-  - E: vp9004!att.com
-    M: VIKRAMADITYA POTTURI
-    S: gerrit
-    U: apotturi
-  - E: apotturi!gmail.com
-    M: Vikram Potturi(apotturi)
-    S: gerrit
-  - E: vp9004!att.com
-    M: Vikram Potturi(apotturi)
-    S: gerrit
-  - E: vp9004!att.com
-    M: Vikram Potturi
-    S: gerrit
-  - E: apotturi!gmail.com
-    M: Vikram Potturi(apotturi)
-    S: git
-  - E: vp9004!att.com
-    M: Vikram Potturi(apotturi)
-    S: git
-  - E: vp9004!att.com
-    M: VIKRAMADITYA POTTURI
-    S: jira
-    U: apotturi
-  B: 0
-  U: Vikram Potturi(apotturi)
-- E: vikramx.shekhawat!intel.com
-  R:
-  - T: "2017-10-30"
-    C: Intel Corporation
-    F: "2017-08-28"
-    P: zep
-    R: C
-  I:
-  - E: vikramx.shekhawat!intel.com
-    M: Vikram Singh Shekhawat
-    S: git
-  B: 0
-  U: Vikram Singh Shekhawat
-- E: vikram.siwach!mobiledgex.com
-  R:
-  - T: "2005-01-01"
-    C: Hughes Network Systems
-    F: "2002-12-01"
-    P: akraino
-    R: C
-  - T: "2007-05-01"
-    C: Cloudian, Inc.
-    F: "2005-02-01"
-    P: akraino
-    R: C
-  - T: "2010-11-01"
-    C: Ribbon Communications Operating Company, Inc.
-    F: "2007-05-01"
-    P: akraino
-    R: C
-  - T: "2018-12-01"
-    C: Verizon Labs
-    F: "2015-06-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: MobiledgeX
-    F: "2019-01-01"
-    P: akraino
-    R: C
-  I:
-  - M: Vikram Siwach
-    S: confluence
-    U: vsiwach
-  - E: vikram.siwach!mobiledgex.com
-    M: Vikram Siwach
-    S: confluence
-    U: vsiwach
-  - E: vikram.siwach!mobiledgex.com
-    M: Vikram Siwach
-    S: groupsio
-  - E: vikram.siwach!mobiledgex.com
-    M: Vikram Siwach
-    S: slack
-    U: vikram.siwach
-  B: 0
-  U: Vikram Siwach
-- C: US
-  E: vikramtheone1!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: vikramtheone1!gmail.com
-    M: Vikram Tiwari
-    S: git
-  - E: vikramtheone1!gmail.com
-    M: Vikram
-    S: git
-  - E: vikramtheone1!gmail.com
-    M: Vikram
-    S: github
-    U: VikramTiwari
-  B: 0
-  U: Vikram
-- E: Vikrant.Mhaske!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: Vikrant.Mhaske!amd.com
-    M: Vikrant Mhaske
-    S: git
-  B: 0
-  U: Vikrant Mhaske
-- E: vikrant8051!gmail.com
-  R:
-  - T: "2014-03-01"
-    C: Accenture Ltd.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-03-01"
-    C: Accenture Ltd.
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2014-10-01"
-    C: IBM
-    F: "2014-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-10-01"
-    C: IBM
-    F: "2014-03-01"
-    P: zep
-    R: C
-  - T: "2015-12-01"
-    C: Capgemini
-    F: "2014-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-12-01"
-    C: Capgemini
-    F: "2014-10-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Exusia
-    F: "2015-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Exusia
-    F: "2015-12-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: vikrant8051!gmail.com
-    M: Vikrant More
-    S: git
-  B: 0
-  U: Vikrant More
-- R:
-  - T: "2017-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Continuum
-    F: "2017-11-01"
-    P: argo
-    R: C
-  I:
-  - M: Vikrant Tyagi
-    S: github
-    U: continuum-vikrant-tyagi
-  B: 0
-  U: Vikrant Tyagi
-- E: vithati!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-01-11"
-    C: Microsoft Corporation
-    F: "2018-10-30"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: vithati!microsoft.com
-    M: Vikranth Thati
-    S: git
-  - E: vithati!microsoft.com
-    M: Vikranth Thati
-    S: github
-    U: vithati
-  B: 0
-  U: Vikranth Thati
-- E: viktor.bekesi!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: o-ran/integration
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-inf
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-nonrtric
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-oam
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-ocu
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-oduhigh
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-odulow
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-ric
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-ricapp
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "1999-07-01"
-    P: oran-sim
-    R: C
-  I:
-  - E: viktor.bekesi!nokia.com
-    M: Viktor Bekesi
-    S: gerrit
-    U: bekesi
-  B: 0
-  U: Viktor Bekesi

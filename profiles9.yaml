@@ -1,4 +1,264 @@
 P:
+- E: ea333!freemail.hu
+  R:
+  - T: "2100-01-01"
+    C: Hostplex Hosting
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Hostplex Hosting
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: ea333!freemail.hu
+    M: Elbandi
+    S: git
+  B: 0
+  U: Elbandi
+- E: elso.andras!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Hostplex Hosting
+    F: "1900-01-01"
+    P: spiffe
+    R: C
+  I:
+  - E: elso.andras!gmail.com
+    M: Elbandi
+    S: git
+  B: 0
+  U: Elbandi
+- R:
+  - T: "2014-02-01"
+    C: Alcatel-Lucent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-06-01"
+    C: Nant Mobile
+    F: "2014-02-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: JFrog
+    F: "2016-06-01"
+    P: helm
+    R: C
+  I:
+  - M: Eldad Assis
+    S: github
+    U: eldada
+  B: 0
+  U: Eldad Assis
+- E: eldada!users.noreply.github.com
+  R:
+  - T: "2014-02-01"
+    C: Alcatel-Lucent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-02-01"
+    C: Alcatel-Lucent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-06-01"
+    C: Nant Mobile
+    F: "2014-02-01"
+    R: C
+  - T: "2016-06-01"
+    C: Nant Mobile
+    F: "2014-02-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: JFrog
+    F: "2016-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: JFrog
+    F: "2016-06-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: eldada!users.noreply.github.com
+    M: Eldad Assis
+    S: git
+  B: 0
+  U: Eldad Assis
+- C: IL
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Eldad Marciano
+    S: github
+    U: mrsiano
+  B: 0
+  U: Eldad Marciano
+- E: mseldad!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: mseldad!gmail.com
+    M: Eldad Marciano
+    S: git
+  B: 0
+  U: Eldad Marciano
+- E: eldad!fogrefinery.com
+  R:
+  - T: "2016-08-01"
+    C: EANTC
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2016-08-01"
+    C: EANTC
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2016-08-01"
+    C: EANTC
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2016-08-01"
+    C: EANTC
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-08-01"
+    C: EANTC
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2016-08-01"
+    C: EANTC
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2016-08-01"
+    C: EANTC
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Seerene
+    F: "2016-08-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: eldad!fogrefinery.com
+    M: Eldad Zack
+    S: git
+  B: 0
+  U: Eldad Zack
+- R:
+  - T: "2015-01-01"
+    C: Qualitest
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: TestProject
+    F: "2015-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: TestProject
+    F: "2015-01-01"
+    P: jenkins
+    R: C
+  I:
+  - M: Eldar Kravetsky
+    S: github
+    U: eldarkra
+  B: 0
+  U: Eldar Kravetsky
+- E: eldarkra!gmail.com
+  R:
+  - T: "2015-01-01"
+    C: Qualitest
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: TestProject
+    F: "2015-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: TestProject
+    F: "2015-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: eldarkra!gmail.com
+    M: Eldar Kravetsky
+    S: git
+  B: 0
+  U: Eldar Kravetsky
+- E: eyusupov!gmail.com
+  R:
+  - T: "2015-03-01"
+    C: Wiley
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2019-10-01"
+    C: Toptal
+    F: "2015-03-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Workato
+    F: "2019-10-01"
+    P: cncf/operatorframework
+    R: C
+  I:
+  - E: eyusupov!gmail.com
+    M: Eldar Yusupov
+    S: github
+    U: eyusupov
+  B: 0
+  U: Eldar Yusupov
+- E: 1070960076!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: 北京华亿
+    F: "1900-01-01"
+    P: nats
+    R: C
+  I:
+  - E: 1070960076!qq.com
+    M: EleTiger
+    S: github
+    U: xianghu1314
+  B: 0
+  U: EleTiger
 - E: eleanor.cawthon!inktank.com
   R:
   - T: "2100-01-01"
@@ -8049,6 +8309,11 @@ P:
     F: "2018-05-01"
     P: openebs
     R: C
+  - T: "2100-01-01"
+    C: kloia
+    F: "2018-05-01"
+    P: strimzi
+    R: C
   I:
   - M: Emir Özbir
     S: github
@@ -11968,6 +12233,9 @@ P:
     M: Erez Ferber
     S: git
   - E: erezf!mellanox.com
+    M: Erez Ferber
+    S: pipermail
+  - E: erezferber!gmail.com
     M: Erez Ferber
     S: pipermail
   B: 0
@@ -24361,6 +24629,11 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2019-08-01"
+    P: cncf/openservicemesh
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2019-08-01"
     P: k8s
     R: C
   - T: "2100-01-01"
@@ -33742,6 +34015,11 @@ P:
   - T: "2100-01-01"
     C: Mirantis
     F: "1900-01-01"
+    P: cncf/metal3
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "1900-01-01"
     P: etcd
     R: C
   - T: "2100-01-01"
@@ -36289,6 +36567,11 @@ P:
     C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -45460,6 +45743,11 @@ P:
     C: VMware, Inc.
     F: "1900-01-01"
     P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "2018-11-01"
+    P: cncf/openyurt
     R: C
   - T: "2100-01-01"
     C: Alibaba
@@ -59418,6 +59706,11 @@ P:
   - T: "2100-01-01"
     C: Qlik
     F: "2019-06-01"
+    P: cncf/porter
+    R: C
+  - T: "2100-01-01"
+    C: Qlik
+    F: "2019-06-01"
     P: k8s
     R: C
   S: male
@@ -62450,292 +62743,3 @@ P:
     U: frank123
   B: 0
   U: Frank Dsilva
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Frank Farzan
-    S: github
-    U: frankfarzan
-  B: 0
-  U: Frank Farzan
-- E: frankf!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: frankf!google.com
-    M: Frank Farzan
-    S: git
-  B: 0
-  U: Frank Farzan
-- E: frank.felhoffer!securekey.com
-  R:
-  - T: "2100-01-01"
-    C: SecureKey Technologies Inc
-    F: "2015-12-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: SecureKey Technologies Inc
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: SecureKey Technologies Inc
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: SecureKey Technologies Inc
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-labs
-    R: C
-  - T: "2100-01-01"
-    C: SecureKey Technologies Inc
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-twgc
-    R: C
-  I:
-  - E: ffelhoffer!gmail.com
-    M: Frank Felhoffer
-    S: gerrit
-    U: silveraid
-  - E: ffelhoffer!gmail.com
-    M: Frank Felhoffer
-    S: git
-  - E: frank.felhoffer!securekey.com
-    M: Frank Felhoffer
-    S: git
-  - E: silveraid!users.noreply.github.com
-    M: Frank Felhoffer
-    S: git
-  - M: Frank Felhoffer
-    S: github
-    U: silveraid
-  - M: Frank Felhoffer
-    S: jira
-    U: silveraid
-  - E: ffelhoffer!gmail.com
-    M: Frank Felhoffer
-    S: jira
-    U: silveraid
-  B: 0
-  U: Frank Felhoffer
-- E: ffilz!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ffilz!us.ibm.com
-    M: Frank Filz
-    S: git
-  B: 0
-  U: Frank Filz
-- E: ffilzlnx!mindspring.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: ffilzlnx!mindspring.com
-    M: Frank Filz
-    S: git
-  - E: ffilzlnx!mindspring.com
-    M: Frank Filz
-    S: github
-    U: ffilz
-  B: 0
-  U: Frank Filz
-- E: ffilzlnx!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ffilzlnx!us.ibm.com
-    M: Frank Filz
-    S: git
-  B: 0
-  U: Frank Filz
-- E: ffort!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ffort!google.com
-    M: Frank Fort
-    S: slack
-    U: ffort
-  B: 0
-  U: Frank Fort
-- C: NL
-  R:
-  - T: "2100-01-01"
-    C: Ivaldi
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Ivaldi
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  S: male
-  I:
-  - M: Frank Groeneveld
-    S: github
-    U: frenkel
-  B: 0
-  U: Frank Groeneveld
-- E: frank!ivaldi.nl
-  R:
-  - T: "2100-01-01"
-    C: Ivaldi
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Ivaldi
-    F: "1900-01-01"
-    P: onf-p4
-    R: C
-  I:
-  - E: frank!ivaldi.nl
-    M: Frank Groeneveld
-    S: git
-  B: 0
-  U: Frank Groeneveld
-- C: GB
-  E: frank.hamand!coinbase.com
-  R:
-  - T: "2100-01-01"
-    C: Coinbase
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: frank.hamand!coinbase.com
-    M: Frank Hamand
-    S: github
-    U: frankh
-  B: 0
-  U: Frank Hamand
-- E: haver!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: haver!linux.vnet.ibm.com
-    M: Frank Haverkamp
-    S: git
-  B: 0
-  U: Frank Haverkamp
-- E: haver!vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: haver!vnet.ibm.com
-    M: Frank Haverkamp
-    S: git
-  B: 0
-  U: Frank Haverkamp
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - M: Frank He
-    S: github
-    U: wlhee
-  B: 0
-  U: Frank He
-- C: US
-  E: wlhe!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - E: wlhe!google.com
-    M: Frank He
-    S: git
-  B: 0
-  U: Frank He
