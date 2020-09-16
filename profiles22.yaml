@@ -1,4 +1,69 @@
 P:
+- E: pradnesh.dange!rebaca.com
+  R:
+  - T: "2100-01-01"
+    C: REBACA
+    F: "1901-01-01"
+    P: akraino
+    R: C
+  I:
+  - E: pradnesh.dange!rebaca.com
+    M: Pradnesh Dange
+    S: groupsio
+  B: 0
+  U: Pradnesh Dange
+- E: prado.paz!ericsson.com
+  R:
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "1900-01-01"
+    P: odl
+    R: C
+  I:
+  - E: prado.paz!ericsson.com
+    M: Prado Paz
+    S: gerrit
+    U: ppaz
+  B: 0
+  U: Prado Paz
+- E: pradyut.sarma!sap.com
+  R:
+  - T: "2018-10-02"
+    C: SAP
+    F: "2016-03-30"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: pradyut.sarma!sap.com
+    M: I044137
+    S: git
+  - E: pradyut.sarma!sap.com
+    M: Pradyut Sarma
+    S: git
+  - E: pradyut.sarma!sap.com
+    M: Pradyut Sarma
+    S: slack
+    U: pradyut.sarma
+  B: 0
+  U: Pradyut Sarma
+- C: IN
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-01-31"
+    C: Intel Corporation
+    F: "2017-11-20"
+    P: zep
+    R: C
+  I:
+  - M: Praful Swarnakar
+    S: github
+    U: pswarnak
+  B: 0
+  U: Praful Swarnakar
 - C: IN
   E: praful.swarnakar!intel.com
   R:
@@ -32344,7 +32409,7 @@ P:
     S: git
   B: 0
   U: Ramakrishna Reddy Yekulla
-- E: ramakrishna.srinivasamurthy!intel.com
+- E: ramakrishna.srinivas.murthy!gmail.com
   R:
   - T: "2007-07-31"
     C: Oracle India Pvt
@@ -32483,12 +32548,22 @@ P:
   - E: ramakrishna.srinivasamurthy!intel.com
     M: Ramakrishna S
     S: git
+  - E: 36431534+Ram-srini!users.noreply.github.com
+    M: Ramakrishna Srinivasamurthy
+    S: git
   - E: ramakrishna.srinivasamurthy!intel.com
     M: Ramakrishna Srinivasamurthy
     S: git
   - S: github
     U: Ram-srini
   - M: Ramakrishna Srinivasamurthy
+    S: github
+    U: Ram-srini
+  - M: Ramakrishna Srinivasamurthy
+    S: jira
+    U: rkrish82
+  - E: ramakrishna.srinivas.murthy!gmail.com
+    M: Ramakrishna Srinivasamurthy
     S: jira
     U: rkrish82
   B: 0
@@ -60919,146 +60994,6 @@ P:
     R: C
   I:
   - E: rbailey!slack-corp.com
-    M: Richard
-    S: git
-  B: 0
-  U: Richard
-- C: US
-  E: richard.scothern!gmail.com
-  R:
-  - T: "2015-01-01"
-    C: Upthere
-    F: "1900-01-01"
-    R: C
-  - T: "2015-01-01"
-    C: Upthere
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2015-01-01"
-    C: Upthere
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2015-01-01"
-    C: Upthere
-    F: "1900-01-01"
-    P: notary
-    R: C
-  - T: "2015-01-01"
-    C: Upthere
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2015-01-01"
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2015-01-01"
-    P: fluxcd
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2015-01-01"
-    P: nats
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2015-01-01"
-    P: notary
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2015-01-01"
-    P: opentracing
-    R: C
-  - T: "2016-11-01"
-    C: Docker, Inc.
-    F: "2015-03-01"
-    R: C
-  - T: "2016-11-01"
-    C: Docker, Inc.
-    F: "2015-03-01"
-    P: fluxcd
-    R: C
-  - T: "2016-11-01"
-    C: Docker, Inc.
-    F: "2015-03-01"
-    P: nats
-    R: C
-  - T: "2016-11-01"
-    C: Docker, Inc.
-    F: "2015-03-01"
-    P: notary
-    R: C
-  - T: "2016-11-01"
-    C: Docker, Inc.
-    F: "2015-03-01"
-    P: opentracing
-    R: C
-  - T: "2017-01-01"
-    C: Independent
-    F: "2016-11-01"
-    R: C
-  - T: "2017-01-01"
-    C: Independent
-    F: "2016-11-01"
-    P: fluxcd
-    R: C
-  - T: "2017-01-01"
-    C: Independent
-    F: "2016-11-01"
-    P: nats
-    R: C
-  - T: "2017-01-01"
-    C: Independent
-    F: "2016-11-01"
-    P: notary
-    R: C
-  - T: "2017-01-01"
-    C: Independent
-    F: "2016-11-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "2017-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "2017-01-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "2017-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "2017-01-01"
-    P: notary
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "2017-01-01"
-    P: opentracing
-    R: C
-  S: male
-  I:
-  - E: richard.scothern!docker.com
-    M: Richard Scothern
-    S: git
-  - E: richard.scothern!gmail.com
-    M: Richard Scothern
-    S: git
-  - E: richard.scothern!gmail.com
     M: Richard
     S: git
   B: 0

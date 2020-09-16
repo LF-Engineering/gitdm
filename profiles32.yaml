@@ -1,4 +1,96 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: mlhess
+    S: supybot
+    U: mlhess
+  B: 0
+  U: mlhess
+- E: mllamb!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-02-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: mllamb!us.ibm.com
+    M: mllamb
+    S: slack
+    U: mllamb
+  B: 0
+  U: mllamb
+- E: 409107750!qq.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "2017-03-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "2017-03-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "2017-03-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "2017-03-01"
+    P: k8s
+    R: C
+  I:
+  - E: 409107750!qq.com
+    M: mlmhl
+    S: git
+  B: 0
+  U: mlmhl
+- C: CN
+  E: malinbupt!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Tencent Holdings Limited
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2019-01-10"
+    C: Tencent Holdings Limited
+    F: "2017-12-29"
+    P: baetyl
+    R: C
+  I:
+  - E: malinbupt!gmail.com
+    M: mlmhl
+    S: git
+  - E: malinbupt!gmail.com
+    M: mlmhl
+    S: github
+    U: mlmhl
+  B: 0
+  U: mlmhl
 - E: mlove!parasoft.com
   R:
   - T: "2100-01-01"
@@ -50823,6 +50915,29 @@ P:
     S: git
   B: 0
   U: slowr
+- E: stephanie.mackenzie!intel.com
+  R:
+  - T: "2019-12-01"
+    C: University of Florida
+    F: "2018-05-01"
+    P: avalon
+    R: C
+  - T: "2020-02-01"
+    C: Mercury Systems
+    F: "2019-05-01"
+    P: avalon
+    R: C
+  - T: "2020-08-01"
+    C: Intel Corporation
+    F: "2020-05-01"
+    P: avalon
+    R: C
+  I:
+  - E: stephanie.mackenzie!intel.com
+    M: smackenz
+    S: git
+  B: 0
+  U: smackenz
 - C: CN
   E: smallfish.xy!gmail.com
   R:
@@ -56233,6 +56348,31 @@ P:
     S: git
   B: 0
   U: stephenwangasg
+- E: stephanie.mackenzie!intel.com
+  R:
+  - T: "2019-12-01"
+    C: University of Florida
+    F: "2018-05-01"
+    P: avalon
+    R: C
+  - T: "2020-02-01"
+    C: Mercury Systems
+    F: "2019-05-01"
+    P: avalon
+    R: C
+  - T: "2020-08-01"
+    C: Intel Corporation
+    F: "2020-05-01"
+    P: avalon
+    R: C
+  I:
+  - E: stephanie.mackenzie!intel.com
+    M: stephmackenz
+    S: git
+  - S: github
+    U: stephmackenz
+  B: 0
+  U: stephmackenz
 - R:
   - T: "2100-01-01"
     C: Ipreo
@@ -62970,72 +63110,3 @@ P:
     S: git
   B: 0
   U: taoyu27
-- E: tapan.majhi!amdocs.com
-  R:
-  - T: "2017-08-10"
-    C: Amdocs
-    F: "2017-05-09"
-    R: C
-  - T: "2017-08-10"
-    C: Amdocs
-    F: "2017-05-09"
-    P: onap
-    R: C
-  I:
-  - M: tapan majhi
-    S: confluence
-    U: tapanm
-  - E: Tapan.Majhi!amdocs.com
-    M: Tapan Majhi
-    S: groupsio
-  - E: tapan.majhi!amdocs.com
-    M: tapan majhi
-    S: jira
-    U: tapanm
-  - E: Tapan.Majhi!amdocs.com
-    M: Tapan Majhi
-    S: pipermail
-  B: 0
-  U: tapan majhi
-- E: tapio.tallgren!nsn.com
-  R:
-  - T: "2015-02-03"
-    C: Nokia Corporation
-    F: "2014-10-03"
-    R: C
-  - T: "2015-02-03"
-    C: Nokia Corporation
-    F: "2014-10-03"
-    P: opnfv
-    R: C
-  I:
-  - E: tapio.tallgren!nsn.com
-    M: Tallgren, Tapio NSN - FI/Espoo
-    S: gmane
-  - E: tapio.tallgren!nsn.com
-    M: Tallgren, Tapio (NSN - FI/Espoo)
-    S: groupsio
-  - E: tapio.tallgren!nsn.com
-    M: Tallgren, Tapio NSN - FI/Espoo
-    S: linux-foundation:mls
-    U: tapio.tallgren
-  - E: tapio.tallgren!nsn.com
-    M: Tallgren, Tapio NSN - FI/Espoo
-    S: mbox
-  - E: tapio.tallgren!nsn.com
-    M: Tallgren, Tapio NSN - FI/Espoo
-    S: pipermail
-  B: 0
-  U: tapio.tallgren
-- E: tarangg!amazon.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon.com, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: tarangg!amazon.com
-    M: tarangg
-    S: git
-  B: 0
-  U: tarangg

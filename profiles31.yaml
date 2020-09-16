@@ -1,4 +1,46 @@
 P:
+- R:
+  - T: "2016-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-08-01"
+    C: meetHere
+    F: "2016-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-05-01"
+    C: Independent
+    F: "2017-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-05-01"
+    C: Independent
+    F: "2017-08-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2018-08-01"
+    C: Principal
+    F: "2018-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2019-05-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: hafiz
+    S: github
+    U: ayazhafiz
+  B: 0
+  U: hafiz
 - E: ayaz.hafiz.1!gmail.com
   R:
   - T: "2016-09-01"
@@ -55123,6 +55165,46 @@ P:
     S: git
   B: 0
   U: matjazp
+- E: karim.t2am!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2020-02-24"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2020-02-24"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2020-02-24"
+    P: besu
+    R: M
+  I:
+  - E: karim.t2am!gmail.com
+    M: Karim T
+    S: git
+  - E: ktaam!hotmail.fr
+    M: Karim T
+    S: git
+  - E: karim.t2am!gmail.com
+    M: matkt
+    S: git
+  - S: github
+    U: matkt
+  - M: Karim T.
+    S: github
+    U: matkt
+  - E: karim.t2am!gmail.com
+    M: Karim T.
+    S: github
+    U: matkt
+  - S: rocketchat
+    U: matkt
+  B: 0
+  U: matkt
 - E: sat-matsue!rf.jp.nec.com
   R:
   - T: "2100-01-01"
@@ -63229,95 +63311,3 @@ P:
     U: mlaventure
   B: 0
   U: mlaventure
-- R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: mlhess
-    S: supybot
-    U: mlhess
-  B: 0
-  U: mlhess
-- E: mllamb!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-02-26"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mllamb!us.ibm.com
-    M: mllamb
-    S: slack
-    U: mllamb
-  B: 0
-  U: mllamb
-- E: 409107750!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "2017-03-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "2017-03-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "2017-03-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "2017-03-01"
-    P: k8s
-    R: C
-  I:
-  - E: 409107750!qq.com
-    M: mlmhl
-    S: git
-  B: 0
-  U: mlmhl
-- C: CN
-  E: malinbupt!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2019-01-10"
-    C: Tencent Holdings Limited
-    F: "2017-12-29"
-    P: baetyl
-    R: C
-  I:
-  - E: malinbupt!gmail.com
-    M: mlmhl
-    S: git
-  - E: malinbupt!gmail.com
-    M: mlmhl
-    S: github
-    U: mlmhl
-  B: 0
-  U: mlmhl

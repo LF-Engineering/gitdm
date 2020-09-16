@@ -1,4 +1,76 @@
 P:
+- E: inc0!github.com
+  R:
+  - T: "2014-08-01"
+    C: Allegro
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Github
+    F: "1900-01-01"
+    R: C
+  - T: "2018-09-01"
+    C: Intel Corporation
+    F: "2014-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2018-09-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: inc0!github.com
+    M: Michal Jastrzebski
+    S: slack
+    U: inc0
+  B: 0
+  U: Michal Jastrzebski
+- E: michalx.k.jastrzebski!intel.com
+  R:
+  - T: "2017-11-22"
+    C: Intel Corporation
+    F: "2014-09-23"
+    P: cephfoundation
+    R: C
+  - T: "2017-11-22"
+    C: Intel Corporation
+    F: "2014-09-23"
+    P: danos
+    R: C
+  - T: "2017-11-22"
+    C: Intel Corporation
+    F: "2014-09-23"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2017-11-22"
+    C: Intel Corporation
+    F: "2014-09-23"
+    P: dpdk
+    R: C
+  - T: "2017-10-07"
+    C: Intel Corporation
+    F: "2014-12-12"
+    P: dpdk-draft
+    R: C
+  - T: "2017-10-07"
+    C: Intel Corporation
+    F: "2014-12-12"
+    P: dpdk-next
+    R: C
+  I:
+  - E: michalx.k.jastrzebski!intel.com
+    M: Michal Jastrzebski
+    S: git
+  - E: michalx.k.jastrzebski!intel.com
+    M: Jastrzebski, MichalX K
+    S: pipermail
+  - E: michalx.k.jastrzebski!intel.com
+    M: Michal Jastrzebski
+    S: pipermail
+  B: 0
+  U: Michal Jastrzebski
 - E: mjemala!pivotal.io
   R:
   - T: "2100-01-01"
@@ -15947,6 +16019,9 @@ P:
   I:
   - E: mike.holmes!linaro.org
     M: Mike Holmes
+    S: git
+  - E: mike.holmes!linaro.org
+    M: mike-holmes
     S: git
   - E: mike.holmes!linaro.org
     M: Mike Holmes
@@ -61687,27 +61762,3 @@ P:
     U: nealrichardson
   B: 0
   U: Neal Richardson
-- E: songwei-8!163.com
-  R:
-  - T: "2100-01-01"
-    C: Inspur
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Inspur
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Inspur
-    F: "1900-01-01"
-    P: rook
-    R: C
-  I:
-  - E: songwei-8!163.com
-    M: NealSong
-    S: github
-    U: weisongf
-  B: 0
-  U: NealSong

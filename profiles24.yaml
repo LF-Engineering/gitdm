@@ -1,4 +1,96 @@
 P:
+- R:
+  - T: "2014-03-01"
+    C: MOREPLAY
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2014-03-01"
+    C: MOREPLAY
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-12-01"
+    C: Independent
+    F: "2014-03-01"
+    P: argo
+    R: C
+  - T: "2014-12-01"
+    C: Independent
+    F: "2014-03-01"
+    P: helm
+    R: C
+  - T: "2015-02-01"
+    C: Optiver Asia Pacific
+    F: "2014-12-01"
+    P: argo
+    R: C
+  - T: "2015-02-01"
+    C: Optiver Asia Pacific
+    F: "2014-12-01"
+    P: helm
+    R: C
+  - T: "2015-12-01"
+    C: Independent
+    F: "2015-02-01"
+    P: argo
+    R: C
+  - T: "2015-12-01"
+    C: Independent
+    F: "2015-02-01"
+    P: helm
+    R: C
+  - T: "2018-04-01"
+    C: LandTech
+    F: "2015-12-01"
+    P: argo
+    R: C
+  - T: "2018-04-01"
+    C: LandTech
+    F: "2015-12-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: LandEnhance
+    F: "2018-04-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: LandEnhance
+    F: "2018-04-01"
+    P: helm
+    R: C
+  I:
+  - M: Sam Wyma
+    S: github
+    U: samwyma
+  B: 0
+  U: Sam Wyma
+- E: sam.nguyen!sendgrid.com
+  R:
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: sam.nguyen!sendgrid.com
+    M: Sam X. Nguyen
+    S: git
+  B: 0
+  U: Sam X. Nguyen
+- E: sam.xie!liulishuo.com
+  R:
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: sam.xie!liulishuo.com
+    M: Sam Xie
+    S: git
+  B: 0
+  U: Sam Xie
 - E: xsambundy!gmail.com
   R:
   - T: "2100-01-01"
@@ -54691,6 +54783,27 @@ P:
     S: git
   B: 0
   U: Sheldon Kwok
+- E: sheldon.regular!gmail.com
+  R:
+  - T: "2009-01-01"
+    C: Autodesk
+    F: "1999-01-01"
+    P: aries
+    R: C
+  I:
+  - M: Sheldon Regular
+    S: confluence
+    U: sheldon.regular
+  - E: sheldon.regular!gmail.com
+    M: Sheldon Regular
+    S: git
+  - M: Sheldon Regular
+    S: github
+    U: nodlesh
+  - S: rocketchat
+    U: sheldon.regular
+  B: 0
+  U: Sheldon Regular
 - C: US
   E: shaoxt!gmail.com
   R:
