@@ -1,4 +1,40 @@
 P:
+- E: openstack-networking-ci!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: openstack-networking-ci!intel.com
+    M: Intel Experimental CI
+    S: gerrit
+    U: intel-networking-ci
+  B: 0
+  U: Intel Experimental CI
+- E: openstack-nfv-ci!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: openstack-nfv-ci!intel.com
+    M: Intel NFV CI
+    S: gerrit
+    U: intel-nfv-ci
+  B: 0
+  U: Intel NFV CI
 - E: sriov-ci!intel.com
   R:
   - T: "2100-01-01"
@@ -62707,39 +62743,3 @@ P:
     S: git
   B: 0
   U: Jayant Kolhe
-- E: jr560g!att.com
-  R:
-  - T: "2019-07-11"
-    C: AT&T Services, Inc.
-    F: "2018-01-12"
-    R: C
-  - T: "2019-07-11"
-    C: AT&T Services, Inc.
-    F: "2018-01-12"
-    P: onap
-    R: C
-  I:
-  - M: Jayant Ragde
-    S: confluence
-    U: jragde01
-  - M: Jayant Ragde
-    S: jira
-    U: jragde01
-  - E: jr560g!att.com
-    M: Jayant Ragde
-    S: jira
-    U: jragde01
-  B: 0
-  U: Jayant Ragde
-- E: jshekhar!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jshekhar!codeaurora.org
-    M: Jayant Shekhar
-    S: git
-  B: 0
-  U: Jayant Shekhar

@@ -1,4 +1,104 @@
 P:
+- E: gj2418!att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: acumos
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: o-ran/documentation
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: o-ran/integration
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-inf
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-nonrtric
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-oam
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-ocu
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-oduhigh
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-odulow
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-ric
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-ricapp
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2014-12-31"
+    P: oran-sim
+    R: C
+  I:
+  - M: Guy Jacobson
+    S: confluence
+    U: guyjacobson
+  - E: gj2418!att.com
+    M: Guy Jacobson
+    S: confluence
+    U: guyjacobson
+  - E: gj2418!att.com
+    M: Guy Jacobson
+    S: gerrit
+    U: guyjacobson
+  - E: guy!Guys-MBP.client.research.att.com
+    M: Guy Jacobson
+    S: gerrit
+  - E: gj2418!att.com
+    M: Guy Jacobson
+    S: git
+  - E: guy!Guys-MBP.client.research.att.com
+    M: Guy Jacobson
+    S: git
+  - E: guy!research.att.com
+    M: Guy Jacobson
+    S: git
+  - M: Guy Jacobson
+    S: jira
+    U: guyjacobson
+  - E: gj2418!att.com
+    M: Guy Jacobson
+    S: jira
+    U: guyjacobson
+  B: 0
+  U: Guy Jacobson
 - E: guyk!marvell.com
   R:
   - T: "2007-01-01"
@@ -61979,39 +62079,3 @@ P:
     U: inyee786
   B: 0
   U: Intakhab Ali
-- E: openstack-networking-ci!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - E: openstack-networking-ci!intel.com
-    M: Intel Experimental CI
-    S: gerrit
-    U: intel-networking-ci
-  B: 0
-  U: Intel Experimental CI
-- E: openstack-nfv-ci!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - E: openstack-nfv-ci!intel.com
-    M: Intel NFV CI
-    S: gerrit
-    U: intel-nfv-ci
-  B: 0
-  U: Intel NFV CI
