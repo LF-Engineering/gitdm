@@ -1,4 +1,22 @@
 P:
+- E: sriov-ci!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: sriov-ci!intel.com
+    M: Intel SR-IOV CI
+    S: gerrit
+    U: sriovci
+  B: 0
+  U: Intel SR-IOV CI
 - E: intel.com
   R:
   - T: "2014-01-16"
@@ -26815,6 +26833,11 @@ P:
     C: Independent
     F: "2015-06-01"
     P: brigade
+    R: C
+  - T: "2019-03-01"
+    C: Independent
+    F: "2015-06-01"
+    P: gql
     R: C
   - T: "2019-03-01"
     C: Independent
