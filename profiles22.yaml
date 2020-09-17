@@ -1,5 +1,33 @@
 P:
 - C: IN
+  R:
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "1900-01-01"
+    P: cncf/litmuschaos
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Prabhu Jayakumar
+    S: github
+    U: prabhu43
+  B: 0
+  U: Prabhu Jayakumar
+- C: IN
   E: prabhu43!users.noreply.github.com
   R:
   - T: "2100-01-01"
@@ -51989,6 +52017,9 @@ P:
     S: gerrit
     U: Reshmasree
   - E: reshmasree.chamarthi2!wipro.com
+    M: Reshmasree c
+    S: git
+  - E: reshmasree.chamarthi2!wipro.com
     M: Reshmasree
     S: git
   - E: reshmasree.chamarthi2!wipro.com
@@ -60988,78 +61019,3 @@ P:
     U: terorie
   B: 0
   U: Richard Patel
-- C: DE
-  E: mail!richardpeters.de
-  R:
-  - T: "2015-07-01"
-    C: Rohde & Schwarz Cybersecurity
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-07-01"
-    C: Rohde & Schwarz Cybersecurity
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2016-02-01"
-    C: Berner & Mattner Systemtechnik
-    F: "2015-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-02-01"
-    C: Berner & Mattner Systemtechnik
-    F: "2015-07-01"
-    P: zep
-    R: C
-  - T: "2016-11-01"
-    C: ITK Engineering
-    F: "2016-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-11-01"
-    C: ITK Engineering
-    F: "2016-02-01"
-    P: zep
-    R: C
-  - T: "2017-12-01"
-    C: Meise & Peters GbR
-    F: "2016-11-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-12-01"
-    C: Meise & Peters GbR
-    F: "2016-11-01"
-    P: zep
-    R: C
-  - T: "2018-03-01"
-    C: HTW Berlin
-    F: "2017-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-03-01"
-    C: HTW Berlin
-    F: "2017-12-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: ITK
-    F: "2017-12-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: ITK Engineering
-    F: "2018-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: ITK Engineering
-    F: "2018-03-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: mail!richardpeters.de
-    M: Richard Peters
-    S: git
-  B: 0
-  U: Richard Peters
