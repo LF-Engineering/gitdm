@@ -1,4 +1,346 @@
 P:
+- C: US
+  R:
+  - T: "2015-01-01"
+    C: Upthere
+    F: "1900-01-01"
+    R: C
+  - T: "2015-01-01"
+    C: Upthere
+    F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2015-01-01"
+    C: Upthere
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2015-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2015-01-01"
+    P: notary
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "2015-01-01"
+    P: opentracing
+    R: C
+  - T: "2016-11-01"
+    C: Docker, Inc.
+    F: "2015-03-01"
+    R: C
+  - T: "2016-11-01"
+    C: Docker, Inc.
+    F: "2015-03-01"
+    P: notary
+    R: C
+  - T: "2016-11-01"
+    C: Docker, Inc.
+    F: "2015-03-01"
+    P: opentracing
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-11-01"
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-11-01"
+    P: notary
+    R: C
+  - T: "2017-01-01"
+    C: Independent
+    F: "2016-11-01"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2017-01-01"
+    P: notary
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "2017-01-01"
+    P: opentracing
+    R: C
+  S: male
+  I:
+  - M: Richard Scothern
+    S: github
+    U: RichardScothern
+  B: 0
+  U: Richard Scothern
+- E: rseroter!pivotal.io
+  R:
+  - T: "2016-05-11"
+    C: Pivotal
+    F: "2016-04-11"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: rseroter!pivotal.io
+    M: Richard Seroter
+    S: slack
+    U: richardseroter
+  B: 0
+  U: Richard Seroter
+- E: rsharpe!samba.org
+  R:
+  - T: "2016-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2016-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2018-03-01"
+    C: Primary Data
+    F: "2016-05-01"
+    P: cephfoundation
+    R: C
+  - T: "2018-03-01"
+    C: Primary Data
+    F: "2016-05-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Hammerspace
+    F: "2018-03-01"
+    P: openebs
+    R: C
+  I:
+  - E: rsharpe!samba.org
+    M: Richard Sharpe
+    S: git
+  B: 0
+  U: Richard Sharpe
+- C: GB
+  E: richard!aggress.net
+  R:
+  - T: "2014-02-15"
+    C: Basho
+    F: "1900-01-01"
+    R: C
+  - T: "2014-02-15"
+    C: Basho
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-06-15"
+    C: MapR Technologies
+    F: "2014-02-15"
+    R: C
+  - T: "2016-06-15"
+    C: MapR Technologies
+    F: "2014-02-15"
+    P: k8s
+    R: C
+  - T: "2017-04-15"
+    C: Confluent
+    F: "2016-06-15"
+    R: C
+  - T: "2017-04-15"
+    C: Confluent
+    F: "2016-06-15"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "2017-04-15"
+    R: C
+  - T: "2100-01-01"
+    C: Mesosphere
+    F: "2017-04-15"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: richard!aggress.net
+    M: Richard Shaw
+    S: git
+  - E: richard!aggress.net
+    M: Richard Shaw
+    S: github
+    U: aggress
+  B: 0
+  U: Richard Shaw
+- E: rsimpson!uship.com
+  R:
+  - T: "2014-09-01"
+    C: Clear Measure
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2014-09-01"
+    C: Clear Measure
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2014-09-01"
+    C: Clear Measure
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2014-12-01"
+    C: Independent
+    F: "2014-09-01"
+    P: argo
+    R: C
+  - T: "2014-12-01"
+    C: Independent
+    F: "2014-09-01"
+    P: envoy
+    R: C
+  - T: "2014-12-01"
+    C: Independent
+    F: "2014-09-01"
+    P: openpolicyagent
+    R: C
+  - T: "2016-07-01"
+    C: Final Phase
+    F: "2014-12-01"
+    P: argo
+    R: C
+  - T: "2016-07-01"
+    C: Final Phase
+    F: "2014-12-01"
+    P: envoy
+    R: C
+  - T: "2016-07-01"
+    C: Final Phase
+    F: "2014-12-01"
+    P: openpolicyagent
+    R: C
+  - T: "2018-02-01"
+    C: Fancy Awesome
+    F: "2016-07-01"
+    P: argo
+    R: C
+  - T: "2018-02-01"
+    C: Fancy Awesome
+    F: "2016-07-01"
+    P: envoy
+    R: C
+  - T: "2018-02-01"
+    C: Fancy Awesome
+    F: "2016-07-01"
+    P: openpolicyagent
+    R: C
+  - T: "2018-11-01"
+    C: Pross Co
+    F: "2018-02-01"
+    P: argo
+    R: C
+  - T: "2018-11-01"
+    C: Pross Co
+    F: "2018-02-01"
+    P: envoy
+    R: C
+  - T: "2018-11-01"
+    C: Pross Co
+    F: "2018-02-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: uShip
+    F: "2018-11-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: uShip
+    F: "2018-11-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: uShip
+    F: "2018-11-01"
+    P: ojsf-moment
+    R: C
+  - T: "2100-01-01"
+    C: uShip
+    F: "2018-11-01"
+    P: openpolicyagent
+    R: C
+  I:
+  - E: rsimpson!uship.com
+    M: Richard Simpson
+    S: github
+    U: RichiCoder1
+  B: 0
+  U: Richard Simpson
+- E: r.stein!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: r.stein!sap.com
+    M: Richard Stein
+    S: git
+  B: 0
+  U: Richard Stein
+- R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/metal3
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  I:
+  - M: Richard Su
+    S: github
+    U: rwsu
+  B: 0
+  U: Richard Su
+- E: rwsu!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2016-03-09"
+    C: Red Hat Inc.
+    F: "2014-01-01"
+    R: C
+  - T: "2016-03-09"
+    C: Red Hat Inc.
+    F: "2014-01-01"
+    P: opnfv
+    R: C
+  S: male
+  I:
+  - E: rwsu!redhat.com
+    M: Richard Su
+    S: git
+  B: 0
+  U: Richard Su
 - E: rtheis!us.ibm.com
   R:
   - T: "2100-01-01"
@@ -34053,6 +34395,23 @@ P:
     U: rosberglinhares
   B: 0
   U: Rosberg Linhares
+- E: rosie.murphy!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-12-31"
+    R: C
+  I:
+  - E: 68219673+RosieMurphy0!users.noreply.github.com
+    M: RosieMurphy0
+    S: git
+  - E: rosie.murphy!ibm.com
+    M: RosieMurphy0
+    S: git
+  - S: github
+    U: RosieMurphy0
+  B: 0
+  U: Rose Murphy
 - E: Rose.Sakach!broadcom.com
   R:
   - T: "2100-01-01"
@@ -62429,320 +62788,3 @@ P:
     U: sampowers
   B: 0
   U: Sam Powers
-- E: semen.protsenko!linaro.org
-  R:
-  - T: "2100-01-01"
-    C: Linaro Limited
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: semen.protsenko!linaro.org
-    M: Sam Protsenko
-    S: git
-  B: 0
-  U: Sam Protsenko
-- E: spullara!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: spullara!twitter.com
-    M: Sam Pullara
-    S: git
-  B: 0
-  U: Sam Pullara
-- R:
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    P: presto
-    R: C
-  I:
-  - M: Sam Rash
-    S: slack
-    U: rash67
-  B: 0
-  U: Sam Rash
-- E: samanrasha!hotmail.co.uk
-  R:
-  - T: "2019-06-30"
-    C: IBM
-    F: "2018-06-01"
-    P: fabric
-    R: C
-  - T: "2019-06-30"
-    C: IBM
-    F: "2018-06-01"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2019-06-30"
-    C: IBM
-    F: "2018-06-01"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  I:
-  - E: samanrasha!hotmail.co.uk
-    M: Sam Rasha
-    S: gerrit
-    U: SamRasha
-  - E: samanrasha!hotmail.co.uk
-    M: SamRasha
-    S: git
-  - M: Sam Rasha
-    S: jira
-    U: SamRasha
-  B: 0
-  U: Sam Rasha
-- C: AU
-  E: srijs!airpost.net
-  R:
-  - T: "2100-01-01"
-    C: Atlassian
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Atlassian
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  I:
-  - E: srijs!airpost.net
-    M: Sam Rijs
-    S: git
-  - E: srijs!airpost.net
-    M: Sam Rijs
-    S: github
-    U: srijs
-  B: 0
-  U: Sam Rijs
-- E: sritchie!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sritchie!twitter.com
-    M: Sam Ritchie
-    S: git
-  B: 0
-  U: Sam Ritchie
-- C: CA
-  E: vieuxtech!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: libuv
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: node-red
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: ojsf
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: ojsf-eslint
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: ojsf-express
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  S: female
-  I:
-  - E: vieuxtech!gmail.com
-    M: Sam Roberts
-    S: git
-  - E: vieuxtech!gmail.com
-    M: Sam Roberts
-    S: github
-    U: sam-github
-  B: 0
-  U: Sam Roberts
-- E: sam.rockwell!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-03-03"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: sam.rockwell!ibm.com
-    M: Sam Rockwell
-    S: slack
-    U: samrock
-  B: 0
-  U: Sam Rockwell
-- C: GB
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - M: Sam Rogers
-    S: github
-    U: s-rogers
-  B: 0
-  U: Sam Rogers
-- E: roguishmountain!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: roguishmountain!gmail.com
-    M: Sam Schwarz
-    S: git
-  B: 0
-  U: Sam Schwarz
-- E: samsch!microsoft.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: samsch!microsoft.com
-    M: Sam Schwarz
-    S: github
-    U: roguishmountain
-  B: 0
-  U: Sam Schwarz
-- E: sserrano!pivotal.io
-  R:
-  - T: "2017-10-02"
-    C: Pivotal
-    F: "2017-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: sserrano!pivotal.io
-    M: Sam Serrano
-    S: git
-  - E: sserrano!pivotal.io
-    M: Sam Serrano
-    S: slack
-    U: samuel.j.serrano
-  B: 0
-  U: Sam Serrano
-- E: sam.shih!mediatek.com
-  R:
-  - T: "2100-01-01"
-    C: MediaTek, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: sam.shih!mediatek.com
-    M: Sam Shih
-    S: git
-  B: 0
-  U: Sam Shih
-- R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - M: Sam Smith
-    S: github
-    U: sesmith177
-  B: 0
-  U: Sam Smith
-- E: sasmith!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: sasmith!pivotal.io
-    M: Sam Smith
-    S: git
-  - E: sasmith!pivotal.io
-    M: Sam Smith
-    S: groupsio
-  - E: sasmith!pivotal.io
-    M: Sam Smith
-    S: mbox
-  - E: sasmith!pivotal.io
-    M: Sam Smith
-    S: slack
-    U: sesmith177
-  U: Sam Smith
-- E: sesmith177!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - E: sesmith177!gmail.com
-    M: Sam Smith
-    S: git
-  B: 0
-  U: Sam Smith
