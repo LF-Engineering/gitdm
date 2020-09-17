@@ -1,4 +1,293 @@
 P:
+- R:
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2017-03-01"
+    C: Chew
+    F: "2015-06-01"
+    P: fluentd
+    R: C
+  - T: "2017-03-01"
+    C: Chew
+    F: "2015-06-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Mixcloud
+    F: "2017-03-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Mixcloud
+    F: "2017-03-01"
+    P: fluxcd
+    R: C
+  I:
+  - M: Sam Millar
+    S: github
+    U: millar
+  B: 0
+  U: Sam Millar
+- E: samnaser!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  S: male
+  I:
+  - E: sammnaser!gmail.com
+    M: Sam Naser
+    S: git
+  - E: samnaser!google.com
+    M: Sam Naser
+    S: git
+  - E: sammnaser!gmail.com
+    M: Sam Naser
+    S: github
+    U: Monkeyanator
+  - E: samnaser!google.com
+    M: Sam Naser
+    S: github
+    U: Monkeyanator
+  B: 0
+  U: Sam Naser
+- E: nelsam!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: nelsam!pivotal.io
+    M: Sam Nelson
+    S: git
+  B: 0
+  U: Sam Nelson
+- C: US
+  R:
+  - T: "2019-02-01"
+    C: SendGrid
+    F: "1900-01-01"
+    R: C
+  - T: "2019-02-01"
+    C: SendGrid
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2019-02-01"
+    C: SendGrid
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Twilio
+    F: "2019-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Twilio
+    F: "2019-02-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Twilio
+    F: "2019-02-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - M: Sam Nguyen
+    S: github
+    U: dtjm
+  B: 0
+  U: Sam Nguyen
+- E: sam.omahony!evsesystems.com
+  R:
+  - T: "2012-06-01"
+    C: Voxpro
+    F: "2011-12-01"
+    P: zep
+    R: C
+  - T: "2013-08-01"
+    C: Analog Devices
+    F: "2013-06-01"
+    P: zep
+    R: C
+  - T: "2014-12-01"
+    C: University College Cork
+    F: "2014-09-01"
+    P: zep
+    R: C
+  - T: "2014-12-01"
+    C: University of Notre Dame
+    F: "2014-09-01"
+    P: zep
+    R: C
+  - T: "2018-10-01"
+    C: Shimmer
+    F: "2015-11-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: EVSE Systems
+    F: "2018-10-01"
+    P: zep
+    R: C
+  I:
+  - E: sam.omahony!evsesystems.com
+    M: Sam O'Mahony
+    S: slack
+    U: sam.omahony
+  B: 0
+  U: Sam O'Mahony
+- R:
+  - T: "2015-04-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2015-04-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-04-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  I:
+  - M: Sam Padgett
+    S: github
+    U: spadgett
+  B: 0
+  U: Sam Padgett
+- E: spadgett!redhat.com
+  R:
+  - T: "2015-04-01"
+    C: IBM
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-04-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: spadgett!redhat.com
+    M: Sam Padgett
+    S: git
+  B: 0
+  U: Sam Padgett
+- C: AU
+  E: sam!sam.today
+  R:
+  - T: "2100-01-01"
+    C: Infoxchange
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Infoxchange
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: sam!sam.today
+    M: Sam Parkinson
+    S: github
+    U: samdroid-apps
+  B: 0
+  U: Sam Parkinson
+- E: sam!outsidethe.net
+  R:
+  - T: "2100-01-01"
+    C: OpsUnit
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - E: sam!outsidethe.net
+    M: Sam Pointer
+    S: github
+    U: sampointer
+  B: 0
+  U: Sam Pointer
+- C: GB
+  E: sam.pointer!opsunit.com
+  R:
+  - T: "2100-01-01"
+    C: OpsUnit
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: OpsUnit
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  S: male
+  I:
+  - E: sam.pointer!opsunit.com
+    M: Sam Pointer
+    S: git
+  B: 0
+  U: Sam Pointer
+- E: sampowers!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Iovation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Iovation
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Iovation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: sampowers!gmail.com
+    M: Sam Powers
+    S: git
+  - E: sampowers!gmail.com
+    M: Sam Powers
+    S: github
+    U: sampowers
+  B: 0
+  U: Sam Powers
 - E: semen.protsenko!linaro.org
   R:
   - T: "2100-01-01"
@@ -50231,11 +50520,6 @@ P:
   - T: "2018-04-30"
     C: University of Minnesota
     F: "2014-12-31"
-    P: avalon
-    R: C
-  - T: "2018-04-30"
-    C: University of Minnesota
-    F: "2014-12-31"
     P: hyperledger/hyperledger-all
     R: C
   - T: "2018-04-30"
@@ -50258,9 +50542,9 @@ P:
     F: "2014-12-31"
     P: transact
     R: M
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2018-05-31"
+  - T: "2018-05-01"
+    C: University of Minnesota
+    F: "2015-01-01"
     P: avalon
     R: C
   - T: "2100-01-01"
@@ -50288,6 +50572,11 @@ P:
     F: "2018-05-31"
     P: transact
     R: M
+  - T: "2100-01-01"
+    C: Bitwise
+    F: "2018-06-01"
+    P: avalon
+    R: C
   I:
   - E: telander!bitwise.io
     M: Shannyn Telander
@@ -61130,235 +61419,3 @@ P:
     S: git
   B: 0
   U: Shivani Bhardwaj
-- E: shivani.pathak!tcs.com
-  R:
-  - T: "2019-04-11"
-    C: Tata Consultancy Services
-    F: "2015-11-19"
-    P: dpdk
-    R: C
-  - T: "2019-04-11"
-    C: Tata Consultancy Services
-    F: "2015-11-19"
-    P: odl
-    R: C
-  I:
-  - E: shivani.pathak!tcs.com
-    M: Shivani Pathak
-    S: gerrit
-    U: shivanip
-  - E: shivani.pathak!tcs.com
-    M: Shivani Pathak
-    S: git
-  - E: shivani.pathak!tcs.com
-    M: Shivani Pathak
-    S: jira
-    U: shivani.pathak
-  - M: Shivanip
-    S: mediawiki
-    U: Shivanip
-  - E: shivani.pathak!tcs.com
-    M: Shivani Pathak
-    S: pipermail
-  B: 0
-  U: Shivani Pathak
-- E: shivansh.rai!sap.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "2019-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: shivansh!freebsd.org
-    M: Shivansh Rai
-    S: git
-  - E: shivansh.rai!sap.com
-    M: Shivansh Rai
-    S: git
-  - E: shivansh!freebsd.org
-    M: Shivansh Rai
-    S: github
-    U: shivansh
-  - E: shivansh.rai!sap.com
-    M: Shivansh Rai
-    S: slack
-    U: shivansh.rai
-  B: 0
-  U: Shivansh Rai
-- E: shivansh.saini.cse17!iitbhu.ac.in
-  R:
-  - T: "2100-01-01"
-    C: Indian Institute of Technology (BHU)
-    F: "2019-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Indian Institute of Technology (BHU)
-    F: "2019-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Indian Institute of Technology (BHU)
-    F: "2019-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Indian Institute of Technology (BHU)
-    F: "2019-01-01"
-    P: zowe
-    R: C
-  I:
-  - E: shivanshs9!gmail.com
-    M: Shivansh Saini
-    S: git
-  - E: shivanshs9!gmail.com
-    M: Shivansh Saini
-    S: github
-    U: shivanshs9
-  - E: shivansh.saini.cse17!iitbhu.ac.in
-    M: Shivansh Saini
-    S: slack
-    U: shivansh.saini.cse17
-  B: 0
-  U: Shivansh Saini
-- C: US
-  R:
-  - T: "2015-09-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2015-09-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2016-08-01"
-    C: Reliance Industries Limited
-    F: "2015-09-01"
-    P: cncf/contour
-    R: C
-  - T: "2016-08-01"
-    C: Reliance Industries Limited
-    F: "2015-09-01"
-    P: envoy
-    R: C
-  - T: "2017-06-01"
-    C: Independent
-    F: "2016-08-01"
-    P: cncf/contour
-    R: C
-  - T: "2017-06-01"
-    C: Independent
-    F: "2016-08-01"
-    P: envoy
-    R: C
-  - T: "2017-08-01"
-    C: VMware, Inc.
-    F: "2017-06-01"
-    P: cncf/contour
-    R: C
-  - T: "2017-08-01"
-    C: VMware, Inc.
-    F: "2017-06-01"
-    P: envoy
-    R: C
-  - T: "2018-02-01"
-    C: Independent
-    F: "2017-08-01"
-    P: cncf/contour
-    R: C
-  - T: "2018-02-01"
-    C: Independent
-    F: "2017-08-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "2018-02-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "2018-02-01"
-    P: envoy
-    R: C
-  S: female
-  I:
-  - M: Shivanshu Goswami
-    S: github
-    U: shivanshu21
-  B: 0
-  U: Shivanshu Goswami
-- E: shigoswami!ebay.com
-  R:
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: shigoswami!ebay.com
-    M: Shivanshu Goswami
-    S: git
-  - E: shigoswami!ebay.com
-    M: Shivanshu Goswami
-    S: slack
-    U: shigoswami
-  B: 0
-  U: Shivanshu Goswami
-- E: sbhat!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: sbhat!linux.vnet.ibm.com
-    M: Shivaprasad G Bhat
-    S: git
-  B: 0
-  U: Shivaprasad G Bhat
-- E: shivasharan.srikanteshwara!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: shivasharan.srikanteshwara!broadcom.com
-    M: Shivasharan S
-    S: git
-  B: 0
-  U: Shivasharan S

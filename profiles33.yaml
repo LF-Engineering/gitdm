@@ -1,4 +1,365 @@
 P:
+- E: sys_stv!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-09-09"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-09-09"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-09-09"
+    P: dpdk-tools
+    R: C
+  - T: "2016-01-22"
+    C: Intel Corporation
+    F: "2016-01-19"
+    P: dpdk-tools
+    R: C
+  I:
+  - E: sys_stv!intel.com
+    M: sys_stv
+    S: git
+  - E: sys_stv!intel.com
+    M: sys_stv
+    S: pipermail
+  B: 0
+  U: sys_stv
+- E: szaidi!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-08-03"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: szaidi!us.ibm.com
+    M: szaidi
+    S: slack
+    U: szaidi
+  B: 0
+  U: szaidi
+- R:
+  - T: "2014-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-09-01"
+    C: Nokia Corporation
+    F: "2014-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2015-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2015-04-01"
+    P: jenkins
+    R: C
+  I:
+  - S: github
+    U: szandala
+  B: 0
+  U: szandala
+- E: szandala!users.noreply.github.com
+  R:
+  - T: "2014-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-09-01"
+    C: Nokia Corporation
+    F: "2014-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-04-01"
+    C: Independent
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2015-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2015-04-01"
+    P: jenkins
+    R: C
+  I:
+  - E: szandala!users.noreply.github.com
+    M: szandala
+    S: git
+  B: 0
+  U: szandala
+- R:
+  - T: "2100-01-01"
+    C: NotFond
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: NotFond
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: NotFond
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: NotFond
+    F: "1900-01-01"
+    P: lfai-milvus
+    R: C
+  I:
+  - S: github
+    U: szbjb
+  B: 0
+  U: szbjb
+- E: elisa.widjaja!ge.com
+  R:
+  - T: "2100-01-01"
+    C: General Electric
+    F: "2016-08-29"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: elisa.widjaja!ge.com
+    M: szermer
+    S: slack
+    U: szermer
+  B: 0
+  U: szermer
+- E: tatsuo!kaniwa.biz
+  R:
+  - T: "2100-01-01"
+    C: Industrial Light & Magic
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Industrial Light & Magic
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  I:
+  - E: tatsuo!kaniwa.biz
+    S: github
+    U: t-k
+  B: 0
+  U: t-k
+- E: kitamura.takuya!gmail.com
+  R:
+  - T: "2017-05-01"
+    C: NC Desing
+    F: "1900-01-01"
+    R: C
+  - T: "2017-05-01"
+    C: NC Desing
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Daikin
+    F: "2017-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Daikin
+    F: "2017-05-01"
+    P: fluentd
+    R: C
+  S: male
+  I:
+  - E: kitamura.takuya!gmail.com
+    M: t-kitamura
+    S: git
+  B: 0
+  U: t-kitamura
+- E: t-kristo!ti.com
+  R:
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: t-kristo!ti.com
+    M: t-kristo
+    S: git
+  B: 0
+  U: t-kristo
+- C: CN
+  E: t-qini!microsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: t-qini!microsoft.com
+    M: nicky
+    S: git
+  - E: t-qini!microsoft.com
+    M: qi
+    S: git
+  - E: t-qini!microsoft.com
+    M: t-qini
+    S: git
+  B: 0
+  U: t-qini
+- R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: keda
+    R: C
+  I:
+  - S: github
+    U: t-shama
+  B: 0
+  U: t-shama
+- R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - S: github
+    U: t-wanl
+  B: 0
+  U: t-wanl
+- E: t-wanl!microsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: t-wanl!microsoft.com
+    M: t-wanl
+    S: git
+  B: 0
+  U: t-wanl
+- E: tanyifeng1!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: tanyifeng1!huawei.com
+    M: t00416110
+    S: git
+  B: 0
+  U: t00416110
+- E: xy.tao!outlook.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  I:
+  - E: xy.tao!outlook.com
+    M: tabokie
+    S: git
+  B: 0
+  U: tabokie
+- R:
+  - T: "2100-01-01"
+    C: Primeton
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Primeton
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: female
+  I:
+  - S: github
+    U: tacy
+  B: 0
+  U: tacy
+- E: tadei.bilan!pantheon.tech
+  R:
+  - T: "2100-01-01"
+    C: PANTHEON.tech
+    F: "2019-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: PANTHEON.tech
+    F: "2019-09-10"
+    P: odl
+    R: C
+  I:
+  - E: tadei.bilan!pantheon.tech
+    M: Tadey Bilan
+    S: gerrit
+    U: TadeyBilan
+  - E: tadey604!gmail.com
+    M: Tadey Bilan
+    S: gerrit
+    U: TadeyBilan
+  - E: tadei.bilan!pantheon.tech
+    M: tadei.bilan
+    S: git
+  - M: Tadey Bilan
+    S: jira
+    U: TadeyBilan
+  - E: tadey604!gmail.com
+    M: Tadey Bilan
+    S: jira
+    U: TadeyBilan
+  B: 0
+  U: tadei.bilan
 - E: tagomaru!users.noreply.github.com
   R:
   - T: "2014-12-01"
