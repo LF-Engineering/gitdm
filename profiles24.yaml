@@ -1,4 +1,880 @@
 P:
+- R:
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    R: C
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Box
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Sam Ghods
+    S: github
+    U: ghodss
+  B: 0
+  U: Sam Ghods
+- E: sam!box.com
+  R:
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: Box
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Connected Cannabis
+    F: "2018-08-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: sam!box.com
+    M: Sam Ghods
+    S: git
+  B: 0
+  U: Sam Ghods
+- R:
+  - T: "2100-01-01"
+    C: Skyscanner
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Skyscanner
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Sam Giles
+    S: github
+    U: samgiles
+  B: 0
+  U: Sam Giles
+- E: 875669+samrocketman!users.noreply.github.com
+  R:
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-07-01"
+    C: Comcast
+    F: "2014-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Integral Ad Science
+    F: "2017-07-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Integral Ad Science
+    F: "2017-07-01"
+    P: jenkins
+    R: C
+  I:
+  - E: 875669+samrocketman!users.noreply.github.com
+    M: Sam Gleske
+    S: git
+  B: 0
+  U: Sam Gleske
+- R:
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-07-01"
+    C: Comcast
+    F: "2014-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-07-01"
+    C: Comcast
+    F: "2014-05-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Integral Ad Science
+    F: "2017-07-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Integral Ad Science
+    F: "2017-07-01"
+    P: jenkins
+    R: C
+  I:
+  - M: Sam Gleske
+    S: github
+    U: samrocketman
+  B: 0
+  U: Sam Gleske
+- E: sag47!drexel.edu
+  R:
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2017-07-01"
+    C: Comcast
+    F: "2014-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Integral Ad Science
+    F: "2017-07-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: sag47!drexel.edu
+    M: Sam Gleske
+    S: git
+  B: 0
+  U: Sam Gleske
+- E: sam.mxracer!gmail.com
+  R:
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-07-01"
+    C: Comcast
+    F: "2014-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-07-01"
+    C: Comcast
+    F: "2014-05-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Integral Ad Science
+    F: "2017-07-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Integral Ad Science
+    F: "2017-07-01"
+    P: jenkins
+    R: C
+  I:
+  - E: sam.mxracer!gmail.com
+    M: Sam Gleske
+    S: git
+  B: 0
+  U: Sam Gleske
+- E: samgoldman!fb.com
+  R:
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    P: gql
+    R: C
+  I:
+  - E: samgoldman!fb.com
+    M: Sam Goldman
+    S: git
+  B: 0
+  U: Sam Goldman
+- E: samwgoldman!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Facebook, Inc.
+    F: "1900-01-01"
+    P: gql
+    R: C
+  I:
+  - E: samwgoldman!gmail.com
+    M: Sam Goldman
+    S: github
+    U: samwgoldman
+  B: 0
+  U: Sam Goldman
+- C: GB
+  E: 385176+Samze!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2014-12-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - E: 385176+Samze!users.noreply.github.com
+    M: Sam Gunaratne
+    S: git
+  - E: rgunaratne!pivotal.io
+    M: Sam Gunaratne
+    S: git
+  - E: samgzeit!gmail.com
+    M: Sam Gunaratne
+    S: git
+  - E: sgunaratne!pivotal.io
+    M: Sam Gunaratne
+    S: git
+  - M: Sam Gunaratne
+    S: github
+    U: Samze
+  - E: rgunaratne!pivotal.io
+    M: Sam Gunaratne
+    S: groupsio
+  - E: rgunaratne!pivotal.io
+    M: rgunaratne
+    S: groupsio
+  - E: rgunaratne!pivotal.io
+    M: Sam Gunaratne
+    S: mbox
+  - M: Sam Gunaratne
+    S: meetup
+    U: "154634192"
+  - E: samgzeit!gmail.com
+    M: Sam Gunaratne
+    S: slack
+    U: samze
+  B: 0
+  U: Sam Gunaratne
+- E: shague86!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2013-10-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2013-10-01"
+    P: odl
+    R: C
+  - T: "2018-10-17"
+    C: Red Hat Inc.
+    F: "2015-04-10"
+    P: opnfv
+    R: C
+  I:
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: gerrit
+    U: shague
+  - E: shague86!gmail.com
+    M: Sam Hague
+    S: gerrit
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: git
+  - E: shague86!gmail.com
+    M: Sam Hague
+    S: git
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: gmane
+  - E: helpdesk!opendaylight.org
+    M: Sam Hague via RT
+    S: groupsio
+  - E: shague!gmail.com
+    M: Sam Hague
+    S: groupsio
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: groupsio
+  - E: shague86!gmail.com
+    M: Sam Hague
+    S: groupsio
+  - M: Sam Hague
+    S: jira
+    U: shague
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: jira
+    U: shague
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: linux-foundation:mls
+    U: shague
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: linux-foundation:scm
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: linux-foundation:scr
+    U: shague
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: mbox
+  - E: shague!redhat.com
+    M: Sam Hague
+    S: pipermail
+  - E: shague86!gmail.com
+    M: Sam Hague
+    S: pipermail
+  - E: shague!redhat.com
+    M: shague
+    S: pipermail
+  B: 0
+  U: Sam Hague
+- E: hansens!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: hansens!google.com
+    M: Sam Hansen
+    S: git
+  B: 0
+  U: Sam Hansen
+- E: samhardy!vmware.com
+  R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: samhardy!vmware.com
+    M: Sam Hardy
+    S: git
+  B: 0
+  U: Sam Hardy
+- R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - M: Sam Harwell
+    S: github
+    U: sharwell
+  B: 0
+  U: Sam Harwell
+- E: sharwell!synopsys.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: sharwell!synopsys.com
+    M: Sam Harwell
+    S: git
+  B: 0
+  U: Sam Harwell
+- E: hasinoff!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: hasinoff!google.com
+    M: Sam Hasinoff
+    S: git
+  B: 0
+  U: Sam Hasinoff
+- C: GB
+  R:
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: virtualkubelet
+    R: C
+  S: male
+  I:
+  - M: Sam J Sharpe
+    S: github
+    U: samjsharpe
+  B: 0
+  U: Sam J Sharpe
+- C: GB
+  E: samjsharpe!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: virtualkubelet
+    R: C
+  S: male
+  I:
+  - E: samjsharpe!users.noreply.github.com
+    M: Sam J Sharpe
+    S: git
+  B: 0
+  U: Sam J Sharpe
+- E: sjansen!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: sjansen!google.com
+    M: Sam Jansen
+    S: git
+  B: 0
+  U: Sam Jansen
+- E: samuel.jesso!gmail.com
+  R:
+  - T: "2016-04-01"
+    C: Blue Spurs
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-04-01"
+    C: Blue Spurs
+    F: "1900-01-01"
+    P: webpack
+    R: C
+  - T: "2017-03-01"
+    C: SiteFlo
+    F: "2016-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-03-01"
+    C: SiteFlo
+    F: "2016-04-01"
+    P: ojsf-appium
+    R: C
+  - T: "2100-01-01"
+    C: Cvent
+    F: "2017-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Cvent
+    F: "2017-03-01"
+    P: presto
+    R: C
+  I:
+  - E: samuel.jesso!gmail.com
+    M: Sam Jesso
+    S: git
+  - E: samuel.jesso!gmail.com
+    M: Sam Jesso
+    S: github
+    U: jamsesso
+  B: 0
+  U: Sam Jesso
+- R:
+  - T: "2016-02-01"
+    C: Independent
+    F: "1900-01-01"
+    P: keda
+    R: C
+  - T: "2016-12-01"
+    C: KAIST GSIS
+    F: "2016-02-01"
+    P: keda
+    R: C
+  - T: "2017-06-01"
+    C: Naver
+    F: "2016-12-01"
+    P: keda
+    R: C
+  - T: "2018-05-01"
+    C: LENDIT
+    F: "2017-06-01"
+    P: keda
+    R: C
+  - T: "2019-04-01"
+    C: Vonvon
+    F: "2018-05-01"
+    P: keda
+    R: C
+  - T: "2100-01-01"
+    C: Hyperconnect
+    F: "2019-04-01"
+    P: keda
+    R: C
+  I:
+  - M: Sam Jo
+    S: github
+    U: samjo-nyang
+  B: 0
+  U: Sam Jo
+- E: sam.kenworthy!live.de
+  R:
+  - T: "2100-01-01"
+    C: Mackevision
+    F: "2018-02-28"
+    P: opencue
+    R: C
+  I:
+  - M: Sam Kenworthy
+    S: github
+    U: samkenw
+  B: 0
+  U: Sam Kenworthy
+- C: US
+  E: skottler!github.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: skottler!github.com
+    M: Sam Kottler
+    S: git
+  - E: skottler!github.com
+    M: Sam Kottler
+    S: github
+    U: skottler
+  B: 0
+  U: Sam Kottler
+- C: US
+  E: skottler!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: skottler!users.noreply.github.com
+    M: Sam Kottler
+    S: git
+  B: 0
+  U: Sam Kottler
+- E: samlaane!gmail.com
+  R:
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-08-01"
+    C: Yelp
+    F: "2014-05-01"
+    R: C
+  - T: "2014-08-01"
+    C: Yelp
+    F: "2014-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-08-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: samlaane!gmail.com
+    M: Sam Laane
+    S: git
+  B: 0
+  U: Sam Laane
+- R:
+  - T: "2100-01-01"
+    C: Inktank
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Inktank
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Sam Lang
+    S: github
+    U: 6uv1s
+  B: 0
+  U: Sam Lang
+- C: US
+  E: sam.lang!inktank.com
+  R:
+  - T: "2100-01-01"
+    C: Inktank
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Inktank
+    F: "1900-01-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: sam.lang!inktank.com
+    M: Sam Lang
+    S: git
+  B: 0
+  U: Sam Lang
+- C: US
+  R:
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    R: C
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    P: cncf/crossplane
+    R: C
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    P: cncf/crossplane
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Sam Leavens
+    S: github
+    U: rbwsam
+  B: 0
+  U: Sam Leavens
+- C: US
+  E: rbwsam!gmail.com
+  R:
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    R: C
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    P: cncf/crossplane
+    R: C
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    P: cncf/crossplane
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: rbwsam!gmail.com
+    M: Sam Leavens
+    S: git
+  B: 0
+  U: Sam Leavens
+- C: US
+  E: sleavens!suse.com
+  R:
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    R: C
+  - T: "2017-07-01"
+    C: Tavour
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-07-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: sleavens!suse.com
+    M: Sam Leavens
+    S: git
+  B: 0
+  U: Sam Leavens
 - C: US
   E: github!invincibleinfra.com
   R:
@@ -3865,6 +4741,20 @@ P:
     S: pipermail
   B: 0
   U: Samta Rangare
+- E: samudayan!gmail.com
+  R:
+  - T: "2018-06-01"
+    C: University of Moratuwa
+    F: "2007-01-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  I:
+  - E: samudayan!gmail.com
+    M: Samudaya Nanayakkara
+    S: confluence
+    U: samudaya
+  B: 0
+  U: Samudaya Nanayakkara
 - E: sridhar.samudrala!intel.com
   R:
   - T: "2100-01-01"
@@ -12530,6 +13420,99 @@ P:
     U: SaraG
   B: 0
   U: Sara Garifullina
+- E: ghaemi.sr!gmail.com
+  R:
+  - T: "2018-02-01"
+    C: Amirkabir University of Technology - Tehran Polytechnic
+    F: "2014-05-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2018-02-01"
+    C: University of Alberta
+    F: "2014-05-01"
+    P: opencue
+    R: C
+  - T: "2018-02-01"
+    C: Amirkabir University of Technology - Tehran Polytechnic
+    F: "2015-05-01"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2100-01-01"
+    C: University of Alberta
+    F: "2018-09-01"
+    P: caliper
+    R: C
+  - T: "2100-01-01"
+    C: University of Alberta
+    F: "2018-09-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: University of Alberta
+    F: "2018-09-01"
+    P: hyperledger/shared
+    R: C
+  - T: "2100-01-01"
+    C: University of Alberta
+    F: "2018-09-01"
+    P: opencue
+    R: C
+  - T: "2100-01-01"
+    C: University of Alberta
+    F: "2019-01-01"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2100-01-01"
+    C: York University
+    F: "2019-09-01"
+    P: opencue
+    R: C
+  - T: "2020-05-01"
+    C: Alpha Coding
+    F: "2019-12-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2020-05-01"
+    C: Alpha Coding
+    F: "2019-12-01"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2020-06-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2020-06-01"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2020-06-01"
+    P: opencue
+    R: C
+  - T: "2100-01-01"
+    C: York University
+    F: "2020-06-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  I:
+  - M: Sara Ghaemi
+    S: confluence
+    U: sghaemi
+  - E: ghaemi.sr!gmail.com
+    M: Sara Ghaemi
+    S: git
+  - E: ghaemi.sr!gmail.com
+    M: Sara Ghaemi
+    S: github
+    U: ghaemisr
+  - M: Sara Ghaemi
+    S: rocketchat
+    U: sghaemi
+  B: 0
+  U: Sara Ghaemi
 - E: saramontecino!outlook.com
   R:
   - T: "2100-01-01"
@@ -58280,6 +59263,24 @@ P:
     U: schinthakayala
   B: 0
   U: Sheshashailavas Chinthakayala
+- E: praveen.shetty!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-04-01"
+    P: brigade
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-04-01"
+    P: dpdk
+    R: C
+  I:
+  - E: praveen.shetty!intel.com
+    M: Shetty, Praveen
+    S: pipermail
+  B: 0
+  U: Shetty, Praveen
 - C: US
   E: github!anarres.org
   R:
@@ -60500,889 +61501,3 @@ P:
     U: shinya
   B: 0
   U: Shinya Okura
-- E: Greg.Shippen!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "2017-11-17"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: AMD
-    F: "2017-11-17"
-    P: dpdk
-    R: C
-  I:
-  - E: Greg.Shippen!amd.com
-    M: Shippen, Greg
-    S: pipermail
-  B: 0
-  U: Shippen, Greg
-- C: US
-  E: jack.sun939!gmail.com
-  R:
-  - T: "2018-05-01"
-    C: University of Illinois
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2018-05-01"
-    R: C
-  S: female
-  I:
-  - E: jack.sun939!gmail.com
-    M: Shiqi Sun
-    S: github
-    U: huskysun
-  B: 0
-  U: Shiqi Sun
-- E: Shiqun.Lin!windriver.com
-  R:
-  - T: "2015-05-21"
-    C: Wind River Systems, Inc.
-    F: "2014-10-01"
-    P: yocto
-    R: C
-  I:
-  - E: Shiqun.Lin!windriver.com
-    M: Shiqun Lin
-    S: git
-  - E: Shiqun.Lin!windriver.com
-    M: Shiqun Lin
-    S: groupsio
-  - E: Shiqun.Lin!windriver.com
-    M: Shiqun.Lin
-    S: groupsio
-  - E: Shiqun.Lin!windriver.com
-    M: Shiqun Lin
-    S: pipermail
-  - E: Shiqun.Lin!windriver.com
-    M: Shiqun.Lin
-    S: pipermail
-  B: 0
-  U: Shiqun.Lin
-- R:
-  - T: "2018-01-01"
-    C: Brass Photography
-    F: "1900-01-01"
-    R: C
-  - T: "2018-01-01"
-    C: Brass Photography
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Cyren
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cyren
-    F: "2018-01-01"
-    P: grpc
-    R: C
-  S: male
-  I:
-  - M: Shir Brass
-    S: github
-    U: shirbr510
-  B: 0
-  U: Shir Brass
-- E: shir.brass!cyren.com
-  R:
-  - T: "2018-01-01"
-    C: Brass Photography
-    F: "1900-01-01"
-    R: C
-  - T: "2018-01-01"
-    C: Brass Photography
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Cyren
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cyren
-    F: "2018-01-01"
-    P: grpc
-    R: C
-  S: male
-  I:
-  - E: shir.brass!cyren.com
-    M: Shir Brass
-    S: git
-  B: 0
-  U: Shir Brass
-- E: shirbr510!users.noreply.github.com
-  R:
-  - T: "2018-01-01"
-    C: Brass Photography
-    F: "1900-01-01"
-    R: C
-  - T: "2018-01-01"
-    C: Brass Photography
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Cyren
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cyren
-    F: "2018-01-01"
-    P: grpc
-    R: C
-  S: male
-  I:
-  - E: shirbr510!users.noreply.github.com
-    M: Shir Brass
-    S: git
-  B: 0
-  U: Shir Brass
-- E: shiran.ben-melech!intel.com
-  R:
-  - T: "2016-03-23"
-    C: Intel Corporation
-    F: "2016-01-01"
-    P: yocto
-    R: C
-  I:
-  - E: shiran.ben-melech!intel.com
-    M: Shiran Ben-Melech
-    S: git
-  B: 0
-  U: Shiran Ben-Melech
-- E: shashim!codeaurora.org
-  R:
-  - T: "2100-01-01"
-    C: Code Aurora Forum
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: shashim!codeaurora.org
-    M: Shiraz Hashim
-    S: git
-  B: 0
-  U: Shiraz Hashim
-- E: shiraz.hashim!st.com
-  R:
-  - T: "2100-01-01"
-    C: ST Microelectronics
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: ST Microelectronics
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: ST Microelectronics
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: ST Microelectronics
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: ST Microelectronics
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: ST Microelectronics
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: ST Microelectronics
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: shiraz.hashim!st.com
-    M: Shiraz Hashim
-    S: git
-  B: 0
-  U: Shiraz Hashim
-- E: shiraz.saleem!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: shiraz.saleem!intel.com
-    M: Shiraz Saleem
-    S: git
-  - E: shiraz.saleem!intel.com
-    M: Shiraz, Saleem
-    S: git
-  B: 0
-  U: Shiraz, Saleem
-- E: shireesha.kotta!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-02-22"
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-02-22"
-    P: onap
-    R: C
-  I:
-  - E: shireesha.kotta!att.com
-    M: shireesha kotta
-    S: gerrit
-    U: shireesha
-  - E: shireesha.kotta!att.com
-    M: Kotta, Shireesha (sk434m)
-    S: git
-  B: 0
-  U: Shireesha Kotta
-- E: shirik!mellanox.com
-  R:
-  - T: "2012-01-01"
-    C: IAF - Israeli Air Force
-    F: "2009-01-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2012-01-01"
-    C: IAF - Israeli Air Force
-    F: "2009-01-01"
-    P: dpdk
-    R: C
-  - T: "2012-01-01"
-    C: IAF - Israeli Air Force
-    F: "2009-01-01"
-    P: dpdk-next
-    R: C
-  - T: "2020-04-01"
-    C: Mellanox Technologies, Ltd
-    F: "2019-01-01"
-    P: danos
-    R: C
-  - T: "2020-04-01"
-    C: Mellanox Technologies, Ltd
-    F: "2019-01-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2020-04-01"
-    C: Mellanox Technologies, Ltd
-    F: "2019-01-01"
-    P: dpdk
-    R: C
-  - T: "2020-04-01"
-    C: Mellanox Technologies, Ltd
-    F: "2019-01-01"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: NVIDIA Corporation
-    F: "2020-04-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: NVIDIA Corporation
-    F: "2020-04-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: NVIDIA Corporation
-    F: "2020-04-01"
-    P: dpdk-next
-    R: C
-  I:
-  - E: shirik!mellanox.com
-    M: Shiri Kuzin
-    S: git
-  - E: shirik!mellanox.com
-    M: Shiri Kuzin
-    S: pipermail
-  - E: shirik!nvidia.com
-    M: Shiri Kuzin
-    S: pipermail
-  B: 0
-  U: Shiri Kuzin
-- E: shirishp!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: shirishp!us.ibm.com
-    M: Shirish Pargaonkar
-    S: git
-  B: 0
-  U: Shirish Pargaonkar
-- E: shirish.s!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: shirish.s!amd.com
-    M: Shirish S
-    S: git
-  B: 0
-  U: Shirish S
-- E: mashirle!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: mashirle!us.ibm.com
-    M: Shirley Ma
-    S: git
-  B: 0
-  U: Shirley Ma
-- E: shirley.ma!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: shirley.ma!oracle.com
-    M: Shirley Ma
-    S: git
-  B: 0
-  U: Shirley Ma
-- E: xma!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: xma!us.ibm.com
-    M: Shirley Ma
-    S: git
-  B: 0
-  U: Shirley Ma
-- E: sm4832!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2017-04-04"
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2017-04-04"
-    P: onap
-    R: C
-  I:
-  - M: Shirley Morgan
-    S: confluence
-    U: sm4832
-  - E: sm4832!att.com
-    M: Shirley Morgan
-    S: confluence
-    U: sm4832
-  - E: sm4832!att.com
-    M: Shirley Morgan
-    S: jira
-    U: sm4832
-  B: 0
-  U: Shirley Morgan
-- E: sradco!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: sradco!redhat.com
-    M: Shirly Radco
-    S: github
-    U: sradco
-  B: 0
-  U: Shirly Radco
-- C: CN
-  R:
-  - T: "2014-07-01"
-    C: Jd.Com
-    F: "1900-01-01"
-    R: C
-  - T: "2014-07-01"
-    C: Jd.Com
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-12-01"
-    C: NetEase
-    F: "2014-07-01"
-    R: C
-  - T: "2016-12-01"
-    C: NetEase
-    F: "2014-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "2016-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "2016-12-01"
-    P: cncf/shared
-    R: C
-  S: female
-  I:
-  - M: Shirly
-    S: github
-    U: AndreMouche
-  B: 0
-  U: Shirly
-- E: AXuelianWu!gmail.com
-  R:
-  - T: "2014-07-01"
-    C: Jd.Com
-    F: "1900-01-01"
-    P: tikv
-    R: C
-  - T: "2016-12-01"
-    C: NetEase
-    F: "2014-07-01"
-    P: tikv
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "2016-12-01"
-    P: tikv
-    R: C
-  I:
-  - E: AXuelianWu!gmail.com
-    M: Shirly
-    S: github
-    U: AndreMouche
-  B: 0
-  U: Shirly
-- E: sdas!linkedin.com
-  R:
-  - T: "2008-06-01"
-    C: PayPal
-    F: "2005-10-01"
-    P: pnda
-    R: C
-  - T: "2010-04-01"
-    C: LinkedIn Corporation
-    F: "2008-06-01"
-    P: pnda
-    R: C
-  - T: "2010-04-12"
-    C: Yahoo! Inc.
-    F: "2008-06-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: LinkedIn Corporation
-    F: "2010-04-01"
-    P: pnda
-    R: C
-  I:
-  - E: sdas!linkedin.com
-    M: Shirshanka Das
-    S: git
-  B: 0
-  U: Shirshanka Das
-- E: samin!pivotal.io
-  R:
-  - T: "2017-11-14"
-    C: Pivotal
-    F: "2017-01-05"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: samin!pivotal.io
-    M: Shishir Amin
-    S: slack
-    U: samin
-  B: 0
-  U: Shishir Amin
-- C: US
-  E: shishir.mahajan!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-08-30"
-    C: Red Hat Inc.
-    F: "2015-01-01"
-    R: C
-  S: male
-  I:
-  - E: shishir.mahajan!redhat.com
-    M: Shishir Mahajan
-    S: git
-  - E: shishir.mahajan!redhat.com
-    M: Shishir Mahajan
-    S: git
-    U: shishir-a412ed
-  - E: shishir.mahajan!redhat.com
-    S: github
-    U: shishir-a412ed
-  - E: shishir.mahajan!redhat.com
-    M: Shishir
-    S: github
-    U: shishir-a412ed
-  - E: shishir.mahajan!redhat.com
-    M: Shishir
-    S: oci_csv
-    U: shishir-a412ed
-  B: 0
-  U: Shishir Mahajan
-- R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2005-08-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: AdvisoryCloud
-    F: "2019-12-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: AdvisoryCloud
-    F: "2019-12-01"
-    P: pnda
-    R: C
-  I:
-  - M: Shishir Misra
-    S: confluence
-    U: shishirkmishra
-  B: 0
-  U: Shishir Misra
-- E: st2373!att.com
-  R:
-  - T: "2018-06-15"
-    C: AT&T Services, Inc.
-    F: "2018-03-22"
-    R: C
-  - T: "2018-06-15"
-    C: AT&T Services, Inc.
-    F: "2018-03-22"
-    P: onap
-    R: C
-  I:
-  - M: Shishir Thakore
-    S: confluence
-    U: st2373
-  - E: st2373!att.com
-    M: Shishir Thakore
-    S: gerrit
-    U: st2373
-  - E: st2373!att.com
-    M: THAKORE, SHISHIR B
-    S: groupsio
-  - E: st2373!att.com
-    M: Shishir Thakore
-    S: jira
-    U: st2373
-  - E: st2373!att.com
-    M: THAKORE, SHISHIR B
-    S: pipermail
-  B: 0
-  U: Shishir Thakore
-- C: US
-  E: shishir.mahajan3!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2015-09-01"
-    C: Red Hat Inc.
-    F: "2015-07-15"
-    R: C
-  S: male
-  I:
-  - E: shishir.mahajan3!gmail.com
-    M: Shishir
-    S: github
-    U: shishir-a412ed
-  B: 0
-  U: Shishir
-- E: shital.bansode!atos.net
-  R:
-  - T: "2100-01-01"
-    C: Atos Integration
-    F: "2018-01-10"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: shital.bansode!atos.net
-    M: Shital Bansode
-    S: slack
-    U: shital.bansode
-  B: 0
-  U: Shital Bansode
-- E: goyalshitij!gmail.com
-  R:
-  - T: "2015-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-10-01"
-    C: Grofers
-    F: "2015-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-10-01"
-    C: Grofers
-    F: "2015-07-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Zalando
-    F: "2018-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Zalando
-    F: "2018-10-01"
-    P: jenkins
-    R: C
-  I:
-  - E: goyalshitij!gmail.com
-    M: Shitij Goyal
-    S: git
-  - E: goyalshitij!gmail.com
-    M: Shitij Goyal
-    S: github
-    U: masterlittle
-  B: 0
-  U: Shitij Goyal
-- R:
-  - T: "2015-04-01"
-    C: BlackBerry
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Shopify
-    F: "2015-04-01"
-    P: k8s
-    R: C
-  I:
-  - M: Shiv Nagarajan
-    S: github
-    U: shivnagarajan
-  B: 0
-  U: Shiv Nagarajan
-- E: shivasak!andrew.cmu.edu
-  R:
-  - T: "2100-01-01"
-    C: Carnegie Mellon University
-    F: "2017-01-01"
-    R: C
-  I:
-  - E: sssk2006!gmail.com
-    M: Shiva Kannan
-    S: git
-  - E: sssk2006!gmail.com
-    M: Shiva Kannan
-    S: github
-    U: shiva-kannan
-  - E: shivasak!andrew.cmu.edu
-    M: Shiva Kannan
-    S: slack
-    U: shivasak
-  B: 0
-  U: Shiva Kannan
-- C: US
-  E: shivakrishna.merla!hpe.com
-  R:
-  - T: "2015-07-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-07-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-07-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2017-06-01"
-    C: Nimble Storage
-    F: "2015-07-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-06-01"
-    C: Nimble Storage
-    F: "2015-07-01"
-    P: helm
-    R: C
-  - T: "2017-06-01"
-    C: Nimble Storage
-    F: "2015-07-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett Packard Enterprise
-    F: "2017-06-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2017-06-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2017-06-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Hewlett
-    F: "2017-06-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: shivakrishna.merla!hpe.com
-    M: Shiva Krishna Merla
-    S: git
-  - E: shivakrishna.merla!hpe.com
-    M: Shiva Krishna, Merla
-    S: git
-  - E: shivakrishna.merla!hpe.com
-    M: Shiva Krishna Merla
-    S: github
-    U: shivamerla
-  B: 0
-  U: Shiva Krishna Merla
-- E: shivakrishna.merla!netapp.com
-  R:
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: shivakrishna.merla!netapp.com
-    M: Shiva Krishna Merla
-    S: git
-  B: 0
-  U: Shiva Krishna Merla
-- E: shirvao!cisco.com
-  R:
-  - T: "2015-11-06"
-    C: Cisco Systems Inc.
-    F: "2015-07-01"
-    R: C
-  - T: "2015-11-06"
-    C: Cisco Systems Inc.
-    F: "2015-07-01"
-    P: opnfv
-    R: C
-  I:
-  - E: shirvao!cisco.com
-    M: Shiva Prasad Rao
-    S: git
-  - E: shivrao!cisco.com
-    M: Shiva Prasad Rao
-    S: git
-  B: 0
-  U: Shiva Prasad Rao
-- E: sg592n!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-12-04"
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-12-04"
-    P: onap
-    R: C
-  I:
-  - E: sg592n!att.com
-    M: Shiva Srinivas Gadicherla
-    S: gerrit
-    U: shivasrinivasatt
-  - E: shiva.gadicherla!att.com
-    M: Shiva Srinivas Gadicherla
-    S: gerrit
-    U: shivasrinivasatt
-  - E: sg592n!att.com
-    M: Gadicherla, Shiva
-    S: git
-  - E: shiva.gadicherla!att.com
-    M: Gadicherla, Shiva
-    S: git
-  - M: Shiva Srinivas Gadicherla
-    S: jira
-    U: shivasrinivasatt
-  - E: sg592n!att.com
-    M: Shiva Srinivas Gadicherla
-    S: jira
-    U: shivasrinivasatt
-  B: 0
-  U: Shiva Srinivas Gadicherla

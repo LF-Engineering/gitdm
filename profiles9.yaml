@@ -1,4 +1,233 @@
 P:
+- C: DE
+  R:
+  - T: "2015-02-01"
+    C: Giant Swarm
+    F: "1900-01-01"
+    R: C
+  - T: "2015-02-01"
+    C: Giant Swarm
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2015-02-01"
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2015-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Harvest
+    F: "2015-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Harvest
+    F: "2015-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Eike Herzbach
+    S: github
+    U: eik3
+  B: 0
+  U: Eike Herzbach
+- C: DE
+  E: eike!herzbach.net
+  R:
+  - T: "2015-02-01"
+    C: Giant Swarm
+    F: "1900-01-01"
+    R: C
+  - T: "2015-02-01"
+    C: Giant Swarm
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2015-02-01"
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2015-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Harvest
+    F: "2015-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Harvest
+    F: "2015-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: eike!herzbach.net
+    M: Eike Herzbach
+    S: git
+  B: 0
+  U: Eike Herzbach
+- E: eilong!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: eilong!broadcom.com
+    M: Eilon Greenstein
+    S: git
+  B: 0
+  U: Eilon Greenstein
+- E: eimear.morrissey!ie.ibm.com
+  R:
+  - T: "2015-12-08"
+    C: IBM
+    F: "2015-10-19"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2015-12-08"
+    C: IBM
+    F: "2015-10-19"
+    P: dpdk
+    R: C
+  I:
+  - E: eimear.morrissey!ie.ibm.com
+    M: Eimear Morrissey
+    S: pipermail
+  B: 0
+  U: Eimear Morrissey
+- E: einarnn!cisco.com
+  R:
+  - T: "2018-08-07"
+    C: Cisco Systems Inc.
+    F: "2014-03-06"
+    P: dpdk
+    R: C
+  - T: "2018-08-07"
+    C: Cisco Systems Inc.
+    F: "2014-03-06"
+    P: odl
+    R: C
+  I:
+  - E: einarnn!cisco.com
+    M: Einar Nilsen-Nygaard (einarnn)
+    S: groupsio
+  - E: einarnn!cisco.com
+    M: Einar Nilsen-Nygaard einarnn
+    S: pipermail
+  B: 0
+  U: Einar Nilsen-Nygaard (einarnn)
+- E: jim.einarsson!windriver.com
+  R:
+  - T: "2019-02-22"
+    C: Wind River Systems, Inc.
+    F: "1901-01-01"
+    P: akraino
+    R: C
+  I:
+  - E: jim.einarsson!windriver.com
+    M: Einarsson, Jim
+    S: groupsio
+  B: 0
+  U: Einarsson, Jim
+- E: ev1344!intl.att.com
+  R:
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2019-07-01"
+    P: onap
+    R: C
+  I:
+  - E: einat.vinouze!intl.att.com
+    M: Einat Vinouze
+    S: gerrit
+    U: einatvinouze
+  - E: ev1344!intl.att.com
+    M: Einat Vinouze
+    S: gerrit
+    U: evinouze
+  - E: einat.vinouze!intl.att.com
+    M: Einat Vinouze
+    S: git
+  - M: Einat Vinouze
+    S: jira
+    U: einatvinouze
+  - M: Einat Vinouze
+    S: jira
+    U: evinouze
+  - E: einat.vinouze!intl.att.com
+    M: Einat Vinouze
+    S: jira
+    U: einatvinouze
+  - E: ev1344!intl.att.com
+    M: Einat Vinouze
+    S: jira
+    U: evinouze
+  B: 0
+  U: Einat Vinouze
+- E: einavw!amdocs.com
+  R:
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "2017-09-14"
+    R: C
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "2017-09-14"
+    P: onap
+    R: C
+  I:
+  - M: Einav Keidar
+    S: confluence
+    U: einavk
+  - E: einavw!amdocs.com
+    M: Einav Keidar
+    S: gerrit
+    U: einavk
+  - E: EINAVW!amdocs.com
+    M: Einav Weiss Keidar
+    S: gerrit
+  - E: EINAVW!amdocs.com
+    M: Einav Weiss Keidar
+    S: gerrit
+  - E: einavw!amdocs.com
+    M: Einav Keidar
+    S: git
+  - E: EINAVW!amdocs.com
+    M: Einav Weiss Keidar
+    S: git
+  - M: Einav Keidar
+    S: jira
+    U: einavk
+  - E: einavw!amdocs.com
+    M: Einav Keidar
+    S: jira
+    U: einavk
+  B: 0
+  U: Einav Keidar
+- E: yu.changcai!99cloud.net
+  R:
+  - T: "2015-11-27"
+    C: 99Cloud Inc.
+    F: "2015-11-17"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: yu.changcai!99cloud.net
+    M: Einst Crazy
+    S: git
+  B: 0
+  U: Einst Crazy
 - C: US
   E: eiki!greenqloud.com
   R:
@@ -4857,6 +5086,55 @@ P:
     S: git
   B: 0
   U: Elizabeth Oldham
+- E: elizabeth.wotawa!gmail.com
+  R:
+  - T: "2002-08-01"
+    C: St. Louis Review
+    F: "2001-05-01"
+    P: zowe
+    R: C
+  - T: "2003-07-01"
+    C: Georgia State University
+    F: "2003-05-01"
+    P: zowe
+    R: C
+  - T: "2005-10-01"
+    C: Entergy
+    F: "2004-07-01"
+    P: zowe
+    R: C
+  - T: "2010-10-01"
+    C: Spire
+    F: "2006-01-01"
+    P: zowe
+    R: C
+  - T: "2019-02-01"
+    C: Entergy
+    F: "2010-11-01"
+    P: zowe
+    R: C
+  - T: "2019-07-01"
+    C: DXC Technology
+    F: "2019-02-01"
+    P: zowe
+    R: C
+  - T: "2020-08-01"
+    C: Utilities International, Inc
+    F: "2019-07-01"
+    P: zowe
+    R: C
+  - T: "2100-01-01"
+    C: Utilities International, Inc
+    F: "2020-08-01"
+    P: zowe
+    R: C
+  I:
+  - E: elizabeth.wotawa!gmail.com
+    M: Elizabeth Wotawa
+    S: slack
+    U: elizabeth.wotawa
+  B: 0
+  U: Elizabeth Wotawa
 - E: ejohansen!vmware.com
   R:
   - T: "2100-01-01"
@@ -62489,241 +62767,3 @@ P:
     S: git
   B: 0
   U: Franck Bui-Huu
-- E: fbui!suse.com
-  R:
-  - T: "2100-01-01"
-    C: Mandriva
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Mandriva
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: fbui!suse.com
-    M: Franck Bui
-    S: git
-  B: 0
-  U: Franck Bui
-- E: franck.demathieu!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: franck.demathieu!intel.com
-    M: Franck Demathieu
-    S: git
-  B: 0
-  U: Franck Demathieu
-- E: franck.jullien!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2015-03-10"
-    C: Odyssée Systèmes
-    F: "2013-02-03"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: franck.jullien!gmail.com
-    M: Franck Jullien
-    S: git
-  B: 0
-  U: Franck Jullien
-- E: franck.jullien!odyssee-systemes.fr
-  R:
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Odyssée Systèmes
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: franck.jullien!odyssee-systemes.fr
-    M: Franck Jullien
-    S: git
-  B: 0
-  U: Franck Jullien
-- E: franck.lenormand!nxp.com
-  R:
-  - T: "2100-01-01"
-    C: NXP Semiconductors Netherlands B.V.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: franck.lenormand!nxp.com
-    M: Franck LENORMAND
-    S: git
-  B: 0
-  U: Franck LENORMAND
-- E: frossi!coverity.com
-  R:
-  - T: "2100-01-01"
-    C: Synopsys
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Synopsys
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: frossi!coverity.com
-    M: Franco Rossi
-    S: git
-  B: 0
-  U: Franco Rossi
-- E: frossi!synopsys.com
-  R:
-  - T: "2100-01-01"
-    C: Synopsys
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Synopsys
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: frossi!synopsys.com
-    M: Franco Rossi
-    S: git
-  B: 0
-  U: Franco Rossi
-- R:
-  - T: "2015-04-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-04-01"
-    C: Independent
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2017-10-01"
-    C: ProGlove
-    F: "2015-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-10-01"
-    C: ProGlove
-    F: "2015-04-01"
-    P: zep
-    R: C
-  - T: "2019-04-01"
-    C: blik
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-04-01"
-    C: blik
-    F: "2017-10-01"
-    P: zep
-    R: C
-  - T: "2019-06-01"
-    C: KONUX
-    F: "2019-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-06-01"
-    C: KONUX
-    F: "2019-04-01"
-    P: zep
-    R: C
-  - T: "2019-12-01"
-    C: Sabbatical Break
-    F: "2019-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-12-01"
-    C: Sabbatical Break
-    F: "2019-06-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2019-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2019-12-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Franco Saworski
-    S: github
-    U: frasa
-  B: 0
-  U: Franco Saworski

@@ -1,4 +1,329 @@
 P:
+- E: gustave.f.hellman!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - E: gustave.f.hellman!intel.com
+    M: Gustave Hellman
+    S: jira
+    U: gfhellma
+  B: 0
+  U: Gustave Hellman
+- E: garsilva!embeddedor.com
+  R:
+  - T: "2016-01-01"
+    C: Dextra
+    F: "1900-01-01"
+    R: C
+  - T: "2016-01-01"
+    C: Dextra
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Kids on Computers
+    F: "2016-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Kids on Computers
+    F: "2016-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: garsilva!embeddedor.com
+    M: Gustavo A R Silva
+    S: git
+  - E: garsilva!embeddedor.com
+    M: Gustavo A. R. Silva
+    S: git
+  B: 0
+  U: Gustavo A. R. Silva
+- E: silvagustavosilva!gmail.com
+  R:
+  - T: "2016-01-01"
+    C: Dextra
+    F: "1900-01-01"
+    R: C
+  - T: "2016-01-01"
+    C: Dextra
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Kids on Computers
+    F: "2016-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Kids on Computers
+    F: "2016-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: silvagustavosilva!gmail.com
+    M: Gustavo A. R. Silva
+    S: git
+  B: 0
+  U: Gustavo A. R. Silva
+- C: GB
+  E: gjcarneiro!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Gambit Research
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Gambit Research
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Gambit Research
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Gambit Research
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Gambit Research
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Gambit Research
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: gjcarneiro!gmail.com
+    M: Gustavo Carneiro
+    S: git
+  - E: gjcarneiro!gmail.com
+    M: Gustavo J. A. M. Carneiro
+    S: github
+    U: gjcarneiro
+  B: 0
+  U: Gustavo Carneiro
+- C: BR
+  R:
+  - T: "2100-01-01"
+    C: CPqD
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: CPqD
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Gustavo Chaves
+    S: github
+    U: gnustavo
+  B: 0
+  U: Gustavo Chaves
+- C: BR
+  E: gustavo!gnustavo.com
+  R:
+  - T: "2100-01-01"
+    C: CPqD
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: CPqD
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: gustavo!gnustavo.com
+    M: Gustavo Chaves
+    S: git
+  B: 0
+  U: Gustavo Chaves
+- R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: CentraCX
+    F: "2015-07-01"
+    R: C
+  - T: "2016-07-01"
+    C: CentraCX
+    F: "2015-07-01"
+    P: helm
+    R: C
+  - T: "2016-07-01"
+    C: CentraCX
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2017-11-01"
+    C: MYOB
+    F: "2016-07-01"
+    R: C
+  - T: "2017-11-01"
+    C: MYOB
+    F: "2016-07-01"
+    P: helm
+    R: C
+  - T: "2017-11-01"
+    C: MYOB
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2018-10-01"
+    C: MessageMedia
+    F: "2017-11-01"
+    R: C
+  - T: "2018-10-01"
+    C: MessageMedia
+    F: "2017-11-01"
+    P: helm
+    R: C
+  - T: "2018-10-01"
+    C: MessageMedia
+    F: "2017-11-01"
+    P: k8s
+    R: C
+  - T: "2019-03-01"
+    C: National Australia Bank
+    F: "2018-10-01"
+    R: C
+  - T: "2019-03-01"
+    C: National Australia Bank
+    F: "2018-10-01"
+    P: helm
+    R: C
+  - T: "2019-03-01"
+    C: National Australia Bank
+    F: "2018-10-01"
+    P: k8s
+    R: C
+  - T: "2019-12-01"
+    C: Personifi
+    F: "2019-03-01"
+    R: C
+  - T: "2019-12-01"
+    C: Personifi
+    F: "2019-03-01"
+    P: helm
+    R: C
+  - T: "2019-12-01"
+    C: Personifi
+    F: "2019-03-01"
+    P: k8s
+    R: C
+  - T: "2020-04-01"
+    C: Momenton
+    F: "2019-12-01"
+    R: C
+  - T: "2020-04-01"
+    C: Momenton
+    F: "2019-12-01"
+    P: helm
+    R: C
+  - T: "2020-04-01"
+    C: Momenton
+    F: "2019-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Skalata Ventures
+    F: "2020-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Skalata Ventures
+    F: "2020-04-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Skalata Ventures
+    F: "2020-04-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Gustavo Hoirisch
+    S: github
+    U: gugahoi
+  B: 0
+  U: Gustavo Hoirisch
+- E: gustavo.sousa!intel.com
+  R:
+  - T: "2016-04-19"
+    C: Intel Corporation
+    F: "2016-02-24"
+    P: dronecode
+    R: C
+  I:
+  - E: gustavo.sousa!intel.com
+    M: Gustavo Jose de Sousa
+    S: git
+  B: 0
+  U: Gustavo Jose de Sousa
+- C: BR
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  S: male
+  I:
+  - M: Gustavo José de Sousa
+    S: github
+    U: guludo
+  B: 0
+  U: Gustavo José de Sousa
+- C: FI
+  E: gustavo.lima.chaves!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-12-13"
+    C: Intel Corporation
+    F: "2017-10-11"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: gustavo.lima.chaves!intel.com
+    M: Gustavo Lima Chaves
+    S: git
+  - E: gustavo.lima.chaves!intel.com
+    M: Gustavo Lima Chaves
+    S: github
+    U: glima
+  B: 0
+  U: Gustavo Lima Chaves
 - E: limachaves!gmail.com
   R:
   - T: "2100-01-01"
@@ -37900,7 +38225,20 @@ P:
     F: "2018-12-01"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2100-01-01"
+    C: Siemens AG
+    F: "2018-12-01"
+    P: hyperledger/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intuit, Inc.
+    F: "2020-09-01"
+    P: hyperledger/hyperledger-all
+    R: C
   I:
+  - M: Hritik Gupta
+    S: confluence
+    U: HritikGupta
   - E: hritikgupta9!gmail.com
     M: Hritik Gupta
     S: git
@@ -61643,327 +61981,3 @@ P:
     U: bran795
   B: 0
   U: Inbar Anson Bratspiess
-- E: inbar.anson.bratspiess!330plus.net
-  R:
-  - T: "2015-05-01"
-    C: Sequans
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-05-01"
-    C: Sequans
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2016-08-01"
-    C: Independent
-    F: "2015-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-08-01"
-    C: Independent
-    F: "2015-05-01"
-    P: zep
-    R: C
-  - T: "2018-07-01"
-    C: Toga Networks
-    F: "2016-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-07-01"
-    C: Toga Networks
-    F: "2016-08-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-07-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: inbar.anson.bratspiess!330plus.net
-    M: Inbar Anson Bratspiess
-    S: git
-  - E: inbar.anson.bratspiess!330plus.net
-    M: Inbar Anson Bratspiess
-    S: github
-    U: bran795
-  B: 0
-  U: Inbar Anson Bratspiess
-- E: inbara!330plus.net
-  R:
-  - T: "2015-05-01"
-    C: Sequans
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-08-01"
-    C: Independent
-    F: "2015-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-07-01"
-    C: Toga Networks
-    F: "2016-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-07-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: inbara!330plus.net
-    M: Inbar Anson Bratspiess
-    S: github
-    U: bran795
-  B: 0
-  U: Inbar Anson Bratspiess
-- E: Inbar.Badian!ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2018-12-27"
-    C: IBM
-    F: "2018-06-05"
-    P: fabric
-    R: C
-  - T: "2018-12-27"
-    C: IBM
-    F: "2018-06-05"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2018-12-27"
-    C: IBM
-    F: "2018-06-05"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2018-12-27"
-    C: IBM
-    F: "2018-06-05"
-    P: hyperledger/hyperledger-labs
-    R: C
-  - T: "2018-12-27"
-    C: IBM
-    F: "2018-06-05"
-    P: hyperledger/hyperledger-twgc
-    R: C
-  I:
-  - E: Inbar.Badian!ibm.com
-    M: Inbar Badian
-    S: gerrit
-  - E: inbar.badian!ibm.com
-    M: Inbar Badian
-    S: gerrit
-    U: inbarbadian
-  - E: Inbar.Badian!ibm.com
-    M: Inbar Badian
-    S: git
-  B: 0
-  U: Inbar Badian
-- E: inbark!mellanox.com
-  R:
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: inbark!mellanox.com
-    M: Inbar Karmy
-    S: git
-  B: 0
-  U: Inbar Karmy
-- E: igopal!us.ibm.com
-  R:
-  - T: "2013-12-07"
-    C: IBM
-    F: "2013-03-23"
-    P: dpdk
-    R: C
-  - T: "2013-12-07"
-    C: IBM
-    F: "2013-03-23"
-    P: odl
-    R: C
-  I:
-  - E: igopal!us.ibm.com
-    M: Inder Gopal
-    S: groupsio
-  - E: igopal!us.ibm.com
-    M: Inder Gopal
-    S: pipermail
-  B: 0
-  U: Inder Gopal
-- E: indhira.arumughan!us.fujitsu.com
-  R:
-  - T: "2100-01-01"
-    C: Fujitsu
-    F: "1900-01-01"
-    P: onap
-    R: C
-  I:
-  - E: indhira.arumughan!us.fujitsu.com
-    M: Indhira Arumughan
-    S: jira
-    U: IARUMUGH
-  B: 0
-  U: Indhira Arumughan
-- E: indirajithv!gmail.com
-  R:
-  - T: "2014-11-30"
-    C: Truecaller
-    F: "2013-10-31"
-    P: cello
-    R: C
-  - T: "2014-11-30"
-    C: Truecaller
-    F: "2013-10-31"
-    P: fabric
-    R: C
-  - T: "2014-11-30"
-    C: Truecaller
-    F: "2013-10-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2016-04-30"
-    C: Ecode Networks
-    F: "2015-12-31"
-    P: cello
-    R: C
-  - T: "2016-04-30"
-    C: Ecode Networks
-    F: "2015-12-31"
-    P: fabric
-    R: C
-  - T: "2016-04-30"
-    C: Ecode Networks
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: University of Rome Tor Vergata
-    F: "2017-01-31"
-    P: cello
-    R: C
-  - T: "2100-01-01"
-    C: University of Rome Tor Vergata
-    F: "2017-01-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: University of Rome Tor Vergata
-    F: "2017-01-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2017-07-31"
-    C: Hyperledger
-    F: "2017-05-31"
-    P: cello
-    R: C
-  - T: "2017-07-31"
-    C: Hyperledger
-    F: "2017-05-31"
-    P: fabric
-    R: C
-  - T: "2017-07-31"
-    C: Hyperledger
-    F: "2017-05-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  I:
-  - E: indirajithv!gmail.com
-    M: indirajith vijai ananth
-    S: gerrit
-    U: indirajith
-  - E: indirajithv!gmail.com
-    M: indirajith
-    S: git
-  - E: indirajithv!gmail.com
-    M: indirajith
-    S: groupsio
-  - M: indirajith vijai ananth
-    S: jira
-    U: indirajith
-  - E: indirajithv!gmail.com
-    M: indirajith vijai ananth
-    S: jira
-    U: indirajith
-  B: 0
-  U: Indirajith Vijai Ananth
-- E: indra.harijono!huawei.com
-  R:
-  - T: "2018-08-15"
-    C: Huawei Technologies Co., Ltd.
-    F: "2018-05-09"
-    R: C
-  - T: "2018-08-15"
-    C: Huawei Technologies Co., Ltd.
-    F: "2018-05-09"
-    P: opnfv
-    R: C
-  I:
-  - E: indra.harijono!huawei.com
-    M: Indra Harijono
-    S: gerrit
-    U: iharijono
-  - E: indra.harijono!huawei.com
-    M: Indra Harijono
-    S: git
-  - E: indra.harijono!huawei.com
-    M: iharijono
-    S: git
-  - M: Indra Harijono
-    S: jira
-    U: iharijono
-  - E: indra.harijono!huawei.com
-    M: Indra Harijono
-    S: jira
-    U: iharijono
-  B: 0
-  U: Indra Harijono
-- C: IN
-  E: indradhanush.gupta!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Kinvolk GmbH
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  I:
-  - E: indradhanush.gupta!gmail.com
-    M: Indradhanush Gupta
-    S: git
-  - E: indradhanush.gupta!gmail.com
-    M: Indradhanush Gupta
-    S: github
-    U: indradhanush
-  B: 0
-  U: Indradhanush Gupta

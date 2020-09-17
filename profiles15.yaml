@@ -1,4 +1,142 @@
 P:
+- C: SE
+  E: jyrki!spotify.com
+  R:
+  - T: "2100-01-01"
+    C: Spotify
+    F: "1900-01-01"
+    P: intoto
+    R: C
+  - T: "2016-10-12"
+    C: Spotify
+    F: "2013-10-09"
+    P: stackstorm
+    R: C
+  I:
+  - E: jyrki!spotify.com
+    M: Jyrki Pulliainen
+    S: git
+  B: 0
+  U: Jyrki Pulliainen
+- R:
+  - T: "2016-09-01"
+    C: Sysart Oy
+    F: "1900-01-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2016-09-01"
+    C: Sysart Oy
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2018-10-01"
+    C: Symbio
+    F: "2016-09-01"
+    P: cncf/cloudcustodian
+    R: C
+  - T: "2100-01-01"
+    C: OP Financial
+    F: "2018-10-01"
+    P: cncf/cloudcustodian
+    R: C
+  I:
+  - M: Jyrki Puttonen
+    S: github
+    U: jyrkiput
+  B: 0
+  U: Jyrki Puttonen
+- E: jyrkiput!gmail.com
+  R:
+  - T: "2016-09-01"
+    C: Sysart Oy
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-09-01"
+    C: Sysart Oy
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2018-10-01"
+    C: Symbio
+    F: "2016-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: OP Financial
+    F: "2018-10-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: jyrkiput!gmail.com
+    M: Jyrki Puttonen
+    S: git
+  B: 0
+  U: Jyrki Puttonen
+- E: enumag!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Collective[i]
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Collective[i]
+    F: "1900-01-01"
+    P: ojsf-moment
+    R: C
+  I:
+  - E: enumag!gmail.com
+    M: Jáchym Toušek
+    S: github
+    U: enumag
+  B: 0
+  U: Jáchym Toušek
+- E: famousgarkin!outlook.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: famousgarkin!outlook.com
+    M: famousgarkin
+    S: git
+  - E: famousgarkin!outlook.com
+    M: Ján Dzurek
+    S: github
+    U: famousgarkin
+  B: 0
+  U: Ján Dzurek
+- E: janos.pauer!ericsson.com
+  R:
+  - T: "2018-01-18"
+    C: Ericsson AB
+    F: "2017-12-15"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2018-01-18"
+    C: Ericsson AB
+    F: "2017-12-15"
+    P: dpdk
+    R: C
+  I:
+  - E: janos.pauer!ericsson.com
+    M: János Pauer
+    S: pipermail
+  B: 0
+  U: János Pauer
 - R:
   - T: "2015-06-01"
     C: W3C
@@ -16190,6 +16328,11 @@ P:
     C: Centro
     F: "2019-04-01"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Centro
+    F: "2019-04-01"
+    P: webpack
     R: C
   I:
   - E: kate!katelovescode.com
@@ -44708,6 +44851,44 @@ P:
     S: git
   B: 0
   U: Kishon Vijay Abraham I
+- E: karamalla!vmware.com
+  R:
+  - T: "2003-05-01"
+    C: Aricent
+    F: "2000-06-01"
+    P: danos
+    R: C
+  - T: "2004-10-01"
+    C: Mindtree
+    F: "2003-06-01"
+    P: danos
+    R: C
+  - T: "2015-11-01"
+    C: Ericsson AB
+    F: "2012-07-01"
+    P: danos
+    R: C
+  - T: "2016-10-01"
+    C: Juniper Networks, Inc.
+    F: "2015-11-01"
+    P: danos
+    R: C
+  - T: "2018-03-01"
+    C: Calix
+    F: "2016-10-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-06-01"
+    P: danos
+    R: C
+  I:
+  - E: karamalla!vmware.com
+    M: Kishore Aramalla
+    S: git
+  B: 0
+  U: Kishore Aramalla
 - E: k.darapu!partner.samsung.com
   R:
   - T: "2100-01-01"
@@ -55504,6 +55685,9 @@ P:
   - E: krzysztof.gajewski!nokia.com
     M: Krzysztof Gajewski
     S: git
+  - E: krzysztof.gajewski!nokia.com
+    M: krzysztof.gajewski
+    S: groupsio
   B: 0
   U: Krzysztof Gajewski
 - E: krzysztof.galazka!intel.com
@@ -61893,244 +62077,3 @@ P:
     U: kairen
   B: 0
   U: Kyle Bai
-- C: TW
-  E: k2r2.bai!gmail.com
-  R:
-  - T: "2019-10-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    R: C
-  - T: "2019-10-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2019-10-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2019-10-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: MaiCoin
-    F: "2019-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: MaiCoin
-    F: "2019-10-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: MaiCoin
-    F: "2019-10-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: MaiCoin
-    F: "2019-10-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: k2r2.bai!gmail.com
-    M: Kyle Bai
-    S: git
-  - E: k2r2.bai!gmail.com
-    M: kairen
-    S: git
-  - E: k2r2.bai!gmail.com
-    M: Kyle Bai
-    S: github
-    U: kairen
-  - E: k2r2.bai!gmail.com
-    M: Kyle Bai
-    S: slack
-    U: k2r2.bai
-  B: 0
-  U: Kyle Bai
-- C: TW
-  E: s1499k005!gmail.com
-  R:
-  - T: "2019-10-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    R: C
-  - T: "2019-10-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2019-10-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-10-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: inwinSTACK
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: MaiCoin
-    F: "2019-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: MaiCoin
-    F: "2019-10-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: MaiCoin
-    F: "2019-10-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: MaiCoin
-    F: "2019-10-01"
-    P: openebs
-    R: C
-  S: male
-  I:
-  - E: s1499k005!gmail.com
-    M: Kyle Bai
-    S: git
-  B: 0
-  U: Kyle Bai
-- E: kbeausoleil!rocketsoftware.com
-  R:
-  - T: "2019-04-26"
-    C: Rocket Software
-    F: "2019-03-14"
-    P: zowe
-    R: C
-  I:
-  - E: kbeausoleil!rocketsoftware.com
-    M: Kyle Beausoleil
-    S: git
-  - E: 43150047+kbeausoleil!users.noreply.github.com
-    M: kbeausoleil
-    S: git
-  - S: github
-    U: kbeausoleil
-  B: 0
-  U: Kyle Beausoleil
-- E: kyle!harperdb.io
-  R:
-  - T: "2100-01-01"
-    C: HarperDB
-    F: "1901-01-01"
-    P: fledge
-    R: C
-  I:
-  - E: kyle!harperdb.io
-    M: Kyle Bernhardy
-    S: git
-  - E: kyle!harperdb.io
-    M: Kyle Bernhardy
-    S: github
-    U: kylebernhardy
-  B: 0
-  U: Kyle Bernhardy
-- E: boutette!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: boutette!google.com
-    M: Kyle Boutette
-    S: git
-  B: 0
-  U: Kyle Boutette
-- C: CA
-  E: kylos101!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: The Hartford
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: The Hartford
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: The Hartford
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: kylos101!gmail.com
-    M: Kyle Brennan
-    S: git
-  - E: kylos101!gmail.com
-    M: Kyle Brennan
-    S: github
-    U: kylos101
-  B: 0
-  U: Kyle Brennan
-- C: US
-  E: kyle.steven.brown!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  S: male
-  I:
-  - E: kyle.steven.brown!gmail.com
-    M: Kyle Brown
-    S: git
-  - E: kyle.steven.brown!gmail.com
-    M: Kyle Brown
-    S: github
-    U: kbrwn
-  B: 0
-  U: Kyle Brown
-- R:
-  - T: "2016-01-01"
-    C: BioIQ
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-07-01"
-    C: CSAA Insurance Group
-    F: "2016-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-07-01"
-    C: CSAA Insurance Group
-    F: "2016-01-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Smarsh
-    F: "2018-07-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: Kyle Campos
-    S: meetup
-    U: "183550764"
-  B: 0
-  U: Kyle Campos
