@@ -4781,6 +4781,16 @@ P:
   - T: "2020-07-01"
     C: Telefónica
     F: "2018-08-01"
+    P: fabric
+    R: C
+  - T: "2020-07-01"
+    C: Telefónica
+    F: "2018-08-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2020-07-01"
+    C: Telefónica
+    F: "2018-08-01"
     P: opencue
     R: C
   - T: "2100-01-01"
@@ -16395,7 +16405,7 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "1900-01-01"
-    P: keda
+    P: KEDA
     R: C
   I:
   - M: Aarthi
@@ -21260,7 +21270,7 @@ P:
   - T: "2016-04-01"
     C: Simeio Solutions
     F: "1900-01-01"
-    P: keda
+    P: KEDA
     R: C
   - T: "2016-04-01"
     C: Simeio Solutions
@@ -21275,12 +21285,12 @@ P:
   - T: "2100-01-01"
     C: Oracle America Inc.
     F: "2016-04-01"
-    P: cncf/porter
+    P: KEDA
     R: C
   - T: "2100-01-01"
     C: Oracle America Inc.
     F: "2016-04-01"
-    P: keda
+    P: cncf/porter
     R: C
   - T: "2100-01-01"
     C: Oracle America Inc.
@@ -21323,17 +21333,17 @@ P:
   - T: "2015-04-01"
     C: Startup Grind
     F: "2013-10-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: TNW
     F: "2014-09-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2015-11-01"
     C: WearHacks
     F: "2015-04-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: Oracle America Inc.
@@ -21358,22 +21368,22 @@ P:
   - T: "2018-07-01"
     C: Ericsson AB
     F: "2016-11-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: McGill University
     F: "2017-10-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: Montreal AI Ethics Institute
     F: "2018-05-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2018-07-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
@@ -21383,17 +21393,17 @@ P:
   - T: "2100-01-01"
     C: Dawson College
     F: "2019-06-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: U.S. Department of State
     F: "2019-08-01"
-    P: adlik
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: LF AI Foundation
     F: "2020-05-01"
-    P: adlik
+    P: Adlik
     R: C
   S: male
   I:
@@ -37898,6 +37908,11 @@ P:
   - T: "2100-01-01"
     C: Workday
     F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Workday
+    F: "1900-01-01"
     P: linkerd
     R: C
   S: male
@@ -41883,12 +41898,12 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "1900-01-01"
-    P: envoy
+    P: KEDA
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "1900-01-01"
-    P: keda
+    P: envoy
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
@@ -41910,7 +41925,7 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "1900-01-01"
-    P: keda
+    P: KEDA
     R: C
   I:
   - E: ahmels!microsoft.com
@@ -59334,18 +59349,27 @@ P:
     U: aleksander.nowakowski
   B: 0
   U: Aleksander Nowakowski
-- R:
+- E: aslom!us.ibm.com
+  R:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
+    P: KEDA
+    R: C
+  - T: "2007-08-01"
+    C: Indiana University
+    F: "2000-01-01"
     P: cloudevents
     R: C
   - T: "2100-01-01"
     C: IBM
-    F: "1900-01-01"
-    P: keda
+    F: "2007-09-01"
+    P: cloudevents
     R: C
   I:
+  - E: aslom!us.ibm.com
+    M: Aleksander Slominski
+    S: git
   - M: Aleksander Slominski
     S: github
     U: aslom

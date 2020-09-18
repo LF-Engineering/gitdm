@@ -1,4 +1,1230 @@
 P:
+- E: stewart!flamingspork.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: stewart!flamingspork.com
+    M: Stewart Smith
+    S: git
+  - E: stewart!flamingspork.com
+    M: stewartsmith
+    S: git
+  - E: stewart!flamingspork.com
+    M: Stewart Smith
+    S: github
+    U: stewartsmith
+  B: 0
+  U: stewartsmith
+- R:
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  I:
+  - S: github
+    U: stgarf
+  B: 0
+  U: stgarf
+- E: stgarf!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: SendGrid
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  I:
+  - E: stgarf!users.noreply.github.com
+    M: stgarf
+    S: git
+  B: 0
+  U: stgarf
+- C: UA
+  E: glebstepanov1992!gmail.com
+  R:
+  - T: "2017-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2017-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2017-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2017-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2017-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2017-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: baetyl
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: etcd
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: helm
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: iovisor
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: iovisor/iovisor
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: k8s
+    R: C
+  - T: "2018-02-01"
+    C: ADMANIC
+    F: "2017-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-05-01"
+    C: Skycoin
+    F: "2018-02-01"
+    P: baetyl
+    R: C
+  - T: "2018-05-01"
+    C: Skycoin
+    F: "2018-02-01"
+    P: cncf/cni
+    R: C
+  - T: "2018-05-01"
+    C: Skycoin
+    F: "2018-02-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-05-01"
+    C: Skycoin
+    F: "2018-02-01"
+    P: container-networking-interface
+    R: C
+  - T: "2018-05-01"
+    C: Skycoin
+    F: "2018-02-01"
+    P: etcd
+    R: C
+  - T: "2018-05-01"
+    C: Skycoin
+    F: "2018-02-01"
+    P: helm
+    R: C
+  - T: "2018-05-01"
+    C: Skycoin
+    F: "2018-02-01"
+    P: k8s
+    R: C
+  - T: "2018-05-01"
+    C: Skycoin
+    F: "2018-02-01"
+    P: prometheus
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: baetyl
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: cncf/cni
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: cni
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: container-networking-interface
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: etcd
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: helm
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: k8s
+    R: C
+  - T: "2019-10-01"
+    C: Qbox
+    F: "2018-05-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Portworx
+    F: "2019-10-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Portworx
+    F: "2019-10-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Portworx
+    F: "2019-10-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Portworx
+    F: "2019-10-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Portworx
+    F: "2019-10-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Portworx
+    F: "2019-10-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Portworx
+    F: "2019-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Portworx
+    F: "2019-10-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: glebstepanov1992!gmail.com
+    M: stgleb
+    S: git
+  - E: glebstepanov1992!gmail.com
+    M: Gleb
+    S: github
+    U: stgleb
+  B: 0
+  U: stgleb
+- R:
+  - T: "2014-09-01"
+    C: teltarif.de
+    F: "1900-01-01"
+    R: C
+  - T: "2014-09-01"
+    C: teltarif.de
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-03-01"
+    C: Common People
+    F: "2014-09-01"
+    R: C
+  - T: "2015-03-01"
+    C: Common People
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-11-01"
+    C: MediaEvent
+    F: "2015-03-01"
+    R: C
+  - T: "2017-11-01"
+    C: MediaEvent
+    F: "2015-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "2017-11-01"
+    R: C
+  - T: "2100-01-01"
+    C: SAP
+    F: "2017-11-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - S: github
+    U: stiller-leser
+  B: 0
+  U: stiller-leser
+- E: stiner!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-02-23"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: stiner!us.ibm.com
+    M: stiner
+    S: slack
+    U: stiner
+  B: 0
+  U: stiner
+- E: stlejeun!cisco.com
+  R:
+  - T: "2011-06-01"
+    C: Sony Corporation
+    F: "2005-06-01"
+    P: pnda
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2011-07-01"
+    P: pnda
+    R: C
+  - T: "2100-01-01"
+    C: PNDA
+    F: "2016-10-01"
+    P: pnda
+    R: C
+  I:
+  - E: stephane.lejeune!gmail.com
+    M: stephanesan
+    S: git
+  - E: stephanesan!users.noreply.github.com
+    M: stephanesan
+    S: git
+  - E: stlejeun!cisco.com
+    M: stephanesan
+    S: git
+  - S: github
+    U: stephanesan
+  - E: stlejeun!cisco.com
+    M: stlejeun
+    S: jira
+    U: stlejeun
+  B: 0
+  U: stlejeun
+- C: CN
+  E: stonezdj!gmail.com
+  R:
+  - T: "2016-04-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2016-04-01"
+    C: IBM
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2017-08-01"
+    C: Independent
+    F: "2016-04-01"
+    R: C
+  - T: "2017-08-01"
+    C: Independent
+    F: "2016-04-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2017-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2017-08-01"
+    P: harbor
+    R: C
+  I:
+  - E: stonezdj!gmail.com
+    M: stonezdj(Daojun Zhang)
+    S: git
+  - E: stonezdj!gmail.com
+    M: stonezdj
+    S: git
+  B: 0
+  U: stonezdj(Daojun Zhang)
+- E: stopalopa!users.noreply.github.com
+  R:
+  - T: "2015-08-01"
+    C: Epic
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "2015-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-08-01"
+    C: Lockheed Martin
+    F: "2018-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-08-01"
+    P: jenkins
+    R: C
+  I:
+  - E: stopalopa!users.noreply.github.com
+    M: stopalopa
+    S: git
+  B: 0
+  U: stopalopa
+- R:
+  - T: "2100-01-01"
+    C: Know Ops
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Know Ops
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Know Ops
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Know Ops
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: stormmore
+  B: 0
+  U: stormmore
+- E: stoyan.tabakov!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2017-03-15"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: stoyan.tabakov!sap.com
+    M: stoyan.tabakov
+    S: slack
+    U: stoyan.tabakov
+  B: 0
+  U: stoyan.tabakov
+- R:
+  - T: "2100-01-01"
+    C: tick42
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: tick42
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: github
+    U: stoyandamov
+  B: 0
+  U: stoyandamov
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Tresler
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Tresler
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Tresler
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: stresler
+    S: github
+    U: stresler
+  B: 0
+  U: stresler
+- C: US
+  E: stresler!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Tresler
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Tresler
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: stresler!users.noreply.github.com
+    M: stresler
+    S: git
+  B: 0
+  U: stresler
+- E: shaul.triebitz!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2016-03-11"
+    C: Intel Corporation
+    F: "2016-02-23"
+    P: zep
+    R: C
+  I:
+  - E: shaul.triebitz!intel.com
+    M: Shaul Triebitz
+    S: git
+  - E: shaul.triebitz!intel.com
+    M: Triebitz
+    S: git
+  - E: shaul.triebitz!intel.com
+    M: striebit
+    S: git
+  B: 0
+  U: striebit
+- R:
+  - T: "2100-01-01"
+    C: Dell
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Dell
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - S: github
+    U: strikingraghu
+  B: 0
+  U: strikingraghu
+- E: fujian1115!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: fujian1115!gmail.com
+    M: stroller
+    S: git
+  - E: fujian1115!gmail.com
+    M: stroller
+    S: github
+    U: jiafu1115
+  B: 0
+  U: stroller
+- C: DE
+  E: stuartnelson3!gmail.com
+  R:
+  - T: "2017-05-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    R: C
+  - T: "2017-05-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2017-05-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-05-01"
+    C: SoundCloud
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-03-01"
+    C: DigitalOcean
+    F: "2017-05-01"
+    R: C
+  - T: "2018-03-01"
+    C: DigitalOcean
+    F: "2017-05-01"
+    P: coredns
+    R: C
+  - T: "2018-03-01"
+    C: DigitalOcean
+    F: "2017-05-01"
+    P: k8s
+    R: C
+  - T: "2018-03-01"
+    C: DigitalOcean
+    F: "2017-05-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2018-03-01"
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2018-03-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2018-03-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SoundCloud
+    F: "2018-03-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: stuartnelson3!gmail.com
+    M: stuart nelson
+    S: git
+  - E: stuartnelson3!gmail.com
+    M: stuart nelson
+    S: github
+    U: stuartnelson3
+  B: 0
+  U: stuart nelson
+- R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  I:
+  - S: github
+    U: stuart-mclaren
+  B: 0
+  U: stuart-mclaren
+- E: stuart.mclaren!hpe.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: opentracing
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "2019-04-16"
+    P: baetyl
+    R: C
+  I:
+  - E: stuart.mclaren!hpe.com
+    M: Stuart McLaren
+    S: git
+  - E: stuart.mclaren!hpe.com
+    M: stuart-mclaren
+    S: git
+  B: 0
+  U: stuart-mclaren
+- C: GB
+  E: stuart.warren!ocado.com
+  R:
+  - T: "2100-01-01"
+    C: Ocado
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Ocado
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Ocado
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Ocado
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2017-06-07"
+    C: Ocado
+    F: "2017-05-09"
+    P: baetyl
+    R: C
+  I:
+  - E: stuart.warren!ocado.com
+    M: stuart.warren
+    S: git
+  B: 0
+  U: stuart.warren
+- E: stuart.a.smith!capgemini.com
+  R:
+  - T: "2100-01-01"
+    C: Capgemini
+    F: "2017-02-28"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: stuart.a.smith!capgemini.com
+    M: stuartjsmith10
+    S: slack
+    U: stuartjsmith10
+  B: 0
+  U: stuartjsmith10
+- E: stuart!testtrack4.com
+  R:
+  - T: "2100-01-01"
+    C: Rogue Beatz Music Group
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Rogue Beatz Music Group
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  I:
+  - E: stuart!testtrack4.com
+    M: stuartpb
+    S: git
+  B: 0
+  U: stuartpb
+- E: snorton!juniper.net
+  R:
+  - T: "2100-01-01"
+    C: Juniper Networks, Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-09-22"
+    C: Juniper Networks, Inc.
+    F: "2018-04-27"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: snorton!juniper.net
+    M: stunorton
+    S: git
+  B: 0
+  U: stunorton
+- E: smason1!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-08-09"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: smason1!us.ibm.com
+    M: stvmsn
+    S: slack
+    U: stvmsn
+  B: 0
+  U: stvmsn
+- E: su.taiyun!zte.com.cn
+  R:
+  - T: "2015-09-02"
+    C: ZTE Corporation
+    F: "2015-01-13"
+    R: C
+  - T: "2015-09-02"
+    C: ZTE Corporation
+    F: "2015-01-13"
+    P: opnfv
+    R: C
+  I:
+  - E: su.taiyun!zte.com.cn
+    M: su.taiyun
+    S: gmane
+  - E: su.taiyun!zte.com.cn
+    M: su.taiyun
+    S: groupsio
+  - E: su.taiyun!zte.com.cn
+    M: su.taiyun
+    S: linux-foundation:mls
+    U: su.taiyun
+  - E: su.taiyun!zte.com.cn
+    M: su.taiyun
+    S: mbox
+  - E: su.taiyun!zte.com.cn
+    M: su.taiyun
+    S: pipermail
+  B: 0
+  U: su.taiyun
+- E: subarna.kar!intel.com
+  R:
+  - T: "2018-12-08"
+    C: Intel Corporation
+    F: "2015-08-19"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2018-12-08"
+    C: Intel Corporation
+    F: "2015-08-19"
+    P: dpdk
+    R: C
+  I:
+  - E: subarna.kar!intel.com
+    M: Kar, Subarna
+    S: pipermail
+  - E: subarna.kar!intel.com
+    M: subarna.kar
+    S: pipermail
+  B: 0
+  U: subarna.kar
+- R:
+  - T: "2018-08-01"
+    C: eBay, Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-08-01"
+    C: eBay, Inc.
+    F: "1900-01-01"
+    P: presto
+    R: C
+  - T: "2100-01-01"
+    C: Teradata
+    F: "2018-08-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: subash ramanathan
+    S: github
+    U: subashram
+  B: 0
+  U: subash ramanathan
+- E: subashab!codeaurora.org
+  R:
+  - T: "2100-01-01"
+    C: Code Aurora Forum
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: subashab!codeaurora.org
+    M: Subash Abhinov Kasiviswanathan
+    S: git
+  - E: subashab!codeaurora.org
+    M: subashab
+    S: git
+  B: 0
+  U: subashab
+- E: subhas.mondal!wipro.com
+  R:
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: akraino
+    R: C
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "1900-01-01"
+    P: odl
+    R: C
+  I:
+  - E: subhas.mondal!wipro.com
+    M: subhas.mondal
+    S: groupsio
+  - E: subhas.mondal!wipro.com
+    M: subhas.mondal
+    S: groupsio
+  - E: subhas.mondal!wipro.com
+    M: subhas.mondal
+    S: pipermail
+  B: 0
+  U: subhas.mondal
+- C: IN
+  E: subh.singh1106!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: dpdk
+    R: C
+  - T: "2016-08-01"
+    C: Criterion Networks
+    F: "2014-02-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2014-03-05"
+    P: odl
+    R: C
+  - T: "2016-08-01"
+    C: Open Networking Foundation
+    F: "2015-07-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2019-10-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2016-08-01"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2016-09-26"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2018-12-11"
+    P: lfn-cntt
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu Network Communications
+    F: "2019-10-01"
+    P: o-ran/documentation
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu Network Communications
+    F: "2019-10-01"
+    P: o-ran/o-ran-sc
+    R: C
+  I:
+  - M: subhash kumar singh
+    S: confluence
+    U: subhash_singh
+  - E: Subhash.Kumar.Singh!huawei.com
+    M: Subhash Kumar Singh
+    S: gerrit
+  - E: Subhash.Kumar.Singh!huawei.com
+    M: Subhash Kumar Singh
+    S: gerrit
+  - E: subh.singh007!gmail.com
+    M: Subhash Kumar Singh
+    S: gerrit
+  - E: subh.singh007!gmail.com
+    M: subhash kumar singh
+    S: gerrit
+  - E: subh.singh007!gmail.com
+    M: subhash kumar singh
+    S: gerrit
+    U: subhash
+  - E: subh.singh1106!gmail.com
+    M: subhash kumar singh
+    S: gerrit
+    U: subhash_singh
+  - E: subhash.kumar.singh!huawei.com
+    M: subhash kumar singh
+    S: gerrit
+    U: subhash_singh
+  - E: subhash.kumar.singh!huawei.com
+    M: subhash.kumar.singh
+    S: gerrit
+  - E: subh.singh007!gmail.com
+    M: subhash kumar singh
+    S: git
+  - E: subhash.kumar.singh!huawei.com
+    M: subhash kumar singh
+    S: git
+  - E: subhash.kumar.singh!huawei.com
+    M: subhash.kumar.singh
+    S: git
+  - E: subh.singh007!gmail.com
+    M: Subhash Kumar Singh
+    S: groupsio
+  - E: subhash.kumar.singh!huawei.com
+    M: subhash kumar singh
+    S: groupsio
+  - M: subhash kumar singh
+    S: jira
+    U: subhash_singh
+  - E: subh.singh007!gmail.com
+    M: subhash kumar singh
+    S: jira
+    U: subh.singh007
+  - E: subh.singh1106!gmail.com
+    M: subhash kumar singh
+    S: jira
+    U: subhash_singh
+  - E: subhash.kumar.singh!huawei.com
+    M: subhash kumar singh
+    S: jira
+    U: subhash_singh
+  - M: Subhash
+    S: mediawiki
+    U: Subhash
+  - E: subh.singh007!gmail.com
+    M: Subhash Kumar Singh
+    S: pipermail
+  - E: subhash.kumar.singh!huawei.com
+    M: Subhash Kumar Singh
+    S: pipermail
+  B: 0
+  U: subhash kumar singh
+- E: sinduri!us.ibm.com
+  R:
+  - T: "2015-12-18"
+    C: IBM
+    F: "2015-11-12"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: sinduri!us.ibm.com
+    M: subhash
+    S: groupsio
+  - E: sinduri!us.ibm.com
+    M: subhash
+    S: mbox
+  B: 0
+  U: subhash
+- E: subh.singh007!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: odl
+    R: C
+  I:
+  - E: subh.singh007!gmail.com
+    M: subhash
+    S: git
+  B: 0
+  U: subhash
+- E: subhosree.pan1!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2018-04-01"
+    P: onap
+    R: C
+  I:
+  - E: subhosree.pan1!huawei.com
+    M: Subhosree  Pan
+    S: gerrit
+    U: subhosree
+  - E: subhosree.pan1!huawei.com
+    M: Subhosree  Pan
+    S: git
+  - E: subhosree.pan1!huawei.com
+    M: Subhosree Pan
+    S: git
+  - E: subhosree.pan1!huawei.com
+    M: subhosree
+    S: git
+  B: 0
+  U: subhosree
+- E: 88.marco!gmail.com
+  R:
+  - T: "2017-07-01"
+    C: Mashape API Marketplace
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-07-01"
+    C: Mashape API Marketplace
+    F: "1900-01-01"
+    P: cncf/kuma
+    R: C
+  - T: "2100-01-01"
+    C: Kong
+    F: "2017-07-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Kong
+    F: "2017-07-01"
+    P: cncf/kuma
+    R: C
+  - T: "2100-01-01"
+    C: Kong
+    F: "2017-07-01"
+    P: cncf/tremor
+    R: C
+  I:
+  - E: 88.marco!gmail.com
+    M: subnetmarco
+    S: git
+  B: 0
+  U: subnetmarco
+- E: jan.unterbrink!subpath.de
+  R:
+  - T: "2100-01-01"
+    C: Inovex
+    F: "1900-01-01"
+    P: kubeedge
+    R: C
+  I:
+  - E: jan.unterbrink!subpath.de
+    M: subpathdev
+    S: git
+  B: 0
+  U: subpathdev
 - E: substack!gmail.com
   R:
   - T: "2100-01-01"
@@ -3128,7 +4354,7 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "1900-01-01"
-    P: keda
+    P: KEDA
     R: C
   I:
   - S: github
@@ -9689,6 +10915,35 @@ P:
     U: tobilarscheid
   B: 0
   U: tobilarscheid
+- E: toby!caboteria.org
+  R:
+  - T: "1996-03-01"
+    C: GTECH Corporation
+    F: "1986-09-01"
+    P: brigade
+    R: C
+  - T: "2013-04-01"
+    C: MITRE
+    F: "2010-06-01"
+    P: brigade
+    R: C
+  I:
+  - E: toby!acnodal.io
+    M: Toby Cabot
+    S: git
+  - E: toby!caboteria.org
+    M: toby cabot
+    S: git
+  - E: toby!acnodal.io
+    M: Toby Cabot
+    S: github
+    U: acnodal-tc
+  - E: toby!caboteria.org
+    M: toby cabot
+    S: github
+    U: caboteria
+  B: 0
+  U: toby cabot
 - C: US
   E: tobias.lawrence!gmail.com
   R:
@@ -11040,17 +12295,17 @@ P:
   - T: "2014-12-01"
     C: NTT Data
     F: "1900-01-01"
+    P: KEDA
+    R: C
+  - T: "2014-12-01"
+    C: NTT Data
+    F: "1900-01-01"
     P: cncf
     R: C
   - T: "2014-12-01"
     C: NTT Data
     F: "1900-01-01"
     P: k8s
-    R: C
-  - T: "2014-12-01"
-    C: NTT Data
-    F: "1900-01-01"
-    P: keda
     R: C
   - T: "2014-12-01"
     C: NTT Data
@@ -11064,17 +12319,17 @@ P:
   - T: "2018-08-01"
     C: freee
     F: "2014-12-01"
+    P: KEDA
+    R: C
+  - T: "2018-08-01"
+    C: freee
+    F: "2014-12-01"
     P: cncf
     R: C
   - T: "2018-08-01"
     C: freee
     F: "2014-12-01"
     P: k8s
-    R: C
-  - T: "2018-08-01"
-    C: freee
-    F: "2014-12-01"
-    P: keda
     R: C
   - T: "2018-08-01"
     C: freee
@@ -11088,17 +12343,17 @@ P:
   - T: "2100-01-01"
     C: Mercari
     F: "2018-08-01"
+    P: KEDA
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2018-08-01"
     P: cncf
     R: C
   - T: "2100-01-01"
     C: Mercari
     F: "2018-08-01"
     P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2018-08-01"
-    P: keda
     R: C
   - T: "2100-01-01"
     C: Mercari
@@ -15528,6 +16783,11 @@ P:
     F: "1900-01-01"
     P: k8s
     R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
   I:
   - E: 8667089+vanou!users.noreply.github.com
     M: vanou
@@ -16035,6 +17295,37 @@ P:
     U: vcarvalho
   B: 0
   U: vcarvalho
+- E: vdhingra!vmware.com
+  R:
+  - T: "2013-03-01"
+    C: Aricent
+    F: "2010-02-01"
+    P: danos
+    R: C
+  - T: "2017-02-01"
+    C: Aricent
+    F: "2013-09-01"
+    P: danos
+    R: C
+  - T: "2018-05-01"
+    C: IP Infusion Inc
+    F: "2017-02-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-05-01"
+    P: danos
+    R: C
+  I:
+  - E: vdhingra!vmware.com
+    M: vdhingra
+    S: git
+  - E: vdhingra!vmware.com
+    M: vishaldhingra
+    S: git
+  B: 0
+  U: vdhingra
 - E: ed.walsh!emc.com
   R:
   - T: "2100-01-01"
@@ -18177,7 +19468,7 @@ P:
   - T: "2100-01-01"
     C: GOAT Group
     F: "1900-01-01"
-    P: cncf/chaosmesh
+    P: ChaosMesh
     R: C
   - T: "2100-01-01"
     C: GOAT Group
@@ -29315,7 +30606,7 @@ P:
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
-    P: cncf/bfe
+    P: BFE
     R: C
   I:
   - M: xiaofei0800
@@ -31312,7 +32603,7 @@ P:
   - T: "2100-01-01"
     C: PingCAP
     F: "1900-01-01"
-    P: cncf/chaosmesh
+    P: ChaosMesh
     R: C
   - T: "2100-01-01"
     C: PingCAP
@@ -31560,12 +32851,12 @@ P:
   - T: "2018-06-01"
     C: Huawei Technologies Co., Ltd.
     F: "2015-06-01"
-    P: angel
+    P: Angel
     R: C
   - T: "2100-01-01"
     C: Tencent Holdings Limited
     F: "2018-06-01"
-    P: angel
+    P: Angel
     R: C
   I:
   - E: 48080397+xs-li!users.noreply.github.com
@@ -32026,7 +33317,7 @@ P:
   - T: "2100-01-01"
     C: PingCAP
     F: "1900-01-01"
-    P: cncf/chaosmesh
+    P: ChaosMesh
     R: C
   I:
   - E: xuechunlei922!gmail.com
@@ -33542,7 +34833,7 @@ P:
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
-    P: cncf/bfe
+    P: BFE
     R: C
   I:
   - E: yangsijie!baidu.com
@@ -33620,7 +34911,7 @@ P:
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
-    P: cncf/bfe
+    P: BFE
     R: C
   I:
   - M: yangwensi
@@ -37317,7 +38608,7 @@ P:
   - T: "2100-01-01"
     C: Airyworks
     F: "1900-01-01"
-    P: cncf/chaosmesh
+    P: ChaosMesh
     R: C
   - T: "2100-01-01"
     C: Airyworks
@@ -37880,12 +39171,12 @@ P:
   - T: "2100-01-01"
     C: ZTE Corporation
     F: "2019-08-13"
-    P: acumos
+    P: Adlik
     R: C
   - T: "2100-01-01"
     C: ZTE Corporation
     F: "2019-08-13"
-    P: adlik
+    P: acumos
     R: C
   - T: "2100-01-01"
     C: ZTE Corporation
@@ -37895,7 +39186,7 @@ P:
   - T: "2100-01-01"
     C: ZTE Corporation
     F: "2019-11-10"
-    P: angel
+    P: Angel
     R: C
   I:
   - M: Liya Yuan
@@ -38679,7 +39970,7 @@ P:
   - T: "2100-01-01"
     C: Tencent Holdings Limited
     F: "2019-04-30"
-    P: angel
+    P: Angel
     R: C
   I:
   - E: 43726198+yundai424!users.noreply.github.com
@@ -39340,26 +40631,26 @@ P:
   - T: "2015-01-01"
     C: Analab
     F: "1900-01-01"
-    P: k8s
+    P: KEDA
     R: C
   - T: "2015-01-01"
     C: Analab
     F: "1900-01-01"
-    P: keda
-    R: C
-  - T: "2015-05-01"
-    C: PersonalWeb
-    F: "2015-01-01"
-    R: C
-  - T: "2015-05-01"
-    C: PersonalWeb
-    F: "2015-01-01"
     P: k8s
     R: C
   - T: "2015-05-01"
     C: PersonalWeb
     F: "2015-01-01"
-    P: keda
+    R: C
+  - T: "2015-05-01"
+    C: PersonalWeb
+    F: "2015-01-01"
+    P: KEDA
+    R: C
+  - T: "2015-05-01"
+    C: PersonalWeb
+    F: "2015-01-01"
+    P: k8s
     R: C
   - T: "2015-11-01"
     C: Independent
@@ -39368,40 +40659,40 @@ P:
   - T: "2015-11-01"
     C: Independent
     F: "2015-05-01"
-    P: k8s
+    P: KEDA
     R: C
   - T: "2015-11-01"
     C: Independent
     F: "2015-05-01"
-    P: keda
+    P: k8s
     R: C
   - T: "2016-02-01"
     C: Delivery Hero Holding
     F: "2015-11-01"
+    R: C
+  - T: "2016-02-01"
+    C: Delivery Hero Holding
+    F: "2015-11-01"
+    P: KEDA
     R: C
   - T: "2016-02-01"
     C: Delivery Hero Holding
     F: "2015-11-01"
     P: k8s
     R: C
-  - T: "2016-02-01"
-    C: Delivery Hero Holding
-    F: "2015-11-01"
-    P: keda
+  - T: "2100-01-01"
+    C: Smartfrog
+    F: "2016-02-01"
     R: C
   - T: "2100-01-01"
     C: Smartfrog
     F: "2016-02-01"
+    P: KEDA
     R: C
   - T: "2100-01-01"
     C: Smartfrog
     F: "2016-02-01"
     P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Smartfrog
-    F: "2016-02-01"
-    P: keda
     R: C
   S: male
   I:
@@ -39414,27 +40705,27 @@ P:
   - T: "2015-01-01"
     C: Analab
     F: "1900-01-01"
-    P: keda
+    P: KEDA
     R: C
   - T: "2015-05-01"
     C: PersonalWeb
     F: "2015-01-01"
-    P: keda
+    P: KEDA
     R: C
   - T: "2015-11-01"
     C: Independent
     F: "2015-05-01"
-    P: keda
+    P: KEDA
     R: C
   - T: "2016-02-01"
     C: Delivery Hero Holding
     F: "2015-11-01"
-    P: keda
+    P: KEDA
     R: C
   - T: "2100-01-01"
     C: Smartfrog
     F: "2016-02-01"
-    P: keda
+    P: KEDA
     R: C
   I:
   - E: zach.dunton!smartfrog.com
@@ -44316,7 +45607,7 @@ P:
   - T: "2100-01-01"
     C: PingCAP
     F: "1900-01-01"
-    P: cncf/chaosmesh
+    P: ChaosMesh
     R: C
   - T: "2100-01-01"
     C: PingCAP
@@ -45154,7 +46445,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/bfe
+    P: BFE
     R: C
   I:
   - E: 974057089!qq.com
@@ -50003,7 +51294,7 @@ P:
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
-    P: cncf/bfe
+    P: BFE
     R: C
   I:
   - E: yanshuai615270!gmail.com
@@ -50727,12 +52018,12 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: a092m00001iv4dqqal
+    P: BFE
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/bfe
+    P: a092m00001iv4dqqal
     R: C
   I:
   - E: godsolio!hotmail.com
@@ -50746,7 +52037,7 @@ P:
   - T: "2100-01-01"
     C: Ctrip
     F: "1900-01-01"
-    P: cncf/bfe
+    P: BFE
     R: C
   I:
   - E: liuzheng712!gmail.com

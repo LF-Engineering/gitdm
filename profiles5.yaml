@@ -1,4 +1,60 @@
 P:
+- E: bogdan-mihail.sava!ing.com
+  R:
+  - T: "2100-01-01"
+    C: ING Bank
+    F: "2018-07-03"
+    P: odpi-egeria
+    R: C
+  I:
+  - E: 40362260+bogdan-sava!users.noreply.github.com
+    M: Bogdan Sava
+    S: git
+  - E: bogdan-mihail.sava!ing.com
+    M: Bogdan Sava
+    S: git
+  - E: bogdan.sava!gmail.com
+    M: Bogdan Sava
+    S: git
+  - E: bogdan.sava!gmail.com
+    M: bogdan-sava
+    S: git
+  - E: bogdan.sava!gmail.com
+    M: Bogdan Sava
+    S: github
+    U: bogdan-sava
+  - E: bogdan-mihail.sava!ing.com
+    M: Bogdan Sava
+    S: slack
+    U: bogdan-mihail.sava
+  B: 0
+  U: Bogdan Sava
+- E: bogdan.togorean!analog.com
+  R:
+  - T: "2100-01-01"
+    C: Analog Devices
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: bogdan.togorean!analog.com
+    M: Bogdan Togorean
+    S: git
+  B: 0
+  U: Bogdan Togorean
+- E: bogdan.tudose!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2016-05-09"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: bogdan.tudose!huawei.com
+    M: Bogdan Tudose
+    S: slack
+    U: bogdan
+  B: 0
+  U: Bogdan Tudose
 - E: bogdanx.a.voiculescu!intel.com
   R:
   - T: "2100-01-01"
@@ -24536,6 +24592,11 @@ P:
     F: "1900-01-01"
     P: prometheus
     R: C
+  - T: "2100-01-01"
+    C: Weaveworks
+    F: "1900-01-01"
+    P: thanos
+    R: C
   - T: "2017-12-06"
     C: Weaveworks
     F: "2017-08-28"
@@ -30074,17 +30135,17 @@ P:
   - T: "2100-01-01"
     C: PingCAP
     F: "1900-01-01"
+    P: ChaosMesh
+    R: C
+  - T: "2100-01-01"
+    C: PingCAP
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2100-01-01"
     C: PingCAP
     F: "1900-01-01"
     P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: PingCAP
-    F: "1900-01-01"
-    P: cncf/chaosmesh
     R: C
   - T: "2100-01-01"
     C: PingCAP
@@ -30761,6 +30822,11 @@ P:
     C: Ericsson AB
     F: "2000-02-01"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2018-03-01"
+    P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
     C: The Linux Foundation
@@ -32734,12 +32800,12 @@ P:
   - T: "2018-03-01"
     C: Spirent Communications Inc
     F: "1900-01-01"
-    P: cncf
+    P: ChaosMesh
     R: C
   - T: "2018-03-01"
     C: Spirent Communications Inc
     F: "1900-01-01"
-    P: cncf/chaosmesh
+    P: cncf
     R: C
   - T: "2018-03-01"
     C: Spirent Communications Inc
@@ -32767,12 +32833,12 @@ P:
   - T: "2018-12-01"
     C: Citrix Systems Inc.
     F: "2018-03-01"
-    P: cncf
+    P: ChaosMesh
     R: C
   - T: "2018-12-01"
     C: Citrix Systems Inc.
     F: "2018-03-01"
-    P: cncf/chaosmesh
+    P: cncf
     R: C
   - T: "2018-12-01"
     C: Citrix Systems Inc.
@@ -32796,12 +32862,12 @@ P:
   - T: "2100-01-01"
     C: PingCAP
     F: "2018-12-01"
-    P: cncf
+    P: ChaosMesh
     R: C
   - T: "2100-01-01"
     C: PingCAP
     F: "2018-12-01"
-    P: cncf/chaosmesh
+    P: cncf
     R: C
   - T: "2100-01-01"
     C: PingCAP
@@ -36515,12 +36581,12 @@ P:
   - T: "2100-01-01"
     C: Grafana Labs
     F: "1900-01-01"
-    P: cncf
+    P: ChaosMesh
     R: C
   - T: "2100-01-01"
     C: Grafana Labs
     F: "1900-01-01"
-    P: cncf/chaosmesh
+    P: cncf
     R: C
   - T: "2100-01-01"
     C: Grafana Labs
@@ -41577,6 +41643,46 @@ P:
     S: git
   B: 0
   U: Carlos Santana
+- E: casantos!datacom.com.br
+  R:
+  - T: "2013-10-01"
+    C: HP Inc.
+    F: "2005-08-01"
+    P: danos
+    R: C
+  - T: "2014-05-01"
+    C: Red Hat Inc.
+    F: "2013-10-01"
+    P: danos
+    R: C
+  - T: "2019-03-01"
+    C: Datacom
+    F: "2014-05-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2019-06-01"
+    P: danos
+    R: C
+  I:
+  - E: casantos!datacom.com.br
+    M: Carlos Santos
+    S: git
+  - E: casantos!datacom.ind.br
+    M: Carlos Santos
+    S: git
+  - E: casantos!redhat.com
+    M: Carlos Santos
+    S: git
+  - M: Carlos Santos
+    S: meetup
+    U: "261352948"
+  - M: Carlos Santos
+    S: meetup
+    U: "274512451"
+  B: 0
+  U: Carlos Santos
 - E: r3pek!gentoo.org
   R:
   - T: "2100-01-01"
@@ -46585,6 +46691,11 @@ P:
   - T: "2100-01-01"
     C: Caicloud
     F: "1900-01-01"
+    P: ChaosMesh
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2100-01-01"
@@ -46596,11 +46707,6 @@ P:
     C: Caicloud
     F: "1900-01-01"
     P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: cncf/chaosmesh
     R: C
   - T: "2100-01-01"
     C: Caicloud
@@ -47660,6 +47766,11 @@ P:
     F: "2012-05-01"
     P: cncf
     R: C
+  - T: "2015-10-01"
+    C: Douglas College
+    F: "2013-03-01"
+    P: cncf
+    R: C
   - T: "2100-01-01"
     C: Freelance
     F: "2015-10-01"
@@ -47669,6 +47780,51 @@ P:
     C: Freelance
     F: "2015-10-01"
     P: cncf/dex
+    R: C
+  - T: "2100-01-01"
+    C: Freelance
+    F: "2015-10-01"
+    P: intoto
+    R: C
+  - T: "2100-01-01"
+    C: Freelance
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  - T: "2018-08-01"
+    C: Elastic Path Software, Inc.
+    F: "2016-09-01"
+    P: cncf
+    R: C
+  - T: "2019-10-01"
+    C: commercetools GmbH
+    F: "2018-11-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: CNCF [Cloud Native Computing Foundation]
+    F: "2020-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: CNCF [Cloud Native Computing Foundation]
+    F: "2020-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: CNCF [Cloud Native Computing Foundation]
+    F: "2020-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: CNCF [Cloud Native Computing Foundation]
+    F: "2020-01-01"
+    P: spiffe
+    R: C
+  - T: "2100-01-01"
+    C: CNCF [Cloud Native Computing Foundation]
+    F: "2020-01-01"
+    P: vitess
     R: C
   S: male
   I:
@@ -62078,153 +62234,3 @@ P:
     U: zhangcheng
   B: 0
   U: Cheng Zhang
-- C: TW
-  E: clsung!gmail.com
-  R:
-  - T: "2015-03-01"
-    C: OSDC.TW
-    F: "1900-01-01"
-    R: C
-  - T: "2015-03-01"
-    C: OSDC.TW
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2015-03-01"
-    C: OSDC.TW
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2015-03-01"
-    C: OSDC.TW
-    F: "1900-01-01"
-    P: opentelemetry
-    R: C
-  - T: "2018-04-01"
-    C: HTC
-    F: "2015-03-01"
-    R: C
-  - T: "2018-04-01"
-    C: HTC
-    F: "2015-03-01"
-    P: fluentd
-    R: C
-  - T: "2018-04-01"
-    C: HTC
-    F: "2015-03-01"
-    P: nats
-    R: C
-  - T: "2018-04-01"
-    C: HTC
-    F: "2015-03-01"
-    P: opentelemetry
-    R: C
-  - T: "2100-01-01"
-    C: CTBC Bank
-    F: "2018-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: CTBC Bank
-    F: "2018-04-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: CTBC Bank
-    F: "2018-04-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: CTBC Bank
-    F: "2018-04-01"
-    P: opentelemetry
-    R: C
-  S: female
-  I:
-  - E: clsung!gmail.com
-    M: Cheng-Lung Sung
-    S: git
-  - E: clsung!gmail.com
-    M: Cheng-Lung Sung
-    S: github
-    U: clsung
-  B: 0
-  U: Cheng-Lung Sung
-- E: cychiang!chromium.org
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: cychiang!chromium.org
-    M: Cheng-Yi Chiang
-    S: git
-  B: 0
-  U: Cheng-Yi Chiang
-- C: CN
-  E: chengtiesheng!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/cni
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  - T: "2016-03-25"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-07-01"
-    R: C
-  I:
-  - E: chengtiesheng!huawei.com
-    M: ChengTiesheng
-    S: git
-  - E: chengtiesheng!huawei.com
-    M: ChengTiesheng
-    S: git
-    U: ChengTiesheng
-  - E: chengtiesheng!huawei.com
-    M: Tiesheng
-    S: git
-  - E: chengtiesheng!huawei.com
-    M: Tiesheng
-    S: git
-    U: ChengTiesheng
-  - E: chengtiesheng!huawei.com
-    S: github
-    U: ChengTiesheng
-  - E: chengtiesheng!huawei.com
-    M: Tiesheng
-    S: github
-    U: ChengTiesheng
-  - E: chengtiesheng!huawei.com
-    M: Tiesheng
-    S: oci_csv
-    U: ChengTiesheng
-  B: 0
-  U: ChengTiesheng
-- E: vchengalvala!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments Incorporated
-    F: "2015-01-22"
-    P: yocto
-    R: C
-  I:
-  - E: vchengalvala!ti.com
-    M: Chengalvala, Vivek
-    S: groupsio
-  - E: vchengalvala!ti.com
-    M: Chengalvala, Vivek
-    S: pipermail
-  B: 0
-  U: Chengalvala, Vivek
