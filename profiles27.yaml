@@ -21668,17 +21668,17 @@ P:
   - T: "2100-01-01"
     C: ThoughtWorks
     F: "2015-09-29"
+    P: StackStorm
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "2015-09-29"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
     C: ThoughtWorks
     F: "2015-09-29"
     P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: ThoughtWorks
-    F: "2015-09-29"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -25913,6 +25913,11 @@ P:
   - T: "2017-04-28"
     C: Rackspace
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2017-04-28"
+    C: Rackspace
+    F: "1900-01-01"
     P: acrn/acrn
     R: C
   - T: "2017-04-28"
@@ -25948,12 +25953,12 @@ P:
   - T: "2017-04-28"
     C: Rackspace
     F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2017-04-28"
-    C: Rackspace
-    F: "1900-01-01"
     P: zep
+    R: C
+  - T: "2017-06-05"
+    C: Red Hat Inc.
+    F: "2017-04-28"
+    P: StackStorm
     R: C
   - T: "2017-06-05"
     C: Red Hat Inc.
@@ -25963,12 +25968,12 @@ P:
   - T: "2017-06-05"
     C: Red Hat Inc.
     F: "2017-04-28"
-    P: stackstorm
-    R: C
-  - T: "2017-06-05"
-    C: Red Hat Inc.
-    F: "2017-04-28"
     P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2017-06-05"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -25979,11 +25984,6 @@ P:
     C: Independent
     F: "2017-06-05"
     P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2017-06-05"
-    P: stackstorm
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -31482,6 +31482,21 @@ P:
   - T: "2012-03-31"
     C: U.S. Geological Survey (USGS)
     F: "2008-10-31"
+    P: Marquez
+    R: C
+  - T: "2012-03-31"
+    C: U.S. Geological Survey (USGS)
+    F: "2008-10-31"
+    P: NNstreamer
+    R: C
+  - T: "2012-03-31"
+    C: U.S. Geological Survey (USGS)
+    F: "2008-10-31"
+    P: Sparklyr
+    R: C
+  - T: "2012-03-31"
+    C: U.S. Geological Survey (USGS)
+    F: "2008-10-31"
     P: edl
     R: C
   - T: "2012-03-31"
@@ -31512,22 +31527,7 @@ P:
   - T: "2012-03-31"
     C: U.S. Geological Survey (USGS)
     F: "2008-10-31"
-    P: marquez
-    R: C
-  - T: "2012-03-31"
-    C: U.S. Geological Survey (USGS)
-    F: "2008-10-31"
-    P: nnstreamer
-    R: C
-  - T: "2012-03-31"
-    C: U.S. Geological Survey (USGS)
-    F: "2008-10-31"
     P: pyro
-    R: C
-  - T: "2012-03-31"
-    C: U.S. Geological Survey (USGS)
-    F: "2008-10-31"
-    P: sparklyr
     R: C
   - T: "2013-09-30"
     C: Lawrence Livermore National Laboratory
@@ -31547,6 +31547,21 @@ P:
   - T: "2013-09-30"
     C: Lawrence Livermore National Laboratory
     F: "2012-04-30"
+    P: Marquez
+    R: C
+  - T: "2013-09-30"
+    C: Lawrence Livermore National Laboratory
+    F: "2012-04-30"
+    P: NNstreamer
+    R: C
+  - T: "2013-09-30"
+    C: Lawrence Livermore National Laboratory
+    F: "2012-04-30"
+    P: Sparklyr
+    R: C
+  - T: "2013-09-30"
+    C: Lawrence Livermore National Laboratory
+    F: "2012-04-30"
     P: edl
     R: C
   - T: "2013-09-30"
@@ -31577,22 +31592,7 @@ P:
   - T: "2013-09-30"
     C: Lawrence Livermore National Laboratory
     F: "2012-04-30"
-    P: marquez
-    R: C
-  - T: "2013-09-30"
-    C: Lawrence Livermore National Laboratory
-    F: "2012-04-30"
-    P: nnstreamer
-    R: C
-  - T: "2013-09-30"
-    C: Lawrence Livermore National Laboratory
-    F: "2012-04-30"
     P: pyro
-    R: C
-  - T: "2013-09-30"
-    C: Lawrence Livermore National Laboratory
-    F: "2012-04-30"
-    P: sparklyr
     R: C
   - T: "2015-08-31"
     C: Google
@@ -31612,6 +31612,21 @@ P:
   - T: "2015-08-31"
     C: Google
     F: "2013-09-30"
+    P: Marquez
+    R: C
+  - T: "2015-08-31"
+    C: Google
+    F: "2013-09-30"
+    P: NNstreamer
+    R: C
+  - T: "2015-08-31"
+    C: Google
+    F: "2013-09-30"
+    P: Sparklyr
+    R: C
+  - T: "2015-08-31"
+    C: Google
+    F: "2013-09-30"
     P: edl
     R: C
   - T: "2015-08-31"
@@ -31642,22 +31657,7 @@ P:
   - T: "2015-08-31"
     C: Google
     F: "2013-09-30"
-    P: marquez
-    R: C
-  - T: "2015-08-31"
-    C: Google
-    F: "2013-09-30"
-    P: nnstreamer
-    R: C
-  - T: "2015-08-31"
-    C: Google
-    F: "2013-09-30"
     P: pyro
-    R: C
-  - T: "2015-08-31"
-    C: Google
-    F: "2013-09-30"
-    P: sparklyr
     R: C
   - T: "2016-04-30"
     C: Storm8
@@ -31677,6 +31677,21 @@ P:
   - T: "2016-04-30"
     C: Storm8
     F: "2015-08-31"
+    P: Marquez
+    R: C
+  - T: "2016-04-30"
+    C: Storm8
+    F: "2015-08-31"
+    P: NNstreamer
+    R: C
+  - T: "2016-04-30"
+    C: Storm8
+    F: "2015-08-31"
+    P: Sparklyr
+    R: C
+  - T: "2016-04-30"
+    C: Storm8
+    F: "2015-08-31"
     P: edl
     R: C
   - T: "2016-04-30"
@@ -31707,22 +31722,7 @@ P:
   - T: "2016-04-30"
     C: Storm8
     F: "2015-08-31"
-    P: marquez
-    R: C
-  - T: "2016-04-30"
-    C: Storm8
-    F: "2015-08-31"
-    P: nnstreamer
-    R: C
-  - T: "2016-04-30"
-    C: Storm8
-    F: "2015-08-31"
     P: pyro
-    R: C
-  - T: "2016-04-30"
-    C: Storm8
-    F: "2015-08-31"
-    P: sparklyr
     R: C
   - T: "2016-10-31"
     C: Super Evil Megacorp
@@ -31742,6 +31742,21 @@ P:
   - T: "2016-10-31"
     C: Super Evil Megacorp
     F: "2016-04-30"
+    P: Marquez
+    R: C
+  - T: "2016-10-31"
+    C: Super Evil Megacorp
+    F: "2016-04-30"
+    P: NNstreamer
+    R: C
+  - T: "2016-10-31"
+    C: Super Evil Megacorp
+    F: "2016-04-30"
+    P: Sparklyr
+    R: C
+  - T: "2016-10-31"
+    C: Super Evil Megacorp
+    F: "2016-04-30"
     P: edl
     R: C
   - T: "2016-10-31"
@@ -31772,22 +31787,7 @@ P:
   - T: "2016-10-31"
     C: Super Evil Megacorp
     F: "2016-04-30"
-    P: marquez
-    R: C
-  - T: "2016-10-31"
-    C: Super Evil Megacorp
-    F: "2016-04-30"
-    P: nnstreamer
-    R: C
-  - T: "2016-10-31"
-    C: Super Evil Megacorp
-    F: "2016-04-30"
     P: pyro
-    R: C
-  - T: "2016-10-31"
-    C: Super Evil Megacorp
-    F: "2016-04-30"
-    P: sparklyr
     R: C
   - T: "2100-01-01"
     C: Super Evil Megacorp
@@ -31807,6 +31807,21 @@ P:
   - T: "2100-01-01"
     C: Super Evil Megacorp
     F: "2016-10-31"
+    P: Marquez
+    R: C
+  - T: "2100-01-01"
+    C: Super Evil Megacorp
+    F: "2016-10-31"
+    P: NNstreamer
+    R: C
+  - T: "2100-01-01"
+    C: Super Evil Megacorp
+    F: "2016-10-31"
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Super Evil Megacorp
+    F: "2016-10-31"
     P: edl
     R: C
   - T: "2100-01-01"
@@ -31837,22 +31852,7 @@ P:
   - T: "2100-01-01"
     C: Super Evil Megacorp
     F: "2016-10-31"
-    P: marquez
-    R: C
-  - T: "2100-01-01"
-    C: Super Evil Megacorp
-    F: "2016-10-31"
-    P: nnstreamer
-    R: C
-  - T: "2100-01-01"
-    C: Super Evil Megacorp
-    F: "2016-10-31"
     P: pyro
-    R: C
-  - T: "2100-01-01"
-    C: Super Evil Megacorp
-    F: "2016-10-31"
-    P: sparklyr
     R: C
   I:
   - M: Travis Addair
@@ -32312,7 +32312,7 @@ P:
   - T: "2008-10-22"
     C: ScriptDash
     F: "2008-10-17"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -34444,7 +34444,7 @@ P:
   - T: "2016-11-19"
     C: eBay, Inc.
     F: "2015-11-02"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -36890,12 +36890,12 @@ P:
   - T: "2020-02-01"
     C: Accenture Global Solutions Limited
     F: "2017-10-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Databricks Inc.
     F: "2020-02-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - M: Tristan Nixon
@@ -37226,6 +37226,11 @@ P:
   - T: "2016-03-01"
     C: Sense
     F: "1900-01-01"
+    P: Sparklyr
+    R: C
+  - T: "2016-03-01"
+    C: Sense
+    F: "1900-01-01"
     P: etcd
     R: C
   - T: "2016-03-01"
@@ -37243,10 +37248,10 @@ P:
     F: "1900-01-01"
     P: ojsf-nodejs
     R: C
-  - T: "2016-03-01"
-    C: Sense
-    F: "1900-01-01"
-    P: sparklyr
+  - T: "2100-01-01"
+    C: Continual IQ
+    F: "2016-03-01"
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Continual IQ
@@ -37257,11 +37262,6 @@ P:
     C: Continual IQ
     F: "2016-03-01"
     P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Continual IQ
-    F: "2016-03-01"
-    P: sparklyr
     R: C
   S: male
   I:
@@ -45878,7 +45878,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.

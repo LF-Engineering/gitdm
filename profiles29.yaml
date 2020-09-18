@@ -10437,7 +10437,7 @@ P:
   - T: "2100-01-01"
     C: Arrikto
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Arrikto
@@ -11685,7 +11685,7 @@ P:
   - T: "2015-09-22"
     C: Mirantis
     F: "2015-09-18"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2016-01-27"
     C: Mirantis
@@ -14626,12 +14626,12 @@ P:
   - T: "2017-07-01"
     C: The Climate Corporation
     F: "2014-09-01"
-    P: akraino
+    P: Sparklyr
     R: C
   - T: "2017-07-01"
     C: The Climate Corporation
     F: "2014-09-01"
-    P: sparklyr
+    P: akraino
     R: C
   - T: "2019-10-01"
     C: Uber
@@ -21881,12 +21881,17 @@ P:
   - T: "2020-02-01"
     C: Facebook, Inc.
     F: "2014-09-01"
-    P: akraino
+    P: Sparklyr
     R: C
   - T: "2020-02-01"
     C: Facebook, Inc.
     F: "2014-09-01"
-    P: sparklyr
+    P: akraino
+    R: C
+  - T: "2100-01-01"
+    C: RStudio PBC
+    F: "2020-02-01"
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: RStudio PBC
@@ -21897,11 +21902,6 @@ P:
     C: RStudio PBC
     F: "2020-02-01"
     P: mlf
-    R: C
-  - T: "2100-01-01"
-    C: RStudio PBC
-    F: "2020-02-01"
-    P: sparklyr
     R: C
   I:
   - E: yitao!rstudio.com
@@ -29345,7 +29345,7 @@ P:
   - T: "2015-12-01"
     C: HP
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2015-12-01"
     C: HP
@@ -29355,7 +29355,7 @@ P:
   - T: "2017-12-01"
     C: Hewlett
     F: "2015-12-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2017-12-01"
     C: Hewlett
@@ -29365,7 +29365,7 @@ P:
   - T: "2019-12-01"
     C: Jd.Com
     F: "2017-12-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2019-12-01"
     C: Jd.Com
@@ -29375,7 +29375,7 @@ P:
   - T: "2100-01-01"
     C: Apple
     F: "2019-12-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Apple
@@ -42110,7 +42110,7 @@ P:
   - T: "2016-11-18"
     C: Cisco Systems Inc.
     F: "2016-11-16"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -43009,7 +43009,7 @@ P:
   - T: "2016-09-30"
     C: Red Hat Inc.
     F: "2016-09-28"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: female
   I:
@@ -47280,7 +47280,7 @@ P:
   - T: "2100-01-01"
     C: Fujitsu
     F: "2015-09-24"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -48197,7 +48197,7 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -48220,17 +48220,17 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
     P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -50238,6 +50238,11 @@ P:
   - T: "2100-01-01"
     C: HP
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
     P: cdf-spinnaker
     R: C
   - T: "2100-01-01"
@@ -50248,17 +50253,12 @@ P:
   - T: "2100-01-01"
     C: HP
     F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: HP
-    F: "1900-01-01"
     P: tarscloud
     R: C
   - T: "2015-10-31"
     C: Huawei Technologies Co., Ltd.
     F: "2015-06-05"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2015-06-05"
     C: Huawei Technologies Co., Ltd.
@@ -50286,32 +50286,32 @@ P:
   - T: "2100-01-01"
     C: HP
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: HP
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
+    R: C
+  - T: "2015-06-05"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-10-31"
+    P: StackStorm
     R: C
   - T: "2015-06-05"
     C: Huawei Technologies Co., Ltd.
     F: "2015-10-31"
     P: cncf/shared
     R: C
-  - T: "2015-06-05"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-10-31"
-    P: stackstorm
+  - T: "2015-10-31"
+    C: HP
+    F: "2100-01-01"
+    P: StackStorm
     R: C
   - T: "2015-10-31"
     C: HP
     F: "2100-01-01"
     P: cncf/shared
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "2100-01-01"
-    P: stackstorm
     R: C
   I:
   - E: zhiqiang.fan!huawei.com
@@ -51766,6 +51766,11 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
@@ -51787,11 +51792,6 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
     P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -54325,7 +54325,7 @@ P:
   - T: "2015-06-01"
     C: ALPHA
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2015-06-01"
     C: ALPHA
@@ -54339,7 +54339,7 @@ P:
   - T: "2017-04-01"
     C: Shenzhen
     F: "2015-06-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2017-04-01"
     C: Shenzhen
@@ -54353,7 +54353,7 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "2017-04-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -55932,17 +55932,17 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -56505,7 +56505,7 @@ P:
   - T: "2019-02-14"
     C: OpenStack Foundation
     F: "2017-10-16"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: OpenStack Foundation
@@ -58478,37 +58478,37 @@ P:
   - T: "2011-04-01"
     C: Persistent Systems
     F: "2007-07-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2012-04-01"
     C: Sybase
     F: "2011-04-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2013-12-01"
     C: Tibco
     F: "2012-04-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2016-02-01"
     C: ScaleArc
     F: "2014-01-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2017-03-01"
     C: Indee.tv
     F: "2016-07-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2019-05-01"
     C: Qubole
     F: "2017-03-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Walmart
     F: "2019-05-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - E: abhijitj!qubole.com

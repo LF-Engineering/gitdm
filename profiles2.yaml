@@ -3972,6 +3972,11 @@ P:
   - T: "2015-09-01"
     C: shopa
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2015-09-01"
+    C: shopa
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2015-09-01"
@@ -3983,11 +3988,6 @@ P:
     C: shopa
     F: "1900-01-01"
     P: k8s
-    R: C
-  - T: "2015-09-01"
-    C: shopa
-    F: "1900-01-01"
-    P: stackstorm
     R: C
   - T: "2015-10-01"
     C: Jetstack
@@ -17966,6 +17966,21 @@ P:
   - T: "2012-07-31"
     C: Luxoft
     F: "2007-01-31"
+    P: Marquez
+    R: C
+  - T: "2012-07-31"
+    C: Luxoft
+    F: "2007-01-31"
+    P: NNstreamer
+    R: C
+  - T: "2012-07-31"
+    C: Luxoft
+    F: "2007-01-31"
+    P: Sparklyr
+    R: C
+  - T: "2012-07-31"
+    C: Luxoft
+    F: "2007-01-31"
     P: edl
     R: C
   - T: "2012-07-31"
@@ -17996,22 +18011,7 @@ P:
   - T: "2012-07-31"
     C: Luxoft
     F: "2007-01-31"
-    P: marquez
-    R: C
-  - T: "2012-07-31"
-    C: Luxoft
-    F: "2007-01-31"
-    P: nnstreamer
-    R: C
-  - T: "2012-07-31"
-    C: Luxoft
-    F: "2007-01-31"
     P: pyro
-    R: C
-  - T: "2012-07-31"
-    C: Luxoft
-    F: "2007-01-31"
-    P: sparklyr
     R: C
   - T: "2012-07-31"
     C: Deutsche Bank
@@ -18031,6 +18031,21 @@ P:
   - T: "2012-07-31"
     C: Deutsche Bank
     F: "2011-04-30"
+    P: Marquez
+    R: C
+  - T: "2012-07-31"
+    C: Deutsche Bank
+    F: "2011-04-30"
+    P: NNstreamer
+    R: C
+  - T: "2012-07-31"
+    C: Deutsche Bank
+    F: "2011-04-30"
+    P: Sparklyr
+    R: C
+  - T: "2012-07-31"
+    C: Deutsche Bank
+    F: "2011-04-30"
     P: edl
     R: C
   - T: "2012-07-31"
@@ -18061,22 +18076,7 @@ P:
   - T: "2012-07-31"
     C: Deutsche Bank
     F: "2011-04-30"
-    P: marquez
-    R: C
-  - T: "2012-07-31"
-    C: Deutsche Bank
-    F: "2011-04-30"
-    P: nnstreamer
-    R: C
-  - T: "2012-07-31"
-    C: Deutsche Bank
-    F: "2011-04-30"
     P: pyro
-    R: C
-  - T: "2012-07-31"
-    C: Deutsche Bank
-    F: "2011-04-30"
-    P: sparklyr
     R: C
   - T: "2016-08-31"
     C: Microsoft Corporation
@@ -18096,6 +18096,21 @@ P:
   - T: "2016-08-31"
     C: Microsoft Corporation
     F: "2012-09-30"
+    P: Marquez
+    R: C
+  - T: "2016-08-31"
+    C: Microsoft Corporation
+    F: "2012-09-30"
+    P: NNstreamer
+    R: C
+  - T: "2016-08-31"
+    C: Microsoft Corporation
+    F: "2012-09-30"
+    P: Sparklyr
+    R: C
+  - T: "2016-08-31"
+    C: Microsoft Corporation
+    F: "2012-09-30"
     P: edl
     R: C
   - T: "2016-08-31"
@@ -18126,22 +18141,7 @@ P:
   - T: "2016-08-31"
     C: Microsoft Corporation
     F: "2012-09-30"
-    P: marquez
-    R: C
-  - T: "2016-08-31"
-    C: Microsoft Corporation
-    F: "2012-09-30"
-    P: nnstreamer
-    R: C
-  - T: "2016-08-31"
-    C: Microsoft Corporation
-    F: "2012-09-30"
     P: pyro
-    R: C
-  - T: "2016-08-31"
-    C: Microsoft Corporation
-    F: "2012-09-30"
-    P: sparklyr
     R: C
   - T: "2019-09-30"
     C: Uber
@@ -18161,6 +18161,21 @@ P:
   - T: "2019-09-30"
     C: Uber
     F: "2016-08-31"
+    P: Marquez
+    R: C
+  - T: "2019-09-30"
+    C: Uber
+    F: "2016-08-31"
+    P: NNstreamer
+    R: C
+  - T: "2019-09-30"
+    C: Uber
+    F: "2016-08-31"
+    P: Sparklyr
+    R: C
+  - T: "2019-09-30"
+    C: Uber
+    F: "2016-08-31"
     P: edl
     R: C
   - T: "2019-09-30"
@@ -18191,22 +18206,7 @@ P:
   - T: "2019-09-30"
     C: Uber
     F: "2016-08-31"
-    P: marquez
-    R: C
-  - T: "2019-09-30"
-    C: Uber
-    F: "2016-08-31"
-    P: nnstreamer
-    R: C
-  - T: "2019-09-30"
-    C: Uber
-    F: "2016-08-31"
     P: pyro
-    R: C
-  - T: "2019-09-30"
-    C: Uber
-    F: "2016-08-31"
-    P: sparklyr
     R: C
   - T: "2100-01-01"
     C: Maka Autonomous Robotic Systems
@@ -18226,6 +18226,21 @@ P:
   - T: "2100-01-01"
     C: Maka Autonomous Robotic Systems
     F: "2019-09-30"
+    P: Marquez
+    R: C
+  - T: "2100-01-01"
+    C: Maka Autonomous Robotic Systems
+    F: "2019-09-30"
+    P: NNstreamer
+    R: C
+  - T: "2100-01-01"
+    C: Maka Autonomous Robotic Systems
+    F: "2019-09-30"
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Maka Autonomous Robotic Systems
+    F: "2019-09-30"
     P: edl
     R: C
   - T: "2100-01-01"
@@ -18256,22 +18271,7 @@ P:
   - T: "2100-01-01"
     C: Maka Autonomous Robotic Systems
     F: "2019-09-30"
-    P: marquez
-    R: C
-  - T: "2100-01-01"
-    C: Maka Autonomous Robotic Systems
-    F: "2019-09-30"
-    P: nnstreamer
-    R: C
-  - T: "2100-01-01"
-    C: Maka Autonomous Robotic Systems
-    F: "2019-09-30"
     P: pyro
-    R: C
-  - T: "2100-01-01"
-    C: Maka Autonomous Robotic Systems
-    F: "2019-09-30"
-    P: sparklyr
     R: C
   I:
   - M: Alex Sergeev
@@ -19473,12 +19473,17 @@ P:
   - T: "2016-09-01"
     C: RafTech.nl
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2016-09-01"
     C: RafTech.nl
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Schuberg Philis
+    F: "2016-09-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Schuberg Philis
@@ -19489,11 +19494,6 @@ P:
     C: Schuberg Philis
     F: "2016-09-01"
     P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Schuberg Philis
-    F: "2016-09-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -19722,37 +19722,37 @@ P:
   - T: "2007-08-01"
     C: UBS
     F: "2007-06-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2008-09-01"
     C: Boston University
     F: "2007-09-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2009-06-01"
     C: Weiss Asset Management
     F: "2008-06-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2013-05-01"
     C: Harvard University
     F: "2008-09-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2016-11-01"
     C: Google
     F: "2013-06-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2017-11-01"
     C: GRAIL, Inc.
     F: "2016-11-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Foresite Labs
     F: "2018-01-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - E: ablocker!gmail.com
@@ -20403,12 +20403,17 @@ P:
   - T: "2016-09-01"
     C: RafTech.nl
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2016-09-01"
     C: RafTech.nl
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Schuberg Philis
+    F: "2016-09-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Schuberg Philis
@@ -20419,11 +20424,6 @@ P:
     C: Schuberg Philis
     F: "2016-09-01"
     P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Schuberg Philis
-    F: "2016-09-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -28845,12 +28845,12 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2017-07-07"
-    P: k8s
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2017-07-07"
-    P: stackstorm
+    P: k8s
     R: C
   S: male
   I:
@@ -38342,22 +38342,22 @@ P:
   - T: "2016-05-01"
     C: Department of Visual Media, BITS Pilani
     F: "2014-08-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2016-07-01"
     C: Bharat Heavy Electricals Limited
     F: "2016-05-01"
-    P: sparklyr
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Qubole
+    F: "2018-07-01"
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Qubole
     F: "2018-07-01"
     P: mlf
-    R: C
-  - T: "2100-01-01"
-    C: Qubole
-    F: "2018-07-01"
-    P: sparklyr
     R: C
   I:
   - E: agrawalamey12!gmail.com
@@ -39095,6 +39095,11 @@ P:
   - T: "2015-06-01"
     C: Virtusa Corporation
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2015-06-01"
+    C: Virtusa Corporation
+    F: "1900-01-01"
     P: jaeger
     R: C
   - T: "2015-06-01"
@@ -39102,10 +39107,10 @@ P:
     F: "1900-01-01"
     P: k8s
     R: C
-  - T: "2015-06-01"
-    C: Virtusa Corporation
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2017-11-01"
+    C: Pearson
+    F: "2015-06-01"
+    P: StackStorm
     R: C
   - T: "2017-11-01"
     C: Pearson
@@ -39117,10 +39122,10 @@ P:
     F: "2015-06-01"
     P: k8s
     R: C
-  - T: "2017-11-01"
-    C: Pearson
-    F: "2015-06-01"
-    P: stackstorm
+  - T: "2018-08-01"
+    C: Cambio
+    F: "2017-11-01"
+    P: StackStorm
     R: C
   - T: "2018-08-01"
     C: Cambio
@@ -39132,10 +39137,10 @@ P:
     F: "2017-11-01"
     P: k8s
     R: C
-  - T: "2018-08-01"
-    C: Cambio
-    F: "2017-11-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Zalando
+    F: "2018-08-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Zalando
@@ -39146,11 +39151,6 @@ P:
     C: Zalando
     F: "2018-08-01"
     P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Zalando
-    F: "2018-08-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -41249,7 +41249,7 @@ P:
   - T: "2100-01-01"
     C: MayaData
     F: "2016-09-08"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: MayaData
@@ -44288,17 +44288,17 @@ P:
   - T: "2014-04-01"
     C: Acquia, Inc.
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2014-04-01"
+    C: Acquia, Inc.
+    F: "1900-01-01"
     P: brigade
     R: C
   - T: "2014-04-01"
     C: Acquia, Inc.
     F: "1900-01-01"
     P: cncf
-    R: C
-  - T: "2014-04-01"
-    C: Acquia, Inc.
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2014-04-01"
     C: Acquia, Inc.
@@ -44318,17 +44318,17 @@ P:
   - T: "2015-03-01"
     C: Phase2
     F: "2014-04-01"
+    P: Volcano
+    R: C
+  - T: "2015-03-01"
+    C: Phase2
+    F: "2014-04-01"
     P: brigade
     R: C
   - T: "2015-03-01"
     C: Phase2
     F: "2014-04-01"
     P: cncf
-    R: C
-  - T: "2015-03-01"
-    C: Phase2
-    F: "2014-04-01"
-    P: cncf/volcano
     R: C
   - T: "2015-03-01"
     C: Phase2
@@ -44348,17 +44348,17 @@ P:
   - T: "2015-08-01"
     C: Independent
     F: "2015-03-01"
+    P: Volcano
+    R: C
+  - T: "2015-08-01"
+    C: Independent
+    F: "2015-03-01"
     P: brigade
     R: C
   - T: "2015-08-01"
     C: Independent
     F: "2015-03-01"
     P: cncf
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-03-01"
-    P: cncf/volcano
     R: C
   - T: "2015-08-01"
     C: Independent
@@ -44378,17 +44378,17 @@ P:
   - T: "2019-04-01"
     C: Red Hat Inc.
     F: "2015-08-01"
+    P: Volcano
+    R: C
+  - T: "2019-04-01"
+    C: Red Hat Inc.
+    F: "2015-08-01"
     P: brigade
     R: C
   - T: "2019-04-01"
     C: Red Hat Inc.
     F: "2015-08-01"
     P: cncf
-    R: C
-  - T: "2019-04-01"
-    C: Red Hat Inc.
-    F: "2015-08-01"
-    P: cncf/volcano
     R: C
   - T: "2019-04-01"
     C: Red Hat Inc.
@@ -44404,6 +44404,11 @@ P:
     C: Red Hat Inc.
     F: "2015-08-01"
     P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-04-01"
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: CNCF
@@ -44419,11 +44424,6 @@ P:
     C: CNCF
     F: "2019-04-01"
     P: cncf/tremor
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2019-04-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: CNCF
@@ -47767,7 +47767,7 @@ P:
   - T: "2017-09-09"
     C: Mirantis
     F: "2014-07-01"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: akuznetsova!mirantis.com
@@ -55911,7 +55911,7 @@ P:
   - T: "2018-09-19"
     C: SUSE LLC
     F: "2016-01-20"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
@@ -60898,7 +60898,7 @@ P:
   - T: "2017-09-06"
     C: IBM
     F: "1901-01-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - E: aaperezl!us.ibm.com

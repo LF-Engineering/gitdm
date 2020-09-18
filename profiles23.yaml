@@ -1984,7 +1984,7 @@ P:
   - T: "2100-01-01"
     C: Polydice
     F: "2014-03-24"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -13909,12 +13909,17 @@ P:
   - T: "2015-01-01"
     C: Independent
     F: "1900-01-01"
-    P: envoy
+    P: StackStorm
     R: C
   - T: "2015-01-01"
     C: Independent
     F: "1900-01-01"
-    P: stackstorm
+    P: envoy
+    R: C
+  - T: "2016-09-01"
+    C: SmartThings
+    F: "2015-01-01"
+    P: StackStorm
     R: C
   - T: "2016-09-01"
     C: SmartThings
@@ -13926,10 +13931,10 @@ P:
     F: "2015-01-01"
     P: envoy
     R: C
-  - T: "2016-09-01"
-    C: SmartThings
-    F: "2015-01-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Netflix
+    F: "2016-09-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Netflix
@@ -13940,11 +13945,6 @@ P:
     C: Netflix
     F: "2016-09-01"
     P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Netflix
-    F: "2016-09-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -15389,7 +15389,7 @@ P:
   - T: "2015-07-16"
     C: HP
     F: "2015-06-24"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: rbtcollins!hp.com
@@ -29333,17 +29333,17 @@ P:
   - T: "2019-01-01"
     C: GlobalLogic
     F: "2015-11-01"
+    P: StackStorm
+    R: C
+  - T: "2019-01-01"
+    C: GlobalLogic
+    F: "2015-11-01"
     P: cncf/operatorframework
     R: C
   - T: "2019-01-01"
     C: GlobalLogic
     F: "2015-11-01"
     P: helm
-    R: C
-  - T: "2019-01-01"
-    C: GlobalLogic
-    F: "2015-11-01"
-    P: stackstorm
     R: C
   - T: "2100-01-01"
     C: Publicis Sapient
@@ -39762,22 +39762,22 @@ P:
   - T: "2015-10-01"
     C: keenlogics
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2015-10-01"
     C: keenlogics
     F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Contentful
-    F: "2015-10-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
     C: Contentful
     F: "2015-10-01"
-    P: stackstorm
+    P: StackStorm
+    R: C
+  - T: "2100-01-01"
+    C: Contentful
+    F: "2015-10-01"
+    P: cncf/shared
     R: C
   - T: "2100-01-01"
     C: Contentful
@@ -41983,7 +41983,7 @@ P:
   - T: "2100-01-01"
     C: Rudd-O
     F: "2019-06-21"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - M: Rudd-O
@@ -43943,27 +43943,27 @@ P:
   - T: "2010-04-30"
     C: Alibaba
     F: "2010-02-28"
-    P: marquez
+    P: Marquez
     R: C
   - T: "2012-04-30"
     C: University of North Carolina at Chapel Hill
     F: "2010-07-31"
-    P: marquez
+    P: Marquez
     R: C
   - T: "2014-12-31"
     C: Microsoft Corporation
     F: "2013-11-30"
-    P: marquez
+    P: Marquez
     R: C
   - T: "2100-01-01"
     C: LinkedIn Corporation
     F: "2014-12-31"
-    P: marquez
+    P: Marquez
     R: C
   - T: "2019-11-30"
     C: WeWork
     F: "2019-07-31"
-    P: marquez
+    P: Marquez
     R: C
   I:
   - E: rufkun.fan!wework.com
@@ -48003,7 +48003,7 @@ P:
   - T: "2018-02-07"
     C: Red Hat Inc.
     F: "2017-05-17"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: rbrady!redhat.com
@@ -48245,12 +48245,12 @@ P:
   - T: "2019-11-01"
     C: USPS
     F: "2017-07-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Penn State
     F: "2019-11-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - M: Ryan Chien
@@ -53228,7 +53228,7 @@ P:
   - T: "2015-04-09"
     C: Rackspace
     F: "2015-04-02"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Rackspace
@@ -59591,7 +59591,7 @@ P:
   - T: "2018-02-14"
     C: Red Hat Inc.
     F: "2018-02-12"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2019-07-23"
     C: Red Hat Inc.

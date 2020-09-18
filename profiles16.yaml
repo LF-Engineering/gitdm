@@ -1,4 +1,103 @@
 P:
+- C: US
+  E: kuo-lang.tseng!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2017-03-08"
+    C: Intel Corporation
+    F: "2016-05-23"
+    P: zep
+    R: C
+  - T: "2019-07-11"
+    C: Intel Corporation
+    F: "2018-08-23"
+    P: yocto
+    R: C
+  I:
+  - E: kuo-lang.tseng!intel.com
+    S: bugzilla
+    U: kuo-lang.tseng
+  - E: kuo-lang.tseng!intel.com
+    S: bugzilla
+    U: kuo-lang.tseng
+  - E: kuo-lang.tseng!intel.com
+    M: Kuo-Lang Tseng
+    S: git
+  - E: kuo-lang.tseng!intel.com
+    M: ktseng
+    S: git
+  - E: kuo-lang.tseng!intel.com
+    M: Kuo-Lang Tseng
+    S: groupsio
+  - E: kuo-lang.tseng!intel.com
+    M: Kuo-Lang Tseng
+    S: pipermail
+  B: 0
+  U: Kuo-Lang Tseng
+- R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2017-05-25"
+    C: SAP
+    F: "2017-05-22"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  S: male
+  I:
+  - M: Kuperman Sergey
+    S: github
+    U: i300543
+  B: 0
+  U: Kuperman Sergey
+- E: sathyanarayanan.kuppuswamy!linux.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: sathyanarayanan.kuppuswamy!linux.intel.com
+    M: Kuppuswamy Sathyanarayanan
+    S: git
+  B: 0
+  U: Kuppuswamy Sathyanarayanan
 - E: ilia.kurakin!intel.com
   R:
   - T: "2018-08-29"
@@ -3217,12 +3316,12 @@ P:
   - T: "2100-01-01"
     C: Netflix
     F: "2014-12-08"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2018-05-23"
     C: Netflix
     F: "2016-09-08"
-    P: sparklyr
+    P: Sparklyr
     R: C
   S: male
   I:
@@ -6539,6 +6638,11 @@ P:
   - T: "2014-02-15"
     C: TradingScreen
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2014-02-15"
+    C: TradingScreen
+    F: "1900-01-01"
     P: cncf
     R: C
   - T: "2014-02-15"
@@ -6579,11 +6683,6 @@ P:
   - T: "2014-02-15"
     C: TradingScreen
     F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2014-02-15"
-    C: TradingScreen
-    F: "1900-01-01"
     P: tarscloud
     R: C
   - T: "2014-02-15"
@@ -6594,17 +6693,22 @@ P:
   - T: "2007-02-01"
     C: Integ Group
     F: "2004-03-01"
+    P: StackStorm
+    R: C
+  - T: "2007-02-01"
+    C: Integ Group
+    F: "2004-03-01"
     P: lfn/tungsten-fabric
     R: C
   - T: "2007-02-01"
     C: Integ Group
     F: "2004-03-01"
-    P: stackstorm
-    R: C
-  - T: "2007-02-01"
-    C: Integ Group
-    F: "2004-03-01"
     P: tarscloud
+    R: C
+  - T: "2016-07-15"
+    C: Lithium Technologies
+    F: "2014-02-15"
+    P: StackStorm
     R: C
   - T: "2016-07-15"
     C: Lithium Technologies
@@ -6654,17 +6758,17 @@ P:
   - T: "2016-07-15"
     C: Lithium Technologies
     F: "2014-02-15"
-    P: stackstorm
-    R: C
-  - T: "2016-07-15"
-    C: Lithium Technologies
-    F: "2014-02-15"
     P: tarscloud
     R: C
   - T: "2016-07-15"
     C: Lithium Technologies
     F: "2014-02-15"
     P: virtualkubelet
+    R: C
+  - T: "2017-04-01"
+    C: Microsoft Corporation
+    F: "2016-07-15"
+    P: StackStorm
     R: C
   - T: "2017-04-01"
     C: Microsoft Corporation
@@ -6724,11 +6828,6 @@ P:
   - T: "2017-04-01"
     C: Microsoft Corporation
     F: "2016-07-15"
-    P: stackstorm
-    R: C
-  - T: "2017-04-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
     P: tarscloud
     R: C
   - T: "2017-04-01"
@@ -6739,12 +6838,12 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2016-07-15"
-    P: lfn/tungsten-fabric
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2016-07-15"
-    P: stackstorm
+    P: lfn/tungsten-fabric
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
@@ -6754,17 +6853,22 @@ P:
   - T: "2017-04-01"
     C: Deis, Inc
     F: "2016-08-01"
+    P: StackStorm
+    R: C
+  - T: "2017-04-01"
+    C: Deis, Inc
+    F: "2016-08-01"
     P: lfn/tungsten-fabric
     R: C
   - T: "2017-04-01"
     C: Deis, Inc
     F: "2016-08-01"
-    P: stackstorm
-    R: C
-  - T: "2017-04-01"
-    C: Deis, Inc
-    F: "2016-08-01"
     P: tarscloud
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2017-04-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Microsoft Corporation
@@ -6844,11 +6948,6 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2017-04-01"
-    P: stackstorm
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-04-01"
     P: tarscloud
     R: C
   - T: "2100-01-01"
@@ -6859,12 +6958,12 @@ P:
   - T: "2100-01-01"
     C: CNCF
     F: "2018-01-01"
-    P: lfn/tungsten-fabric
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: CNCF
     F: "2018-01-01"
-    P: stackstorm
+    P: lfn/tungsten-fabric
     R: C
   - T: "2100-01-01"
     C: CNCF
@@ -6902,7 +7001,7 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "2019-04-03"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -18817,7 +18916,7 @@ P:
   - T: "2017-05-01"
     C: IBM
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2017-05-01"
     C: IBM
@@ -18831,7 +18930,7 @@ P:
   - T: "2100-01-01"
     C: TuSimple
     F: "2017-05-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: TuSimple
@@ -18998,7 +19097,7 @@ P:
   - T: "2100-01-01"
     C: Oracle America Inc.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Oracle America Inc.
@@ -31948,6 +32047,11 @@ P:
   - T: "2014-05-01"
     C: Microsoft Corporation
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2014-05-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2014-05-01"
@@ -31965,10 +32069,10 @@ P:
     F: "1900-01-01"
     P: container-networking-interface
     R: C
-  - T: "2014-05-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2015-06-01"
+    C: DigitalOcean
+    F: "2014-05-01"
+    P: StackStorm
     R: C
   - T: "2015-06-01"
     C: DigitalOcean
@@ -31990,10 +32094,10 @@ P:
     F: "2014-05-01"
     P: container-networking-interface
     R: C
-  - T: "2015-06-01"
-    C: DigitalOcean
-    F: "2014-05-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Salesforce
+    F: "2015-06-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Salesforce
@@ -32019,11 +32123,6 @@ P:
     C: Salesforce
     F: "2015-06-01"
     P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2015-06-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -32082,6 +32181,11 @@ P:
   - T: "2014-05-01"
     C: Microsoft Corporation
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2014-05-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
     P: cncf/cni
     R: C
   - T: "2014-05-01"
@@ -32094,10 +32198,10 @@ P:
     F: "1900-01-01"
     P: container-networking-interface
     R: C
-  - T: "2014-05-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2015-06-01"
+    C: DigitalOcean
+    F: "2014-05-01"
+    P: StackStorm
     R: C
   - T: "2015-06-01"
     C: DigitalOcean
@@ -32114,10 +32218,10 @@ P:
     F: "2014-05-01"
     P: container-networking-interface
     R: C
-  - T: "2015-06-01"
-    C: DigitalOcean
-    F: "2014-05-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Salesforce
+    F: "2015-06-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Salesforce
@@ -32138,11 +32242,6 @@ P:
     C: Salesforce
     F: "2015-06-01"
     P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Salesforce
-    F: "2015-06-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -32960,42 +33059,42 @@ P:
   - T: "2015-11-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: k8s
+    P: StackStorm
     R: C
   - T: "2015-11-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: stackstorm
+    P: k8s
     R: C
   - T: "2015-11-17"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: stackstorm
+    P: StackStorm
+    R: C
+  - T: "2016-01-01"
+    C: Independent
+    F: "2015-11-01"
+    P: StackStorm
     R: C
   - T: "2016-01-01"
     C: Independent
     F: "2015-11-01"
     P: k8s
-    R: C
-  - T: "2016-01-01"
-    C: Independent
-    F: "2015-11-01"
-    P: stackstorm
     R: C
   - T: "2100-01-01"
     C: Catalyst IT
     F: "2015-11-17"
-    P: stackstorm
+    P: StackStorm
+    R: C
+  - T: "2100-01-01"
+    C: Catalyst Cloud
+    F: "2016-01-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Catalyst Cloud
     F: "2016-01-01"
     P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Catalyst Cloud
-    F: "2016-01-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -33871,6 +33970,11 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
@@ -33897,11 +34001,6 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
     P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -36607,12 +36706,12 @@ P:
   - T: "2018-06-01"
     C: Independent
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: NetEase
     F: "2018-06-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   I:
   - E: jwliu123!gmail.com
@@ -37068,6 +37167,11 @@ P:
   - T: "2100-01-01"
     C: BoCloud
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: BoCloud
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
@@ -37079,11 +37183,6 @@ P:
     C: BoCloud
     F: "1900-01-01"
     P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: BoCloud
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: BoCloud
@@ -38780,7 +38879,7 @@ P:
   - T: "2100-01-01"
     C: SecurityScorecard
     F: "2015-10-27"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - M: Logan Attwood
@@ -38827,7 +38926,7 @@ P:
   - T: "2015-11-06"
     C: SecurityScorecard
     F: "2015-10-27"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: lattwood!users.noreply.github.com
@@ -38846,7 +38945,7 @@ P:
   - T: "2100-01-01"
     C: SecurityScorecard
     F: "2015-10-29"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: logan.attwood!gmail.com
@@ -40686,7 +40785,7 @@ P:
   - T: "2100-01-01"
     C: Amazon
     F: "2018-01-30"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -45824,6 +45923,11 @@ P:
   - T: "2100-01-01"
     C: NetEase
     F: "1900-01-01"
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
     P: a092m00001iv4dqqal
     R: C
   - T: "2100-01-01"
@@ -45839,11 +45943,6 @@ P:
   - T: "2100-01-01"
     C: NetEase
     F: "1900-01-01"
-    P: sparklyr
-    R: C
-  - T: "2100-01-01"
-    C: NetEase
-    F: "1900-01-01"
     P: tikv
     R: C
   - T: "2100-01-01"
@@ -45854,12 +45953,12 @@ P:
   - T: "2015-01-31"
     C: Penn State University
     F: "2008-07-31"
-    P: horovod
+    P: Sparklyr
     R: C
   - T: "2015-01-31"
     C: Penn State University
     F: "2008-07-31"
-    P: sparklyr
+    P: horovod
     R: C
   - T: "2015-01-31"
     C: Penn State University
@@ -45869,12 +45968,12 @@ P:
   - T: "2012-07-31"
     C: NVIDIA Corporation
     F: "2012-04-30"
-    P: horovod
+    P: Sparklyr
     R: C
   - T: "2012-07-31"
     C: NVIDIA Corporation
     F: "2012-04-30"
-    P: sparklyr
+    P: horovod
     R: C
   - T: "2012-07-31"
     C: NVIDIA Corporation
@@ -45884,12 +45983,12 @@ P:
   - T: "2100-01-01"
     C: Lawrence Livermore National Laboratory
     F: "2015-01-31"
-    P: horovod
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Lawrence Livermore National Laboratory
     F: "2015-01-31"
-    P: sparklyr
+    P: horovod
     R: C
   - T: "2100-01-01"
     C: Lawrence Livermore National Laboratory
@@ -45899,12 +45998,12 @@ P:
   - T: "2100-01-01"
     C: Databricks
     F: "2018-03-31"
-    P: horovod
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Databricks
     F: "2018-03-31"
-    P: sparklyr
+    P: horovod
     R: C
   - T: "2100-01-01"
     C: Databricks
@@ -49784,7 +49883,7 @@ P:
   - T: "2016-02-19"
     C: Red Hat Inc.
     F: "2016-02-09"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -52160,7 +52259,7 @@ P:
   - T: "2100-01-01"
     C: Cloudbase Solutions
     F: "2016-07-04"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2017-11-10"
     C: Cloudbase Solutions
@@ -61037,7 +61136,7 @@ P:
   - T: "2100-01-01"
     C: Charter
     F: "2018-08-13"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -61279,12 +61378,12 @@ P:
   - T: "2018-01-30"
     C: Fujitsu
     F: "2016-09-26"
-    P: opnfv
+    P: StackStorm
     R: C
   - T: "2018-01-30"
     C: Fujitsu
     F: "2016-09-26"
-    P: stackstorm
+    P: opnfv
     R: C
   - T: "2017-06-13"
     C: Fujitsu
@@ -62008,76 +62107,3 @@ P:
     S: git
   B: 0
   U: Lyle Franklin and Shash Reddy
-- C: US
-  R:
-  - T: "2014-08-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2014-08-01"
-    C: IBM
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-08-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "2014-08-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2015-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2015-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: lylejfranklin!gmail.com
-    S: cloudfoundry:manual
-  - M: Lyle Franklin
-    S: cloudfoundry:manual
-  - E: lylejfranklin!gmail.com
-    M: Lyle Franklin
-    S: file:cff
-    U: ljfranklin
-  - M: Lyle Franklin
-    S: git
-  - E: lfranklin!pivotal.io
-    M: Lyle Franklin
-    S: git
-  - E: lylejfranklin!gmail.com
-    M: Lyle Franklin
-    S: git
-  - E: pair+lfranklin!pivotal.io
-    M: Lyle Franklin
-    S: git
-  - E: lylejfranklin!gmail.com
-    M: ljfranklin
-    S: git
-  - S: github
-    U: ljfranklin
-  - M: Lyle Franklin
-    S: github
-    U: ljfranklin
-  - E: lfranklin!pivotal.io
-    M: Lyle Franklin
-    S: groupsio
-  - E: lfranklin!pivotal.io
-    M: Lyle Franklin
-    S: mbox
-  - E: lfranklin!pivotal.io
-    M: Lyle Franklin
-    S: slack
-    U: lfranklin
-  B: 0
-  U: Lyle Franklin

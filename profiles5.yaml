@@ -1,4 +1,21 @@
 P:
+- E: bratiu!juniper.net
+  R:
+  - T: "2018-08-31"
+    C: Lenovo
+    F: "2015-01-01"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: bratiu!lenovo.com
+    M: Bogdan Ratiu
+    S: groupsio
+  - E: bratiu!juniper.net
+    M: Bogdan Ratiu
+    S: jira
+    U: bratiu
+  B: 0
+  U: Bogdan Ratiu
 - E: bogdan-mihail.sava!ing.com
   R:
   - T: "2100-01-01"
@@ -1203,12 +1220,17 @@ P:
   - T: "2013-04-10"
     C: Independent
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2013-04-10"
     C: Independent
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2013-04-10"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Mirantis
@@ -1219,11 +1241,6 @@ P:
     C: Mirantis
     F: "2013-04-10"
     P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "2013-04-10"
-    P: stackstorm
     R: C
   - T: "2016-09-29"
     C: Mirantis
@@ -4604,7 +4621,7 @@ P:
   - T: "2018-02-08"
     C: Red Hat Inc.
     F: "2016-07-26"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -7330,17 +7347,17 @@ P:
   - T: "2018-02-01"
     C: Virtustream
     F: "2016-02-01"
+    P: StackStorm
+    R: C
+  - T: "2018-02-01"
+    C: Virtustream
+    F: "2016-02-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2018-02-01"
     C: Virtustream
     F: "2016-02-01"
     P: cncf/contour
-    R: C
-  - T: "2018-02-01"
-    C: Virtustream
-    F: "2016-02-01"
-    P: stackstorm
     R: C
   - T: "2018-08-01"
     C: Dell EMC
@@ -11570,12 +11587,12 @@ P:
   - T: "2019-08-01"
     C: Carters Inc.
     F: "2015-08-01"
-    P: akraino
+    P: Sparklyr
     R: C
   - T: "2019-08-01"
     C: Carters Inc.
     F: "2015-08-01"
-    P: sparklyr
+    P: akraino
     R: C
   - T: "2100-01-01"
     C: The Home Depot
@@ -18215,7 +18232,7 @@ P:
   - T: "2009-06-22"
     C: Eldarion
     F: "2009-06-10"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -36194,7 +36211,7 @@ P:
   - T: "2017-01-04"
     C: Fujitsu
     F: "2016-08-26"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2017-01-06"
     C: Fujitsu
@@ -41080,7 +41097,7 @@ P:
   - T: "2018-05-18"
     C: RidgeRun, LLC
     F: "2018-01-01"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   - T: "2018-05-18"
     C: RidgeRun, LLC
@@ -41659,6 +41676,16 @@ P:
     C: Datacom
     F: "2014-05-01"
     P: danos
+    R: C
+  - T: "2019-03-01"
+    C: Datacom
+    F: "2014-05-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2019-06-01"
+    P: acrn/acrn
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -46547,17 +46574,17 @@ P:
   - T: "2100-01-01"
     C: Caicloud
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
     C: Caicloud
     F: "1900-01-01"
     P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Caicloud
@@ -46603,6 +46630,11 @@ P:
   - T: "2100-01-01"
     C: Caicloud
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
@@ -46634,11 +46666,6 @@ P:
     C: Caicloud
     F: "1900-01-01"
     P: cncf/tremor
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Caicloud
@@ -46696,6 +46723,11 @@ P:
   - T: "2100-01-01"
     C: Caicloud
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2100-01-01"
@@ -46712,11 +46744,6 @@ P:
     C: Caicloud
     F: "1900-01-01"
     P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Caicloud
@@ -48446,7 +48473,7 @@ P:
   - T: "2100-01-01"
     C: Treasure Data Inc.
     F: "2014-06-29"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -53435,6 +53462,11 @@ P:
   - T: "2100-01-01"
     C: EasyStack
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2100-01-01"
+    C: EasyStack
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
@@ -53442,10 +53474,10 @@ P:
     F: "1900-01-01"
     P: lfn/tungsten-fabric
     R: C
-  - T: "2100-01-01"
-    C: EasyStack
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2014-02-21"
+    C: IBM
+    F: "2100-01-01"
+    P: StackStorm
     R: C
   - T: "2014-02-21"
     C: IBM
@@ -53456,11 +53488,6 @@ P:
     C: IBM
     F: "2100-01-01"
     P: lfn/tungsten-fabric
-    R: C
-  - T: "2014-02-21"
-    C: IBM
-    F: "2100-01-01"
-    P: stackstorm
     R: C
   I:
   - E: eric.guo!easystack.cn
@@ -53599,7 +53626,7 @@ P:
   - T: "2100-01-01"
     C: Jike
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Jike
@@ -53623,12 +53650,12 @@ P:
   - T: "2100-01-01"
     C: Jike
     F: "1900-01-01"
-    P: cephfoundation
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Jike
     F: "1900-01-01"
-    P: cncf/volcano
+    P: cephfoundation
     R: C
   - T: "2100-01-01"
     C: Jike
@@ -58467,7 +58494,7 @@ P:
   - T: "2016-02-10"
     C: SendGrid
     F: "2016-01-08"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: female
   I:
@@ -62190,47 +62217,3 @@ P:
     S: git
   B: 0
   U: Cheng Xing
-- E: chezhang!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: chezhang!redhat.com
-    M: Cheng Zhang
-    S: github
-    U: chengzhang1016
-  B: 0
-  U: Cheng Zhang
-- E: zhang.cheng7!zte.com.cn
-  R:
-  - T: "2018-03-16"
-    C: ZTE Corporation
-    F: "2018-01-01"
-    R: C
-  - T: "2018-03-16"
-    C: ZTE Corporation
-    F: "2018-01-01"
-    P: onap
-    R: C
-  I:
-  - E: zhang.cheng7!zte.com.cn
-    M: Cheng Zhang
-    S: gerrit
-    U: zhangcheng
-  - E: zhang.cheng7!zte.com.cn
-    M: zhangcheng
-    S: git
-  - E: zhang.cheng7!zte.com.cn
-    M: Cheng Zhang
-    S: jira
-    U: zhangcheng
-  B: 0
-  U: Cheng Zhang

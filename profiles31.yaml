@@ -419,7 +419,7 @@ P:
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2019-01-01"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   I:
   - E: 56856496+gichan-jang!users.noreply.github.com
@@ -1991,6 +1991,11 @@ P:
   - T: "2013-06-15"
     C: IBM
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2013-06-15"
+    C: IBM
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2013-06-15"
@@ -2003,10 +2008,10 @@ P:
     F: "1900-01-01"
     P: lfn/tungsten-fabric
     R: C
-  - T: "2013-06-15"
-    C: IBM
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2014-11-10"
+    C: UnitedStack
+    F: "2013-06-15"
+    P: StackStorm
     R: C
   - T: "2014-11-10"
     C: UnitedStack
@@ -2023,10 +2028,10 @@ P:
     F: "2013-06-15"
     P: lfn/tungsten-fabric
     R: C
-  - T: "2014-11-10"
-    C: UnitedStack
-    F: "2013-06-15"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: 99Cloud Inc.
+    F: "2014-11-10"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: 99Cloud Inc.
@@ -2047,11 +2052,6 @@ P:
     C: 99Cloud Inc.
     F: "2014-11-10"
     P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: 99Cloud Inc.
-    F: "2014-11-10"
-    P: stackstorm
     R: C
   - T: "2017-06-02"
     C: 99Cloud Inc.
@@ -2332,12 +2332,12 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "2015-05-31"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "2015-05-31"
-    P: stackstorm
+    P: cncf/shared
     R: C
   I:
   - E: gord!live.ca
@@ -2351,42 +2351,42 @@ P:
   - T: "2014-06-24"
     C: eNovance
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2014-06-24"
     C: eNovance
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
+    R: C
+  - T: "2014-06-27"
+    C: IBM
+    F: "2014-06-24"
+    P: StackStorm
     R: C
   - T: "2014-06-27"
     C: IBM
     F: "2014-06-24"
     P: cncf/shared
     R: C
-  - T: "2014-06-27"
-    C: IBM
-    F: "2014-06-24"
-    P: stackstorm
+  - T: "2015-05-31"
+    C: Red Hat Inc.
+    F: "2014-06-27"
+    P: StackStorm
     R: C
   - T: "2015-05-31"
     C: Red Hat Inc.
     F: "2014-06-27"
     P: cncf/shared
     R: C
-  - T: "2015-05-31"
-    C: Red Hat Inc.
-    F: "2014-06-27"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-05-31"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "2015-05-31"
     P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-05-31"
-    P: stackstorm
     R: C
   I:
   - E: gord!live.ca
@@ -2767,7 +2767,7 @@ P:
   - T: "2017-10-10"
     C: Tata Consultancy Services
     F: "2017-08-23"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2019-01-15"
     C: Tata Consultancy Services
@@ -7005,7 +7005,7 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -16756,7 +16756,7 @@ P:
   - T: "2017-10-06"
     C: PoleX
     F: "2017-04-20"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: krystism!gmail.com
@@ -20089,6 +20089,21 @@ P:
   - T: "2100-01-01"
     C: Orange S.A.
     F: "2019-06-07"
+    P: Marquez
+    R: C
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "2019-06-07"
+    P: NNstreamer
+    R: C
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "2019-06-07"
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Orange S.A.
+    F: "2019-06-07"
     P: edl
     R: C
   - T: "2100-01-01"
@@ -20114,22 +20129,7 @@ P:
   - T: "2100-01-01"
     C: Orange S.A.
     F: "2019-06-07"
-    P: marquez
-    R: C
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "2019-06-07"
-    P: nnstreamer
-    R: C
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "2019-06-07"
     P: pyro
-    R: C
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "2019-06-07"
-    P: sparklyr
     R: C
   I:
   - M: jamil chawki
@@ -25842,12 +25842,12 @@ P:
   - T: "2100-01-01"
     C: 1&1 Internet AG
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: 1&1 Internet AG
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
     R: C
   I:
   - E: jh!web.de
@@ -29818,7 +29818,7 @@ P:
   - T: "2017-07-25"
     C: Trip
     F: "2017-04-12"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: joeyjy!outlook.com
@@ -35843,37 +35843,37 @@ P:
   - T: "2002-12-01"
     C: Walt Disney Animation Studios
     F: "2002-07-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2003-12-01"
     C: Infor
     F: "2003-01-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2010-10-01"
     C: Bookatable
     F: "2007-02-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2014-09-01"
     C: OpenTee
     F: "2013-08-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2016-12-01"
     C: Forefront Consulting
     F: "2014-09-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2018-01-01"
     C: Tele2
     F: "2016-06-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Telia
     F: "2018-01-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - E: kristofer.agren!tele2.com
@@ -42168,12 +42168,12 @@ P:
   - T: "2015-11-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2015-11-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
     R: C
   - T: "2016-01-01"
     C: Independent
@@ -46713,7 +46713,7 @@ P:
   - T: "2100-01-01"
     C: Unisound
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Unisound
@@ -49453,7 +49453,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -51304,7 +51304,7 @@ P:
   - T: "2015-07-16"
     C: Huawei Technologies Co., Ltd.
     F: "2015-04-15"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: liusheng!huawei.com
@@ -52888,7 +52888,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   I:
   - S: github
@@ -52932,7 +52932,7 @@ P:
   - T: "2100-01-01"
     C: NetEase
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: NetEase
@@ -55290,7 +55290,7 @@ P:
   - T: "2100-01-01"
     C: Charter
     F: "2018-08-13"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -57910,12 +57910,12 @@ P:
   - T: "2100-01-01"
     C: ICT
     F: "1900-01-01"
-    P: argo
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: ICT
     F: "1900-01-01"
-    P: cncf/volcano
+    P: argo
     R: C
   I:
   - E: malixian!ncic.ac.cn
@@ -60580,22 +60580,22 @@ P:
   - T: "2010-03-01"
     C: Tibco
     F: "2008-09-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Mirai Solutions GmbH
     F: "2010-05-01"
-    P: sparklyr
+    P: Sparklyr
+    R: C
+  - T: "2014-01-01"
+    C: University of Zurich
+    F: "2012-01-01"
+    P: Sparklyr
     R: C
   - T: "2014-01-01"
     C: University of Zurich
     F: "2012-01-01"
     P: r-hub
-    R: C
-  - T: "2014-01-01"
-    C: University of Zurich
-    F: "2012-01-01"
-    P: sparklyr
     R: C
   I:
   - E: martin.remo.studer!gmail.com
@@ -61055,7 +61055,7 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Intel Corporation
@@ -62165,6 +62165,11 @@ P:
   - T: "2015-09-15"
     C: YDEK Productions
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2015-09-15"
+    C: YDEK Productions
+    F: "1900-01-01"
     P: caf
     R: C
   - T: "2015-09-15"
@@ -62212,10 +62217,10 @@ P:
     F: "1900-01-01"
     P: ojsf-nodejs
     R: C
-  - T: "2015-09-15"
-    C: YDEK Productions
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Sentry
+    F: "2015-09-15"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Sentry
@@ -62251,11 +62256,6 @@ P:
     C: Sentry
     F: "2015-09-15"
     P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Sentry
-    F: "2015-09-15"
-    P: stackstorm
     R: C
   S: male
   I:

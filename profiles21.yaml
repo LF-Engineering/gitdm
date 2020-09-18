@@ -1615,7 +1615,7 @@ P:
   - T: "2100-01-01"
     C: EasyStack
     F: "2016-07-14"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -2718,6 +2718,11 @@ P:
   - T: "2015-09-01"
     C: Independent
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2015-09-01"
+    C: Independent
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2015-09-01"
@@ -2745,15 +2750,15 @@ P:
     F: "1900-01-01"
     P: prometheus
     R: C
-  - T: "2015-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: stackstorm
-    R: C
   - T: "2016-10-01"
     C: Independent
     F: "1900-01-01"
-    P: stackstorm
+    P: StackStorm
+    R: C
+  - T: "2016-04-01"
+    C: Lyst
+    F: "2015-09-01"
+    P: StackStorm
     R: C
   - T: "2016-04-01"
     C: Lyst
@@ -2785,10 +2790,10 @@ P:
     F: "2015-09-01"
     P: prometheus
     R: C
-  - T: "2016-04-01"
-    C: Lyst
-    F: "2015-09-01"
-    P: stackstorm
+  - T: "2016-10-01"
+    C: Independent
+    F: "2016-04-01"
+    P: StackStorm
     R: C
   - T: "2016-10-01"
     C: Independent
@@ -2820,10 +2825,10 @@ P:
     F: "2016-04-01"
     P: prometheus
     R: C
-  - T: "2016-10-01"
-    C: Independent
-    F: "2016-04-01"
-    P: stackstorm
+  - T: "2017-09-01"
+    C: INTRASOFT
+    F: "2016-10-01"
+    P: StackStorm
     R: C
   - T: "2017-09-01"
     C: INTRASOFT
@@ -2855,10 +2860,10 @@ P:
     F: "2016-10-01"
     P: prometheus
     R: C
-  - T: "2017-09-01"
-    C: INTRASOFT
-    F: "2016-10-01"
-    P: stackstorm
+  - T: "2019-05-01"
+    C: ENCODE
+    F: "2017-09-01"
+    P: StackStorm
     R: C
   - T: "2019-05-01"
     C: ENCODE
@@ -2890,10 +2895,10 @@ P:
     F: "2017-09-01"
     P: prometheus
     R: C
-  - T: "2019-05-01"
-    C: ENCODE
-    F: "2017-09-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Workable
+    F: "2019-05-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Workable
@@ -2929,11 +2934,6 @@ P:
     C: Workable
     F: "2019-05-01"
     P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Workable
-    F: "2019-05-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -4349,17 +4349,17 @@ P:
   - T: "2013-07-01"
     C: Qualcomm, Inc.
     F: "2013-05-01"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   - T: "2013-07-01"
     C: Samsung Electronics Co. Ltd.
     F: "2013-05-01"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2014-09-01"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   I:
   - E: kparichay!gmail.com
@@ -9091,6 +9091,11 @@ P:
   - T: "2016-04-01"
     C: MuleSoft
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2016-04-01"
+    C: MuleSoft
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2016-04-01"
@@ -9098,10 +9103,10 @@ P:
     F: "1900-01-01"
     P: cortex
     R: C
-  - T: "2016-04-01"
-    C: MuleSoft
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2017-02-01"
+    C: fact0ry
+    F: "2016-04-01"
+    P: StackStorm
     R: C
   - T: "2017-02-01"
     C: fact0ry
@@ -9113,10 +9118,10 @@ P:
     F: "2016-04-01"
     P: cortex
     R: C
-  - T: "2017-02-01"
-    C: fact0ry
-    F: "2016-04-01"
-    P: stackstorm
+  - T: "2017-09-01"
+    C: Gigster
+    F: "2017-02-01"
+    P: StackStorm
     R: C
   - T: "2017-09-01"
     C: Gigster
@@ -9128,10 +9133,10 @@ P:
     F: "2017-02-01"
     P: cortex
     R: C
-  - T: "2017-09-01"
-    C: Gigster
-    F: "2017-02-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Opendoor
+    F: "2017-09-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Opendoor
@@ -9142,11 +9147,6 @@ P:
     C: Opendoor
     F: "2017-09-01"
     P: cortex
-    R: C
-  - T: "2100-01-01"
-    C: Opendoor
-    F: "2017-09-01"
-    P: stackstorm
     R: C
   - T: "2100-01-01"
     C: Opendoor
@@ -10275,7 +10275,7 @@ P:
   - T: "2016-12-03"
     C: StackStorm
     F: "2014-06-16"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -10295,7 +10295,7 @@ P:
   - T: "2100-01-01"
     C: StackStorm
     F: "2014-06-16"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -19141,7 +19141,7 @@ P:
   - T: "2011-11-05"
     C: Success Creation
     F: "2011-11-03"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -32392,17 +32392,17 @@ P:
   - T: "2100-01-01"
     C: Kesci
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Kesci
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
     C: Kesci
     F: "1900-01-01"
     P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Kesci
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Kesci
@@ -32619,6 +32619,11 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2100-01-01"
@@ -32630,11 +32635,6 @@ P:
     C: IBM
     F: "1900-01-01"
     P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -41848,12 +41848,12 @@ P:
   - T: "2100-01-01"
     C: Hotels.com
     F: "1900-01-01"
-    P: k8s
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Hotels.com
     F: "1900-01-01"
-    P: stackstorm
+    P: k8s
     R: C
   I:
   - M: Peter Reisinger
@@ -58173,6 +58173,11 @@ P:
   - T: "2019-12-01"
     C: Vogelaar
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2019-12-01"
+    C: Vogelaar
+    F: "1900-01-01"
     P: helm
     R: C
   - T: "2019-12-01"
@@ -58185,10 +58190,10 @@ P:
     F: "1900-01-01"
     P: linkerd
     R: C
-  - T: "2019-12-01"
-    C: Vogelaar
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Capgemini
+    F: "2019-12-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Capgemini
@@ -58204,11 +58209,6 @@ P:
     C: Capgemini
     F: "2019-12-01"
     P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Capgemini
-    F: "2019-12-01"
-    P: stackstorm
     R: C
   S: male
   I:

@@ -9349,7 +9349,7 @@ P:
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2018-08-30"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   S: male
   I:
@@ -13229,6 +13229,21 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2003-01-01"
+    P: Marquez
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2003-01-01"
+    P: NNstreamer
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2003-01-01"
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2003-01-01"
     P: acumos
     R: C
   - T: "2100-01-01"
@@ -13269,16 +13284,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2003-01-01"
-    P: marquez
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2003-01-01"
-    P: nnstreamer
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2003-01-01"
     P: odpi-egeria
     R: C
   - T: "2100-01-01"
@@ -13290,11 +13295,6 @@ P:
     C: IBM
     F: "2003-01-01"
     P: pyro
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2003-01-01"
-    P: sparklyr
     R: C
   I:
   - M: Susan  Malaika
@@ -22440,7 +22440,7 @@ P:
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2013-09-01"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   I:
   - E: ty83.chung!samsung.com
@@ -32798,7 +32798,7 @@ P:
   - T: "2100-01-01"
     C: Fastly
     F: "2012-07-03"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: miyagawa!bulknews.net
@@ -39652,12 +39652,12 @@ P:
   - T: "2017-11-01"
     C: Independent
     F: "1900-01-01"
-    P: argo
+    P: Volcano
     R: C
   - T: "2017-11-01"
     C: Independent
     F: "1900-01-01"
-    P: cncf/volcano
+    P: argo
     R: C
   - T: "2017-11-01"
     C: Independent
@@ -39692,12 +39692,12 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "2017-11-01"
-    P: argo
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "2017-11-01"
-    P: cncf/volcano
+    P: argo
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -40389,12 +40389,12 @@ P:
   - T: "2016-08-01"
     C: Monitor Backlinks
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2016-08-01"
     C: Monitor Backlinks
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
     R: C
   - T: "2016-11-01"
     C: StackStorm
@@ -40427,12 +40427,12 @@ P:
   - T: "2016-08-01"
     C: Monitor Backlinks
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2016-08-01"
     C: Monitor Backlinks
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
     R: C
   - T: "2016-11-01"
     C: StackStorm
@@ -40674,7 +40674,7 @@ P:
   - T: "2014-12-09"
     C: Gitter
     F: "2014-11-15"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2015-01-14"
     C: Gitter
@@ -40694,7 +40694,7 @@ P:
   - T: "2100-01-01"
     C: Gitter
     F: "2017-05-05"
-    P: sparklyr
+    P: Sparklyr
     R: C
   S: male
   I:
@@ -43146,7 +43146,7 @@ P:
   - T: "2100-01-01"
     C: OpenStack Foundation
     F: "2016-03-17"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -47490,7 +47490,7 @@ P:
   - T: "2018-03-01"
     C: Red Hat Inc.
     F: "2016-02-01"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2017-09-03"
     C: Red Hat Inc.
@@ -54474,6 +54474,11 @@ P:
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Baidu
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
@@ -54485,11 +54490,6 @@ P:
     C: Baidu
     F: "1900-01-01"
     P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Baidu
@@ -54519,12 +54519,12 @@ P:
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
-    P: cncf
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
-    P: cncf/volcano
+    P: cncf
     R: C
   - T: "2100-01-01"
     C: Baidu

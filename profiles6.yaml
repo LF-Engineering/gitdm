@@ -1,4 +1,48 @@
 P:
+- E: chezhang!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: chezhang!redhat.com
+    M: Cheng Zhang
+    S: github
+    U: chengzhang1016
+  B: 0
+  U: Cheng Zhang
+- E: zhang.cheng7!zte.com.cn
+  R:
+  - T: "2018-03-16"
+    C: ZTE Corporation
+    F: "2018-01-01"
+    R: C
+  - T: "2018-03-16"
+    C: ZTE Corporation
+    F: "2018-01-01"
+    P: onap
+    R: C
+  I:
+  - E: zhang.cheng7!zte.com.cn
+    M: Cheng Zhang
+    S: gerrit
+    U: zhangcheng
+  - E: zhang.cheng7!zte.com.cn
+    M: zhangcheng
+    S: git
+  - E: zhang.cheng7!zte.com.cn
+    M: Cheng Zhang
+    S: jira
+    U: zhangcheng
+  B: 0
+  U: Cheng Zhang
 - C: TW
   E: clsung!gmail.com
   R:
@@ -5235,6 +5279,11 @@ P:
   - T: "2100-01-01"
     C: CNCF
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2100-01-01"
@@ -5321,11 +5370,6 @@ P:
     C: CNCF
     F: "1900-01-01"
     P: cncf/tremor
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: CNCF
@@ -10634,12 +10678,12 @@ P:
   - T: "2017-07-01"
     C: Rackspace
     F: "2015-07-01"
-    P: baetyl
+    P: StackStorm
     R: C
   - T: "2017-07-01"
     C: Rackspace
     F: "2015-07-01"
-    P: stackstorm
+    P: baetyl
     R: C
   S: male
   I:
@@ -18524,7 +18568,7 @@ P:
   - T: "2015-11-11"
     C: B1 Systems GmbH
     F: "2014-05-28"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2014-07-22"
     C: B1 Systems GmbH
@@ -28185,17 +28229,22 @@ P:
   - T: "2009-09-01"
     C: Bouygues
     F: "2009-07-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2010-09-01"
     C: b.pulse
     F: "2009-09-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2011-06-01"
     C: Groupe PSA
     F: "2009-09-01"
-    P: sparklyr
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Réseau de Transport d'Électricité
+    F: "2011-09-01"
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Réseau de Transport d'Électricité
@@ -28206,11 +28255,6 @@ P:
     C: Réseau de Transport d'Électricité
     F: "2011-09-01"
     P: r-ladies
-    R: C
-  - T: "2100-01-01"
-    C: Réseau de Transport d'Électricité
-    F: "2011-09-01"
-    P: sparklyr
     R: C
   I:
   - E: christophe.dervieux!gmail.com
@@ -34338,12 +34382,12 @@ P:
   - T: "2100-01-01"
     C: Nodalpoint Systems
     F: "2014-10-01"
-    P: pyro
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Nodalpoint Systems
     F: "2014-10-01"
-    P: sparklyr
+    P: pyro
     R: C
   I:
   - E: ctsats!hotmail.com
@@ -36232,7 +36276,7 @@ P:
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2019-12-09"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   I:
   - E: chunseok.lee!samsung.com
@@ -39822,7 +39866,7 @@ P:
   - T: "2015-09-04"
     C: Cloudbase Solutions
     F: "2015-09-01"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2019-05-26"
     C: Cloudbase Solutions
@@ -43225,7 +43269,7 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "2016-02-25"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -50927,7 +50971,7 @@ P:
   - T: "2014-10-22"
     C: Kickstarter
     F: "2014-09-13"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Kickstarter
@@ -60594,6 +60638,21 @@ P:
   - T: "2100-01-01"
     C: Motion-ai.com
     F: "2019-09-01"
+    P: Marquez
+    R: C
+  - T: "2100-01-01"
+    C: Motion-ai.com
+    F: "2019-09-01"
+    P: NNstreamer
+    R: C
+  - T: "2100-01-01"
+    C: Motion-ai.com
+    F: "2019-09-01"
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Motion-ai.com
+    F: "2019-09-01"
     P: acumos
     R: C
   - T: "2100-01-01"
@@ -60639,27 +60698,12 @@ P:
   - T: "2100-01-01"
     C: Motion-ai.com
     F: "2019-09-01"
-    P: marquez
-    R: C
-  - T: "2100-01-01"
-    C: Motion-ai.com
-    F: "2019-09-01"
-    P: nnstreamer
-    R: C
-  - T: "2100-01-01"
-    C: Motion-ai.com
-    F: "2019-09-01"
     P: project-eve
     R: C
   - T: "2100-01-01"
     C: Motion-ai.com
     F: "2019-09-01"
     P: pyro
-    R: C
-  - T: "2100-01-01"
-    C: Motion-ai.com
-    F: "2019-09-01"
-    P: sparklyr
     R: C
   I:
   - E: github!dcmartin.com
@@ -61599,6 +61643,11 @@ P:
   - T: "2018-11-01"
     C: IBM
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2018-11-01"
+    C: IBM
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2018-11-01"
@@ -61634,11 +61683,6 @@ P:
   - T: "2018-11-01"
     C: IBM
     F: "1900-01-01"
-    P: cncf/volcano
-    R: C
-  - T: "2018-11-01"
-    C: IBM
-    F: "1900-01-01"
     P: k8s
     R: C
   - T: "2018-11-01"
@@ -61655,6 +61699,11 @@ P:
     C: IBM
     F: "1900-01-01"
     P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2018-11-01"
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -61690,11 +61739,6 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "2018-11-01"
     P: cncf/tremor
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2018-11-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -62263,141 +62307,3 @@ P:
     S: git
   B: 0
   U: Dahir Osman
-- C: US
-  E: 149529+dlbock!users.noreply.github.com
-  R:
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-12-01"
-    C: SoundCloud
-    F: "2014-09-01"
-    R: C
-  - T: "2016-12-01"
-    C: SoundCloud
-    F: "2014-09-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2016-12-01"
-    C: SoundCloud
-    F: "2014-09-01"
-    P: helm
-    R: C
-  - T: "2017-09-01"
-    C: NBCUniversal Media
-    F: "2016-12-01"
-    R: C
-  - T: "2017-09-01"
-    C: NBCUniversal Media
-    F: "2016-12-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-09-01"
-    C: NBCUniversal Media
-    F: "2016-12-01"
-    P: helm
-    R: C
-  - T: "2018-12-01"
-    C: Big Commerce
-    F: "2017-09-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2018-12-01"
-    C: Big Commerce
-    F: "2017-09-01"
-    P: helm
-    R: C
-  - T: "2018-12-01"
-    C: Bigcommerce
-    F: "2017-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Instana
-    F: "2018-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: Instana
-    F: "2018-12-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Instana
-    F: "2018-12-01"
-    P: helm
-    R: C
-  S: female
-  I:
-  - E: 149529+dlbock!users.noreply.github.com
-    M: Dahlia B
-    S: git
-  B: 0
-  U: Dahlia B
-- E: 149529+dlbock!users.noreply.github.com
-  R:
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2014-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-12-01"
-    C: SoundCloud
-    F: "2014-09-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2016-12-01"
-    C: SoundCloud
-    F: "2014-09-01"
-    P: helm
-    R: C
-  - T: "2017-09-01"
-    C: NBCUniversal Media
-    F: "2016-12-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-09-01"
-    C: NBCUniversal Media
-    F: "2016-12-01"
-    P: helm
-    R: C
-  - T: "2018-12-01"
-    C: Big Commerce
-    F: "2017-09-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2018-12-01"
-    C: Big Commerce
-    F: "2017-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Instana
-    F: "2018-12-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Instana
-    F: "2018-12-01"
-    P: helm
-    R: C
-  I:
-  - E: 149529+dlbock!users.noreply.github.com
-    M: Dahlia Bock
-    S: git
-  B: 0
-  U: Dahlia Bock

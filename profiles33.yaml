@@ -1455,12 +1455,12 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
-    P: cncf/k3s
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
-    P: cncf/volcano
+    P: cncf/k3s
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -3811,7 +3811,7 @@ P:
   - T: "2015-07-01"
     C: Independent
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2015-07-01"
     C: Independent
@@ -3825,7 +3825,7 @@ P:
   - T: "2016-07-01"
     C: Bhumi
     F: "2015-07-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2016-07-01"
     C: Bhumi
@@ -3839,7 +3839,7 @@ P:
   - T: "2100-01-01"
     C: Cisco Systems Inc.
     F: "2016-07-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Cisco Systems Inc.
@@ -7936,7 +7936,7 @@ P:
   - T: "2017-11-01"
     C: Independent
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2017-11-01"
     C: Independent
@@ -7954,7 +7954,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "2017-11-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -10347,17 +10347,17 @@ P:
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Baidu
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
     P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Baidu
@@ -12870,7 +12870,12 @@ P:
   - T: "2013-07-01"
     C: UT Southwestern Medical Center
     F: "2007-05-01"
-    P: sparklyr
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Trestle Technology
+    F: "2010-05-01"
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Trestle Technology
@@ -12883,14 +12888,9 @@ P:
     P: r-ladies
     R: C
   - T: "2100-01-01"
-    C: Trestle Technology
-    F: "2010-05-01"
-    P: sparklyr
-    R: C
-  - T: "2100-01-01"
     C: RStudio PBC
     F: "2013-05-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - E: github!trestletech.com
@@ -13919,7 +13919,7 @@ P:
   - T: "2017-06-14"
     C: Fujitsu
     F: "2017-06-06"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2019-02-28"
     C: Fujitsu
@@ -14970,7 +14970,7 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   I:
   - S: github
@@ -15453,7 +15453,7 @@ P:
   - T: "2018-02-06"
     C: China Mobile Communication Company Ltd
     F: "1901-01-01"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: xuliang!cmiot.chinamobile.com
@@ -16697,7 +16697,7 @@ P:
   - T: "2100-01-01"
     C: HP
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: HP
@@ -16711,7 +16711,7 @@ P:
   - T: "2015-11-13"
     C: Letv Cloud Computing
     F: "2015-10-31"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2015-11-13"
     C: Letv Cloud Computing
@@ -16725,7 +16725,7 @@ P:
   - T: "2015-10-31"
     C: HP
     F: "2100-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2015-10-31"
     C: HP
@@ -17736,17 +17736,17 @@ P:
   - T: "2016-06-08"
     C: Independent
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2016-06-08"
+    C: Independent
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2016-06-08"
     C: Independent
     F: "1900-01-01"
     P: cncf/shared
-    R: C
-  - T: "2016-06-08"
-    C: Independent
-    F: "1900-01-01"
-    P: stackstorm
     R: C
   - T: "2100-01-01"
     C: Infinite
@@ -21581,7 +21581,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   I:
   - E: wangyuqing4!huawei.com
@@ -22591,12 +22591,12 @@ P:
   - T: "2100-01-01"
     C: NetEase
     F: "1900-01-01"
-    P: cncf/shared
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: NetEase
     F: "1900-01-01"
-    P: cncf/volcano
+    P: cncf/shared
     R: C
   I:
   - E: wangdk789!163.com
@@ -22806,17 +22806,17 @@ P:
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Baidu
+    F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
     C: Baidu
     F: "1900-01-01"
     P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Baidu
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Baidu
@@ -23280,7 +23280,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   I:
   - E: wangyuqing4!huawei.com
@@ -23296,7 +23296,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -23317,7 +23317,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -23335,7 +23335,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   I:
   - E: wangyuqing4!huawei.com
@@ -26312,7 +26312,7 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   I:
   - E: wang.platform!hotmail.com
@@ -29405,6 +29405,11 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
@@ -29421,11 +29426,6 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
     P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -33846,6 +33846,11 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
@@ -33857,11 +33862,6 @@ P:
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
     P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -41339,7 +41339,7 @@ P:
   - T: "2017-07-26"
     C: Independent
     F: "2016-07-03"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - S: github
@@ -43035,6 +43035,11 @@ P:
   - T: "2016-12-01"
     C: Independent
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2016-12-01"
+    C: Independent
+    F: "1900-01-01"
     P: helm
     R: C
   - T: "2016-12-01"
@@ -43042,10 +43047,10 @@ P:
     F: "1900-01-01"
     P: k8s
     R: C
-  - T: "2016-12-01"
-    C: Independent
-    F: "1900-01-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: GeniusAFC
+    F: "2016-12-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: GeniusAFC
@@ -43061,11 +43066,6 @@ P:
     C: GeniusAFC
     F: "2016-12-01"
     P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: GeniusAFC
-    F: "2016-12-01"
-    P: stackstorm
     R: C
   I:
   - S: github
@@ -43391,7 +43391,7 @@ P:
   - T: "2016-09-23"
     C: ZTE Corporation
     F: "2016-08-25"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: zhang.yanxian!zte.com.cn
@@ -44330,7 +44330,7 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
-    P: cncf/volcano
+    P: Volcano
     R: C
   I:
   - E: huangzhesi!gmail.com
@@ -44373,17 +44373,17 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
     P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
@@ -55311,17 +55311,17 @@ P:
   - T: "2100-01-01"
     C: SAMSUNG
     F: "1900-01-01"
-    P: cncf/shared
+    P: NNstreamer
     R: C
   - T: "2100-01-01"
     C: SAMSUNG
     F: "1900-01-01"
-    P: nnstreamer
+    P: cncf/shared
     R: C
   - T: "2018-07-13"
     C: Samsung Electronics Co. Ltd.
     F: "2018-06-07"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   S: male
   I:
@@ -55435,12 +55435,12 @@ P:
   - T: "2100-01-01"
     C: SAMSUNG
     F: "1900-01-01"
-    P: cncf/shared
+    P: NNstreamer
     R: C
   - T: "2100-01-01"
     C: SAMSUNG
     F: "1900-01-01"
-    P: nnstreamer
+    P: cncf/shared
     R: C
   I:
   - E: geunsik.lim!samsung.com
@@ -55513,12 +55513,12 @@ P:
   - T: "2100-01-01"
     C: SAMSUNG
     F: "1900-01-01"
-    P: cncf/shared
+    P: NNstreamer
     R: C
   - T: "2100-01-01"
     C: SAMSUNG
     F: "1900-01-01"
-    P: nnstreamer
+    P: cncf/shared
     R: C
   I:
   - E: myungjoo.ham!samsung.com

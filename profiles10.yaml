@@ -1,4 +1,79 @@
 P:
+- E: Francis.Paquette!amdocs.com
+  R:
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "2017-07-28"
+    R: C
+  - T: "2100-01-01"
+    C: Amdocs
+    F: "2017-07-28"
+    P: onap
+    R: C
+  I:
+  - M: Francis Paquette
+    S: confluence
+    U: fpaquett
+  - E: Francis.Paquette!amdocs.com
+    M: Francis Paquette
+    S: gerrit
+    U: fpaquett
+  - E: francis.paquette!amdocs.com
+    M: Francis Paquette
+    S: gerrit
+  - E: francis.paquette!amdocs.com
+    M: Francis Paquette
+    S: gerrit
+  - E: francis.paquette!amdocs.com
+    M: Paquette, Francis
+    S: gerrit
+  - E: francis.paquette!amdocs.com
+    M: Paquette, Francis
+    S: gerrit
+  - E: francis.paquette!amdocs.com
+    M: fpaquett
+    S: gerrit
+  - E: francis.paquette!amdocs.com
+    M: Francis Paquette
+    S: git
+  - E: francis.paquette!amdocs.com
+    M: Paquette, Francis
+    S: git
+  - E: francis.paquette!amdocs.com
+    M: fpaquett
+    S: git
+  - E: Francis.Paquette!amdocs.com
+    M: Francis Paquette
+    S: groupsio
+  - M: Francis Paquette
+    S: jira
+    U: fpaquett
+  - E: Francis.Paquette!amdocs.com
+    M: Francis Paquette
+    S: jira
+    U: fpaquett
+  - E: Francis.Paquette!amdocs.com
+    M: Francis Paquette
+    S: pipermail
+  B: 0
+  U: Francis Paquette
+- E: francisstephens!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: francisstephens!gmail.com
+    M: Francis Stephens
+    S: git
+  - E: francisstephens!gmail.com
+    M: Francis Stephens
+    S: github
+    U: fmstephe
+  B: 0
+  U: Francis Stephens
 - E: francis.toth!yoppworks.com
   R:
   - T: "2015-02-01"
@@ -19872,32 +19947,32 @@ P:
   - T: "2012-02-20"
     C: Radware, Inc.
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2012-02-20"
     C: Radware, Inc.
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
+    R: C
+  - T: "2013-07-17"
+    C: Red Hat Inc.
+    F: "2012-02-20"
+    P: StackStorm
     R: C
   - T: "2013-07-17"
     C: Red Hat Inc.
     F: "2012-02-20"
     P: cncf/shared
     R: C
-  - T: "2013-07-17"
-    C: Red Hat Inc.
-    F: "2012-02-20"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2013-07-17"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
     F: "2013-07-17"
     P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2013-07-17"
-    P: stackstorm
     R: C
   - T: "2017-04-07"
     C: VMware, Inc.
@@ -23955,32 +24030,32 @@ P:
   - T: "2015-09-01"
     C: Telus
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2015-09-01"
     C: Telus
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
+    R: C
+  - T: "2018-10-01"
+    C: Sauce Labs
+    F: "2015-09-01"
+    P: StackStorm
     R: C
   - T: "2018-10-01"
     C: Sauce Labs
     F: "2015-09-01"
     P: cncf/shared
     R: C
-  - T: "2018-10-01"
-    C: Sauce Labs
-    F: "2015-09-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: CloudBees
+    F: "2018-10-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: CloudBees
     F: "2018-10-01"
     P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2018-10-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -31933,7 +32008,7 @@ P:
   - T: "2017-08-26"
     C: Nokia Corporation
     F: "2017-07-05"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Nokia Corporation
@@ -33954,6 +34029,11 @@ P:
   - T: "2100-01-01"
     C: SAMSUNG
     F: "1900-01-01"
+    P: NNstreamer
+    R: C
+  - T: "2100-01-01"
+    C: SAMSUNG
+    F: "1900-01-01"
     P: acrn/acrn
     R: C
   - T: "2100-01-01"
@@ -33987,14 +34067,9 @@ P:
     P: korg
     R: C
   - T: "2100-01-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: nnstreamer
-    R: C
-  - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2018-08-07"
-    P: nnstreamer
+    P: NNstreamer
     R: C
   S: male
   I:
@@ -38547,12 +38622,12 @@ P:
   - T: "2100-01-01"
     C: GSK
     F: "2016-01-01"
-    P: akraino
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: GSK
     F: "2016-01-01"
-    P: sparklyr
+    P: akraino
     R: C
   I:
   - E: giovanni.m.dallolio!gsk.com
@@ -43520,7 +43595,7 @@ P:
   - T: "2015-08-12"
     C: Red Hat Inc.
     F: "2015-07-17"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -47066,12 +47141,12 @@ P:
   - T: "2016-01-31"
     C: SHoP Architects
     F: "2013-06-30"
-    P: marquez
+    P: Marquez
     R: C
   - T: "2100-01-01"
     C: WeWork
     F: "2016-02-29"
-    P: marquez
+    P: Marquez
     R: C
   I:
   - E: grantdfoster!gmail.com
@@ -61732,63 +61807,3 @@ P:
     S: git
   B: 0
   U: Guoqing Jiang
-- E: guoqing.zhang!intel.com
-  R:
-  - T: "2017-01-12"
-    C: Intel Corporation
-    F: "2016-12-08"
-    P: yocto
-    R: C
-  I:
-  - E: guoqing.zhang!intel.com
-    M: Guoqing Zhang
-    S: git
-  - E: guoqing.zhang!intel.com
-    M: Guoqing Zhang
-    S: groupsio
-  - E: guoqing.zhang!intel.com
-    M: Guoqing Zhang
-    S: pipermail
-  B: 0
-  U: Guoqing Zhang
-- E: guoxi.jerry.wang!gmail.com
-  R:
-  - T: "2011-12-01"
-    C: Wuhan University
-    F: "2009-03-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2014-08-01"
-    C: University of California, Irvine
-    F: "2014-03-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2015-06-01"
-    C: Broadcom Corporation
-    F: "2014-08-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: University of California, Irvine
-    F: "2019-10-01"
-    P: akraino
-    R: C
-  - T: "2100-01-01"
-    C: University of California, Irvine
-    F: "2019-10-01"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - M: Guoxi Wang
-    S: confluence
-    U: guoxiwang
-  - E: guoxi.jerry.wang!gmail.com
-    M: Guoxi Wang
-    S: confluence
-    U: guoxiwang
-  - E: guoxiw1!uci.edu
-    M: Guoxi Wang
-    S: slack
-    U: guoxiw1
-  B: 0
-  U: Guoxi Wang

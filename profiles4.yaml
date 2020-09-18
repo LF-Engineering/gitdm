@@ -1327,6 +1327,11 @@ P:
     F: "2018-01-01"
     P: odl
     R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2018-01-01"
+    P: onap
+    R: C
   - T: "2018-07-01"
     C: Bosch
     F: "2018-05-01"
@@ -11358,12 +11363,12 @@ P:
   - T: "2015-01-01"
     C: Independent
     F: "1900-01-01"
-    P: cncf/contour
+    P: Volcano
     R: C
   - T: "2015-01-01"
     C: Independent
     F: "1900-01-01"
-    P: cncf/volcano
+    P: cncf/contour
     R: C
   - T: "2015-01-01"
     C: Independent
@@ -11393,12 +11398,12 @@ P:
   - T: "2015-09-01"
     C: Josh
     F: "1900-01-01"
-    P: cncf/contour
+    P: Volcano
     R: C
   - T: "2015-09-01"
     C: Josh
     F: "1900-01-01"
-    P: cncf/volcano
+    P: cncf/contour
     R: C
   - T: "2015-09-01"
     C: Josh
@@ -11423,12 +11428,12 @@ P:
   - T: "2015-09-01"
     C: Josh
     F: "2015-01-01"
-    P: cncf/contour
+    P: Volcano
     R: C
   - T: "2015-09-01"
     C: Josh
     F: "2015-01-01"
-    P: cncf/volcano
+    P: cncf/contour
     R: C
   - T: "2015-09-01"
     C: Josh
@@ -11458,12 +11463,12 @@ P:
   - T: "2016-05-01"
     C: Parcelled
     F: "2015-09-01"
-    P: cncf/contour
+    P: Volcano
     R: C
   - T: "2016-05-01"
     C: Parcelled
     F: "2015-09-01"
-    P: cncf/volcano
+    P: cncf/contour
     R: C
   - T: "2016-05-01"
     C: Parcelled
@@ -11493,12 +11498,12 @@ P:
   - T: "2016-09-01"
     C: Parcelled
     F: "2015-09-01"
-    P: cncf/contour
+    P: Volcano
     R: C
   - T: "2016-09-01"
     C: Parcelled
     F: "2015-09-01"
-    P: cncf/volcano
+    P: cncf/contour
     R: C
   - T: "2016-09-01"
     C: Parcelled
@@ -11523,12 +11528,12 @@ P:
   - T: "2100-01-01"
     C: Codemancers
     F: "2016-05-01"
-    P: cncf/contour
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Codemancers
     F: "2016-05-01"
-    P: cncf/volcano
+    P: cncf/contour
     R: C
   - T: "2100-01-01"
     C: Codemancers
@@ -11558,12 +11563,12 @@ P:
   - T: "2100-01-01"
     C: Codemancers
     F: "2016-09-01"
-    P: cncf/contour
+    P: Volcano
     R: C
   - T: "2100-01-01"
     C: Codemancers
     F: "2016-09-01"
-    P: cncf/volcano
+    P: cncf/contour
     R: C
   - T: "2100-01-01"
     C: Codemancers
@@ -19277,22 +19282,22 @@ P:
   - T: "2007-08-01"
     C: University of California, Los Angeles
     F: "2005-01-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2008-05-01"
     C: Carl Zeiss Meditec AG
     F: "2007-10-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2016-12-01"
     C: University of California, San Francisco
     F: "2010-09-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Databricks
     F: "2017-05-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - E: bago!databricks.com
@@ -33887,22 +33892,27 @@ P:
   - T: "2013-07-12"
     C: IBM
     F: "1900-01-01"
-    P: cncf/shared
+    P: StackStorm
     R: C
   - T: "2013-07-12"
     C: IBM
     F: "1900-01-01"
-    P: stackstorm
+    P: cncf/shared
+    R: C
+  - T: "2013-09-09"
+    C: Independent
+    F: "2013-07-12"
+    P: StackStorm
     R: C
   - T: "2013-09-09"
     C: Independent
     F: "2013-07-12"
     P: cncf/shared
     R: C
-  - T: "2013-09-09"
-    C: Independent
-    F: "2013-07-12"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2013-09-09"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -33913,11 +33923,6 @@ P:
     C: Red Hat Inc.
     F: "2013-09-09"
     P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2013-09-09"
-    P: stackstorm
     R: C
   - T: "2017-09-03"
     C: Red Hat Inc.
@@ -35464,32 +35469,37 @@ P:
   - T: "2016-09-01"
     C: GE Global Research
     F: "1900-01-01"
-    P: grpc
+    P: StackStorm
     R: C
   - T: "2016-09-01"
     C: GE Global Research
     F: "1900-01-01"
-    P: stackstorm
+    P: grpc
+    R: C
+  - T: "2017-11-01"
+    C: GE Digital
+    F: "2016-09-01"
+    P: StackStorm
     R: C
   - T: "2017-11-01"
     C: GE Digital
     F: "2016-09-01"
     P: grpc
     R: C
-  - T: "2017-11-01"
-    C: GE Digital
-    F: "2016-09-01"
-    P: stackstorm
+  - T: "2018-04-01"
+    C: Independent
+    F: "2017-11-01"
+    P: StackStorm
     R: C
   - T: "2018-04-01"
     C: Independent
     F: "2017-11-01"
     P: grpc
     R: C
-  - T: "2018-04-01"
-    C: Independent
-    F: "2017-11-01"
-    P: stackstorm
+  - T: "2100-01-01"
+    C: Netflix
+    F: "2018-04-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Netflix
@@ -35500,11 +35510,6 @@ P:
     C: Netflix
     F: "2018-04-01"
     P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Netflix
-    F: "2018-04-01"
-    P: stackstorm
     R: C
   S: male
   I:
@@ -38665,7 +38670,7 @@ P:
   - T: "2100-01-01"
     C: MIT
     F: "2018-04-12"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -43739,7 +43744,7 @@ P:
   - T: "2100-01-01"
     C: Polyconseil
     F: "2016-11-17"
-    P: stackstorm
+    P: StackStorm
     R: C
   S: male
   I:
@@ -45382,6 +45387,11 @@ P:
   - T: "2100-01-01"
     C: Examplempany
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: Examplempany
+    F: "1900-01-01"
     P: acrn/acrn
     R: C
   - T: "2100-01-01"
@@ -45403,11 +45413,6 @@ P:
     C: Examplempany
     F: "1900-01-01"
     P: cncf/metal3
-    R: C
-  - T: "2100-01-01"
-    C: Examplempany
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: Examplempany
@@ -46542,7 +46547,7 @@ P:
   - T: "2015-12-09"
     C: Thales Group
     F: "2015-11-15"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: bertrand.lallau!gmail.com
@@ -62241,20 +62246,3 @@ P:
     U: bogdan.peste
   B: 0
   U: Bogdan Peste
-- E: bratiu!juniper.net
-  R:
-  - T: "2018-08-31"
-    C: Lenovo
-    F: "2015-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: bratiu!lenovo.com
-    M: Bogdan Ratiu
-    S: groupsio
-  - E: bratiu!juniper.net
-    M: Bogdan Ratiu
-    S: jira
-    U: bratiu
-  B: 0
-  U: Bogdan Ratiu

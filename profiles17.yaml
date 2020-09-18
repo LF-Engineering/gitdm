@@ -1,4 +1,77 @@
 P:
+- C: US
+  R:
+  - T: "2014-08-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2014-08-01"
+    C: IBM
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-08-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "2014-08-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2015-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2015-01-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: lylejfranklin!gmail.com
+    S: cloudfoundry:manual
+  - M: Lyle Franklin
+    S: cloudfoundry:manual
+  - E: lylejfranklin!gmail.com
+    M: Lyle Franklin
+    S: file:cff
+    U: ljfranklin
+  - M: Lyle Franklin
+    S: git
+  - E: lfranklin!pivotal.io
+    M: Lyle Franklin
+    S: git
+  - E: lylejfranklin!gmail.com
+    M: Lyle Franklin
+    S: git
+  - E: pair+lfranklin!pivotal.io
+    M: Lyle Franklin
+    S: git
+  - E: lylejfranklin!gmail.com
+    M: ljfranklin
+    S: git
+  - S: github
+    U: ljfranklin
+  - M: Lyle Franklin
+    S: github
+    U: ljfranklin
+  - E: lfranklin!pivotal.io
+    M: Lyle Franklin
+    S: groupsio
+  - E: lfranklin!pivotal.io
+    M: Lyle Franklin
+    S: mbox
+  - E: lfranklin!pivotal.io
+    M: Lyle Franklin
+    S: slack
+    U: lfranklin
+  B: 0
+  U: Lyle Franklin
 - E: lyle.zhu!nxp.com
   R:
   - T: "2100-01-01"
@@ -1188,6 +1261,11 @@ P:
   - T: "2015-07-01"
     C: Microsoft Corporation
     F: "1900-01-01"
+    P: Volcano
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
     P: baetyl
     R: C
   - T: "2015-07-01"
@@ -1199,11 +1277,6 @@ P:
     C: Microsoft Corporation
     F: "1900-01-01"
     P: cncf/kudo
-    R: C
-  - T: "2015-07-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/volcano
     R: C
   - T: "2015-07-01"
     C: Microsoft Corporation
@@ -1234,6 +1307,11 @@ P:
     C: Microsoft Corporation
     F: "1900-01-01"
     P: openebs
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: Volcano
     R: C
   - T: "2018-07-01"
     C: Huawei Technologies Co., Ltd.
@@ -1258,11 +1336,6 @@ P:
   - T: "2018-07-01"
     C: Huawei Technologies Co., Ltd.
     F: "2015-07-01"
-    P: cncf/volcano
-    R: C
-  - T: "2018-07-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-07-01"
     P: containerd
     R: C
   - T: "2018-07-01"
@@ -1298,6 +1371,11 @@ P:
   - T: "2019-05-01"
     C: Independent
     F: "2018-07-01"
+    P: Volcano
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
     P: baetyl
     R: C
   - T: "2019-05-01"
@@ -1309,11 +1387,6 @@ P:
     C: Independent
     F: "2018-07-01"
     P: cncf/kudo
-    R: C
-  - T: "2019-05-01"
-    C: Independent
-    F: "2018-07-01"
-    P: cncf/volcano
     R: C
   - T: "2019-05-01"
     C: Independent
@@ -1348,6 +1421,11 @@ P:
   - T: "2100-01-01"
     C: VMware, Inc.
     F: "2019-05-01"
+    P: Volcano
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
     P: baetyl
     R: C
   - T: "2100-01-01"
@@ -1359,11 +1437,6 @@ P:
     C: VMware, Inc.
     F: "2019-05-01"
     P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-05-01"
-    P: cncf/volcano
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
@@ -19158,6 +19231,11 @@ P:
   - T: "2016-12-01"
     C: SurveyMonkey
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2016-12-01"
+    C: SurveyMonkey
+    F: "1900-01-01"
     P: caf
     R: C
   - T: "2016-12-01"
@@ -19193,12 +19271,12 @@ P:
   - T: "2016-12-01"
     C: SurveyMonkey
     F: "1900-01-01"
-    P: stackstorm
-    R: C
-  - T: "2016-12-01"
-    C: SurveyMonkey
-    F: "1900-01-01"
     P: tuf
+    R: C
+  - T: "2100-01-01"
+    C: Adobe Systems, Inc.
+    F: "2016-12-01"
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Adobe Systems, Inc.
@@ -19219,11 +19297,6 @@ P:
     C: Adobe Systems, Inc.
     F: "2016-12-01"
     P: onf-p4
-    R: C
-  - T: "2100-01-01"
-    C: Adobe Systems, Inc.
-    F: "2016-12-01"
-    P: stackstorm
     R: C
   - T: "2100-01-01"
     C: Adobe Systems, Inc.
@@ -19301,7 +19374,7 @@ P:
   - T: "2017-04-05"
     C: Livingdocs AG
     F: "2016-11-23"
-    P: stackstorm
+    P: StackStorm
     R: C
   - T: "2100-01-01"
     C: Livingdocs AG
@@ -19335,7 +19408,7 @@ P:
   - T: "2100-01-01"
     C: Livingdocs AG
     F: "2016-11-23"
-    P: stackstorm
+    P: StackStorm
     R: C
   I:
   - E: marc.brookman!gmail.com
@@ -26679,22 +26752,22 @@ P:
   - T: "2015-04-30"
     C: ICM University of Warsaw
     F: "2014-06-30"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2016-12-31"
     C: MI2DataLab
     F: "2014-09-30"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2100-01-01"
     C: Gradient
     F: "2016-12-31"
-    P: sparklyr
+    P: Sparklyr
     R: C
   - T: "2018-06-30"
     C: Why R?
     F: "2017-10-31"
-    P: sparklyr
+    P: Sparklyr
     R: C
   I:
   - E: m.p.kosinski!gmail.com
@@ -36360,7 +36433,7 @@ P:
   - T: "2018-01-01"
     C: Korea Advanced Institute of Science & Technology (KAIST)
     F: "2016-05-01"
-    P: sparklyr
+    P: Sparklyr
     R: C
   S: male
   I:
@@ -47381,12 +47454,12 @@ P:
   - T: "2017-02-01"
     C: Red Ventures
     F: "2014-07-01"
-    P: akraino
+    P: Sparklyr
     R: C
   - T: "2017-02-01"
     C: Red Ventures
     F: "2014-07-01"
-    P: sparklyr
+    P: akraino
     R: C
   - T: "2100-01-01"
     C: Credit Karma
@@ -57965,6 +58038,11 @@ P:
   - T: "2016-08-01"
     C: IBM
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2016-08-01"
+    C: IBM
+    F: "1900-01-01"
     P: argo
     R: C
   - T: "2016-08-01"
@@ -58001,11 +58079,6 @@ P:
     C: IBM
     F: "1900-01-01"
     P: rook
-    R: C
-  - T: "2016-08-01"
-    C: IBM
-    F: "1900-01-01"
-    P: stackstorm
     R: C
   - T: "2016-08-01"
     C: IBM
@@ -61667,22 +61740,3 @@ P:
     U: pocke
   B: 0
   U: Masataka Pocke Kuwabara
-- E: iwasakims!apache.org
-  R:
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  S: male
-  I:
-  - E: iwasakims!apache.org
-    M: Masatake Iwasaki
-    S: github
-    U: iwasakims
-  B: 0
-  U: Masatake Iwasaki
