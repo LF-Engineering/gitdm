@@ -1,4 +1,1008 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: OpsMx
+    F: "1900-01-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2100-01-01"
+    C: OpsMx
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: M Gnana Seelan
+    S: github
+    U: mgseelan
+  B: 0
+  U: M Gnana Seelan
+- E: minhongz!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: EMC
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: EMC
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: EMC
+    F: "2016-11-21"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: minhongz!gmail.com
+    M: mhzed
+    S: git
+  - E: minhongz!gmail.com
+    M: M H Zed
+    S: github
+    U: mhzed
+  B: 0
+  U: M H Zed
+- E: cm-r!hp.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Hewlett Packard Enterprise
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Hewlett Packard Enterprise
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - M: Chengappa M.R
+    S: confluence
+    U: Chengappa
+  - E: cm-r!hp.com
+    M: Chengappa M.R
+    S: gerrit
+    U: Chengappa
+  - E: cm-r!hpe.com
+    M: Chengappa M.R
+    S: gerrit
+    U: Chengappa
+  - E: cm-r!hp.com
+    M: M R, Chengappa NFV BU
+    S: gmane
+  - E: cm-r!hpe.com
+    M: M R, Chengappa NFV BU
+    S: gmane
+  - E: cm-r!hp.com
+    M: M R, Chengappa (NFV BU)
+    S: groupsio
+  - E: cm-r!hpe.com
+    M: M R, Chengappa (NFV BU)
+    S: groupsio
+  - E: cm-r!hp.com
+    M: M R, Chengappa NFV BU
+    S: linux-foundation:mls
+    U: cm-r
+  - E: cm-r!hpe.com
+    M: M R, Chengappa NFV BU
+    S: linux-foundation:mls
+    U: cm-r
+  - E: cm-r!hp.com
+    M: Chengappa M.R
+    S: linux-foundation:scr
+    U: Chengappa
+  - E: cm-r!hp.com
+    M: M R, Chengappa NFV BU
+    S: mbox
+  - E: cm-r!hpe.com
+    M: M R, Chengappa NFV BU
+    S: mbox
+  - E: cm-r!hp.com
+    M: M R, Chengappa NFV BU
+    S: pipermail
+  - E: cm-r!hpe.com
+    M: M R, Chengappa NFV BU
+    S: pipermail
+  B: 0
+  U: M R, Chengappa NFV BU
+- E: manuelramonleonjimenez!gmail.com
+  R:
+  - T: "2018-03-01"
+    C: AYESA
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: CloudBees
+    F: "2018-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: CloudBees
+    F: "2018-03-01"
+    P: jenkins
+    R: C
+  I:
+  - E: manuelramonleonjimenez!gmail.com
+    M: M Ramon Leon
+    S: git
+  - E: manuel.ramon.leon.jimenez!gmail.com
+    M: M Ramón León
+    S: git
+  B: 0
+  U: M Ramon Leon
+- R:
+  - T: "2100-01-01"
+    C: Unbxd
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Unbxd
+    F: "1900-01-01"
+    P: onf/onf-mininet
+    R: C
+  I:
+  - M: M S Vishwanath Bhat
+    S: github
+    U: msvbhat
+  B: 0
+  U: M S Vishwanath Bhat
+- C: IN
+  E: msvbhat!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Unbxd
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Unbxd
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: msvbhat!gmail.com
+    M: M S Vishwanath Bhat
+    S: git
+  B: 0
+  U: M S Vishwanath Bhat
+- E: mshetty!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2015-05-10"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: mshetty!pivotal.io
+    M: M Shetty
+    S: slack
+    U: manikanta
+  B: 0
+  U: M Shetty
+- E: M.Vinoth!hcl.com
+  R:
+  - T: "2017-02-28"
+    C: HCL Technologies Ltd.
+    F: "2015-04-01"
+    P: dpdk
+    R: C
+  - T: "2017-02-28"
+    C: HCL Technologies Ltd.
+    F: "2015-04-01"
+    P: odl
+    R: C
+  I:
+  - E: M.Vinoth!hcl.com
+    M: M Vinoth
+    S: groupsio
+  - E: M.Vinoth!hcl.com
+    M: M Vinoth
+    S: pipermail
+  B: 0
+  U: M Vinoth
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: M. Habib Rosyad
+    S: github
+    U: habibrosyad
+  B: 0
+  U: M. Habib Rosyad
+- E: habib.ryd!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: habib.ryd!gmail.com
+    M: M. Habib Rosyad
+    S: git
+  B: 0
+  U: M. Habib Rosyad
+- R:
+  - T: "2100-01-01"
+    C: WSO2
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: M. Isuru Tharanga Chrishantha Perera
+    S: github
+    U: chrishantha
+  B: 0
+  U: M. Isuru Tharanga Chrishantha Perera
+- E: chrishantha!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: WSO2
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: chrishantha!gmail.com
+    M: M. Isuru Tharanga Chrishantha Perera
+    S: git
+  B: 0
+  U: M. Isuru Tharanga Chrishantha Perera
+- R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2018-10-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: moleske!users.noreply.github.com
+    M: M. Oleske
+    S: git
+  - E: moleske!pivotal.io
+    M: Michael Oleske
+    S: git
+  - M: M. Oleske
+    S: github
+    U: moleske
+  - E: moleske!pivotal.io
+    M: Michael Oleske
+    S: slack
+    U: moleske
+  B: 0
+  U: M. Oleske
+- E: miguel!ironcubetech.com
+  R:
+  - T: "2100-01-01"
+    C: Iron Cube
+    F: "2018-04-24"
+    R: C
+  - T: "2100-01-01"
+    C: Iron Cube
+    F: "2018-04-24"
+    P: onap
+    R: C
+  I:
+  - E: miguel!ironcubetech.com
+    M: M. R. Martinez-Heath, PhD
+    S: groupsio
+  - E: miguel!ironcubetech.com
+    M: M. R. Martinez-Heath, PhD
+    S: pipermail
+  B: 0
+  U: M. R. Martinez-Heath, PhD
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Datadog
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "1900-01-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - M: M. Ryan Rigdon
+    S: github
+    U: Rigdon
+  B: 0
+  U: M. Ryan Rigdon
+- C: US
+  E: ryan.rigdon!datadoghq.com
+  R:
+  - T: "2100-01-01"
+    C: Datadog
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "1900-01-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: ryan.rigdon!datadoghq.com
+    M: M. Ryan Rigdon
+    S: git
+  B: 0
+  U: M. Ryan Rigdon
+- E: mzs!microsoft.com
+  R:
+  - T: "2007-08-01"
+    C: Infosys Limited
+    F: "2007-06-01"
+    P: lfai-onnx
+    R: C
+  - T: "2009-12-01"
+    C: Purdue University
+    F: "2007-08-01"
+    P: lfai-onnx
+    R: C
+  - T: "2008-08-01"
+    C: Intel Corporation
+    F: "2008-06-01"
+    P: lfai-onnx
+    R: C
+  - T: "2009-08-01"
+    C: Amazon Web Services, Inc.
+    F: "2009-06-01"
+    P: lfai-onnx
+    R: C
+  - T: "2011-05-01"
+    C: University of Texas at Austin
+    F: "2010-08-01"
+    P: lfai-onnx
+    R: C
+  - T: "2011-08-01"
+    C: Yahoo! Inc.
+    F: "2011-05-01"
+    P: lfai-onnx
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2017-03-01"
+    P: lfai-onnx
+    R: C
+  I:
+  - E: mzs!microsoft.com
+    M: M. Zeeshan Siddiqui
+    S: git
+  - M: M. Zeeshan Siddiqui
+    S: github
+    U: codemzs
+  B: 0
+  U: M. Zeeshan Siddiqui
+- C: IN
+  E: malepatib.akhil!huawei.com
+  R:
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/volcano
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2015-07-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: baetyl
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: cncf/kudo
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: cncf/volcano
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: containerd
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: cri-o
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: helm
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: kubevirt
+    R: C
+  - T: "2018-07-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-07-01"
+    P: baetyl
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: baetyl
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: cncf/kudo
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: cncf/volcano
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: containerd
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: cri-o
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: helm
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: kubevirt
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2018-07-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: cncf/volcano
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-05-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - E: malepatib.akhil!huawei.com
+    M: M.B.S. Sai Akhil
+    S: git
+  - E: malepatib.akhil!huawei.com
+    M: Malepati Bala Siva Sai Akhil
+    S: git
+  - E: malepatib.akhil!huawei.com
+    M: M.B.S. Sai Akhil
+    S: github
+    U: mbssaiakhil
+  B: 0
+  U: M.B.S. Sai Akhil
+- E: mpundlik!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2015-11-19"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2015-11-19"
+    P: odl
+    R: C
+  I:
+  - E: mpundlik!cisco.com
+    M: MADHURA PUNDLIK mpundlik
+    S: pipermail
+  B: 0
+  U: MADHURA PUNDLIK mpundlik
+- E: maeda.naoaki!jp.fujitsu.com
+  R:
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: maeda.naoaki!jp.fujitsu.com
+    M: MAEDA Naoaki
+    S: git
+  B: 0
+  U: MAEDA Naoaki
+- C: TZ
+  E: barnabasmakonda!gmail.com
+  R:
+  - T: "2014-10-01"
+    C: Buni Hub
+    F: "1900-01-01"
+    R: C
+  - T: "2014-10-01"
+    C: Buni Hub
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-11-01"
+    C: Buni Hub
+    F: "1900-01-01"
+    R: C
+  - T: "2015-02-01"
+    C: UNICEF
+    F: "2014-10-01"
+    R: C
+  - T: "2015-02-01"
+    C: UNICEF
+    F: "2014-10-01"
+    P: k8s
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "2015-02-01"
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "2015-02-01"
+    P: k8s
+    R: C
+  - T: "2015-11-01"
+    C: Buni Hub
+    F: "2015-07-01"
+    R: C
+  - T: "2015-11-01"
+    C: Buni Hub
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2016-04-01"
+    C: The Bridge Tanzania
+    F: "2015-11-01"
+    R: C
+  - T: "2016-04-01"
+    C: The Bridge Tanzania
+    F: "2015-11-01"
+    P: k8s
+    R: C
+  - T: "2017-08-01"
+    C: Oppia Foundation
+    F: "2016-04-01"
+    R: C
+  - T: "2017-08-01"
+    C: Oppia Foundation
+    F: "2016-04-01"
+    P: k8s
+    R: C
+  - T: "2019-09-01"
+    C: HISP Tanzania
+    F: "2017-08-01"
+    R: C
+  - T: "2019-09-01"
+    C: HISP Tanzania
+    F: "2017-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: HISP Tanzania
+    F: "2017-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: barnabasmakonda!gmail.com
+    M: MAKOSCAFEE
+    S: git
+  B: 0
+  U: MAKOSCAFEE
+- E: manishjpiet!gmail.com
+  R:
+  - T: "2019-03-20"
+    C: Individual
+    F: "2018-10-01"
+    P: onap
+    R: C
+  I:
+  - M: Manish Kumar
+    S: confluence
+    U: manishk
+  - E: manishjpiet!gmail.com
+    M: Manish Kumar
+    S: gerrit
+    U: manishk
+  - E: manishjpiet!gmail.com
+    M: Manish Kumar
+    S: git
+  - E: manishjpiet!gmail.com
+    M: MANISH KUMAR
+    S: groupsio
+  - E: manishjpiet!gmail.com
+    M: Manish Kumar
+    S: jira
+    U: manishk
+  B: 0
+  U: MANISH KUMAR
+- E: manishsethi!in.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2004-04-01"
+    R: C
+  I:
+  - E: manishsethi!in.ibm.com
+    M: MANISH SETHI
+    S: git
+  - E: manishsethi!in.ibm.com
+    M: manish
+    S: git
+  B: 0
+  U: MANISH SETHI
+- E: msdmsfm!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: o-ran/documentation
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: o-ran/integration
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: o-ran/o-ran-sc
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-inf
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-nonrtric
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-oam
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-ocu
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-oduhigh
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-odulow
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-ric
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-ricapp
+    R: C
+  - T: "2100-01-01"
+    C: NTT DOCOMO
+    F: "2019-01-02"
+    P: oran-sim
+    R: C
+  I:
+  - E: msdmsfm!gmail.com
+    M: MASAFUMI MASUDA
+    S: groupsio
+  - E: msdmsfm!gmail.com
+    M: msdmsfm
+    S: groupsio
+  B: 0
+  U: MASAFUMI MASUDA
+- C: JP
+  R:
+  - T: "2016-10-01"
+    C: Maverick
+    F: "1900-01-01"
+    R: C
+  - T: "2016-10-01"
+    C: Maverick
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: DeNA
+    F: "2016-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: DeNA
+    F: "2016-10-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - M: MATSUKI Hidenori
+    S: github
+    U: mazgi
+  B: 0
+  U: MATSUKI Hidenori
+- C: JP
+  R:
+  - T: "2100-01-01"
+    C: NTT Comware
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: NTT Comware
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: MATSUO Takatoshi
+    S: github
+    U: t-matsuo
+  B: 0
+  U: MATSUO Takatoshi
+- E: emaurog!research.att.com
+  R:
+  - T: "2018-01-31"
+    C: AT&T Services, Inc.
+    F: "2017-05-11"
+    R: C
+  - T: "2018-01-31"
+    C: AT&T Services, Inc.
+    F: "2017-05-11"
+    P: onap
+    R: C
+  I:
+  - E: emaurog!research.att.com
+    M: MAVROGIORGIS, EMMANUIL  (EMMANUIL)
+    S: groupsio
+  - E: emaurog!research.att.com
+    M: MAVROGIORGIS, EMMANUIL  EMMANUIL
+    S: pipermail
+  B: 0
+  U: MAVROGIORGIS, EMMANUIL  EMMANUIL
+- E: mbienek!ebay.com
+  R:
+  - T: "2100-01-01"
+    C: eBay, Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mbienek!ebay.com
+    M: MB
+    S: slack
+    U: mbienek
+  B: 0
+  U: MB
+- R:
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - S: github
+    U: MELLANOX-zhichenr
+  B: 0
+  U: MELLANOX-zhichenr
+- E: zhichenr!mellanox.com
+  R:
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  - T: "2017-06-28"
+    C: Mellanox Technologies, Ltd
+    F: "2016-05-03"
+    P: opx
+    R: C
+  I:
+  - E: zhichenr!mellanox.com
+    M: MELLANOX-zhichenr
+    S: git
+  B: 0
+  U: MELLANOX-zhichenr
+- E: mofei2816!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Jd.Com
+    F: "1900-01-01"
+    P: chubaofs
+    R: C
+  I:
+  - E: mofei2816!gmail.com
+    M: MERVINKID
+    S: git
+  B: 0
+  U: MERVINKID
+- R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  I:
+  - M: MG Dharamadas
+    S: github
+    U: mdharamadas1
+  B: 0
+  U: MG Dharamadas
 - E: mayur.nagekar!gmail.com
   R:
   - T: "2100-01-01"
@@ -143,6 +1147,11 @@ P:
     C: Odecee
     F: "2016-09-01"
     P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: ANZ
+    F: "2017-02-01"
+    P: cncf/dex
     R: C
   - T: "2100-01-01"
     C: ANZ
@@ -60668,1015 +61677,3 @@ P:
     U: masoudmj
   B: 0
   U: Masoud Moshref
-- E: masoudmj!users.noreply.github.com
-  R:
-  - T: "2017-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-01-01"
-    C: Barefoot
-    F: "2017-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-01-01"
-    C: Barefoot
-    F: "2017-01-01"
-    P: onf-p4
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2018-01-01"
-    P: onf-p4
-    R: C
-  I:
-  - E: masoudmj!users.noreply.github.com
-    M: Masoud Moshref
-    S: git
-  B: 0
-  U: Masoud Moshref
-- E: mdzzohrabi!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Sina
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Sina
-    F: "1900-01-01"
-    P: ojsf-express
-    R: C
-  I:
-  - E: mdzzohrabi!gmail.com
-    M: Masoud Zohrabi
-    S: github
-    U: mdzzohrabi
-  B: 0
-  U: Masoud Zohrabi
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: BitTitan
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: BitTitan
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: BitTitan
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Masroor Hasan
-    S: github
-    U: masroorhasan
-  B: 0
-  U: Masroor Hasan
-- C: US
-  E: masroor.hasan.n!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: BitTitan
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: BitTitan
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: masroor.hasan.n!gmail.com
-    M: Masroor Hasan
-    S: git
-  B: 0
-  U: Masroor Hasan
-- E: cialdi!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Powersoft
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-10-04"
-    C: Powersoft
-    F: "2017-09-12"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: cialdi!gmail.com
-    M: Massimiliano Cialdi
-    S: git
-  B: 0
-  U: Massimiliano Cialdi
-- R:
-  - T: "2016-10-01"
-    C: Verizon Communications
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Asurion
-    F: "2016-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Asurion
-    F: "2016-10-01"
-    P: presto
-    R: C
-  I:
-  - M: Mastan Pasha Shaik
-    S: github
-    U: pashalogin
-  B: 0
-  U: Mastan Pasha Shaik
-- E: spyridon.mastorakis!intel.com
-  R:
-  - T: "2017-05-13"
-    C: Intel Corporation
-    F: "2017-05-11"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2017-05-13"
-    C: Intel Corporation
-    F: "2017-05-11"
-    P: dpdk
-    R: C
-  I:
-  - E: spyridon.mastorakis!intel.com
-    M: Mastorakis, Spyridon
-    S: pipermail
-  B: 0
-  U: Mastorakis, Spyridon
-- C: BD
-  E: masudjuly02!gmail.com
-  R:
-  - T: "2018-11-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2018-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cloudevents
-    R: C
-  - T: "2018-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: AppsCode
-    F: "2018-11-01"
-    R: C
-  - T: "2100-01-01"
-    C: AppsCode
-    F: "2018-11-01"
-    P: cloudevents
-    R: C
-  - T: "2100-01-01"
-    C: AppsCode
-    F: "2018-11-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: AppsCode
-    F: "2018-11-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: masudjuly02!gmail.com
-    M: Masudur Rahman
-    S: git
-  - E: masudjuly02!gmail.com
-    M: Masudur Rahman
-    S: github
-    U: masudur-rahman
-  B: 0
-  U: Masudur Rahman
-- C: US
-  R:
-  - T: "2015-10-01"
-    C: Moovweb
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-01"
-    C: Moovweb
-    F: "1900-01-01"
-    P: spiffe
-    R: C
-  - T: "2015-10-01"
-    C: Moovweb
-    F: "1900-01-01"
-    P: spire
-    R: C
-  - T: "2016-12-01"
-    C: Compose
-    F: "2015-10-01"
-    R: C
-  - T: "2016-12-01"
-    C: Compose
-    F: "2015-10-01"
-    P: spiffe
-    R: C
-  - T: "2016-12-01"
-    C: Compose
-    F: "2015-10-01"
-    P: spire
-    R: C
-  - T: "2018-03-01"
-    C: Fly.io
-    F: "2016-12-01"
-    R: C
-  - T: "2018-03-01"
-    C: Fly.io
-    F: "2016-12-01"
-    P: spiffe
-    R: C
-  - T: "2018-03-01"
-    C: Fly.io
-    F: "2016-12-01"
-    P: spire
-    R: C
-  - T: "2018-08-01"
-    C: Independent
-    F: "2018-03-01"
-    R: C
-  - T: "2018-08-01"
-    C: Independent
-    F: "2018-03-01"
-    P: spiffe
-    R: C
-  - T: "2018-08-01"
-    C: Independent
-    F: "2018-03-01"
-    P: spire
-    R: C
-  - T: "2100-01-01"
-    C: Square, Inc.
-    F: "2018-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Square, Inc.
-    F: "2018-08-01"
-    P: spiffe
-    R: C
-  - T: "2100-01-01"
-    C: Square, Inc.
-    F: "2018-08-01"
-    P: spire
-    R: C
-  S: male
-  I:
-  - M: Mat Byczkowski
-    S: github
-    U: mbyczkowski
-  B: 0
-  U: Mat Byczkowski
-- C: US
-  E: mbyczkowski!squareup.com
-  R:
-  - T: "2015-10-01"
-    C: Moovweb
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-01"
-    C: Moovweb
-    F: "1900-01-01"
-    P: spiffe
-    R: C
-  - T: "2015-10-01"
-    C: Moovweb
-    F: "1900-01-01"
-    P: spire
-    R: C
-  - T: "2016-12-01"
-    C: Compose
-    F: "2015-10-01"
-    R: C
-  - T: "2016-12-01"
-    C: Compose
-    F: "2015-10-01"
-    P: spiffe
-    R: C
-  - T: "2016-12-01"
-    C: Compose
-    F: "2015-10-01"
-    P: spire
-    R: C
-  - T: "2018-03-01"
-    C: Fly.io
-    F: "2016-12-01"
-    R: C
-  - T: "2018-03-01"
-    C: Fly.io
-    F: "2016-12-01"
-    P: spiffe
-    R: C
-  - T: "2018-03-01"
-    C: Fly.io
-    F: "2016-12-01"
-    P: spire
-    R: C
-  - T: "2018-08-01"
-    C: Independent
-    F: "2018-03-01"
-    R: C
-  - T: "2018-08-01"
-    C: Independent
-    F: "2018-03-01"
-    P: spiffe
-    R: C
-  - T: "2018-08-01"
-    C: Independent
-    F: "2018-03-01"
-    P: spire
-    R: C
-  - T: "2100-01-01"
-    C: Square, Inc.
-    F: "2018-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: Square, Inc.
-    F: "2018-08-01"
-    P: spiffe
-    R: C
-  - T: "2100-01-01"
-    C: Square, Inc.
-    F: "2018-08-01"
-    P: spire
-    R: C
-  S: male
-  I:
-  - E: mbyczkowski!squareup.com
-    M: Mat Byczkowski
-    S: git
-  B: 0
-  U: Mat Byczkowski
-- R:
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Mat Lowery
-    S: github
-    U: mlowery
-  B: 0
-  U: Mat Lowery
-- E: mlowery!ebay.com
-  R:
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: eBay, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: mlowery!ebay.com
-    M: Mat Lowery
-    S: git
-  - E: mlowery!ebay.com
-    M: Mat Lowery
-    S: slack
-    U: mlowery
-  B: 0
-  U: Mat Lowery
-- E: mathew.j.martineau!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: mathew.j.martineau!linux.intel.com
-    M: Mat Martineau
-    S: git
-  B: 0
-  U: Mat Martineau
-- E: mremillard!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2017-09-23"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mremillard!vmware.com
-    M: Mat Remillard
-    S: slack
-    U: mremillard
-  B: 0
-  U: Mat Remillard
-- C: JP
-  E: mat!schaffer.me
-  R:
-  - T: "2100-01-01"
-    C: Elastic
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Elastic
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Elastic
-    F: "1900-01-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Elastic
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Elastic
-    F: "1900-01-01"
-    P: oedi
-    R: C
-  - T: "2100-01-01"
-    C: Elastic
-    F: "1900-01-01"
-    P: ojsf-express
-    R: C
-  - T: "2014-06-16"
-    C: Elastic
-    F: "2011-04-21"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2015-05-24"
-    C: Elastic
-    F: "2015-05-22"
-    P: baetyl
-    R: C
-  I:
-  - E: mat!schaffer.me
-    M: Mat Schaffer
-    S: git
-  - E: mat!schaffer.me
-    M: Mat Schaffer
-    S: github
-    U: matschaffer
-  B: 0
-  U: Mat Schaffer
-- E: matan!mellanox.com
-  R:
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2016-01-31"
-    C: EZchip
-    F: "2011-12-31"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2016-01-31"
-    C: EZchip
-    F: "2011-12-31"
-    P: dpdk
-    R: C
-  - T: "2016-01-31"
-    C: EZchip
-    F: "2011-12-31"
-    P: dpdk-draft
-    R: C
-  - T: "2016-01-31"
-    C: EZchip
-    F: "2011-12-31"
-    P: dpdk-next
-    R: C
-  - T: "2016-01-31"
-    C: EZchip
-    F: "2011-12-31"
-    P: fdio
-    R: C
-  - T: "2016-01-31"
-    C: EZchip
-    F: "2011-12-31"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "2016-01-31"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "2016-01-31"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "2016-01-31"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "2016-01-31"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "2016-01-31"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "2016-01-31"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "2016-01-31"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "2016-01-31"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: matan!mellanox.com
-    M: Matan Azrad
-    S: git
-  - E: matan!mellanox.com
-    M: Matan Azrad
-    S: groupsio
-  - E: mazrad!juniper.net
-    M: Matan Azrad
-    S: jira
-    U: mazrad
-  - E: matan!mellanox.com
-    M: Matan Azrad
-    S: pipermail
-  - E: matan!nvidia.com
-    M: Matan Azrad
-    S: pipermail
-  B: 0
-  U: Matan Azrad
-- E: matanb!mellanox.com
-  R:
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: matanb!mellanox.com
-    M: Matan Barak
-    S: git
-  B: 0
-  U: Matan Barak
-- E: mcauffiez!inocybe.com
-  R:
-  - T: "2019-04-30"
-    C: Inocybe Technologies Inc.
-    F: "2017-03-03"
-    P: dpdk
-    R: C
-  - T: "2019-04-30"
-    C: Inocybe Technologies Inc.
-    F: "2017-03-03"
-    P: odl
-    R: C
-  I:
-  - S: gerrit
-    U: mcauffiez
-  - E: mcauffiez!inocybe.com
-    M: Matcauf
-    S: gerrit
-  - E: mcauffiez!inocybe.ca
-    M: Matthieu Cauffiez
-    S: gerrit
-    U: MCAUFFIEZ
-  - E: mcauffiez!inocybe.com
-    M: Matthieu Cauffiez
-    S: gerrit
-    U: mcauffiez
-  - E: mcauffiez!inocybe.ca
-    M: matcauf
-    S: gerrit
-  - E: mcauffiez!inocybe.com
-    M: matthieu cauffiez
-    S: gerrit
-  - E: mcauffiez!inocybe.com
-    M: matthieu
-    S: gerrit
-  - E: mcauffiez!inocybe.ca
-    M: mcauffiez
-    S: gerrit
-  - E: mcauffiez!inocybe.com
-    M: mcauffiez
-    S: gerrit
-  - E: mcauffiez!inocybe.com
-    M: Matcauf
-    S: git
-  - E: mcauffiez!inocybe.ca
-    M: matcauf
-    S: git
-  - E: mcauffiez!inocybe.com
-    M: matthieu cauffiez
-    S: git
-  - E: mcauffiez!inocybe.com
-    M: matthieu
-    S: git
-  - E: mcauffiez!inocybe.com
-    M: mcauffiez
-    S: git
-  - E: mcauffiez!inocybe.ca
-    M: Matthieu Cauffiez
-    S: jira
-    U: MCAUFFIEZ
-  - E: mcauffiez!inocybe.com
-    M: Matthieu Cauffiez
-    S: jira
-    U: mcauffiez
-  - E: mcauffiez!inocybe.ca
-    S: opendaylight:manual
-  - E: mcauffiez!inocybe.com
-    S: opendaylight:manual
-  - M: Mattieu Cauffiez
-    S: opendaylight:manual
-  - E: mcauffiez!inocybe.ca
-    M: matthieu
-    S: pipermail
-  B: 0
-  U: Matcauf
-- E: mate.lakat!citrix.com
-  R:
-  - T: "2100-01-01"
-    C: Citrix Systems Inc.
-    F: "2014-01-10"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: mate.lakat!citrix.com
-    M: Mate Lakat
-    S: git
-  B: 0
-  U: Mate Lakat
-- C: HU
-  E: mate.ory!banzaicloud.com
-  R:
-  - T: "2018-08-01"
-    C: BalaBit
-    F: "2015-01-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: Banzai Cloud
-    F: "2018-08-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Banzai Cloud
-    F: "2018-08-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Banzai Cloud
-    F: "2018-08-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Banzai Cloud
-    F: "2018-08-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Banzai Cloud
-    F: "2018-08-01"
-    P: pnda
-    R: C
-  S: male
-  I:
-  - E: mate.ory!banzaicloud.com
-    M: Mate Ory
-    S: git
-  B: 0
-  U: Mate Ory
-- C: GB
-  R:
-  - T: "2014-08-01"
-    C: BCR
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: BCR
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-08-01"
-    C: BCR
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-08-01"
-    C: BCR
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2015-06-01"
-    C: Indot Studio
-    F: "2014-08-01"
-    R: C
-  - T: "2015-06-01"
-    C: Indot Studio
-    F: "2014-08-01"
-    P: helm
-    R: C
-  - T: "2015-06-01"
-    C: Indot Studio
-    F: "2014-08-01"
-    P: k8s
-    R: C
-  - T: "2015-06-01"
-    C: Indot Studio
-    F: "2014-08-01"
-    P: linkerd
-    R: C
-  - T: "2017-07-01"
-    C: Independent
-    F: "2015-06-01"
-    R: C
-  - T: "2017-07-01"
-    C: Independent
-    F: "2015-06-01"
-    P: helm
-    R: C
-  - T: "2017-07-01"
-    C: Independent
-    F: "2015-06-01"
-    P: k8s
-    R: C
-  - T: "2017-07-01"
-    C: Independent
-    F: "2015-06-01"
-    P: linkerd
-    R: C
-  - T: "2017-08-01"
-    C: Otylico
-    F: "2017-07-01"
-    R: C
-  - T: "2017-08-01"
-    C: Otylico
-    F: "2017-07-01"
-    P: helm
-    R: C
-  - T: "2017-08-01"
-    C: Otylico
-    F: "2017-07-01"
-    P: k8s
-    R: C
-  - T: "2017-08-01"
-    C: Otylico
-    F: "2017-07-01"
-    P: linkerd
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "2017-08-01"
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "2017-08-01"
-    P: helm
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "2017-08-01"
-    P: k8s
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "2017-08-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Expedia Group
-    F: "2018-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Expedia Group
-    F: "2018-06-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Expedia Group
-    F: "2018-06-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Expedia Group
-    F: "2018-06-01"
-    P: linkerd
-    R: C
-  S: male
-  I:
-  - M: Matei David
-    S: github
-    U: Matei207
-  B: 0
-  U: Matei David
-- C: GB
-  E: matei.david.35!gmail.com
-  R:
-  - T: "2014-08-01"
-    C: BCR
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: BCR
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-08-01"
-    C: BCR
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-08-01"
-    C: BCR
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2015-06-01"
-    C: Indot Studio
-    F: "2014-08-01"
-    R: C
-  - T: "2015-06-01"
-    C: Indot Studio
-    F: "2014-08-01"
-    P: helm
-    R: C
-  - T: "2015-06-01"
-    C: Indot Studio
-    F: "2014-08-01"
-    P: k8s
-    R: C
-  - T: "2015-06-01"
-    C: Indot Studio
-    F: "2014-08-01"
-    P: linkerd
-    R: C
-  - T: "2017-07-01"
-    C: Independent
-    F: "2015-06-01"
-    R: C
-  - T: "2017-07-01"
-    C: Independent
-    F: "2015-06-01"
-    P: helm
-    R: C
-  - T: "2017-07-01"
-    C: Independent
-    F: "2015-06-01"
-    P: k8s
-    R: C
-  - T: "2017-07-01"
-    C: Independent
-    F: "2015-06-01"
-    P: linkerd
-    R: C
-  - T: "2017-08-01"
-    C: Otylico
-    F: "2017-07-01"
-    R: C
-  - T: "2017-08-01"
-    C: Otylico
-    F: "2017-07-01"
-    P: helm
-    R: C
-  - T: "2017-08-01"
-    C: Otylico
-    F: "2017-07-01"
-    P: k8s
-    R: C
-  - T: "2017-08-01"
-    C: Otylico
-    F: "2017-07-01"
-    P: linkerd
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "2017-08-01"
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "2017-08-01"
-    P: helm
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "2017-08-01"
-    P: k8s
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "2017-08-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Expedia Group
-    F: "2018-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Expedia Group
-    F: "2018-06-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Expedia Group
-    F: "2018-06-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Expedia Group
-    F: "2018-06-01"
-    P: linkerd
-    R: C
-  S: male
-  I:
-  - E: matei.david.35!gmail.com
-    M: Matei David
-    S: git
-  B: 0
-  U: Matei David

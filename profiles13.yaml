@@ -1,4 +1,595 @@
 P:
+- C: US
+  R:
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: argo
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: etcd
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: fluxcd
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: helm
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: k8s
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: rkt
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: argo
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: etcd
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: fluxcd
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: helm
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: k8s
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: rkt
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: argo
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: etcd
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: fluxcd
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: helm
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2013-12-31"
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: argo
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: etcd
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: fluxcd
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: helm
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: rkt
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: argo
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: etcd
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: fluxcd
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: helm
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: rkt
+    R: C
+  S: male
+  I:
+  - M: Jay Pipes
+    S: github
+    U: jaypipes
+  B: 0
+  U: Jay Pipes
+- C: US
+  E: jaypipes!gmail.com
+  R:
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  - T: "2011-12-01"
+    C: Rackspace
+    F: "1900-01-01"
+    P: stackstorm
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: argo
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: baetyl
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: cncf/k3s
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: k8s
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: opnfv
+    R: C
+  - T: "2012-06-04"
+    C: HP
+    F: "2011-12-01"
+    P: stackstorm
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: argo
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: baetyl
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: cncf/k3s
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: k8s
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: opnfv
+    R: C
+  - T: "2013-12-31"
+    C: AT&T Services, Inc.
+    F: "2012-06-04"
+    P: stackstorm
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: argo
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: baetyl
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: cncf/k3s
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: dpdk
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: opnfv
+    R: C
+  - T: "2017-10-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: stackstorm
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2013-12-31"
+    P: stackstorm
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: argo
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: baetyl
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: opnfv
+    R: C
+  - T: "2018-06-01"
+    C: Verizon Communications
+    F: "2017-10-01"
+    P: stackstorm
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: argo
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: baetyl
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: opnfv
+    R: C
+  - T: "2019-05-01"
+    C: Oath
+    F: "2018-06-01"
+    P: stackstorm
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-05-01"
+    P: stackstorm
+    R: C
+  S: male
+  I:
+  - E: jaypipes!gmail.com
+    M: Jay Pipes
+    S: git
+  - E: jaypipes!gmail.com
+    M: Jay Pipes
+    S: gmane
+  - E: jaypipes!gmail.com
+    M: Jay Pipes
+    S: groupsio
+  - E: jaypipes!gmail.com
+    M: Jay Pipes
+    S: linux-foundation:mls
+    U: jaypipes
+  - E: jaypipes!gmail.com
+    M: Jay Pipes
+    S: mbox
+  - E: jaypipes!gmail.com
+    M: Jay Pipes
+    S: pipermail
+  B: 0
+  U: Jay Pipes
+- E: rolette!infiniteio.com
+  R:
+  - T: "1997-10-01"
+    C: IBM
+    F: "1989-05-01"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "1997-10-01"
+    C: IBM
+    F: "1989-05-01"
+    P: dpdk
+    R: C
+  - T: "1997-10-01"
+    C: IBM
+    F: "1989-05-01"
+    P: dpdk-draft
+    R: C
+  - T: "1997-10-01"
+    C: IBM
+    F: "1989-05-01"
+    P: dpdk-next
+    R: C
+  - T: "2014-02-01"
+    C: Hewlett Packard Enterprise
+    F: "2002-01-01"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2014-02-01"
+    C: Hewlett Packard Enterprise
+    F: "2002-01-01"
+    P: dpdk
+    R: C
+  - T: "2014-02-01"
+    C: Hewlett Packard Enterprise
+    F: "2002-01-01"
+    P: dpdk-draft
+    R: C
+  - T: "2014-02-01"
+    C: Hewlett Packard Enterprise
+    F: "2002-01-01"
+    P: dpdk-next
+    R: C
+  - T: "2100-01-01"
+    C: InfiniteIO
+    F: "2014-02-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: InfiniteIO
+    F: "2014-02-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: InfiniteIO
+    F: "2014-02-01"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: InfiniteIO
+    F: "2014-02-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: InfiniteIO
+    F: "2014-02-01"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: InfiniteIO
+    F: "2014-02-01"
+    P: dpdk-next
+    R: C
+  I:
+  - E: rolette!infiniteio.com
+    M: Jay Rolette
+    S: git
+  - E: rolette!infinite.io
+    M: Jay Rolette
+    S: pipermail
+  - E: rolette!infiniteio.com
+    M: Jay Rolette
+    S: pipermail
+  B: 0
+  U: Jay Rolette
 - R:
   - T: "2100-01-01"
     C: OpsMx
@@ -58132,6 +58723,26 @@ P:
     S: git
   B: 0
   U: John Carlile
+- E: john!globalblockchainsummit.com
+  R:
+  - T: "2100-01-01"
+    C: Government Blockchain Association
+    F: "2017-01-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  I:
+  - M: John Carpenter
+    S: confluence
+    U: jcarpenter
+  - E: john!globalblockchainsummit.com
+    M: John Carpenter
+    S: confluence
+    U: jcarpenter
+  - E: john!globalblockchainsummit.com
+    M: John Carpenter
+    S: groupsio
+  B: 0
+  U: John Carpenter
 - C: US
   R:
   - T: "2100-01-01"
@@ -62390,232 +63001,3 @@ P:
     U: jmckind
   B: 0
   U: John McKenzie
-- E: john.mclaughlin!originate.com
-  R:
-  - T: "2100-01-01"
-    C: Roave
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Roave
-    F: "1900-01-01"
-    P: ojsf-mocha
-    R: C
-  I:
-  - E: john.mclaughlin!originate.com
-    M: John McLaughlin
-    S: github
-    U: mjhm
-  B: 0
-  U: John McLaughlin
-- R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: John McMeeking
-    S: github
-    U: jmcmeek
-  B: 0
-  U: John McMeeking
-- E: jmcmeek!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-12-18"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: jmcmeek!us.ibm.com
-    M: John McMeeking
-    S: git
-  - E: jmcmeek!us.ibm.com
-    M: John McMeeking
-    S: slack
-    U: jmcmeek
-  B: 0
-  U: John McMeeking
-- E: jmcnally!collab.net
-  R:
-  - T: "2100-01-01"
-    C: CollabNet
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: CollabNet
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: jmcnally!collab.net
-    M: John McNally
-    S: git
-  B: 0
-  U: John McNally
-- E: mcnallysetc!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: CollabNet
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: CollabNet
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: mcnallysetc!gmail.com
-    M: John McNally
-    S: git
-  B: 0
-  U: John McNally
-- E: john.mcnamara!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-01-14"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-01-14"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-01-14"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-01-14"
-    P: dpdk
-    R: C
-  - T: "2019-05-14"
-    C: Intel Corporation
-    F: "2015-02-03"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2015-02-03"
-    P: dpdk-next
-    R: C
-  - T: "2016-03-31"
-    C: Intel Corporation
-    F: "2016-03-23"
-    P: fdio
-    R: C
-  - T: "2017-09-07"
-    C: Intel Corporation
-    F: "2017-03-09"
-    P: dpdk-tools
-    R: C
-  I:
-  - E: john.mcnamara!intel.com
-    M: John McNamara
-    S: git
-  - E: john.mcnamara!intel.com
-    M: Mcnamara, John
-    S: groupsio
-  - E: john.mcnamara!intel.com
-    M: John McNamara
-    S: jira
-    U: jmcnamara
-  - E: john.mcnamara!intel.com
-    M: John McNamara
-    S: pipermail
-  - E: john.mcnamara!intel.com
-    M: Mcnamara, John
-    S: pipermail
-  B: 0
-  U: John McNamara
-- E: mehaf!mvista.com
-  R:
-  - T: "2014-11-05"
-    C: MontaVista Software, LLC
-    F: "2013-01-17"
-    P: yocto
-    R: C
-  I:
-  - E: mehaf_gh!gedanken.com
-    M: John Mehaffey
-    S: git
-  - E: mehaf!gedanken.com
-    M: John Mehaffey
-    S: groupsio
-  - E: mehaf!mvista.com
-    M: John Mehaffey
-    S: groupsio
-  - E: mehaf!gedanken.com
-    M: John Mehaffey
-    S: pipermail
-  - E: mehaf!mvista.com
-    M: John Mehaffey
-    S: pipermail
-  B: 0
-  U: John Mehaffey
-- E: johnm!netapp.com
-  R:
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: NetApp, Inc.
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: johnm!netapp.com
-    M: John Meneghini
-    S: git
-  B: 0
-  U: John Meneghini

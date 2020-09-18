@@ -1,4 +1,233 @@
 P:
+- E: john.mclaughlin!originate.com
+  R:
+  - T: "2100-01-01"
+    C: Roave
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Roave
+    F: "1900-01-01"
+    P: ojsf-mocha
+    R: C
+  I:
+  - E: john.mclaughlin!originate.com
+    M: John McLaughlin
+    S: github
+    U: mjhm
+  B: 0
+  U: John McLaughlin
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: John McMeeking
+    S: github
+    U: jmcmeek
+  B: 0
+  U: John McMeeking
+- E: jmcmeek!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-12-18"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: jmcmeek!us.ibm.com
+    M: John McMeeking
+    S: git
+  - E: jmcmeek!us.ibm.com
+    M: John McMeeking
+    S: slack
+    U: jmcmeek
+  B: 0
+  U: John McMeeking
+- E: jmcnally!collab.net
+  R:
+  - T: "2100-01-01"
+    C: CollabNet
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: CollabNet
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: jmcnally!collab.net
+    M: John McNally
+    S: git
+  B: 0
+  U: John McNally
+- E: mcnallysetc!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: CollabNet
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: CollabNet
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: mcnallysetc!gmail.com
+    M: John McNally
+    S: git
+  B: 0
+  U: John McNally
+- E: john.mcnamara!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-01-14"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-01-14"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-01-14"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-01-14"
+    P: dpdk
+    R: C
+  - T: "2019-05-14"
+    C: Intel Corporation
+    F: "2015-02-03"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-02-03"
+    P: dpdk-next
+    R: C
+  - T: "2016-03-31"
+    C: Intel Corporation
+    F: "2016-03-23"
+    P: fdio
+    R: C
+  - T: "2017-09-07"
+    C: Intel Corporation
+    F: "2017-03-09"
+    P: dpdk-tools
+    R: C
+  I:
+  - E: john.mcnamara!intel.com
+    M: John McNamara
+    S: git
+  - E: john.mcnamara!intel.com
+    M: Mcnamara, John
+    S: groupsio
+  - E: john.mcnamara!intel.com
+    M: John McNamara
+    S: jira
+    U: jmcnamara
+  - E: john.mcnamara!intel.com
+    M: John McNamara
+    S: pipermail
+  - E: john.mcnamara!intel.com
+    M: Mcnamara, John
+    S: pipermail
+  B: 0
+  U: John McNamara
+- E: mehaf!mvista.com
+  R:
+  - T: "2014-11-05"
+    C: MontaVista Software, LLC
+    F: "2013-01-17"
+    P: yocto
+    R: C
+  I:
+  - E: mehaf_gh!gedanken.com
+    M: John Mehaffey
+    S: git
+  - E: mehaf!gedanken.com
+    M: John Mehaffey
+    S: groupsio
+  - E: mehaf!mvista.com
+    M: John Mehaffey
+    S: groupsio
+  - E: mehaf!gedanken.com
+    M: John Mehaffey
+    S: pipermail
+  - E: mehaf!mvista.com
+    M: John Mehaffey
+    S: pipermail
+  B: 0
+  U: John Mehaffey
+- E: johnm!netapp.com
+  R:
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  I:
+  - E: johnm!netapp.com
+    M: John Meneghini
+    S: git
+  B: 0
+  U: John Meneghini
 - C: US
   E: jmertic!linuxfoundation.org
   R:
@@ -62119,1063 +62348,3 @@ P:
     S: git
   B: 0
   U: Justin Zhu
-- E: chigang!huawei.com
-  R:
-  - T: "2019-04-29"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-04-21"
-    R: C
-  - T: "2019-04-29"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-04-21"
-    P: opnfv
-    R: C
-  I:
-  - M: Justin chi
-    S: confluence
-    U: chigang
-  - E: chigang!huawei.com
-    M: Justin chi
-    S: gerrit
-    U: chigang
-  - E: chigang!huawei.com
-    M: Chigang(Justin)
-    S: git
-  - E: chigang!huawei.com
-    M: Justin chi
-    S: git
-  - E: chigang!huawei.com
-    M: Justin-chi
-    S: git
-  - E: chigang!huawei.com
-    M: Justin
-    S: git
-  - E: chigang!huawei.com
-    M: chigang
-    S: git
-  - E: chigang!huawei.com
-    M: Chigang Justin
-    S: gmane
-  - E: chigang!huawei.com
-    M: chigangJustin
-    S: gmane
-  - E: chigang!huawei.com
-    M: Chigang (Justin)
-    S: groupsio
-  - E: justin.chigang!gmail.com
-    M: Justin chi
-    S: groupsio
-  - E: chigang!huawei.com
-    M: chigang(Justin)
-    S: groupsio
-  - E: justin.chigang!gmail.com
-    M: gang chi
-    S: groupsio
-  - M: Justin chi
-    S: jira
-    U: chigang
-  - E: chigang!huawei.com
-    M: Justin chi
-    S: jira
-    U: chigang
-  - M: Justin chi
-    S: linux-foundation:its
-    U: chigang
-  - E: chigang!huawei.com
-    M: Chigang Justin
-    S: linux-foundation:mls
-    U: chigang
-  - E: chigang!huawei.com
-    M: Chigang(Justin)
-    S: linux-foundation:scm
-  - E: chigang!huawei.com
-    M: Justin chi
-    S: linux-foundation:scm
-  - E: chigang!huawei.com
-    M: Justin-chi
-    S: linux-foundation:scm
-  - E: chigang!huawei.com
-    M: chigang
-    S: linux-foundation:scm
-  - E: chigang!huawei.com
-    M: Justin chi
-    S: linux-foundation:scr
-    U: chigang
-  - E: chigang!huawei.com
-    M: Chigang Justin
-    S: mbox
-  - E: chigang!huawei.com
-    M: chigangJustin
-    S: mbox
-  - E: chigang!huawei.com
-    M: Chigang Justin
-    S: pipermail
-  - E: justin.chigang!gmail.com
-    M: Justin chi
-    S: pipermail
-  - E: chigang!huawei.com
-    M: chigangJustin
-    S: pipermail
-  - E: justin.chigang!gmail.com
-    M: gang chi
-    S: pipermail
-  B: 0
-  U: Justin chi
-- R:
-  - T: "2018-03-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2018-03-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-03-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: NatureServe
-    F: "2018-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: NatureServe
-    F: "2018-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: NatureServe
-    F: "2018-03-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - M: Justin
-    S: github
-    U: JustinAzoff
-  B: 0
-  U: Justin
-- R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  S: male
-  I:
-  - M: Justin
-    S: github
-    U: justinbarrick
-  B: 0
-  U: Justin
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: openapi
-    R: C
-  - T: "2019-03-26"
-    C: Microsoft Corporation
-    F: "2018-10-03"
-    R: C
-  S: male
-  I:
-  - M: Justin
-    S: github
-    U: jterry75
-  B: 0
-  U: Justin
-- C: US
-  E: jterry75!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  S: male
-  I:
-  - E: jterry75!users.noreply.github.com
-    M: Justin
-    S: git
-  B: 0
-  U: Justin
-- E: justin!bouncybouncy.net
-  R:
-  - T: "2018-03-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: internet-security-research-group
-    R: C
-  - T: "2018-03-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: NatureServe
-    F: "2018-03-01"
-    P: k8s
-    R: C
-  I:
-  - E: justin!bouncybouncy.net
-    M: Justin
-    S: git
-  B: 0
-  U: Justin
-- E: justin!presidentbeef.com
-  R:
-  - T: "2015-05-01"
-    C: Twitter
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-05-01"
-    C: Twitter
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2018-06-01"
-    C: SurveyMonkey
-    F: "2015-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Synopsys
-    F: "2018-06-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: justin!presidentbeef.com
-    M: Justin
-    S: git
-  B: 0
-  U: Justin
-- E: justin.m.barrick!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  I:
-  - E: justin.m.barrick!gmail.com
-    M: Justin
-    S: git
-  B: 0
-  U: Justin
-- E: presidentbeef!users.noreply.github.com
-  R:
-  - T: "2015-05-01"
-    C: Twitter
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-06-01"
-    C: SurveyMonkey
-    F: "2015-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-06-01"
-    C: SurveyMonkey
-    F: "2015-05-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Synopsys
-    F: "2018-06-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: presidentbeef!users.noreply.github.com
-    M: Justin
-    S: git
-  B: 0
-  U: Justin
-- E: justincappos!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: cncf/cnigenie
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: cncf/keptn
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: intoto
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: notary
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: thanos
-    R: C
-  - T: "2100-01-01"
-    C: NYU
-    F: "1900-01-01"
-    P: tuf
-    R: C
-  S: male
-  I:
-  - E: justincappos!gmail.com
-    M: Justin Cappos
-    S: git
-  - E: justincappos!gmail.com
-    M: JustinCappos
-    S: git
-  B: 0
-  U: JustinCappos
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: female
-  I:
-  - M: Justine Tunney
-    S: github
-    U: jart
-  B: 0
-  U: Justine Tunney
-- E: jart!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: onf-p4
-    R: C
-  I:
-  - E: jart!google.com
-    M: Justine Tunney
-    S: git
-  B: 0
-  U: Justine Tunney
-- E: jtunney!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: onf-onos
-    R: C
-  I:
-  - E: jtunney!gmail.com
-    M: Justine Tunney
-    S: git
-  - E: jtunney!gmail.com
-    M: Justine Tunney
-    S: github
-    U: jart
-  B: 0
-  U: Justine Tunney
-- E: juston.h.li!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: juston.h.li!gmail.com
-    M: Juston Li
-    S: git
-  B: 0
-  U: Juston Li
-- E: juston.li!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: juston.li!intel.com
-    M: Juston Li
-    S: git
-  B: 0
-  U: Juston Li
-- R:
-  - T: "2015-12-01"
-    C: SONIFI
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-12-01"
-    C: SONIFI
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2017-10-01"
-    C: Expansion
-    F: "2015-12-01"
-    P: k8s
-    R: C
-  - T: "2017-10-01"
-    C: Expansion
-    F: "2015-12-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: CoinLion
-    F: "2017-10-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: CoinLion
-    F: "2017-10-01"
-    P: nats
-    R: C
-  I:
-  - M: Justus Luthy (Boatright)
-    S: github
-    U: dellintosh
-  B: 0
-  U: Justus Luthy (Boatright)
-- E: jluthy!coinlion.com
-  R:
-  - T: "2015-12-01"
-    C: SONIFI
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-10-01"
-    C: Expansion
-    F: "2015-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: CoinLion
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: jluthy!coinlion.com
-    M: Justus Luthy (Boatright)
-    S: github
-    U: dellintosh
-  B: 0
-  U: Justus Luthy (Boatright)
-- E: jluthy!coinlion.com
-  R:
-  - T: "2015-12-01"
-    C: SONIFI
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2017-10-01"
-    C: Expansion
-    F: "2015-12-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: CoinLion
-    F: "2017-10-01"
-    P: nats
-    R: C
-  I:
-  - E: jluthy!coinlion.com
-    M: Justus Luthy
-    S: git
-  B: 0
-  U: Justus Luthy
-- E: justyna.czestochowsa!nokia.com
-  R:
-  - T: "2018-07-12"
-    C: Nokia Corporation
-    F: "2018-05-25"
-    R: C
-  - T: "2018-07-12"
-    C: Nokia Corporation
-    F: "2018-05-25"
-    P: onap
-    R: C
-  I:
-  - E: justyna.czestochowsa!nokia.com
-    M: Justyna Czestochowska
-    S: gerrit
-  - E: justyna.czestochowsa!nokia.com
-    M: Justyna Czestochowska
-    S: gerrit
-  B: 0
-  U: Justyna Czestochowska
-- E: justyna.czestochowska!nokia.com
-  R:
-  - T: "2019-01-16"
-    C: Nokia Corporation
-    F: "2018-04-01"
-    R: C
-  - T: "2019-01-16"
-    C: Nokia Corporation
-    F: "2018-04-01"
-    P: onap
-    R: C
-  I:
-  - M: Justyna Czestochowska
-    S: confluence
-    U: jczestochowska
-  - E: justyna.czestochowska!nokia.com
-    M: Justyna Czestochowska
-    S: gerrit
-    U: jczestochowska
-  - E: justyna.czestochowska!nokia.com
-    M: Justyna Czestochowska
-    S: git
-  - E: justyna.czestochowska!nokia.com
-    M: jczestochowska
-    S: git
-  - M: Justyna Czestochowska
-    S: jira
-    U: jczestochowska
-  - E: justyna.czestochowska!nokia.com
-    M: Justyna Czestochowska
-    S: jira
-    U: jczestochowska
-  B: 0
-  U: Justyna Czestochowska
-- C: PL
-  E: justyna.ilczuk!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  S: female
-  I:
-  - E: justyna.ilczuk!gmail.com
-    M: Justyna Ilczuk
-    S: git
-  - E: justyna.ilczuk!gmail.com
-    M: Justyna Ilczuk
-    S: github
-    U: ilonajulczuk
-  B: 0
-  U: Justyna Ilczuk
-- C: CN
-  E: 1171313930!qq.com
-  R:
-  - T: "2100-01-01"
-    C: Tencent Holdings Limited
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: 1171313930!qq.com
-    M: Juvenile
-    S: github
-    U: fengshunli
-  B: 0
-  U: Juvenile
-- E: tomi.juvonen!nsn.com
-  R:
-  - T: "2015-02-10"
-    C: Nokia Corporation
-    F: "2015-02-02"
-    R: C
-  - T: "2015-02-10"
-    C: Nokia Corporation
-    F: "2015-02-02"
-    P: opnfv
-    R: C
-  I:
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi NSN - FI/Espoo
-    S: gmane
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi (NSN - FI/Espoo)
-    S: groupsio
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi NSN - FI/Espoo
-    S: linux-foundation:mls
-    U: tomi.juvonen
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi NSN - FI/Espoo
-    S: mbox
-  - E: tomi.juvonen!nsn.com
-    M: Juvonen, Tomi NSN - FI/Espoo
-    S: pipermail
-  B: 0
-  U: Juvonen, Tomi (NSN - FI/Espoo)
-- E: jeff.van.dam!est.tech
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2020-06-07"
-    P: onap
-    R: C
-  I:
-  - M: Jeff van Dam
-    S: confluence
-    U: JvD_Ericsson
-  - E: jeff.van.dam!est.tech
-    M: Jeff van Dam
-    S: confluence
-    U: JvD_Ericsson
-  - E: jeff.van.dam!est.tech
-    M: Jeff van Dam
-    S: gerrit
-    U: JvD_Ericsson
-  - E: jeff.van.dam!est.tech
-    M: JvD_Ericsson
-    S: git
-  - M: Jeff van Dam
-    S: jira
-    U: JvD_Ericsson
-  - E: jeff.van.dam!est.tech
-    M: Jeff van Dam
-    S: jira
-    U: JvD_Ericsson
-  B: 0
-  U: JvD_Ericsson
-- E: block.rxckin.beats!gmail.com
-  R:
-  - T: "2017-12-31"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-12-31"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    P: ojsf-eslint
-    R: C
-  - T: "2017-12-31"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2017-12-31"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2017-12-31"
-    P: ojsf-webhint
-    R: C
-  I:
-  - E: block.rxckin.beats!gmail.com
-    M: Jxck
-    S: git
-  - E: block.rxckin.beats!gmail.com
-    M: Jxck
-    S: github
-    U: Jxck
-  B: 0
-  U: Jxck
-- C: US
-  R:
-  - T: "2018-09-01"
-    C: CloudPassage
-    F: "1900-01-01"
-    R: C
-  - T: "2018-09-01"
-    C: CloudPassage
-    F: "1900-01-01"
-    P: d7y
-    R: C
-  - T: "2018-09-01"
-    C: CloudPassage
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-09-01"
-    C: CloudPassage
-    F: "1900-01-01"
-    P: openpolicyagent
-    R: C
-  - T: "2100-01-01"
-    C: Zendesk
-    F: "2018-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Zendesk
-    F: "2018-09-01"
-    P: d7y
-    R: C
-  - T: "2100-01-01"
-    C: Zendesk
-    F: "2018-09-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Zendesk
-    F: "2018-09-01"
-    P: openpolicyagent
-    R: C
-  S: male
-  I:
-  - M: Jye Lee
-    S: github
-    U: eatwithforks
-  B: 0
-  U: Jye Lee
-- E: jyothiss!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2017-07-30"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2017-07-30"
-    P: onap
-    R: C
-  I:
-  - E: jyothiss!vmware.com
-    M: Jyothis S (c)
-    S: groupsio
-  - E: jyothiss!vmware.com
-    M: Jyothis S c
-    S: pipermail
-  B: 0
-  U: Jyothis S (c)
-- E: j.rao.kurapaty!accenture.com
-  R:
-  - T: "2100-01-01"
-    C: Accenture
-    F: "2016-03-23"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: j.rao.kurapaty!accenture.com
-    M: Jyothrilinga Rao Kurapati
-    S: slack
-    U: jkurapati
-  B: 0
-  U: Jyothrilinga Rao Kurapati
-- E: dekajp!gmail.com
-  R:
-  - T: "2019-05-01"
-    C: Morningstar
-    F: "1900-01-01"
-    P: a092m00001iv4dqqal
-    R: C
-  - T: "2019-05-01"
-    C: Morningstar
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-05-01"
-    C: Morningstar
-    F: "1900-01-01"
-    P: ojsf-jqui
-    R: C
-  - T: "2019-10-01"
-    C: Jet
-    F: "2019-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2019-10-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: dekajp!gmail.com
-    M: Jyoti Deka
-    S: git
-  B: 0
-  U: Jyoti Deka
-- R:
-  - T: "2019-03-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Lyft
-    F: "2019-03-01"
-    P: envoy
-    R: C
-  I:
-  - M: Jyoti Mahapatra
-    S: github
-    U: jyotimahapatra
-  B: 0
-  U: Jyoti Mahapatra
-- E: jyoti.r.yadav!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jyoti.r.yadav!intel.com
-    M: Jyoti Yadav
-    S: git
-  B: 0
-  U: Jyoti Yadav
-- E: jyotsna.priya1!tcs.com
-  R:
-  - T: "2100-01-01"
-    C: Tata Consultancy Services
-    F: "2014-09-17"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Tata Consultancy Services
-    F: "2014-09-17"
-    P: odl
-    R: C
-  I:
-  - E: jyotsna.priya1!tcs.com
-    M: Jyotsna Priya1
-    S: pipermail
-  B: 0
-  U: Jyotsna Priya1
-- E: jyri.ilama!gmail.com
-  R:
-  - T: "2014-08-01"
-    C: Eficode
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-11-01"
-    C: Basware
-    F: "2014-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-11-01"
-    C: Basware
-    F: "2014-08-01"
-    P: jenkins
-    R: C
-  - T: "2019-04-01"
-    C: Siili Solutions
-    F: "2018-11-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: iLama Oy
-    F: "2019-04-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: jyri.ilama!gmail.com
-    M: Jyri Ilama
-    S: github
-    U: jyrmyx
-  B: 0
-  U: Jyri Ilama
-- E: jsarha!ti.com
-  R:
-  - T: "2100-01-01"
-    C: Texas Instruments Incorporated
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Texas Instruments Incorporated
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: jsarha!ti.com
-    M: Jyri Sarha
-    S: git
-  B: 0
-  U: Jyri Sarha
-- E: jyrki.aaltonen!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-03-20"
-    P: akraino
-    R: C
-  I:
-  - E: jyrki.aaltonen!nokia.com
-    M: Jyrki Aaltonen
-    S: gerrit
-    U: jyrki
-  - E: jyrki.aaltonen!nokia.com
-    M: Jyrki Aaltonen
-    S: git
-  B: 0
-  U: Jyrki Aaltonen
-- C: SE
-  E: jyrki!dywypi.org
-  R:
-  - T: "2100-01-01"
-    C: Spotify
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Spotify
-    F: "1900-01-01"
-    P: ojsf-moment
-    R: C
-  - T: "2018-04-14"
-    C: Spotify
-    F: "2013-10-23"
-    P: stackstorm
-    R: C
-  I:
-  - E: jyrki!dywypi.org
-    M: Jyrki Pulliainen
-    S: git
-  - E: jyrki!dywypi.org
-    M: Jyrki Pulliainen
-    S: github
-    U: nailor
-  B: 0
-  U: Jyrki Pulliainen
