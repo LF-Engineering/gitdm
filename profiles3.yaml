@@ -1,5 +1,28 @@
 P:
 - C: US
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Andrew Bonventre
+    S: github
+    U: andybons
+  B: 0
+  U: Andrew Bonventre
+- C: US
   E: andybons!gmail.com
   R:
   - T: "2100-01-01"
