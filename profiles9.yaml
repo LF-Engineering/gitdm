@@ -1,4 +1,166 @@
 P:
+- E: edwin.peer!netronome.com
+  R:
+  - T: "2100-01-01"
+    C: Netronome Systems, Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Netronome Systems, Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: edwin.peer!netronome.com
+    M: Edwin Peer
+    S: git
+  B: 0
+  U: Edwin Peer
+- C: HU
+  E: edvin.torok!citrix.com
+  R:
+  - T: "2100-01-01"
+    C: Citrix Systems Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Citrix Systems Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: edvin.torok!citrix.com
+    M: Edwin Török
+    S: git
+  B: 0
+  U: Edwin Török
+- E: edwinvandegrift!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-02-21"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: edwinvandegrift!us.ibm.com
+    M: Edwin Van De Grift
+    S: slack
+    U: edwinvandegrift
+  B: 0
+  U: Edwin Van De Grift
+- R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2015-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: exie!pivotal.io
+    S: cloudfoundry:manual
+  - E: flawedmatrix!gmail.com
+    S: cloudfoundry:manual
+  - M: Edwin Xie
+    S: cloudfoundry:manual
+  - E: exie!pivotal.io
+    M: Edwin Xie
+    S: file:cff
+    U: flawedmatrix
+  - E: flawedmatrix!gmail.com
+    M: Edwin Xie
+    S: file:cff
+    U: flawedmatrix
+  - E: exie!pivotal.io
+    M: Edwin Xie
+    S: git
+  - E: flawedmatrix!gmail.com
+    M: Edwin Xie
+    S: git
+  - E: exie!pivotal.io
+    M: Edwin Xiel
+    S: git
+  - E: flawedmatrix!gmail.com
+    M: Flawedmatrix
+    S: git
+  - E: exie!pivotal.io
+    M: pivotal
+    S: git
+  - S: github
+    U: flawedmatrix
+  - M: Edwin Xie
+    S: github
+    U: flawedmatrix
+  - E: exie!pivotal.io
+    M: Edwin Xie
+    S: slack
+    U: edwin
+  B: 0
+  U: Edwin Xie
+- E: edyta.krukowska!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2020-01-01"
+    P: onap
+    R: C
+  I:
+  - E: edyta.krukowska!nokia.com
+    M: Edyta Krukowska
+    S: gerrit
+    U: edyta
+  - E: edyta.krukowska!nokia.com
+    M: Edyta Krukowska
+    S: git
+  - E: edyta.krukowska!nokia.com
+    M: edyta
+    S: git
+  - M: Edyta Krukowska
+    S: jira
+    U: edyta
+  - E: edyta.krukowska!nokia.com
+    M: Edyta Krukowska
+    S: jira
+    U: edyta
+  B: 0
+  U: Edyta Krukowska
+- R:
+  - T: "2017-07-31"
+    C: Biuro Projektów Komunikacyjnych w Poznaniu
+    F: "2017-07-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2017-12-31"
+    C: MoodUp
+    F: "2017-12-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2018-07-31"
+    C: AKTE
+    F: "2018-07-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Merazet S.A
+    F: "2018-08-01"
+    P: lfai/amundsen
+    R: C
+  - T: "2100-01-01"
+    C: Merazet S.A
+    F: "2018-08-01"
+    P: zep
+    R: C
+  I:
+  - S: github
+    U: EdytaBosacka
+  B: 0
+  U: EdytaBosacka
 - E: eyeoh7!yctb05.ostc.intel.com
   R:
   - T: "2018-06-20"
@@ -35649,6 +35811,11 @@ P:
   - T: "2100-01-01"
     C: MDB Compas
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: MDB Compas
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
@@ -56825,6 +56992,11 @@ P:
   - T: "2100-01-01"
     C: Intel Corporation
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
@@ -62600,156 +62772,3 @@ P:
     U: fbdlampayan
   B: 0
   U: Francis Bryant D. Lampayan
-- C: AU
-  R:
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: openpolicyagent
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2018-12-01"
-    C: Boostport
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: openpolicyagent
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "2018-12-01"
-    P: rook
-    R: C
-  I:
-  - M: Francis Chuang
-    S: github
-    U: F21
-  B: 0
-  U: Francis Chuang
-- C: CA
-  E: francis.deslauriers!efficios.com
-  R:
-  - T: "2016-11-30"
-    C: EfficiOS
-    F: "2016-11-28"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: francis.deslauriers!efficios.com
-    M: Francis Deslauriers
-    S: git
-  B: 0
-  U: Francis Deslauriers
-- R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2017-08-04"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2017-08-04"
-    P: harbor
-    R: C
-  S: male
-  I:
-  - M: Francis Guillier
-    S: github
-    U: guillierf
-  - E: guillierf!vmware.com
-    M: francis guillier
-    S: slack
-    U: guillierf
-  B: 0
-  U: Francis Guillier

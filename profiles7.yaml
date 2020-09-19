@@ -1,4 +1,96 @@
 P:
+- C: "NO"
+  R:
+  - T: "2014-03-01"
+    C: Berghaugen
+    F: "1900-01-01"
+    R: C
+  - T: "2014-03-01"
+    C: Berghaugen
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2015-09-01"
+    C: Avega
+    F: "2014-03-01"
+    R: C
+  - T: "2015-09-01"
+    C: Avega
+    F: "2014-03-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Sentinel Software
+    F: "2015-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sentinel Software
+    F: "2015-09-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - M: Dag H. Baardsen
+    S: github
+    U: daghb
+  B: 0
+  U: Dag H. Baardsen
+- E: dag.moxnes!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: dag.moxnes!oracle.com
+    M: Dag Moxnes
+    S: git
+  B: 0
+  U: Dag Moxnes
+- E: dahir.osman!windriver.com
+  R:
+  - T: "2018-03-31"
+    C: Wind River Systems, Inc.
+    F: "2017-06-05"
+    P: dpdk-draft
+    R: C
+  - T: "2018-03-31"
+    C: Wind River Systems, Inc.
+    F: "2017-06-05"
+    P: dpdk-next
+    R: C
+  - T: "2018-06-09"
+    C: Wind River Systems, Inc.
+    F: "2017-06-05"
+    P: cephfoundation
+    R: C
+  - T: "2018-06-09"
+    C: Wind River Systems, Inc.
+    F: "2017-06-05"
+    P: danos
+    R: C
+  - T: "2018-06-09"
+    C: Wind River Systems, Inc.
+    F: "2017-06-05"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2018-06-09"
+    C: Wind River Systems, Inc.
+    F: "2017-06-05"
+    P: dpdk
+    R: C
+  I:
+  - E: dahir.osman!windriver.com
+    M: Dahir Osman
+    S: git
+  B: 0
+  U: Dahir Osman
 - C: US
   E: 149529+dlbock!users.noreply.github.com
   R:
@@ -56211,6 +56303,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
@@ -62364,198 +62461,3 @@ P:
     S: git
   B: 0
   U: David Symonds
-- R:
-  - T: "2014-06-01"
-    C: AMD
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-06-01"
-    C: AMD
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2016-10-01"
-    C: Vivint Solar
-    F: "2014-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-10-01"
-    C: Vivint Solar
-    F: "2014-06-01"
-    P: jenkins
-    R: C
-  - T: "2019-03-01"
-    C: Ancestry
-    F: "2016-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-03-01"
-    C: Ancestry
-    F: "2016-10-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: LifeOmic
-    F: "2019-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: LifeOmic
-    F: "2019-03-01"
-    P: jenkins
-    R: C
-  I:
-  - M: David Tanner
-    S: github
-    U: DavidTanner
-  B: 0
-  U: David Tanner
-- E: darthtanner!gmail.com
-  R:
-  - T: "2014-06-01"
-    C: AMD
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-06-01"
-    C: AMD
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2016-10-01"
-    C: Vivint Solar
-    F: "2014-06-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-10-01"
-    C: Vivint Solar
-    F: "2014-06-01"
-    P: jenkins
-    R: C
-  - T: "2019-03-01"
-    C: Ancestry
-    F: "2016-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-03-01"
-    C: Ancestry
-    F: "2016-10-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: LifeOmic
-    F: "2019-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: LifeOmic
-    F: "2019-03-01"
-    P: jenkins
-    R: C
-  I:
-  - E: darthtanner!gmail.com
-    M: David Tanner
-    S: git
-  B: 0
-  U: David Tanner
-- R:
-  - T: "2100-01-01"
-    C: Power Home Remodeling Group
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Power Home Remodeling Group
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: David Taylor
-    S: github
-    U: djtaylor
-  B: 0
-  U: David Taylor
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Cockroach
-    F: "1900-01-01"
-    P: vitess
-    R: C
-  S: male
-  I:
-  - M: David Taylor
-    S: github
-    U: dt
-  B: 0
-  U: David Taylor
-- C: US
-  E: david!crossbound.tech
-  R:
-  - T: "2100-01-01"
-    C: CrossBound
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: CrossBound
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: CrossBound
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: david!crossbound.tech
-    M: David Taylor
-    S: git
-  - E: david!crossbound.tech
-    M: David Taylor
-    S: github
-    U: CrossBound
-  B: 0
-  U: David Taylor
-- C: US
-  E: djtaylor13!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Power Home Remodeling Group
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Power Home Remodeling Group
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: djtaylor13!gmail.com
-    M: David Taylor
-    S: git
-  B: 0
-  U: David Taylor
-- E: dtaylor!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: dtaylor!redhat.com
-    M: David Taylor
-    S: git
-  B: 0
-  U: David Taylor

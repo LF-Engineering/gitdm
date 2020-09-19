@@ -1,4 +1,27 @@
 P:
+- E: luca.bogdan!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Rook
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Rook
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Rook
+    F: "1900-01-01"
+    P: rook
+    R: C
+  S: male
+  I:
+  - E: luca.bogdan!gmail.com
+    M: Bogdan Luca
+    S: git
+  B: 0
+  U: Bogdan Luca
 - E: bogdan.a.marinescu!intel.com
   R:
   - T: "2016-07-05"
@@ -60125,6 +60148,11 @@ P:
   - T: "2015-02-01"
     C: Beijing Sunrus
     F: "2014-01-01"
+    P: ambitus
+    R: C
+  - T: "2015-02-01"
+    C: Beijing Sunrus
+    F: "2014-01-01"
     P: cephfoundation
     R: C
   - T: "2015-02-01"
@@ -60161,6 +60189,11 @@ P:
     C: Home
     F: "2015-02-01"
     P: acrn/acrn
+    R: C
+  - T: "2015-04-01"
+    C: Home
+    F: "2015-02-01"
+    P: ambitus
     R: C
   - T: "2015-04-01"
     C: Home
@@ -60201,6 +60234,11 @@ P:
     C: Emindsoft
     F: "2015-04-01"
     P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Emindsoft
+    F: "2015-04-01"
+    P: ambitus
     R: C
   - T: "2100-01-01"
     C: Emindsoft
@@ -62158,77 +62196,3 @@ P:
     U: leakingtapan
   B: 0
   U: Cheng Pan
-- C: US
-  E: chengpan!amazon.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2019-03-27"
-    C: Amazon
-    F: "2018-09-04"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: chengpan!amazon.com
-    M: Cheng Pan
-    S: git
-  - E: chengpan!amazon.com
-    M: Cheng Pan
-    S: github
-    U: leakingtapan
-  B: 0
-  U: Cheng Pan
-- E: cheng.peng5!zte.com.cn
-  R:
-  - T: "2100-01-01"
-    C: ZTE Corporation
-    F: "2020-04-13"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: ZTE Corporation
-    F: "2020-04-13"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: ZTE Corporation
-    F: "2020-04-13"
-    P: dpdk-next
-    R: C
-  I:
-  - E: cheng.peng5!zte.com.cn
-    M: Cheng Peng
-    S: git
-  B: 0
-  U: Cheng Peng
-- E: cxing!cxing-macbookpro.roam.corp.google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: cxing!cxing-macbookpro.roam.corp.google.com
-    M: Cheng Xing
-    S: git
-  B: 0
-  U: Cheng Xing

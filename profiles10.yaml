@@ -1,4 +1,157 @@
 P:
+- C: AU
+  R:
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2018-12-01"
+    C: Boostport
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "2018-12-01"
+    P: rook
+    R: C
+  I:
+  - M: Francis Chuang
+    S: github
+    U: F21
+  B: 0
+  U: Francis Chuang
+- C: CA
+  E: francis.deslauriers!efficios.com
+  R:
+  - T: "2016-11-30"
+    C: EfficiOS
+    F: "2016-11-28"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: francis.deslauriers!efficios.com
+    M: Francis Deslauriers
+    S: git
+  B: 0
+  U: Francis Deslauriers
+- R:
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2017-08-04"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2017-08-04"
+    P: harbor
+    R: C
+  S: male
+  I:
+  - M: Francis Guillier
+    S: github
+    U: guillierf
+  - E: guillierf!vmware.com
+    M: francis guillier
+    S: slack
+    U: guillierf
+  B: 0
+  U: Francis Guillier
 - E: wizard!roborooter.com
   R:
   - T: "2015-08-01"
@@ -1065,6 +1218,11 @@ P:
     C: Odyssée Systèmes
     F: "1900-01-01"
     P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Odyssée Systèmes
+    F: "1900-01-01"
+    P: ambitus
     R: C
   - T: "2100-01-01"
     C: Odyssée Systèmes
@@ -52760,6 +52918,11 @@ P:
   - T: "2015-08-01"
     C: Broadcom Corporation
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2015-08-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2015-08-01"
@@ -61656,123 +61819,3 @@ P:
     S: git
   B: 0
   U: Guohan Lu
-- C: CN
-  E: gouyang!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2016-06-07"
-    C: Red Hat Inc.
-    F: "2015-08-31"
-    P: baetyl
-    R: C
-  I:
-  - E: gouyang!redhat.com
-    M: Guohua Ouyang
-    S: git
-  - E: gouyang!redhat.com
-    M: Guohua Ouyang
-    S: github
-    U: gouyang
-  B: 0
-  U: Guohua Ouyang
-- C: CN
-  E: guohuaouyang!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  I:
-  - E: guohuaouyang!gmail.com
-    M: Guohua ouyang
-    S: git
-  B: 0
-  U: Guohua ouyang
-- E: liaoguojia!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: liaoguojia!huawei.com
-    M: Guojia Liao
-    S: git
-  B: 0
-  U: Guojia Liao
-- E: guojiachun!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-05-14"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2015-05-14"
-    P: dpdk
-    R: C
-  I:
-  - E: guojiachun!huawei.com
-    M: Guojiachun
-    S: pipermail
-  B: 0
-  U: Guojiachun
-- E: 32868157+nbcsm!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2007-12-31"
-    P: lfai-onnx
-    R: C
-  I:
-  - E: 32868157+nbcsm!users.noreply.github.com
-    M: Guoliang Hua
-    S: git
-  - E: guohua!microsoft.com
-    M: Guoliang Hua
-    S: git
-  - M: Guoliang Hua
-    S: github
-    U: nbcsm
-  B: 0
-  U: Guoliang Hua

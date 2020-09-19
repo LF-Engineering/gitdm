@@ -1,4 +1,504 @@
 P:
+- C: PL
+  E: piotr.skamruk!gmail.com
+  R:
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: nsm
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: baetyl
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: cncf/cni
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: container-networking-interface
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: k8s
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: nsm
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: cni
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: nsm
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: rkt
+    R: C
+  S: male
+  I:
+  - E: piotr.skamruk!gmail.com
+    M: Piotr Skamruk
+    S: git
+  B: 0
+  U: Piotr Skamruk
+- C: PL
+  E: piotr.skamruk!intel.com
+  R:
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: cncf/cni
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: container-networking-interface
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2016-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: rkt
+    R: C
+  S: male
+  I:
+  - E: piotr.skamruk!intel.com
+    M: Piotr Skamruk
+    S: git
+  B: 0
+  U: Piotr Skamruk
+- C: PL
+  E: pskamruk!mirantis.com
+  R:
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-06-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: baetyl
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: cncf/cni
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: cni
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: container-networking-interface
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: k8s
+    R: C
+  - T: "2019-02-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2016-06-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CodiLime Sp. z o.o.
+    F: "2019-02-01"
+    P: rkt
+    R: C
+  S: male
+  I:
+  - E: pskamruk!mirantis.com
+    M: Piotr Skamruk
+    S: git
+  B: 0
+  U: Piotr Skamruk
+- E: piotrs!cadence.com
+  R:
+  - T: "2100-01-01"
+    C: Cadence Design Systems
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: piotrs!cadence.com
+    M: Piotr Sroka
+    S: git
+  B: 0
+  U: Piotr Sroka
+- E: pstanczyk!ilm.com
+  R:
+  - T: "2013-11-28"
+    C: Lucasfilm
+    F: "2008-08-01"
+    P: openexr
+    R: C
+  I:
+  - E: piotr.stanczyk!gmail.com
+    M: Piotr Stanczyk
+    S: git
+  - E: pstanczyk!ilm.com
+    M: Piotr Stanczyk
+    S: git
+  - E: pstanczyk!ilm.com
+    M: Piotr
+    S: git
+  - E: pstanczyk!ilm.com
+    M: pstanczyk
+    S: git
+  B: 0
+  U: Piotr Stanczyk
+- E: piotr.stankiewicz!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: piotr.stankiewicz!intel.com
+    M: Piotr Stankiewicz
+    S: git
+  B: 0
+  U: Piotr Stankiewicz
+- E: piotrs!opensource.cirrus.com
+  R:
+  - T: "2100-01-01"
+    C: Cirrus Logic
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: piotrs!opensource.cirrus.com
+    M: Piotr Stankiewicz
+    S: git
+  B: 0
+  U: Piotr Stankiewicz
+- C: PL
+  R:
+  - T: "2014-02-01"
+    C: AdPilot
+    F: "1900-01-01"
+    R: C
+  - T: "2014-02-01"
+    C: AdPilot
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-02-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Piotr Szczesniak
+    S: github
+    U: piosz
+  B: 0
+  U: Piotr Szczesniak
+- C: PL
+  E: pszczesniak!google.com
+  R:
+  - T: "2014-02-01"
+    C: AdPilot
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2014-02-01"
+    C: AdPilot
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2014-02-01"
+    C: AdPilot
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2014-02-01"
+    C: AdPilot
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-02-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-02-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-02-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-02-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-02-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: pszczesniak!google.com
+    M: Piotr Szczesniak
+    S: git
+  B: 0
+  U: Piotr Szczesniak
+- C: PL
+  E: piotr.szkotak!nordicsemi.no
+  R:
+  - T: "2014-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2015-05-01"
+    C: Comarch
+    F: "2014-07-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-05-01"
+    C: Comarch
+    F: "2014-07-01"
+    P: zep
+    R: C
+  - T: "2016-01-01"
+    C: Cisco Systems Inc.
+    F: "2015-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-01-01"
+    C: Cisco Systems Inc.
+    F: "2015-05-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2016-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2016-01-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: piotr.szkotak!nordicsemi.no
+    M: Piotr Szkotak
+    S: git
+  - E: piotr.szkotak!nordicsemi.no
+    M: Piotr Szkotak
+    S: github
+    U: pszkotak
+  B: 0
+  U: Piotr Szkotak
 - E: piotr.szuberski!codilime.com
   R:
   - T: "2018-12-01"
@@ -4579,6 +5079,9 @@ P:
     P: k8s
     R: C
   I:
+  - E: prafull.ladha!gmail.com
+    M: Prafull Ladha
+    S: git
   - E: prafull.ladha!gmail.com
     M: Prafull Ladha
     S: github
@@ -52893,6 +53396,11 @@ P:
   - T: "2013-09-01"
     C: STS Group
     F: "2007-04-01"
+    P: acrn/acrn
+    R: C
+  - T: "2013-09-01"
+    C: STS Group
+    F: "2007-04-01"
     P: cloudevents
     R: C
   - T: "2100-01-01"
@@ -60496,409 +61004,3 @@ P:
     S: git
   B: 0
   U: Richard Belleville
-- E: rberg!bitwise.io
-  R:
-  - T: "2016-11-30"
-    C: Code42
-    F: "2012-01-31"
-    P: fabric
-    R: C
-  - T: "2016-11-30"
-    C: Code42
-    F: "2012-01-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2016-11-30"
-    C: Code42
-    F: "2012-01-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2016-11-30"
-    C: Code42
-    F: "2012-01-31"
-    P: grid
-    R: M
-  - T: "2016-11-30"
-    C: Code42
-    F: "2012-01-31"
-    P: sawtooth
-    R: M
-  - T: "2016-11-30"
-    C: Code42
-    F: "2012-01-31"
-    P: transact
-    R: M
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-01-31"
-    P: fabric
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-01-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-01-31"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-01-31"
-    P: grid
-    R: M
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-01-31"
-    P: sawtooth
-    R: M
-  - T: "2100-01-01"
-    C: Bitwise
-    F: "2017-01-31"
-    P: transact
-    R: M
-  I:
-  - E: rberg!bitwise.io
-    M: Richard Berg
-    S: gerrit
-    U: rberg2
-  - E: rberg!bitwise.io
-    M: Richard Berg
-    S: git
-  - M: Richard Berg
-    S: github
-    U: rberg2
-  - E: rberg!bitwise.io
-    M: Richard Berg
-    S: groupsio
-  - M: Richard Berg
-    S: jira
-    U: rberg2
-  - E: rberg!bitwise.io
-    M: Richard Berg
-    S: jira
-    U: rberg2
-  B: 0
-  U: Richard Berg
-- R:
-  - T: "1999-01-01"
-    C: US Navy
-    F: "1993-09-01"
-    P: lfn-cntt
-    R: C
-  - T: "2002-12-01"
-    C: SunTrust Banks, Inc.
-    F: "2002-02-01"
-    P: lfn-cntt
-    R: C
-  - T: "2003-06-01"
-    C: Symbion
-    F: "2003-02-01"
-    P: lfn-cntt
-    R: C
-  - T: "2004-04-01"
-    C: State of Tennessee
-    F: "2003-11-01"
-    P: lfn-cntt
-    R: C
-  - T: "2005-05-01"
-    C: Symbion
-    F: "2004-04-01"
-    P: lfn-cntt
-    R: C
-  - T: "2013-06-01"
-    C: Visa
-    F: "2005-05-01"
-    P: lfn-cntt
-    R: C
-  - T: "2020-04-01"
-    C: VMware, Inc.
-    F: "2013-06-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: Thryv
-    F: "2020-04-01"
-    P: lfn-cntt
-    R: C
-  I:
-  - M: Richard Boswell
-    S: github
-    U: richardboswell
-  B: 0
-  U: Richard Boswell
-- C: DE
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Richard Brown
-    S: github
-    U: sysrich
-  B: 0
-  U: Richard Brown
-- E: 10726631+rbo13!users.noreply.github.com
-  R:
-  - T: "2015-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2015-11-01"
-    C: Synacy
-    F: "2015-06-01"
-    P: openebs
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2015-11-01"
-    P: openebs
-    R: C
-  - T: "2017-01-01"
-    C: CodeRepubliq
-    F: "2016-06-01"
-    P: openebs
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2017-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: A-FIS PTE.LTD
-    F: "2017-08-01"
-    P: openebs
-    R: C
-  I:
-  - E: 10726631+rbo13!users.noreply.github.com
-    M: Richard Burk Orofeo
-    S: git
-  B: 0
-  U: Richard Burk Orofeo
-- E: chardy.orofeo!yahoo.com.ph
-  R:
-  - T: "2015-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2015-11-01"
-    C: Synacy
-    F: "2015-06-01"
-    P: openebs
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2015-11-01"
-    P: openebs
-    R: C
-  - T: "2017-01-01"
-    C: CodeRepubliq
-    F: "2016-06-01"
-    P: openebs
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2017-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: A-FIS PTE.LTD
-    F: "2017-08-01"
-    P: openebs
-    R: C
-  I:
-  - E: chardy.orofeo!yahoo.com.ph
-    M: Richard Burk Orofeo
-    S: git
-  B: 0
-  U: Richard Burk Orofeo
-- E: chardyy.orofeo!gmail.com
-  R:
-  - T: "2015-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2015-11-01"
-    C: Synacy
-    F: "2015-06-01"
-    P: openebs
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2015-11-01"
-    P: openebs
-    R: C
-  - T: "2017-01-01"
-    C: CodeRepubliq
-    F: "2016-06-01"
-    P: openebs
-    R: C
-  - T: "2017-08-01"
-    C: Independent
-    F: "2017-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: A-FIS PTE.LTD
-    F: "2017-08-01"
-    P: openebs
-    R: C
-  I:
-  - E: chardyy.orofeo!gmail.com
-    M: Richard Burk Orofeo
-    S: github
-    U: rbo13
-  B: 0
-  U: Richard Burk Orofeo
-- R:
-  - T: "2100-01-01"
-    C: Bank of New Zealand
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Bank of New Zealand
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - M: Richard Bywater
-    S: github
-    U: rbywater
-  B: 0
-  U: Richard Bywater
-- E: richard!byh2o.com
-  R:
-  - T: "2100-01-01"
-    C: Bank of New Zealand
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Bank of New Zealand
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: richard!byh2o.com
-    M: Richard Bywater
-    S: git
-  B: 0
-  U: Richard Bywater
-- E: richard!bywater.nz
-  R:
-  - T: "2100-01-01"
-    C: Bank of New Zealand
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Bank of New Zealand
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: richard!bywater.nz
-    M: Richard Bywater
-    S: git
-  B: 0
-  U: Richard Bywater
-- E: richard_bywater!bnz.co.nz
-  R:
-  - T: "2100-01-01"
-    C: Bank of New Zealand
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Bank of New Zealand
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: richard_bywater!bnz.co.nz
-    M: Richard Bywater
-    S: git
-  B: 0
-  U: Richard Bywater
-- E: richard.carslake!hcl.com
-  R:
-  - T: "2016-07-05"
-    C: HCL Technologies Ltd.
-    F: "2016-06-30"
-    P: dpdk
-    R: C
-  - T: "2016-07-05"
-    C: HCL Technologies Ltd.
-    F: "2016-06-30"
-    P: odl
-    R: C
-  I:
-  - E: richard.carslake!hcl.com
-    M: Richard Carslake
-    S: pipermail
-  B: 0
-  U: Richard Carslake
-- R:
-  - T: "2019-11-04"
-    C: Independent
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2019-11-04"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2019-11-04"
-    C: Independent
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2019-11-04"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2019-11-04"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2019-11-04"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2019-11-04"
-    P: k8s
-    R: C
-  I:
-  - M: Richard Case
-    S: github
-    U: richardcase
-  B: 0
-  U: Richard Case
