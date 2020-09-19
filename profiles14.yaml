@@ -1,4 +1,52 @@
 P:
+- E: johnlabarge!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: johnlabarge!google.com
+    M: John La Barge
+    S: git
+  B: 0
+  U: John La Barge
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: John LaBarge
+    S: github
+    U: johnlabarge
+  B: 0
+  U: John LaBarge
+- E: jlacombe!neteffect.com
+  R:
+  - T: "2100-01-01"
+    C: neteffect technologies
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jlacombe!neteffect.com
+    M: John Lacombe
+    S: git
+  B: 0
+  U: John Lacombe
 - R:
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -18939,6 +18987,11 @@ P:
   - T: "2016-12-01"
     C: TECHBANK
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2016-12-01"
+    C: TECHBANK
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2016-12-01"
@@ -30928,6 +30981,11 @@ P:
   - T: "2100-01-01"
     C: Ensighten
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: Ensighten
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
@@ -33070,6 +33128,11 @@ P:
     C: CodeSourcery
     F: "2005-01-23"
     P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: CodeSourcery
+    F: "2005-01-23"
+    P: ambitus
     R: C
   - T: "2100-01-01"
     C: CodeSourcery

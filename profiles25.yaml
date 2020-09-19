@@ -1,4 +1,141 @@
 P:
+- E: syin!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: syin!broadcom.com
+    M: Sherman Yin
+    S: git
+  B: 0
+  U: Sherman Yin
+- C: MX
+  E: sheroy!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: ThoughtWorks
+    F: "2018-03-22"
+    P: lfai/lfai
+    R: C
+  I:
+  - E: sheroy!gmail.com
+    M: Sheroy Marker
+    S: git
+  - E: sheroy!gmail.com
+    M: Sheroy Marker
+    S: github
+    U: sheroy
+  B: 0
+  U: Sheroy Marker
+- E: sherry.hurwitz!amd.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: sherry.hurwitz!amd.com
+    M: Sherry Hurwitz
+    S: git
+  B: 0
+  U: Sherry Hurwitz
+- E: sherry.krell!hp.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "2015-01-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "2015-01-01"
+    P: odl
+    R: C
+  I:
+  - E: sherry.krell!hp.com
+    M: Sherry Krell
+    S: gerrit
+    U: sherryk
+  - E: sherry.krell!hp.com
+    M: Sherry Krell
+    S: git
+  - E: sherry.krell!hp.com
+    M: Krell, Sherry
+    S: groupsio
+  - E: sherry.krell!hp.com
+    M: Krell, Sherry
+    S: pipermail
+  B: 0
+  U: Sherry Krell
+- E: sherryy!android.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: sherryy!android.com
+    M: Sherry Yang
+    S: git
+  B: 0
+  U: Sherry Yang
+- E: skartick!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2016-05-16"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: skartick!pivotal.io
+    M: Sherwin Kartick
+    S: slack
+    U: sherwinkartick
+  B: 0
+  U: Sherwin Kartick
 - E: shesha!cisco.com
   R:
   - T: "2100-01-01"
@@ -13167,6 +13304,11 @@ P:
   U: Siddhartha Karthik Copesetty
 - E: siddhesh!redhat.com
   R:
+  - T: "2014-07-25"
+    C: Red Hat Inc.
+    F: "2014-07-01"
+    P: ambitus
+    R: C
   - T: "2014-07-25"
     C: Red Hat Inc.
     F: "2014-07-01"
@@ -36845,6 +36987,11 @@ P:
   - T: "2013-03-03"
     C: SUSE LLC
     F: "2007-04-01"
+    P: ambitus
+    R: C
+  - T: "2013-03-03"
+    C: SUSE LLC
+    F: "2007-04-01"
     P: cephfoundation
     R: C
   - T: "2013-03-03"
@@ -54520,6 +54667,11 @@ P:
   - T: "2018-02-24"
     C: Linaro Limited
     F: "2011-07-18"
+    P: ambitus
+    R: C
+  - T: "2018-02-24"
+    C: Linaro Limited
+    F: "2011-07-18"
     P: kernelci
     R: C
   - T: "2018-02-24"
@@ -56790,6 +56942,11 @@ P:
     C: Linux
     F: "1900-01-01"
     P: openvdb
+    R: C
+  - T: "2100-01-01"
+    C: Linux
+    F: "1900-01-01"
+    P: polycephaly
     R: C
   - T: "2100-01-01"
     C: Linux
@@ -61160,337 +61317,3 @@ P:
     U: StevenTCramer
   B: 0
   U: Steven T. Cramer
-- R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: staylor!pivotal.io
-    S: cloudfoundry:manual
-  - E: staylor14!users.noreply.github.com
-    S: cloudfoundry:manual
-  - E: steve.taylor14!gmail.com
-    S: cloudfoundry:manual
-  - E: taylors!Steves-MBP.staylor.com
-    S: cloudfoundry:manual
-  - M: Steve Taylor
-    S: cloudfoundry:manual
-  - M: Steven Taylor
-    S: cloudfoundry:manual
-  - E: pivotal-relint!pivotal.io
-    M: Josh Collins
-    S: git
-  - E: pivotal-relint!pivotal.io
-    M: Saikiran Yerram
-    S: git
-  - E: pivotal-relint!pivotal.io
-    M: Steve Taylor
-    S: git
-  - E: staylor!pivotal.io
-    M: Steve Taylor
-    S: git
-  - E: staylor14!users.noreply.github.com
-    M: Steve Taylor
-    S: git
-  - E: steve.taylor14!gmail.com
-    M: Steve Taylor
-    S: git
-  - E: taylors!Steves-MBP-3.us.home
-    M: Steve Taylor
-    S: git
-  - E: taylors!Steves-MBP.staylor.com
-    M: Steve Taylor
-    S: git
-  - E: taylors!Steves-MBP.us.home
-    M: Steve Taylor
-    S: git
-  - E: taylors!Steves-MacBook-Pro-3.local
-    M: Steve Taylor
-    S: git
-  - E: steven.taylor!me.com
-    M: Steven Taylor
-    S: git
-  - E: pivotal-relint!pivotal.io
-    M: pivotal
-    S: git
-  - S: github
-    U: hashneo
-  - S: github
-    U: staylor14
-  - M: Steve Taylor
-    S: github
-    U: staylor14
-  - M: Steven Taylor
-    S: github
-    U: hashneo
-  - E: staylor!pivotal.io
-    M: Steve Taylor
-    S: groupsio
-  - E: staylor!pivotal.io
-    M: staylor
-    S: groupsio
-  - E: staylor!pivotal.io
-    M: Steve Taylor
-    S: mbox
-  - E: staylor!pivotal.io
-    M: Steve Taylor [Pivotal]
-    S: slack
-    U: staylor
-  - E: staylor!pivotal.io
-    M: Steve Taylor
-    S: slack
-    U: staylor
-  B: 0
-  U: Steven Taylor
-- E: steve.thomas!amdocs.com
-  R:
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Amdocs
-    F: "2018-01-01"
-    P: onap
-    R: C
-  I:
-  - M: Steven Thomas
-    S: confluence
-    U: steventh
-  - E: steve.thomas!amdocs.com
-    M: Steven Thomas
-    S: gerrit
-    U: steventh
-  - E: steve.thomas!amdocs.com
-    M: Steve Thomas
-    S: git
-  - E: steve.thomas!amdocs.com
-    M: Steven Thomas
-    S: git
-  - E: steve.thomas!amdocs.com
-    M: steventh
-    S: git
-  - M: Steven Thomas
-    S: jira
-    U: steventh
-  - E: steve.thomas!amdocs.com
-    M: Steven Thomas
-    S: jira
-    U: steventh
-  B: 0
-  U: Steven Thomas
-- E: stoth!hauppauge.com
-  R:
-  - T: "2100-01-01"
-    C: Hauppauge
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: stoth!hauppauge.com
-    M: Steve Toth
-    S: git
-  - E: stoth!hauppauge.com
-    M: Steven Toth
-    S: git
-  B: 0
-  U: Steven Toth
-- C: US
-  E: stoth!kernellabs.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: stoth!kernellabs.com
-    M: Steven Toth
-    S: git
-  B: 0
-  U: Steven Toth
-- R:
-  - T: "2016-01-01"
-    C: Xplore
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: GLUO nv
-    F: "2016-01-01"
-    P: cncf/operatorframework
-    R: C
-  I:
-  - M: Steven Trescinski
-    S: github
-    U: trescst
-  B: 0
-  U: Steven Trescinski
-- E: uniack!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-05-24"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: uniack!us.ibm.com
-    M: Steven Uniack
-    S: slack
-    U: steveuniack
-  B: 0
-  U: Steven Uniack
-- E: steven!stevenwade.co.uk
-  R:
-  - T: "2100-01-01"
-    C: Apprenda
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Apprenda
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: Apprenda
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Apprenda
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Apprenda
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Apprenda
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Apprenda
-    F: "2016-04-19"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: steven!stevenwade.co.uk
-    M: Steven Wade
-    S: git
-  - E: steven!stevenwade.co.uk
-    M: Steven Wade
-    S: github
-    U: swade1987
-  - E: steven!stevenwade.co.uk
-    M: Steve Wade
-    S: slack
-    U: steven
-  - E: steven!stevenwade.co.uk
-    M: Steven Wade
-    S: slack
-    U: swade1987
-  B: 0
-  U: Steven Wade
-- E: Steve_Wahl!Dell.com
-  R:
-  - T: "2100-01-01"
-    C: Dell
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: Steve_Wahl!Dell.com
-    M: Steven Wahl
-    S: git
-  B: 0
-  U: Steven Wahl
-- C: CN
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-06-17"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Steven Wang
-    S: github
-    U: LeiW000
-  B: 0
-  U: Steven Wang
-- C: CN
-  E: steven.l.wang!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-06-17"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: steven.l.wang!linux.intel.com
-    M: Steven Wang
-    S: git
-  B: 0
-  U: Steven Wang
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-17"
-    P: lfai-onnx
-    R: C
-  S: male
-  I:
-  - M: Steven White
-    S: github
-    U: stevewhims
-  B: 0
-  U: Steven White
-- E: steven.whitehead!ibm.com
-  R:
-  - T: "2017-07-02"
-    C: IBM
-    F: "2016-11-16"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: steven.whitehead!ibm.com
-    M: Steven Whitehead
-    S: git
-  - E: steven.whitehead!ibm.com
-    M: Steven Whitehead
-    S: slack
-    U: steven.whitehead
-  B: 0
-  U: Steven Whitehead

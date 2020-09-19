@@ -1,4 +1,88 @@
 P:
+- E: wizard!roborooter.com
+  R:
+  - T: "2015-08-01"
+    C: wizard
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-08-01"
+    C: wizard
+    F: "1900-01-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2015-11-01"
+    C: BakeCycle
+    F: "2015-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-10-01"
+    C: Bocoup
+    F: "2015-11-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-10-01"
+    C: Bocoup
+    F: "2015-11-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2019-06-01"
+    C: Bustle Digital
+    F: "2016-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-06-01"
+    C: Bustle Digital
+    F: "2016-10-01"
+    P: gql
+    R: C
+  - T: "2019-06-01"
+    C: Bustle Digital
+    F: "2016-10-01"
+    P: libuv
+    R: C
+  - T: "2019-06-01"
+    C: Bustle Digital
+    F: "2016-10-01"
+    P: ojsf-arc
+    R: C
+  - T: "2019-06-01"
+    C: Bustle Digital
+    F: "2016-10-01"
+    P: ojsf-nodejs
+    R: C
+  - T: "2100-01-01"
+    C: Justworks
+    F: "2019-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Justworks
+    F: "2019-06-01"
+    P: ojsf-arc
+    R: C
+  I:
+  - E: wizard!roborooter.com
+    M: Francis Gulotta
+    S: git
+  - E: wizard!roborooter.com
+    M: Francis Gulotta
+    S: github
+    U: reconbot
+  B: 0
+  U: Francis Gulotta
+- R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  I:
+  - M: Francis Hwang
+    S: github
+    U: fhwang
+  B: 0
+  U: Francis Hwang
 - E: Francis.Paquette!amdocs.com
   R:
   - T: "2100-01-01"
@@ -48041,6 +48125,11 @@ P:
   - T: "2016-09-24"
     C: National Instruments
     F: "2014-07-01"
+    P: ambitus
+    R: C
+  - T: "2016-09-24"
+    C: National Instruments
+    F: "2014-07-01"
     P: yocto
     R: C
   I:
@@ -57196,6 +57285,11 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
@@ -58098,6 +58192,11 @@ P:
     C: IBM
     F: "2019-05-15"
     P: zowe
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2019-08-19"
+    P: open-mainframe-project/education
     R: C
   - T: "2100-01-01"
     C: IBM
@@ -61677,133 +61776,3 @@ P:
     U: nbcsm
   B: 0
   U: Guoliang Hua
-- C: CN
-  E: iamwgliang!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Meituan-Dianping
-    F: "1900-01-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Meituan-Dianping
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Meituan-Dianping
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: Meituan-Dianping
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Meituan-Dianping
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Meituan-Dianping
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Meituan-Dianping
-    F: "1900-01-01"
-    P: tikv
-    R: C
-  - T: "2019-05-20"
-    C: Meituan-Dianping
-    F: "2017-12-21"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: iamwgliang!gmail.com
-    M: Guoliang Wang
-    S: git
-  - E: iamwgliang!gmail.com
-    M: Wang Guoliang
-    S: git
-  - E: iamwgliang!gmail.com
-    M: Leon Wang
-    S: github
-    U: wgliang
-  B: 0
-  U: Guoliang Wang
-- E: hellokangning!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: hellokangning!gmail.com
-    M: Guoqing Geng
-    S: github
-    U: hellokangning
-  B: 0
-  U: Guoqing Geng
-- E: hellokangning!hotmail.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: hellokangning!hotmail.com
-    M: Guoqing Geng
-    S: git
-  B: 0
-  U: Guoqing Geng
-- E: gqjiang!suse.com
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: gqjiang!suse.com
-    M: Guoqing Jiang
-    S: git
-  B: 0
-  U: Guoqing Jiang
-- E: jgq516!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: jgq516!gmail.com
-    M: Guoqing Jiang
-    S: git
-  B: 0
-  U: Guoqing Jiang

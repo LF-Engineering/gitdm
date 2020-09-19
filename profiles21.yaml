@@ -1,5 +1,99 @@
 P:
 - R:
+  - T: "2016-05-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2016-05-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2016-07-01"
+    C: Knownsense Studios
+    F: "2016-05-01"
+    R: C
+  - T: "2016-07-01"
+    C: Knownsense Studios
+    F: "2016-05-01"
+    P: cri-o
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-07-01"
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-07-01"
+    P: cri-o
+    R: C
+  - T: "2017-07-01"
+    C: Happiest Minds Technologies Pvt Ltd
+    F: "2017-05-01"
+    R: C
+  - T: "2017-07-01"
+    C: Happiest Minds Technologies Pvt Ltd
+    F: "2017-05-01"
+    P: cri-o
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2017-07-01"
+    R: C
+  - T: "2019-05-01"
+    C: Independent
+    F: "2017-07-01"
+    P: cri-o
+    R: C
+  - T: "2019-08-01"
+    C: Red Hat Inc.
+    F: "2019-05-01"
+    R: C
+  - T: "2019-08-01"
+    C: Red Hat Inc.
+    F: "2019-05-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "2019-08-01"
+    P: cri-o
+    R: C
+  S: male
+  I:
+  - M: Palash Hariyani
+    S: github
+    U: phariyan
+  B: 0
+  U: Palash Hariyani
+- E: palash.kala!samsung.com
+  R:
+  - T: "2100-01-01"
+    C: SAMSUNG
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: SAMSUNG
+    F: "1900-01-01"
+    P: onf-onos
+    R: C
+  - T: "2100-01-01"
+    C: SAMSUNG
+    F: "1900-01-01"
+    P: onf-sd-ran
+    R: C
+  I:
+  - E: palash.kala!samsung.com
+    M: Palash Kala
+    S: git
+  B: 0
+  U: Palash Kala
+- R:
   - T: "2017-05-01"
     C: Independent
     F: "1900-01-01"
@@ -1068,6 +1162,11 @@ P:
     C: SiFive
     F: "2017-03-01"
     P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: SiFive
+    F: "2017-03-01"
+    P: ambitus
     R: C
   - T: "2100-01-01"
     C: SiFive
@@ -3167,6 +3266,11 @@ P:
     C: Red Hat Inc.
     F: "1900-01-01"
     P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: ambitus
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -16072,6 +16176,11 @@ P:
     C: CodeSourcery
     F: "2004-03-23"
     P: acrn/acrn
+    R: C
+  - T: "2012-07-13"
+    C: CodeSourcery
+    F: "2004-03-23"
+    P: ambitus
     R: C
   - T: "2012-07-13"
     C: CodeSourcery
@@ -34692,6 +34801,11 @@ P:
   - T: "2100-01-01"
     C: RT-RK
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: RT-RK
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
@@ -36249,6 +36363,11 @@ P:
   U: Peter Benjamin
 - E: bergner!vnet.ibm.com
   R:
+  - T: "2013-01-12"
+    C: IBM
+    F: "2008-06-13"
+    P: ambitus
+    R: C
   - T: "2013-01-12"
     C: IBM
     F: "2008-06-13"
@@ -47498,6 +47617,11 @@ P:
   - T: "2001-05-29"
     C: GNU
     F: "2000-05-29"
+    P: ambitus
+    R: C
+  - T: "2001-05-29"
+    C: GNU
+    F: "2000-05-29"
     P: korg
     R: C
   - T: "2001-05-29"
@@ -47509,6 +47633,11 @@ P:
     C: GNU
     F: "2004-05-10"
     P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: GNU
+    F: "2004-05-10"
+    P: ambitus
     R: C
   - T: "2100-01-01"
     C: GNU
@@ -50410,6 +50539,11 @@ P:
     F: "2011-06-01"
     P: cloudevents
     R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2011-06-01"
+    P: ojsf-nodejs
+    R: C
   I:
   - E: phayes!PHAYES.local
     M: Philip Hayes
@@ -51096,6 +51230,11 @@ P:
     C: Redfish
     F: "1900-01-01"
     P: acrn/acrn
+    R: C
+  - T: "2018-11-01"
+    C: Redfish
+    F: "1900-01-01"
+    P: ambitus
     R: C
   - T: "2018-11-01"
     C: Redfish
@@ -62172,270 +62311,3 @@ P:
     U: pszkotak
   B: 0
   U: Piotr Szkotak
-- E: piotr.szuberski!codilime.com
-  R:
-  - T: "2018-12-01"
-    C: Enigma
-    F: "2018-04-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2019-05-01"
-    C: CodiLime Sp. z o.o.
-    F: "2019-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: piotr.szuberski!codilime.com
-    M: Piotr Szuberski
-    S: jira
-    U: pszuberski
-  B: 0
-  U: Piotr Szuberski
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  I:
-  - M: Piotr Tabor
-    S: github
-    U: ptabor
-  B: 0
-  U: Piotr Tabor
-- E: ptab!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  I:
-  - E: ptab!google.com
-    M: Piotr Tabor
-    S: git
-  B: 0
-  U: Piotr Tabor
-- E: pwach!bloomberg.net
-  R:
-  - T: "2100-01-01"
-    C: Bloomberg
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Bloomberg
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: pwach!bloomberg.net
-    M: Piotr Wach
-    S: git
-  B: 0
-  U: Piotr Wach
-- E: piotr.wielebski!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2017-06-01"
-    P: onap
-    R: C
-  I:
-  - M: Piotr Wielebski
-    S: confluence
-    U: pwielebs
-  - E: piotr.wielebski!nokia.com
-    M: Piotr Wielebski
-    S: gerrit
-    U: pwielebs
-  - E: piotr.wielebski!nokia.com
-    M: Piotr Wielebski
-    S: git
-  - E: piotr.wielebski!nokia.com
-    M: pwielebs
-    S: git
-  - M: Piotr Wielebski
-    S: jira
-    U: pwielebs
-  - E: piotr.wielebski!nokia.com
-    M: Piotr Wielebski
-    S: jira
-    U: pwielebs
-  B: 0
-  U: Piotr Wielebski
-- R:
-  - T: "2100-01-01"
-    C: Allegro
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Allegro
-    F: "1900-01-01"
-    P: presto
-    R: C
-  I:
-  - M: Piotr Wikieł
-    S: github
-    U: wikp
-  B: 0
-  U: Piotr Wikieł
-- E: piotr.zachwieja!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2020-03-03"
-    P: onap
-    R: C
-  I:
-  - M: Piotr Zachwieja
-    S: confluence
-    U: piotr_zachwieja
-  - E: piotr.zachwieja!nokia.com
-    M: Piotr Zachwieja
-    S: gerrit
-    U: piotr_zachwieja
-  - E: piotr.zachwieja!nokia.com
-    M: Piotr Zachwieja
-    S: git
-  - M: Piotr Zachwieja
-    S: jira
-    U: piotr_zachwieja
-  - E: piotr.zachwieja!nokia.com
-    M: Piotr Zachwieja
-    S: jira
-    U: piotr_zachwieja
-  B: 0
-  U: Piotr Zachwieja
-- C: PL
-  R:
-  - T: "2100-01-01"
-    C: Antmicro
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Antmicro
-    F: "2017-05-17"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Piotr Zierhoffer
-    S: github
-    U: PiotrZierhoffer
-  B: 0
-  U: Piotr Zierhoffer
-- C: PL
-  E: pzierhoffer!antmicro.com
-  R:
-  - T: "2100-01-01"
-    C: Antmicro
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Antmicro
-    F: "2019-01-11"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: pzierhoffer!antmicro.com
-    M: Piotr Zierhoffer
-    S: git
-  - E: pzierhoffer!antmicro.com
-    M: Piotr Zierhoffer
-    S: slack
-    U: pzierhoffer
-  B: 0
-  U: Piotr Zierhoffer
-- C: PL
-  R:
-  - T: "2015-02-01"
-    C: Semihalf Embedded Systems
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-02-01"
-    C: Semihalf Embedded Systems
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "2015-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "2015-02-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Piotr Zięcik
-    S: github
-    U: pizi-nordic
-  B: 0
-  U: Piotr Zięcik
-- C: PL
-  E: piotr.ziecik!nordicsemi.no
-  R:
-  - T: "2015-02-01"
-    C: Semihalf Embedded Systems
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-02-01"
-    C: Semihalf Embedded Systems
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "2015-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Nordic Semiconductor ASA
-    F: "2015-02-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: piotr.ziecik!nordicsemi.no
-    M: Piotr Zięcik
-    S: git
-  - E: piotr.ziecik!nordicsemi.no
-    M: Piotr Zięcik
-    S: slack
-    U: piotr.ziecik
-  B: 0
-  U: Piotr Zięcik
-- E: p.bochynski!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: p.bochynski!gmail.com
-    M: Piotr
-    S: github
-    U: pbochynski
-  B: 0
-  U: Piotr

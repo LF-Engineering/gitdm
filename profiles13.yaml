@@ -1,4 +1,128 @@
 P:
+- C: CN
+  E: guojiannan!cn.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: BM
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-06-30"
+    R: C
+  - T: "2017-11-24"
+    C: IBM
+    F: "2015-07-01"
+    P: sawtooth
+    R: C
+  - T: "2018-10-02"
+    C: IBM
+    F: "2015-07-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2018-12-15"
+    C: IBM
+    F: "2015-07-01"
+    P: burrow
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: caliper
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: hyperledger-labs/fabric-block-archiving
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: hyperledger-labs/pluggable-hcs
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: hyperledger/hyperledger-twgc
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: hyperledger/shared
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2015-07-01"
+    P: fabric
+    R: M
+  S: male
+  I:
+  - M: Jay Guo
+    S: confluence
+    U: guoger
+  - E: guojiannan1101!gmail.com
+    M: Jay Guo
+    S: confluence
+    U: guoger
+  - E: guojiannan!cn.ibm.com
+    M: Jay Guo
+    S: gerrit
+  - E: guojiannan1101!gmail.com
+    M: Jay Guo
+    S: gerrit
+    U: guoger
+  - E: guojiannan!cn.ibm.com
+    M: Guo Jiannan
+    S: git
+  - E: guojiannan!cn.ibm.com
+    M: Jay Guo
+    S: git
+  - E: guojiannan1101!gmail.com
+    M: Jay Guo
+    S: git
+  - E: guojiannan!cn.ibm.com
+    M: Jian Nan Guo
+    S: git
+  - E: guojiannan1101!gmail.com
+    M: Jiannan Guo
+    S: git
+  - E: guojiannan!cn.ibm.com
+    M: guoger
+    S: git
+  - E: guojiannan1101!gmail.com
+    M: Jay Guo
+    S: github
+    U: guoger
+  - E: guojiannan1101!gmail.com
+    M: Jay Guo
+    S: groupsio
+  - M: Jay Guo
+    S: jira
+    U: guoger
+  - E: guojiannan1101!gmail.com
+    M: Jay Guo
+    S: jira
+    U: guoger
+  - M: Jay Guo
+    S: rocketchat
+    U: guoger
+  - E: guojiannan!cn.ibm.com
+    M: Jay Guo
+    S: slack
+    U: jay
+  B: 0
+  U: Jay Guo
 - R:
   - T: "2018-08-01"
     C: Malauzai
@@ -9127,6 +9251,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1901-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1901-01-01"
     P: korg
     R: C
   - T: "2100-01-01"
@@ -9439,6 +9568,11 @@ P:
   U: Jeff Lance
 - E: law!redhat.com
   R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1999-05-26"
+    P: ambitus
+    R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1999-05-26"
@@ -29335,6 +29469,11 @@ P:
   - T: "2100-01-01"
     C: Hewlett
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: Hewlett
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
@@ -33709,6 +33848,11 @@ P:
   - T: "2011-08-25"
     C: Analog Devices
     F: "2008-07-11"
+    P: ambitus
+    R: C
+  - T: "2011-08-25"
+    C: Analog Devices
+    F: "2008-07-11"
     P: cephfoundation
     R: C
   - T: "2011-08-25"
@@ -36186,6 +36330,11 @@ P:
     C: Red Hat Inc.
     F: "2012-05-10"
     P: acrn/acrn
+    R: C
+  - T: "2014-05-08"
+    C: Red Hat Inc.
+    F: "2012-05-10"
+    P: ambitus
     R: C
   - T: "2014-05-08"
     C: Red Hat Inc.
@@ -62743,51 +62892,3 @@ P:
     S: git
   B: 0
   U: John L. Villalovos
-- E: johnlabarge!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: johnlabarge!google.com
-    M: John La Barge
-    S: git
-  B: 0
-  U: John La Barge
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: John LaBarge
-    S: github
-    U: johnlabarge
-  B: 0
-  U: John LaBarge
-- E: jlacombe!neteffect.com
-  R:
-  - T: "2100-01-01"
-    C: neteffect technologies
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jlacombe!neteffect.com
-    M: John Lacombe
-    S: git
-  B: 0
-  U: John Lacombe

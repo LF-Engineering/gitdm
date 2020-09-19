@@ -1,4 +1,134 @@
 P:
+- C: CN
+  E: iamwgliang!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Meituan-Dianping
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Meituan-Dianping
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Meituan-Dianping
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Meituan-Dianping
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Meituan-Dianping
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Meituan-Dianping
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Meituan-Dianping
+    F: "1900-01-01"
+    P: tikv
+    R: C
+  - T: "2019-05-20"
+    C: Meituan-Dianping
+    F: "2017-12-21"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: iamwgliang!gmail.com
+    M: Guoliang Wang
+    S: git
+  - E: iamwgliang!gmail.com
+    M: Wang Guoliang
+    S: git
+  - E: iamwgliang!gmail.com
+    M: Leon Wang
+    S: github
+    U: wgliang
+  B: 0
+  U: Guoliang Wang
+- E: hellokangning!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: hellokangning!gmail.com
+    M: Guoqing Geng
+    S: github
+    U: hellokangning
+  B: 0
+  U: Guoqing Geng
+- E: hellokangning!hotmail.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cdf-spinnaker
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: hellokangning!hotmail.com
+    M: Guoqing Geng
+    S: git
+  B: 0
+  U: Guoqing Geng
+- E: gqjiang!suse.com
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: gqjiang!suse.com
+    M: Guoqing Jiang
+    S: git
+  B: 0
+  U: Guoqing Jiang
+- E: jgq516!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: jgq516!gmail.com
+    M: Guoqing Jiang
+    S: git
+  B: 0
+  U: Guoqing Jiang
 - E: guoqing.zhang!intel.com
   R:
   - T: "2017-01-12"
@@ -24068,6 +24198,11 @@ P:
     C: Independent
     F: "1900-01-01"
     P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: ambitus
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -57783,6 +57918,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
@@ -61838,118 +61978,3 @@ P:
     U: ilya.shindyapin
   B: 0
   U: Ilya Shindyapin
-- C: FI
-  E: ilya!sotkov.com
-  R:
-  - T: "2018-06-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2018-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Sanoma
-    F: "2018-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Sanoma
-    F: "2018-06-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Sanoma
-    F: "2018-06-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Sanoma
-    F: "2018-06-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Sanoma
-    F: "2018-06-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: ilya!sotkov.com
-    M: Ilya Sotkov
-    S: git
-  - E: ilya!sotkov.com
-    M: Ilya Sotkov
-    S: github
-    U: ilyasotkov
-  B: 0
-  U: Ilya Sotkov
-- R:
-  - T: "2100-01-01"
-    C: ООО Фирма АНКАД
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: ООО Фирма АНКАД
-    F: "2017-12-17"
-    P: zep
-    R: C
-  S: male
-  I:
-  - M: Ilya Tagunov
-    S: github
-    U: tagunil
-  B: 0
-  U: Ilya Tagunov
-- E: tagunil!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: ООО Фирма АНКАД
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: ООО Фирма АНКАД
-    F: "2017-12-14"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: tagunil!gmail.com
-    M: Ilya Tagunov
-    S: git
-  - E: tagunil!gmail.com
-    M: Ilya Tagunov
-    S: slack
-    U: tagunil
-  B: 0
-  U: Ilya Tagunov
-- R:
-  - T: "2100-01-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Ilya Yakovlev
-    S: github
-    U: iHile
-  B: 0
-  U: Ilya Yakovlev

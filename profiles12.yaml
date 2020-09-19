@@ -1,4 +1,119 @@
 P:
+- C: FI
+  E: ilya!sotkov.com
+  R:
+  - T: "2018-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Sanoma
+    F: "2018-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sanoma
+    F: "2018-06-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Sanoma
+    F: "2018-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Sanoma
+    F: "2018-06-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Sanoma
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: ilya!sotkov.com
+    M: Ilya Sotkov
+    S: git
+  - E: ilya!sotkov.com
+    M: Ilya Sotkov
+    S: github
+    U: ilyasotkov
+  B: 0
+  U: Ilya Sotkov
+- R:
+  - T: "2100-01-01"
+    C: ООО Фирма АНКАД
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: ООО Фирма АНКАД
+    F: "2017-12-17"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Ilya Tagunov
+    S: github
+    U: tagunil
+  B: 0
+  U: Ilya Tagunov
+- E: tagunil!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: ООО Фирма АНКАД
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: ООО Фирма АНКАД
+    F: "2017-12-14"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: tagunil!gmail.com
+    M: Ilya Tagunov
+    S: git
+  - E: tagunil!gmail.com
+    M: Ilya Tagunov
+    S: slack
+    U: tagunil
+  B: 0
+  U: Ilya Tagunov
+- R:
+  - T: "2100-01-01"
+    C: Lenovo
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Ilya Yakovlev
+    S: github
+    U: iHile
+  B: 0
+  U: Ilya Yakovlev
 - E: yanok!emcraft.com
   R:
   - T: "2011-12-23"
@@ -15730,6 +15845,11 @@ P:
   - T: "2017-09-01"
     C: Dell EMC
     F: "1900-01-01"
+    P: ambitus
+    R: C
+  - T: "2017-09-01"
+    C: Dell EMC
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2017-09-01"
@@ -29947,6 +30067,11 @@ P:
   - T: "2011-07-23"
     C: Red Hat Inc.
     F: "2000-10-20"
+    P: ambitus
+    R: C
+  - T: "2011-07-23"
+    C: Red Hat Inc.
+    F: "2000-10-20"
     P: cephfoundation
     R: C
   - T: "2011-07-23"
@@ -33031,6 +33156,11 @@ P:
     C: Cisco Systems Inc.
     F: "2012-09-01"
     P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2012-09-01"
+    P: ambitus
     R: C
   - T: "2100-01-01"
     C: Cisco Systems Inc.
@@ -43185,6 +43315,11 @@ P:
     C: Novell
     F: "2004-11-04"
     P: acrn/acrn
+    R: C
+  - T: "2007-04-27"
+    C: Novell
+    F: "2004-11-04"
+    P: ambitus
     R: C
   - T: "2007-04-27"
     C: Novell
@@ -62602,127 +62737,3 @@ P:
     S: git
   B: 0
   U: Jay Gorrell
-- C: CN
-  E: guojiannan!cn.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: BM
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-30"
-    R: C
-  - T: "2017-11-24"
-    C: IBM
-    F: "2015-07-01"
-    P: sawtooth
-    R: C
-  - T: "2018-10-02"
-    C: IBM
-    F: "2015-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2018-12-15"
-    C: IBM
-    F: "2015-07-01"
-    P: burrow
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
-    P: caliper
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
-    P: hyperledger/hyperledger-labs
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
-    P: hyperledger/hyperledger-twgc
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
-    P: hyperledger/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-07-01"
-    P: fabric
-    R: M
-  S: male
-  I:
-  - M: Jay Guo
-    S: confluence
-    U: guoger
-  - E: guojiannan1101!gmail.com
-    M: Jay Guo
-    S: confluence
-    U: guoger
-  - E: guojiannan!cn.ibm.com
-    M: Jay Guo
-    S: gerrit
-  - E: guojiannan1101!gmail.com
-    M: Jay Guo
-    S: gerrit
-    U: guoger
-  - E: guojiannan!cn.ibm.com
-    M: Guo Jiannan
-    S: git
-  - E: guojiannan!cn.ibm.com
-    M: Jay Guo
-    S: git
-  - E: guojiannan1101!gmail.com
-    M: Jay Guo
-    S: git
-  - E: guojiannan!cn.ibm.com
-    M: Jian Nan Guo
-    S: git
-  - E: guojiannan1101!gmail.com
-    M: Jiannan Guo
-    S: git
-  - E: guojiannan!cn.ibm.com
-    M: guoger
-    S: git
-  - E: guojiannan1101!gmail.com
-    M: Jay Guo
-    S: github
-    U: guoger
-  - E: guojiannan1101!gmail.com
-    M: Jay Guo
-    S: groupsio
-  - M: Jay Guo
-    S: jira
-    U: guoger
-  - E: guojiannan1101!gmail.com
-    M: Jay Guo
-    S: jira
-    U: guoger
-  - M: Jay Guo
-    S: rocketchat
-    U: guoger
-  - E: guojiannan!cn.ibm.com
-    M: Jay Guo
-    S: slack
-    U: jay
-  B: 0
-  U: Jay Guo
