@@ -29919,6 +29919,11 @@ P:
   - T: "2100-01-01"
     C: Google
     F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
     P: grpc
     R: C
   I:
@@ -62090,26 +62095,3 @@ P:
     S: git
   B: 0
   U: Lyle Franklin and Raina Masand
-- E: sreddy!pivotal.io
-  R:
-  - T: "2014-12-01"
-    C: SAMSUNG
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-04-01"
-    C: Independent
-    F: "2014-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2015-04-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: sreddy!pivotal.io
-    M: Lyle Franklin and Shash Reddy
-    S: git
-  B: 0
-  U: Lyle Franklin and Shash Reddy
