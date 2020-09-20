@@ -1,4 +1,42 @@
 P:
+- C: IN
+  E: arunkjn!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Media iQ Digital
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Media iQ Digital
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Media iQ Digital
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Media iQ Digital
+    F: "1900-01-01"
+    P: nats
+    R: C
+  - T: "2100-01-01"
+    C: Media iQ Digital
+    F: "1900-01-01"
+    P: strimzi
+    R: C
+  S: male
+  I:
+  - E: arunkjn!gmail.com
+    M: Arun Kumar Jain
+    S: git
+  - E: arunkjn!gmail.com
+    M: Arun Kumar Jain
+    S: github
+    U: arunkjn
+  B: 0
+  U: Arun Kumar Jain
 - E: aneela!codeaurora.org
   R:
   - T: "2100-01-01"
@@ -62181,40 +62219,3 @@ P:
     U: avirtual
   B: 0
   U: Bogdan Ionescu
-- R:
-  - T: "2100-01-01"
-    C: Rook
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Rook
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Rook
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Rook
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Rook
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Rook
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - M: Bogdan Luca
-    S: github
-    U: lbogdan
-  B: 0
-  U: Bogdan Luca
