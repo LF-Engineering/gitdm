@@ -20070,6 +20070,11 @@ P:
     F: "2016-05-28"
     P: k8s
     R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "2016-05-28"
+    P: nsm
+    R: C
   I:
   - E: qlyoung!cumulusnetworks.com
     M: Quentin Young
@@ -21627,7 +21632,17 @@ P:
   - T: "2100-01-01"
     C: Dell
     F: "2017-12-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Dell
+    F: "2017-12-01"
     P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Dell
+    F: "2017-12-01"
+    P: k8s
     R: C
   - T: "2100-01-01"
     C: Dell
@@ -41418,6 +41433,17 @@ P:
     U: rlmcpherson
   B: 0
   U: Randall McPherson
+- E: rhness!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: International Business Machines Corporation (IBM)
+    F: "2002-01-01"
+    R: C
+  I:
+  - S: github
+    U: rhness
+  B: 0
+  U: Randall Ness
 - C: CN
   E: rander.wang!linux.intel.com
   R:
@@ -57539,6 +57565,11 @@ P:
     C: ii coop
     F: "2020-04-08"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: ii coop
+    F: "2020-04-08"
+    P: k8s
     R: C
   I:
   - E: 61125752+Riaankl!users.noreply.github.com

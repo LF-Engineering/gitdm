@@ -1,4 +1,89 @@
 P:
+- E: viacheslavo!mellanox.com
+  R:
+  - T: "2020-03-01"
+    C: Mellanox Technologies, Ltd
+    F: "2018-07-01"
+    P: brigade
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2018-08-20"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2018-08-20"
+    P: dpdk
+    R: C
+  - T: "2019-05-13"
+    C: Mellanox Technologies, Ltd
+    F: "2018-10-23"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2018-10-23"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2018-10-23"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "2018-10-23"
+    P: dpdk-next
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "2020-04-01"
+    P: brigade
+    R: C
+  I:
+  - S: bugzilla
+    U: viacheslavo
+  - M: Slava
+    S: bugzilla
+    U: viacheslavo
+  - M: Slava
+    S: bugzillarest
+    U: viacheslavo
+  - E: viacheslavo!mellanox.com
+    M: Viacheslav Ovsiienko
+    S: git
+  - E: viacheslavo!mellanox.com
+    M: Slava Ovsiienko
+    S: pipermail
+  - E: viacheslavo!mellanox.com
+    M: Viacheslav Ovsiienko
+    S: pipermail
+  - E: viacheslavo!nvidia.com
+    M: Viacheslav Ovsiienko
+    S: pipermail
+  - E: viacheslavo!mellanox.com
+    M: viacheslavo
+    S: pipermail
+  B: 0
+  U: Viacheslav Ovsiienko
+- C: LV
+  R:
+  - T: "2100-01-01"
+    C: Accenture
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Accenture
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Viacheslav Vasilyev
+    S: github
+    U: avoidik
+  B: 0
+  U: Viacheslav Vasilyev
 - C: BE
   E: vianney.leclement!essensium.com
   R:
@@ -19462,6 +19547,11 @@ P:
     R: C
   - T: "2100-01-01"
     C: Brocade Communications Systems LLC
+    F: "2015-06-08"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Brocade Communications Systems LLC
     F: "2015-09-01"
     P: dpdk
     R: C
@@ -22765,6 +22855,21 @@ P:
     S: git
   B: 0
   U: Vivian Zhang
+- E: vipadua!br.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: International Business Machines Corporation (IBM)
+    F: "2009-10-01"
+    R: C
+  I:
+  - E: 62947832+vipadua!users.noreply.github.com
+    M: Viviane Sanches
+    S: git
+  - M: Viviane Sanches
+    S: github
+    U: vipadua
+  B: 0
+  U: Viviane Sanches
 - C: CA
   E: vivien.didelot!gmail.com
   R:
@@ -61216,103 +61321,3 @@ P:
     S: git
   B: 0
   U: Xinze Chi
-- C: CN
-  E: xmdxcxz!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: XSky
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: XSky
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: xmdxcxz!gmail.com
-    M: Xinze Chi
-    S: git
-  B: 0
-  U: Xinze Chi
-- C: MX
-  E: z2d!jifangcheng.com
-  R:
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Caicloud
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: z2d!jifangcheng.com
-    M: Xinzhao Xu
-    S: github
-    U: iawia002
-  B: 0
-  U: Xinzhao Xu
-- E: xiong!qca.qualcomm.com
-  R:
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Qualcomm
-    F: "1900-01-01"
-    P: korg
-    R: C
-  I:
-  - E: xiong!qca.qualcomm.com
-    M: Xiong Huang
-    S: git
-  B: 0
-  U: Xiong Huang
-- C: CN
-  E: xiongyiliang!xunlei.com
-  R:
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: female
-  I:
-  - E: xiongyiliang!xunlei.com
-    M: Xiong Yiliang
-    S: git
-  B: 0
-  U: Xiong Yiliang
