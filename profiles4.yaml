@@ -44839,6 +44839,11 @@ P:
   - T: "2100-01-01"
     C: aporeto-inc
     F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: aporeto-inc
+    F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
@@ -62216,20 +62221,3 @@ P:
     S: pipermail
   B: 0
   U: Bogdan Hopulele
-- R:
-  - T: "2017-11-01"
-    C: AVH
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Optymyze
-    F: "2017-11-01"
-    P: helm
-    R: C
-  I:
-  - M: Bogdan Ionescu
-    S: github
-    U: avirtual
-  B: 0
-  U: Bogdan Ionescu
