@@ -1,4 +1,196 @@
 P:
+- E: david.suarez.fuentes!gmail.com
+  R:
+  - T: "1998-03-01"
+    C: Indra
+    F: "1997-03-01"
+    R: C
+  - T: "1999-10-01"
+    C: Telefónica
+    F: "1998-05-01"
+    R: C
+  - T: "2005-06-01"
+    C: Indra
+    F: "2001-10-01"
+    R: C
+  - T: "2018-01-01"
+    C: Ericsson AB
+    F: "2005-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ericsson AB
+    F: "2016-04-01"
+    P: odl
+    R: C
+  - T: "2100-01-01"
+    C: OpenDaylight Project, Inc.
+    F: "2016-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Minsait
+    F: "2018-02-01"
+    R: C
+  I:
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suarez Fuentes
+    S: gerrit
+  - E: david.suarez.fuentes!ericsson.com
+    M: David Suarez
+    S: gerrit
+  - E: david.suarez.fuentes!ericsson.com
+    M: David Suarez
+    S: gerrit
+    U: edavsua
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suarez
+    S: gerrit
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suarez
+    S: gerrit
+    U: dsuarezf
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suarez
+    S: gerrit
+    U: edavsua
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suárez Fuentes
+    S: gerrit
+    U: dsuarez
+  - E: david.suarez.fuentes!ericsson.com
+    M: David Suarez
+    S: git
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suarez
+    S: git
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suárez Fuentes
+    S: git
+  - E: david.suarez.fuentes!ericsson.com
+    M: David Suarez Fuentes
+    S: groupsio
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suarez
+    S: groupsio
+  - E: david.suarez.fuentes!ericsson.com
+    M: David Suarez
+    S: jira
+    U: dsuarez
+  - M: Edavsua
+    S: mediawiki
+    U: Edavsua
+  - E: david.suarez.fuentes!gmail.com
+    M: David  Suarez
+    S: pipermail
+  - E: david.suarez.fuentes!ericsson.com
+    M: David Suarez Fuentes
+    S: pipermail
+  - E: david.suarez.fuentes!gmail.com
+    M: David Suarez
+    S: pipermail
+  B: 0
+  U: David Suarez
+- C: AU
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - M: David Symonds
+    S: github
+    U: dsymonds
+  B: 0
+  U: David Symonds
+- C: AU
+  E: dsymonds!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: dsymonds!gmail.com
+    M: David Symonds
+    S: git
+  B: 0
+  U: David Symonds
+- C: AU
+  E: dsymonds!golang.org
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: internet-security-research-group
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2014-06-11"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: dsymonds!golang.org
+    M: David Symonds
+    S: git
+  B: 0
+  U: David Symonds
 - R:
   - T: "2014-06-01"
     C: AMD
@@ -55064,6 +55256,21 @@ P:
     U: emfree
   B: 0
   U: Eben Freeman
+- R:
+  - T: "2015-12-01"
+    C: OMZIL
+    F: "2015-01-01"
+    P: hyperledger/hyperledger-labs
+    R: C
+  I:
+  - M: Ebenezer Chinyati
+    S: github
+    U: chinyati
+  - M: Ebenezer Chinyati
+    S: jira
+    U: chinyati
+  B: 0
+  U: Ebenezer Chinyati
 - E: ebrahim!gnu.org
   R:
   - T: "2100-01-01"
@@ -62476,139 +62683,3 @@ P:
     S: git
   B: 0
   U: Edward Yang
-- E: zhuadl!cn.ibm.com
-  R:
-  - T: "2015-10-29"
-    C: IBM
-    F: "2015-06-09"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: zhuadl!cn.ibm.com
-    M: Edward Zhang
-    S: git
-  - E: zhuadl!cn.ibm.com
-    M: Hua Zhang
-    S: git
-  - E: zhuadl!cn.ibm.com
-    M: Zhang Hua
-    S: git
-  - E: zhuadl!cn.ibm.com
-    M: zhang-hua
-    S: git
-  - E: zhuadl!cn.ibm.com
-    M: Hua ZZ Zhang
-    S: groupsio
-  - E: zhuadl!cn.ibm.com
-    M: Hua ZZ Zhang
-    S: mbox
-  - E: zhuadl!cn.ibm.com
-    M: Hua Zhang
-    S: slack
-    U: zhanghua
-  B: 0
-  U: Edward Zhang
-- E: edwin.chan!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: edwin.chan!broadcom.com
-    M: Edwin Chan
-    S: git
-  B: 0
-  U: Edwin Chan
-- E: 31151721+edwinpjacques!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: 31151721+edwinpjacques!users.noreply.github.com
-    M: Edwin Jacques
-    S: git
-  B: 0
-  U: Edwin Jacques
-- R:
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Edwin Jacques
-    S: github
-    U: edwinpjacques
-  B: 0
-  U: Edwin Jacques
-- E: Edwin.Lawrance!amdocs.com
-  R:
-  - T: "2019-07-11"
-    C: Amdocs
-    F: "2017-07-01"
-    R: C
-  - T: "2019-07-11"
-    C: Amdocs
-    F: "2017-07-01"
-    P: onap
-    R: C
-  I:
-  - E: Edwin.Lawrance!amdocs.com
-    M: Edwin Lawrance
-    S: gerrit
-    U: el387
-  - E: Edwin.Lawrance!amdocs.com
-    M: Edwin Lawrance
-    S: git
-  - E: Edwin.Lawrance!amdocs.com
-    M: Lawrance, Edwin (el525a)
-    S: git
-  - E: Edwin.Lawrance!amdocs.com
-    M: Lawrance, Edwin
-    S: git
-  - M: Edwin Lawrance
-    S: jira
-    U: el387
-  - E: Edwin.Lawrance!amdocs.com
-    M: Edwin Lawrance
-    S: jira
-    U: el387
-  B: 0
-  U: Edwin Lawrance
-- E: edwin.leung!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "2019-02-27"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "2019-02-27"
-    P: dpdk
-    R: C
-  I:
-  - E: edwin.leung!oracle.com
-    M: Edwin Leung
-    S: pipermail
-  B: 0
-  U: Edwin Leung

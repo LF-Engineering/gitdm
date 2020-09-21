@@ -1,4 +1,334 @@
 P:
+- C: CH
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: Michael Stapelberg
+    S: github
+    U: stapelberg
+  B: 0
+  U: Michael Stapelberg
+- E: michael!stapelberg.de
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: acrn/acrn
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: internet-security-research-group
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: michael!stapelberg.de
+    M: Michael Stapelberg
+    S: git
+  B: 0
+  U: Michael Stapelberg
+- E: stapelberg!debian.org
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  I:
+  - E: stapelberg!debian.org
+    M: Michael Stapelberg
+    S: git
+  B: 0
+  U: Michael Stapelberg
+- C: CH
+  E: stapelberg!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: stapelberg!google.com
+    M: Michael Stapelberg
+    S: git
+  B: 0
+  U: Michael Stapelberg
+- E: stapelberg!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: stapelberg!users.noreply.github.com
+    M: Michael Stapelberg
+    S: git
+  B: 0
+  U: Michael Stapelberg
+- E: m-stecklein!ti.com
+  R:
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: m-stecklein!ti.com
+    M: Michael Stecklein
+    S: git
+  B: 0
+  U: Michael Stecklein
+- E: mjsteger1!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: GoodGuide
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: GoodGuide
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: mjsteger1!gmail.com
+    M: Michael Steger
+    S: git
+  B: 0
+  U: Michael Steger
+- E: michael.steiner!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: hyperledger-labs/fabric-private-chaincode
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: hyperledger-labs/private-data-objects
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: hyperledger/hyperledger-labs
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2015-11-02"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-12-30"
+    P: avalon
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2019-05-28"
+    P: fabric
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2019-10-08"
+    P: ursa
+    R: C
+  I:
+  - E: steiner.michi!gmail.com
+    M: Michael Steiner
+    S: git
+  - E: michael.steiner!intel.com
+    M: michael steiner
+    S: git
+  - M: Michael Steiner
+    S: github
+    U: g2flyer
+  - E: michael.steiner!intel.com
+    M: Michael Steiner
+    S: groupsio
+  - M: Michael Steiner
+    S: jira
+    U: msteiner
+  - S: rocketchat
+    U: msteiner
+  - M: Michael Steiner
+    S: rocketchat
+    U: msteiner
+  B: 0
+  U: Michael Steiner
+- E: stewmi!amazon.com
+  R:
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: cncf/cloudcustodian
+    R: C
+  I:
+  - E: stewmi!amazon.com
+    M: Michael Steward
+    S: github
+    U: stewmi
+  B: 0
+  U: Michael Steward
+- C: AU
+  E: mikal!stillhq.com
+  R:
+  - T: "2012-12-13"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2012-12-13"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2012-12-13"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2012-12-13"
+    C: Canonical Group Limited
+    F: "1900-01-01"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "2012-12-13"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "2012-12-13"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "2012-12-13"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Rackspace
+    F: "2012-12-13"
+    P: onap
+    R: C
+  S: male
+  I:
+  - M: Michael Still
+    S: confluence
+    U: mikal
+  - E: mikal!stillhq.com
+    M: Michael Still
+    S: gerrit
+    U: mikal
+  - E: mikal!stillhq.com
+    M: Michael Still
+    S: git
+  - E: mikal!stillhq.com
+    M: Michael Still
+    S: github
+    U: mikalstill
+  - E: mikal!stillhq.com
+    M: Michael Still
+    S: groupsio
+  - E: mikal!stillhq.com
+    M: Michael Still
+    S: pipermail
+  B: 0
+  U: Michael Still
+- E: michael.strauss!amd.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: michael.strauss!amd.com
+    M: Michael Strauss
+    S: git
+  B: 0
+  U: Michael Strauss
 - E: michael.soelvkaer!gmail.com
   R:
   - T: "2017-10-01"
@@ -61488,464 +61818,3 @@ P:
     U: nathanbrophy
   B: 0
   U: Nathan Brophy
-- R:
-  - T: "2100-01-01"
-    C: Ancestry.com
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Nathan Button
-    S: github
-    U: nbutton23
-  B: 0
-  U: Nathan Button
-- E: nathan.button!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Ancestry.com
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Ancestry.com
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-05-09"
-    C: Ancestry.com
-    F: "2017-04-29"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: nathan.button!gmail.com
-    M: Nathan Button
-    S: git
-  - E: nathan.button!gmail.com
-    M: Nathan Button
-    S: slack
-    U: nathan.button
-  B: 0
-  U: Nathan Button
-- E: nbutton!ancestry.com
-  R:
-  - T: "2100-01-01"
-    C: Ancestry.com
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Ancestry.com
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-07-29"
-    C: Ancestry.com
-    F: "2017-05-03"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: nbutton!ancestry.com
-    M: Nathan Button
-    S: git
-  B: 0
-  U: Nathan Button
-- C: US
-  E: natechancellor!gmail.com
-  R:
-  - T: "2014-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: zep
-    R: C
-  - T: "2017-03-01"
-    C: Apple
-    F: "2014-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-03-01"
-    C: Apple
-    F: "2014-01-01"
-    P: zep
-    R: C
-  - T: "2018-08-01"
-    C: SAP
-    F: "2017-03-01"
-    P: acrn/acrn
-    R: C
-  - T: "2018-08-01"
-    C: SAP
-    F: "2017-03-01"
-    P: cephfoundation
-    R: C
-  - T: "2018-08-01"
-    C: SAP
-    F: "2017-03-01"
-    P: cip
-    R: C
-  - T: "2018-08-01"
-    C: SAP
-    F: "2017-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-08-01"
-    C: SAP
-    F: "2017-03-01"
-    P: elisa
-    R: C
-  - T: "2018-08-01"
-    C: SAP
-    F: "2017-03-01"
-    P: kernelci
-    R: C
-  - T: "2018-08-01"
-    C: SAP
-    F: "2017-03-01"
-    P: korg
-    R: C
-  - T: "2018-08-01"
-    C: SAP
-    F: "2017-03-01"
-    P: zep
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-08-01"
-    P: acrn/acrn
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-08-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-08-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-08-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-08-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-08-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-08-01"
-    P: zep
-    R: C
-  S: male
-  I:
-  - E: natechancellor!gmail.com
-    M: Nathan Chancellor
-    S: git
-  B: 0
-  U: Nathan Chancellor
-- E: nathan.cheek!gtri.gatech.edu
-  R:
-  - T: "2100-01-01"
-    C: Georgia Institute of Technology
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: nathan.cheek!gtri.gatech.edu
-    M: Nathan Cheek
-    S: git
-  B: 0
-  U: Nathan Cheek
-- E: nathan.d.ciobanu!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: nathan.d.ciobanu!linux.intel.com
-    M: Nathan Ciobanu
-    S: git
-  B: 0
-  U: Nathan Ciobanu
-- C: CZ
-  E: ncutler!suse.com
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: rook
-    R: C
-  I:
-  - E: ncutler!suse.com
-    M: Nathan Cutler
-    S: git
-  - E: ncutler!suse.com
-    M: Nathan Cutler
-    S: github
-    U: smithfarm
-  B: 0
-  U: Nathan Cutler
-- C: CZ
-  E: ncutler!suse.cz
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: rook
-    R: C
-  I:
-  - E: ncutler!suse.cz
-    M: Nathan Cutler
-    S: git
-  B: 0
-  U: Nathan Cutler
-- C: CZ
-  E: presnypreklad!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: rook
-    R: C
-  I:
-  - E: presnypreklad!gmail.com
-    M: Nathan Cutler
-    S: git
-  B: 0
-  U: Nathan Cutler
-- E: nembery!juniper.net
-  R:
-  - T: "2018-05-01"
-    C: Juniper Networks, Inc.
-    F: "2014-07-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Palo Alto Networks
-    F: "2018-05-01"
-    P: lfn/tungsten-fabric
-    R: C
-  I:
-  - E: nembery!juniper.net
-    M: Nathan Embery
-    S: jira
-    U: nembery
-  B: 0
-  U: Nathan Embery
-- C: GB
-  R:
-  - T: "2016-11-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2016-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: openpolicyagent
-    R: C
-  - T: "2018-11-01"
-    C: Ladbrokes Australia
-    F: "2016-11-01"
-    R: C
-  - T: "2018-11-01"
-    C: Ladbrokes Australia
-    F: "2016-11-01"
-    P: argo
-    R: C
-  - T: "2018-11-01"
-    C: Ladbrokes Australia
-    F: "2016-11-01"
-    P: k8s
-    R: C
-  - T: "2018-11-01"
-    C: Ladbrokes Australia
-    F: "2016-11-01"
-    P: openpolicyagent
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-11-01"
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-11-01"
-    P: argo
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-11-01"
-    P: k8s
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-11-01"
-    P: openpolicyagent
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: openpolicyagent
-    R: C
-  S: male
-  I:
-  - M: Nathan Essex
-    S: github
-    U: Nessex
-  B: 0
-  U: Nathan Essex
-- C: JP
-  E: nathan!essex.id.au
-  R:
-  - T: "2016-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2016-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2016-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2018-11-01"
-    C: Ladbrokes Australia
-    F: "2016-11-01"
-    P: baetyl
-    R: C
-  - T: "2018-11-01"
-    C: Ladbrokes Australia
-    F: "2016-11-01"
-    P: cncf/k3s
-    R: C
-  - T: "2018-11-01"
-    C: Ladbrokes Australia
-    F: "2016-11-01"
-    P: k8s
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-11-01"
-    P: baetyl
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-11-01"
-    P: cncf/k3s
-    R: C
-  - T: "2019-02-01"
-    C: Independent
-    F: "2018-11-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Mercari
-    F: "2019-02-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: nathan!essex.id.au
-    M: Nathan Essex
-    S: git
-  B: 0
-  U: Nathan Essex
-- E: naththth!email.arizona.edu
-  R:
-  - T: "2100-01-01"
-    C: University of Arizona
-    F: "2016-08-04"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: naththth!email.arizona.edu
-    M: Nathan Fitzgibbon
-    S: slack
-    U: natfitz
-  B: 0
-  U: Nathan Fitzgibbon
-- E: nfont!austin.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: nfont!austin.ibm.com
-    M: Nathan Fontenot
-    S: git
-  B: 0
-  U: Nathan Fontenot
