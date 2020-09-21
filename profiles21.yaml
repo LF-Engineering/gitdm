@@ -1,4 +1,44 @@
 P:
+- C: UA
+  R:
+  - T: "2100-01-01"
+    C: EPAM Systems
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: EPAM Systems
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: EPAM Systems
+    F: "1900-01-01"
+    P: helm
+    R: C
+  I:
+  - M: Oleksii Dzhulai
+    S: github
+    U: oleksiidzhulai
+  B: 0
+  U: Oleksii Dzhulai
+- E: nixlike!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: EPAM Systems
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: EPAM Systems
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: nixlike!gmail.com
+    M: Oleksii Dzhulai
+    S: git
+  B: 0
+  U: Oleksii Dzhulai
 - C: DE
   E: waterlink000!gmail.com
   R:
@@ -62268,65 +62308,3 @@ P:
     S: git
   B: 0
   U: Petr Hosek
-- E: t-pehous!microsoft.com
-  R:
-  - T: "2018-09-11"
-    C: Microsoft Corporation
-    F: "2018-08-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-09-11"
-    C: Microsoft Corporation
-    F: "2018-08-01"
-    P: dpdk
-    R: C
-  I:
-  - E: t-pehous!microsoft.com
-    M: Petr Houska
-    S: pipermail
-  B: 0
-  U: Petr Houska
-- R:
-  - T: "2009-08-01"
-    C: CISTER Research Center
-    F: "2007-01-01"
-    P: o-ran/o-ran-sc
-    R: C
-  - T: "2100-01-01"
-    C: T-Mobile International
-    F: "2010-06-01"
-    P: o-ran/documentation
-    R: C
-  - T: "2100-01-01"
-    C: T-Mobile International
-    F: "2010-06-01"
-    P: o-ran/o-ran-sc
-    R: C
-  I:
-  - M: Petr Jurcik
-    S: confluence
-    U: petr.jurcik
-  B: 0
-  U: Petr Jurcik
-- R:
-  - T: "2016-08-01"
-    C: Seznam.cz, a.s.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2017-06-01"
-    C: Independent
-    F: "2016-08-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2017-06-01"
-    P: kubevirt
-    R: C
-  I:
-  - M: Petr Kotas
-    S: github
-    U: petrkotas
-  B: 0
-  U: Petr Kotas

@@ -1,4 +1,132 @@
 P:
+- E: kraynov!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: kraynov!google.com
+    M: Grigoriy Kraynov
+    S: git
+  B: 0
+  U: Grigoriy Kraynov
+- R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-02-01"
+    C: Prime
+    F: "2015-07-01"
+    R: C
+  - T: "2016-02-01"
+    C: Prime
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "2016-02-01"
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "2016-02-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: WhyFly
+    F: "2016-07-01"
+    R: C
+  - T: "2018-09-01"
+    C: WhyFly
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Lamoda Group
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Lamoda Group
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - S: github
+    U: GrigoriyMikhalkin
+  B: 0
+  U: GrigoriyMikhalkin
+- E: grigoriymikhalkin!gmail.com
+  R:
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/kudo
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-02-01"
+    C: Prime
+    F: "2015-07-01"
+    P: cncf/kudo
+    R: C
+  - T: "2016-02-01"
+    C: Prime
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "2016-02-01"
+    P: cncf/kudo
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "2016-02-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: WhyFly
+    F: "2016-07-01"
+    P: cncf/kudo
+    R: C
+  - T: "2018-09-01"
+    C: WhyFly
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Lamoda Group
+    F: "2018-09-01"
+    P: cncf/kudo
+    R: C
+  - T: "2100-01-01"
+    C: Lamoda Group
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  I:
+  - E: grigoriymikhalkin!gmail.com
+    M: GrigoriyMikhalkin
+    S: git
+  B: 0
+  U: GrigoriyMikhalkin
 - E: mg877n!intl.att.com
   R:
   - T: "2100-01-01"
@@ -32743,6 +32871,16 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: libuv
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: ojsf-express
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: ojsf-nodejs
     R: C
   I:
@@ -32756,6 +32894,11 @@ P:
     C: Red Hat Inc.
     F: "1900-01-01"
     P: cloudevents
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: ojsf-express
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -61712,158 +61855,3 @@ P:
     S: git
   B: 0
   U: Ido Kalir
-- E: ido.ran!gmail.com
-  R:
-  - T: "2014-02-01"
-    C: T.E.C.I.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-02-01"
-    C: T.E.C.I.
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2016-07-01"
-    C: Seebo
-    F: "2014-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-07-01"
-    C: Seebo
-    F: "2014-02-01"
-    P: jenkins
-    R: C
-  - T: "2018-04-01"
-    C: HP
-    F: "2016-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-04-01"
-    C: HP
-    F: "2016-07-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Stratasys
-    F: "2018-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Stratasys
-    F: "2018-04-01"
-    P: jenkins
-    R: C
-  I:
-  - E: ido.ran!gmail.com
-    M: Ido Ran
-    S: git
-  - E: ido.ran!gmail.com
-    M: Ido Ran
-    S: github
-    U: ido-ran
-  B: 0
-  U: Ido Ran
-- C: IL
-  E: irosenzw!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  S: male
-  I:
-  - E: irosenzw!redhat.com
-    M: Ido Rosenzwig
-    S: git
-  - E: irosenzw!redhat.com
-    M: Ido Rosenzwig
-    S: github
-    U: irosenzw
-  B: 0
-  U: Ido Rosenzwig
-- E: idosch!mellanox.com
-  R:
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: idosch!mellanox.com
-    M: Ido Schimmel
-    S: git
-  B: 0
-  U: Ido Schimmel
-- E: idos!mellanox.com
-  R:
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mellanox Technologies, Ltd
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: female
-  I:
-  - E: idos!mellanox.com
-    M: Ido Shamay
-    S: git
-  B: 0
-  U: Ido Shamay
-- C: IL
-  E: idoesh1!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: The Elegant Monkeys
-    F: "1900-01-01"
-    P: cdf-spinnaker
-    R: C
-  - T: "2100-01-01"
-    C: The Elegant Monkeys
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: The Elegant Monkeys
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: The Elegant Monkeys
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-05-23"
-    C: The Elegant Monkeys
-    F: "2015-04-20"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: idoesh1!gmail.com
-    M: Ido Shamun
-    S: git
-  - E: idoesh1!gmail.com
-    M: Ido Shamun
-    S: github
-    U: idoshamun
-  B: 0
-  U: Ido Shamun

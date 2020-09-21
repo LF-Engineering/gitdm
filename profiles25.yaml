@@ -1,4 +1,93 @@
 P:
+- C: US
+  E: me!slukjanov.name
+  R:
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  S: male
+  I:
+  - E: me!slukjanov.name
+    M: Sergey Lukjanov
+    S: git
+  - E: me!slukjanov.name
+    M: Sergey Lukjanov
+    S: github
+    U: Frostman
+  B: 0
+  U: Sergey Lukjanov
+- C: US
+  E: slukjanov!mirantis.com
+  R:
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-01-17"
+    C: Mirantis
+    F: "2013-12-09"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: Mirantis
+    F: "2014-12-06"
+    P: StackStorm
+    R: C
+  - T: "2016-07-13"
+    C: Mirantis
+    F: "2016-06-10"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: slukjanov!mirantis.com
+    M: Sergey Lukjanov
+    S: git
+  B: 0
+  U: Sergey Lukjanov
+- E: lsm!google.com
+  R:
+  - T: "2013-08-15"
+    C: Google
+    F: "2010-05-03"
+    P: cephfoundation
+    R: C
+  - T: "2013-08-15"
+    C: Google
+    F: "2010-05-03"
+    P: zep
+    R: C
+  I:
+  - E: lsm!google.com
+    M: Sergey Lyubka
+    S: git
+  - E: valenok!gmail.com
+    M: Sergey Lyubka
+    S: git
+  B: 0
+  U: Sergey Lyubka
 - R:
   - T: "2100-01-01"
     C: Viavi Solutions
@@ -31729,6 +31818,11 @@ P:
     F: "2018-06-01"
     P: cloudevents
     R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "2018-06-01"
+    P: ojsf-nodejs
+    R: C
   I:
   - E: sidharthv96!gmail.com
     M: Sidharth Vinod
@@ -60842,187 +60936,3 @@ P:
     S: git
   B: 0
   U: Stefan Schweizer
-- C: US
-  E: stefan.sedich!gmail.com
-  R:
-  - T: "2014-10-01"
-    C: Readify
-    F: "1900-01-01"
-    R: C
-  - T: "2014-10-01"
-    C: Readify
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2014-10-01"
-    C: Readify
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2014-10-01"
-    C: Readify
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-10-01"
-    C: Readify
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-10-01"
-    C: Readify
-    F: "1900-01-01"
-    P: openpolicyagent
-    R: C
-  - T: "2015-09-01"
-    C: Tipi HQ
-    F: "2014-10-01"
-    R: C
-  - T: "2015-09-01"
-    C: Tipi HQ
-    F: "2014-10-01"
-    P: argo
-    R: C
-  - T: "2015-09-01"
-    C: Tipi HQ
-    F: "2014-10-01"
-    P: fluxcd
-    R: C
-  - T: "2015-09-01"
-    C: Tipi HQ
-    F: "2014-10-01"
-    P: helm
-    R: C
-  - T: "2015-09-01"
-    C: Tipi HQ
-    F: "2014-10-01"
-    P: k8s
-    R: C
-  - T: "2015-09-01"
-    C: Tipi HQ
-    F: "2014-10-01"
-    P: openpolicyagent
-    R: C
-  - T: "2016-04-01"
-    C: Practice Fusion
-    F: "2015-09-01"
-    R: C
-  - T: "2016-04-01"
-    C: Practice Fusion
-    F: "2015-09-01"
-    P: argo
-    R: C
-  - T: "2016-04-01"
-    C: Practice Fusion
-    F: "2015-09-01"
-    P: fluxcd
-    R: C
-  - T: "2016-04-01"
-    C: Practice Fusion
-    F: "2015-09-01"
-    P: helm
-    R: C
-  - T: "2016-04-01"
-    C: Practice Fusion
-    F: "2015-09-01"
-    P: k8s
-    R: C
-  - T: "2016-04-01"
-    C: Practice Fusion
-    F: "2015-09-01"
-    P: openpolicyagent
-    R: C
-  - T: "2017-04-01"
-    C: Compass.co
-    F: "2016-04-01"
-    R: C
-  - T: "2017-04-01"
-    C: Compass.co
-    F: "2016-04-01"
-    P: argo
-    R: C
-  - T: "2017-04-01"
-    C: Compass.co
-    F: "2016-04-01"
-    P: fluxcd
-    R: C
-  - T: "2017-04-01"
-    C: Compass.co
-    F: "2016-04-01"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: Compass.co
-    F: "2016-04-01"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: Compass.co
-    F: "2016-04-01"
-    P: openpolicyagent
-    R: C
-  - T: "2100-01-01"
-    C: Sage
-    F: "2017-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Sage
-    F: "2017-04-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Sage
-    F: "2017-04-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Sage
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Sage
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Sage
-    F: "2017-04-01"
-    P: openpolicyagent
-    R: C
-  S: male
-  I:
-  - E: stefan.sedich!gmail.com
-    M: Stefan Sedich
-    S: git
-  - E: stefan.sedich!gmail.com
-    M: Stefan Sedich
-    S: github
-    U: stefansedich
-  B: 0
-  U: Stefan Sedich
-- E: stefan_seefeld!mentor.com
-  R:
-  - T: "2014-08-15"
-    C: Mentor Graphics Corporation
-    F: "2013-07-01"
-    P: yocto
-    R: C
-  I:
-  - E: stefan!seefeld.name
-    M: Stefan Seefeld
-    S: git
-  - E: stefan!seefeld.name
-    M: Stefan Seefeld
-    S: groupsio
-  - E: stefan_seefeld!mentor.com
-    M: Stefan Seefeld
-    S: groupsio
-  - E: stefan!seefeld.name
-    M: Stefan Seefeld
-    S: pipermail
-  - E: stefan_seefeld!mentor.com
-    M: Stefan Seefeld
-    S: pipermail
-  B: 0
-  U: Stefan Seefeld

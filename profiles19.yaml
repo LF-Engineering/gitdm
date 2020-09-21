@@ -1,4 +1,111 @@
 P:
+- E: mchenetz!cisco.com
+  R:
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mchenetz!cisco.com
+    M: Michael Chenetz
+    S: slack
+    U: mchenetz
+  B: 0
+  U: Michael Chenetz
+- E: ccheng!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ccheng!broadcom.com
+    M: Michael Cheng
+    S: git
+  B: 0
+  U: Michael Cheng
+- C: SG
+  E: michael.chirico!grabtaxi.com
+  R:
+  - T: "2017-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: Sparklyr
+    R: C
+  - T: "2017-09-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Grab
+    F: "2017-09-01"
+    P: Sparklyr
+    R: C
+  - T: "2100-01-01"
+    C: Grab
+    F: "2017-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Grab
+    F: "2017-09-01"
+    P: presto
+    R: C
+  S: male
+  I:
+  - E: michael.chirico!grabtaxi.com
+    M: Michael Chirico
+    S: git
+  - M: Michael Chirico
+    S: github
+    U: MichaelChirico
+  B: 0
+  U: Michael Chirico
+- R:
+  - T: "2100-01-01"
+    C: InfoTech MegaCorp
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: InfoTech MegaCorp
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - M: Michael Chletsos
+    S: github
+    U: mpchlets
+  B: 0
+  U: Michael Chletsos
+- R:
+  - T: "2018-04-01"
+    C: Bullhorn
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-04-01"
+    C: Bullhorn
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Threat Stack
+    F: "2018-04-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Threat Stack
+    F: "2018-04-01"
+    P: jenkins
+    R: C
+  I:
+  - M: Michael Chmielewski
+    S: github
+    U: olhado
+  B: 0
+  U: Michael Chmielewski
 - E: code!mikec.123mail.org
   R:
   - T: "2018-04-01"
@@ -2695,6 +2802,11 @@ P:
     C: Apple
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Apple
+    F: "1900-01-01"
+    P: openapi
     R: C
   I:
   - M: Michael Fazio
@@ -7255,7 +7367,7 @@ P:
     P: coredns
     R: C
   - T: "2018-01-01"
-    C: Nokia
+    C: Nokia Corporation
     F: "2016-06-01"
     P: coredns
     R: C
@@ -53506,7 +53618,7 @@ P:
     P: coredns
     R: C
   - T: "2017-08-01"
-    C: Cognizant
+    C: Cognizant Technology Solutions
     F: "2015-09-01"
     P: coredns
     R: C
@@ -61980,136 +62092,3 @@ P:
     U: maltaf
   B: 0
   U: Muhammad Altaf
-- E: asim.jamshed!gmail.com
-  R:
-  - T: "2006-07-01"
-    C: Palmchip
-    F: "2005-05-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2006-07-01"
-    C: Palmchip
-    F: "2005-05-01"
-    P: dpdk
-    R: C
-  - T: "2006-07-01"
-    C: Palmchip
-    F: "2005-05-01"
-    P: dpdk-next
-    R: C
-  - T: "2008-12-01"
-    C: University of Pittsburgh
-    F: "2006-12-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2008-12-01"
-    C: University of Pittsburgh
-    F: "2006-12-01"
-    P: dpdk
-    R: C
-  - T: "2008-12-01"
-    C: University of Pittsburgh
-    F: "2006-12-01"
-    P: dpdk-next
-    R: C
-  - T: "2009-12-01"
-    C: University of Pittsburgh
-    F: "2009-05-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2009-12-01"
-    C: University of Pittsburgh
-    F: "2009-05-01"
-    P: dpdk
-    R: C
-  - T: "2009-12-01"
-    C: University of Pittsburgh
-    F: "2009-05-01"
-    P: dpdk-next
-    R: C
-  - T: "2017-04-01"
-    C: Korea Advanced Institute of Science & Technology (KAIST)
-    F: "2010-09-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2017-04-01"
-    C: Korea Advanced Institute of Science & Technology (KAIST)
-    F: "2010-09-01"
-    P: dpdk
-    R: C
-  - T: "2017-04-01"
-    C: Korea Advanced Institute of Science & Technology (KAIST)
-    F: "2010-09-01"
-    P: dpdk-next
-    R: C
-  - T: "2014-08-01"
-    C: ICSI - International Computer Science Institute
-    F: "2014-06-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2014-08-01"
-    C: ICSI - International Computer Science Institute
-    F: "2014-06-01"
-    P: dpdk
-    R: C
-  - T: "2014-08-01"
-    C: ICSI - International Computer Science Institute
-    F: "2014-06-01"
-    P: dpdk-next
-    R: C
-  - T: "2015-12-01"
-    C: ICSI - International Computer Science Institute
-    F: "2015-10-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2015-12-01"
-    C: ICSI - International Computer Science Institute
-    F: "2015-10-01"
-    P: dpdk
-    R: C
-  - T: "2015-12-01"
-    C: ICSI - International Computer Science Institute
-    F: "2015-10-01"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2017-05-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2017-05-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2017-05-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2017-05-01"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2017-05-01"
-    P: onf-omec
-    R: C
-  I:
-  - E: asim.jamshed!gmail.com
-    M: Asim Jamshed
-    S: git
-  - E: asim.jamshed!gmail.com
-    M: Asim Jamshed
-    S: github
-    U: ajamshed
-  - E: asim.jamshed!gmail.com
-    M: Asim Jamshed
-    S: pipermail
-  - E: asim.jamshed!gmail.com
-    M: Muhammad Asim Jamshed
-    S: pipermail
-  B: 0
-  U: Muhammad Asim Jamshed

@@ -1,5 +1,146 @@
 P:
 - C: DE
+  R:
+  - T: "2015-05-01"
+    C: Artificial Labs
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-05-01"
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-06-01"
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-06-01"
+    P: coredns
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-06-01"
+    P: fluentd
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-06-01"
+    P: grpc
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-06-01"
+    P: helm
+    R: C
+  - T: "2016-12-01"
+    C: Thought Machine
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2018-02-01"
+    C: Hufsy
+    F: "2016-12-01"
+    R: C
+  - T: "2018-12-01"
+    C: Hufsy
+    F: "2016-12-01"
+    R: C
+  - T: "2018-12-01"
+    C: Hufsy
+    F: "2016-12-01"
+    P: coredns
+    R: C
+  - T: "2018-12-01"
+    C: Hufsy
+    F: "2016-12-01"
+    P: fluentd
+    R: C
+  - T: "2018-12-01"
+    C: Hufsy
+    F: "2016-12-01"
+    P: grpc
+    R: C
+  - T: "2018-12-01"
+    C: Hufsy
+    F: "2016-12-01"
+    P: helm
+    R: C
+  - T: "2018-12-01"
+    C: Hufsy
+    F: "2016-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-12-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-12-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-12-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-12-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Ecosia
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Markus Padourek
+    S: github
+    U: Globegitter
+  B: 0
+  U: Markus Padourek
+- C: DE
   E: markus.padourek!gmail.com
   R:
   - T: "2015-05-01"
@@ -124,6 +265,11 @@ P:
     C: Pullmann - Internet Services
     F: "2005-06-01"
     P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Pullmann - Internet Services
+    F: "2005-06-01"
+    P: ojsf-globalize
     R: C
   - T: "2009-03-01"
     C: University of Cologne
@@ -16090,6 +16236,11 @@ P:
   - T: "2020-01-01"
     C: SDE Software Solutions
     F: "2013-07-01"
+    P: cephfoundation
+    R: C
+  - T: "2020-01-01"
+    C: SDE Software Solutions
+    F: "2013-07-01"
     P: cip
     R: C
   - T: "2020-01-01"
@@ -26159,6 +26310,11 @@ P:
     C: Microsoft Corporation
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: ojsf-moment
     R: C
   I:
   - E: mattjoh!microsoft.com
@@ -62279,110 +62435,3 @@ P:
     U: michaelchen
   B: 0
   U: Michael Chen
-- E: mchenetz!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: mchenetz!cisco.com
-    M: Michael Chenetz
-    S: slack
-    U: mchenetz
-  B: 0
-  U: Michael Chenetz
-- E: ccheng!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: ccheng!broadcom.com
-    M: Michael Cheng
-    S: git
-  B: 0
-  U: Michael Cheng
-- C: SG
-  E: michael.chirico!grabtaxi.com
-  R:
-  - T: "2017-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: Sparklyr
-    R: C
-  - T: "2017-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Grab
-    F: "2017-09-01"
-    P: Sparklyr
-    R: C
-  - T: "2100-01-01"
-    C: Grab
-    F: "2017-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Grab
-    F: "2017-09-01"
-    P: presto
-    R: C
-  S: male
-  I:
-  - E: michael.chirico!grabtaxi.com
-    M: Michael Chirico
-    S: git
-  - M: Michael Chirico
-    S: github
-    U: MichaelChirico
-  B: 0
-  U: Michael Chirico
-- R:
-  - T: "2100-01-01"
-    C: InfoTech MegaCorp
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: InfoTech MegaCorp
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - M: Michael Chletsos
-    S: github
-    U: mpchlets
-  B: 0
-  U: Michael Chletsos
-- R:
-  - T: "2018-04-01"
-    C: Bullhorn
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-04-01"
-    C: Bullhorn
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Threat Stack
-    F: "2018-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Threat Stack
-    F: "2018-04-01"
-    P: jenkins
-    R: C
-  I:
-  - M: Michael Chmielewski
-    S: github
-    U: olhado
-  B: 0
-  U: Michael Chmielewski
