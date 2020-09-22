@@ -1,4 +1,598 @@
 P:
+- E: hcorg!apache.org
+  R:
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Apache Software Foundation
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: hcorg!apache.org
+    M: Konrad Grochowski
+    S: git
+  B: 0
+  U: Konrad Grochowski
+- E: konrad.jankowski!intel.com
+  R:
+  - T: "2018-04-11"
+    C: Intel Corporation
+    F: "2018-02-14"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2018-04-11"
+    C: Intel Corporation
+    F: "2018-02-14"
+    P: dpdk
+    R: C
+  I:
+  - E: konrad.jankowski!intel.com
+    M: Jankowski, Konrad
+    S: pipermail
+  - E: konrad.jankowski!intel.com
+    M: Konrad Jankowski
+    S: pipermail
+  B: 0
+  U: Konrad Jankowski
+- E: konrad.kurdej!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: konrad.kurdej!intel.com
+    M: Konrad Kurdej
+    S: git
+  - E: konrad.kurdej!intel.com
+    M: Konrad Kurdej
+    S: github
+    U: kkonradI
+  B: 0
+  U: Konrad Kurdej
+- R:
+  - T: "2019-03-01"
+    C: Interia
+    F: "1900-01-01"
+    P: a092m00001iv4dqqal
+    R: C
+  - T: "2019-03-01"
+    C: Interia
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2020-05-01"
+    C: Saba
+    F: "2019-03-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Cornerstone OnDemand
+    F: "2020-05-01"
+    P: k8s
+    R: C
+  I:
+  - M: Konrad Mosoń
+    S: github
+    U: morsik
+  B: 0
+  U: Konrad Mosoń
+- C: US
+  E: konrad!kernel.org
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2017-10-20"
+    C: Oracle America Inc.
+    F: "2016-11-10"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2017-10-20"
+    C: Oracle America Inc.
+    F: "2016-11-10"
+    P: dpdk
+    R: C
+  S: male
+  I:
+  - E: konrad!kernel.org
+    M: Konrad Rzeszutek Wilk
+    S: git
+  - E: konrad!kernel.org
+    M: Konrad Rzeszutek Wilk
+    S: pipermail
+  B: 0
+  U: Konrad Rzeszutek Wilk
+- C: US
+  E: konrad.wilk!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2015-09-11"
+    C: Oracle America Inc.
+    F: "2015-03-13"
+    P: zep
+    R: C
+  - T: "2017-02-18"
+    C: Oracle America Inc.
+    F: "2017-02-06"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2017-02-18"
+    C: Oracle America Inc.
+    F: "2017-02-06"
+    P: dpdk
+    R: C
+  S: male
+  I:
+  - E: konrad.wilk!oracle.com
+    M: Konrad Rzeszutek Wilk
+    S: git
+  - E: konrad.wilk!oracle.com
+    M: Konrad Rzeszutek Wilk
+    S: pipermail
+  - E: konrad.wilk!oracle.com
+    M: konrad
+    S: slack
+    U: konrad.wilk
+  B: 0
+  U: Konrad Rzeszutek Wilk
+- E: konradr!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: konradr!redhat.com
+    M: Konrad Rzeszutek
+    S: git
+  B: 0
+  U: Konrad Rzeszutek
+- E: konrad.scherer!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River Systems, Inc.
+    F: "2010-07-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Wind River Systems, Inc.
+    F: "2010-07-01"
+    P: yocto
+    R: C
+  I:
+  - E: konrad.scherer!windriver.com
+    S: bugzilla
+    U: konrad.scherer
+  - M: Konrad Scherer
+    S: bugzilla
+    U: konrad.scherer
+  - E: konrad.scherer!windriver.com
+    M: Konrad Scherer
+    S: bugzilla
+    U: konrad.scherer
+  - E: Konrad.Scherer!windriver.com
+    M: Konrad Scherer
+    S: git
+  - E: konrad.scherer!windriver.com
+    M: Konrad Scherer
+    S: groupsio
+  - E: konrad.scherer!windriver.com
+    M: Konrad Scherer
+    S: pipermail
+  B: 0
+  U: Konrad Scherer
+- E: konrad.sztyber!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  I:
+  - E: konrad.sztyber!intel.com
+    M: Konrad Sztyber
+    S: git
+  B: 0
+  U: Konrad Sztyber
+- E: kweihmann!phoenixcontact.com
+  R:
+  - T: "2017-10-01"
+    C: emlix GmbH
+    F: "2017-08-01"
+    P: yocto
+    R: C
+  - T: "2100-01-01"
+    C: MBition GmbH
+    F: "2020-01-01"
+    P: yocto
+    R: C
+  I:
+  - E: kweihmann!outlook.com
+    S: bugzilla
+    U: kweihmann
+  - E: kweihmann!outlook.com
+    S: bugzilla
+    U: kweihmann
+  - E: kweihmann!outlook.com
+    M: Konrad Weihmann
+    S: git
+  - E: kweihmann!outlook.com
+    M: Konrad Weihmann
+    S: groupsio
+  - E: kweihmann!phoenixcontact.com
+    M: Konrad Weihmann
+    S: groupsio
+  - E: kweihmann!outlook.com
+    M: kweihmann
+    S: groupsio
+  - E: kweihmann!outlook.com
+    M: Konrad Weihmann
+    S: pipermail
+  - E: kweihmann!phoenixcontact.com
+    M: Konrad Weihmann
+    S: pipermail
+  B: 0
+  U: Konrad Weihmann
+- C: PL
+  R:
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-02-01"
+    C: GFT
+    F: "2015-10-01"
+    R: C
+  - T: "2016-02-01"
+    C: GFT
+    F: "2015-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-02-01"
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2017-05-01"
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2017-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - M: Konrad Zapalowicz
+    S: github
+    U: bergotorino
+  B: 0
+  U: Konrad Zapalowicz
+- E: bergo.torino!gmail.com
+  R:
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2016-02-01"
+    C: GFT
+    F: "2015-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2017-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: bergo.torino!gmail.com
+    M: Konrad Zapalowicz
+    S: git
+  B: 0
+  U: Konrad Zapalowicz
+- C: PL
+  E: konrad!zapalowicz.pl
+  R:
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2016-02-01"
+    C: GFT
+    F: "2015-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-02-01"
+    C: GFT
+    F: "2015-10-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-02-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2017-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2017-05-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: lfedge/edgex-foundry
+    R: C
+  S: male
+  I:
+  - E: konrad!zapalowicz.pl
+    M: Konrad Zapalowicz
+    S: github
+    U: bergotorino
+  B: 0
+  U: Konrad Zapalowicz
+- C: PL
+  E: konrad.zapalowicz!canonical.com
+  R:
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-10-01"
+    C: Cybercom Group AB
+    F: "1900-01-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2016-02-01"
+    C: GFT
+    F: "2015-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-02-01"
+    C: GFT
+    F: "2015-10-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-02-01"
+    P: korg
+    R: C
+  - T: "2017-05-01"
+    C: Independent
+    F: "2016-02-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2017-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2017-05-01"
+    P: korg
+    R: C
+  - T: "2017-10-01"
+    C: Linaro Limited
+    F: "2017-05-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: acrn
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Canonical Group Limited
+    F: "2017-10-01"
+    P: lfedge/edgex-foundry
+    R: C
+  S: male
+  I:
+  - E: konrad.zapalowicz!canonical.com
+    M: Konrad Zapałowicz
+    S: git
+  B: 0
+  U: Konrad Zapałowicz
 - E: konstantin.ananyev!intel.com
   R:
   - T: "2100-01-01"
@@ -60971,558 +61565,3 @@ P:
     U: Provoost
   B: 0
   U: Luc Provoost
-- E: luc.vanoostenryck!gmail.com
-  R:
-  - T: "2014-01-01"
-    C: Atos
-    F: "1900-01-01"
-    R: C
-  - T: "2014-01-01"
-    C: Atos
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2014-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2014-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: luc.vanoostenryck!gmail.com
-    M: Luc Van Oostenryck II
-    S: git
-  - E: luc.vanoostenryck!gmail.com
-    M: Luc Van Oostenryck
-    S: git
-  B: 0
-  U: Luc Van Oostenryck
-- C: FR
-  R:
-  - T: "2015-11-01"
-    C: GridPocket
-    F: "1900-01-01"
-    R: C
-  - T: "2015-11-01"
-    C: GridPocket
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-11-01"
-    C: GridPocket
-    F: "1900-01-01"
-    P: longhorn
-    R: C
-  - T: "2015-11-01"
-    C: GridPocket
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2015-11-01"
-    C: GridPocket
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: TRAXxs
-    F: "2015-11-01"
-    R: C
-  - T: "2100-01-01"
-    C: TRAXxs
-    F: "2015-11-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: TRAXxs
-    F: "2015-11-01"
-    P: longhorn
-    R: C
-  - T: "2100-01-01"
-    C: TRAXxs
-    F: "2015-11-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: TRAXxs
-    F: "2015-11-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - M: Luc
-    S: github
-    U: lucj
-  B: 0
-  U: Luc
-- E: luc.juggery!gmail.com
-  R:
-  - T: "2015-11-01"
-    C: GridPocket
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: TRAXxs
-    F: "2015-11-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: TRAXxs
-    F: "2015-11-01"
-    P: kernelci
-    R: C
-  I:
-  - E: luc.juggery!gmail.com
-    M: Luc
-    S: git
-  B: 0
-  U: Luc
-- E: luca!lucaberton.it
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: luca!lucaberton.it
-    M: Luca Berton
-    S: github
-    U: lucab85
-  B: 0
-  U: Luca Berton
-- C: US
-  E: mr.evolution85!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-08-29"
-    C: Independent
-    F: "2017-08-04"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: mr.evolution85!gmail.com
-    M: Luca Berton
-    S: git
-  B: 0
-  U: Luca Berton
-- E: luca.boccassi!gmail.com
-  R:
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: data-plane-development-kit/archived-projects
-    R: C
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: dpdk
-    R: C
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: dpdk-apps
-    R: C
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: dpdk-draft
-    R: C
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: dpdk-next
-    R: C
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: dpdk-tools
-    R: C
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: fdio
-    R: C
-  - T: "2009-08-31"
-    C: Net & Com Srl
-    F: "2009-06-30"
-    P: yocto
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: data-plane-development-kit/archived-projects
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: dpdk
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: dpdk-apps
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: dpdk-draft
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: dpdk-next
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: dpdk-tools
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: fdio
-    R: C
-  - T: "2014-09-30"
-    C: Cisco Systems Inc.
-    F: "2012-08-31"
-    P: yocto
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: cephfoundation
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: danos
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: data-plane-development-kit/archived-projects
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: dpdk
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: dpdk-apps
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: dpdk-draft
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: dpdk-next
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: dpdk-tools
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: fdio
-    R: C
-  - T: "2018-12-31"
-    C: AT&T Services, Inc.
-    F: "2014-11-30"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: data-plane-development-kit/archived-projects
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: dpdk-apps
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: dpdk-tools
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Debian
-    F: "2017-07-31"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: acrn
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: data-plane-development-kit/archived-projects
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: dpdk-apps
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: dpdk-tools
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: DPDK
-    F: "2017-10-31"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: data-plane-development-kit/archived-projects
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: dpdk-apps
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: dpdk-tools
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: fdio
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2019-01-31"
-    P: yocto
-    R: C
-  S: male
-  I:
-  - E: luca.boccassi!gmail.com
-    S: bugzilla
-    U: luca.boccassi
-  - M: Luca Boccassi
-    S: bugzilla
-    U: luca.boccassi
-  - E: luca.boccassi!gmail.com
-    M: Luca Boccassi
-    S: bugzilla
-    U: luca.boccassi
-  - M: Luca Boccassi
-    S: bugzillarest
-    U: luca.boccassi
-  - E: luca.boccassi!gmail.com
-    M: Luca Boccassi
-    S: gerrit
-    U: bluca
-  - E: bluca!debian.org
-    M: Luca Boccassi
-    S: git
-  - E: lboccass!brocade.com
-    M: Luca Boccassi
-    S: git
-  - E: luca.boccassi!gmail.com
-    M: Luca Boccassi
-    S: git
-  - E: luca.boccassi!microsoft.com
-    M: Luca Boccassi
-    S: git
-  - E: bluca!debian.org
-    M: Luca Boccassi
-    S: github
-    U: bluca
-  - E: Luca.Boccassi!microsoft.com
-    M: Luca Boccassi
-    S: groupsio
-  - E: bluca!debian.org
-    M: Luca Boccassi
-    S: groupsio
-  - E: luca.boccassi!gmail.com
-    M: Luca Boccassi
-    S: groupsio
-  - E: luca.boccassi!gmail.com
-    M: luca.boccassi
-    S: groupsio
-  - E: Luca.Boccassi!microsoft.com
-    M: Luca Boccassi
-    S: pipermail
-  - E: bluca!debian.org
-    M: Luca Boccassi
-    S: pipermail
-  - E: lboccass!brocade.com
-    M: Luca Boccassi
-    S: pipermail
-  - E: luca.boccassi!gmail.com
-    M: Luca Boccassi
-    S: pipermail
-  - E: bluca!debian.org
-    M: bluca
-    S: pipermail
-  - E: lboccass!brocade.com
-    M: lboccass
-    S: pipermail
-  - E: luca.boccassi!gmail.com
-    M: luca.boccassi
-    S: pipermail
-  B: 0
-  U: Luca Boccassi
-- E: luca.boldrin!infocert.it
-  R:
-  - T: "2001-01-01"
-    C: SAS
-    F: "1999-01-01"
-    P: hyperledger/hyperledger-all
-    R: C
-  I:
-  - M: Luca Boldrin
-    S: confluence
-    U: luca.boldrin
-  - E: luca.boldrin!infocert.it
-    M: Luca Boldrin
-    S: groupsio
-  - E: luca.boldrin!infocert.it
-    M: luca.boldrin
-    S: groupsio
-  B: 0
-  U: Luca Boldrin

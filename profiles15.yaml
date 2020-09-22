@@ -1,4 +1,792 @@
 P:
+- C: DE
+  E: knocke.julian!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: XING
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: XING
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: knocke.julian!gmail.com
+    M: Julian Knocke
+    S: git
+  B: 0
+  U: Julian Knocke
+- C: DE
+  R:
+  - T: "2100-01-01"
+    C: Digineo
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Digineo
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Julian Kornberger
+    S: github
+    U: corny
+  B: 0
+  U: Julian Kornberger
+- C: DE
+  E: jk+github!digineo.de
+  R:
+  - T: "2100-01-01"
+    C: Digineo
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Digineo
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Digineo
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: jk+github!digineo.de
+    M: Julian Kornberger
+    S: git
+  B: 0
+  U: Julian Kornberger
+- R:
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2016-10-01"
+    C: StockRender
+    F: "2014-08-01"
+    P: argo
+    R: C
+  - T: "2019-04-01"
+    C: Independent
+    F: "2016-10-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: BioBox
+    F: "2019-04-01"
+    P: argo
+    R: C
+  I:
+  - M: Julian Mazzitelli
+    S: github
+    U: bx-julian
+  B: 0
+  U: Julian Mazzitelli
+- E: mazzitelli.julian!gmail.com
+  R:
+  - T: "2016-10-01"
+    C: StockRender
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2016-10-01"
+    C: StockRender
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2016-10-01"
+    C: StockRender
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2019-10-01"
+    C: Independent
+    F: "2016-10-01"
+    P: coredns
+    R: C
+  - T: "2019-10-01"
+    C: Independent
+    F: "2016-10-01"
+    P: fluxcd
+    R: C
+  - T: "2019-10-01"
+    C: Independent
+    F: "2016-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: BioBox
+    F: "2019-10-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: BioBox
+    F: "2019-10-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: BioBox
+    F: "2019-10-01"
+    P: k8s
+    R: C
+  I:
+  - E: mazzitelli.julian!gmail.com
+    M: Julian Mazzitelli
+    S: git
+  - E: mazzitelli.julian!gmail.com
+    M: Julian Mazzitelli
+    S: github
+    U: thejmazz
+  B: 0
+  U: Julian Mazzitelli
+- C: CH
+  E: julian!oes.ch
+  R:
+  - T: "2014-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: dronecode
+    R: C
+  - T: "2014-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Auterion
+    F: "1900-01-01"
+    P: dronecode
+    R: C
+  - T: "2015-12-01"
+    C: Amazon
+    F: "2014-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-12-01"
+    C: Amazon
+    F: "2014-12-01"
+    P: dronecode
+    R: C
+  - T: "2015-12-01"
+    C: Amazon
+    F: "2014-12-01"
+    P: grpc
+    R: C
+  - T: "2016-08-01"
+    C: 3D Robotics
+    F: "2015-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-08-01"
+    C: 3D Robotics
+    F: "2015-12-01"
+    P: dronecode
+    R: C
+  - T: "2016-08-01"
+    C: 3D Robotics
+    F: "2015-12-01"
+    P: grpc
+    R: C
+  - T: "2017-02-01"
+    C: Yuneec International
+    F: "2016-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-02-01"
+    C: Yuneec International
+    F: "2016-08-01"
+    P: dronecode
+    R: C
+  - T: "2017-02-01"
+    C: Yuneec International
+    F: "2016-08-01"
+    P: grpc
+    R: C
+  - T: "2018-09-01"
+    C: Yuneec Software
+    F: "2017-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-09-01"
+    C: Yuneec Software
+    F: "2017-02-01"
+    P: dronecode
+    R: C
+  - T: "2018-09-01"
+    C: Yuneec Software
+    F: "2017-02-01"
+    P: grpc
+    R: C
+  - T: "2019-01-01"
+    C: Independent
+    F: "2018-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2019-01-01"
+    C: Independent
+    F: "2018-09-01"
+    P: dronecode
+    R: C
+  - T: "2019-01-01"
+    C: Independent
+    F: "2018-09-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Auterion
+    F: "2019-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Auterion
+    F: "2019-01-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - E: joes!student.ethz.ch
+    M: Julian Oes
+    S: git
+  - E: julian!oes.ch
+    M: Julian Oes
+    S: git
+  - E: julian!oes.ch
+    M: julianoes
+    S: git
+  - M: Julian Oes
+    S: github
+    U: julianoes
+  - E: julian!oes.ch
+    M: Julian Oes
+    S: slack
+    U: julianoes
+  B: 0
+  U: Julian Oes
+- E: jparkin!amd.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: jparkin!amd.com
+    M: Julian Parkin
+    S: git
+  B: 0
+  U: Julian Parkin
+- E: julian.parkin!amd.com
+  R:
+  - T: "2100-01-01"
+    C: AMD
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: julian.parkin!amd.com
+    M: Julian Parkin
+    S: git
+  B: 0
+  U: Julian Parkin
+- C: DE
+  R:
+  - T: "2100-01-01"
+    C: LANCOM Systems
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: LANCOM Systems
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: LANCOM Systems
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Julian Poschmann
+    S: github
+    U: Nonymus
+  B: 0
+  U: Julian Poschmann
+- E: julian.poschmann!lancom.de
+  R:
+  - T: "2100-01-01"
+    C: LANCOM Systems
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: julian.poschmann!lancom.de
+    M: Julian Poschmann
+    S: git
+  B: 0
+  U: Julian Poschmann
+- E: contacto!julianreyes.co
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: ojsf-moment
+    R: C
+  I:
+  - E: contacto!julianreyes.co
+    M: Julian Reyes Escrigas
+    S: github
+    U: rkmax
+  B: 0
+  U: Julian Reyes Escrigas
+- E: julian.reyes.romero!ericsson.com
+  R:
+  - T: "2016-10-06"
+    C: Ericsson AB
+    F: "2016-07-01"
+    P: odl
+    R: C
+  I:
+  - E: julian.reyes.romero!ericsson.com
+    M: Julian Reyes Romero
+    S: git
+  B: 0
+  U: Julian Reyes Romero
+- E: julian!jusst.de
+  R:
+  - T: "2100-01-01"
+    C: Jusst
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2100-01-01"
+    C: Jusst
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Jusst
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Jusst
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Jusst
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Jusst
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Jusst
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2012-10-18"
+    C: Jusst
+    F: "2012-07-01"
+    P: yocto
+    R: C
+  S: male
+  I:
+  - E: julian!jusst.de
+    M: Julian Scheel
+    S: git
+  - E: julian!jusst.de
+    M: Julian Scheel
+    S: groupsio
+  - E: julian!jusst.de
+    M: Julian Scheel
+    S: pipermail
+  B: 0
+  U: Julian Scheel
+- C: DE
+  E: jschlichtholz!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Salesforce
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Salesforce
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Salesforce
+    F: "1900-01-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: jschlichtholz!users.noreply.github.com
+    M: Julian Schlichtholz
+    S: git
+  B: 0
+  U: Julian Schlichtholz
+- R:
+  - T: "2100-01-01"
+    C: Mapzen
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Mapzen
+    F: "1900-01-01"
+    P: mapzen
+    R: C
+  I:
+  - M: Julian Simioni
+    S: github
+    U: orangejulius
+  B: 0
+  U: Julian Simioni
+- C: US
+  E: julian!simioni.org
+  R:
+  - T: "2100-01-01"
+    C: Mapzen
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Mapzen
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: julian!simioni.org
+    M: Julian Simioni
+    S: git
+  B: 0
+  U: Julian Simioni
+- E: orangejulius!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Mapzen
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Mapzen
+    F: "1900-01-01"
+    P: mapzen
+    R: C
+  I:
+  - E: orangejulius!users.noreply.github.com
+    M: Julian Simioni
+    S: git
+  B: 0
+  U: Julian Simioni
+- R:
+  - T: "2100-01-01"
+    C: Endocode
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Endocode
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: Julian Strobl
+    S: github
+    U: jmastr
+  B: 0
+  U: Julian Strobl
+- C: DE
+  E: julian!endocode.com
+  R:
+  - T: "2100-01-01"
+    C: Endocode
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Endocode
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-01-26"
+    C: Endocode
+    F: "2015-12-07"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: julian!endocode.com
+    M: Julian Strobl
+    S: git
+  B: 0
+  U: Julian Strobl
+- R:
+  - T: "2100-01-01"
+    C: Out There Labs
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Out There Labs
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  I:
+  - M: Julian Tescher
+    S: github
+    U: jtescher
+  B: 0
+  U: Julian Tescher
+- C: US
+  E: jatescher!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Out There Labs
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Out There Labs
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Out There Labs
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  S: male
+  I:
+  - E: jatescher!gmail.com
+    M: Julian Tescher
+    S: git
+  - E: jatescher!gmail.com
+    M: Julian Tescher
+    S: github
+    U: jtescher
+  B: 0
+  U: Julian Tescher
+- C: US
+  E: julian.modesto!liveramp.com
+  R:
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: brigade
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2019-04-27"
+    C: The New York Times
+    F: "2019-04-11"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: julian.modesto!liveramp.com
+    M: Julian V. Modesto
+    S: git
+  B: 0
+  U: Julian V. Modesto
+- C: US
+  E: julianvmodesto!gmail.com
+  R:
+  - T: "2016-03-01"
+    C: Credit Suisse
+    F: "1900-01-01"
+    P: brigade
+    R: C
+  - T: "2016-03-01"
+    C: Credit Suisse
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2016-03-01"
+    C: Credit Suisse
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2016-03-01"
+    C: Credit Suisse
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-03-01"
+    C: Credit Suisse
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2016-03-01"
+    C: Credit Suisse
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-03-01"
+    C: Credit Suisse
+    F: "1900-01-01"
+    P: openmetrics
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: brigade
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: The New York Times
+    F: "1900-01-01"
+    P: openmetrics
+    R: C
+  - T: "2017-03-01"
+    C: The New York Times
+    F: "2016-03-01"
+    P: brigade
+    R: C
+  - T: "2017-03-01"
+    C: The New York Times
+    F: "2016-03-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2017-03-01"
+    C: The New York Times
+    F: "2016-03-01"
+    P: coredns
+    R: C
+  - T: "2017-03-01"
+    C: The New York Times
+    F: "2016-03-01"
+    P: helm
+    R: C
+  - T: "2017-03-01"
+    C: The New York Times
+    F: "2016-03-01"
+    P: jaeger
+    R: C
+  - T: "2017-03-01"
+    C: The New York Times
+    F: "2016-03-01"
+    P: k8s
+    R: C
+  - T: "2017-03-01"
+    C: The New York Times
+    F: "2016-03-01"
+    P: openmetrics
+    R: C
+  - T: "2100-01-01"
+    C: LiveRamp
+    F: "2017-03-01"
+    P: brigade
+    R: C
+  - T: "2100-01-01"
+    C: LiveRamp
+    F: "2017-03-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: LiveRamp
+    F: "2017-03-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: LiveRamp
+    F: "2017-03-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: LiveRamp
+    F: "2017-03-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: LiveRamp
+    F: "2017-03-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: LiveRamp
+    F: "2017-03-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: LiveRamp
+    F: "2017-03-01"
+    P: openmetrics
+    R: C
+  S: male
+  I:
+  - E: julianvmodesto!gmail.com
+    M: Julian V. Modesto
+    S: git
+  - E: julianvmodesto!gmail.com
+    M: Julian V. Modesto
+    S: github
+    U: julianvmodesto
+  - E: julianvmodesto!gmail.com
+    M: Julian V. Modesto
+    S: slack
+    U: julianvmodesto
+  B: 0
+  U: Julian V. Modesto
 - C: US
   E: julianvmodesto!users.noreply.github.com
   R:
@@ -14945,7 +15733,8 @@ P:
     U: idefix24
   B: 0
   U: Jürgen Bosch
-- R:
+- E: juergen.etzlstorfer!dynatrace.com
+  R:
   - T: "2017-10-01"
     C: Independent
     F: "1900-01-01"
@@ -14967,6 +15756,9 @@ P:
     P: cncf/keptn
     R: C
   I:
+  - E: juergen.etzlstorfer!dynatrace.com
+    M: Jürgen Etzlstorfer
+    S: git
   - M: Jürgen Etzlstorfer
     S: github
     U: jetzlstorfer
@@ -23515,162 +24307,6 @@ P:
     S: mbox
   B: 0
   U: Kara Alexandra
-- R:
-  - T: "2016-05-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2016-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2016-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-05-01"
-    C: Independent
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: Babel
-    F: "1900-01-01"
-    R: C
-  - T: "2017-01-01"
-    C: Founders and Coders
-    F: "2016-05-01"
-    R: C
-  - T: "2017-01-01"
-    C: Founders and Coders
-    F: "2016-05-01"
-    P: cncf
-    R: C
-  - T: "2017-01-01"
-    C: Founders and Coders
-    F: "2016-05-01"
-    P: jaeger
-    R: C
-  - T: "2017-01-01"
-    C: Founders and Coders
-    F: "2016-05-01"
-    P: k8s
-    R: C
-  - T: "2017-01-01"
-    C: Founders and Coders
-    F: "2016-05-01"
-    P: opentracing
-    R: C
-  - T: "2017-06-01"
-    C: Ticketmaster
-    F: "2017-01-01"
-    R: C
-  - T: "2017-06-01"
-    C: Ticketmaster
-    F: "2017-01-01"
-    P: cncf
-    R: C
-  - T: "2017-06-01"
-    C: Ticketmaster
-    F: "2017-01-01"
-    P: jaeger
-    R: C
-  - T: "2017-06-01"
-    C: Ticketmaster
-    F: "2017-01-01"
-    P: k8s
-    R: C
-  - T: "2017-06-01"
-    C: Ticketmaster
-    F: "2017-01-01"
-    P: opentracing
-    R: C
-  - T: "2017-12-01"
-    C: Babeljs
-    F: "2017-06-01"
-    R: C
-  - T: "2017-12-01"
-    C: Babeljs
-    F: "2017-06-01"
-    P: cncf
-    R: C
-  - T: "2017-12-01"
-    C: Babeljs
-    F: "2017-06-01"
-    P: jaeger
-    R: C
-  - T: "2017-12-01"
-    C: Babeljs
-    F: "2017-06-01"
-    P: k8s
-    R: C
-  - T: "2017-12-01"
-    C: Babeljs
-    F: "2017-06-01"
-    P: opentracing
-    R: C
-  - T: "2019-06-01"
-    C: codebar
-    F: "2017-12-01"
-    R: C
-  - T: "2019-06-01"
-    C: codebar
-    F: "2017-12-01"
-    P: cncf
-    R: C
-  - T: "2019-06-01"
-    C: codebar
-    F: "2017-12-01"
-    P: jaeger
-    R: C
-  - T: "2019-06-01"
-    C: codebar
-    F: "2017-12-01"
-    P: k8s
-    R: C
-  - T: "2019-06-01"
-    C: codebar
-    F: "2017-12-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2019-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2019-06-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2019-06-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2019-06-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: CloudBees
-    F: "2019-06-01"
-    P: opentracing
-    R: C
-  S: female
-  I:
-  - M: Kara de la Marck
-    S: github
-    U: MarckK
-  B: 0
-  U: Kara de la Marck
 - E: karadelamarck!gmail.com
   R:
   - T: "2016-05-01"
@@ -23700,6 +24336,16 @@ P:
   - T: "2100-01-01"
     C: Babel
     F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
     R: C
   - T: "2017-01-01"
     C: Founders and Coders
@@ -23826,20 +24472,9 @@ P:
   - E: karadelamarck!gmail.com
     M: Kara de la Marck
     S: git
-  B: 0
-  U: Kara de la Marck
-- R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  I:
+  - M: Kara de la Marck
+    S: github
+    U: MarckK
   - M: Kara de la Marck
     S: meetup
     U: "192586065"
@@ -23847,7 +24482,7 @@ P:
     S: meetup
     U: "192586065"
   B: 0
-  U: Kara
+  U: Kara de la Marck
 - E: kabuataya!vmware.com
   R:
   - T: "2100-01-01"
@@ -28214,7 +28849,17 @@ P:
   - T: "2020-02-01"
     C: itemis AG
     F: "2003-01-01"
+    P: cncf
+    R: C
+  - T: "2020-02-01"
+    C: itemis AG
+    F: "2003-01-01"
     P: opencue
+    R: C
+  - T: "2100-01-01"
+    C: Karakun AG
+    F: "2020-02-01"
+    P: cncf
     R: C
   - T: "2100-01-01"
     C: Karakun AG
@@ -62167,597 +62812,3 @@ P:
     S: pipermail
   B: 0
   U: Konrad Djimeli
-- E: hcorg!apache.org
-  R:
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Apache Software Foundation
-    F: "1900-01-01"
-    P: onf-p4
-    R: C
-  I:
-  - E: hcorg!apache.org
-    M: Konrad Grochowski
-    S: git
-  B: 0
-  U: Konrad Grochowski
-- E: konrad.jankowski!intel.com
-  R:
-  - T: "2018-04-11"
-    C: Intel Corporation
-    F: "2018-02-14"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2018-04-11"
-    C: Intel Corporation
-    F: "2018-02-14"
-    P: dpdk
-    R: C
-  I:
-  - E: konrad.jankowski!intel.com
-    M: Jankowski, Konrad
-    S: pipermail
-  - E: konrad.jankowski!intel.com
-    M: Konrad Jankowski
-    S: pipermail
-  B: 0
-  U: Konrad Jankowski
-- E: konrad.kurdej!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: konrad.kurdej!intel.com
-    M: Konrad Kurdej
-    S: git
-  - E: konrad.kurdej!intel.com
-    M: Konrad Kurdej
-    S: github
-    U: kkonradI
-  B: 0
-  U: Konrad Kurdej
-- R:
-  - T: "2019-03-01"
-    C: Interia
-    F: "1900-01-01"
-    P: a092m00001iv4dqqal
-    R: C
-  - T: "2019-03-01"
-    C: Interia
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2020-05-01"
-    C: Saba
-    F: "2019-03-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Cornerstone OnDemand
-    F: "2020-05-01"
-    P: k8s
-    R: C
-  I:
-  - M: Konrad Mosoń
-    S: github
-    U: morsik
-  B: 0
-  U: Konrad Mosoń
-- C: US
-  E: konrad!kernel.org
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: acrn
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2017-10-20"
-    C: Oracle America Inc.
-    F: "2016-11-10"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2017-10-20"
-    C: Oracle America Inc.
-    F: "2016-11-10"
-    P: dpdk
-    R: C
-  S: male
-  I:
-  - E: konrad!kernel.org
-    M: Konrad Rzeszutek Wilk
-    S: git
-  - E: konrad!kernel.org
-    M: Konrad Rzeszutek Wilk
-    S: pipermail
-  B: 0
-  U: Konrad Rzeszutek Wilk
-- C: US
-  E: konrad.wilk!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: acrn
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2015-09-11"
-    C: Oracle America Inc.
-    F: "2015-03-13"
-    P: zep
-    R: C
-  - T: "2017-02-18"
-    C: Oracle America Inc.
-    F: "2017-02-06"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2017-02-18"
-    C: Oracle America Inc.
-    F: "2017-02-06"
-    P: dpdk
-    R: C
-  S: male
-  I:
-  - E: konrad.wilk!oracle.com
-    M: Konrad Rzeszutek Wilk
-    S: git
-  - E: konrad.wilk!oracle.com
-    M: Konrad Rzeszutek Wilk
-    S: pipermail
-  - E: konrad.wilk!oracle.com
-    M: konrad
-    S: slack
-    U: konrad.wilk
-  B: 0
-  U: Konrad Rzeszutek Wilk
-- E: konradr!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: konradr!redhat.com
-    M: Konrad Rzeszutek
-    S: git
-  B: 0
-  U: Konrad Rzeszutek
-- E: konrad.scherer!windriver.com
-  R:
-  - T: "2100-01-01"
-    C: Wind River Systems, Inc.
-    F: "2010-07-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Wind River Systems, Inc.
-    F: "2010-07-01"
-    P: yocto
-    R: C
-  I:
-  - E: konrad.scherer!windriver.com
-    S: bugzilla
-    U: konrad.scherer
-  - M: Konrad Scherer
-    S: bugzilla
-    U: konrad.scherer
-  - E: konrad.scherer!windriver.com
-    M: Konrad Scherer
-    S: bugzilla
-    U: konrad.scherer
-  - E: Konrad.Scherer!windriver.com
-    M: Konrad Scherer
-    S: git
-  - E: konrad.scherer!windriver.com
-    M: Konrad Scherer
-    S: groupsio
-  - E: konrad.scherer!windriver.com
-    M: Konrad Scherer
-    S: pipermail
-  B: 0
-  U: Konrad Scherer
-- E: konrad.sztyber!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: konrad.sztyber!intel.com
-    M: Konrad Sztyber
-    S: git
-  B: 0
-  U: Konrad Sztyber
-- E: kweihmann!phoenixcontact.com
-  R:
-  - T: "2017-10-01"
-    C: emlix GmbH
-    F: "2017-08-01"
-    P: yocto
-    R: C
-  - T: "2100-01-01"
-    C: MBition GmbH
-    F: "2020-01-01"
-    P: yocto
-    R: C
-  I:
-  - E: kweihmann!outlook.com
-    S: bugzilla
-    U: kweihmann
-  - E: kweihmann!outlook.com
-    S: bugzilla
-    U: kweihmann
-  - E: kweihmann!outlook.com
-    M: Konrad Weihmann
-    S: git
-  - E: kweihmann!outlook.com
-    M: Konrad Weihmann
-    S: groupsio
-  - E: kweihmann!phoenixcontact.com
-    M: Konrad Weihmann
-    S: groupsio
-  - E: kweihmann!outlook.com
-    M: kweihmann
-    S: groupsio
-  - E: kweihmann!outlook.com
-    M: Konrad Weihmann
-    S: pipermail
-  - E: kweihmann!phoenixcontact.com
-    M: Konrad Weihmann
-    S: pipermail
-  B: 0
-  U: Konrad Weihmann
-- C: PL
-  R:
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-02-01"
-    C: GFT
-    F: "2015-10-01"
-    R: C
-  - T: "2016-02-01"
-    C: GFT
-    F: "2015-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-02-01"
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-10-01"
-    C: Linaro Limited
-    F: "2017-05-01"
-    R: C
-  - T: "2017-10-01"
-    C: Linaro Limited
-    F: "2017-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - M: Konrad Zapalowicz
-    S: github
-    U: bergotorino
-  B: 0
-  U: Konrad Zapalowicz
-- E: bergo.torino!gmail.com
-  R:
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: acrn
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2016-02-01"
-    C: GFT
-    F: "2015-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-10-01"
-    C: Linaro Limited
-    F: "2017-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: bergo.torino!gmail.com
-    M: Konrad Zapalowicz
-    S: git
-  B: 0
-  U: Konrad Zapalowicz
-- C: PL
-  E: konrad!zapalowicz.pl
-  R:
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2016-02-01"
-    C: GFT
-    F: "2015-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-02-01"
-    C: GFT
-    F: "2015-10-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-02-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2017-10-01"
-    C: Linaro Limited
-    F: "2017-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-10-01"
-    C: Linaro Limited
-    F: "2017-05-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: lfedge/edgex-foundry
-    R: C
-  S: male
-  I:
-  - E: konrad!zapalowicz.pl
-    M: Konrad Zapalowicz
-    S: github
-    U: bergotorino
-  B: 0
-  U: Konrad Zapalowicz
-- C: PL
-  E: konrad.zapalowicz!canonical.com
-  R:
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-10-01"
-    C: Cybercom Group AB
-    F: "1900-01-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2016-02-01"
-    C: GFT
-    F: "2015-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-02-01"
-    C: GFT
-    F: "2015-10-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-02-01"
-    P: korg
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-02-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2017-10-01"
-    C: Linaro Limited
-    F: "2017-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-10-01"
-    C: Linaro Limited
-    F: "2017-05-01"
-    P: korg
-    R: C
-  - T: "2017-10-01"
-    C: Linaro Limited
-    F: "2017-05-01"
-    P: lfedge/edgex-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: acrn
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: Canonical Group Limited
-    F: "2017-10-01"
-    P: lfedge/edgex-foundry
-    R: C
-  S: male
-  I:
-  - E: konrad.zapalowicz!canonical.com
-    M: Konrad Zapałowicz
-    S: git
-  B: 0
-  U: Konrad Zapałowicz

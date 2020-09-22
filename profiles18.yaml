@@ -1,4 +1,929 @@
 P:
+- C: AT
+  E: paidhi!mospheira.net
+  R:
+  - T: "2015-04-01"
+    C: OBB
+    F: "1900-01-01"
+    R: C
+  - T: "2015-04-01"
+    C: OBB
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2016-08-01"
+    C: Today Experts
+    F: "2015-04-01"
+    R: C
+  - T: "2016-08-01"
+    C: Today Experts
+    F: "2015-04-01"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: VisoTech
+    F: "2016-08-01"
+    R: C
+  - T: "2017-10-01"
+    C: VisoTech
+    F: "2016-08-01"
+    P: k8s
+    R: C
+  - T: "2018-05-01"
+    C: UNIKQA
+    F: "2017-10-01"
+    R: C
+  - T: "2018-05-01"
+    C: UNIKQA
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2018-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2018-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: paidhi!mospheira.net
+    M: Markus Banfi
+    S: git
+  - E: paidhi!mospheira.net
+    M: Markus Banfi
+    S: github
+    U: paidhi
+  B: 0
+  U: Markus Banfi
+- E: markus.becker!tridonic.com
+  R:
+  - T: "2100-01-01"
+    C: tridonic
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: tridonic
+    F: "2018-05-07"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: markus.becker!seibtundstraub.de
+    M: Markus Becker
+    S: git
+  - E: markus.becker!tridonic.com
+    M: Markus Becker
+    S: git
+  - M: Markus Becker
+    S: github
+    U: markus-becker-tridonic-com
+  B: 0
+  U: Markus Becker
+- C: DE
+  E: markus!familie-blaschke.net
+  R:
+  - T: "2014-06-01"
+    C: TEQneers
+    F: "1900-01-01"
+    R: C
+  - T: "2014-06-01"
+    C: TEQneers
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-02-01"
+    C: Lightwerk
+    F: "2014-06-01"
+    R: C
+  - T: "2015-02-01"
+    C: Lightwerk
+    F: "2014-06-01"
+    P: helm
+    R: C
+  - T: "2016-08-01"
+    C: cron
+    F: "2015-02-01"
+    R: C
+  - T: "2016-08-01"
+    C: cron
+    F: "2015-02-01"
+    P: helm
+    R: C
+  - T: "2018-12-01"
+    C: Daimler FleetBoard
+    F: "2016-08-01"
+    R: C
+  - T: "2018-12-01"
+    C: Daimler FleetBoard
+    F: "2016-08-01"
+    P: helm
+    R: C
+  - T: "2019-10-01"
+    C: Daimler AG
+    F: "2018-12-01"
+    R: C
+  - T: "2019-10-01"
+    C: Daimler AG
+    F: "2018-12-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Daimler Truck
+    F: "2019-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Daimler Truck
+    F: "2019-10-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: markus!familie-blaschke.net
+    M: Markus Blaschke
+    S: git
+  B: 0
+  U: Markus Blaschke
+- C: DE
+  E: mblaschke82!gmail.com
+  R:
+  - T: "2014-06-01"
+    C: TEQneers
+    F: "1900-01-01"
+    R: C
+  - T: "2014-06-01"
+    C: TEQneers
+    F: "1900-01-01"
+    P: fluentd
+    R: C
+  - T: "2014-06-01"
+    C: TEQneers
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-06-01"
+    C: TEQneers
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-06-01"
+    C: TEQneers
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2014-06-01"
+    C: TEQneers
+    F: "1900-01-01"
+    P: spiffe
+    R: C
+  - T: "2015-02-01"
+    C: Lightwerk
+    F: "2014-06-01"
+    R: C
+  - T: "2015-02-01"
+    C: Lightwerk
+    F: "2014-06-01"
+    P: fluentd
+    R: C
+  - T: "2015-02-01"
+    C: Lightwerk
+    F: "2014-06-01"
+    P: helm
+    R: C
+  - T: "2015-02-01"
+    C: Lightwerk
+    F: "2014-06-01"
+    P: k8s
+    R: C
+  - T: "2015-02-01"
+    C: Lightwerk
+    F: "2014-06-01"
+    P: prometheus
+    R: C
+  - T: "2015-02-01"
+    C: Lightwerk
+    F: "2014-06-01"
+    P: spiffe
+    R: C
+  - T: "2016-08-01"
+    C: cron
+    F: "2015-02-01"
+    R: C
+  - T: "2016-08-01"
+    C: cron
+    F: "2015-02-01"
+    P: fluentd
+    R: C
+  - T: "2016-08-01"
+    C: cron
+    F: "2015-02-01"
+    P: helm
+    R: C
+  - T: "2016-08-01"
+    C: cron
+    F: "2015-02-01"
+    P: k8s
+    R: C
+  - T: "2016-08-01"
+    C: cron
+    F: "2015-02-01"
+    P: prometheus
+    R: C
+  - T: "2016-08-01"
+    C: cron
+    F: "2015-02-01"
+    P: spiffe
+    R: C
+  - T: "2018-12-01"
+    C: Daimler FleetBoard
+    F: "2016-08-01"
+    R: C
+  - T: "2018-12-01"
+    C: Daimler FleetBoard
+    F: "2016-08-01"
+    P: fluentd
+    R: C
+  - T: "2018-12-01"
+    C: Daimler FleetBoard
+    F: "2016-08-01"
+    P: helm
+    R: C
+  - T: "2018-12-01"
+    C: Daimler FleetBoard
+    F: "2016-08-01"
+    P: k8s
+    R: C
+  - T: "2018-12-01"
+    C: Daimler FleetBoard
+    F: "2016-08-01"
+    P: prometheus
+    R: C
+  - T: "2018-12-01"
+    C: Daimler FleetBoard
+    F: "2016-08-01"
+    P: spiffe
+    R: C
+  - T: "2019-10-01"
+    C: Daimler AG
+    F: "2018-12-01"
+    R: C
+  - T: "2019-10-01"
+    C: Daimler AG
+    F: "2018-12-01"
+    P: fluentd
+    R: C
+  - T: "2019-10-01"
+    C: Daimler AG
+    F: "2018-12-01"
+    P: helm
+    R: C
+  - T: "2019-10-01"
+    C: Daimler AG
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  - T: "2019-10-01"
+    C: Daimler AG
+    F: "2018-12-01"
+    P: prometheus
+    R: C
+  - T: "2019-10-01"
+    C: Daimler AG
+    F: "2018-12-01"
+    P: spiffe
+    R: C
+  - T: "2100-01-01"
+    C: Daimler Truck
+    F: "2019-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: Daimler Truck
+    F: "2019-10-01"
+    P: fluentd
+    R: C
+  - T: "2100-01-01"
+    C: Daimler Truck
+    F: "2019-10-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Daimler Truck
+    F: "2019-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Daimler Truck
+    F: "2019-10-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Daimler Truck
+    F: "2019-10-01"
+    P: spiffe
+    R: C
+  S: male
+  I:
+  - E: mblaschke82!gmail.com
+    M: Markus Blaschke
+    S: git
+  - E: mblaschke82!gmail.com
+    M: Markus Blaschke
+    S: github
+    U: mblaschke
+  B: 0
+  U: Markus Blaschke
+- E: bollinger!digigram.com
+  R:
+  - T: "2100-01-01"
+    C: Digigram
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: bollinger!digigram.com
+    M: Markus Bollinger
+    S: git
+  B: 0
+  U: Markus Bollinger
+- E: mbraasch!redventures.com
+  R:
+  - T: "2017-02-01"
+    C: Red Ventures
+    F: "2014-07-01"
+    P: Sparklyr
+    R: C
+  - T: "2017-02-01"
+    C: Red Ventures
+    F: "2014-07-01"
+    P: akraino
+    R: C
+  - T: "2100-01-01"
+    C: Credit Karma
+    F: "2017-02-03"
+    P: akraino
+    R: C
+  I:
+  - E: mbraasch!redventures.com
+    M: Markus Braasch
+    S: git
+  - M: Markus Braasch
+    S: github
+    U: mrksmb
+  B: 0
+  U: Markus Braasch
+- E: mbukowski!pivotal.io
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: mbukowski!pivotal.io
+    M: Markus Bukowski
+    S: git
+  B: 0
+  U: Markus Bukowski
+- E: markus!ebenhoeh.at
+  R:
+  - T: "2014-05-01"
+    C: Suncorp
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-06-01"
+    C: nbn
+    F: "2014-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-01"
+    C: Smart Sparrow
+    F: "2014-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-01"
+    C: Smart Sparrow
+    F: "2014-06-01"
+    P: jenkins
+    R: C
+  - T: "2017-03-01"
+    C: Commonwealth
+    F: "2017-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: TripAdvisor
+    F: "2017-03-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: markus!ebenhoeh.at
+    M: Markus Ebenhoeh
+    S: git
+  B: 0
+  U: Markus Ebenhoeh
+- E: markus.mnm!gmail.com
+  R:
+  - T: "2014-05-01"
+    C: Suncorp
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-06-01"
+    C: nbn
+    F: "2014-05-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-01"
+    C: Smart Sparrow
+    F: "2014-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-01-01"
+    C: Smart Sparrow
+    F: "2014-06-01"
+    P: jenkins
+    R: C
+  - T: "2017-03-01"
+    C: Commonwealth
+    F: "2017-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: TripAdvisor
+    F: "2017-03-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: markus.mnm!gmail.com
+    M: Markus Ebenhoeh
+    S: git
+  B: 0
+  U: Markus Ebenhoeh
+- E: markus!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: markus!google.com
+    M: Markus Gutschke
+    S: git
+  B: 0
+  U: Markus Gutschke
+- C: DE
+  E: markus1189!gmail.com
+  R:
+  - T: "2015-10-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: codecentric AG
+    F: "2015-10-01"
+    R: C
+  - T: "2100-01-01"
+    C: codecentric AG
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: markus1189!gmail.com
+    M: Markus Hauck
+    S: github
+    U: markus1189
+  B: 0
+  U: Markus Hauck
+- E: markus!tisoft.de
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: spdx
+    R: C
+  I:
+  - E: markus!tisoft.de
+    M: Markus Heberling
+    S: git
+  - E: markus!tisoft.de
+    M: Markus Heberling
+    S: github
+    U: tisoft
+  B: 0
+  U: Markus Heberling
+- E: markus.heberling!dxc.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: markus.heberling!dxc.com
+    M: Markus Heberling
+    S: git
+  B: 0
+  U: Markus Heberling
+- E: markus.heberling!hpe.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: markus.heberling!hpe.com
+    M: Markus Heberling
+    S: git
+  B: 0
+  U: Markus Heberling
+- E: markus.heiser!darmarIT.de
+  R:
+  - T: "2018-12-01"
+    C: Sennheiser
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2018-12-01"
+    C: Sennheiser
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2018-12-01"
+    C: Sennheiser
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2018-12-01"
+    C: Sennheiser
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-12-01"
+    C: Sennheiser
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2018-12-01"
+    C: Sennheiser
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2018-12-01"
+    C: Sennheiser
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Volkswagen
+    F: "2018-12-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: markus.heiser!darmarIT.de
+    M: Markus Heiser
+    S: git
+  B: 0
+  U: Markus Heiser
+- E: Markus.Hosch!bmw.de
+  R:
+  - T: "2005-08-31"
+    C: Siemens AG
+    F: "2004-02-29"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2006-08-31"
+    C: BenQ Mobile
+    F: "2005-09-30"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2010-06-30"
+    C: Miray Software AG
+    F: "2006-08-31"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: BMW
+    F: "2010-06-30"
+    P: lfn/tungsten-fabric
+    R: C
+  I:
+  - E: Markus.Hosch!bmw.de
+    M: Markus Hosch
+    S: git
+  B: 0
+  U: Markus Hosch
+- C: GB
+  R:
+  - T: "2006-01-01"
+    C: mobileX AG
+    F: "2003-01-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2100-01-01"
+    C: greenrobot
+    F: "2009-04-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: greenrobot
+    F: "2009-04-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2100-01-01"
+    C: ObjectBox
+    F: "2017-07-01"
+    P: lfedge/edgex-foundry
+    R: C
+  I:
+  - M: Markus Junginger
+    S: github
+    U: greenrobot
+  B: 0
+  U: Markus Junginger
+- E: markus.kullberg!nokia.com
+  R:
+  - T: "2018-02-20"
+    C: Nokia Corporation
+    F: "2015-06-30"
+    R: C
+  - T: "2018-02-20"
+    C: Nokia Corporation
+    F: "2015-06-30"
+    P: opnfv
+    R: C
+  I:
+  - E: markus.kullberg!nokia.com
+    M: Markus Kullberg
+    S: gerrit
+    U: kullmar
+  - E: markus.kullberg!nokia.com
+    M: Markus Kullberg
+    S: git
+  - E: markus.kullberg!nokia.com
+    M: Kullberg, Markus (Nokia - FI/Espoo)
+    S: groupsio
+  - M: Markus Kullberg
+    S: jira
+    U: kullmar
+  - E: markus.kullberg!nokia.com
+    M: Markus Kullberg
+    S: jira
+    U: kullmar
+  - E: markus.kullberg!nokia.com
+    M: Kullberg, Markus Nokia - FI/Espoo
+    S: linux-foundation:mls
+    U: markus.kullberg
+  - E: markus.kullberg!nokia.com
+    M: Kullberg, Markus Nokia - FI/Espoo
+    S: mbox
+  - E: markus.kullberg!nokia.com
+    M: Kullberg, Markus Nokia - FI/Espoo
+    S: pipermail
+  B: 0
+  U: Markus Kullberg
+- E: markus.kupke!sap.com
+  R:
+  - T: "2100-01-01"
+    C: SAP
+    F: "2017-09-21"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: markus.kupke!sap.com
+    M: Markus Kupke
+    S: slack
+    U: markus.kupke
+  B: 0
+  U: Markus Kupke
+- E: markus.lehtonen!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: markus.lehtonen!intel.com
+    M: Markus Lehtonen
+    S: git
+  B: 0
+  U: Markus Lehtonen
+- E: lippertmarkus!gmx.de
+  R:
+  - T: "2100-01-01"
+    C: Axians
+    F: "2017-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Axians
+    F: "2017-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: lippertmarkus!gmx.de
+    M: Markus Lippert
+    S: git
+  - E: lippertmarkus!gmx.de
+    M: lippertmarkus
+    S: git
+  - M: Markus Lippert
+    S: github
+    U: lippertmarkus
+  - E: markus9656!gmail.com
+    M: Markus Lippert
+    S: github
+    U: lippertmarkus
+  B: 0
+  U: Markus Lippert
+- C: SE
+  E: markus!maga.se
+  R:
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: telepresence
+    R: C
+  - T: "2016-12-01"
+    C: Tunstall AB
+    F: "2015-03-01"
+    R: C
+  - T: "2016-12-01"
+    C: Tunstall AB
+    F: "2015-03-01"
+    P: helm
+    R: C
+  - T: "2016-12-01"
+    C: Tunstall AB
+    F: "2015-03-01"
+    P: telepresence
+    R: C
+  - T: "2100-01-01"
+    C: jayway
+    F: "2016-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: jayway
+    F: "2016-12-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: jayway
+    F: "2016-12-01"
+    P: telepresence
+    R: C
+  S: male
+  I:
+  - E: markus!maga.se
+    M: Markus Maga
+    S: git
+  - E: markus!maga.se
+    M: Markus Maga
+    S: github
+    U: Flydiverny
+  - E: markus!maga.se
+    M: Markus Maga
+    S: slack
+    U: markus
+  B: 0
+  U: Markus Maga
+- E: markus!nadilus.com
+  R:
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-12-01"
+    C: Tunstall AB
+    F: "2015-03-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: jayway
+    F: "2016-12-01"
+    P: helm
+    R: C
+  I:
+  - E: markus!nadilus.com
+    M: Markus Maga
+    S: git
+  B: 0
+  U: Markus Maga
+- E: mmayer!broadcom.com
+  R:
+  - T: "2100-01-01"
+    C: Broadcom Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: mmayer!broadcom.com
+    M: Markus Mayer
+    S: git
+  B: 0
+  U: Markus Mayer
+- E: markus.menner!axxelia.com
+  R:
+  - T: "2011-05-01"
+    C: Beckman Coulter Inc.
+    F: "2003-08-01"
+    P: lfedge/edgex-foundry
+    R: C
+  I:
+  - E: markus.menner!axxelia.com
+    M: Markus Menner
+    S: slack
+    U: markus.menner
+  B: 0
+  U: Markus Menner
+- E: markus.t.metzger!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: markus.t.metzger!intel.com
+    M: Markus Metzger
+    S: git
+  B: 0
+  U: Markus Metzger
+- E: markus.moster!netapp.com
+  R:
+  - T: "2100-01-01"
+    C: NetApp, Inc.
+    F: "2017-05-18"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: markus.moster!netapp.com
+    M: Markus Moster
+    S: slack
+    U: mmarkus
+  B: 0
+  U: Markus Moster
+- E: markus.moster!suse.com
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2017-10-26"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: markus.moster!suse.com
+    M: Markus Moster
+    S: slack
+    U: markus.moster
+  - E: markus.moster!suse.com
+    M: Markus Moster
+    S: slack
+    U: mmoster
+  B: 0
+  U: Markus Moster
 - C: DE
   R:
   - T: "2015-05-01"
@@ -259,40 +1184,6 @@ P:
     S: git
   B: 0
   U: Markus Pargmann
-- E: markus!pullmann.one
-  R:
-  - T: "2100-01-01"
-    C: Pullmann - Internet Services
-    F: "2005-06-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: Pullmann - Internet Services
-    F: "2005-06-01"
-    P: ojsf-globalize
-    R: C
-  - T: "2009-03-01"
-    C: University of Cologne
-    F: "2007-10-01"
-    P: coredns
-    R: C
-  - T: "2013-03-01"
-    C: University of Cologne
-    F: "2009-04-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: Incs Intelligent Corporate Solutions GmbH
-    F: "2013-04-01"
-    P: coredns
-    R: C
-  I:
-  - E: markus!pullmann.one
-    M: Markus Pullmann
-    S: github
-    U: mackshot
-  B: 0
-  U: Markus Pullmann
 - E: markus.rechberger!amd.com
   R:
   - T: "2100-01-01"
@@ -50593,91 +51484,6 @@ P:
     S: git
   B: 0
   U: Maxime Fouilleul
-- C: BE
-  E: maxime.guyot!elits.com
-  R:
-  - T: "2017-01-01"
-    C: ELITS
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2017-01-01"
-    C: ELITS
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2017-01-01"
-    C: ELITS
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2017-01-01"
-    C: ELITS
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2017-01-01"
-    C: ELITS
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-01-01"
-    C: ELITS
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: ELITS
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: RootPi
-    F: "2017-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: RootPi
-    F: "2017-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: RootPi
-    F: "2017-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: RootPi
-    F: "2017-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: RootPi
-    F: "2017-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: RootPi
-    F: "2017-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: RootPi
-    F: "2017-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: maxime.guyot!elits.com
-    M: Maxime Guyot
-    S: git
-  - M: Maxime Guyot
-    S: github
-    U: Miouge1
-  - E: maxime.guyot!elits.com
-    M: Maxime G
-    S: slack
-    U: maxime.guyot
-  B: 0
-  U: Maxime G
 - C: CA
   R:
   - T: "2015-04-01"
@@ -50884,22 +51690,98 @@ P:
     U: PunKeel
   B: 0
   U: Maxime Guerreiro
-- E: maxime!root314.com
+- C: BE
+  E: maxime!root314.com
   R:
   - T: "2017-01-01"
     C: ELITS
     F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-01-01"
+    C: ELITS
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2017-01-01"
+    C: ELITS
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2017-01-01"
+    C: ELITS
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-01-01"
+    C: ELITS
+    F: "1900-01-01"
     P: k8s
+    R: C
+  - T: "2017-01-01"
+    C: ELITS
+    F: "1900-01-01"
+    P: rook
+    R: C
+  - T: "2100-01-01"
+    C: ELITS
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: RootPi
+    F: "2017-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: RootPi
+    F: "2017-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: RootPi
+    F: "2017-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: RootPi
+    F: "2017-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: RootPi
+    F: "2017-01-01"
+    P: helm
     R: C
   - T: "2100-01-01"
     C: RootPi
     F: "2017-01-01"
     P: k8s
     R: C
+  - T: "2100-01-01"
+    C: RootPi
+    F: "2017-01-01"
+    P: rook
+    R: C
+  S: male
   I:
   - E: maxime!root314.com
     M: Maxime Guyot
     S: git
+  - E: maxime.guyot!elits.com
+    M: Maxime Guyot
+    S: git
+  - E: miouge!gmail.com
+    M: Maxime Guyot
+    S: git
+  - E: miouge!gmail.com
+    M: Miouge1
+    S: git
+  - M: Maxime Guyot
+    S: github
+    U: Miouge1
+  - E: maxime.guyot!elits.com
+    M: Maxime G
+    S: slack
+    U: maxime.guyot
   B: 0
   U: Maxime Guyot
 - E: maxi.jourdan!wanadoo.fr
@@ -61469,969 +62351,3 @@ P:
     U: MichaelBrandt4994
   B: 0
   U: Michael Brandt
-- E: michael.bredel!cern.ch
-  R:
-  - T: "2100-01-01"
-    C: CERN
-    F: "2014-03-31"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: CERN
-    F: "2014-03-31"
-    P: odl
-    R: C
-  I:
-  - E: michael.bredel!cern.ch
-    M: Michael Bredel
-    S: gerrit
-    U: mbredel
-  - E: michael.bredel!cern.ch
-    M: Michael Bredel
-    S: git
-  - E: michael!bredel.at
-    M: Michael Bredel
-    S: pipermail
-  - E: michael.bredel!cern.ch
-    M: Michael Bredel
-    S: pipermail
-  B: 0
-  U: Michael Bredel
-- E: brenndo!de.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-03-09"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: brenndo!de.ibm.com
-    M: Michael Brenndoerfer
-    S: slack
-    U: michaelb
-  B: 0
-  U: Michael Brenndoerfer
-- E: michael!cloudify.co
-  R:
-  - T: "2100-01-01"
-    C: Cloudify
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cloudify
-    F: "1900-01-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: GigaSpaces
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: GigaSpaces
-    F: "1900-01-01"
-    P: onap
-    R: C
-  I:
-  - M: Michael Brenner
-    S: confluence
-    U: mrbrenner
-  - E: michael!cloudify.co
-    M: Michael Brenner
-    S: groupsio
-  - E: michael!gigaspaces.com
-    M: Michael Brenner
-    S: groupsio
-  - E: michael!cloudify.co
-    M: Michael Brenner
-    S: pipermail
-  - E: michael!gigaspaces.com
-    M: Michael Brenner
-    S: pipermail
-  B: 0
-  U: Michael Brenner
-- C: GB
-  E: mikeb!squaremobius.net
-  R:
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf/cni
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf/tremor
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cortex
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: intoto
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  - T: "2013-09-15"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: pnda
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: cncf/cni
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: cncf/tremor
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: cni
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: cortex
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: intoto
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Weaveworks
-    F: "2013-09-15"
-    P: pnda
-    R: C
-  S: male
-  I:
-  - E: mikeb!squaremobius.net
-    M: Michael Bridgen
-    S: git
-  - E: mikeb!squaremobius.net
-    M: Michael Bridgen
-    S: github
-    U: squaremo
-  B: 0
-  U: Michael Bridgen
-- C: US
-  E: mwb!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: mwb!linux.vnet.ibm.com
-    M: Michael Bringmann
-    S: git
-  B: 0
-  U: Michael Bringmann
-- C: CA
-  E: michael!netdirect.ca
-  R:
-  - T: "2014-04-08"
-    C: Net Direct, Inc.
-    F: "2014-04-01"
-    R: C
-  S: male
-  I:
-  - E: michael!netdirect.ca
-    M: Michael Brown
-    S: git
-  - E: michael!netdirect.ca
-    M: Michael Brown
-    S: git
-    U: Supermathie
-  - M: Michael Brown
-    S: oci_csv
-    U: Supermathie
-  B: 0
-  U: Michael Brown
-- E: mbudde!gmail.com
-  R:
-  - T: "2015-09-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-09-01"
-    C: PNN
-    F: "2015-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: EPAM Systems
-    F: "2017-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: EPAM Systems
-    F: "2017-09-01"
-    P: webpack
-    R: C
-  I:
-  - E: mbudde!gmail.com
-    M: Michael Budde
-    S: git
-  B: 0
-  U: Michael Budde
-- E: m!bues.ch
-  R:
-  - T: "2100-01-01"
-    C: Literacy Bridge
-    F: "1900-01-01"
-    P: acrn
-    R: C
-  - T: "2100-01-01"
-    C: Literacy Bridge
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Literacy Bridge
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: Literacy Bridge
-    F: "1900-01-01"
-    P: zep
-    R: C
-  I:
-  - E: m!bues.ch
-    M: Michael Buesch
-    S: git
-  B: 0
-  U: Michael Buesch
-- E: mburke!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: mburke!redhat.com
-    M: Michael Burke
-    S: git
-  - E: mburke!redhat.com
-    M: Michael Burke
-    S: github
-    U: mburke5678
-  B: 0
-  U: Michael Burke
-- C: FI
-  R:
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    R: C
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Michael Burman
-    S: github
-    U: burmanm
-  B: 0
-  U: Michael Burman
-- C: FI
-  E: yak!iki.fi
-  R:
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2014-06-01"
-    C: CGI
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-06-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: yak!iki.fi
-    M: Michael Burman
-    S: git
-  B: 0
-  U: Michael Burman
-- C: US
-  R:
-  - T: "2016-03-01"
-    C: RealtyMogul
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2016-03-01"
-    C: RealtyMogul
-    F: "1900-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2016-03-01"
-    C: RealtyMogul
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-03-01"
-    C: RealtyMogul
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-03-01"
-    C: RealtyMogul
-    F: "1900-01-01"
-    P: rook
-    R: C
-  - T: "2017-04-01"
-    C: Stratalux
-    F: "2016-03-01"
-    P: cncf/contour
-    R: C
-  - T: "2017-04-01"
-    C: Stratalux
-    F: "2016-03-01"
-    P: cncf/dex
-    R: C
-  - T: "2017-04-01"
-    C: Stratalux
-    F: "2016-03-01"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: Stratalux
-    F: "2016-03-01"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: Stratalux
-    F: "2016-03-01"
-    P: rook
-    R: C
-  - T: "2018-01-01"
-    C: Event Farm
-    F: "2017-04-01"
-    P: cncf/contour
-    R: C
-  - T: "2018-01-01"
-    C: Event Farm
-    F: "2017-04-01"
-    P: cncf/dex
-    R: C
-  - T: "2018-01-01"
-    C: Event Farm
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2018-01-01"
-    C: Event Farm
-    F: "2017-04-01"
-    P: jenkins
-    R: C
-  - T: "2018-01-01"
-    C: Event Farm
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  - T: "2018-01-01"
-    C: Event Farm
-    F: "2017-04-01"
-    P: rook
-    R: C
-  - T: "2100-01-01"
-    C: Cyndx
-    F: "2018-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: Cyndx
-    F: "2018-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: Cyndx
-    F: "2018-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Cyndx
-    F: "2018-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Cyndx
-    F: "2018-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - M: Michael Bushey
-    S: github
-    U: mabushey
-  B: 0
-  U: Michael Bushey
-- R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2019-08-21"
-    P: lfn-cntt
-    R: C
-  I:
-  - M: Michael Bustamente
-    S: confluence
-    U: MikeBustamente
-  B: 0
-  U: Michael Bustamente
-- E: m!bues.ch
-  R:
-  - T: "2100-01-01"
-    C: Literacy Bridge
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Literacy Bridge
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: m!bues.ch
-    M: Michael Büsch
-    S: git
-  B: 0
-  U: Michael Büsch
-- E: mbeck!pivotal.io
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2017-11-17"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mbeck!pivotal.io
-    M: Michael C. Beck
-    S: slack
-    U: mbeck
-  B: 0
-  U: Michael C. Beck
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - M: Michael C. Cambria
-    S: github
-    U: mccv1r0
-  B: 0
-  U: Michael C. Cambria
-- E: mcambria!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/cni
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cni
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  I:
-  - E: mcambria!redhat.com
-    M: Michael C. Cambria
-    S: git
-  - E: mcambria!redhat.com
-    M: Michael C. Cambria
-    S: github
-    U: mccv1r0
-  B: 0
-  U: Michael C. Cambria
-- C: US
-  E: michaelcallahan!fb.com
-  R:
-  - T: "2100-01-01"
-    C: Facebook, Inc.
-    F: "1900-01-01"
-    R: C
-  S: male
-  I:
-  - E: michaelcallahan!fb.com
-    M: Michael Callahan
-    S: git
-  B: 0
-  U: Michael Callahan
-- E: michael.calunod!oracle.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: michael.calunod!oracle.com
-    M: Michael Calunod
-    S: git
-  B: 0
-  U: Michael Calunod
-- C: US
-  E: mcambria!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/cni
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: container-networking-interface
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  S: male
-  I:
-  - E: mcambria!redhat.com
-    M: Michael Cambria
-    S: git
-  B: 0
-  U: Michael Cambria
-- E: michael.campbell1!emc.com
-  R:
-  - T: "2100-01-01"
-    C: EMC
-    F: "2016-03-22"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: michael.campbell1!emc.com
-    M: Michael Campbell
-    S: slack
-    U: michael.campbell
-  B: 0
-  U: Michael Campbell
-- E: michael.canann!ge.com
-  R:
-  - T: "2100-01-01"
-    C: General Electric
-    F: "2016-05-03"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: michael.canann!ge.com
-    M: Michael Canann
-    S: slack
-    U: mikecanann
-  B: 0
-  U: Michael Canann
-- E: miccerva!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: miccerva!cisco.com
-    M: Michael Cervantes
-    S: github
-    U: emcee21
-  B: 0
-  U: Michael Cervantes
-- E: mchan!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: mchan!broadcom.com
-    M: Michael Chan
-    S: git
-  B: 0
-  U: Michael Chan
-- E: michael.chan!broadcom.com
-  R:
-  - T: "2100-01-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: michael.chan!broadcom.com
-    M: Michael Chan
-    S: git
-  B: 0
-  U: Michael Chan
-- C: AU
-  E: michapma!redhat.com
-  R:
-  - T: "2019-06-04"
-    C: Red Hat Inc.
-    F: "2015-12-04"
-    R: C
-  - T: "2019-06-04"
-    C: Red Hat Inc.
-    F: "2015-12-04"
-    P: opnfv
-    R: C
-  I:
-  - M: Michael Chapman
-    S: confluence
-    U: michapma
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: gerrit
-    U: michapma
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: git
-  - E: woppin!gmail.com
-    M: Michael Chapman
-    S: git
-  - E: woppin!gmail.com
-    M: Michael Chapman
-    S: github
-    U: michaeltchapman
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: gmane
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: groupsio
-  - M: Michael Chapman
-    S: jira
-    U: michapma
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: jira
-    U: michapma
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: linux-foundation:mls
-    U: michapma
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: linux-foundation:scm
-  - E: woppin!gmail.com
-    M: Michael Chapman
-    S: linux-foundation:scm
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: linux-foundation:scr
-    U: michapma
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: mbox
-  - E: michapma!redhat.com
-    M: Michael Chapman
-    S: pipermail
-  B: 0
-  U: Michael Chapman
-- E: bratac!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-08-14"
-    C: IBM
-    F: "2015-04-01"
-    R: C
-  S: male
-  I:
-  - E: bratac!linux.vnet.ibm.com
-    M: Michael Chase-Salerno
-    S: git
-  - E: bratac!linux.vnet.ibm.com
-    M: Michael Chase-Salerno
-    S: git
-    U: mchasal
-  - E: mcs!chasal.net
-    M: Michael Chase-Salerno
-    S: git
-  - E: mcs!chasal.net
-    M: Michael Chase-Salerno
-    S: git
-    U: mchasal
-  - E: bratac!linux.vnet.ibm.com
-    M: Michael Chase-Salerno
-    S: oci_csv
-    U: mchasal
-  B: 0
-  U: Michael Chase-Salerno
-- R:
-  - T: "2014-07-01"
-    C: Amazon
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-11-01"
-    C: Porch
-    F: "2014-07-01"
-    P: k8s
-    R: C
-  - T: "2016-06-01"
-    C: Independent
-    F: "2015-11-01"
-    P: k8s
-    R: C
-  - T: "2017-11-01"
-    C: Tableau
-    F: "2016-06-01"
-    P: k8s
-    R: C
-  - T: "2020-04-01"
-    C: Rover
-    F: "2017-11-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Stripe
-    F: "2020-04-01"
-    P: k8s
-    R: C
-  I:
-  - M: Michael Chaten
-    S: github
-    U: chaten
-  B: 0
-  U: Michael Chaten
-- R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Michael Chen
-    S: github
-    U: mychen66
-  B: 0
-  U: Michael Chen
-- E: michaelchen!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2017-10-04"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  S: male
-  I:
-  - E: michaelchen!vmware.com
-    M: Michael Chen
-    S: git
-  - E: michaelchen!vmware.com
-    M: Michael Chen
-    S: slack
-    U: michaelchen
-  B: 0
-  U: Michael Chen
