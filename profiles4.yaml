@@ -1,4 +1,151 @@
 P:
+- R:
+  - T: "2017-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2017-07-01"
+    C: ARaymond Network
+    F: "2017-06-01"
+    P: argo
+    R: C
+  - T: "2017-07-01"
+    C: ARaymond Network
+    F: "2017-06-01"
+    P: helm
+    R: C
+  - T: "2017-07-01"
+    C: ARaymond Network
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2017-07-01"
+    C: ARaymond Network
+    F: "2017-06-01"
+    P: prometheus
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "2017-07-01"
+    P: argo
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "2017-07-01"
+    P: helm
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "2017-07-01"
+    P: k8s
+    R: C
+  - T: "2018-06-01"
+    C: Independent
+    F: "2017-07-01"
+    P: prometheus
+    R: C
+  - T: "2018-07-01"
+    C: Firebnb
+    F: "2018-06-01"
+    P: argo
+    R: C
+  - T: "2018-07-01"
+    C: Firebnb
+    F: "2018-06-01"
+    P: helm
+    R: C
+  - T: "2018-07-01"
+    C: Firebnb
+    F: "2018-06-01"
+    P: k8s
+    R: C
+  - T: "2018-07-01"
+    C: Firebnb
+    F: "2018-06-01"
+    P: prometheus
+    R: C
+  - T: "2019-09-01"
+    C: Independent
+    F: "2018-07-01"
+    P: argo
+    R: C
+  - T: "2019-09-01"
+    C: Independent
+    F: "2018-07-01"
+    P: helm
+    R: C
+  - T: "2019-09-01"
+    C: Independent
+    F: "2018-07-01"
+    P: k8s
+    R: C
+  - T: "2019-09-01"
+    C: Independent
+    F: "2018-07-01"
+    P: prometheus
+    R: C
+  - T: "2020-01-01"
+    C: Objectif Libre
+    F: "2019-09-01"
+    P: argo
+    R: C
+  - T: "2020-01-01"
+    C: Objectif Libre
+    F: "2019-09-01"
+    P: helm
+    R: C
+  - T: "2020-01-01"
+    C: Objectif Libre
+    F: "2019-09-01"
+    P: k8s
+    R: C
+  - T: "2020-01-01"
+    C: Objectif Libre
+    F: "2019-09-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: 'EPITA:'
+    F: "2020-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: 'EPITA:'
+    F: "2020-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: 'EPITA:'
+    F: "2020-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: 'EPITA:'
+    F: "2020-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: Arthur Outhenin-Chalandre
+    S: github
+    U: MrFreezeex
+  B: 0
+  U: Arthur Outhenin-Chalandre
 - E: arthur.schreiber!hp.com
   R:
   - T: "2100-01-01"
@@ -37746,6 +37893,11 @@ P:
     F: "2018-03-01"
     P: cncf/shared
     R: C
+  - T: "2100-01-01"
+    C: Tangram Flex
+    F: "2018-03-01"
+    P: laminas
+    R: C
   I:
   - E: ben!benramsey.com
     M: Ben Ramsey
@@ -56277,6 +56429,11 @@ P:
     C: NCR
     F: "2018-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: NCR
+    F: "2018-01-01"
+    P: riscv/instruction-set-manual
     R: C
   - T: "2100-01-01"
     C: NCR

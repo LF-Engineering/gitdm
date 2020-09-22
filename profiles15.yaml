@@ -1,40 +1,4 @@
 P:
-- E: jwi!linux.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: jwi!linux.ibm.com
-    M: Julian Wiedmann
-    S: git
-  B: 0
-  U: Julian Wiedmann
-- E: jwi!linux.vnet.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: jwi!linux.vnet.ibm.com
-    M: Julian Wiedmann
-    S: git
-  B: 0
-  U: Julian Wiedmann
 - R:
   - T: "2014-12-01"
     C: cron
@@ -13937,6 +13901,11 @@ P:
   - T: "2100-01-01"
     C: Collective[i]
     F: "1900-01-01"
+    P: laminas
+    R: C
+  - T: "2100-01-01"
+    C: Collective[i]
+    F: "1900-01-01"
     P: ojsf-moment
     R: C
   I:
@@ -17412,6 +17381,11 @@ P:
     C: Andes Technology
     F: "2016-12-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Andes Technology
+    F: "2016-12-01"
+    P: riscv/vector-extension
     R: C
   I:
   - E: kai.wang!sifive.com
@@ -62694,3 +62668,77 @@ P:
     S: git
   B: 0
   U: Konrad Zapałowicz
+- E: konstantin.ananyev!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-01-13"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-01-13"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-01-13"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-01-13"
+    P: dpdk
+    R: C
+  - T: "2019-04-24"
+    C: Intel Corporation
+    F: "2014-05-06"
+    P: dpdk-draft
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2014-05-06"
+    P: dpdk-next
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2016-03-23"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2017-09-22"
+    P: dpdk-tools
+    R: C
+  I:
+  - M: Konstantin Ananyev
+    S: bugzilla
+    U: konstantin.ananyev
+  - M: Konstantin Ananyev
+    S: bugzillarest
+    U: konstantin.ananyev
+  - E: konstantin.ananyev!intel.com
+    M: Konstantin Ananyev
+    S: gerrit
+    U: konstantin_ananyev
+  - E: konstantin.ananyev!intel.com
+    M: Konstantin Ananyev
+    S: git
+  - E: konstantin.ananyev!intel.com
+    M: Ananyev, Konstantin
+    S: groupsio
+  - E: konstantin.ananyev!intel.com
+    M: Konstantin Ananyev
+    S: groupsio
+  - E: konstantin.ananyev!intel.com
+    M: Konstantin Ananyev
+    S: jira
+    U: konstantin_ananyev
+  - E: konstantin.ananyev!intel.com
+    M: Ananyev, Konstantin
+    S: pipermail
+  - E: konstantin.ananyev!intel.com
+    M: Konstantin Ananyev
+    S: pipermail
+  B: 0
+  U: Konstantin Ananyev

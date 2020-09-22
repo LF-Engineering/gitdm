@@ -1,5 +1,32 @@
 P:
 - C: CN
+  R:
+  - T: "2017-04-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2017-04-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: PingCAP
+    F: "2017-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: PingCAP
+    F: "2017-04-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - M: Wenxuan
+    S: github
+    U: breeswish
+  B: 0
+  U: Wenxuan
+- C: CN
   E: breezewish!pingcap.com
   R:
   - T: "2017-04-01"
@@ -33810,6 +33837,11 @@ P:
     F: "2019-06-01"
     P: thanos
     R: C
+  - T: "2020-05-01"
+    C: Google
+    F: "2019-06-01"
+    P: zowe
+    R: C
   - T: "2100-01-01"
     C: CNCF
     F: "2020-05-01"
@@ -62381,50 +62413,3 @@ P:
     U: seils
   B: 0
   U: Zach Seils
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Zach Shepherd
-    S: github
-    U: zjs
-  B: 0
-  U: Zach Shepherd
-- C: US
-  E: shepherdz!vmware.com
-  R:
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: shepherdz!vmware.com
-    M: Zach Shepherd
-    S: git
-  B: 0
-  U: Zach Shepherd

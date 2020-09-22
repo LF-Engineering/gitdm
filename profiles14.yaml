@@ -61668,7 +61668,13 @@ P:
   B: 0
   U: Julian Mazzitelli
 - C: CH
+  E: julian!oes.ch
   R:
+  - T: "2014-12-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
   - T: "2014-12-01"
     C: Independent
     F: "1900-01-01"
@@ -61687,6 +61693,11 @@ P:
   - T: "2015-12-01"
     C: Amazon
     F: "2014-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-12-01"
+    C: Amazon
+    F: "2014-12-01"
     P: dronecode
     R: C
   - T: "2015-12-01"
@@ -61697,6 +61708,11 @@ P:
   - T: "2016-08-01"
     C: 3D Robotics
     F: "2015-12-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-08-01"
+    C: 3D Robotics
+    F: "2015-12-01"
     P: dronecode
     R: C
   - T: "2016-08-01"
@@ -61707,6 +61723,11 @@ P:
   - T: "2017-02-01"
     C: Yuneec International
     F: "2016-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-02-01"
+    C: Yuneec International
+    F: "2016-08-01"
     P: dronecode
     R: C
   - T: "2017-02-01"
@@ -61717,12 +61738,22 @@ P:
   - T: "2018-09-01"
     C: Yuneec Software
     F: "2017-02-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-09-01"
+    C: Yuneec Software
+    F: "2017-02-01"
     P: dronecode
     R: C
   - T: "2018-09-01"
     C: Yuneec Software
     F: "2017-02-01"
     P: grpc
+    R: C
+  - T: "2019-01-01"
+    C: Independent
+    F: "2018-09-01"
+    P: cncf/shared
     R: C
   - T: "2019-01-01"
     C: Independent
@@ -61737,7 +61768,7 @@ P:
   - T: "2100-01-01"
     C: Auterion
     F: "2019-01-01"
-    P: dronecode
+    P: cncf/shared
     R: C
   - T: "2100-01-01"
     C: Auterion
@@ -61746,73 +61777,18 @@ P:
     R: C
   S: male
   I:
-  - M: Julian Oes
-    S: github
-    U: julianoes
-  B: 0
-  U: Julian Oes
-- E: joes!student.ethz.ch
-  R:
-  - T: "2013-06-17"
-    C: Auterion
-    F: "2012-09-19"
-    P: dronecode
-    R: C
-  I:
   - E: joes!student.ethz.ch
     M: Julian Oes
     S: git
-  B: 0
-  U: Julian Oes
-- E: julian!oes.ch
-  R:
-  - T: "2014-12-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Auterion
-    F: "2013-01-12"
-    P: dronecode
-    R: C
-  - T: "2015-12-01"
-    C: Amazon
-    F: "2014-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-08-01"
-    C: 3D Robotics
-    F: "2015-12-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-02-01"
-    C: Yuneec International
-    F: "2016-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-09-01"
-    C: Yuneec Software
-    F: "2017-02-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Auterion
-    F: "2019-01-01"
-    P: cncf/shared
-    R: C
-  I:
   - E: julian!oes.ch
     M: Julian Oes
     S: git
   - E: julian!oes.ch
     M: julianoes
     S: git
+  - M: Julian Oes
+    S: github
+    U: julianoes
   - E: julian!oes.ch
     M: Julian Oes
     S: slack
@@ -62386,3 +62362,39 @@ P:
     S: git
   B: 0
   U: Julian V. Modesto
+- E: jwi!linux.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: jwi!linux.ibm.com
+    M: Julian Wiedmann
+    S: git
+  B: 0
+  U: Julian Wiedmann
+- E: jwi!linux.vnet.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: jwi!linux.vnet.ibm.com
+    M: Julian Wiedmann
+    S: git
+  B: 0
+  U: Julian Wiedmann
