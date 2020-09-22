@@ -1,4 +1,22 @@
 P:
+- E: phosek!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: phosek!google.com
+    M: Petr Hosek
+    S: git
+  B: 0
+  U: Petr Hosek
 - E: t-pehous!microsoft.com
   R:
   - T: "2018-09-11"
@@ -61251,37 +61269,3 @@ P:
     S: git
   B: 0
   U: RaphaelC
-- C: FR
-  E: raphb.bis!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: NotFond
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: NotFond
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: NotFond
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: NotFond
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: raphb.bis!gmail.com
-    M: Raphaël B
-    S: git
-  - E: raphb.bis!gmail.com
-    M: Raphaël B
-    S: github
-    U: tux-00
-  B: 0
-  U: Raphaël B
