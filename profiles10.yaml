@@ -1,4 +1,670 @@
 P:
+- E: filip.burlacu!securekey.com
+  R:
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2019-08-21"
+    P: aries
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2019-09-03"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2019-09-03"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: SecureKey Technologies Inc
+    F: "2019-09-03"
+    P: hyperledger/shared
+    R: C
+  I:
+  - M: Filip Burlacu
+    S: confluence
+    U: filip.burlacu
+  - E: filip.burlacu!securekey.com
+    M: Filip Burlacu
+    S: confluence
+    U: filip.burlacu
+  - E: filip.burlacu!securekey.com
+    M: Filip Burlacu
+    S: git
+  - M: Filip Burlacu
+    S: github
+    U: Moopli
+  B: 0
+  U: Filip Burlacu
+- R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: tuf
+    R: C
+  S: male
+  I:
+  - M: Filip Filmar
+    S: github
+    U: filmil
+  B: 0
+  U: Filip Filmar
+- E: fmil!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-05-03"
+    C: Google
+    F: "2018-02-22"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: fmil!google.com
+    M: Filip Filmar
+    S: git
+  B: 0
+  U: Filip Filmar
+- C: PL
+  R:
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Nomagic
+    F: "2018-09-01"
+    R: C
+  - T: "2100-01-01"
+    C: Nomagic
+    F: "2018-09-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: Nomagic
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Nomagic
+    F: "2018-09-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Filip Grzadkowski
+    S: github
+    U: fgrzadkowski
+  B: 0
+  U: Filip Grzadkowski
+- C: PL
+  E: filipg!google.com
+  R:
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-09-01"
+    C: Google
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Nomagic
+    F: "2018-09-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Nomagic
+    F: "2018-09-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Nomagic
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Nomagic
+    F: "2018-09-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - E: filipg!google.com
+    M: Filip Grzadkowski
+    S: git
+  B: 0
+  U: Filip Grzadkowski
+- R:
+  - T: "2013-11-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "2013-11-02"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: fhanik!pivotal.io
+    S: cloudfoundry:manual
+  - M: Filip Hanik
+    S: cloudfoundry:manual
+  - M: Filip Hanik
+    S: git
+  - E: fhanik!gopivotal.com
+    M: Filip Hanik
+    S: git
+  - E: fhanik!pivotal.io
+    M: Filip Hanik
+    S: git
+  - E: fhanik!vmware.com
+    M: Filip Hanik
+    S: git
+  - E: fhanik!pivotal.io
+    M: fhanik
+    S: git
+  - S: github
+    U: fhanik
+  - M: Filip Hanik
+    S: github
+    U: fhanik
+  - E: fhanik!pivotal.io
+    M: Filip Hanik
+    S: groupsio
+  - E: fhanik!pivotal.io
+    M: Filip Hanik
+    S: mbox
+  - E: fhanik!pivotal.io
+    M: Filip Hanik
+    S: slack
+    U: fhanik
+  B: 0
+  U: Filip Hanik
+- E: filip.hofer!atos.net
+  R:
+  - T: "2100-01-01"
+    C: Atos Integration
+    F: "2017-02-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: filip.hofer!atos.net
+    M: Filip Höfer
+    S: slack
+    U: fhofer
+  B: 0
+  U: Filip Höfer
+- R:
+  - T: "2014-09-01"
+    C: APIS IT
+    F: "1900-01-01"
+    P: strimzi
+    R: C
+  - T: "2015-03-01"
+    C: CROZ
+    F: "2014-09-01"
+    P: strimzi
+    R: C
+  - T: "2015-07-01"
+    C: Independent
+    F: "2015-03-01"
+    P: strimzi
+    R: C
+  - T: "2100-01-01"
+    C: APIS IT
+    F: "2015-07-01"
+    P: strimzi
+    R: C
+  I:
+  - M: Filip Kaić
+    S: github
+    U: Dec-
+  B: 0
+  U: Filip Kaić
+- C: PL
+  E: fkokosinski!internships.antmicro.com
+  R:
+  - T: "2018-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Antmicro
+    F: "2018-07-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Antmicro
+    F: "2018-07-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: fkokosinski!internships.antmicro.com
+    M: Filip Kokosinski
+    S: git
+  B: 0
+  U: Filip Kokosinski
+- E: filip.kokosinski!gmail.com
+  R:
+  - T: "2018-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: intoto
+    R: C
+  - T: "2100-01-01"
+    C: Antmicro
+    F: "2018-07-01"
+    P: intoto
+    R: C
+  I:
+  - E: filip.kokosinski!gmail.com
+    M: Filip Kokosiński
+    S: git
+  B: 0
+  U: Filip Kokosiński
+- E: suomiy!gmail.com
+  R:
+  - T: "2015-10-01"
+    C: InQool
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-10-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: suomiy!gmail.com
+    M: Filip Krepinsky
+    S: git
+  B: 0
+  U: Filip Krepinsky
+- E: filip.krestan!oracle.com
+  R:
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: filip.krestan!oracle.com
+    M: Filip Krestan
+    S: git
+  B: 0
+  U: Filip Krestan
+- E: filip.krzywka!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2018-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "2018-04-01"
+    P: onap
+    R: C
+  I:
+  - M: Filip Krzywka
+    S: confluence
+    U: fkrzywka
+  - E: filip.krzywka!nokia.com
+    M: Filip Krzywka
+    S: gerrit
+    U: fkrzywka
+  - E: filip.krzywka!nokia.com
+    M: Filip Krzywka
+    S: git
+  - E: filip.krzywka!nokia.com
+    M: fkrzywka
+    S: git
+  - M: Filip Krzywka
+    S: jira
+    U: fkrzywka
+  - E: filip.krzywka!nokia.com
+    M: Filip Krzywka
+    S: jira
+    U: fkrzywka
+  B: 0
+  U: Filip Krzywka
+- C: PL
+  R:
+  - T: "2015-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2016-08-01"
+    C: Delphi
+    F: "2015-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-08-01"
+    C: Delphi
+    F: "2015-01-01"
+    P: zep
+    R: C
+  - T: "2017-03-01"
+    C: Independent
+    F: "2016-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-03-01"
+    C: Independent
+    F: "2016-08-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2017-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2017-03-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - M: Filip Kubicz
+    S: github
+    U: Qbicz
+  B: 0
+  U: Filip Kubicz
+- C: PL
+  E: filip.kubicz!nordicsemi.no
+  R:
+  - T: "2015-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2016-08-01"
+    C: Delphi
+    F: "2015-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-08-01"
+    C: Delphi
+    F: "2015-01-01"
+    P: zep
+    R: C
+  - T: "2017-03-01"
+    C: Independent
+    F: "2016-08-01"
+    P: cncf/shared
+    R: C
+  - T: "2017-03-01"
+    C: Independent
+    F: "2016-08-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2017-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Nordic Semiconductor ASA
+    F: "2017-03-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: filip.kubicz!nordicsemi.no
+    M: Filip Kubicz
+    S: git
+  - E: filip.kubicz!nordicsemi.no
+    M: Filip Kubicz
+    S: slack
+    U: filip.kubicz
+  B: 0
+  U: Filip Kubicz
+- R:
+  - T: "2015-10-01"
+    C: InQool
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-10-01"
+    P: kubevirt
+    R: C
+  I:
+  - M: Filip Křepinský
+    S: github
+    U: suomiy
+  B: 0
+  U: Filip Křepinský
+- E: filip.matusiak!tieto.com
+  R:
+  - T: "2100-01-01"
+    C: Tieto
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: filip.matusiak!tieto.com
+    M: Filip Matusiak
+    S: git
+  B: 0
+  U: Filip Matusiak
+- C: CZ
+  E: filip.navara!gmail.com
+  R:
+  - T: "2014-06-01"
+    C: eM Client
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2014-06-01"
+    C: eM Client
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2014-06-01"
+    C: eM Client
+    F: "1900-01-01"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Clean Factory
+    F: "2014-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Clean Factory
+    F: "2014-06-01"
+    P: zep
+    R: C
+  S: male
+  I:
+  - E: filip.navara!gmail.com
+    M: Filip Navara
+    S: git
+  B: 0
+  U: Filip Navara
+- C: PL
+  E: filip.ochnik!gmail.com
+  R:
+  - T: "2014-06-01"
+    C: Astrafox
+    F: "1900-01-01"
+    R: C
+  - T: "2014-06-01"
+    C: Astrafox
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2015-04-01"
+    C: WebInterpret
+    F: "2014-06-01"
+    R: C
+  - T: "2015-04-01"
+    C: WebInterpret
+    F: "2014-06-01"
+    P: prometheus
+    R: C
+  - T: "2016-05-01"
+    C: YouGov Signal
+    F: "2015-04-01"
+    R: C
+  - T: "2016-05-01"
+    C: YouGov Signal
+    F: "2015-04-01"
+    P: prometheus
+    R: C
+  - T: "2018-04-01"
+    C: Growbots
+    F: "2016-05-01"
+    R: C
+  - T: "2018-04-01"
+    C: Growbots
+    F: "2016-05-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Sumo Logic
+    F: "2018-04-01"
+    R: C
+  - T: "2100-01-01"
+    C: Sumo Logic
+    F: "2018-04-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - E: filip.ochnik!gmail.com
+    M: Filip Ochnik
+    S: git
+  - E: filip.ochnik!gmail.com
+    M: Filip Ochnik
+    S: github
+    U: filipochnik
+  B: 0
+  U: Filip Ochnik
+- E: filip.petkovsky!gmail.com
+  R:
+  - T: "2014-10-01"
+    C: IN2 Group
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2017-09-01"
+    C: Continion
+    F: "2014-10-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2019-02-01"
+    C: Personio
+    F: "2017-09-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2019-05-01"
+    C: Scout24 AG
+    F: "2019-02-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2019-08-01"
+    C: Independent
+    F: "2019-05-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Personio
+    F: "2019-08-01"
+    P: cncf/operatorframework
+    R: C
+  I:
+  - E: filip.petkovsky!gmail.com
+    M: Filip Petkovski
+    S: github
+    U: fpetkovski
+  B: 0
+  U: Filip Petkovski
 - C: CZ
   E: filip!pytloun.cz
   R:
@@ -3359,17 +4025,17 @@ P:
   U: Florian Achermann
 - R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2017-04-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2017-04-01"
     P: cri-o
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2017-04-01"
     P: k8s
     R: C
@@ -3408,7 +4074,7 @@ P:
     P: cncf/keptn
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2018-11-01"
     P: cncf/keptn
     R: C
@@ -5652,16 +6318,6 @@ P:
   - T: "2100-01-01"
     C: Cisco Systems Inc.
     F: "2014-07-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2014-07-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "2014-07-01"
     P: fdio
     R: C
   I:
@@ -5703,6 +6359,12 @@ P:
     S: groupsio
   - E: fcoras.lists!gmail.com
     M: Florin Coras
+    S: groupsio
+  - E: florin.coras!gmail.com
+    M: Florin Coras
+    S: groupsio
+  - E: florin.coras!gmail.com
+    M: florin.coras
     S: groupsio
   - E: fcoras!cisco.com
     M: Florin Coras
@@ -7370,6 +8032,28 @@ P:
     S: pipermail
   B: 0
   U: Francesco Del Degan
+- E: fgiudici!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-01-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2016-01-01"
+    P: danos
+    R: C
+  I:
+  - E: fgiudici!redhat.com
+    M: Francesco Giudici
+    S: git
+  - E: fgiudici!redhat.com
+    M: Francesco Giudici
+    S: github
+    U: fgiudici
+  B: 0
+  U: Francesco Giudici
 - C: CI
   R:
   - T: "2015-10-15"
@@ -8398,12 +9082,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: jenkins
     R: C
@@ -8511,12 +9195,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: jenkins
     R: C
@@ -8575,12 +9259,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: jenkins
     R: C
@@ -8598,12 +9282,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: jenkins
     R: C
@@ -8620,12 +9304,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: jenkins
     R: C
@@ -10139,6 +10823,11 @@ P:
   - T: "2100-01-01"
     C: ColeSoft Marketing, Inc
     F: "1998-10-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: ColeSoft Marketing, Inc
+    F: "1998-10-01"
     P: zowe
     R: C
   I:
@@ -10474,6 +11163,26 @@ P:
     S: git
   B: 0
   U: Frank He
+- E: f.kloeker!telekom.de
+  R:
+  - T: "2100-01-01"
+    C: Deutsche Telekom
+    F: "2012-08-01"
+    P: k8s
+    R: C
+  I:
+  - E: eumel!arcor.de
+    M: Frank Kloeker
+    S: git
+  - E: f.kloeker!telekom.de
+    M: Frank Kloeker
+    S: git
+  - E: eumel!arcor.de
+    M: Frank Kloeker
+    S: github
+    U: eumel8
+  B: 0
+  U: Frank Kloeker
 - R:
   - T: "2016-04-02"
     C: Pivotal
@@ -11536,6 +12245,11 @@ P:
   - T: "2019-06-06"
     C: Red Hat Inc.
     F: "2015-03-19"
+    P: akraino
+    R: C
+  - T: "2019-06-06"
+    C: Red Hat Inc.
+    F: "2015-03-19"
     P: dpdk
     R: C
   - T: "2019-06-06"
@@ -11579,6 +12293,9 @@ P:
   - E: fzdarsky!redhat.com
     M: Frank Zdarsky
     S: gmane
+  - E: fzdarsky!redhat.com
+    M: Frank A. Zdarsky
+    S: groupsio
   - E: fzdarsky!redhat.com
     M: Frank Zdarsky
     S: groupsio
@@ -18586,6 +19303,11 @@ P:
     F: "2020-03-23"
     P: opx
     R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2020-03-23"
+    P: pnda
+    R: C
   I:
   - E: ji5690!att.com
     M: GU, JAMES
@@ -21247,7 +21969,7 @@ P:
   U: Gabriel Paubert
 - R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: cncf/keptn
     R: C
@@ -21772,12 +22494,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2018-08-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cncf/shared
     R: C
   - T: "2018-08-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: jenkins
     R: C
@@ -21810,12 +22532,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2018-08-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cncf/shared
     R: C
   - T: "2018-08-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: jenkins
     R: C
@@ -26180,22 +26902,22 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: jenkins
     R: C
@@ -26257,22 +26979,22 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: jenkins
     R: C
@@ -26327,22 +27049,22 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-06-01"
     P: jenkins
     R: C
@@ -26627,6 +27349,9 @@ P:
     M: Gareth Rushgrove
     S: github
     U: garethr
+  - E: gareth!morethanseven.net
+    M: Gareth Rushgrove
+    S: groupsio
   B: 0
   U: Gareth Rushgrove
 - C: GB
@@ -32034,11 +32759,11 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: cncf/shared
     R: C
@@ -32068,7 +32793,7 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: cncf/shared
     R: C
@@ -32112,22 +32837,22 @@ P:
     P: pnda
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: jenkins
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: nats
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: pnda
     R: C
@@ -32170,16 +32895,16 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: k8s
     R: C
@@ -32207,12 +32932,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: jenkins
     R: C
@@ -32459,12 +33184,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: StackStorm
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-10-01"
     P: cncf/shared
     R: C
@@ -32841,6 +33566,33 @@ P:
     U: gazialankus
   B: 0
   U: Gazihan Alankus
+- R:
+  - T: "2013-03-01"
+    C: Laureate International Universities
+    F: "2010-10-01"
+    P: argo
+    R: C
+  - T: "2016-03-01"
+    C: InVivoLink
+    F: "2013-04-01"
+    P: argo
+    R: C
+  - T: "2018-07-01"
+    C: Acklen Avenue
+    F: "2016-04-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Booking.com
+    F: "2018-09-01"
+    P: argo
+    R: C
+  I:
+  - M: Gazy Mahomar
+    S: github
+    U: gmahomarf
+  B: 0
+  U: Gazy Mahomar
 - E: gael.portay!savoirfairelinux.com
   R:
   - T: "2018-06-17"
@@ -35502,11 +36254,6 @@ P:
   - T: "2100-01-01"
     C: Ericsson AB
     F: "2018-02-28"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "2018-02-28"
     P: lfn-cntt
     R: C
   - T: "2100-01-01"
@@ -35541,6 +36288,9 @@ P:
     M: Georg Kunz
     S: gerrit
     U: georgkunz
+  - E: georg.kunz!est.tech
+    M: Georg Kunz
+    S: gerrit
   - E: georg.kunz!est.tech
     M: Georg Kunz
     S: gerrit
@@ -39170,11 +39920,11 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2015-09-01"
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2015-09-01"
     P: cncf/shared
     R: C
@@ -39197,11 +39947,11 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2015-09-01"
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2015-09-01"
     P: k8s
     R: C
@@ -40901,6 +41651,38 @@ P:
     S: git
   B: 0
   U: Gergo Tolnai
+- E: g.dinhof!ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2011-07-01"
+    P: fabric
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2011-07-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "2011-07-01"
+    P: hyperledger/shared
+    R: C
+  I:
+  - M: Gerhard Dinhof
+    S: confluence
+    U: geahaad
+  - E: g.dinhof!ibm.com
+    M: Gerhard Dinhof
+    S: groupsio
+  - M: Gerhard Dinhof
+    S: jira
+    U: geahaad
+  - M: Gerhard Dinhof
+    S: meetup
+    U: "38282302"
+  B: 0
+  U: Gerhard Dinhof
 - E: gerhard!heift.name
   R:
   - T: "2017-02-01"
@@ -41035,17 +41817,17 @@ P:
 - E: deb2001-github!yahoo.de
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: ojsf-mocha
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: ojsf-nodejs
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentelemetry
     R: C
@@ -41580,6 +42362,9 @@ P:
     M: Gerred Dillon
     S: github
     U: gerred
+  - E: gerred!hey.com
+    M: Gerred Dillon
+    S: groupsio
   B: 0
   U: Gerred Dillon
 - E: gerred!users.noreply.github.com
@@ -41670,6 +42455,9 @@ P:
     M: Gerred Dillon
     S: github
     U: gerred
+  - E: hello!gerred.org
+    M: Gerred Dillon
+    S: groupsio
   B: 0
   U: Gerred Dillon
 - E: gerrit!onap.org
@@ -42747,11 +43535,6 @@ P:
 - C: ES
   E: ghe.rivero!gmail.com
   R:
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: baetyl
-    R: C
   - T: "2017-09-01"
     C: Hewlett
     F: "1900-01-01"
@@ -42789,7 +43572,7 @@ P:
     R: C
   - T: "2100-01-01"
     C: HP
-    F: "2015-10-31"
+    F: "1900-01-01"
     P: baetyl
     R: C
   - T: "2018-03-01"
@@ -42861,6 +43644,9 @@ P:
     M: Ghe Rivero
     S: github
     U: GheRivero
+  - E: ghe.rivero!gmail.com
+    M: Ghe Rivero
+    S: groupsio
   B: 0
   U: Ghe Rivero
 - E: gheorghe-teod.bercea!ibm.com
@@ -44196,6 +44982,9 @@ P:
   - E: gianarb92!gmail.com
     M: Gianluca Arbezzano
     S: git
+  - E: gianarb92!gmail.com
+    M: Gianluca Arbezzano
+    S: groupsio
   B: 0
   U: Gianluca Arbezzano
 - C: US
@@ -45913,12 +46702,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2018-12-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: cdf-jenkins-x
     R: C
   - T: "2018-12-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2017-08-01"
     P: cncf/shared
     R: C
@@ -46390,6 +47179,11 @@ P:
     F: "2015-03-01"
     P: hyperledger/shared
     R: C
+  - T: "2100-01-01"
+    C: Wipro Limited
+    F: "2015-03-01"
+    P: openssf
+    R: C
   I:
   - M: Gilles Gravier
     S: confluence
@@ -46628,6 +47422,9 @@ P:
     M: Ginger Collison
     S: github
     U: gcolliso
+  - E: ginger!synadia.com
+    M: Ginger Collison
+    S: groupsio
   B: 0
   U: Ginger Collison
 - E: ginny!iotechsys.com
@@ -47287,12 +48084,12 @@ P:
 - E: giovanni.liva!dynatrace.com
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentelemetry
     R: C
@@ -47309,7 +48106,7 @@ P:
 - E: giovanni.liva.91!gmail.com
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentelemetry
     R: C
@@ -47513,6 +48310,9 @@ P:
   - E: giovanni.tirloni!gmail.com
     M: Giovanni Tirloni
     S: git
+  - E: giovanni.tirloni!gmail.com
+    M: Giovanni Tirloni
+    S: groupsio
   B: 0
   U: Giovanni Tirloni
 - E: guillaume.girard!intel.com
@@ -51763,6 +52563,9 @@ P:
     R: C
   I:
   - E: google-oss-robot!google.com
+    M: google-oss-robot
+    S: git
+  - E: google-oss-robot!google.com
     M: Google OSS Prow Robot
     S: github
     U: google-oss-robot
@@ -53291,10 +54094,6 @@ P:
   - T: "2016-05-01"
     C: Independent
     F: "1900-01-01"
-    R: C
-  - T: "2016-05-01"
-    C: Independent
-    F: "1900-01-01"
     P: cncf
     R: C
   - T: "2016-05-01"
@@ -53383,10 +54182,6 @@ P:
   - T: "2017-05-01"
     C: Independent
     F: "2016-07-01"
-    R: C
-  - T: "2017-05-01"
-    C: Independent
-    F: "2016-07-01"
     P: cncf
     R: C
   - T: "2017-05-01"
@@ -53423,10 +54218,6 @@ P:
     C: Independent
     F: "2016-07-01"
     P: spiffe
-    R: C
-  - T: "2017-07-01"
-    C: Red Hat Inc.
-    F: "2017-05-01"
     R: C
   - T: "2017-07-01"
     C: Red Hat Inc.
@@ -53470,11 +54261,7 @@ P:
     R: C
   - T: "2017-08-01"
     C: Red Hat Inc.
-    F: "2017-05-14"
-    R: C
-  - T: "2018-03-01"
-    C: Independent
-    F: "2017-07-01"
+    F: "2017-05-01"
     R: C
   - T: "2018-03-01"
     C: Independent
@@ -53518,7 +54305,7 @@ P:
     R: C
   - T: "2018-04-01"
     C: Independent
-    F: "2017-08-01"
+    F: "2017-07-01"
     R: C
   - T: "2100-01-01"
     C: Grafana Labs
@@ -53564,15 +54351,14 @@ P:
     F: "2018-03-01"
     P: spiffe
     R: C
-  - T: "2100-01-01"
-    C: Grafana Labs
-    F: "2018-04-01"
-    R: C
   S: male
   I:
   - E: gouthamve!gmail.com
     M: Goutham Veeramachaneni
     S: git
+  - E: gouthamve!gmail.com
+    M: Goutham Veeramachaneni
+    S: groupsio
   B: 0
   U: Goutham Veeramachaneni
 - C: IN
@@ -55449,6 +56235,9 @@ P:
     M: Graham Rounds
     S: github
     U: agrahamlincoln
+  - E: graham!platform9.com
+    M: Graham Rounds
+    S: groupsio
   B: 0
   U: Graham Rounds
 - C: US
@@ -60072,6 +60861,9 @@ P:
     M: Greg Waines
     S: github
     U: gwaines
+  - E: greg.waines!windriver.com
+    M: Greg Waines
+    S: groupsio
   - E: Greg.Waines!windriver.com
     M: Waines, Greg
     S: groupsio
@@ -60860,10 +61652,20 @@ P:
     F: "1900-01-01"
     P: cncf/shared
     R: C
+  - T: "2015-11-01"
+    C: OSRAM
+    F: "1900-01-01"
+    P: prometheus
+    R: C
   - T: "2018-09-01"
     C: SAP
     F: "2015-11-01"
     P: cncf/shared
+    R: C
+  - T: "2018-09-01"
+    C: SAP
+    F: "2015-11-01"
+    P: prometheus
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -60934,855 +61736,3 @@ P:
     U: gboissinot
   B: 0
   U: Gregory Boissinot
-- E: gregory.boissinot!gmail.com
-  R:
-  - T: "2015-08-01"
-    C: Zenika
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-08-01"
-    C: Zenika
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  - T: "2016-08-01"
-    C: Safran Identity & Security
-    F: "2015-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-08-01"
-    C: Safran Identity & Security
-    F: "2015-08-01"
-    P: jenkins
-    R: C
-  - T: "2018-03-01"
-    C: SOAT
-    F: "2016-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2018-03-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: gregory.boissinot!gmail.com
-    M: Gregory Boissinot
-    S: git
-  B: 0
-  U: Gregory Boissinot
-- C: FR
-  E: gregory.clement!bootlin.com
-  R:
-  - T: "2100-01-01"
-    C: Bootlin
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Bootlin
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: gregory.clement!bootlin.com
-    M: Gregory CLEMENT
-    S: git
-  B: 0
-  U: Gregory CLEMENT
-- C: FR
-  E: gregory.clement!free-electrons.com
-  R:
-  - T: "2100-01-01"
-    C: Bootlin
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Bootlin
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: gregory.clement!free-electrons.com
-    M: Gregory CLEMENT
-    S: git
-  B: 0
-  U: Gregory CLEMENT
-- E: greg!gregchase.com
-  R:
-  - T: "2100-01-01"
-    C: ZEDEDA
-    F: "1900-01-01"
-    P: lfedge/shared
-    R: C
-  - T: "2100-01-01"
-    C: ZEDEDA
-    F: "1900-01-01"
-    P: lfedge/state-of-the-edge
-    R: C
-  - T: "2100-01-01"
-    C: ZEDEDA
-    F: "2019-05-10"
-    P: project-eve
-    R: C
-  I:
-  - M: Gregory Chase
-    S: confluence
-    U: gregchase
-  - E: greg!gregchase.com
-    M: Gregory Chase
-    S: confluence
-    U: gregchase
-  - E: greg!zededa.com
-    M: Gregory Chase
-    S: groupsio
-  B: 0
-  U: Gregory Chase
-- E: greg!gho.st
-  R:
-  - T: "2017-09-01"
-    C: Shopify
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-09-01"
-    C: Shopify
-    F: "1900-01-01"
-    P: presto
-    R: C
-  - T: "2019-07-01"
-    C: Memair
-    F: "2017-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-07-01"
-    C: Memair
-    F: "2017-09-01"
-    P: gql
-    R: C
-  - T: "2100-01-01"
-    C: Shopify
-    F: "2019-07-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: greg!gho.st
-    M: Gregory Clarke
-    S: github
-    U: gregology
-  B: 0
-  U: Gregory Clarke
-- R:
-  - T: "2100-01-01"
-    C: ATCSim GmbH
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: ATCSim GmbH
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - M: Gregory E. Moltchadski
-    S: github
-    U: greg2001
-  B: 0
-  U: Gregory E. Moltchadski
-- E: gregory!atcsim.de
-  R:
-  - T: "2100-01-01"
-    C: ATCSim GmbH
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: ATCSim GmbH
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: gregory!atcsim.de
-    M: Gregory E. Moltchadski
-    S: git
-  B: 0
-  U: Gregory E. Moltchadski
-- C: US
-  R:
-  - T: "2014-08-01"
-    C: Venmo
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: Venmo
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2015-10-01"
-    C: Mave
-    F: "2014-08-01"
-    R: C
-  - T: "2015-10-01"
-    C: Mave
-    F: "2014-08-01"
-    P: envoy
-    R: C
-  - T: "2018-12-01"
-    C: Fin
-    F: "2015-10-01"
-    R: C
-  - T: "2018-12-01"
-    C: Fin
-    F: "2015-10-01"
-    P: envoy
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-12-01"
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-12-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Asana
-    F: "2019-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Asana
-    F: "2019-01-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - M: Gregory Einfrank
-    S: github
-    U: gregeinfrank
-  B: 0
-  U: Gregory Einfrank
-- C: US
-  E: gregeinfrank!users.noreply.github.com
-  R:
-  - T: "2014-08-01"
-    C: Venmo
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: Venmo
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2015-10-01"
-    C: Mave
-    F: "2014-08-01"
-    R: C
-  - T: "2015-10-01"
-    C: Mave
-    F: "2014-08-01"
-    P: envoy
-    R: C
-  - T: "2018-12-01"
-    C: Fin
-    F: "2015-10-01"
-    R: C
-  - T: "2018-12-01"
-    C: Fin
-    F: "2015-10-01"
-    P: envoy
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-12-01"
-    R: C
-  - T: "2019-01-01"
-    C: Independent
-    F: "2018-12-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: Asana
-    F: "2019-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Asana
-    F: "2019-01-01"
-    P: envoy
-    R: C
-  S: male
-  I:
-  - E: gregeinfrank!users.noreply.github.com
-    M: Gregory Einfrank
-    S: git
-  B: 0
-  U: Gregory Einfrank
-- E: elkinbar!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Juniper Networks, Inc.
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: opnfv
-    R: C
-  I:
-  - M: Gregory Elkinbard
-    S: confluence
-    U: gelkinbard
-  - E: elkinbar!gmail.com
-    M: Gregory Elkinbard
-    S: gerrit
-    U: gelkinbard
-  - E: elkinbar!gmail.com
-    M: Gregory Elkinbard
-    S: git
-  - E: gelkinbard!mirantis.com
-    M: Gregory Elkinbard
-    S: gmane
-  - E: elkinbar!gmail.com
-    M: Greg Elkinbard
-    S: groupsio
-  - E: gelkinbard!juniper.net
-    M: Gregory Elkinbard
-    S: groupsio
-  - E: gelkinbard!mirantis.com
-    M: Gregory Elkinbard
-    S: groupsio
-  - M: Gregory Elkinbard
-    S: jira
-    U: gelkinbard
-  - E: elkinbar!gmail.com
-    M: Gregory Elkinbard
-    S: jira
-    U: gelkinbard
-  - E: gelkinbard!juniper.net
-    M: Gregory Elkinbard
-    S: jira
-    U: gelkinbard
-  - M: Gregory Elkinbard
-    S: linux-foundation:its
-    U: gelkinbard
-  - E: gelkinbard!mirantis.com
-    M: Gregory Elkinbard
-    S: mbox
-  - E: elkinbar!gmail.com
-    M: Greg Elkinbard
-    S: pipermail
-  - E: gelkinbard!juniper.net
-    M: Gregory Elkinbard
-    S: pipermail
-  - E: gelkinbard!mirantis.com
-    M: Gregory Elkinbard
-    S: pipermail
-  B: 0
-  U: Gregory Elkinbard
-- E: gregory!weka.io
-  R:
-  - T: "2007-09-01"
-    C: Check Point
-    F: "2002-01-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2007-09-01"
-    C: Check Point
-    F: "2002-01-01"
-    P: dpdk
-    R: C
-  - T: "2007-09-01"
-    C: Check Point
-    F: "2002-01-01"
-    P: dpdk-draft
-    R: C
-  - T: "2007-09-01"
-    C: Check Point
-    F: "2002-01-01"
-    P: dpdk-next
-    R: C
-  - T: "2010-01-01"
-    C: Expand Networks (liquidated)
-    F: "2007-09-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2010-01-01"
-    C: Expand Networks (liquidated)
-    F: "2007-09-01"
-    P: dpdk
-    R: C
-  - T: "2010-01-01"
-    C: Expand Networks (liquidated)
-    F: "2007-09-01"
-    P: dpdk-draft
-    R: C
-  - T: "2010-01-01"
-    C: Expand Networks (liquidated)
-    F: "2007-09-01"
-    P: dpdk-next
-    R: C
-  - T: "2016-02-01"
-    C: IBM
-    F: "2010-01-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2016-02-01"
-    C: IBM
-    F: "2010-01-01"
-    P: dpdk
-    R: C
-  - T: "2016-02-01"
-    C: IBM
-    F: "2010-01-01"
-    P: dpdk-draft
-    R: C
-  - T: "2016-02-01"
-    C: IBM
-    F: "2010-01-01"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Weka.IO
-    F: "2016-02-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Weka.IO
-    F: "2016-02-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Weka.IO
-    F: "2016-02-01"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Weka.IO
-    F: "2016-02-01"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Weka.IO
-    F: "2016-02-01"
-    P: dpdk-draft
-    R: C
-  - T: "2100-01-01"
-    C: Weka.IO
-    F: "2016-02-01"
-    P: dpdk-next
-    R: C
-  I:
-  - E: getelson!mellanox.com
-    M: Gregory Etelson
-    S: git
-  - E: getelson!nvidia.com
-    M: Gregory Etelson
-    S: git
-  - E: gregory!weka.io
-    M: Gregory Etelson
-    S: git
-  - E: getelson!mellanox.com
-    M: Gregory Etelson
-    S: pipermail
-  - E: getelson!nvidia.com
-    M: Gregory Etelson
-    S: pipermail
-  - E: gregory!weka.io
-    M: Gregory Etelson
-    S: pipermail
-  B: 0
-  U: Gregory Etelson
-- R:
-  - T: "2014-05-01"
-    C: Inktank
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-05-01"
-    P: cncf/shared
-    R: C
-  I:
-  - M: Gregory Farnum
-    S: github
-    U: gregsfortytwo
-  B: 0
-  U: Gregory Farnum
-- E: gfarnum!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: gfarnum!redhat.com
-    M: Gregory Farnum
-    S: git
-  B: 0
-  U: Gregory Farnum
-- E: greg!gregs42.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: greg!gregs42.com
-    M: Greg Farnum
-    S: git
-  - E: greg!gregs42.com
-    M: Gregory Farnum
-    S: git
-  B: 0
-  U: Gregory Farnum
-- E: gregory.0xf0!gmail.com
-  R:
-  - T: "2015-08-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: acrn
-    R: C
-  - T: "2015-08-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: ambitus
-    R: C
-  - T: "2015-08-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2015-08-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2015-08-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-08-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2015-08-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2015-08-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2016-05-01"
-    C: Virgin Galactic
-    F: "2015-08-01"
-    P: acrn
-    R: C
-  - T: "2016-05-01"
-    C: Virgin Galactic
-    F: "2015-08-01"
-    P: cephfoundation
-    R: C
-  - T: "2016-05-01"
-    C: Virgin Galactic
-    F: "2015-08-01"
-    P: cip
-    R: C
-  - T: "2016-05-01"
-    C: Virgin Galactic
-    F: "2015-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-05-01"
-    C: Virgin Galactic
-    F: "2015-08-01"
-    P: elisa
-    R: C
-  - T: "2016-05-01"
-    C: Virgin Galactic
-    F: "2015-08-01"
-    P: kernelci
-    R: C
-  - T: "2016-05-01"
-    C: Virgin Galactic
-    F: "2015-08-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: Virgin Orbit
-    F: "2016-05-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Virgin Orbit
-    F: "2016-05-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Virgin Orbit
-    F: "2016-05-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Virgin Orbit
-    F: "2016-05-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Virgin Orbit
-    F: "2016-05-01"
-    P: korg
-    R: C
-  I:
-  - E: gregory.0xf0!gmail.com
-    M: Gregory Fong
-    S: git
-  B: 0
-  U: Gregory Fong
-- R:
-  - T: "2100-01-01"
-    C: Banjo
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Banjo
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - M: Gregory G. Tseng
-    S: github
-    U: gregorygtseng
-  B: 0
-  U: Gregory G. Tseng
-- E: gregory!teambanjo.com
-  R:
-  - T: "2100-01-01"
-    C: Banjo
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Banjo
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - E: gregory!teambanjo.com
-    M: Gregory G. Tseng
-    S: git
-  B: 0
-  U: Gregory G. Tseng
-- E: gee.developer!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: onf-p4
-    R: C
-  - T: "2100-01-01"
-    C: Oracle America Inc.
-    F: "1900-01-01"
-    P: onf/onf-mininet
-    R: C
-  I:
-  - E: gee.developer!gmail.com
-    M: Gregory Gee
-    S: git
-  B: 0
-  U: Gregory Gee
-- E: gg2147!att.com
-  R:
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2017-06-19"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2017-06-19"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-02-22"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-02-22"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-04-06"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: AT&T Services, Inc.
-    F: "2018-04-06"
-    P: opnfv
-    R: C
-  I:
-  - M: Gregory Glover
-    S: confluence
-    U: gglover
-  - E: gg2147!att.com
-    M: Gregory Glover
-    S: gerrit
-    U: gglover
-  - E: gg2147!att.com
-    M: Gregory Glover
-    S: git
-  - E: gg2147!att.com
-    M: GLOVER, GREG L
-    S: groupsio
-  - M: Gregory Glover
-    S: jira
-    U: gglover
-  - E: gg2147!att.com
-    M: Gregory Glover
-    S: jira
-    U: gglover
-  - E: gg2147!att.com
-    M: GLOVER, GREG L
-    S: pipermail
-  B: 0
-  U: Gregory Glover
-- E: gregory.greenman!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: gregory.greenman!intel.com
-    M: Gregory Greenman
-    S: git
-  B: 0
-  U: Gregory Greenman
-- R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - M: Gregory Hanson
-    S: github
-    U: GregHanson
-  B: 0
-  U: Gregory Hanson
-- E: gihanson!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: envoy
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: gihanson!us.ibm.com
-    M: Greg Hanson
-    S: git
-  - E: gihanson!us.ibm.com
-    M: GregHanson
-    S: git
-  - E: gihanson!us.ibm.com
-    M: Gregory Hanson
-    S: git
-  - E: gihanson!us.ibm.com
-    M: Gregory Hanson
-    S: github
-    U: GregHanson
-  B: 0
-  U: Gregory Hanson

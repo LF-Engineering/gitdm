@@ -1,84 +1,4 @@
 P:
-- E: michael.bredel!cern.ch
-  R:
-  - T: "2100-01-01"
-    C: CERN
-    F: "2014-03-31"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: CERN
-    F: "2014-03-31"
-    P: odl
-    R: C
-  I:
-  - E: michael.bredel!cern.ch
-    M: Michael Bredel
-    S: gerrit
-    U: mbredel
-  - E: michael.bredel!cern.ch
-    M: Michael Bredel
-    S: git
-  - E: michael!bredel.at
-    M: Michael Bredel
-    S: pipermail
-  - E: michael.bredel!cern.ch
-    M: Michael Bredel
-    S: pipermail
-  B: 0
-  U: Michael Bredel
-- E: brenndo!de.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-03-09"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: brenndo!de.ibm.com
-    M: Michael Brenndoerfer
-    S: slack
-    U: michaelb
-  B: 0
-  U: Michael Brenndoerfer
-- E: michael!cloudify.co
-  R:
-  - T: "2100-01-01"
-    C: Cloudify
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cloudify
-    F: "1900-01-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: GigaSpaces
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: GigaSpaces
-    F: "1900-01-01"
-    P: onap
-    R: C
-  I:
-  - M: Michael Brenner
-    S: confluence
-    U: mrbrenner
-  - E: michael!cloudify.co
-    M: Michael Brenner
-    S: groupsio
-  - E: michael!gigaspaces.com
-    M: Michael Brenner
-    S: groupsio
-  - E: michael!cloudify.co
-    M: Michael Brenner
-    S: pipermail
-  - E: michael!gigaspaces.com
-    M: Michael Brenner
-    S: pipermail
-  B: 0
-  U: Michael Brenner
 - C: GB
   E: mikeb!squaremobius.net
   R:
@@ -6912,10 +6832,6 @@ P:
   - T: "2019-02-01"
     C: Red Hat Inc.
     F: "2017-03-01"
-    R: C
-  - T: "2019-02-01"
-    C: Red Hat Inc.
-    F: "2017-03-01"
     P: chubaofs
     R: C
   - T: "2019-02-01"
@@ -7040,6 +6956,9 @@ P:
     M: Michael Hausenblas
     S: github
     U: mhausenblas
+  - E: michael.hausenblas!gmail.com
+    M: Michael Hausenblas
+    S: groupsio
   - E: michael.hausenblas!gmail.com
     M: Michael Hausenblas
     S: slack
@@ -7734,6 +7653,9 @@ P:
   - E: mhrivnak!redhat.com
     M: Michael Hrivnak
     S: git
+  - E: mhrivnak!redhat.com
+    M: Michael Hrivnak
+    S: groupsio
   B: 0
   U: Michael Hrivnak
 - E: humichael!vmware.com
@@ -8331,6 +8253,16 @@ P:
     C: Network Oriented Programming
     F: "2015-06-01"
     P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Network Oriented Programming
+    F: "2015-06-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Network Oriented Programming
+    F: "2015-06-01"
+    P: nsm
     R: C
   - T: "2018-01-01"
     C: Nokia Corporation
@@ -11026,32 +10958,32 @@ P:
   E: michael.neale!gmail.com
   R:
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cdf
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: jenkins
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: nats
     R: C
   - T: "2014-07-02"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2011-04-24"
     P: cloud-foundry/cloud-foundry
     R: C
@@ -11069,22 +11001,22 @@ P:
 - E: mneale!cloudbees.com
   R:
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cdf
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: jenkins
     R: C
@@ -11641,12 +11573,12 @@ P:
     P: jenkins
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: jenkins
     R: C
@@ -11669,17 +11601,17 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: jenkins
     R: C
@@ -11798,6 +11730,9 @@ P:
   - E: mpawliszyn!gmail.com
     M: Michael Pawliszyn
     S: git
+  - E: mpawliszyn!gmail.com
+    M: Michael Pawliszyn
+    S: groupsio
   B: 0
   U: Michael Pawliszyn
 - E: wolfpack!vulk.co
@@ -18485,6 +18420,9 @@ P:
   - E: embano1!live.com
     M: Michael
     S: git
+  - E: embano1!live.com
+    M: Michael Gasch
+    S: groupsio
   B: 0
   U: Michael
 - E: matambo4999!gmail.com
@@ -19019,6 +18957,9 @@ P:
     M: Michal Banik
     S: gerrit
     U: mibanik
+  - E: michal.banik!pantheon.tech
+    M: Michal Banik
+    S: git
   - M: Michal Banik
     S: jira
     U: mibanik
@@ -19359,6 +19300,9 @@ P:
     M: Michal Cwienczek
     S: github
     U: mcwienczek
+  - E: michael.cwienczek!gmail.com
+    M: Michal Cwienczek
+    S: groupsio
   B: 0
   U: Michal Cwienczek
 - E: michal.1.dziedzic!nokia.com
@@ -19953,6 +19897,9 @@ P:
   - E: mjura!suse.com
     M: Michal Jura
     S: git
+  - E: mjura!suse.com
+    M: Michal Jura
+    S: groupsio
   - E: mjura!suse.com
     M: Michal Jura
     S: slack
@@ -23757,17 +23704,17 @@ P:
     P: jenkins
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: jenkins
     R: C
@@ -23795,7 +23742,7 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: cncf/shared
     R: C
@@ -24462,6 +24409,10 @@ P:
   I:
   - M: Micha Jagieo
     S: confluence
+    U: MichalJagielloTMPL
+  - E: michal.jagiello!t-mobile.pl
+    M: Micha? Jagie??o
+    S: gerrit
     U: MichalJagielloTMPL
   - E: michal.jagiello!t-mobile.pl
     M: Michał Jagiełło
@@ -26972,7 +26923,17 @@ P:
   - T: "2014-09-01"
     C: DealerMatch
     F: "1900-01-01"
-    P: baetyl
+    P: brigade
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: cncf/contour
     R: C
   - T: "2014-09-01"
     C: DealerMatch
@@ -26982,12 +26943,61 @@ P:
   - T: "2014-09-01"
     C: DealerMatch
     F: "1900-01-01"
+    P: cncf/keptn
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: cncf/openservicemesh
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: cncf/tremor
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
     P: helm
     R: C
   - T: "2014-09-01"
     C: DealerMatch
     F: "1900-01-01"
+    P: intoto
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
     P: k8s
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: linkerd
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: smi
+    R: C
+  - T: "2014-09-01"
+    C: DealerMatch
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  - T: "2014-09-15"
+    C: DealerMatch
+    F: "1900-01-01"
     R: C
   - T: "2014-09-15"
     C: DealerMatch
@@ -26997,7 +27007,16 @@ P:
   - T: "2017-04-01"
     C: Engine Yard
     F: "2014-09-01"
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
     P: baetyl
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: brigade
     R: C
   - T: "2017-04-01"
     C: Engine Yard
@@ -27012,7 +27031,37 @@ P:
   - T: "2017-04-01"
     C: Engine Yard
     F: "2014-09-01"
+    P: cncf
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: cncf/contour
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
     P: cncf/k3s
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: cncf/keptn
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: cncf/openservicemesh
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: cncf/tremor
     R: C
   - T: "2017-04-01"
     C: Engine Yard
@@ -27022,17 +27071,50 @@ P:
   - T: "2017-04-01"
     C: Engine Yard
     F: "2014-09-01"
+    P: intoto
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
     P: k8s
     R: C
   - T: "2017-04-01"
     C: Engine Yard
+    F: "2014-09-01"
+    P: linkerd
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: openebs
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: smi
+    R: C
+  - T: "2017-04-01"
+    C: Engine Yard
+    F: "2014-09-01"
+    P: thanos
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
     F: "2014-09-15"
-    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
     R: C
   - T: "2100-01-01"
     C: CNCF
     F: "2017-04-01"
     P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: brigade
     R: C
   - T: "2100-01-01"
     C: CNCF
@@ -27042,7 +27124,37 @@ P:
   - T: "2100-01-01"
     C: CNCF
     F: "2017-04-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: cncf/contour
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
     P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: cncf/keptn
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: cncf/openservicemesh
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: CNCF
@@ -27052,7 +27164,32 @@ P:
   - T: "2100-01-01"
     C: CNCF
     F: "2017-04-01"
+    P: intoto
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
     P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: linkerd
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: openebs
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: smi
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2017-04-01"
+    P: thanos
     R: C
   S: female
   I:
@@ -27062,422 +27199,28 @@ P:
   - E: michelle!deis.com
     M: Michelle Noorali
     S: git
-  - E: michelle!deis.com
-    M: migmartri-michelleN
-    S: git
-  B: 0
-  U: Michelle Noorali
-- C: US
-  E: michellemolu!gmail.com
-  R:
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: brigade
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: cncf/keptn
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: cncf/openservicemesh
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: cncf/tremor
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: intoto
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: smi
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: thanos
-    R: C
-  - T: "2014-09-15"
-    C: DealerMatch
-    F: "1900-01-01"
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: brigade
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: cncf
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: cncf/contour
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: cncf/keptn
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: cncf/openservicemesh
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: cncf/tremor
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: intoto
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: openebs
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: smi
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: thanos
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2014-09-15"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: cncf/keptn
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: cncf/openservicemesh
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: cncf/tremor
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: intoto
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: openebs
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: smi
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: thanos
-    R: C
-  S: female
-  I:
   - E: michellemolu!gmail.com
     M: Michelle Noorali
     S: git
-  B: 0
-  U: Michelle Noorali
-- C: US
-  E: minooral!microsoft.com
-  R:
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: brigade
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: cncf/openservicemesh
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: smi
-    R: C
-  - T: "2014-09-15"
-    C: DealerMatch
-    F: "1900-01-01"
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: brigade
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: cncf
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: cncf/openservicemesh
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: linkerd
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: smi
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-15"
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2014-09-15"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: cncf/openservicemesh
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: linkerd
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: smi
-    R: C
-  S: female
-  I:
   - E: minooral!microsoft.com
     M: Michelle Noorali
+    S: git
+  - E: mnoorali!engineyard.com
+    M: Michelle Noorali
+    S: git
+  - E: michelle!deis.com
+    M: migmartri-michelleN
     S: git
   - E: minooral!microsoft.com
     M: Michelle Noorali
     S: github
     U: michelleN
-  B: 0
-  U: Michelle Noorali
-- C: US
-  E: mnoorali!engineyard.com
-  R:
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    R: C
-  - T: "2014-09-01"
-    C: DealerMatch
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-09-15"
-    C: DealerMatch
-    F: "1900-01-01"
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    R: C
-  - T: "2017-04-01"
-    C: Engine Yard
-    F: "2014-09-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2014-09-15"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-04-01"
-    P: helm
-    R: C
-  S: female
-  I:
-  - E: mnoorali!engineyard.com
+  - E: Michelle.Noorali!microsoft.com
     M: Michelle Noorali
-    S: git
+    S: groupsio
+  - E: michelle.noorali!gmail.com
+    M: Michelle Noorali
+    S: groupsio
   B: 0
   U: Michelle Noorali
 - R:
@@ -39479,12 +39222,12 @@ P:
     P: cncf/keptn
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2014-02-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2014-02-01"
     P: cncf/keptn
     R: C
@@ -41098,17 +40841,17 @@ P:
 - E: mikhail!thecrazyrussian.com
   R:
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -47271,6 +47014,11 @@ P:
   - T: "2100-01-01"
     C: Fujitsu
     F: "1900-01-01"
+    P: cdf
+    R: C
+  - T: "2100-01-01"
+    C: Fujitsu
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
@@ -50756,6 +50504,9 @@ P:
     M: Mithra Rajah
     S: github
     U: mithrav
+  - E: mithra!google.com
+    M: Mithra Rajah
+    S: groupsio
   B: 0
   U: Mithra Rajah
 - E: mithra!google.com
@@ -51158,17 +50909,17 @@ P:
     P: k8s
     R: C
   - T: "2019-04-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: cdf-jenkins-x
     R: C
   - T: "2019-04-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: jenkins
     R: C
   - T: "2019-04-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: k8s
     R: C
@@ -52288,6 +52039,9 @@ P:
   - E: mofei2816!gmail.com
     M: Mofei Zhang
     S: git
+  - E: mofei2816!gmail.com
+    M: Mofei Zhang
+    S: groupsio
   B: 0
   U: Mofei Zhang
 - E: nolat301!gmail.com
@@ -52326,6 +52080,9 @@ P:
   - E: moh.ahmed!cengn.ca
     M: Moh Ahmed
     S: git
+  - E: moh.ahmed!cengn.ca
+    M: moh.ahmed
+    S: groupsio
   - M: Moh Ahmed
     S: jira
     U: moh.ahmed
@@ -52679,7 +52436,7 @@ P:
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-10-01"
     P: cncf
     R: C
@@ -52719,11 +52476,11 @@ P:
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-10-01"
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-10-01"
     P: cncf
     R: C
@@ -52913,17 +52670,17 @@ P:
   U: Mohamed El-Serngawy
 - R:
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: longhorn
     R: C
@@ -52936,7 +52693,7 @@ P:
 - E: mohamed.eldafrawi!rancher.com
   R:
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: longhorn
     R: C
@@ -54839,6 +54596,11 @@ P:
     C: VexxHost
     F: "1900-01-01"
     P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: VexxHost
+    F: "1900-01-01"
+    P: fdio
     R: C
   - T: "2100-01-01"
     C: VexxHost
@@ -61674,6 +61436,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: cncf/litmuschaos
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: kubevirt
     R: C
   I:
@@ -61684,6 +61451,11 @@ P:
   U: Moti Asayag
 - E: masayag!redhat.com
   R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/litmuschaos
+    R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
@@ -62183,3 +61955,302 @@ P:
     U: MritunjayPandey
   B: 0
   U: Mritunjay Pandey
+- E: kumarnitp!gmail.com
+  R:
+  - T: "2015-09-01"
+    C: Aricent
+    F: "2012-10-01"
+    P: fdio
+    R: C
+  - T: "2016-07-01"
+    C: Happiest Minds Technologies Pvt Ltd
+    F: "2015-12-01"
+    P: fdio
+    R: C
+  - T: "2019-05-01"
+    C: Wipro Limited
+    F: "2016-08-01"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: Altran Technologies
+    F: "2019-05-01"
+    P: fdio
+    R: C
+  I:
+  - E: kumarnitp!gmail.com
+    M: Mrityunjay Kumar
+    S: gerrit
+    U: MrityunjayKumar
+  - E: kumarnitp!gmail.com
+    M: Mrityunjay Kumar
+    S: git
+  - E: kumarnitp!gmail.com
+    M: Mrityunjay Kumar
+    S: groupsio
+  - E: mrityunjay2.kumar!aricent.com
+    M: Mrityunjay Kumar
+    S: groupsio
+  B: 0
+  U: Mrityunjay Kumar
+- C: IN
+  E: mrudavshukla!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Decentro
+    F: "2018-12-31"
+    P: fabric
+    R: C
+  - T: "2100-01-01"
+    C: Decentro
+    F: "2018-12-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: Decentro
+    F: "2018-12-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  I:
+  - E: mrudavshukla!gmail.com
+    M: Mrudav Shukla
+    S: git
+  - M: Mrudav Shukla
+    S: github
+    U: mrudav-shukla
+  - E: mrudavshukla!gmail.com
+    M: Mrudav Shukla
+    S: github
+    U: mrudav-shukla
+  - E: mrudavshukla!gmail.com
+    M: Mrudav Shukla
+    S: groupsio
+  - E: mrudavshukla!gmail.com
+    M: mrudavshukla
+    S: groupsio
+  - M: Mrudav Shukla
+    S: jira
+    U: mrudav.shukla
+  B: 0
+  U: Mrudav Shukla
+- E: mpatel!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2019-04-02"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: mpatel!redhat.com
+    M: Mrunal Patel
+    S: git
+  B: 0
+  U: Mrunal Patel
+- E: mrunalp!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: containerd
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cri-o
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2014-06-13"
+    R: C
+  S: male
+  I:
+  - E: mrunal!Mrunals-iMac.local
+    M: Mrunal Patel
+    S: git
+  - E: mrunal!dhcp-16-185.sjc.redhat.com
+    M: Mrunal Patel
+    S: git
+  - E: mrunal!me.com
+    M: Mrunal Patel
+    S: git
+  - E: mrunal!me.com
+    M: Mrunal Patel
+    S: git
+    U: mrunalp
+  - E: mrunalp!gmail.com
+    M: Mrunal Patel
+    S: git
+  - E: mrunalp!gmail.com
+    M: Mrunal Patel
+    S: git
+    U: mrunalp
+  - E: 'mrunalp!gmail.com> (github: mrunalp'
+    M: Mrunal Patel
+    S: git
+  - M: Mrunal Patel
+    S: github
+    U: mrunalp
+  - M: Mrunal Patel
+    S: oci_csv
+    U: mrunalp
+  B: 0
+  U: Mrunal Patel
+- E: mhbseal!163.com
+  R:
+  - T: "2100-01-01"
+    C: NetEase
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: mhbseal!163.com
+    M: Mu Haibao
+    S: git
+  - E: mhbseal!163.com
+    M: Mu Haibao
+    S: github
+    U: mhbseal
+  B: 0
+  U: Mu Haibao
+- E: Mubashsharul.Shafique!amdocs.com
+  R:
+  - T: "2017-06-14"
+    C: Amdocs
+    F: "2017-04-01"
+    R: C
+  - T: "2017-06-14"
+    C: Amdocs
+    F: "2017-04-01"
+    P: onap
+    R: C
+  I:
+  - E: Mubashsharul.Shafique!amdocs.com
+    M: Mubashsharul Shafique
+    S: gerrit
+    U: Shafique
+  - E: Mubashsharul.Shafique!amdocs.com
+    M: Shafique, Mubashsharul (ms642y)
+    S: git
+  B: 0
+  U: Mubashsharul Shafique
+- E: mubin.usman.sayyed!xilinx.com
+  R:
+  - T: "2100-01-01"
+    C: Xilinx, Inc.
+    F: "2016-08-23"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Xilinx, Inc.
+    F: "2016-08-23"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Xilinx, Inc.
+    F: "2016-08-23"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Xilinx, Inc.
+    F: "2016-08-23"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: Xilinx, Inc.
+    F: "2016-08-23"
+    P: yocto
+    R: C
+  I:
+  - E: mubin.usman.sayyed!xilinx.com
+    M: Mubin Sayyed
+    S: git
+  - E: mubin.usman.sayyed!xilinx.com
+    M: Mubin Usman Sayyed
+    S: git
+  - E: mubin.usman.sayyed!xilinx.com
+    M: Mubin Sayyed
+    S: groupsio
+  - E: mubin.usman.sayyed!xilinx.com
+    M: Mubin Usman Sayyed
+    S: groupsio
+  - E: mubin.usman.sayyed!xilinx.com
+    M: Mubin Sayyed
+    S: pipermail
+  - E: mubin.usman.sayyed!xilinx.com
+    M: Mubin Usman Sayyed
+    S: pipermail
+  B: 0
+  U: Mubin Usman Sayyed
+- C: TR
+  R:
+  - T: "2018-12-01"
+    C: Innova
+    F: "1900-01-01"
+    R: C
+  - T: "2018-12-01"
+    C: Innova
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2018-12-01"
+    C: Innova
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Udemy
+    F: "2018-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: Udemy
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Udemy
+    F: "2018-12-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Mucahit Kurt
+    S: github
+    U: mucahitkurt
+  B: 0
+  U: Mucahit Kurt

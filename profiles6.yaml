@@ -1,4 +1,79 @@
 P:
+- C: US
+  R:
+  - T: "2018-12-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2018-12-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: HBUS
+    F: "2018-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: HBUS
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Charles Xu
+    S: github
+    U: chxchx
+  B: 0
+  U: Charles Xu
+- C: US
+  E: chx!google.com
+  R:
+  - T: "2018-12-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2018-12-01"
+    C: Google
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: HBUS
+    F: "2018-12-01"
+    R: C
+  - T: "2100-01-01"
+    C: HBUS
+    F: "2018-12-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: chx!google.com
+    M: Charles Xu
+    S: git
+  B: 0
+  U: Charles Xu
+- E: cyang!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: cyang!twitter.com
+    M: Charles Yang
+    S: git
+  B: 0
+  U: Charles Yang
 - E: charles-antoine.couret!essensium.com
   R:
   - T: "2018-05-04"
@@ -8489,12 +8564,12 @@ P:
 - E: cchiou!cloudbees.com
   R:
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: jenkins
     R: C
@@ -10471,6 +10546,9 @@ P:
   - E: cjyabraham!gmail.com
     M: Chris Abraham
     S: git
+  - E: cjyabraham!gmail.com
+    M: Chris Abraham
+    S: groupsio
   B: 0
   U: Chris Abraham
 - C: US
@@ -11048,6 +11126,9 @@ P:
     M: Chris Aniszczyk
     S: github
     U: caniszczyk
+  - E: caniszczyk!gmail.com
+    M: Chris Aniszczyk
+    S: groupsio
   - E: caniszczyk!gmail.com
     M: Chris Aniszczyk
     S: oci_csv
@@ -13244,17 +13325,12 @@ P:
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
     F: "1900-01-01"
-    P: opnfv
-    R: C
-  - T: "2018-05-19"
-    C: Huawei Technologies Co., Ltd.
-    F: "2016-04-11"
-    P: opnfv
+    P: onap
     R: C
   - T: "2100-01-01"
     C: Huawei Technologies Co., Ltd.
-    F: "2017-03-21"
-    P: onap
+    F: "1900-01-01"
+    P: opnfv
     R: C
   - T: "2100-01-01"
     C: Salesforce
@@ -13285,6 +13361,9 @@ P:
   - E: Christopher.Donley!huawei.com
     M: Christopher Donley Chris
     S: gmane
+  - E: C.Donley!cablelabs.com
+    M: Chris Donley
+    S: groupsio
   - E: Christopher.Donley!huawei.com
     M: Christopher Donley (Chris)
     S: groupsio
@@ -14886,6 +14965,27 @@ P:
     U: chendrix
   B: 0
   U: Chris Hendrix
+- E: me!chrishepner.info
+  R:
+  - T: "2011-09-01"
+    C: UC San Diego
+    F: "2011-01-01"
+    P: argo
+    R: C
+  - T: "2014-12-01"
+    C: University of San Diego
+    F: "2013-10-01"
+    P: argo
+    R: C
+  I:
+  - E: me!chrishepner.info
+    M: Chris Hepner
+    S: git
+  - M: Chris Hepner
+    S: github
+    U: chrishepner
+  B: 0
+  U: Chris Hepner
 - R:
   - T: "2015-08-01"
     C: Independent
@@ -15415,6 +15515,9 @@ P:
   - E: chris!hogepodge.com
     M: Chris Hoge
     S: git
+  - E: chris!hogepodge.com
+    M: Chris Hoge
+    S: groupsio
   B: 0
   U: Chris Hoge
 - C: US
@@ -16106,17 +16209,37 @@ P:
     U: cmsj
   B: 0
   U: Chris Jones
-- E: cryptk!gmail.com
+- E: chris.jowett!abcfinancial.com
   R:
+  - T: "2009-11-01"
+    C: United States Air Force
+    F: "2003-11-01"
+    P: helm
+    R: C
+  - T: "2010-10-01"
+    C: SNC
+    F: "2010-03-01"
+    P: helm
+    R: C
   - T: "2014-12-01"
     C: Rackspace
     F: "2010-10-01"
     P: baetyl
     R: C
+  - T: "2014-12-01"
+    C: Rackspace
+    F: "2010-10-01"
+    P: helm
+    R: C
   - T: "2015-07-01"
     C: Digital Ocean
     F: "2014-12-01"
     P: baetyl
+    R: C
+  - T: "2015-07-01"
+    C: DigitalOcean
+    F: "2014-12-01"
+    P: helm
     R: C
   - T: "2017-07-01"
     C: Rackspace
@@ -16128,8 +16251,31 @@ P:
     F: "2015-07-01"
     P: baetyl
     R: C
+  - T: "2017-07-01"
+    C: Rackspace
+    F: "2015-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: ABC Financial Service
+    F: "2017-07-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: ABC Financial Service
+    F: "2017-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: ABC Financial Service
+    F: "2017-07-01"
+    P: k8s
+    R: C
   S: male
   I:
+  - E: chris.jowett!abcfinancial.com
+    M: Chris Jowett
+    S: git
   - E: cryptk!gmail.com
     M: Chris Jowett
     S: git
@@ -16414,12 +16560,12 @@ P:
     P: longhorn
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2018-07-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2018-07-01"
     P: longhorn
     R: C
@@ -18065,6 +18211,9 @@ P:
     M: Chris Marchbanks
     S: github
     U: csmarchbanks
+  - E: csmarchbanks!gmail.com
+    M: Chris Marchbanks
+    S: groupsio
   B: 0
   U: Chris Marchbanks
 - C: CA
@@ -19121,6 +19270,24 @@ P:
     U: chrisohaver
   B: 0
   U: Chris O'Haver
+- E: chrisortman!users.noreply.github.com
+  R:
+  - T: "2010-04-01"
+    C: CHR Solutions
+    F: "2009-07-01"
+    P: coredns
+    R: C
+  - T: "2014-09-01"
+    C: Innovative Systems
+    F: "2010-04-01"
+    P: coredns
+    R: C
+  I:
+  - E: chrisortman!users.noreply.github.com
+    M: Chris Ortman
+    S: git
+  B: 0
+  U: Chris Ortman
 - E: chris.packham!alliedtelesis.co.nz
   R:
   - T: "2017-05-30"
@@ -19549,7 +19716,7 @@ P:
     S: git
   B: 0
   U: Chris Piraino and Utako Ueda
-- E: wfernandes!pivotal.io
+- E: pair+cpiraino+wfernandes!pivotal.io
   R:
   - T: "2014-08-01"
     C: JumpCloud
@@ -19567,6 +19734,12 @@ P:
     P: cncf/shared
     R: C
   I:
+  - E: cpiraino!pivotal.io
+    M: Chris Piraino and Warren Fernandes
+    S: git
+  - E: pair+cpiraino+wfernandes!pivotal.io
+    M: Chris Piraino and Warren Fernandes
+    S: git
   - E: wfernandes!pivotal.io
     M: Chris Piraino and Warren Fernandes
     S: git
@@ -21198,6 +21371,9 @@ P:
     M: Chris Short
     S: github
     U: chris-short
+  - E: chris!chrisshort.net
+    M: Chris Short
+    S: groupsio
   - E: chris!chrisshort.net
     M: Chris Short
     S: slack
@@ -24655,6 +24831,11 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "1900-01-01"
+    P: lfai/delta
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
     P: libuv
     R: C
   - T: "2100-01-01"
@@ -26880,6 +27061,9 @@ P:
   - E: chris!safewrd.com
     M: Christian Jantz
     S: git
+  - E: chris!safewrd.com
+    M: Christian Jantz
+    S: groupsio
   B: 0
   U: Christian Jantz
 - C: CA
@@ -27247,17 +27431,17 @@ P:
     P: cncf/tremor
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-09-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-09-01"
     P: cncf/keptn
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-09-01"
     P: cncf/tremor
     R: C
@@ -27752,22 +27936,22 @@ P:
 - C: AT
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: envoy
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentelemetry
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentracing
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-08-30"
     P: cloud-foundry/cloud-foundry
     R: C
@@ -27780,7 +27964,7 @@ P:
 - E: christian.neumueller!dynatrace.com
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentelemetry
     R: C
@@ -28134,10 +28318,6 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2014-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2014-03-01"
     P: cncf/openservicemesh
     R: C
   - T: "2100-01-01"
@@ -28174,6 +28354,12 @@ P:
     M: Christian Posta
     S: github
     U: christian-posta
+  - E: christian.posta!gmail.com
+    M: Christian Posta
+    S: groupsio
+  - E: christian.posta!gmail.com
+    M: christian.posta
+    S: groupsio
   - E: christian.posta!gmail.com
     M: Christian Posta
     S: slack
@@ -30997,6 +31183,11 @@ P:
   - T: "2100-01-01"
     C: The Linux Foundation
     F: "2019-02-01"
+    P: lfai/ai-explainability-360
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2019-02-01"
     P: lfai/amundsen
     R: C
   - T: "2100-01-01"
@@ -33350,12 +33541,15 @@ P:
   - E: christoph.neijenhuis!commercetools.de
     M: Christoph Neijenhuis
     S: git
+  - E: christoph.neijenhuis!commercetools.de
+    M: Christoph Neijenhuis
+    S: groupsio
   B: 0
   U: Christoph Neijenhuis
 - E: c.neumueller!gmail.com
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentelemetry
     R: C
@@ -36673,11 +36867,6 @@ P:
   - T: "2019-06-01"
     C: Amazon
     F: "2017-05-01"
-    P: baetyl
-    R: C
-  - T: "2019-06-01"
-    C: Amazon
-    F: "2017-05-01"
     P: cncf
     R: C
   - T: "2019-06-01"
@@ -36782,6 +36971,9 @@ P:
     M: Christopher Hein
     S: github
     U: christopherhein
+  - E: me!chrishein.com
+    M: Chris Hein
+    S: groupsio
   B: 0
   U: Christopher Hein
 - C: US
@@ -37988,16 +38180,14 @@ P:
     F: "2015-11-19"
     P: baetyl
     R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2017-09-12"
-    P: cloud-foundry/cloud-foundry
-    R: C
   S: male
   I:
   - E: cmluciano!us.ibm.com
     M: Christopher M. Luciano
     S: git
+  - E: cmluciano!us.ibm.com
+    M: Christopher M Luciano
+    S: groupsio
   - E: cmluciano!us.ibm.com
     M: Christopher M Luciano
     S: slack
@@ -38994,6 +39184,11 @@ P:
   - T: "2018-01-01"
     C: BNY Mellon
     F: "2016-01-01"
+    P: finos
+    R: C
+  - T: "2018-01-01"
+    C: BNY Mellon
+    F: "2016-01-01"
     P: jenkins
     R: C
   - T: "2100-01-01"
@@ -39056,6 +39251,11 @@ P:
     C: BNY Mellon
     F: "2016-01-01"
     P: cncf/shared
+    R: C
+  - T: "2018-01-01"
+    C: BNY Mellon
+    F: "2016-01-01"
+    P: finos
     R: C
   - T: "2018-01-01"
     C: BNY Mellon
@@ -43150,6 +43350,9 @@ P:
   - E: cithomas!microsoft.com
     M: Cijo Thomas
     S: git
+  - E: cithomas!microsoft.com
+    M: Cijo Thomas
+    S: groupsio
   B: 0
   U: Cijo Thomas
 - E: itscina!gmail.com
@@ -46424,6 +46627,9 @@ P:
     M: Clayton Coleman
     S: github
     U: smarterclayton
+  - E: ccoleman!redhat.com
+    M: Clayton Coleman
+    S: groupsio
   B: 0
   U: Clayton Coleman
 - E: claytonharbour!gmail.com
@@ -46904,6 +47110,9 @@ P:
   - E: clemensv!microsoft.com
     M: Clemens Vasters
     S: git
+  - E: clemensv!microsoft.com
+    M: Clemens Vasters
+    S: groupsio
   B: 0
   U: Clemens Vasters
 - C: FR
@@ -47438,12 +47647,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2018-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2016-03-01"
     P: cncf/shared
     R: C
   - T: "2018-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2016-03-01"
     P: jenkins
     R: C
@@ -47471,12 +47680,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2018-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2016-03-01"
     P: cncf/shared
     R: C
   - T: "2018-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2016-03-01"
     P: jenkins
     R: C
@@ -47918,6 +48127,9 @@ P:
     M: Clint Byrum
     S: github
     U: SpamapS
+  - E: clint!fewbar.com
+    M: Clint Byrum
+    S: groupsio
   B: 0
   U: Clint Byrum
 - C: US
@@ -52262,10 +52474,6 @@ P:
     F: "1900-01-01"
     P: thanos
     R: C
-  - T: "2017-12-29"
-    C: Apcera
-    F: "2015-09-01"
-    R: C
   - T: "2018-09-01"
     C: Apcera
     F: "2015-09-01"
@@ -52332,10 +52540,6 @@ P:
   - T: "2100-01-01"
     C: Synadia
     F: "2018-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: Synadia
-    F: "2018-09-01"
     P: cloudevents
     R: C
   - T: "2100-01-01"
@@ -52397,6 +52601,9 @@ P:
     M: Colin Sullivan
     S: github
     U: ColinSullivan1
+  - E: colin!synadia.com
+    M: Colin Sullivan
+    S: groupsio
   B: 0
   U: Colin Sullivan
 - C: US
@@ -54029,6 +54236,25 @@ P:
     U: EdZou
   B: 0
   U: Cong Zou
+- E: ozooxo!gmail.com
+  R:
+  - T: "2014-05-01"
+    C: University of Minnesota
+    F: "2010-09-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Peloton Interactive
+    F: "2018-04-01"
+    P: argo
+    R: C
+  I:
+  - E: ozooxo!gmail.com
+    M: Cong-Xin Cynthia Qiu
+    S: github
+    U: ozooxo
+  B: 0
+  U: Cong-Xin Cynthia Qiu
 - E: peng.congcong!zte.com.cn
   R:
   - T: "2018-04-17"
@@ -57492,6 +57718,9 @@ P:
   - E: cornelia!weave.works
     M: Cornelia Davis
     S: git
+  - E: cornelia!weave.works
+    M: Cornelia Davis
+    S: groupsio
   B: 0
   U: Cornelia Davis
 - E: cohuck!de.ibm.com
@@ -58514,27 +58743,27 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: cncf/dex
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: jenkins
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: k8s
     R: C
@@ -58584,11 +58813,11 @@ P:
     P: helm
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: helm
     R: C
@@ -58668,17 +58897,17 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: baetyl
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: k8s
     R: C
@@ -58749,16 +58978,16 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: cncf/dex
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-05-01"
     P: k8s
     R: C
@@ -59978,11 +60207,11 @@ P:
   U: Craig Ingram
 - R:
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf/shared
     R: C
@@ -59996,37 +60225,37 @@ P:
 - E: craig!rancher.com
   R:
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: longhorn
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: openebs
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2015-09-24"
     P: baetyl
     R: C
   - T: "2017-05-08"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-03-17"
     P: zep
     R: C
@@ -61788,7 +62017,7 @@ P:
     P: prometheus
     R: C
   - T: "2019-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-01-01"
     P: prometheus
     R: C
@@ -62233,198 +62462,3 @@ P:
     U: ctodea
   B: 0
   U: Cristian Todea
-- C: ES
-  E: ctodea!users.noreply.github.com
-  R:
-  - T: "2016-02-15"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2016-02-15"
-    C: Independent
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-03-15"
-    C: BiiT Sourcing Solutions
-    F: "2016-02-15"
-    R: C
-  - T: "2017-03-15"
-    C: BiiT Sourcing Solutions
-    F: "2016-02-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: EDICOM
-    F: "2017-03-15"
-    R: C
-  - T: "2100-01-01"
-    C: EDICOM
-    F: "2017-03-15"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: ctodea!users.noreply.github.com
-    M: Cristian Todea
-    S: git
-  B: 0
-  U: Cristian Todea
-- E: cristian!uroz.cat
-  R:
-  - T: "2100-01-01"
-    C: TrendMicro
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: TrendMicro
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: cristian!uroz.cat
-    M: Cristian Uroz
-    S: git
-  - E: cristian!uroz.cat
-    M: Cristian Uroz
-    S: github
-    U: cjuroz
-  B: 0
-  U: Cristian Uroz
-- C: BR
-  R:
-  - T: "2014-12-01"
-    C: CFlex
-    F: "1900-01-01"
-    R: C
-  - T: "2014-12-01"
-    C: CFlex
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2014-12-01"
-    C: CFlex
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2014-12-01"
-    C: CFlex
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-04-01"
-    C: Thomson Reuters
-    F: "2014-12-01"
-    R: C
-  - T: "2015-04-01"
-    C: Thomson Reuters
-    F: "2014-12-01"
-    P: cncf/k3s
-    R: C
-  - T: "2015-04-01"
-    C: Thomson Reuters
-    F: "2014-12-01"
-    P: jaeger
-    R: C
-  - T: "2015-04-01"
-    C: Thomson Reuters
-    F: "2014-12-01"
-    P: k8s
-    R: C
-  - T: "2017-10-01"
-    C: CI&T
-    F: "2015-04-01"
-    R: C
-  - T: "2017-10-01"
-    C: CI&T
-    F: "2015-04-01"
-    P: cncf/k3s
-    R: C
-  - T: "2017-10-01"
-    C: CI&T
-    F: "2015-04-01"
-    P: jaeger
-    R: C
-  - T: "2017-10-01"
-    C: CI&T
-    F: "2015-04-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: BUX
-    F: "2017-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: BUX
-    F: "2017-10-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: BUX
-    F: "2017-10-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: BUX
-    F: "2017-10-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Cristiano Fontes
-    S: github
-    U: cfontes
-  B: 0
-  U: Cristiano Fontes
-- R:
-  - T: "2100-01-01"
-    C: Credito Valtellinese
-    F: "2000-03-01"
-    P: zowe
-    R: C
-  I:
-  - M: Cristiano Guadagnino
-    S: github
-    U: Cris70
-  B: 0
-  U: Cristiano Guadagnino
-- E: veiga.cristian!gmail.com
-  R:
-  - T: "2016-07-01"
-    C: teeWe
-    F: "1900-01-01"
-    P: KEDA
-    R: C
-  - T: "2016-07-01"
-    C: teeWe
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2016-11-01"
-    C: Independent
-    F: "2016-07-01"
-    P: KEDA
-    R: C
-  - T: "2016-11-01"
-    C: Independent
-    F: "2016-07-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: SCIEX
-    F: "2016-11-01"
-    P: KEDA
-    R: C
-  - T: "2100-01-01"
-    C: SCIEX
-    F: "2016-11-01"
-    P: argo
-    R: C
-  I:
-  - E: veiga.cristian!gmail.com
-    M: Cristiano Veiga
-    S: github
-    U: cristianoveiga
-  B: 0
-  U: Cristiano Veiga

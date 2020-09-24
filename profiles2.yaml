@@ -1,4 +1,141 @@
 P:
+- C: BA
+  E: alen.komljen!live.com
+  R:
+  - T: "2016-06-01"
+    C: Servpac
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2016-06-01"
+    C: Servpac
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2016-06-01"
+    C: Servpac
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2016-06-01"
+    C: Servpac
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2016-06-01"
+    C: Servpac
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2016-06-01"
+    P: baetyl
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2016-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2016-06-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2016-06-01"
+    P: helm
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2016-06-01"
+    P: k8s
+    R: C
+  - T: "2019-07-01"
+    C: Sematext Cloud
+    F: "2017-06-01"
+    P: baetyl
+    R: C
+  - T: "2019-07-01"
+    C: Sematext Cloud
+    F: "2017-06-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2019-07-01"
+    C: Sematext Cloud
+    F: "2017-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2019-07-01"
+    C: Sematext Cloud
+    F: "2017-06-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2019-07-01"
+    C: Sematext Cloud
+    F: "2017-06-01"
+    P: helm
+    R: C
+  - T: "2019-07-01"
+    C: Sematext Cloud
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Sematext Cloud
+    F: "2017-06-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Faire
+    F: "2019-07-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: Faire
+    F: "2019-07-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Faire
+    F: "2019-07-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Faire
+    F: "2019-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Faire
+    F: "2019-07-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: alen.komljen!live.com
+    M: Alen Komljen
+    S: git
+  B: 0
+  U: Alen Komljen
+- R:
+  - T: "2019-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: nsm
+    R: C
+  - T: "2100-01-01"
+    C: Xored
+    F: "2019-08-01"
+    P: nsm
+    R: C
+  I:
+  - M: Alena Bastrykina
+    S: github
+    U: a-bastrykina
+  B: 0
+  U: Alena Bastrykina
 - R:
   - T: "2016-08-01"
     C: Cisco Systems Inc.
@@ -218,22 +355,22 @@ P:
   E: alena!rancher.com
   R:
   - T: "2020-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2020-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2020-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: vitess
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
@@ -2681,7 +2818,8 @@ P:
     U: achin
   B: 0
   U: Alex Chin
-- R:
+- E: alex.chircop!storageos.com
+  R:
   - T: "2014-01-01"
     C: Gazprom
     F: "1900-01-01"
@@ -2698,9 +2836,15 @@ P:
     P: cncf
     R: C
   I:
+  - E: alex.chircop!storageos.com
+    M: Alex Chircop
+    S: git
   - M: Alex Chircop
     S: github
     U: chira001
+  - E: alex.chircop!storageos.com
+    M: Alex Chircop
+    S: groupsio
   B: 0
   U: Alex Chircop
 - E: chira001!users.noreply.github.com
@@ -3123,6 +3267,11 @@ P:
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
+    F: "1900-01-01"
+    P: lfedge/edgex-foundry
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
     F: "2019-03-08"
     P: lfedge/edgex-foundry
     R: C
@@ -3147,6 +3296,9 @@ P:
     M: Alex Courouble
     S: github
     U: alexcourouble
+  - E: acourouble!vmware.com
+    M: Alexandre Courouble
+    S: groupsio
   - E: acourouble!vmware.com
     M: Alex Courouble
     S: slack
@@ -5146,6 +5298,34 @@ P:
     U: huntie
   B: 0
   U: Alex Hunt
+- E: alexhoward!nova.org.za
+  R:
+  - T: "2014-11-01"
+    C: University of Pretoria
+    F: "2011-07-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2015-06-01"
+    C: University of Pretoria
+    F: "2015-01-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: Nova Institute
+    F: "2015-07-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2020-07-01"
+    C: The Linux Foundation
+    F: "2020-06-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  I:
+  - E: alexhoward!nova.org.za
+    M: Alex Ivan Howard
+    S: groupsio
+  B: 0
+  U: Alex Ivan Howard
 - C: CN
   E: chuanchang.jia!gmail.com
   R:
@@ -6319,6 +6499,9 @@ P:
   - E: alex!buoyant.io
     M: Alex Leong
     S: git
+  - E: alex!buoyant.io
+    M: Alex Leong
+    S: groupsio
   B: 0
   U: Alex Leong
 - E: 37639249+alevene!users.noreply.github.com
@@ -10197,6 +10380,11 @@ P:
     F: "2017-12-01"
     P: argo
     R: C
+  - T: "2019-09-01"
+    C: Independent
+    F: "2017-12-01"
+    P: prometheus
+    R: C
   - T: "2100-01-01"
     C: ThousandEyes
     F: "2019-09-01"
@@ -10610,17 +10798,17 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-12-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-12-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-12-01"
     P: jenkins
     R: C
@@ -10643,12 +10831,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-12-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-12-01"
     P: jenkins
     R: C
@@ -10671,12 +10859,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-12-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-12-01"
     P: jenkins
     R: C
@@ -15728,7 +15916,7 @@ P:
     P: cloudevents
     R: C
   - T: "2100-01-01"
-    C: Oracle
+    C: Oracle America Inc.
     F: "2019-07-01"
     P: cloudevents
     R: C
@@ -22911,6 +23099,11 @@ P:
     C: Freebox
     F: "2004-03-01"
     P: danos
+    R: C
+  - T: "2010-07-01"
+    C: Freebox
+    F: "2004-03-01"
+    P: elisa
     R: C
   I:
   - E: acassen!freebox.fr
@@ -33550,12 +33743,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-06-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-06-01"
     P: jenkins
     R: C
@@ -33573,12 +33766,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-06-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-06-01"
     P: jenkins
     R: C
@@ -33596,12 +33789,12 @@ P:
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-06-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2015-06-01"
     P: jenkins
     R: C
@@ -35316,17 +35509,17 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2016-03-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2016-03-01"
     P: cncf/operatorframework
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2016-03-01"
     P: k8s
     R: C
@@ -35367,17 +35560,17 @@ P:
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2016-03-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2016-03-01"
     P: cncf/operatorframework
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2016-03-01"
     P: k8s
     R: C
@@ -35391,46 +35584,46 @@ P:
 - E: alois!reitbauer.cc
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: cncf/keptn
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: cncf/tremor
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: fluxcd
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: openmetrics
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentelemetry
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: opentracing
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: vitess
     R: C
@@ -37095,11 +37288,11 @@ P:
     P: cncf/shared
     R: C
   - T: "2018-02-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2016-03-01"
     R: C
   - T: "2018-02-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2016-03-01"
     P: cncf/shared
     R: C
@@ -39287,6 +39480,9 @@ P:
   - E: akotian!slack-corp.com
     M: Ameet Kotian
     S: git
+  - E: akotian!slack-corp.com
+    M: Ameet Kotian
+    S: groupsio
   B: 0
   U: Ameet Kotian
 - E: aajdinov!users.noreply.github.com
@@ -44840,11 +45036,11 @@ P:
     P: k8s
     R: C
   - T: "2017-10-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-03-01"
     R: C
   - T: "2017-10-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-03-01"
     P: k8s
     R: C
@@ -44943,11 +45139,11 @@ P:
     P: k8s
     R: C
   - T: "2017-10-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-03-01"
     R: C
   - T: "2017-10-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-03-01"
     P: k8s
     R: C
@@ -45046,11 +45242,11 @@ P:
     P: k8s
     R: C
   - T: "2017-10-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-03-01"
     R: C
   - T: "2017-10-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2017-03-01"
     P: k8s
     R: C
@@ -45420,68 +45616,15 @@ P:
     U: amygdala
   B: 0
   U: Amy
-- R:
-  - T: "2014-04-01"
-    C: Acquia, Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2014-04-01"
-    C: Acquia, Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-03-01"
-    C: Phase2
-    F: "2014-04-01"
-    R: C
-  - T: "2015-03-01"
-    C: Phase2
-    F: "2014-04-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-03-01"
-    R: C
-  - T: "2015-08-01"
-    C: Independent
-    F: "2015-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2019-04-01"
-    C: Red Hat Inc.
-    F: "2015-08-01"
-    R: C
-  - T: "2019-04-01"
-    C: Red Hat Inc.
-    F: "2015-08-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2015-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2019-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2019-04-01"
-    P: cncf/shared
-    R: C
-  S: female
-  I:
-  - M: Amye Scavarda Perrin
-    S: github
-    U: amye
-  B: 0
-  U: Amye Scavarda Perrin
 - E: amye!linuxfoundation.org
   R:
   - T: "2014-04-01"
     C: Acquia, Inc.
     F: "1900-01-01"
+    R: C
+  - T: "2014-04-01"
+    C: Acquia, Inc.
+    F: "1900-01-01"
     P: Volcano
     R: C
   - T: "2014-04-01"
@@ -45493,6 +45636,11 @@ P:
     C: Acquia, Inc.
     F: "1900-01-01"
     P: cncf
+    R: C
+  - T: "2014-04-01"
+    C: Acquia, Inc.
+    F: "1900-01-01"
+    P: cncf/shared
     R: C
   - T: "2014-04-01"
     C: Acquia, Inc.
@@ -45517,6 +45665,10 @@ P:
   - T: "2015-03-01"
     C: Phase2
     F: "2014-04-01"
+    R: C
+  - T: "2015-03-01"
+    C: Phase2
+    F: "2014-04-01"
     P: Volcano
     R: C
   - T: "2015-03-01"
@@ -45528,6 +45680,11 @@ P:
     C: Phase2
     F: "2014-04-01"
     P: cncf
+    R: C
+  - T: "2015-03-01"
+    C: Phase2
+    F: "2014-04-01"
+    P: cncf/shared
     R: C
   - T: "2015-03-01"
     C: Phase2
@@ -45552,6 +45709,10 @@ P:
   - T: "2015-08-01"
     C: Independent
     F: "2015-03-01"
+    R: C
+  - T: "2015-08-01"
+    C: Independent
+    F: "2015-03-01"
     P: Volcano
     R: C
   - T: "2015-08-01"
@@ -45563,6 +45724,11 @@ P:
     C: Independent
     F: "2015-03-01"
     P: cncf
+    R: C
+  - T: "2015-08-01"
+    C: Independent
+    F: "2015-03-01"
+    P: cncf/shared
     R: C
   - T: "2015-08-01"
     C: Independent
@@ -45598,6 +45764,11 @@ P:
     C: Red Hat Inc.
     F: "2015-08-01"
     P: cncf
+    R: C
+  - T: "2019-04-01"
+    C: Red Hat Inc.
+    F: "2015-08-01"
+    P: cncf/shared
     R: C
   - T: "2019-04-01"
     C: Red Hat Inc.
@@ -45620,6 +45791,14 @@ P:
     P: thanos
     R: C
   - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2015-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-04-01"
+    R: C
+  - T: "2100-01-01"
     C: CNCF
     F: "2019-04-01"
     P: Volcano
@@ -45633,6 +45812,11 @@ P:
     C: CNCF
     F: "2019-04-01"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: CNCF
+    F: "2019-04-01"
+    P: cncf/shared
     R: C
   - T: "2100-01-01"
     C: CNCF
@@ -45659,14 +45843,21 @@ P:
     F: "2019-04-01"
     P: thanos
     R: C
+  S: female
   I:
   - E: amye!linuxfoundation.org
     M: Amye Scavarda Perrin
     S: git
+  - M: Amye Scavarda Perrin
+    S: github
+    U: amye
   - E: amye!linuxfoundation.org
     M: Amye Scavarda Perrin
     S: github
     U: amye
+  - E: ascavarda!linuxfoundation.org
+    M: Amye Scavarda Perrin
+    S: groupsio
   B: 0
   U: Amye Scavarda Perrin
 - R:
@@ -51437,6 +51628,42 @@ P:
     U: Aoana
   B: 0
   U: Anders Markendahl
+- E: github!nanders.com
+  R:
+  - T: "2000-04-01"
+    C: Undervisningsministeriet
+    F: "1997-03-01"
+    P: helm
+    R: C
+  - T: "2005-01-01"
+    C: IBM
+    F: "2004-08-01"
+    P: helm
+    R: C
+  - T: "2006-11-01"
+    C: Karnov Group
+    F: "2005-02-01"
+    P: helm
+    R: C
+  - T: "2019-07-01"
+    C: Praqma
+    F: "2018-10-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Coop Danmark
+    F: "2019-08-01"
+    P: helm
+    R: C
+  I:
+  - E: github!nanders.com
+    M: Anders Nyvang
+    S: git
+  - M: Anders Nyvang
+    S: github
+    U: nyvanga
+  B: 0
+  U: Anders Nyvang
 - C: US
   E: tapitman11!gmail.com
   R:
@@ -52395,6 +52622,9 @@ P:
     M: Andras Babos
     S: gerrit
     U: andrasb
+  - E: andras.babos!ericsson.com
+    M: András Babós
+    S: groupsio
   - M: Andras Babos
     S: jira
     U: andrasb
@@ -53134,6 +53364,11 @@ P:
     C: esatus, AG
     F: "2013-12-01"
     P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: esatus, AG
+    F: "2013-12-01"
+    P: hyperledger/shared
     R: C
   I:
   - M: Andre Kudra
@@ -56803,7 +57038,7 @@ P:
   U: Andreas Gerstmayr
 - R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: cncf/keptn
     R: C
@@ -56844,31 +57079,31 @@ P:
     P: nats
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: argo
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: cloudevents
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: cncf/keptn
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: nats
     R: C
@@ -56906,26 +57141,26 @@ P:
     P: cncf/keptn
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: argo
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: cloudevents
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: cncf/keptn
     R: C
@@ -56953,16 +57188,16 @@ P:
     P: cncf/keptn
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: cloudevents
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2019-02-01"
     P: cncf/keptn
     R: C
@@ -57369,6 +57604,9 @@ P:
   - E: jaegerandi!gmail.com
     M: Andreas Jaeger
     S: git
+  - E: aj!suse.com
+    M: Andreas Jaeger
+    S: groupsio
   B: 0
   U: Andreas Jaeger
 - E: jaekel!cablecats.de
@@ -61915,180 +62153,3 @@ P:
     S: git
   B: 0
   U: Andrej Vano
-- R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - M: Andrej Vaňo
-    S: github
-    U: avano
-  B: 0
-  U: Andrej Vaňo
-- E: andrej.zan!pantheon.sk
-  R:
-  - T: "2019-03-22"
-    C: PANTHEON.tech
-    F: "2015-07-01"
-    P: dpdk
-    R: C
-  - T: "2019-03-22"
-    C: PANTHEON.tech
-    F: "2015-07-01"
-    P: odl
-    R: C
-  - T: "2100-01-01"
-    C: PANTHEON.tech
-    F: "2018-04-05"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: PANTHEON.tech
-    F: "2018-04-05"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: PANTHEON.tech
-    F: "2018-04-05"
-    P: onap
-    R: C
-  I:
-  - M: Andrej Záň
-    S: confluence
-    U: andrej.zan
-  - E: andrej.zan!pantheon.sk
-    M: Andrej Zan
-    S: gerrit
-    U: andrej.zan
-  - E: andrej.zan!pantheon.tech
-    M: Andrej Záň
-    S: gerrit
-    U: andrej.zan
-  - E: andrej.zan!pantheon.sk
-    M: Andrej Záň
-    S: git
-  - E: andrej.zan!pantheon.tech
-    M: Andrej Záň
-    S: git
-  - E: andrej.zan!pantheon.tech
-    M: Andrej Zan
-    S: groupsio
-  - E: andrej.zan!pantheon.sk
-    M: Andrej Záň
-    S: groupsio
-  - E: andrej.zan!pantheon.tech
-    M: Andrej Zan
-    S: jira
-    U: andrej.zan
-  - M: Andrej Záň
-    S: jira
-    U: andrej.zan
-  - E: andrej.zan!pantheon.sk
-    M: Andrej Zan
-    S: pipermail
-  - E: andrej.zan!pantheon.tech
-    M: Andrej Zan
-    S: pipermail
-  B: 0
-  U: Andrej Zan
-- E: andrejvanderzee!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: FinTech
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: FinTech
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: FinTech
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: andrejvanderzee!gmail.com
-    M: Andrej van der Zee
-    S: git
-  - E: andrejvanderzee!gmail.com
-    M: andrejvanderzee
-    S: git
-  - E: andrejvanderzee!gmail.com
-    M: Andrej van der Zee
-    S: github
-    U: andrejvanderzee
-  B: 0
-  U: Andrej van der Zee
-- E: andrejs.cainikovs!gmail.com
-  R:
-  - T: "2006-04-01"
-    C: Ingenico Group
-    F: "2005-03-01"
-    P: lfai/amundsen
-    R: C
-  - T: "2009-08-01"
-    C: Global Automation Systems
-    F: "2006-04-01"
-    P: lfai/amundsen
-    R: C
-  - T: "2010-04-01"
-    C: Hypercom
-    F: "2009-08-01"
-    P: lfai/amundsen
-    R: C
-  - T: "2015-05-01"
-    C: Sony Mobile Communications
-    F: "2010-04-01"
-    P: a092m00001iv4dqqal
-    R: C
-  - T: "2015-05-01"
-    C: Sony Mobile Communications
-    F: "2010-04-01"
-    P: lfai/amundsen
-    R: C
-  - T: "2015-12-01"
-    C: Intel Corporation
-    F: "2015-06-01"
-    P: lfai/amundsen
-    R: C
-  - T: "2016-09-01"
-    C: Airdog Inc
-    F: "2016-02-01"
-    P: lfai/amundsen
-    R: C
-  - T: "2018-06-01"
-    C: Cobham SATCOM
-    F: "2016-10-01"
-    P: lfai/amundsen
-    R: C
-  - T: "2020-08-01"
-    C: NetModule AG
-    F: "2018-06-01"
-    P: lfai/amundsen
-    R: C
-  - T: "2020-08-01"
-    C: NetModule AG
-    F: "2018-07-01"
-    P: zep
-    R: C
-  I:
-  - E: andrejs.cainikovs!gmail.com
-    M: Andrejs Cainikovs
-    S: git
-  - M: Andrejs Cainikovs
-    S: github
-    U: dieselburner
-  - E: andrejs.cainikovs!gmail.com
-    M: Andrejs Cainikovs
-    S: slack
-    U: andrejs.cainikovs
-  B: 0
-  U: Andrejs Cainikovs

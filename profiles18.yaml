@@ -1,4 +1,180 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  S: male
+  I:
+  - M: Markos Chandras
+    S: github
+    U: hwoarang
+  B: 0
+  U: Markos Chandras
+- E: hwoarang!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: thanos
+    R: C
+  I:
+  - E: hwoarang!users.noreply.github.com
+    M: Markos Chandras
+    S: git
+  B: 0
+  U: Markos Chandras
+- E: lf!silverarrow.org
+  R:
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: rkt
+    R: C
+  - T: "2017-05-02"
+    C: SUSE LLC
+    F: "2016-03-22"
+    P: dpdk-draft
+    R: C
+  - T: "2017-05-02"
+    C: SUSE LLC
+    F: "2016-03-22"
+    P: dpdk-next
+    R: C
+  - T: "2017-06-14"
+    C: SUSE LLC
+    F: "2016-03-22"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2017-06-14"
+    C: SUSE LLC
+    F: "2016-03-22"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "2016-07-01"
+    P: opnfv
+    R: C
+  S: male
+  I:
+  - M: Markos Chandras
+    S: confluence
+    U: mchandras
+  - E: mchandras!suse.de
+    M: Markos Chandras (hwoarang)
+    S: gerrit
+    U: mchandras
+  - E: lf!silverarrow.org
+    M: Markos Chandras
+    S: gerrit
+    U: mchandras
+  - E: mchandras!suse.de
+    M: Markos Chandras
+    S: gerrit
+  - E: mchandras!suse.de
+    M: Markos Chandras
+    S: gerrit
+    U: mchandras
+  - E: mchandras!suse.de
+    M: Markos Chandras
+    S: git
+  - E: mchandras!suse.de
+    M: Markos Chandras
+    S: groupsio
+  - M: Markos Chandras
+    S: jira
+    U: mchandras
+  - E: mchandras!suse.de
+    M: Markos Chandras
+    S: jira
+    U: mchandras
+  - E: mchandras!suse.de
+    M: Markos Chandras
+    S: pipermail
+  B: 0
+  U: Markos Chandras
+- E: armbru!redhat.com
+  R:
+  - T: "2017-05-10"
+    C: Red Hat Inc.
+    F: "2009-06-16"
+    P: cephfoundation
+    R: C
+  - T: "2017-05-10"
+    C: Red Hat Inc.
+    F: "2009-06-16"
+    P: zep
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2017-03-30"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2017-03-30"
+    P: dpdk
+    R: C
+  I:
+  - E: armbru!redhat.com
+    M: Markus Armbruster
+    S: git
+  - E: armbru!redhat.com
+    M: Markus Armbruster
+    S: pipermail
+  B: 0
+  U: Markus Armbruster
 - C: AT
   E: paidhi!mospheira.net
   R:
@@ -4586,11 +4762,11 @@ P:
   E: martin!etmajer.com
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: cncf/shared
     R: C
@@ -4608,17 +4784,17 @@ P:
   E: metmajer!getcloudnative.io
   R:
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "1900-01-01"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Dynatrace
+    C: Dynatrace LLC
     F: "2016-04-13"
     P: cloud-foundry/cloud-foundry
     R: C
@@ -5375,6 +5551,12 @@ P:
   - E: martin.hickey!ie.ibm.com
     M: Martin Hickey
     S: git
+  - E: martin.hickey!ie.ibm.com
+    M: Martin Hickey
+    S: groupsio
+  - E: martin.hickey!ie.ibm.com
+    M: martin.hickey
+    S: groupsio
   B: 0
   U: Martin Hickey
 - C: CA
@@ -11333,6 +11515,11 @@ P:
   - T: "2100-01-01"
     C: Weaveworks
     F: "2018-05-31"
+    P: cncf/backstage
+    R: C
+  - T: "2100-01-01"
+    C: Weaveworks
+    F: "2018-05-31"
     P: k8s
     R: C
   I:
@@ -13811,6 +13998,11 @@ P:
     C: Mercari
     F: "2018-03-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Mercari
+    F: "2018-03-01"
+    P: gql
     R: C
   I:
   - E: vvakame+dev!gmail.com
@@ -21129,6 +21321,29 @@ P:
     S: git
   B: 0
   U: Mathilde Ffrench
+- E: mathis!cri.epita.fr
+  R:
+  - T: "2020-02-01"
+    C: EPITA
+    F: "2017-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: BlaBlaCar
+    F: "2020-02-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: BlaBlaCar
+    F: "2020-02-01"
+    P: k8s
+    R: C
+  I:
+  - E: mathis!cri.epita.fr
+    M: Mathis Raguin
+    S: git
+  B: 0
+  U: Mathis Raguin
 - E: mathi.naickan!oracle.com
   R:
   - T: "2016-02-18"
@@ -22110,6 +22325,9 @@ P:
     M: Matt Baldwin
     S: github
     U: baldwinSPC
+  - E: baldwin!stackpointcloud.com
+    M: Matt Baldwin
+    S: groupsio
   B: 0
   U: Matt Baldwin
 - E: matt.barlow!rackspace.com
@@ -22784,17 +23002,17 @@ P:
     P: lfai/lfai
     R: C
   - T: "2015-12-01"
-    C: Basho
+    C: Basho Technologies, Inc.
     F: "2014-12-01"
     P: cncf
     R: C
   - T: "2015-12-01"
-    C: Basho
+    C: Basho Technologies, Inc.
     F: "2014-12-01"
     P: k8s
     R: C
   - T: "2015-12-01"
-    C: Basho
+    C: Basho Technologies, Inc.
     F: "2014-12-01"
     P: lfai/lfai
     R: C
@@ -22862,12 +23080,12 @@ P:
     P: k8s
     R: C
   - T: "2015-12-01"
-    C: Basho
+    C: Basho Technologies, Inc.
     F: "2014-12-01"
     P: cncf
     R: C
   - T: "2015-12-01"
-    C: Basho
+    C: Basho Technologies, Inc.
     F: "2014-12-01"
     P: k8s
     R: C
@@ -23522,6 +23740,9 @@ P:
     M: Matt Butcher
     S: github
     U: technosophos
+  - E: matt.butcher!microsoft.com
+    M: Matt Butcher
+    S: groupsio
   B: 0
   U: Matt Butcher
 - C: US
@@ -24792,497 +25013,135 @@ P:
   B: 0
   U: Matt Ezell
 - C: US
-  R:
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: brigade
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: cloudevents
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: cncf/artifacthub
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: brigade
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cloudevents
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/artifacthub
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: fluxcd
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: harbor
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: helm
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: k8s
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: brigade
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: cloudevents
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: cncf
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: cncf/artifacthub
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: fluxcd
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: harbor
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: helm
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: k8s
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: brigade
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cloudevents
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/artifacthub
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/operatorframework
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: fluxcd
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: harbor
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: helm
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cloudevents
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/artifacthub
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: cloudevents
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: cncf/artifacthub
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Matt Farina
-    S: github
-    U: mattfarina
-  B: 0
-  U: Matt Farina
-- C: US
   E: matt!mattfarina.com
   R:
-  - T: "2015-10-31"
+  - T: "2017-06-23"
+    C: HP
+    F: "1900-01-01"
+    R: C
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: argo
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: baetyl
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
+    C: HP
+    F: "1900-01-01"
+    P: brigade
+    R: C
+  - T: "2017-06-23"
+    C: HP
+    F: "1900-01-01"
+    P: cloudevents
+    R: C
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: cncf
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: cncf/artifacthub
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: cncf/cnigenie
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: cncf/contour
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: cncf/k3s
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: cncf/keptn
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
+    C: HP
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: cncf/tremor
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: fluxcd
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
+    C: HP
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: helm
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: intoto
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: k8s
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: linkerd
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: nats
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: openebs
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: pnda
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: thanos
     R: C
-  - T: "2015-10-31"
+  - T: "2017-06-23"
     C: HP
     F: "1900-01-01"
     P: vitess
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: argo
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: baetyl
     R: C
   - T: "2017-06-23"
     C: HP
     F: "2015-10-31"
     P: cdf-jenkins-x
     R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/artifacthub
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/cnigenie
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/contour
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/k3s
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/keptn
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/tremor
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: fluxcd
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: helm
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: intoto
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: k8s
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: linkerd
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: nats
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: openebs
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: pnda
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: thanos
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: vitess
+  - T: "2017-08-15"
+    C: Innovating Tomorrow
+    F: "2017-06-23"
     R: C
   - T: "2017-08-15"
     C: Innovating Tomorrow
@@ -25293,6 +25152,11 @@ P:
     C: Innovating Tomorrow
     F: "2017-06-23"
     P: baetyl
+    R: C
+  - T: "2017-08-15"
+    C: Innovating Tomorrow
+    F: "2017-06-23"
+    P: brigade
     R: C
   - T: "2017-08-15"
     C: Innovating Tomorrow
@@ -25302,6 +25166,11 @@ P:
   - T: "2017-08-15"
     C: Innovating Tomorrow
     F: "2017-06-23"
+    P: cloudevents
+    R: C
+  - T: "2017-08-15"
+    C: Innovating Tomorrow
+    F: "2017-06-23"
     P: cncf
     R: C
   - T: "2017-08-15"
@@ -25332,12 +25201,22 @@ P:
   - T: "2017-08-15"
     C: Innovating Tomorrow
     F: "2017-06-23"
+    P: cncf/operatorframework
+    R: C
+  - T: "2017-08-15"
+    C: Innovating Tomorrow
+    F: "2017-06-23"
     P: cncf/tremor
     R: C
   - T: "2017-08-15"
     C: Innovating Tomorrow
     F: "2017-06-23"
     P: fluxcd
+    R: C
+  - T: "2017-08-15"
+    C: Innovating Tomorrow
+    F: "2017-06-23"
+    P: harbor
     R: C
   - T: "2017-08-15"
     C: Innovating Tomorrow
@@ -25384,90 +25263,9 @@ P:
     F: "2017-06-23"
     P: vitess
     R: C
-  - T: "2020-09-12"
+  - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2017-08-15"
-    P: argo
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/artifacthub
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/cnigenie
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/contour
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/k3s
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/keptn
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: cncf/tremor
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: fluxcd
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: helm
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: intoto
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: k8s
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: linkerd
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: nats
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: openebs
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: thanos
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: vitess
     R: C
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
@@ -25482,7 +25280,17 @@ P:
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2017-08-15"
+    P: brigade
+    R: C
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2017-08-15"
     P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2017-08-15"
+    P: cloudevents
     R: C
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
@@ -25517,12 +25325,22 @@ P:
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2017-08-15"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2017-08-15"
     P: cncf/tremor
     R: C
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
     F: "2017-08-15"
     P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Samsung Electronics Co. Ltd.
+    F: "2017-08-15"
+    P: harbor
     R: C
   - T: "2100-01-01"
     C: Samsung Electronics Co. Ltd.
@@ -25580,87 +25398,107 @@ P:
     P: vitess
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: argo
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
+    F: "2020-09-12"
+    P: brigade
+    R: C
+  - T: "2100-01-01"
+    C: Rancher Labs Inc.
+    F: "2020-09-12"
+    P: cloudevents
+    R: C
+  - T: "2100-01-01"
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: cncf/artifacthub
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: cncf/cnigenie
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: cncf/contour
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: cncf/keptn
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
+    F: "2020-09-12"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: cncf/tremor
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: fluxcd
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
+    F: "2020-09-12"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: intoto
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: k8s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: linkerd
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: nats
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: openebs
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: thanos
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-09-12"
     P: vitess
     R: C
@@ -25669,62 +25507,21 @@ P:
   - E: matt!mattfarina.com
     M: Matt Farina
     S: git
-  B: 0
-  U: Matt Farina
-- C: US
-  E: matthew.farina!hpe.com
-  R:
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    R: C
-  - T: "2017-06-23"
-    C: HP
-    F: "2015-10-31"
-    P: helm
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    R: C
-  - T: "2017-08-15"
-    C: Innovating Tomorrow
-    F: "2017-06-23"
-    P: helm
-    R: C
-  - T: "2020-09-12"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    R: C
-  - T: "2100-01-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2017-08-15"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Rancher Labs
-    F: "2020-09-12"
-    P: helm
-    R: C
-  S: male
-  I:
+  - E: matt.farina!rancher.com
+    M: Matt Farina
+    S: git
   - E: matthew.farina!hpe.com
     M: Matt Farina
     S: git
+  - M: Matt Farina
+    S: github
+    U: mattfarina
+  - E: matt!mattfarina.com
+    M: Matt Farina
+    S: groupsio
+  - E: matt.farina!gmail.com
+    M: Matt Farina
+    S: groupsio
   B: 0
   U: Matt Farina
 - C: US
@@ -25922,10 +25719,18 @@ P:
     F: "1900-01-01"
     P: cncf/shared
     R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: helm
+    R: C
   I:
   - E: matt.fisher!microsoft.com
     M: Matt Fisher
     S: git
+  - E: matt.fisher!microsoft.com
+    M: Matt Fisher
+    S: groupsio
   B: 0
   U: Matt Fisher
 - E: matt!codeblueprint.co.uk
@@ -27953,6 +27758,9 @@ P:
     U: mattklein123
   - E: mattklein123!gmail.com
     M: Matt Klein
+    S: groupsio
+  - E: mattklein123!gmail.com
+    M: Matt Klein
     S: slack
     U: mklein
   B: 0
@@ -28137,6 +27945,9 @@ P:
     M: Matt Klein
     S: github
     U: mattklein123
+  - E: mklein!lyft.com
+    M: Matt Klein
+    S: groupsio
   B: 0
   U: Matt Klein
 - R:
@@ -28748,6 +28559,9 @@ P:
   - E: mml!google.com
     M: Matt Liggett
     S: git
+  - E: mml!google.com
+    M: Matt Liggett
+    S: groupsio
   B: 0
   U: Matt Liggett
 - C: US
@@ -29412,19 +29226,6 @@ P:
   - M: Matt Mendick
     S: github
     U: mattmendick
-  B: 0
-  U: Matt Mendick
-- E: matt.mendick!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Grafana Labs
-    F: "1900-01-01"
-    P: cortex
-    R: C
-  I:
-  - E: matt.mendick!gmail.com
-    M: Matt Mendick
-    S: git
   B: 0
   U: Matt Mendick
 - E: matchell!outlook.com
@@ -31800,17 +31601,17 @@ P:
 - E: boards!gmail.com
   R:
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: jenkins
     R: C
@@ -31823,17 +31624,17 @@ P:
 - E: mattsicker!apache.org
   R:
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: jenkins
     R: C
@@ -31847,12 +31648,12 @@ P:
 - E: msicker!cloudbees.com
   R:
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: jenkins
     R: C
@@ -32118,6 +31919,11 @@ P:
     F: "1900-01-01"
     P: opencolorio
     R: C
+  - T: "2100-01-01"
+    C: ARM
+    F: "1900-01-01"
+    P: opnfv
+    R: C
   - T: "2016-11-25"
     C: ARM
     F: "2016-10-28"
@@ -32132,6 +31938,9 @@ P:
   - E: matt.spencer!arm.com
     M: Matt Spencer
     S: git
+  - E: Matt.Spencer!arm.com
+    M: Matt Spencer
+    S: groupsio
   - E: Matt.Spencer!arm.com
     M: Matt Spencer
     S: pipermail
@@ -33130,6 +32939,9 @@ P:
     M: Matt Young
     S: github
     U: halcyondude
+  - E: myoung!everquote.com
+    M: Matt Young
+    S: groupsio
   B: 0
   U: Matt Young
 - E: matt!bennett.name
@@ -34950,7 +34762,7 @@ P:
     P: k8s
     R: C
   - T: "2015-12-01"
-    C: Basho
+    C: Basho Technologies, Inc.
     F: "2014-12-01"
     P: k8s
     R: C
@@ -35188,6 +35000,19 @@ P:
     S: git
   B: 0
   U: Matthew Carleton
+- E: mattcary!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "2019-11-01"
+    P: k8s
+    R: C
+  I:
+  - E: mattcary!google.com
+    M: Matthew Cary
+    S: git
+  B: 0
+  U: Matthew Cary
 - E: matthewc!hp.com
   R:
   - T: "2100-01-01"
@@ -35744,6 +35569,11 @@ P:
     C: Scott Logic
     F: "1900-01-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Scott Logic
+    F: "1900-01-01"
+    P: finos
     R: C
   - T: "2100-01-01"
     C: Scott Logic
@@ -37646,7 +37476,7 @@ P:
     P: longhorn
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2019-01-01"
     P: longhorn
     R: C
@@ -39608,6 +39438,11 @@ P:
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "1900-01-01"
+    P: finos
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
     P: kubevirt
     R: C
   I:
@@ -39622,6 +39457,11 @@ P:
     C: Red Hat Inc.
     F: "1900-01-01"
     P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: finos
     R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
@@ -39748,69 +39588,6 @@ P:
   - M: Matthew Wear
     S: github
     U: mwear
-  B: 0
-  U: Matthew Wear
-- E: matthew.wear!gmail.com
-  R:
-  - T: "2015-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: opentelemetry
-    R: C
-  - T: "2015-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: opentracing
-    R: C
-  - T: "2019-09-01"
-    C: New Relic
-    F: "2015-01-01"
-    R: C
-  - T: "2019-09-27"
-    C: New Relic
-    F: "2015-01-01"
-    R: C
-  - T: "2019-09-27"
-    C: New Relic
-    F: "2015-01-01"
-    P: opentelemetry
-    R: C
-  - T: "2019-09-27"
-    C: New Relic
-    F: "2015-01-01"
-    P: opentracing
-    R: C
-  - T: "2100-01-01"
-    C: New Relic
-    F: "2015-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: LightStep
-    F: "2019-09-01"
-    R: C
-  - T: "2100-01-01"
-    C: LightStep
-    F: "2019-09-27"
-    R: C
-  - T: "2100-01-01"
-    C: LightStep
-    F: "2019-09-27"
-    P: opentelemetry
-    R: C
-  - T: "2100-01-01"
-    C: LightStep
-    F: "2019-09-27"
-    P: opentracing
-    R: C
-  S: male
-  I:
-  - E: matthew.wear!gmail.com
-    M: Matthew Wear
-    S: git
   B: 0
   U: Matthew Wear
 - E: Matthew.Weigel!freescale.com
@@ -42046,6 +41823,11 @@ P:
   U: Matthias Runge
 - E: schellmax01!gmail.com
   R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: a092m00001iv4dqqal
+    R: C
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
@@ -46293,6 +46075,43 @@ P:
     U: mauro91
   B: 0
   U: Mauro Sardara
+- E: mauro.stettler!gmail.com
+  R:
+  - T: "2007-03-01"
+    C: Swisscom
+    F: "2005-10-01"
+    P: cortex
+    R: C
+  - T: "2015-11-01"
+    C: Net Access
+    F: "2015-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2015-11-01"
+    C: Net Access
+    F: "2015-01-01"
+    P: cortex
+    R: C
+  - T: "2016-11-01"
+    C: Facebook, Inc.
+    F: "2016-03-01"
+    P: cortex
+    R: C
+  - T: "2100-01-01"
+    C: Grafana Labs
+    F: "2016-11-01"
+    P: cortex
+    R: C
+  I:
+  - E: mauro.stettler!gmail.com
+    M: Mauro Stettler
+    S: git
+  - E: mauro.stettler!gmail.com
+    M: Mauro Stettler
+    S: github
+    U: replay
+  B: 0
+  U: Mauro Stettler
 - E: masbock!us.ibm.com
   R:
   - T: "2100-01-01"
@@ -47409,46 +47228,7 @@ P:
   B: 0
   U: Max Inden
 - C: DE
-  R:
-  - T: "2017-09-01"
-    C: Just Software
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2017-09-01"
-    C: Just Software
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-02-01"
-    C: Hermes Germany
-    F: "2017-09-01"
-    P: cncf/kudo
-    R: C
-  - T: "2019-02-01"
-    C: Hermes Germany
-    F: "2017-09-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: D2iQ
-    F: "2019-02-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: D2iQ
-    F: "2019-02-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Max Jonas Werner
-    S: github
-    U: makkes
-  B: 0
-  U: Max Jonas Werner
-- C: DE
-  E: makkes!users.noreply.github.com
+  E: mwerner!d2iq.com
   R:
   - T: "2017-09-01"
     C: Just Software
@@ -47487,9 +47267,18 @@ P:
     R: C
   S: male
   I:
+  - E: mail!makk.es
+    M: Max Jonas Werner
+    S: git
   - E: makkes!users.noreply.github.com
     M: Max Jonas Werner
     S: git
+  - E: mwerner!d2iq.com
+    M: Max Jonas Werner
+    S: git
+  - M: Max Jonas Werner
+    S: github
+    U: makkes
   B: 0
   U: Max Jonas Werner
 - R:
@@ -47734,6 +47523,22 @@ P:
     U: mkutsevol
   B: 0
   U: Max Kutsevol
+- E: max!koerbaecher.io
+  R:
+  - T: "2100-01-01"
+    C: Storm Reply
+    F: "2018-09-01"
+    P: k8s
+    R: C
+  I:
+  - E: m.koerbaecher!reply.de
+    M: Max Körbächer
+    S: git
+  - E: max!koerbaecher.io
+    M: Max Körbächer
+    S: git
+  B: 0
+  U: Max Körbächer
 - C: DE
   E: max.lavrenov!optiopay.com
   R:
@@ -48824,7 +48629,7 @@ P:
 - E: max!rancher.com
   R:
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf/k3s
     R: C
@@ -53925,11 +53730,6 @@ P:
     F: "2019-05-01"
     P: k8s
     R: C
-  - T: "2019-07-01"
-    C: CodePark
-    F: "2019-05-01"
-    P: linkerd
-    R: C
   - T: "2100-01-01"
     C: CodePark
     F: "2019-05-01"
@@ -53968,6 +53768,9 @@ P:
     M: Mayank Shah
     S: github
     U: mayankshah1607
+  - E: mayankshah1614!gmail.com
+    M: Mayank Shah
+    S: groupsio
   B: 0
   U: Mayank Shah
 - E: mayank.tiwary!sap.com
@@ -56557,11 +56360,6 @@ P:
   - T: "2019-04-01"
     C: Google
     F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2019-04-01"
-    C: Google
-    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2019-04-01"
@@ -56615,6 +56413,9 @@ P:
   - E: mehdy!google.com
     M: mbohlool
     S: git
+  - E: mehdy!google.com
+    M: Mehdy Bohlool
+    S: groupsio
   B: 0
   U: Mehdy Bohlool
 - C: IR
@@ -57953,22 +57754,12 @@ P:
   - T: "2017-07-01"
     C: Rackspace
     F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2017-07-01"
-    C: Rackspace
-    F: "1900-01-01"
     P: cncf
     R: C
   - T: "2017-07-01"
     C: Rackspace
     F: "1900-01-01"
     P: k8s
-    R: C
-  - T: "2017-07-01"
-    C: Rackspace
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
     R: C
   - T: "2100-01-01"
     C: Rackspace
@@ -58033,6 +57824,9 @@ P:
   - M: Melvin Hillsman
     S: github
     U: mrhillsman
+  - E: mrhillsman!gmail.com
+    M: Melvin Hillsman
+    S: groupsio
   - E: mrhillsman!gmail.com
     M: Melvin Hillsman
     S: slack
@@ -58155,6 +57949,9 @@ P:
     M: Melvin Sun
     S: confluence
     U: Melvin_Sun
+  - E: melvin.sun!intel.com
+    M: melvin.sun
+    S: groupsio
   - E: melvin.sun!intel.com
     M: Melvin Sun
     S: slack
@@ -58827,7 +58624,7 @@ P:
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-05-01"
     P: cncf/k3s
     R: C
@@ -62351,3 +62148,83 @@ P:
     U: MichaelBrandt4994
   B: 0
   U: Michael Brandt
+- E: michael.bredel!cern.ch
+  R:
+  - T: "2100-01-01"
+    C: CERN
+    F: "2014-03-31"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: CERN
+    F: "2014-03-31"
+    P: odl
+    R: C
+  I:
+  - E: michael.bredel!cern.ch
+    M: Michael Bredel
+    S: gerrit
+    U: mbredel
+  - E: michael.bredel!cern.ch
+    M: Michael Bredel
+    S: git
+  - E: michael!bredel.at
+    M: Michael Bredel
+    S: pipermail
+  - E: michael.bredel!cern.ch
+    M: Michael Bredel
+    S: pipermail
+  B: 0
+  U: Michael Bredel
+- E: brenndo!de.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2017-03-09"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: brenndo!de.ibm.com
+    M: Michael Brenndoerfer
+    S: slack
+    U: michaelb
+  B: 0
+  U: Michael Brenndoerfer
+- E: michael!cloudify.co
+  R:
+  - T: "2100-01-01"
+    C: Cloudify
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Cloudify
+    F: "1900-01-01"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: GigaSpaces
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: GigaSpaces
+    F: "1900-01-01"
+    P: onap
+    R: C
+  I:
+  - M: Michael Brenner
+    S: confluence
+    U: mrbrenner
+  - E: michael!cloudify.co
+    M: Michael Brenner
+    S: groupsio
+  - E: michael!gigaspaces.com
+    M: Michael Brenner
+    S: groupsio
+  - E: michael!cloudify.co
+    M: Michael Brenner
+    S: pipermail
+  - E: michael!gigaspaces.com
+    M: Michael Brenner
+    S: pipermail
+  B: 0
+  U: Michael Brenner

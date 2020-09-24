@@ -1,6 +1,443 @@
 P:
 - R:
   - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/dex
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2014-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2016-07-01"
+    C: OpenX
+    F: "2014-08-01"
+    R: C
+  - T: "2016-07-01"
+    C: OpenX
+    F: "2014-08-01"
+    P: cncf/dex
+    R: C
+  - T: "2016-07-01"
+    C: OpenX
+    F: "2014-08-01"
+    P: harbor
+    R: C
+  - T: "2016-07-01"
+    C: OpenX
+    F: "2014-08-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: OpenX
+    F: "2014-08-01"
+    P: prometheus
+    R: C
+  - T: "2017-06-01"
+    C: Whisper
+    F: "2016-07-01"
+    R: C
+  - T: "2017-06-01"
+    C: Whisper
+    F: "2016-07-01"
+    P: cncf/dex
+    R: C
+  - T: "2017-06-01"
+    C: Whisper
+    F: "2016-07-01"
+    P: harbor
+    R: C
+  - T: "2017-06-01"
+    C: Whisper
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  - T: "2017-06-01"
+    C: Whisper
+    F: "2016-07-01"
+    P: prometheus
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "2017-06-01"
+    P: cncf/dex
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "2017-06-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Uber
+    F: "2017-06-01"
+    P: prometheus
+    R: C
+  S: male
+  I:
+  - M: Bo Liu
+    S: github
+    U: liubog2008
+  B: 0
+  U: Bo Liu
+- E: lv.bo163!zte.com.cn
+  R:
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "2017-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: ZTE Corporation
+    F: "2017-07-01"
+    P: onap
+    R: C
+  I:
+  - M: Bo Lv
+    S: confluence
+    U: Lvbo163
+  - E: lv.bo163!zte.com.cn
+    M: Bo Lv
+    S: gerrit
+    U: Lvbo163
+  - E: lv.bo163!zte.com.cn
+    M: Lvbo163
+    S: git
+  - E: lv.bo163!zte.com.cn
+    M: Lv Bo
+    S: groupsio
+  - E: lv.bo163!zte.com.cn
+    M: lv.bo163
+    S: groupsio
+  - M: Bo Lv
+    S: jira
+    U: Lvbo163
+  - E: lv.bo163!zte.com.cn
+    M: Bo Lv
+    S: jira
+    U: Lvbo163
+  - E: lv.bo163!zte.com.cn
+    M: lv.bo163
+    S: pipermail
+  B: 0
+  U: Bo Lv
+- E: quanbofa!gmail.com
+  R:
+  - T: "2014-11-01"
+    C: Hewlett Packard Enterprise
+    F: "2001-06-01"
+    P: cncf
+    R: C
+  - T: "2018-02-01"
+    C: Charter Communications
+    F: "2014-12-01"
+    P: cncf
+    R: C
+  - T: "2018-06-14"
+    C: CableLabs
+    F: "2018-02-20"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: CableLabs
+    F: "2018-02-20"
+    P: cncf
+    R: C
+  I:
+  - E: b.quan!cablelabs.com
+    M: Bo Quan
+    S: gerrit
+    U: boquan
+  - E: quanbofa!gmail.com
+    M: Bo Quan
+    S: gerrit
+    U: boquan
+  - M: Bo Quan
+    S: github
+    U: bo-quan
+  B: 0
+  U: Bo Quan
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  S: male
+  I:
+  - M: Bo Shi
+    S: github
+    U: bshi
+  B: 0
+  U: Bo Shi
+- C: US
+  E: bs1984!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  S: male
+  I:
+  - E: bs1984!gmail.com
+    M: Bo Shi
+    S: git
+  B: 0
+  U: Bo Shi
+- E: subo7!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "2015-03-18"
+    P: zep
+    R: C
+  I:
+  - E: subo7!huawei.com
+    M: Bo Su
+    S: git
+  B: 0
+  U: Bo Su
+- E: bo.tao!rancher.com
+  R:
+  - T: "2016-06-01"
+    C: Fortinet
+    F: "1900-01-01"
+    P: longhorn
+    R: C
+  - T: "2020-05-01"
+    C: Palo Alto Networks
+    F: "2016-06-01"
+    P: longhorn
+    R: C
+  - T: "2100-01-01"
+    C: Rancher Labs Inc.
+    F: "2020-05-01"
+    P: longhorn
+    R: C
+  I:
+  - E: bo.tao!rancher.com
+    M: Bo Tao
+    S: git
+  - E: bo.tao!rancher.com
+    M: Bo Tao
+    S: github
+    U: boknowswiki
+  B: 0
+  U: Bo Tao
+- E: bo!godaddy.com
+  R:
+  - T: "2100-01-01"
+    C: GoDaddy
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: GoDaddy
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: GoDaddy
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  - T: "2100-01-01"
+    C: GoDaddy
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  S: male
+  I:
+  - E: bo!godaddy.com
+    M: Bo Thompson
+    S: git
+  - E: bo!godaddy.com
+    M: Bo Thompson
+    S: github
+    U: aka-bo
+  B: 0
+  U: Bo Thompson
+- E: ethompson!godaddy.com
+  R:
+  - T: "2100-01-01"
+    C: GoDaddy
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: GoDaddy
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: ethompson!godaddy.com
+    M: Bo Thompson
+    S: git
+  B: 0
+  U: Bo Thompson
+- E: yuzibode!126.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: iovisor
+    R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: iovisor/iovisor
+    R: C
+  I:
+  - E: yuzibode!126.com
+    M: Bo YU
+    S: github
+    U: yuzibo
+  B: 0
+  U: Bo YU
+- E: byan!nvidia.com
+  R:
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2100-01-01"
+    C: NVIDIA Corporation
+    F: "1900-01-01"
+    P: zep
+    R: C
+  I:
+  - E: byan!nvidia.com
+    M: Bo Yan
+    S: git
+  - E: byan!nvidia.com
+    M: Bo Yan
+    S: slack
+    U: byan
+  B: 0
+  U: Bo Yan
+- E: paulyang1211!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: paulyang1211!gmail.com
+    M: Bo Yang
+    S: git
+  B: 0
+  U: Bo Yang
+- E: teboring!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: teboring!google.com
+    M: Bo Yang
+    S: git
+  B: 0
+  U: Bo Yang
+- E: teboring!teboring0.svl.corp.google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: onf-p4
+    R: C
+  I:
+  - E: teboring!teboring0.svl.corp.google.com
+    M: Bo Yang
+    S: git
+  B: 0
+  U: Bo Yang
+- R:
+  - T: "2014-08-01"
     C: Eyereturn
     F: "1900-01-01"
     R: C
@@ -1197,6 +1634,9 @@ P:
   - E: killen.bob!gmail.com
     M: Bob Killen
     S: git
+  - E: killen.bob!gmail.com
+    M: Bob Killen
+    S: groupsio
   B: 0
   U: Bob Killen
 - C: US
@@ -1257,6 +1697,9 @@ P:
   - E: rkillen!umich.edu
     M: Bob Killen
     S: git
+  - E: rkillen!umich.edu
+    M: Bob Killen
+    S: groupsio
   B: 0
   U: Bob Killen
 - E: rlantz!cs.stanford.edu
@@ -2305,6 +2748,9 @@ P:
   - E: bob!bobsplanet.com
     M: Bob Wise
     S: git
+  - E: bob!bobsplanet.com
+    M: Bob Wise
+    S: groupsio
   B: 0
   U: Bob Wise
 - E: wisebob!amazon.com
@@ -3586,10 +4032,6 @@ P:
   - T: "2020-01-22"
     C: Google
     F: "1900-01-01"
-    R: C
-  - T: "2020-01-22"
-    C: Google
-    F: "1900-01-01"
     P: envoy
     R: C
   - T: "2020-01-22"
@@ -3630,6 +4072,9 @@ P:
   - E: bdrutu!google.com
     M: Bogdan Drutu
     S: git
+  - E: bdrutu!google.com
+    M: Bogdan Drutu
+    S: groupsio
   B: 0
   U: Bogdan Drutu
 - E: bogdandrutu!gmail.com
@@ -7658,17 +8103,17 @@ P:
 - E: brad!oatmail.org
   R:
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: etcd
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: k8s
     R: C
@@ -10667,7 +11112,7 @@ P:
 - E: brad.davidson!rancher.com
   R:
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "1900-01-01"
     P: cncf/k3s
     R: C
@@ -10729,12 +11174,12 @@ P:
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2018-04-01"
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2018-04-01"
     P: cncf/k3s
     R: C
@@ -10772,7 +11217,7 @@ P:
     P: cncf
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2018-04-01"
     P: cncf
     R: C
@@ -12056,10 +12501,6 @@ P:
   - T: "2100-01-01"
     C: IBM
     F: "2016-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-10-01"
     P: cncf
     R: C
   - T: "2100-01-01"
@@ -12082,6 +12523,9 @@ P:
   - E: lumjjb!gmail.com
     M: Brandon Lum
     S: git
+  - E: lumjjb!gmail.com
+    M: Brandon Lum
+    S: groupsio
   B: 0
   U: Brandon Lum
 - E: brandonmabey!google.com
@@ -12589,6 +13033,12 @@ P:
     M: Brandon Philips
     S: github
     U: philips
+  - E: bphilips!redhat.com
+    M: Brandon Philips
+    S: groupsio
+  - E: brandon.philips!coreos.com
+    M: Brandon Philips
+    S: groupsio
   - E: brandon.philips!coreos.com
     M: Brandon Philips
     S: oci_csv
@@ -12621,6 +13071,9 @@ P:
   - E: brandon!ifup.org
     M: brandon
     S: git
+  - E: brandon!ifup.org
+    M: brandon
+    S: groupsio
   B: 0
   U: Brandon Philips
 - E: bpowell29a!gmail.com
@@ -13989,87 +14442,6 @@ P:
     U: ebrebon
   B: 0
   U: Brendan Bonner
-- E: brendan.d.burns!gmail.com
-  R:
-  - T: "2016-07-15"
-    C: Google
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2016-07-15"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2016-07-15"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: k8s
-    R: C
-  I:
-  - E: brendan.d.burns!gmail.com
-    M: Brendan Burns
-    S: git
-  B: 0
-  U: Brendan Burns
-- E: real.cost.info!gmail.com
-  R:
-  - T: "2016-07-15"
-    C: Google
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2016-07-15"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2016-07-15"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2016-07-15"
-    P: k8s
-    R: C
-  I:
-  - E: real.cost.info!gmail.com
-    M: Brendan Burns
-    S: git
-  B: 0
-  U: Brendan Burns
 - E: brendanschang!google.com
   R:
   - T: "2015-03-01"
@@ -19589,7 +19961,7 @@ P:
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2020-03-01"
     P: cncf/k3s
     R: C
@@ -20450,6 +20822,9 @@ P:
     U: cpuguy83
   - E: cpuguy83!gmail.com
     M: Brian Goff
+    S: groupsio
+  - E: cpuguy83!gmail.com
+    M: Brian Goff
     S: oci_csv
     U: cpuguy83
   B: 0
@@ -20787,6 +21162,9 @@ P:
   - E: briangrant!google.com
     M: Brian Grant
     S: git
+  - E: briangrant!google.com
+    M: Brian Grant
+    S: groupsio
   B: 0
   U: Brian Grant
 - E: Brian.Haley!hp.com
@@ -22238,6 +22616,11 @@ P:
     C: Cinlogic
     F: "1900-01-01"
     P: kubevirt
+    R: C
+  - T: "2018-12-01"
+    C: Cinlogic
+    F: "1900-01-01"
+    P: prometheus
     R: C
   - T: "2019-08-01"
     C: Coterie
@@ -27072,6 +27455,9 @@ P:
   - E: bruno!brunogarcia.com
     M: Bruno Garcia
     S: git
+  - E: bruno!brunogarcia.com
+    M: Bruno Garcia
+    S: groupsio
   B: 0
   U: Bruno Garcia
 - E: github!brunogarcia.com
@@ -28666,6 +29052,9 @@ P:
   - E: bruno!robotinfra.com
     M: Bruno
     S: git
+  - E: bruno!robotinfra.com
+    M: bruno
+    S: groupsio
   B: 0
   U: Bruno
 - C: BE
@@ -28883,6 +29272,9 @@ P:
     M: Bryan Beaudreault
     S: github
     U: bbeaudreault
+  - E: bbeaudreault!gmail.com
+    M: Bryan Beaudreault
+    S: groupsio
   B: 0
   U: Bryan Beaudreault
 - C: US
@@ -29134,6 +29526,9 @@ P:
   - E: bryan!weave.works
     M: Bryan Boreham
     S: git
+  - E: bryan!weave.works
+    M: Bryan Boreham
+    S: groupsio
   B: 0
   U: Bryan Boreham
 - E: bcmills!google.com
@@ -29154,6 +29549,58 @@ P:
     S: git
   B: 0
   U: Bryan C. Mills
+- C: US
+  E: bryan!dady.us
+  R:
+  - T: "2002-06-01"
+    C: IBM
+    F: "2001-01-01"
+    P: helm
+    R: C
+  - T: "2009-06-01"
+    C: JP Morgan Chase
+    F: "2002-06-01"
+    P: helm
+    R: C
+  - T: "2011-06-01"
+    C: Russell Investments
+    F: "2009-11-01"
+    P: helm
+    R: C
+  - T: "2012-12-01"
+    C: Denali Advanced Integration
+    F: "2011-06-01"
+    P: helm
+    R: C
+  - T: "2014-03-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2012-12-01"
+    P: helm
+    R: C
+  - T: "2019-11-01"
+    C: Glacier Bancorp, Inc.
+    F: "2014-03-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Subsplash ®
+    F: "2019-11-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: bryan!subsplash.com
+    M: Bryan Dady
+    S: git
+  - M: Bryan Dady
+    S: github
+    U: bcdady
+  - E: bryan!dady.us
+    M: Bryan Dady
+    S: github
+    U: bcdady
+  B: 0
+  U: Bryan Dady
 - R:
   - T: "2100-01-01"
     C: Pivotal
@@ -29324,20 +29771,18 @@ P:
     F: "2016-10-01"
     P: cncf
     R: C
-  - T: "2018-12-01"
-    C: VMware, Inc.
-    F: "2017-11-01"
-    P: cncf
-    R: C
   - T: "2100-01-01"
     C: VMware, Inc.
-    F: "2018-12-01"
+    F: "2017-11-01"
     P: cncf
     R: C
   I:
   - E: bryanliles!gmail.com
     M: Bryan Liles
     S: git
+  - E: bryanliles!gmail.com
+    M: Bryan Liles
+    S: groupsio
   B: 0
   U: Bryan Liles
 - C: US
@@ -29926,6 +30371,9 @@ P:
     M: Bryan Rosander
     S: github
     U: brosander
+  - E: bryanrosander!gmail.com
+    M: bryanrosander
+    S: groupsio
   B: 0
   U: Bryan Rosander
 - E: rosnbrg!us.ibm.com
@@ -32679,6 +33127,11 @@ P:
     P: hyperledger/hyperledger-all
     R: C
   - T: "2100-01-01"
+    C: Domi Labs UG
+    F: "2018-10-01"
+    P: hyperledger/shared
+    R: C
+  - T: "2100-01-01"
     C: Decentralized Identity Foundation
     F: "2020-07-01"
     P: hyperledger/hyperledger-all
@@ -34909,32 +35362,32 @@ P:
     P: prometheus
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2019-02-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2019-02-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2019-02-01"
     P: cncf/buildpacks
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2019-02-01"
     P: helm
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2019-02-01"
     P: prometheus
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2019-02-01"
     P: tekton
     R: C
@@ -36997,6 +37450,11 @@ P:
     C: Coates Group
     F: "2017-10-01"
     P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Autopilot
+    F: "2019-04-01"
+    P: cncf/litmuschaos
     R: C
   - T: "2100-01-01"
     C: Autopilot
@@ -40482,6 +40940,11 @@ P:
     F: "2018-11-01"
     P: envoy
     R: C
+  - T: "2019-08-01"
+    C: Coinbase
+    F: "2018-11-01"
+    P: finos
+    R: C
   - T: "2100-01-01"
     C: BitMEX
     F: "2019-08-01"
@@ -42409,6 +42872,11 @@ P:
     F: "2018-12-11"
     P: cncf
     R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2018-12-11"
+    P: k8s
+    R: C
   I:
   - E: carlisia!vmware.com
     M: Carlisia Thompson
@@ -43702,6 +44170,22 @@ P:
     U: carloseberhardt
   B: 0
   U: Carlos Eberhardt
+- E: carangog!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "2019-12-01"
+    P: k8s
+    R: C
+  I:
+  - E: carangog!redhat.com
+    M: Carlos Eduardo Arango Gutierrez
+    S: git
+  - E: carangog!redhat.com
+    M: Carlos Eduardo Arango Gutierrez
+    S: groupsio
+  B: 0
+  U: Carlos Eduardo Arango Gutierrez
 - R:
   - T: "2007-07-01"
     C: Informática y Servicios C.A.
@@ -43958,6 +44442,9 @@ P:
     M: Carlos Giraldo
     S: github
     U: cgiraldo
+  - E: cgiraldo!gradiant.org
+    M: Carlos Giraldo Rodriguez
+    S: groupsio
   - M: Carlos Giraldo Rodriguez
     S: jira
     U: cgiraldo
@@ -44912,6 +45399,53 @@ P:
     U: CMeza99
   B: 0
   U: Carlos Meza
+- R:
+  - T: "2005-01-01"
+    C: Tata Consultancy Services
+    F: "2003-07-01"
+    P: argo
+    R: C
+  - T: "2007-10-01"
+    C: Tata Consultancy Services
+    F: "2006-09-01"
+    P: argo
+    R: C
+  - T: "2011-03-01"
+    C: GFT Technologies SE
+    F: "2010-06-01"
+    P: argo
+    R: C
+  - T: "2012-02-01"
+    C: everis
+    F: "2011-04-01"
+    P: argo
+    R: C
+  - T: "2015-08-01"
+    C: SDL International
+    F: "2014-07-01"
+    P: argo
+    R: C
+  - T: "2019-03-01"
+    C: Shibsted Products & Technology
+    F: "2018-06-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: SCM Spain, S.L.
+    F: "2019-03-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Universitat Autònoma de Barcelona-UAB
+    F: "2020-09-01"
+    P: argo
+    R: C
+  I:
+  - M: Carlos Montemuino
+    S: github
+    U: cmontemuino
+  B: 0
+  U: Carlos Montemuino
 - E: carlos.munoz!caviumnetworks.com
   R:
   - T: "2100-01-01"
@@ -46097,26 +46631,26 @@ P:
     P: nats
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: helm
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: k8s
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: nats
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     R: C
   - T: "2100-01-01"
@@ -46203,27 +46737,27 @@ P:
     P: nats
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: baetyl
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: cncf/k3s
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: k8s
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: nats
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: baetyl
     R: C
@@ -46284,17 +46818,17 @@ P:
     P: cncf/shared
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: cdf-jenkins-x
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: cncf/shared
     R: C
   - T: "2019-07-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "2018-03-01"
     P: jenkins
     R: C
@@ -46400,6 +46934,11 @@ P:
     C: Datacom
     F: "2014-05-01"
     P: kernelci
+    R: C
+  - T: "2019-03-01"
+    C: Datacom
+    F: "2014-05-01"
+    P: prometheus
     R: C
   - T: "2019-03-01"
     C: Datacom
@@ -47548,10 +48087,6 @@ P:
   - T: "2100-01-01"
     C: Buoyant
     F: "2019-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Buoyant
-    F: "2019-01-01"
     P: linkerd
     R: C
   S: male
@@ -47566,6 +48101,9 @@ P:
     M: Carol A. Scott
     S: github
     U: scottcarol
+  - E: carol!buoyant.io
+    M: Carol Scott
+    S: groupsio
   B: 0
   U: Carol A. Scott
 - E: cah!us.ibm.com
@@ -48088,6 +48626,9 @@ P:
     M: Carolyn Van Slyck
     S: github
     U: carolynvs
+  - E: carolyn.vanslyck!microsoft.com
+    M: Carolyn Van Slyck
+    S: groupsio
   B: 0
   U: Carolyn Van Slyck
 - C: US
@@ -48285,12 +48826,12 @@ P:
 - E: cchiou!cloudbees.com
   R:
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: cncf/shared
     R: C
   - T: "2100-01-01"
-    C: CloudBees
+    C: CloudBees, Inc.
     F: "1900-01-01"
     P: jenkins
     R: C
@@ -48676,6 +49217,56 @@ P:
     U: carsten
   B: 0
   U: Carsten Schade
+- R:
+  - T: "2100-01-01"
+    C: World Economic Forum LLC
+    F: "2016-01-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: World Economic Forum LLC
+    F: "2016-01-01"
+    P: hyperledger/shared
+    R: C
+  I:
+  - M: Carsten StÃ¶cker
+    S: confluence
+    U: cstoecker
+  B: 0
+  U: Carsten StÃ¶cker
+- E: carsten.stoecker!spherity.com
+  R:
+  - T: "2020-01-01"
+    C: innogy SE
+    F: "2014-01-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2016-08-01"
+    C: innogy Consulting
+    F: "2015-02-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2020-01-01"
+    C: World Economic Forum
+    F: "2016-01-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2017-10-01"
+    C: innogy SE
+    F: "2016-09-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2020-01-01"
+    C: Spherity
+    F: "2018-01-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  I:
+  - E: carsten.stoecker!spherity.com
+    M: Carsten Stöcker
+    S: groupsio
+  B: 0
+  U: Carsten Stöcker
 - R:
   - T: "2100-01-01"
     C: Verint Next IT
@@ -51038,6 +51629,11 @@ P:
     P: opx
     R: C
   - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2013-10-01"
+    P: pnda
+    R: C
+  - T: "2100-01-01"
     C: ONAP
     F: "2018-09-01"
     P: fdio
@@ -51123,12 +51719,12 @@ P:
     P: longhorn
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2019-06-01"
     P: cncf/k3s
     R: C
   - T: "2100-01-01"
-    C: Rancher Labs
+    C: Rancher Labs Inc.
     F: "2019-06-01"
     P: longhorn
     R: C
@@ -54262,6 +54858,9 @@ P:
   - E: carimura!gmail.com
     M: Chad Arimura
     S: git
+  - E: carimura!gmail.com
+    M: Chad Arimura
+    S: groupsio
   B: 0
   U: Chad Arimura
 - E: chad!iron.io
@@ -56054,11 +56653,6 @@ P:
   - T: "2019-05-01"
     C: Diamanti
     F: "2014-09-01"
-    P: baetyl
-    R: C
-  - T: "2019-05-01"
-    C: Diamanti
-    F: "2014-09-01"
     P: cncf/k3s
     R: C
   - T: "2019-05-01"
@@ -56103,6 +56697,9 @@ P:
     M: Chakravarthy Nelluri
     S: github
     U: chakri-nelluri
+  - E: nelcyguy!gmail.com
+    M: Chakri Nelluri
+    S: groupsio
   B: 0
   U: Chakravarthy Nelluri
 - E: chakshugupta2000!gmail.com
@@ -56351,392 +56948,6 @@ P:
   B: 0
   U: Chance Kim
 - C: US
-  E: chance!coreos.com
-  R:
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: etcd
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: cncf/dex
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: etcd
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: k8s
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: kubevirt
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: rkt
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: cncf/dex
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: etcd
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: k8s
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: kubevirt
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: rkt
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: cncf/dex
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: etcd
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: k8s
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: kubevirt
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: rkt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: rkt
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: rkt
-    R: C
-  S: male
-  I:
-  - E: chance!coreos.com
-    M: Chance Zibolski
-    S: git
-  B: 0
-  U: Chance Zibolski
-- C: US
-  E: chance.zibolski!coreos.com
-  R:
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: fluentd
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: rkt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: fluentd
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: helm
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: k8s
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: kubevirt
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: rkt
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: fluentd
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: helm
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: k8s
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: kubevirt
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: rkt
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: fluentd
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: helm
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: k8s
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: kubevirt
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: rkt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: rkt
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: rkt
-    R: C
-  S: male
-  I:
-  - E: chance.zibolski!coreos.com
-    M: Chance Zibolski
-    S: git
-  B: 0
-  U: Chance Zibolski
-- C: US
   E: chance.zibolski!gmail.com
   R:
   - T: "2014-08-01"
@@ -56803,6 +57014,10 @@ P:
     F: "1900-01-01"
     P: rkt
     R: C
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    R: C
   - T: "2015-07-01"
     C: Independent
     F: "2014-08-01"
@@ -56867,178 +57082,64 @@ P:
     F: "2014-08-01"
     P: rkt
     R: C
-  - T: "2018-01-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: argo
     R: C
-  - T: "2018-01-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: cncf/dex
     R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: etcd
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: fluentd
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: fluxcd
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: helm
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: k8s
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: kubevirt
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: nats
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: prometheus
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: rkt
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: argo
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: cncf/dex
-    R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: cncf/operatorframework
     R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: etcd
     R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: fluentd
     R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: fluxcd
     R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: helm
     R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: k8s
     R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: kubevirt
     R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: nats
     R: C
-  - T: "2019-12-01"
+  - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
     P: prometheus
     R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: rkt
-    R: C
   - T: "2100-01-01"
     C: Red Hat Inc.
     F: "2015-07-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: etcd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: fluentd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: prometheus
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
     P: rkt
     R: C
   - T: "2100-01-01"
@@ -57103,107 +57204,35 @@ P:
     R: C
   S: male
   I:
+  - E: chance!coreos.com
+    M: Chance Zibolski
+    S: git
+  - E: chance.zibolski!coreos.com
+    M: Chance Zibolski
+    S: git
   - E: chance.zibolski!gmail.com
+    M: Chance Zibolski
+    S: git
+  - E: chancez!redhat.com
+    M: Chance Zibolski
+    S: git
+  - E: czibolsk!redhat.com
+    M: Chance Zibolski
+    S: git
+  - E: czibolski!rigetti.com
     M: Chance Zibolski
     S: git
   - E: chance.zibolski!gmail.com
     M: Chance Zibolski
     S: github
     U: chancez
-  B: 0
-  U: Chance Zibolski
-- C: US
-  E: chancez!redhat.com
-  R:
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2014-08-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-07-01"
-    C: Independent
-    F: "2014-08-01"
-    P: helm
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2018-01-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: helm
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2019-12-01"
-    C: Red Hat Inc.
-    F: "2015-07-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2018-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: Rigetti
-    F: "2019-12-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: chancez!redhat.com
-    M: Chance Zibolski
-    S: git
   - E: chancez!redhat.com
     M: Chance Zibolski
     S: github
     U: chancez
+  - M: Chance Zibolski
+    S: slack
+    U: czibolsk
   B: 0
   U: Chance Zibolski
 - E: cghosh12!in.ibm.com
@@ -57763,6 +57792,19 @@ P:
     S: git
   B: 0
   U: Chandler Deng
+- E: chandler!chandlerswift.com
+  R:
+  - T: "2017-01-08"
+    C: Lockheed Martin
+    F: "2017-01-06"
+    P: coredns
+    R: C
+  I:
+  - E: chandler!chandlerswift.com
+    M: Chandler Swift
+    S: git
+  B: 0
+  U: Chandler Swift
 - E: cwilkers!redhat.com
   R:
   - T: "2100-01-01"
@@ -62210,78 +62252,3 @@ P:
     U: ccwu
   B: 0
   U: Charles Wu
-- C: US
-  R:
-  - T: "2018-12-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2018-12-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: HBUS
-    F: "2018-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: HBUS
-    F: "2018-12-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Charles Xu
-    S: github
-    U: chxchx
-  B: 0
-  U: Charles Xu
-- C: US
-  E: chx!google.com
-  R:
-  - T: "2018-12-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2018-12-01"
-    C: Google
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: HBUS
-    F: "2018-12-01"
-    R: C
-  - T: "2100-01-01"
-    C: HBUS
-    F: "2018-12-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: chx!google.com
-    M: Charles Xu
-    S: git
-  B: 0
-  U: Charles Xu
-- E: cyang!twitter.com
-  R:
-  - T: "2100-01-01"
-    C: Twitter
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: cyang!twitter.com
-    M: Charles Yang
-    S: git
-  B: 0
-  U: Charles Yang
