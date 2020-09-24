@@ -1,16 +1,4 @@
 P:
-- E: jaroslaw.ilgiewicz!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: jaroslaw.ilgiewicz!intel.com
-    M: Jaroslaw Ilgiewicz
-    S: git
-  B: 0
-  U: Jaroslaw Ilgiewicz
 - C: US
   E: jarred.nicholls!gmail.com
   R:
@@ -18699,6 +18687,11 @@ P:
     F: "1900-01-01"
     P: rook
     R: C
+  - T: "2100-01-01"
+    C: The Home Depot
+    F: "2013-12-01"
+    P: cncf
+    R: C
   - T: "2019-06-25"
     C: The Home Depot
     F: "2017-04-24"
@@ -30442,115 +30435,6 @@ P:
   B: 0
   U: Jeremy Qian
 - C: US
-  R:
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: brigade
-    R: C
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf/porter
-    R: C
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: virtualkubelet
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: brigade
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: cncf
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: cncf/contour
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: cncf/porter
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: k8s
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: virtualkubelet
-    R: C
-  - T: "2100-01-01"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: brigade
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: cncf/porter
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: virtualkubelet
-    R: C
-  S: male
-  I:
-  - M: Jeremy Rickard
-    S: github
-    U: jeremyrickard
-  B: 0
-  U: Jeremy Rickard
-- C: US
   E: jeremy.rickard!microsoft.com
   R:
   - T: "2017-11-01"
@@ -30565,7 +30449,17 @@ P:
   - T: "2017-11-01"
     C: VMware, Inc.
     F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2017-11-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
     P: cncf
+    R: C
+  - T: "2017-11-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: cncf/contour
     R: C
   - T: "2017-11-01"
     C: VMware, Inc.
@@ -30599,6 +30493,11 @@ P:
   - T: "2019-12-16"
     C: Microsoft Corporation
     F: "2017-11-01"
+    P: cncf/contour
+    R: C
+  - T: "2019-12-16"
+    C: Microsoft Corporation
+    F: "2017-11-01"
     P: cncf/porter
     R: C
   - T: "2019-12-16"
@@ -30614,6 +30513,7 @@ P:
   - T: "2100-01-01"
     C: Microsoft Corporation
     F: "2017-11-01"
+    P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
@@ -30624,6 +30524,11 @@ P:
     C: VMware, Inc.
     F: "2019-12-16"
     P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2019-12-16"
+    P: cncf/contour
     R: C
   - T: "2100-01-01"
     C: VMware, Inc.
@@ -30645,59 +30550,25 @@ P:
   - E: jeremy.rickard!microsoft.com
     M: Jeremy Rickard
     S: git
-  B: 0
-  U: Jeremy Rickard
-- E: rickardj!vmware.com
-  R:
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: cncf/contour
-    R: C
-  - T: "2017-11-01"
-    C: VMware, Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: cncf
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: cncf/contour
-    R: C
-  - T: "2019-12-16"
-    C: Microsoft Corporation
-    F: "2017-11-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: cncf/contour
-    R: C
-  - T: "2100-01-01"
-    C: VMware, Inc.
-    F: "2019-12-16"
-    P: k8s
-    R: C
-  I:
+  - E: jeremyrrickard!gmail.com
+    M: Jeremy Rickard
+    S: git
   - E: rickardj!vmware.com
     M: Jeremy Rickard
     S: git
+  - M: Jeremy Rickard
+    S: github
+    U: jeremyrickard
+  - E: jeremy.r.rickard!gmail.com
+    M: Jeremy Rickard
+    S: github
+    U: jrrickard
+  - E: jeremy.r.rickard!gmail.com
+    M: Jeremy Rickard
+    S: groupsio
+  - M: Jeremy Rickard
+    S: meetup
+    U: "6175775"
   B: 0
   U: Jeremy Rickard
 - E: jeremyr!opennetworking.org
@@ -49755,6 +49626,28 @@ P:
     S: pipermail
   B: 0
   U: Jiming Sun
+- R:
+  - T: "2020-07-01"
+    C: Walmart
+    F: "2017-02-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: Colorado State University
+    F: "2020-05-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: The Linux Foundation
+    F: "2020-07-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  I:
+  - M: Jimit Bhalavat
+    S: confluence
+    U: jimit144
+  B: 0
+  U: Jimit Bhalavat
 - C: GB
   E: jimmidyson!gmail.com
   R:
@@ -62614,3 +62507,153 @@ P:
     U: phenixblue
   B: 0
   U: Joe Searcy
+- C: US
+  E: joe!twr.io
+  R:
+  - T: "2015-06-01"
+    C: The WebRoot
+    F: "1900-01-01"
+    P: baetyl
+    R: C
+  - T: "2015-06-01"
+    C: The WebRoot
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-06-01"
+    C: The WebRoot
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2015-06-01"
+    C: The WebRoot
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  - T: "2015-06-01"
+    C: The WebRoot
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-06-01"
+    C: The WebRoot
+    F: "1900-01-01"
+    P: openpolicyagent
+    R: C
+  - T: "2015-06-01"
+    C: The WebRoot
+    F: "1900-01-01"
+    P: vitess
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2015-06-01"
+    P: baetyl
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2015-06-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2015-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2015-06-01"
+    P: harbor
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2015-06-01"
+    P: openpolicyagent
+    R: C
+  - T: "2100-01-01"
+    C: T-Mobile PCS Holdings LLC
+    F: "2015-06-01"
+    P: vitess
+    R: C
+  S: male
+  I:
+  - E: joe!twr.io
+    M: Joe Searcy
+    S: git
+  - E: joe!twr.io
+    M: Joe Searcy
+    S: groupsio
+  B: 0
+  U: Joe Searcy
+- C: US
+  E: jsselman!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: jsselman!google.com
+    M: Joe Selman
+    S: git
+  B: 0
+  U: Joe Selman
+- C: GB
+  E: joe!joeshaw.org
+  R:
+  - T: "2100-01-01"
+    C: Joe
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Joe
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - E: joe!joeshaw.org
+    M: Joe Shaw
+    S: git
+  - E: joe!joeshaw.org
+    M: joeshaw
+    S: git
+  - M: Joe Shaw
+    S: github
+    U: tanenbaum
+  - E: joe!joeshaw.org
+    M: Joe Shaw
+    S: github
+    U: joeshaw
+  B: 0
+  U: Joe Shaw
+- E: joeshidel!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  I:
+  - E: joeshidel!gmail.com
+    M: Joe Shidel
+    S: github
+    U: shidel-dev
+  B: 0
+  U: Joe Shidel

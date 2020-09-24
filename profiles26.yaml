@@ -42258,12 +42258,22 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: StackStorm
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: cephfoundation
     R: C
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
     P: cncf/buildpacks
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -42276,6 +42286,9 @@ P:
     P: k8s
     R: C
   I:
+  - E: shuuji3!gmail.com
+    M: Shuuji TAKAHASHI
+    S: git
   - E: shuuji3!gmail.com
     M: TAKAHASHI Shuuji
     S: git
@@ -61766,75 +61779,3 @@ P:
     S: git
   B: 0
   U: Thara Gopinath
-- E: rajendrantharun!live.com
-  R:
-  - T: "2017-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/kuma
-    R: C
-  - T: "2017-06-01"
-    C: Independent
-    F: "1900-01-01"
-    P: linkerd
-    R: C
-  - T: "2018-01-01"
-    C: JUSPAY
-    F: "2017-06-01"
-    P: cncf/kuma
-    R: C
-  - T: "2018-01-01"
-    C: JUSPAY
-    F: "2017-06-01"
-    P: linkerd
-    R: C
-  - T: "2018-04-01"
-    C: Pillar
-    F: "2018-01-01"
-    P: cncf/kuma
-    R: C
-  - T: "2018-04-01"
-    C: Pillar
-    F: "2018-01-01"
-    P: linkerd
-    R: C
-  - T: "2019-09-01"
-    C: ConvertCart
-    F: "2018-04-01"
-    P: cncf/kuma
-    R: C
-  - T: "2019-09-01"
-    C: ConvertCart
-    F: "2018-04-01"
-    P: linkerd
-    R: C
-  - T: "2019-09-01"
-    C: ConvertCart
-    F: "2018-04-01"
-    P: smi
-    R: C
-  - T: "2100-01-01"
-    C: ThoughtWorks
-    F: "2019-09-01"
-    P: cncf/kuma
-    R: C
-  - T: "2100-01-01"
-    C: ThoughtWorks
-    F: "2019-09-01"
-    P: cncf/openservicemesh
-    R: C
-  - T: "2100-01-01"
-    C: ThoughtWorks
-    F: "2019-09-01"
-    P: linkerd
-    R: C
-  I:
-  - E: rajendrantharun!live.com
-    M: Tharun Rajendran
-    S: git
-  - E: rajendrantharun!live.com
-    M: Tharun Rajendran
-    S: github
-    U: tharun208
-  B: 0
-  U: Tharun Rajendran

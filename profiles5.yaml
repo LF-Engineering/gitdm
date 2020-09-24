@@ -2734,6 +2734,11 @@ P:
     F: "1900-01-01"
     P: k8s
     R: C
+  - T: "2017-12-31"
+    C: Samsung Electronics Co. Ltd.
+    F: "1900-01-01"
+    P: virtualkubelet
+    R: C
   - T: "2100-01-01"
     C: Amazon
     F: "2017-12-31"
@@ -2742,53 +2747,33 @@ P:
     C: Amazon
     F: "2017-12-31"
     P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2017-12-31"
+    P: virtualkubelet
     R: C
   S: male
   I:
   - E: bob!bobsplanet.com
     M: Bob Wise
     S: git
-  - E: bob!bobsplanet.com
-    M: Bob Wise
-    S: groupsio
-  B: 0
-  U: Bob Wise
-- E: wisebob!amazon.com
-  R:
-  - T: "2017-12-31"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    R: C
-  - T: "2017-12-31"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-12-31"
-    C: Samsung Electronics Co. Ltd.
-    F: "1900-01-01"
-    P: virtualkubelet
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2017-12-31"
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2017-12-31"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2017-12-31"
-    P: virtualkubelet
-    R: C
-  S: male
-  I:
   - E: wisebob!amazon.com
     M: Bob Wise
     S: github
     U: countspongebob
+  - E: wisebob!amazon.com
+    M: Bob Wise (AWS)
+    S: groupsio
+  - E: bob!bobsplanet.com
+    M: Bob Wise
+    S: groupsio
+  - E: bob.wise!samsung.com
+    M: Bob Wise
+    S: groupsio
+  - M: Bob Wise
+    S: meetup
+    U: "183198115"
   B: 0
   U: Bob Wise
 - E: Bob.Yang!amd.com
