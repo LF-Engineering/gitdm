@@ -1,4 +1,114 @@
 P:
+- E: ofir.shaked!hp.com
+  R:
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: HP
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: ofir.shaked!hp.com
+    M: Ofir Shaked
+    S: git
+  B: 0
+  U: Ofir Shaked
+- E: os0695!att.com
+  R:
+  - T: "2014-01-01"
+    C: YKM creative technology
+    F: "2013-01-01"
+    P: onap
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2015-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2015-01-01"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: AT&T Services, Inc.
+    F: "2015-01-01"
+    P: onap
+    R: C
+  I:
+  - M: Ofir Sonsino
+    S: confluence
+    U: os0695
+  - E: ofir.sonsino!intl.att.com
+    M: Ofir Sonsino
+    S: confluence
+    U: os0695
+  - E: ofir.sonsino!intl.att.com
+    M: Ofir Sonsino
+    S: gerrit
+    U: os0695
+  - E: os0695!att.com
+    M: Ofir Sonsino
+    S: gerrit
+  - E: os0695!att.com
+    M: Ofir Sonsino
+    S: gerrit
+    U: os0695
+  - E: os0695!intl.att.com
+    M: Ofir Sonsino
+    S: gerrit
+    U: os0695
+  - E: os0695!intl.att.com
+    M: Sonsino, Ofir (os0695)
+    S: gerrit
+  - E: ofir.sonsino!intl.att.com
+    M: Ofir Sonsino
+    S: git
+  - E: os0695!att.com
+    M: Ofir Sonsino
+    S: git
+  - E: os0695!intl.att.com
+    M: Ofir Sonsino
+    S: git
+  - E: os0695!intl.att.com
+    M: Sonsino, Ofir (os0695)
+    S: git
+  - E: ofir.sonsino!intl.att.com
+    M: Ofir Sonsino
+    S: groupsio
+  - E: os0695!intl.att.com
+    M: Ofir Sonsino
+    S: groupsio
+  - E: ofir.sonsino!intl.att.com
+    M: Sonsino, Ofir
+    S: groupsio
+  - E: os0695!intl.att.com
+    M: Sonsino, Ofir
+    S: groupsio
+  - M: Ofir Sonsino
+    S: jira
+    U: os0695
+  - E: ofir.sonsino!intl.att.com
+    M: Ofir Sonsino
+    S: jira
+    U: os0695
+  - E: os0695!att.com
+    M: Ofir Sonsino
+    S: jira
+    U: os0695
+  - E: os0695!intl.att.com
+    M: Ofir Sonsino
+    S: jira
+    U: os0695
+  - E: os0695!intl.att.com
+    M: Sonsino, Ofir
+    S: pipermail
+  B: 0
+  U: Ofir Sonsino
 - R:
   - T: "2100-01-01"
     C: Microsoft Corporation
@@ -42572,6 +42682,11 @@ P:
   - T: "2100-01-01"
     C: Codethink
     F: "2015-06-13"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Codethink
+    F: "2015-06-13"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
@@ -62176,133 +62291,3 @@ P:
     S: git
   B: 0
   U: Peter Oberparleiter
-- C: US
-  E: peter.oh!bowerswilkins.com
-  R:
-  - T: "2014-09-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2014-09-01"
-    C: Broadcom Corporation
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-07-01"
-    C: Qualcomm
-    F: "2014-09-01"
-    R: C
-  - T: "2016-07-01"
-    C: Qualcomm
-    F: "2014-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2017-05-01"
-    C: LeEco US
-    F: "2016-07-01"
-    R: C
-  - T: "2017-05-01"
-    C: LeEco US
-    F: "2016-07-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Bowers & Wilkins
-    F: "2017-05-01"
-    R: C
-  - T: "2100-01-01"
-    C: Bowers & Wilkins
-    F: "2017-05-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: peter.oh!bowerswilkins.com
-    M: Peter Oh
-    S: git
-  B: 0
-  U: Peter Oh
-- C: US
-  E: ohler!apcera.com
-  R:
-  - T: "2100-01-01"
-    C: Apcera
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Apcera
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: ohler!apcera.com
-    M: Peter Ohler
-    S: git
-  B: 0
-  U: Peter Ohler
-- C: US
-  E: peter!ohler.com
-  R:
-  - T: "2100-01-01"
-    C: Apcera
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Apcera
-    F: "1900-01-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: peter!ohler.com
-    M: Peter Ohler
-    S: git
-  - E: peter!ohler.com
-    M: Peter Ohler
-    S: github
-    U: ohler55
-  B: 0
-  U: Peter Ohler
-- E: peter.oruba!amd.com
-  R:
-  - T: "2100-01-01"
-    C: AMD
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: peter.oruba!amd.com
-    M: Peter Oruba
-    S: git
-  B: 0
-  U: Peter Oruba
-- E: posk!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: posk!google.com
-    M: Peter Oskolkov
-    S: git
-  B: 0
-  U: Peter Oskolkov
-- E: peter.p.waskiewicz.jr!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: peter.p.waskiewicz.jr!intel.com
-    M: PJ Waskiewicz
-    S: git
-  - E: peter.p.waskiewicz.jr!intel.com
-    M: Peter P Waskiewicz Jr
-    S: git
-  - E: peter.p.waskiewicz.jr!intel.com
-    M: Peter P. Waskiewicz Jr
-    S: git
-  B: 0
-  U: Peter P. Waskiewicz Jr

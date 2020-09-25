@@ -1,4 +1,121 @@
 P:
+- E: dachshund!users.noreply.github.com
+  R:
+  - T: "2017-08-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2017-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: tuf
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-08-01"
+    P: tuf
+    R: C
+  S: male
+  I:
+  - E: dachshund!users.noreply.github.com
+    M: Trishank Karthik Kuppusamy
+    S: git
+  B: 0
+  U: Trishank Karthik Kuppusamy
+- C: US
+  E: trishank!nyu.edu
+  R:
+  - T: "2017-08-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2017-08-01"
+    C: Independent
+    F: "1900-01-01"
+    P: tuf
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-08-01"
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-08-01"
+    P: tuf
+    R: C
+  S: male
+  I:
+  - E: trishank!nyu.edu
+    M: Trishank Karthik Kuppusamy
+    S: git
+  B: 0
+  U: Trishank Karthik Kuppusamy
+- E: trishank.kuppusamy!datadoghq.com
+  R:
+  - T: "2017-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: intoto
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2017-10-01"
+    C: Independent
+    F: "1900-01-01"
+    P: tuf
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-10-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-10-01"
+    P: intoto
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-10-01"
+    P: notary
+    R: C
+  - T: "2100-01-01"
+    C: Datadog
+    F: "2017-10-01"
+    P: tuf
+    R: C
+  I:
+  - E: trishank.kuppusamy!datadoghq.com
+    M: Trishank Karthik Kuppusamy
+    S: git
+  - E: trishank.kuppusamy!datadoghq.com
+    M: Trishank Karthik Kuppusamy
+    S: github
+    U: trishankatdatadog
+  B: 0
+  U: Trishank Karthik Kuppusamy
 - E: trishankkarthik!gmail.com
   R:
   - T: "2017-08-01"
@@ -61052,161 +61169,3 @@ P:
     U: fuweid
   B: 0
   U: Wei Fu
-- E: xavier.huwei!huawei.com
-  R:
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: acrn
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: danos
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-08-23"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-08-23"
-    P: dpdk
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-09-26"
-    P: dpdk-next
-    R: C
-  - T: "2100-01-01"
-    C: Huawei Technologies Co., Ltd.
-    F: "2019-10-11"
-    P: dpdk-tools
-    R: C
-  I:
-  - E: xavier.huwei!huawei.com
-    M: Wei Hu (Xavier)
-    S: git
-  - E: xavier.huwei!huawei.com
-    M: Wei Hu(Xavier)
-    S: git
-  - E: xavier.huwei!huawei.com
-    M: Wei Hu\(Xavier\)
-    S: git
-  - E: huwei013!chinasoftinc.com
-    M: Wei Hu Xavier
-    S: pipermail
-  - E: xavier.huwei!foxmail.com
-    M: Wei Hu Xavier
-    S: pipermail
-  - E: xavier.huwei!huawei.com
-    M: Wei Hu Xavier
-    S: pipermail
-  - E: xavier.huwei!tom.com
-    M: Wei Hu Xavier
-    S: pipermail
-  - E: xavier_huwei!163.com
-    M: Wei Hu Xavier
-    S: pipermail
-  B: 0
-  U: Wei Hu Xavier
-- C: US
-  E: hweicdl!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: hweicdl!gmail.com
-    M: Wei Huang
-    S: git
-  B: 0
-  U: Wei Huang
-- C: US
-  E: wei!redhat.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: acrn
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cip
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: elisa
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kernelci
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: korg
-    R: C
-  - T: "2017-02-11"
-    C: Red Hat Inc.
-    F: "2014-10-21"
-    P: zep
-    R: C
-  S: female
-  I:
-  - E: wei!redhat.com
-    M: Wei Huang
-    S: git
-  B: 0
-  U: Wei Huang

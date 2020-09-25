@@ -1,4 +1,101 @@
 P:
+- E: jeanpierre.roquesalane!dell.comd
+  R:
+  - T: "2004-03-01"
+    C: Atos
+    F: "2002-03-01"
+    P: lfn-cntt
+    R: C
+  - T: "2005-01-01"
+    C: ARES.FR
+    F: "2004-01-01"
+    P: lfn-cntt
+    R: C
+  - T: "2007-01-01"
+    C: Devoteam SA
+    F: "2005-01-01"
+    P: lfn-cntt
+    R: C
+  - T: "2100-01-01"
+    C: Dell EMC
+    F: "2007-07-01"
+    P: lfn-cntt
+    R: C
+  I:
+  - E: jeanpierre.roquesalane!dell.comd
+    M: jproque-dell
+    S: git
+  - S: github
+    U: jproque-dell
+  B: 0
+  U: jproque-dell
+- E: singerj!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-03-08"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: singerj!us.ibm.com
+    M: jpsthecelt
+    S: slack
+    U: jpsthecelt
+  B: 0
+  U: jpsthecelt
+- R:
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - M: jqlu
+    S: github
+    U: jqlu
+  B: 0
+  U: jqlu
+- E: pingthere!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  I:
+  - E: pingthere!gmail.com
+    M: jqlu
+    S: git
+  B: 0
+  U: jqlu
+- E: jramos!pivotal.io
+  R:
+  - T: "2017-04-27"
+    C: Pivotal
+    F: "2016-09-22"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: jramos!pivotal.io
+    M: jramos
+    S: slack
+    U: jramos
+  B: 0
+  U: jramos
 - R:
   - T: "2015-09-01"
     C: Savoir-faire Linux
@@ -63267,144 +63364,3 @@ P:
     S: git
   B: 0
   U: raggi
-- E: raghav.aneja!intel.com
-  R:
-  - T: "2018-11-21"
-    C: Intel Corporation
-    F: "2018-11-16"
-    P: grid
-    R: C
-  - T: "2019-05-01"
-    C: Intel Corporation
-    F: "2018-11-16"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2019-05-01"
-    C: Intel Corporation
-    F: "2018-11-16"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2018-11-16"
-    P: sawtooth
-    R: C
-  I:
-  - E: raghav.aneja!intel.com
-    M: raghav.aneja
-    S: git
-  - E: raghav.aneja!intel.com
-    M: Raghav Aneja
-    S: jira
-    U: raghav.aneja14
-  B: 0
-  U: raghav.aneja
-- C: IN
-  E: raghavendra.talur!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: kubevirt
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "1900-01-01"
-    P: rook
-    R: C
-  I:
-  - E: raghavendra.talur!gmail.com
-    M: raghavendra talur
-    S: git
-  - E: raghavendra.talur!gmail.com
-    M: Raghavendra Talur
-    S: github
-    U: raghavendra-talur
-  B: 0
-  U: raghavendra talur
-- E: raghavendra.koushik!neterion.com
-  R:
-  - T: "2100-01-01"
-    C: Neterion
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: raghavendra.koushik!neterion.com
-    M: raghavendra.koushik
-    S: git
-  B: 0
-  U: raghavendra.koushik
-- C: IN
-  E: raghul.christus!citrix.com
-  R:
-  - T: "2100-01-01"
-    C: Citrix Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Citrix Systems Inc.
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: raghul.christus!citrix.com
-    M: raghulc
-    S: git
-  B: 0
-  U: raghulc
-- E: raghunath.borra!wipro.com
-  R:
-  - T: "2100-01-01"
-    C: Wipro Limited
-    F: "2017-09-12"
-    P: data-plane-development-kit/dpdk-summary
-    R: C
-  - T: "2100-01-01"
-    C: Wipro Limited
-    F: "2017-09-12"
-    P: dpdk
-    R: C
-  I:
-  - E: raghunath.borra!wipro.com
-    M: raghunath.borra
-    S: pipermail
-  B: 0
-  U: raghunath.borra
-- E: raghuram!aarnanetworks.com
-  R:
-  - T: "2100-01-01"
-    C: Aarna Networks
-    F: "2019-07-18"
-    P: onap
-    R: C
-  I:
-  - E: raghuram!aarnanetworks.com
-    M: Raghu Ram
-    S: groupsio
-  - E: raghuram!aarnanetworks.com
-    M: raghuram
-    S: groupsio
-  B: 0
-  U: raghuram
-- E: long.liu!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: long.liu!intel.com
-    M: ragnar
-    S: slack
-    U: long.liu
-  B: 0
-  U: ragnar

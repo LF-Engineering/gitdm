@@ -1,4 +1,86 @@
 P:
+- C: US
+  E: the.cody.oss!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Target Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Target Corporation
+    F: "1900-01-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - E: the.cody.oss!gmail.com
+    M: codyoss
+    S: git
+  B: 0
+  U: codyoss
+- E: cjscotta!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "2016-11-18"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - E: cjscotta!us.ibm.com
+    M: colby
+    S: slack
+    U: colby
+  B: 0
+  U: colby
+- E: yandongdong!inspur.com
+  R:
+  - T: "2100-01-01"
+    C: Inspur
+    F: "1900-01-01"
+    P: harbor
+    R: C
+  I:
+  - E: yandongdong!inspur.com
+    S: github
+    U: coldy1992
+  B: 0
+  U: coldy1992
+- R:
+  - T: "2014-09-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "2014-09-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-10-01"
+    C: SAMSUNG
+    F: "2015-06-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-06-01"
+    C: Barefoot
+    F: "2016-10-01"
+    P: cncf/shared
+    R: C
+  - T: "2018-06-01"
+    C: Barefoot
+    F: "2016-10-01"
+    P: onf-p4
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2018-06-01"
+    P: cncf/shared
+    R: C
+  I:
+  - S: github
+    U: cole-barefoot
+  B: 0
+  U: cole-barefoot
 - E: cschlesinger!barefootnetworks.com
   R:
   - T: "2014-09-01"
@@ -11148,6 +11230,11 @@ P:
   U: dimtruck
 - E: dinesh.kumar!toshiba-tsip.com
   R:
+  - T: "2100-01-01"
+    C: Toshiba Corporation
+    F: "1901-01-01"
+    P: cip
+    R: C
   - T: "2100-01-01"
     C: Toshiba Corporation
     F: "1901-01-01"
@@ -63217,100 +63304,3 @@ P:
     U: jpfigueiras
   B: 0
   U: jpfigueiras
-- E: jeanpierre.roquesalane!dell.comd
-  R:
-  - T: "2004-03-01"
-    C: Atos
-    F: "2002-03-01"
-    P: lfn-cntt
-    R: C
-  - T: "2005-01-01"
-    C: ARES.FR
-    F: "2004-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2007-01-01"
-    C: Devoteam SA
-    F: "2005-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: Dell EMC
-    F: "2007-07-01"
-    P: lfn-cntt
-    R: C
-  I:
-  - E: jeanpierre.roquesalane!dell.comd
-    M: jproque-dell
-    S: git
-  - S: github
-    U: jproque-dell
-  B: 0
-  U: jproque-dell
-- E: singerj!us.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "2016-03-08"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: singerj!us.ibm.com
-    M: jpsthecelt
-    S: slack
-    U: jpsthecelt
-  B: 0
-  U: jpsthecelt
-- R:
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: jqlu
-    S: github
-    U: jqlu
-  B: 0
-  U: jqlu
-- E: pingthere!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "1900-01-01"
-    P: argo
-    R: C
-  - T: "2100-01-01"
-    C: Alibaba
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - E: pingthere!gmail.com
-    M: jqlu
-    S: git
-  B: 0
-  U: jqlu
-- E: jramos!pivotal.io
-  R:
-  - T: "2017-04-27"
-    C: Pivotal
-    F: "2016-09-22"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: jramos!pivotal.io
-    M: jramos
-    S: slack
-    U: jramos
-  B: 0
-  U: jramos
