@@ -1,4 +1,167 @@
 P:
+- C: US
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - M: Blair Kuzman
+    S: github
+    U: blairkutz
+  B: 0
+  U: Blair Kuzman
+- E: bkutzman!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  I:
+  - E: bkutzman!google.com
+    M: Blair Kuzman
+    S: git
+  B: 0
+  U: Blair Kuzman
+- R:
+  - T: "2100-01-01"
+    C: MayaData
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: MayaData
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  I:
+  - M: Blaise Dias
+    S: github
+    U: blaisedias
+  B: 0
+  U: Blaise Dias
+- E: blaisedias!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: MayaData
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: MayaData
+    F: "1900-01-01"
+    P: openebs
+    R: C
+  I:
+  - E: blaisedias!users.noreply.github.com
+    M: Blaise Dias
+    S: git
+  B: 0
+  U: Blaise Dias
+- R:
+  - T: "2017-10-01"
+    C: Shape
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2019-02-01"
+    C: Infrastructure Proving Grounds
+    F: "2017-10-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Sumo Logic
+    F: "2019-02-01"
+    P: k8s
+    R: C
+  I:
+  - M: Blaise Pabon
+    S: github
+    U: blaise-sumo
+  B: 0
+  U: Blaise Pabon
+- E: roxanagabriela10!gmail.com
+  R:
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2015-03-01"
+    C: Independent
+    F: "1900-01-01"
+    P: korg
+    R: C
+  - T: "2017-03-01"
+    C: Luxoft
+    F: "2015-03-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Computaris
+    F: "2017-03-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: roxanagabriela10!gmail.com
+    M: Blaj Roxana
+    S: git
+  B: 0
+  U: Blaj Roxana
+- R:
+  - T: "2016-04-01"
+    C: Beamspeed
+    F: "1900-01-01"
+    P: envoy
+    R: C
+  - T: "2019-08-01"
+    C: Platform9
+    F: "2016-04-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Hashicorp
+    F: "2019-08-01"
+    P: envoy
+    R: C
+  I:
+  - M: Blake Covarrubias
+    S: github
+    U: blake
+  B: 0
+  U: Blake Covarrubias
 - R:
   - T: "2016-04-01"
     C: MuleSoft
@@ -15191,6 +15354,9 @@ P:
   - M: Brendan Bolles
     S: github
     U: fnordware
+  - E: brendan!fnordware.com
+    M: Brendan Bolles
+    S: groupsio
   B: 0
   U: Brendan Bolles
 - E: brendan.boner!ericsson.com
@@ -20482,6 +20648,9 @@ P:
     U: bcipriano
   - E: cipriano!google.com
     M: Brian Cipriano
+    S: groupsio
+  - E: cipriano!google.com
+    M: Brian Cipriano
     S: slack
     U: cipriano
   B: 0
@@ -24815,6 +24984,9 @@ P:
     M: Brian Warner
     S: github
     U: brianwarner
+  - E: brian!bdwarner.com
+    M: Brian Warner
+    S: groupsio
   B: 0
   U: Brian Warner
 - R:
@@ -26641,6 +26813,9 @@ P:
   - M: Bruce Armstrong
     S: github
     U: armstro
+  - E: armstrob!us.ibm.com
+    M: Bruce Armstrong
+    S: groupsio
   - E: armstrob!us.ibm.com
     M: Bruce Armstrong
     S: slack
@@ -46275,7 +46450,8 @@ P:
     U: CMeza99
   B: 0
   U: Carlos Meza
-- R:
+- E: cmontemuino!users.noreply.github.com
+  R:
   - T: "2005-01-01"
     C: Tata Consultancy Services
     F: "2003-07-01"
@@ -46317,6 +46493,9 @@ P:
     P: argo
     R: C
   I:
+  - E: cmontemuino!users.noreply.github.com
+    M: Carlos Montemuino
+    S: git
   - M: Carlos Montemuino
     S: github
     U: cmontemuino
@@ -49148,6 +49327,9 @@ P:
   - M: Carol Payne
     S: github
     U: carolalynn22
+  - E: Carolp!netflix.com
+    M: Carol Payne
+    S: groupsio
   B: 0
   U: Carol Payne
 - E: carolsand!gmail.com
@@ -50362,6 +50544,9 @@ P:
   - M: Cary Phillips
     S: github
     U: cary-ilm
+  - E: cary!ilm.com
+    M: Cary Phillips
+    S: groupsio
   - E: cary!ilm.com
     M: Cary Phillips
     S: slack
@@ -61949,228 +62134,3 @@ P:
     S: git
   B: 0
   U: Charles Chan
-- E: rascov!gmail.com
-  R:
-  - T: "2015-09-01"
-    C: D-Link
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2015-09-01"
-    C: D-Link
-    F: "1900-01-01"
-    P: onf-onos
-    R: C
-  - T: "2015-09-01"
-    C: D-Link
-    F: "1900-01-01"
-    P: onf-sd-ran
-    R: C
-  - T: "2016-09-01"
-    C: ON.Lab
-    F: "2015-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2016-09-01"
-    C: ON.Lab
-    F: "2015-09-01"
-    P: onf-onos
-    R: C
-  - T: "2016-09-01"
-    C: ON.Lab
-    F: "2015-09-01"
-    P: onf-sd-ran
-    R: C
-  - T: "2016-09-01"
-    C: ON.Lab
-    F: "2015-09-01"
-    P: onf-trellis
-    R: C
-  - T: "2100-01-01"
-    C: Open Networking Foundation (ONF)
-    F: "2016-09-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Open Networking Foundation (ONF)
-    F: "2016-09-01"
-    P: onf-ng-sdn
-    R: C
-  - T: "2100-01-01"
-    C: Open Networking Foundation (ONF)
-    F: "2016-09-01"
-    P: onf-onos
-    R: C
-  - T: "2100-01-01"
-    C: Open Networking Foundation (ONF)
-    F: "2016-09-01"
-    P: onf-sd-ran
-    R: C
-  - T: "2100-01-01"
-    C: Open Networking Foundation (ONF)
-    F: "2016-09-01"
-    P: onf-trellis
-    R: C
-  I:
-  - E: rascov!gmail.com
-    M: Charles Chan
-    S: git
-  B: 0
-  U: Charles Chan
-- E: charcoch!uk.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: charcoch!uk.ibm.com
-    M: Charles Cochrane
-    S: git
-  B: 0
-  U: Charles Cochrane
-- E: cc847m!att.com
-  R:
-  - T: "2017-12-19"
-    C: AT&T Services, Inc.
-    F: "2017-07-01"
-    P: onap
-    R: C
-  I:
-  - M: Charles Cole
-    S: confluence
-    U: cc847m
-  - E: cc847m!att.com
-    M: Charles Cole
-    S: gerrit
-    U: cc847m
-  - E: cc847m!att.com
-    M: COLE
-    S: git
-  - E: cc847m!att.com
-    M: Charles Cole
-    S: git
-  - M: Charles Cole
-    S: jira
-    U: cc847m
-  - E: cc847m!att.com
-    M: Charles Cole
-    S: jira
-    U: cc847m
-  B: 0
-  U: Charles Cole
-- E: chvckd!gmail.com
-  R:
-  - T: "2015-02-01"
-    C: Exony
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  - T: "2016-09-01"
-    C: WEST COAST SOFTWARE
-    F: "2015-02-01"
-    P: jaeger
-    R: C
-  - T: "2016-12-01"
-    C: Independent
-    F: "2016-09-01"
-    P: jaeger
-    R: C
-  - T: "2017-07-01"
-    C: Gamebuildr.io
-    F: "2016-12-01"
-    P: jaeger
-    R: C
-  - T: "2018-04-01"
-    C: National Library of Wales
-    F: "2017-07-01"
-    P: jaeger
-    R: C
-  - T: "2100-01-01"
-    C: Couchbase
-    F: "2018-04-01"
-    P: jaeger
-    R: C
-  I:
-  - E: chvckd!gmail.com
-    M: Charles Dixon
-    S: git
-  - E: chvckd!gmail.com
-    M: Charles Dixon
-    S: github
-    U: chvck
-  B: 0
-  U: Charles Dixon
-- E: chaduffy!cisco.com
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: acrn
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: chaduffy!cisco.com
-    M: Charles Duffy
-    S: git
-  B: 0
-  U: Charles Duffy
-- E: charles!dyfis.net
-  R:
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Cisco Systems Inc.
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: charles!dyfis.net
-    M: Charles Duffy
-    S: git
-  - E: charles!dyfis.net
-    M: Charles Duffy
-    S: github
-    U: charles-dyfis-net
-  B: 0
-  U: Charles Duffy
-- E: charles.youse!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "2019-02-22"
-    P: zep
-    R: C
-  I:
-  - E: charles.youse!intel.com
-    M: Charles E. Youse
-    S: git
-  - E: charles.youse!intel.com
-    M: Charles Youse
-    S: git
-  - E: charles.youse!intel.com
-    M: charles.youse
-    S: groupsio
-  - E: charles.youse!intel.com
-    M: charles.youse
-    S: slack
-    U: charles.youse
-  - E: charles.youse!intel.com
-    M: gnuless
-    S: slack
-    U: charles.youse
-  B: 0
-  U: Charles E. Youse

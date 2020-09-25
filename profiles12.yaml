@@ -1,4 +1,637 @@
 P:
+- C: GB
+  E: ian.miell!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "1900-01-01"
+    P: notary
+    R: C
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "1900-01-01"
+    P: opencolorio
+    R: C
+  - T: "2100-01-01"
+    C: OpenBet
+    F: "2015-04-16"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: ian.miell!gmail.com
+    M: Ian Miell
+    S: git
+  - E: ian.miell!gmail.com
+    S: github
+    U: ianmiell
+  - E: ian.miell!gmail.com
+    M: Ian Miell
+    S: github
+    U: ianmiell
+  B: 0
+  U: Ian Miell
+- E: ianmllgn!gmail.com
+  R:
+  - T: "2017-04-01"
+    C: Basho Technologies, Inc.
+    F: "1900-01-01"
+    P: cloudevents
+    R: C
+  - T: "2017-04-01"
+    C: Basho Technologies, Inc.
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2017-04-01"
+    P: cloudevents
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2017-04-01"
+    P: opentelemetry
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-06-01"
+    P: cloudevents
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2017-06-01"
+    P: opentelemetry
+    R: C
+  I:
+  - E: ianmllgn!gmail.com
+    M: Ian Milligan
+    S: git
+  - E: ianmllgn!gmail.com
+    M: Ian Milligan
+    S: github
+    U: ian-mi
+  B: 0
+  U: Ian Milligan
+- E: ianj_mitchell!uk.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ianj_mitchell!uk.ibm.com
+    M: Ian Mitchell
+    S: gerrit
+    U: ianj_mitchell
+  - E: ianj_mitchell!uk.ibm.com
+    M: Ian Mitchell
+    S: groupsio
+  B: 0
+  U: Ian Mitchell
+- E: ian!mnementh.co.uk
+  R:
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: ian!mnementh.co.uk
+    M: Ian Molton
+    S: git
+  B: 0
+  U: Ian Molton
+- C: US
+  R:
+  - T: "2014-12-01"
+    C: IDT Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2014-12-01"
+    C: IDT Corporation
+    F: "1900-01-01"
+    P: etcd
+    R: C
+  - T: "2014-12-01"
+    C: IDT Corporation
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2014-12-01"
+    C: IDT Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2014-12-01"
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2014-12-01"
+    P: etcd
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2014-12-01"
+    P: helm
+    R: C
+  - T: "2015-05-01"
+    C: Independent
+    F: "2014-12-01"
+    P: k8s
+    R: C
+  - T: "2015-10-01"
+    C: Pivotal
+    F: "2015-05-01"
+    R: C
+  - T: "2015-10-01"
+    C: Pivotal
+    F: "2015-05-01"
+    P: etcd
+    R: C
+  - T: "2015-10-01"
+    C: Pivotal
+    F: "2015-05-01"
+    P: helm
+    R: C
+  - T: "2015-10-01"
+    C: Pivotal
+    F: "2015-05-01"
+    P: k8s
+    R: C
+  - T: "2016-08-01"
+    C: Apprenda
+    F: "2015-10-01"
+    R: C
+  - T: "2016-08-01"
+    C: Apprenda
+    F: "2015-10-01"
+    P: etcd
+    R: C
+  - T: "2016-08-01"
+    C: Apprenda
+    F: "2015-10-01"
+    P: helm
+    R: C
+  - T: "2016-08-01"
+    C: Apprenda
+    F: "2015-10-01"
+    P: k8s
+    R: C
+  - T: "2017-06-01"
+    C: Yieldmo
+    F: "2016-08-01"
+    R: C
+  - T: "2017-06-01"
+    C: Yieldmo
+    F: "2016-08-01"
+    P: etcd
+    R: C
+  - T: "2017-06-01"
+    C: Yieldmo
+    F: "2016-08-01"
+    P: helm
+    R: C
+  - T: "2017-06-01"
+    C: Yieldmo
+    F: "2016-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: First Walk
+    F: "2017-06-01"
+    R: C
+  - T: "2100-01-01"
+    C: First Walk
+    F: "2017-06-01"
+    P: etcd
+    R: C
+  - T: "2100-01-01"
+    C: First Walk
+    F: "2017-06-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: First Walk
+    F: "2017-06-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - M: Ian Mortimer
+    S: github
+    U: imorti
+  B: 0
+  U: Ian Mortimer
+- R:
+  - T: "2015-04-01"
+    C: SESYNC
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2016-02-01"
+    C: Independent
+    F: "2015-04-01"
+    P: argo
+    R: C
+  - T: "2016-07-01"
+    C: Blue Raster
+    F: "2016-02-01"
+    P: argo
+    R: C
+  - T: "2018-05-01"
+    C: Independent
+    F: "2016-07-01"
+    P: argo
+    R: C
+  - T: "2019-07-01"
+    C: Electric Coin Company
+    F: "2018-05-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: CommonBond
+    F: "2019-07-01"
+    P: argo
+    R: C
+  I:
+  - M: Ian Munoz
+    S: github
+    U: ianamunoz
+  B: 0
+  U: Ian Munoz
+- E: ianamunoz!users.noreply.github.com
+  R:
+  - T: "2015-04-01"
+    C: SESYNC
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2016-02-01"
+    C: Independent
+    F: "2015-04-01"
+    P: argo
+    R: C
+  - T: "2016-07-01"
+    C: Blue Raster
+    F: "2016-02-01"
+    P: argo
+    R: C
+  - T: "2018-05-01"
+    C: Independent
+    F: "2016-07-01"
+    P: argo
+    R: C
+  - T: "2019-07-01"
+    C: Electric Coin Company
+    F: "2018-05-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: CommonBond
+    F: "2019-07-01"
+    P: argo
+    R: C
+  I:
+  - E: ianamunoz!users.noreply.github.com
+    M: Ian Munoz
+    S: git
+  B: 0
+  U: Ian Munoz
+- C: AU
+  E: imunsie!au1.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: imunsie!au1.ibm.com
+    M: Ian Munsie
+    S: git
+  B: 0
+  U: Ian Munsie
+- E: ioconnell!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ioconnell!twitter.com
+    M: Ian O Connell
+    S: git
+  B: 0
+  U: Ian O Connell
+- E: rmoran!pivotal.io
+  R:
+  - T: "2020-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: VMware, Inc.
+    F: "2020-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: rmoran!pivotal.io
+    M: Ian Ornstein and Ryan Moran
+    S: git
+  B: 0
+  U: Ian Ornstein and Ryan Moran
+- E: zgershman!pivotal.io
+  R:
+  - T: "2019-07-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: DigitalOcean
+    F: "2019-07-01"
+    P: cncf/shared
+    R: C
+  I:
+  - E: zgershman!pivotal.io
+    M: Ian Ornstein and Zachary Gershman
+    S: git
+  B: 0
+  U: Ian Ornstein and Zachary Gershman
+- E: iornstein!pivotallabs.com
+  R:
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  I:
+  - M: Ian Ornstein
+    S: git
+  - E: iornstein!pivotal.io
+    M: Ian Ornstein
+    S: git
+  - E: iornstein!pivotallabs.com
+    M: Ian Ornstein
+    S: git
+  B: 0
+  U: Ian Ornstein
+- E: ian!twitter.com
+  R:
+  - T: "2100-01-01"
+    C: Twitter
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: ian!twitter.com
+    M: Ian Ownbey
+    S: git
+  B: 0
+  U: Ian Ownbey
+- R:
+  - T: "2016-01-01"
+    C: Eggplant
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2016-01-01"
+    C: Eggplant
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Once Connected
+    F: "2016-01-01"
+    P: cncf/shared
+    R: C
+  I:
+  - M: Ian Parker
+    S: github
+    U: iantestplant
+  B: 0
+  U: Ian Parker
+- R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cloudevents
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: tekton
+    R: C
+  I:
+  - M: Ian Partridge
+    S: github
+    U: ianpartridge
+  B: 0
+  U: Ian Partridge
+- E: i.partridge!uk.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    P: nats
+    R: C
+  S: male
+  I:
+  - E: i.partridge!uk.ibm.com
+    M: Ian Partridge
+    S: git
+  B: 0
+  U: Ian Partridge
+- E: Ian.Pozella!imgtec.com
+  R:
+  - T: "2100-01-01"
+    C: Imagination Technologies
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: Ian.Pozella!imgtec.com
+    M: Ian Pozella
+    S: git
+  B: 0
+  U: Ian Pozella
+- C: CA
+  E: ian.quick!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Shopify
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Shopify
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Shopify
+    F: "1900-01-01"
+    P: opentelemetry
+    R: C
+  S: male
+  I:
+  - E: ian.quick!gmail.com
+    M: Ian Quick
+    S: git
+  - E: ian.quick!gmail.com
+    M: Ian Quick
+    S: github
+    U: ibawt
+  B: 0
+  U: Ian Quick
+- E: irae!cloudops.com
+  R:
+  - T: "2100-01-01"
+    C: CloudOps Inc.
+    F: "2005-01-01"
+    P: fdio
+    R: C
+  - T: "2100-01-01"
+    C: CloudOps Inc.
+    F: "2005-01-01"
+    P: lfn/tungsten-fabric
+    R: C
+  - T: "2100-01-01"
+    C: CloudOps Inc.
+    F: "2005-01-01"
+    P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: CloudOps Inc.
+    F: "2005-01-01"
+    P: opx
+    R: C
+  - T: "2100-01-01"
+    C: CloudOps Inc.
+    F: "2005-01-01"
+    P: pnda
+    R: C
+  - T: "2100-01-01"
+    C: CloudOps Inc.
+    F: "2005-01-01"
+    P: prometheus
+    R: C
+  I:
+  - M: Ian Rae
+    S: confluence
+    U: ianrae
+  - E: irae!cloudops.com
+    M: Ian Rae
+    S: gerrit
+    U: ianrae
+  - E: irae!cloudops.com
+    M: Ian Rae
+    S: groupsio
+  - M: Ian Rae
+    S: meetup
+    U: "185439362"
+  B: 0
+  U: Ian Rae
+- E: Ian.Rickards!arm.com
+  R:
+  - T: "2009-02-02"
+    C: ARM
+    F: "2009-01-01"
+    P: yocto
+    R: C
+  I:
+  - E: Ian.Rickards!arm.com
+    M: Ian Rickards
+    S: git
+  B: 0
+  U: Ian Rickards
+- E: irogers!google.com
+  R:
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: male
+  I:
+  - E: irogers!google.com
+    M: Ian Rogers
+    S: git
+  - E: irogers!google.com
+    M: Ian Rogers
+    S: groupsio
+  B: 0
+  U: Ian Rogers
+- E: idr!us.ibm.com
+  R:
+  - T: "2100-01-01"
+    C: IBM
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: idr!us.ibm.com
+    M: Ian Romanick
+    S: git
+  B: 0
+  U: Ian Romanick
 - E: ian.g.simpson!gmail.com
   R:
   - T: "2005-12-31"
@@ -3420,6 +4053,9 @@ P:
   - M: Idris Miles
     S: github
     U: IdrisMiles
+  - E: idris.miles!gmail.com
+    M: idris.miles
+    S: groupsio
   B: 0
   U: Idris Miles
 - C: GB
@@ -7220,6 +7856,11 @@ P:
   U: Igor Socec
 - E: sigorilla!yandex-team.ru
   R:
+  - T: "2100-01-01"
+    C: Yandex
+    F: "1900-01-01"
+    P: a092m00001iv4dqqal
+    R: C
   - T: "2100-01-01"
     C: Yandex
     F: "1900-01-01"
@@ -24424,6 +25065,11 @@ P:
   - T: "2100-01-01"
     C: Trikoder
     F: "1900-01-01"
+    P: a092m00001iv4dqqal
+    R: C
+  - T: "2100-01-01"
+    C: Trikoder
+    F: "1900-01-01"
     P: cncf/shared
     R: C
   I:
@@ -30038,6 +30684,9 @@ P:
     P: openvdb
     R: C
   I:
+  - E: meetings!socalblender.org
+    M: JT Nelson
+    S: groupsio
   - E: meetings!socalblender.org
     M: JT Nelson
     S: slack
@@ -53356,6 +54005,9 @@ P:
     U: vmwiseguy
   - E: jamesscottvincent!gmail.com
     M: James Vincent
+    S: groupsio
+  - E: jamesscottvincent!gmail.com
+    M: James Vincent
     S: slack
     U: jamesscottvincent
   B: 0
@@ -61926,710 +62578,3 @@ P:
     U: vertti
   B: 0
   U: Janne Sinivirta
-- E: git!jf-projects.de
-  R:
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-    P: coredns
-    R: C
-  - T: "2100-01-01"
-    C: SAP
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - E: git!jf-projects.de
-    M: Jannick Fahlbusch ฏ๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎
-    S: git
-  - E: git!jf-projects.de
-    M: Jannick Fahlbusch
-    S: git
-  - E: git!jf-projects.de
-    M: Jannick Fahlbusch
-    S: github
-    U: jannickfahlbusch
-  B: 0
-  U: Jannick Fahlbusch
-- E: becher.jannik!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: becher.jannik!gmail.com
-    M: Jannik Becher
-    S: git
-  B: 0
-  U: Jannik Becher
-- C: US
-  E: jannis!leidel.info
-  R:
-  - T: "2100-01-01"
-    C: Mozilla
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: intoto
-    R: C
-  - T: "2100-01-01"
-    C: Mozilla
-    F: "1900-01-01"
-    P: tuf
-    R: C
-  S: female
-  I:
-  - E: jannis!leidel.info
-    M: Jannis Leidel
-    S: git
-  B: 0
-  U: Jannis Leidel
-- R:
-  - T: "2100-01-01"
-    C: BTC
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: BTC
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - M: Jannis Oeltjen
-    S: github
-    U: jcoeltjen
-  B: 0
-  U: Jannis Oeltjen
-- E: jcoeltjen!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: BTC
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: BTC
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: jcoeltjen!users.noreply.github.com
-    M: Jannis Oeltjen
-    S: git
-  B: 0
-  U: Jannis Oeltjen
-- E: oss!jcoeltjen.de
-  R:
-  - T: "2100-01-01"
-    C: BTC
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: BTC
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: oss!jcoeltjen.de
-    M: Jannis Oeltjen
-    S: git
-  B: 0
-  U: Jannis Oeltjen
-- E: info+kronos!janosgyerik.com
-  R:
-  - T: "2016-08-01"
-    C: Societe Generale
-    F: "1900-01-01"
-    R: C
-  - T: "2016-08-01"
-    C: Societe Generale
-    F: "1900-01-01"
-    P: nats
-    R: C
-  - T: "2100-01-01"
-    C: SonarSource
-    F: "2016-08-01"
-    R: C
-  - T: "2100-01-01"
-    C: SonarSource
-    F: "2016-08-01"
-    P: nats
-    R: C
-  S: male
-  I:
-  - E: info+kronos!janosgyerik.com
-    M: Janos Gyerik
-    S: git
-  - E: janos.gyerik!sonarsource.com
-    M: Janos Gyerik
-    S: git
-  B: 0
-  U: Janos Gyerik
-- C: IE
-  R:
-  - T: "2100-01-01"
-    C: lenart.io
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: lenart.io
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  I:
-  - M: Janos Lenart
-    S: github
-    U: lenartj
-  B: 0
-  U: Janos Lenart
-- E: janos!lenart.io
-  R:
-  - T: "2100-01-01"
-    C: lenart.io
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: lenart.io
-    F: "1900-01-01"
-    P: openebs
-    R: C
-  I:
-  - E: janos!lenart.io
-    M: Janos Lenart
-    S: git
-  B: 0
-  U: Janos Lenart
-- C: HU
-  R:
-  - T: "2014-02-01"
-    C: EPAM Systems
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2014-02-01"
-    C: EPAM Systems
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2014-02-01"
-    C: EPAM Systems
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-02-01"
-    C: EPAM Systems
-    F: "1900-01-01"
-    P: spiffe
-    R: C
-  - T: "2015-04-01"
-    C: SequenceIQ
-    F: "2014-02-01"
-    P: cncf
-    R: C
-  - T: "2015-04-01"
-    C: SequenceIQ
-    F: "2014-02-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-04-01"
-    C: SequenceIQ
-    F: "2014-02-01"
-    P: k8s
-    R: C
-  - T: "2015-04-01"
-    C: SequenceIQ
-    F: "2014-02-01"
-    P: spiffe
-    R: C
-  - T: "2017-06-01"
-    C: Cloudera
-    F: "2015-04-01"
-    P: cncf
-    R: C
-  - T: "2017-06-01"
-    C: Cloudera
-    F: "2015-04-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-06-01"
-    C: Cloudera
-    F: "2015-04-01"
-    P: k8s
-    R: C
-  - T: "2017-06-01"
-    C: Cloudera
-    F: "2015-04-01"
-    P: spiffe
-    R: C
-  - T: "2017-11-01"
-    C: Apache Software Foundation
-    F: "2017-06-01"
-    P: cncf
-    R: C
-  - T: "2017-11-01"
-    C: Apache Software Foundation
-    F: "2017-06-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-11-01"
-    C: Apache Software Foundation
-    F: "2017-06-01"
-    P: k8s
-    R: C
-  - T: "2017-11-01"
-    C: Apache Software Foundation
-    F: "2017-06-01"
-    P: spiffe
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-11-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-11-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-11-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-11-01"
-    P: spiffe
-    R: C
-  S: male
-  I:
-  - M: Janos Matyas
-    S: github
-    U: matyix
-  B: 0
-  U: Janos Matyas
-- C: HU
-  E: janos.matyas!gmail.com
-  R:
-  - T: "2014-02-01"
-    C: EPAM Systems
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2014-02-01"
-    C: EPAM Systems
-    F: "1900-01-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2014-02-01"
-    C: EPAM Systems
-    F: "1900-01-01"
-    P: spiffe
-    R: C
-  - T: "2015-04-01"
-    C: SequenceIQ
-    F: "2014-02-01"
-    P: cncf
-    R: C
-  - T: "2015-04-01"
-    C: SequenceIQ
-    F: "2014-02-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2015-04-01"
-    C: SequenceIQ
-    F: "2014-02-01"
-    P: spiffe
-    R: C
-  - T: "2017-06-01"
-    C: Cloudera
-    F: "2015-04-01"
-    P: cncf
-    R: C
-  - T: "2017-06-01"
-    C: Cloudera
-    F: "2015-04-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-06-01"
-    C: Cloudera
-    F: "2015-04-01"
-    P: spiffe
-    R: C
-  - T: "2017-11-01"
-    C: Apache Software Foundation
-    F: "2017-06-01"
-    P: cncf
-    R: C
-  - T: "2017-11-01"
-    C: Apache Software Foundation
-    F: "2017-06-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2017-11-01"
-    C: Apache Software Foundation
-    F: "2017-06-01"
-    P: spiffe
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-11-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-11-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-11-01"
-    P: cncf/operatorframework
-    R: C
-  - T: "2100-01-01"
-    C: CNCF
-    F: "2017-11-01"
-    P: spiffe
-    R: C
-  S: male
-  I:
-  - E: janos.matyas!gmail.com
-    M: Janos Matyas
-    S: git
-  B: 0
-  U: Janos Matyas
-- E: frankja!linux.ibm.com
-  R:
-  - T: "2100-01-01"
-    C: IBM
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: frankja!linux.ibm.com
-    M: Janosch Frank
-    S: git
-  B: 0
-  U: Janosch Frank
-- E: frankja!linux.vnet.ibm.com
-  R:
-  - T: "2016-03-11"
-    C: IBM
-    F: "2016-01-11"
-    P: acrn
-    R: C
-  - T: "2016-03-11"
-    C: IBM
-    F: "2016-01-11"
-    P: cephfoundation
-    R: C
-  - T: "2016-03-11"
-    C: IBM
-    F: "2016-01-11"
-    P: cip
-    R: C
-  - T: "2016-03-11"
-    C: IBM
-    F: "2016-01-11"
-    P: elisa
-    R: C
-  - T: "2016-03-11"
-    C: IBM
-    F: "2016-01-11"
-    P: kernelci
-    R: C
-  - T: "2016-03-11"
-    C: IBM
-    F: "2016-01-11"
-    P: korg
-    R: C
-  - T: "2016-03-11"
-    C: IBM
-    F: "2016-01-11"
-    P: zep
-    R: C
-  I:
-  - E: frankja!linux.vnet.ibm.com
-    M: Janosch Frank
-    S: git
-  B: 0
-  U: Janosch Frank
-- E: janklein!cisco.com
-  R:
-  - T: "2016-05-23"
-    C: Cisco Systems Inc.
-    F: "2015-09-08"
-    P: dpdk
-    R: C
-  - T: "2016-05-23"
-    C: Cisco Systems Inc.
-    F: "2015-09-08"
-    P: odl
-    R: C
-  I:
-  - E: janklein!cisco.com
-    M: Janosch Klein
-    S: gerrit
-    U: JKlein
-  - E: janklein!cisco.com
-    M: Janosch Klein -X janklein - Universitaet der Bundeswehr Muenchen atCisco
-    S: pipermail
-  B: 0
-  U: Janosch Klein
-- R:
-  - T: "2100-01-01"
-    C: NotFoud
-    F: "1900-01-01"
-    P: KEDA
-    R: C
-  I:
-  - S: github
-    U: Janus88
-  B: 0
-  U: Janus88
-- C: CA
-  E: 6475833+jbialy!users.noreply.github.com
-  R:
-  - T: "2017-11-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2017-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Qlik
-    F: "2017-11-01"
-    R: C
-  - T: "2100-01-01"
-    C: Qlik
-    F: "2017-11-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: 6475833+jbialy!users.noreply.github.com
-    M: Janusz Bialy
-    S: git
-  B: 0
-  U: Janusz Bialy
-- R:
-  - T: "2017-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: harbor
-    R: C
-  - T: "2017-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Qlik
-    F: "2017-11-01"
-    P: harbor
-    R: C
-  - T: "2100-01-01"
-    C: Qlik
-    F: "2017-11-01"
-    P: helm
-    R: C
-  I:
-  - M: Janusz Bialy
-    S: github
-    U: jbialy
-  B: 0
-  U: Janusz Bialy
-- C: CA
-  E: jbialy!gmail.com
-  R:
-  - T: "2017-11-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2017-11-01"
-    C: Independent
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Qlik
-    F: "2017-11-01"
-    R: C
-  - T: "2100-01-01"
-    C: Qlik
-    F: "2017-11-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: jbialy!gmail.com
-    M: Janusz Bialy
-    S: git
-  - E: jbialy!gmail.com
-    M: Janusz Bialy
-    S: slack
-    U: jbialy
-  B: 0
-  U: Janusz Bialy
-- E: januszx.dziedzic!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: januszx.dziedzic!intel.com
-    M: Janusz Dziedzic
-    S: git
-  B: 0
-  U: Janusz Dziedzic
-- E: januszx.dziedzic!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: januszx.dziedzic!linux.intel.com
-    M: Janusz Dziedzic
-    S: git
-  B: 0
-  U: Janusz Dziedzic
-- E: janusz.jankowski!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: janusz.jankowski!intel.com
-    M: Janusz Jankowski
-    S: slack
-    U: janusz.jankowski
-  B: 0
-  U: Janusz Jankowski
-- E: janusz.jankowski!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: janusz.jankowski!linux.intel.com
-    M: Janusz Jankowski
-    S: git
-  B: 0
-  U: Janusz Jankowski
-- E: janusz.krzysztofik!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: janusz.krzysztofik!intel.com
-    M: Janusz Krzysztofik
-    S: git
-  B: 0
-  U: Janusz Krzysztofik
-- E: janusz.krzysztofik!linux.intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: janusz.krzysztofik!linux.intel.com
-    M: Janusz Krzysztofik
-    S: git
-  B: 0
-  U: Janusz Krzysztofik
-- E: jmkrzyszt!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Tele-Info-System
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Tele-Info-System
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: jmkrzyszt!gmail.com
-    M: Janusz Krzysztofik
-    S: git
-  B: 0
-  U: Janusz Krzysztofik
-- E: janusz.lisiecki!gmail.com
-  R:
-  - T: "2015-03-01"
-    C: Independent
-    F: "1900-01-01"
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-06-01"
-    C: SAMSUNG
-    F: "2015-03-01"
-    P: cncf/shared
-    R: C
-  - T: "2018-06-01"
-    C: Samsung Electronics Co. Ltd.
-    F: "2015-03-01"
-    R: C
-  - T: "2100-01-01"
-    C: NVIDIA Corporation
-    F: "2018-06-01"
-    R: C
-  - T: "2100-01-01"
-    C: NVIDIA Corporation
-    F: "2018-06-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: janusz.lisiecki!gmail.com
-    M: Janusz Lisiecki
-    S: git
-  B: 0
-  U: Janusz Lisiecki
-- R:
-  - T: "2018-05-18"
-    C: Orange S.A.
-    F: "2016-01-01"
-    P: onap
-    R: C
-  I:
-  - M: Janusz Pieczerak
-    S: confluence
-    U: JanuszPieczerak
-  B: 0
-  U: Janusz Pieczerak

@@ -1,4 +1,980 @@
 P:
+- C: TW
+  E: adnt587!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: ChaosMesh
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/litmuschaos
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: cncf/operatorframework
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: jaeger
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: prometheus
+    R: C
+  - T: "2019-04-04"
+    C: Independent
+    F: "2019-04-02"
+    P: baetyl
+    R: C
+  I:
+  - E: adnt587!gmail.com
+    M: MengZeLee
+    S: git
+  - E: adnt587!gmail.com
+    M: MengZnLee
+    S: git
+  - E: adnt587!gmail.com
+    M: MengZeLee
+    S: github
+    U: MengZn
+  - E: adnt587!gmail.com
+    M: MengZeLee
+    S: github
+    U: jjmengze
+  B: 0
+  U: MengZnLee
+- E: mengdong.lin!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: danos
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: mengdong.lin!intel.com
+    M: Mengdong Lin
+    S: git
+  B: 0
+  U: Mengdong Lin
+- E: mengdong.lin!linux.intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  S: female
+  I:
+  - E: mengdong.lin!linux.intel.com
+    M: Mengdong Lin
+    S: git
+  B: 0
+  U: Mengdong Lin
+- C: TZ
+  R:
+  - T: "2016-02-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2016-02-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-02-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - M: Menghan Li
+    S: github
+    U: menghanl
+  B: 0
+  U: Menghan Li
+- C: TZ
+  E: menghanl!google.com
+  R:
+  - T: "2016-02-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    R: C
+  - T: "2016-02-01"
+    C: Oracle America Inc.
+    F: "1900-01-01"
+    P: grpc
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-02-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-02-01"
+    P: grpc
+    R: C
+  S: male
+  I:
+  - E: menghanl!google.com
+    M: Menghan Li
+    S: git
+  B: 0
+  U: Menghan Li
+- C: CN
+  E: arieshout!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cloud-foundry/cloud-foundry
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  S: female
+  I:
+  - E: arieshout!gmail.com
+    M: Menghua Xiao
+    S: git
+  - E: arieshout!gmail.com
+    M: Menghua Xiao
+    S: github
+    U: ArieShout
+  B: 0
+  U: Menghua Xiao
+- E: menxiao!microsoft.com
+  R:
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: jenkins
+    R: C
+  I:
+  - E: menxiao!microsoft.com
+    M: Menghua Xiao
+    S: git
+  B: 0
+  U: Menghua Xiao
+- C: CN
+  E: baomengjiang!caicloud.io
+  R:
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
+    P: cdf-jenkins-x
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "2018-11-02"
+    P: baetyl
+    R: C
+  S: male
+  I:
+  - E: baomengjiang!caicloud.io
+    M: Mengjiang Bao
+    S: git
+  - E: baomengjiang!caicloud.io
+    M: 包梦江
+    S: git
+  B: 0
+  U: Mengjiang Bao
+- C: IT
+  E: baomengjiang!gmail.com
+  R:
+  - T: "2015-03-15"
+    C: ThoughtWorks
+    F: "1900-01-01"
+    R: C
+  - T: "2015-03-15"
+    C: ThoughtWorks
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: Caicloud
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-06-15"
+    C: Avaaz.org
+    F: "2015-03-15"
+    R: C
+  - T: "2015-06-15"
+    C: Avaaz.org
+    F: "2015-03-15"
+    P: k8s
+    R: C
+  - T: "2016-04-15"
+    C: MixRadio
+    F: "2015-06-15"
+    R: C
+  - T: "2016-04-15"
+    C: MixRadio
+    F: "2015-06-15"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: OVO Energy
+    F: "2016-04-15"
+    R: C
+  - T: "2100-01-01"
+    C: OVO Energy
+    F: "2016-04-15"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: baomengjiang!gmail.com
+    M: Mengjiang Bao
+    S: github
+    U: bbbmj
+  B: 0
+  U: Mengjiang Bao
+- C: US
+  E: mengqiyu1991!gmail.com
+  R:
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    R: C
+  - T: "2015-06-01"
+    C: Independent
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2015-09-01"
+    C: CommScope Inc.
+    F: "2015-06-01"
+    R: C
+  - T: "2015-09-01"
+    C: CommScope Inc.
+    F: "2015-06-01"
+    P: k8s
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "2015-09-01"
+    R: C
+  - T: "2016-07-01"
+    C: Independent
+    F: "2015-09-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-07-01"
+    R: C
+  - T: "2100-01-01"
+    C: Google
+    F: "2016-07-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: mengqiyu1991!gmail.com
+    M: Mengqi Yu
+    S: git
+  B: 0
+  U: Mengqi Yu
+- E: zhang.mengran!h3c.com
+  R:
+  - T: "2100-01-01"
+    C: New H3c Technologies
+    F: "2019-01-02"
+    R: C
+  - T: "2100-01-01"
+    C: New H3c Technologies
+    F: "2019-01-02"
+    P: onap
+    R: C
+  I:
+  - M: Mengran Zhang
+    S: jira
+    U: zhangmengran0423
+  - E: zhang.mengran!h3c.com
+    M: Mengran Zhang
+    S: jira
+    U: zhangmengran0423
+  B: 0
+  U: Mengran Zhang
+- E: zhangmengting!huawei.com
+  R:
+  - T: "2100-01-01"
+    C: Huawei Technologies Co., Ltd.
+    F: "1900-01-01"
+    R: C
+  I:
+  - E: zhangmengting!huawei.com
+    M: Mengting Zhang
+    S: git
+  B: 0
+  U: Mengting Zhang
+- C: CN
+  E: liumengxinfly!gmail.com
+  R:
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    R: C
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: cncf
+    R: C
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: cncf/cni
+    R: C
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: container-networking-interface
+    R: C
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: coredns
+    R: C
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: fluxcd
+    R: C
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    P: cncf
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    P: cncf/cni
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    P: container-networking-interface
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    P: coredns
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    P: fluxcd
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: liumengxinfly!gmail.com
+    M: Mengxin Liu
+    S: git
+  - E: liumengxinfly!gmail.com
+    M: oilbeater
+    S: git
+  - E: liumengxinfly!gmail.com
+    M: Oilbeater
+    S: github
+    U: oilbeater
+  - E: liumengxinfly!gmail.com
+    M: Mengxin Liu
+    S: slack
+    U: liumengxinfly
+  B: 0
+  U: Mengxin Liu
+- C: CN
+  E: mengxin!alauda.io
+  R:
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    R: C
+  - T: "2015-05-01"
+    C: Alibaba
+    F: "1900-01-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    R: C
+  - T: "2100-01-01"
+    C: Alauda
+    F: "2015-05-01"
+    P: k8s
+    R: C
+  S: male
+  I:
+  - E: mengxin!alauda.io
+    M: Mengxin Liu
+    S: git
+  B: 0
+  U: Mengxin Liu
+- E: 441263+myakove!users.noreply.github.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: 441263+myakove!users.noreply.github.com
+    M: Meni Yakove
+    S: git
+  B: 0
+  U: Meni Yakove
+- R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  I:
+  - M: Meni Yakove
+    S: github
+    U: myakove
+  B: 0
+  U: Meni Yakove
+- E: myakove!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: myakove!gmail.com
+    M: Meni Yakove
+    S: git
+  B: 0
+  U: Meni Yakove
+- E: myakove!redhat.com
+  R:
+  - T: "2100-01-01"
+    C: Red Hat Inc.
+    F: "1900-01-01"
+    P: kubevirt
+    R: C
+  I:
+  - E: myakove!redhat.com
+    M: Meni Yakove
+    S: git
+  B: 0
+  U: Meni Yakove
+- R:
+  - T: "2015-03-01"
+    C: SquareConnections
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2020-05-01"
+    C: Independent
+    F: "2015-03-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: Rancher Labs Inc.
+    F: "2020-05-01"
+    P: cncf/k3s
+    R: C
+  I:
+  - M: Menna Elmasry
+    S: github
+    U: MonzElmasry
+  B: 0
+  U: Menna Elmasry
+- E: nm!ti.com
+  R:
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Texas Instruments Incorporated
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: nm!ti.com
+    M: Menon, Nishanth
+    S: git
+  B: 0
+  U: Menon, Nishanth
+- E: ranjit.menon!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2019-01-30"
+    P: data-plane-development-kit/dpdk-summary
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2019-01-30"
+    P: dpdk
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2020-01-13"
+    P: dpdk-next
+    R: C
+  I:
+  - E: ranjit.menon!intel.com
+    M: Ranjit Menon
+    S: git
+  - E: ranjit.menon!intel.com
+    M: Menon, Ranjit
+    S: pipermail
+  - E: ranjit.menon!intel.com
+    M: Ranjit Menon
+    S: pipermail
+  B: 0
+  U: Menon, Ranjit
+- E: duane.mentze!hp.com
+  R:
+  - T: "2015-03-19"
+    C: HP
+    F: "2015-01-28"
+    P: dpdk
+    R: C
+  - T: "2015-03-19"
+    C: HP
+    F: "2015-01-28"
+    P: odl
+    R: C
+  I:
+  - E: duane.mentze!hp.com
+    M: Mentze, Duane
+    S: pipermail
+  B: 0
+  U: Mentze, Duane
+- E: menyy!mellanox.com
+  R:
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: acrn
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: cephfoundation
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: cip
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: elisa
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: kernelci
+    R: C
+  - T: "2100-01-01"
+    C: Mellanox Technologies, Ltd
+    F: "1900-01-01"
+    P: korg
+    R: C
+  I:
+  - E: menyy!mellanox.com
+    M: Meny Yossefi
+    S: git
+  B: 0
+  U: Meny Yossefi
+- E: david.mercado!windriver.com
+  R:
+  - T: "2100-01-01"
+    C: Wind River Systems, Inc.
+    F: "2013-06-27"
+    P: yocto
+    R: C
+  I:
+  - E: david.mercado!windriver.com
+    M: Mercado, David
+    S: groupsio
+  - E: david.mercado!windriver.com
+    M: Mercado, David
+    S: pipermail
+  B: 0
+  U: Mercado, David
+- E: mc4615!att.com
+  R:
+  - T: "2019-04-10"
+    C: AT&T Services, Inc.
+    F: "2018-07-03"
+    R: C
+  - T: "2019-04-10"
+    C: AT&T Services, Inc.
+    F: "2018-07-03"
+    P: onap
+    R: C
+  I:
+  - M: Merce Chan
+    S: jira
+    U: mc4615
+  - E: mc4615!att.com
+    M: Merce Chan
+    S: jira
+    U: mc4615
+  B: 0
+  U: Merce Chan
+- E: meredith.baxter!consensys.net
+  R:
+  - T: "2008-07-31"
+    C: IQ Agency
+    F: "2006-12-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2008-07-31"
+    C: IQ Agency
+    F: "2006-12-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2008-07-31"
+    C: IQ Agency
+    F: "2006-12-31"
+    P: besu
+    R: M
+  - T: "2010-07-31"
+    C: Google
+    F: "2010-05-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2010-07-31"
+    C: Google
+    F: "2010-05-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2010-07-31"
+    C: Google
+    F: "2010-05-31"
+    P: besu
+    R: M
+  - T: "2016-05-31"
+    C: Salesforce Pardot
+    F: "2011-06-30"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2016-05-31"
+    C: Salesforce Pardot
+    F: "2011-06-30"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2016-05-31"
+    C: Salesforce Pardot
+    F: "2011-06-30"
+    P: besu
+    R: M
+  - T: "2017-09-30"
+    C: Florence Healthcare
+    F: "2016-12-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2017-09-30"
+    C: Florence Healthcare
+    F: "2016-12-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2017-09-30"
+    C: Florence Healthcare
+    F: "2016-12-31"
+    P: besu
+    R: M
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2017-10-31"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2017-10-31"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2017-10-31"
+    P: hyperledger/shared
+    R: C
+  - T: "2100-01-01"
+    C: ConsenSys
+    F: "2017-10-31"
+    P: besu
+    R: M
+  I:
+  - M: Meredith Baxter
+    S: confluence
+    U: mbaxter
+  - E: meredith.baxter!consensys.net
+    M: Meredith Baxter
+    S: git
+  - E: mbaxter!users.noreply.github.com
+    M: mbaxter
+    S: git
+  - E: meredith.baxter!consensys.net
+    M: mbaxter
+    S: git
+  - S: github
+    U: mbaxter
+  B: 0
+  U: Meredith Baxter
+- R:
+  - T: "2019-07-31"
+    C: The Linux Foundation
+    F: "2015-11-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2019-07-31"
+    C: The Linux Foundation
+    F: "2015-11-01"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  - T: "2019-07-31"
+    C: The Linux Foundation
+    F: "2015-11-01"
+    P: hyperledger/shared
+    R: C
+  - T: "2100-01-01"
+    C: Accenture
+    F: "2019-09-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: Accenture
+    F: "2019-09-01"
+    P: hyperledger/hyperledger-dlt
+    R: C
+  I:
+  - M: Meredith Bennett
+    S: confluence
+    U: msolberg
+  B: 0
+  U: Meredith Bennett
+- R:
+  - T: "2017-02-01"
+    C: ClusterVision
+    F: "1900-01-01"
+    P: cncf/k3s
+    R: C
+  - T: "2017-03-01"
+    C: Concern voor Werk
+    F: "2017-02-01"
+    P: cncf/k3s
+    R: C
+  - T: "2017-06-01"
+    C: Independent
+    F: "2017-03-01"
+    P: cncf/k3s
+    R: C
+  - T: "2017-11-01"
+    C: Accell Group
+    F: "2017-06-01"
+    P: cncf/k3s
+    R: C
+  - T: "2100-01-01"
+    C: OLGREEN
+    F: "2017-11-01"
+    P: cncf/k3s
+    R: C
+  I:
+  - M: Merijn
+    S: github
+    U: koehoorn
+  B: 0
+  U: Merijn
+- E: mark.i.merizan!intel.com
+  R:
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-01-01"
+    P: lfedge/state-of-the-edge
+    R: C
+  - T: "2100-01-01"
+    C: Intel Corporation
+    F: "2018-01-01"
+    P: zep
+    R: C
+  I:
+  - E: mark.i.merizan!intel.com
+    M: Merizan, Mark I
+    S: groupsio
+  B: 0
+  U: Merizan, Mark I
+- E: merja.alaluoma!nokia.com
+  R:
+  - T: "2100-01-01"
+    C: Nokia Corporation
+    F: "1901-01-01"
+    P: akraino
+    R: C
+  I:
+  - E: merja.alaluoma!nokia.com
+    M: Merja Alaluoma
+    S: gerrit
+    U: mal
+  B: 0
+  U: Merja Alaluoma
 - E: lanwen!users.noreply.github.com
   R:
   - T: "2018-04-01"
@@ -5154,6 +6130,9 @@ P:
     M: Michael Dawson
     S: github
     U: mhdawson
+  - E: midawson!redhat.com
+    M: Michael Dawson
+    S: groupsio
   B: 0
   U: Michael Dawson
 - E: decosta!mabl.com
@@ -5547,11 +6526,6 @@ P:
     F: "2016-10-31"
     P: data-plane-development-kit/dpdk-summary
     R: C
-  - T: "2017-03-28"
-    C: The Linux Foundation
-    F: "2016-10-31"
-    P: dpdk
-    R: C
   - T: "2100-01-01"
     C: The Linux Foundation
     F: "2019-06-26"
@@ -5590,6 +6564,9 @@ P:
     M: Mike Dolan
     S: gmane
   - E: mdolan!linuxfoundation.org
+    M: Michael Dolan
+    S: groupsio
+  - E: michdolan!gmail.com
     M: Michael Dolan
     S: groupsio
   - E: mdolan!linuxfoundation.org
@@ -14264,6 +15241,9 @@ P:
   - E: mneale!cloudbees.com
     M: Michael Neale
     S: git
+  - E: mneale!cloudbees.com
+    M: Michael Neale
+    S: groupsio
   B: 0
   U: Michael Neale
 - R:
@@ -26126,6 +27106,12 @@ P:
   - M: Michal Supak
     S: github
     U: supmi01
+  - E: michal.supak!broadcom.com
+    M: Michal Supak
+    S: groupsio
+  - E: michal.supak!broadcom.com
+    M: michal.supak
+    S: groupsio
   - E: michal.supak!broadcom.com
     M: Michal Supak
     S: slack
@@ -38185,6 +39171,9 @@ P:
     M: Mike Friesenegger
     S: github
     U: mfriesenegger
+  - E: mikef!suse.com
+    M: Mike Friesenegger
+    S: groupsio
   - E: mikef!suse.com
     M: Mike Friesenegger
     S: slack
@@ -60708,1135 +61697,3 @@ P:
     U: mdeliddo
   B: 0
   U: Morena De Liddo
-- E: mbauer!us.ibm.com
-  R:
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: burrow
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: caliper
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cello
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: hyperledger-labs/fabric-chaincode-wasm
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: hyperledger-labs/fabric-private-chaincode
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: sawtooth
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: transact
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: ursa
-    R: C
-  - T: "2014-09-01"
-    C: IBM
-    F: "1900-01-01"
-    P: fabric
-    R: M
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: burrow
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: caliper
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: cello
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: cncf/kudo
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: containerd
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: fluxcd
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: hyperledger-labs/fabric-chaincode-wasm
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: hyperledger-labs/fabric-private-chaincode
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: sawtooth
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: transact
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: ursa
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "1900-01-01"
-    P: fabric
-    R: M
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-    P: cncf
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-    P: cncf/k3s
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-    P: cncf/kudo
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-    P: containerd
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-    P: fluxcd
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-    P: helm
-    R: C
-  - T: "2015-06-01"
-    C: Lenovo
-    F: "2014-09-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: burrow
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: caliper
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: cello
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: cncf/kudo
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: containerd
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: fluxcd
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger-labs/fabric-block-archiving
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger-labs/fabric-chaincode-wasm
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger-labs/fabric-private-chaincode
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger-labs/pluggable-hcs
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger/hyperledger-all
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger/hyperledger-dlt
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger/hyperledger-labs
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger/hyperledger-twgc
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: hyperledger/shared
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: opencolorio
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: sawtooth
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: transact
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: ursa
-    R: C
-  - T: "2100-01-01"
-    C: IBM
-    F: "2015-06-01"
-    P: fabric
-    R: M
-  S: male
-  I:
-  - M: Morgan Bauer
-    S: confluence
-    U: MHBauer
-  - E: mbauer!us.ibm.com
-    M: Morgan Bauer
-    S: confluence
-    U: MHBauer
-  - E: mbauer!us.ibm.com
-    M: Morgan Bauer
-    S: gerrit
-    U: MHBauer
-  - E: mbauer!us.ibm.com
-    M: Morgan Bauer
-    S: git
-  - E: mbauer!us.ibm.com
-    M: Morgan Bauer
-    S: github
-    U: MHBauer
-  - E: mbauer!us.ibm.com
-    M: Morgan Bauer
-    S: groupsio
-  - M: Morgan Bauer
-    S: jira
-    U: MHBauer
-  - M: Morgan Bauer
-    S: meetup
-    U: "191593246"
-  - S: rocketchat
-    U: MHBauer
-  - M: Morgan Bauer
-    S: rocketchat
-    U: MHBauer
-  - E: mbauer!us.ibm.com
-    M: morgan bauer
-    S: slack
-    U: mbauer
-  B: 0
-  U: Morgan Bauer
-- C: GB
-  R:
-  - T: "2014-07-01"
-    C: Quill Content
-    F: "1900-01-01"
-    R: C
-  - T: "2014-07-01"
-    C: Quill Content
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2014-07-01"
-    C: Quill Content
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2014-10-01"
-    C: Independent
-    F: "2014-07-01"
-    R: C
-  - T: "2014-10-01"
-    C: Independent
-    F: "2014-07-01"
-    P: helm
-    R: C
-  - T: "2014-10-01"
-    C: Independent
-    F: "2014-07-01"
-    P: k8s
-    R: C
-  - T: "2014-11-01"
-    C: Which?
-    F: "2014-10-01"
-    R: C
-  - T: "2014-11-01"
-    C: Which?
-    F: "2014-10-01"
-    P: helm
-    R: C
-  - T: "2014-11-01"
-    C: Which?
-    F: "2014-10-01"
-    P: k8s
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2014-11-01"
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2014-11-01"
-    P: helm
-    R: C
-  - T: "2015-03-01"
-    C: Independent
-    F: "2014-11-01"
-    P: k8s
-    R: C
-  - T: "2015-07-01"
-    C: AskGym
-    F: "2015-03-01"
-    R: C
-  - T: "2015-07-01"
-    C: AskGym
-    F: "2015-03-01"
-    P: helm
-    R: C
-  - T: "2015-07-01"
-    C: AskGym
-    F: "2015-03-01"
-    P: k8s
-    R: C
-  - T: "2015-11-01"
-    C: Independent
-    F: "2015-07-01"
-    R: C
-  - T: "2015-11-01"
-    C: Independent
-    F: "2015-07-01"
-    P: helm
-    R: C
-  - T: "2015-11-01"
-    C: Independent
-    F: "2015-07-01"
-    P: k8s
-    R: C
-  - T: "2016-09-01"
-    C: Metapack
-    F: "2015-11-01"
-    R: C
-  - T: "2016-09-01"
-    C: Metapack
-    F: "2015-11-01"
-    P: helm
-    R: C
-  - T: "2016-09-01"
-    C: Metapack
-    F: "2015-11-01"
-    P: k8s
-    R: C
-  - T: "2017-02-01"
-    C: Independent
-    F: "2016-09-01"
-    R: C
-  - T: "2017-02-01"
-    C: Independent
-    F: "2016-09-01"
-    P: helm
-    R: C
-  - T: "2017-02-01"
-    C: Independent
-    F: "2016-09-01"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: Pushfor
-    F: "2017-02-01"
-    R: C
-  - T: "2017-04-01"
-    C: Pushfor
-    F: "2017-02-01"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: Pushfor
-    F: "2017-02-01"
-    P: k8s
-    R: C
-  - T: "2017-10-01"
-    C: Arcadia
-    F: "2017-04-01"
-    R: C
-  - T: "2017-10-01"
-    C: Arcadia
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2017-10-01"
-    C: Arcadia
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  - T: "2018-01-01"
-    C: Independent
-    F: "2017-10-01"
-    R: C
-  - T: "2018-01-01"
-    C: Independent
-    F: "2017-10-01"
-    P: helm
-    R: C
-  - T: "2018-01-01"
-    C: Independent
-    F: "2017-10-01"
-    P: k8s
-    R: C
-  - T: "2018-06-01"
-    C: Nationwide Building Society
-    F: "2018-01-01"
-    R: C
-  - T: "2018-06-01"
-    C: Nationwide Building Society
-    F: "2018-01-01"
-    P: helm
-    R: C
-  - T: "2018-06-01"
-    C: Nationwide Building Society
-    F: "2018-01-01"
-    P: k8s
-    R: C
-  - T: "2018-11-01"
-    C: Independent
-    F: "2018-06-01"
-    R: C
-  - T: "2018-11-01"
-    C: Independent
-    F: "2018-06-01"
-    P: helm
-    R: C
-  - T: "2018-11-01"
-    C: Independent
-    F: "2018-06-01"
-    P: k8s
-    R: C
-  - T: "2020-04-01"
-    C: Sainsbury's
-    F: "2018-11-01"
-    R: C
-  - T: "2020-04-01"
-    C: Sainsbury's
-    F: "2018-11-01"
-    P: helm
-    R: C
-  - T: "2020-04-01"
-    C: Sainsbury's
-    F: "2018-11-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2020-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2020-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Independent
-    F: "2020-04-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Morgan Christiansson
-    S: github
-    U: morganchristiansson
-  B: 0
-  U: Morgan Christiansson
-- C: US
-  E: morgan.fainberg!gmail.com
-  R:
-  - T: "2014-05-23"
-    C: Metacloud
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2014-05-23"
-    C: Metacloud
-    F: "1900-01-01"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "2014-05-23"
-    P: cncf/shared
-    R: C
-  - T: "2015-10-31"
-    C: HP
-    F: "2014-05-23"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2016-03-25"
-    C: HP
-    F: "2015-10-31"
-    P: cncf/shared
-    R: C
-  - T: "2016-03-25"
-    C: HP
-    F: "2015-10-31"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2016-05-05"
-    C: In August
-    F: "2016-03-25"
-    P: cncf/shared
-    R: C
-  - T: "2016-05-05"
-    C: In August
-    F: "2016-03-25"
-    P: lfn/tungsten-fabric
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2016-05-05"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Red Hat Inc.
-    F: "2016-05-05"
-    P: lfn/tungsten-fabric
-    R: C
-  S: female
-  I:
-  - E: morgan.fainberg!gmail.com
-    M: Morgan Fainberg
-    S: git
-  B: 0
-  U: Morgan Fainberg
-- R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "2014-07-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  I:
-  - E: mfine!pivotal.io
-    M: Morgan Fine
-    S: git
-  - E: mfine!pivotallabs.com
-    M: Morgan Fine
-    S: git
-  - E: mfine30!gmail.com
-    M: Morgan Fine
-    S: git
-  - M: Morgan Fine
-    S: github
-    U: mfine30
-  - E: mfine!pivotal.io
-    M: Morgan Fine
-    S: groupsio
-  - E: mfine!pivotal.io
-    M: mfine
-    S: groupsio
-  - E: mfine!pivotal.io
-    M: Morgan Fine
-    S: mbox
-  - E: mfine!pivotal.io
-    M: Morgan Fine
-    S: slack
-    U: mfine
-  - E: mfine!pivotal.io
-    M: Morgan
-    S: slack
-    U: mfine
-  - E: mfine!pivotal.io
-    M: mfine
-    S: slack
-    U: mfine
-  B: 0
-  U: Morgan Fine
-- C: GB
-  R:
-  - T: "2100-01-01"
-    C: dunnhumby
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: dunnhumby
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Morgan Jones
-    S: github
-    U: mogthesprog
-  B: 0
-  U: Morgan Jones
-- C: GB
-  E: mevanj89!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: dunnhumby
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: dunnhumby
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-12-11"
-    C: dunnhumby
-    F: "2016-12-07"
-    P: baetyl
-    R: C
-  S: male
-  I:
-  - E: mevanj89!gmail.com
-    M: Morgan Jones
-    S: git
-  B: 0
-  U: Morgan Jones
-- R:
-  - T: "2015-11-01"
-    C: Kobie Marketing
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2015-11-01"
-    C: Kobie Marketing
-    F: "1900-01-01"
-    P: kubeedge
-    R: C
-  - T: "2015-11-01"
-    C: Kobie Marketing
-    F: "1900-01-01"
-    P: strimzi
-    R: C
-  - T: "2100-01-01"
-    C: Park Assist
-    F: "2015-11-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Park Assist
-    F: "2015-11-01"
-    P: kubeedge
-    R: C
-  - T: "2100-01-01"
-    C: Park Assist
-    F: "2015-11-01"
-    P: strimzi
-    R: C
-  I:
-  - M: Morgan Kesler
-    S: github
-    U: keslerm
-  B: 0
-  U: Morgan Kesler
-- E: morgan.bf.magnusson!ericsson.com
-  R:
-  - T: "2100-01-01"
-    C: Ericsson AB
-    F: "1900-01-01"
-    P: onap
-    R: C
-  I:
-  - E: morgan.bf.magnusson!ericsson.com
-    M: Morgan Magnusson
-    S: jira
-    U: MorganMagnusson
-  B: 0
-  U: Morgan Magnusson
-- R:
-  - T: "2014-07-01"
-    C: Walmart
-    F: "1900-01-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2015-05-01"
-    C: Independent
-    F: "2014-07-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2015-08-01"
-    C: Clemson
-    F: "2015-05-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2016-02-01"
-    C: Independent
-    F: "2015-08-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2016-05-01"
-    C: Clemson
-    F: "2016-02-01"
-    P: cncf/cloudcustodian
-    R: C
-  - T: "2100-01-01"
-    C: Chick-fil-A Corporate
-    F: "2016-05-01"
-    P: cncf/cloudcustodian
-    R: C
-  I:
-  - M: Morgan McEntire
-    S: github
-    U: mmcenti
-  B: 0
-  U: Morgan McEntire
-- R:
-  - T: "2016-04-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: opentelemetry
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2016-04-01"
-    P: opentelemetry
-    R: C
-  I:
-  - M: Morgan McLean
-    S: github
-    U: mtwo
-  B: 0
-  U: Morgan McLean
-- C: US
-  E: morgan_mclean!hotmail.com
-  R:
-  - T: "2016-04-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    R: C
-  - T: "2016-04-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: openmetrics
-    R: C
-  - T: "2016-04-01"
-    C: Microsoft Corporation
-    F: "1900-01-01"
-    P: opentelemetry
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2016-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2016-04-01"
-    P: openmetrics
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2016-04-01"
-    P: opentelemetry
-    R: C
-  S: male
-  I:
-  - E: morgan_mclean!hotmail.com
-    M: Morgan McLean
-    S: git
-  B: 0
-  U: Morgan McLean
-- C: GB
-  R:
-  - T: "2100-01-01"
-    C: Wintoncode
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Wintoncode
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - M: Morgan Parry
-    S: github
-    U: mparry
-  B: 0
-  U: Morgan Parry
-- C: GB
-  E: m.parry!winton.com
-  R:
-  - T: "2100-01-01"
-    C: Wintoncode
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Wintoncode
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: m.parry!winton.com
-    M: Morgan Parry
-    S: git
-  B: 0
-  U: Morgan Parry
-- C: GB
-  E: mparry!users.noreply.github.com
-  R:
-  - T: "2100-01-01"
-    C: Wintoncode
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Wintoncode
-    F: "1900-01-01"
-    P: helm
-    R: C
-  S: male
-  I:
-  - E: mparry!users.noreply.github.com
-    M: Morgan Parry
-    S: git
-  B: 0
-  U: Morgan Parry
-- C: FR
-  E: morgan.richomme!orange.com
-  R:
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "1900-01-01"
-    P: cncf
-    R: C
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "1900-01-01"
-    P: dpdk
-    R: C
-  - T: "2004-01-01"
-    C: Siemens AG
-    F: "2001-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2004-01-01"
-    C: Siemens AG
-    F: "2001-01-01"
-    P: onap
-    R: C
-  - T: "2005-01-01"
-    C: Devoteam Group
-    F: "2004-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2005-01-01"
-    C: Devoteam Group
-    F: "2004-01-01"
-    P: onap
-    R: C
-  - T: "2009-01-01"
-    C: Orange S.A.
-    F: "2005-01-01"
-    P: lfn-cntt
-    R: C
-  - T: "2009-01-01"
-    C: Orange S.A.
-    F: "2005-01-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "2009-07-01"
-    P: lfn-cntt
-    R: C
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "2009-07-01"
-    P: onap
-    R: C
-  - T: "2100-01-01"
-    C: Orange S.A.
-    F: "2014-10-09"
-    P: opnfv
-    R: C
-  - T: "2016-10-21"
-    C: Orange S.A.
-    F: "2015-09-10"
-    P: odl
-    R: C
-  I:
-  - M: Morgan Richomme
-    S: confluence
-    U: mrichomme
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: gerrit
-    U: mrichomme
-  - E: morgan.richomme!gmail.com
-    M: colvert
-    S: gerrit
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: git
-  - E: morgan.richomme!gmail.com
-    M: colvert
-    S: git
-  - E: morgan.richomme!orange.com
-    M: colvert
-    S: git
-  - E: morgan.richomme!orange.com
-    M: morganrOL
-    S: git
-  - E: morgan.richomme!orange.com
-    M: mrichomme
-    S: git
-  - E: morgan.richomme!orange.com
-    M: umry8364
-    S: git
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: gmane
-  - E: morgan.richomme!orange.com
-    M: morgan.richomme
-    S: gmane
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: groupsio
-  - E: morgan.richomme!orange.com
-    M: morgan.richomme
-    S: groupsio
-  - M: Morgan Richomme
-    S: jira
-    U: mrichomme
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: jira
-    U: mrichomme
-  - M: Morgan Richomme
-    S: linux-foundation:its
-    U: mrichomme
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: linux-foundation:mls
-    U: morgan.richomme
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: linux-foundation:scm
-  - E: morgan.richomme!orange.com
-    M: morganrOL
-    S: linux-foundation:scm
-  - E: morgan.richomme!orange.com
-    M: mrichomme
-    S: linux-foundation:scm
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: linux-foundation:scr
-    U: mrichomme
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: mbox
-  - E: morgan.richomme!orange.com
-    M: morgan.richomme
-    S: mbox
-  - E: morgan.richomme!orange.com
-    M: Morgan Richomme
-    S: pipermail
-  - E: morgan.richomme!orange.com
-    M: morgan.richomme
-    S: pipermail
-  - M: colvert22
-    S: supybot
-    U: colvert22
-  B: 0
-  U: Morgan Richomme
