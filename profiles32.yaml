@@ -1,4 +1,19 @@
 P:
+- R:
+  - T: "2100-01-01"
+    C: FactSet
+    F: "1900-01-01"
+    R: C
+  - T: "2100-01-01"
+    C: FactSet
+    F: "1900-01-01"
+    P: opnfv
+    R: C
+  I:
+  - S: github
+    U: jpfigueiras
+  B: 0
+  U: jpfigueiras
 - E: jeanpierre.roquesalane!dell.comd
   R:
   - T: "2004-03-01"
@@ -63346,21 +63361,3 @@ P:
     U: raffaelespazzoli
   B: 0
   U: raffaelespazzoli
-- E: jftucker!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: jftucker!gmail.com
-    M: raggi
-    S: git
-  B: 0
-  U: raggi

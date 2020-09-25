@@ -28612,6 +28612,11 @@ P:
   - T: "2100-01-01"
     C: Puppet
     F: "1900-01-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Puppet
+    F: "1900-01-01"
     P: intoto
     R: C
   - T: "2100-01-01"
@@ -61581,26 +61586,3 @@ P:
     S: pipermail
   B: 0
   U: Greg Smith
-- C: US
-  R:
-  - T: "2100-01-01"
-    C: Indigo Biosystems
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Indigo Biosystems
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Indigo Biosystems
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - M: Greg Swallow
-    S: github
-    U: gswallow
-  B: 0
-  U: Greg Swallow
