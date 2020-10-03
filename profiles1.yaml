@@ -51,6 +51,22 @@ P:
     S: groupsio
   B: 0
   U: '"Kate Shao'
+- E: jifeng!qiniu.com
+  R:
+  - T: "2100-01-01"
+    C: Qiniu Limited
+    F: "2020-06-22"
+    P: cncf
+    R: C
+  I:
+  - E: jifeng!qiniu.com
+    M: '"jifeng'
+    S: groupsio
+  - E: jifeng!qiniu.com
+    M: jifeng
+    S: groupsio
+  B: 0
+  U: '"jifeng'
 - E: andras.kovacs!ericsson.com
   R:
   - T: "2100-01-01"
@@ -2596,10 +2612,20 @@ P:
     F: "1900-01-01"
     P: cncf/shared
     R: C
+  - T: "2016-09-01"
+    C: VMware, Inc.
+    F: "1900-01-01"
+    P: rtdb
+    R: C
   - T: "2100-01-01"
     C: PostMunk
     F: "2016-09-01"
     P: cncf/shared
+    R: C
+  - T: "2100-01-01"
+    C: PostMunk
+    F: "2016-09-01"
+    P: rtdb
     R: C
   I:
   - M: Aaron Rosen
@@ -4620,6 +4646,27 @@ P:
     S: groupsio
   B: 0
   U: AGRAHARAM, SANJAY
+- E: aaron.globerman!hotmail.com
+  R:
+  - T: "2016-03-01"
+    C: Microsoft Corporation
+    F: "2006-08-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Electronic Arts (EA)
+    F: "2016-03-01"
+    P: argo
+    R: C
+  I:
+  - E: aaron.globerman!hotmail.com
+    M: AGloberman
+    S: git
+  - E: agloberman!ea.com
+    S: github
+    U: AGloberman
+  B: 0
+  U: AGloberman
 - E: yuchunyu01!inspur.com
   R:
   - T: "2100-01-01"
@@ -4664,6 +4711,35 @@ P:
     S: git
   B: 0
   U: AJ Bahnken
+- E: aj!junglistheavy.industries
+  R:
+  - T: "2009-11-01"
+    C: Opscode
+    F: "2008-03-01"
+    P: falco
+    R: C
+  - T: "2011-05-01"
+    C: Sonian
+    F: "2010-03-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2016-06-01"
+    C: Pantheon Platform
+    F: "2014-07-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2019-03-01"
+    C: DoubleDutch
+    F: "2016-08-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  I:
+  - E: aj!junglistheavy.industries
+    M: AJ Christensen
+    S: github
+    U: fujin
+  B: 0
+  U: AJ Christensen
 - E: akerrigan!mdsol.com
   R:
   - T: "2015-12-01"
@@ -9284,7 +9360,15 @@ P:
     F: "1900-01-01"
     P: k8s
     R: C
+  - T: "2100-01-01"
+    C: Dell EMC
+    F: "1900-01-01"
+    P: rexray
+    R: C
   I:
+  - E: spiegela!gmail.com
+    M: Aaron Spiegel
+    S: git
   - E: spiegela!gmail.com
     M: Aaron Spiegel
     S: github
@@ -16800,6 +16884,11 @@ P:
     F: "2019-09-01"
     P: nats
     R: C
+  - T: "2020-05-01"
+    C: Tactical Cyberange Simulations
+    F: "2019-09-01"
+    P: openmessaging
+    R: C
   - T: "2100-01-01"
     C: Episource
     F: "2020-05-01"
@@ -20005,6 +20094,30 @@ P:
     U: abhijitsinha
   B: 0
   U: Abhijit Sinha
+- E: abhijith.mohan!harness.io
+  R:
+  - T: "2013-07-01"
+    C: Wooqer
+    F: "2013-05-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: Visa
+    F: "2015-07-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Harness.io
+    F: "2019-06-01"
+    P: k8s
+    R: C
+  I:
+  - E: abhijith.mohan!harness.io
+    M: Abhijith V Mohan
+    S: github
+    U: avmohan
+  B: 0
+  U: Abhijith V Mohan
 - E: abhik1998chakraborty!gmail.com
   R:
   - T: "2018-12-01"
@@ -23027,6 +23140,25 @@ P:
     S: git
   B: 0
   U: Abhishek Varshney
+- E: avm.abhishek!gmail.com
+  R:
+  - T: "2018-05-01"
+    C: NVIDIA Corporation
+    F: "2017-07-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Mercari, Inc.
+    F: "2018-10-01"
+    P: envoy
+    R: C
+  I:
+  - E: avm.abhishek!gmail.com
+    M: Abhishek Vilas Munagekar
+    S: github
+    U: munagekar
+  B: 0
+  U: Abhishek Vilas Munagekar
 - R:
   - T: "2015-07-01"
     C: Outreachy
@@ -25063,6 +25195,9 @@ P:
     M: Achuth Maniyedath
     S: gerrit
     U: achuthm
+  - E: achuth.m!altencalsoftlabs.com
+    M: Achuth
+    S: gerrit
   - E: achuth.maniyedath!ericsson.com
     M: Achuth
     S: gerrit
@@ -25071,6 +25206,9 @@ P:
     S: git
   - E: achuth.maniyedath!gmail.com
     M: Achuth Maniyedath
+    S: git
+  - E: achuth.m!altencalsoftlabs.com
+    M: Achuth
     S: git
   - E: achuth.maniyedath!ericsson.com
     M: Achuth
@@ -27483,6 +27621,11 @@ P:
     F: "2016-12-31"
     P: hyperledger/hyperledger-dlt
     R: C
+  - T: "2019-01-06"
+    C: Dev9
+    F: "2016-12-31"
+    P: rtdb
+    R: C
   - T: "2019-03-28"
     C: Dev9
     F: "2016-12-31"
@@ -27509,6 +27652,11 @@ P:
     C: Traiana
     F: "2014-07-01"
     P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Traiana
+    F: "2014-07-01"
+    P: cloud-foundry/cloud-foundry
     R: C
   S: male
   I:
@@ -27703,6 +27851,11 @@ P:
     C: iOO2 Systems
     F: "2015-01-01"
     P: k8s
+    R: C
+  - T: "2015-12-01"
+    C: iOO2 Systems
+    F: "2015-01-01"
+    P: rtdb
     R: C
   - T: "2016-08-01"
     C: NTT DATA UK
@@ -30181,6 +30334,11 @@ P:
   - T: "2018-09-01"
     C: Allegro
     F: "2013-03-01"
+    P: CIM/CIM
+    R: C
+  - T: "2018-09-01"
+    C: Allegro
+    F: "2013-03-01"
     P: helm
     R: C
   - T: "2018-09-01"
@@ -31714,6 +31872,11 @@ P:
     F: "1900-01-01"
     P: k8s
     R: C
+  - T: "2017-09-01"
+    C: Melecule
+    F: "1900-01-01"
+    P: rtdb
+    R: C
   - T: "2100-01-01"
     C: Zapier
     F: "2017-09-01"
@@ -31755,6 +31918,27 @@ P:
     U: iterion
   B: 0
   U: Adam Sunderland
+- E: adam!olema.io
+  R:
+  - T: "2011-05-01"
+    C: Ticketmaster
+    F: "2001-04-01"
+    P: fluentd
+    R: C
+  - T: "2019-11-01"
+    C: Eventbrite
+    F: "2012-02-01"
+    P: fluentd
+    R: C
+  I:
+  - E: adam!olema.io
+    M: Adam Sussman
+    S: git
+  - M: Adam Sussman
+    S: github
+    U: adam-olema
+  B: 0
+  U: Adam Sussman
 - R:
   - T: "2016-11-01"
     C: Jewish Holocaust Centre
@@ -34973,6 +35157,33 @@ P:
     U: adisky
   B: 0
   U: Aditi Sharma
+- E: adityaalifnugraha!gmail.com
+  R:
+  - T: "2018-01-01"
+    C: Telkom University
+    F: "2017-03-01"
+    P: k8s
+    R: C
+  - T: "2019-05-01"
+    C: Telkom University
+    F: "2018-08-01"
+    P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Gojek
+    F: "2019-08-01"
+    P: k8s
+    R: C
+  I:
+  - E: adityaalifnugraha!gmail.com
+    M: Aditya Alif Nugraha
+    S: git
+  - E: adityaalifnugraha!gmail.com
+    M: Aditya Alif Nugraha
+    S: github
+    U: adityaalifn
+  B: 0
+  U: Aditya Alif Nugraha
 - E: aanchuri!pivotal.io
   R:
   - T: "2016-12-20"
@@ -35986,38 +36197,6 @@ P:
     S: git
   B: 0
   U: Aditya Singh
-- R:
-  - T: "2019-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: intoto
-    R: C
-  - T: "2019-07-01"
-    C: Independent
-    F: "1900-01-01"
-    P: tuf
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2019-07-01"
-    P: intoto
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2019-07-01"
-    P: jenkins
-    R: C
-  - T: "2100-01-01"
-    C: Amazon
-    F: "2019-07-01"
-    P: tuf
-    R: C
-  I:
-  - M: Aditya Sirish
-    S: github
-    U: adityasaky
-  B: 0
-  U: Aditya Sirish
 - E: aditya!saky.in
   R:
   - T: "2019-07-01"
@@ -36025,6 +36204,26 @@ P:
     F: "1900-01-01"
     P: intoto
     R: C
+  - T: "2019-07-01"
+    C: Independent
+    F: "1900-01-01"
+    P: tuf
+    R: C
+  - T: "2017-11-01"
+    C: BETSOL
+    F: "2017-09-01"
+    P: intoto
+    R: C
+  - T: "2019-08-01"
+    C: Amazon
+    F: "2019-06-01"
+    P: intoto
+    R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-07-01"
+    P: cncf
+    R: C
   - T: "2100-01-01"
     C: Amazon
     F: "2019-07-01"
@@ -36035,10 +36234,21 @@ P:
     F: "2019-07-01"
     P: jenkins
     R: C
+  - T: "2100-01-01"
+    C: Amazon
+    F: "2019-07-01"
+    P: tuf
+    R: C
   I:
   - E: aditya!saky.in
     M: Aditya Sirish
     S: git
+  - M: Aditya Sirish
+    S: github
+    U: adityasaky
+  - E: asy278!nyu.edu
+    M: Aditya Sirish Arunkumar Yelgundhalli
+    S: groupsio
   B: 0
   U: Aditya Sirish
 - E: AS00595133!techmahindra.com
@@ -36960,6 +37170,11 @@ P:
     C: Eficode
     F: "2019-06-01"
     P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Eficode
+    F: "2019-06-01"
+    P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
     C: Eficode
@@ -38373,6 +38588,60 @@ P:
     U: adrianludwin
   B: 0
   U: Adrian Ludwin
+- C: US
+  E: amac425!gmail.com
+  R:
+  - T: "2012-03-01"
+    C: Austin Community College
+    F: "2006-08-01"
+    P: helm
+    R: C
+  - T: "2010-10-01"
+    C: David Kallus Attorney at Law
+    F: "2010-03-01"
+    P: helm
+    R: C
+  - T: "2013-05-01"
+    C: San Francisco Consulting Group
+    F: "2012-11-01"
+    P: helm
+    R: C
+  - T: "2013-09-01"
+    C: Amazon Web Services (AWS)
+    F: "2013-06-01"
+    P: helm
+    R: C
+  - T: "2019-03-01"
+    C: RetailMeNot, Inc.
+    F: "2013-10-01"
+    P: helm
+    R: C
+  - T: "2019-03-01"
+    C: RetailMeNot, Inc.
+    F: "2013-10-01"
+    P: k8s
+    R: C
+  - T: "2020-09-01"
+    C: H-E-B
+    F: "2019-03-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: CloudFlare, Inc.
+    F: "2020-09-01"
+    P: helm
+    R: C
+  S: male
+  I:
+  - E: amac425!utexas.edu
+    M: Adrian Maceiras
+    S: git
+  - E: amac425!gmail.com
+    M: Adrian Maceiras
+    S: github
+    U: geota
+  B: 0
+  U: Adrian Maceiras
 - R:
   - T: "2014-04-15"
     C: Exp:resso
@@ -41717,6 +41986,11 @@ P:
     F: "2015-05-01"
     P: nats
     R: C
+  - T: "2019-12-01"
+    C: FTL Technologies
+    F: "2015-05-01"
+    P: rexray
+    R: C
   - T: "2100-01-01"
     C: Independent
     F: "2019-12-01"
@@ -41728,6 +42002,55 @@ P:
     S: git
   B: 0
   U: Agniva De Sarker
+- E: agnivesh.adhikari!gmail.com
+  R:
+  - T: "2017-07-01"
+    C: Indian Institute of Technology, Bombay
+    F: "2017-05-01"
+    P: helm
+    R: C
+  - T: "2018-01-01"
+    C: Google Developers
+    F: "2017-09-01"
+    P: helm
+    R: C
+  - T: "2017-12-31"
+    C: Capital Numbers Infotech Pvt Ltd
+    F: "2017-12-01"
+    P: helm
+    R: C
+  - T: "2018-07-01"
+    C: Microsoft Corporation
+    F: "2018-05-01"
+    P: helm
+    R: C
+  - T: "2019-02-01"
+    C: National Institute of Technology Durgapur
+    F: "2018-08-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2019-07-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2019-07-01"
+    P: helm
+    R: C
+  - T: "2100-01-01"
+    C: Microsoft Corporation
+    F: "2019-07-01"
+    P: k8s
+    R: C
+  I:
+  - E: agnivesh.adhikari!gmail.com
+    M: Agnivesh Adhikari
+    S: github
+    U: agniveshadhikari
+  B: 0
+  U: Agnivesh Adhikari
 - C: US
   E: ago!gentoo.org
   R:
@@ -42565,6 +42888,26 @@ P:
     C: Schlumberger
     F: "2005-05-01"
     P: hyperledger/hyperledger-all
+    R: C
+  - T: "2013-06-01"
+    C: Libya Telecom and Technology
+    F: "2012-03-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2018-03-01"
+    C: speaktoiot
+    F: "2016-05-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: Fairom
+    F: "2019-05-01"
+    P: hyperledger/hyperledger-all
+    R: C
+  - T: "2100-01-01"
+    C: Fairom
+    F: "2019-05-01"
+    P: hyperledger/shared
     R: C
   I:
   - M: Ahmad Sghaier Omar
@@ -43891,6 +44234,11 @@ P:
   - T: "2016-12-01"
     C: Microsoft Corporation
     F: "1900-01-01"
+    P: CIM/CIM
+    R: C
+  - T: "2016-12-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
     P: baetyl
     R: C
   - T: "2016-12-01"
@@ -43957,6 +44305,11 @@ P:
     C: Microsoft Corporation
     F: "1900-01-01"
     P: kubevirt
+    R: C
+  - T: "2016-12-01"
+    C: Microsoft Corporation
+    F: "1900-01-01"
+    P: open-containers/runc
     R: C
   - T: "2016-12-01"
     C: Microsoft Corporation
@@ -44373,6 +44726,18 @@ P:
     U: aobley
   B: 0
   U: Aidan Obley
+- R:
+  - T: "2100-01-01"
+    C: IBM Haifa Research Labs
+    F: "2016-06-01"
+    P: helm
+    R: C
+  I:
+  - M: Aidan Shribman
+    S: github
+    U: hunchback
+  B: 0
+  U: Aidan Shribman
 - E: aidan!nicta.com.au
   R:
   - T: "2100-01-01"
@@ -48599,6 +48964,30 @@ P:
     S: groupsio
   B: 0
   U: Akihiko Tozawa
+- E: a.ikezoe!gmail.com
+  R:
+  - T: "2100-01-01"
+    C: Cybozu
+    F: "2020-03-01"
+    P: argo
+    R: C
+  - T: "2100-01-01"
+    C: Cybozu
+    F: "2020-03-01"
+    P: rook
+    R: C
+  I:
+  - E: a.ikezoe!gmail.com
+    M: Akihiro Ikezoe
+    S: git
+  - E: a.ikezoe!gmail.com
+    M: zoetrope
+    S: git
+  - M: Akihiro Ikezoe
+    S: github
+    U: zoetrope
+  B: 0
+  U: Akihiro Ikezoe
 - E: akitada!pivotal.io
   R:
   - T: "2100-01-01"
@@ -48709,6 +49098,11 @@ P:
   - T: "2100-01-01"
     C: NTT Corporation
     F: "1900-01-01"
+    P: CIM/CIM
+    R: C
+  - T: "2100-01-01"
+    C: NTT Corporation
+    F: "1900-01-01"
     P: cdf-jenkins-x
     R: C
   - T: "2100-01-01"
@@ -48760,6 +49154,11 @@ P:
     C: NTT Corporation
     F: "1900-01-01"
     P: nats
+    R: C
+  - T: "2100-01-01"
+    C: NTT Corporation
+    F: "1900-01-01"
+    P: open-containers/runc
     R: C
   - T: "2100-01-01"
     C: NTT Corporation
@@ -48847,6 +49246,9 @@ P:
     R: C
   I:
   - E: aki-inou!rs.jp.nec.com
+    M: Akihito INOH
+    S: git
+  - E: akihito-inou!nec.com
     M: Akihito INOH
     S: git
   B: 0
@@ -51274,6 +51676,37 @@ P:
     S: git
   B: 0
   U: Alan Chiang
+- E: achiu!lyft.com
+  R:
+  - T: "2012-08-01"
+    C: Amazon
+    F: "2012-06-01"
+    P: envoy
+    R: C
+  - T: "2014-03-01"
+    C: Amazon
+    F: "2013-01-01"
+    P: envoy
+    R: C
+  - T: "2100-01-01"
+    C: Lyft
+    F: "2014-06-01"
+    P: envoy
+    R: C
+  I:
+  - E: achiu!lyft.com
+    M: Alan Chiu
+    S: git
+  - E: awlchiu!gmail.com
+    M: Alan Chiu
+    S: github
+    U: buildbreaker
+  - E: achiu!lyft.com
+    M: Alan Chiu
+    S: slack
+    U: achiu
+  B: 0
+  U: Alan Chiu
 - R:
   - T: "2100-01-01"
     C: World Programming
@@ -53577,6 +54010,11 @@ P:
     F: "1900-01-01"
     P: helm
     R: C
+  - T: "2100-01-01"
+    C: DaoCloud
+    F: "1900-01-01"
+    P: k8s
+    R: C
   I:
   - E: zg.zhu!daocloud.io
     M: Alan Zhu
@@ -54458,6 +54896,11 @@ P:
     F: "1900-01-01"
     P: container-networking-interface
     R: C
+  - T: "2100-01-01"
+    C: Avionic Design GmbH
+    F: "1900-01-01"
+    P: openbmc
+    R: C
   I:
   - M: Alban Bedel
     S: github
@@ -54872,6 +55315,11 @@ P:
   - T: "2100-01-01"
     C: Kinvolk GmbH
     F: "2015-08-01"
+    P: CIM/CIM
+    R: C
+  - T: "2100-01-01"
+    C: Kinvolk GmbH
+    F: "2015-08-01"
     P: acrn
     R: C
   - T: "2100-01-01"
@@ -54968,6 +55416,11 @@ P:
     C: Kinvolk GmbH
     F: "2015-08-01"
     P: linuxboot
+    R: C
+  - T: "2100-01-01"
+    C: Kinvolk GmbH
+    F: "2015-08-01"
+    P: open-containers/runc
     R: C
   - T: "2100-01-01"
     C: Kinvolk GmbH
@@ -55615,6 +56068,11 @@ P:
   - T: "2100-01-01"
     C: Independent
     F: "1900-01-01"
+    P: CIM/CIM
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
@@ -55626,6 +56084,11 @@ P:
     C: Independent
     F: "1900-01-01"
     P: k8s
+    R: C
+  - T: "2100-01-01"
+    C: Independent
+    F: "1900-01-01"
+    P: open-containers/runc
     R: C
   - T: "2100-01-01"
     C: Independent
@@ -56296,6 +56759,11 @@ P:
   - T: "2100-01-01"
     C: Pivotal
     F: "1900-01-01"
+    P: CIM/CIM
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
     P: cloud-foundry/cloud-foundry
     R: C
   - T: "2100-01-01"
@@ -56317,6 +56785,11 @@ P:
     C: Pivotal
     F: "1900-01-01"
     P: ojsf-express
+    R: C
+  - T: "2100-01-01"
+    C: Pivotal
+    F: "1900-01-01"
+    P: open-containers/runc
     R: C
   - T: "2100-01-01"
     C: Pivotal
@@ -57555,6 +58028,11 @@ P:
     C: Cisco Systems Inc.
     F: "2017-04-14"
     P: opnfv
+    R: C
+  - T: "2100-01-01"
+    C: Cisco Systems Inc.
+    F: "2018-03-12"
+    P: fdio
     R: C
   - T: "2100-01-01"
     C: Cisco Systems Inc.
@@ -59982,6 +60460,11 @@ P:
   - T: "2100-01-01"
     C: SUSE LLC
     F: "1900-01-01"
+    P: CIM/CIM
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
     P: acrn
     R: C
   - T: "2100-01-01"
@@ -60028,6 +60511,11 @@ P:
     C: SUSE LLC
     F: "1900-01-01"
     P: linuxboot
+    R: C
+  - T: "2100-01-01"
+    C: SUSE LLC
+    F: "1900-01-01"
+    P: open-containers/runc
     R: C
   - T: "2100-01-01"
     C: SUSE LLC
@@ -61022,518 +61510,3 @@ P:
     U: aleksmaus
   B: 0
   U: Aleksandr Maus
-- C: US
-  E: melnikal!amazon.com
-  R:
-  - T: "2100-01-01"
-    C: Amazon.com, Inc.
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: cloud-foundry/cloud-foundry
-    R: C
-  - T: "2100-01-01"
-    C: SUSE LLC
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: aleksandr.melnik!suse.com
-    S: cloudfoundry:manual
-  - E: aleksandr.s.melnik!hpe.com
-    S: cloudfoundry:manual
-  - M: Aleksandr Melnik
-    S: cloudfoundry:manual
-  - E: aleksandr.melnik!suse.com
-    M: Aleksandr Melnik
-    S: file:cff
-    U: melnikalex
-  - E: aleksandr.s.melnik!hpe.com
-    M: Aleksandr Melnik
-    S: file:cff
-    U: melnikalex
-  - E: aleksandr.melnik!suse.com
-    M: Aleksandr Melnik
-    S: git
-  - E: aleksandr.s.melnik!hpe.com
-    M: Aleksandr Melnik
-    S: git
-  - E: melnikal!amazon.com
-    M: Aleksandr Melnik
-    S: git
-  - E: aleksandr.melnik!suse.com
-    M: Alex Melnik
-    S: git
-  - E: aleksandr.s.melnik!hpe.com
-    M: Alex Melnik
-    S: git
-  - S: github
-    U: melnikalex
-  - E: aleksandr.melnik!suse.com
-    M: Aleksandr Melnik
-    S: github
-    U: melnikalex
-  - E: aleksandr.s.melnik!hpe.com
-    M: Aleksandr Melnik
-    S: github
-    U: melnikalex
-  - E: melnikal!amazon.com
-    M: Aleksandr Melnik
-    S: github
-    U: melnikalex
-  - E: melnikalex0!gmail.com
-    M: Aleksandr Melnik
-    S: github
-    U: melnikalex
-  - E: aleksandr.melnik!suse.com
-    M: Aleksandr Melnik
-    S: slack
-    U: amelnik
-  - E: aleksandr.s.melnik!hpe.com
-    M: Alex Melnik
-    S: slack
-    U: alx
-  - E: melnikalex0!gmail.com
-    M: Alex Melnik
-    S: slack
-    U: alx
-  B: 0
-  U: Aleksandr Melnik
-- C: RU
-  E: alex!slznv.net
-  R:
-  - T: "2100-01-01"
-    C: Gemalto
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Gemalto
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Gemalto
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: male
-  I:
-  - E: alex!slznv.net
-    M: Aleksandr Seleznev
-    S: github
-    U: seleznev
-  B: 0
-  U: Aleksandr Seleznev
-- C: UA
-  E: alexandrst88!gmail.com
-  R:
-  - T: "2016-05-01"
-    C: PK Techservise
-    F: "1900-01-01"
-    R: C
-  - T: "2016-05-01"
-    C: PK Techservise
-    F: "1900-01-01"
-    P: cncf/dex
-    R: C
-  - T: "2016-05-01"
-    C: PK Techservise
-    F: "1900-01-01"
-    P: cri-o
-    R: C
-  - T: "2016-05-01"
-    C: PK Techservise
-    F: "1900-01-01"
-    P: helm
-    R: C
-  - T: "2016-05-01"
-    C: PK Techservise
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2017-04-01"
-    C: NullGravity
-    F: "2016-05-01"
-    R: C
-  - T: "2017-04-01"
-    C: NullGravity
-    F: "2016-05-01"
-    P: cncf/dex
-    R: C
-  - T: "2017-04-01"
-    C: NullGravity
-    F: "2016-05-01"
-    P: cri-o
-    R: C
-  - T: "2017-04-01"
-    C: NullGravity
-    F: "2016-05-01"
-    P: helm
-    R: C
-  - T: "2017-04-01"
-    C: NullGravity
-    F: "2016-05-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Infopulse
-    F: "2017-04-01"
-    R: C
-  - T: "2100-01-01"
-    C: Infopulse
-    F: "2017-04-01"
-    P: cncf/dex
-    R: C
-  - T: "2100-01-01"
-    C: Infopulse
-    F: "2017-04-01"
-    P: cri-o
-    R: C
-  - T: "2100-01-01"
-    C: Infopulse
-    F: "2017-04-01"
-    P: helm
-    R: C
-  - T: "2100-01-01"
-    C: Infopulse
-    F: "2017-04-01"
-    P: k8s
-    R: C
-  S: male
-  I:
-  - E: alexandrst88!gmail.com
-    M: Aleksandr Stepanov
-    S: git
-  - E: alexandrst88!gmail.com
-    M: Oleksandr Stepanov
-    S: git
-  - E: alexandrst88!gmail.com
-    M: alexandrst88
-    S: git
-  - E: alexandrst88!gmail.com
-    M: Aleksandr Stepanov
-    S: github
-    U: alexandrst88
-  B: 0
-  U: Aleksandr Stepanov
-- E: aatarasoff!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Pivotal
-    F: "1900-01-01"
-    P: jenkins
-    R: C
-  I:
-  - E: aatarasoff!gmail.com
-    M: Aleksandr Tarasov
-    S: github
-    U: aatarasoff
-  B: 0
-  U: Aleksandr Tarasov
-- R:
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: prometheus
-    R: C
-  S: female
-  I:
-  - M: Aleksandra Fedorova
-    S: github
-    U: bookwar
-  B: 0
-  U: Aleksandra Fedorova
-- E: algacek!google.com
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: algacek!google.com
-    M: Aleksandra Gacek
-    S: git
-  B: 0
-  U: Aleksandra Gacek
-- E: aleksandra.maciaga!nokia.com
-  R:
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-10-01"
-    R: C
-  - T: "2100-01-01"
-    C: Nokia Corporation
-    F: "2019-10-01"
-    P: onap
-    R: C
-  I:
-  - E: aleksandra.maciaga!nokia.com
-    M: Aleksandra Maciaga
-    S: gerrit
-    U: amaciaga
-  - E: aleksandra.maciaga!nokia.com
-    M: Aleksandra Maciaga
-    S: git
-  - M: Aleksandra Maciaga
-    S: jira
-    U: amaciaga
-  - E: aleksandra.maciaga!nokia.com
-    M: Aleksandra Maciaga
-    S: jira
-    U: amaciaga
-  B: 0
-  U: Aleksandra Maciaga
-- E: aleksandram!google.com
-  R:
-  - T: "2015-02-01"
-    C: City
-    F: "1900-01-01"
-    P: baetyl
-    R: C
-  - T: "2015-02-01"
-    C: City
-    F: "1900-01-01"
-    P: cncf/k3s
-    R: C
-  - T: "2015-02-01"
-    C: City
-    F: "1900-01-01"
-    P: k8s
-    R: C
-  - T: "2016-09-01"
-    C: IT Western
-    F: "2015-02-01"
-    P: baetyl
-    R: C
-  - T: "2016-09-01"
-    C: IT Western
-    F: "2015-02-01"
-    P: cncf/k3s
-    R: C
-  - T: "2016-09-01"
-    C: IT Western
-    F: "2015-02-01"
-    P: k8s
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2016-09-01"
-    P: baetyl
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2016-09-01"
-    P: cdf-jenkins-x
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2016-09-01"
-    P: cncf/k3s
-    R: C
-  - T: "2100-01-01"
-    C: Google
-    F: "2016-09-01"
-    P: k8s
-    R: C
-  S: female
-  I:
-  - E: aleksandram!google.com
-    M: Aleksandra Malinowska
-    S: git
-  - E: aleksandram!google.com
-    M: Aleksandra Malinowska
-    S: github
-    U: aleksandra-malinowska
-  B: 0
-  U: Aleksandra Malinowska
-- C: US
-  E: doochik!ya.ru
-  R:
-  - T: "2100-01-01"
-    C: Yandex
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Yandex
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  - T: "2100-01-01"
-    C: Yandex
-    F: "1900-01-01"
-    P: jaeger
-    R: C
-  S: male
-  I:
-  - E: doochik!ya.ru
-    M: Aleksei Androsov
-    S: git
-  - E: doochik!ya.ru
-    M: Aleksei Androsov
-    S: github
-    U: doochik
-  B: 0
-  U: Aleksei Androsov
-- E: aleksei.belezeko!t-systems.com
-  R:
-  - T: "2100-01-01"
-    C: T-Systems
-    F: "2015-12-31"
-    P: aries
-    R: C
-  - T: "2100-01-01"
-    C: T-Systems
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-all
-    R: C
-  I:
-  - E: aleksei.belezeko!t-systems.com
-    M: Aleksei Belezeko
-    S: git
-  - E: jieiiiko!gmail.com
-    M: Alexey
-    S: github
-    U: AlexeyBelezeko
-  B: 0
-  U: Aleksei Belezeko
-- E: burov_alexey!mail.ru
-  R:
-  - T: "2100-01-01"
-    C: Google
-    F: "1900-01-01"
-    P: grpc
-    R: C
-  I:
-  - E: burov_alexey!mail.ru
-    M: Aleksei Burov
-    S: github
-    U: ve-i-uj
-  B: 0
-  U: Aleksei Burov
-- E: ADoroganov!luxoft.com
-  R:
-  - T: "2100-01-01"
-    C: Luxoft
-    F: "2015-12-31"
-    P: hyperledger-labs/cordentity
-    R: C
-  - T: "2100-01-01"
-    C: Luxoft
-    F: "2015-12-31"
-    P: hyperledger/hyperledger-labs
-    R: C
-  I:
-  - E: ADoroganov!luxoft.com
-    M: Aleksei Doroganov
-    S: git
-  B: 0
-  U: Aleksei Doroganov
-- E: aleksei.gimbitskii!intel.com
-  R:
-  - T: "2100-01-01"
-    C: Intel Corporation
-    F: "1900-01-01"
-    R: C
-  I:
-  - E: aleksei.gimbitskii!intel.com
-    M: Aleksei Gimbitskii
-    S: git
-  B: 0
-  U: Aleksei Gimbitskii
-- C: BY
-  E: aleksey.gutikov!synesis.ru
-  R:
-  - T: "2100-01-01"
-    C: Synesis
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Synesis
-    F: "1900-01-01"
-    P: rook
-    R: C
-  S: male
-  I:
-  - E: aleksey.gutikov!synesis.ru
-    M: Aleksei Gutikov
-    S: git
-  B: 0
-  U: Aleksei Gutikov
-- E: gutikoff!gmail.com
-  R:
-  - T: "2100-01-01"
-    C: Synesis
-    F: "1900-01-01"
-    P: cephfoundation
-    R: C
-  - T: "2100-01-01"
-    C: Synesis
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  I:
-  - E: gutikoff!gmail.com
-    M: Aleksei Gutikov
-    S: github
-    U: agutikov
-  B: 0
-  U: Aleksei Gutikov
-- E: akasatkin!mirantis.com
-  R:
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    R: C
-  - T: "2100-01-01"
-    C: Mirantis
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  S: male
-  I:
-  - E: akasatkin!mirantis.com
-    M: Aleksei Kasatkin
-    S: slack
-    U: akasatkin
-  B: 0
-  U: Aleksei Kasatkin
-- E: aleksey!xerkus.pro
-  R:
-  - T: "2100-01-01"
-    C: Roave
-    F: "1900-01-01"
-    P: cncf/shared
-    R: C
-  - T: "2100-01-01"
-    C: Roave
-    F: "1900-01-01"
-    P: laminas
-    R: C
-  - T: "2100-01-01"
-    C: Roave
-    F: "1900-01-01"
-    P: ojsf-nodejs
-    R: C
-  I:
-  - E: aleksey!xerkus.pro
-    M: Aleksei Khudiakov
-    S: git
-  - E: aleksey!xerkus.pro
-    M: Aleksei Khudiakov
-    S: github
-    U: Xerkus
-  B: 0
-  U: Aleksei Khudiakov
